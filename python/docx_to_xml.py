@@ -37,26 +37,8 @@ def write_xml_file(localization, filename):
             elif files:
                 for file in files.split("\n"):
                     f_pages, f_title, f_place, f_date = parse_docx.file(file)
+                    # Creates c04 level, might want to change
                     create_xml.dossier_specific_file(f_pages, f_title, f_place, f_date, c02, localization)
-                """
-                content = content.split("\n- ")
-                for file in content:
-                    pattern = re.compile(r"bl. (\w+-?\w*[bis]*): (.*); \((.*); (.*)\)[;$]", re.DOTALL)
-                    pages, title, place, date = re.match(pattern, file).groups()
-                    pages = pages.split("-")
-                    c03 = etree.SubElement(c02, 'c03', level = "file")
-                    c03_id = etree.SubElement(c03, "did")
-                    c03_did_id = etree.SubElement(c03_id, 'unitid', type = "series_code")
-                    if len(pages) > 1:
-                        c03_did_id.text = f"pp. {pages[0]}-{pages[1]}"
-                    else:
-                        c03_did_id.text = f"p. {pages[0]}"
-                    c03_did_id = etree.SubElement(c03_id, 'unittitle')
-                    c03_did_id.text = f"{title}"
-                """
-
-
-
 
     et = etree.ElementTree(root)
     et.write(f"EADFiles/inventaris_{localization}.xml", pretty_print=True, xml_declaration = True, encoding = 'UTF-8',\
