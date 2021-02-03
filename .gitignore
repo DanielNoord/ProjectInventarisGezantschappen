@@ -1,7 +1,8 @@
 /Examples
-/.vscode
+/.*
+.*
+~*
 Eigennamen.docx
 Aanvraag DANS KDP - PELGROM (KNIR).pdf
 ToChangeInItalian.docx
 Normenblad Acrhiefinventaris Versie 2.2.pdf
-.DS_Store
