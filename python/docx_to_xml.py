@@ -8,6 +8,7 @@ import parse_docx
 import read_docx
 
 def write_xml_file(localization, filename):
+    print("Starting to create XML file!")
     locale.setlocale(locale.LC_ALL, localization)
     volumes_in_file = read_docx.extract_volumes(filename)
     root, archdesc = create_xml.basic_xml_file()
@@ -46,6 +47,7 @@ def write_xml_file(localization, filename):
     et = etree.ElementTree(root)
     et.write(f"EADFiles/Inventaris_{localization}.xml", pretty_print=True, xml_declaration = True, encoding = 'UTF-8',\
         doctype='''<!DOCTYPE ead SYSTEM "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">''')
+    print("Writing XML complete!")
 
 if __name__ == "__main__":
     write_xml_file("nl_NL", "Fonds Nederlandse Gezantschappen.docx")
