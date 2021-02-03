@@ -1,0 +1,6 @@
+#!/bin/zsh
+BASEDIR=$(dirname "$0")
+cd $BASEDIR
+python3 $BASEDIR/python/docx_to_xml.py
+java -jar $BASEDIR/ead2pdf/ead2pdf.jar  $BASEDIR/EADFiles/inventaris_nl_NL.xml $BASEDIR/inventaris_nl_NL.pdf $BASEDIR/EADFiles/ead2fo.xsl
+
