@@ -1,33 +1,30 @@
-import lxml.etree as etree
 import re
-from datetime import date
 
-def volume(volume):
+def volume(vol):
     """Args:
-        volume (str): Volume to be parsed
+        vol (str): Volume to be parsed
 
     Returns:
         [str]: Number of the volume
         [str]: Title of the volume
         [str]: Date of the volume in the format xxxx-xx-xx/xxxx-xx-xx
-        [str]: Rest of the volume
     """
-    pattern = re.compile(r"Volume[\n\r\s]+m[sa]. (.+?)\n(.*?)\n(.*?);\n(.*)\n.*?$", re.DOTALL)
-    return re.match(pattern, volume).groups()
+    pattern = re.compile(r"Volume[\n\r\s]+m[sa]. (.+?)\n(.*?)\n(.*?);\n.*?$", re.DOTALL)
+    return re.match(pattern, vol).groups()
 
-def split_into_dossiers(volume):
+def split_into_dossiers(vol):
     """Args:
-        volume (str): String containg the dossiers to be parsed
+        vol (str): String containg the dossiers to be parsed
 
     Returns:
         [[str], [str], ...]: List of dossiers
     """
     pattern = re.compile(r"(Dossier.*?(?=Genoemd))", re.DOTALL)
-    return re.findall(pattern, volume)
+    return re.findall(pattern, vol)
 
-def dossier(dossier):
+def dossier(doss):
     """Args:
-        dossier (str): Dossier to be parsed
+        doss (str): Dossier to be parsed
 
     Returns:
         [str]: Number of the dossier
@@ -41,11 +38,11 @@ def dossier(dossier):
     pattern = re.compile(r"Dossier (.+) \((.*) bl.\):\n(.*?);\n(.*?);"
                             r"\n*(~.*?;.*?;.*?;)?\n*(In het bijzonder;)?"
                             r"\n*(-.*;)?", re.DOTALL)
-    return re.match(pattern, dossier).groups()
+    return re.match(pattern, doss).groups()
 
-def sub_dossier_description(description):
+def sub_dossier_description(desc):
     """Args:
-        description (str): Sub-dossier description to be parsed
+        desc (str): Sub-dossier description to be parsed
 
     Returns:
         [str]: Pages of sub-dossier (x-x)
@@ -54,11 +51,11 @@ def sub_dossier_description(description):
         [str]: Date of the sub-dossier in the format xxxx-xx-xx/xxxx-xx-xx
     """
     pattern = re.compile(r"~ bl. (.*?): (.*?); \((.*?); (.*?)\);", re.DOTALL)
-    return re.match(pattern, description).groups()
+    return re.match(pattern, desc).groups()
 
-def file(file):
+def file(input_file):
     """Args:
-        file (str): File  to be parsed
+        input_file (str): File  to be parsed
 
     Returns:
         [str]: Pages of file (x-x)
@@ -67,4 +64,4 @@ def file(file):
         [str]: Date of the file in the format xxxx-xx-xx/xxxx-xx-xx
     """
     pattern = re.compile(r"- bl. (.*?): (.*?); \((.*?); (.*?)\);", re.DOTALL)
-    return re.match(pattern, file).groups()
+    return re.match(pattern, input_file).groups()

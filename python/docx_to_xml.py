@@ -1,7 +1,5 @@
-import re
 import locale
 import lxml.etree as etree
-from xml.etree import ElementTree
 
 import create_xml
 import parse_docx
@@ -15,7 +13,7 @@ def write_xml_file(localization, filename):
 
     # Parse and create volume entries
     for volume in volumes_in_file:
-        v_number, v_title, v_date, content = parse_docx.volume(volume)
+        v_number, v_title, v_date = parse_docx.volume(volume)
         if v_number == "290":
             print("Test")
 
@@ -27,25 +25,31 @@ def write_xml_file(localization, filename):
         for dossier in dossiers_in_volume:
             d_number, d_pages, d_title, d_date,\
                 d_serie_desc, d_serie_specific, files = parse_docx.dossier(dossier)
-            c02 = create_xml.dossier_entry(v_number, d_number, d_pages, d_title, d_date, c01, localization)
+            c02 = create_xml.dossier_entry(v_number, d_number, d_pages,\
+                d_title, d_date, c01, localization)
             # For debug purposes
             print(v_number, d_number, d_title)
 
             if d_serie_desc:
-                d_d_pages, d_d_title, d_d_place, d_d_date = parse_docx.sub_dossier_description(d_serie_desc)
-                c03 = create_xml.dossier_with_desc(d_d_pages, d_d_title, d_d_place, d_d_date, c02, localization)
+                d_d_pages, d_d_title, d_d_place, d_d_date =\
+                    parse_docx.sub_dossier_description(d_serie_desc)
+                c03 = create_xml.dossier_with_desc(d_d_pages, d_d_title, d_d_place,\
+                    d_d_date, c02, localization)
                 if d_serie_specific:
                     for file in files.split("\n"):
                         f_pages, f_title, f_place, f_date = parse_docx.file(file)
-                        create_xml.dossier_specific_file(f_pages, f_title, f_place, f_date, c03, localization)
+                        create_xml.dossier_specific_file(f_pages, f_title, f_place,\
+                            f_date, c03, localization)
             elif files:
                 for file in files.split("\n"):
                     f_pages, f_title, f_place, f_date = parse_docx.file(file)
                     # Creates c04 level, might want to change
-                    create_xml.dossier_specific_file(f_pages, f_title, f_place, f_date, c02, localization)
+                    create_xml.dossier_specific_file(f_pages, f_title,\
+                        f_place, f_date, c02, localization)
 
-    et = etree.ElementTree(root)
-    et.write(f"EADFiles/Inventaris_{localization}.xml", pretty_print=True, xml_declaration = True, encoding = 'UTF-8',\
+    tree = etree.ElementTree(root)
+    tree.write(f"EADFiles/Inventaris_{localization}.xml", pretty_print=True,\
+        xml_declaration = True, encoding = 'UTF-8',\
         doctype='''<!DOCTYPE ead SYSTEM "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">''')
     print("Writing XML complete!")
 

@@ -1,5 +1,5 @@
-import docx
 import re
+import docx
 
 def extract_volumes(filename):
     """Args:

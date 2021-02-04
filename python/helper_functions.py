@@ -22,27 +22,25 @@ class Mdate(datetime.date):
 def extract_date(date_string, localization):
     locale.setlocale(locale.LC_ALL, localization)
     date_pattern = re.compile(r"(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$")
-    y1, m1, d1, y2, m2, d2 = re.match(date_pattern, date_string).groups()
-    # Date 1
-    if y1:
-        if m1:
-            if d1:
-                date1 = datetime.date(int(y1), int(m1), int(d1)).strftime("%d %B %Y")
+    y_1, m_1, d_1, y_2, m_2, d_2 = re.match(date_pattern, date_string).groups()
+    if y_1:
+        if m_1:
+            if d_1:
+                date1 = datetime.date(int(y_1), int(m_1), int(d_1)).strftime("%d %B %Y")
             else:
-                date1 = Mdate(int(y1), int(m1)).strftime("%B %Y")
+                date1 = Mdate(int(y_1), int(m_1)).strftime("%B %Y")
         else:
-            date1 = y1
+            date1 = y_1
     else:
         date1 = None
-    # Date 2
-    if y2:
-        if m2:
-            if d2:
-                date2 = datetime.date(int(y2), int(m2), int(d2)).strftime("%d %B %Y")
+    if y_2:
+        if m_2:
+            if d_2:
+                date2 = datetime.date(int(y_2), int(m_2), int(d_2)).strftime("%d %B %Y")
             else:
-                date2 = Mdate(int(y2), int(m2)).strftime("%B %Y")
+                date2 = Mdate(int(y_2), int(m_2)).strftime("%B %Y")
         else:
-            date2 = y2
+            date2 = y_2
     else:
         date2 = None
     return date1, date2
