@@ -16,8 +16,8 @@ def write_xml_file(localization, filename):
     # Parse and create volume entries
     for volume in volumes_in_file:
         v_number, v_title, v_date, content = parse_docx.volume(volume)
-        if v_number == "284":
-            break
+        if v_number == "290":
+            print("Test")
 
         # c01 is the c01-level entry for the volume
         c01 = create_xml.volume_entry(v_number, v_title, v_date, archdesc, localization)
@@ -32,7 +32,7 @@ def write_xml_file(localization, filename):
             print(v_number, d_number, d_title)
 
             if d_serie_desc:
-                d_d_pages, d_d_title, d_d_place, d_d_date = parse_docx.dossier_description(d_serie_desc)
+                d_d_pages, d_d_title, d_d_place, d_d_date = parse_docx.sub_dossier_description(d_serie_desc)
                 c03 = create_xml.dossier_with_desc(d_d_pages, d_d_title, d_d_place, d_d_date, c02, localization)
                 if d_serie_specific:
                     for file in files.split("\n"):
