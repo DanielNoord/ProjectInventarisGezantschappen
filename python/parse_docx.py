@@ -31,14 +31,28 @@ def dossier(doss):
         [str]: Number of total pages of dosier
         [str]: Title of the dossier
         [str]: Date of the dosier in the format xxxx-xx-xx/xxxx-xx-xx
-        [str]: If applicable a description of a sub-section of the dossier, otherwise None
-        [bool]: True or None depending on existence of description of file within sub-section
+        [str]: If applicable the sub-sections of the dossier, otherwise None
         [str]: Rest of the string (thus, the files)
     """
     pattern = re.compile(r"Dossier (.+) \((.*) bl.\):\n(.*?);\n(.*?);"
-                            r"\n*(~.*?;.*?;.*?;)?\n*(In het bijzonder;)?"
+                            r"\n*(~.*?;.*?;.*?;.*)*"
                             r"\n*(-.*;)?", re.DOTALL)
     return re.match(pattern, doss).groups()
+
+def sub_series(doss):
+    """Args:
+        doss (str): String containig all sub-series
+
+    Returns:
+        [list]: List of subseries, stored as tuples of (desc, file_desc, files)
+    """
+    pattern = re.compile(r"(~.*;.*;.*;.*?)\n*$|~", re.DOTALL)
+    all_sub_series = re.findall(pattern, doss)
+    pattern_2 = re.compile(r"(~.*?:.*?;.*?;.*?;)"
+                            r"\n*(In het bijzonder;)?\n*(.*)", re.DOTALL)
+    for i, sub in enumerate(all_sub_series):
+        all_sub_series[i] = re.match(pattern_2, sub).groups()
+    return all_sub_series
 
 def sub_dossier_description(desc):
     """Args:

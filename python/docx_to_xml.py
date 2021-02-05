@@ -14,8 +14,10 @@ def write_xml_file(localization, filename):
     # Parse and create volume entries
     for volume in volumes_in_file:
         v_number, v_title, v_date = parse_docx.volume(volume)
-        if v_number == "290":
-            print("Test")
+
+        # These volumes are incorrect
+        if v_number in ["301", "302", "303", "306"]:
+            continue
 
         # c01 is the c01-level entry for the volume
         c01 = create_xml.volume_entry(v_number, v_title, v_date, archdesc, localization)
@@ -23,29 +25,42 @@ def write_xml_file(localization, filename):
 
         dossiers_in_volume = parse_docx.split_into_dossiers(volume)
         for dossier in dossiers_in_volume:
+            # Create dossier entry
             d_number, d_pages, d_title, d_date,\
-                d_serie_desc, d_serie_specific, files = parse_docx.dossier(dossier)
+                d_serie_desc, files = parse_docx.dossier(dossier)
             c02 = create_xml.dossier_entry(v_number, d_number, d_pages,\
                 d_title, d_date, c01, localization)
+
             # For debug purposes
             print(v_number, d_number, d_title)
 
+            # Handle sub-series in dossiers
             if d_serie_desc:
-                d_d_pages, d_d_title, d_d_place, d_d_date =\
-                    parse_docx.sub_dossier_description(d_serie_desc)
-                c03 = create_xml.dossier_with_desc(d_d_pages, d_d_title, d_d_place,\
-                    d_d_date, c02, localization)
-                if d_serie_specific:
-                    for file in files.split("\n"):
-                        f_pages, f_title, f_place, f_date = parse_docx.file(file)
-                        create_xml.dossier_specific_file(f_pages, f_title, f_place,\
-                            f_date, c03, localization)
+                all_sub_series = parse_docx.sub_series(d_serie_desc)
+                for sub_serie in all_sub_series:
+                    d_d_pages, d_d_title, d_d_place, d_d_date =\
+                        parse_docx.sub_dossier_description(sub_serie[0])
+                    c03 = create_xml.dossier_with_desc(d_d_pages, d_d_title, d_d_place,\
+                        d_d_date, c02, localization)
+                    if sub_serie[1]:
+                        for file in sub_serie[2].split("\n"):
+                            f_pages, f_title, f_place, f_date = parse_docx.file(file)
+                            create_xml.dossier_specific_file(f_pages, f_title, f_place,\
+                                f_date, c03, localization)
+
+            # If there are only files and no sub-series
             elif files:
                 for file in files.split("\n"):
                     f_pages, f_title, f_place, f_date = parse_docx.file(file)
                     # Creates c04 level, might want to change
                     create_xml.dossier_specific_file(f_pages, f_title,\
                         f_place, f_date, c02, localization)
+            
+            # Handle "Insteeksels"
+            elif "." in d_number:
+                pass
+            else:
+                raise Exception()
 
     tree = etree.ElementTree(root)
     tree.write(f"EADFiles/Inventaris_{localization}.xml", pretty_print=True,\
