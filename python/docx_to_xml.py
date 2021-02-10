@@ -16,7 +16,7 @@ def write_xml_file(localization, filename):
         v_number, v_title, v_date = parse_docx.volume(volume)
 
         # These volumes are incorrect
-        if v_number in ["301", "302", "303", "306"]:
+        if v_number in ["301", "302", "303", "306"] or int(v_number) > 306:
             continue
 
         # c01 is the c01-level entry for the volume
@@ -55,7 +55,7 @@ def write_xml_file(localization, filename):
                     # Creates c04 level, might want to change
                     create_xml.dossier_specific_file(f_pages, f_title,\
                         f_place, f_date, c02, localization)
-            
+
             # Handle "Insteeksels"
             elif "." in d_number:
                 pass
