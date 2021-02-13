@@ -35,4 +35,4 @@ def generate_person_list(filename):
     print("Extraction and writing complete!")
 
 if __name__ == "__main__":
-    generate_person_list("Eigennamen.docx")
+    generate_person_list("inputs/Eigennamen.docx")
