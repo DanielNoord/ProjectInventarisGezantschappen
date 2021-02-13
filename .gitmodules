@@ -1,0 +1,3 @@
+[submodule "ead2pdf"]
+	path = ead2pdf
+	url = https://github.com/archivesspace-labs/ead2pdf.git
