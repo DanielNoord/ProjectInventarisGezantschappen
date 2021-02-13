@@ -79,3 +79,35 @@ def file(input_file):
     """
     pattern = re.compile(r"- bl. (.*?): (.*?); \((.*?); (.*?)\);", re.DOTALL)
     return re.match(pattern, input_file).groups()
+
+def person(input_line):
+    """Args:
+        input_line (str): Line to be parsed
+
+    Returns:
+        [str]: Surname
+        [str]: Name
+        [str]: Nationality
+        [str]: Title
+        [str]: Function
+        [str]: Place of residence
+    """
+    pattern = re.compile(r"- (.*); (.*); (.*); (.*); (.*); (.*);;", re.DOTALL)
+    return re.match(pattern, input_line).groups()
+
+def function(input_line):
+    """Args:
+        input_line (str): Line to be parsed
+
+    Returns:
+        [list]: List of functions, stored as lists of [title, timeperiod] stored as strings
+    """
+    pattern = re.compile(r"\w.+?(?=,|$)", re.DOTALL)
+    functions = re.findall(pattern, input_line)
+    for i, func in enumerate(functions):
+        pattern2 = re.compile(r"(.*) \((.+)\)")
+        if re.match(pattern2, func):
+            functions[i] = re.match(pattern2, func).groups()
+        else:
+            functions[i] = [func, None]
+    return functions

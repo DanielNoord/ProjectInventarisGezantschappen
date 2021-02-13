@@ -15,4 +15,19 @@ def extract_volumes(filename):
         all_text.append(para.text)
     full_text = '\n'.join(all_text)
     return re.findall(regex, full_text)
-    
+
+def extract_persons(filename):
+    """Args:
+        filename (str): File to be scanned
+
+    Returns:
+        [[str], [str], ...]: List of persons found in the file
+    """
+    regex = re.compile(r".*Personen:\n(-.*)\n\nInstituten:", re.DOTALL)
+    doc = docx.Document(filename)
+    all_text = []
+    for para in doc.paragraphs:
+        all_text.append(para.text)
+    full_text = '\n'.join(all_text)
+    person_section = re.findall(regex, full_text)
+    return person_section[0].split("\n")
