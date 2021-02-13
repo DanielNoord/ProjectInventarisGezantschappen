@@ -1,11 +1,17 @@
-/Examples
-/Fond*
-/.*
-/~*
-/Eigen*
-/Aanv*
-/ToCha*
-/Norm*
-Inv*
-.DS_Store
-__pycache__
+/*
+
+# Whitelisted directories
+!ead2pdf/
+!EADFiles/
+!python/
+!outputs/
+outputs/*
+
+# Whitelisted files
+!.gitignore
+!Makepdf_nl_NL
+!README.md
+
+# To be ignored in all directories
+**/.DS_Store
+**/__pycache__
