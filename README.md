@@ -6,7 +6,7 @@ The executable file `Makepdf_nl_NL` can be used to generate a new `Inventaris_nl
 Contains the stylesheets for the EAD specification and its translation into PDF.
 
 ### `/ead2pdf`
-Contains a tool to convert XML-files to PDF-files. See README.md in the folder for its source and instructions on how to use.
+Contains a submodule found on github that translates .xml files to .pdf files based on a .xsl file.
 
 ### `/inputs` and `/outputs`
 Input files should go in `/inputs` while output files will be placed in `/outputs`
