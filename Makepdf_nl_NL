@@ -2,5 +2,6 @@
 BASEDIR=$(dirname "$0")
 cd $BASEDIR
 python3 $BASEDIR/python/docx_to_xml.py
-java -jar $BASEDIR/ead2pdf/ead2pdf.jar  $BASEDIR/EADFiles/Inventaris_nl_NL.xml $BASEDIR/Inventaris_nl_NL.pdf $BASEDIR/EADFiles/ead2fo.xsl
-
+echo "Writing .pdf file from .xml file"
+java -jar $BASEDIR/ead2pdf/ead2pdf.jar  $BASEDIR/outputs/Inventaris_nl_NL.xml $BASEDIR/outputs/Inventaris_nl_NL.pdf $BASEDIR/EADFiles/ead2fo.xsl
+echo "Output .pdf file in $BASEDIR/outputs/Inventaris_nl_NL.pdf"

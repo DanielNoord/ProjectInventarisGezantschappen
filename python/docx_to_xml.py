@@ -63,7 +63,7 @@ def write_xml_file(localization, filename):
                 raise Exception()
 
     tree = etree.ElementTree(root)
-    tree.write(f"EADFiles/Inventaris_{localization}.xml", pretty_print=True,\
+    tree.write(f"outputs/Inventaris_{localization}.xml", pretty_print=True,\
         xml_declaration = True, encoding = 'UTF-8',\
         doctype='''<!DOCTYPE ead SYSTEM "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">''')
     print("Writing XML complete!")
