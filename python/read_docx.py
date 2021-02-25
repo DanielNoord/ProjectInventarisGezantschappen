@@ -23,7 +23,7 @@ def extract_persons(filename):
     Returns:
         [[str], [str], ...]: List of persons found in the file
     """
-    regex = re.compile(r".*Personen:\n(-.*)\n\nInstituten:", re.DOTALL)
+    regex = re.compile(r".*Personen:\n(-.*;)\n*Instituten:", re.DOTALL)
     doc = docx.Document(filename)
     all_text = []
     for para in doc.paragraphs:

@@ -62,8 +62,11 @@ def write_xml_file(localization, filename):
 
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r'outputs'), exist_ok=True)
-    tree.write(f"outputs/Inventaris_{localization}.xml", pretty_print=True,\
-        xml_declaration = True, encoding = 'UTF-8',\
+    tree.write(
+        f"outputs/Inventaris_{localization}.xml",
+        pretty_print=True,
+        xml_declaration = True,
+        encoding = 'UTF-8',
         doctype='''<!DOCTYPE ead SYSTEM "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">''')
 
     print("Writing XML complete!")
