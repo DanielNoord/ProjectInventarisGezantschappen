@@ -2,7 +2,9 @@ import re
 
 
 def function(input_line):
-    """Args:
+    """Parses a function string
+    
+    Args:
         input_line (str): Line to be parsed
 
     Returns:

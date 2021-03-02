@@ -3,6 +3,7 @@ import re
 ACCEPTED_PRE_TITLES = ["kard.", "mgr.", "mr.", "jhr.", "luitenant-generaal b.d.",
     "luitenant-generaal", "majoor-generaal", "admiraal", "generaal",
     "schout-bij-nacht", "commandant", "luitenant-kolonel", "ridder",
+    "maarschalk", "kolonel",
     "Paus"]
 ACCEPTED_MIDDLE_TITLES = ["markies", "graaf", "gravin", "baron", "barones", "lord"]
 ACCEPTED_FINAL_TITLE = ["markies de .*", "markies van .*", "prins van .*", "prins de .*",
@@ -50,12 +51,13 @@ def full_name(surname, name, titles, translation_data, localization):
         else:
             raise Exception(f"Don't recognize {titles[0]}")
         if len(titles) > 1:
-            if titles[1] in ACCEPTED_PRE_TITLES:
-                str_full_name = f"{translation_data[0][titles[1]][localization]} {str_full_name}"
-            elif re.match(COMBINED_REGEXS, titles[1]):
-                str_full_name += f" {translation_data[0][titles[1]][localization]},"
-            else:
-                raise Exception("Can't parse second title, maybe change order in sourcefile")
+            for extra_title in titles[1:]:
+                if extra_title in ACCEPTED_PRE_TITLES:
+                    str_full_name = f"{translation_data[0][extra_title][localization]} {str_full_name}"
+                elif re.match(COMBINED_REGEXS, extra_title):
+                    str_full_name += f" {translation_data[0][extra_title][localization]},"
+                else:
+                    raise Exception("Can't parse second title, maybe change order in sourcefile")
     else:
         if name != "":
             str_full_name = f"{name} {surname}"

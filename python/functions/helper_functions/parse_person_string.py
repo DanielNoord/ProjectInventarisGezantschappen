@@ -2,7 +2,9 @@ import re
 
 
 def person(input_line):
-    """Args:
+    """Parses a person string
+    
+    Args:
         input_line (str): Line to be parsed
 
     Returns:

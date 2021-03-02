@@ -1,6 +1,7 @@
 import json
 
-def initliaze_translation_database():
+
+def initialize_translation_database():
     """Reads the files containing all translations of titles and functions
 
     Returns:

@@ -1,12 +1,12 @@
-from create_docx.write_list_translated_names import write_list_translated_names
-from translate.translate import initliaze_translation_database
+from functions.create_docx import list_of_translated_data
+from functions.translate import initialize_translation_database
 
 
 def create_controle_transaltions():
     """Create .docx files of all titles and functions found by the translate functions
     Includes Italian and English translations on second and third row
     """
-    data = initliaze_translation_database()
+    data = initialize_translation_database()
 
     translated_titles = []
     translated_functions = []
@@ -23,8 +23,9 @@ def create_controle_transaltions():
         result.append(translations["en_GB"])
         translated_functions.append(result)
 
-    write_list_translated_names(translated_titles, "Titles")
-    write_list_translated_names(translated_functions, "Functions")
+    list_of_translated_data(translated_titles, "Titles")
+    list_of_translated_data(translated_functions, "Functions")
+
 
 if __name__ == "__main__":
     create_controle_transaltions()

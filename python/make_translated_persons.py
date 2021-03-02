@@ -1,11 +1,10 @@
-from create_docx.write_list_translated_names import write_list_translated_names
-from generate_person_list import generate_person_list
-from read_docx.extract_persons_and_identifiers import \
-    extract_persons_and_identifiers
+from create_data import person_with_identifier
+from functions.create_docx import list_of_translated_data
+from functions.load_docx import extract_persons_and_identifiers
 
 
 def create_name_docx(input_file_names, input_file_data):
-    """ Creates a document with all names encountered in the input_file with translations
+    """Creates a document with all names encountered in the input_file with translations
     in Italian, Dutch and English
 
     Args:
@@ -13,7 +12,7 @@ def create_name_docx(input_file_names, input_file_data):
         input_file_data (str): Name of "database" file with all relevante info about people
     """
     input_file_names = extract_persons_and_identifiers(input_file_names)
-    person_data, _, _, _, _ = generate_person_list(input_file_data)
+    person_data = person_with_identifier(input_file_data)
     translated_people = []
 
     for person, identifier in input_file_names:
@@ -23,7 +22,7 @@ def create_name_docx(input_file_names, input_file_data):
         result.append(person_data[identifier]["en_GB"])
         translated_people.append(result)
 
-    write_list_translated_names(translated_people, "NameList")
+    list_of_translated_data(translated_people, "NameList")
 
 
 if __name__ == "__main__":

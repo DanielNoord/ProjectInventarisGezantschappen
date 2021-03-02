@@ -2,20 +2,18 @@ import os
 
 import lxml.etree as etree
 
-from create_xml.basic_xml_file import basic_xml_file
-from create_xml.dossier_entry import dossier_entry
-from create_xml.dossier_specific_file import dossier_specific_file
-from create_xml.dossier_with_desc import dossier_with_desc
-from create_xml.volume_entry import volume_entry
-from parse_docx.dossier import dossier as read_dossier
-from parse_docx.file import file as read_file
-from parse_docx.split_into_dossiers import \
+from functions.create_xml_elements import (basic_xml_file, dossier_entry,
+                                           dossier_specific_file,
+                                           dossier_with_desc, volume_entry)
+from functions.load_docx import extract_volumes
+from functions.parse_docx import dossier as read_dossier
+from functions.parse_docx import file as read_file
+from functions.parse_docx import \
     split_into_dossiers as read_split_into_dossiers
-from parse_docx.sub_dossier_description import \
+from functions.parse_docx import \
     sub_dossier_description as read_sub_dossier_description
-from parse_docx.sub_series import sub_series as read_sub_series
-from parse_docx.volume import volume as read_volume
-from read_docx.extract_volumes import extract_volumes
+from functions.parse_docx import sub_series as read_sub_series
+from functions.parse_docx import volume as read_volume
 
 
 def write_xml_file(localization, filename):
