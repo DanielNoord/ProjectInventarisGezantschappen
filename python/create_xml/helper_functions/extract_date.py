@@ -3,6 +3,17 @@ import locale
 import datetime
 
 def extract_date(date_string, localization):
+    """ Returns a string containing the written date based on localization.
+        Handles missing data correctly
+
+    Args:
+        date_string (string): The date string in formate xxxx-xx-xx/xxxx-xx-xx
+        localization (string): [description]
+
+    Returns:
+        date1 (string): The first date in text
+        date2 (string): The second date in text
+    """
     locale.setlocale(locale.LC_ALL, localization)
     date_pattern = re.compile(r"(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$")
     y_1, m_1, d_1, y_2, m_2, d_2 = re.match(date_pattern, date_string).groups()
