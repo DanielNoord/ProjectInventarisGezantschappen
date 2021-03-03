@@ -11,13 +11,13 @@ def create_controle_transaltions():
     translated_titles = []
     translated_functions = []
 
-    for title, translations in data[0].items():
+    for title, translations in sorted(data[0].items()):
         result = [title]
         result.append(translations["it_IT"])
         result.append(translations["en_GB"])
         translated_titles.append(result)
 
-    for function, translations in data[1].items():
+    for function, translations in sorted(data[1].items()):
         result = [function]
         result.append(translations["it_IT"])
         result.append(translations["en_GB"])

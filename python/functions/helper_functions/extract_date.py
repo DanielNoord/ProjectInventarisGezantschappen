@@ -17,7 +17,7 @@ def extract_date(date_string, localization):
     """
     locale.setlocale(locale.LC_ALL, localization)
     date_pattern = re.compile(
-        r"(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$"
+        r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$"
     )
     y_1, m_1, d_1, y_2, m_2, d_2 = re.match(date_pattern, date_string).groups()
     if y_1:

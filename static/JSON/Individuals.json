@@ -1,0 +1,89 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "title": "List of all individuals mentioned in the archive",
+    "type": "object",
+    "definitions": {
+        "date": {
+            "description": "A string containing a date",
+            "type": "string",
+            "pattern": "^([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?/?([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?$"
+        },
+        "function": {
+            "description": "An array describing a function",
+            "type": "array",
+            "items": [
+                {
+                    "type": "string"
+                },
+                {
+                    "oneOf": [
+                        { "$ref": "#/definitions/date" },
+                        { "type": "null"}
+                    ]
+                }
+            ],
+            "minLength": 2,
+            "maxLength": 2
+        },
+        "person": {
+            "description": "A person, named by its identifier",
+            "type": "object",
+            "properties": {
+                "surname": {
+                    "description": "Surname of individual",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "Name of individual",
+                    "type": "string"
+                },
+                "nationality": {
+                    "description": "Nationality of individual (often missing)",
+                    "type": "string"
+                },
+                "titles": {
+                    "description": "Array of titles of individual",
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "string"
+                        }
+                    ],
+                    "additionalItems": {
+                        "type": "string"
+                    },
+                    "minItems": 1
+                },
+                "functions": {
+                    "function": "Array of functions of individual",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/function"
+                    },
+                    "additionalItems": {
+                        "$ref": "#/definitions/function"
+                    }
+                },
+                "place of residence": {
+                    "description": "Place of residence of individual (often missing)",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "surname",
+                "name",
+                "nationality",
+                "titles",
+                "functions",
+                "place of residence"
+            ]
+        }
+    },
+    "properties": {
+        "$schema": "string"
+    },
+    "additionalProperties": {
+        "$ref": "#/definitions/person"
+    },
+    "uniqueItems": true
+}

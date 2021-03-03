@@ -22,6 +22,7 @@ def list_to_be_translated(list_to_write, output_name):
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
     out_doc.save(f"outputs/Translated{output_name}.docx")
+    print(f"Wrote file at outputs/Translated{output_name}.docx")
 
 
 def list_of_translated_data(list_to_write, output_name):
@@ -57,6 +58,7 @@ def list_of_translated_data(list_to_write, output_name):
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
     out_doc.save(f"outputs/Translated{output_name}.docx")
+    print(f"Wrote file at outputs/Translated{output_name}.docx")
 
 
 def list_with_style(list_of_lines, filename):
@@ -87,3 +89,4 @@ def list_with_style(list_of_lines, filename):
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
     doc.save(filename)
+    print(f"Wrote file at {filename}")

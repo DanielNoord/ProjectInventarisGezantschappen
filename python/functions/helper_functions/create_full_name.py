@@ -5,9 +5,10 @@ ACCEPTED_PRE_TITLES = ["kard.", "mgr.", "mr.", "jhr.", "luitenant-generaal b.d."
     "schout-bij-nacht", "commandant", "luitenant-kolonel", "ridder",
     "maarschalk", "kolonel",
     "Paus"]
-ACCEPTED_MIDDLE_TITLES = ["markies", "graaf", "gravin", "baron", "barones", "lord"]
+ACCEPTED_MIDDLE_TITLES = ["markies", "graaf", "gravin", "baron", "barones", "Lord"]
 ACCEPTED_FINAL_TITLE = ["markies de .*", "markies van .*", "prins van .*", "prins de .*",
     "baron da .*", "graaf della .*", "graaf de .*", "hertog van .*",
+    "graaf van .*",
     "commandeur in de Orde .*",
     "4de graaf van Aberdeen", "aartshertog van Oostenrijk", "prins$", "prinses$"]
 COMBINED_REGEXS = "(" + ")|(".join(ACCEPTED_FINAL_TITLE) + ")"

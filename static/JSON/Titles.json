@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema#",
+	"title": "Titles of people in the archive",
+	"type": "object",
+	"definitions": {
+		"title": {
+			"description": "An individual possible title",
+			"type": "object",
+			"properties": {
+				"en_GB": {
+					"description": "Translation of the title in English",
+					"type": "string"
+				},
+				"it_IT": {
+					"description": "Translation of the title in Italian",
+					"type": "string"
+				},
+				"nl_NL": {
+					"description": "Translation of the title in Dutch",
+					"type": "string"
+				},
+				"type": {
+						"description": "The type of title, denotes its place in a full name",
+						"type": "string",
+						"pattern": "(Before)|(Middle)|(After)"
+				}
+			},
+			"required": [
+				"en_GB",
+				"it_IT",
+				"nl_NL",
+				"type"
+			]
+		}
+	},
+	"properties": {
+		"$schema": "string"
+	},
+	"additionalProperties": { "$ref": "#/definitions/title" },
+	"uniqueItems": true
+}

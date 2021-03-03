@@ -12,7 +12,11 @@ def create_person(localization, person, translation_data):
         translation_data (list): List with the dictionaries of translated functions and titles
 
     Returns:
-        [type]: [description]
+        str: Full name and function
+        str: Full name
+        str: Identifier
+        str: All functions
+        str: All titles
     """
     identifier, surname, name, _, titles,\
         function, _ = read_person(person)

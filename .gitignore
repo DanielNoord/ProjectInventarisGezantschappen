@@ -4,6 +4,7 @@
 !ead2pdf/
 !EADFiles/
 !python/
+!static/
 
 # Whitelisted files
 !.gitignore

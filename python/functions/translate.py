@@ -11,7 +11,14 @@ def initialize_translation_database():
     """
     with open("inputs/Translations/Titles.json") as file1:
         titles = json.load(file1)
+    with open("inputs/Translations/TitlesUnsure.json") as file2:
+        titles = dict(titles, **json.load(file2))
+    del titles["$schema"]
 
-    with open("inputs/Translations/Functions.json") as file2:
-        functions = json.load(file2)
+    with open("inputs/Translations/Functions.json") as file3:
+        functions = json.load(file3)
+    with open("inputs/Translations/FunctionsUnsure.json") as file4:
+        functions = dict(functions, **json.load(file4))
+    del functions["$schema"]
+
     return [titles, functions]
