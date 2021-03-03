@@ -1,35 +1,41 @@
 {
-	"$schema": "https://json-schema.org/draft/2020-12/schema#",
-	"title": "Functions of people in the archive",
-	"type": "object",
-	"definitions": {
-		"function": {
-			"description": "An individual possible function",
-			"type": "object",
-			"properties": {
-				"en_GB": {
-					"description": "Translation of the function in English",
-					"type": "string"
-				},
-				"it_IT": {
-					"description": "Translation of the function in Italian",
-					"type": "string"
-				},
-				"nl_NL": {
-					"description": "Translation of the function in Dutch",
-					"type": "string"
-				}
-			},
-			"required": [
-				"en_GB",
-				"it_IT",
-				"nl_NL"
-			]
-		}
-	},
-	"properties": {
-		"$schema": "string"
-	},
-	"additionalProperties": { "$ref": "#/definitions/function" },
-	"uniqueItems": true
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "title": "Functions of people in the archive",
+    "type": "object",
+    "definitions": {
+        "function": {
+            "description": "An individual possible function",
+            "properties": {
+                "comment": {
+                    "description": "Comment related to the function or translation",
+                    "type": "string"
+                },
+                "en_GB": {
+                    "description": "Translation of the function in English",
+                    "type": "string"
+                },
+                "it_IT": {
+                    "description": "Translation of the function in Italian",
+                    "type": "string"
+                },
+                "nl_NL": {
+                    "description": "Translation of the function in Dutch",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "en_GB",
+                "it_IT",
+                "nl_NL"
+            ],
+            "type": "object"
+        }
+    },
+    "properties": {
+        "$schema": "string"
+    },
+	"additionalProperties": {
+        "$ref": "#/definitions/function"
+    },
+    "uniqueItems": true
 }

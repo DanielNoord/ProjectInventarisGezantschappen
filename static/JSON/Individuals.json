@@ -5,33 +5,46 @@
     "definitions": {
         "date": {
             "description": "A string containing a date",
-            "type": "string",
-            "pattern": "^([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?/?([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?$"
+            "pattern": "^([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?/?([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?$",
+            "type": "string"
         },
         "function": {
             "description": "An array describing a function",
-            "type": "array",
             "items": [
                 {
                     "type": "string"
                 },
                 {
                     "oneOf": [
-                        { "$ref": "#/definitions/date" },
-                        { "type": "null"}
+                        {
+                            "$ref": "#/definitions/date"
+                        },
+                        {
+                            "type": "null"
+                        }
                     ]
                 }
             ],
+            "maxLength": 2,
             "minLength": 2,
-            "maxLength": 2
+            "type": "array"
         },
         "person": {
             "description": "A person, named by its identifier",
-            "type": "object",
             "properties": {
-                "surname": {
-                    "description": "Surname of individual",
+                "comment": {
+                    "description": "Comment related to the function or translation",
                     "type": "string"
+                },
+                "functions": {
+                    "additionalItems": {
+                        "$ref": "#/definitions/function"
+                    },
+                    "function": "Array of functions of individual",
+                    "items": {
+                        "$ref": "#/definitions/function"
+                    },
+                    "type": "array"
                 },
                 "name": {
                     "description": "Name of individual",
@@ -41,32 +54,26 @@
                     "description": "Nationality of individual (often missing)",
                     "type": "string"
                 },
+                "place of residence": {
+                    "description": "Place of residence of individual (often missing)",
+                    "type": "string"
+                },
+                "surname": {
+                    "description": "Surname of individual",
+                    "type": "string"
+                },
                 "titles": {
+                    "additionalItems": {
+                        "type": "string"
+                    },
                     "description": "Array of titles of individual",
-                    "type": "array",
                     "items": [
                         {
                             "type": "string"
                         }
                     ],
-                    "additionalItems": {
-                        "type": "string"
-                    },
-                    "minItems": 1
-                },
-                "functions": {
-                    "function": "Array of functions of individual",
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/function"
-                    },
-                    "additionalItems": {
-                        "$ref": "#/definitions/function"
-                    }
-                },
-                "place of residence": {
-                    "description": "Place of residence of individual (often missing)",
-                    "type": "string"
+                    "minItems": 1,
+                    "type": "array"
                 }
             },
             "required": [
@@ -76,7 +83,8 @@
                 "titles",
                 "functions",
                 "place of residence"
-            ]
+            ],
+            "type": "object"
         }
     },
     "properties": {
