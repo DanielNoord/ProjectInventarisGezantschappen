@@ -4,11 +4,6 @@
         "it_IT": "Commissario Generale della Reverenda Camera Apostolica",
         "nl_NL": "_Commissario Generale della Reverenda Camera Apostolica_"
     },
-    "_Direttore delle Gabelle di Bari_": {
-        "en_GB": "_Direttore delle Gabelle di Bari_",
-        "it_IT": "Direttore delle Gabelle di Bari",
-        "nl_NL": "_Direttore delle Gabelle di Bari_"
-    },
     "_Gonfaloniere di Fano_": {
         "en_GB": "_Gonfaloniere di Fano_",
         "it_IT": "Gonfaloniere di Fano",
@@ -43,11 +38,6 @@
         "en_GB": "_Sottosegretario di Stato_",
         "it_IT": "Sottosegretario di Stato",
         "nl_NL": "_Sottosegretario di Stato_"
-    },
-    "_Tenente maresciallo_": {
-        "en_GB": "_Tenente maresciallo_",
-        "it_IT": "Tenente maresciallo",
-        "nl_NL": "_Tenente maresciallo_"
     },
     "$schema": "../../static/JSON/Functions.json",
     "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede": {
@@ -110,15 +100,10 @@
         "it_IT": "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana",
         "nl_NL": "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane"
     },
-    "maestro (1844-1847) e prefetto dei maestri e camerieri segreti": {
-        "en_GB": "maestro (1844-1847) e prefetto dei maestri e camerieri segreti",
-        "it_IT": "maestro (1844-1847) e prefetto dei maestri e camerieri segreti",
-        "nl_NL": "maestro (1844-1847) e prefetto dei maestri e camerieri segreti"
-    },
-    "maggiore generale del Regno di Sardegna a Genova": {
-        "en_GB": "maggiore generale del Regno di Sardegna a Genova",
-        "it_IT": "maggiore generale del Regno di Sardegna a Genova",
-        "nl_NL": "maggiore generale del Regno di Sardegna a Genova"
+    "maestro (1844/1847) e prefetto dei maestri e camerieri segreti": {
+        "en_GB": "maestro (1844/1847) e prefetto dei maestri e camerieri segreti",
+        "it_IT": "maestro (1844/1847) e prefetto dei maestri e camerieri segreti",
+        "nl_NL": "maestro (1844/1847) e prefetto dei maestri e camerieri segreti"
     },
     "Pro-curatore generale del Fisco e della Reverenda Camera Apostolica": {
         "en_GB": "Pro-curatore generale del Fisco e della Reverenda Camera Apostolica",

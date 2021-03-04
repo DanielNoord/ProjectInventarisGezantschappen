@@ -50,8 +50,43 @@ def list_of_translated_data(list_to_write, output_name):
     out_doc.save(f"outputs/Translated{output_name}.docx")
     print(f"Wrote file at outputs/Translated{output_name}.docx")
 
+def list_of_translated_data_with_style(list_to_write, output_name):
+    """Write a docx file based on input with style applied
 
-def list_with_style(list_of_lines, filename):
+    Args:
+        list_to_write (list): List of translated data to be written, all in strings.
+                Follows pattern [Data in inventaris, identifier, data in IT, data in NL, data in EN]
+    """
+    out_doc = docx.Document()
+    for entry in list_to_write:
+        paragraph = out_doc.add_paragraph("")
+        run = paragraph.add_run(entry[0])
+        run.bold = True
+        for line in entry[1:]:
+            # Check for translation (denotade by {translation})
+            line = line.replace("{", "(").replace("}", ")")
+            # Check for parts that should be italic (denoted by _italian_)
+            split_lines = re.split(r"(_.*?_)", line)
+
+            paragraph.add_run("\n")
+            for group in split_lines:
+                if group != "" and group[0] == "_":
+                    run = paragraph.add_run(group[1:-1])
+                    run.italic = True
+                else:
+                    run = paragraph.add_run(group)
+
+        # Add indentation
+        paragraph_format = paragraph.paragraph_format
+        paragraph_format.first_line_indent = Pt(-10)
+
+    # Check if outputs directory exists and then write file
+    os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
+    out_doc.save(f"outputs/TranslatedStylized{output_name}.docx")
+    print(f"Wrote file at outputs/TranslatedStylized{output_name}.docx")
+
+
+def list_with_style(list_of_lines, output_name):
     """Write a docx file based on input
 
     Args:
@@ -78,5 +113,5 @@ def list_with_style(list_of_lines, filename):
 
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
-    doc.save(filename)
-    print(f"Wrote file at {filename}")
+    doc.save(f"outputs/Stylized{output_name}.docx")
+    print(f"Wrote file at outputs/Stylized{output_name}")

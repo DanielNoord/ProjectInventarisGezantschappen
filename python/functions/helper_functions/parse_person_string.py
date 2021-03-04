@@ -9,6 +9,7 @@ def person(input_line):
 
     Returns:
         str: Identifier
+        str: Person type
         str: Surname
         str: Name
         str: Nationality
@@ -16,6 +17,9 @@ def person(input_line):
         str: Function
         str: Place of residence
         str: Comment
+        str: Sources
     """
-    pattern = re.compile(r"- (.*); (.*); (.*); (.*); (.*); (.*); (.*); (.*);;", re.DOTALL)
+    pattern = re.compile(
+        r"- (.*); (.*); (.*); (.*); (.*); (.*); (.*); (.*); (.*); (.*);;", re.DOTALL
+    )
     return re.match(pattern, input_line).groups()

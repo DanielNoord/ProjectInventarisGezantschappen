@@ -18,21 +18,45 @@ def create_person(localization, person, translation_data):
         str: All functions
         str: All titles
     """
-    identifier, surname, name, _, titles, function, _, _ = read_person(person)
+    (
+        identifier,
+        _,
+        surname,
+        name,
+        _,
+        titles,
+        function,
+        _,
+        comments,
+        sources,
+    ) = read_person(person)
 
     # Create Full Name variable
-    str_full_name = create_full_name(surname, name, titles, translation_data, localization)
+    str_full_name = create_full_name(
+        surname, name, titles, translation_data, localization
+    )
 
     # Parse functions
     functions = []
     if function != "":
         functions = read_function(function)
-        # TODO: Add call look up in translation_data
-        str_functions = ", ".join([i[0] for i in functions])
+        str_functions = ", ".join(
+            [translation_data[1][i[0]][localization] for i in functions]
+        )
 
     # Create Full Name + function variable
     str_full_name_function = str_full_name
     if function:
         str_full_name_function = f"{str_full_name} ({str_functions})"
 
-    return str_full_name_function, str_full_name, identifier, functions, titles
+    sources = sources.split("| ")
+
+    return (
+        str_full_name_function,
+        str_full_name,
+        identifier,
+        functions,
+        titles,
+        comments,
+        sources,
+    )

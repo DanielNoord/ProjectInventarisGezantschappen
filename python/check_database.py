@@ -1,3 +1,4 @@
+from functions.helper_functions.extract_date import extract_date
 from functions.helper_functions.parse_function_string import function as read_function
 from functions.helper_functions.parse_person_string import person as read_person
 from functions.load_docx import extract_persons
@@ -19,12 +20,8 @@ def check_translations():
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in functions at {key}")
-            """TODO: Allow this!
-            if list(translations.values()).count(translation) > 1:
-                raise Exception(f"Double translations found in functions at {key} with {translation}")
-            """
 
-    print("No double or missing translations found!")
+    print("No missing translations found!")
 
 
 def check_entries(input_file):
@@ -46,22 +43,28 @@ def check_entries(input_file):
         if person[2] != "$":
             raise Exception(f"No identifier found for ${person}")
 
-        identifier, surname, _, _, titles, functions, _, _ = read_person(person)
+        identifier, person_type, surname, _, _, titles, functions, _, _, _ = read_person(person)
 
         if identifier in identifiers.keys():
             raise Exception(f"Identifier of {surname} is a duplicate")
+
+        if person_type == "":
+            raise Exception(f"Type of {surname} is missing")
 
         if titles != "":
             titles = titles.split("| ")
             for title in titles:
                 assert translated_titles[title]
                 used_titles.append(title)
-        ## TODO: Does not check dates correctly, JSON Schema does
+
         if functions != "":
             functions = read_function(functions)
-            for function in functions:
-                assert translated_functions[function[0]]
-                used_functions.append(function[0])
+            for function, timeperiod in functions:
+                assert translated_functions[function]
+                if timeperiod is not None:
+                    assert extract_date(timeperiod, "nl_NL")
+                used_functions.append(function)
+                
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
     unused_functions = [
         i for i in translated_functions.keys() if i not in used_functions

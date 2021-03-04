@@ -1,3 +1,18 @@
 {
-    "$schema": "../../static/JSON/Functions.json"
+    "$schema": "../../static/JSON/Functions.json",
+    "Generaal-majoor van het Koninkrijk Sardinië in Genua": {
+        "en_GB": "Major general of the Kingdom of Sardinia in Genoa",
+        "it_IT": "Maggior generale del Regno di Sardegna a Genova",
+        "nl_NL": "Generaal-majoor van het Koninkrijk Sardinië in Genua"
+    },
+    "Veldmaarschalk luitenant": {
+        "en_GB": "Field marshal lieutenant",
+        "it_IT": "Tenente del feldmaresciallo",
+        "nl_NL": "Veldmaarschalk luitenant"
+    },
+    "Directeur van de _Gabelle_ {Belastingsdienst} van Bari": {
+        "en_GB": "Director of the _Gabelle_ {Tax Office} of Bari",
+        "it_IT": "Direttore delle Gabelle di Bari",
+        "nl_NL": "Directeur van de _Gabelle_ {Belastingsdienst} van Bari"
+    }
 }

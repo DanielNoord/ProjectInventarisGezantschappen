@@ -1,19 +1,3 @@
-import re
-
-ACCEPTED_PRE_TITLES = ["kard.", "mgr.", "mr.", "jhr.", "luitenant-generaal b.d.",
-    "luitenant-generaal", "majoor-generaal", "admiraal", "generaal",
-    "schout-bij-nacht", "commandant", "luitenant-kolonel", "ridder",
-    "maarschalk", "kolonel",
-    "Paus"]
-ACCEPTED_MIDDLE_TITLES = ["markies", "graaf", "gravin", "baron", "barones", "Lord"]
-ACCEPTED_FINAL_TITLE = ["markies de .*", "markies van .*", "prins van .*", "prins de .*",
-    "baron da .*", "graaf della .*", "graaf de .*", "hertog van .*",
-    "graaf van .*",
-    "commandeur in de Orde .*",
-    "4de graaf van Aberdeen", "aartshertog van Oostenrijk", "prins$", "prinses$"]
-COMBINED_REGEXS = "(" + ")|(".join(ACCEPTED_FINAL_TITLE) + ")"
-
-
 def full_name(surname, name, titles, translation_data, localization):
     """ Creates the string for the full name including title
 
@@ -36,27 +20,30 @@ def full_name(surname, name, titles, translation_data, localization):
         raise Exception(f"{name} has no surname!")
     titles = titles.split("| ")
     if titles[0] != "":
-        if titles[0] in ACCEPTED_PRE_TITLES:
+        translation_entry = translation_data[0][titles[0]]
+        if translation_entry["position"] == "Before":
             if name == "":
-                str_full_name = f"{translation_data[0][titles[0]][localization]} {surname}"
+                str_full_name = f"{translation_entry[localization]} {surname}"
             else:
-                str_full_name = f"{translation_data[0][titles[0]][localization]} {name} {surname}"
-        elif re.match(COMBINED_REGEXS, titles[0]):
-            str_full_name = f"{surname}, {translation_data[0][titles[0]][localization]},"
+                str_full_name = f"{translation_entry[localization]} {name} {surname}"
+        elif translation_entry["position"] == "After":
+            str_full_name = f"{surname}, {translation_entry[localization]},"
             if name != "":
                 str_full_name = f"{name} {str_full_name}"
-        elif  titles[0] in ACCEPTED_MIDDLE_TITLES:
-            str_full_name = f"{translation_data[0][titles[0]][localization]} {surname}"
+        elif translation_entry["position"] == "Middle":
+            str_full_name = f"{translation_entry[localization]} {surname}"
             if name != "":
                 str_full_name = f"{name} {str_full_name}"
         else:
-            raise Exception(f"Don't recognize {titles[0]}")
+            raise Exception(f"Don't recognize type of {titles[0]}")
+
         if len(titles) > 1:
             for extra_title in titles[1:]:
-                if extra_title in ACCEPTED_PRE_TITLES:
-                    str_full_name = f"{translation_data[0][extra_title][localization]} {str_full_name}"
-                elif re.match(COMBINED_REGEXS, extra_title):
-                    str_full_name += f" {translation_data[0][extra_title][localization]},"
+                translation_entry = translation_data[0][extra_title]
+                if translation_entry["position"] == "Before":
+                    str_full_name = f"{translation_entry[localization]} {str_full_name}"
+                elif translation_entry["position"] == "After":
+                    str_full_name += f" {translation_entry[localization]},"
                 else:
                     raise Exception("Can't parse second title, maybe change order in sourcefile")
     else:

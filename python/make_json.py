@@ -18,6 +18,7 @@ def create_json_database(input_file):
     for person in persons_in_file:
         (
             identifier,
+            person_type,
             surname,
             name,
             nationality,
@@ -25,17 +26,22 @@ def create_json_database(input_file):
             functions,
             residence,
             comment,
+            sources
         ) = read_person(person)
+        person_type = int(person_type)
         titles = titles.split("| ")
         functions = read_function(functions)
+        sources = sources.split("| ")
         data_with_identifier[identifier] = {
             "surname": surname,
+            "person_type": person_type,
             "name": name,
             "nationality": nationality,
             "titles": titles,
             "functions": functions,
             "place of residence": residence,
             "comment": comment,
+            "sources": sources
         }
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(data_with_identifier, file, ensure_ascii=False, indent=4)

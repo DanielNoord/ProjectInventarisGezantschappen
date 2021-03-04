@@ -3,7 +3,7 @@ import re
 
 def dossier(doss):
     """Parses dossier
-    
+
     Args:
         doss (str): Dossier to be parsed
 
@@ -26,7 +26,7 @@ def dossier(doss):
 
 def file(input_file):
     """Parses file
-    
+
     Args:
         input_file (str): File  to be parsed
 
@@ -42,7 +42,7 @@ def file(input_file):
 
 def split_into_dossiers(vol):
     """Splits volume into dossiers
-    
+
     Args:
         vol (str): String containg the dossiers to be parsed
 
@@ -55,7 +55,7 @@ def split_into_dossiers(vol):
 
 def sub_dossier_description(desc):
     """Parses dossier description
-    
+
     Args:
         desc (str): Sub-dossier description to be parsed
 
@@ -90,7 +90,7 @@ def sub_series(doss):
 
 def volume(vol):
     """Parses volumes
-    
+
     Args:
         vol (str): Volume to be parsed
 

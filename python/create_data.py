@@ -25,13 +25,13 @@ def person_with_identifier(input_file):
             raise Exception(f"No identifier found for ${person}")
 
         # Create data from persons
-        full_name_function_nl_nl, _, identifier, _, _ = create_person(
+        full_name_function_nl_nl, _, identifier, _, _, comments, sources = create_person(
             "nl_NL", person, translation_data
         )
-        full_name_function_it_it, _, _, _, _ = create_person(
+        full_name_function_it_it, _, _, _, _, _, _ = create_person(
             "it_IT", person, translation_data
         )
-        full_name_function_en_gb, _, _, _, _ = create_person(
+        full_name_function_en_gb, _, _, _, _, _, _ = create_person(
             "en_GB", person, translation_data
         )
 
@@ -42,6 +42,8 @@ def person_with_identifier(input_file):
             "it_IT": full_name_function_it_it,
             "nl_NL": full_name_function_nl_nl,
             "en_GB": full_name_function_en_gb,
+            "comments": comments,
+            "sources": sources
         }
 
         print(full_name_function_nl_nl)
@@ -65,7 +67,7 @@ def used_functions_and_titles(input_file):
     all_titles = []
 
     for person in persons_in_file:
-        _, full_name_nl_nl, _, functions, titles = create_person(
+        _, full_name_nl_nl, _, functions, titles, _, _ = create_person(
             "nl_NL", person, translation_data
         )
 
@@ -93,7 +95,7 @@ def used_names(input_file):
     all_full_names = []
 
     for person in persons_in_file:
-        _, full_name_nl_nl, _, _, _ = create_person("nl_NL", person, translation_data)
+        _, full_name_nl_nl, _, _, _, _, _ = create_person("nl_NL", person, translation_data)
         all_full_names.append(full_name_nl_nl)
 
         print(full_name_nl_nl)

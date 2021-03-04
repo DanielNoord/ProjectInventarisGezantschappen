@@ -54,9 +54,26 @@
                     "description": "Nationality of individual (often missing)",
                     "type": "string"
                 },
+                "person_type": {
+                    "description": "Type of person using numbering scheme",
+                    "type": "number"
+                },
                 "place of residence": {
                     "description": "Place of residence of individual (often missing)",
                     "type": "string"
+                },
+                "sources": {
+                    "additionalItems": {
+                        "type": "string"
+                    },
+                    "description": "Array of relevant sources",
+                    "items": [
+                        {
+                            "type": "string"
+                        }
+                    ],
+                    "minItems": 1,
+                    "type": "array"
                 },
                 "surname": {
                     "description": "Surname of individual",
@@ -83,7 +100,9 @@
                 "titles",
                 "functions",
                 "place of residence",
-                "comment"
+                "comment",
+                "person_type",
+                "sources"
             ],
             "type": "object"
         }

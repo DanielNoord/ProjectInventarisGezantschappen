@@ -51,17 +51,17 @@ def basic_xml_file():
             <language langcode="dut" scriptcode="Latn"> Dutch</language>.
         </langusage>"""
     profiledesc.append(etree.fromstring(language))
-    descrules = etree.SubElement(profiledesc, "descrules")
+    _ = etree.SubElement(profiledesc, "descrules")
 
     # Archdesc
     archdesc = etree.SubElement(root, "archdesc", level="fonds", type="inventory")
     archdescdid = etree.SubElement(archdesc, "did")
-    unittitle = etree.SubElement(archdescdid, "unittitle")
+    _ = etree.SubElement(archdescdid, "unittitle")
 
     return root, archdesc
 
 
-def dossier_entry(parent_element, v_number, number, pages, title, date, localization):
+def dossier_entry(parent_element, v_number, number, _, title, date, localization):
     """Returns a dossier .xml element
 
     Args:
@@ -89,7 +89,7 @@ def dossier_entry(parent_element, v_number, number, pages, title, date, localiza
     return c02
 
 
-def dossier_specific_file(parent_element, pages, title, place, date, localization):
+def dossier_specific_file(parent_element, pages, title, _, date, localization):
     """Returns an .xml element for a file within a dossier
 
     Args:
@@ -113,7 +113,7 @@ def dossier_specific_file(parent_element, pages, title, place, date, localizatio
     unitdate(c04_did, date, date1, date2, "file")
 
 
-def dossier_with_desc(parent_element, pages, title, place, date, localization):
+def dossier_with_desc(parent_element, pages, title, _, date, localization):
     """Returns an .xml element for a dossier with description
 
     Args:

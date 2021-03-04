@@ -36,7 +36,6 @@ def create_names_in_fondo(input_file):
 
 def create_names(localization, input_file):
     """Creates a number of .docx files based on "database" file.
-    TODO: This function is currently broken
 
     Args:
         localization (str): Localization of output_files ("nl_NL", "it_IT", "en_GB")
@@ -45,13 +44,13 @@ def create_names(localization, input_file):
     full_names = used_names(input_file)
     functions, titles = used_functions_and_titles(input_file)
 
-    list_with_style(full_names, f"outputs/Namenlijst_{localization}.docx")
-    list_with_style(functions, f"outputs/Functielijst_{localization}.docx")
-    list_with_style(titles, f"outputs/Titellijst_{localization}.docx")
+    list_with_style(full_names, f"Namenlijst_{localization}")
+    list_with_style(functions, f"Functielijst_{localization}")
+    list_with_style(titles, f"Titellijst_{localization}")
 
 
 if __name__ == "__main__":
     create_names("nl_NL", "inputs/Eigennamen.docx")
-    # create_to_be_translated("inputs/Eigennamen.docx")
-    create_names_in_fondo("inputs/Fondo Legazione Paesi Bassi.docx")
+    #create_to_be_translated("inputs/Eigennamen.docx")
+    #create_names_in_fondo("inputs/Fondo Legazione Paesi Bassi.docx")
     print("Done!")
