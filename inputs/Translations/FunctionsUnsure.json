@@ -1,0 +1,158 @@
+{
+    "_Commissario Generale della Reverenda Camera Apostolica_": {
+        "en_GB": "_Commissario Generale della Reverenda Camera Apostolica_",
+        "it_IT": "Commissario Generale della Reverenda Camera Apostolica",
+        "nl_NL": "_Commissario Generale della Reverenda Camera Apostolica_"
+    },
+    "_Direttore delle Gabelle di Bari_": {
+        "en_GB": "_Direttore delle Gabelle di Bari_",
+        "it_IT": "Direttore delle Gabelle di Bari",
+        "nl_NL": "_Direttore delle Gabelle di Bari_"
+    },
+    "_Gonfaloniere di Fano_": {
+        "en_GB": "_Gonfaloniere di Fano_",
+        "it_IT": "Gonfaloniere di Fano",
+        "nl_NL": "_Gonfaloniere di Fano_"
+    },
+    "_Gran Maestro di Cerimonie di S. M._": {
+        "en_GB": "_Gran Maestro di Cerimonie di S. M._",
+        "it_IT": "Gran Maestro di Cerimonie di S. M.",
+        "nl_NL": "_Gran Maestro di Cerimonie di S. M._"
+    },
+    "_Grandufficiale di Corte dei Paesi Bassi_": {
+        "en_GB": "_Grandufficiale di Corte dei Paesi Bassi_",
+        "it_IT": "Grandufficiale di Corte dei Paesi Bassi",
+        "nl_NL": "_Grandufficiale di Corte dei Paesi Bassi_"
+    },
+    "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_": {
+        "en_GB": "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_",
+        "it_IT": "Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri",
+        "nl_NL": "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_"
+    },
+    "_Prelato ponente_ {bevoegd prelaat} van de Heilige Congregatie van de _Consulta_": {
+        "en_GB": "_Prelato ponente_ {bevoegd prelaat} van de Heilige Congregatie van de _Consulta_",
+        "it_IT": "Prelato ponente della Sacra Consulta",
+        "nl_NL": "_Prelato ponente_ {bevoegd prelaat} van de Heilige Congregatie van de _Consulta_"
+    },
+    "_Presidente delle Armi_": {
+        "en_GB": "_Presidente delle Armi_",
+        "it_IT": "Presidente delle Armi",
+        "nl_NL": "_Presidente delle Armi_"
+    },
+    "_Sottosegretario di Stato_": {
+        "en_GB": "_Sottosegretario di Stato_",
+        "it_IT": "Sottosegretario di Stato",
+        "nl_NL": "_Sottosegretario di Stato_"
+    },
+    "_Tenente maresciallo_": {
+        "en_GB": "_Tenente maresciallo_",
+        "it_IT": "Tenente maresciallo",
+        "nl_NL": "_Tenente maresciallo_"
+    },
+    "$schema": "../../static/JSON/Functions.json",
+    "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede": {
+        "en_GB": "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede",
+        "it_IT": "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede",
+        "nl_NL": "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede"
+    },
+    "Ambasciatore straordinario del Portogallo": {
+        "en_GB": "Ambasciatore straordinario del Portogallo",
+        "it_IT": "Ambasciatore straordinario del Portogallo",
+        "nl_NL": "Ambasciatore straordinario del Portogallo"
+    },
+    "Assessor van het Directoraat-generaal van de politie van Rome": {
+        "en_GB": "Assessor of the Directorate General of the police of Rome",
+        "it_IT": "Assessore della Direzione Generale di polizia di Rom",
+        "nl_NL": "Assessor van het Directoraat-generaal van de politie van Rome"
+    },
+    "Assessor-generaal van het Directoraat-generaal van de politie van Rome": {
+        "en_GB": "Assessor General of the Directorate General of the police of Rome",
+        "it_IT": "Assessore generale della Direzione Generale di polizia di Roma",
+        "nl_NL": "Assessor-generaal van het Directoraat-generaal van de politie van Rome"
+    },
+    "cancelliere di Stato del Duca di Lussemburgo a l'Aja": {
+        "en_GB": "cancelliere di Stato del Duca di Lussemburgo a l'Aja",
+        "it_IT": "cancelliere di Stato del Duca di Lussemburgo all'Aia",
+        "nl_NL": "cancelliere di Stato del Duca di Lussemburgo a l'Aja"
+    },
+    "capo-travaglio nella Casa di Pubblica Beneficenza": {
+        "en_GB": "capo-travaglio nella Casa di Pubblica Beneficenza",
+        "it_IT": "capo-travaglio nella Casa di Pubblica Beneficenza",
+        "nl_NL": "capo-travaglio nella Casa di Pubblica Beneficenza"
+    },
+    "comandante il reggimento degli Zuavi Pontifici": {
+        "en_GB": "comandante il reggimento degli Zuavi Pontifici",
+        "it_IT": "comandante il reggimento degli Zuavi Pontifici",
+        "nl_NL": "comandante il reggimento degli Zuavi Pontifici"
+    },
+    "comandante superior della Piazza di Civitavecchia": {
+        "en_GB": "comandante superior della Piazza di Civitavecchia",
+        "it_IT": "comandante superior della Piazza di Civitavecchia",
+        "nl_NL": "comandante superior della Piazza di Civitavecchia"
+    },
+    "Commandant-generaal van de troepen van de _Provincia e Real Piazza di Palermo_": {
+        "en_GB": "Commandant-generaal van de troepen van de _Provincia e Real Piazza di Palermo_",
+        "it_IT": "Generale comandante delle Armi dell Provincia e Real Piazza di Palermo",
+        "nl_NL": "Commandant-generaal van de troepen van de _Provincia e Real Piazza di Palermo_"
+    },
+    "Directeur van het Penningenkabinet van de Universiteit Leiden": {
+        "en_GB": "Directeur van het Penningenkabinet van de Universiteit Leiden",
+        "it_IT": "Direttore dell'Ufficio delle medaglie e delle monete dell'Università di Leida",
+        "nl_NL": "Directeur van het Penningenkabinet van de Universiteit Leiden"
+    },
+    "incaricato di riorganizzare le truppe romane": {
+        "en_GB": "incaricato di riorganizzare le truppe romane",
+        "it_IT": "incaricato di riorganizzare le truppe romane",
+        "nl_NL": "incaricato di riorganizzare le truppe romane"
+    },
+    "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane": {
+        "en_GB": "Intieme adviseur van Staat, Financiën en Oorlog of the Grand Duchy of Tuscany",
+        "it_IT": "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana",
+        "nl_NL": "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane"
+    },
+    "maestro (1844-1847) e prefetto dei maestri e camerieri segreti": {
+        "en_GB": "maestro (1844-1847) e prefetto dei maestri e camerieri segreti",
+        "it_IT": "maestro (1844-1847) e prefetto dei maestri e camerieri segreti",
+        "nl_NL": "maestro (1844-1847) e prefetto dei maestri e camerieri segreti"
+    },
+    "maggiore generale del Regno di Sardegna a Genova": {
+        "en_GB": "maggiore generale del Regno di Sardegna a Genova",
+        "it_IT": "maggiore generale del Regno di Sardegna a Genova",
+        "nl_NL": "maggiore generale del Regno di Sardegna a Genova"
+    },
+    "Pro-curatore generale del Fisco e della Reverenda Camera Apostolica": {
+        "en_GB": "Pro-curatore generale del Fisco e della Reverenda Camera Apostolica",
+        "it_IT": "Pro-curatore generale del Fisco e della Reverenda Camera Apostolica",
+        "nl_NL": "Pro-curatore generale del Fisco e della Reverenda Camera Apostolica"
+    },
+    "Pro-kardinaal-staatssecretaris en president van de ministerraad van de Kerkelijke Staat": {
+        "en_GB": "Pro-kardinaal-staatssecretaris en president van de ministerraad van de Kerkelijke Staat",
+        "it_IT": "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio",
+        "nl_NL": "Pro-kardinaal-staatssecretaris en president van de ministerraad van de Kerkelijke Staat"
+    },
+    "Procureur-generaal van de Fisco e del tribunale della Rev. Camera Apostolica": {
+        "en_GB": "Procureur-generaal van de Fisco e del tribunale della Rev. Camera Apostolica",
+        "it_IT": "Procuratore Generale del Fisco e del tribunale della Rev. Camera Apostolica",
+        "nl_NL": "Procureur-generaal van de Fisco e del tribunale della Rev. Camera Apostolica"
+    },
+    "Rechter van het tribunaal van de Heilige Congregatie van de _Consulta_": {
+        "en_GB": "Rechter van het tribunaal van de Heilige Congregatie van de _Consulta_",
+        "it_IT": "Giudice del Tribunale della Sacra Consulta",
+        "nl_NL": "Rechter van het tribunaal van de Heilige Congregatie van de _Consulta_"
+    },
+    "Secretary for the Affairs of the Grand Duchy of Luxembourg": {
+        "en_GB": "Secretary for the Affairs of the Grand Duchy of Luxembourg",
+        "it_IT": "Secretary for the Affairs of the Grand Duchy of Luxembourg",
+        "nl_NL": "Secretary for the Affairs of the Grand Duchy of Luxembourg"
+    },
+    "Tribunaalspresident van de Heilige Congregatie van de _Consulta_": {
+        "en_GB": "Tribunaalspresident van de Heilige Congregatie van de _Consulta_",
+        "it_IT": "Presidente del Tribunale della Sacra Consulta",
+        "nl_NL": "Tribunaalspresident van de Heilige Congregatie van de _Consulta_"
+    },
+    "Kapelaan van de _missioni protestanti_ te Turijn": {
+        "en_GB": "Chaplain of the _missioni protestanti_ in Turin",
+        "it_IT": "Cappellano delle Missioni Protestanti a Torino",
+        "nl_NL": "Kapelaan van de _missioni protestanti_ te Turijn"
+    }
+}

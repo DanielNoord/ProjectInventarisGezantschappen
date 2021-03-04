@@ -39,17 +39,7 @@ def list_of_translated_data(list_to_write, output_name):
         run.bold = True
         for line in entry[1:]:
             paragraph.add_run("\n")
-            # Check for translation (denotade by {translation})
-            line = line.replace("{", "(").replace("}", ")")
-            # Check for parts that should be italic (denoted by _italian_)
-            split_line = re.split(r"(_.*?_)", line)
-
-            for group in split_line:
-                if group != "" and group[0] == "_":
-                    run = paragraph.add_run(group[1:-1])
-                    run.italic = True
-                else:
-                    run = paragraph.add_run(group)
+            run = paragraph.add_run(line)
 
         # Add indentation
         paragraph_format = paragraph.paragraph_format

@@ -22,8 +22,8 @@
                     "description": "Translation of the title in Dutch",
                     "type": "string"
                 },
-                "type": {
-                    "description": "The type of title, denotes its place in a full name",
+                "position": {
+                    "description": "The position of the title, denotes its place in a full name",
                     "pattern": "(Before)|(Middle)|(After)",
                     "type": "string"
                 }
@@ -32,7 +32,7 @@
                 "en_GB",
                 "it_IT",
                 "nl_NL",
-                "type"
+                "position"
             ],
             "type": "object"
         }

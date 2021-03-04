@@ -74,3 +74,30 @@ def extract_volumes(filename):
         all_text.append(para.text)
     full_text = "\n".join(all_text)
     return re.findall(regex, full_text)
+
+def extract_translations(filename):
+    """Loads translations from file
+
+    Args:
+        filename (str): File to be scanned
+
+    Returns:
+        dict{{}, {}, {}, ... }: Dictionary of translations (which are also dictionaries)
+    """
+    doc = docx.Document(filename)
+    all_translations = {}
+    for para in doc.paragraphs:
+        translations = para.text.split("\n")
+        translation = {
+                "en_GB": translations[2],
+                "it_IT": translations[1],
+                "nl_NL": translations[0]
+            }
+        for line in translations[3:]:
+            if line.startswith("Opmerking: "):
+                translation["comment"] = translations[3][11:] # Cuts of "Opmerking: "
+            if line.startswith("position: "):
+                translation["position"] = translations[3][10:] # Cuts of "position: "
+
+        all_translations[translations[0]] = translation
+    return all_translations

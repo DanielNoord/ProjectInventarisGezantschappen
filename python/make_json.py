@@ -3,9 +3,15 @@ import json
 from functions.helper_functions.parse_function_string import function as read_function
 from functions.helper_functions.parse_person_string import person as read_person
 from functions.load_docx import extract_persons
+from functions.load_docx import extract_translations
 
 
-def create_json(input_file):
+def create_json_database(input_file):
+    """Creates JSON file from the database file
+
+    Args:
+        input_file (str): File name of database file
+    """
     data_with_identifier = {"$schema": "../static/JSON/Individuals.json"}
     persons_in_file = extract_persons(input_file)
 
@@ -29,9 +35,27 @@ def create_json(input_file):
             "functions": functions,
             "place of residence": residence,
         }
-    with open('outputs/Individuals.json', 'w', encoding='utf-8') as file:
+    with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(data_with_identifier, file, ensure_ascii=False, indent=4)
+    print("Wrote file to outputs/Individuals.json")
+
+
+def create_json_translations(input_file, file_name):
+    """Creates JSON from translation file
+
+    Args:
+        input_file (str): Name of input file
+        file_name (str): Name of output file
+    """
+    translations = {"$schema": f"../static/JSON/{file_name}.json"}
+    translations = dict(translations, **extract_translations(input_file))
+
+    with open(f"outputs/{file_name}.json", "w", encoding="utf-8") as file:
+        json.dump(translations, file, ensure_ascii=False, indent=4)
+    print(f"Wrote file to outputs/{file_name}.json")
 
 
 if __name__ == "__main__":
-    create_json("inputs/Eigennamen.docx")
+    #create_json_database("inputs/Eigennamen.docx")
+    create_json_translations("inputs/Translations/TranslatedFunctions.docx", "Functions")
+    create_json_translations("inputs/Translations/TranslatedTitles.docx", "Titles")

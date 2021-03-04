@@ -5,6 +5,9 @@
 !EADFiles/
 !python/
 !static/
+!inputs
+inputs/*
+!inputs/Translations
 
 # Whitelisted files
 !.gitignore

@@ -18,20 +18,21 @@ def create_controle_transaltions():
     translated_titles = []
     translated_functions = []
 
-    for title, translations in sorted(titles.items()):
-        result = [title]
+    for _, translations in sorted(titles.items()):
+        result = [translations["nl_NL"]]
         result.append(translations["it_IT"])
         result.append(translations["en_GB"])
+        result.append(f"position: {translations['position']}")
         if translations.get("comment"):
-            result.append(f"_Opmerking_: {translations['comment']}")
+            result.append(f"_Comment_: {translations['comment']}")
         translated_titles.append(result)
 
-    for function, translations in sorted(functions.items()):
-        result = [function]
+    for _, translations in sorted(functions.items()):
+        result = [translations["nl_NL"]]
         result.append(translations["it_IT"])
         result.append(translations["en_GB"])
         if translations.get("comment"):
-            result.append(f"_Opmerking_: {translations['comment']}")
+            result.append(f"_Comment_: {translations['comment']}")
         translated_functions.append(result)
 
     list_of_translated_data(translated_titles, "Titles")
