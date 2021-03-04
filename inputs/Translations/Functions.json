@@ -65,15 +65,15 @@
         "it_IT": "Ambasciatore dell'Impero di Francia presso la Santa Sede",
         "nl_NL": "Ambassadeur van het Keizerrijk Frankrijk bij de Heilige Stoel"
     },
-    "Ambassadeur van het Koninkrijk Frankrijk bij de Heilige Stoel": {
-        "en_GB": "Ambassador of the Kingdom of France to the Holy See ",
-        "it_IT": "Ambasciatore del Regno di Francia presso la Santa Sede",
-        "nl_NL": "Ambassadeur van het Koninkrijk Frankrijk bij de Heilige Stoel"
-    },
     "Ambassadeur van het Keizerrijk Oostenrijk te Rome": {
         "en_GB": "Ambassador of the Empire of Austria in Rome",
         "it_IT": "Ambasciatore dell'Impero Austriaco a Roma",
         "nl_NL": "Ambassadeur van het Keizerrijk Oostenrijk te Rome"
+    },
+    "Ambassadeur van het Koninkrijk Frankrijk bij de Heilige Stoel": {
+        "en_GB": "Ambassador of the Kingdom of France to the Holy See ",
+        "it_IT": "Ambasciatore del Regno di Francia presso la Santa Sede",
+        "nl_NL": "Ambassadeur van het Koninkrijk Frankrijk bij de Heilige Stoel"
     },
     "Ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel": {
         "en_GB": "Ambassador of the Kingdom of Spain to the Holy See",
@@ -170,21 +170,6 @@
         "it_IT": "Vescovo di Senigallia",
         "nl_NL": "Bisschop van Senigallia"
     },
-    "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel": {
-        "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Belgium to the Holy See",
-        "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede",
-        "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel"
-    },
-    "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel en het Groothertogdom Toscane": {
-        "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Belgium to the Holy See and the Grand Duchy of Tuscany",
-        "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede e il Granducato di Toscana",
-        "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel en het Groothertogdom Toscane"
-    },
-    "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilige Stoel": {
-        "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
-        "it_IT": "Inviato straordinario e ministro plenipotenziario della il Regno di Spagna presso la Santa Sede",
-        "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilige Stoel"
-    },
     "Buitengewoon gezant en gevolmachtigd minister van de Republiek Honduras te Rome": {
         "en_GB": "Envoy extraordinary and minister plenipotentiary of the Republic of Honduras in Rome",
         "it_IT": "Inviato straordinario e ministro plenipotenziario della Repubblica dell'Honduras a Roma",
@@ -220,6 +205,16 @@
         "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno di Baviera bij het Koninkrijk der Beide Siciliën",
         "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Beieren bij het Koninkrijk der Beide Siciliën"
     },
+    "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel": {
+        "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Belgium to the Holy See",
+        "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede",
+        "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel"
+    },
+    "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel en het Groothertogdom Toscane": {
+        "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Belgium to the Holy See and the Grand Duchy of Tuscany",
+        "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede e il Granducato di Toscana",
+        "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel en het Groothertogdom Toscane"
+    },
     "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Portugal bij de Heilige Stoel": {
         "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Portugal to the Holy See",
         "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno del Portogallo presso la Santa Sede",
@@ -234,6 +229,11 @@
         "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Sardinia to the Holy See",
         "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno di Sardegna presso la Santa Sede",
         "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Sardinië bij de Heilige Stoel"
+    },
+    "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilige Stoel": {
+        "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
+        "it_IT": "Inviato straordinario e ministro plenipotenziario della il Regno di Spagna presso la Santa Sede",
+        "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilige Stoel"
     },
     "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden bij de Heilige Stoel": {
         "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands to the Holy See",
@@ -445,15 +445,20 @@
         "it_IT": "Poeta",
         "nl_NL": "Dichter"
     },
+    "Directeur en commandant van de brandweer van Rome": {
+        "en_GB": "Director and commander of the fire department of Rome",
+        "it_IT": "Direttore e comandante dei vigili del fuoco di Roma",
+        "nl_NL": "Directeur en commandant van de brandweer van Rome"
+    },
     "Directeur van de Maritieme Sectie van het KNMI": {
         "en_GB": "Director of the Maritime Section of the Royal Dutch Meteorological Institute",
         "it_IT": "Direttore della Sezione Marittima dell'Istituto Metereologico dei Paesi Bassi",
         "nl_NL": "Directeur van de Maritieme Sectie van het KNMI"
     },
-    "Directeur van het Consulaat-generaal van het Koninkrijk der Nederlanden te Genua": {
+    "Directeur van het consulaat-generaal van het Koninkrijk der Nederlanden te Genua": {
         "en_GB": "Director of the consulate general of the Kingdom of the Netherlands in Genoa",
         "it_IT": "Gerente del Consolato Generale del Regno dei Paesi Bassi a Genova",
-        "nl_NL": "Directeur van het Consulaat-generaal van het Koninkrijk der Nederlanden te Genua"
+        "nl_NL": "Directeur van het consulaat-generaal van het Koninkrijk der Nederlanden te Genua"
     },
     "Directeur van het consulaat-generaal van het Koninkrijk der Nederlanden te Napels": {
         "en_GB": "Director of the consulate general of the Kingdom of the Netherlands in Napels",
@@ -750,10 +755,10 @@
         "it_IT": "Canone",
         "nl_NL": "Kannunik"
     },
-    "Kanselier en honorair attaché van het Nederlandse Gezantschap in Rome": {
-        "en_GB": "Chancellor and honorary attaché of the Dutch Legation in Rome",
+    "Kanselier en honorair attaché van het Gezantschap van het Koninkrijk der Nederlanden in Rome": {
+        "en_GB": "Chancellor and honorary attaché of the Legation of the Kingdom of the Netherlands in Rome",
         "it_IT": "Cancelliere e addetto onorario della Legazione del Regno dei Paesi Bassi a Roma",
-        "nl_NL": "Kanselier en honorair attaché van het Nederlandse Gezantschap in Rome"
+        "nl_NL": "Kanselier en honorair attaché van het Gezantschap van het Koninkrijk der Nederlanden in Rome"
     },
     "Kaper": {
         "en_GB": "Corsair",
@@ -1065,15 +1070,15 @@
         "it_IT": "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Sardegna",
         "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
     },
-    "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën": {
+    "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën": {
         "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Two Sicilies",
         "it_IT": "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno delle Due Sicilie",
-        "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
+        "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
     },
-    "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden": {
+    "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden": {
         "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Netherlands",
         "it_IT": "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri Zaken del Regno dei Paesi Bassi",
-        "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
+        "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
     },
     "Premier van het Koninkrijk Italië": {
         "en_GB": "Prime Minister of the Kingdom of Italy",
@@ -1444,10 +1449,5 @@
         "en_GB": "_Questore_ of Rome",
         "it_IT": "Questore di Roma",
         "nl_NL": "_Questore_ van Rome"
-    },
-    "Directeur en commandant van de brandweer van Rome": {
-        "en_GB": "Director and commander of the fire department of Rome",
-        "it_IT": "Direttore e comandante dei vigili del fuoco di Roma",
-        "nl_NL": "Directeur en commandant van de brandweer van Rome"
     }
 }
