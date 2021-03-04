@@ -33,7 +33,7 @@
             "description": "A person, named by its identifier",
             "properties": {
                 "comment": {
-                    "description": "Comment related to the function or translation",
+                    "description": "Comments about extra info or the person",
                     "type": "string"
                 },
                 "functions": {
@@ -82,7 +82,8 @@
                 "nationality",
                 "titles",
                 "functions",
-                "place of residence"
+                "place of residence",
+                "comment"
             ],
             "type": "object"
         }

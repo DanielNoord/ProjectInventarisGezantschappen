@@ -18,8 +18,7 @@ def create_person(localization, person, translation_data):
         str: All functions
         str: All titles
     """
-    identifier, surname, name, _, titles,\
-        function, _ = read_person(person)
+    identifier, surname, name, _, titles, function, _, _ = read_person(person)
 
     # Create Full Name variable
     str_full_name = create_full_name(surname, name, titles, translation_data, localization)

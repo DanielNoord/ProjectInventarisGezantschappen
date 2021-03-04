@@ -24,6 +24,7 @@ def create_json_database(input_file):
             titles,
             functions,
             residence,
+            comment,
         ) = read_person(person)
         titles = titles.split("| ")
         functions = read_function(functions)
@@ -34,6 +35,7 @@ def create_json_database(input_file):
             "titles": titles,
             "functions": functions,
             "place of residence": residence,
+            "comment": comment,
         }
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(data_with_identifier, file, ensure_ascii=False, indent=4)
@@ -56,6 +58,6 @@ def create_json_translations(input_file, file_name):
 
 
 if __name__ == "__main__":
-    #create_json_database("inputs/Eigennamen.docx")
+    create_json_database("inputs/Eigennamen.docx")
     create_json_translations("inputs/Translations/TranslatedFunctions.docx", "Functions")
     create_json_translations("inputs/Translations/TranslatedTitles.docx", "Titles")

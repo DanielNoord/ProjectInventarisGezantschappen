@@ -46,7 +46,7 @@ def check_entries(input_file):
         if person[2] != "$":
             raise Exception(f"No identifier found for ${person}")
 
-        identifier, surname, _, _, titles, functions, _ = read_person(person)
+        identifier, surname, _, _, titles, functions, _, _ = read_person(person)
 
         if identifier in identifiers.keys():
             raise Exception(f"Identifier of {surname} is a duplicate")
