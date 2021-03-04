@@ -10,6 +10,10 @@ Contains a submodule found on github that translates .xml files to .pdf files ba
 
 ### `/inputs` and `/outputs`
 Input files should go in `/inputs` while output files will be placed in `/outputs`
+Contains a sub-directory with translations of all functions and titles found in the archive in JSON and .docx format
 
 ### `/python`
 Contains two related programs. `docx_to_xml.py` extracts the volumes from the archive inventory .docx file and translates them into a .xml file. `docx_to_names.py` extracts the list of names from the `Eigenamen.docx` file in `/inputs` and creates a file with a more readable list of individuals.
+
+### `/static`
+Contains JSON Schema's for the translation and final database JSON files
