@@ -1,7 +1,6 @@
+import json
+
 from functions.helper_functions.extract_date import extract_date
-from functions.helper_functions.parse_function_string import function as read_function
-from functions.helper_functions.parse_person_string import person as read_person
-from functions.load_docx import extract_persons
 from functions.translate import initialize_translation_database
 
 def check_translations():
@@ -12,16 +11,20 @@ def check_translations():
     """
     translated_titles, translated_functions = initialize_translation_database()
     for key, translations in translated_titles.items():
+        if key != translations["nl_NL"]:
+            raise Exception(f"Found difference in Dutch translation and key for title {key}")
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in titles at {key}")
 
     for key, translations in translated_functions.items():
+        if key != translations["nl_NL"]:
+            raise Exception(f"Found difference in Dutch translation and key for function {key}")
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in functions at {key}")
 
-    print("No missing translations found!")
+    print("No missing or broken translations found!")
 
 
 def check_entries(input_file):
@@ -35,47 +38,45 @@ def check_entries(input_file):
         Exception: Whenever something is missing/incorrect
     """
     translated_titles, translated_functions = initialize_translation_database()
-    persons_in_file = extract_persons(input_file)
+    with open(input_file) as file:
+        persons_in_file = json.load(file)
+    del persons_in_file["$schema"]
     identifiers = {}
     used_titles = []
     used_functions = []
-    for person in persons_in_file:
-        if person[2] != "$":
-            raise Exception(f"No identifier found for ${person}")
 
-        identifier, person_type, surname, _, _, titles, functions, _, _, _ = read_person(person)
+    for identifier, data in persons_in_file.items():
+        if identifier[0] != "$":
+            raise Exception(f"Incorrect identifier found for ${identifier}")
 
         if identifier in identifiers.keys():
-            raise Exception(f"Identifier of {surname} is a duplicate")
+            raise Exception(f"Identifier of {data['surname']} is a duplicate")
 
-        if person_type == "":
-            raise Exception(f"Type of {surname} is missing")
+        if data["person_type"] == "":
+            raise Exception(f"Type of {data['surname']} is missing")
 
-        if titles != "":
-            titles = titles.split("| ")
-            for title in titles:
+        if data['titles'] != [""]:
+            for title in data['titles']:
                 assert translated_titles[title]
                 used_titles.append(title)
 
-        if functions != "":
-            functions = read_function(functions)
-            for function, timeperiod in functions:
+        if data['functions'] != [""]:
+            for function, timeperiod in data['functions']:
                 assert translated_functions[function]
                 if timeperiod is not None:
                     assert extract_date(timeperiod, "nl_NL")
                 used_functions.append(function)
-                
+
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
     unused_functions = [
         i for i in translated_functions.keys() if i not in used_functions
     ]
 
-    print(f"Found the following unused titles {unused_titles}")
-    print(f"Found the following unused functions {unused_functions}")
-    print("No missing translations found!")
+    print(f"\nFound the following unused titles {unused_titles}")
+    print(f"Found the following unused functions {unused_functions}\n")
 
 
 if __name__ == "__main__":
     check_translations()
-    check_entries("inputs/Eigennamen.docx")
+    check_entries("inputs/Individuals.json")
     print("All checks passed!")

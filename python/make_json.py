@@ -1,3 +1,4 @@
+"""TODO: Outdated"""
 import json
 
 from functions.helper_functions.parse_function_string import function as read_function
@@ -7,7 +8,7 @@ from functions.load_docx import extract_translations
 
 
 def create_json_database(input_file):
-    """Creates JSON file from the database file
+    """Creates JSON file from old Eigennamen file
 
     Args:
         input_file (str): File name of database file
@@ -65,5 +66,5 @@ def create_json_translations(input_file, file_name):
 
 if __name__ == "__main__":
     create_json_database("inputs/Eigennamen.docx")
-    create_json_translations("inputs/Translations/TranslatedFunctions.docx", "Functions")
-    create_json_translations("inputs/Translations/TranslatedTitles.docx", "Titles")
+    #create_json_translations("inputs/Translations/TranslatedFunctions.docx", "Functions")
+    #create_json_translations("inputs/Translations/TranslatedTitles.docx", "Titles")

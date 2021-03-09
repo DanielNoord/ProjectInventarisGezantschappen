@@ -1,3 +1,6 @@
+"""TODO: Outdated"""
+import json
+
 from functions.find_names import create_person
 from functions.load_docx import extract_persons
 from functions.translate import initialize_translation_database
@@ -90,7 +93,9 @@ def used_names(input_file):
     Returns:
         list: A list of all names
     """
-    persons_in_file = extract_persons(input_file)
+    with open(filename) as file:
+        persons_in_file = json.load(file)
+    del persons_in_file["$schema"]
     translation_data = initialize_translation_database()
     all_full_names = []
 
