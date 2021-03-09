@@ -1,8 +1,6 @@
-"""TODO: Outdated"""
 import json
 
 from functions.find_names import create_person
-from functions.load_docx import extract_persons
 from functions.translate import initialize_translation_database
 
 
@@ -19,24 +17,17 @@ def person_with_identifier(input_file):
     Returns:
         dict: Dictionary with identifier as keys and translated full entries as values
     """
-    persons_in_file = extract_persons(input_file)
+    with open(input_file) as file:
+        persons = json.load(file)
+    del persons["$schema"]
     translation_data = initialize_translation_database()
     data_with_identifier = {}
 
-    for person in persons_in_file:
-        if person[2] != "$":
-            raise Exception(f"No identifier found for ${person}")
-
+    for identifier, data in persons.items():
         # Create data from persons
-        full_name_function_nl_nl, _, identifier, _, _, comments, sources = create_person(
-            "nl_NL", person, translation_data
-        )
-        full_name_function_it_it, _, _, _, _, _, _ = create_person(
-            "it_IT", person, translation_data
-        )
-        full_name_function_en_gb, _, _, _, _, _, _ = create_person(
-            "en_GB", person, translation_data
-        )
+        full_name_function_nl_nl, _ = create_person("nl_NL", data, translation_data)
+        full_name_function_it_it, _ = create_person("it_IT", data, translation_data)
+        full_name_function_en_gb, _ = create_person("en_GB", data, translation_data)
 
         if identifier in data_with_identifier.keys():
             raise Exception(f"Identifier of {full_name_function_nl_nl} is a duplicate")
@@ -45,8 +36,8 @@ def person_with_identifier(input_file):
             "it_IT": full_name_function_it_it,
             "nl_NL": full_name_function_nl_nl,
             "en_GB": full_name_function_en_gb,
-            "comments": comments,
-            "sources": sources
+            "comments": data["comment"],
+            "sources": "; ".join(data["sources"])
         }
 
         print(full_name_function_nl_nl)
@@ -64,22 +55,19 @@ def used_functions_and_titles(input_file):
         list: A list of all used functions
         list: A list of all used titles
     """
-    persons_in_file = extract_persons(input_file)
-    translation_data = initialize_translation_database()
+    with open(input_file) as file:
+        persons = json.load(file)
+    del persons["$schema"]
     all_functions = []
     all_titles = []
 
-    for person in persons_in_file:
-        _, full_name_nl_nl, _, functions, titles, _, _ = create_person(
-            "nl_NL", person, translation_data
-        )
-
-        for i in functions:
+    for _, data in persons.items():
+        for i in data['functions']:
             all_functions.append(i[0])
-        for i in titles.split("| "):
+        for i in data['titles']:
             all_titles.append(i)
 
-        print(full_name_nl_nl)
+        print(data['surname'])
 
     return sorted(list(set(all_functions))), sorted(list(set(all_titles)))
 
@@ -93,14 +81,14 @@ def used_names(input_file):
     Returns:
         list: A list of all names
     """
-    with open(filename) as file:
-        persons_in_file = json.load(file)
-    del persons_in_file["$schema"]
+    with open(input_file) as file:
+        persons = json.load(file)
+    del persons["$schema"]
     translation_data = initialize_translation_database()
     all_full_names = []
 
-    for person in persons_in_file:
-        _, full_name_nl_nl, _, _, _, _, _ = create_person("nl_NL", person, translation_data)
+    for _, data in persons.items():
+        _, full_name_nl_nl = create_person("nl_NL", data, translation_data)
         all_full_names.append(full_name_nl_nl)
 
         print(full_name_nl_nl)

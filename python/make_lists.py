@@ -1,4 +1,3 @@
-"""TODO: Outdated"""
 import docx
 
 from create_data import used_functions_and_titles, used_names
@@ -51,7 +50,7 @@ def create_names(localization, input_file):
 
 
 if __name__ == "__main__":
-    create_names("nl_NL", "inputs/Eigennamen.docx")
-    #create_to_be_translated("inputs/Eigennamen.docx")
+    create_names("nl_NL", "inputs/Individuals.json")
+    #create_to_be_translated("inputs/Individuals.json")
     #create_names_in_fondo("inputs/Fondo Legazione Paesi Bassi.docx")
     print("Done!")

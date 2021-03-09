@@ -1,4 +1,3 @@
-"""TODO: Outdated"""
 from create_data import person_with_identifier
 from functions.create_docx import list_of_translated_data
 from functions.create_docx import list_of_translated_data_with_style
@@ -23,7 +22,7 @@ def create_name_docx(input_file_names, input_file_data):
         result.append(person_data[identifier]["nl_NL"])
         result.append(person_data[identifier]["en_GB"])
         result.append(f"Comments: {person_data[identifier]['comments']}")
-        result.append(f"Sources: {', '.join(person_data[identifier]['sources'])}")
+        result.append(f"Sources: {person_data[identifier]['sources']}")
         translated_people.append(result)
 
     list_of_translated_data(translated_people, "NameList")
@@ -46,11 +45,11 @@ def create_name_docx_with_style(input_file_names, input_file_data):
         result.append(person_data[identifier]["nl_NL"])
         result.append(person_data[identifier]["en_GB"])
         result.append(f"Comments: {person_data[identifier]['comments']}")
-        result.append(f"Sources: {', '.join(person_data[identifier]['sources'])}")
+        result.append(f"Sources: {person_data[identifier]['sources']}")
         translated_people.append(result)
 
     list_of_translated_data_with_style(translated_people, "NameList")
 
 if __name__ == "__main__":
-    create_name_docx("inputs/NamesFondo+Identifier.docx", "inputs/Eigennamen.docx")
-    create_name_docx_with_style("inputs/NamesFondo+Identifier.docx", "inputs/Eigennamen.docx")
+    create_name_docx("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
+    create_name_docx_with_style("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")

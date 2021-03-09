@@ -18,7 +18,7 @@ def full_name(surname, name, titles, translation_data, localization):
     """
     if surname == "":
         raise Exception(f"{name} has no surname!")
-    titles = titles.split("| ")
+
     if titles[0] != "":
         translation_entry = translation_data[0][titles[0]]
         if translation_entry["position"] == "Before":
