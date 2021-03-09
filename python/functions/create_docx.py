@@ -125,7 +125,7 @@ def database(dict_of_individuals, output_name, skip_types):
         skip_types (list): Number of person_types to skip (for example [1, 2])
     """
     if skip_types:
-        output_name = f"{output_name}_without_types_{','.join(skip_types)}"
+        output_name = f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
     out_doc = docx.Document()
     for identifier, data in dict_of_individuals.items():
         if data["person_type"] not in skip_types:
