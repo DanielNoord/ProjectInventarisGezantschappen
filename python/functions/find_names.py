@@ -15,14 +15,18 @@ def create_person(localization, person, translation_data):
     """
     # Create Full Name variable
     str_full_name = create_full_name(
-        person['surname'], person['name'], person['titles'], translation_data, localization
+        person["surname"],
+        person["name"],
+        person["titles"],
+        translation_data,
+        localization,
     )
 
     # Create Full Name + function variable
     str_full_name_function = str_full_name
-    if person['functions'] != [""]:
+    if person["functions"] != [""]:
         str_functions = ", ".join(
-            [translation_data[1][i[0]][localization] for i in person['functions']]
+            [translation_data[1][i[0]][localization] for i in person["functions"]]
         )
         str_full_name_function = f"{str_full_name} ({str_functions})"
 

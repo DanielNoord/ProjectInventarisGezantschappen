@@ -40,9 +40,13 @@ def extract_persons(filename):
     missing_possible = -1
     for para in doc.paragraphs:
         if len(para.runs) > 1:
-            if para.runs[1].font.highlight_color == 6 or re.match(r"- .*?; 2", para.text):
+            if para.runs[1].font.highlight_color == 6 or re.match(
+                r"- .*?; 2", para.text
+            ):
                 impossible += 1
-            if para.runs[1].font.highlight_color == 7 or re.match(r"- .*?; 3", para.text):
+            if para.runs[1].font.highlight_color == 7 or re.match(
+                r"- .*?; 3", para.text
+            ):
                 missing_possible += 1
         all_text.append(para.text)
     full_text = "\n".join(all_text)
@@ -75,6 +79,7 @@ def extract_volumes(filename):
     full_text = "\n".join(all_text)
     return re.findall(regex, full_text)
 
+
 def extract_translations(filename):
     """Loads translations from file
 
@@ -89,15 +94,15 @@ def extract_translations(filename):
     for para in doc.paragraphs:
         translations = para.text.split("\n")
         translation = {
-                "en_GB": translations[2],
-                "it_IT": translations[1],
-                "nl_NL": translations[0]
-            }
+            "en_GB": translations[2],
+            "it_IT": translations[1],
+            "nl_NL": translations[0],
+        }
         for line in translations[3:]:
             if line.startswith("Opmerking: "):
-                translation["comment"] = translations[3][11:] # Cuts of "Opmerking: "
+                translation["comment"] = translations[3][11:]  # Cuts of "Opmerking: "
             if line.startswith("position: "):
-                translation["position"] = translations[3][10:] # Cuts of "position: "
+                translation["position"] = translations[3][10:]  # Cuts of "position: "
 
         all_translations[translations[0]] = translation
     return all_translations

@@ -27,6 +27,7 @@ def create_name_docx(input_file_names, input_file_data):
 
     list_of_translated_data(translated_people, "NameList")
 
+
 def create_name_docx_with_style(input_file_names, input_file_data):
     """Creates a document with all names encountered in the input_file with translations
     in Italian, Dutch and English with added style (italic etc.)
@@ -50,6 +51,9 @@ def create_name_docx_with_style(input_file_names, input_file_data):
 
     list_of_translated_data_with_style(translated_people, "NameList")
 
+
 if __name__ == "__main__":
     create_name_docx("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
-    create_name_docx_with_style("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
+    create_name_docx_with_style(
+        "inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json"
+    )

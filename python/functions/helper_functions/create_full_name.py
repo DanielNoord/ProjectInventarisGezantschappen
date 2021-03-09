@@ -1,5 +1,5 @@
 def full_name(surname, name, titles, translation_data, localization):
-    """ Creates the string for the full name including title
+    """Creates the string for the full name including title
 
     Args:
         surname (str): Surname of individual
@@ -45,7 +45,9 @@ def full_name(surname, name, titles, translation_data, localization):
                 elif translation_entry["position"] == "After":
                     str_full_name += f" {translation_entry[localization]},"
                 else:
-                    raise Exception("Can't parse second title, maybe change order in sourcefile")
+                    raise Exception(
+                        "Can't parse second title, maybe change order in sourcefile"
+                    )
     else:
         if name != "":
             str_full_name = f"{name} {surname}"

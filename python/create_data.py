@@ -37,7 +37,7 @@ def person_with_identifier(input_file):
             "nl_NL": full_name_function_nl_nl,
             "en_GB": full_name_function_en_gb,
             "comments": data["comment"],
-            "sources": "; ".join(data["sources"])
+            "sources": "; ".join(data["sources"]),
         }
 
         print(full_name_function_nl_nl)
@@ -62,12 +62,12 @@ def used_functions_and_titles(input_file):
     all_titles = []
 
     for _, data in persons.items():
-        for i in data['functions']:
+        for i in data["functions"]:
             all_functions.append(i[0])
-        for i in data['titles']:
+        for i in data["titles"]:
             all_titles.append(i)
 
-        print(data['surname'])
+        print(data["surname"])
 
     return sorted(list(set(all_functions))), sorted(list(set(all_titles)))
 
