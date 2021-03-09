@@ -7,7 +7,7 @@ from functions.create_docx import database
 from functions.helper_functions.parse_function_string import function as read_function
 
 
-def save_database(filename):
+def save_database(filename, previous_database=None):
     """Load database from .docx and write .json
 
     Args:
@@ -45,6 +45,8 @@ def save_database(filename):
             "comment": comment,
             "sources": sources,
         }
+    if previous_database:
+        all_individuals = previous_database | all_individuals
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(all_individuals, file, ensure_ascii=False, indent=4)
     print("Wrote file to outputs/Individuals.json")
@@ -64,6 +66,21 @@ def load_database(filename, skip_types=None):
     database(persons, "Individuals", skip_types)
 
 
+def merge_database(filename, previous_database_filename):
+    """Merges a file with a subset of the database (for example only a single person type)
+    with a given previous database
+
+    Args:
+        filename (str): Name of file of new data
+        previous_database_filename (str): Name of file of old data
+    """
+    with open(previous_database_filename) as file:
+        prev_persons = json.load(file)
+    save_database(filename, prev_persons)
+
+
 if __name__ == "__main__":
-    save_database("inputs/Individuals.docx")
-    load_database("inputs/Individuals.json")
+    # save_database("inputs/Individuals.docx")
+    # load_database("inputs/Individuals.json", [1])
+    # merge_database("inputs/Individuals_without_types_1.docx", "inputs/Individuals.json")
+    pass
