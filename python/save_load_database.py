@@ -4,8 +4,7 @@ import re
 import docx
 
 from functions.create_docx import database
-from functions.helper_functions.parse_function_string import \
-    function as read_function
+from functions.helper_functions.parse_function_string import function as read_function
 
 
 def save_database(filename):
@@ -28,7 +27,7 @@ def save_database(filename):
             functions,
             residence,
             comment,
-            sources
+            sources,
         ) = re.split(r"\n.*?: ", para.text)
 
         person_type = int(person_type)
@@ -44,13 +43,14 @@ def save_database(filename):
             "functions": functions,
             "place of residence": residence,
             "comment": comment,
-            "sources": sources
+            "sources": sources,
         }
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(all_individuals, file, ensure_ascii=False, indent=4)
     print("Wrote file to outputs/Individuals.json")
 
-def load_database(filename, skip_types = None):
+
+def load_database(filename, skip_types=None):
     """Load database from .json and write .docx
 
     Args:

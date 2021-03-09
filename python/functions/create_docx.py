@@ -50,6 +50,7 @@ def list_of_translated_data(list_to_write, output_name):
     out_doc.save(f"outputs/Translated{output_name}.docx")
     print(f"Wrote file at outputs/Translated{output_name}.docx")
 
+
 def list_of_translated_data_with_style(list_to_write, output_name):
     """Write a docx file based on input with style applied
 
@@ -116,6 +117,7 @@ def list_with_style(list_of_lines, output_name):
     out_doc.save(f"outputs/Stylized{output_name}.docx")
     print(f"Wrote file at outputs/Stylized{output_name}.docx")
 
+
 def database(dict_of_individuals, output_name, skip_types):
     """Write a docx file based on input dictionary
 
@@ -125,7 +127,9 @@ def database(dict_of_individuals, output_name, skip_types):
         skip_types (list): Number of person_types to skip (for example [1, 2])
     """
     if skip_types:
-        output_name = f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
+        output_name = (
+            f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
+        )
     out_doc = docx.Document()
     for identifier, data in dict_of_individuals.items():
         if data["person_type"] not in skip_types:
@@ -137,7 +141,9 @@ def database(dict_of_individuals, output_name, skip_types):
             paragraph.add_run(f"Name: {data['name']}\n")
             paragraph.add_run(f"Nationality: {data['nationality']}\n")
             paragraph.add_run(f"Titles: {'| '.join(data['titles'])}\n")
-            func_string = f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
+            func_string = (
+                f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
+            )
             paragraph.add_run(func_string.replace(" (None)", ""))
             paragraph.add_run(f"Place of residence: {data['place of residence']}\n")
             paragraph.add_run(f"Comment: {data['comment']}\n")

@@ -3,6 +3,7 @@ import json
 from functions.helper_functions.extract_date import extract_date
 from functions.translate import initialize_translation_database
 
+
 def check_translations():
     """Checks the JSON files that contain all translations
 
@@ -12,14 +13,18 @@ def check_translations():
     translated_titles, translated_functions = initialize_translation_database()
     for key, translations in translated_titles.items():
         if key != translations["nl_NL"]:
-            raise Exception(f"Found difference in Dutch translation and key for title {key}")
+            raise Exception(
+                f"Found difference in Dutch translation and key for title {key}"
+            )
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in titles at {key}")
 
     for key, translations in translated_functions.items():
         if key != translations["nl_NL"]:
-            raise Exception(f"Found difference in Dutch translation and key for function {key}")
+            raise Exception(
+                f"Found difference in Dutch translation and key for function {key}"
+            )
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in functions at {key}")
@@ -55,13 +60,13 @@ def check_entries(input_file):
         if data["person_type"] == "":
             raise Exception(f"Type of {data['surname']} is missing")
 
-        if data['titles'] != [""]:
-            for title in data['titles']:
+        if data["titles"] != [""]:
+            for title in data["titles"]:
                 assert translated_titles[title]
                 used_titles.append(title)
 
-        if data['functions'] != [""]:
-            for function, timeperiod in data['functions']:
+        if data["functions"] != [""]:
+            for function, timeperiod in data["functions"]:
                 assert translated_functions[function]
                 if timeperiod is not None:
                     assert extract_date(timeperiod, "nl_NL")
