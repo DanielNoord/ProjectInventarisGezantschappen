@@ -146,8 +146,6 @@ def database(dict_of_individuals, output_name, skip_types):
             paragraph_format = paragraph.paragraph_format
             paragraph_format.first_line_indent = Pt(-10)
 
-
-
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
     out_doc.save(f"outputs/{output_name}.docx")
