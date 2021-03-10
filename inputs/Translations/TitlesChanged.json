@@ -1,3 +1,39 @@
 {
-    "$schema": "../../static/JSON/Functions.json"
+	"$schema": "../../static/JSON/Functions.json",
+	"Freiherr": {
+		"en_GB": "Freiherr",
+		"it_IT": "Freiherr",
+		"nl_NL": "Freiherr",
+		"position": "Middle"
+	},
+	"brigadegeneraal": {
+		"en_GB": "brigadier general",
+		"it_IT": "brigadier generale",
+		"nl_NL": "brigadegeneraal",
+		"position": "Before"
+	},
+	"generaal-majoor": {
+		"en_GB": "major general",
+		"it_IT": "maggior generale",
+		"nl_NL": "generaal-majoor",
+		"position": "Before"
+	},
+	"gepensioneerd 1e officier van gezondheid, 2e klasse,": {
+		"en_GB": "retired 1st officer of health, 2nd class,",
+		"it_IT": "1° ufficiale della sanità in pensione di 2° classe",
+		"nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
+		"position": "Before"
+	},
+	"pater": {
+		"en_GB": "father",
+		"it_IT": "padre",
+		"nl_NL": "pater",
+		"position": "Before"
+	},
+	"zuster": {
+		"en_GB": "sister",
+		"it_IT": "suor",
+		"nl_NL": "zuster",
+		"position": "Before"
+	}
 }
