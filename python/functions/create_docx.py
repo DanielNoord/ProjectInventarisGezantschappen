@@ -130,7 +130,10 @@ def database(dict_of_individuals, output_name, skip_types):
         output_name = (
             f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
         )
+
+    amount = 0
     out_doc = docx.Document()
+
     for identifier, data in dict_of_individuals.items():
         if data["person_type"] not in skip_types:
             paragraph = out_doc.add_paragraph("")
@@ -151,8 +154,9 @@ def database(dict_of_individuals, output_name, skip_types):
 
             paragraph_format = paragraph.paragraph_format
             paragraph_format.first_line_indent = Pt(-10)
+            amount += 1
 
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
     out_doc.save(f"outputs/{output_name}.docx")
-    print(f"Wrote file at outputs/{output_name}.docx")
+    print(f"Wrote file at outputs/{output_name}.docx with {amount} people")
