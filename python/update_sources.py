@@ -4,19 +4,15 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def update_trecanni(filename):
+def update_trecanni(persons):
     """Downloads the correct author and title date from the Dizionario Biografico
 
     Args:
-        filename (str): File name of the original database
+        persons (dict): Dictionary with all individuals
 
     Returns:
         dict: Updated individuals dictionary
     """
-    with open(filename) as file:
-        persons = json.load(file)
-    del persons["$schema"]
-
     for _, data in persons.items():
         for index, source in enumerate(data["sources"]):
             if re.match(r"https://www.treccani.it/.*Dizionario-Biografico\)", source):
@@ -46,6 +42,18 @@ def update_trecanni(filename):
                 print(f"New source:\n   {final_source}")
     return persons
 
+def update_all_sources(filename):
+    """Updates all sources for given database
+
+    Args:
+        filename (str): File name of initial database
+    """    
+    with open(filename) as file:
+        persons = json.load(file)
+    del persons["$schema"]
+
+    persons = update_trecanni(persons)
+
 
 if __name__ == "__main__":
-    update_trecanni("inputs/Individuals.json")
+    update_all_sources("inputs/Individuals.json")
