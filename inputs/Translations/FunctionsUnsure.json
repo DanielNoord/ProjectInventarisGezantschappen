@@ -1,63 +1,38 @@
 {
-    "$schema": "../../static/JSON/Functions.json",
-    "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede": {
-        "en_GB": "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede",
-        "it_IT": "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede",
-        "nl_NL": "Ambascaitore Straordinario e Plenipotenziario del re di Spagna presso la Santa Sede"
-    },
-    "Directeur van het Penningenkabinet van de Universiteit Leiden": {
-        "en_GB": "Directeur van het Penningenkabinet van de Universiteit Leiden",
-        "it_IT": "Direttore dell'Ufficio delle medaglie e delle monete dell'Università di Leida",
-        "nl_NL": "Directeur van het Penningenkabinet van de Universiteit Leiden"
-    },
-    "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane": {
-        "en_GB": "Intieme adviseur van Staat, Financiën en Oorlog of the Grand Duchy of Tuscany",
-        "it_IT": "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana",
-        "nl_NL": "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane"
-    },
-    "Minister van Oostenrijk": {
-        "en_GB": "Minister of Austria",
-        "it_IT": "Ministro d'Austria",
-        "nl_NL": "Minister van Oostenrijk"
-    },
-    "Prefect en later president _delle Armi_ {van de wapens} van de Kerkelijke Staat": {
-        "en_GB": "Prefect and later President _delle Armi_ {of the weapons} of the Papal State",
-        "it_IT": "Prefetto e successivamente Presidente delle Armi dello Stato Pontifico",
-        "nl_NL": "Prefect en later president _delle Armi_ {van de wapens} van de Kerkelijke Staat"
-    },
-    "Pro-kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat": {
-        "en_GB": "Pro-cardinal Secretary and president of the council of ministers of the Papel States",
-        "it_IT": "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio",
-        "nl_NL": "Pro-kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat"
-    },
-    "Secretary for the Affairs of the Grand Duchy of Luxembourg": {
-        "en_GB": "Secretary for the Affairs of the Grand Duchy of Luxembourg",
-        "it_IT": "Secretary for the Affairs of the Grand Duchy of Luxembourg",
-        "nl_NL": "Secretary for the Affairs of the Grand Duchy of Luxembourg"
-    },
-    "_Gonfaloniere di Fano_": {
-        "en_GB": "_Gonfaloniere di Fano_",
-        "it_IT": "Gonfaloniere di Fano",
-        "nl_NL": "_Gonfaloniere di Fano_"
-    },
-    "_Gran Maestro di Cerimonie di S. M._": {
-        "en_GB": "_Gran Maestro di Cerimonie di S. M._",
-        "it_IT": "Gran Maestro di Cerimonie di S. M.",
-        "nl_NL": "_Gran Maestro di Cerimonie di S. M._"
-    },
-    "_Grandufficiale di Corte dei Paesi Bassi_": {
-        "en_GB": "_Grandufficiale di Corte dei Paesi Bassi_",
-        "it_IT": "Grandufficiale di Corte dei Paesi Bassi",
-        "nl_NL": "_Grandufficiale di Corte dei Paesi Bassi_"
-    },
-    "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_": {
-        "en_GB": "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_",
-        "it_IT": "Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri",
-        "nl_NL": "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_"
-    },
-    "_Sottosegretario di Stato_": {
-        "en_GB": "_Sottosegretario di Stato_",
-        "it_IT": "Sottosegretario di Stato",
-        "nl_NL": "_Sottosegretario di Stato_"
-    }
+  "$schema": "../../static/JSON/Functions.json",
+  "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane": {
+    "en_GB": "Intieme adviseur van Staat, Financiën en Oorlog of the Grand Duchy of Tuscany",
+    "it_IT": "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana",
+    "nl_NL": "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane"
+  },
+  "Minister van Oostenrijk": {
+    "en_GB": "Minister of Austria",
+    "it_IT": "Ministro d'Austria",
+    "nl_NL": "Minister van Oostenrijk"
+  },
+  "Pro-kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat": {
+    "en_GB": "Pro-cardinal Secretary and president of the council of ministers of the Papel States",
+    "it_IT": "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio",
+    "nl_NL": "Pro-kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat"
+  },
+  "_Gran Maestro di Cerimonie di S. M._": {
+    "en_GB": "_Gran Maestro di Cerimonie di S. M._",
+    "it_IT": "Gran Maestro di Cerimonie di S. M.",
+    "nl_NL": "_Gran Maestro di Cerimonie di S. M._"
+  },
+  "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_": {
+    "en_GB": "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_",
+    "it_IT": "Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri",
+    "nl_NL": "_Incaricato ad interim del Portafoglio del Ministero degli Affari Esteri_"
+  },
+  "_Segretario di Stato_": {
+    "en_GB": "_Segretario di Stato_",
+    "it_IT": "Segretario di Stato",
+    "nl_NL": "_Segretario di Stato_"
+  },
+  "_Sottosegretario di Stato_": {
+    "en_GB": "_Sottosegretario di Stato_",
+    "it_IT": "Sottosegretario di Stato",
+    "nl_NL": "_Sottosegretario di Stato_"
+  }
 }
