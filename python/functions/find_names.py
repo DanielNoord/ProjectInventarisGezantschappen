@@ -28,6 +28,7 @@ def create_person(localization, person, translation_data):
         str_functions = ", ".join(
             [translation_data[1][i[0]][localization] for i in person["functions"]]
         )
-        str_full_name_function = f"{str_full_name} ({str_functions})"
+        if str_functions != "":
+            str_full_name_function = f"{str_full_name} ({str_functions})"
 
     return str_full_name_function, str_full_name

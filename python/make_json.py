@@ -2,6 +2,7 @@ import json
 
 from functions.helper_functions.parse_function_string import function as read_function
 from functions.helper_functions.parse_person_string import person as read_person
+from functions.helper_functions.parse_title_string import title as read_title
 from functions.load_docx import extract_persons
 from functions.load_docx import extract_translations
 
@@ -29,7 +30,7 @@ def create_json_database(input_file):
             sources,
         ) = read_person(person)
         person_type = int(person_type)
-        titles = titles.split("| ")
+        titles = read_title(titles)
         functions = read_function(functions)
         sources = sources.split("| ")
         data_with_identifier[identifier] = {

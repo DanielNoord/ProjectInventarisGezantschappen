@@ -21,18 +21,20 @@ def name_string(person, date, translation_data, localization):
         person["titles"],
         translation_data,
         localization,
+        date
     )
 
     # Create Full Name + function variable
     if person["functions"] != []:
         relevant_functions = []
         for func in person["functions"]:
-            if func[1] is None:
+            if func[1] is None or date[0] is None:
                 relevant_functions.append(func)
             elif check_date(date, func[1]):
                 relevant_functions.append(func)
         str_functions = ", ".join(
             [translation_data[1][i[0]][localization] for i in relevant_functions]
         )
-        return f"{str_full_name} ({str_functions})"
+        if str_functions != "":
+            return f"{str_full_name} ({str_functions})"
     return str_full_name

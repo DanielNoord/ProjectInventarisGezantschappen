@@ -143,7 +143,14 @@ def database(dict_of_individuals, output_name, skip_types):
             paragraph.add_run(f"Surname: {data['surname']}\n")
             paragraph.add_run(f"Name: {data['name']}\n")
             paragraph.add_run(f"Nationality: {data['nationality']}\n")
-            paragraph.add_run(f"Titles: {'| '.join(data['titles'])}\n")
+            paragraph.add_run(f"Date of birth: {data['date_of_birth']}\n")
+            paragraph.add_run(f"Place of birth: {data['place_of_birth']}\n")
+            paragraph.add_run(f"Date of death: {data['date_of_death']}\n")
+            paragraph.add_run(f"Place of death: {data['place_of_death']}\n")
+            title_string = (
+                f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
+            )
+            paragraph.add_run(title_string.replace(" (None)", ""))
             func_string = (
                 f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
             )

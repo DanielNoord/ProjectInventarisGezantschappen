@@ -5,6 +5,7 @@ import docx
 
 from functions.create_docx import database
 from functions.helper_functions.parse_function_string import function as read_function
+from functions.helper_functions.parse_title_string import title as read_title
 
 
 def save_database(filename, previous_database=None):
@@ -23,6 +24,10 @@ def save_database(filename, previous_database=None):
             surname,
             name,
             nationality,
+            date_of_birth,
+            place_of_birth,
+            date_of_death,
+            place_of_death,
             titles,
             functions,
             residence,
@@ -31,7 +36,7 @@ def save_database(filename, previous_database=None):
         ) = re.split(r"\n.*?: ", para.text)
 
         person_type = int(person_type)
-        titles = titles.split("| ")
+        titles = read_title(titles)
         functions = read_function(functions)
         sources = sources.replace("\n", "").split("| ")
         all_individuals[identifier] = {
@@ -39,6 +44,10 @@ def save_database(filename, previous_database=None):
             "person_type": person_type,
             "name": name,
             "nationality": nationality,
+            "date_of_birth": date_of_birth,
+            "place_of_birth": place_of_birth,
+            "date_of_death": date_of_death,
+            "place_of_death": place_of_death,
             "titles": titles,
             "functions": functions,
             "place of residence": residence,
@@ -80,6 +89,6 @@ def merge_database(filename, previous_database_filename):
 
 if __name__ == "__main__":
     #save_database("inputs/Individuals.docx")
-    load_database("inputs/Individuals.json", [0,1,2,4,5])
-    #merge_database("inputs/Individuals_without_types_0,1,2,4,5.docx", "inputs/Individuals.json")
+    #load_database("inputs/Individuals.json", [0,1])
+    merge_database("inputs/Individuals_without_types_0,1.docx", "inputs/Individuals.json")
     pass

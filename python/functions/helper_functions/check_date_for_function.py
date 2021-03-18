@@ -13,11 +13,11 @@ def check_begin(date, begin_date):
     if date[0] > int(begin_date[0]):
         return True
     if date[0] == int(begin_date[0]):
-        if len(date) > 1 and len(begin_date) > 1:
+        if date[1] is not None and len(begin_date) > 1:
             if date[1] > int(begin_date[1]):
                 return True
             if date[1] == int(begin_date[1]):
-                if len(date) > 2 and len(begin_date) > 2:
+                if date[2] is not None and len(begin_date) > 2:
                     return bool(date[2] >= int(begin_date[2]))
                 return True
             return False
@@ -40,11 +40,11 @@ def check_end(date, end_date):
     if date[0] < int(end_date[0]):
         return True
     if date[0] == int(end_date[0]):
-        if len(date) > 1 and len(end_date) > 1:
+        if date[1] is not None and len(end_date) > 1:
             if date[1] < int(end_date[1]):
                 return True
             if date[1] == int(end_date[1]):
-                if len(date) > 2 and len(end_date) > 2:
+                if date[2] is not None and len(end_date) > 2:
                     return bool(date[2] <= int(end_date[2]))
                 return True
             return False

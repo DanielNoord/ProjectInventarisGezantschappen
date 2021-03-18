@@ -61,8 +61,10 @@ def check_entries(input_file):
             raise Exception(f"Type of {data['surname']} is missing")
 
         if data["titles"] != [""]:
-            for title in data["titles"]:
+            for title, timeperiod in data["titles"]:
                 assert translated_titles[title]
+                if timeperiod is not None:
+                    assert extract_date(timeperiod, "nl_NL")
                 used_titles.append(title)
 
         if data["functions"] != [""]:
@@ -71,6 +73,12 @@ def check_entries(input_file):
                 if timeperiod is not None:
                     assert extract_date(timeperiod, "nl_NL")
                 used_functions.append(function)
+
+        if data["date_of_birth"] != [""]:
+            assert extract_date(data["date_of_birth"], "nl_NL")
+
+        if data["date_of_death"] != [""]:
+            assert extract_date(data["date_of_birth"], "nl_NL")
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
     unused_functions = [
