@@ -1,117 +1,128 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema#",
-    "title": "List of all individuals mentioned in the archive",
-    "type": "object",
-    "definitions": {
-        "date": {
-            "description": "A string containing a date",
-            "pattern": "^([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?/?([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?$",
-            "type": "string"
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "title": "List of all individuals mentioned in the archive",
+  "type": "object",
+  "definitions": {
+    "date": {
+      "description": "A string containing a date",
+      "pattern": "^([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?/?([0-9]{4})?-?([0-9]{2})?-?([0-9]{2})?$",
+      "type": "string"
+    },
+    "function-title": {
+      "description": "An array describing a function or title",
+      "items": [
+        {
+          "type": "string"
         },
-        "function": {
-            "description": "An array describing a function",
-            "items": [
-                {
-                    "type": "string"
-                },
-                {
-                    "oneOf": [
-                        {
-                            "$ref": "#/definitions/date"
-                        },
-                        {
-                            "type": "null"
-                        }
-                    ]
-                }
-            ],
-            "maxLength": 2,
-            "minLength": 2,
-            "type": "array"
-        },
-        "person": {
-            "description": "A person, named by its identifier",
-            "properties": {
-                "comment": {
-                    "description": "Comments about extra info or the person",
-                    "type": "string"
-                },
-                "functions": {
-                    "additionalItems": {
-                        "$ref": "#/definitions/function"
-                    },
-                    "function": "Array of functions of individual",
-                    "items": {
-                        "$ref": "#/definitions/function"
-                    },
-                    "type": "array"
-                },
-                "name": {
-                    "description": "Name of individual",
-                    "type": "string"
-                },
-                "nationality": {
-                    "description": "Nationality of individual (often missing)",
-                    "type": "string"
-                },
-                "person_type": {
-                    "description": "Type of person using numbering scheme",
-                    "type": "number"
-                },
-                "place of residence": {
-                    "description": "Place of residence of individual (often missing)",
-                    "type": "string"
-                },
-                "sources": {
-                    "additionalItems": {
-                        "type": "string"
-                    },
-                    "description": "Array of relevant sources",
-                    "items": [
-                        {
-                            "type": "string"
-                        }
-                    ],
-                    "minItems": 1,
-                    "type": "array"
-                },
-                "surname": {
-                    "description": "Surname of individual",
-                    "type": "string"
-                },
-                "titles": {
-                    "additionalItems": {
-                        "type": "string"
-                    },
-                    "description": "Array of titles of individual",
-                    "items": [
-                        {
-                            "type": "string"
-                        }
-                    ],
-                    "minItems": 1,
-                    "type": "array"
-                }
+        {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/date"
             },
-            "required": [
-                "surname",
-                "name",
-                "nationality",
-                "titles",
-                "functions",
-                "place of residence",
-                "comment",
-                "person_type",
-                "sources"
-            ],
-            "type": "object"
+            {
+              "type": "null"
+            }
+          ]
         }
+      ],
+      "maxLength": 2,
+      "minLength": 2,
+      "type": "array"
     },
-    "properties": {
-        "$schema": "string"
-    },
-    "additionalProperties": {
-        "$ref": "#/definitions/person"
-    },
-    "uniqueItems": true
+    "person": {
+      "description": "A person, named by its identifier",
+      "properties": {
+        "comment": {
+          "description": "Comments about extra info or the person",
+          "type": "string"
+        },
+        "functions": {
+          "items": {
+            "$ref": "#/definitions/function-title"
+          },
+          "function": "Array of functions of individual",
+          "type": "array"
+        },
+        "name": {
+          "description": "Name of individual",
+          "type": "string"
+        },
+        "date_of_death": {
+          "description": "Date of death of individual",
+          "$ref": "#/definitions/date"
+        },
+        "place_of_death": {
+          "description": "Place of death of individual",
+          "type": "string"
+        },
+        "date_of_birth": {
+          "description": "Date of birth of individual",
+          "$ref": "#/definitions/date"
+        },
+        "place_of_birth": {
+          "description": "Date of birth of individual",
+          "type": "string"
+        },
+        "nationality": {
+          "description": "Nationality of individual (often missing)",
+          "type": "string"
+        },
+        "person_type": {
+          "description": "Type of person using numbering scheme",
+          "type": "number"
+        },
+        "place of residence": {
+          "description": "Place of residence of individual (often missing)",
+          "type": "string"
+        },
+        "sources": {
+          "additionalItems": {
+            "type": "string"
+          },
+          "description": "Array of relevant sources",
+          "items": [
+            {
+              "type": "string"
+            }
+          ],
+          "minItems": 1,
+          "type": "array"
+        },
+        "surname": {
+          "description": "Surname of individual",
+          "type": "string"
+        },
+        "titles": {
+          "items": {
+            "$ref": "#/definitions/function-title"
+          },
+          "description": "Array of titles of individual",
+          "type": "array"
+        }
+      },
+      "required": [
+        "surname",
+        "name",
+        "nationality",
+        "date_of_birth",
+        "place_of_birth",
+        "date_of_death",
+        "place_of_death",
+        "titles",
+        "functions",
+        "place of residence",
+        "comment",
+        "person_type",
+        "sources"
+      ],
+      "type": "object"
+    }
+  },
+  "properties": {
+    "$schema": "string"
+  },
+  "additionalProperties": {
+    "$ref": "#/definitions/person"
+  },
+  "uniqueItems": true
 }
