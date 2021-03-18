@@ -73,6 +73,7 @@ def update_all_sources(filename):
                 pass
                 # (persons[identifier]["date_of_birth"],
                 # #persons[identifier]["date_of_death"]) = update_parlement(source)
+    persons["$schema"] = "../static/JSON/Individuals.json"
 
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(persons, file, ensure_ascii=False, indent=4)
