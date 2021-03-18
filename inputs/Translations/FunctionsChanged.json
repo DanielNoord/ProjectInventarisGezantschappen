@@ -40,6 +40,11 @@
     "it_IT": "Procuratore generale del Fisco e del tribunale della Rev. Camera Apostolica",
     "nl_NL": "Auditeur-generaal van de belastingdienst en de Apostolische Kamer"
   },
+  "Auditor van het _Magistrato di Sanità_ van Genua": {
+    "en_GB": "Auditor of the _Magistrato di Sanità_ of Genoa",
+    "it_IT": "Sindaco del Magistrato di Sanità di Genova",
+    "nl_NL": "Auditor van het _Magistrato di Sanità_ van Genua"
+  },
   "Buitengewoon en gevolmachtigd ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel": {
     "en_GB": "Extraordinary and plenipotentiary ambassador of the Kingdom of Spain to the Holy See",
     "it_IT": "Ambascaitore straordinario e lenipotenziario del Regno di Spagna presso la Santa Sede",
@@ -84,6 +89,11 @@
     "en_GB": "Commander in chief of the troops of the province and fortress of Palermo for the Kingdom of the Two Sicilies",
     "it_IT": "Generale comandante delle Armi della Provincia e Real Piazza di Palermo per il Regno delle Due Sicilie",
     "nl_NL": "Commandant-generaal van de troepen van de provincie en vesting van Palermo voor het Koninkrijk der Beide Siciliën"
+  },
+  "Commissaris generaal van het _Magistrato di Sanità_ van Genua": {
+    "en_GB": "General commissioner of the _Magistrato di Sanità_ of Genoa",
+    "it_IT": "Commissario generale del _Magistrato di Sanità_ di Genova",
+    "nl_NL": "Commissaris generaal van het _Magistrato di Sanità_ van Genua"
   },
   "Commissaris van de Koning van Italië voor de provincie Civitavecchia": {
     "en_GB": "Commissioner of the King of Italy for the province of Civitavecchia",
@@ -180,6 +190,11 @@
     "it_IT": "Membro del _Ridderschap_ del Brabante Settentrionale",
     "nl_NL": "Lid van het Ridderschap van Noord-Brabant"
   },
+  "Luitenant van de militie van Mondovì": {
+    "en_GB": "Lieutenant of the militia of Mondovì",
+    "it_IT": "Luogotenente della milizia di Mondovì",
+    "nl_NL": "Luitenant van de militie van Mondovì"
+  },
   "Minister van Oorlog van de Kerkelijke Staat": {
     "en_GB": "Minister of War of the Papal States",
     "it_IT": "Ministro della Guerra dello Stato Pontifico",
@@ -214,6 +229,11 @@
     "en_GB": "Ship captain",
     "it_IT": "Capitano di vascello",
     "nl_NL": "Scheepskapitein"
+  },
+  "Secretaris van het _Magistrato di Sanità_ van Genua": {
+    "en_GB": "Secretary of the _Magistrato di Sanità_ of Genoa",
+    "it_IT": "Segretario del _Magistrato di Sanità_ di Genova",
+    "nl_NL": "Secretaris van het _Magistrato di Sanità_ van Genua"
   },
   "Staatskanselier voor Luxemburgse Aangelegenheden te Den Haag": {
     "en_GB": "State chancellor for Luxembourgish Affairs in The Hague",
