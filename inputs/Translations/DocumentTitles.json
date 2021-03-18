@@ -1,0 +1,51 @@
+{
+  "$schema": "../../static/JSON/DocumentTitles.json",
+  "Bianca$": {
+    "en_GB": "Empty",
+    "nl_NL": "Leeg"
+  },
+  "Lettera (di|del) (n1) (a|al) (n2)$": {
+    "en_GB": "lambda name1, name2 : f'Letter of {name1} to {name2}'",
+    "nl_NL": "lambda name1, name2 : f'Brief van {name1} aan {name2}'"
+  },
+  "Lettera (di|del) (n1)$": {
+    "en_GB": "lambda name1 : f'Letter of {name1}'",
+    "nl_NL": "lambda name1 : f'Brief van {name1}'"
+  },
+  "Lettera circolare (di|del) (n1) (a|al) (n2)$": {
+    "en_GB": "lambda name1, name2 : f'Circulaire of {name1} to {name2}'",
+    "nl_NL": "lambda name1, name2 : f'Circulaire van {name1} aan {name2}'"
+  },
+  "Lettera circolare (di|del) (n1)$": {
+    "en_GB": "lambda name1 : f'Circulaire of {name1}'",
+    "nl_NL": "lambda name1 : f'Circulaire van {name1}'"
+  },
+  "Minuta di lettera (a|al) (n1)$": {
+    "en_GB": "lambda name1 : f'Minute of a letter to {name1}'",
+    "nl_NL": "lambda name1 : f'Minuut van een brief aan {name1}'"
+  },
+  "Minuta di lettera (di|del) (n1)$": {
+    "en_GB": "lambda name1 : f'Minute of a letter of {name1}'",
+    "nl_NL": "lambda name1 : f'Minuut van een brief van {name1}'"
+  },
+  "Minuta di lettera (di|del) (n1) (a|al) (n2)$": {
+    "en_GB": "lambda name1, name2 : f'Minute of a letter of {name1} to {name2}'",
+    "nl_NL": "lambda name1, name2 : f'Minuut van een brief of {name1} to {name2}'"
+  },
+  "Minuta di lettera inviata (a|al) (n1)$": {
+    "en_GB": "lambda name1 : f'Minute of a letter sent to {name1}'",
+    "nl_NL": "lambda name1 : f'Minuut van een brief gestuurd aan {name1}'"
+  },
+  "Minuta di lettera$": {
+    "en_GB": "Minute of a letter",
+    "nl_NL": "Minuut van een brief"
+  },
+  "Minuta di risposta$": {
+    "en_GB": "Minute of a response",
+    "nl_NL": "Minuut van een antwoord"
+  },
+  "Nota di ricezione dei dispacci diplomatici$": {
+    "en_GB": "Note of receipt of diplomatic dispatches",
+    "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
+  }
+}

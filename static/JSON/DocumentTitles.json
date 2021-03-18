@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "title": "Translations of titles of documents in the inventory",
+  "type": "object",
+  "definitions": {
+    "title": {
+      "description": "A title in Italian",
+      "properties": {
+        "en_GB": {
+          "description": "Translation of the title in English",
+          "type": "string"
+        },
+        "nl_NL": {
+          "description": "Translation of the title in Dutch",
+          "type": "string"
+        }
+      },
+      "required": ["en_GB", "nl_NL"],
+      "type": "object"
+    }
+  },
+  "properties": {
+    "$schema": "string"
+  },
+  "additionalProperties": {
+    "$ref": "#/definitions/title"
+  },
+  "uniqueItems": true
+}
