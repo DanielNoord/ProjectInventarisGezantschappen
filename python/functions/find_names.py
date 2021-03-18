@@ -20,6 +20,7 @@ def create_person(localization, person, translation_data):
         person["titles"],
         translation_data,
         localization,
+        [None]
     )
 
     # Create Full Name + function variable
