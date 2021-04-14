@@ -38,14 +38,15 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
             line = line.replace("( ", "(").replace(" )", ")")
             row[1].value = line
 
+    new_directory = directory_name.replace(
+        "VolumesExcel/", "VolumesExcelFilled/Final_"
+    ).replace("inputs", "outputs")
     os.makedirs(
-        os.path.join(os.getcwd(), directory_name.replace("inputs", "outputs")),
+        os.path.join(os.getcwd(), new_directory),
         exist_ok=True,
     )
-    workbook.save(f"{directory_name.replace('inputs', 'outputs')}/Modified_{file_name}")
-    print(
-        f"File written to {directory_name.replace('inputs', 'outputs')}/Modified_{file_name}"
-    )
+    workbook.save(f"{new_directory}/Final_{file_name}")
+    print(f"File written to {new_directory}/Final_{file_name}")
 
 
 def create_filled_xlsx(directory_name, localization):
@@ -134,12 +135,7 @@ def create_translated_xlsx(directory_name, localization):
     for file in os.listdir(directory):
         if not str(file).count("~$") and str(file).startswith("b'Paesi"):
             filename = os.fsdecode(file)
-            translate_xlsx(
-                directory_name,
-                filename,
-                localization,
-                translations
-            )
+            translate_xlsx(directory_name, filename, localization, translations)
 
 
 if __name__ == "__main__":
@@ -147,6 +143,7 @@ if __name__ == "__main__":
     create_filled_xlsx("inputs/VolumesExcel/it_IT", "it_IT")
     # create_filled_xlsx("inputs/VolumesExcel/nl_NL", "nl_NL")
     create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
+    create_translated_xlsx("inputs/VolumesExcel/it_IT", "nl_NL")
     """create_xlsx_controle(
         [
             "inputs/VolumesExcel/original",
