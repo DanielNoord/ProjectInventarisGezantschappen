@@ -253,9 +253,15 @@
     "position": "Before"
   },
   "schout-bij-nacht": {
-    "en_GB": "rear admiral",
+    "en_GB": "counter admiral",
     "it_IT": "contrammiraglio",
     "nl_NL": "schout-bij-nacht",
+    "position": "Before"
+  },
+  "scheepskapitein": {
+    "en_GB": "ship captain",
+    "it_IT": "capitano di vascello",
+    "nl_NL": "scheepskapitein",
     "position": "Before"
   }
 }

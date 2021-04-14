@@ -70,6 +70,11 @@
     "it_IT": "Ambasciatore del Regno di Francia presso la Santa Sede",
     "nl_NL": "Ambassadeur van het Koninkrijk Frankrijk bij de Heilige Stoel"
   },
+  "Ambassadeur van het Koninkrijk Frankrijk te Turijn": {
+    "en_GB": "Ambassador of the Kingdom of France in Turin",
+    "it_IT": "Ambasciatore del Regno di Francia a Torino",
+    "nl_NL": "Ambassadeur van het Koninkrijk Frankrijk te Turijn"
+  },
   "Ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel": {
     "en_GB": "Ambassador of the Kingdom of Spain to the Holy See",
     "it_IT": "Ambasciatore del Regno di Spagna presso la Santa Sede",
@@ -169,11 +174,6 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Republic of Honduras in Rome",
     "it_IT": "Inviato straordinario e ministro plenipotenziario della Repubblica dell'Honduras a Roma",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van de Republiek Honduras te Rome"
-  },
-  "Buitengewoon gezant en gevolmachtigd minister van het Groothertogdom Toscane bij de Heilige Stoel": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Grand Duchy of Tuscany to the Holy See",
-    "it_IT": "Inviato straordinario e ministro plenipotenziario del Granducato di Toscana presso la Santa Sede",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Groothertogdom Toscane bij de Heilige Stoel"
   },
   "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Rome": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Rome",
@@ -462,12 +462,12 @@
   },
   "Eerste staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië": {
     "en_GB": "First State Secretary of Foreign Affairs of the Kingdom of Sardinia",
-    "it_IT": "Primo segretario di Stato per gli Affari Esteri del Regno di Sardegna",
+    "it_IT": "Primo segretario di stato per gli Affari Esteri del Regno di Sardegna",
     "nl_NL": "Eerste staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Eerste staatssecretaris van Oorlog van het Koninkrijk Sardinië": {
     "en_GB": "First State Secretary of War of the Kingdom of Sardinia",
-    "it_IT": "Primo segretario di Stato di Guerra del Regno di Sardegna",
+    "it_IT": "Primo segretario di stato di Guerra del Regno di Sardegna",
     "nl_NL": "Eerste staatssecretaris van Oorlog van het Koninkrijk Sardinië"
   },
   "Franse gouverneur van Rome": {
@@ -1125,15 +1125,15 @@
     "it_IT": "Segretario generale della Sacra Congregazione di Propaganda Fide",
     "nl_NL": "Secretaris-generaal van de Heilige Congregatie van _Propaganda Fide_"
   },
-  "Secretaris-generaal van het Ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden": {
-    "en_GB": "Secretary general of the Ministry of Foreign Affairs of the Kingdom of the Netherlands",
-    "it_IT": "Segretario generale del Ministero degli Affari Esteri del Regno dei Paesi Bassi",
-    "nl_NL": "Secretaris-generaal van het Ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
-  },
   "Secretaris-generaal van het ministerie van Binnenlandse Zaken": {
     "en_GB": "Secretary general of the Ministry of the Interior",
     "it_IT": "Segretario generale del Ministero dell'Interno",
     "nl_NL": "Secretaris-generaal van het ministerie van Binnenlandse Zaken"
+  },
+  "Secretaris-generaal van het ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden": {
+    "en_GB": "Secretary general of the ministry of Foreign Affairs of the Kingdom of the Netherlands",
+    "it_IT": "Segretario generale del ministero degli Affari Esteri del Regno dei Paesi Bassi",
+    "nl_NL": "Secretaris-generaal van het ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
   },
   "Senator van het Koninkrijk Italië": {
     "en_GB": "Senator of the Kingdom of Italy",
@@ -1159,11 +1159,6 @@
     "en_GB": "State Secretary for Foreign Affairs of the Kingdom of Sardinia",
     "it_IT": "Segretario di State degli Affari Esteri del Regno di Sardegna",
     "nl_NL": "Staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
-  },
-  "Staatssecretaris van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië": {
-    "en_GB": "State Secretary of the Ministry of Foreign Affairs of the Kingdom of Sardinia",
-    "it_IT": "Segretario di Stato al Ministero degli Affari Esteri del Regno di Sardegna",
-    "nl_NL": "Staatssecretaris van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Substituut voor Algemene Aangelegenheden van het Staatssecretariaat van de Heilige Stoel": {
     "en_GB": "Substitute for General Affairs of the Secretariat of State of the Holy See",
