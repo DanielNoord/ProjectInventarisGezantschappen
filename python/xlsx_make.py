@@ -4,7 +4,7 @@ import re
 
 from openpyxl import Workbook, load_workbook
 
-from functions.create_name_string import name_string
+from functions.data_create_name_string import name_string
 from functions.json_translate import initialize_translation_database
 from functions.xlsx_translate import translate_xlsx
 
