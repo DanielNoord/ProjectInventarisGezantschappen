@@ -1,7 +1,7 @@
 from create_data import person_with_identifier
-from functions.create_docx import list_of_translated_data
-from functions.create_docx import list_of_translated_data_with_style
-from functions.load_docx import extract_persons_and_identifiers
+from functions.docx_make import list_of_translated_data
+from functions.docx_make import list_of_translated_data_with_style
+from functions.docx_load import extract_persons_and_identifiers
 
 
 def create_name_docx(input_file_names, input_file_data):

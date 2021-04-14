@@ -61,25 +61,6 @@ def extract_persons(filename):
 
     return persons_in_file
 
-
-def extract_volumes(filename):
-    """Loads volumes from "fondo" file
-
-    Args:
-        filename (str): File to be scanned
-
-    Returns:
-        list[str, str, ...]: List of volumes (in string format) found in the file
-    """
-    regex = re.compile(r".*?(Volume\n.*?)(?=Volume|$)", re.DOTALL)
-    doc = docx.Document(filename)
-    all_text = []
-    for para in doc.paragraphs:
-        all_text.append(para.text)
-    full_text = "\n".join(all_text)
-    return re.findall(regex, full_text)
-
-
 def extract_translations(filename):
     """Loads translations from file
 

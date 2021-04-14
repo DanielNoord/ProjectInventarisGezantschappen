@@ -5,7 +5,7 @@ import re
 from openpyxl import Workbook, load_workbook
 
 from functions.create_name_string import name_string
-from functions.translate import initialize_translation_database
+from functions.json_translate import initialize_translation_database
 from functions.xlsx_translate import translate_xlsx
 
 
@@ -142,13 +142,13 @@ if __name__ == "__main__":
     # create_filled_xlsx("inputs/VolumesExcel/en_GB", "en_GB")
     create_filled_xlsx("inputs/VolumesExcel/it_IT", "it_IT")
     # create_filled_xlsx("inputs/VolumesExcel/nl_NL", "nl_NL")
-    create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
-    create_translated_xlsx("inputs/VolumesExcel/it_IT", "nl_NL")
-    """create_xlsx_controle(
-        [
-            "inputs/VolumesExcel/original",
-            "inputs/VolumesExcel/it_IT",
-            "inputs/VolumesExcel/en_GB",
-            "inputs/VolumesExcel/nl_NL",
-        ]
-    )"""
+    # create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
+    # create_translated_xlsx("inputs/VolumesExcel/it_IT", "nl_NL")
+    # create_xlsx_controle(
+    #     [
+    #         "inputs/VolumesExcel/original",
+    #         "inputs/VolumesExcel/it_IT",
+    #         "inputs/VolumesExcel/en_GB",
+    #         "inputs/VolumesExcel/nl_NL",
+    #     ]
+    # )

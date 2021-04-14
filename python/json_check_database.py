@@ -1,7 +1,7 @@
 import json
 
 from functions.helper_functions.extract_date import extract_date
-from functions.translate import initialize_translation_database
+from functions.json_translate import initialize_translation_database
 
 
 def check_translations():

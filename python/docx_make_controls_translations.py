@@ -1,6 +1,6 @@
 import json
 
-from functions.create_docx import list_of_translated_data
+from functions.docx_make import list_of_translated_data
 
 
 def create_controle_transaltions():

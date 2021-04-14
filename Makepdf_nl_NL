@@ -1,8 +1,0 @@
-#!/bin/zsh
-BASEDIR=$(dirname "$0")
-cd $BASEDIR
-python3 $BASEDIR/python/make_xml.py
-echo "
-Writing .pdf file from .xml file"
-java -jar $BASEDIR/ead2pdf/ead2pdf.jar  $BASEDIR/outputs/Inventaris_nl_NL.xml $BASEDIR/outputs/Inventaris_nl_NL.pdf $BASEDIR/EADFiles/ead2fo.xsl
-echo "Output .pdf file in $BASEDIR/outputs/Inventaris_nl_NL.pdf"

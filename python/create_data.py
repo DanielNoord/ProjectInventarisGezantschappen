@@ -1,7 +1,7 @@
 import json
 
-from functions.find_names import create_person
-from functions.translate import initialize_translation_database
+from functions.data_find_names import create_person
+from functions.json_translate import initialize_translation_database
 
 
 def person_with_identifier(input_file):
