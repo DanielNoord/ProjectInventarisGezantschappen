@@ -1,5 +1,6 @@
 import os
 import re
+from warnings import warn
 
 import lxml.etree as etree
 from openpyxl import load_workbook
@@ -8,7 +9,7 @@ from functions.xml_create_elements import (
     basic_xml_file,
     volume_entry,
     dossier_entry,
-    dossier_specific_file,
+    file_entry,
 )
 
 from functions.xlsx_parse import parse_file
@@ -16,20 +17,28 @@ from functions.xlsx_parse import parse_volume
 from functions.xlsx_parse import parse_dossier
 
 
-def create_xml_individual_files(localization, sheet, dossiers):
-    print("test")
-    # for file in files.split("\n"):
-    #             f_pages, f_title, f_place, f_date = read_file(file)
-    #             # Creates c04 level, might want to change
-    #             dossier_specific_file(
-    #                 c02, f_pages, f_title, f_place, f_date, localization
-    #             )
-    #     # Handle "Insteeksels"
-    #     elif "." in d_number:
-    #         pass
+def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
+    for file in sheet.iter_rows():
+        if file[0].value is not None and not file[0].value.endswith("_0"):
 
-    #     else:
-    #         raise Exception("This dossier is not handled correctly")
+            # TODO: What does this mean?
+            if file[0].value == "c":
+                warn(f"Value is 'c' in {file[0].coordinate}")
+                break
+            f_page, f_title, f_place, f_date = parse_file(file)
+
+            # Check if file belongs to a dossier
+            if mat := re.search(r"ms.*?_(.*?)_.*?", file[0].value):
+                file_entry(
+                    dossiers[mat.groups()[0]],
+                    f_page,
+                    f_title,
+                    f_place,
+                    f_date,
+                    localization,
+                )
+            else:
+                file_entry(vol_entry, f_page, f_title, f_place, f_date, localization)
 
 
 def create_xml_dossier(localization, sheet, v_num, c01):
@@ -49,7 +58,9 @@ def create_xml_dossier(localization, sheet, v_num, c01):
             mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)
         ):
             if mat.groups()[0] not in dossiers.keys():
-                d_pages, d_title, d_data = parse_dossier(sheet, mat.groups()[0], v_num, cell)
+                d_pages, d_title, d_data = parse_dossier(
+                    sheet, mat.groups()[0], v_num, cell
+                )
 
                 # Create entry
                 dossiers[mat.groups()[0]] = dossier_entry(
@@ -62,20 +73,12 @@ def create_xml_dossier(localization, sheet, v_num, c01):
                     localization,
                 )
 
-    # Create dossier if no dossiers were found
+    # Create dossier if no dossiers were found?
     # TODO: Do we want to create a dossier in these cases?
     if dossiers == {}:
-        dossiers[0] = dossier_entry(
-                    c01,
-                    v_num,
-                    1,
-                    "No page number",
-                    "No dossier title",
-                    "/",
-                    localization,
-                )
+        warn(f"V{v_num} does not have any dossiers!")
 
-    create_xml_individual_files(localization, sheet, dossiers)
+    create_xml_individual_files(localization, sheet, dossiers, c01)
 
 
 def create_xml_volume(localization, filename, archdesc):
@@ -95,7 +98,7 @@ def create_xml_volume(localization, filename, archdesc):
 
     create_xml_dossier(localization, first_sheet, v_num, c01)
 
-    print(f"Finished writing volume {v_num}")
+    print(f"""Finished writing volume {v_num}\n""")
 
 
 def create_xml_file(localization, dir_name):

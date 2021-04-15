@@ -1,4 +1,5 @@
 import re
+from warnings import warn
 
 from functions.helper_functions.check_date_for_earlylate import (
     check_date_earlier,
@@ -46,10 +47,10 @@ def parse_dossier(sheet, dos_number, vol_num, start_cell):
 
     ## Parse title from dossier title row
     if start_cell.value.endswith("_0"):
-        dos_title = sheet["B"][start_cell.row].value
+        dos_title = sheet["B"][start_cell.row - 1].value
     else:
         dos_title = "Missing dossier title"
-        print(f"V{vol_num} D{dos_number} is missing a dossier title")
+        warn(f"V{vol_num} D{dos_number} is missing a dossier title")
 
     ## Find earliest and latest data
     early_date = [2020, 12, 31]
@@ -78,17 +79,27 @@ def parse_dossier(sheet, dos_number, vol_num, start_cell):
 
 
 def parse_file(input_file):
-    # TODO: Fix this
-    """Parses file
+    """Parse the data of a file row in .xlsx format
 
     Args:
-        input_file (str): File  to be parsed
+        input_file (tuple): Row with file data in openpyxl Cell format
 
     Returns:
-        str: Pages of file (x-x)
+        str: Page number of the file
         str: Title of the file
         str: Place of the file
-        str: Date of the file in the format xxxx-xx-xx/xxxx-xx-xx
+        str: Date of the file in the format xxxx-xx-xx
     """
-    pattern = re.compile(r"- bl. (.*?): (.*?); \((.*?); (.*?)\);", re.DOTALL)
-    return re.match(pattern, input_file).groups()
+    file_page = re.match(r".*_(.*)", input_file[0].value).groups()[0]
+    file_title = input_file[1].value
+    file_place = input_file[5].value
+
+    # Sanitize date
+    date = [input_file[2].value, input_file[3].value, input_file[4].value]
+    if date[1] is None and date[2] is not None:
+        date[2] = None
+    if date[1] is None and date[2] is not None:
+        date[2] = None
+    date = [str(i).zfill(2) for i in date if i is not None]
+    file_date = "-".join(date)
+    return file_page, file_title, file_place, file_date

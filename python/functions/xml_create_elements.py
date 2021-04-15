@@ -1,3 +1,5 @@
+from warnings import warn
+
 import lxml.etree as etree
 
 from .helper_functions.extract_date import extract_date
@@ -23,7 +25,7 @@ def basic_xml_file():
     filedesc = etree.SubElement(eadheader, "filedesc")
     titlestmt = etree.SubElement(filedesc, "titlestmt")
     titleproper = etree.SubElement(titlestmt, "titleproper")
-    titleproper.text = "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874" # pylint: disable=line-too-long
+    titleproper.text = "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874"  # pylint: disable=line-too-long
     author = titleproper = etree.SubElement(titlestmt, "author")
     author.text = "D.M. van Noord"
     publicationstmt = etree.SubElement(filedesc, "publicationstmt")
@@ -61,7 +63,7 @@ def basic_xml_file():
 
 
 def volume_entry(parent_element, number, title, date, localization):
-    """Returns an .xml element for a volume
+    """Returns an .xml element for a volume at the c01 level
 
     Args:
         parent_element (etree.Subelement): The element to which the dossier element is appended
@@ -88,7 +90,7 @@ def volume_entry(parent_element, number, title, date, localization):
 
 
 def dossier_entry(parent_element, v_number, number, _, title, date, localization):
-    """Returns a dossier .xml element
+    """Returns a dossier .xml element at the c02 level
 
     Args:
         parent_element (etree.Subelement): The element to which the dossier element is appended
@@ -115,7 +117,7 @@ def dossier_entry(parent_element, v_number, number, _, title, date, localization
     return c02
 
 
-def dossier_specific_file(parent_element, pages, title, _, date, localization):
+def file_entry(parent_element, pages, title, _, date, localization):
     """Returns an .xml element for a file within a dossier
 
     Args:
@@ -125,15 +127,24 @@ def dossier_specific_file(parent_element, pages, title, _, date, localization):
         place (string): The place of the file
         date (string): Date of the file
         localization (string): The localization of the .xml file
-
-    Returns:
-        etree.SubElement: The dossier element at the c03 level
     """
-    c03 = etree.SubElement(parent_element, "c03", level="file")
-    c03_did = etree.SubElement(c03, "did")
-    c03_did_id = etree.SubElement(c03_did, "unitid", type="series_code")
-    c03_did_id.text = f"pp. {pages}"
-    c03_did_title = etree.SubElement(c03_did, "unittitle")
-    c03_did_title.text = title
-    date1, date2 = extract_date(date, localization)
-    unitdate(c03_did, date, date1, date2, "file")
+    if parent_element.tag == 'c01':
+        c03 = etree.SubElement(parent_element, "c03", level="file")
+        c03_did = etree.SubElement(c03, "did")
+        c03_did_id = etree.SubElement(c03_did, "unitid", type="series_code")
+        c03_did_id.text = f"pp. {pages}"
+        c03_did_title = etree.SubElement(c03_did, "unittitle")
+        c03_did_title.text = title
+        date1, date2 = extract_date(date, localization)
+        unitdate(c03_did, date, date1, date2, "file")
+    elif parent_element.tag == 'c02':
+        c02 = etree.SubElement(parent_element, "c02", level="file")
+        c02_did = etree.SubElement(c02, "did")
+        c02_did_id = etree.SubElement(c02_did, "unitid", type="series_code")
+        c02_did_id.text = f"pp. {pages}"
+        c02_did_title = etree.SubElement(c02_did, "unittitle")
+        c02_did_title.text = title
+        date1, date2 = extract_date(date, localization)
+        unitdate(c02_did, date, date1, date2, "file")
+    else:
+        warn("File was not handled correctly")
