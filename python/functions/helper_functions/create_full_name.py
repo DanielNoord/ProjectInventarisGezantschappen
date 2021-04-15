@@ -48,7 +48,7 @@ def full_name(surname, name, titles, translation_data, localization, date):
 
         if len(relevant_titles) > 1:
             for extra_title in relevant_titles[1:]:
-                translation_entry = translation_data[0][extra_title]
+                translation_entry = translation_data[0][extra_title[0]]
                 if translation_entry["position"] == "Before":
                     str_full_name = f"{translation_entry[localization]} {str_full_name}"
                 elif translation_entry["position"] == "After":
