@@ -50,7 +50,7 @@ def parse_dossier(sheet, dos_number, vol_num, start_cell):
         dos_title = sheet["B"][start_cell.row - 1].value
     else:
         dos_title = "Missing dossier title"
-        warn(f"V{vol_num} D{dos_number} is missing a dossier title")
+        warn(f"Vol: {vol_num} Dos: {dos_number} is missing a dossier title")
 
     ## Find earliest and latest data
     early_date = [2020, 12, 31]
