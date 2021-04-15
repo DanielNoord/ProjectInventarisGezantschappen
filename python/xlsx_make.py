@@ -36,6 +36,8 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
                 line = line[:-1]
             line = line[0].upper() + line[1:]
             line = line.replace("( ", "(").replace(" )", ")")
+            if line == " ":
+                line = ""
             row[1].value = line
 
     new_directory = directory_name.replace(
