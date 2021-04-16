@@ -19,10 +19,11 @@ def sanitize_xlsx(directory_name, file_name):
                 # Clean up string
                 if line == " ":
                     line = ""
-                elif type(line) == str:
+                elif isinstance(line, str):
                     if line[-1] in [" ", ",", "."]:  # Remove final characters
                         line = line[:-1]
-                    line = line[0].upper() + line[1:]
+                    if not line.startswith("ms"):
+                        line = line[0].upper() + line[1:]
                     line = line.replace("( ", "(").replace(" )", ")")
                 row[index].value = line
 
