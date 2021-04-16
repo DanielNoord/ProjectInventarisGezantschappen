@@ -4,51 +4,10 @@ import re
 
 from openpyxl import Workbook, load_workbook
 
-from functions.data_create_name_string import name_string
 from functions.json_translate import initialize_translation_database
+from functions.xlsx_fill_in_names import fill_in_xlsx
+from functions.xlsx_sanitize import sanitize_xlsx
 from functions.xlsx_translate import translate_xlsx
-
-
-def fill_in_xlsx(directory_name, file_name, individuals, translations, localization):
-    """Translates and writes an individual volume .xlsx file
-
-    Args:
-        directory_name (str): Name of input directory
-        file_name (str): Name of input file
-        individuals (dict): Dictionary of all individuals based on inputs/Individuals.json
-        translations (list): Dictionaries of function and title translations
-        localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
-    """
-    workbook = load_workbook(f"{directory_name}/{file_name}")
-    for row in workbook[workbook.sheetnames[0]].iter_rows():
-        if row[1].value is not None:
-            date = [row[2].value, row[3].value, row[4].value]
-            line = re.split(r"( |\.|,|\(|\))", row[1].value)
-            for index, word in enumerate(line):
-                if word.startswith("$"):
-                    line[index] = name_string(
-                        individuals[word], date, translations, localization
-                    )
-            line = "".join(line)
-
-            # Clean up string
-            if line[-1] in [" ", ",", "."]:  # Remove final characters
-                line = line[:-1]
-            line = line[0].upper() + line[1:]
-            line = line.replace("( ", "(").replace(" )", ")")
-            if line == " ":
-                line = ""
-            row[1].value = line
-
-    new_directory = directory_name.replace(
-        "VolumesExcel/", "VolumesExcelFilled/Final_"
-    ).replace("inputs", "outputs")
-    os.makedirs(
-        os.path.join(os.getcwd(), new_directory),
-        exist_ok=True,
-    )
-    workbook.save(f"{new_directory}/Final_{file_name}")
-    print(f"File written to {new_directory}/Final_{file_name}")
 
 
 def create_filled_xlsx(directory_name, localization):
@@ -130,21 +89,37 @@ def create_translated_xlsx(directory_name, localization):
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
     """
     with open("inputs/Translations/DocumentTitles.json") as file:
-        translations = json.load(file)
+        translations = json.loads(file.read())
     del translations["$schema"]
+    translation_patterns = {re.compile(k): v for k, v in translations.items()}
 
     directory = os.fsencode(directory_name)
     for file in os.listdir(directory):
         if not str(file).count("~$") and str(file).startswith("b'Paesi"):
             filename = os.fsdecode(file)
-            translate_xlsx(directory_name, filename, localization, translations)
+            translate_xlsx(directory_name, filename, localization, translation_patterns)
+
+def create_sanitized_xlsx(directory_name):
+    """Creates the .xlsx files with a number of easy sanitizations
+
+    Args:
+        directory_name (str): Name of the directory with the input .xlsx files
+    """
+
+    directory = os.fsencode(directory_name)
+    for file in os.listdir(directory):
+        if not str(file).count("~$") and str(file).startswith("b'Paesi"):
+            filename = os.fsdecode(file)
+            sanitize_xlsx(directory_name, filename)
+
 
 
 if __name__ == "__main__":
     # create_filled_xlsx("inputs/VolumesExcel/en_GB", "en_GB")
-    create_filled_xlsx("inputs/VolumesExcel/it_IT", "it_IT")
+    # create_filled_xlsx("inputs/VolumesExcel/it_IT", "it_IT")
     # create_filled_xlsx("inputs/VolumesExcel/nl_NL", "nl_NL")
-    # create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
+    # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
+    create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
     # create_translated_xlsx("inputs/VolumesExcel/it_IT", "nl_NL")
     # create_xlsx_controle(
     #     [
