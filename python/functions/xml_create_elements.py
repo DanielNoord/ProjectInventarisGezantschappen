@@ -129,15 +129,6 @@ def file_entry(parent_element, pages, title, _, date, localization):
         localization (string): The localization of the .xml file
     """
     if parent_element.tag == 'c01':
-        c03 = etree.SubElement(parent_element, "c03", level="file")
-        c03_did = etree.SubElement(c03, "did")
-        c03_did_id = etree.SubElement(c03_did, "unitid", type="series_code")
-        c03_did_id.text = f"pp. {pages}"
-        c03_did_title = etree.SubElement(c03_did, "unittitle")
-        c03_did_title.text = title
-        date1, date2 = extract_date(date, localization)
-        unitdate(c03_did, date, date1, date2, "file")
-    elif parent_element.tag == 'c02':
         c02 = etree.SubElement(parent_element, "c02", level="file")
         c02_did = etree.SubElement(c02, "did")
         c02_did_id = etree.SubElement(c02_did, "unitid", type="series_code")
@@ -146,5 +137,14 @@ def file_entry(parent_element, pages, title, _, date, localization):
         c02_did_title.text = title
         date1, date2 = extract_date(date, localization)
         unitdate(c02_did, date, date1, date2, "file")
+    elif parent_element.tag == 'c02':
+        c03 = etree.SubElement(parent_element, "c03", level="file")
+        c03_did = etree.SubElement(c03, "did")
+        c03_did_id = etree.SubElement(c03_did, "unitid", type="series_code")
+        c03_did_id.text = f"pp. {pages}"
+        c03_did_title = etree.SubElement(c03_did, "unittitle")
+        c03_did_title.text = title
+        date1, date2 = extract_date(date, localization)
+        unitdate(c03_did, date, date1, date2, "file")
     else:
         warn("File was not handled correctly")
