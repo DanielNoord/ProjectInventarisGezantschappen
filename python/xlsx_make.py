@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 
 from openpyxl import Workbook, load_workbook
 
@@ -74,11 +75,12 @@ def create_xlsx_controle(directory_names):
                 new_sheet.append(tuple(i.value for i in rows_en[index]))
                 new_sheet.append(tuple(i.value for i in rows_nl[index]))
             os.makedirs(
-                os.path.join(os.getcwd(), "inputs/VolumesExcel"),
+                os.path.join(os.getcwd(), "outputs/VolumesExcelControl"),
                 exist_ok=True,
             )
-            new_file.save(f"outputs/VolumesExcel/Control_{filename}")
-            print(f"Wrote file to outputs/VolumesExcel/Control_{filename}")
+            new_filename = f"Control_{filename}"
+            new_file.save(f"outputs/VolumesExcelControl/{new_filename}")
+            print(f"Wrote file to outputs/VolumesExcelControl/{new_filename}")
 
 
 def create_translated_xlsx(directory_name, localization):
@@ -119,9 +121,33 @@ def create_sanitized_xlsx(directory_name):
             sanitize_xlsx(directory_name, filename)
 
 
+def do_full_loop():
+    """Completes the full process of input files till seperate translations and control file"""
+    print("STARTING CREATION OF .XLSX DOCUMENTS\n")
+    start_time = time.time()
+    create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
+    create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "en_GB")
+    create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "nl_NL")
+    create_filled_xlsx("outputs/VolumesExcelTranslated/en_GB", "en_GB")
+    create_filled_xlsx("outputs/VolumesExcelSanitized/it_IT", "it_IT")
+    create_filled_xlsx("outputs/VolumesExcelTranslated/nl_NL", "nl_NL")
+    create_xlsx_controle(
+        [
+            "inputs/VolumesExcel/original",
+            "outputs/VolumesExcelFinal/it_IT",
+            "outputs/VolumesExcelFinal/en_GB",
+            "outputs/VolumesExcelFinal/nl_NL",
+        ]
+    )
+    print(
+        "\n\nFINISHED CREATING ALL .XLSX DOCUMENTS\n",
+        f"Process took {time.time() - start_time:.03f} seconds",
+    )
+
+
 if __name__ == "__main__":
     # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
-    create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
+    # create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
     # create_translated_xlsx("inputs/VolumesExcel/it_IT", "nl_NL")
     # create_filled_xlsx("inputs/VolumesExcel/en_GB", "en_GB")
     # create_filled_xlsx("inputs/VolumesExcel/it_IT", "it_IT")
@@ -134,3 +160,4 @@ if __name__ == "__main__":
     #         "inputs/VolumesExcel/nl_NL",
     #     ]
     # )
+    do_full_loop()

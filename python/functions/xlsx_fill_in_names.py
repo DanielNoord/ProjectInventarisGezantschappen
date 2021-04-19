@@ -23,9 +23,7 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
             line = re.split(r"( |\.|,|\(|\))", row[1].value)
             for index, word in enumerate(line):
                 if word.startswith("$"):
-                    line[index] = name_string(
-                        individuals[word], date, translations, localization
-                    )
+                    line[index] = name_string(individuals[word], date, translations, localization)
             line = "".join(line)
 
             # Clean up string
@@ -37,12 +35,14 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
                 line = ""
             row[1].value = line
 
-    new_directory = directory_name.replace(
-        "VolumesExcel/", "VolumesExcelFilled/Final_"
-    ).replace("inputs", "outputs")
+    new_directory = (
+        directory_name.replace("VolumesExcelSanitized/", "VolumesExcelFinal/")
+        .replace("VolumesExcelTranslated/", "VolumesExcelFinal/")
+        .replace("inputs", "outputs")
+    )
     os.makedirs(
         os.path.join(os.getcwd(), new_directory),
         exist_ok=True,
     )
-    workbook.save(f"{new_directory}/Final_{file_name}")
-    print(f"File written to {new_directory}/Final_{file_name}")
+    workbook.save(f"{new_directory}/{file_name}")
+    print(f"File written to {new_directory}/{file_name}")

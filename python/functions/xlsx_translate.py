@@ -38,7 +38,7 @@ def translate_xlsx(directory_name, file_name, localization, translations, used_t
 
     new_directory = (
         directory_name.replace("inputs", "outputs")
-        .replace("VolumesExcel/", "VolumesExcelTranslated/Translated_")
+        .replace("VolumesExcelSanitized/", "VolumesExcelTranslated/")
         .replace("it_IT", f"{localization}")
     )
     os.makedirs(
