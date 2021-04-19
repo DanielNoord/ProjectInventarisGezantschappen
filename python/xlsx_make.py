@@ -120,12 +120,12 @@ def create_sanitized_xlsx(directory_name):
 
 
 if __name__ == "__main__":
-    # create_filled_xlsx("inputs/VolumesExcel/en_GB", "en_GB")
-    # create_filled_xlsx("inputs/VolumesExcel/it_IT", "it_IT")
-    # create_filled_xlsx("inputs/VolumesExcel/nl_NL", "nl_NL")
     # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
     create_translated_xlsx("inputs/VolumesExcel/it_IT", "en_GB")
     # create_translated_xlsx("inputs/VolumesExcel/it_IT", "nl_NL")
+    # create_filled_xlsx("inputs/VolumesExcel/en_GB", "en_GB")
+    # create_filled_xlsx("inputs/VolumesExcel/it_IT", "it_IT")
+    # create_filled_xlsx("inputs/VolumesExcel/nl_NL", "nl_NL")
     # create_xlsx_controle(
     #     [
     #         "inputs/VolumesExcel/original",
