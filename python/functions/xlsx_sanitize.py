@@ -27,9 +27,8 @@ def sanitize_xlsx(directory_name, file_name):
                     line = line.replace("( ", "(").replace(" )", ")")
                 row[index].value = line
 
-    new_directory = (
-        directory_name.replace("inputs", "outputs")
-        .replace("VolumesExcel/", "VolumesExcelSanitized/")
+    new_directory = directory_name.replace("inputs", "outputs").replace(
+        "VolumesExcel/", "VolumesExcelSanitized/"
     )
     os.makedirs(
         os.path.join(os.getcwd(), new_directory),

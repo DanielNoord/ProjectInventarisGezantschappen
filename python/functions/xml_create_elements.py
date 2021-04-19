@@ -2,8 +2,8 @@ from warnings import warn
 
 import lxml.etree as etree
 
-from .helper_functions.extract_date import extract_date
-from .helper_functions.unitdate import unitdate
+from functions.helper_functions.extract_date import extract_date
+from functions.helper_functions.unitdate import unitdate
 
 
 def basic_xml_file():
@@ -128,7 +128,7 @@ def file_entry(parent_element, pages, title, _, date, localization):
         date (string): Date of the file
         localization (string): The localization of the .xml file
     """
-    if parent_element.tag == 'c01':
+    if parent_element.tag == "c01":
         c02 = etree.SubElement(parent_element, "c02", level="file")
         c02_did = etree.SubElement(c02, "did")
         c02_did_id = etree.SubElement(c02_did, "unitid", type="series_code")
@@ -137,7 +137,7 @@ def file_entry(parent_element, pages, title, _, date, localization):
         c02_did_title.text = title
         date1, date2 = extract_date(date, localization)
         unitdate(c02_did, date, date1, date2, "file")
-    elif parent_element.tag == 'c02':
+    elif parent_element.tag == "c02":
         c03 = etree.SubElement(parent_element, "c03", level="file")
         c03_did = etree.SubElement(c03, "did")
         c03_did_id = etree.SubElement(c03_did, "unitid", type="series_code")

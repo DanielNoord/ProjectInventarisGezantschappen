@@ -61,6 +61,7 @@ def extract_persons(filename):
 
     return persons_in_file
 
+
 def extract_translations(filename):
     """Loads translations from file
 

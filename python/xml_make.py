@@ -18,6 +18,15 @@ from functions.xlsx_parse import parse_dossier
 
 
 def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
+    """Based on a sheet creates .xml entries for every file found
+
+    Args:
+        localization (str): String indicating the localization of the inventory
+        sheet (openpyxl.worksheet.worksheet.Worksheet): The .xlsx sheet with data
+        dossiers (dict): Dictionary of dossier numbers with their corresponding .xml element
+        vol_entry (lxml.etree._Element): The c01 element of the final .xml file
+            To be used when there is no dossier.
+    """
     for file in sheet.iter_rows():
         if file[0].value is not None and not file[0].value.endswith("_0"):
 

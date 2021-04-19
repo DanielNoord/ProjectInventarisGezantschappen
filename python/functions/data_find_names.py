@@ -1,4 +1,4 @@
-from .helper_functions.create_full_name import full_name as create_full_name
+from functions.helper_functions.create_full_name import full_name as create_full_name
 
 
 def create_person(localization, person, translation_data):
@@ -20,7 +20,7 @@ def create_person(localization, person, translation_data):
         person["titles"],
         translation_data,
         localization,
-        [None]
+        [None],
     )
 
     # Create Full Name + function variable

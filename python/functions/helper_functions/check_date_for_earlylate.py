@@ -22,6 +22,7 @@ def check_date_earlier(early_date, row):
         return [row[2].value, row[3].value, row[4].value]
     return early_date
 
+
 def check_date_later(late_date, row):
     """Check if the given date is later than other data
 

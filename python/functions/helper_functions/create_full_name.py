@@ -1,5 +1,6 @@
 from .check_date_for_function import check_date
 
+
 def full_name(surname, name, titles, translation_data, localization, date):
     """Creates the string for the full name including title
 

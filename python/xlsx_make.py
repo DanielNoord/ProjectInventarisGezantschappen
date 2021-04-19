@@ -99,6 +99,7 @@ def create_translated_xlsx(directory_name, localization):
             filename = os.fsdecode(file)
             translate_xlsx(directory_name, filename, localization, translation_patterns)
 
+
 def create_sanitized_xlsx(directory_name):
     """Creates the .xlsx files with a number of easy sanitizations
 
@@ -111,7 +112,6 @@ def create_sanitized_xlsx(directory_name):
         if not str(file).count("~$") and str(file).startswith("b'Paesi"):
             filename = os.fsdecode(file)
             sanitize_xlsx(directory_name, filename)
-
 
 
 if __name__ == "__main__":
