@@ -6,7 +6,12 @@ import lxml.etree as etree
 from openpyxl import load_workbook
 
 from functions.xlsx_parse import parse_dossier, parse_file, parse_volume
-from functions.xml_create_elements import basic_xml_file, dossier_entry, file_entry, volume_entry
+from functions.xml_create_elements import (
+    basic_xml_file,
+    dossier_entry,
+    file_entry,
+    volume_entry,
+)
 
 
 def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
@@ -55,9 +60,13 @@ def create_xml_dossier(localization, sheet, v_num, c01):
 
     # Find dossiers
     for cell in sheet["A"]:
-        if cell.value is not None and (mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)):
+        if cell.value is not None and (
+            mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)
+        ):
             if mat.groups()[0] not in dossiers.keys():
-                d_pages, d_title, d_data = parse_dossier(sheet, mat.groups()[0], v_num, cell)
+                d_pages, d_title, d_data = parse_dossier(
+                    sheet, mat.groups()[0], v_num, cell
+                )
 
                 # Create entry
                 dossiers[mat.groups()[0]] = dossier_entry(
@@ -112,7 +121,9 @@ def create_xml_file(localization, dir_name):
     for file in sorted(os.listdir(directory)):
         filename = os.fsdecode(file)
         if not filename.count("~$") and filename.startswith("Final_"):
-            create_xml_volume(localization, f"{dir_name}{localization}/{filename}", archdesc)
+            create_xml_volume(
+                localization, f"{dir_name}{localization}/{filename}", archdesc
+            )
 
     tree = etree.ElementTree(root)
 

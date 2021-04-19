@@ -23,7 +23,9 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
             line = re.split(r"( |\.|,|\(|\))", row[1].value)
             for index, word in enumerate(line):
                 if word.startswith("$"):
-                    line[index] = name_string(individuals[word], date, translations, localization)
+                    line[index] = name_string(
+                        individuals[word], date, translations, localization
+                    )
             line = "".join(line)
 
             # Clean up string

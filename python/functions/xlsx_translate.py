@@ -5,7 +5,9 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font
 
 
-def translate_xlsx(directory_name, file_name, localization, translations, used_translations):
+def translate_xlsx(
+    directory_name, file_name, localization, translations, used_translations
+):
     """Translate .xlsx file
 
     Args:

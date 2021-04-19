@@ -101,9 +101,15 @@ def create_translated_xlsx(directory_name, localization):
         if not str(file).count("~$") and str(file).startswith("b'Paesi"):
             filename = os.fsdecode(file)
             translate_xlsx(
-                directory_name, filename, localization, translation_patterns, used_translations
+                directory_name,
+                filename,
+                localization,
+                translation_patterns,
+                used_translations,
             )
-    unused_trans = [i for i in translation_patterns.keys() if i not in used_translations]
+    unused_trans = [
+        i for i in translation_patterns.keys() if i not in used_translations
+    ]
     print("Done!\nFound the following unused translations:\n", unused_trans)
 
 

@@ -1,6 +1,5 @@
 from functions.helper_functions.check_date_for_function import check_date
-from functions.helper_functions.create_full_name import \
-    full_name as create_full_name
+from functions.helper_functions.create_full_name import full_name as create_full_name
 
 
 def name_string(person, date, translation_data, localization):
