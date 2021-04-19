@@ -92,12 +92,17 @@ def create_translated_xlsx(directory_name, localization):
         translations = json.loads(file.read())
     del translations["$schema"]
     translation_patterns = {re.compile(k): v for k, v in translations.items()}
+    used_translations = set()
 
     directory = os.fsencode(directory_name)
     for file in os.listdir(directory):
         if not str(file).count("~$") and str(file).startswith("b'Paesi"):
             filename = os.fsdecode(file)
-            translate_xlsx(directory_name, filename, localization, translation_patterns)
+            translate_xlsx(
+                directory_name, filename, localization, translation_patterns, used_translations
+            )
+    unused_trans = [i for i in translation_patterns.keys() if i not in used_translations]
+    print("Done!\nFound the following unused translations:\n", unused_trans)
 
 
 def create_sanitized_xlsx(directory_name):

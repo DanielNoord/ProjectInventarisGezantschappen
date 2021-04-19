@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font
 
 
-def translate_xlsx(directory_name, file_name, localization, translations):
+def translate_xlsx(directory_name, file_name, localization, translations, used_translations):
     """Translate .xlsx file
 
     Args:
@@ -13,6 +13,7 @@ def translate_xlsx(directory_name, file_name, localization, translations):
         file_name (str): Name of .xlsx file
         localization (str): Localization string of target language
         translations (dict): Translations of common document titles
+        used_translations (set): Used translations
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")
     for row in workbook[workbook.sheetnames[0]].iter_rows():
@@ -23,6 +24,7 @@ def translate_xlsx(directory_name, file_name, localization, translations):
             for pattern, trans in translations.items():
                 if pattern.match(line):
                     line = re.sub(pattern, trans[localization], line)
+                    used_translations.add(pattern)
                     break
             else:
                 row[1].font = Font(color="00008b")
