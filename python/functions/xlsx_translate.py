@@ -32,33 +32,17 @@ def translate_xlsx(
                     break
             else:
                 row[1].font = Font(color="00008b")
-
-            # Clean up string
-            if line[-1] in [" ", ",", "."]:  # Remove final characters
-                line = line[:-1]
-            line = line[0].upper() + line[1:]
-            line = line.replace("( ", "(").replace(" )", ")")
             row[1].value = line
 
         # Translate title
         if row[5].value is not None:
             place = row[5].value
-
-            # Check if line matches one of the patterns that are automatically translated
-            for pattern, trans in translations.items():
-                if pattern.match(line):
-                    line = re.sub(pattern, trans[localization], line)
-                    used_translations.add(pattern)
-                    break
+            if place in translation_data[2].keys():
+                place = translation_data[2][place][localization]
             else:
-                row[1].font = Font(color="00008b")
-
-            # Clean up string
-            if line[-1] in [" ", ",", "."]:  # Remove final characters
-                line = line[:-1]
-            line = line[0].upper() + line[1:]
-            line = line.replace("( ", "(").replace(" )", ")")
-            row[1].value = line
+                row[5].font = Font(color="00008b")
+                print(f"Did not find placename: {place}")
+            row[5].value = place
 
     new_directory = (
         directory_name.replace("inputs", "outputs")

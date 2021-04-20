@@ -1,3 +1,139 @@
 {
-  "$schema": "../../static/JSON/Placenames.json"
+  "$schema": "../../static/JSON/Placenames.json",
+  "Alessandria": {
+    "en_GB": "Alessandria",
+    "nl_NL": "Alessandria"
+  },
+  "Alicante": {
+    "en_GB": "Alicante",
+    "nl_NL": "Alicante"
+  },
+  "Amsterdam": {
+    "en_GB": "Amsterdam",
+    "nl_NL": "Amsterdam"
+  },
+  "Ancona": {
+    "en_GB": "Ancona",
+    "nl_NL": "Ancona"
+  },
+  "Augusta": {
+    "en_GB": "Augsburg",
+    "nl_NL": "Augsburg"
+  },
+  "Barcellona": {
+    "en_GB": "Barcelona",
+    "nl_NL": "Barcelona"
+  },
+  "Berna": {
+    "en_GB": "Bern",
+    "nl_NL": "Bern"
+  },
+  "Bologna": {
+    "en_GB": "Bologna",
+    "nl_NL": "Bologna"
+  },
+  "Bruxelles": {
+    "en_GB": "Brussels",
+    "nl_NL": "Brussel"
+  },
+  "Cagliari": {
+    "en_GB": "Cagliari",
+    "nl_NL": "Cagliari"
+  },
+  "Civitavecchia": {
+    "en_GB": "Civitavecchia",
+    "nl_NL": "Civitavecchia"
+  },
+  "Costantinopoli": {
+    "en_GB": "Constantinople",
+    "nl_NL": "Constantinopel"
+  },
+  "Fossano": {
+    "en_GB": "Fossano",
+    "nl_NL": "Fossano"
+  },
+  "Gand": {
+    "en_GB": "Larçay",
+    "nl_NL": "Gent"
+  },
+  "Genova": {
+    "en_GB": "Genoa",
+    "nl_NL": "Genua"
+  },
+  "Ginevra": {
+    "en_GB": "Geneva",
+    "nl_NL": "Genève"
+  },
+  "Govone": {
+    "en_GB": "Govone",
+    "nl_NL": "Govone"
+  },
+  "L'Aia": {
+    "en_GB": "The Hague",
+    "nl_NL": "Den Haag"
+  },
+  "La Spezia": {
+    "en_GB": "La Spezia",
+    "nl_NL": "La Spezia"
+  },
+  "Larçay": {
+    "en_GB": "Larçay",
+    "nl_NL": "Larçay"
+  },
+  "Lisbona": {
+    "en_GB": "Lisbon",
+    "nl_NL": "Lissabon"
+  },
+  "Livorno": {
+    "en_GB": "Livorno",
+    "nl_NL": "Livorno"
+  },
+  "Lussemburgo": {
+    "en_GB": "Luxembourg",
+    "nl_NL": "Luxemburg"
+  },
+  "Mahón": {
+    "en_GB": "Mahón",
+    "nl_NL": "Maó-Mahón"
+  },
+  "Marsiglia": {
+    "en_GB": "Marseille",
+    "nl_NL": "Marseille"
+  },
+  "Middelburg": {
+    "en_GB": "Middelburg",
+    "nl_NL": "Middelburg"
+  },
+  "Moncalieri": {
+    "en_GB": "Moncalieri",
+    "nl_NL": "Moncalieri"
+  },
+  "Mons": {
+    "en_GB": "Mons",
+    "nl_NL": "Bergen"
+  },
+  "Napoli": {
+    "en_GB": "Naples",
+    "nl_NL": "Napels"
+  },
+  "Nizza": {
+    "en_GB": "Nice",
+    "nl_NL": "Nice"
+  },
+  "Parigi": {
+    "en_GB": "Paris",
+    "nl_NL": "Parijs"
+  },
+  "Roma": {
+    "en_GB": "Rome",
+    "nl_NL": "Rome"
+  },
+  "Savona": {
+    "en_GB": "Savona",
+    "nl_NL": "Savona"
+  },
+  "Torino": {
+    "en_GB": "Turin",
+    "nl_NL": "Turijn"
+  }
 }
