@@ -1,36 +1,440 @@
 {
+  "\"(.*?)\" \\(copia\\). A margine appunto a matita: \"Diamanti e beni della Casa Savoia ipotecati per sovvenire a spese di guerra\"$": {
+    "en_GB": "\"\\1\" (copy). In the margin noted with pencil: \"Diamonds and assets of the House of Savoy mortgaged to subsidize the expenses of war\"",
+    "nl_NL": "\"\\1\" (kopie). In de kantlijn met potlood genoteerd: \"Diamanten en bezittingen van het Huis van Savoye gehypothekeerd om de kosten van de oorlog te subsidiëren\""
+  },
+  "\"(.*?)\" firmato (da|dal) (\\$\\w*)$": {
+    "en_GB": "\"\\1\" signed by \\3",
+    "nl_NL": "\"\\1\" ondertekend door \\3"
+  },
+  "\"(.*?)\" nota sui fatti lacrimevoli avvenuti nei Paesi Bassi$": {
+    "en_GB": "\"\\1\" note on the lamentable events that took place in the Netherlands",
+    "nl_NL": "\"\\1\" nota over de betreurenswaardige gebeurtenissen die in Nederland hebben plaatsgevonden"
+  },
   "$schema": "../../static/JSON/DocumentTitles.json",
+  "Allegato: supplica$": {
+    "en_GB": "Attachment: supplication",
+    "nl_NL": "Bijlage: smeekbede"
+  },
+  "Appunto manoscritto$": {
+    "en_GB": "Handwritten note",
+    "nl_NL": "Handgeschreven notitie"
+  },
+  "Appunto sul vice console generale$": {
+    "en_GB": "Note on the vice-consul general",
+    "nl_NL": "Notitie over de vice-consul generaal"
+  },
+  "Appunto sulla situazione del porto di Genova$": {
+    "en_GB": "Note on the situation in the port of Genoa",
+    "nl_NL": "Notitie over de situatie in de haven van Genua"
+  },
+  "Appunto$": {
+    "en_GB": "Note",
+    "nl_NL": "Notitie"
+  },
   "Bianca$": {
     "en_GB": "Empty",
     "nl_NL": "Leeg"
   },
-  "Lettera (di|del) (\\$\\w*) (a|al) (\\$\\w*)$": {
+  "Biglietti di ingresso per solenni funzioni alla Basilica Vaticana$": {
+    "en_GB": "Entrance tickets for Solemn Masses at the Vatican Basilica",
+    "nl_NL": "Toegangskaarten voor hoogmissen in de Vaticaanse basiliek"
+  },
+  "Biglietto personale allegato$": {
+    "en_GB": "Attached personal note",
+    "nl_NL": "Bijgevoegde persoonlijke notitie"
+  },
+  "Bozzetto di un monumento celebrativo \\((\\$\\w*) \\?\\) \\(disegno a inchiostro\\)$": {
+    "en_GB": "Sketch of a commemorative monument (\\1 ?) (Ink drawing)",
+    "nl_NL": "Schets van een herdenkingsmonument (\\1 ?) (Inkttekening)"
+  },
+  "Cenni sull'organizzazione della truppa pontificia \\(relazione\\)$": {
+    "en_GB": "Notes on the organization of the papal troops (report)",
+    "nl_NL": "Opmerkingen over de organisatie van de pauselijke troepen (rapport)"
+  },
+  "Circolare a stampa (di|del|della) (\\$\\w*) sulle eredità dei cittadini dei Paesi Bassi$": {
+    "en_GB": "Printed circulaire of \\2 about the inheritances of the citizens of the Netherlands",
+    "nl_NL": "Gedrukte circulaire van \\2 over de erfenissen van de burgers van Nederland"
+  },
+  "Circolare a stampa (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Printed circulaire of \\2",
+    "nl_NL": "Gedrukte circulaire van \\2"
+  },
+  "Copia della lettera (di|del|della) (\\$\\w*) fatta (da|dal) (\\$\\w*)$": {
+    "en_GB": "Copy of the letter of \\2 made by \\4",
+    "nl_NL": "Kopie van de brief van \\2 gemaakt door \\4"
+  },
+  "Copia di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con l'annuncio che gli archivi dipendenti dal Consolato delle Repubblica delle Sette Province Unite a Genova gli saranno spediti dalla Legazione di Sardegna$": {
+    "en_GB": "Copy of letter of \\2 to \\4 with the announcement that the archives of the Consulate of the Republic of the Seven United Netherlands in Genoa will be sent to him by the Legation of Sardinia",
+    "nl_NL": "Kopie van brief van \\2 aan \\4 met de aankondiging dat de archieven van het consulaat van de Republiek der Zeven Verenigde Provinciën in Genua hem zullen worden toegezonden door de Legatie van Sardinië"
+  },
+  "Copia di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Copy of letter of \\2 to \\4",
+    "nl_NL": "Kopie van brief van \\2 aan \\4"
+  },
+  "Copia di lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Copy of letter of \\2",
+    "nl_NL": "Kopie van brief van \\2"
+  },
+  "Copia di lettere (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) e (a|al) (\\$\\w*)$": {
+    "en_GB": "Copy of letters of \\2 to \\4 and \\6",
+    "nl_NL": "Kopie van brieven van \\2 aan \\4 en \\6"
+  },
+  "Copia di una delibera dell'Ammiragliato di Genova$": {
+    "en_GB": "Copy of a resolution of the Admiralty of Genoa",
+    "nl_NL": "Kopie van een resolutie van de Admiraliteit van Genua"
+  },
+  "Copia di una lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa la morte (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Copy of a letter of \\2 to \\4 over de dood van \\6",
+    "nl_NL": "Kopie van een brief van \\2 aan \\4 over de dood van \\6"
+  },
+  "Copia di una nota della polizia di Milano inviata al Console$": {
+    "en_GB": "Copy of a note from the police of Milan sent to the Consul",
+    "nl_NL": "Kopie van een notitie van de politie van Milaan aan de consul"
+  },
+  "Copia lettera della Regia Segreteria di Stato e di Guerra del Regno di Sardegna (a|al) (\\$\\w*) circa la sua nomina a console generale del Regno dei Paesi Bassi in data Cagliari$": {
+    "en_GB": "Copied letter from the Royal Secretariat of State and War of the Kingdom of Sardinia to \\2 about his appointment as consul general of the Kingdom of the Netherlands dated Cagliari",
+    "nl_NL": "Gekopieerde brief van het Koninklijk Secretariaat van de Staat en van Oorlog van het Koninkrijk Sardinië aan \\2 over zijn benoeming tot consul-generaal van het Koninkrijk der Nederlanden gedateerd te Cagliari"
+  },
+  "Copie di dispacci, diplomi e carteggio (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Copies of dispatches, diplomas and correspondence of \\2",
+    "nl_NL": "Kopieën van verzendingen, diploma's en correspondentie van \\2"
+  },
+  "Dichiarazione": {
+    "en_GB": "Declaration",
+    "nl_NL": "Verklaring"
+  },
+  "Disegno di un profilo di donna \\(caricatura\\) a matita$": {
+    "en_GB": "Pencil drawing of a woman profile (caricature)",
+    "nl_NL": "Potloodtekening van een vrouwenprofiel (karikatuur)"
+  },
+  "Disposizioni Generali da osservarsi \"par les envoyès et consuls à l'ètranger\" \\(a stampa\\) sottoscritto (\\$\\w*)": {
+    "en_GB": "General Provisions to be observed \"par les envoyès et consuls à l'ètranger\" (printed) signed by \\1",
+    "nl_NL": "Algemene bepalingen die in acht moeten worden genomen \"par les envoyès et consuls à l'ètranger\" (gedrukt) ondertekend door \\1"
+  },
+  "Edel Mogende Heeren! \\(a stampa\\)$": {
+    "en_GB": "Edel Mogende Heeren! (printed)",
+    "nl_NL": "Edel Mogende Heeren! (gedrukt)"
+  },
+  "Edel Mogende Heeren! \\(avviso a stampa\\)$": {
+    "en_GB": "Edel Mogende Heeren! (printed notice)",
+    "nl_NL": "Edel Mogende Heeren! (gedrukt bericht)"
+  },
+  "Editto (di|del|della) (\\$\\w*) sulle volture e traslazioni \\(a stampa\\)$": {
+    "en_GB": "Edict of \\2 on transfers and translations (printed)",
+    "nl_NL": "Edict van \\2 over overdrachten en vertalingen (gedrukt)"
+  },
+  "Estratto di un dispaccio (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Extract from a dispatch of \\2",
+    "nl_NL": "Uittreksel uit een verzending van \\2"
+  },
+  "Estratto di una lettera da Alessandra sottoscritta (da|dal) (\\$\\w*) e trasmessa (da|dal) (\\$\\w*)$": {
+    "en_GB": "Extract from a letter from Alessandra signed by \\2 and sent by \\4",
+    "nl_NL": "Uittreksel uit een brief van Alessandra ondertekend door \\2 en verzonden door \\4"
+  },
+  "Estratto di una lettera scritta al Consolato di S.M. il Re dei Paesi Bassi in Genova di 7 maggio 1825 circa l'arrivo di un Brigantino da guerra$": {
+    "en_GB": "Extract from a letter to the consulate of H.M. the King of the Netherlands in Genoa on May 7, 1825 about the arrival of a war brigantine",
+    "nl_NL": "Uittreksel uit een brief aan het consulaat van Z.M. de Koning der Nederlanden in Genua op 7 mei 1825 over de komst van een oorlogsbrigantijn"
+  },
+  "Foggia di vestire il lutto prescritto da S.M. per la morte del (\\$\\w*) \\(a stampa\\)$": {
+    "en_GB": "Dress code for mourning from H.M. for the death of \\1 (printed)",
+    "nl_NL": "Kledingvoorschrift voor rouw van Z.M. voor de dood van \\1 (gedrukt)"
+  },
+  "Foggia di vestire il lutto prescrtto da S.M. per la morte (di|del|della) (\\$\\w*) occorsa in Genova li 29 marzo 1832 \\(a stampa\\)$": {
+    "en_GB": "Dress code for mourning from H.M. for the death of \\1 which occurred in Genoa on 29 March 1832 (printed)",
+    "nl_NL": "Kledingvoorschrift voor rouw van Z.M. voor de dood van \\1 die plaatsvond in Genua op 29 maart 1832 (gedrukt)"
+  },
+  "Foglio del 1895 \\?$": {
+    "en_GB": "Sheet of 1895 ?",
+    "nl_NL": "Blad van 1895 ?"
+  },
+  "Fregio decorativo con girali d'acanto \\(incisione a stampa\\)$": {
+    "en_GB": "Decorative frieze with acanthus spirals (printed engraving)",
+    "nl_NL": "Decoratieve fries met acanthus-spiralen (geprinte gravure)"
+  },
+  "Giornale a stampa \"(.*?)\"$": {
+    "en_GB": "Printed newspaper \"\\1\"",
+    "nl_NL": "Gedrukte krant \"\\1\""
+  },
+  "Invito (a|al) (\\$\\w*) con allegata lista della dame dei Paesi Bassi$": {
+    "en_GB": "Invitation for \\2 with attached a list of the ladies from the Netherlands",
+    "nl_NL": "Uitnodiging voor \\2 met bijgevoegde lijst van de dames uit Nederland"
+  },
+  "Lettera (a|al) (\\$\\w*) circa la morte (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Letter to \\2 about the death of \\4",
+    "nl_NL": "Brief aan \\2 over de dood van \\4"
+  },
+  "Lettera (a|al) (\\$\\w*) circa la quarantena dei bastimenti assaliti dai corsari$": {
+    "en_GB": "Letter to \\2 about the quarantine of ships attacked by pirates",
+    "nl_NL": "Brief aan \\2 over de quarantaine van schepen die zijn aangevallen door piraten"
+  },
+  "Lettera (a|al) (\\$\\w*)$": {
+    "en_GB": "Letter to \\2",
+    "nl_NL": "Brief aan \\2"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(cifrata\\)$": {
+    "en_GB": "Letter of \\2 to \\4 (encrypted)",
+    "nl_NL": "Brief van \\2 aan \\4 (versleuteld)"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(cifrato\\)$": {
+    "en_GB": "Letter of \\2 to \\4 (encrypted)",
+    "nl_NL": "Brief van \\2 aan \\4 (versleuteld)"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(con allegato\\)$": {
+    "en_GB": "Letter of \\2 to \\4 (with attachment)",
+    "nl_NL": "Brief van \\2 aan \\4 (met bijlage)"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(copia\\)$": {
+    "en_GB": "Letter of \\2 to \\4 (copy)",
+    "nl_NL": "Brief van \\2 aan \\4 (kopie)"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa il posto vacante di console generale del Regno dei Paesi Bassi$": {
+    "en_GB": "Letter of \\2 to \\4 about the vacant position of consul general of the Kingdom of the Netherlands",
+    "nl_NL": "Brief van \\2 aan \\4 over de vacante positie van consul-generaal van het Koninkrijk der Nederlanden"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa l'archivio del Consolato del Regno dei Paesi Bassi trasportato a Parigi$": {
+    "en_GB": "Letter of \\2 to \\4 about the archive of the Consulate of the Kingdom of the Netherlands, which is transported to Paris",
+    "nl_NL": "Brief van \\2 aan \\4 over het naar Parijs vervoerde archief van het Consulaat van het Koninkrijk der Nederlanden"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa l'eredità del defunto (\\$\\w*) a favore (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Letter of \\2 to \\4 about inheritance of the late \\5 in favour of \\7",
+    "nl_NL": "Brief van \\2 aan \\4 over de erfenis van wijlen \\5 ten gunste van \\7"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa la quarantena a cui erano soggette le navi provenienti dai Paesi Bassi$": {
+    "en_GB": "Letter of \\2 to \\4 about the quarantine to which ships from the Netherlands were subject",
+    "nl_NL": "Brief van \\2 aan \\4 over de quarantaine waaraan schepen uit Nederland werden onderworpen"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa la revoca della quarantena per le navi dei Paesi Bassi$": {
+    "en_GB": "Letter of \\2 to \\4 about the revocation of the quarantine for the ships of the Netherlands",
+    "nl_NL": "Brief van \\2 aan \\4 over de opheffing van de quarantaine voor de schepen van Nederland"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con elenchi delle attività previste durante il mese di agosto$": {
+    "en_GB": "Letter of \\2 to \\4 with lists of activities planned during August",
+    "nl_NL": "Brief van \\2 aan \\4 met lijsten van geplande activiteiten in augustus"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con parole cifrate e nota di ricezione dei dispacci diplomatici$": {
+    "en_GB": "Letter of \\2 to \\4 with encrypted words and a note of receipt of diplomatic dispatche",
+    "nl_NL": "Brief van \\2 aan \\4 met versleutelde woorden en een ontvangstbewijs van diplomatieke verzendingen"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con parole cifrate$": {
+    "en_GB": "Letter of \\2 to \\4 with encrypted words",
+    "nl_NL": "Brief van \\2 aan \\4 met versleutelde woorden"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con parti cifrate$": {
+    "en_GB": "Letter of \\2 to \\4 with encrypted parts",
+    "nl_NL": "Brief van \\2 aan \\4 met versleutelde stukken"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con relazione allegata$": {
+    "en_GB": "Letter of \\2 to \\4 with attached report",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgevoegd rapport"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) da Torino$": {
+    "en_GB": "Letter of \\2 to \\4 from Turin",
+    "nl_NL": "Brief van \\2 aan \\4 uit Turijn"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) e (\\$\\w*)$": {
+    "en_GB": "Letter of \\2 to \\4 and \\5",
+    "nl_NL": "Brief van \\2 aan \\4 en \\5"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) in cui afferma di essere stato assaltato da un brigante-pirata inglese in mare quando navigava sulla nave Elena$": {
+    "en_GB": "Letter of \\2 to \\4 in which he claims to have been attacked at sea by an English pirate while sailing on the ship Elena",
+    "nl_NL": "Brief van \\2 aan \\4 waarin hij beweert te zijn aangevallen op zee door een Engelse piraat toen hij aan het varen was op het schip Elena"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) in data Genova, 27 ott. 1817$": {
+    "en_GB": "Letter of \\2 to \\4 dated Genoa, 27 Oct. 1817",
+    "nl_NL": "Brief van \\2 aan \\4 gedateed Genua, 27 okt. 1817"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Letter of \\2 to \\4",
     "nl_NL": "Brief van \\2 aan \\4"
   },
-  "Lettera (di|del) (\\$\\w*)$": {
+  "Lettera (di|del|della) (\\$\\w*) \\(allegata\\)$": {
+    "en_GB": "Letter of \\2 (attachment)",
+    "nl_NL": "Brief van \\2 (bijlage)"
+  },
+  "Lettera (di|del|della) (\\$\\w*) al Direttore di Polizia del Porto di Genova$": {
+    "en_GB": "Letter of \\2 to the director of the police of the port of Genoa",
+    "nl_NL": "Brief van \\2 aan de directeur van de politie van de haven van Genua"
+  },
+  "Lettera (di|del|della) (\\$\\w*) al Re$": {
+    "en_GB": "Letter of \\2 to the king",
+    "nl_NL": "Brief van \\2 aan de koning"
+  },
+  "Lettera (di|del|della) (\\$\\w*) al Segretario dell'Ambasciata d'Olanda in Sardegna$": {
+    "en_GB": "Letter of \\2 to the secretary of the Embassy of the Kingdom of the Netherlands on Sardinia",
+    "nl_NL": "Brief van \\2 aan de secretaris van de Ambassade van het Koninkrijk der Nederlanden op Sardinië"
+  },
+  "Lettera (di|del|della) (\\$\\w*) al Segretario della Legazione dei Paesi Bassi a Torino$": {
+    "en_GB": "Letter of \\2 to the secretary of the Legation of the Kingdom of the Netherlands in Turin",
+    "nl_NL": "Brief van \\2 aan de secretaris van de Legatie van het Koninkrijk der Nederlanden in Turijn"
+  },
+  "Lettera (di|del|della) (\\$\\w*) al fratello$": {
+    "en_GB": "Letter of \\2 to his brother",
+    "nl_NL": "Brief van \\2 aan zijn broer"
+  },
+  "Lettera (di|del|della) (\\$\\w*) circa la revoca della quarantena per le navi dei Paesi Bassi$": {
+    "en_GB": "Letter of \\2 about the revocation of the quarantine for the ships of the Netherlands",
+    "nl_NL": "Brief van \\2 over de opheffing van de quarantaine voor de schepen van Nederland"
+  },
+  "Lettera (di|del|della) (\\$\\w*) circa la sua nomina a vice-console$": {
+    "en_GB": "Letter of \\2 about his appointment as vice-consul",
+    "nl_NL": "Brief van \\2 over zijn benoeming tot vice-consul"
+  },
+  "Lettera (di|del|della) (\\$\\w*) con alcune lagnanze nei confronti dell'Ufficio Passaporti che non teneva conto dei suoi ordini sul rilascio degli stessi$": {
+    "en_GB": "Letter of \\2 with some complaints against the Passport Office, which did not take into account his orders about their issue",
+    "nl_NL": "Brief van \\2 met enkele klachten tegen het paspoortkantoor, dat geen rekening hield met zijn bevelen over de afgifte ervan"
+  },
+  "Lettera (di|del|della) (\\$\\w*) e (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Letter of \\2 and \\3 to \\5",
+    "nl_NL": "Brief van \\2 en \\3 aan \\5"
+  },
+  "Lettera (di|del|della) (\\$\\w*) e (\\$\\w*) circa la revoca della quarantena per le navi dei Paesi Bassi$": {
+    "en_GB": "Letter of \\2 and \\3 about the revocation of the quarantine for the ships of the Netherlands",
+    "nl_NL": "Brief van \\2 en \\3 over de opheffing van de quarantaine voor de schepen van Nederland"
+  },
+  "Lettera (di|del|della) (\\$\\w*) in cui chiede di essere nominato Console a Cagliari$": {
+    "en_GB": "Letter of \\2 in which he asks to be nominated consul in Cagliari",
+    "nl_NL": "Brief van \\2 waarin hij vraagt om te worden benoemd tot consul in Cagliari"
+  },
+  "Lettera (di|del|della) (\\$\\w*)$": {
     "en_GB": "Letter of \\2",
     "nl_NL": "Brief van \\2"
   },
-  "Lettera circolare (di|del) (\\$\\w*) (a|al) (\\$\\w*)$": {
+  "Lettera (di|del|della) (\\$\\w*) all'Ambasciatore del Regno dei Paesi Bassi a Torino circa la morte di suo marito (\\$\\w*)": {
+    "en_GB": "Letter of \\2 to the Ambassador of the Kingdom of the Netherlands in Turin about the death of her husband \\3",
+    "nl_NL": "Brief van \\2 aan de Ambassadeur van het Koninkrijk der Nederlanden in Turijn over de dood van haar echtgenoot \\3"
+  },
+  "Lettera \\?$": {
+    "en_GB": "Letter ?",
+    "nl_NL": "Brief ?"
+  },
+  "Lettera \\?\\?$": {
+    "en_GB": "Letter ??",
+    "nl_NL": "Brief ??"
+  },
+  "Lettera \\?\\?\\?$": {
+    "en_GB": "Letter ???",
+    "nl_NL": "Brief ???"
+  },
+  "Lettera a stampa (di|del|della) (\\$\\w*) e (di|del|della) (\\$\\w*) per i festeggiamenti del matrimonio tra (\\$\\w*) e (\\$\\w*)$": {
+    "en_GB": "Printed letter of \\2 and of \\4 for the wedding celebrations between \\5 and \\6",
+    "nl_NL": "Gedrukte brief van \\2 en van \\4 voor de huwelijksfeesten tussen \\5 en \\6"
+  },
+  "Lettera al Colonnello (su|sul) (\\$\\w*)$": {
+    "en_GB": "Letter to the colonel about \\2",
+    "nl_NL": "Brief naar de kolonel over \\2"
+  },
+  "Lettera cifrata$": {
+    "en_GB": "Encrypted letter",
+    "nl_NL": "Versleutelde brief"
+  },
+  "Lettera circolare (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Circulaire of \\2 to \\4",
     "nl_NL": "Circulaire van \\2 aan \\4"
   },
-  "Lettera circolare (di|del) (\\$\\w*)$": {
-    "en_GB": "Circulaire of \\2",
-    "nl_NL": "Circulaire van \\2"
+  "Lettera circolare (di|del|della) (\\$\\w*) \\(a stampa\\)$": {
+    "en_GB": "Circulaire of \\2 (printed)",
+    "nl_NL": "Circulaire van \\2 (gedrukt)"
+  },
+  "Lettera circolare a stampa (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Printed circulaire of \\2",
+    "nl_NL": "Gedrukte circulaire van \\2"
+  },
+  "Lettera circolare dell'ufficio di Giustizia di Amsterdam$": {
+    "en_GB": "Circulaire of the court of Amsterdam",
+    "nl_NL": "Circulaire van het gerechtshof van Amsterdam"
+  },
+  "Lettera con allegato programma di una cerimonia$": {
+    "en_GB": "Letter with attached the program of a ceremony",
+    "nl_NL": "Brief met bijgevoegd het programma van een ceremonie"
+  },
+  "Lettera confidenziale (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Confidential letter of \\2",
+    "nl_NL": "Vertrouwelijke brief van \\2"
+  },
+  "Lettera da Livorno$": {
+    "en_GB": "Letter van Livorno",
+    "nl_NL": "Brief van Livorno"
+  },
+  "Lettera dalla città di Fossano": {
+    "en_GB": "Letter of the city of Fossano",
+    "nl_NL": "Brief van de stad Fossano"
+  },
+  "Lettera del Console Generale di Sua Maestà dei Paesi Bassi presso il Re di Sardegna sottoscritta (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Letter from the consul general of His Majesty of the Netherlands to the King of Sardinia signed by \\1 to \\3",
+    "nl_NL": "Brief van de consul-generaal van Zijne Majesteit der Nederlanden bij de koning van Sardinië ondertekend door \\1 to \\3"
+  },
+  "Lettera del Ministero delle Finanze, quinta divisione$": {
+    "en_GB": "Letter from the Ministry of Finance, fifth division",
+    "nl_NL": "Brief van het Ministerie van Financiën, vijfde divisie"
+  },
+  "Lettera del consigliere di stato, governatore del granducato$": {
+    "en_GB": "Letter from the councilor of state, governor of the grand duchy",
+    "nl_NL": "Brief van de staatsadviseur, gouverneur van het groothertogdom"
+  },
+  "Lettera della Prefettura dei SS. Palazzi Apostolici (a|al) (\\$\\w*)$": {
+    "en_GB": "Letter from the Prefecture of the Holy Apostolic Palaces to \\2",
+    "nl_NL": "Brief van de prefectuur van de Heilige Apostolische Paleizen aan \\2"
+  },
+  "Lettera della Segreteria di Stato per gli Affrai Eesteri$": {
+    "en_GB": "Letter of the Secretariat of State for Foreign Affairs",
+    "nl_NL": "Brief van het Staatssecretariaat voor Buitenlandse Zaken"
+  },
+  "Lettera della principessa di Saluzzo \\(\\?'\\)$": {
+    "en_GB": "Letter of the princess of Saluzzo (?')",
+    "nl_NL": "Brief van de prinses van Saluzzo (?')"
+  },
+  "Lettera della principessa di Saluzzo$": {
+    "en_GB": "Letter of the princess of Saluzzo",
+    "nl_NL": "Brief van de prinses van Saluzzo"
+  },
+  "Lettera di Guillaume$": {
+    "en_GB": "Letter of Willem",
+    "nl_NL": "Brief van Willem"
+  },
+  "Lettera di indirizzo (di|del|della) (\\$\\w*) da Torino \\(a stampa\\)$": {
+    "en_GB": "Address letter from \\2 from Turin (printed)",
+    "nl_NL": "Adresbrief van \\2 uit Turijn (gedrukt)"
+  },
+  "Lettera per la morte di Sua Maestà (\\$\\w*) \\(a stampa\\)$": {
+    "en_GB": "Letter about the death of His Majesty \\1 (printed)",
+    "nl_NL": "Brief over de dood van Zijne Majesteit \\1 (gedrukt)"
+  },
+  "Lettera$": {
+    "en_GB": "Letter",
+    "nl_NL": "Brief"
+  },
+  "Lista di Coscrizione$": {
+    "en_GB": "Conscription list",
+    "nl_NL": "Dienstplichtlijst"
+  },
+  "Memoria sui negoziati con il Regno di Sardegna$": {
+    "en_GB": "Memory on the negotiations with the Kingdom of Sardinia",
+    "nl_NL": "Memorie over de onderhandelingen met het Koninkrijk Sardinië"
+  },
+  "Ministro della Marina \\?\\?\\?$": {
+    "en_GB": "Minister of the Navy ???",
+    "nl_NL": "Minister van de Marine ???"
+  },
+  "Minuta (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Minute of \\2 to \\4",
+    "nl_NL": "Minuut of \\2 to \\4"
+  },
+  "Minuta con appunti$": {
+    "en_GB": "Minute with notities",
+    "nl_NL": "Minuut met notities"
   },
   "Minuta di lettera (a|al) (\\$\\w*)$": {
     "en_GB": "Minute of a letter to \\2",
     "nl_NL": "Minuut van een brief aan \\2"
   },
-  "Minuta di lettera (di|del) (\\$\\w*)$": {
-    "en_GB": "Minute of a letter of \\2",
-    "nl_NL": "Minuut van een brief van \\2"
-  },
-  "Minuta di lettera (di|del) (\\$\\w*) (a|al) (\\$\\w*)$": {
+  "Minuta di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Minute of a letter of \\2 to \\4",
     "nl_NL": "Minuut van een brief of \\2 to \\4"
+  },
+  "Minuta di lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Minute of a letter of \\2",
+    "nl_NL": "Minuut van een brief van \\2"
   },
   "Minuta di lettera inviata (a|al) (\\$\\w*)$": {
     "en_GB": "Minute of a letter sent to \\2",
@@ -42,10 +446,170 @@
   },
   "Minuta di risposta$": {
     "en_GB": "Minute of a response",
-    "nl_NL": "Minuut van een antwoord"
+    "nl_NL": "Responsminuut"
+  },
+  "Minuta di risposta, suddivisa per punti. Relazione$": {
+    "en_GB": "Minute of a response, broken down by points. Report",
+    "nl_NL": "Responsminuut, onderverdeeld in punten. Rapport"
+  },
+  "Minuta$": {
+    "en_GB": "Minute",
+    "nl_NL": "Minuut"
+  },
+  "Minutario della corrispondenza (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Minutes of correspondence of \\2",
+    "nl_NL": "Minuten van correspondentie van \\2"
+  },
+  "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio \\(a stampa\\)$": {
+    "en_GB": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (printed)",
+    "nl_NL": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (gedrukt)"
+  },
+  "Nota confidenziale$": {
+    "en_GB": "Confidential note",
+    "nl_NL": "Vertrouwelijke nota"
+  },
+  "Nota del denaro spettante al fu (\\$\\w*)$": {
+    "en_GB": "Note of the money owed to the late \\1",
+    "nl_NL": "Nota van het geld dat verschuldigd is aan wijlen \\1"
   },
   "Nota di ricezione dei dispacci diplomatici$": {
     "en_GB": "Note of receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
+  },
+  "Nota su Amsterdam$": {
+    "en_GB": "Note about Amsterdam",
+    "nl_NL": "Nota over Amsterdam"
+  },
+  "Nota su Anton arabo nato a Bagdad$": {
+    "en_GB": "Note about Arab Anton born in Bagdad",
+    "nl_NL": "Nota over de Arabische Anton geboren in Bagdad"
+  },
+  "Nota sui vascelli armati presenti nel porto di Genova$": {
+    "en_GB": "Note on the armed vessels present in the port of Genoa",
+    "nl_NL": "Nota over de gewapende schepen die aanwezig zijn in de haven van Genua"
+  },
+  "Note (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa l'archivio del Consolato del Regno dei Paesi Bassi trasportato a Parigi$": {
+    "en_GB": "Notes of \\2 to \\4 about the archive of the Consulate of the Kingdom of the Netherlands, which is transported to Paris",
+    "nl_NL": "Notities van \\2 aan \\4 over het naar Parijs vervoerde archief van het Consulaat van het Koninkrijk der Nederlanden"
+  },
+  "Note confidenziali di carattere diplomatico$": {
+    "en_GB": "Confidential diplomatic notes",
+    "nl_NL": "Vertrouwelijke diplomatieke notities"
+  },
+  "Notificazione (di|del|della) (\\$\\w*) sulle corse dei cavalli nell'Agro Romano \\(a stampa\\)$": {
+    "en_GB": "Notification by \\2 on horse racing in the Agro Romano (printed)",
+    "nl_NL": "Melding door \\2 over paardenraces in de Agro Romano (gedrukt)"
+  },
+  "Notizie dal Marocco$": {
+    "en_GB": "News from Morocco",
+    "nl_NL": "Nieuws uit Marokko"
+  },
+  "Ordine del giorno (di|del|della) (\\$\\w*) \\(a stampa\\)$": {
+    "en_GB": "Agenda of \\2 (printed)",
+    "nl_NL": "Agenda van \\2 (gedrukt)"
+  },
+  "Programma delle feste in occasione del matrimonio tra la principessa Maria Anna di Savoia e Ferdinando V re d'Ungheria$": {
+    "en_GB": "Program of the festivities for the wedding between princess Maria Anna of Savoy and Ferdinand V, King of Hungary",
+    "nl_NL": "Programma van de festiviteiten voor de bruiloft tussen prinses Maria Anna van Savoye en Ferdinand V, koning van Hongarije"
+  },
+  "Protocollo d'intesa (di|del|della) (\\$\\w*) \\(trascrizione\\)$": {
+    "en_GB": "Memorandum of Understanding of \\2 (translation)",
+    "nl_NL": "Memorandum van overeenstemming van \\2 (vertaling)"
+  },
+  "Protocollo d'intesa sulle relazioni commerciali \\(a stampa in olandese e francese\\)$": {
+    "en_GB": "Memorandum of understanding on commercial relations (printed in Dutch and French)",
+    "nl_NL": "Memorandum van overeenstemming over commerciële relaties (gedrukt in het Nederlands en Frans)"
+  },
+  "Protocollo d'intesa sulle relazioni commerciali con (\\$\\w*)$": {
+    "en_GB": "Memorandum of understanding on commercial relations with \\1",
+    "nl_NL": "Memorandum van overeenstemming over commerciële relaties met \\1"
+  },
+  "Protocollo d'intesa sulle relazioni commerciali$": {
+    "en_GB": "Memorandum of understanding on commercial relations",
+    "nl_NL": "Memorandum van overeenstemming over commerciële relaties"
+  },
+  "Registro dei dispacci arrivati": {
+    "en_GB": "Register of received dispatches",
+    "nl_NL": "Register van ontvangen verzendingen"
+  },
+  "Registro dei dispacci giunti nel 1827": {
+    "en_GB": "Register of received dispatches in 1827",
+    "nl_NL": "Register van ontvangen verzendingen in 1827"
+  },
+  "Regolamento da osservarsi nei funerali solenni di Sua Maestà (\\$\\w*) (di|del|della) (\\$\\w*) \\(a stampa\\)$": {
+    "en_GB": "Regulations to be observed at the solemn funeral of His Majesty \\1 of \\3 (printed)",
+    "nl_NL": "Reglement in acht te nemen bij de plechtige begrafenis van Zijne Majesteit \\1 van \\3 (gedrukt)"
+  },
+  "Regolamento da osservarsi nei solenni funerali di Sua Maestà (\\$\\w*) \\(a stampa\\)$": {
+    "en_GB": "Regulations to be observed in the solemn funeral of His Majesty \\1 (printed)",
+    "nl_NL": "Regelgeving die in acht moet worden genomen bij de plechtige begrafenis van Zijne Majesteit \\1 (gedrukt)"
+  },
+  "Relazione inviata (a|al) (\\$\\w*)$": {
+    "en_GB": "Report sent to \\2",
+    "nl_NL": "Rapport verzonden naar \\2"
+  },
+  "Ricevuta dei dispacci della società Pierre Razetti$": {
+    "en_GB": "Receipt of the dispatches from the Pierre Razetti company",
+    "nl_NL": "Ontvangstbewijs van de verzendingen van de firma Pierre Razetti"
+  },
+  "Ricevuta dei dispacci diplomatici$": {
+    "en_GB": "Receipt of diplomatic dispatches",
+    "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
+  },
+  "Ritaglio a stampa$": {
+    "en_GB": "Clipping from print",
+    "nl_NL": "Knipsel van print"
+  },
+  "Ritaglio di giornale$": {
+    "en_GB": "Newspaper clipping",
+    "nl_NL": "Krantenknipsel"
+  },
+  "Scheda identificativa personale (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Personal identification card of \\2",
+    "nl_NL": "Persoonlijke identificatiekaart van \\2"
+  },
+  "Sentenza in nome (di|del|della) (\\$\\w*) \\(a stampa\\) circa la condanna al carcere (di|del|della) (\\$\\w*) e (di|del|della) (\\$\\w*) come rei di aver divulgato in Bologna un proclama manoscritto diretto.+": {
+    "en_GB": "Sentence in the name of \\2 (printed) regarding the sentencing to prison of \\4 and \\6 as guilty of having disclosed in Bologna a handwritten proclamation directed to the people of the Legations that incited a revolt (Bologna, July 28, 1844)",
+    "nl_NL": "Uitspraak in de naam van \\2 (gedrukt) over de veroordeling tot gevangenisstraf van \\4 en \\6 als schuldig aan het in Bologna bekendmaken van een handgeschreven proclamatie gericht aan de mensen van de Legaties die een opstand uitriep (Bologna, 28 juli 1844)"
+  },
+  "Statuti della Società Olivi-moricola dello Stato Pontificio \\(a stampa\\)$": {
+    "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
+    "nl_NL": "Statuten van de Società Olivi-moricola van de Kerkelijke Staat (gedrukt)"
+  },
+  "Supplica rivolta (a|al) (\\$\\w*)$": {
+    "en_GB": "Plea adressed to \\2",
+    "nl_NL": "Smeekbede gericht aan \\2"
+  },
+  "Trascrizione (di|del|della) (\\$\\w*) del Journal de Paris": {
+    "en_GB": "Transcription by \\2 of the \"Journal of Paris\"",
+    "nl_NL": "Transcriptie door \\2 van de \"Journal of Paris\""
+  },
+  "Trascrizione (di|del|della) (\\$\\w*) di una lettera (a|al) (\\$\\w*)": {
+    "en_GB": "Transcription by \\2 of a letter to \\4",
+    "nl_NL": "Transcriptie door \\2 van een brief aan \\4"
+  },
+  "Trascrizione (di|del|della) (\\$\\w*) di una lettera (di|del|della) (\\$\\w*)": {
+    "en_GB": "Transcription by \\2 of a letter of \\4",
+    "nl_NL": "Transcriptie door \\2 van een brief van \\4"
+  },
+  "Trascrizione della lettera (di|del|della) (\\$\\w*)": {
+    "en_GB": "Transcription of the letter of \\2",
+    "nl_NL": "Transcriptie van de brief van \\2"
+  },
+  "Trascrizione di una dichiarazione (di|del|della) (\\$\\w*)": {
+    "en_GB": "Transcription of a declaration of \\2",
+    "nl_NL": "Transcriptie van een verklaring van \\2"
+  },
+  "Trascrizione di una lettera (di|del|della) (\\$\\w*)": {
+    "en_GB": "Transcription of a letter of \\2",
+    "nl_NL": "Transcriptie van een brief van \\2"
+  },
+  "Trascrizioni del carteggio tra il Governatore, Duca di Genova e (\\$\\w*) in data Genova": {
+    "en_GB": "Transcriptions of the correspondence between the Governor, Duke of Genoa and \\1 dated Genoa",
+    "nl_NL": "Transcripties van de correspondentie tussen de Gouverneur, Hertog van Genua en \\1 gedateerd te Genua"
+  },
+  "Trascrizioni e copie di lettere fatte (da|dal) (\\$\\w*) indirizzate (a|ad) (\\$\\w*), Genova, Marsiglia, Barcellona": {
+    "en_GB": "Transcriptions and copies of letters made by \\2 addressed to \\4, Genoa, Marseille, Barcelona",
+    "nl_NL": "Transcripties en kopieën van brieven gemaakt door \\2 gericht aan \\4, Genua, Marseille, Barcelona"
   }
 }

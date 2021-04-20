@@ -4,7 +4,13 @@
     "en_GB": "Freiherr",
     "it_IT": "Freiherr",
     "nl_NL": "Freiherr",
-    "position": "Middle"
+    "position": "Before"
+  },
+  "aartshertogin van Oostenrijk": {
+    "en_GB": "archduchess of Austria",
+    "it_IT": "arciduchessa d’Austria",
+    "nl_NL": "aartshertogin van Oostenrijk",
+    "position": "After"
   },
   "brigadegeneraal": {
     "en_GB": "brigadier general",
@@ -24,6 +30,18 @@
     "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
     "position": "Before"
   },
+  "hertog van Santa Cristina": {
+    "en_GB": "duke of Santa Cristina",
+    "it_IT": "duca di Santa Cristina",
+    "nl_NL": "hertog van Santa Cristina",
+    "position": "After"
+  },
+  "kapitein": {
+    "en_GB": "captain",
+    "it_IT": "capitano",
+    "nl_NL": "kapitein",
+    "position": "Before"
+  },
   "luitenant-kolonel": {
     "en_GB": "lieutenant colonel",
     "it_IT": "tenente colonnello",
@@ -35,6 +53,12 @@
     "it_IT": "padre",
     "nl_NL": "pater",
     "position": "Before"
+  },
+  "prins van Mazzano en Antuni": {
+    "en_GB": "prince of Mazzano and Antuni",
+    "it_IT": "principe di Mazzano ed Antuni",
+    "nl_NL": "prins van Mazzano en Antuni",
+    "position": "After"
   },
   "zuster": {
     "en_GB": "sister",

@@ -5,6 +5,11 @@
     "it_IT": "Cappellano",
     "nl_NL": "Aalmoezenier"
   },
+  "Aartsbisschop van Thebe": {
+    "en_GB": "Archbishop of Thebe",
+    "it_IT": "Arcivescovo di Tebe",
+    "nl_NL": "Aartsbisschop van Thebe"
+  },
   "Ad interim directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag": {
     "en_GB": "Ad interim director of the chancellery for Luxembourgish Affairs in The Hague",
     "it_IT": "Direttore ad interim della cancelleria per gli Affari Lussemburghesi dell'Aia",
@@ -85,6 +90,11 @@
     "it_IT": "Comandante della 3° Divisione Militare a Bologna",
     "nl_NL": "Commandant van de 3e militaire divisie te Bologna"
   },
+  "Commandant van de vesting van Ancona": {
+    "en_GB": "Commander of the fortress of Ancona",
+    "it_IT": "Comandante della Piazza di Ancona",
+    "nl_NL": "Commandant van de vesting van Ancona"
+  },
   "Commandant van het 1e buitenlandse regiment van het Pauselijke leger": {
     "en_GB": "Commander of the 1st foreign regiment of the Papal army",
     "it_IT": "Comandante del 1° reggimento estero dell'esercito pontificio",
@@ -125,6 +135,11 @@
     "it_IT": "Console del Regno dei Paesi Bassi ad Alessandria",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Alessandria"
   },
+  "Consul-generaal van het Koninkrijk der Nederlanden te Nice": {
+    "en_GB": "Consul general of the Kingdom of the Netherlands in Nice",
+    "it_IT": "Console generale del Regno dei Paesi Bassi a Nizza",
+    "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Nice"
+  },
   "Directeur van de Douane en _Gabelle_ {Belastingsdienst} van Ancona": {
     "en_GB": "Director of the Costums and _Gabelle_ {Tax Office} of Ancona",
     "it_IT": "Direttore della Dogane e Gabelle di Ancona",
@@ -149,6 +164,16 @@
     "en_GB": "Director of the department of medals and coins at the University of Leiden",
     "it_IT": "Direttore dell'Ufficio delle medaglie e delle monete dell'Università di Leida",
     "nl_NL": "Directeur van het Penningenkabinet van de Universiteit Leiden"
+  },
+  "Directeur-generaal voor liquidatie van de openbare schuld van de Kerkelijke Staat": {
+    "en_GB": "Director-general for liquidation of the public debt of the Papal States",
+    "it_IT": "Direttore generale per la liquidazione del debito pubblico dello Stato Pontificio",
+    "nl_NL": "Directeur-generaal voor liquidatie van de openbare schuld van de Kerkelijke Staat"
+  },
+  "Expediteur": {
+    "en_GB": "Freight forwarder",
+    "it_IT": "Spedizioniero",
+    "nl_NL": "Expediteur"
   },
   "Generaal van de buitenlandse regimenten van het Pauselijke leger": {
     "en_GB": "General of the foreign regiments of the Papal army",
@@ -205,6 +230,11 @@
     "it_IT": "Comandante superiore della Piazza di Civitavecchia",
     "nl_NL": "Hoofdcommandant van de vesting van Civitavecchia"
   },
+  "Kamerheer-ceremoniemeester van de Koning der Nederlanden": {
+    "en_GB": "Chamberlain and master of ceremonies of the King of the Netherlands",
+    "it_IT": "Ciambellano e maestro di cerimonie del Re dei Paesi Bassi",
+    "nl_NL": "Kamerheer-ceremoniemeester van de Koning der Nederlanden"
+  },
   "Kanunnik": {
     "en_GB": "Canon",
     "it_IT": "Canonico",
@@ -214,6 +244,11 @@
     "en_GB": "Captain of the Republic of San Martino",
     "it_IT": "Capitano della Repubblica di San Martino",
     "nl_NL": "Kapitein van de Republiek van San Martino"
+  },
+  "Koningin van Sardinië": {
+    "en_GB": "Queen of Sardinia",
+    "it_IT": "Regina di Sardegna",
+    "nl_NL": "Koningin van Sardinië"
   },
   "Koning van Zweden": {
     "en_GB": "King of Sweden",

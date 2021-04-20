@@ -34,7 +34,7 @@
     "en_GB": "baron",
     "it_IT": "barone",
     "nl_NL": "baron",
-    "position": "Middle"
+    "position": "Before"
   },
   "baron da Venda da Cruz": {
     "en_GB": "baron Da Venda da Cruz",
@@ -46,7 +46,7 @@
     "en_GB": "baroness",
     "it_IT": "baronessa",
     "nl_NL": "barones",
-    "position": "Middle"
+    "position": "Before"
   },
   "bisschop": {
     "en_GB": "bishop",
@@ -76,7 +76,7 @@
     "en_GB": "count",
     "it_IT": "conte",
     "nl_NL": "graaf",
-    "position": "Middle"
+    "position": "Before"
   },
   "graaf de San Pedro del Álamo": {
     "en_GB": "count de San Pedro del Álamo",
@@ -100,7 +100,7 @@
     "en_GB": "countess",
     "it_IT": "contessa",
     "nl_NL": "gravin",
-    "position": "Middle"
+    "position": "Before"
   },
   "hertog van Casigliano": {
     "en_GB": "duke of Casigliano",
@@ -166,7 +166,7 @@
     "en_GB": "Marquess",
     "it_IT": "marchese",
     "nl_NL": "markies",
-    "position": "Middle"
+    "position": "Before"
   },
   "markies van Belmonte": {
     "en_GB": "Marquess of Belmonte",
