@@ -95,6 +95,7 @@ def create_translated_xlsx(directory_name, localization):
         translations = json.loads(file.read())
     del translations["$schema"]
     translation_patterns = {re.compile(k): v for k, v in translations.items()}
+    translation_data = initialize_translation_database()
     used_translations = set()
 
     directory = os.fsencode(directory_name)
@@ -106,6 +107,7 @@ def create_translated_xlsx(directory_name, localization):
                 filename,
                 localization,
                 translation_patterns,
+                translation_data,
                 used_translations,
             )
     unused_trans = [i for i in translation_patterns.keys() if i not in used_translations]

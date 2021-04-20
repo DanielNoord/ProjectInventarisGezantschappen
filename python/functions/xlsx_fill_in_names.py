@@ -13,7 +13,7 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
         directory_name (str): Name of input directory
         file_name (str): Name of input file
         individuals (dict): Dictionary of all individuals based on inputs/Individuals.json
-        translations (list): Dictionaries of function and title translations
+        translations (list): Dictionaries of function, title and places translations
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")
@@ -23,9 +23,7 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
             line = re.split(r"( |\.|,|\(|\))", row[1].value)
             for index, word in enumerate(line):
                 if word.startswith("$"):
-                    line[index] = name_string(
-                        individuals[word], date, translations, localization
-                    )
+                    line[index] = name_string(individuals[word], date, translations, localization)
             line = "".join(line)
 
             # Clean up string

@@ -10,21 +10,17 @@ def check_translations():
     Raises:
         Exception: Whenever there are any duplicates or empty translations
     """
-    translated_titles, translated_functions = initialize_translation_database()
+    translated_titles, translated_functions, _ = initialize_translation_database()
     for key, translations in translated_titles.items():
         if key != translations["nl_NL"]:
-            raise Exception(
-                f"Found difference in Dutch translation and key for title {key}"
-            )
+            raise Exception(f"Found difference in Dutch translation and key for title {key}")
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in titles at {key}")
 
     for key, translations in translated_functions.items():
         if key != translations["nl_NL"]:
-            raise Exception(
-                f"Found difference in Dutch translation and key for function {key}"
-            )
+            raise Exception(f"Found difference in Dutch translation and key for function {key}")
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in functions at {key}")
@@ -42,7 +38,7 @@ def check_entries(input_file):
     Raises:
         Exception: Whenever something is missing/incorrect
     """
-    translated_titles, translated_functions = initialize_translation_database()
+    translated_titles, translated_functions, _ = initialize_translation_database()
     with open(input_file) as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
@@ -81,9 +77,7 @@ def check_entries(input_file):
             assert extract_date(data["date_of_birth"], "nl_NL")
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
-    unused_functions = [
-        i for i in translated_functions.keys() if i not in used_functions
-    ]
+    unused_functions = [i for i in translated_functions.keys() if i not in used_functions]
 
     print(f"\nFound the following unused titles {unused_titles}")
     print(f"Found the following unused functions {unused_functions}\n")
