@@ -74,6 +74,7 @@ def create_xlsx_controle(directory_names):
                 new_sheet.append(tuple(i.value for i in rows_it[index]))
                 new_sheet.append(tuple(i.value for i in rows_en[index]))
                 new_sheet.append(tuple(i.value for i in rows_nl[index]))
+                new_sheet.append([])
             os.makedirs(
                 os.path.join(os.getcwd(), "outputs/VolumesExcelControl"),
                 exist_ok=True,
@@ -107,9 +108,7 @@ def create_translated_xlsx(directory_name, localization):
                 translation_patterns,
                 used_translations,
             )
-    unused_trans = [
-        i for i in translation_patterns.keys() if i not in used_translations
-    ]
+    unused_trans = [i for i in translation_patterns.keys() if i not in used_translations]
     print("Done!\nFound the following unused translations:\n", unused_trans)
 
 
