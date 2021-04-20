@@ -388,10 +388,6 @@
     "en_GB": "Letter of the princess of Saluzzo",
     "nl_NL": "Brief van de prinses van Saluzzo"
   },
-  "Lettera di Guillaume$": {
-    "en_GB": "Letter of Willem",
-    "nl_NL": "Brief van Willem"
-  },
   "Lettera di indirizzo (di|del|della) (\\$\\w*) da Torino \\(a stampa\\)$": {
     "en_GB": "Address letter from \\2 from Turin (printed)",
     "nl_NL": "Adresbrief van \\2 uit Turijn (gedrukt)"
