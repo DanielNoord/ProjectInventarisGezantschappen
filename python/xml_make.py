@@ -6,12 +6,7 @@ import lxml.etree as etree
 from openpyxl import load_workbook
 
 from functions.xlsx_parse import parse_dossier, parse_file, parse_volume
-from functions.xml_create_elements import (
-    basic_xml_file,
-    dossier_entry,
-    file_entry,
-    volume_entry,
-)
+from functions.xml_create_elements import basic_xml_file, dossier_entry, file_entry, volume_entry
 
 
 def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
@@ -28,7 +23,7 @@ def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
         if file[0].value is not None and not file[0].value.endswith("_0"):
 
             # TODO: What does this mean?
-            if file[0].value == "c":
+            if file[0].value in ["c", "C"]:
                 warn(f"Value is 'c' in {file[0].coordinate}")
                 break
             f_page, f_title, f_place, f_date = parse_file(file)
@@ -60,13 +55,9 @@ def create_xml_dossier(localization, sheet, v_num, c01):
 
     # Find dossiers
     for cell in sheet["A"]:
-        if cell.value is not None and (
-            mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)
-        ):
+        if cell.value is not None and (mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)):
             if mat.groups()[0] not in dossiers.keys():
-                d_pages, d_title, d_data = parse_dossier(
-                    sheet, mat.groups()[0], v_num, cell
-                )
+                d_pages, d_title, d_data = parse_dossier(sheet, mat.groups()[0], v_num, cell)
 
                 # Create entry
                 dossiers[mat.groups()[0]] = dossier_entry(
@@ -121,9 +112,7 @@ def create_xml_file(localization, dir_name):
     for file in sorted(os.listdir(directory)):
         filename = os.fsdecode(file)
         if not filename.count("~$") and filename.startswith("Final_"):
-            create_xml_volume(
-                localization, f"{dir_name}{localization}/{filename}", archdesc
-            )
+            create_xml_volume(localization, f"{dir_name}{localization}/{filename}", archdesc)
 
     tree = etree.ElementTree(root)
 
@@ -142,4 +131,4 @@ def create_xml_file(localization, dir_name):
 
 
 if __name__ == "__main__":
-    create_xml_file("it_IT", "inputs/VolumesExcelFilled/Final_")
+    create_xml_file("it_IT", "outputs/VolumesExcelFinal/")
