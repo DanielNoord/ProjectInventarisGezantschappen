@@ -111,7 +111,7 @@ def create_xml_file(localization, dir_name):
     directory = os.fsencode(f"{dir_name}{localization}")
     for file in sorted(os.listdir(directory)):
         filename = os.fsdecode(file)
-        if not filename.count("~$") and filename.startswith("Final_"):
+        if not filename.count("~$") and filename.startswith("Paesi"):
             create_xml_volume(localization, f"{dir_name}{localization}/{filename}", archdesc)
 
     tree = etree.ElementTree(root)
