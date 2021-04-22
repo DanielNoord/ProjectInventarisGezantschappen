@@ -31,9 +31,7 @@ def basic_xml_file():
     publicationstmt = etree.SubElement(filedesc, "publicationstmt")
     publisher = etree.SubElement(publicationstmt, "publisher")
     publisher.text = "KNIR"
-    date = etree.SubElement(
-        publicationstmt, "date", calendar="gregorian", era="ce", normal="2021"
-    )
+    date = etree.SubElement(publicationstmt, "date", calendar="gregorian", era="ce", normal="2021")
     date.text = "(c) 2021"
     para = etree.SubElement(publicationstmt, "p", id="copyright")
     extref = etree.SubElement(
@@ -48,7 +46,8 @@ def basic_xml_file():
 
     # Profiledesc
     profiledesc = etree.SubElement(eadheader, "profiledesc")
-    language = """<langusage>This finding aid is written in # pylint: disable=line-too-ling
+    # pylint: disable=trailing-whitespace
+    language = """<langusage>This finding aid is written in 
             <language langcode="dut" scriptcode="Latn">Dutch</language>.
         </langusage>"""
     profiledesc.append(etree.fromstring(language))
