@@ -1,7 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema#",
-  "title": "List of all individuals mentioned in the archive",
-  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/person"
+  },
   "definitions": {
     "date": {
       "description": "A string containing a date",
@@ -36,43 +37,35 @@
           "description": "Comments about extra info or the person",
           "type": "string"
         },
+        "date_of_birth": {
+          "$ref": "#/definitions/date",
+          "description": "Date of birth of individual"
+        },
+        "date_of_death": {
+          "$ref": "#/definitions/date",
+          "description": "Date of death of individual"
+        },
         "functions": {
+          "function": "Array of functions of individual",
           "items": {
             "$ref": "#/definitions/function-title"
           },
-          "function": "Array of functions of individual",
           "type": "array"
         },
         "name": {
           "description": "Name of individual",
           "type": "string"
         },
-        "date_of_death": {
-          "description": "Date of death of individual",
-          "$ref": "#/definitions/date"
-        },
-        "place_of_death": {
-          "description": "Place of death of individual",
-          "type": "string"
-        },
-        "date_of_birth": {
-          "description": "Date of birth of individual",
-          "$ref": "#/definitions/date"
+        "person_type": {
+          "description": "Type of person using numbering scheme",
+          "type": "number"
         },
         "place_of_birth": {
           "description": "Date of birth of individual",
           "type": "string"
         },
-        "nationality": {
-          "description": "Nationality of individual (often missing)",
-          "type": "string"
-        },
-        "person_type": {
-          "description": "Type of person using numbering scheme",
-          "type": "number"
-        },
-        "place of residence": {
-          "description": "Place of residence of individual (often missing)",
+        "place_of_death": {
+          "description": "Place of death of individual",
           "type": "string"
         },
         "sources": {
@@ -88,32 +81,44 @@
           "minItems": 1,
           "type": "array"
         },
+        "images": {
+          "additionalItems": {
+            "type": "string"
+          },
+          "description": "Array of relevant images",
+          "items": [
+            {
+              "type": "string"
+            }
+          ],
+          "minItems": 1,
+          "type": "array"
+        },
         "surname": {
           "description": "Surname of individual",
           "type": "string"
         },
         "titles": {
+          "description": "Array of titles of individual",
           "items": {
             "$ref": "#/definitions/function-title"
           },
-          "description": "Array of titles of individual",
           "type": "array"
         }
       },
       "required": [
         "surname",
         "name",
-        "nationality",
         "date_of_birth",
         "place_of_birth",
         "date_of_death",
         "place_of_death",
         "titles",
         "functions",
-        "place of residence",
         "comment",
         "person_type",
-        "sources"
+        "sources",
+        "images"
       ],
       "type": "object"
     }
@@ -121,8 +126,7 @@
   "properties": {
     "$schema": "string"
   },
-  "additionalProperties": {
-    "$ref": "#/definitions/person"
-  },
+  "title": "List of all individuals mentioned in the archive",
+  "type": "object",
   "uniqueItems": true
 }
