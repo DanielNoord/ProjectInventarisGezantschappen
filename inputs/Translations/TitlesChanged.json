@@ -42,6 +42,12 @@
     "nl_NL": "kapitein",
     "position": "Before"
   },
+  "luitenant-ter-zee": {
+    "en_GB": "luitenant-ter-zee",
+    "it_IT": "luitenant-ter-zee",
+    "nl_NL": "luitenant-ter-zee",
+    "position": "Before"
+  },
   "luitenant-kolonel": {
     "en_GB": "lieutenant colonel",
     "it_IT": "tenente colonnello",

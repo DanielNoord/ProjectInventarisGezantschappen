@@ -620,6 +620,11 @@
     "it_IT": "Duca di Nassau",
     "nl_NL": "Hertog van Nassau"
   },
+  "Hertog van Parma en Piacenza": {
+    "en_GB": "Duke of Parma and Piacenza",
+    "it_IT": "Duca di Parma e Piacenza",
+    "nl_NL": "Hertog van Parma en Piacenza"
+  },
   "Hertogin van Parma": {
     "en_GB": "Duchess of Parma",
     "it_IT": "Duchessa di Parma",
@@ -1254,16 +1259,6 @@
     "en_GB": "Shopkeeper",
     "it_IT": "Negoziante",
     "nl_NL": "Winkelier"
-  },
-  "Zaakgelastigde te Turijn": {
-    "en_GB": "Chargé d'affaires in Turin",
-    "it_IT": "Incaricato d'affari a Torino",
-    "nl_NL": "Zaakgelastigde te Turijn"
-  },
-  "Zaakgelastigde van de Heilige Stoel te Den Haag": {
-    "en_GB": "Chargé d'affaires of the Holy See in The Hague",
-    "it_IT": "Incaricato d'affari della Santa Sede all'Aia",
-    "nl_NL": "Zaakgelastigde van de Heilige Stoel te Den Haag"
   },
   "Zaakgelastigde van de Republiek Chili bij de Heilige Stoel": {
     "en_GB": "Chargé d'affaires of the Republic of Chile to the Holy See",
