@@ -4,7 +4,96 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-SOURCE_PATTERNS = {}
+SOURCE_PATTERNS = {
+    # Biographical dictionaries
+    r"(.*, .*, )?'.*' in: Allgemeine Deutsche Biographie. Band \d* \(Leipzig, 1\d\d\d\)",
+    r"(.*, .*, )?'.*' in: Traugott Bautz \(ed.\), Biographisch-Bibliographisches Kirchenlexikon. Band \d* \(Herzberg, \d\d\d\d\)",  # pylint: disable=line-too-long
+    r"(.*, .*, )?'.*' in: Historisches Lexikon der Schweiz \(20\d\d\), found on https://hls-dhs-dss.ch/it/articles/\d*/20\d\d-\d\d-\d\d/",  # pylint: disable=line-too-long
+    r"(.*, .*, )?'.*' in: Neue Deutsche Biographie. Band \d* \(Berlin, \d\d\d\d\)",
+    r"(.*, .*, )?'.*' in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
+    r"(.*, .*, )?'.*' in: The Catholic Encyclopedia. Volume \d* \(New York, 19\d\d\)",
+    r".*, .*, '.*' in: Repertorium van ambtsdragers en ambtenaren 1428-1861, found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",  # pylint: disable=line-too-long
+    r"'.*' in: A.J. van der AA, Biographisch woordenboek der Nederlanden. .* \(Haarlem, 18\d\d\)",
+    r"'.*' in: Constantin von Wurzbach, Biographisches Lexikon des Kaiserthums Oesterreich. \d*. Teil \(Vienna, 18\d\d\)",  # pylint: disable=line-too-long
+    r"'.*' in: Database of the Office of the Historian, found on https://history.state.gov/departmenthistory/people/.*",  # pylint: disable=line-too-long
+    r"'.*' in: Hessische Biografie, found on https://www.lagis-hessen.de/pnd/.*",
+    r"'.*' in: Index Catalogue of the Library of the Surgeon-general's Office United States Army, volume 15 \(Washington, 1894\)",  # pylint: disable=line-too-long
+    r"'.*' in: Österreichisches Biographisches Lexikon 1815–1950. Band \d* \(Vienna, 1957\)",
+    r"'.*' in: Mullié, Charles, Biographie des célébrités militaires des armées de terre et de mer de 1789 à 1850 \(Paris, 1852\)",  # pylint: disable=line-too-long
+    r"'.*' in: von Zedlitz-Neukirch, Leopold, Neues Preussisches Adels-Lexicon. Dritter Band I-O \(Leipzig, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Dutch Institute for Art History \(RKD\), '.*', found on: https://rkd.nl/explore/artists/\d*",
+    r"Mersch, Jules, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d\d \(Luxemburg, 19\d\d\),( \d*,)* \d*?( and \d*)?",  # pylint: disable=line-too-long
+    # State almanac/calendar
+    r"Almanacco imperiale reale per le provincie del Regno Lombardo-Veneto soggette al governo di Milano per l'anno bisestile 18\d\d \(Milan, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Almanacco reale del Regno delle Due Sicilie per l'anno 18\d\d \(Naples, 18\d\d\), \d*",
+    r"Almanacco Romano pel 18\d\d. Raccolta dei primari dignitari e funzionari della citta' di Roma, Anno \d* \(Rome, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Annuario del Ministero delle finanze del Regno d'Italia, Anno \d* \(Turin, 18\d\d\), \d*",
+    r"Belinfante, J., 's Gravenhaagsche Stads- en Residentie-almanak voor het jaar 18\d\d \('s Gravenhage, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Calendario generale della città, diocesi, e provincia di Ancona per l'anno 18\d\d \(Ancona, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna, volume .* \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Fontana, Allesandro, Il Palmaverde: calendario storico-statistico-amministrativo, \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Governo di Malta, Repertorio di proclami, ordinanze, notificazioni ecc. dall ottobre 1813 a giugno 1842, Volume 1 A-M \(Malta, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Handbuch über den Königlich Preußischen Hof und Staat für das Jahr 18\d\d \(Berlin, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Manuale del regno lombardo-veneto per l'anno 18\d\d, \(Milan, 18\d\d\), \d*",
+    r"Ministero dell'interno, Calendario generale del Regno di Sardegna, \(Turin, 18\d\d\), \d*",
+    r"Ministero dell'interno, Calendario generale del Regno d'Italia, \(Turin, 18\d\d\), \d*",
+    r"Ministero dell'interno, Calendario generale pe' regii stati, \(Turin, 18\d\d\), \d*",
+    r"Perthes, Justus, Almanach de Gotha. Annuaire diplomatique et statistique pour l'année 18\d\d \(Gotha, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Società di Agricoltura Jesina. Annali ed Atti, volume \d* \(Rome, 18\d\d\), \d*",
+    r"Staats-almanak voor den jare 18\d\d \(The Hague, 18\d\d\), \d*",
+    r"Staats- und Adress-Handbuch des Herzogthums Nassau für das Jahr 18\d\d \(Wiesbaden, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Stamperia Chracas, Notizie per l'anno 18\d\d \(Roma, 18\d\d\), \d*",
+    r"Stamperia Davico e Picco, Raccolta di regi editti, proclami, manifesti ed altri provvedimenti de' magistrati ed uffizi. Volume \d\d \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Tipografia Giusti, Almanacco di Corte per l'anno 18\d\d \(Lucca, 18\d\d\), \d*",
+    r"Tipografia della Rev. Cam. Apostolica, Notizie per l'anno 18\d\d \(Roma, 18\d\d\), \d*",
+    r"Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 18\d\d, volume \d* \(Gent, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    # Journals
+    r".*, .*, '.*' in Jaarboek van de Maatschappij der Nederlandse Letterkunde \(Amsterdam, 18\d\d-\d\d-\d\d\), \d*-\d*",  # pylint: disable=line-too-long
+    r".*, .*, '.*' in Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, \d* \(19\d\d\), \d*-\d*",  # pylint: disable=line-too-long
+    r"Allgemeiner Polizei-Anzeiger, Jahr .*, \d* \(Gotha, 18\d\d-\d\d-\d\d\), \d*",
+    r"Bureaux de l'agence générale pour la défense de la liberté religieuse, Premier bulletin de l'agence générale pour la défense de la liberté religieuse \(Paris, 18\d\d-\d\d-\d\d\), \d*",  # pylint: disable=line-too-long
+    r"De Nederlandsche Leeuw, \d*, \d* \(1\d\d\d-\d\d\), \d*",
+    r"Gazzetta di Genova, Anno .*, \d* \(Genoa, 18\d\d-\d\d-\d\d\), \d*",
+    r"Gazzetta Piemontese, Anno .*, \d* \(Turin, 18\d\d-\d\d-\d\d\), \d*",
+    r"Gazzetta Ufficiale di Roma, Anno .*, \d* \(Rome, 18\d\d-\d\d-\d\d\), \d*",
+    r"La Civiltà Cattolica, Anno \d*, .* \(Rome, 18\d\d\), \d*",
+    r"Il Fanfulla, Anno \d*, .* \(Rome, 18\d\d\), \d*",
+    r"Nederlandsche Staatscourant 18\d\d, \d* \(The Hague, 18\d\d-\d\d-\d\d\)",
+    r"Osservatore del Trasimeno, Anno .*, \d* \(Perugia, 18\d\d-\d\d-\d\d\), \d*",
+    r"Pilaar, J.C. and J.M. Obreen, Tijdschrift toegewijd aan het zeewezen. Tweede reeks. Derde deel \(Medemblik, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    # Books
+    r"Archivum Historiae Pontificiae, volume \d* \(Rome, 19\d\d\), \d*",
+    r"Barclay, David E., ‘Hof und Hofgesellschaft in Preußen in der Zeit Friedrich Wilhelms IV. \(1840 bis 1857\). Überlegungen und Fragen’ in: Karl Möckl ed., Hof und Hofgesellschaft in den deutschen Staaten im 19. und beginnenden 20. Jahrhundert \(Berlin, Boston, 1990\), \d*",  # pylint: disable=line-too-long
+    r"Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration \(1814-1846\) \(Rome, 2002\), \d*",  # pylint: disable=line-too-long
+    r"De Boni, Filippo, La Congiura di Roma e Pio IX. Ricordi di Filippo de Boni \(Losanna, 1848\), \d*",  # pylint: disable=line-too-long
+    r"Capitelli, G. and S. Cracolici, Roma en Mexico – Mexico en Roma. Las academias de arte entre Europa y el Nuevo Mundo, 1843-1867 \(Rome, 2018\)",  # pylint: disable=line-too-long
+    r"Cormier, Hyacinthe Marie, La vita del reverendissimo padre fr. Alessandro Vincenzo Jandel, LXXIII maestro generale dei Frati Predicatori \(Rome, 1896\)",  # pylint: disable=line-too-long
+    r"Cozzo, Paolo, Andrea Merlotti and Andrea Nicolotti, The Shroud at Court: History, Usages, Places and Images of a Dynastic Relic \(Leiden, 2019\), \d*",  # pylint: disable=line-too-long
+    r"Crisafulli, Vincenzo, Studi sull'apostolica sicola legazia, volume 1 \(Palermo, 1850\)",
+    r"van Dommelen, G.F., Geschiedenis der militaire geneeskundige dienst in Nederland, met inbegrip van die zijner zeemagt en overzeesche bezittingen, van af den vroegsten tijd tot op heden \(Zutphen, 1857\), .*",  # pylint: disable=line-too-long
+    r"Douma, Klaasje, De adel in Noord-Brabant, 1814-1918: groepsvorming, adellijke levensstijl en regionale identiteit \(Tilburg, 2015\)",  # pylint: disable=line-too-long
+    r"Foreign Office, British and Foreign State Papers. 1833-1834, volume 22 \(London, 1847\), \d*",
+    r"Iacobini, Franco, Terrae Cinthiani, Storia di Genzano e della nobile Famiglia Iacobini \(Rome, 2003\)",  # pylint: disable=line-too-long
+    r"Lencisa, G.F., Ragionamento sulla rinnovazione del trattato di commercio e di navigazione conchiuso tra il Piemonte e la Francia nell'anno 1843, e della Convenzione speciale sulla proprietà letteraria annessa a quel trattato medesimo \(Turin, 1851\)",  # pylint: disable=line-too-long
+    r"Martina, G., Pio IX \(1846-1850\) \(Rome, 1974\), \d*",
+    r"van der Meulen, M.E., Mijne Reis door Zwitserland naar de Waldenzen in Piemont’s Valleijen \(London, 1852\)",  # pylint: disable=line-too-long
+    r"Nuyens, A., Gedenkboek der pauselijke Zouaven. 1867-1892 \(Roermond, 1892\)",
+    r"Pirri S.J., P. Pietro, Pio IX e Vittorio Emanuele II dal loro carteggio privato \(Rome, 1980\), \d*( and \d*)?",  # pylint: disable=line-too-long
+    r"Pohle, Frank, Alfred von Reumont \(1808–1887\) – Ein Diplomat als kultureller Mittler \(Berlin, 2015\)",  # pylint: disable=line-too-long
+    r"Ricci, Angelo Maria, Epistola Poetica a sua eccellenza reverendissima monsignor Achille Maria Ricci \(Rome, 1847\)",  # pylint: disable=line-too-long
+    r"Sánchez, Elena Vázquez, Un historiador del derecho, Pedro José Pidal \(Madrid, 1998\)",
+    r"Schijf, Huibert, Netwerken van een financieel-economische elite \(Amsterdam, 1993\), \d*",
+    r"Schutte, O., Repertorium der Nederlandse vertegenwoordigers residerende in het buitenland 1584-1810 \(The Hague, 1976\), \d*",  # pylint: disable=line-too-long
+    r"De Sivo, Giacinto, Storia delle Due Sicilie, volume 2 \(Brindisi, 2013\)",
+    r"Smith, Robert and Brenda Packman, Memoirs of Giambattista Scala: Consul of his Italian Majesty in Lagos in Guinea \(1862\) \(Oxford, 2000\)",  # pylint: disable=line-too-long
+    r"Solaro della Margarita, Clemente, Memorandum storico politico del conte Clemente Solaro della Margarita \(Turin, 1852\)",  # pylint: disable=line-too-long
+    r"Sunti delle Dissertazioni lette nell'Accademia Liturgica, volume 1 \(Rome, 1843\), \d*",
+    r"van der Vijver, C., Geschiedkundige beschrijving der stad Amsterdam sedert hare wording tot op den tegenwoordige tijd, deel 3 \(Amsterdam, 1846\), \d*",  # pylint: disable=line-too-long
+    # Archives
+    r"Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-\d\d",
+    r"Nationaal Archief, Den Haag, Gezantschap Italië, 2.05.26",
+    r"Stadsarchief Amsterdam, Amsterdam, inventory number: \d*",
+}
 
 
 def update_trecanni(source):
@@ -64,6 +153,8 @@ def update_all_sources(filename):
         persons = json.load(file)
     del persons["$schema"]
     count_todo = 0
+    probably_wrong = []
+    compiled_source_patterns = [re.compile(i) for i in SOURCE_PATTERNS]
 
     for identifier, data in persons.items():
         for index, source in enumerate(data["sources"]):
@@ -73,171 +164,50 @@ def update_all_sources(filename):
             elif re.match(r"https://www.parlement.com/.*", source):
                 persons[identifier]["sources"][index] = update_parlement(source)
 
-            # Biographical dictionaries
-            elif re.match(
-                r"(.*?, .*?, )?'.*', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel \d*? \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"'.*', in: A.J. van der AA, Biographisch woordenboek der Nederlanden. \d*? \(Haarlem, 18\d\d\)",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Mersch, Jules, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d\d \(Luxemburg, 19\d\d\),( \d*,)* \d*? (and \d*)?",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"'.*' in: Mullié, Charles, Biographie des célébrités militaires des armées de terre et de mer de 1789 à 1850 \(Parijs, 1852\)",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Dutch Institute for Art History \(RKD\), '.*', found on: https://rkd.nl/explore/artists/\d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"'.*' in: von Zedlitz-Neukirch, Leopold, Neues Preussisches Adels-Lexicon. Dritter Band I-O \(Leipzig, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-
-            # State almanac/calendar
-            elif re.match(
-                r"Ministero dell'interno, Calendario generale del Regno di Sardegna, \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Ministero dell'interno, Calendario generale del Regno d'Italia, \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Ministero dell'interno, Calendario generale pe' regii stati, \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Tipografia Giusti, Almanacco di Corte per l'anno 18\d\d \(Lucca, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Tipografia della Rev. Cam. Apostolica, Notizie per l'anno 18\d\d \(Roma, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Stamperia Chracas, Notizie per l'anno 18\d\d \(Roma, 18\d\d\), \d*",
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Belinfante, J., 's Gravenhaagsche Stads- en Residentie-almanak voor het jaar 18\d\d \('s Gravenhage, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Stamperia Davico e Picco, Raccolta di regi editti, proclami, manifesti ed altri provvedimenti de' magistrati ed uffizi. Volume \d\d \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Staats-almanak voor den jare 18\d\d \(The Hague, 18\d\d\), 'd*",
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Staats- und Adress-Handbuch des Herzogthums Nassau für das Jahr 18\d\d \(Wiesbaden, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Perthes, Justus, Almanach de Gotha. Annuaire diplomatique et statistique pour l'année 18\d\d \(Gotha, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Handbuch über den Königlich Preußischen Hof und Staat für das Jahr 18\d\d \(Berlin, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna, volume .* \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-
-            # Journals
-            elif re.match(
-                r"Osservatore del Trasimeno, Anno .*?, \d* \(Perugia, 18\d\d-\d\d-\d\d\), \d*",
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Gazzetta di Genova, Anno .*?, \d* \(Genoa, 18\d\d-\d\d-\d\d\), \d*",
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Gazzetta Piemontese, Anno .*?, \d* \(Turin, 18\d\d-\d\d-\d\d\), \d*",
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Nederlandsche Staatscourant 18\d\d, \d* \(The Hague, 18\d\d-\d\d-\d\d\)",
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Pilaar, J.C. and J.M. Obreen, Tijdschrift toegewijd aan het zeewezen. Tweede reeks. Derde deel \(Medemblik, 18\d\d\), \d*",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Allgemeiner Polizei-Anzeiger, Jahr .*?, \d* \(Gotha, 18\d\d-\d\d-\d\d\), \d*",
-                source,
-            ):
-                pass
-
-            # Books
-            elif re.match(
-                r"Crisafulli, Vincenzo, Studi sull'apostolica sicola legazia, volume 1 \(Palermo, 1850\)",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-            elif re.match(
-                r"Cormier, Hyacinthe Marie, La vita del reverendissimo padre fr. Alessandro Vincenzo Jandel, LXXIII maestro generale dei Frati Predicatori \(Rome, 1896\)",  # pylint: disable=line-too-long
-                source,
-            ):
-                pass
-
             # Authors
-            elif mat := re.match(r"\$Moscati, (.*)", source):
-                persons[identifier]["sources"][
-                    index
-                ] = f"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), {mat.groups()[0]}"  # pylint: disable=line-too-long
             elif mat := re.match(r"\$Beth, (.*)", source):
                 persons[identifier]["sources"][
                     index
                 ] = f"Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (Den Haag, 1918), {mat.groups()[0]}"  # pylint: disable=line-too-long
-            elif mat := re.match(r"\$Wels, (.*)", source):
-                persons[identifier]["sources"][
-                    index
-                ] = f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919 vol. 1 (Den Haag, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
-            elif mat := re.match(r"\$Santen, (.*)", source):
-                persons[identifier]["sources"][
-                    index
-                ] = f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: (een onderzoek in het Archief van het Ministerie van Buitenlandse Zaken) (Den Haag, 1955), {mat.groups()[0]}"  # pylint: disable=line-too-long
             elif mat := re.match(r"\$Lohrli", source):
                 persons[identifier]["sources"][
                     index
                 ] = "Lohrli, Anne, ‘The Madiai: A Forgotten Chapter of Church History’, Victorian Studies 33 (1989), 29–50"  # pylint: disable=line-too-long
-            elif source.startswith("Bountry, Philippe, Souverain et pontife: Recherches"):
+            elif mat := re.match(r"\$Moroni, (\d*), (.*)", source):
+                persons[identifier]["sources"][
+                    index
+                ] = f"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni, volume {mat.groups()[0]} (Rome, 1840), {mat.groups()[1]}"  # pylint: disable=line-too-long
+            elif mat := re.match(r"\$Moscati, (.*)", source):
+                persons[identifier]["sources"][
+                    index
+                ] = f"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            elif mat := re.match(r"\$Santen, (.*)", source):
+                persons[identifier]["sources"][
+                    index
+                ] = f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: (een onderzoek in het Archief van het Ministerie van Buitenlandse Zaken) (Den Haag, 1955), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            elif mat := re.match(r"\$Sträter", source):
+                persons[identifier]["sources"][
+                    index
+                ] = "Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus (Nijmegen, 1911)"  # pylint: disable=line-too-long
+            elif mat := re.match(r"\$Wels, (.*)", source):
+                persons[identifier]["sources"][
+                    index
+                ] = f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919 vol. 1 (Den Haag, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
+
+            elif [True for i in compiled_source_patterns if i.match(source)]:
+                pass
+
+            # Sources to discuss
+            # TODO: What to do with these two sites? Links are not persistent (I think)
+            elif source.startswith("https://notes9.senato.it/"):
+                pass
+            elif source.startswith("https://storia.camera.it/presidenti/"):
+                pass
+            elif source.startswith("https://storia.camera.it/deputato/"):
+                pass
+
+            # Sources to look up
+            elif source.startswith("Dizionario bibliografico dell’Armata Sarda seimila biografie"):
                 pass
 
             # Empty
@@ -247,6 +217,8 @@ def update_all_sources(filename):
             # If not known/missing
             else:
                 count_todo += 1
+                if not source.startswith("http"):
+                    probably_wrong.append(source)
                 print(count_todo, filename, source)
                 pass
 
@@ -255,6 +227,9 @@ def update_all_sources(filename):
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(persons, file, ensure_ascii=False, indent=4)
     print("Wrote file to outputs/Individuals.json")
+    print("\nThese sources might be wrong")
+    for i in probably_wrong:
+        print(i)
 
 
 if __name__ == "__main__":
