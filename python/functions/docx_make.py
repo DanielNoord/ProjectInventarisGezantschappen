@@ -127,9 +127,7 @@ def database(dict_of_individuals, output_name, skip_types):
         skip_types (list): Number of person_types to skip (for example [1, 2])
     """
     if skip_types:
-        output_name = (
-            f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
-        )
+        output_name = f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
 
     amount = 0
     out_doc = docx.Document()
@@ -147,16 +145,12 @@ def database(dict_of_individuals, output_name, skip_types):
             paragraph.add_run(f"Place of birth: {data['place_of_birth']}\n")
             paragraph.add_run(f"Date of death: {data['date_of_death']}\n")
             paragraph.add_run(f"Place of death: {data['place_of_death']}\n")
-            title_string = (
-                f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
-            )
+            title_string = f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
             paragraph.add_run(title_string.replace(" (None)", ""))
-            func_string = (
-                f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
-            )
+            func_string = f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
             paragraph.add_run(func_string.replace(" (None)", ""))
-            paragraph.add_run(f"Place of residence: {data['place of residence']}\n")
             paragraph.add_run(f"Comment: {data['comment']}\n")
+            paragraph.add_run(f"Comment from Daniël: {data['comment_daniel']}\n")
             paragraph.add_run(f"Sources: {'| '.join(data['sources'])}\n")
 
             paragraph_format = paragraph.paragraph_format

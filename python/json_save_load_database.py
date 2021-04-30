@@ -30,8 +30,8 @@ def save_database(filename, previous_database=None):
             place_of_death,
             titles,
             functions,
-            residence,
             comment,
+            comment_daniel,
             sources,
         ) = re.split(r"\n.*?: ", para.text)
 
@@ -50,8 +50,8 @@ def save_database(filename, previous_database=None):
             "place_of_death": place_of_death,
             "titles": titles,
             "functions": functions,
-            "place of residence": residence,
             "comment": comment,
+            "comment_daniel": comment_daniel,
             "sources": sources,
         }
     if previous_database:
