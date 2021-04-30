@@ -37,6 +37,10 @@
           "description": "Comments about extra info or the person",
           "type": "string"
         },
+        "comment_daniel": {
+          "description": "Comments made by Daniël, not relevant for future users",
+          "type": "string"
+        },
         "date_of_birth": {
           "$ref": "#/definitions/date",
           "description": "Date of birth of individual"
@@ -116,6 +120,7 @@
         "titles",
         "functions",
         "comment",
+        "comment_daniel",
         "person_type",
         "sources",
         "images"
