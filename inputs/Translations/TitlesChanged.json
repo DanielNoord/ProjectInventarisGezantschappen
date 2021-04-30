@@ -30,6 +30,12 @@
     "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
     "position": "Before"
   },
+  "graaf van Montebello": {
+    "en_GB": "count of Montebello",
+    "it_IT": "conte di Montebello",
+    "nl_NL": "graaf van Montebello",
+    "position": "After"
+  },
   "hertog van Santa Cristina": {
     "en_GB": "duke of Santa Cristina",
     "it_IT": "duca di Santa Cristina",
@@ -42,16 +48,16 @@
     "nl_NL": "kapitein",
     "position": "Before"
   },
-  "luitenant-ter-zee": {
-    "en_GB": "luitenant-ter-zee",
-    "it_IT": "luitenant-ter-zee",
-    "nl_NL": "luitenant-ter-zee",
-    "position": "Before"
-  },
   "luitenant-kolonel": {
     "en_GB": "lieutenant colonel",
     "it_IT": "tenente colonnello",
     "nl_NL": "luitenant-kolonel",
+    "position": "Before"
+  },
+  "luitenant-ter-zee": {
+    "en_GB": "luitenant-ter-zee",
+    "it_IT": "luitenant-ter-zee",
+    "nl_NL": "luitenant-ter-zee",
     "position": "Before"
   },
   "pater": {
