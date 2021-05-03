@@ -2,6 +2,9 @@ import json
 
 from functions.helper_functions.extract_date import extract_date
 from functions.json_translate import initialize_translation_database
+from json_check_comments import check_all_comments
+from json_check_placenames import check_all_placenames
+from json_check_sources import check_all_sources
 
 
 def check_translations():
@@ -25,7 +28,7 @@ def check_translations():
             if translation == "":
                 raise Exception(f"Found an empty translation in functions at {key}")
 
-    print("No missing or broken translations found!")
+    print("Finished checking translations: no missing or broken ones found!\n")
 
 
 def check_entries(input_file):
@@ -79,11 +82,18 @@ def check_entries(input_file):
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
     unused_functions = [i for i in translated_functions.keys() if i not in used_functions]
 
-    print(f"\nFound the following unused titles {unused_titles}")
-    print(f"Found the following unused functions {unused_functions}\n")
+    if unused_titles:
+        print(f"    Found the following unused titles {unused_titles}")
+    if unused_functions:
+        print(f"    Found the following unused functions {unused_functions}")
+    print(f"Finished checking database in {input_file}!\n")
 
 
 if __name__ == "__main__":
     check_translations()
     check_entries("inputs/Individuals.json")
-    print("All checks passed!")
+    check_all_comments("inputs/Individuals.json")
+    check_all_sources("inputs/Individuals.json")
+    check_all_placenames("inputs/Individuals.json")
+
+    print("\nAll checks done!")

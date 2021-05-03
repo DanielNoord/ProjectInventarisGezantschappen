@@ -6,6 +6,7 @@ COMMENT_PATTERNS = {
     r"Captain of the ship De Pelicaan.$",
     r"Edgar Ney played an important part in the defense and liberation of Rome during the period of the Roman Republic\.$",  # pylint: disable=line-too-long
     r"Eugenio Giuseppe Allet was also known as colonel M. Allet.$",
+    r"François-Xavier Wurth-Paquet held several other \(ministerial\) positions within the Grand Duchy of Luxembourg*\.$",  # pylint: disable=line-too-long
     r"Giambatista Leveroni held the position of vice-president until 1832 or 1833\.$",
     r"Giuseppe Birigazzi and Giuseppe Cavalieri were convicted for inciting a revolt in Bologna.*\.$",  # pylint: disable=line-too-long
     r"His name in Cyrillic script is '.*'\.$",
@@ -61,7 +62,7 @@ def check_all_comments(filename):
             print(count_todo, identifier, data["name"], data["surname"])
             print(f"    {comment}")
 
-    print(f"Finished checking comments in {filename}")
+    print(f"Finished checking comments in {filename}\n")
 
 
 if __name__ == "__main__":

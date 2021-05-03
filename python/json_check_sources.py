@@ -6,13 +6,18 @@ from bs4 import BeautifulSoup
 
 SOURCE_PATTERNS = {
     # Biographical dictionaries
-    r"(.*, .*, )?'.*', in: Allgemeine Deutsche Biographie. Band \d* \(Leipzig, 1\d\d\d\)",
-    r"(.*, .*, )?'.*', in: Dizionario storico biografico della Tuscia \(2014-\), found on https://www.gentedituscia.it/.*/",  # pylint: disable=line-too-long
-    r"(.*, .*, )?'.*', in: Historisches Lexikon der Schweiz \(20\d\d\), found on https://hls-dhs-dss.ch/it/articles/\d*/20\d\d-\d\d-\d\d/",  # pylint: disable=line-too-long
-    r"(.*, .*, )?'.*', in: Neue Deutsche Biographie. Band \d* \(Berlin, \d\d\d\d\)",
-    r"(.*, .*, )?'.*', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
-    r"(.*, .*, )?'.*', in: The Catholic Encyclopedia. Volume \d* \(New York, 19\d\d\)",
-    r"(.*, .*, )?'.*', in: Traugott Bautz \(ed.\), Biographisch-Bibliographisches Kirchenlexikon. Band \d* \(Herzberg, \d\d\d\d\)",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Allgemeine Deutsche Biographie. Band \d* \(Leipzig, 1\d\d\d\)",
+    r".*, .*, '.*', in: Digitaal Vrouwenlexicon van Nederland \(2014\)",
+    r"(.*, )?.*, '.*', in: Dizionario Biografico degli Italiani. Volume \d* \(Rome, \d\d\d\d\), found on: https://www.treccani.it/.*Dizionario-Biografico\)",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Dizionario storico biografico della Tuscia \(2014-\), found on https://www.gentedituscia.it/.*/",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Historisches Lexikon der Schweiz \(20\d\d\), found on https://hls-dhs-dss.ch/it/articles/\d*/20\d\d-\d\d-\d\d/",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Jules Mersch, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d* \(Luxemburg, 19\d\d\)",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Neue Deutsche Biographie. Band \d* \(Berlin, \d\d\d\d\)",
+    r".*, .*, '.*', in: P.J. Blok and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: The Catholic Encyclopedia. Volume \d* \(New York, 19\d\d\)",
+    r".*, .*, '.*', in: Traugott Bautz \(ed.\), Biographisch-Bibliographisches Kirchenlexikon. Band \d* \(Herzberg, \d\d\d\d\)",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Repertorium van ambtsdragers en ambtenaren 1428-1861, found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Società di Studi Valdesi, Il Dizionario Biografico on-line dei Protestanti in Italia \(2021\)",  # pylint: disable=line-too-long
     r"'.*', in: A.J. van der AA, Biographisch woordenboek der Nederlanden. .* \(Haarlem, 18\d\d\)",
@@ -28,6 +33,8 @@ SOURCE_PATTERNS = {
     r"Dutch Institute for Art History \(RKD\), '.*', found on: https://rkd.nl/explore/artists/\d*",
     r"Fait, Riccardo \(red.\), Biografie dei consiglieri comunali di Roma \(Rome, 1873\), \d*(-\d*)?",  # pylint: disable=line-too-long
     r"Mersch, Jules, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d\d \(Luxemburg, 19\d\d\),( \d*,)* \d*?( and \d*)?",  # pylint: disable=line-too-long
+    r"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni. Volume \d* \(Rome, 1840\), \d*( and \d*)?",  # pylint: disable=line-too-long
+    r"Redactie parlement.com, '.*', found on: https://www.parlement.com/.*",  # pylint: disable=line-too-long
     # State almanac/calendar
     r"Almanacco imperiale reale per le provincie del Regno Lombardo-Veneto soggette al governo di Milano per l'anno bisestile 18\d\d \(Milan, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"Almanacco reale del Regno delle Due Sicilie per l'anno 18\d\d \(Naples, 18\d\d\), \d*",
@@ -57,7 +64,7 @@ SOURCE_PATTERNS = {
     # Journals
     r".*, .*, '.*', in: Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, \d* \(19\d\d\), \d*-\d*",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Historisch Voorburg, \d*, \d* \(\d\d\d\d\)(, \d*)?",
-    r".*, .*, '.*', in: Jaarboek van de Maatschappij der Nederlandse Letterkunde \(Amsterdam, 18\d\d-\d\d-\d\d\), \d*-\d*",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Jaarboek van de Maatschappij der Nederlandse Letterkunde, 18\d\d \(Amsterdam, 18\d\d\), \d*-\d*",  # pylint: disable=line-too-long
     r"Allgemeiner Polizei-Anzeiger, Jahr .*, \d* \(Gotha, 18\d\d-\d\d-\d\d\), \d*",
     r"Bureaux de l'agence générale pour la défense de la liberté religieuse, Premier bulletin de l'agence générale pour la défense de la liberté religieuse \(Paris, 18\d\d-\d\d-\d\d\), \d*",  # pylint: disable=line-too-long
     r"De Nederlandsche Leeuw, \d*, \d* \(1\d\d\d-\d\d\), \d*",
@@ -68,6 +75,7 @@ SOURCE_PATTERNS = {
     r"Gazzetta Ufficiale di Roma, Anno .*, \d* \(Rome, 18\d\d-\d\d-\d\d\), \d*",
     r"La Civiltà Cattolica, Anno \d*, .* \(Rome, 18\d\d\), \d*",
     r"Il Fanfulla, Anno \d*, .* \(Rome, 18\d\d\), \d*",
+    r"Lohrli, Anne, ‘The Madiai: A Forgotten Chapter of Church History’, Victorian Studies 33 \(1989\), 29–50",  # pylint: disable=line-too-long
     r"Middelburgsche courant, \d* \(Middelburg, \d\d\d\d-\d\d-\d\d\), \d*",
     r"Nederlandsche Staatscourant 18\d\d, \d* \(The Hague, 18\d\d-\d\d-\d\d\)",
     r"'Notizie raccolte dagli amici della verità e della giustizia ed autenticate dalla generale cognizione dei romani, a confutazione dell'articolo inserito a modo di bando per corrispondenza di Roma nel diario L'Unità Cattolica del 15 giugno 1869.*",  # pylint: disable=line-too-long
@@ -77,7 +85,9 @@ SOURCE_PATTERNS = {
     # Books
     r"Archivum Historiae Pontificiae, volume \d* \(Rome, 19\d\d\), \d*",
     r"Assereto, Giovanni, «Per la comune salvezza dal morbo contagioso». I controlli di sanità nella Repubblica di Genova \(Genoa, 2007\), 176",  # pylint: disable=line-too-long
+    r"Avetta, M. and Società per la storia del Risorgimento italiano, Dall'archivio di un diplomatico: Il barone Marco Antonio Alessandro Jocteau \(Casale, 1924\)",  # pylint: disable=line-too-long
     r"Barclay, David E., ‘Hof und Hofgesellschaft in Preußen in der Zeit Friedrich Wilhelms IV. \(1840 bis 1857\). Überlegungen und Fragen’, in: Karl Möckl ed., Hof und Hofgesellschaft in den deutschen Staaten im 19. und beginnenden 20. Jahrhundert \(Berlin, Boston, 1990\), \d*",  # pylint: disable=line-too-long
+    r"Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken \(Den Haag, 1918\), \d*",  # pylint: disable=line-too-long
     r"Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration \(1814-1846\) \(Rome, 2002\), \d*",  # pylint: disable=line-too-long
     r"Croce, Giuseppe Maria, Vincenzo Tizzani. Effemeridi Romane. Volume 1 \(Rome, 2015\), \d*",  # pylint: disable=line-too-long
     r"De Boni, Filippo, La Congiura di Roma e Pio IX. Ricordi di Filippo de Boni \(Losanna, 1848\), \d*",  # pylint: disable=line-too-long
@@ -92,32 +102,40 @@ SOURCE_PATTERNS = {
     r"Foreign Office, British and Foreign State Papers. 1833-1834, volume 22 \(London, 1847\), \d*",
     r"Frezza, Filippo, Dei camerieri segreti e d’onore del Sommo Pontefice: memorie storiche \(Rome, 1884\), 56",  # pylint: disable=line-too-long
     r"Iacobini, Franco, Terrae Cinthiani, Storia di Genzano e della nobile Famiglia Iacobini \(Rome, 2003\)",  # pylint: disable=line-too-long
+    r"Kallenberg, Lodewijk, Pieter Otto van der Chijs \(1802-1867\), zandgraf 242, vak F, \(Leiden, 2020\), found on https://www.begraafplaatsgroenesteeg.nl/N_B_personen/Artikel%20Van%20der%20Chijs.pdf",  # pylint: disable=line-too-long
     r"Lencisa, G.F., Ragionamento sulla rinnovazione del trattato di commercio e di navigazione conchiuso tra il Piemonte e la Francia nell'anno 1843, e della Convenzione speciale sulla proprietà letteraria annessa a quel trattato medesimo \(Turin, 1851\)",  # pylint: disable=line-too-long
     r"Martina, G., Pio IX \(1846-1850\) \(Rome, 1974\), \d*",
     r"van der Meulen, M.E., Mijne Reis door Zwitserland naar de Waldenzen in Piemont’s Valleijen \(London, 1852\)",  # pylint: disable=line-too-long
     r"Mori, Renato, Le scritture della legazione e del consolato del Granducato di Toscana in Roma dal 1737 al 1859 \(Rome, 1959\)",  # pylint: disable=line-too-long
+    r"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna \(Rome, 1947\), \d*",  # pylint: disable=line-too-long
     r"Nuyens, A., Gedenkboek der pauselijke Zouaven. 1867-1892 \(Roermond, 1892\)",
     r"Pirri S.J., P. Pietro, Pio IX e Vittorio Emanuele II dal loro carteggio privato \(Rome, 1980\), \d*( and \d*)?",  # pylint: disable=line-too-long
     r"Pohle, Frank, Alfred von Reumont \(1808–1887\) – Ein Diplomat als kultureller Mittler \(Berlin, 2015\)",  # pylint: disable=line-too-long
     r"de Régnon, M., Relation des événements qui ont précédé et suivi l'expulsion de 78 Anglais dits trappistes de Meilleraye \(Nantes, 1831\)",  # pylint: disable=line-too-long
     r"Ricci, Angelo Maria, Epistola Poetica a sua eccellenza reverendissima monsignor Achille Maria Ricci \(Rome, 1847\)",  # pylint: disable=line-too-long
     r"Sánchez, Elena Vázquez, Un historiador del derecho, Pedro José Pidal \(Madrid, 1998\)",
+    r"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken \(Den Haag, 1955\), \d*",  # pylint: disable=line-too-long
     r"Santoni, Pedro, and Will Fowler, Mexico, 1848-1853: Los Años Olvidados \(London, 2018\), \d*",
     r"Savini, Luigi, Al battaglione isolato della emerita guardia civica di cingoli ed appodiati \(Loreto, 1848\)",  # pylint: disable=line-too-long
     r"Schijf, Huibert, Netwerken van een financieel-economische elite \(Amsterdam, 1993\), \d*",
     r"Schutte, O., Repertorium der Nederlandse vertegenwoordigers residerende in het buitenland 1584-1810 \(The Hague, 1976\), \d*",  # pylint: disable=line-too-long
+    r"Schmidt-Brentano, Antonio, Die k. k. bzw. k. u. k. Generalität 1816-1918 \(Vienna 2007\), \d*",  # pylint: disable=line-too-long
     r"De Sivo, Giacinto, Storia delle Due Sicilie, volume 2 \(Brindisi, 2013\)",
     r"Smith, Robert and Brenda Packman, Memoirs of Giambattista Scala: Consul of his Italian Majesty in Lagos in Guinea \(1862\) \(Oxford, 2000\)",  # pylint: disable=line-too-long
     r"Solaro della Margarita, Clemente, Memorandum storico politico del conte Clemente Solaro della Margarita \(Turin, 1852\)",  # pylint: disable=line-too-long
+    r"Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus \(Nijmegen, 1911\)",  # pylint: disable=line-too-long
     r"Sunti delle Dissertazioni lette nell'Accademia Liturgica, volume 1 \(Rome, 1843\), \d*",
     r"Thewes, Guy, Les gouvernements du Grand-Duché de Luxembourg depuis 1848 \(Luxembourg, 2011\), \d*",  # pylint: disable=line-too-long
     r"van der Vijver, C., Geschiedkundige beschrijving der stad Amsterdam sedert hare wording tot op den tegenwoordige tijd, deel 3 \(Amsterdam, 1846\), \d*",  # pylint: disable=line-too-long
+    r"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 \(Den Haag, 1972\), \d*",  # pylint: disable=line-too-long
     # Archives
     r"KADOC, Leuven, Archief van de Nederlandse jezuïeten",
     r"Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-\d\d",
     r"Nationaal Archief, The Hague, Collectie Van Aerssen van Voshol, 1.10.01",
     r"Nationaal Archief, The Hague, Gezantschap Italië, 2.05.26",
     r"Stadsarchief Amsterdam, Amsterdam, inventory number: \d*",
+    r"Stadsarchief Rotterdam, Rotterdam, inventory number: \d*, documents: \d*-\d*",
+    r"Stadsarchief Utrecht, Utrecht, inventory number: \d*, documents: \d*.\d*.\d*",
 }
 
 
@@ -143,11 +161,14 @@ def update_trecanni(source):
         r"di (.*?) - Dizionario Biografico degli Italiani - Volume (.*?) \((.*)\)$",
         author_string,
     ).groups()
+    author = author.split(" ")
+    author = f"{author[-1]}, {' '.join(author[0:-1])}"
     final_source = (
         f"{author}, '{title}', in: Dizionario Biografico degli Italiani "
         f"vol. {volume} (Rome, {year})"
+        f", found on: {source}"
     )
-    # print(f"New source:\n   {final_source}")
+
     return final_source
 
 
@@ -164,12 +185,12 @@ def update_parlement(source):
     soup = BeautifulSoup(page.content, "html.parser")
     name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]
     final_source = f"Redactie parlement.com, '{name}', found on: {source}"
-    # print(f"New source:\n   {final_source}")
+
     return final_source
 
 
-def update_all_sources(filename):
-    """Updates all sources for given database
+def check_all_sources(filename):
+    """Check and update all sources for given database
 
     Args:
         filename (str): File name of initial database
@@ -205,7 +226,7 @@ def update_all_sources(filename):
             elif mat := re.match(r"\$Moroni, (\d*), (.*)", source):
                 persons[identifier]["sources"][
                     index
-                ] = f"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni, volume {mat.groups()[0]} (Rome, 1840), {mat.groups()[1]}"  # pylint: disable=line-too-long
+                ] = f"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni. Volume {mat.groups()[0]} (Rome, 1840), {mat.groups()[1]}"  # pylint: disable=line-too-long
             elif mat := re.match(r"\$Moscati, (.*)", source):
                 persons[identifier]["sources"][
                     index
@@ -213,7 +234,7 @@ def update_all_sources(filename):
             elif mat := re.match(r"\$Santen, (.*)", source):
                 persons[identifier]["sources"][
                     index
-                ] = f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: (een onderzoek in het Archief van het Ministerie van Buitenlandse Zaken) (Den Haag, 1955), {mat.groups()[0]}"  # pylint: disable=line-too-long
+                ] = f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (Den Haag, 1955), {mat.groups()[0]}"  # pylint: disable=line-too-long
             elif mat := re.match(r"\$Schmidt-Brentano, (.*)", source):
                 persons[identifier]["sources"][
                     index
@@ -225,7 +246,7 @@ def update_all_sources(filename):
             elif mat := re.match(r"\$Wels, (.*)", source):
                 persons[identifier]["sources"][
                     index
-                ] = f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919 vol. 1 (Den Haag, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
+                ] = f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (Den Haag, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
 
             elif [True for i in compiled_source_patterns if i.match(source)]:
                 pass
@@ -252,17 +273,20 @@ def update_all_sources(filename):
                 if not source.startswith("http"):
                     probably_wrong.append(source)
                 print(count_todo, data["name"], data["surname"])
-                print(source)
+                print("", source)
 
     persons["$schema"] = "../static/JSON/Individuals.json"
 
-    with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
-        json.dump(persons, file, ensure_ascii=False, indent=4)
-    print("Wrote file to outputs/Individuals.json")
-    print("\nThese sources might be wrong")
-    for i in probably_wrong:
-        print(i)
+    if __name__ == "__main__":
+        with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
+            json.dump(persons, file, ensure_ascii=False, indent=4)
+        print("Wrote file to outputs/Individuals.json")
+    if probably_wrong:
+        print("\nThese sources might be wrong")
+        for i in probably_wrong:
+            print("", i)
+    print(f"Finished checking comments in {filename}!\n")
 
 
 if __name__ == "__main__":
-    update_all_sources("inputs/Individuals.json")
+    check_all_sources("inputs/Individuals.json")
