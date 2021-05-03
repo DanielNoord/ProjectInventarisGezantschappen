@@ -1,5 +1,25 @@
 {
   "$schema": "../../static/JSON/Placenames.json",
+  "'s-Hertogenbosch": {
+    "en_GB": "'s-Hertogenbosch",
+    "nl_NL": "'s-Hertogenbosch"
+  },
+  "Aardenburg": {
+    "en_GB": "Aardenburg",
+    "nl_NL": "Aardenburg"
+  },
+  "Aix-en-Provence": {
+    "en_GB": "Aix-en-Provence",
+    "nl_NL": "Aix-en-Provence"
+  },
+  "Ala (Trento)": {
+    "en_GB": "Ala (Trento)",
+    "nl_NL": "Ala (Trento)"
+  },
+  "Albano": {
+    "en_GB": "Albano",
+    "nl_NL": "Albano"
+  },
   "Alessandria": {
     "en_GB": "Alessandria",
     "nl_NL": "Alessandria"
@@ -8,57 +28,285 @@
     "en_GB": "Alicante",
     "nl_NL": "Alicante"
   },
+  "Amelia": {
+    "en_GB": "Amelia",
+    "nl_NL": "Amelia"
+  },
   "Amsterdam": {
     "en_GB": "Amsterdam",
     "nl_NL": "Amsterdam"
+  },
+  "Amélie-les-Bains": {
+    "en_GB": "Amélie-les-Bains",
+    "nl_NL": "Amélie-les-Bains"
   },
   "Ancona": {
     "en_GB": "Ancona",
     "nl_NL": "Ancona"
   },
+  "Aquisgrana": {
+    "en_GB": "Aachen",
+    "nl_NL": "Aken"
+  },
+  "Aranjuez": {
+    "en_GB": "Aranjuez",
+    "nl_NL": "Aranjuez"
+  },
+  "Arco": {
+    "en_GB": "Arco",
+    "nl_NL": "Arco"
+  },
+  "Arnhem": {
+    "en_GB": "Arnhem",
+    "nl_NL": "Arnhem"
+  },
+  "Ascoli Piceno": {
+    "en_GB": "Ascoli Piceno",
+    "nl_NL": "Ascoli Piceno"
+  },
+  "Asten": {
+    "en_GB": "Asten",
+    "nl_NL": "Asten"
+  },
   "Augusta": {
     "en_GB": "Augsburg",
     "nl_NL": "Augsburg"
+  },
+  "Bagnacavallo": {
+    "en_GB": "Bagnacavallo",
+    "nl_NL": "Bagnacavallo"
+  },
+  "Bar-le-Duc": {
+    "en_GB": "Bar-le-Duc",
+    "nl_NL": "Bar-le-Duc"
+  },
+  "Barberano": {
+    "en_GB": "Barberano",
+    "nl_NL": "Barberano"
   },
   "Barcellona": {
     "en_GB": "Barcelona",
     "nl_NL": "Barcelona"
   },
+  "Barino": {
+    "en_GB": "Barino",
+    "nl_NL": "Barino"
+  },
+  "Barletta": {
+    "en_GB": "Barletta",
+    "nl_NL": "Barletta"
+  },
+  "Barnstedt": {
+    "en_GB": "Barnstedt",
+    "nl_NL": "Barnstedt"
+  },
+  "Belluno": {
+    "en_GB": "Belluno",
+    "nl_NL": "Belluno"
+  },
+  "Benevento": {
+    "en_GB": "Benevento",
+    "nl_NL": "Benevento"
+  },
+  "Berleburg": {
+    "en_GB": "Berleburg",
+    "nl_NL": "Berleburg"
+  },
+  "Berlino": {
+    "en_GB": "Berlin",
+    "nl_NL": "Berlijn"
+  },
   "Berna": {
     "en_GB": "Bern",
     "nl_NL": "Bern"
+  },
+  "Bitburg": {
+    "en_GB": "Bitburg",
+    "nl_NL": "Bitburg"
   },
   "Bologna": {
     "en_GB": "Bologna",
     "nl_NL": "Bologna"
   },
+  "Brolio": {
+    "en_GB": "Brolio",
+    "nl_NL": "Brolio"
+  },
+  "Bruges": {
+    "en_GB": "Bruges",
+    "nl_NL": "Brugge"
+  },
   "Bruxelles": {
     "en_GB": "Brussels",
     "nl_NL": "Brussel"
   },
-  "Cagliari": {
-    "en_GB": "Cagliari",
-    "nl_NL": "Cagliari"
+  "Buitenzorg (Java)": {
+    "en_GB": "Buitenzorg (Java)",
+    "nl_NL": "Buitenzorg (Java)"
   },
-  "Civitavecchia": {
-    "en_GB": "Civitavecchia",
-    "nl_NL": "Civitavecchia"
+  "Buriasco": {
+    "en_GB": "Buriasco",
+    "nl_NL": "Buriasco"
   },
-  "Costantinopoli": {
-    "en_GB": "Constantinople",
-    "nl_NL": "Constantinopel"
+  "Burtscheid": {
+    "en_GB": "Burtscheid",
+    "nl_NL": "Burtscheid"
   },
   "Bydorp (Voorschoten)": {
     "en_GB": "Bydorp (Voorschoten)",
     "nl_NL": "Bydorp (Voorschoten)"
   },
+  "Cagliari": {
+    "en_GB": "Cagliari",
+    "nl_NL": "Cagliari"
+  },
+  "Cannero": {
+    "en_GB": "Cannero",
+    "nl_NL": "Cannero"
+  },
+  "Carrara": {
+    "en_GB": "Carrara",
+    "nl_NL": "Carrara"
+  },
+  "Caserta": {
+    "en_GB": "Caserta",
+    "nl_NL": "Caserta"
+  },
+  "Casola Valsenio": {
+    "en_GB": "Casola Valsenio",
+    "nl_NL": "Casola Valsenio"
+  },
+  "Caupo": {
+    "en_GB": "Caupo",
+    "nl_NL": "Caupo"
+  },
+  "Ceccano": {
+    "en_GB": "Ceccano",
+    "nl_NL": "Ceccano"
+  },
+  "Ceprano": {
+    "en_GB": "Ceprano",
+    "nl_NL": "Ceprano"
+  },
+  "Chambéry": {
+    "en_GB": "Chambéry",
+    "nl_NL": "Chambéry"
+  },
+  "Charleville": {
+    "en_GB": "Charleville",
+    "nl_NL": "Charleville"
+  },
+  "Château de Blosseville": {
+    "en_GB": "Château de Blosseville",
+    "nl_NL": "Château de Blosseville"
+  },
+  "Civitavecchia": {
+    "en_GB": "Civitavecchia",
+    "nl_NL": "Civitavecchia"
+  },
+  "Como": {
+    "en_GB": "Como",
+    "nl_NL": "Como"
+  },
+  "Compiano": {
+    "en_GB": "Compiano",
+    "nl_NL": "Compiano"
+  },
+  "Contrexéville": {
+    "en_GB": "Contrexéville",
+    "nl_NL": "Contrexéville"
+  },
+  "Cordova": {
+    "en_GB": "Córdoba",
+    "nl_NL": "Córdoba"
+  },
+  "Costantinopoli": {
+    "en_GB": "Constantinople",
+    "nl_NL": "Constantinopel"
+  },
+  "Cuneo": {
+    "en_GB": "Cuneo",
+    "nl_NL": "Cuneo"
+  },
+  "Delft": {
+    "en_GB": "Delft",
+    "nl_NL": "Delft"
+  },
+  "Dillenburg": {
+    "en_GB": "Dillenburg",
+    "nl_NL": "Dillenburg"
+  },
+  "Doesburg": {
+    "en_GB": "Doesburg",
+    "nl_NL": "Doesburg"
+  },
+  "Dommeldange": {
+    "en_GB": "Dommeldange",
+    "nl_NL": "Dommeldange"
+  },
+  "Dordrecht": {
+    "en_GB": "Dordrecht",
+    "nl_NL": "Dordrecht"
+  },
+  "Dresda": {
+    "en_GB": "Dresden",
+    "nl_NL": "Dresden"
+  },
+  "Driel": {
+    "en_GB": "Driel",
+    "nl_NL": "Driel"
+  },
+  "Edimburgo": {
+    "en_GB": "Edinburgh",
+    "nl_NL": "Edinburgh"
+  },
+  "Erbach": {
+    "en_GB": "Erbach",
+    "nl_NL": "Erbach"
+  },
+  "Fano": {
+    "en_GB": "Fano",
+    "nl_NL": "Fano"
+  },
+  "Fermo": {
+    "en_GB": "Fermo",
+    "nl_NL": "Fermo"
+  },
+  "Ferrara": {
+    "en_GB": "Ferrara",
+    "nl_NL": "Ferrara"
+  },
+  "Firenze": {
+    "en_GB": "Florence",
+    "nl_NL": "Florence"
+  },
   "Florenville": {
     "en_GB": "Florenville",
     "nl_NL": "Florenville"
   },
+  "Flée": {
+    "en_GB": "Flée",
+    "nl_NL": "Flée"
+  },
+  "Foligno": {
+    "en_GB": "Foligno",
+    "nl_NL": "Foligno"
+  },
+  "Forlì": {
+    "en_GB": "Forlì",
+    "nl_NL": "Forlì"
+  },
   "Fossano": {
     "en_GB": "Fossano",
     "nl_NL": "Fossano"
+  },
+  "Frankfurt sull'Oder": {
+    "en_GB": "Frankfurt an der Oder",
+    "nl_NL": "Frankfurt an der Oder"
+  },
+  "Frascati": {
+    "en_GB": "Frascati",
+    "nl_NL": "Frascati"
   },
   "Gand": {
     "en_GB": "Larçay",
@@ -68,13 +316,73 @@
     "en_GB": "Genoa",
     "nl_NL": "Genua"
   },
+  "Genzano di Roma": {
+    "en_GB": "Genzano di Roma",
+    "nl_NL": "Genzano di Roma"
+  },
   "Ginevra": {
     "en_GB": "Geneva",
     "nl_NL": "Genève"
   },
+  "Gorga": {
+    "en_GB": "Gorga",
+    "nl_NL": "Gorga"
+  },
   "Govone": {
     "en_GB": "Govone",
     "nl_NL": "Govone"
+  },
+  "Grave": {
+    "en_GB": "Grave",
+    "nl_NL": "Grave"
+  },
+  "Graz": {
+    "en_GB": "Graz",
+    "nl_NL": "Graz"
+  },
+  "Groninga": {
+    "en_GB": "Groningen",
+    "nl_NL": "Groningen"
+  },
+  "Grottaferrata": {
+    "en_GB": "Grottaferrata",
+    "nl_NL": "Grottaferrata"
+  },
+  "Haarlem": {
+    "en_GB": "Haarlem",
+    "nl_NL": "Haarlem"
+  },
+  "Hechingen": {
+    "en_GB": "Hechingen",
+    "nl_NL": "Hechingen"
+  },
+  "Heino": {
+    "en_GB": "Heino",
+    "nl_NL": "Heino"
+  },
+  "Hyères": {
+    "en_GB": "Hyères",
+    "nl_NL": "Hyères"
+  },
+  "Imola": {
+    "en_GB": "Imola",
+    "nl_NL": "Imola"
+  },
+  "Innsbruck": {
+    "en_GB": "Innsbruck",
+    "nl_NL": "Innsbruck"
+  },
+  "Istanbul": {
+    "en_GB": "Istanbul",
+    "nl_NL": "Istanbul"
+  },
+  "Kampen": {
+    "en_GB": "Kampen",
+    "nl_NL": "Kampen"
+  },
+  "Kassel": {
+    "en_GB": "Kassel",
+    "nl_NL": "Kassel"
   },
   "L'Aia": {
     "en_GB": "The Hague",
@@ -84,25 +392,85 @@
     "en_GB": "La Spezia",
     "nl_NL": "La Spezia"
   },
+  "Lannion": {
+    "en_GB": "Lannion",
+    "nl_NL": "Lannion"
+  },
   "Larçay": {
     "en_GB": "Larçay",
     "nl_NL": "Larçay"
+  },
+  "Laupheim": {
+    "en_GB": "Laupheim",
+    "nl_NL": "Laupheim"
+  },
+  "Leida": {
+    "en_GB": "Leiden",
+    "nl_NL": "Leiden"
+  },
+  "Lenola": {
+    "en_GB": "Lenola",
+    "nl_NL": "Lenola"
   },
   "Lisbona": {
     "en_GB": "Lisbon",
     "nl_NL": "Lissabon"
   },
+  "Lissa": {
+    "en_GB": "Augsburg",
+    "nl_NL": "Vis"
+  },
   "Livorno": {
     "en_GB": "Livorno",
     "nl_NL": "Livorno"
+  },
+  "Londra": {
+    "en_GB": "London",
+    "nl_NL": "Londen"
+  },
+  "Loosduinen": {
+    "en_GB": "Loosduinen",
+    "nl_NL": "Loosduinen"
+  },
+  "Losanna": {
+    "en_GB": "Lausanne",
+    "nl_NL": "Lausanne"
+  },
+  "Loviano": {
+    "en_GB": "Leuven",
+    "nl_NL": "Leuven"
+  },
+  "Lucerna": {
+    "en_GB": "Lucerne",
+    "nl_NL": "Luzern"
   },
   "Lussemburgo": {
     "en_GB": "Luxembourg",
     "nl_NL": "Luxemburg"
   },
+  "Maastricht": {
+    "en_GB": "Maastricht",
+    "nl_NL": "Maastricht"
+  },
+  "Macerata": {
+    "en_GB": "Macerata",
+    "nl_NL": "Macerata"
+  },
+  "Madrid": {
+    "en_GB": "Madrid",
+    "nl_NL": "Madrid"
+  },
   "Mahón": {
     "en_GB": "Mahón",
     "nl_NL": "Maó-Mahón"
+  },
+  "Malmö": {
+    "en_GB": "Malmö",
+    "nl_NL": "Malmö"
+  },
+  "Mare di Sumatra": {
+    "en_GB": "Java sea",
+    "nl_NL": "Javazee"
   },
   "Marsiglia": {
     "en_GB": "Marseille",
@@ -112,36 +480,368 @@
     "en_GB": "Middelburg",
     "nl_NL": "Middelburg"
   },
+  "Milano": {
+    "en_GB": "Milan",
+    "nl_NL": "Milaan"
+  },
+  "Modena": {
+    "en_GB": "Modena",
+    "nl_NL": "Modena"
+  },
   "Moncalieri": {
     "en_GB": "Moncalieri",
     "nl_NL": "Moncalieri"
+  },
+  "Monferrato": {
+    "en_GB": "Montferrat",
+    "nl_NL": "Monferrato"
   },
   "Mons": {
     "en_GB": "Mons",
     "nl_NL": "Bergen"
   },
+  "Monza": {
+    "en_GB": "Monza",
+    "nl_NL": "Monza"
+  },
+  "Mosca": {
+    "en_GB": "Moscow",
+    "nl_NL": "Moskou"
+  },
   "Napoli": {
     "en_GB": "Naples",
     "nl_NL": "Napels"
+  },
+  "Neuilly-sur-Seine": {
+    "en_GB": "Neuilly-sur-Seine",
+    "nl_NL": "Neuilly-sur-Seine"
   },
   "Nizza": {
     "en_GB": "Nice",
     "nl_NL": "Nice"
   },
+  "Nove (Vicenza)": {
+    "en_GB": "Nove (Vicenza)",
+    "nl_NL": "Nove (Vicenza)"
+  },
+  "Oegstgeest": {
+    "en_GB": "Oegstgeest",
+    "nl_NL": "Oegstgeest"
+  },
+  "Oost-Souburg": {
+    "en_GB": "Oost-Souburg",
+    "nl_NL": "Oost-Souburg"
+  },
+  "Oporto": {
+    "en_GB": "Oporto",
+    "nl_NL": "Oporto"
+  },
+  "Osimo": {
+    "en_GB": "Osimo",
+    "nl_NL": "Osimo"
+  },
+  "Palermo": {
+    "en_GB": "Palermo",
+    "nl_NL": "Palermo"
+  },
+  "Palma": {
+    "en_GB": "Fano",
+    "nl_NL": "Fano"
+  },
+  "Paramaribo": {
+    "en_GB": "Paramaribo",
+    "nl_NL": "Paramaribo"
+  },
   "Parigi": {
     "en_GB": "Paris",
     "nl_NL": "Parijs"
+  },
+  "Parma": {
+    "en_GB": "Parma",
+    "nl_NL": "Parma"
+  },
+  "Pergola": {
+    "en_GB": "Pergola",
+    "nl_NL": "Pergola"
+  },
+  "Pesaro": {
+    "en_GB": "Pesaro",
+    "nl_NL": "Pesaro"
+  },
+  "Pesaroil": {
+    "en_GB": "Pesaroil",
+    "nl_NL": "Pesaroil"
+  },
+  "Piacenza": {
+    "en_GB": "Piacenza",
+    "nl_NL": "Piacenza"
+  },
+  "Pirna": {
+    "en_GB": "Pirna",
+    "nl_NL": "Pirna"
+  },
+  "Pontedera": {
+    "en_GB": "Pontedera",
+    "nl_NL": "Pontedera"
+  },
+  "Reggio nell’Emilia": {
+    "en_GB": "Reggio nell’Emilia",
+    "nl_NL": "Reggio nell’Emilia"
+  },
+  "Rheinfelden": {
+    "en_GB": "Rheinfelden",
+    "nl_NL": "Rheinfelden"
+  },
+  "Ribera": {
+    "en_GB": "Ribera",
+    "nl_NL": "Ribera"
+  },
+  "Richmond": {
+    "en_GB": "Richmond",
+    "nl_NL": "Richmond"
+  },
+  "Ripattoni": {
+    "en_GB": "Ripattoni",
+    "nl_NL": "Ripattoni"
+  },
+  "Rocca di Papa": {
+    "en_GB": "Rocca di Papa",
+    "nl_NL": "Rocca di Papa"
+  },
+  "Roermond": {
+    "en_GB": "Roermond",
+    "nl_NL": "Roermond"
   },
   "Roma": {
     "en_GB": "Rome",
     "nl_NL": "Rome"
   },
+  "Rotterdam": {
+    "en_GB": "Rotterdam",
+    "nl_NL": "Rotterdam"
+  },
+  "S. Martino in Poggio": {
+    "en_GB": "S. Martino in Poggio",
+    "nl_NL": "S. Martino in Poggio"
+  },
+  "S. Michele di Pagana": {
+    "en_GB": "S. Michele di Pagana",
+    "nl_NL": "S. Michele di Pagana"
+  },
+  "Salisburgo": {
+    "en_GB": "Salzburg",
+    "nl_NL": "Salzburg"
+  },
+  "San Remo": {
+    "en_GB": "San Remo",
+    "nl_NL": "San Remo"
+  },
+  "Santa Fe": {
+    "en_GB": "Santa Fe",
+    "nl_NL": "Santa Fe"
+  },
+  "Santopadre": {
+    "en_GB": "Santopadre",
+    "nl_NL": "Santopadre"
+  },
+  "Sassari": {
+    "en_GB": "Sassari",
+    "nl_NL": "Sassari"
+  },
   "Savona": {
     "en_GB": "Savona",
     "nl_NL": "Savona"
   },
+  "Scilla": {
+    "en_GB": "Scilla",
+    "nl_NL": "Scilla"
+  },
+  "Sebenico": {
+    "en_GB": "Šibenik",
+    "nl_NL": "Šibenik"
+  },
+  "Senigallia": {
+    "en_GB": "Senigallia",
+    "nl_NL": "Senigallia"
+  },
+  "Sens": {
+    "en_GB": "Sens",
+    "nl_NL": "Sens"
+  },
+  "Sestri Levante": {
+    "en_GB": "Sestri Levante",
+    "nl_NL": "Sestri Levante"
+  },
+  "Sgurgola": {
+    "en_GB": "Sgurgola",
+    "nl_NL": "Sgurgola"
+  },
+  "Siebenbrunn": {
+    "en_GB": "Siebenbrunn",
+    "nl_NL": "Siebenbrunn"
+  },
+  "Siena": {
+    "en_GB": "Siena",
+    "nl_NL": "Siena"
+  },
+  "Sierre": {
+    "en_GB": "Sierre",
+    "nl_NL": "Sierre"
+  },
+  "Simpelveld": {
+    "en_GB": "Simpelveld",
+    "nl_NL": "Simpelveld"
+  },
+  "Sintra": {
+    "en_GB": "Sintra",
+    "nl_NL": "Sintra"
+  },
+  "Siviglia": {
+    "en_GB": "Seville",
+    "nl_NL": "Sevilla"
+  },
+  "Smyrna": {
+    "en_GB": "Smyrna",
+    "nl_NL": "Smyrna"
+  },
+  "Sonnino": {
+    "en_GB": "Sonnino",
+    "nl_NL": "Sonnino"
+  },
+  "Speloncato": {
+    "en_GB": "Speloncato",
+    "nl_NL": "Speloncato"
+  },
+  "Spotorno": {
+    "en_GB": "Spotorno",
+    "nl_NL": "Spotorno"
+  },
+  "St James's": {
+    "en_GB": "St James's",
+    "nl_NL": "St James's"
+  },
+  "Sterpenich": {
+    "en_GB": "Sterpenich",
+    "nl_NL": "Sterpenich"
+  },
+  "Stoccolma": {
+    "en_GB": "Stockholm",
+    "nl_NL": "Stockholm"
+  },
+  "Tassullo": {
+    "en_GB": "Tassullo",
+    "nl_NL": "Tassullo"
+  },
+  "The Falls, Llandogo": {
+    "en_GB": "The Falls, Llandogo",
+    "nl_NL": "The Falls, Llandogo"
+  },
+  "Tilburg": {
+    "en_GB": "Tilburg",
+    "nl_NL": "Tübingen"
+  },
   "Torino": {
     "en_GB": "Turin",
     "nl_NL": "Turijn"
+  },
+  "Torre Pellice": {
+    "en_GB": "Torre Pellice",
+    "nl_NL": "Torre Pellice"
+  },
+  "Trebiolo": {
+    "en_GB": "Trebiolo",
+    "nl_NL": "Trebiolo"
+  },
+  "Trieste": {
+    "en_GB": "Trieste",
+    "nl_NL": "Triëst"
+  },
+  "Tubinga": {
+    "en_GB": "Tübingen",
+    "nl_NL": "Tübingen"
+  },
+  "Tunisi": {
+    "en_GB": "Tunis",
+    "nl_NL": "Tunis"
+  },
+  "Udine": {
+    "en_GB": "Udine",
+    "nl_NL": "Udine"
+  },
+  "Urbino": {
+    "en_GB": "Urbino",
+    "nl_NL": "Urbino"
+  },
+  "Valkenburg": {
+    "en_GB": "Valkenburg",
+    "nl_NL": "Valkenburg"
+  },
+  "Velletri": {
+    "en_GB": "Velletri",
+    "nl_NL": "Velletri"
+  },
+  "Venezia": {
+    "en_GB": "Venice",
+    "nl_NL": "Venetië"
+  },
+  "Verona": {
+    "en_GB": "Verona",
+    "nl_NL": "Verona"
+  },
+  "Verrua Savoia": {
+    "en_GB": "Verrua Savoia",
+    "nl_NL": "Verrua Savoia"
+  },
+  "Vico": {
+    "en_GB": "Vico",
+    "nl_NL": "Vico"
+  },
+  "Vienna": {
+    "en_GB": "Vienna",
+    "nl_NL": "Wenen"
+  },
+  "Villafranca": {
+    "en_GB": "Villafranca",
+    "nl_NL": "Villafranca"
+  },
+  "Viterbo": {
+    "en_GB": "Viterbo",
+    "nl_NL": "Viterbo"
+  },
+  "Voorst": {
+    "en_GB": "Voorst",
+    "nl_NL": "Voorst"
+  },
+  "Voort": {
+    "en_GB": "Voort",
+    "nl_NL": "Voort"
+  },
+  "Wetzlar": {
+    "en_GB": "Wetzlar",
+    "nl_NL": "Wetzlar"
+  },
+  "Woerden": {
+    "en_GB": "Woerden",
+    "nl_NL": "Woerden"
+  },
+  "Wolkenstein": {
+    "en_GB": "Wolkenstein",
+    "nl_NL": "Wolkenstein"
+  },
+  "Zoelen": {
+    "en_GB": "Zoelen",
+    "nl_NL": "Zoelen"
+  },
+  "Zurigo": {
+    "en_GB": "Zürich",
+    "nl_NL": "Zürich"
+  },
+  "Zwolle": {
+    "en_GB": "Zwolle",
+    "nl_NL": "Zwolle"
+  },
+  "Île du Diable": {
+    "en_GB": "Devil's Island",
+    "nl_NL": "Île du Diable"
   }
 }
