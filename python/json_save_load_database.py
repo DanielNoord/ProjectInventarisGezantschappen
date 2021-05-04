@@ -23,7 +23,6 @@ def save_database(filename, previous_database=None):
             person_type,
             surname,
             name,
-            nationality,
             date_of_birth,
             place_of_birth,
             date_of_death,
@@ -33,17 +32,18 @@ def save_database(filename, previous_database=None):
             comment,
             comment_daniel,
             sources,
+            images,
         ) = re.split(r"\n.*?: ", para.text)
 
         person_type = int(person_type)
         titles = read_title(titles)
         functions = read_function(functions)
         sources = sources.replace("\n", "").split("| ")
+        images = images.replace("\n", "").split("| ")
         all_individuals[identifier] = {
             "surname": surname,
             "person_type": person_type,
             "name": name,
-            "nationality": nationality,
             "date_of_birth": date_of_birth,
             "place_of_birth": place_of_birth,
             "date_of_death": date_of_death,
@@ -53,6 +53,7 @@ def save_database(filename, previous_database=None):
             "comment": comment,
             "comment_daniel": comment_daniel,
             "sources": sources,
+            "images": images,
         }
     if previous_database:
         all_individuals = previous_database | all_individuals
@@ -89,5 +90,5 @@ def merge_database(filename, previous_database_filename):
 
 if __name__ == "__main__":
     # save_database("inputs/Individuals.docx")
-    load_database("inputs/Individuals.json", [0, 1, 2, 4, 5])
-    # merge_database("inputs/Individuals_without_types_0,1,2,4,5.docx", "inputs/Individuals.json")
+    # load_database("inputs/Individuals.json", [0, 1])
+    merge_database("outputs/Individuals_without_types_0,1.docx", "inputs/Individuals.json")
