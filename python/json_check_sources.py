@@ -53,6 +53,7 @@ SOURCE_PATTERNS = {
     r"Ministero dell'interno, Calendario generale pe' regii stati, \(Turin, 18\d\d\), \d*",
     r"Palmaverde almanacco piemontese per l'anno 18\d\d \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"Perthes, Justus, Almanach de Gotha. Annuaire diplomatique et statistique pour l'année 18\d\d \(Gotha, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Perthes, Justus, Gothaischer Genealogisches Taschenbuch der deutschen gräflichen Häuser auf das Jahr 18\d\d \(Gotha, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"Società di Agricoltura Jesina. Annali ed Atti, volume \d* \(Rome, 18\d\d\), \d*",
     r"Staats-almanak voor den jare 18\d\d \(The Hague, 18\d\d\), \d*",
     r"Staats- und Adress-Handbuch des Herzogthums Nassau für das Jahr 18\d\d \(Wiesbaden, 18\d\d\), \d*",  # pylint: disable=line-too-long
@@ -201,6 +202,7 @@ def check_all_sources(filename):
     count_todo = 0
     probably_wrong = []
     compiled_source_patterns = [re.compile(i) for i in SOURCE_PATTERNS]
+    used_patterns = set()
 
     for identifier, data in persons.items():
         for index, source in enumerate(data["sources"]):
@@ -248,8 +250,8 @@ def check_all_sources(filename):
                     index
                 ] = f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (Den Haag, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
 
-            elif [True for i in compiled_source_patterns if i.match(source)]:
-                pass
+            elif mat := [i for i in compiled_source_patterns if i.match(source)]:
+                used_patterns.add(mat[0])
 
             # Sources to discuss
             # TODO: What to do with these two sites? Links are not persistent (I think)
@@ -277,6 +279,7 @@ def check_all_sources(filename):
 
     persons["$schema"] = "../static/JSON/Individuals.json"
 
+    # Write new file if this file itself is run
     if __name__ == "__main__":
         with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
             json.dump(persons, file, ensure_ascii=False, indent=4)
@@ -285,7 +288,10 @@ def check_all_sources(filename):
         print("\nThese sources might be wrong")
         for i in probably_wrong:
             print("", i)
-    print(f"Finished checking comments in {filename}!\n")
+    unused_patterns = [i for i in compiled_source_patterns if not i in used_patterns]
+    if unused_patterns:
+        print(f"Found the following unused source patterns:\n {unused_patterns}")
+    print(f"Finished checking sources in {filename}!\n")
 
 
 if __name__ == "__main__":
