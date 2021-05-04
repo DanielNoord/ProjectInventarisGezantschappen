@@ -116,14 +116,6 @@
     "en_GB": "General Provisions to be observed \"par les envoyès et consuls à l'ètranger\" (printed) signed by \\1",
     "nl_NL": "Algemene bepalingen die in acht moeten worden genomen \"par les envoyès et consuls à l'ètranger\" (gedrukt) ondertekend door \\1"
   },
-  "Edel Mogende Heeren! \\(a stampa\\)$": {
-    "en_GB": "Edel Mogende Heeren! (printed)",
-    "nl_NL": "Edel Mogende Heeren! (gedrukt)"
-  },
-  "Edel Mogende Heeren! \\(avviso a stampa\\)$": {
-    "en_GB": "Edel Mogende Heeren! (printed notice)",
-    "nl_NL": "Edel Mogende Heeren! (gedrukt bericht)"
-  },
   "Editto (di|del|della) (\\$\\w*) sulle volture e traslazioni \\(a stampa\\)$": {
     "en_GB": "Edict of \\2 on transfers and translations (printed)",
     "nl_NL": "Edict van \\2 over overdrachten en vertalingen (gedrukt)"
@@ -255,10 +247,6 @@
   "Lettera (di|del|della) (\\$\\w*) \\(allegata\\)$": {
     "en_GB": "Letter of \\2 (attachment)",
     "nl_NL": "Brief van \\2 (bijlage)"
-  },
-  "Lettera (di|del|della) (\\$\\w*) al Direttore di Polizia del Porto di Genova$": {
-    "en_GB": "Letter of \\2 to the director of the police of the port of Genoa",
-    "nl_NL": "Brief van \\2 aan de directeur van de politie van de haven van Genua"
   },
   "Lettera (di|del|della) (\\$\\w*) al Re$": {
     "en_GB": "Letter of \\2 to the king",
@@ -447,6 +435,10 @@
   "Minuta$": {
     "en_GB": "Minute",
     "nl_NL": "Minuut"
+  },
+  "Discorso dal Trono di (\\$\\w*) \\(a stampa\\)$": {
+    "en_GB": "Speech from the Throne of \\1 (printed)",
+    "nl_NL": "Troondrede van \\1 (gedrukt)"
   },
   "Minutario della corrispondenza (di|del|della) (\\$\\w*)$": {
     "en_GB": "Minutes of correspondence of \\2",
