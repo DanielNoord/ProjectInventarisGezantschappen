@@ -32,6 +32,8 @@ def translate_xlsx(
                     break
             else:
                 row[1].font = Font(color="00008b")
+                # Print out unrecognized lines
+                print(f"Did not find translation for:\n{line}")
             row[1].value = line
 
         # Translate title
