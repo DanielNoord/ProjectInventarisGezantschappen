@@ -92,8 +92,8 @@ def check_entries(input_file):
 if __name__ == "__main__":
     check_translations()
     check_entries("inputs/Individuals.json")
-    check_all_comments("inputs/Individuals.json")
     check_all_sources("inputs/Individuals.json")
+    check_all_comments("inputs/Individuals.json")
     check_all_placenames("inputs/Individuals.json")
 
     print("\nAll checks done!")
