@@ -140,7 +140,6 @@ def database(dict_of_individuals, output_name, skip_types):
             paragraph.add_run(f"Type: {str(data['person_type'])}\n")
             paragraph.add_run(f"Surname: {data['surname']}\n")
             paragraph.add_run(f"Name: {data['name']}\n")
-            paragraph.add_run(f"Nationality: {data['nationality']}\n")
             paragraph.add_run(f"Date of birth: {data['date_of_birth']}\n")
             paragraph.add_run(f"Place of birth: {data['place_of_birth']}\n")
             paragraph.add_run(f"Date of death: {data['date_of_death']}\n")
@@ -152,6 +151,7 @@ def database(dict_of_individuals, output_name, skip_types):
             paragraph.add_run(f"Comment: {data['comment']}\n")
             paragraph.add_run(f"Comment from Daniël: {data['comment_daniel']}\n")
             paragraph.add_run(f"Sources: {'| '.join(data['sources'])}\n")
+            paragraph.add_run(f"Images: {'| '.join(data['images'])}\n")
 
             paragraph_format = paragraph.paragraph_format
             paragraph_format.first_line_indent = Pt(-10)
