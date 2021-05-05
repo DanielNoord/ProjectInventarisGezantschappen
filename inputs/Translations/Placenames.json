@@ -44,6 +44,10 @@
     "en_GB": "Ancona",
     "nl_NL": "Ancona"
   },
+  "Apeldoorn": {
+    "en_GB": "Apeldoorn",
+    "nl_NL": "Apeldoorn"
+  },
   "Aquisgrana": {
     "en_GB": "Aachen",
     "nl_NL": "Aken"
@@ -252,10 +256,6 @@
     "en_GB": "Dresden",
     "nl_NL": "Dresden"
   },
-  "Driel": {
-    "en_GB": "Driel",
-    "nl_NL": "Driel"
-  },
   "Edimburgo": {
     "en_GB": "Edinburgh",
     "nl_NL": "Edinburgh"
@@ -360,6 +360,14 @@
     "en_GB": "Heino",
     "nl_NL": "Heino"
   },
+  "Hohenberg": {
+    "en_GB": "Hohenberg",
+    "nl_NL": "Hohenberg"
+  },
+  "Howick": {
+    "en_GB": "Howick",
+    "nl_NL": "Howick"
+  },
   "Hyères": {
     "en_GB": "Hyères",
     "nl_NL": "Hyères"
@@ -383,6 +391,10 @@
   "Kassel": {
     "en_GB": "Kassel",
     "nl_NL": "Kassel"
+  },
+  "Kerkdriel": {
+    "en_GB": "Kerkdriel",
+    "nl_NL": "Kerkdriel"
   },
   "L'Aia": {
     "en_GB": "The Hague",
@@ -427,6 +439,10 @@
   "Londra": {
     "en_GB": "London",
     "nl_NL": "Londen"
+  },
+  "Loosdrecht": {
+    "en_GB": "Loosdrecht",
+    "nl_NL": "Loosdrecht"
   },
   "Loosduinen": {
     "en_GB": "Loosduinen",
@@ -736,6 +752,10 @@
     "en_GB": "The Falls, Llandogo",
     "nl_NL": "The Falls, Llandogo"
   },
+  "Tholen": {
+    "en_GB": "Tholen",
+    "nl_NL": "Tholen"
+  },
   "Tilburg": {
     "en_GB": "Tilburg",
     "nl_NL": "Tübingen"
@@ -764,6 +784,10 @@
     "en_GB": "Tunis",
     "nl_NL": "Tunis"
   },
+  "Uccle": {
+    "en_GB": "Uccle",
+    "nl_NL": "Ukkel"
+  },
   "Udine": {
     "en_GB": "Udine",
     "nl_NL": "Udine"
@@ -771,6 +795,10 @@
   "Urbino": {
     "en_GB": "Urbino",
     "nl_NL": "Urbino"
+  },
+  "Utrecht": {
+    "en_GB": "Utrecht",
+    "nl_NL": "Utrecht"
   },
   "Valkenburg": {
     "en_GB": "Valkenburg",
@@ -820,6 +848,10 @@
     "en_GB": "Wetzlar",
     "nl_NL": "Wetzlar"
   },
+  "Wiesbaden": {
+    "en_GB": "Wiesbaden",
+    "nl_NL": "Wiesbaden"
+  },
   "Woerden": {
     "en_GB": "Woerden",
     "nl_NL": "Woerden"
@@ -831,6 +863,10 @@
   "Zoelen": {
     "en_GB": "Zoelen",
     "nl_NL": "Zoelen"
+  },
+  "Zuilen": {
+    "en_GB": "Zuilen",
+    "nl_NL": "Zuilen"
   },
   "Zurigo": {
     "en_GB": "Zürich",

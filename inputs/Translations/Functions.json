@@ -50,11 +50,6 @@
     "it_IT": "Amministratore generale della Giustizia del Granducato di Lussemburgo",
     "nl_NL": "Administrateur-generaal van Justitie van het Groothertogdom Luxemburg"
   },
-  "Directeur van de politie van Genua": {
-    "en_GB": "Director of the police of Genoa",
-    "it_IT": "Direttore della polizia di Genova",
-    "nl_NL": "Directeur van de politie van Genua"
-  },
   "Adviseur van de staat": {
     "en_GB": "State advisor",
     "it_IT": "Consigliere di Stato",
@@ -424,6 +419,11 @@
     "en_GB": "Director and commander of the fire department of Rome",
     "it_IT": "Direttore e comandante dei vigili del fuoco di Roma",
     "nl_NL": "Directeur en commandant van de brandweer van Rome"
+  },
+  "Directeur van de politie van Genua": {
+    "en_GB": "Director of the police of Genoa",
+    "it_IT": "Direttore della polizia di Genova",
+    "nl_NL": "Directeur van de politie van Genua"
   },
   "Directeur van het consulaat-generaal van het Koninkrijk der Nederlanden te Genua": {
     "en_GB": "Director of the consulate general of the Kingdom of the Netherlands in Genoa",
@@ -1134,6 +1134,11 @@
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Paris",
     "it_IT": "Segretario della Legazione del Regno dei Paesi Bassi a Parigi",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Parijs"
+  },
+  "Secretaris van het consulaat van het Koninkrijk der Nederlanden te Nice": {
+    "en_GB": "Secretary of the consulate of the Kingdom of the Netherlands in Nice",
+    "it_IT": "Segretario del consolato del Regno dei Paesi Bassi a Nizza",
+    "nl_NL": "Secretaris van het consulaat van het Koninkrijk der Nederlanden te Nice"
   },
   "Secretaris-generaal van de Heilige Congregatie van _Propaganda Fide_": {
     "en_GB": "Secretary general of the Sacred Congregation of _Propaganda Fide_",

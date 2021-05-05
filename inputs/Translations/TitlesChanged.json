@@ -1,5 +1,11 @@
 {
   "$schema": "../../static/JSON/Functions.json",
+  "3e Earl Grey": {
+    "en_GB": "3rd Earl Grey",
+    "it_IT": "3° Earl Grey",
+    "nl_NL": "3e Earl Grey",
+    "position": "After"
+  },
   "Freiherr": {
     "en_GB": "Freiherr",
     "it_IT": "Freiherr",

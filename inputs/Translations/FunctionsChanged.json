@@ -10,11 +10,6 @@
     "it_IT": "Arcivescovo di Tebe",
     "nl_NL": "Aartsbisschop van Thebe"
   },
-  "Advocaat-generaal voor de armen van de Kerkelijke Staat": {
-    "en_GB": "Advocate general for the poor of the Papel States",
-    "it_IT": "Avvocato generale dei poveri dello Stato Pontifico",
-    "nl_NL": "Advocaat-generaal voor de armen van de Kerkelijke Staat"
-  },
   "Ad interim directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag": {
     "en_GB": "Ad interim director of the chancellery for Luxembourgish Affairs in The Hague",
     "it_IT": "Direttore ad interim della cancelleria per gli Affari Lussemburghesi dell'Aia",
@@ -34,6 +29,11 @@
     "en_GB": "Interim substitute for Relations with States of the Secretariat of State of the Holy See",
     "it_IT": "Sostituto ad interim della seconda sezione della Segreteria di Stato",
     "nl_NL": "Ad interim substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel"
+  },
+  "Advocaat-generaal voor de armen van de Kerkelijke Staat": {
+    "en_GB": "Advocate general for the poor of the Papel States",
+    "it_IT": "Avvocato generale dei poveri dello Stato Pontifico",
+    "nl_NL": "Advocaat-generaal voor de armen van de Kerkelijke Staat"
   },
   "Apostolisch protonotaris": {
     "en_GB": "Apostolic protonotary",
@@ -89,16 +89,6 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
     "it_IT": "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso la Santa Sede",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilge Stoel"
-  },
-  "Staatssecretaris van de 2e klasse van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië": {
-    "en_GB": "Secretary of State 2nd class of the Ministry of Foreign Affairs of the Kingdom of Sardinia",
-    "it_IT": "Segretario di Stato di 2° classe del Ministero degli Affari Esteri del Regno di Sardegna",
-    "nl_NL": "Staatssecretaris van de 2e klasse van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
-  },
-  "Officier van justitie": {
-    "en_GB": "Public prosecutor",
-    "it_IT": "Procuratore",
-    "nl_NL": "Officier van justitie"
   },
   "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden bij de Confederatie van de XXII kantons {Zwitserland}": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands with the Swiss Confederation",
@@ -159,11 +149,6 @@
     "en_GB": "Consul of the Kingdom of the Netherlands in Alessandria",
     "it_IT": "Console del Regno dei Paesi Bassi ad Alessandria",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Alessandria"
-  },
-  "Consul-generaal van het Koninkrijk der Nederlanden te Nice": {
-    "en_GB": "Consul general of the Kingdom of the Netherlands in Nice",
-    "it_IT": "Console generale del Regno dei Paesi Bassi a Nizza",
-    "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Nice"
   },
   "Directeur van de Douane en _Gabelle_ {Belastingsdienst} van Ancona": {
     "en_GB": "Director of the Costums and _Gabelle_ {Tax Office} of Ancona",
@@ -315,6 +300,11 @@
     "it_IT": "Ministro della Marina e delle Colonie del Regno dei Paesi Bassi",
     "nl_NL": "Minister van Marine en Koloniën van het Koninkrijk der Nederlanden"
   },
+  "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk": {
+    "en_GB": "Secretary of State for War and the Colonies of the United Kingdom",
+    "it_IT": "Segretario della Guerra e Colonie del Regno Unito",
+    "nl_NL": "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk"
+  },
   "Minister van Oorlog van de Kerkelijke Staat": {
     "en_GB": "Minister of War of the Papal States",
     "it_IT": "Ministro della Guerra dello Stato Pontifico",
@@ -329,6 +319,11 @@
     "en_GB": "Resident minister of the Kingdom of the Netherlands to the Kingdom of Italy",
     "it_IT": "Ministro residente del Regno dei Paesi Bassi presso il Regno d'Italia",
     "nl_NL": "Minister-resident van het Koninkrijk der Nederlanden bij het Koninkrijk Italië"
+  },
+  "Officier van justitie": {
+    "en_GB": "Public prosecutor",
+    "it_IT": "Procuratore",
+    "nl_NL": "Officier van justitie"
   },
   "Prefect en later president _delle Armi_ {van de wapens} van de Kerkelijke Staat": {
     "en_GB": "Prefect and later President _delle Armi_ {of the weapons} of the Papal State",
@@ -384,6 +379,11 @@
     "en_GB": "Secretary of State for Police Affairs of the Kingdom of Sardinia",
     "it_IT": "Segretario di stato per gli Affari di Polizia del Regno di Sardegna",
     "nl_NL": "Staatssecretaris van Politiezaken van het Koninkrijk Sardinië"
+  },
+  "Staatssecretaris van de 2e klasse van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië": {
+    "en_GB": "Secretary of State 2nd class of the Ministry of Foreign Affairs of the Kingdom of Sardinia",
+    "it_IT": "Segretario di Stato di 2° classe del Ministero degli Affari Esteri del Regno di Sardegna",
+    "nl_NL": "Staatssecretaris van de 2e klasse van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel": {
     "en_GB": "Substitute for Relations with States of the Secretariat of State of the Holy See",
