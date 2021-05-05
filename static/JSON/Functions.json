@@ -1,7 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema#",
-  "title": "Functions of people in the archive",
-  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/function"
+  },
   "definitions": {
     "function": {
       "description": "An individual possible function",
@@ -30,8 +31,7 @@
   "properties": {
     "$schema": "string"
   },
-  "additionalProperties": {
-    "$ref": "#/definitions/function"
-  },
+  "title": "Functions of people in the archive",
+  "type": "object",
   "uniqueItems": true
 }

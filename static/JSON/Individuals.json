@@ -56,6 +56,19 @@
           },
           "type": "array"
         },
+        "images": {
+          "additionalItems": {
+            "type": "string"
+          },
+          "description": "Array of relevant images",
+          "items": [
+            {
+              "type": "string"
+            }
+          ],
+          "minItems": 1,
+          "type": "array"
+        },
         "name": {
           "description": "Name of individual",
           "type": "string"
@@ -77,19 +90,6 @@
             "type": "string"
           },
           "description": "Array of relevant sources",
-          "items": [
-            {
-              "type": "string"
-            }
-          ],
-          "minItems": 1,
-          "type": "array"
-        },
-        "images": {
-          "additionalItems": {
-            "type": "string"
-          },
-          "description": "Array of relevant images",
           "items": [
             {
               "type": "string"

@@ -1,7 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema#",
-  "title": "Translations of titles of documents in the inventory",
-  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/title"
+  },
   "definitions": {
     "title": {
       "description": "A title in Italian",
@@ -22,8 +23,7 @@
   "properties": {
     "$schema": "string"
   },
-  "additionalProperties": {
-    "$ref": "#/definitions/title"
-  },
+  "title": "Translations of titles of documents in the inventory",
+  "type": "object",
   "uniqueItems": true
 }
