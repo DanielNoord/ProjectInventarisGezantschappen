@@ -7,6 +7,7 @@
 !static/
 !inputs
 inputs/*
+!inputs/Individuals.json
 !inputs/Translations
 
 # Whitelisted files
