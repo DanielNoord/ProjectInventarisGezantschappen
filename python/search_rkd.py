@@ -13,15 +13,16 @@ def fetch_rkd_images(filename):
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
-        name = "+".join([data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")])
-        response = requests.get(
-            f"https://rkd.nl/api/search/images?fieldset=brief&rows=50&query={name}"
-        )
-        if response.json()["response"]["docs"]:
-            print(name)
-        for image in response.json()["response"]["docs"]:
-            print("", image["titel_engels"])
-            print("", f"https://rkd.nl/explore/images/{image['priref']}")
+        if not any(i for i in data["images"] if i.startswith("https://rkd.nl/explore/images")):
+            name = "+".join([data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")])
+            response = requests.get(
+                f"https://rkd.nl/api/search/images?fieldset=brief&rows=50&query={name}"
+            )
+            if response.json()["response"]["docs"]:
+                print(name)
+            for image in response.json()["response"]["docs"]:
+                print("", image["titel_engels"])
+                print("", f"https://rkd.nl/explore/images/{image['priref']}")
 
     print("Finished checking for images!")
 
@@ -52,4 +53,4 @@ def fetch_rkd_artists(filename):
 
 if __name__ == "__main__":
     fetch_rkd_images("inputs/Individuals.json")
-    fetch_rkd_artists("inputs/Individuals.json")
+    # fetch_rkd_artists("inputs/Individuals.json")
