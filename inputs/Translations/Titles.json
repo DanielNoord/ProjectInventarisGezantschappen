@@ -1,10 +1,22 @@
 {
   "$schema": "../../static/JSON/Titles.json",
+  "3e Earl Grey": {
+    "en_GB": "3rd Earl Grey",
+    "it_IT": "3° Earl Grey",
+    "nl_NL": "3e Earl Grey",
+    "position": "After"
+  },
   "4de graaf van Aberdeen": {
     "en_GB": "4th Earl of Abderdeen",
     "it_IT": "IV conte di Aberdeen",
     "nl_NL": "4de graaf van Aberdeen",
     "position": "After"
+  },
+  "Freiherr": {
+    "en_GB": "Freiherr",
+    "it_IT": "Freiherr",
+    "nl_NL": "Freiherr",
+    "position": "Before"
   },
   "Lord": {
     "en_GB": "Lord",
@@ -22,6 +34,12 @@
     "en_GB": "archduke of Austria",
     "it_IT": "arciduca d’Austria",
     "nl_NL": "aartshertog van Oostenrijk",
+    "position": "After"
+  },
+  "aartshertogin van Oostenrijk": {
+    "en_GB": "archduchess of Austria",
+    "it_IT": "arciduchessa d’Austria",
+    "nl_NL": "aartshertogin van Oostenrijk",
     "position": "After"
   },
   "admiraal": {
@@ -54,6 +72,12 @@
     "nl_NL": "bisschop",
     "position": "Before"
   },
+  "brigadegeneraal": {
+    "en_GB": "brigadier general",
+    "it_IT": "brigadier generale",
+    "nl_NL": "brigadegeneraal",
+    "position": "Before"
+  },
   "commandant": {
     "en_GB": "commander",
     "it_IT": "comandante",
@@ -70,6 +94,18 @@
     "en_GB": "general",
     "it_IT": "generale",
     "nl_NL": "generaal",
+    "position": "Before"
+  },
+  "generaal-majoor": {
+    "en_GB": "major general",
+    "it_IT": "maggior generale",
+    "nl_NL": "generaal-majoor",
+    "position": "Before"
+  },
+  "gepensioneerd 1e officier van gezondheid, 2e klasse,": {
+    "en_GB": "retired 1st officer of health, 2nd class,",
+    "it_IT": "1° ufficiale della sanità in pensione di 2° classe",
+    "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
     "position": "Before"
   },
   "graaf": {
@@ -96,6 +132,12 @@
     "nl_NL": "graaf van Cavour",
     "position": "After"
   },
+  "graaf van Montebello": {
+    "en_GB": "count of Montebello",
+    "it_IT": "conte di Montebello",
+    "nl_NL": "graaf van Montebello",
+    "position": "After"
+  },
   "gravin": {
     "en_GB": "countess",
     "it_IT": "contessa",
@@ -120,6 +162,12 @@
     "nl_NL": "hertog van Rignano",
     "position": "After"
   },
+  "hertog van Santa Cristina": {
+    "en_GB": "duke of Santa Cristina",
+    "it_IT": "duca di Santa Cristina",
+    "nl_NL": "hertog van Santa Cristina",
+    "position": "After"
+  },
   "hertog van Sermoneta": {
     "en_GB": "duke of Sermoneta",
     "it_IT": "duca di Sermoneta",
@@ -130,6 +178,12 @@
     "en_GB": "jonkheer",
     "it_IT": "jonkheer",
     "nl_NL": "jhr.",
+    "position": "Before"
+  },
+  "kapitein": {
+    "en_GB": "captain",
+    "it_IT": "capitano",
+    "nl_NL": "kapitein",
     "position": "Before"
   },
   "kardinaal": {
@@ -154,6 +208,18 @@
     "en_GB": "lieutenant general {retd}",
     "it_IT": "tenente generale {retd}",
     "nl_NL": "luitenant-generaal b.d.",
+    "position": "Before"
+  },
+  "luitenant-kolonel": {
+    "en_GB": "lieutenant colonel",
+    "it_IT": "tenente colonnello",
+    "nl_NL": "luitenant-kolonel",
+    "position": "Before"
+  },
+  "luitenant-ter-zee": {
+    "en_GB": "luitenant-ter-zee",
+    "it_IT": "luitenant-ter-zee",
+    "nl_NL": "luitenant-ter-zee",
     "position": "Before"
   },
   "maarschalk": {
@@ -184,6 +250,12 @@
     "en_GB": "lawyer",
     "it_IT": "avv.",
     "nl_NL": "mr.",
+    "position": "Before"
+  },
+  "pater": {
+    "en_GB": "father",
+    "it_IT": "padre",
+    "nl_NL": "pater",
     "position": "Before"
   },
   "prins": {
@@ -228,6 +300,12 @@
     "nl_NL": "prins van Joinville",
     "position": "After"
   },
+  "prins van Mazzano en Antuni": {
+    "en_GB": "prince of Mazzano and Antuni",
+    "it_IT": "principe di Mazzano ed Antuni",
+    "nl_NL": "prins van Mazzano en Antuni",
+    "position": "After"
+  },
   "prins van Scilla": {
     "en_GB": "prince of Scilla",
     "it_IT": "principe di Scilla",
@@ -262,6 +340,12 @@
     "en_GB": "counter admiral",
     "it_IT": "contrammiraglio",
     "nl_NL": "schout-bij-nacht",
+    "position": "Before"
+  },
+  "zuster": {
+    "en_GB": "sister",
+    "it_IT": "suor",
+    "nl_NL": "zuster",
     "position": "Before"
   }
 }
