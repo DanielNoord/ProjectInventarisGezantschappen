@@ -5,20 +5,20 @@ COMMENT_PATTERNS = {
     r"Amadeo Bert was an important contact for travellers.*\.$",
     r"Archive contains correspondence between him and some Dutch representatives about a debt\.$",
     r"Captain of the ship De Pelicaan\.$",
-    r"Edgar Ney played an important part in the defense and liberation of Rome during the period of the Roman Republic\.$",  # pylint: disable=line-too-long
     r"Eugenio Giuseppe Allet was also known as colonel M. Allet\.$",
     r"François-Xavier Wurth-Paquet held several other \(ministerial\) positions within the Grand Duchy of Luxembourg\.$",  # pylint: disable=line-too-long
+    r"From Koelman: .*\.$",  # pylint: disable=line-too-long
     r"Giacomo Chiavarni was a man of Italian origin who resided in Amsterdam. An arrest.*\.$",
     r"Giambatista Leveroni held the position of vice-president until 1832 or 1833\.$",
     r"Giuseppe Birigazzi and Giuseppe Cavalieri were convicted for inciting a revolt in Bologna.*\.$",  # pylint: disable=line-too-long
     r"Has a claim for a sum of money at the Banco di San Giorgi.*\.$",
     r"His name in Cyrillic script is '.*'\.$",
     r"Ignacio de Valdivieso joined Pope Pius IX in his flight to Gaeta\.$",
-    r"Louis Bosch represented a lady referred to as 'the widow Sturbaut' in the dispute surrounding the inheritance of Francesco Cornelio Verbruggen\.$",  # pylint: disable=line-too-long
+    r"Louis Bosch represented a lady referred to as 'the widow Henriette Natalie Sturbaut' in the dispute surrounding the inheritance of Francesco Cornelio Verbruggen\.$",  # pylint: disable=line-too-long
     r"Louis du Chastel de la Howarderie had several other functions in the Dutch diplomatic services.*\.$",  # pylint: disable=line-too-long
     r"Luigi Arata was also consul of several other countries, notably Russia\.$",
     r"Paolo Gerolamo Pallavcini was president of the Magistrato since at least 1824\.$",
-    r"Sometimes referred to as Verbeke. Several consul.*\.$",
+    r"Several consuls of the Kingdom of the Netherlands in Messina were a member of the Verbeke family\.$",  # pylint: disable=line-too-long
     r"The archive contains documents related to his death, inheritance and a dispute between his heirs\.$",  # pylint: disable=line-too-long
     r"The archive contains documents related to his death and a dispute about his inheritance\.$",
     r"The archive contains documents related to his death and inheritance\.$",

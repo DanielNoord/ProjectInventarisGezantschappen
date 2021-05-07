@@ -24,6 +24,10 @@
     "en_GB": "Alessandria",
     "nl_NL": "Alessandria"
   },
+  "Alessandria d'Egitto": {
+    "en_GB": "Alexandria",
+    "nl_NL": "Alexandrië"
+  },
   "Alicante": {
     "en_GB": "Alicante",
     "nl_NL": "Alicante"
@@ -91,6 +95,10 @@
   "Barcellona": {
     "en_GB": "Barcelona",
     "nl_NL": "Barcelona"
+  },
+  "Bari": {
+    "en_GB": "Bari",
+    "nl_NL": "Bari"
   },
   "Barino": {
     "en_GB": "Barino",
@@ -168,6 +176,10 @@
     "en_GB": "Cannero",
     "nl_NL": "Cannero"
   },
+  "Caprera": {
+    "en_GB": "Caprera",
+    "nl_NL": "Caprera"
+  },
   "Carrara": {
     "en_GB": "Carrara",
     "nl_NL": "Carrara"
@@ -192,6 +204,10 @@
     "en_GB": "Ceprano",
     "nl_NL": "Ceprano"
   },
+  "Cesena": {
+    "en_GB": "Cesena",
+    "nl_NL": "Cesena"
+  },
   "Chambéry": {
     "en_GB": "Chambéry",
     "nl_NL": "Chambéry"
@@ -203,6 +219,10 @@
   "Château de Blosseville": {
     "en_GB": "Château de Blosseville",
     "nl_NL": "Château de Blosseville"
+  },
+  "Cingoli": {
+    "en_GB": "Cingoli",
+    "nl_NL": "Cingoli"
   },
   "Civitavecchia": {
     "en_GB": "Civitavecchia",
@@ -596,6 +616,10 @@
     "en_GB": "Pirna",
     "nl_NL": "Pirna"
   },
+  "Pisa": {
+    "en_GB": "Pisa",
+    "nl_NL": "Pisa"
+  },
   "Pontedera": {
     "en_GB": "Pontedera",
     "nl_NL": "Pontedera"
@@ -744,6 +768,10 @@
     "en_GB": "Stockholm",
     "nl_NL": "Stockholm"
   },
+  "Subiaco": {
+    "en_GB": "Subiaco",
+    "nl_NL": "Subiaco"
+  },
   "Tassullo": {
     "en_GB": "Tassullo",
     "nl_NL": "Tassullo"
@@ -819,6 +847,10 @@
   "Verrua Savoia": {
     "en_GB": "Verrua Savoia",
     "nl_NL": "Verrua Savoia"
+  },
+  "Vezzano": {
+    "en_GB": "Vezzano",
+    "nl_NL": "Vezzano"
   },
   "Vico": {
     "en_GB": "Vico",

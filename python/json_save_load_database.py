@@ -90,5 +90,5 @@ def merge_database(filename, previous_database_filename):
 
 if __name__ == "__main__":
     # save_database("inputs/Individuals.docx")
-    # load_database("inputs/Individuals.json", [0, 1])
-    merge_database("outputs/Individuals_without_types_0,1.docx", "inputs/Individuals.json")
+    load_database("inputs/Individuals.json", [])
+    # merge_database("outputs/Individuals_without_types_0,1.docx", "inputs/Individuals.json")
