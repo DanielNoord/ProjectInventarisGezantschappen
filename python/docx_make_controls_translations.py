@@ -3,41 +3,65 @@ import json
 from functions.docx_make import list_of_translated_data
 
 
-def create_controle_transaltions():
+def create_controle_translations():
     """Create .docx files of all titles and functions found by the translate functions
     Includes Italian and English translations on second and third row
     """
-    with open("inputs/Translations/Titles.json") as file1:
-        titles = json.load(file1)
+    with open("inputs/Translations/Titles.json") as file:
+        titles = json.load(file)
+    with open("inputs/Translations/TitlesUnsure.json") as file:
+        titles = dict(titles, **json.load(file))
     del titles["$schema"]
 
-    with open("inputs/Translations/Functions.json") as file2:
-        functions = json.load(file2)
+    with open("inputs/Translations/Functions.json") as file:
+        functions = json.load(file)
+    with open("inputs/Translations/FunctionsUnsure.json") as file:
+        functions = dict(functions, **json.load(file))
     del functions["$schema"]
+
+    with open("inputs/Translations/Placenames.json") as file:
+        placenames = json.load(file)
+    del placenames["$schema"]
+
+    with open("inputs/Translations/DocumentTitles.json") as file:
+        documents = json.load(file)
+    del documents["$schema"]
 
     translated_titles = []
     translated_functions = []
+    translated_places = []
+    translated_documents = []
 
     for _, translations in sorted(titles.items()):
         result = [translations["nl_NL"]]
         result.append(translations["it_IT"])
         result.append(translations["en_GB"])
         result.append(f"position: {translations['position']}")
-        if translations.get("comment"):
-            result.append(f"_Comment_: {translations['comment']}")
         translated_titles.append(result)
 
     for _, translations in sorted(functions.items()):
         result = [translations["nl_NL"]]
         result.append(translations["it_IT"])
         result.append(translations["en_GB"])
-        if translations.get("comment"):
-            result.append(f"_Comment_: {translations['comment']}")
         translated_functions.append(result)
+
+    for it_translation, translations in sorted(placenames.items()):
+        result = [it_translation]
+        result.append(translations["nl_NL"])
+        result.append(translations["en_GB"])
+        translated_places.append(result)
+
+    for it_translation, translations in sorted(documents.items()):
+        result = [it_translation]
+        result.append(translations["nl_NL"])
+        result.append(translations["en_GB"])
+        translated_documents.append(result)
 
     list_of_translated_data(translated_titles, "Titles")
     list_of_translated_data(translated_functions, "Functions")
+    list_of_translated_data(translated_places, "Placenames")
+    list_of_translated_data(translated_documents, "DocumentTitles")
 
 
 if __name__ == "__main__":
-    create_controle_transaltions()
+    create_controle_translations()
