@@ -95,6 +95,11 @@
     "it_IT": "Avvocato generale dei poveri dello Stato Pontifico",
     "nl_NL": "Advocaat-generaal voor de armen van de Kerkelijke Staat"
   },
+  "Aide-de-camp van de Keizer van Frankrijk": {
+    "en_GB": "Aide-de-camp of the Emperor of France",
+    "it_IT": "Aiutante di campo dell'Imperatore di Francia",
+    "nl_NL": "Aide-de-camp van de Keizer van Frankrijk"
+  },
   "Ambassadeur van het Keizerrijk Frankrijk bij de Heilige Stoel": {
     "en_GB": "Ambassador of the Empire of France to the Holy See",
     "it_IT": "Ambasciatore dell'Impero di Francia presso la Santa Sede",
@@ -930,6 +935,11 @@
     "it_IT": "Ispettore generale dell'esercito francese",
     "nl_NL": "Inspecteur-generaal in het Franse leger"
   },
+  "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane": {
+    "en_GB": "Intieme adviseur van Staat, Financiën en Oorlog of the Grand Duchy of Tuscany",
+    "it_IT": "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana",
+    "nl_NL": "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane"
+  },
   "Jezuïet": {
     "en_GB": "Jesuit",
     "it_IT": "Gesuita",
@@ -1235,6 +1245,11 @@
     "it_IT": "Ministro della Guerra del Regno dei Paesi Bassi",
     "nl_NL": "Minister van Oorlog van het Koninkrijk der Nederlanden"
   },
+  "Minister van Oostenrijk": {
+    "en_GB": "Minister of Austria",
+    "it_IT": "Ministro d'Austria",
+    "nl_NL": "Minister van Oostenrijk"
+  },
   "Minister van Openbare Werken van de Kerkelijke Staat": {
     "en_GB": "Minister of Public Works of the Papel States",
     "it_IT": "Ministro dei Lavori Pubblici dello Stato Pontifico",
@@ -1254,6 +1269,11 @@
     "en_GB": "Resident minister of the Grand Duchy of Tuscany at the Holy See",
     "it_IT": "Ministro residente del Granducato di Toscana presso la Santa Sede",
     "nl_NL": "Minister-resident van het Groothertogdom Toscane bij de Heilige Stoel"
+  },
+  "Minister-resident van het Koninkrijk der Nederlanden bij de Heilige Stoel": {
+    "en_GB": "Resident minister of the Kingdom of the Netherlands to the Holy See",
+    "it_IT": "Ministro residente del Regno dei Paesi Bassi presso la Santa Sede",
+    "nl_NL": "Minister-resident van het Koninkrijk der Nederlanden bij de Heilige Stoel"
   },
   "Minister-resident van het Koninkrijk der Nederlanden bij het Koninkrijk Italië": {
     "en_GB": "Resident minister of the Kingdom of the Netherlands to the Kingdom of Italy",
@@ -1700,6 +1720,11 @@
     "it_IT": "Incaricato d'affari e successivamente inviato del Regno dei Paesi Bassi presso il Regno di Sardegna",
     "nl_NL": "Zaakgelastigde en later gezant van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië"
   },
+  "Zaakgelastigde van de Heilige Stoel bij het Koninkrijk der Nederlanden": {
+    "en_GB": "Chargé d'affaires of the Holy See to the Kingdom of the Netherlands",
+    "it_IT": "Incaricato d'affari della Santa Sede al Regno dei Paesi Bassi",
+    "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Koninkrijk der Nederlanden"
+  },
   "Zaakgelastigde van de Republiek Chili bij de Heilige Stoel": {
     "en_GB": "Chargé d'affaires of the Republic of Chile to the Holy See",
     "it_IT": "Incaricato d'affari della Repubblica del Cile presso la Santa Sede",
@@ -1739,6 +1764,11 @@
     "en_GB": "Chargé d'affaires of the Kingdom of the Two Sicilies to the Holy See",
     "it_IT": "Incaricato d'affari del Regno delle Due Sicilie presso la Santa Sede",
     "nl_NL": "Zaakgelastigde van het Koninkrijk der Beide Siciliën bij de Heilige Stoel"
+  },
+  "Zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel": {
+    "en_GB": "Chargé d'affaires of the Kingdom of the Netherlands to the Holy See",
+    "it_IT": "Incaricato d'affari del Regno dei Paesi Bassi presso la Santa Sede",
+    "nl_NL": "Zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel"
   },
   "Zaakgelastigde van het Koninkrijk der Nederlanden bij het Koninkrijk Italië": {
     "en_GB": "Chargé d'affaires of the Kingdom of the Netherlands to the Kingdom of Italy",

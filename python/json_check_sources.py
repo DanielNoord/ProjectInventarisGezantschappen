@@ -11,16 +11,19 @@ SOURCE_PATTERNS = {
     r"(.*, )?.*, '.*', in: Dizionario Biografico degli Italiani. Volume \d* \(Rome, \d\d\d\d\), found on: https://www.treccani.it/.*Dizionario-Biografico\)",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Dizionario storico biografico della Tuscia \(2014-\), found on https://www.gentedituscia.it/.*/",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Historisches Lexikon der Schweiz \(20\d\d\), found on https://hls-dhs-dss.ch/it/articles/\d*/20\d\d-\d\d-\d\d/",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Juan Castaneda Murga et al., Grandes forjadores del Peru \(Lima, 2001\)",
     r".*, .*, '.*', in: Jules Mersch, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d* \(Luxembourg, 19\d\d\)",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Neue Deutsche Biographie. Band \d* \(Berlin, \d\d\d\d\)",
     r".*, .*, '.*', in: P.J. Blok and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel \d* \(Leiden, 19\d\d\)",  # pylint: disable=line-too-long
+    r"(.*, .*, )?'.*', in: Real Academia de La Historia, Diccionario Biográfico electrónico, found on: https?://dbe.rah.es/biografias/.*",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: The Catholic Encyclopedia. Volume \d* \(New York, 19\d\d\)",
     r".*, .*, '.*', in: Traugott Bautz \(ed.\), Biographisch-Bibliographisches Kirchenlexikon. Band \d* \(Herzberg, \d\d\d\d\)",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Repertorium van ambtsdragers en ambtenaren 1428-1861, found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Società di Studi Valdesi, Il Dizionario Biografico on-line dei Protestanti in Italia \(2021\)",  # pylint: disable=line-too-long
     r"'.*', in: A.J. van der AA, Biographisch woordenboek der Nederlanden. .* \(Haarlem, 18\d\d\)",
+    r"'.*', in: Adolphe Robert, Edgar Bourloton and Gaston Cougny, Dictionnaire des parlementaires français. Volume \d* \(Parigi, 18\d\d\)",  # pylint: disable=line-too-long
     r"'.*', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/\d*",  # pylint: disable=line-too-long
     r"'.*', in: Charles Mullié, Biographie des célébrités militaires des armées de terre et de mer de 1789 à 1850 \(Paris, 1852\)",  # pylint: disable=line-too-long
     r"'.*', in: Constantin von Wurzbach, Biographisches Lexikon des Kaiserthums Oesterreich. \d*. Teil \(Vienna, 18\d\d\)",  # pylint: disable=line-too-long
@@ -30,10 +33,11 @@ SOURCE_PATTERNS = {
     r"'.*', in: Leopold von Zedlitz-Neukirch, Neues Preussisches Adels-Lexicon. Dritter Band I-O \(Leipzig, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"'.*', in: Österreichisches Biographisches Lexikon 1815–1950. Band \d* \(Vienna, 1957\)",
     r"'.*', in: Pierre Larousse, Grand dictionnaire universel du XIXe siècle. \d* \(Paris, 18\d\d\)",  # pylint: disable=line-too-long
+    r"'.*', in: Reseñas biográficas parlamentarias de Chile, found on: https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/.*",  # pylint: disable=line-too-long
     r"'.*', in: Wikisource Database \(2\d\d\d-\d\d-\d\d\), found on: https://it.wikisource.org/wiki/.*",  # pylint: disable=line-too-long
     r"Dutch Institute for Art History \(RKD\), '.*', found on: https://rkd.nl/explore/artists/\d*",
     r"Fait, Riccardo \(red.\), Biografie dei consiglieri comunali di Roma \(Rome, 1873\), \d*(-\d*)?",  # pylint: disable=line-too-long
-    r"Mersch, Jules, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d\d \(Luxembourg, 19\d\d\),( \d*,)* \d*?( and \d*)?",  # pylint: disable=line-too-long
+    r"Mersch, Jules, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d\d \(Luxembourg, 19\d\d\),( \d*,)* \d*(-\d*)?( and \d*)?",  # pylint: disable=line-too-long
     r"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni. Volume \d* \(Rome, 1840\), \d*( and \d*)?",  # pylint: disable=line-too-long
     r"Redactie parlement.com, '.*', found on: https://www.parlement.com/.*",  # pylint: disable=line-too-long
     # State almanac/calendar
@@ -106,17 +110,18 @@ SOURCE_PATTERNS = {
     r"Iacobini, Franco, Terrae Cinthiani, Storia di Genzano e della nobile Famiglia Iacobini \(Rome, 2003\)",  # pylint: disable=line-too-long
     r"Kallenberg, Lodewijk, Pieter Otto van der Chijs \(1802-1867\), zandgraf 242, vak F, \(Leiden, 2020\), found on https://www.begraafplaatsgroenesteeg.nl/N_B_personen/Artikel%20Van%20der%20Chijs.pdf",  # pylint: disable=line-too-long
     r"Lencisa, G.F., Ragionamento sulla rinnovazione del trattato di commercio e di navigazione conchiuso tra il Piemonte e la Francia nell'anno 1843, e della Convenzione speciale sulla proprietà letteraria annessa a quel trattato medesimo \(Turin, 1851\)",  # pylint: disable=line-too-long
+    r"De Marchi, Giuseppe, Le nunziature apostoliche dal 1800 al 1956 \(Rome, 1957\), \d*",
     r"Martina, G., Pio IX \(1846-1850\) \(Rome, 1974\), \d*",
     r"van der Meulen, M.E., Mijne Reis door Zwitserland naar de Waldenzen in Piemont’s Valleijen \(London, 1852\)",  # pylint: disable=line-too-long
     r"Mori, Renato, Le scritture della legazione e del consolato del Granducato di Toscana in Roma dal 1737 al 1859 \(Rome, 1959\)",  # pylint: disable=line-too-long
-    r"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna \(Rome, 1947\), \d*",  # pylint: disable=line-too-long
+    r"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna \(Rome, 1947\), \d*(-\d*)?",  # pylint: disable=line-too-long
     r"Nuyens, A., Gedenkboek der pauselijke Zouaven. 1867-1892 \(Roermond, 1892\)",
     r"Pirri S.J., P. Pietro, Pio IX e Vittorio Emanuele II dal loro carteggio privato \(Rome, 1980\), \d*( and \d*)?",  # pylint: disable=line-too-long
     r"Pohle, Frank, Alfred von Reumont \(1808–1887\) – Ein Diplomat als kultureller Mittler \(Berlin, 2015\)",  # pylint: disable=line-too-long
     r"de Régnon, M., Relation des événements qui ont précédé et suivi l'expulsion de 78 Anglais dits trappistes de Meilleraye \(Nantes, 1831\)",  # pylint: disable=line-too-long
     r"Ricci, Angelo Maria, Epistola Poetica a sua eccellenza reverendissima monsignor Achille Maria Ricci \(Rome, 1847\)",  # pylint: disable=line-too-long
     r"Sánchez, Elena Vázquez, Un historiador del derecho, Pedro José Pidal \(Madrid, 1998\)",
-    r"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken \(The Hague, 1955\), \d*",  # pylint: disable=line-too-long
+    r"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken \(The Hague, 1955\), \d*( and \d*)?",  # pylint: disable=line-too-long
     r"Santoni, Pedro, and Will Fowler, Mexico, 1848-1853: Los Años Olvidados \(London, 2018\), \d*",
     r"Savini, Luigi, Al battaglione isolato della emerita guardia civica di cingoli ed appodiati \(Loreto, 1848\)",  # pylint: disable=line-too-long
     r"Schijf, Huibert, Netwerken van een financieel-economische elite \(Amsterdam, 1993\), \d*",
@@ -133,10 +138,10 @@ SOURCE_PATTERNS = {
     # Archives
     r"KADOC, Leuven, Archief van de Nederlandse jezuïeten",
     r"Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-\d\d",
-    r"Nationaal Archief, The Hague, '.*', inventory number: \d*.\d*.\d*",
-    r"Stadsarchief Amsterdam, Amsterdam, '.*', inventory number: \d*(, document number: \d*.\d*.\d*,)?",  # pylint: disable=line-too-long
-    r"Stadsarchief Rotterdam, Rotterdam, '.*', inventory number: \d*(, document number: \d*-\d*,)?",
-    r"Stadsarchief Utrecht, Utrecht, '.*', inventory number: \d*(, document number: \d*-\d*,)?",
+    r"Nationaal Archief, The Hague, '.*', inventory number: \d*.\d*.\d*(.\d*)?",
+    r"Stadsarchief Amsterdam, Amsterdam, '.*', inventory number: \d*(, document number: \d*.\d*.\d*(.\d*))?",  # pylint: disable=line-too-long
+    r"Stadsarchief Rotterdam, Rotterdam, '.*', inventory number: \d*(, document number: \d*-\d*)?",
+    r"Stadsarchief Utrecht, Utrecht, '.*', inventory number: \d*(, document number: \d*.\d*.\d*)?",
 }
 
 
@@ -200,8 +205,9 @@ def check_all_sources(filename):
         persons = json.load(file)
     del persons["$schema"]
     count_todo = 0
+    count_todo_type5 = 0
     probably_wrong = []
-    compiled_source_patterns = [re.compile(i) for i in SOURCE_PATTERNS]
+    compiled_source_patterns = [re.compile(f"{i}$") for i in SOURCE_PATTERNS]
     used_patterns = set()
 
     for identifier, data in persons.items():
@@ -271,11 +277,14 @@ def check_all_sources(filename):
 
             # If not known/missing
             else:
-                count_todo += 1
-                if not source.startswith("http"):
-                    probably_wrong.append(source)
-                print(count_todo, data["name"], data["surname"])
-                print("", source)
+                if data["person_type"] == 5:
+                    count_todo_type5 += 1
+                else:
+                    count_todo += 1
+                    if not source.startswith("http"):
+                        probably_wrong.append(source)
+                    print(count_todo, data["name"], data["surname"])
+                    print("", source)
 
     persons["$schema"] = "../static/JSON/Individuals.json"
 
@@ -289,6 +298,8 @@ def check_all_sources(filename):
         for i in probably_wrong:
             print("", i)
     unused_patterns = [i for i in compiled_source_patterns if not i in used_patterns]
+    if count_todo_type5:
+        print(f"{count_todo_type5} incorrect sources for individuals of type 5")
     if unused_patterns:
         print(f"Found the following unused source patterns:\n {unused_patterns}")
     print(f"Finished checking sources in {filename}!\n")

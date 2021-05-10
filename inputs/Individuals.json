@@ -105,7 +105,7 @@
     "place_of_death": "Genova",
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 356",
-      "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 644, 670",
+      "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 644 and 670",
       "Stadsarchief Amsterdam, Amsterdam, 'Inventaris van het Archief van de Familie Backer en Aanverwante Families', inventory number: 172, document number: 2.10.2.6",
       "https://gw.geneanet.org/hubertwalbaum?lang=en&n=alewijn&oc=0&p=hendrick"
     ],
@@ -618,7 +618,9 @@
     "comment_daniel": "",
     "date_of_birth": "1809-05-02",
     "date_of_death": "1866-02-18",
-    "functions": [["Apostolisch internuntius te Den Haag", "1848-07/1855"]],
+    "functions": [
+      ["Apostolisch internuntius te Den Haag", "1848-02-12/1855-11-01"]
+    ],
     "images": [""],
     "name": "Carlo",
     "person_type": 0,
@@ -628,7 +630,8 @@
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 188",
       "Hensen, Antonius H.L., 'Belgrado, graaf Carlo', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, 1927)",
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 510",
-      "'Carlo Belgrado', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/22627947"
+      "'Carlo Belgrado', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/22627947",
+      "De Marchi, Giuseppe, Le nunziature apostoliche dal 1800 al 1956 (Rome, 1957), 184"
     ],
     "surname": "Belgrado",
     "titles": [["graaf", null]]
@@ -792,7 +795,7 @@
     "place_of_birth": "Torre Pellice",
     "place_of_death": "Torre Pellice",
     "sources": [
-      "Santini, Luigi, 'Bert, Amedeo', in: Dizionario Biografico degli Italiani. Volume 9 (Rome, 1967), found on: https://www.treccani.it/enciclopedia/amedeo-bert_(Dizionario-Biografico)/",
+      "Santini, Luigi, 'Bert, Amedeo', in: Dizionario Biografico degli Italiani. Volume 9 (Rome, 1967), found on: https://www.treccani.it/enciclopedia/amedeo-bert_(Dizionario-Biografico)",
       "Ballesio, Gabriella, 'Amedeo Bert', in: Società di Studi Valdesi, Il Dizionario Biografico on-line dei Protestanti in Italia (2021)",
       "van der Meulen, M.E., Mijne Reis door Zwitserland naar de Waldenzen in Piemont’s Valleijen (London, 1852)"
     ],
@@ -909,7 +912,7 @@
     "place_of_birth": "Genova",
     "place_of_death": "Mare di Sumatra",
     "sources": [
-      "Bartoccini, Fiorella, 'Bixio, Nino', in: Dizionario Biografico degli Italiani. Volume 10 (Rome, 1968), found on: https://www.treccani.it/enciclopedia/nino-bixio_(Dizionario-Biografico)/"
+      "Bartoccini, Fiorella, 'Bixio, Nino', in: Dizionario Biografico degli Italiani. Volume 10 (Rome, 1968), found on: https://www.treccani.it/enciclopedia/nino-bixio_(Dizionario-Biografico)"
     ],
     "surname": "Bixio",
     "titles": [["luitenant-generaal", null]]
@@ -939,7 +942,7 @@
       "https://nl.wikipedia.org/wiki/Friedrich_Georg_Prosper_von_Blochausen",
       "Mersch, Jules, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule 09 (Luxembourg, 1958), 138, 146 and 158"
     ],
-    "surname": "de Blochausen",
+    "surname": "von Blochausen",
     "titles": [["baron", null]]
   },
   "$Boch": {
@@ -1063,7 +1066,7 @@
   },
   "$Bosis": {
     "comment": "",
-    "comment_daniel": "Impossible to determine who this is without more information from archive. Most people seem to write this surname with “De Bosis”, but original Italian inventory uses “de Bosis”",
+    "comment_daniel": "ms.339. Impossible to determine who this is without more information from archive. Most people seem to write this surname with “De Bosis”, but original Italian inventory uses “de Bosis”",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -1247,7 +1250,7 @@
     "place_of_birth": "Ala (Trento)",
     "place_of_death": "Roma",
     "sources": [
-      "Leuzzi, Anna Coviello, 'Bresciani Borsa, Antonio', in: Dizionario Biografico degli Italiani. Volume 14 (Rome, 1972), found on: https://www.treccani.it/enciclopedia/antonio-bresciani-borsa_(Dizionario-Biografico)/"
+      "Leuzzi, Anna Coviello, 'Bresciani Borsa, Antonio', in: Dizionario Biografico degli Italiani. Volume 14 (Rome, 1972), found on: https://www.treccani.it/enciclopedia/antonio-bresciani-borsa_(Dizionario-Biografico)"
     ],
     "surname": "Bresciani Borsa",
     "titles": []
@@ -1698,7 +1701,7 @@
     "place_of_birth": "Barletta",
     "place_of_death": "Napoli",
     "sources": [
-      "Majo, Silvio De, 'Del Carretto, Francesco Saverio', in: Dizionario Biografico degli Italiani. Volume 36 (Rome, 1988), found on: https://www.treccani.it/enciclopedia/del-carretto-francesco-saverio_(Dizionario-Biografico)/"
+      "Majo, Silvio De, 'Del Carretto, Francesco Saverio', in: Dizionario Biografico degli Italiani. Volume 36 (Rome, 1988), found on: https://www.treccani.it/enciclopedia/del-carretto-francesco-saverio_(Dizionario-Biografico)"
     ],
     "surname": "Del Carretto",
     "titles": [["markies", null]]
@@ -1806,8 +1809,8 @@
   "$Castillo": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1795-06-29",
+    "date_of_death": "1861-06-04",
     "functions": [
       [
         "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilige Stoel",
@@ -1817,10 +1820,10 @@
     "images": [""],
     "name": "José",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Lebrija",
+    "place_of_death": "Madrid",
     "sources": [
-      "https://dbe.rah.es/biografias/15836/jose-del-castillo-y-ayensa"
+      "Toribio, José Manuel Cuenca, 'José del Castillo y Ayensa', in: Real Academia de La Historia, Diccionario Biográfico electrónico, found on: https://dbe.rah.es/biografias/15836/jose-del-castillo-y-ayensa"
     ],
     "surname": "del Castillo y Ayensa",
     "titles": []
@@ -1938,8 +1941,16 @@
         "1844-04-23/1846-04-16"
       ],
       [
+        "Zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel",
+        "1855-10/1858"
+      ],
+      [
+        "Minister-resident van het Koninkrijk der Nederlanden bij de Heilige Stoel",
+        "1858/1868"
+      ],
+      [
         "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden bij de Heilige Stoel",
-        "1855-10-05/1872"
+        "1868/1872"
       ]
     ],
     "images": [""],
@@ -2001,8 +2012,8 @@
   "$Chimay": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1808-08-20",
+    "date_of_death": "1886-03-12",
     "functions": [
       [
         "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel en andere Italiaanse hoven",
@@ -2012,8 +2023,8 @@
     "images": [""],
     "name": "Joseph",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Parigi",
+    "place_of_death": "Londra",
     "sources": [
       "https://nl.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_Chimay_(1808-1886)",
       "Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 1847, volume 78 (Ghent, 1847), 110"
@@ -2036,7 +2047,7 @@
     "place_of_birth": "Pesaroil",
     "place_of_death": "Roma",
     "sources": [
-      "Monsagrati, Giuseppe, 'Ciacchi, Luigi', in: Dizionario Biografico degli Italiani. Volume 25 (Rome, 1981), found on: https://www.treccani.it/enciclopedia/luigi-ciacchi_(Dizionario-Biografico)/",
+      "Monsagrati, Giuseppe, 'Ciacchi, Luigi', in: Dizionario Biografico degli Italiani. Volume 25 (Rome, 1981), found on: https://www.treccani.it/enciclopedia/luigi-ciacchi_(Dizionario-Biografico)",
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 345"
     ],
     "surname": "Ciacchi",
@@ -2256,7 +2267,7 @@
     "place_of_birth": "Firenze",
     "place_of_death": "Londra",
     "sources": [
-      "Vasoli, Nidia Danelon, 'Corsini, Neri iunior, marchese di Lajatico', in: Dizionario Biografico degli Italiani. Volume 29 (Rome, 1983), found on: https://www.treccani.it/enciclopedia/corsini-neri-iunior-marchese-di-lajatico_(Dizionario-Biografico)/"
+      "Vasoli, Nidia Danelon, 'Corsini, Neri iunior, marchese di Lajatico', in: Dizionario Biografico degli Italiani. Volume 29 (Rome, 1983), found on: https://www.treccani.it/enciclopedia/corsini-neri-iunior-marchese-di-lajatico_(Dizionario-Biografico)"
     ],
     "surname": "Corsini",
     "titles": [
@@ -2343,7 +2354,7 @@
     "place_of_death": "Firenze",
     "sources": [
       "de Courten, Eugène, 'Valaisans au service de causes perdues: Naples 1861 - Rome 1870', in: Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, 13 (1965), 325-372",
-      "Monsagrati, Giuseppe, 'De Courten, Raffaele', in: Dizionario Biografico degli Italiani. Volume 33 (Rome, 1987), found on: https://www.treccani.it/enciclopedia/raffaele-de-courten_(Dizionario-Biografico)/"
+      "Monsagrati, Giuseppe, 'De Courten, Raffaele', in: Dizionario Biografico degli Italiani. Volume 33 (Rome, 1987), found on: https://www.treccani.it/enciclopedia/raffaele-de-courten_(Dizionario-Biografico)"
     ],
     "surname": "de Courten",
     "titles": [["kolonel", null]]
@@ -3097,7 +3108,12 @@
     "comment_daniel": "",
     "date_of_birth": "1810-09-13",
     "date_of_death": "1887-01-13",
-    "functions": [["Apostolisch internuntius te Den Haag", "1840-12-17/1847"]],
+    "functions": [
+      [
+        "Zaakgelastigde van de Heilige Stoel bij het Koninkrijk der Nederlanden",
+        "1840-12-17/1847"
+      ]
+    ],
     "images": [""],
     "name": "Innocenzo",
     "person_type": 0,
@@ -3105,7 +3121,8 @@
     "place_of_death": "Roma",
     "sources": [
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 676",
-      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 695"
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 695",
+      "De Marchi, Giuseppe, Le nunziature apostoliche dal 1800 al 1956 (Rome, 1957), 183"
     ],
     "surname": "Ferrieri",
     "titles": [["bisschop", null]]
@@ -3338,7 +3355,7 @@
     "place_of_birth": "Roma",
     "place_of_death": "Roma",
     "sources": [
-      "D'Errico, Rita, 'Galli, Angelo', in: Dizionario Biografico degli Italiani. Volume 51 (Rome, 1998), found on: https://www.treccani.it/enciclopedia/angelo-galli_res-9d5982a4-87ed-11dc-8e9d-0016357eee51_(Dizionario-Biografico)/"
+      "D'Errico, Rita, 'Galli, Angelo', in: Dizionario Biografico degli Italiani. Volume 51 (Rome, 1998), found on: https://www.treccani.it/enciclopedia/angelo-galli_res-9d5982a4-87ed-11dc-8e9d-0016357eee51_(Dizionario-Biografico)"
     ],
     "surname": "Galli",
     "titles": []
@@ -3436,31 +3453,31 @@
   },
   "$Geloes": {
     "comment": "",
-    "comment_daniel": "Wellicht dat ik hem nog vind in archief van de familie of een adelboek, maar zonder functieomschrijving blijft dit natuurlijk altijd beetje giswerk…",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [""],
     "name": "Theodore",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["https://nl.wikipedia.org/wiki/De_Geloes"],
+    "sources": [""],
     "surname": "de Geloes",
     "titles": [["graaf", null]]
   },
   "$GeloesM": {
     "comment": "",
-    "comment_daniel": "Wellicht dat ik hem nog vind in archief van de familie of een adelboek, maar zonder functieomschrijving blijft dit natuurlijk altijd beetje giswerk…",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [""],
     "name": "Maurice",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["https://nl.wikipedia.org/wiki/De_Geloes"],
+    "sources": [""],
     "surname": "de Geloes",
     "titles": [["graaf", null]]
   },
@@ -3663,17 +3680,17 @@
   },
   "$Gojon": {
     "comment": "",
-    "comment_daniel": "“Generale Comandante la 15.a Divisione Turr dell'Esercito Meridionale Italiano” lijkt mij toch een fout in de inventaris. Het is niet een fantastische bron maar zie: https://www.andreacavallari.it/Garibaldi/Garibaldi_Turr.htm. Esercito Meridionale Italiano is ook wel de standaard benaming van het leger van Garibaldi. Wellicht dus in het archief kijken hoe de stukken ondertekend zijn",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "comment_daniel": "“Generale Comandante la 15.a Divisione Turr dell'Esercito Meridionale Italiano” lijkt mij toch een fout in de inventaris. Het is niet een fantastische bron maar zie: https://www.andreacavallari.it/Garibaldi/Garibaldi_Turr.htm. Esercito Meridionale Italiano is ook wel de standaard benaming van het leger van Garibaldi. Wellicht dus in het archief kijken hoe de stukken ondertekend zijn.",
+    "date_of_birth": "1803-09-13",
+    "date_of_death": "1870-05-17",
+    "functions": [["Aide-de-camp van de Keizer van Frankrijk", "1853/"]],
     "images": [""],
     "name": "Charles-Marie-Augustin",
     "person_type": 4,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Nantes",
+    "place_of_death": "Parigi",
     "sources": [
-      "https://it.wikipedia.org/wiki/Charles-Marie-Augustin_de_Goyon"
+      "'Goyon (Charles Marie Augustin, comte de)', in: Adolphe Robert, Edgar Bourloton and Gaston Cougny, Dictionnaire des parlementaires français. Volume 3 (Parigi, 1891)"
     ],
     "surname": "de Gojon",
     "titles": [["graaf", null]]
@@ -3750,7 +3767,7 @@
     "place_of_birth": "Belluno",
     "place_of_death": "Roma",
     "sources": [
-      "Martina, Giacomo, 'Gregorio Xvi, papa', in: Dizionario Biografico degli Italiani. Volume 59 (Rome, 2002), found on: https://www.treccani.it/enciclopedia/papa-gregorio-xvi_(Dizionario-Biografico)/"
+      "Martina, Giacomo, 'Gregorio Xvi, papa', in: Dizionario Biografico degli Italiani. Volume 59 (Rome, 2002), found on: https://www.treccani.it/enciclopedia/papa-gregorio-xvi_(Dizionario-Biografico)"
     ],
     "surname": "Gregorio XVI",
     "titles": [["Paus", "1831-02-02/1846-06-01"]]
@@ -3781,7 +3798,7 @@
     ]
   },
   "$Grooff": {
-    "comment": "The appointment and position of Jacobus Grooff led to some diplomatic correspondence which is documented and discsussed in Santen.",
+    "comment": "The appointment and actions of Jacobus Grooff in Batavia led to some issues with the local government and bishops. As a result the local Dutch governor banned him from Indonesia, which led to some correspondence between the Holy See and the Dutch Kingdom. Eventually Grooff was sent to Suriname and a new vicar was sent to Batavia. This 'Groof Affair' is discussed in van Santen (see note).",
     "comment_daniel": "",
     "date_of_birth": "1800-08-03",
     "date_of_death": "1852-04-29",
@@ -3832,8 +3849,8 @@
   "$Gutierrez": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1818",
+    "date_of_death": "1892",
     "functions": [
       [
         "Buitengewoon gezant en gevolmachtigd minister van de Republiek Honduras te Rome",
@@ -3843,8 +3860,8 @@
     "images": [""],
     "name": "Carlos",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Tegucigalpa",
+    "place_of_death": "San Sebastián",
     "sources": [
       "https://es.wikipedia.org/wiki/Carlos_Gutiérrez_Lozano#cite_note-Rómulo_Durón_1-3",
       "https://lilkaya.unah.edu.hn/index.php/carlos-gutierrez-lozano"
@@ -3907,14 +3924,14 @@
     "titles": []
   },
   "$HeldewierI": {
-    "comment": "",
+    "comment": "Eight days after the end of his appointment his daughter fled her paternal home. This became problematic as diplomatic agents enjoyed immunity, but not after their appointment ended. The correspondence related to this scandal is discussed in van Santen (zie note).",
     "comment_daniel": "Volgens de inventaris is hij vanaf 1838 gevolmachtigd minister, maar Beth vermeldt dit niet",
     "date_of_birth": "1791-12-27",
     "date_of_death": "1870-11-18",
     "functions": [
       [
         "Zaakgelastigde van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië",
-        "1829-08-25/1843"
+        "1829-08-25/1844"
       ]
     ],
     "images": [""],
@@ -3924,7 +3941,8 @@
     "place_of_death": "L'Aia",
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 318",
-      "De Nederlandsche Leeuw, 42, 11 (1924-11), 342"
+      "De Nederlandsche Leeuw, 42, 11 (1924-11), 342",
+      "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 640"
     ],
     "surname": "Heldewier",
     "titles": [["jhr.", null]]
@@ -3951,6 +3969,7 @@
     "place_of_death": "Madrid",
     "sources": [
       "Nationaal Archief, The Hague, 'Inventaris van het archief van het Nederlandse Gezantschap in Italie, 1911-1940', inventory number: 2.05.26",
+      "Nationaal Archief, The Hague, 'Inventaris van het archief van het Nederlandse Gezantschap in Italië, 1863-1910', inventory number: 2.05.10.07",
       "De Nederlandsche Leeuw, 42, 11 (1924-11), 342",
       "Ministero dell'interno, Calendario generale del Regno d'Italia, (Turin, 1863), 134"
     ],
@@ -3980,21 +3999,23 @@
   "$Herrera": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1808-08-24",
+    "date_of_death": "1864-08-10",
     "functions": [
       [
         "Gevolmachtigd minister van de Republiek van Peru bij de Heilige Stoel",
-        "1852/1853"
+        "1852-05-10/1853"
       ]
     ],
     "images": [""],
     "name": "Bartolomé",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": ["https://es.wikipedia.org/wiki/Bartolomé_Herrera"],
-    "surname": "Herrera",
+    "place_of_birth": "Lima",
+    "place_of_death": "Arequipa",
+    "sources": [
+      "Gonzales, Renzo Honores, 'Herrera Vélez, Bartolomé', in: Juan Castaneda Murga et al., Grandes forjadores del Peru (Lima, 2001)"
+    ],
+    "surname": "Herrera Vélez",
     "titles": []
   },
   "$Heukensfeldt": {
@@ -4428,13 +4449,13 @@
   },
   "$Kubeck": {
     "comment": "",
-    "comment_daniel": "Moet nog wel iets met zijn functie, die lijkt niet correct zo",
+    "comment_daniel": "ms.339. Voornaam en persoon is een gokje gebaseerd op timing van zijn functie bij Handelsministerie (zie wiki). Checken in bron of dit kan kloppen.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [["Minister van Oostenrijk", null]],
     "images": [""],
     "name": "Max Kübeck",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": ["https://de.wikipedia.org/wiki/Max_K%C3%BCbeck_von_K%C3%BCbau"],
@@ -4528,18 +4549,21 @@
   "$Larrain": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1813-02-16",
+    "date_of_death": "1892-12-28",
     "functions": [
-      ["Zaakgelastigde van de Republiek Chili bij de Heilige Stoel", "1853"]
+      [
+        "Zaakgelastigde van de Republiek Chili bij de Heilige Stoel",
+        "1852/1853"
+      ]
     ],
     "images": [""],
     "name": "José Rafael",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Viluco",
+    "place_of_death": "Santiago del Cile",
     "sources": [
-      "https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Rafael_Larra%C3%ADn_Moxó"
+      "'José Rafael Larraín Moxó', in: Reseñas biográficas parlamentarias de Chile, found on: https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/José_Rafael_Larra%C3%ADn_Moxó"
     ],
     "surname": "Larraín Moxó",
     "titles": [["markies", null]]
@@ -4865,8 +4889,8 @@
   "$Lorenzana": {
     "comment": "",
     "comment_daniel": "Tijden van zijn functies zijn niet heel duidelijk, misschien overal maar weglaten?",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1806-04-06",
+    "date_of_death": "1892",
     "functions": [
       [
         "Gevolmachtigd minister van de Republiek van Ecuador bij de Heilige Stoel",
@@ -4892,8 +4916,8 @@
     "images": [""],
     "name": "Alvaro Ferdinando",
     "person_type": 4,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Città del Messico",
+    "place_of_death": "Roma",
     "sources": ["https://de.wikipedia.org/wiki/Fernando_Lorenzana"],
     "surname": "Lorenzana",
     "titles": [["markies van Belmonte", null]]
@@ -4949,7 +4973,7 @@
     "titles": [["graaf", null]]
   },
   "$Luciano": {
-    "comment": "Has a claim for a sum of money at the Banco di San Giorgio in Genoa. Writes to the Dutch Consulate in hopes of retrieving some of her money.",
+    "comment": "Has a claim for a sum of money at the Banco di San Giorgio in Genoa. Writes to the Dutch Consulate in hopes of retrieving some of her money. Her case is discussed by Van Santen (see note).",
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
@@ -4959,8 +4983,10 @@
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [""],
-    "surname": "Luciano",
+    "sources": [
+      "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 644"
+    ],
+    "surname": "Klimbie-Lucrano",
     "titles": []
   },
   "$Lucidi": {
@@ -5003,7 +5029,7 @@
     "place_of_birth": "Istanbul",
     "place_of_death": "Verona",
     "sources": [
-      "Meriggi, Marco, 'Ludolf, Giuseppe Costantino', in: Dizionario Biografico degli Italiani. Volume 66 (Rome, 2006), found on: https://www.treccani.it/enciclopedia/giuseppe-costantino-ludolf_(Dizionario-Biografico)/",
+      "Meriggi, Marco, 'Ludolf, Giuseppe Costantino', in: Dizionario Biografico degli Italiani. Volume 66 (Rome, 2006), found on: https://www.treccani.it/enciclopedia/giuseppe-costantino-ludolf_(Dizionario-Biografico)",
       "Tipografia Giusti, Almanacco di Corte per l'anno 1846 (Lucca, 1846), 137"
     ],
     "surname": "van Ludolf",
@@ -5083,7 +5109,6 @@
     "place_of_birth": "L'Aia",
     "place_of_death": "L'Aia",
     "sources": [
-      "http://www.biografischportaal.nl/en/persoon/76323825",
       "'Dhr. F.J.F. van Maanen', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/76323825"
     ],
     "surname": "van Maanen",
@@ -5403,7 +5428,7 @@
     "place_of_birth": "Torino",
     "place_of_death": "Firenze",
     "sources": [
-      "Testore, Paola Casana, 'Ferrero Della Marmora, Alfonso', in: Dizionario Biografico degli Italiani. Volume 47 (Rome, 1997), found on: https://www.treccani.it/enciclopedia/ferrero-della-marmora-alfonso_(Dizionario-Biografico)/"
+      "Testore, Paola Casana, 'Ferrero Della Marmora, Alfonso', in: Dizionario Biografico degli Italiani. Volume 47 (Rome, 1997), found on: https://www.treccani.it/enciclopedia/ferrero-della-marmora-alfonso_(Dizionario-Biografico)"
     ],
     "surname": "della Marmora",
     "titles": []
@@ -5455,21 +5480,22 @@
   "$Martinez": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1787-03-10",
+    "date_of_death": "1862-02-07",
     "functions": [
       [
         "Ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel",
-        "1842/1843"
+        "1848/1849"
       ]
     ],
     "images": [""],
     "name": "Francisco de Paula",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Granada",
+    "place_of_death": "Madrid",
     "sources": [
-      "https://en.wikipedia.org/wiki/Francisco_Mart%C3%ADnez_de_la_Rosa"
+      "'Francisco de Paula Martínez de la Rosa y Berdejo', in: Real Academia de La Historia, Diccionario Biográfico electrónico, found on: http://dbe.rah.es/biografias/11899/francisco-de-paula-martinez-de-la-rosa-y-berdejo",
+      "https://www.britannica.com/biography/Francisco-de-Paula-Martinez-de-la-Rosa-Berdejo-Gomez-y-Arroyo"
     ],
     "surname": "Martínez de la Rosa y Arroyo",
     "titles": []
@@ -5524,8 +5550,8 @@
   "$MarzanoF": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1767-11-12",
+    "date_of_death": "1828-07-19",
     "functions": [
       [
         "Eerste staatssecretaris van Oorlog van het Koninkrijk Sardinië",
@@ -5540,8 +5566,8 @@
     "images": [""],
     "name": "Filippo Antonio Maria Asinari",
     "person_type": 0,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Torino",
+    "place_of_death": "Torino",
     "sources": [
       "Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), 13",
       "https://it.wikipedia.org/wiki/Filippo_Antonio_Asinari_di_San_Marzano"
@@ -5665,7 +5691,8 @@
     "sources": [
       "Kooijmans, M., 'Jean Zacharie Mazel', in: Repertorium van ambtsdragers en ambtenaren 1428-1861, found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861",
       "Dutch Institute for Art History (RKD), 'Jean Zacharie Mazel', found on: https://rkd.nl/explore/artists/54255",
-      "'Mazel, Jean Zacharie', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/10319121"
+      "'Mazel, Jean Zacharie', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/10319121",
+      "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 682"
     ],
     "surname": "Mazel",
     "titles": []
@@ -5704,7 +5731,7 @@
     "place_of_birth": "Macerata",
     "place_of_death": "Firenze",
     "sources": [
-      "Santoncini, Gabriella, 'Spada, Lavinio', in: Dizionario Biografico degli Italiani. Volume 93 (Rome, 2018), found on: https://www.treccani.it/enciclopedia/lavinio-spada_(Dizionario-Biografico)/",
+      "Santoncini, Gabriella, 'Spada, Lavinio', in: Dizionario Biografico degli Italiani. Volume 93 (Rome, 2018), found on: https://www.treccani.it/enciclopedia/lavinio-spada_(Dizionario-Biografico)",
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 635"
     ],
     "surname": "de Medici Spada",
@@ -5779,7 +5806,7 @@
     "titles": []
   },
   "$MeuricoffreA": {
-    "comment": "The family Meuricoffre was an important banking family in Napels who often functioned as representative of the Dutch in Napels.",
+    "comment": "The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels.",
     "comment_daniel": "",
     "date_of_birth": "1800",
     "date_of_death": "1875",
@@ -5789,37 +5816,39 @@
         "1837-04-04/"
       ]
     ],
-    "images": [""],
+    "images": ["https://collections.louvre.fr/ark:/53355/cl020625454"],
     "name": "Auguste",
-    "person_type": 0,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 658",
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 356",
-      "Caglioti, Daniela Luigia, 'Meuricoffre, Tell', in: Dizionario Biografico degli Italiani. Volume 74 (Rome, 2010), found on: https://www.treccani.it/enciclopedia/tell-meuricoffre_(Dizionario-Biografico)/",
-      "https://www.swissinfo.ch/ita/meuricoffre--i-banchieri-svizzeri-di-napoli/31707422"
+      "Caglioti, Daniela Luigia, 'Meuricoffre, Tell', in: Dizionario Biografico degli Italiani. Volume 74 (Rome, 2010), found on: https://www.treccani.it/enciclopedia/tell-meuricoffre_(Dizionario-Biografico)"
     ],
     "surname": "Meuricoffre",
     "titles": []
   },
   "$MeuricoffreG": {
-    "comment": "The family Meuricoffre was an important banking family in Napels who often functioned as representative of the Dutch in Napels.",
+    "comment": "The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels.",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1795",
+    "date_of_death": "1858",
     "functions": [
       [
         "Consul-generaal van het Koninkrijk der Nederlanden te Napels en diplomatiek agent",
         "1840-10-26/"
       ]
     ],
-    "images": [""],
+    "images": ["https://collections.louvre.fr/ark:/53355/cl020625454"],
     "name": "Georges",
-    "person_type": 0,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [""],
+    "sources": [
+      "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 682",
+      "Caglioti, Daniela Luigia, 'Meuricoffre, Tell', in: Dizionario Biografico degli Italiani. Volume 74 (Rome, 2010), found on: https://www.treccani.it/enciclopedia/tell-meuricoffre_(Dizionario-Biografico)"
+    ],
     "surname": "Meuricoffre",
     "titles": []
   },
@@ -5977,7 +6006,7 @@
     "place_of_birth": "Senigallia",
     "place_of_death": "Milano",
     "sources": [
-      "Lora, Francesco, 'Morolli, Rosa Paolina', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, 2012), found on: https://www.treccani.it/enciclopedia/rosa-paolina-morolli_(Dizionario-Biografico)/",
+      "Lora, Francesco, 'Morolli, Rosa Paolina', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, 2012), found on: https://www.treccani.it/enciclopedia/rosa-paolina-morolli_(Dizionario-Biografico)",
       "De Boni, Filippo, La Congiura di Roma e Pio IX. Ricordi di Filippo de Boni (Lausanne, 1848), 143"
     ],
     "surname": "Morandi",
@@ -6058,7 +6087,7 @@
     "place_of_birth": "Ferrara",
     "place_of_death": "Torino",
     "sources": [
-      "Camarotto, Valerio, 'Muzzarelli, Carlo Emanuele', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, 2012), found on: https://www.treccani.it/enciclopedia/carlo-emanuele-muzzarelli_(Dizionario-Biografico)/",
+      "Camarotto, Valerio, 'Muzzarelli, Carlo Emanuele', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, 2012), found on: https://www.treccani.it/enciclopedia/carlo-emanuele-muzzarelli_(Dizionario-Biografico)",
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 598"
     ],
     "surname": "Muzzarelli",
@@ -6120,7 +6149,7 @@
     "place_of_birth": "Ascoli Piceno",
     "place_of_death": "Roma",
     "sources": [
-      "Veca, Ignazio, 'Nardoni, Filippo', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, 2012), found on: https://www.treccani.it/enciclopedia/filippo-nardoni_(Dizionario-Biografico)/"
+      "Veca, Ignazio, 'Nardoni, Filippo', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, 2012), found on: https://www.treccani.it/enciclopedia/filippo-nardoni_(Dizionario-Biografico)"
     ],
     "surname": "Nardoni",
     "titles": []
@@ -6250,7 +6279,7 @@
     "place_of_birth": "Velletri",
     "place_of_death": "Roma",
     "sources": [
-      "Scalessa, Gabriele, 'Novelli, Ettore', in: Dizionario Biografico degli Italiani. Volume 78 (Rome, 2013), found on: https://www.treccani.it/enciclopedia/ettore-novelli_(Dizionario-Biografico)/"
+      "Scalessa, Gabriele, 'Novelli, Ettore', in: Dizionario Biografico degli Italiani. Volume 78 (Rome, 2013), found on: https://www.treccani.it/enciclopedia/ettore-novelli_(Dizionario-Biografico)"
     ],
     "surname": "Novelli",
     "titles": []
@@ -6272,7 +6301,7 @@
     "place_of_birth": "Roma",
     "place_of_death": "Roma",
     "sources": [
-      "Manfredi, Marco, 'Odescalchi, Pietro', in: Dizionario Biografico degli Italiani. Volume 79 (Rome, 2013), found on: https://www.treccani.it/enciclopedia/pietro-odescalchi_(Dizionario-Biografico)/"
+      "Manfredi, Marco, 'Odescalchi, Pietro', in: Dizionario Biografico degli Italiani. Volume 79 (Rome, 2013), found on: https://www.treccani.it/enciclopedia/pietro-odescalchi_(Dizionario-Biografico)"
     ],
     "surname": "Odescalchi",
     "titles": [["prins", null]]
@@ -6753,7 +6782,7 @@
     "place_of_birth": "Siena",
     "place_of_death": "Roma",
     "sources": [
-      "Canonici, Claudio, 'Patrizi Naro, Costantino', in: Dizionario Biografico degli Italiani. Volume 81 (Rome, 2014), found on: https://www.treccani.it/enciclopedia/costantino-patrizi-naro_(Dizionario-Biografico)/",
+      "Canonici, Claudio, 'Patrizi Naro, Costantino', in: Dizionario Biografico degli Italiani. Volume 81 (Rome, 2014), found on: https://www.treccani.it/enciclopedia/costantino-patrizi-naro_(Dizionario-Biografico)",
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 445"
     ],
     "surname": "Patrizi Naro",
@@ -6839,7 +6868,7 @@
     "place_of_birth": "Torino",
     "place_of_death": "Torino",
     "sources": [
-      "Bianchi, Paola, 'Perrone, Carlo Baldassarre', in: Dizionario Biografico degli Italiani. Volume 82 (Rome, 2015), found on: https://www.treccani.it/enciclopedia/carlo-baldassarre-perrone_(Dizionario-Biografico)/",
+      "Bianchi, Paola, 'Perrone, Carlo Baldassarre', in: Dizionario Biografico degli Italiani. Volume 82 (Rome, 2015), found on: https://www.treccani.it/enciclopedia/carlo-baldassarre-perrone_(Dizionario-Biografico)",
       "http://cataloghistorici.bdi.sbn.it/file_viewer.php?IDIMG=15444&IDCAT=138&IDGRP=1380011&LEVEL=1&PADRE=1380001&PROV=INT",
       "Cozzo, Paolo, Andrea Merlotti and Andrea Nicolotti, The Shroud at Court: History, Usages, Places and Images of a Dynastic Relic (Leiden, 2019), 163"
     ],
@@ -6885,8 +6914,8 @@
   "$Pidal": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1799-06-25",
+    "date_of_death": "1865-07-28",
     "functions": [
       [
         "Buitengewoon en gevolmachtigd ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel",
@@ -6896,10 +6925,10 @@
     "images": [""],
     "name": "Pedro José",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Villaviciosa",
+    "place_of_death": "Madrid",
     "sources": [
-      "https://dbe.rah.es/biografias/9398/pedro-jose-pidal-y-carniado",
+      "Corrada, Miguel Ramos, 'Pedro José Pidal y Carniado', in: Real Academia de La Historia, Diccionario Biográfico electrónico, found on: http://dbe.rah.es/biografias/9398/pedro-jose-pidal-y-carniado",
       "Sánchez, Elena Vázquez, Un historiador del derecho, Pedro José Pidal (Madrid, 1998)"
     ],
     "surname": "de Pidal",
@@ -7335,7 +7364,7 @@
     "place_of_birth": "Piacenza",
     "place_of_death": "Roma",
     "sources": [
-      "Longis, Eleonora de, 'Rezzi, Luigi Maria', in: Dizionario Biografico degli Italiani. Volume 87 (Rome, 2016), found on: https://www.treccani.it/enciclopedia/luigi-maria-rezzi_(Dizionario-Biografico)/",
+      "Longis, Eleonora de, 'Rezzi, Luigi Maria', in: Dizionario Biografico degli Italiani. Volume 87 (Rome, 2016), found on: https://www.treccani.it/enciclopedia/luigi-maria-rezzi_(Dizionario-Biografico)",
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 740"
     ],
     "surname": "Rezzi",
@@ -7663,7 +7692,7 @@
     "place_of_birth": "Scilla",
     "place_of_death": "Napoli",
     "sources": [
-      "Majo, Silvio de, 'Ruffo, Fulco Giordano, principe di Scilla', in: Dizionario Biografico degli Italiani. Volume 89 (Rome, 2017), found on: https://www.treccani.it/enciclopedia/ruffo-fulco-giordano-principe-di-scilla_(Dizionario-Biografico)/"
+      "Majo, Silvio de, 'Ruffo, Fulco Giordano, principe di Scilla', in: Dizionario Biografico degli Italiani. Volume 89 (Rome, 2017), found on: https://www.treccani.it/enciclopedia/ruffo-fulco-giordano-principe-di-scilla_(Dizionario-Biografico)"
     ],
     "surname": "Ruffo di Calabria",
     "titles": [
@@ -7685,7 +7714,7 @@
     "place_of_birth": "Richmond",
     "place_of_death": "Parigi",
     "sources": [
-      "Majo, Silvio de, 'Ruffo, Paolo, principe di Castelcicala', in: Dizionario Biografico degli Italiani. Volume 89 (Rome, 2017), found on: https://www.treccani.it/enciclopedia/ruffo-paolo-principe-di-castelcicala_(Dizionario-Biografico)/"
+      "Majo, Silvio de, 'Ruffo, Paolo, principe di Castelcicala', in: Dizionario Biografico degli Italiani. Volume 89 (Rome, 2017), found on: https://www.treccani.it/enciclopedia/ruffo-paolo-principe-di-castelcicala_(Dizionario-Biografico)"
     ],
     "surname": "Ruffo",
     "titles": [["prins van Castelcicala", null]]
@@ -7746,7 +7775,7 @@
     "place_of_birth": "Bologna",
     "place_of_death": "Roma",
     "sources": [
-      "Camarotto, Valerio, 'Rusconi, Carlo Giuseppe Maria', in: Dizionario Biografico degli Italiani. Volume 89 (Rome, 2017), found on: https://www.treccani.it/enciclopedia/carlo-giuseppe-maria-rusconi_(Dizionario-Biografico)/"
+      "Camarotto, Valerio, 'Rusconi, Carlo Giuseppe Maria', in: Dizionario Biografico degli Italiani. Volume 89 (Rome, 2017), found on: https://www.treccani.it/enciclopedia/carlo-giuseppe-maria-rusconi_(Dizionario-Biografico)"
     ],
     "surname": "Rusconi",
     "titles": []
@@ -7802,8 +7831,8 @@
   "$Salzano": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1790-06-27",
+    "date_of_death": "1865-05-03",
     "functions": [
       [
         "Commandant-generaal van de troepen van de provincie en vesting van Palermo voor het Koninkrijk der Beide Siciliën",
@@ -7813,8 +7842,8 @@
     "images": [""],
     "name": "Giovanni",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Capua",
+    "place_of_death": "Napoli",
     "sources": ["https://it.wikipedia.org/wiki/Giovanni_Salzano_de_Luna"],
     "surname": "Salzano de Luna",
     "titles": []
@@ -8165,8 +8194,8 @@
   "$Simeoni": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1816-07-12",
+    "date_of_death": "1892-01-14",
     "functions": [
       [
         "Secretaris van de Heilige Congregatie van _Propaganda Fide_",
@@ -8176,8 +8205,8 @@
     "images": [""],
     "name": "Giovanni",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Paliano",
+    "place_of_death": "Roma",
     "sources": [
       "https://it.wikipedia.org/wiki/Giovanni_Simeoni",
       "https://it.wikipedia.org/wiki/Congregazione_per_l%27evangelizzazione_dei_popoli"
@@ -8829,7 +8858,7 @@
     "place_of_birth": "Firenze",
     "place_of_death": "Roma",
     "sources": [
-      "Conti, Fulvio, 'Leopoldo Ii Di Asburgo Lorena, granduca di Toscana', in: Dizionario Biografico degli Italiani. Volume 64 (Rome, 2005), found on: https://www.treccani.it/enciclopedia/leopoldo-ii-di-asburgo-lorena-granduca-di-toscana_(Dizionario-Biografico)/"
+      "Conti, Fulvio, 'Leopoldo Ii Di Asburgo Lorena, granduca di Toscana', in: Dizionario Biografico degli Italiani. Volume 64 (Rome, 2005), found on: https://www.treccani.it/enciclopedia/leopoldo-ii-di-asburgo-lorena-granduca-di-toscana_(Dizionario-Biografico)"
     ],
     "surname": "di Toscana",
     "titles": [["aartshertog van Oostenrijk", null]]
@@ -8961,7 +8990,7 @@
     "sources": [
       "Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-01",
       "Schijf, Huibert, Netwerken van een financieel-economische elite (Amsterdam, 1993), 86",
-      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, documents: 2.3.28",
+      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, document number: 2.3.28",
       "'mr. Willem René baron van Tuyll van Serooskerken', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/18658559"
     ],
     "surname": "Tuyll van Serooskerken",
@@ -9168,18 +9197,18 @@
   "$Vecchiotti": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1812",
+    "date_of_death": "1880-02-27",
     "functions": [
       ["Apostolisch internuntius te Den Haag", "1855-11-12/1863-03-16"]
     ],
     "images": [""],
     "name": "Settimio Maria",
     "person_type": 0,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Servigliano",
+    "place_of_death": "Roma",
     "sources": [
-      "https://en.wikipedia.org/wiki/Apostolic_Nunciature_to_the_Netherlands"
+      "De Marchi, Giuseppe, Le nunziature apostoliche dal 1800 al 1956 (Rome, 1957), 184"
     ],
     "surname": "Vecchiotti",
     "titles": [["bisschop", null]]
@@ -9390,7 +9419,7 @@
     "place_of_death": "Tubinga",
     "sources": [
       "Redactie parlement.com, 'Mr. W.F.H. von Weckherlin', found on: https://www.parlement.com/id/vg09lly5kvyw/w_f_h_von_weckherlin",
-      "https://www.nationaalarchief.nl/onderzoeken/archief/2.22.06/invnr/%40163",
+      "Nationaal Archief, The Hague, 'Inventaris van de Losse Aanwinsten van de Tweede Afdeling van het Algemeen Rijksarchief, verworven vanaf 1980', inventory number: 2.22.06",
       "'Wilhelm Ferdinand Heinrich von Weckherlin', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/6011979"
     ],
     "surname": "von Weckherlin",
@@ -9729,7 +9758,8 @@
     "place_of_death": "'s-Hertogenbosch",
     "sources": [
       "Smeets, R.G.R., 'Zwijssen Joannes', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 4 (Leiden, 1918)",
-      "'Joannes Zwijsen', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/24906031"
+      "'Joannes Zwijsen', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/24906031",
+      "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 691"
     ],
     "surname": "Zwijsen",
     "titles": []

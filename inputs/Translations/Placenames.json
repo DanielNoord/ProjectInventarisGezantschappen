@@ -64,6 +64,10 @@
     "en_GB": "Arco",
     "nl_NL": "Arco"
   },
+  "Arequipa": {
+    "en_GB": "Arequipa",
+    "nl_NL": "Arequipa"
+  },
   "Arnhem": {
     "en_GB": "Arnhem",
     "nl_NL": "Arnhem"
@@ -180,6 +184,10 @@
     "en_GB": "Caprera",
     "nl_NL": "Caprera"
   },
+  "Capua": {
+    "en_GB": "Capua",
+    "nl_NL": "Capua"
+  },
   "Carrara": {
     "en_GB": "Carrara",
     "nl_NL": "Carrara"
@@ -223,6 +231,10 @@
   "Cingoli": {
     "en_GB": "Cingoli",
     "nl_NL": "Cingoli"
+  },
+  "Città del Messico": {
+    "en_GB": "Mexico City",
+    "nl_NL": "Mexico-Stad"
   },
   "Civitavecchia": {
     "en_GB": "Civitavecchia",
@@ -352,6 +364,10 @@
     "en_GB": "Govone",
     "nl_NL": "Govone"
   },
+  "Granada": {
+    "en_GB": "Granada",
+    "nl_NL": "Granada"
+  },
   "Grave": {
     "en_GB": "Grave",
     "nl_NL": "Grave"
@@ -436,6 +452,10 @@
     "en_GB": "Laupheim",
     "nl_NL": "Laupheim"
   },
+  "Lebrija": {
+    "en_GB": "Lebrija",
+    "nl_NL": "Lebrija"
+  },
   "Leida": {
     "en_GB": "Leiden",
     "nl_NL": "Leiden"
@@ -443,6 +463,10 @@
   "Lenola": {
     "en_GB": "Lenola",
     "nl_NL": "Lenola"
+  },
+  "Lima": {
+    "en_GB": "Lima",
+    "nl_NL": "Lima"
   },
   "Lisbona": {
     "en_GB": "Lisbon",
@@ -544,6 +568,10 @@
     "en_GB": "Moscow",
     "nl_NL": "Moskou"
   },
+  "Nantes": {
+    "en_GB": "Nantes",
+    "nl_NL": "Nantes"
+  },
   "Napoli": {
     "en_GB": "Naples",
     "nl_NL": "Napels"
@@ -579,6 +607,10 @@
   "Palermo": {
     "en_GB": "Palermo",
     "nl_NL": "Palermo"
+  },
+  "Paliano": {
+    "en_GB": "Paliano",
+    "nl_NL": "Paliano"
   },
   "Palma": {
     "en_GB": "Fano",
@@ -676,9 +708,17 @@
     "en_GB": "San Remo",
     "nl_NL": "San Remo"
   },
+  "San Sebastián": {
+    "en_GB": "San Sebastián",
+    "nl_NL": "San Sebastian"
+  },
   "Santa Fe": {
     "en_GB": "Santa Fe",
     "nl_NL": "Santa Fe"
+  },
+  "Santiago del Cile": {
+    "en_GB": "Santiago de Chile",
+    "nl_NL": "Santiago de Chile"
   },
   "Santopadre": {
     "en_GB": "Santopadre",
@@ -707,6 +747,10 @@
   "Sens": {
     "en_GB": "Sens",
     "nl_NL": "Sens"
+  },
+  "Servigliano": {
+    "en_GB": "Servigliano",
+    "nl_NL": "Servigliano"
   },
   "Sestri Levante": {
     "en_GB": "Sestri Levante",
@@ -775,6 +819,10 @@
   "Tassullo": {
     "en_GB": "Tassullo",
     "nl_NL": "Tassullo"
+  },
+  "Tegucigalpa": {
+    "en_GB": "Tegucigalpa",
+    "nl_NL": "Tegucigalpa"
   },
   "The Falls, Llandogo": {
     "en_GB": "The Falls, Llandogo",
@@ -863,6 +911,14 @@
   "Villafranca": {
     "en_GB": "Villafranca",
     "nl_NL": "Villafranca"
+  },
+  "Villaviciosa": {
+    "en_GB": "Villaviciosa",
+    "nl_NL": "Villaviciosa"
+  },
+  "Viluco": {
+    "en_GB": "Viluco",
+    "nl_NL": "Viluco"
   },
   "Viterbo": {
     "en_GB": "Viterbo",

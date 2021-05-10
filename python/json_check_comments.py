@@ -26,7 +26,7 @@ COMMENT_PATTERNS = {
     r"The archive contains documents related to the death and inheritance of her brother, Giovanni Vassen\.$",  # pylint: disable=line-too-long
     r"The archive contains documents related to the death and inheritance of his relative, Giovanni Ronca\.$",  # pylint: disable=line-too-long
     r"The appointment and actions of Jacobus Grooff in Batavia led to some issues with the loc.*\.$",  # pylint: disable=line-too-long
-    r"The family Meuricoffre was an important banking family in Napels who often functioned as representative of the Dutch in Napels\.$",  # pylint: disable=line-too-long
+    r"The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels\.$",  # pylint: disable=line-too-long
     r"The family Wilde was originally from Germany and was part of the larger .*\.$",
     r"The Madiai family was involved in an international scandal, discussion of which can be found in the note\.$",  # pylint: disable=line-too-long
     r"\w* \w* held several other \(ministerial\) positions within the Kingdom of.*\.$",
