@@ -9,14 +9,10 @@ def create_controle_translations():
     """
     with open("inputs/Translations/Titles.json") as file:
         titles = json.load(file)
-    with open("inputs/Translations/TitlesUnsure.json") as file:
-        titles = dict(titles, **json.load(file))
     del titles["$schema"]
 
     with open("inputs/Translations/Functions.json") as file:
         functions = json.load(file)
-    with open("inputs/Translations/FunctionsUnsure.json") as file:
-        functions = dict(functions, **json.load(file))
     del functions["$schema"]
 
     with open("inputs/Translations/Placenames.json") as file:
