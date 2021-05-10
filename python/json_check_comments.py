@@ -6,6 +6,7 @@ COMMENT_PATTERNS = {
     r"Archive contains correspondence between him and some Dutch representatives about a debt\.$",
     r"Captain of the ship De Pelicaan\.$",
     r"Eugenio Giuseppe Allet was also known as colonel M. Allet\.$",
+    r"Eight days after the end of his appointment his daughter fled her pat.*\.$",
     r"François-Xavier Wurth-Paquet held several other \(ministerial\) positions within the Grand Duchy of Luxembourg\.$",  # pylint: disable=line-too-long
     r"From Koelman: .*\.$",  # pylint: disable=line-too-long
     r"Giacomo Chiavarni was a man of Italian origin who resided in Amsterdam. An arrest.*\.$",
@@ -24,7 +25,7 @@ COMMENT_PATTERNS = {
     r"The archive contains documents related to his death and inheritance\.$",
     r"The archive contains documents related to the death and inheritance of her brother, Giovanni Vassen\.$",  # pylint: disable=line-too-long
     r"The archive contains documents related to the death and inheritance of his relative, Giovanni Ronca\.$",  # pylint: disable=line-too-long
-    r"The appointment and position of Jacobus Grooff led to some diplomatic correspondence which is documented and discsussed in Santen\.$",  # pylint: disable=line-too-long
+    r"The appointment and actions of Jacobus Grooff in Batavia led to some issues with the loc.*\.$",  # pylint: disable=line-too-long
     r"The family Meuricoffre was an important banking family in Napels who often functioned as representative of the Dutch in Napels\.$",  # pylint: disable=line-too-long
     r"The family Wilde was originally from Germany and was part of the larger .*\.$",
     r"The Madiai family was involved in an international scandal, discussion of which can be found in the note\.$",  # pylint: disable=line-too-long
