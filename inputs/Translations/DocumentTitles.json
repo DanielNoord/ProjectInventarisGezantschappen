@@ -128,10 +128,6 @@
     "en_GB": "Extract from a dispatch of \\2",
     "nl_NL": "Uittreksel uit een verzending van \\2"
   },
-  "Estratto di una lettera da Alessandra sottoscritta (da|dal) (\\$\\w*) e trasmessa (da|dal) (\\$\\w*)$": {
-    "en_GB": "Extract from a letter from Alessandra signed by \\2 and sent by \\4",
-    "nl_NL": "Uittreksel uit een brief van Alessandra ondertekend door \\2 en verzonden door \\4"
-  },
   "Estratto di una lettera scritta al Consolato di S.M. il Re dei Paesi Bassi in Genova di 7 maggio 1825 circa l'arrivo di un Brigantino da guerra$": {
     "en_GB": "Extract from a letter to the consulate of H.M. the King of the Netherlands in Genoa on May 7, 1825 about the arrival of a war brigantine",
     "nl_NL": "Uittreksel uit een brief aan het consulaat van Z.M. de Koning der Nederlanden in Genua op 7 mei 1825 over de komst van een oorlogsbrigantijn"

@@ -47,7 +47,7 @@ SOURCE_PATTERNS = {
     r"Annuario del Ministero delle finanze del Regno d'Italia, Anno \d* \(Turin, 18\d\d\), \d*",
     r"Belinfante, J., 's Gravenhaagsche Stads- en Residentie-almanak voor het jaar 18\d\d \(The Hague, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"Calendario generale della città, diocesi, e provincia di Ancona per l'anno 18\d\d \(Ancona, 18\d\d\), \d*",  # pylint: disable=line-too-long
-    r"Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna, volume .* \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
+    r"Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna. Volume .* \(Turin, 18\d\d\), \d*(-\d*)?",  # pylint: disable=line-too-long
     r"Eene Vereniging van Letterkundigen, Onze tijd: merkwaardige gebeurtenissen onzer dagen. Serie \d*. Deel \d* \(Amsterdam, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"Fontana, Allesandro, Il Palmaverde: calendario storico-statistico-amministrativo, \(Turin, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"Governo di Malta, Repertorio di proclami, ordinanze, notificazioni ecc. dall ottobre 1813 a giugno 1842, Volume 1 A-M \(Malta, 18\d\d\), \d*",  # pylint: disable=line-too-long
@@ -134,6 +134,7 @@ SOURCE_PATTERNS = {
     r"Sunti delle Dissertazioni lette nell'Accademia Liturgica, volume 1 \(Rome, 1843\), \d*",
     r"Thewes, Guy, Les gouvernements du Grand-Duché de Luxembourg depuis 1848 \(Luxembourg, 2011\), \d*",  # pylint: disable=line-too-long
     r"van der Vijver, C., Geschiedkundige beschrijving der stad Amsterdam sedert hare wording tot op den tegenwoordige tijd, deel 3 \(Amsterdam, 1846\), \d*",  # pylint: disable=line-too-long
+    r"Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX \(1831-1859\): Catholic Revival, Society and Politics in 19th-century Europe \(Leuven, 2001\)",  # pylint: disable=line-too-long
     r"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 \(The Hague, 1972\), \d*",  # pylint: disable=line-too-long
     # Archives
     r"KADOC, Leuven, Archief van de Nederlandse jezuïeten",

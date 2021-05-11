@@ -1359,7 +1359,8 @@
     "place_of_death": "Bruxelles",
     "sources": [
       "https://nl.wikipedia.org/wiki/Henri_de_Brouckère",
-      "https://unionisme.be/de_Brouckere.htm"
+      "https://unionisme.be/de_Brouckere.htm",
+      "Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX (1831-1859): Catholic Revival, Society and Politics in 19th-century Europe (Leuven, 2001)"
     ],
     "surname": "de Brouckère",
     "titles": []
@@ -2027,7 +2028,8 @@
     "place_of_death": "Londra",
     "sources": [
       "https://nl.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_Chimay_(1808-1886)",
-      "Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 1847, volume 78 (Ghent, 1847), 110"
+      "Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 1847, volume 78 (Ghent, 1847), 110",
+      "Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX (1831-1859): Catholic Revival, Society and Politics in 19th-century Europe (Leuven, 2001)"
     ],
     "surname": "de Riquet",
     "titles": [
@@ -2148,7 +2150,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna, volume X (Turin, 1842), 753"
+      "Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna. Volume X (Turin, 1842), 753"
     ],
     "surname": "Colombo",
     "titles": []
@@ -5258,8 +5260,8 @@
   "$Maistre": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1789-09-22",
+    "date_of_death": "1866-02-05",
     "functions": [
       [
         "Hoofdambtenaar van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië",
@@ -5270,8 +5272,8 @@
     "images": [""],
     "name": "Rodolphe",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Chambéry",
+    "place_of_death": "Torino",
     "sources": [
       "Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), 17",
       "https://fr.wikipedia.org/wiki/Rodolphe_de_Maistre"
@@ -5570,7 +5572,8 @@
     "place_of_death": "Torino",
     "sources": [
       "Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), 13",
-      "https://it.wikipedia.org/wiki/Filippo_Antonio_Asinari_di_San_Marzano"
+      "Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna. Volume 5 (Turin, 1839), 527-532",
+      "Dizionario bibliografico dell’Armata Sarda seimila biografie"
     ],
     "surname": "di San Marzano",
     "titles": [["markies", null]]
@@ -7152,7 +7155,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna, volume XVI (Turin, 1847), 471"
+      "Casalis, Goffredo, Dizionario geografico-storico-statistico-commerciale degli stati di S.M. il Re di Sardegna. Volume XVI (Turin, 1847), 471"
     ],
     "surname": "di Cocconato",
     "titles": [["graaf", null]]
@@ -7632,7 +7635,7 @@
     "place_of_death": "Erbach",
     "sources": [
       "https://nl.wikipedia.org/wiki/Johannes_van_Rossum",
-      "van der Leer, Kees and Marieke Spliethoff, 'xPrinses Marianne: kunstenaars, dominees en een perlgrimage', in: Historisch Voorburg, 16, 1 (2020), 88"
+      "van der Leer, Kees and Marieke Spliethoff, 'Prinses Marianne: kunstenaars, dominees en een perlgrimage', in: Historisch Voorburg, 16, 1 (2020), 88"
     ],
     "surname": "van Rossum",
     "titles": []
@@ -8546,8 +8549,8 @@
   "$Steen": {
     "comment": "",
     "comment_daniel": "Lijkt mij dus niet van Nederland maar van België. Zie noot.",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1781-03-29",
+    "date_of_death": "1846-05-13",
     "functions": [
       [
         "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel en andere Italiaanse hoven",
@@ -8557,11 +8560,12 @@
     "images": [""],
     "name": "Charles Herman Amand Joseph",
     "person_type": 4,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Liegi",
+    "place_of_death": "Roma",
     "sources": [
-      "https://nl.wikipedia.org/wiki/Charles_van_den_Steen_de_Jehay",
-      "Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 1847, volume 78 (Ghent, 1847), 110"
+      "Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX (1831-1859): Catholic Revival, Society and Politics in 19th-century Europe (Leuven, 2001)",
+      "Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 1847, volume 78 (Ghent, 1847), 110",
+      "https://nl.wikipedia.org/wiki/Charles_van_den_Steen_de_Jehay"
     ],
     "surname": "van de Steen de Jehay",
     "titles": [["baron", null]]
@@ -9118,8 +9122,8 @@
     "place_of_death": "Buitenzorg (Java)",
     "sources": [
       "'Bosch (Engelbertus Batavus van den)', in: A.J. van der AA, Biographisch woordenboek der Nederlanden. Deel 2-2 (Haarlem, 1854)",
-      "Redactie parlement.com, 'E.B. van den Bosch', found on: https://www.parlement.com/id/vg09lliwlezg/e_b_van_den_bosch",
-      "'Engelbertus Batavus van den Bosch', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/1797835"
+      "'Engelbertus Batavus van den Bosch', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/1797835",
+      "Redactie parlement.com, 'E.B. van den Bosch', found on: https://www.parlement.com/id/vg09lliwlezg/e_b_van_den_bosch"
     ],
     "surname": "van den Bosch",
     "titles": [["luitenant-ter-zee", "1808/"]]
