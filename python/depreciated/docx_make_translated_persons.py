@@ -1,7 +1,6 @@
 from create_data import person_with_identifier
-from functions.docx_make import list_of_translated_data
-from functions.docx_make import list_of_translated_data_with_style
 from functions.docx_load import extract_persons_and_identifiers
+from functions.docx_make import list_of_translated_data, list_of_translated_data_with_style
 
 
 def create_name_docx(input_file_names, input_file_data):
@@ -54,6 +53,4 @@ def create_name_docx_with_style(input_file_names, input_file_data):
 
 if __name__ == "__main__":
     create_name_docx("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
-    create_name_docx_with_style(
-        "inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json"
-    )
+    create_name_docx_with_style("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
