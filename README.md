@@ -36,9 +36,8 @@ Contains JSON Schema's for the various _.json_ files in the inputs directory.
 1) Finish persons with type 2
 2) Clean last "incorrect" sources van laatste “incorrecte” bronvermeldingen
 3) Create translation of individuals database
-4) Add questions for Rome
-5) Allow styling to be applied in excel
-6) Write last document titles
+4) Allow styling to be applied in excel
+5) Write last document titles
 
 ### Before end of project
 
