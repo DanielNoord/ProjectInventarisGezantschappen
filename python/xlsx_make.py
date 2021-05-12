@@ -163,12 +163,12 @@ if __name__ == "__main__":
     # create_filled_xlsx("outputs/VolumesExcelTranslated/en_GB", "en_GB")
     # create_filled_xlsx("outputs/VolumesExcelSanitized/it_IT", "it_IT")
     # create_filled_xlsx("outputs/VolumesExcelTranslated/nl_NL", "nl_NL")
-    create_xlsx_controle(
-        [
-            "inputs/VolumesExcel/original",
-            "outputs/VolumesExcelFinal/it_IT",
-            "outputs/VolumesExcelFinal/en_GB",
-            "outputs/VolumesExcelFinal/nl_NL",
-        ]
-    )
-    # do_full_loop()
+    # create_xlsx_controle(
+    #     [
+    #         "inputs/VolumesExcel/original",
+    #         "outputs/VolumesExcelFinal/it_IT",
+    #         "outputs/VolumesExcelFinal/en_GB",
+    #         "outputs/VolumesExcelFinal/nl_NL",
+    #     ]
+    # )
+    do_full_loop()
