@@ -27,12 +27,8 @@ def fill_in_xlsx(directory_name, file_name, individuals, translations, localizat
             line = "".join(line)
 
             # Clean up string
-            if line[-1] in [" ", ",", "."]:  # Remove final characters
-                line = line[:-1]
             line = line[0].upper() + line[1:]
-            line = line.replace("( ", "(").replace(" )", ")")
-            if line == " ":
-                line = ""
+            line = line.replace("{", "(").replace("}", ")")
             row[1].value = line
 
     new_directory = (
