@@ -8,8 +8,9 @@ SOURCE_PATTERNS = {
     # Biographical dictionaries
     r".*, .*, '.*', in: Allgemeine Deutsche Biographie. Band \d* \(Leipzig, 1\d\d\d\)",
     r".*, .*, '.*', in: Digitaal Vrouwenlexicon van Nederland \(2014\)",
-    r"(.*, )?.*, '.*', in: Dizionario Biografico degli Italiani. Volume \d* \(Rome, \d\d\d\d\), found on: https://www.treccani.it/.*Dizionario-Biografico\)",  # pylint: disable=line-too-long
+    r"(.*, )?.*, '.*', in: Dizionario Biografico degli Italiani. Volume \d* \(Rome, \d\d\d\d\), found on: https://www.treccani.it/enciclopedia/.*_\(Dizionario-Biografico\)",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Dizionario storico biografico della Tuscia \(2014-\), found on https://www.gentedituscia.it/.*/",  # pylint: disable=line-too-long
+    r".*, .*, '.*', in: Enciclopedia Italiana. Volume \d* \(Rome, 19\d\d\), found on: https://www.treccani.it/enciclopedia/.*_\(Enciclopedia-Italiana\)/",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Historisches Lexikon der Schweiz \(20\d\d\), found on https://hls-dhs-dss.ch/it/articles/\d*/20\d\d-\d\d-\d\d/",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Juan Castaneda Murga et al., Grandes forjadores del Peru \(Lima, 2001\)",
     r".*, .*, '.*', in: Jules Mersch, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule \d* \(Luxembourg, 19\d\d\)",  # pylint: disable=line-too-long
@@ -116,6 +117,8 @@ SOURCE_PATTERNS = {
     r"Mori, Renato, Le scritture della legazione e del consolato del Granducato di Toscana in Roma dal 1737 al 1859 \(Rome, 1959\)",  # pylint: disable=line-too-long
     r"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna \(Rome, 1947\), \d*(-\d*)?",  # pylint: disable=line-too-long
     r"Nuyens, A., Gedenkboek der pauselijke Zouaven. 1867-1892 \(Roermond, 1892\)",
+    r"O'Byrne, Patrick Justin, Lives of the Cardinals. Part \d* \(1879, Londra\), \d*-\d*",
+    r"Patrignani, Gian Luca and Franco Battistelli, 'Il tempo e la pietra - I marmi parlanti' Nuovo lapidario di Fano. Lapidario del centro storico \(Fano, 2010\), \d*",  # pylint: disable=line-too-long
     r"Pirri S.J., P. Pietro, Pio IX e Vittorio Emanuele II dal loro carteggio privato \(Rome, 1980\), \d*( and \d*)?",  # pylint: disable=line-too-long
     r"Pohle, Frank, Alfred von Reumont \(1808–1887\) – Ein Diplomat als kultureller Mittler \(Berlin, 2015\)",  # pylint: disable=line-too-long
     r"de Régnon, M., Relation des événements qui ont précédé et suivi l'expulsion de 78 Anglais dits trappistes de Meilleraye \(Nantes, 1831\)",  # pylint: disable=line-too-long
@@ -133,6 +136,7 @@ SOURCE_PATTERNS = {
     r"Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus \(Nijmegen, 1911\)",  # pylint: disable=line-too-long
     r"Sunti delle Dissertazioni lette nell'Accademia Liturgica, volume 1 \(Rome, 1843\), \d*",
     r"Thewes, Guy, Les gouvernements du Grand-Duché de Luxembourg depuis 1848 \(Luxembourg, 2011\), \d*",  # pylint: disable=line-too-long
+    r"Tupputi, Carla Lodolini, La Commissione governativa di Stato nella restaurazione pontificia \(17 luglio 1849-12 aprile 1850\) \(Milan, 1970\), \d*",  # pylint: disable=line-too-long
     r"van der Vijver, C., Geschiedkundige beschrijving der stad Amsterdam sedert hare wording tot op den tegenwoordige tijd, deel 3 \(Amsterdam, 1846\), \d*",  # pylint: disable=line-too-long
     r"Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX \(1831-1859\): Catholic Revival, Society and Politics in 19th-century Europe \(Leuven, 2001\)",  # pylint: disable=line-too-long
     r"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 \(The Hague, 1972\), \d*",  # pylint: disable=line-too-long

@@ -1934,16 +1934,20 @@
   "$Chastel": {
     "comment": "Louis du Chastel de la Howarderie had several other functions in the Dutch diplomatic services. He was the last Dutch envoy to the Holy See before the Legation was dissolved in favour of the Legation to the Kingdom of Italy, which was then also located in Rome.",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1808-06-21",
+    "date_of_death": "1880-01-26",
     "functions": [
       [
         "Attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome",
         "1844-04-23/1846-04-16"
       ],
       [
+        "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Rome",
+        "1846-04-16/1855-10-05"
+      ],
+      [
         "Zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel",
-        "1855-10/1858"
+        "1855-10-05/1858"
       ],
       [
         "Minister-resident van het Koninkrijk der Nederlanden bij de Heilige Stoel",
@@ -1956,9 +1960,9 @@
     ],
     "images": [""],
     "name": "Louis Gabriël Jean François de Paule",
-    "person_type": 6,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Hovorany",
+    "place_of_death": "Nizza",
     "sources": [
       "du Chastel de la Howarderie, Paul-Armand, Les Toparques héréditaires des deux Howardries, ou crayon généalogique de la maison comtale du Chastel de la Howardries (Péruwelz, 1840), 42"
     ],
@@ -2452,24 +2456,23 @@
   "$Dandini": {
     "comment": "From Koelman: Dandini de Sylva, graaf Ferdinando (geb. 1802) was van 1851-1852 assessor en van 1852-1865 assessor-generaal van de pauselijke politie, onder directeur-generaal Mons. Antonio Matteucci. Hij hield kantoor in Palazzo Camerale, Via Ripetta 223. Dandini was bijzonder ongeliefd bij iedereen met liberale sentimenten, getuige ook zijn bijnaam ‘de Hyena’. B.: Almanacco (1855) 100; Lodolini Tupputi (1970) 40; Rinaldi (1992) 73-74; Veca (2020).",
     "comment_daniel": "Bronnen missen nog. Zie Asker's bibliografie",
-    "date_of_birth": "",
+    "date_of_birth": "1801",
     "date_of_death": "",
     "functions": [
       [
-        "Assessor van het directoraat-generaal van de politie van Rome",
-        "1851/1852"
-      ],
-      [
         "Assessor-generaal van het directoraat-generaal van de politie van Rome",
-        "1853/1865"
+        "1849-12-30/1865"
       ]
     ],
     "images": [""],
     "name": "Ferdinando",
-    "person_type": 6,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [""],
+    "sources": [
+      "Tupputi, Carla Lodolini, La Commissione governativa di Stato nella restaurazione pontificia (17 luglio 1849-12 aprile 1850) (Milan, 1970), 40",
+      "Almanacco Romano pel 1859. Raccolta dei primari dignitari e funzionari della citta' di Roma, Anno 5 (Rome, 1859), 99"
+    ],
     "surname": "Dandini de Sylva",
     "titles": [["graaf", null]]
   },
@@ -2510,7 +2513,8 @@
     "place_of_birth": "Roma",
     "place_of_death": "Roma",
     "sources": [
-      "https://it.wikipedia.org/wiki/Urbano_Del_Drago_Biscia_Gentili,_I_principe_di_Mazzano_ed_Antuni"
+      "https://it.wikipedia.org/wiki/Urbano_Del_Drago_Biscia_Gentili,_I_principe_di_Mazzano_ed_Antuni",
+      "Almanacco Romano pel 1859. Raccolta dei primari dignitari e funzionari della citta' di Roma, Anno 5 (Rome, 1859), 83"
     ],
     "surname": "Del Drago Biscia Gentili",
     "titles": [["prins van Mazzano en Antuni", "1832-05-19/"]]
@@ -2809,7 +2813,7 @@
   "$Everard": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
+    "date_of_birth": "1795",
     "date_of_death": "1868-03-05",
     "functions": [
       [
@@ -2821,11 +2825,10 @@
     "name": "Pierre Florent Joseph",
     "person_type": 1,
     "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_death": "Bruxelles",
     "sources": [
       "Osservatore del Trasimeno, Anno XXI, 88 (Perugia, 1846-11-04), 379",
       "Belinfante, J., 's Gravenhaagsche Stads- en Residentie-almanak voor het jaar 1843 (The Hague, 1843), 99",
-      "https://www.armb.be/index.php?id=2553",
       "Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-05"
     ],
     "surname": "Everard",
@@ -2925,8 +2928,8 @@
   "$Faubert": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1806",
+    "date_of_death": "1868-07-31",
     "functions": [
       [
         "Gevolmachtigd minister van de Republiek van Haïti bij de Heilige Stoel",
@@ -2936,8 +2939,8 @@
     "images": [""],
     "name": "Pierre",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Les Cayes",
+    "place_of_death": "Vanves",
     "sources": ["https://en.wikipedia.org/wiki/Pierre_Faubert"],
     "surname": "Faubert",
     "titles": []
@@ -2977,14 +2980,14 @@
   "$Fergola": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1795-02-08",
+    "date_of_death": "1870-02-27",
     "functions": [["Gouverneur van de vesting van Messina", null]],
     "images": [""],
     "name": "Gennaro",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Napoli",
+    "place_of_death": "Napoli",
     "sources": ["https://it.wikipedia.org/wiki/Gennaro_Fergola"],
     "surname": "Fergola",
     "titles": [["generaal", null]]
@@ -3283,7 +3286,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://www.fondazionecarifano.it/Progetti/TempoPietra/LapidarioCentroStorico.pdf, page 216"
+      "Patrignani, Gian Luca and Franco Battistelli, 'Il tempo e la pietra - I marmi parlanti' Nuovo lapidario di Fano. Lapidario del centro storico (Fano, 2010), 216"
     ],
     "surname": "Gabrielli",
     "titles": []
@@ -8211,8 +8214,7 @@
     "place_of_birth": "Paliano",
     "place_of_death": "Roma",
     "sources": [
-      "https://it.wikipedia.org/wiki/Giovanni_Simeoni",
-      "https://it.wikipedia.org/wiki/Congregazione_per_l%27evangelizzazione_dei_popoli"
+      "O'Byrne, Patrick Justin, Lives of the Cardinals. Part 5 (1879, Londra), 137-154"
     ],
     "surname": "Simeoni",
     "titles": []
@@ -9341,7 +9343,7 @@
     "place_of_birth": "Milano",
     "place_of_death": "Roma",
     "sources": [
-      "https://www.treccani.it/enciclopedia/emilio-visconti-venosta/"
+      "Silva, Pietro, 'Visconti-Venosta, Emilio', in: Enciclopedia Italiana. Volume 35 (Rome, 1937), found on: https://www.treccani.it/enciclopedia/emilio-visconti-venosta_(Enciclopedia-Italiana)/"
     ],
     "surname": "Visconti Venosta",
     "titles": []

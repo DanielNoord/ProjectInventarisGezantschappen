@@ -190,11 +190,6 @@
     "it_IT": "Medico",
     "nl_NL": "Arts"
   },
-  "Assessor van het directoraat-generaal van de politie van Rome": {
-    "en_GB": "Assessor of the general directorate of the police of Rome",
-    "it_IT": "Assessore della direzione generale di polizia di Rom",
-    "nl_NL": "Assessor van het directoraat-generaal van de politie van Rome"
-  },
   "Assessor-generaal van het directoraat-generaal van de politie van Rome": {
     "en_GB": "General assessor of the general Directorate of the police of Rome",
     "it_IT": "Assessore generale della direzione generale di polizia di Roma",
@@ -1504,6 +1499,11 @@
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Paris",
     "it_IT": "Segretario della Legazione del Regno dei Paesi Bassi a Parigi",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Parijs"
+  },
+  "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Rome": {
+    "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Rome",
+    "it_IT": "Segretario della Legazione del Regno dei Paesi Bassi a Roma",
+    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Rome"
   },
   "Secretaris van het _Magistrato di Sanità_ van Genua": {
     "en_GB": "Secretary of the _Magistrato di Sanità_ of Genoa",

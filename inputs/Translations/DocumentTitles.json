@@ -172,10 +172,6 @@
     "en_GB": "Letter of \\2 to \\4 (encrypted)",
     "nl_NL": "Brief van \\2 aan \\4 (versleuteld)"
   },
-  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(cifrato\\)$": {
-    "en_GB": "Letter of \\2 to \\4 (encrypted)",
-    "nl_NL": "Brief van \\2 aan \\4 (versleuteld)"
-  },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(con allegato\\)$": {
     "en_GB": "Letter of \\2 to \\4 (with attachment)",
     "nl_NL": "Brief van \\2 aan \\4 (met bijlage)"
