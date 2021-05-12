@@ -56,7 +56,7 @@ def check_entries(input_file):
         if identifier in identifiers.keys():
             raise Exception(f"Identifier of {data['surname']} is a duplicate")
 
-        if data["person_type"] not in [0, 1, 2, 3, 4, 5, 6]:
+        if data["person_type"] not in [0, 1, 2, 3, 4, 5]:
             raise Exception(f"Type of {data['surname']} is invalid")
 
         if data["titles"] != [""]:
