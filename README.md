@@ -52,7 +52,7 @@ Contains JSON Schema's for the various _.json_ files in the inputs directory.
 5) Convert additional _griglie_ from Rome into standard that is compatible with programs (add identifiers, check for new individuals, etc.)
 6) Write additional translation or titles which are not recognized yet (contact Daniël about regular expressions)
 7) Check found images for usability
-8) Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent.
+8) Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent
 9) Control translations
 10) Contact Nationaal Archief about EAD and _.pdf_ conversion
-11) Contact Rome about inconsistent document numbering. Use of "b", "v", "bis".
+11) Contact Rome about inconsistent document numbering. Use of "b", "v", "bis" (see commented code in `/python/functions/xlsx_sanitize.py`)
