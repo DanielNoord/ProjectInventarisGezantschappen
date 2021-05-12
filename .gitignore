@@ -3,17 +3,19 @@
 # Whitelisted directories
 !ead2pdf/
 !EADFiles/
-!python/
-!static/
 !inputs
 inputs/*
 !inputs/Individuals.json
 !inputs/Translations
+!outputs
+outputs/*
+!python/
+!static/
 
 # Whitelisted files
 !.gitignore
 !.pylintrc
-!Makepdf_nl_NL
+!Makepdf_*
 !README.md
 
 # To be ignored in all directories
