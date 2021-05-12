@@ -70,6 +70,10 @@ def create_xlsx_controle(directory_names):
                 ).active.rows
             ]
             for index, row in enumerate(rows_original):
+                if row[0].value != rows_it[index][0].value:
+                    raise Exception(
+                        f"Difference in document number found for {row[0].value} in original"
+                    )
                 new_sheet.append(tuple(i.value for i in row))
                 new_sheet.append(tuple(i.value for i in rows_it[index]))
                 new_sheet.append(tuple(i.value for i in rows_en[index]))
@@ -159,12 +163,12 @@ if __name__ == "__main__":
     # create_filled_xlsx("outputs/VolumesExcelTranslated/en_GB", "en_GB")
     # create_filled_xlsx("outputs/VolumesExcelSanitized/it_IT", "it_IT")
     # create_filled_xlsx("outputs/VolumesExcelTranslated/nl_NL", "nl_NL")
-    # create_xlsx_controle(
-    #     [
-    #         "inputs/VolumesExcel/original",
-    #         "outputs/VolumesExcelFinal/it_IT",
-    #         "outputs/VolumesExcelFinal/en_GB",
-    #         "outputs/VolumesExcelFinal/nl_NL",
-    #     ]
-    # )
-    do_full_loop()
+    create_xlsx_controle(
+        [
+            "inputs/VolumesExcel/original",
+            "outputs/VolumesExcelFinal/it_IT",
+            "outputs/VolumesExcelFinal/en_GB",
+            "outputs/VolumesExcelFinal/nl_NL",
+        ]
+    )
+    # do_full_loop()
