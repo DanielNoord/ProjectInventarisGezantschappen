@@ -69,5 +69,5 @@ Daniël:
 
 Project lead:
 
->1) **Check if the numbering of documents in _griglie_ corresponds to scans** _(Currently it does not)..._
+>1) **Check if the numbering of documents in _griglie_ corresponds to scans** _(Currently it does not...)_
 >2) Contact Rome about inconsistent document numbering. Interchangeable use of "b", "v", "bis". For example differences between ms279 and ms280 (for Daniël: see related commented code in `/python/functions/xlsx_sanitize.py`)
