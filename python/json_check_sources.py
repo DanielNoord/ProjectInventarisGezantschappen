@@ -4,7 +4,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-SOURCE_PATTERNS = {
+SOURCE_PATTERNS = [
     # Biographical dictionaries
     r".*, .*, '.*', in: Allgemeine Deutsche Biographie. Band \d* \(Leipzig, 1\d\d\d\)",
     r".*, .*, '.*', in: Digitaal Vrouwenlexicon van Nederland \(2014\)",
@@ -128,7 +128,7 @@ SOURCE_PATTERNS = {
     r"O'Byrne, Patrick Justin, Lives of the Cardinals. Part \d* \(1879, Londra\), \d*-\d*",
     r"Patrignani, Gian Luca and Franco Battistelli, 'Il tempo e la pietra - I marmi parlanti' Nuovo lapidario di Fano. Lapidario del centro storico \(Fano, 2010\), \d*",  # pylint: disable=line-too-long
     r"Pirri S.J., P. Pietro, Pio IX e Vittorio Emanuele II dal loro carteggio privato \(Rome, 1980\), \d*( and \d*)?",  # pylint: disable=line-too-long
-    r"Pittella, Raffaele, Archivio del Commissariato Generale della Camera Apostolica. Inventari 115 I-XIII \(Rome, 2017-2018\)", # pylint: disable=line-too-long
+    r"Pittella, Raffaele, Archivio del Commissariato Generale della Camera Apostolica. Inventari 115 I-XIII \(Rome, 2017-2018\)",  # pylint: disable=line-too-long
     r"Pohle, Frank, Alfred von Reumont \(1808–1887\) – Ein Diplomat als kultureller Mittler \(Berlin, 2015\)",  # pylint: disable=line-too-long
     r"de Régnon, M., Relation des événements qui ont précédé et suivi l'expulsion de 78 Anglais dits trappistes de Meilleraye \(Nantes, 1831\)",  # pylint: disable=line-too-long
     r"Ricci, Angelo Maria, Epistola Poetica a sua eccellenza reverendissima monsignor Achille Maria Ricci \(Rome, 1847\)",  # pylint: disable=line-too-long
@@ -176,7 +176,7 @@ SOURCE_PATTERNS = {
     r"Ocken, Lucas A., '.*', in: Stamboom Ocken, Genealogie Online, found on: https://www.genealogieonline.nl/stamboom-ocken/.*.php \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
     r"Uytterhoeven, Ann, '.*', in: Familiegeschiedenis van Ann Uytterhoeven, Geneanet, found on: https://gw.geneanet.org/auytt\?lang=nl&p=.*&n=.*&oc=1 \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
     r"Walbaum, Hubert, '.*', in: Stamboom Walbaum, Geneanet, found on: https://gw.geneanet.org/hubertwalbaum\?lang=en&n=.*&oc=0&p=.* \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
-}
+]
 
 
 def update_trecanni(source):
@@ -229,7 +229,7 @@ def update_parlement(source):
     return final_source
 
 
-def check_all_sources(filename):
+def check_all_sources(filename):  # pylint: disable=too-many-branches, too-many-statements
     """Check and update all sources for given database
 
     Args:
@@ -292,19 +292,17 @@ def check_all_sources(filename):
             elif mat := [i for i in compiled_source_patterns if i.match(source)]:
                 used_patterns.add(mat[0])
 
-            # Sources to discuss
-            # TODO: What to do with these two sites? Links are not persistent (I think)
+            # TODO: Sources to discuss
             elif source.startswith("https://notes9.senato.it/"):
                 pass
             elif source.startswith("https://storia.camera.it/presidenti/"):
                 pass
             elif source.startswith("https://storia.camera.it/deputato/"):
                 pass
-            # TODO: Similar to problem above
             elif source.startswith("https://www.britannica.com/biography/"):
                 pass
 
-            # Sources to look up
+            # TODO: Sources to look up
             elif source.startswith("Dizionario bibliografico dell’Armata Sarda seimila biografie"):
                 pass
 

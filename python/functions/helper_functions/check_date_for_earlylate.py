@@ -1,4 +1,4 @@
-def check_date_earlier(early_date, row):
+def check_date_earlier(early_date, row):  # pylint: disable=too-many-return-statements
     """Check if the given date is earlier than other data
 
     Args:
@@ -23,7 +23,7 @@ def check_date_earlier(early_date, row):
     return early_date
 
 
-def check_date_later(late_date, row):
+def check_date_later(late_date, row):  # pylint: disable=too-many-return-statements
     """Check if the given date is later than other data
 
     Args:

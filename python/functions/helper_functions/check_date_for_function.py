@@ -1,4 +1,4 @@
-def check_begin(date, begin_date):
+def check_begin(date, begin_date):  # pylint: disable=too-many-return-statements
     """Checks if a date falls after or on a specific date
 
     Args:
@@ -25,7 +25,7 @@ def check_begin(date, begin_date):
     return False
 
 
-def check_end(date, end_date):
+def check_end(date, end_date):  # pylint: disable=too-many-return-statements
     """Checks if a date falls before or on a specific date
 
     Args:

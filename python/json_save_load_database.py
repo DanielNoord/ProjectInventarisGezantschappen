@@ -8,7 +8,7 @@ from functions.helper_functions.parse_function_string import function as read_fu
 from functions.helper_functions.parse_title_string import title as read_title
 
 
-def save_database(filename, previous_database=None):
+def save_database(filename, previous_database=None):  # pylint: disable=too-many-locals
     """Load database from .docx and write .json
 
     Args:

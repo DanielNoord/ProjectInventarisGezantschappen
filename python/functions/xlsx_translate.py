@@ -7,7 +7,7 @@ from openpyxl.styles import Font
 
 def translate_xlsx(
     directory_name, file_name, localization, translations, translation_data, used_translations
-):
+):  # pylint: disable=too-many-arguments
     """Translate .xlsx file
 
     Args:

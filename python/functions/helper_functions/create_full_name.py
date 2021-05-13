@@ -1,7 +1,9 @@
 from .check_date_for_function import check_date
 
 
-def full_name(surname, name, titles, translation_data, localization, date):
+def full_name(
+    surname, name, titles, translation_data, localization, date
+):  # pylint: disable=too-many-arguments, too-many-branches
     """Creates the string for the full name including title
 
     Args:
@@ -55,9 +57,7 @@ def full_name(surname, name, titles, translation_data, localization, date):
                 elif translation_entry["position"] == "After":
                     str_full_name += f" {translation_entry[localization]},"
                 else:
-                    raise Exception(
-                        "Can't parse second title, maybe change order in sourcefile"
-                    )
+                    raise Exception("Can't parse second title, maybe change order in sourcefile")
     else:
         if name != "":
             str_full_name = f"{name} {surname}"

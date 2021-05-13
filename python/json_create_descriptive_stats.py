@@ -1,7 +1,9 @@
 import json
 
 
-def create_type_statistics(filename, type_list, skip):
+def create_type_statistics(
+    filename, type_list, skip
+):  # pylint: disable=too-many-locals, too-many-branches, too-many-statements
     """Print out statistics from from .json file for specified person types
 
     Args:

@@ -6,7 +6,7 @@ from functions.helper_functions.extract_date import extract_date
 from functions.helper_functions.unitdate import unitdate
 
 
-def basic_xml_file():
+def basic_xml_file():  # pylint: disable=too-many-locals
     """Returns a basic .xml file based on EAD standard used for this project
 
     Returns:
@@ -88,7 +88,9 @@ def volume_entry(parent_element, number, title, date, localization):
     return c01
 
 
-def dossier_entry(parent_element, v_number, number, _, title, date, localization):
+def dossier_entry(
+    parent_element, v_number, number, _, title, date, localization
+):  # pylint: disable=too-many-locals, too-many-arguments
     """Returns a dossier .xml element at the c02 level
 
     Args:

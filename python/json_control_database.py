@@ -31,7 +31,7 @@ def check_translations():
     print("Finished checking translations: no missing or broken ones found!\n")
 
 
-def check_entries(input_file):
+def check_entries(input_file):  # pylint: disable=too-many-locals, too-many-branches
     """Checks whether the input file is correct and fits all criteria of a correct database file
     Checks for unknown functions, titles, etc.
 
