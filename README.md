@@ -42,30 +42,28 @@ Contains JSON Schema's for the various _.json_ files in the inputs directory.
 Individuals database:
 
 >1) Translate "Comment" fields starting with `From Koelman`. These are directly copied from the biographies as found in the Koelman book
->2) See if indivduals of type 2 can be found or fixed
->3) Check all individuals of type 5 when their respective _griglie_ have been sent
->4) Check found images for usability
->5) Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent
->6) Look up sources in _Dizionario bibliografico dell’Armata Sarda seimila biografie_
+>2) Check if indivduals of type 2 can be found or "finished"
+>3) Check if individuals of type 5 can be found or "finished" when their respective _griglie_ have been sent
+>4) Check the images currently linked to individuals for usability, some images are not as relevant (photos of individuals when they were a child, etc.)
+>5) Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent so currently not sure how to refer to them
+>6) Look up individuals in _Dizionario bibliografico dell’Armata Sarda seimila biografie_. Relevant indivduals have _Dizionario bibliografico dell’Armata Sarda seimila biografie_ listed among their sources
 
 Additional information:
 
->1) Write biographical notes of individuals (or translate existing ones)
+>1) Write biographical notes of individuals (or translate existing ones from biographic dictionaries)
 >2) Write short summary/introduction to archive, for example describe how the Legation at Rome also served as Legation for Turin. See an example at: "https://www.nationaalarchief.nl/onderzoeken/archief/2.05.12?page=1"
->
 >    Relevant sources: Wels, Santen
->
->3) Find additional information about Dutch diplomatic represenatives, current information is quite brief
+>3) Find additional information about Dutch diplomatic represenatives, current information is quite minimal
 
 Translation:
 
->1) Convert additional _griglie_ from Rome into standard that is compatible with programs (add identifiers, check for new individuals, etc.)
+>1) Convert additional _griglie_ from Rome into standard that is compatible with python programs (change names into identifiers, check for new individuals, etc.). Contact Daniël before doing so for some useful tips!
 >2) Write additional translation or titles which are not recognized yet (contact Daniël about regular expressions)
->3) Control translations
+>3) Control current translations
 
 Daniël:
 
 >1) Contact Nationaal Archief about EAD and _.pdf_ conversion
 >2) Contact Rome about inconsistent document numbering. Use of "b", "v", "bis" (see commented code in `/python/functions/xlsx_sanitize.py`)
 >3) If needed, translate individuals database into all languages (dependent on requirements of site)
->4) Find a way to apply _italics_ in titles and functions (indicated by '\_text\_') to _.xlsx_ documents
+>4) Find a way to apply _italics_ in titles and functions (indicated by `_text_`) to _.xlsx_ documents
