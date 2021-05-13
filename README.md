@@ -33,25 +33,39 @@ Contains JSON Schema's for the various _.json_ files in the inputs directory.
 
 ### Before hand-off by Daniël
 
-1) Finish persons with type 2
-2) Clean last "incorrect" sources van laatste “incorrecte” bronvermeldingen
-3) Create translation of individuals database
-4) Allow styling to be applied in excel
-5) Write last document titles
+>1) Finish persons with type 2
+>2) Write last document titles
+>3) Finish writing documentation
 
 ### Before end of project
 
-1) Translate "Comment" fields starting with `From Koelman`. These are directly copied from the biographies as found in the Koelman book
-2) Write biographical notes of individuals (or translate existing ones)
-3) Write short summary/introduction to archive, for example describe how the Legation at Rome also served as Legation for Turin. See an example at: "https://www.nationaalarchief.nl/onderzoeken/archief/2.05.12?page=1"
+Individuals database:
 
-    Relevant sources: Wels, Santen
+>1) Translate "Comment" fields starting with `From Koelman`. These are directly copied from the biographies as found in the Koelman book
+>2) See if indivduals of type 2 can be found or fixed
+>3) Check all individuals of type 5 when their respective _griglie_ have been sent
+>4) Check found images for usability
+>5) Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent
+>6) Look up sources in _Dizionario bibliografico dell’Armata Sarda seimila biografie_
 
-4) Find additional information about diplomatic represenative, current information is quite brief
-5) Convert additional _griglie_ from Rome into standard that is compatible with programs (add identifiers, check for new individuals, etc.)
-6) Write additional translation or titles which are not recognized yet (contact Daniël about regular expressions)
-7) Check found images for usability
-8) Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent
-9) Control translations
-10) Contact Nationaal Archief about EAD and _.pdf_ conversion
-11) Contact Rome about inconsistent document numbering. Use of "b", "v", "bis" (see commented code in `/python/functions/xlsx_sanitize.py`)
+Additional information:
+
+>1) Write biographical notes of individuals (or translate existing ones)
+>2) Write short summary/introduction to archive, for example describe how the Legation at Rome also served as Legation for Turin. See an example at: "https://www.nationaalarchief.nl/onderzoeken/archief/2.05.12?page=1"
+>
+>    Relevant sources: Wels, Santen
+>
+>3) Find additional information about Dutch diplomatic represenatives, current information is quite brief
+
+Translation:
+
+>1) Convert additional _griglie_ from Rome into standard that is compatible with programs (add identifiers, check for new individuals, etc.)
+>2) Write additional translation or titles which are not recognized yet (contact Daniël about regular expressions)
+>3) Control translations
+
+Daniël:
+
+>1) Contact Nationaal Archief about EAD and _.pdf_ conversion
+>2) Contact Rome about inconsistent document numbering. Use of "b", "v", "bis" (see commented code in `/python/functions/xlsx_sanitize.py`)
+>3) If needed, translate individuals database into all languages (dependent on requirements of site)
+>4) Find a way to apply _italics_ in titles and functions (indicated by '\_text\_') to _.xlsx_ documents
