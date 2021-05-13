@@ -50,8 +50,20 @@ def check_entries(input_file):
     used_functions = []
 
     for identifier, data in persons_in_file.items():
+        # Check if entry is correctly sorted
+        if len(data["sources"]) > 1 and data["sources"] != sorted(data["sources"]):
+            raise Exception(f"Incorrect sorting of sources found for {identifier}")
+        if len(data["titles"]) > 1 and data["titles"] != sorted(
+            data["titles"], key=lambda x: (x[1] is not None, x[1])
+        ):
+            raise Exception(f"Incorrect sorting of titles found for {identifier}")
+        if len(data["functions"]) > 1 and data["functions"] != sorted(
+            data["functions"], key=lambda x: (x[1] is not None, x[1])
+        ):
+            raise Exception(f"Incorrect sorting of functions found for {identifier}")
+
         if identifier[0] != "$":
-            raise Exception(f"Incorrect identifier found for ${identifier}")
+            raise Exception(f"Incorrect identifier found for {identifier}")
 
         if identifier in identifiers.keys():
             raise Exception(f"Identifier of {data['surname']} is a duplicate")
@@ -96,4 +108,4 @@ if __name__ == "__main__":
     check_all_comments("inputs/Individuals.json")
     check_all_placenames("inputs/Individuals.json")
 
-    print("\nAll checks done!")
+    print("All checks done!")
