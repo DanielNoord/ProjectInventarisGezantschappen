@@ -26,7 +26,9 @@ SOURCE_PATTERNS = {
     r"'.*', in: A.J. van der AA, Biographisch woordenboek der Nederlanden. .* \(Haarlem, 18\d\d\)",
     r"'.*', in: Adolphe Robert, Edgar Bourloton and Gaston Cougny, Dictionnaire des parlementaires français. Volume \d* \(Parigi, 18\d\d\)",  # pylint: disable=line-too-long
     r"'.*', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/\d*",  # pylint: disable=line-too-long
+    r"'.*', in: Biographie de Chambre des représentants \(1831-1848\), found on: https://unionisme.be/.*.htm \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
     r"'.*', in: Charles Mullié, Biographie des célébrités militaires des armées de terre et de mer de 1789 à 1850 \(Paris, 1852\)",  # pylint: disable=line-too-long
+    r"'.*', in: Collectie portret-iconografie RKD \(20\d\d-\d\d-\d\d\), found on: https://rkd.nl/explore/images/\d*",  # pylint: disable=line-too-long
     r"'.*', in: Constantin von Wurzbach, Biographisches Lexikon des Kaiserthums Oesterreich. \d*. Teil \(Vienna, 18\d\d\)",  # pylint: disable=line-too-long
     r"'.*', in: Database of the Office of the Historian, found on https://history.state.gov/departmenthistory/people/.*",  # pylint: disable=line-too-long
     r"'.*', in: Hessische Biografie, found on https://www.lagis-hessen.de/pnd/.*",
@@ -34,6 +36,7 @@ SOURCE_PATTERNS = {
     r"'.*', in: Leopold von Zedlitz-Neukirch, Neues Preussisches Adels-Lexicon. Dritter Band I-O \(Leipzig, 18\d\d\), \d*",  # pylint: disable=line-too-long
     r"'.*', in: Österreichisches Biographisches Lexikon 1815–1950. Band \d* \(Vienna, 1957\)",
     r"'.*', in: Pierre Larousse, Grand dictionnaire universel du XIXe siècle. \d* \(Paris, 18\d\d\)",  # pylint: disable=line-too-long
+    r"'.*', in: Repositorio Memoria Documental Hondureña / Authority Records, found on: https://lilkaya.unah.edu.hn/index.php/.* \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
     r"'.*', in: Reseñas biográficas parlamentarias de Chile, found on: https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/.*",  # pylint: disable=line-too-long
     r"'.*', in: Wikisource Database \(2\d\d\d-\d\d-\d\d\), found on: https://it.wikisource.org/wiki/.*",  # pylint: disable=line-too-long
     r"Dutch Institute for Art History \(RKD\), '.*', found on: https://rkd.nl/explore/artists/\d*",
@@ -72,6 +75,8 @@ SOURCE_PATTERNS = {
     r".*, .*, '.*', in: Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, \d* \(19\d\d\), \d*-\d*",  # pylint: disable=line-too-long
     r".*, .*, '.*', in: Historisch Voorburg, \d*, \d* \(\d\d\d\d\)(, \d*)?",
     r".*, .*, '.*', in: Jaarboek van de Maatschappij der Nederlandse Letterkunde, 18\d\d \(Amsterdam, 18\d\d\), \d*-\d*",  # pylint: disable=line-too-long
+    r".*, .*, '.*', Rassegna storica del Risorgimento \d* \(1\d\d\d\) \d*, \d*-\d*(, \d*)?",
+    r".*, .*, '.*', Bijdragen en Mededelingen van het Historisch Genootschap \d* \(1\d\d\d\), \d*-\d*(, \d*)",  # pylint: disable=line-too-long
     r"Allgemeiner Polizei-Anzeiger, Jahr .*, \d* \(Gotha, 18\d\d-\d\d-\d\d\), \d*",
     r"Bureaux de l'agence générale pour la défense de la liberté religieuse, Premier bulletin de l'agence générale pour la défense de la liberté religieuse \(Paris, 18\d\d-\d\d-\d\d\), \d*",  # pylint: disable=line-too-long
     r"De Nederlandsche Leeuw, \d*, \d* \(1\d\d\d-\d\d\), \d*",
@@ -108,11 +113,14 @@ SOURCE_PATTERNS = {
     r"Douma, Klaasje, De adel in Noord-Brabant, 1814-1918: groepsvorming, adellijke levensstijl en regionale identiteit \(Tilburg, 2015\)",  # pylint: disable=line-too-long
     r"Foreign Office, British and Foreign State Papers. 1833-1834, volume 22 \(London, 1847\), \d*",
     r"Frezza, Filippo, Dei camerieri segreti e d’onore del Sommo Pontefice: memorie storiche \(Rome, 1884\), 56",  # pylint: disable=line-too-long
+    r"Giovannetti, Giorgio, Il colle più alto: Ministero della Real casa, Segretariato generale, Presidenti della Repubblica \(Turin, 2017\), \d*(-\d*)?",  # pylint: disable=line-too-long
     r"Iacobini, Franco, Terrae Cinthiani, Storia di Genzano e della nobile Famiglia Iacobini \(Rome, 2003\)",  # pylint: disable=line-too-long
     r"Kallenberg, Lodewijk, Pieter Otto van der Chijs \(1802-1867\), zandgraf 242, vak F, \(Leiden, 2020\), found on https://www.begraafplaatsgroenesteeg.nl/N_B_personen/Artikel%20Van%20der%20Chijs.pdf",  # pylint: disable=line-too-long
     r"Lencisa, G.F., Ragionamento sulla rinnovazione del trattato di commercio e di navigazione conchiuso tra il Piemonte e la Francia nell'anno 1843, e della Convenzione speciale sulla proprietà letteraria annessa a quel trattato medesimo \(Turin, 1851\)",  # pylint: disable=line-too-long
+    r"Lisi, Constanza, Inventario dell'archivio del consolato del Granducato di Toscana in Roma \(1817-1853\) \(Rome, 1996\)",  # pylint: disable=line-too-long
     r"De Marchi, Giuseppe, Le nunziature apostoliche dal 1800 al 1956 \(Rome, 1957\), \d*",
     r"Martina, G., Pio IX \(1846-1850\) \(Rome, 1974\), \d*",
+    r"Mazzucato, Michele T., Il gioco degli Sacchi \(2015\), \d*",
     r"van der Meulen, M.E., Mijne Reis door Zwitserland naar de Waldenzen in Piemont’s Valleijen \(London, 1852\)",  # pylint: disable=line-too-long
     r"Mori, Renato, Le scritture della legazione e del consolato del Granducato di Toscana in Roma dal 1737 al 1859 \(Rome, 1959\)",  # pylint: disable=line-too-long
     r"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna \(Rome, 1947\), \d*(-\d*)?",  # pylint: disable=line-too-long
@@ -120,6 +128,7 @@ SOURCE_PATTERNS = {
     r"O'Byrne, Patrick Justin, Lives of the Cardinals. Part \d* \(1879, Londra\), \d*-\d*",
     r"Patrignani, Gian Luca and Franco Battistelli, 'Il tempo e la pietra - I marmi parlanti' Nuovo lapidario di Fano. Lapidario del centro storico \(Fano, 2010\), \d*",  # pylint: disable=line-too-long
     r"Pirri S.J., P. Pietro, Pio IX e Vittorio Emanuele II dal loro carteggio privato \(Rome, 1980\), \d*( and \d*)?",  # pylint: disable=line-too-long
+    r"Pittella, Raffaele, Archivio del Commissariato Generale della Camera Apostolica. Inventari 115 I-XIII \(Rome, 2017-2018\)", # pylint: disable=line-too-long
     r"Pohle, Frank, Alfred von Reumont \(1808–1887\) – Ein Diplomat als kultureller Mittler \(Berlin, 2015\)",  # pylint: disable=line-too-long
     r"de Régnon, M., Relation des événements qui ont précédé et suivi l'expulsion de 78 Anglais dits trappistes de Meilleraye \(Nantes, 1831\)",  # pylint: disable=line-too-long
     r"Ricci, Angelo Maria, Epistola Poetica a sua eccellenza reverendissima monsignor Achille Maria Ricci \(Rome, 1847\)",  # pylint: disable=line-too-long
@@ -130,23 +139,43 @@ SOURCE_PATTERNS = {
     r"Schijf, Huibert, Netwerken van een financieel-economische elite \(Amsterdam, 1993\), \d*",
     r"Schutte, O., Repertorium der Nederlandse vertegenwoordigers residerende in het buitenland 1584-1810 \(The Hague, 1976\), \d*",  # pylint: disable=line-too-long
     r"Schmidt-Brentano, Antonio, Die k. k. bzw. k. u. k. Generalität 1816-1918 \(Vienna 2007\), \d*",  # pylint: disable=line-too-long
+    r"Serra, Maria Teresa and Carlo Vanzetti, José Serra, Dal leone di Castìglia alla tiara di Pio IX \(1819-1878\) \(Verona, 1990\)",  # pylint: disable=line-too-long
     r"De Sivo, Giacinto, Storia delle Due Sicilie, volume 2 \(Brindisi, 2013\)",
     r"Smith, Robert and Brenda Packman, Memoirs of Giambattista Scala: Consul of his Italian Majesty in Lagos in Guinea \(1862\) \(Oxford, 2000\)",  # pylint: disable=line-too-long
     r"Solaro della Margarita, Clemente, Memorandum storico politico del conte Clemente Solaro della Margarita \(Turin, 1852\)",  # pylint: disable=line-too-long
     r"Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus \(Nijmegen, 1911\)",  # pylint: disable=line-too-long
     r"Sunti delle Dissertazioni lette nell'Accademia Liturgica, volume 1 \(Rome, 1843\), \d*",
     r"Thewes, Guy, Les gouvernements du Grand-Duché de Luxembourg depuis 1848 \(Luxembourg, 2011\), \d*",  # pylint: disable=line-too-long
+    r"Tribunale criminale supremo della Consulta, Sentenze del Tribunale criminale supremo della Consulta. Titolo 24 \(1849, Rome\), found on: https://books.google.nl/books\?id=lYOH86CTUMMC",  # pylint: disable=line-too-long
     r"Tupputi, Carla Lodolini, La Commissione governativa di Stato nella restaurazione pontificia \(17 luglio 1849-12 aprile 1850\) \(Milan, 1970\), \d*",  # pylint: disable=line-too-long
     r"van der Vijver, C., Geschiedkundige beschrijving der stad Amsterdam sedert hare wording tot op den tegenwoordige tijd, deel 3 \(Amsterdam, 1846\), \d*",  # pylint: disable=line-too-long
     r"Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX \(1831-1859\): Catholic Revival, Society and Politics in 19th-century Europe \(Leuven, 2001\)",  # pylint: disable=line-too-long
     r"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 \(The Hague, 1972\), \d*",  # pylint: disable=line-too-long
     # Archives
+    r"Biblioteca Reale. Torino - Repertorio topografico dei fondi manoscritti, '.*', found on: http://cataloghistorici.bdi.sbn.it/file_viewer.php.*",  # pylint: disable=line-too-long
+    r"Camera dei deputati. Archivio storico, '.*', found on: https://archivio.camera.it/inventari/scheda/.*",  # pylint: disable=line-too-long
+    r"Haags Gemeentearchief, The Hague, '.*', inventory number: \d*-\d*, document number: \d*, found on: https://hdl.handle.net/.*",  # pylint: disable=line-too-long
     r"KADOC, Leuven, Archief van de Nederlandse jezuïeten",
     r"Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-\d\d",
     r"Nationaal Archief, The Hague, '.*', inventory number: \d*.\d*.\d*(.\d*)?",
     r"Stadsarchief Amsterdam, Amsterdam, '.*', inventory number: \d*(, document number: \d*.\d*.\d*(.\d*))?",  # pylint: disable=line-too-long
     r"Stadsarchief Rotterdam, Rotterdam, '.*', inventory number: \d*(, document number: \d*-\d*)?",
     r"Stadsarchief Utrecht, Utrecht, '.*', inventory number: \d*(, document number: \d*.\d*.\d*)?",
+    # Sites
+    r"'.*', in: Beni Ecclesiastici in web \(BeWeB\), found on: https://www.beweb.chiesacattolica.it/persone/persona/\d*/",  # pylint: disable=line-too-long
+    r"'.*', in: Wikipedia, de vrije encyclopedie \(20\d\d-\d\d-\d\d\), found on: https://nl.wikipedia.org/w/index.php\?title=.*&oldid=\d*",  # pylint: disable=line-too-long
+    r"'.*', in: Wikipedia, Die freie Enzyklopädie \(20\d\d-\d\d-\d\d\), found on: https://de.wikipedia.org/w/index.php\?title=.*&oldid=\d*",  # pylint: disable=line-too-long
+    r"'.*', in: Wikipedia, L'enciclopedia libera \(20\d\d-\d\d-\d\d\), found on: https://it.wikipedia.org/w/index.php\?title=.*&oldid=\d*",  # pylint: disable=line-too-long
+    r"'.*', in: Wikipédia, l'encyclopédie libre \(20\d\d-\d\d-\d\d\), found on: https://fr.wikipedia.org/w/index.php\?title=.*&oldid=\d*",  # pylint: disable=line-too-long
+    r"'.*', in: Wikipedia, La enciclopedia libre \(20\d\d-\d\d-\d\d\), found on: https://es.wikipedia.org/w/index.php\?title=.*&oldid=\d*",  # pylint: disable=line-too-long
+    r"'.*', in: Wikipedia, The Free Encyclopedia \(20\d\d-\d\d-\d\d\), found on: https://en.wikipedia.org/w/index.php\?title=.*&oldid=\d*",  # pylint: disable=line-too-long
+    r"van Hoboken, Alex Appelius, '.*', in: Genealogie van de Hobokens \(20\d\d-\d\d-\d\d\), found on: http://genealogie.vanhoboken.nl/getperson.php\?personID=.*&tree=.* \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
+    r"Klein Haneveld, Roeland, '.*', found on: https://www.kleinhaneveld.nl/kwartierstaten/gerda-tekst/ \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
+    r"Marandet-Legoux, Marie Anne, '.*', in: L'arbe de Marie Anne MARANDET-LEGOUX, Geneanet, found on: https://gw.geneanet.org/marmara2\?n=.*&oc=&p=.* \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
+    r"Ministério dos Negócios Estrangeiros, '.*', in: Portal Diplomático, found on: https://www.portaldiplomatico.mne.gov.pt/.* \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
+    r"Ocken, Lucas A., '.*', in: Stamboom Ocken, Genealogie Online, found on: https://www.genealogieonline.nl/stamboom-ocken/.*.php \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
+    r"Uytterhoeven, Ann, '.*', in: Familiegeschiedenis van Ann Uytterhoeven, Geneanet, found on: https://gw.geneanet.org/auytt\?lang=nl&p=.*&n=.*&oc=1 \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
+    r"Walbaum, Hubert, '.*', in: Stamboom Walbaum, Geneanet, found on: https://gw.geneanet.org/hubertwalbaum\?lang=en&n=.*&oc=0&p=.* \(retrieved on 202\d-\d\d-\d\d\)",  # pylint: disable=line-too-long
 }
 
 
@@ -210,7 +239,6 @@ def check_all_sources(filename):
         persons = json.load(file)
     del persons["$schema"]
     count_todo = 0
-    count_todo_type5 = 0
     probably_wrong = []
     compiled_source_patterns = [re.compile(f"{i}$") for i in SOURCE_PATTERNS]
     used_patterns = set()
@@ -282,14 +310,11 @@ def check_all_sources(filename):
 
             # If not known/missing
             else:
-                if data["person_type"] == 5:
-                    count_todo_type5 += 1
-                else:
-                    count_todo += 1
-                    if not source.startswith("http"):
-                        probably_wrong.append(source)
-                    print(count_todo, data["name"], data["surname"])
-                    print("", source)
+                count_todo += 1
+                if not source.startswith("http"):
+                    probably_wrong.append(source)
+                print(count_todo, data["name"], data["surname"])
+                print("", source)
 
     persons["$schema"] = "../static/JSON/Individuals.json"
 
@@ -303,8 +328,6 @@ def check_all_sources(filename):
         for i in probably_wrong:
             print("", i)
     unused_patterns = [i for i in compiled_source_patterns if not i in used_patterns]
-    if count_todo_type5:
-        print(f"{count_todo_type5} incorrect sources for individuals of type 5")
     if unused_patterns:
         print(f"Found the following unused source patterns:\n {unused_patterns}")
     print(f"Finished checking sources in {filename}!\n")

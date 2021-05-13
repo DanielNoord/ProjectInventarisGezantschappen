@@ -48,6 +48,10 @@
     "en_GB": "Ancona",
     "nl_NL": "Ancona"
   },
+  "Anversa": {
+    "en_GB": "Antwerp",
+    "nl_NL": "Antwerpen"
+  },
   "Apeldoorn": {
     "en_GB": "Apeldoorn",
     "nl_NL": "Apeldoorn"
@@ -267,6 +271,10 @@
   "Delft": {
     "en_GB": "Delft",
     "nl_NL": "Delft"
+  },
+  "Delémont": {
+    "en_GB": "Delémont",
+    "nl_NL": "Delémont"
   },
   "Dillenburg": {
     "en_GB": "Dillenburg",
@@ -560,6 +568,10 @@
     "en_GB": "Modena",
     "nl_NL": "Modena"
   },
+  "Monaco di Baviera": {
+    "en_GB": "Munich",
+    "nl_NL": "München"
+  },
   "Moncalieri": {
     "en_GB": "Moncalieri",
     "nl_NL": "Moncalieri"
@@ -667,6 +679,10 @@
   "Pontedera": {
     "en_GB": "Pontedera",
     "nl_NL": "Pontedera"
+  },
+  "Prignano sulla Secchia": {
+    "en_GB": "Prignano sulla Secchia",
+    "nl_NL": "Prignano sulla Secchia"
   },
   "Reggio nell’Emilia": {
     "en_GB": "Reggio nell’Emilia",
@@ -819,6 +835,10 @@
   "Sterpenich": {
     "en_GB": "Sterpenich",
     "nl_NL": "Sterpenich"
+  },
+  "Stoccarda": {
+    "en_GB": "Stuttgart",
+    "nl_NL": "Stuttgart"
   },
   "Stoccolma": {
     "en_GB": "Stockholm",

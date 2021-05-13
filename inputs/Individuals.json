@@ -41,7 +41,7 @@
     "sources": [
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 669",
       "Nationaal Archief, The Hague, 'Inventaris van het archief van de familie Van Aerssen, Van Aerssen Beijeren van Voshol en aanverwante families, over de jaren (1418) 1584-1993 (2015)', inventory number: 1.10.01",
-      "https://www.genealogieonline.nl/stamboom-ocken/I20992.php"
+      "Ocken, Lucas A., 'Joost Peter van Aerssen Beijeren van Voshol, (1817-1857)', in: Stamboom Ocken, Genealogie Online, found on: https://www.genealogieonline.nl/stamboom-ocken/I20992.php (retrieved on 2021-05-13)"
     ],
     "surname": "van Aerssen Beijeren van Voshol",
     "titles": [["baron", null]]
@@ -107,7 +107,7 @@
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 356",
       "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 644 and 670",
       "Stadsarchief Amsterdam, Amsterdam, 'Inventaris van het Archief van de Familie Backer en Aanverwante Families', inventory number: 172, document number: 2.10.2.6",
-      "https://gw.geneanet.org/hubertwalbaum?lang=en&n=alewijn&oc=0&p=hendrick"
+      "Walbaum, Hubert, 'Hendrick ALEWIJN Enrico', in: Stamboom Walbaum, Geneanet, found on: https://gw.geneanet.org/hubertwalbaum?lang=en&n=alewijn&oc=0&p=hendrick (retrieved on 2021-05-13)"
     ],
     "surname": "Alewijn",
     "titles": []
@@ -392,7 +392,9 @@
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["https://it.wikipedia.org/wiki/Governo_(Stato_Pontificio)"],
+    "sources": [
+      "'Governo (Stato Pontificio)', in: Wikipedia, L'enciclopedia libera (2021-04-07), found on: https://it.wikipedia.org/w/index.php?title=Governo_(Stato_Pontificio)&oldid=119773648"
+    ],
     "surname": "Constantini Baldini",
     "titles": [["baron", null]]
   },
@@ -504,7 +506,10 @@
     "person_type": 1,
     "place_of_birth": "Roma",
     "place_of_death": "Firenze",
-    "sources": ["https://it.wikipedia.org/wiki/Domenico_Bartolini_(cardinale)"],
+    "sources": [
+      "'Domenico Bartolini (cardinale)', in: Wikipedia, L'enciclopedia libera (2020-06-21), found on: https://it.wikipedia.org/w/index.php?title=Domenico_Bartolini_(cardinale)&oldid=113828284",
+      "'Domenico Bartolini', in: Beni Ecclesiastici in web (BeWeB), found on: https://www.beweb.chiesacattolica.it/persone/persona/1402/"
+    ],
     "surname": "Bartolini",
     "titles": []
   },
@@ -805,15 +810,17 @@
   "$Berti": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1828",
+    "date_of_death": "1890-10-29",
     "functions": [["_Questore_ van Rome", null]],
     "images": [""],
     "name": "Luigi",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": ["https://it.wikipedia.org/wiki/Luigi_Berti"],
+    "place_of_birth": "Prignano sulla Secchia",
+    "place_of_death": "Modena",
+    "sources": [
+      "'Luigi Berti', in: Wikipedia, L'enciclopedia libera (2020-04-30), found on: https://it.wikipedia.org/w/index.php?title=Luigi_Berti&oldid=112628480"
+    ],
     "surname": "Berti",
     "titles": []
   },
@@ -939,7 +946,7 @@
     "place_of_death": "Contrexéville",
     "sources": [
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 671",
-      "https://nl.wikipedia.org/wiki/Friedrich_Georg_Prosper_von_Blochausen",
+      "'Friedrich Georg Prosper von Blochausen', in: Wikipedia, de vrije encyclopedie (2020-06-11), found on: https://nl.wikipedia.org/w/index.php?title=Friedrich_Georg_Prosper_von_Blochausen&oldid=56522258",
       "Mersch, Jules, Biographie nationale du pays de Luxembourg depuis ses origines jusqu'à nos jours. Fascicule 09 (Luxembourg, 1958), 138, 146 and 158"
     ],
     "surname": "von Blochausen",
@@ -1179,7 +1186,7 @@
     "place_of_birth": "Parigi",
     "place_of_death": "Venezia",
     "sources": [
-      "https://it.wikipedia.org/wiki/Luisa_Maria_di_Borbone-Francia_(1819-1864)"
+      "'Luisa Maria di Borbone-Francia (1819-1864)', in: Wikipedia, L'enciclopedia libera (2021-04-18), found on: https://it.wikipedia.org/w/index.php?title=Luisa_Maria_di_Borbone-Francia_(1819-1864)&oldid=120001442"
     ],
     "surname": "di Borbone-Francia",
     "titles": []
@@ -1358,8 +1365,8 @@
     "place_of_birth": "Bruges",
     "place_of_death": "Bruxelles",
     "sources": [
-      "https://nl.wikipedia.org/wiki/Henri_de_Brouckère",
-      "https://unionisme.be/de_Brouckere.htm",
+      "'Henri de Brouckère', in: Wikipedia, de vrije encyclopedie (2021-04-23), found on: https://nl.wikipedia.org/w/index.php?title=Henri_de_Brouck%C3%A8re&oldid=58763802",
+      "'Henri DE BROUCKERE (1801-1891)', in: Biographie de Chambre des représentants (1831-1848), found on: https://unionisme.be/de_Brouckere.htm (retrieved on 2021-05-13)",
       "Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX (1831-1859): Catholic Revival, Society and Politics in 19th-century Europe (Leuven, 2001)"
     ],
     "surname": "de Brouckère",
@@ -1500,7 +1507,9 @@
     "person_type": 1,
     "place_of_birth": "Cordova",
     "place_of_death": "Santa Fe",
-    "sources": ["https://es.wikipedia.org/wiki/Juan_del_Campillo"],
+    "sources": [
+      "'Juan del Campillo', in: Wikipedia, La enciclopedia libre (2021-04-12), found on: https://es.wikipedia.org/w/index.php?title=Juan_del_Campillo&oldid=134699896"
+    ],
     "surname": "del Campillo",
     "titles": []
   },
@@ -1518,7 +1527,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://www.giappichelli.it/media/catalog/product/excerpt/9788892108400.pdf, pages 9-10"
+      "Giovannetti, Giorgio, Il colle più alto: Ministero della Real casa, Segretariato generale, Presidenti della Repubblica (Turin, 2017), 9-10"
     ],
     "surname": "Canera di Salasco",
     "titles": []
@@ -1568,8 +1577,8 @@
   "$Cankrien": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1802",
+    "date_of_death": "1890-12-26",
     "functions": [
       [
         "Consul van het Koninkrijk der Nederlanden te Marseille",
@@ -1579,11 +1588,11 @@
     "images": [""],
     "name": "Richard Christoffel",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Rotterdam",
+    "place_of_death": "Anversa",
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 348",
-      "https://genealogie.vanhoboken.nl/getperson.php?personID=I12444&tree=Hoboken"
+      "van Hoboken, Alex Appelius, 'Richard Christoffel Cankrien', in: Genealogie van de Hobokens (2020-08-10), found on: http://genealogie.vanhoboken.nl/getperson.php?personID=I12444&tree=Hoboken (retrieved on 2021-05-13)"
     ],
     "surname": "Cankrien",
     "titles": []
@@ -1742,7 +1751,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://www.portaldiplomatico.mne.gov.pt/relacoesbilaterais/historia-diplomatica?view=article&id=646:santa-se-titulares&catid=120"
+      "Ministério dos Negócios Estrangeiros, 'História Diplomática / Relações Diplomáticas / Titulares/ Santa Sé - Titulares', in: Portal Diplomático, found on: https://www.portaldiplomatico.mne.gov.pt/relacoesbilaterais/historia-diplomatica?view=article&id=646 (retrieved on 2021-05-13)"
     ],
     "surname": "de Carvalho",
     "titles": [["baron da Venda da Cruz", null]]
@@ -2031,7 +2040,7 @@
     "place_of_birth": "Parigi",
     "place_of_death": "Londra",
     "sources": [
-      "https://nl.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_Chimay_(1808-1886)",
+      "'Joseph de Riquet de Caraman Chimay (1808-1886)', in: Wikipedia, de vrije encyclopedie (2021-05-12), found on: https://nl.wikipedia.org/w/index.php?title=Joseph_de_Riquet_de_Caraman_Chimay_(1808-1886)&oldid=58929097",
       "Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 1847, volume 78 (Ghent, 1847), 110",
       "Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX (1831-1859): Catholic Revival, Society and Politics in 19th-century Europe (Leuven, 2001)"
     ],
@@ -2513,7 +2522,7 @@
     "place_of_birth": "Roma",
     "place_of_death": "Roma",
     "sources": [
-      "https://it.wikipedia.org/wiki/Urbano_Del_Drago_Biscia_Gentili,_I_principe_di_Mazzano_ed_Antuni",
+      "'Urbano Del Drago Biscia Gentili, I principe di Mazzano ed Antuni', in: Wikipedia, L'enciclopedia libera (2020-11-17), found on: https://it.wikipedia.org/w/index.php?title=Urbano_Del_Drago_Biscia_Gentili,_I_principe_di_Mazzano_ed_Antuni&oldid=116723588",
       "Almanacco Romano pel 1859. Raccolta dei primari dignitari e funzionari della citta' di Roma, Anno 5 (Rome, 1859), 83"
     ],
     "surname": "Del Drago Biscia Gentili",
@@ -2618,7 +2627,7 @@
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 657",
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 353",
       "Stadsarchief Rotterdam, Rotterdam, 'Archieven van de Familie Dutilh', inventory number: 160, document number: 78-81",
-      "https://gw.geneanet.org/marmara2?n=dutilh&oc=&p=daniel+pierre"
+      "Marandet-Legoux, Marie Anne, 'Daniel Pierre DUTILH', in: L'arbe de Marie Anne MARANDET-LEGOUX, Geneanet, found on: https://gw.geneanet.org/marmara2?n=dutilh&oc=&p=daniel+pierre (retrieved on 2021-05-13)"
     ],
     "surname": "van Dutilh",
     "titles": []
@@ -2641,9 +2650,9 @@
     "place_of_birth": "Uccle",
     "place_of_death": "Torino",
     "sources": [
-      "https://www.dbnl.org/tekst/_bij005196501_01/_bij005196501_01_0008.php",
+      "Hooykaas, Gerard J., 'Brieven van A.G.A. van Rappard aan C.J. van Assen medegedeeld door G.J. Hooykaas', Bijdragen en Mededelingen van het Historisch Genootschap 80 (1966), 195-281, 222",
       "Eene Vereniging van Letterkundigen, Onze tijd: merkwaardige gebeurtenissen onzer dagen. Serie 3. Deel 2 (Amsterdam, 1858), 332",
-      "https://rkd.nl/explore/images/181673"
+      "'Portret van mogelijk Willem Hendrik van der Duyn (1819-1858)', in: Collectie portret-iconografie RKD (2016-12-27), found on: https://rkd.nl/explore/images/181673"
     ],
     "surname": "van der Duyn",
     "titles": [["baron", null]]
@@ -2806,7 +2815,9 @@
     "person_type": 1,
     "place_of_birth": "Barnstedt",
     "place_of_death": "Berna",
-    "sources": ["https://de.wikipedia.org/wiki/Georg_Otto_Carl_von_Estorff"],
+    "sources": [
+      "'Georg Otto Carl von Estorff', in: Wikipedia, Die freie Enzyklopädie (2021-04-18), found on: https://de.wikipedia.org/w/index.php?title=Georg_Otto_Carl_von_Estorff&oldid=211049508"
+    ],
     "surname": "von Estorf",
     "titles": [["baron", null]]
   },
@@ -2941,7 +2952,9 @@
     "person_type": 1,
     "place_of_birth": "Les Cayes",
     "place_of_death": "Vanves",
-    "sources": ["https://en.wikipedia.org/wiki/Pierre_Faubert"],
+    "sources": [
+      "'Pierre Faubert', in: Wikipedia, The Free Encyclopedia (2021-05-11), found on: https://en.wikipedia.org/w/index.php?title=Pierre_Faubert&oldid=1022595217"
+    ],
     "surname": "Faubert",
     "titles": []
   },
@@ -2988,7 +3001,9 @@
     "person_type": 1,
     "place_of_birth": "Napoli",
     "place_of_death": "Napoli",
-    "sources": ["https://it.wikipedia.org/wiki/Gennaro_Fergola"],
+    "sources": [
+      "'Gennaro Fergola', in: Wikipedia, L'enciclopedia libera (2021-04-03), found on: https://it.wikipedia.org/w/index.php?title=Gennaro_Fergola&oldid=119696605"
+    ],
     "surname": "Fergola",
     "titles": [["generaal", null]]
   },
@@ -3450,7 +3465,7 @@
     "place_of_birth": "Torino",
     "place_of_death": "Torino",
     "sources": [
-      "https://it.wikipedia.org/wiki/Paolo_Gazelli_di_Rossana",
+      "'Paolo Gazelli di Rossana', in: Wikipedia, L'enciclopedia libera (2020-09-09), found on: https://it.wikipedia.org/w/index.php?title=Paolo_Gazelli_di_Rossana&oldid=115427563",
       "Ministero dell'interno, Calendario generale pe' regii stati, (Turin, 1835), 194"
     ],
     "surname": "Gazelli di Rossana",
@@ -3755,7 +3770,7 @@
     "place_of_birth": "Dresda",
     "place_of_death": "Parigi",
     "sources": [
-      "https://it.wikipedia.org/wiki/Alessandro_Gonzaga,_principe_di_Castiglione"
+      "'Alessandro Gonzaga, principe di Castiglione', in: Wikipedia, L'enciclopedia libera (2021-02-14), found on: https://it.wikipedia.org/w/index.php?title=Alessandro_Gonzaga,_principe_di_Castiglione&oldid=118665912"
     ],
     "surname": "Gonzaga",
     "titles": []
@@ -3859,7 +3874,7 @@
     "functions": [
       [
         "Buitengewoon gezant en gevolmachtigd minister van de Republiek Honduras te Rome",
-        "1860/"
+        "1861/"
       ]
     ],
     "images": [""],
@@ -3868,8 +3883,8 @@
     "place_of_birth": "Tegucigalpa",
     "place_of_death": "San Sebastián",
     "sources": [
-      "https://es.wikipedia.org/wiki/Carlos_Gutiérrez_Lozano#cite_note-Rómulo_Durón_1-3",
-      "https://lilkaya.unah.edu.hn/index.php/carlos-gutierrez-lozano"
+      "'Carlos Gutiérrez Lozano', in: Wikipedia, La enciclopedia libre (2020-12-12), found on: https://es.wikipedia.org/w/index.php?title=Carlos_Guti%C3%A9rrez_Lozano&oldid=131642798",
+      "'Gutiérrez Lozano, Carlos', in: Repositorio Memoria Documental Hondureña / Authority Records, found on: https://lilkaya.unah.edu.hn/index.php/gutierrez-lozano-carlos (retrieved on 2021-05-13)"
     ],
     "surname": "Gutiérrez Lozano",
     "titles": []
@@ -4038,7 +4053,7 @@
     "place_of_death": "Livorno",
     "sources": [
       "Perthes, Justus, Almanach de Gotha. Annuaire diplomatique et statistique pour l'année 1861 (Gotha, 1861), 858",
-      "https://rkd.nl/nl/explore/images/128154"
+      "'Portret van Louis Roch Marie Heukensfeldt Slaghek (1830-1886)', in: Collectie portret-iconografie RKD (2017-01-28), found on: https://rkd.nl/explore/images/128154"
     ],
     "surname": "Heukensfeldt Slaghek",
     "titles": []
@@ -4062,7 +4077,7 @@
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 318",
       "Staats-almanak voor den jare 1828 (The Hague, 1828), 146",
-      "https://www.matematicamente.it/giochi/scacchi/Mazzucato-scacchi.pdf"
+      "Mazzucato, Michele T., Il gioco degli Sacchi (2015), 44"
     ],
     "surname": "van der Hoeven",
     "titles": [["ridder", null]]
@@ -4085,7 +4100,7 @@
     "place_of_death": "Venezia",
     "sources": [
       "Ministero dell'interno, Calendario generale del Regno d'Italia, (Turin, 1874), 133",
-      "https://rkd.nl/nl/explore/images/231871"
+      "'Portret van Frederik Philip van der Hoeven (1832-1904), 1856 gedateerd', in: Collectie portret-iconografie RKD (2014-06-12), found on: https://rkd.nl/explore/images/231871"
     ],
     "surname": "van der Hoeven",
     "titles": [["ridder", null]]
@@ -4177,7 +4192,7 @@
     "place_of_birth": "Genzano di Roma",
     "place_of_death": "Roma",
     "sources": [
-      "https://it.wikipedia.org/wiki/Camillo_Jacobini",
+      "'Camillo Jacobini', in: Wikipedia, L'enciclopedia libera (2021-02-03), found on: https://it.wikipedia.org/w/index.php?title=Camillo_Jacobini&oldid=118413138",
       "Iacobini, Franco, Terrae Cinthiani, Storia di Genzano e della nobile Famiglia Iacobini (Rome, 2003)"
     ],
     "surname": "Jacobini",
@@ -4337,7 +4352,7 @@
     "place_of_birth": "",
     "place_of_death": "Barino",
     "sources": [
-      "https://hdl.handle.net/21.12124/F182B81C858C4D898C8237202A8FD9C1)"
+      "Haags Gemeentearchief, The Hague, 'Ambtenaar van de burgerlijke stand van de gemeente 's-Gravenhage', inventory number: 0335-01, document number: 1232, found on: https://hdl.handle.net/21.12124/F182B81C858C4D898C8237202A8FD9C1"
     ],
     "surname": "van der Kemp",
     "titles": []
@@ -4375,7 +4390,9 @@
     "person_type": 4,
     "place_of_birth": "Mosca",
     "place_of_death": "Parigi",
-    "sources": ["https://ru.wikipedia.org/wiki/Киселёв,_Павел_Дмитриевич"],
+    "sources": [
+      "'Pavel Kiselyov', in: Wikipedia, The Free Encyclopedia (2021-05-07), found on: https://en.wikipedia.org/w/index.php?title=Pavel_Kiselyov&oldid=1021866642"
+    ],
     "surname": "Kiseljov",
     "titles": [["graaf", null]]
   },
@@ -4463,7 +4480,9 @@
     "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["https://de.wikipedia.org/wiki/Max_K%C3%BCbeck_von_K%C3%BCbau"],
+    "sources": [
+      "'Max Kübeck von Kübau', in: Wikipedia, Die freie Enzyklopädie (2021-02-11), found on: https://de.wikipedia.org/w/index.php?title=Max_K%C3%BCbeck_von_K%C3%BCbau&oldid=208687594"
+    ],
     "surname": "von Kübau",
     "titles": [["Freiherr", null]]
   },
@@ -4520,10 +4539,10 @@
     "images": [""],
     "name": "Pier Girolamo",
     "person_type": 1,
-    "place_of_birth": "",
+    "place_of_birth": "Fano",
     "place_of_death": "",
     "sources": [
-      "https://www.risorgimento.it/rassegna/index.php?id=31103&ricerca_inizio=0&ricerca_query=&ricerca_ordine=DESC&ricerca_libera="
+      "Dalla Torre, Paolo, 'Materiali per una storia dell'esercito pontifico', Rassegna storica del Risorgimento 28 (1941) 1, 45-99, 83"
     ],
     "surname": "Lanci",
     "titles": [["luitenant-kolonel", null]]
@@ -4647,7 +4666,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://books.google.nl/books?id=lYOH86CTUMMC&pg=PA103&lpg=PA103&dq=capitano+Lazzarini+Ancona&source=bl&ots=-sNI_0AlZI&sig=ACfU3U3jpSSE9d_jMzWTavnHfrqw4ci3_A&hl=nl&sa=X&ved=2ahUKEwjT-8HyqoDwAhVegv0HHYnKAJgQ6AEwD3oECBQQAw#v=onepage&q=capitano%20Lazzarini%20Ancona&f=false"
+      "Tribunale criminale supremo della Consulta, Sentenze del Tribunale criminale supremo della Consulta. Titolo 24 (1849, Rome), found on: https://books.google.nl/books?id=lYOH86CTUMMC"
     ],
     "surname": "Lazzarini",
     "titles": [["kapitein", null]]
@@ -4675,7 +4694,7 @@
     "place_of_birth": "Leida",
     "place_of_death": "L'Aia",
     "sources": [
-      "https://www.kleinhaneveld.nl/kwartierstaten/gerda-tekst/",
+      "Klein Haneveld, Roeland, 'Kwartierstaat van Gerda le Clercq', found on: https://www.kleinhaneveld.nl/kwartierstaten/gerda-tekst/ (retrieved on 2021-05-13)",
       "'Antonie le Clercq', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/37956470"
     ],
     "surname": "Le Clercq",
@@ -4923,7 +4942,9 @@
     "person_type": 4,
     "place_of_birth": "Città del Messico",
     "place_of_death": "Roma",
-    "sources": ["https://de.wikipedia.org/wiki/Fernando_Lorenzana"],
+    "sources": [
+      "'Fernando Lorenzana', in: Wikipedia, Die freie Enzyklopädie (2019-03-28), found on: https://de.wikipedia.org/w/index.php?title=Fernando_Lorenzana&oldid=187026014"
+    ],
     "surname": "Lorenzana",
     "titles": [["markies van Belmonte", null]]
   },
@@ -5279,7 +5300,7 @@
     "place_of_death": "Torino",
     "sources": [
       "Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), 17",
-      "https://fr.wikipedia.org/wiki/Rodolphe_de_Maistre"
+      "'Rodolphe de Maistre', in: Wikipédia, l'encyclopédie libre (2021-03-20), found on: https://fr.wikipedia.org/w/index.php?title=Rodolphe_de_Maistre&oldid=181072292"
     ],
     "surname": "de Maistre",
     "titles": [["graaf", null]]
@@ -5889,7 +5910,6 @@
     "place_of_birth": "Haarlem",
     "place_of_death": "Loosdrecht",
     "sources": [
-      "https://www.biografischportaal.nl/persoon/05380200",
       "van Tienhoven, Gijsbert, 'Levensbericht van Dr. J.C. Hacke van Mijnden', in: Jaarboek van de Maatschappij der Nederlandse Letterkunde, 1873 (Amsterdam, 1873), 113-144",
       "Stadsarchief Amsterdam, Amsterdam, 'Inventaris van het Archief van J.C. Hacke van Mijnden, J.C.S. Hacke van Mijnden-Elias , C.J. Hacke van Mijnden, G. van Tienhoven, A.S.M. van Tienhoven-Hacke en P.G. van Tienhoven', inventory number: 185",
       "'Jan Conrad Hacke van Mijnden', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/5380200"
@@ -5987,7 +6007,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://en.wikipedia.org/wiki/José_Mar%C3%ADa_Montoya_(diplomat)",
+      "'José María Montoya (diplomat)', in: Wikipedia, The Free Encyclopedia (2021-04-11), found on: https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Mar%C3%ADa_Montoya_(diplomat)&oldid=1017182462",
       "Santoni, Pedro, and Will Fowler, Mexico, 1848-1853: Los Años Olvidados (London, 2018), 58",
       "Capitelli, G. and S. Cracolici, Roma en Mexico – Mexico en Roma. Las academias de arte entre Europa y el Nuevo Mundo, 1843-1867 (Rome, 2018)"
     ],
@@ -6576,7 +6596,7 @@
     "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["$DominicisMZ"],
+    "sources": [""],
     "surname": "Pacca",
     "titles": []
   },
@@ -6620,9 +6640,8 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://es.wikipedia.org/wiki/Anexo:Embajadores_de_Espa%C3%B1a_ante_la_Santa_Sede",
-      "Gaceta de Madrid, N. 4800 (Madrid, 1847-11-05)",
-      "https://apostolische-nachfolge.de/willkommen-auf-https-apostolische-nachfolge-de/der-heilige-stuhl/das-beim-hl-stuhl-akkreditierte-diplomatische-korps/"
+      "'Anexo:Embajadores de España ante la Santa Sede', in: Wikipedia, La enciclopedia libre (2020-08-08), found on: https://es.wikipedia.org/w/index.php?title=Anexo:Embajadores_de_Espa%C3%B1a_ante_la_Santa_Sede&oldid=128335881",
+      "Gaceta de Madrid, N. 4800 (Madrid, 1847-11-05)"
     ],
     "surname": "Pacheco Gomez de Sandobal Mendoza",
     "titles": []
@@ -6632,7 +6651,9 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Commissaris-generaal van de Apostolische Kamer", "1856/"]],
+    "functions": [
+      ["Commissaris-generaal van de Apostolische Kamer", "1856/1861"]
+    ],
     "images": [""],
     "name": "Antonio",
     "person_type": 1,
@@ -6640,7 +6661,7 @@
     "place_of_death": "",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 185",
-      "https://www.cflr.beniculturali.it/Inventari/pdf/115.pdf"
+      "Pittella, Raffaele, Archivio del Commissariato Generale della Camera Apostolica. Inventari 115 I-XIII (Rome, 2017-2018)"
     ],
     "surname": "Pagnoncelli",
     "titles": []
@@ -6752,8 +6773,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://patrimonio.archiviodistatonapoli.it/asna-web/scheda/enti/0000000420/Amministrazione-generale-dei-dazi-indiretti-Napoli-.html",
-      "https://archivio.camera.it/inventari/scheda/archivio-del-parlamento-napoletano-1848-1849/CD1000000089/incartamento-d-giuseppe-parisi-pari-del-regno.html"
+      "Camera dei deputati. Archivio storico, 'Archivio del Parlamento napoletano (1848-1849) - Incartamento per d. Giuseppe Parisi, pari del regno', found on: https://archivio.camera.it/inventari/scheda/archivio-del-parlamento-napoletano-1848-1849/CD1000000089/incartamento-d-giuseppe-parisi-pari-del-regno.html?fromTree=1"
     ],
     "surname": "Parisi",
     "titles": []
@@ -6816,15 +6836,17 @@
   "$Pellissier": {
     "comment": "",
     "comment_daniel": "Ik vermoed Pierre Augustin Pellissier. Leefde in dezelfde tijd en heeft onder andere vertalingen van Plato gemaakt",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1819-09-30",
+    "date_of_death": "1894",
     "functions": [["Professor van filosofie", null]],
     "images": [""],
-    "name": "Auguste",
+    "name": "Pierre-Augustin",
     "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": ["https://worldcat.org/identities/lccn-no97002353/"],
+    "place_of_birth": "Parigi",
+    "place_of_death": "Parigi",
+    "sources": [
+      "'Pellissier (Pierre-Augustin)', in: Pierre Larousse, Grand dictionnaire universel du XIXe siècle. 17 (Paris, 1890)"
+    ],
     "surname": "Pellissier",
     "titles": []
   },
@@ -6875,7 +6897,7 @@
     "place_of_death": "Torino",
     "sources": [
       "Bianchi, Paola, 'Perrone, Carlo Baldassarre', in: Dizionario Biografico degli Italiani. Volume 82 (Rome, 2015), found on: https://www.treccani.it/enciclopedia/carlo-baldassarre-perrone_(Dizionario-Biografico)",
-      "http://cataloghistorici.bdi.sbn.it/file_viewer.php?IDIMG=15444&IDCAT=138&IDGRP=1380011&LEVEL=1&PADRE=1380001&PROV=INT",
+      "Biblioteca Reale. Torino - Repertorio topografico dei fondi manoscritti, '726. Ceremoniali di Corte', found on: http://cataloghistorici.bdi.sbn.it/file_viewer.php?IDIMG=15444&IDCAT=138&IDGRP=1380011",
       "Cozzo, Paolo, Andrea Merlotti and Andrea Nicolotti, The Shroud at Court: History, Usages, Places and Images of a Dynastic Relic (Leiden, 2019), 163"
     ],
     "surname": "Perrone di San Martino",
@@ -7290,7 +7312,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie",
+      "'Presidenti del Consiglio dei ministri del Regno delle Due Sicilie', in: Wikipedia, L'enciclopedia libera (2021-04-18), found on: https://it.wikipedia.org/w/index.php?title=Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie&oldid=120009225",
       "De Sivo, Giacinto, Storia delle Due Sicilie, volume 2 (Brindisi, 2013)"
     ],
     "surname": "Del Re",
@@ -7633,11 +7655,11 @@
     ],
     "images": ["https://rkd.nl/explore/images/144649"],
     "name": "Johannes",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "L'Aia",
     "place_of_death": "Erbach",
     "sources": [
-      "https://nl.wikipedia.org/wiki/Johannes_van_Rossum",
+      "'Johannes van Rossum', in: Wikipedia, de vrije encyclopedie (2021-04-19), found on: https://nl.wikipedia.org/w/index.php?title=Johannes_van_Rossum&oldid=58737838",
       "van der Leer, Kees and Marieke Spliethoff, 'Prinses Marianne: kunstenaars, dominees en een perlgrimage', in: Historisch Voorburg, 16, 1 (2020), 88"
     ],
     "surname": "van Rossum",
@@ -7747,8 +7769,8 @@
   "$Ruggero": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1816-02-12",
+    "date_of_death": "1896-10-09",
     "functions": [
       [
         "_Prelato ponente_ {bevoegd prelaat} en tribunaalsrechter van de Heilige Congregatie van de _Consulta_",
@@ -7758,9 +7780,11 @@
     "images": [""],
     "name": "Gaetano",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": ["https://en.wikipedia.org/wiki/Gaetano_de_Ruggiero"],
+    "place_of_birth": "Napoli",
+    "place_of_death": "Roma",
+    "sources": [
+      "'Gaetano de Ruggiero', in: Wikipedia, L'enciclopedia libera (2021-03-31), found on: https://it.wikipedia.org/w/index.php?title=Gaetano_de_Ruggiero&oldid=119649224"
+    ],
     "surname": "de Ruggiero",
     "titles": []
   },
@@ -7850,7 +7874,9 @@
     "person_type": 1,
     "place_of_birth": "Capua",
     "place_of_death": "Napoli",
-    "sources": ["https://it.wikipedia.org/wiki/Giovanni_Salzano_de_Luna"],
+    "sources": [
+      "'Giovanni Salzano de Luna', in: Wikipedia, L'enciclopedia libera (2021-04-30), found on: https://it.wikipedia.org/w/index.php?title=Giovanni_Salzano_de_Luna&oldid=120343105"
+    ],
     "surname": "Salzano de Luna",
     "titles": []
   },
@@ -8000,7 +8026,7 @@
     "place_of_death": "",
     "sources": [
       "Savini, Luigi, Al battaglione isolato della emerita guardia civica di cingoli ed appodiati (Loreto, 1848)",
-      "https://www.esteri.it/mae/servizi/archiviostorico/granducato_di_toscana_roma.pdf"
+      "Lisi, Constanza, Inventario dell'archivio del consolato del Granducato di Toscana in Roma (1817-1853) (Rome, 1996)"
     ],
     "surname": "Savini",
     "titles": []
@@ -8188,10 +8214,11 @@
     "images": [""],
     "name": "José",
     "person_type": 1,
-    "place_of_birth": "",
+    "place_of_birth": "Granada",
     "place_of_death": "",
     "sources": [
-      "https://www.risorgimento.it/rassegna/index.php?id=63754&ricerca_inizio=0&ricerca_query=&ricerca_ordine=DESC&ricerca_libera=",
+      "Serra, Maria Teresa and Carlo Vanzetti, José Serra, Dal leone di Castìglia alla tiara di Pio IX (1819-1878) (Verona, 1990)",
+      "Pariselli, Stefano, 'Libri e periodici', Rassegna storica del Risorgimento 81 (1994) 3, 418-419",
       "Archivum Historiae Pontificiae, volume 16 (Rome, 1978), 555"
     ],
     "surname": "Serra",
@@ -8567,7 +8594,7 @@
     "sources": [
       "Viaene, Vincent, Belgium and the Holy See from Gregory XVI to Pius IX (1831-1859): Catholic Revival, Society and Politics in 19th-century Europe (Leuven, 2001)",
       "Wegwyzer der stad Gent en provinciale almanach van Oost-Vlaenderen voor het jaer des zaligmakers 1847, volume 78 (Ghent, 1847), 110",
-      "https://nl.wikipedia.org/wiki/Charles_van_den_Steen_de_Jehay"
+      "'Charles van den Steen de Jehay', in: Wikipedia, de vrije encyclopedie (2021-04-24), found on: https://nl.wikipedia.org/w/index.php?title=Charles_van_den_Steen_de_Jehay&oldid=58778718"
     ],
     "surname": "van de Steen de Jehay",
     "titles": [["baron", null]]
@@ -8725,8 +8752,8 @@
   "$Tauffkirchen": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1826-07-07",
+    "date_of_death": "1895-04-26",
     "functions": [
       [
         "Gevolmachtigd minister van het Koninkrijk Beieren bij de Heilige Stoel",
@@ -8736,10 +8763,10 @@
     "images": [""],
     "name": "Carl",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Monaco di Baviera",
+    "place_of_death": "Stoccarda",
     "sources": [
-      "https://de.wikipedia.org/wiki/Carl_von_Tauffkirchen-Guttenburg"
+      "'Carl von Tauffkirchen-Guttenburg', in: Wikipedia, Die freie Enzyklopädie (2020-10-06), found on: https://de.wikipedia.org/w/index.php?title=Carl_von_Tauffkirchen-Guttenburg&oldid=204324530"
     ],
     "surname": "von Tauffkirchen-Guttenburg",
     "titles": [["graaf", null]]
@@ -9060,8 +9087,8 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://es.wikipedia.org/wiki/Condado_de_San_Pedro_del_Álamo",
-      "https://en.wikipedia.org/wiki/Bilateral_relations_between_Mexico_and_the_Holy_See_(1821–1855)#Ignacio_Valdivieso"
+      "'Condado de San Pedro del Álamo', in: Wikipedia, La enciclopedia libre (2021-03-16), found on: https://es.wikipedia.org/w/index.php?title=Condado_de_San_Pedro_del_%C3%81lamo&oldid=134032297",
+      "'Bilateral relations between Mexico and the Holy See (1821–1855)', in: Wikipedia, The Free Encyclopedia (2019-05-18), found on: https://en.wikipedia.org/w/index.php?title=Bilateral_relations_between_Mexico_and_the_Holy_See_(1821%E2%80%931855)&oldid=897598270"
     ],
     "surname": "de Valdivieso y Vidal de Lorca",
     "titles": [["graaf de San Pedro del Álamo", null]]
@@ -9165,7 +9192,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://www.portaldiplomatico.mne.gov.pt/relacoesbilaterais/historia-diplomatica?view=article&id=646:santa-se-titulares&catid=120"
+      "Ministério dos Negócios Estrangeiros, 'História Diplomática / Relações Diplomáticas / Titulares/ Santa Sé - Titulares', in: Portal Diplomático, found on: https://www.portaldiplomatico.mne.gov.pt/relacoesbilaterais/historia-diplomatica?view=article&id=646 (retrieved on 2021-05-13)"
     ],
     "surname": "de Vasconcelos e Sousa",
     "titles": []
@@ -9254,8 +9281,8 @@
   "$Verger": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1806-01-23",
+    "date_of_death": "1867-08-06",
     "functions": [
       [
         "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Beieren bij de Heilige Stoel en te Turijn en Napels",
@@ -9265,9 +9292,11 @@
     "images": [""],
     "name": "Ferdinand",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": ["https://de.wikipedia.org/wiki/Ferdinand_von_Verger"],
+    "place_of_birth": "Delémont",
+    "place_of_death": "Roma",
+    "sources": [
+      "'Ferdinand von Verger', in: Wikipedia, Die freie Enzyklopädie (2021-02-23), found on: https://de.wikipedia.org/w/index.php?title=Ferdinand_von_Verger&oldid=209116681"
+    ],
     "surname": "von Verger",
     "titles": []
   },
@@ -9361,7 +9390,9 @@
     "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["https://it.wikipedia.org/wiki/Diego_Vitrioli"],
+    "sources": [
+      "'Diego Vitrioli', in: Wikipedia, L'enciclopedia libera (2019-06-03), found on: https://it.wikipedia.org/w/index.php?title=Diego_Vitrioli&oldid=105378062"
+    ],
     "surname": "Vitrioli",
     "titles": []
   },
@@ -9548,7 +9579,7 @@
     "place_of_death": "Bruxelles",
     "sources": [
       "'Uytterhoeven (Jean-Baptiste)', in: Index Catalogue of the Library of the Surgeon-general's Office United States Army, volume 15 (Washington, 1894)",
-      "https://gw.geneanet.org/auytt?lang=nl&p=jean+baptiste&n=uytterhoeven&oc=1"
+      "Uytterhoeven, Ann, 'Jean Baptiste UYTTERHOEVEN', in: Familiegeschiedenis van Ann Uytterhoeven, Geneanet, found on: https://gw.geneanet.org/auytt?lang=nl&p=jean+baptiste&n=uytterhoeven&oc=1 (retrieved on 2021-05-13)"
     ],
     "surname": "Uytterhoeven",
     "titles": []
