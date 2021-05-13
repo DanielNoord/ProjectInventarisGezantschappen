@@ -438,6 +438,10 @@
     "date_of_birth": "1798-07-30",
     "date_of_death": "1868",
     "functions": [
+      [
+        "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane",
+        null
+      ],
       ["Kamerheer van de Groothertog van Toscane", "/1846-09-24"],
       [
         "Minister-resident van het Groothertogdom Toscane bij de Heilige Stoel",
@@ -446,10 +450,6 @@
       [
         "Gevolmachtigd minister van het Groothertogdom Toscane bij de Heilige Stoel",
         "1859-04-27/1866"
-      ],
-      [
-        "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane",
-        null
       ]
     ],
     "images": [""],
@@ -2444,11 +2444,11 @@
     "date_of_birth": "1799-11-21",
     "date_of_death": "1869-08-19",
     "functions": [
-      ["Senator van het Koninkrijk Sardinië", "1852-11-07/1869-08-10"],
       [
         "Minister van Buitenlandse Zaken van het Koninkrijk Sardinië",
         "1852-11-04/1855-01-10"
-      ]
+      ],
+      ["Senator van het Koninkrijk Sardinië", "1852-11-07/1869-08-10"]
     ],
     "images": [""],
     "name": "Giuseppe",
@@ -2638,11 +2638,11 @@
     "date_of_birth": "1819-04-15",
     "date_of_death": "1858-03-31",
     "functions": [
+      ["Kamerheer van de Koning der Nederlanden", "1847/1858-03-31"],
       [
         "Zaakgelastigde en later gezant van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië",
         "1856/1858"
-      ],
-      ["Kamerheer van de Koning der Nederlanden", "1847/1858-03-31"]
+      ]
     ],
     "images": ["https://rkd.nl/explore/images/181673"],
     "name": "Willem Hendrik",
@@ -3555,12 +3555,12 @@
     "date_of_birth": "1829-11-15",
     "date_of_death": "1882-07-31",
     "functions": [
+      ["Adviseur van de staat", null],
+      ["Lid van het Huis van Afgevaardigden van het Koninkrijk Italië", null],
       [
         "Secretaris-generaal van het ministerie van Binnenlandse Zaken",
         "1868-10-18/1869-05-13"
-      ],
-      ["Adviseur van de staat", null],
-      ["Lid van het Huis van Afgevaardigden van het Koninkrijk Italië", null]
+      ]
     ],
     "images": [""],
     "name": "Luigi",
@@ -4921,20 +4921,20 @@
         null
       ],
       [
-        "Gevolmachtigd minister van de Republiek van Costa Rica bij de Heilige Stoel",
-        "1850/1892"
-      ],
-      [
-        "Gevolmachtigd minister van de Republiek van Guatemala bij de Heilige Stoel",
-        "1851-06-23/"
-      ],
-      [
         "Gevolmachtigd minister van de Republiek van El Salvador bij de Heilige Stoel",
         null
       ],
       [
         "Gevolmachtigd minister van de Republiek van Bolivia bij de Heilige Stoel",
         null
+      ],
+      [
+        "Gevolmachtigd minister van de Republiek van Costa Rica bij de Heilige Stoel",
+        "1850/1892"
+      ],
+      [
+        "Gevolmachtigd minister van de Republiek van Guatemala bij de Heilige Stoel",
+        "1851-06-23/"
       ]
     ],
     "images": [""],
@@ -6242,8 +6242,8 @@
     "date_of_birth": "1812-04-12",
     "date_of_death": "1882-10-04",
     "functions": [
-      ["Luitenant-kolonel", "1849/1852"],
-      ["Ordonnans van Napoleon III Bonaparte", "1849/"]
+      ["Ordonnans van Napoleon III Bonaparte", "1849/"],
+      ["Luitenant-kolonel", "1849/1852"]
     ],
     "images": [""],
     "name": "Edgar Napoléon Henry",
@@ -7629,8 +7629,8 @@
     "date_of_birth": "1803",
     "date_of_death": "1857",
     "functions": [
-      ["Apostolisch delegaat te Civitavecchia", "1842-01-24/"],
-      ["Apostolisch delegaat te Ancona", "/1846-12-21"]
+      ["Apostolisch delegaat te Ancona", "/1846-12-21"],
+      ["Apostolisch delegaat te Civitavecchia", "1842-01-24/"]
     ],
     "images": [""],
     "name": "Stefano",
@@ -7928,6 +7928,7 @@
     "date_of_birth": "1796-02-18",
     "date_of_death": "1861-08-19",
     "functions": [
+      ["Plaatsvervangend kardinaal-staatssecretaris", "1844-02/1846-09"],
       [
         "Substituut voor Algemene Aangelegenheden van het Staatssecretariaat van de Heilige Stoel",
         "1846-09/1847-07-24"
@@ -7940,7 +7941,6 @@
         "Substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel",
         "1848-03/1851-04"
       ],
-      ["Plaatsvervangend kardinaal-staatssecretaris", "1844-02/1846-09"],
       ["Plaatsvervangend kardinaal-staatssecretaris", "1850-07-11/1853-03-07"]
     ],
     "images": [""],
@@ -8208,8 +8208,8 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Hoofdcommandant van de vesting van Civitavecchia", "/1870-09-16"],
-      ["Apostolisch delegaat te Civitavecchia", null]
+      ["Apostolisch delegaat te Civitavecchia", null],
+      ["Hoofdcommandant van de vesting van Civitavecchia", "/1870-09-16"]
     ],
     "images": [""],
     "name": "José",
@@ -9115,12 +9115,12 @@
     "date_of_death": "",
     "functions": [
       [
-        "Eerste staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië",
-        "1817-10-07/1817-12-26"
-      ],
-      [
         "Hoofdambtenaar van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië",
         "1817-03-29/1824-07-15"
+      ],
+      [
+        "Eerste staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië",
+        "1817-10-07/1817-12-26"
       ],
       [
         "Regent-secretaris van Buitenlandse Zaken van het Koninkrijk Sardinië",
@@ -9591,12 +9591,12 @@
     "date_of_death": "1885-02-04",
     "functions": [
       [
-        "Ad interim directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag",
-        "1848-04-17/1848-09-02"
-      ],
-      [
         "Lid en later vice-president en president van het Hooggerechtshof te Luxemburg",
         "1842-07-19/1853-09-22"
+      ],
+      [
+        "Ad interim directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag",
+        "1848-04-17/1848-09-02"
       ],
       [
         "Administrateur-generaal van Justitie van het Groothertogdom Luxemburg",
