@@ -2159,7 +2159,7 @@
     "functions": [["Luitenant van de militie van Mondovì", null]],
     "images": [""],
     "name": "Giambattista",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -2533,16 +2533,7 @@
     "comment_daniel": "I can't find this son.. In the letters he is reffered to as 'Charley' and I don't think he actually held any official titles.",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [
-      [
-        "Vice-consul van het Koninkrijk der Nederlanden te Genua",
-        "/1825-10-15"
-      ],
-      [
-        "Plaatsvervangend consul-generaal van het Koninkrijk der Nederlanden te Genua",
-        "1825-10-15/"
-      ]
-    ],
+    "functions": [],
     "images": [""],
     "name": "Carlo",
     "person_type": 2,
@@ -3072,7 +3063,7 @@
   },
   "$Ferrere": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "Writes a number of letters in ms278. No title or name is mentioned. Dizionario's and almanacco's of that period don't include a logical conte De Ferrere",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -3149,7 +3140,7 @@
   },
   "$Firoi": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "I believe he might be included in 'Dizionario bibliografico dell’Armata Sarda seimila biografie'",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -3576,7 +3567,7 @@
   },
   "$Getaz": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "ms311. Also referred to as vice consul. ",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -3587,7 +3578,7 @@
     ],
     "images": [""],
     "name": "François",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [""],
@@ -3740,7 +3731,7 @@
   },
   "$Goltz": {
     "comment": "",
-    "comment_daniel": "Kan hem niet vinden bij https://books.google.nl/books?id=IkRKAAAAcAAJ&pg=RA1-PA837&hl=nl&source=gbs_selected_pages&cad=2#v=snippet&q=Rom&f=false",
+    "comment_daniel": "ms331. Kan hem niet vinden bij https://books.google.nl/books?id=IkRKAAAAcAAJ&pg=RA1-PA837&hl=nl&source=gbs_selected_pages&cad=2#v=snippet&q=Rom&f=false",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -3751,7 +3742,7 @@
     ],
     "images": [""],
     "name": "",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [""],
@@ -4061,8 +4052,8 @@
   "$HoevenE": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1778",
+    "date_of_death": "1854",
     "functions": [
       [
         "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië",
@@ -4070,7 +4061,7 @@
       ]
     ],
     "images": [""],
-    "name": "E.",
+    "name": "Elias",
     "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
@@ -4311,7 +4302,7 @@
     ],
     "images": [""],
     "name": "L.",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -4456,7 +4447,7 @@
   },
   "$Kornis": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "Ergens gek dat ik deze nergens kan vinden..",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -4635,7 +4626,7 @@
   },
   "$Lauro": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "Eerste vermelding ms301. Ik heb het gevoel dat gerente (Directeur) eigenlijk Vice-consul is",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -4647,7 +4638,7 @@
     ],
     "images": [""],
     "name": "Francesco",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [""],
@@ -5423,7 +5414,7 @@
   },
   "$MariniF": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "Brieven in ms278",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -6208,7 +6199,7 @@
     "functions": [],
     "images": [""],
     "name": "",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [""],
@@ -7264,7 +7255,7 @@
     ],
     "images": [""],
     "name": "Auguste",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [

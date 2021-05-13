@@ -32,6 +32,14 @@
     "en_GB": "Note",
     "nl_NL": "Notitie"
   },
+  "Autoritès romaines$": {
+    "en_GB": "Autoritès romaines",
+    "nl_NL": "Autoritès romaines"
+  },
+  "Autre extrait du Journal de la Haye touchant les Mariages Mixtes$": {
+    "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
+    "nl_NL": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes"
+  },
   "Bianca$": {
     "en_GB": "Empty",
     "nl_NL": "Leeg"
@@ -52,6 +60,10 @@
     "en_GB": "Notes on the organization of the papal troops (report)",
     "nl_NL": "Opmerkingen over de organisatie van de pauselijke troepen (rapport)"
   },
+  "Chrestomathe eretique de l'ecphonographie Francais \\(a stampa\\)$": {
+    "en_GB": "Chrestomathe eretique de l'ecphonographie Francais (printed)",
+    "nl_NL": "Chrestomathe eretique de l'ecphonographie Francais (gedrukt)"
+  },
   "Circolare a stampa (di|del|della) (\\$\\w*) sulle eredità dei cittadini dei Paesi Bassi$": {
     "en_GB": "Printed circulaire of \\2 about the inheritances of the citizens of the Netherlands",
     "nl_NL": "Gedrukte circulaire van \\2 over de erfenissen van de burgers van Nederland"
@@ -59,6 +71,18 @@
   "Circolare a stampa (di|del|della) (\\$\\w*)$": {
     "en_GB": "Printed circulaire of \\2",
     "nl_NL": "Gedrukte circulaire van \\2"
+  },
+  "Consulat d'Ancona$": {
+    "en_GB": "Consulat d'Ancona",
+    "nl_NL": "Consulat d'Ancona"
+  },
+  "Consulat de Civitavecchia$": {
+    "en_GB": "Consulat de Civitavecchia",
+    "nl_NL": "Consulat de Civitavecchia"
+  },
+  "Consulat general de Naples$": {
+    "en_GB": "Consulat general de Naples",
+    "nl_NL": "Consulat general de Naples"
   },
   "Copia della lettera (di|del|della) (\\$\\w*) fatta (da|dal) (\\$\\w*)$": {
     "en_GB": "Copy of the letter of \\2 made by \\4",
@@ -100,6 +124,18 @@
     "en_GB": "Copies of dispatches, diplomas and correspondence of \\2",
     "nl_NL": "Kopieën van verzendingen, diploma's en correspondentie van \\2"
   },
+  "Correspondenance avec le department des affaires Etrangeres 1827-1829$": {
+    "en_GB": "Correspondenance avec le department des affaires Etrangeres 1827-1829",
+    "nl_NL": "Correspondenance avec le department des affaires Etrangeres 1827-1829"
+  },
+  "Correspondence avec les agents consulaires$": {
+    "en_GB": "Correspondence avec les agents consulaires",
+    "nl_NL": "Correspondence avec les agents consulaires"
+  },
+  "Corrispondence avec le coprs diplomatique$": {
+    "en_GB": "Corrispondence avec le coprs diplomatique",
+    "nl_NL": "Corrispondence avec le coprs diplomatique"
+  },
   "Descrizione della persona ricercata (\\$\\w*)$": {
     "en_GB": "Description of wanted person \\1",
     "nl_NL": "Signalement van \\1"
@@ -120,6 +156,10 @@
     "en_GB": "General Provisions to be observed \"par les envoyès et consuls à l'ètranger\" (printed) signed by \\1",
     "nl_NL": "Algemene bepalingen die in acht moeten worden genomen \"par les envoyès et consuls à l'ètranger\" (gedrukt) ondertekend door \\1"
   },
+  "Documents relatifs aux troupes ponticales$": {
+    "en_GB": "Documents relatifs aux troupes ponticales",
+    "nl_NL": "Documents relatifs aux troupes ponticales"
+  },
   "Editto (di|del|della) (\\$\\w*) sulle volture e traslazioni \\(a stampa\\)$": {
     "en_GB": "Edict of \\2 on transfers and translations (printed)",
     "nl_NL": "Edict van \\2 over overdrachten en vertalingen (gedrukt)"
@@ -131,6 +171,78 @@
   "Estratto di una lettera scritta al Consolato di S.M. il Re dei Paesi Bassi in Genova di 7 maggio 1825 circa l'arrivo di un Brigantino da guerra$": {
     "en_GB": "Extract from a letter to the consulate of H.M. the King of the Netherlands in Genoa on May 7, 1825 about the arrival of a war brigantine",
     "nl_NL": "Uittreksel uit een brief aan het consulaat van Z.M. de Koning der Nederlanden in Genua op 7 mei 1825 over de komst van een oorlogsbrigantijn"
+  },
+  "Etat de Mouvemens operés par les Batimens Néerlandais dans le Port de Génes, pendant le second semestre de l'an 1819$": {
+    "en_GB": "Etat de Mouvemens operés par les Batimens Néerlandais dans le Port de Génes, pendant le second semestre de l'an 1819",
+    "nl_NL": "Etat de Mouvemens operés par les Batimens Néerlandais dans le Port de Génes, pendant le second semestre de l'an 1819"
+  },
+  "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais dans le Port de Genes pendant le Second Semestre de l'an 1822$": {
+    "en_GB": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais dans le Port de Genes pendant le Second Semestre de l'an 1822",
+    "nl_NL": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais dans le Port de Genes pendant le Second Semestre de l'an 1822"
+  },
+  "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1821, dans le Port de Gènes$": {
+    "en_GB": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1821, dans le Port de Gènes",
+    "nl_NL": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1821, dans le Port de Gènes"
+  },
+  "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1822, dans le Port de Gènes$": {
+    "en_GB": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1822, dans le Port de Gènes",
+    "nl_NL": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1822, dans le Port de Gènes"
+  },
+  "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1823, dans le Port de Gènes$": {
+    "en_GB": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1823, dans le Port de Gènes",
+    "nl_NL": "Etat de mouvemens qui ont été operés par le Batimens Marchands Néerlandais pendant le Premier Semestre l'an 1823, dans le Port de Gènes"
+  },
+  "Etat de mouvemens qui ont été operés par le Batiments Marchands Nerlandais dans le Port de Genes pendant le second Semestre de l'an 1823$": {
+    "en_GB": "Etat de mouvemens qui ont été operés par le Batiments Marchands Nerlandais dans le Port de Genes pendant le second Semestre de l'an 1823",
+    "nl_NL": "Etat de mouvemens qui ont été operés par le Batiments Marchands Nerlandais dans le Port de Genes pendant le second Semestre de l'an 1823"
+  },
+  "Etat de mouvemens qui ont été operés par le Batiments Marchands Néerlandais dans le Port de Genes pendant toute l'année 1824$": {
+    "en_GB": "Etat de mouvemens qui ont été operés par le Batiments Marchands Néerlandais dans le Port de Genes pendant toute l'année 1824",
+    "nl_NL": "Etat de mouvemens qui ont été operés par le Batiments Marchands Néerlandais dans le Port de Genes pendant toute l'année 1824"
+  },
+  "Etat de mouvemens, qui ont été operés par le Batimens Néerlandais pendant le Premier Semestre l'an 1820, dans le Port de Gènes$": {
+    "en_GB": "Etat de mouvemens, qui ont été operés par le Batimens Néerlandais pendant le Premier Semestre l'an 1820, dans le Port de Gènes",
+    "nl_NL": "Etat de mouvemens, qui ont été operés par le Batimens Néerlandais pendant le Premier Semestre l'an 1820, dans le Port de Gènes"
+  },
+  "Etat des Batimens de guerre de la Marine Sarde presentement à Genes$": {
+    "en_GB": "Etat des Batimens de guerre de la Marine Sarde presentement à Genes",
+    "nl_NL": "Etat des Batimens de guerre de la Marine Sarde presentement à Genes"
+  },
+  "Etat des Vices-Consuls nommés dans le Réssort du Consolat Général de Genova, en vertù de l'Autorité accordée, par ler lettres patentes de S. M. le Roi des Pais-Bas, datée du 3 Octobre 1816, et reconnus par le Gouvernement de S. M. Sarde$": {
+    "en_GB": "Etat des Vices-Consuls nommés dans le Réssort du Consolat Général de Genova, en vertù de l'Autorité accordée, par ler lettres patentes de S. M. le Roi des Pais-Bas, datée du 3 Octobre 1816, et reconnus par le Gouvernement de S. M. Sarde",
+    "nl_NL": "Etat des Vices-Consuls nommés dans le Réssort du Consolat Général de Genova, en vertù de l'Autorité accordée, par ler lettres patentes de S. M. le Roi des Pais-Bas, datée du 3 Octobre 1816, et reconnus par le Gouvernement de S. M. Sarde"
+  },
+  "Etat des Vices-Consuls, nommés dans le Réssort du Consulat Général de Genes, en vertù de l'Autorité accordée, par les lettres Patentes de S. M. le Roi de Pays Bas datée du 3 Octobre 1816, et reconnus par le Gouvernement de S. M. Sarde$": {
+    "en_GB": "Etat des Vices-Consuls, nommés dans le Réssort du Consulat Général de Genes, en vertù de l'Autorité accordée, par les lettres Patentes de S. M. le Roi de Pays Bas datée du 3 Octobre 1816, et reconnus par le Gouvernement de S. M. Sarde",
+    "nl_NL": "Etat des Vices-Consuls, nommés dans le Réssort du Consulat Général de Genes, en vertù de l'Autorité accordée, par les lettres Patentes de S. M. le Roi de Pays Bas datée du 3 Octobre 1816, et reconnus par le Gouvernement de S. M. Sarde"
+  },
+  "Etat nominatif des V. Consuls de Pays Bas en charge dans le ressort du Consulat General qui ont obtenu l'exequatur à leur Diplome, et sont en exercice de leurs fonctions$": {
+    "en_GB": "Etat nominatif des V. Consuls de Pays Bas en charge dans le ressort du Consulat General qui ont obtenu l'exequatur à leur Diplome, et sont en exercice de leurs fonctions",
+    "nl_NL": "Etat nominatif des V. Consuls de Pays Bas en charge dans le ressort du Consulat General qui ont obtenu l'exequatur à leur Diplome, et sont en exercice de leurs fonctions"
+  },
+  "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions$": {
+    "en_GB": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions",
+    "nl_NL": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions"
+  },
+  "Extract de l'Indipendence Belge$": {
+    "en_GB": "Extract de l'Indipendence Belge",
+    "nl_NL": "Extract de l'Indipendence Belge"
+  },
+  "Extrait de la Quotidienne$": {
+    "en_GB": "Extrait de la Quotidienne",
+    "nl_NL": "Extrait de la Quotidienne"
+  },
+  "Extrait du Journal des Débats$": {
+    "en_GB": "Extrait du Journal des Débats",
+    "nl_NL": "Extrait du Journal des Débats"
+  },
+  "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816$": {
+    "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
+    "nl_NL": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816"
+  },
+  "Extrait du journal des Dèbats du fevrier 1844$": {
+    "en_GB": "Extrait du journal des Dèbats du fevrier 1844",
+    "nl_NL": "Extrait du journal des Dèbats du fevrier 1844"
   },
   "Foggia di vestire il lutto prescritto da S.M. per la morte del (\\$\\w*) \\(a stampa\\)$": {
     "en_GB": "Dress code for mourning from H.M. for the death of \\1 (printed)",
@@ -151,6 +263,10 @@
   "Giornale a stampa \"(.*?)\"$": {
     "en_GB": "Printed newspaper \"\\1\"",
     "nl_NL": "Gedrukte krant \"\\1\""
+  },
+  "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes$": {
+    "en_GB": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes",
+    "nl_NL": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes"
   },
   "Invito (a|al) (\\$\\w*) con allegata lista della dame dei Paesi Bassi$": {
     "en_GB": "Invitation for \\2 with attached a list of the ladies from the Netherlands",
@@ -388,6 +504,10 @@
     "en_GB": "Conscription list",
     "nl_NL": "Dienstplichtlijst"
   },
+  "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère$": {
+    "en_GB": "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère",
+    "nl_NL": "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère"
+  },
   "Memoria sui negoziati con il Regno di Sardegna$": {
     "en_GB": "Memory on the negotiations with the Kingdom of Sardinia",
     "nl_NL": "Memorie over de onderhandelingen met het Koninkrijk Sardinië"
@@ -484,9 +604,17 @@
     "en_GB": "News from Morocco",
     "nl_NL": "Nieuws uit Marokko"
   },
+  "Nouvelles de Constantinople du 10 juin 1822$": {
+    "en_GB": "Nouvelles de Constantinople du 10 juin 1822",
+    "nl_NL": "Nouvelles de Constantinople du 10 juin 1822"
+  },
   "Ordine del giorno (di|del|della) (\\$\\w*) \\(a stampa\\)$": {
     "en_GB": "Agenda of \\2 (printed)",
     "nl_NL": "Agenda van \\2 (gedrukt)"
+  },
+  "Osservations Preliminarire$": {
+    "en_GB": "Osservations Preliminarire",
+    "nl_NL": "Osservations Preliminarire"
   },
   "Programma delle feste in occasione del matrimonio tra la principessa Maria Anna di Savoia e Ferdinando V re d'Ungheria$": {
     "en_GB": "Program of the festivities for the wedding between princess Maria Anna of Savoy and Ferdinand V, King of Hungary",
@@ -507,6 +635,14 @@
   "Protocollo d'intesa sulle relazioni commerciali$": {
     "en_GB": "Memorandum of understanding on commercial relations",
     "nl_NL": "Memorandum van overeenstemming over commerciële relaties"
+  },
+  "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai$": {
+    "en_GB": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai",
+    "nl_NL": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai"
+  },
+  "Rapport sur la consommation et le commerce des sucres, et cafés dans les Etats Romains$": {
+    "en_GB": "Rapport sur la consommation et le commerce des sucres, et cafés dans les Etats Romains",
+    "nl_NL": "Rapport sur la consommation et le commerce des sucres, et cafés dans les Etats Romains"
   },
   "Registro dei dispacci arrivati": {
     "en_GB": "Register of received dispatches",
@@ -543,6 +679,10 @@
   "Ritaglio di giornale$": {
     "en_GB": "Newspaper clipping",
     "nl_NL": "Krantenknipsel"
+  },
+  "Seconde demande des heritiers Jochems de La Haye$": {
+    "en_GB": "Seconde demande des heritiers Jochems de La Haye",
+    "nl_NL": "Seconde demande des heritiers Jochems de La Haye"
   },
   "Sentenza in nome (di|del|della) (\\$\\w*) \\(a stampa\\) circa la condanna al carcere (di|del|della) (\\$\\w*) e (di|del|della) (\\$\\w*) come rei di aver divulgato in Bologna un proclama manoscritto diretto.+": {
     "en_GB": "Sentence in the name of \\2 (printed) regarding the sentencing to prison of \\4 and \\6 as guilty of having disclosed in Bologna a handwritten proclamation directed to the people of the Legations that incited a revolt (Bologna, July 28, 1844)",
@@ -587,5 +727,17 @@
   "Trascrizioni e copie di lettere fatte (da|dal) (\\$\\w*) indirizzate (a|ad) (\\$\\w*), Genova, Marsiglia, Barcellona": {
     "en_GB": "Transcriptions and copies of letters made by \\2 addressed to \\4, Genoa, Marseille, Barcelona",
     "nl_NL": "Transcripties en kopieën van brieven gemaakt door \\2 gericht aan \\4, Genua, Marseille, Barcelona"
+  },
+  "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua$": {
+    "en_GB": "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua",
+    "nl_NL": "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua"
+  },
+  "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua$": {
+    "en_GB": "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua",
+    "nl_NL": "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua"
+  },
+  "Zes Maanden Lyst van Aankomst en Vertrek, der Nationale Schapen in de Haven Van Genua$": {
+    "en_GB": "Zes Maanden Lyst van Aankomst en Vertrek, der Nationale Schapen in de Haven Van Genua",
+    "nl_NL": "Zes Maanden Lyst van Aankomst en Vertrek, der Nationale Schapen in de Haven Van Genua"
   }
 }
