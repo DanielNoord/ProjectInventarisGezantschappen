@@ -42,9 +42,9 @@ def sanitize_xlsx(directory_name, file_name):
                 elif isinstance(line, str):
                     if line[-1] in [" ", ",", "."]:  # Remove final characters
                         line = line[:-1]
-                    if not line.startswith("ms"):
+                    if index != 0:
                         line = line[0].upper() + line[1:]
-                    line = line.replace("( ", "(").replace(" )", ")")
+                    line = line.replace("( ", "(").replace(" )", ")").replace("  ", " ")
                 row[index].value = line
 
     new_directory = directory_name.replace("inputs", "outputs").replace(
