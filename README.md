@@ -64,6 +64,10 @@ Translation:
 Daniël:
 
 >1) Contact Nationaal Archief about EAD and _.pdf_ conversion
->2) Contact Rome about inconsistent document numbering. Use of "b", "v", "bis" (see commented code in `/python/functions/xlsx_sanitize.py`)
->3) If needed, translate individuals database into all languages (dependent on requirements of site)
->4) Find a way to apply _italics_ in titles and functions (indicated by `_text_`) to _.xlsx_ documents
+>2) If needed, translate individuals database into all languages (dependent on requirements of site)
+>3) Find a way to apply _italics_ in titles and functions (indicated by `_text_`) to _.xlsx_ documents
+
+Project lead:
+
+>**1) Check if the numbering of documents in _griglie_ corresponds to scans** _Currently it does not..._
+>2) Contact Rome about inconsistent document numbering. Interchangeable use of "b", "v", "bis". For example differences between ms279 and ms280 (for Daniël: see related commented code in `/python/functions/xlsx_sanitize.py`)
