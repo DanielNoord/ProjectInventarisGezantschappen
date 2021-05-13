@@ -14,8 +14,6 @@ python3 program.py > file
 
 `docx_make_controls_translations.py` creates _.docx_ files from the _.json_ files containing translations.
 
-`docx_make.py` contains auxiliary functions used to write _.docx_ files.
-
 ## json_ category
 
 A number of functions related to the data files in _.json_. The documents starting with `json_check` contain checks for the individuals database and whether the data entered follows certain patterns. Running `json_control_database.py` loads all these programs and performs them and some additional checks.
