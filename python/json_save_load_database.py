@@ -1,4 +1,5 @@
 import json
+import os
 import re
 
 import docx
@@ -89,6 +90,9 @@ def merge_database(filename, previous_database_filename):
 
 
 if __name__ == "__main__":
+    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(dname)
+
     # save_database("inputs/Individuals.docx")
     load_database("inputs/Individuals.json", [])
     # merge_database("outputs/Individuals_without_types_0,1.docx", "inputs/Individuals.json")

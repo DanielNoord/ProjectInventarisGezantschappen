@@ -1,4 +1,5 @@
 import json
+import os
 
 from functions.helper_functions.extract_date import extract_date
 from functions.json_translate import initialize_translation_database
@@ -102,6 +103,9 @@ def check_entries(input_file):  # pylint: disable=too-many-locals, too-many-bran
 
 
 if __name__ == "__main__":
+    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(dname)
+
     check_translations()
     check_entries("inputs/Individuals.json")
     check_all_sources("inputs/Individuals.json")

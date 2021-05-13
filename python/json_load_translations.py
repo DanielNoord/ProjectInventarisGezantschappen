@@ -1,4 +1,5 @@
 import json
+import os
 import re
 
 import docx
@@ -94,6 +95,9 @@ def load_translations_titles(filename):
 
 
 if __name__ == "__main__":
+    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(dname)
+
     load_translations_documents("inputs/Translations/Controle/TranslatedDocumentTitles.docx")
     # load_translations_functions("inputs/Translations/Controle/TranslatedFunctions.docx")
     # load_translations_placenames("inputs/Translations/Controle/TranslatedPlacenames.docx")

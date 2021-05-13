@@ -1,4 +1,5 @@
 import json
+import os
 
 from functions.docx_make import list_of_translated_data
 
@@ -60,4 +61,7 @@ def create_controle_translations():
 
 
 if __name__ == "__main__":
+    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(dname)
+
     create_controle_translations()
