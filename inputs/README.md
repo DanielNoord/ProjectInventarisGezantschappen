@@ -70,7 +70,7 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
 
 ## Translations
 
-The directory Translations contains all translation of document titles, functions, places and titles in Dutch, Italian and English. Copies in _.docx_ can be found in the sub-direcotry `Controle`. Make sure to only add updates to either the _.docx_ or _.json_ files. JSON Schema's for the respective documents can be found in the `./static/JSON/` folder.
+The directory Translations contains all translation of document titles, functions, places and titles in Dutch, Italian and English. Copies in _.docx_ can be found in the same directory. Make sure to only add updates to either the _.docx_ or _.json_ files. JSON Schema's for the respective documents can be found in the `./static/JSON/` folder.
 
 The `TranslatedFunctions` en `TranslatedTitles` documents follow this structure:
 
