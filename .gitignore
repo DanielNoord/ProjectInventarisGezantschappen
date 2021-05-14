@@ -17,6 +17,7 @@ outputs/*
 !.pylintrc
 !Makepdf_*
 !README.md
+!requirements.txt
 
 # To be ignored in all directories
 **/.DS_Store
