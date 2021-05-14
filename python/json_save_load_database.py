@@ -62,7 +62,7 @@ def save_database(filename, previous_database=None):  # pylint: disable=too-many
         all_individuals = previous_database | all_individuals
 
     # Sort and Schema, shouldn't sort a dict but oh well..
-    all_individuals = {k: v for k, v in sorted(all_individuals.items(), key=lambda item: item[0])}
+    all_individuals = dict(sorted(all_individuals.items(), key=lambda item: item[0]))
     all_individuals = {"$schema": "../static/JSON/Individuals.json"} | all_individuals
 
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
@@ -100,6 +100,6 @@ if __name__ == "__main__":
     dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     os.chdir(dname)
 
-    # save_database("inputs/Individuals.docx")
-    load_database("inputs/Individuals.json", [])
+    save_database("inputs/Individuals.docx")
+    # load_database("inputs/Individuals.json", [])
     # merge_database("outputs/Individuals_without_types_0,1.docx", "inputs/Individuals.json")
