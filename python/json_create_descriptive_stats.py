@@ -59,10 +59,15 @@ def create_type_statistics(
             if data["titles"] != []:
                 c_titles += 1
     start_string = "    Number of entries with"
-    if skip:
-        print(f"For the entries excluding the types {' and '.join(str(i) for i in type_list)}")
+    if type_list != [] and skip or type_list != [0, 1, 2, 3, 4, 5] and not skip:
+        type_string = f"the types {' and '.join(str(i) for i in type_list)}:"
     else:
-        print(f"For the entries with the types {' and '.join(str(i) for i in type_list)}")
+        type_string = "the full database:"
+
+    if skip:
+        print(f"For the entries excluding {type_string}")
+    else:
+        print(f"For the entries of {type_string}")
     print(f"{start_string} comments: {c_comment}, {c_comment/c_surname:.2%}")
     print(f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel/c_surname:.2%}")
     print(f"{start_string} birth dates: {c_date_of_birth}, {c_date_of_birth/c_surname:.2%}")
