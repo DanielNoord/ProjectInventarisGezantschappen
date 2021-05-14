@@ -49,7 +49,7 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
     7) Place of death: Genova
     Place of death of individual in Italian.
 
-    8) Titles: jhr. (1821-09-01/1847-08-21)| ridder| baron (1847-08-22/) | hertog (/1860)
+    8) Titles: jhr. (1821-09-01/1847-08-21)| ridder| baron (1847-08-22/)| hertog (/1860)
     Titles of individual in Dutch. Multiple titles are seperated by `| `. If dates are known those can be added. Don't forget to add a `/` if only one date is known.
 
     9) Functions: _Governatore_ {gouverneur} van Rome, vice-camerlengo van de Rooms-Katholieke Kerk en directeur-generaal van de politie van Rome (1842/)
@@ -61,12 +61,16 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
     11) Comment from Daniël: How do we write this name?
     Comment from Daniël, often containing a question for the project lead.
 
-    12) Sources: Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (Den Haag, 1918), 356| van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (Den Haag, 1955), 644, 670| Stadsarchief Amsterdam, Amsterdam, inventory number: 2.10.2.6| https://gw.geneanet.org/hubertwalbaum?lang=en&n=alewijn&oc=0&p=hendrick
+    12) Sources: Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (L'Aia, 1918), 356| van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (L'Aia, 1955), 644, 670| Stadsarchief Amsterdam, Amsterdam, inventory number: 2.10.2.6
     Sources. Multiple sources are separeted by "| ". Places are in Italian. Links cannot be hyperlinks in .docx to prevent data loss.
 
     13) Images: https://rkd.nl/explore/images/144618| https://rkd.nl/explore/images/144620| https://rkd.nl/explore/images/144623| https://rkd.nl/explore/images/144637
     Images of the individual. Multiple sources are separeted by "| ". Places are in Italian. Links cannot be hyperlinks in .docx to prevent data loss.
 </details>
+
+### Adding a new individual to the database
+
+Adding a new individual to the database is possible both in the _.docx_ and _.json_ files. The most straight-forward method is to duplicate a previous entry and change the identifier to a new **unused** identifier. Subsequently, update all the fields to match the new individual. **Make sure to use the correct structure of the data fields**, even if fields are empty. For the _.docx_ version the means to always add a single space after the `:`, so "Surname: " and **not** "Surname:". Otherwise conversion to _.json_ is impossible and the errors will need to fixed at a later time.
 
 ## Translations
 
