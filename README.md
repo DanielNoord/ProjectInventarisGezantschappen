@@ -29,13 +29,37 @@ Further documentation can be found in the included `README.md`.
 
 Contains JSON Schema's for the various _.json_ files in the inputs directory.
 
+## Project overview
+
+Some descriptive statistics about the data in the individuals database, as of 2021-05-04.
+
+Individuals with data fields:
+>|Field|n|%|
+>|:---:|:---:|:---:|
+>|Comments|82|17.41%
+>|'Daniël' comments|72|15.29%
+>|Birth date|288|61.15%
+>|Death date|294|62.24%
+>|Functions|377|80.04%
+>|Images|50|10.62%
+>|Name|448|95.12%
+>|Place of birth|279|59.24%
+>|Place of death|281|59.66%
+>|Sources|380|80.68%
+>|Surname|471|100%
+>|Titles|210|44.59%
+
+Individuals of type:
+>|Type|n|%
+>|:---:|:---:|:---:
+>|0|30|6.37%
+>|1|367|77.92%
+>|2|20|4.25%
+>|3|1|0.21%
+>|4|20|4.25%
+>|5|33|7.01%
+
 ## To-do list
-
-### Before hand-off by Daniël
-
->1) Finish persons with type 2
->2) Write last document titles
->3) Finish writing documentation
 
 ### Before end of project
 
@@ -67,10 +91,10 @@ Daniël:
 >1) Contact Nationaal Archief about EAD and _.pdf_ conversion
 >2) If needed, translate individuals database into all languages (dependent on requirements of site)
 >3) Find a way to apply _italics_ in titles and functions (indicated by `_text_`) to _.xlsx_ documents
->4) Final check of code, pip requirements and annotation
+>4) Final check of code and annotation
 
 Project lead:
 
->1) **Check if the numbering of documents in _griglie_ corresponds to scans** _(Currently it does not...)_
->2) Contact Rome about inconsistent document numbering. Interchangeable use of "b", "v", "bis". For example differences between ms279 and ms280 (for Daniël: see related commented code in `/python/functions/xlsx_sanitize.py`)
+>1) **Check if the numbering of documents in _griglie_ corresponds to scans.** Currently there are discrepancies between the document numbers in _griglie_ and in the directories uploaded by the scanners (see missing ms280\_94b). It is unclear what this "b" document refers to. Daniël has created controls to see if _griglie_ and numbers in directories with scans correspond, currently this produces numerous errors/warnings
+>2) **Contact Rome about inconsistent document number suffixes.** Interchangeable use of "b", "v", "V" "bis", etc. See for example differences between ms279 and ms280 (for Daniël: see related commented code in `./python/functions/xlsx_sanitize.py`). Daniël has created checks to see if numbers in _griglie_ are successive (including "bis"), but this can't currently handle these suffixes as it is unclear what they signify and therefore if their numbering can indeed be considered "successive". This and point 1 are especially important with the knowledge that later volumes also contains "inserted documents" > how do we number those?
 >3) Related to point 7 of _Individuals database_ list: do we want to link the database to international identification databases? (for example, see <https://en.wikipedia.org/wiki/International\_Standard\_Name\_Identifier>). Such databases often do not contain much additional information themselves but help link to other relevant sources, similar to _Biografisch Portaal_
