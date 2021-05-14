@@ -1,10 +1,11 @@
+#!/usr/bin/env python3
+
 import json
 
+from functions.docx_load import extract_persons, extract_translations
 from functions.helper_functions.parse_function_string import function as read_function
 from functions.helper_functions.parse_person_string import person as read_person
 from functions.helper_functions.parse_title_string import title as read_title
-from functions.docx_load import extract_persons
-from functions.docx_load import extract_translations
 
 
 def create_json_database(input_file):

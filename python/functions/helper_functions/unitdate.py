@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import lxml.etree as etree
 
 
@@ -24,6 +26,4 @@ def unitdate(parent_element, datestring, date1, date2, element_type):
                 udate_element.text = f"{date1}"
         elif date2:
             udate_element.text = f"Tot en met {date2}"
-            raise Exception(
-                "This element only has an end date. Check if this is correct!"
-            )
+            raise Exception("This element only has an end date. Check if this is correct!")

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from .check_date_for_function import check_date
 
 

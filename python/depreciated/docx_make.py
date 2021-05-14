@@ -1,5 +1,6 @@
-import docx
+#!/usr/bin/env python3
 
+import docx
 from create_data import used_functions_and_titles, used_names
 from functions.docx_make import list_to_be_translated, list_with_style
 

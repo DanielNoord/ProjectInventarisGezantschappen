@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 def check_begin(date, begin_date):  # pylint: disable=too-many-return-statements
     """Checks if a date falls after or on a specific date
 

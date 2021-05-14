@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 
 from functions.data_find_names import create_person

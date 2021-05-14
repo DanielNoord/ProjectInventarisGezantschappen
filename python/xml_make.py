@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import re
 from warnings import warn
@@ -21,11 +23,6 @@ def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
     """
     for file in sheet.iter_rows():
         if file[0].value is not None and not file[0].value.endswith("_0"):
-
-            # TODO: What does this mean?
-            if file[0].value in ["c", "C"]:
-                warn(f"Value is 'c' in {file[0].coordinate}")
-                break
             f_page, f_title, f_place, f_date = parse_file(file)
 
             # Check if file belongs to a dossier

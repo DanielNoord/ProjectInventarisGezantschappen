@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 def check_date_earlier(early_date, row):  # pylint: disable=too-many-return-statements
     """Check if the given date is earlier than other data
 

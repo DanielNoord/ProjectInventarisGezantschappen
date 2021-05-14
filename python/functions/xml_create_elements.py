@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from warnings import warn
 
 import lxml.etree as etree

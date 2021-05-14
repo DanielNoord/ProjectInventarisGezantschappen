@@ -1,10 +1,9 @@
+#!/usr/bin/env python3
+
 import re
 from warnings import warn
 
-from functions.helper_functions.check_date_for_earlylate import (
-    check_date_earlier,
-    check_date_later,
-)
+from functions.helper_functions.check_date_for_earlylate import check_date_earlier, check_date_later
 
 
 def parse_volume(vol):
