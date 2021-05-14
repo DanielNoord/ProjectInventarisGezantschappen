@@ -7,8 +7,7 @@ import re
 import docx
 
 from functions.docx_make import database
-from functions.helper_functions.parse_function_string import \
-    function as read_function
+from functions.helper_functions.parse_function_string import function as read_function
 from functions.helper_functions.parse_title_string import title as read_title
 
 
@@ -19,7 +18,7 @@ def save_database(filename, previous_database=None):  # pylint: disable=too-many
         filename (str): Filename of the input file
     """
     doc = docx.Document(filename)
-    all_individuals = {"$schema": "../static/JSON/Individuals.json"}
+    all_individuals = dict()
 
     for para in doc.paragraphs:
         (
@@ -61,6 +60,11 @@ def save_database(filename, previous_database=None):  # pylint: disable=too-many
         }
     if previous_database:
         all_individuals = previous_database | all_individuals
+
+    # Sort and Schema, shouldn't sort a dict but oh well..
+    all_individuals = {k: v for k, v in sorted(all_individuals.items(), key=lambda item: item[0])}
+    all_individuals = {"$schema": "../static/JSON/Individuals.json"} | all_individuals
+
     with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
         json.dump(all_individuals, file, ensure_ascii=False, indent=4)
     print("Wrote file to outputs/Individuals.json")
