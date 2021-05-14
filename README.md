@@ -47,6 +47,7 @@ Individuals database:
 >4) Check the images currently linked to individuals for usability, some images are not as relevant (photos of individuals when they were a child, etc.)
 >5) Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent so currently not sure how to refer to them
 >6) Look up individuals in _Dizionario bibliografico dell’Armata Sarda seimila biografie_. Relevant indivduals have _Dizionario bibliografico dell’Armata Sarda seimila biografie_ listed among their sources
+>7) _See if other databases might be relevant to be linked to database, and if so do so. For example Italian SBN/ICCU database and Cultura Italia. Contact Daniël to see if this can be automated_
 
 Additional information:
 
@@ -72,3 +73,4 @@ Project lead:
 
 >1) **Check if the numbering of documents in _griglie_ corresponds to scans** _(Currently it does not...)_
 >2) Contact Rome about inconsistent document numbering. Interchangeable use of "b", "v", "bis". For example differences between ms279 and ms280 (for Daniël: see related commented code in `/python/functions/xlsx_sanitize.py`)
+>3) Related to point 7 of _Individuals database_ list: do we want to link the database to international identification databases? (for example, see <https://en.wikipedia.org/wiki/International\_Standard\_Name\_Identifier>). Such databases often do not contain much additional information themselves but help link to other relevant sources, similar to _Biografisch Portaal_
