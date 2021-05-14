@@ -66,6 +66,7 @@ Daniël:
 >1) Contact Nationaal Archief about EAD and _.pdf_ conversion
 >2) If needed, translate individuals database into all languages (dependent on requirements of site)
 >3) Find a way to apply _italics_ in titles and functions (indicated by `_text_`) to _.xlsx_ documents
+>4) Final check of code, pip requirements and annotation
 
 Project lead:
 
