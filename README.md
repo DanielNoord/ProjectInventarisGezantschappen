@@ -6,19 +6,19 @@ This repository contains a number of python programs and data files used during 
 
 ### /ead2pdf
 
-Contains a submodule found on github that converts _.xml_ files to _.pdf_ files based on a _.xsl_ file.
+Contains a submodule found on GitHub that converts _.xml_ files to _.pdf_ files based on a _.xsl_ file.
 
-This particular submodule was mainly used during the initial phase of the project. For the final inventory a program made by the _Nationaal Archief_ will be used. This creates a _.pdf_ that is checked for compliancy with EAD standard.
+This particular submodule was mainly used during the initial phase of the project. For the final inventory a program made by the _Nationaal Archief_ will be used. This creates a _.pdf_ that is checked for compliancy with EAD standards.
 
 ### EADFiles
 
-Contains the _.dtd_ and _.xsl_ files needed for the ead2pdf submodule. Additional information about these file types can be found online.
+Contains the _.dtd_ and _.xsl_ files needed for the ead2pdf submodule. Additional information about these file types can be found online. Files will be removed after change to the _Nationaal Archief_ program.
 
 ### /inputs and /outputs
 
-Location of relevant data files and.
+Location of relevant data files and _griglie_.
 
-Both of these directories contain a `README.md` with addiational details about their content.
+Both of these directories contain a `README.md` with additional details about their content.
 
 ### /python
 
@@ -27,11 +27,11 @@ Further documentation can be found in the included `README.md`.
 
 ### /static
 
-Contains JSON Schema's for the various _.json_ files in the inputs directory.
+Contains JSON Schema's for the various _.json_ files in the inputs directory. Such files can be used by text-editors to check _.json_ files for basic rules (Is field `surname` only letters? Is `date of birth` a date?).
 
 ## Project overview
 
-Some descriptive statistics about the data in the individuals database, as of 2021-05-04.
+Some descriptive statistics about the data in the individuals database, as of 2021-05-14.
 
 Individuals with data fields:
 >|Field|n|%|
