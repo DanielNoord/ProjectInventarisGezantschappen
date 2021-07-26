@@ -79,6 +79,8 @@ def control_functions(data, translated_functions, identifier, used_functions):
                 "The month is not between 1 or 12 or you're not using a '/' correctly"
             ) from err
         print(err.args[0])
+        if err.args[0].startswith("The first date"):
+            raise ValueError(f"{err.args[0]} for '{function}' of {identifier}") from err
         raise ValueError(
             f"Unrecognized error. Please check the functions of {identifier} again"
         ) from err
@@ -128,10 +130,21 @@ def control_titles(data, translated_titles, identifier, used_titles):
                 f"{timeperiod} of '{title}' of {identifier} does not follow standard pattern.\n"
                 "The month is not between 1 or 12 or you're not using a '/' correctly"
             ) from err
+        if err.args[0].startswith("The first date"):
+            raise ValueError(f"{err.args[0]} for '{title}' of {identifier}") from err
         print(err.args[0])
         raise ValueError(
             f"Unrecognized error. Please check the titles of {identifier} again"
         ) from err
+
+
+def control_date(timeperiod):
+    """Controls date be calling extract_date() which raises exceptions for certain errors
+
+    Args:
+        timeperiod (string): String representation in standard date form
+    """
+    assert extract_date(timeperiod, "nl_NL")
 
 
 def check_entries(input_file):  # pylint: disable=too-many-branches
@@ -196,10 +209,10 @@ def check_entries(input_file):  # pylint: disable=too-many-branches
             control_functions(data, translated_functions, identifier, used_functions)
 
         if data["date_of_birth"] != [""]:
-            assert extract_date(data["date_of_birth"], "nl_NL")
+            control_date(data["date_of_birth"])
 
         if data["date_of_death"] != [""]:
-            assert extract_date(data["date_of_birth"], "nl_NL")
+            control_date(data["date_of_death"])
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
     unused_functions = [i for i in translated_functions.keys() if i not in used_functions]

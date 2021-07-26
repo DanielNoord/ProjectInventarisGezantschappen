@@ -14,32 +14,43 @@ def extract_date(date_string, localization):
         localization (string): [description]
 
     Returns:
-        date1 (string): The first date in text
-        date2 (string): The second date in text
+        date1_string (string): The first date in text
+        date2_string (string): The second date in text
     """
     locale.setlocale(locale.LC_ALL, localization)
-    date_pattern = re.compile(
-        r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$"
-    )
+    date_pattern = re.compile(r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$")
     y_1, m_1, d_1, y_2, m_2, d_2 = re.match(date_pattern, date_string).groups()
+    date1_datetime = None
+    date1_string = None
     if y_1:
         if m_1:
             if d_1:
-                date1 = datetime.date(int(y_1), int(m_1), int(d_1)).strftime("%d %B %Y")
+                date1_datetime = datetime.date(int(y_1), int(m_1), int(d_1))
+                date1_string = date1_datetime.strftime("%d %B %Y")
             else:
-                date1 = datetime.date(int(y_1), int(m_1), 1).strftime("%B %Y")
+                date1_datetime = datetime.date(int(y_1), int(m_1), 1)
+                date1_string = date1_datetime.strftime("%B %Y")
         else:
-            date1 = y_1
-    else:
-        date1 = None
+            date1_datetime = datetime.date(int(y_1), 1, 1)
+            date1_string = y_1
+
+    date2_datetime = None
+    date2_string = None
     if y_2:
         if m_2:
             if d_2:
-                date2 = datetime.date(int(y_2), int(m_2), int(d_2)).strftime("%d %B %Y")
+                date2_datetime = datetime.date(int(y_2), int(m_2), int(d_2))
+                date2_string = date2_datetime.strftime("%d %B %Y")
             else:
-                date2 = datetime.date(int(y_2), int(m_2), 1).strftime("%B %Y")
+                date2_datetime = datetime.date(int(y_2), int(m_2), 1)
+                date2_string = date2_datetime.strftime("%B %Y")
         else:
-            date2 = y_2
-    else:
-        date2 = None
-    return date1, date2
+            date2_datetime = datetime.date(int(y_2), 1, 1)
+            date2_string = y_2
+
+    # Make sure that date1 comes before date2
+    if date1_datetime and date2_datetime:
+        if date1_datetime > date2_datetime:
+            raise ValueError(f"The first date in {date_string} comes before the second date")
+
+    return date1_string, date2_string
