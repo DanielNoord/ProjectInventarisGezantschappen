@@ -14,15 +14,15 @@ def initialize_translation_database():
             For places:
                 Each entry (in "it_T") is a dictionary with the keys "nl_NL" and "en_GB"
     """
-    with open("inputs/Translations/Titles.json") as file:
+    with open("inputs/Translations/Titles.json", encoding="utf-8") as file:
         titles = json.load(file)
     del titles["$schema"]
 
-    with open("inputs/Translations/Functions.json") as file:
+    with open("inputs/Translations/Functions.json", encoding="utf-8") as file:
         functions = json.load(file)
     del functions["$schema"]
 
-    with open("inputs/Translations/Placenames.json") as file:
+    with open("inputs/Translations/Placenames.json", encoding="utf-8") as file:
         placenames = json.load(file)
     del placenames["$schema"]
 

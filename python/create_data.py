@@ -19,7 +19,7 @@ def person_with_identifier(input_file):
     Returns:
         dict: Dictionary with identifier as keys and translated full entries as values
     """
-    with open(input_file) as file:
+    with open(input_file, encoding="utf-8") as file:
         persons = json.load(file)
     del persons["$schema"]
     translation_data = initialize_translation_database()
@@ -57,7 +57,7 @@ def used_functions_and_titles(input_file):
         list: A list of all used functions
         list: A list of all used titles
     """
-    with open(input_file) as file:
+    with open(input_file, encoding="utf-8") as file:
         persons = json.load(file)
     del persons["$schema"]
     all_functions = []
@@ -83,7 +83,7 @@ def used_names(input_file):
     Returns:
         list: A list of all names
     """
-    with open(input_file) as file:
+    with open(input_file, encoding="utf-8") as file:
         persons = json.load(file)
     del persons["$schema"]
     translation_data = initialize_translation_database()

@@ -10,19 +10,19 @@ def create_controle_translations():
     """Create .docx files of all titles and functions found by the translate functions
     Includes Italian and English translations on second and third row
     """
-    with open("inputs/Translations/Titles.json") as file:
+    with open("inputs/Translations/Titles.json", encoding="utf-8") as file:
         titles = json.load(file)
     del titles["$schema"]
 
-    with open("inputs/Translations/Functions.json") as file:
+    with open("inputs/Translations/Functions.json", encoding="utf-8") as file:
         functions = json.load(file)
     del functions["$schema"]
 
-    with open("inputs/Translations/Placenames.json") as file:
+    with open("inputs/Translations/Placenames.json", encoding="utf-8") as file:
         placenames = json.load(file)
     del placenames["$schema"]
 
-    with open("inputs/Translations/DocumentTitles.json") as file:
+    with open("inputs/Translations/DocumentTitles.json", encoding="utf-8") as file:
         documents = json.load(file)
     del documents["$schema"]
 

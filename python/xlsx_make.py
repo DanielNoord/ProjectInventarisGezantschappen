@@ -20,7 +20,7 @@ def create_filled_xlsx(directory_name, localization):
         directory_name (str): Name of the directory with the input .xlsx files
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
     """
-    with open("inputs/Individuals.json") as file:
+    with open("inputs/Individuals.json", encoding="utf-8") as file:
         individuals_data = json.load(file)
     del individuals_data["$schema"]
     translation_data = initialize_translation_database()
@@ -100,7 +100,7 @@ def create_translated_xlsx(directory_name, localization):
         directory_name (str): Name of the directory with the input .xlsx files
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
     """
-    with open("inputs/Translations/DocumentTitles.json") as file:
+    with open("inputs/Translations/DocumentTitles.json", encoding="utf-8") as file:
         translations = json.loads(file.read())
     del translations["$schema"]
     translation_patterns = {re.compile(k): v for k, v in translations.items()}

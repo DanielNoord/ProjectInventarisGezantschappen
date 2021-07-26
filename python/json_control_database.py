@@ -45,7 +45,7 @@ def check_entries(input_file):  # pylint: disable=too-many-locals, too-many-bran
         Exception: Whenever something is missing/incorrect
     """
     translated_titles, translated_functions, _ = initialize_translation_database()
-    with open(input_file) as file:
+    with open(input_file, encoding="utf-8") as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
     identifiers = {}

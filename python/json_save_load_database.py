@@ -77,7 +77,7 @@ def load_database(filename, skip_types):
         filename (str): Name of the input file
         skip_types (list): Number of person types you might want to skip.
     """
-    with open(filename) as file:
+    with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
     del persons["$schema"]
     database(persons, "Individuals", skip_types)
@@ -91,7 +91,7 @@ def merge_database(filename, previous_database_filename):
         filename (str): Name of file of new data
         previous_database_filename (str): Name of file of old data
     """
-    with open(previous_database_filename) as file:
+    with open(previous_database_filename, encoding="utf-8") as file:
         prev_persons = json.load(file)
     save_database(filename, prev_persons)
 

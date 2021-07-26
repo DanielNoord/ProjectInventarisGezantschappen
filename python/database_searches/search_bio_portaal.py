@@ -11,7 +11,7 @@ def fetch_bio_portaal_names(filename):
     Args:
         filename (str): File name of initial database
     """
-    with open(filename) as file:
+    with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():

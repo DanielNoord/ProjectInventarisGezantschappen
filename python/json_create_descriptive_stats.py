@@ -27,7 +27,7 @@ def create_type_statistics(
     c_surname = 0
     c_titles = 0
 
-    with open(filename) as file:
+    with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
@@ -90,7 +90,7 @@ def create_total_statistics(filename):
     """
     c_types = [0, 0, 0, 0, 0, 0]
 
-    with open(filename) as file:
+    with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
