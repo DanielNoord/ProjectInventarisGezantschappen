@@ -34,6 +34,106 @@ def check_translations():
     print("Finished checking translations: no missing or broken ones found!\n")
 
 
+def control_functions(data, translated_functions, identifier, used_functions):
+    """Controls functions of the supplied data
+
+    Args:
+        data (dict): Data dict of identifier
+        translated_functions (dict): Dict with titles currently translated
+        identifier (string): Identifier of person with titles
+        used_functions (list): List to track titles in use in database
+
+    Raises:
+        KeyError: When function is not found in current translations
+        ValueError: When the function entry does not have 2 elements but too little
+        ValueError: When the function entry does not have 2 elements but too many
+        ValueError: When the timeperiod does not have a correct (1-12) month
+        ValueError: Unrecognized ValueError's
+    """
+    try:
+        for function, timeperiod in data["functions"]:
+            try:
+                assert translated_functions[function]
+            except KeyError as err:
+                raise KeyError(
+                    f"Don't recgonize '{function}' from {identifier}. "
+                    "Has it been added to inputs/Translations/Functions.json?"
+                ) from err
+            if timeperiod is not None:
+                assert extract_date(timeperiod, "nl_NL")
+            used_functions.append(function)
+    except ValueError as err:
+        if err.args[0] == "not enough values to unpack (expected 2, got 1)":
+            raise ValueError(
+                f"One of the functions of {identifier} does not follow standard pattern.\n"
+                "Perhaps you need to split the date and function? Or is not empty correctly?"
+            ) from err
+        if err.args[0] == "too many values to unpack (expected 2)":
+            raise ValueError(
+                f"One of the functions of {identifier} does not follow standard pattern.\n"
+                "There are too many strings"
+            ) from err
+        if err.args[0] == "month must be in 1..12":
+            raise ValueError(
+                f"{timeperiod} of '{function}' of {identifier} does not follow standard pattern.\n"
+                "The month is not between 1 or 12 or you're not using a '/' correctly"
+            ) from err
+        print(err.args[0])
+        raise ValueError(
+            f"Unrecognized error. Please check the functions of {identifier} again"
+        ) from err
+
+
+def control_titles(data, translated_titles, identifier, used_titles):
+    """Controls titles of the supplied data
+
+    Args:
+        data (dict): Data dict of identifier
+        translated_titles (dict): Dict with titles currently translated
+        identifier (string): Identifier of person with titles
+        used_titles (list): List to track titles in use in database
+
+    Raises:
+        KeyError: When title is not found in current translations
+        ValueError: When the title entry does not have 2 elements but too little
+        ValueError: When the title entry does not have 2 elements but too many
+        ValueError: When the timeperiod does not have a correct (1-12) month
+        ValueError: Unrecognized ValueError's
+    """
+    try:
+        for title, timeperiod in data["titles"]:
+            try:
+                assert translated_titles[title]
+            except KeyError as err:
+                raise KeyError(
+                    f"Don't recgonize '{title}' from {identifier}. "
+                    "Has it been added to inputs/Translations/Titles.json?"
+                ) from err
+            if timeperiod is not None:
+                assert extract_date(timeperiod, "nl_NL")
+            used_titles.append(title)
+    except ValueError as err:
+        if err.args[0] == "not enough values to unpack (expected 2, got 1)":
+            raise ValueError(
+                f"One of the titles of {identifier} does not follow standard pattern.\n"
+                "Perhaps you need to split the date and title? Or is not empty correctly?"
+            ) from err
+        if err.args[0] == "too many values to unpack (expected 2)":
+            raise ValueError(
+                f"One of the titles of {identifier} does not follow standard pattern.\n"
+                "There are too many strings"
+            ) from err
+        if err.args[0] == "month must be in 1..12":
+            raise ValueError(
+                f"{timeperiod} of '{title}' of {identifier} does not follow standard pattern.\n"
+                "The month is not between 1 or 12 or you're not using a '/' correctly"
+            ) from err
+        print(err.args[0])
+        raise ValueError(
+            f"Unrecognized error. Please check the titles of {identifier} again"
+        ) from err
+
+
 def check_entries(input_file):  # pylint: disable=too-many-locals, too-many-branches
     """Checks whether the input file is correct and fits all criteria of a correct database file
     Checks for unknown functions, titles, etc.
@@ -55,38 +155,45 @@ def check_entries(input_file):  # pylint: disable=too-many-locals, too-many-bran
     for identifier, data in persons_in_file.items():
         # Check if entry is correctly sorted
         if len(data["sources"]) > 1 and data["sources"] != sorted(data["sources"]):
-            raise Exception(f"Incorrect sorting of sources found for {identifier}")
+            raise Exception(
+                f"Incorrect sorting of sources found for {identifier}.\n"
+                "Try running json_sort_database.py and copying "
+                "outputs/Individuals.json to inputs/Individual.json"
+            )
+
         if len(data["titles"]) > 1 and data["titles"] != sorted(
             data["titles"], key=lambda x: (x[1] is not None, x[1])
         ):
-            raise Exception(f"Incorrect sorting of titles found for {identifier}")
+            raise Exception(
+                f"Incorrect sorting of titles found for {identifier}.\n"
+                "Make sure they are sorted based on their time"
+            )
+
         if len(data["functions"]) > 1 and data["functions"] != sorted(
             data["functions"], key=lambda x: (x[1] is not None, x[1])
         ):
-            raise Exception(f"Incorrect sorting of functions found for {identifier}")
+            raise Exception(
+                f"Incorrect sorting of functions found for {identifier}.\n"
+                "Make sure they are sorted based on their time"
+            )
 
         if identifier[0] != "$":
-            raise Exception(f"Incorrect identifier found for {identifier}")
+            raise Exception(
+                f"Incorrect identifier found for {identifier}.\n"
+                "Identifiers should start with an '$'"
+            )
 
         if identifier in identifiers.keys():
             raise Exception(f"Identifier of {data['surname']} is a duplicate")
 
-        if data["person_type"] not in [0, 1, 2, 3, 4, 5]:
-            raise Exception(f"Type of {data['surname']} is invalid")
+        if data["person_type"] not in [0, 1, 2, 3, 4, 5, 6]:
+            raise Exception(f"Type '{data['person_type']}' of {data['surname']} is invalid")
 
         if data["titles"] != [""]:
-            for title, timeperiod in data["titles"]:
-                assert translated_titles[title]
-                if timeperiod is not None:
-                    assert extract_date(timeperiod, "nl_NL")
-                used_titles.append(title)
+            control_titles(data, translated_titles, identifier, used_titles)
 
         if data["functions"] != [""]:
-            for function, timeperiod in data["functions"]:
-                assert translated_functions[function]
-                if timeperiod is not None:
-                    assert extract_date(timeperiod, "nl_NL")
-                used_functions.append(function)
+            control_functions(data, translated_functions, identifier, used_functions)
 
         if data["date_of_birth"] != [""]:
             assert extract_date(data["date_of_birth"], "nl_NL")
@@ -99,8 +206,10 @@ def check_entries(input_file):  # pylint: disable=too-many-locals, too-many-bran
 
     if unused_titles:
         print(f"    Found the following unused titles {unused_titles}")
+        print("    Please remove if no longer necessary!")
     if unused_functions:
         print(f"    Found the following unused functions {unused_functions}")
+        print("    Please remove if no longer necessary!")
     print(f"Finished checking database in {input_file}!\n")
 
 

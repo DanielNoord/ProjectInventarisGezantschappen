@@ -327,6 +327,8 @@ def check_all_sources(filename):  # pylint: disable=too-many-branches, too-many-
         print("Wrote file to outputs/Individuals.json")
     if probably_wrong:
         print("\nThese sources might be wrong")
+        print("They have not been added to the list in python/json_check_sources.py")
+        print(r"However, that list is awful anyway and is in dire need of updating :')")
         for i in probably_wrong:
             print("", i)
     unused_patterns = [i for i in compiled_source_patterns if not i in used_patterns]
