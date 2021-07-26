@@ -134,7 +134,7 @@ def control_titles(data, translated_titles, identifier, used_titles):
         ) from err
 
 
-def check_entries(input_file):  # pylint: disable=too-many-locals, too-many-branches
+def check_entries(input_file):  # pylint: disable=too-many-branches
     """Checks whether the input file is correct and fits all criteria of a correct database file
     Checks for unknown functions, titles, etc.
 
