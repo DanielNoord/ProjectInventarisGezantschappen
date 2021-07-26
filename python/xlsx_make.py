@@ -50,30 +50,22 @@ def create_xlsx_controle(directory_names):
             new_file = Workbook()
             new_sheet = new_file.active
             filename = os.fsdecode(file)
-            rows_original = [
-                i
-                for i in load_workbook(  # pylint: disable=unnecessary-comprehension
-                    f"{directory_names[0]}/{filename}"
-                ).active.rows
-            ]
-            rows_it = [
-                i
-                for i in load_workbook(  # pylint: disable=unnecessary-comprehension
+            rows_original = list(load_workbook(f"{directory_names[0]}/{filename}").active.rows)
+            rows_it = list(
+                load_workbook(
                     f"{directory_names[1]}/{filename.replace('.xlsx', '')}_it_IT.xlsx"
                 ).active.rows
-            ]
-            rows_en = [
-                i
-                for i in load_workbook(  # pylint: disable=unnecessary-comprehension
+            )
+            rows_en = list(
+                load_workbook(
                     f"{directory_names[2]}/{filename.replace('.xlsx', '')}_en_GB.xlsx"
                 ).active.rows
-            ]
-            rows_nl = [
-                i
-                for i in load_workbook(  # pylint: disable=unnecessary-comprehension
+            )
+            rows_nl = list(
+                load_workbook(
                     f"{directory_names[3]}/{filename.replace('.xlsx', '')}_nl_NL.xlsx"
                 ).active.rows
-            ]
+            )
             for index, row in enumerate(rows_original):
                 if row[0].value != rows_it[index][0].value:
                     raise Exception(
