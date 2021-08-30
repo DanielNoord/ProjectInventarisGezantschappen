@@ -1,6 +1,6 @@
-beautifulsoup4
-lxml
-openpyxl
-python-docx
-requests
-sparql-client
+beautifulsoup4==4.93
+lxml==4.6.3
+openpyxl==3.0.7
+python-docx==0.8.11
+requests==2.26.0
+sparql-client==3.8
