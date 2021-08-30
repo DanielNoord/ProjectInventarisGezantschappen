@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import lxml.etree as etree
+from lxml import etree
 
 
 def unitdate(parent_element, datestring, date1, date2, element_type):

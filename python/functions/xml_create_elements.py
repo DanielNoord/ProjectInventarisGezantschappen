@@ -2,7 +2,7 @@
 
 from warnings import warn
 
-import lxml.etree as etree
+from lxml import etree
 
 from functions.helper_functions.extract_date import extract_date
 from functions.helper_functions.unitdate import unitdate

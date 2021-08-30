@@ -18,7 +18,7 @@ def save_database(filename, previous_database=None):  # pylint: disable=too-many
         filename (str): Filename of the input file
     """
     doc = docx.Document(filename)
-    all_individuals = dict()
+    all_individuals = {}
 
     for para in doc.paragraphs:
         (
