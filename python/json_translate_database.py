@@ -70,6 +70,6 @@ def translate_database(dir_name: str, filename: str) -> None:
 
 
 if __name__ == "__main__":
-    # transform_translations("inputs/Translations", "Functions.json")
-    # transform_translations("inputs/Translations", "Titles.json")
+    transform_translations("inputs/Translations", "Functions.json")
+    transform_translations("inputs/Translations", "Titles.json")
     translate_database("inputs", "Individuals.json")

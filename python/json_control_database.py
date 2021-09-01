@@ -18,15 +18,11 @@ def check_translations() -> None:
     """
     translated_titles, translated_functions, _ = initialize_translation_database()
     for key, translations in translated_titles.items():
-        if key != translations["nl_NL"]:
-            raise Exception(f"Found difference in Dutch translation and key for title {key}")
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in titles at {key}")
 
     for key, translations in translated_functions.items():
-        if key != translations["nl_NL"]:
-            raise Exception(f"Found difference in Dutch translation and key for function {key}")
         for translation in translations.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in functions at {key}")
