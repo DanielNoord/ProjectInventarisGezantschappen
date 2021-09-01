@@ -120,6 +120,10 @@
     "en_GB": "Barnstedt",
     "nl_NL": "Barnstedt"
   },
+  "Batavia": {
+    "en_GB": "Batavia",
+    "nl_NL": "Batavia"
+  },
   "Belluno": {
     "en_GB": "Belluno",
     "nl_NL": "Belluno"
@@ -212,6 +216,10 @@
     "en_GB": "Ceccano",
     "nl_NL": "Ceccano"
   },
+  "Celles": {
+    "en_GB": "Celles",
+    "nl_NL": "Celles"
+  },
   "Ceprano": {
     "en_GB": "Ceprano",
     "nl_NL": "Ceprano"
@@ -235,6 +243,10 @@
   "Cingoli": {
     "en_GB": "Cingoli",
     "nl_NL": "Cingoli"
+  },
+  "Cinisello": {
+    "en_GB": "Cinisello",
+    "nl_NL": "Cinisello"
   },
   "Città del Messico": {
     "en_GB": "Mexico City",
@@ -390,11 +402,15 @@
   },
   "Grottaferrata": {
     "en_GB": "Grottaferrata",
-    "nl_NL": "Grottaferrata"
+    "nl_NL": "GrottaferrataS"
   },
   "Haarlem": {
     "en_GB": "Haarlem",
     "nl_NL": "Haarlem"
+  },
+  "Hannover": {
+    "en_GB": "Hanover",
+    "nl_NL": "Hannover"
   },
   "Hechingen": {
     "en_GB": "Hechingen",
@@ -619,6 +635,10 @@
   "Oost-Souburg": {
     "en_GB": "Oost-Souburg",
     "nl_NL": "Oost-Souburg"
+  },
+  "Oosterhout": {
+    "en_GB": "Oosterhout",
+    "nl_NL": "Oosterhout"
   },
   "Oporto": {
     "en_GB": "Oporto",
@@ -848,6 +868,10 @@
     "en_GB": "Subiaco",
     "nl_NL": "Subiaco"
   },
+  "Surabaya": {
+    "en_GB": "Surabaya",
+    "nl_NL": "Surabaya"
+  },
   "Tassullo": {
     "en_GB": "Tassullo",
     "nl_NL": "Tassullo"
@@ -911,6 +935,10 @@
   "Valkenburg": {
     "en_GB": "Valkenburg",
     "nl_NL": "Valkenburg"
+  },
+  "Valkenwaard": {
+    "en_GB": "Valkenwaard",
+    "nl_NL": "Valkenwaard"
   },
   "Vanves": {
     "en_GB": "Vanves",

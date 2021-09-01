@@ -100,6 +100,11 @@
     "it_IT": "Aiutante di campo dell'Imperatore di Francia",
     "nl_NL": "Aide-de-camp van de Keizer van Frankrijk"
   },
+  "Amateurschilder": {
+    "en_GB": "Amateur painter",
+    "it_IT": "Pittore dilettante",
+    "nl_NL": "Amateurschilder"
+  },
   "Ambassadeur van het Keizerrijk Frankrijk bij de Heilige Stoel": {
     "en_GB": "Ambassador of the Empire of France to the Holy See",
     "it_IT": "Ambasciatore dell'Impero di Francia presso la Santa Sede",
@@ -890,6 +895,11 @@
     "it_IT": "Cappellaio",
     "nl_NL": "Hoedenmaker"
   },
+  "Honorair attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome": {
+    "en_GB": "Honorary attaché of the Legation of the Kingdom of the Netherlands in Rome",
+    "it_IT": "Addetto onorario della Legazione del Regno dei Paesi Bassi a Roma",
+    "nl_NL": "Honorair attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
+  },
   "Hoofd-arbeider in het _Casa di Pubblica Beneficenza_ {Huis van Openbare Liefdadigheid}": {
     "en_GB": "Chief worker in the _Casa di Pubblica Beneficenza_ {House of Public Charity}",
     "it_IT": "Capo-travaglio nella Casa di Pubblica Beneficenza",
@@ -980,10 +990,10 @@
     "it_IT": "Ciambellano e maestro di cerimonie del Re dei Paesi Bassi",
     "nl_NL": "Kamerheer-ceremoniemeester van de Koning der Nederlanden"
   },
-  "Kanselier en honorair attaché van het Gezantschap van het Koninkrijk der Nederlanden in Rome": {
-    "en_GB": "Chancellor and honorary attaché of the Legation of the Kingdom of the Netherlands in Rome",
-    "it_IT": "Cancelliere e addetto onorario della Legazione del Regno dei Paesi Bassi a Roma",
-    "nl_NL": "Kanselier en honorair attaché van het Gezantschap van het Koninkrijk der Nederlanden in Rome"
+  "Kanselier bij het Gezantschap van het Koninkrijk der Nederlanden in Rome": {
+    "en_GB": "Chancellor with the Legation of the Kingdom of the Netherlands in Rome",
+    "it_IT": "Cancelliere della Legazione del Regno dei Paesi Bassi a Roma",
+    "nl_NL": "Kanselier bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
   },
   "Kanunnik": {
     "en_GB": "Canon",
@@ -1400,6 +1410,11 @@
     "it_IT": "Pretendente del Ducato di Mantova",
     "nl_NL": "Pretendent van het hertogdom Mantova"
   },
+  "Priester": {
+    "en_GB": "Priest",
+    "it_IT": "Sacerdote",
+    "nl_NL": "Priester"
+  },
   "Pro-kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat": {
     "en_GB": "Pro-cardinal Secretary and president of the council of ministers of the Papel States",
     "it_IT": "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio",
@@ -1480,6 +1495,11 @@
     "it_IT": "Segretario e amante della principessa Marianne di Oranje-Nassau",
     "nl_NL": "Secretaris en minnaar van prinses Marianne van Oranje-Nassau"
   },
+  "Secretaris van Bisschop De Grooff te Batavia": {
+    "en_GB": "Secretary of Bishop de Grooff at Batavia",
+    "it_IT": "Segretario del Vescovo de Grooff a Batavia",
+    "nl_NL": "Secretaris van Bisschop De Grooff te Batavia"
+  },
   "Secretaris van de Congregatie voor Buitengewone Kerkelijke Aangelegenheden": {
     "en_GB": "Secretary of the Congregation for Extraordinary Ecclesiastical Affairs",
     "it_IT": "Segretario della Congregazione per gli affari ecclesiastici straordinari",
@@ -1489,6 +1509,11 @@
     "en_GB": "Secretary of the Sacred Congregation of _Propaganda Fide_",
     "it_IT": "Segretario generale della Sacra Congregazione di Propaganda Fide",
     "nl_NL": "Secretaris van de Heilige Congregatie van _Propaganda Fide_"
+  },
+  "Secretaris van het Gezantschap van Hannover in Rome": {
+    "en_GB": "Secretary of the Legation of Hannover in Rome",
+    "it_IT": "Segretario della Legazione di Hannover a Roma",
+    "nl_NL": "Secretaris van het Gezantschap van Hannover in Rome"
   },
   "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië": {
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands to the Kingdom of Sardinia",

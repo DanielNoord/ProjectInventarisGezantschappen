@@ -845,18 +845,20 @@
   },
   "$Biandrate": {
     "comment": "",
-    "comment_daniel": "https://it.wikipedia.org/wiki/Ercole_Silva ? His letters are at ms278_138 & ms278_139",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "comment_daniel": "I believe that letters ms278_138 & ms278_139 concern the return from France of the Prince of Carignone, Carlo Alberto di Savoia, in 1821, possibly together with the count of d'Argentau (possibly François de Mercy-Argentau, who was governor of Brabant and chamberlain to the Dutch king). It is unclear why Biandrate was involved in this, but he fits the picture as he was connected to most of the greater political figures relevant in the 1921 Piedmontese revolution. There is little doubt that he was the count of Biandrate, as it is recorded that the previous count had no sons of his own.",
+    "date_of_birth": "1756-03-02",
+    "date_of_death": "1840-10-26",
     "functions": [],
     "images": [""],
-    "name": "",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [""],
+    "name": "Ercole Silva",
+    "person_type": 1,
+    "place_of_birth": "Milano",
+    "place_of_death": "Cinisello",
+    "sources": [
+      "Cantù, Cesare and Cesare Rovida, Donato ed Ercole Silva: Conti di Biandrate (Milan, 1876), "
+    ],
     "surname": "de Biandrate",
-    "titles": []
+    "titles": [["graaf", "1779/1840"]]
   },
   "$Bighini": {
     "comment": "",
@@ -2772,6 +2774,27 @@
     "surname": "Enslie",
     "titles": []
   },
+  "$Escherich": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1817",
+    "date_of_death": "1891-08-28",
+    "functions": [
+      ["Priester", null],
+      ["Secretaris van Bisschop De Grooff te Batavia", "1844/1846"]
+    ],
+    "images": [""],
+    "name": "Jan Daniël",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Oosterhout",
+    "sources": [
+      "Eerenbeemt, Andreas Joannes Josephus Maria van den, De missie-actie in Nederland (1945), 181-257",
+      "Overlijdensregister Oosterhout 1891, archiefnummer 50, inventarisnummer 6004, aktenummer 178"
+    ],
+    "surname": "Escherich",
+    "titles": []
+  },
   "$Esterhazy": {
     "comment": "",
     "comment_daniel": "",
@@ -3917,19 +3940,20 @@
   },
   "$Haye": {
     "comment": "",
-    "comment_daniel": "Voornaam moet te vinden zijn ergens",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
       ["Consul van het Koninkrijk der Nederlanden te Barcelona", "1822-06-26/"]
     ],
     "images": [""],
-    "name": "E.",
-    "person_type": 2,
+    "name": "Eugenio",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 357",
+      "Guía mercantil de España: segunda parte (Madrid, 1829), 130",
       "Staats-almanak voor den jare 1828 (The Hague, 1828), 148"
     ],
     "surname": "de la Haye",
@@ -4349,6 +4373,35 @@
     "surname": "van der Kemp",
     "titles": []
   },
+  "$Kestner": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1777-11-28",
+    "date_of_death": "1853-03-15",
+    "functions": [
+      ["Secretaris van het Gezantschap van Hannover in Rome", "1817/1925"],
+      [
+        "Chargé d'affaires van het Gezantschap van Hannover bij de Heilige Stoel te Rome",
+        "1825/1949"
+      ],
+      [
+        "Chargé d'affaires van het Gezantschap van Hannover bij het Koninkrijk der Beide Siciliën te Napels",
+        "1843/1949"
+      ]
+    ],
+    "images": [
+      "https://www.hannover.de/en/Media/01-DATA-Neu/Bilder/Landeshauptstadt-Hannover/Kultur-Freizeit/Museum-August-Kestner/Kestner/August-Kestner,-self-portrait,-Rome-1840"
+    ],
+    "name": "Georg August Christian",
+    "person_type": 1,
+    "place_of_birth": "Hannover",
+    "place_of_death": "Roma",
+    "sources": [
+      "Kestner, August, Indexeintrag: Deutsche Biographie, https://www.deutsche-biographie.de/pnd118722107.html [25.08.2021]."
+    ],
+    "surname": "Kestner",
+    "titles": [[]]
+  },
   "$Kiesch": {
     "comment": "",
     "comment_daniel": "",
@@ -4460,6 +4513,25 @@
     "sources": [""],
     "surname": "Kornis",
     "titles": [["kapitein", null]]
+  },
+  "$Kruseman": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1828-08-15",
+    "date_of_death": "1918-06-10",
+    "functions": [["Amateurschilder", "1843/1918"]],
+    "images": [""],
+    "name": "Johannes Diederikus",
+    "person_type": 1,
+    "place_of_birth": "Valkenwaard",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Dutch Institute for Art History (RKD), 'Jan Diederikus Kruseman', found on: https://rkd.nl/explore/artists/46666",
+      "Overlijdensregister Oosterhout 1891, archiefnummer 50, inventarisnummer 6004, aktenummer 181",
+      "Register van geboorteakten 1817-1830 Valkenswaard, archiefnummer 23, inventarisnummer 1173, aktenummer 264"
+    ],
+    "surname": "Kruseman",
+    "titles": []
   },
   "$Kubeck": {
     "comment": "",
@@ -4765,8 +4837,8 @@
   "$Liedkerke": {
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1792",
+    "date_of_death": "1855-09-27",
     "functions": [
       [
         "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden bij de Confederatie van de XXII kantons {Zwitserland}",
@@ -4784,10 +4856,11 @@
     "images": [""],
     "name": "Florent Charles Auguste",
     "person_type": 0,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Celles",
+    "place_of_death": "Rocca di Papa",
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 317",
+      "Liedekerke de Beaufort, Augosto de, Rapporti delle cose di Roma (1848-1849), ed. Alberto M. Ghisalberti (Rome, 1949), VIII-XVIII",
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 680"
     ],
     "surname": "de Liedekerke-Beaufort",
@@ -4819,7 +4892,7 @@
   },
   "$Limburg": {
     "comment": "",
-    "comment_daniel": "Voornaam moet te vinden zijn",
+    "comment_daniel": "Daniël's comment suggested that the initials of this count were F.A., which would make it Frederik Adrian (1804-1874), but looking into his life I think it is doubtful that he was the person described here (got phd in 1825, was an attaché with Dutch legate to Berlin in 1834). It is likelier that it is about his father, Frederik Wilhelm, who got promoted 1827 to colonel and in 1828 to secretary of war (diary Richards, and see C.J. Graaf van Limburg Iconocgraphy pages 109-123)",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -4829,7 +4902,7 @@
       ]
     ],
     "images": [""],
-    "name": "F.A.",
+    "name": "",
     "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
@@ -5238,13 +5311,21 @@
   },
   "$Magrini": {
     "comment": "From Koelman: Magrini, Paulo Emilio, of Paul Émile, was vanaf 1837- kanselier en secretaris, van 1851-1855 tevens ‘honorair attaché’ van de Nederlandse Legatie bij de Heilige Stoel en het Koninkrijk Piemonte-Sardinië. Tijdens de republiek, toen Liederkerke naar Gaeta was uitgeweken, bleef M. in Rome en probeerde de ambassadeur van informatie te voorzien. Koelman kenschetst hem als een uitgesproken clerikaal. Roncalli meldt dat M. met o.a. Nardoni en Minardi werd genoemd als een ‘beruchte spion’ in een door de politie gevonden republikeins pamflet (2 juli 1851). Tijdens de republiek ondertekende hij het protest waarmee Oudinot werd opgeroepen de Romeinse monumenten te ontzien (maar onthield zich van een ‘politiek’ oordeel). Na de val van de republiek (14 juli 1849) werd hij benoemd in de commissie die op last van diezelfde Oudinot de oorlogsschade in kaart bracht, en (ook M.) oordeelde dat die erg meeviel. B.: Rapport de la commission mixte (1850) 2; Liederkerk de Beaufort (1949) passim; Roncalli (1972) I, 277; Roncalli (1997) II, 361; De Dominicis (2017) II, ad vocem.",
-    "comment_daniel": "Laatste bron in noot vermeldt ridderschap, inventaris heeft het steeds over bisschop, Bio. register Asker vermeldt data, nagaan waar die vandaan komen en dan overnmen, zie Wels XXVII voor toelichting over zijn titel",
+    "comment_daniel": "Ridderschap onbekend, maar Koelman lijk te verwijzen naar de Orde van de Gouden Speer.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
       [
-        "Kanselier en honorair attaché van het Gezantschap van het Koninkrijk der Nederlanden in Rome",
-        null
+        "Kanselier bij het Gezantschap van het Koninkrijk der Nederlanden in Rome",
+        "1837/1838"
+      ],
+      [
+        "Attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome",
+        "1839/1847"
+      ],
+      [
+        "Honorair attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome",
+        "1851/1855"
       ]
     ],
     "images": [""],
@@ -5253,11 +5334,13 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
+      "Dominicis, de Claudio, Amministrazione Pontifica 1716-1870 Repertorio Biografico Volume II (Roma, 2017), 11",
+      "Koelman, Johan Philip, In Rome: 1846-1851 (Arnhem, 1869), 129",
       "Tipografia della Rev. Cam. Apostolica, Notizie per l'anno 1855 (Rome, 1855), 245",
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 652"
     ],
     "surname": "Magrini",
-    "titles": []
+    "titles": [["ridder", "1851/"]]
   },
   "$Maineri": {
     "comment": "",
@@ -7224,8 +7307,12 @@
     "date_of_death": "1891-12-04",
     "functions": [
       [
+        "Minister van Binnenlandse Zaken van het Koninkrijk der Nederlanden",
+        "1846-10-12/1848-01-01"
+      ],
+      [
         "Minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden",
-        "1848-12-26/1848-03-26"
+        "1848-01-01/1848-03-25"
       ],
       ["Grootmeester van de Koningin der Nederlanden", "1854-07-01/1877-06-16"],
       ["Grootmeester van de Koning der Nederlanden", "1877-06-16/1891-12-04"]
