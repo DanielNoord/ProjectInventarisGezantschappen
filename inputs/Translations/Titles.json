@@ -1,19 +1,29 @@
 {
   "$schema": "../../static/JSON/Titles.json",
+  "1° ufficiale della sanità in pensione di 2° classe": {
+    "en_GB": "retired 1st officer of health, 2nd class,",
+    "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
+    "position": "Before"
+  },
   "3° Earl Grey": {
     "en_GB": "3rd Earl Grey",
     "nl_NL": "3e Earl Grey",
     "position": "After"
   },
-  "IV conte di Aberdeen": {
-    "en_GB": "4th Earl of Abderdeen",
-    "nl_NL": "4de graaf van Aberdeen",
-    "position": "After"
+  "Cav.": {
+    "en_GB": "knight",
+    "nl_NL": "ridder",
+    "position": "Before"
   },
   "Freiherr": {
     "en_GB": "Freiherr",
     "nl_NL": "Freiherr",
     "position": "Before"
+  },
+  "IV conte di Aberdeen": {
+    "en_GB": "4th Earl of Abderdeen",
+    "nl_NL": "4de graaf van Aberdeen",
+    "position": "After"
   },
   "Lord": {
     "en_GB": "Lord",
@@ -23,6 +33,11 @@
   "Papa": {
     "en_GB": "Pope",
     "nl_NL": "Paus",
+    "position": "Before"
+  },
+  "ammiraglio": {
+    "en_GB": "admiral",
+    "nl_NL": "admiraal",
     "position": "Before"
   },
   "arciduca d’Austria": {
@@ -35,9 +50,9 @@
     "nl_NL": "aartshertogin van Oostenrijk",
     "position": "After"
   },
-  "ammiraglio": {
-    "en_GB": "admiral",
-    "nl_NL": "admiraal",
+  "avv.": {
+    "en_GB": "lawyer",
+    "nl_NL": "mr.",
     "position": "Before"
   },
   "barone": {
@@ -55,14 +70,29 @@
     "nl_NL": "barones",
     "position": "Before"
   },
-  "vescovo": {
-    "en_GB": "bishop",
-    "nl_NL": "bisschop",
-    "position": "Before"
-  },
   "brigadier generale": {
     "en_GB": "brigadier general",
     "nl_NL": "brigadegeneraal",
+    "position": "Before"
+  },
+  "capitano": {
+    "en_GB": "captain",
+    "nl_NL": "kapitein",
+    "position": "Before"
+  },
+  "capitano di vascello": {
+    "en_GB": "ship captain",
+    "nl_NL": "scheepskapitein",
+    "position": "Before"
+  },
+  "card.": {
+    "en_GB": "cardinal",
+    "nl_NL": "kardinaal",
+    "position": "Before"
+  },
+  "colonnello": {
+    "en_GB": "colonel",
+    "nl_NL": "kolonel",
     "position": "Before"
   },
   "comandante": {
@@ -74,21 +104,6 @@
     "en_GB": "commander of the Order of Saint Gregory the Great",
     "nl_NL": "commandeur in de Orde van Sint-Gregorius de Grote",
     "position": "After"
-  },
-  "generale": {
-    "en_GB": "general",
-    "nl_NL": "generaal",
-    "position": "Before"
-  },
-  "maggior generale": {
-    "en_GB": "major general",
-    "nl_NL": "generaal-majoor",
-    "position": "Before"
-  },
-  "1° ufficiale della sanità in pensione di 2° classe": {
-    "en_GB": "retired 1st officer of health, 2nd class,",
-    "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
-    "position": "Before"
   },
   "conte": {
     "en_GB": "count",
@@ -120,6 +135,11 @@
     "nl_NL": "gravin",
     "position": "Before"
   },
+  "contrammiraglio": {
+    "en_GB": "counter admiral",
+    "nl_NL": "schout-bij-nacht",
+    "position": "Before"
+  },
   "duca di Casigliano": {
     "en_GB": "duke of Casigliano",
     "nl_NL": "hertog van Casigliano",
@@ -145,39 +165,14 @@
     "nl_NL": "hertog van Sermoneta",
     "position": "After"
   },
+  "generale": {
+    "en_GB": "general",
+    "nl_NL": "generaal",
+    "position": "Before"
+  },
   "jonkheer": {
     "en_GB": "jonkheer",
     "nl_NL": "jhr.",
-    "position": "Before"
-  },
-  "capitano": {
-    "en_GB": "captain",
-    "nl_NL": "kapitein",
-    "position": "Before"
-  },
-  "card.": {
-    "en_GB": "cardinal",
-    "nl_NL": "kardinaal",
-    "position": "Before"
-  },
-  "colonnello": {
-    "en_GB": "colonel",
-    "nl_NL": "kolonel",
-    "position": "Before"
-  },
-  "tenente generale": {
-    "en_GB": "lieutenant general",
-    "nl_NL": "luitenant-generaal",
-    "position": "Before"
-  },
-  "tenente generale {retd}": {
-    "en_GB": "lieutenant general {retd}",
-    "nl_NL": "luitenant-generaal b.d.",
-    "position": "Before"
-  },
-  "tenente colonnello": {
-    "en_GB": "lieutenant colonel",
-    "nl_NL": "luitenant-kolonel",
     "position": "Before"
   },
   "luitenant-ter-zee": {
@@ -185,9 +180,9 @@
     "nl_NL": "luitenant-ter-zee",
     "position": "Before"
   },
-  "maresciallo": {
-    "en_GB": "marshal",
-    "nl_NL": "maarschalk",
+  "maggior generale": {
+    "en_GB": "major general",
+    "nl_NL": "generaal-majoor",
     "position": "Before"
   },
   "marchese": {
@@ -205,9 +200,9 @@
     "nl_NL": "markies van Lajatico",
     "position": "After"
   },
-  "avv.": {
-    "en_GB": "lawyer",
-    "nl_NL": "mr.",
+  "maresciallo": {
+    "en_GB": "marshal",
+    "nl_NL": "maarschalk",
     "position": "Before"
   },
   "padre": {
@@ -270,24 +265,29 @@
     "nl_NL": "prinses",
     "position": "After"
   },
-  "Cav.": {
-    "en_GB": "knight",
-    "nl_NL": "ridder",
-    "position": "Before"
-  },
-  "capitano di vascello": {
-    "en_GB": "ship captain",
-    "nl_NL": "scheepskapitein",
-    "position": "Before"
-  },
-  "contrammiraglio": {
-    "en_GB": "counter admiral",
-    "nl_NL": "schout-bij-nacht",
-    "position": "Before"
-  },
   "suor": {
     "en_GB": "sister",
     "nl_NL": "zuster",
+    "position": "Before"
+  },
+  "tenente colonnello": {
+    "en_GB": "lieutenant colonel",
+    "nl_NL": "luitenant-kolonel",
+    "position": "Before"
+  },
+  "tenente generale": {
+    "en_GB": "lieutenant general",
+    "nl_NL": "luitenant-generaal",
+    "position": "Before"
+  },
+  "tenente generale {retd}": {
+    "en_GB": "lieutenant general {retd}",
+    "nl_NL": "luitenant-generaal b.d.",
+    "position": "Before"
+  },
+  "vescovo": {
+    "en_GB": "bishop",
+    "nl_NL": "bisschop",
     "position": "Before"
   }
 }
