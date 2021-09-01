@@ -166,8 +166,8 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
     identifiers = {}
-    used_titles = {}
-    used_functions = {}
+    used_titles = set()
+    used_functions = set()
 
     for identifier, data in persons_in_file.items():
         # Check if entry is correctly sorted
