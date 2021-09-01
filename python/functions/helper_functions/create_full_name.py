@@ -40,17 +40,21 @@ def full_name(  # pylint: disable=too-many-arguments, too-many-branches
             relevant_titles.append(title)
     if relevant_titles != []:
         translation_entry = translation_data[0][relevant_titles[0][0]]
+        if localization != "it_IT":
+            translated_title = translation_entry[localization]
+        else:
+            translated_title = relevant_titles[0][0]
         if translation_entry["position"] == "Before":
             if name == "":
-                str_full_name = f"{translation_entry[localization]} {surname}"
+                str_full_name = f"{translated_title} {surname}"
             else:
-                str_full_name = f"{translation_entry[localization]} {name} {surname}"
+                str_full_name = f"{translated_title} {name} {surname}"
         elif translation_entry["position"] == "After":
-            str_full_name = f"{surname}, {translation_entry[localization]},"
+            str_full_name = f"{surname}, {translated_title},"
             if name != "":
                 str_full_name = f"{name} {str_full_name}"
         elif translation_entry["position"] == "Middle":
-            str_full_name = f"{translation_entry[localization]} {surname}"
+            str_full_name = f"{translated_title} {surname}"
             if name != "":
                 str_full_name = f"{name} {str_full_name}"
         else:
@@ -59,10 +63,14 @@ def full_name(  # pylint: disable=too-many-arguments, too-many-branches
         if len(relevant_titles) > 1:
             for extra_title in relevant_titles[1:]:
                 translation_entry = translation_data[0][extra_title[0]]
+                if localization != "it_IT":
+                    translated_title = translation_entry[localization]
+                else:
+                    translated_title = relevant_titles[0][0]
                 if translation_entry["position"] == "Before":
-                    str_full_name = f"{translation_entry[localization]} {str_full_name}"
+                    str_full_name = f"{translated_title} {str_full_name}"
                 elif translation_entry["position"] == "After":
-                    str_full_name += f" {translation_entry[localization]},"
+                    str_full_name += f" {translated_title},"
                 else:
                     raise Exception("Can't parse second title, maybe change order in sourcefile")
     else:

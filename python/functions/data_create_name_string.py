@@ -41,9 +41,14 @@ def name_string(
                 relevant_functions.append(func)
             elif check_date(date, func[1]):
                 relevant_functions.append(func)
-        str_functions = ", ".join(
-            [translation_data[1][i[0]][localization] for i in relevant_functions]
-        )
+        if localization != "it_IT":
+            str_functions = ", ".join(
+                [translation_data[1][i[0]][localization] for i in relevant_functions]
+            )
+        else:
+            str_functions = ", ".join(
+                [i[0] for i in relevant_functions]
+            )
         if str_functions != "":
             return f"{str_full_name} ({str_functions})"
     return str_full_name
