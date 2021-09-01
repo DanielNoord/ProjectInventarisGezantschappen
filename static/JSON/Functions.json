@@ -15,23 +15,19 @@
           "description": "Translation of the function in English",
           "type": "string"
         },
-        "it_IT": {
-          "description": "Translation of the function in Italian",
-          "type": "string"
-        },
         "nl_NL": {
           "description": "Translation of the function in Dutch",
           "type": "string"
         }
       },
-      "required": ["en_GB", "it_IT", "nl_NL"],
+      "required": ["en_GB", "nl_NL"],
       "type": "object"
     }
   },
   "properties": {
     "$schema": "string"
   },
-  "title": "Functions of people in the archive",
+  "title": "Functions of people in the archive in Italian",
   "type": "object",
   "uniqueItems": true
 }

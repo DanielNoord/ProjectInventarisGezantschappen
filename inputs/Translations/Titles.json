@@ -1,350 +1,292 @@
 {
   "$schema": "../../static/JSON/Titles.json",
-  "3e Earl Grey": {
+  "3° Earl Grey": {
     "en_GB": "3rd Earl Grey",
-    "it_IT": "3° Earl Grey",
     "nl_NL": "3e Earl Grey",
     "position": "After"
   },
-  "4de graaf van Aberdeen": {
+  "IV conte di Aberdeen": {
     "en_GB": "4th Earl of Abderdeen",
-    "it_IT": "IV conte di Aberdeen",
     "nl_NL": "4de graaf van Aberdeen",
     "position": "After"
   },
   "Freiherr": {
     "en_GB": "Freiherr",
-    "it_IT": "Freiherr",
     "nl_NL": "Freiherr",
     "position": "Before"
   },
   "Lord": {
     "en_GB": "Lord",
-    "it_IT": "Lord",
     "nl_NL": "Lord",
     "position": "Before"
   },
-  "Paus": {
+  "Papa": {
     "en_GB": "Pope",
-    "it_IT": "Papa",
     "nl_NL": "Paus",
     "position": "Before"
   },
-  "aartshertog van Oostenrijk": {
+  "arciduca d’Austria": {
     "en_GB": "archduke of Austria",
-    "it_IT": "arciduca d’Austria",
     "nl_NL": "aartshertog van Oostenrijk",
     "position": "After"
   },
-  "aartshertogin van Oostenrijk": {
+  "arciduchessa d’Austria": {
     "en_GB": "archduchess of Austria",
-    "it_IT": "arciduchessa d’Austria",
     "nl_NL": "aartshertogin van Oostenrijk",
     "position": "After"
   },
-  "admiraal": {
+  "ammiraglio": {
     "en_GB": "admiral",
-    "it_IT": "ammiraglio",
     "nl_NL": "admiraal",
     "position": "Before"
   },
-  "baron": {
+  "barone": {
     "en_GB": "baron",
-    "it_IT": "barone",
     "nl_NL": "baron",
     "position": "Before"
   },
-  "baron da Venda da Cruz": {
+  "barone da Venda da Cruz": {
     "en_GB": "baron Da Venda da Cruz",
-    "it_IT": "barone da Venda da Cruz",
     "nl_NL": "baron da Venda da Cruz",
     "position": "After"
   },
-  "barones": {
+  "baronessa": {
     "en_GB": "baroness",
-    "it_IT": "baronessa",
     "nl_NL": "barones",
     "position": "Before"
   },
-  "bisschop": {
+  "vescovo": {
     "en_GB": "bishop",
-    "it_IT": "vescovo",
     "nl_NL": "bisschop",
     "position": "Before"
   },
-  "brigadegeneraal": {
+  "brigadier generale": {
     "en_GB": "brigadier general",
-    "it_IT": "brigadier generale",
     "nl_NL": "brigadegeneraal",
     "position": "Before"
   },
-  "commandant": {
+  "comandante": {
     "en_GB": "commander",
-    "it_IT": "comandante",
     "nl_NL": "commandant",
     "position": "Before"
   },
-  "commandeur in de Orde van Sint-Gregorius de Grote": {
+  "commendatore dell'Ordine di San Gregorio Magno": {
     "en_GB": "commander of the Order of Saint Gregory the Great",
-    "it_IT": "commendatore dell'Ordine di San Gregorio Magno",
     "nl_NL": "commandeur in de Orde van Sint-Gregorius de Grote",
     "position": "After"
   },
-  "generaal": {
+  "generale": {
     "en_GB": "general",
-    "it_IT": "generale",
     "nl_NL": "generaal",
     "position": "Before"
   },
-  "generaal-majoor": {
+  "maggior generale": {
     "en_GB": "major general",
-    "it_IT": "maggior generale",
     "nl_NL": "generaal-majoor",
     "position": "Before"
   },
-  "gepensioneerd 1e officier van gezondheid, 2e klasse,": {
+  "1° ufficiale della sanità in pensione di 2° classe": {
     "en_GB": "retired 1st officer of health, 2nd class,",
-    "it_IT": "1° ufficiale della sanità in pensione di 2° classe",
     "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
     "position": "Before"
   },
-  "graaf": {
+  "conte": {
     "en_GB": "count",
-    "it_IT": "conte",
     "nl_NL": "graaf",
     "position": "Before"
   },
-  "graaf de San Pedro del Álamo": {
+  "conte de San Pedro del Álamo": {
     "en_GB": "count de San Pedro del Álamo",
-    "it_IT": "conte de San Pedro del Álamo",
     "nl_NL": "graaf de San Pedro del Álamo",
     "position": "After"
   },
-  "graaf della Minerva": {
+  "conte della Minerva": {
     "en_GB": "count della Minerva",
-    "it_IT": "conte della Minerva",
     "nl_NL": "graaf della Minerva",
     "position": "After"
   },
-  "graaf van Cavour": {
+  "conte di Cavour": {
     "en_GB": "count of Cavour",
-    "it_IT": "conte di Cavour",
     "nl_NL": "graaf van Cavour",
     "position": "After"
   },
-  "graaf van Montebello": {
+  "conte di Montebello": {
     "en_GB": "count of Montebello",
-    "it_IT": "conte di Montebello",
     "nl_NL": "graaf van Montebello",
     "position": "After"
   },
-  "gravin": {
+  "contessa": {
     "en_GB": "countess",
-    "it_IT": "contessa",
     "nl_NL": "gravin",
     "position": "Before"
   },
-  "hertog van Casigliano": {
+  "duca di Casigliano": {
     "en_GB": "duke of Casigliano",
-    "it_IT": "duca di Casigliano",
     "nl_NL": "hertog van Casigliano",
     "position": "After"
   },
-  "hertog van Reggio": {
+  "duca di Reggio": {
     "en_GB": "duke of Reggio",
-    "it_IT": "duca di Reggio",
     "nl_NL": "hertog van Reggio",
     "position": "After"
   },
-  "hertog van Rignano": {
+  "duca di Rignano": {
     "en_GB": "duke of Rignano",
-    "it_IT": "duca di Rignano",
     "nl_NL": "hertog van Rignano",
     "position": "After"
   },
-  "hertog van Santa Cristina": {
+  "duca di Santa Cristina": {
     "en_GB": "duke of Santa Cristina",
-    "it_IT": "duca di Santa Cristina",
     "nl_NL": "hertog van Santa Cristina",
     "position": "After"
   },
-  "hertog van Sermoneta": {
+  "duca di Sermoneta": {
     "en_GB": "duke of Sermoneta",
-    "it_IT": "duca di Sermoneta",
     "nl_NL": "hertog van Sermoneta",
     "position": "After"
   },
-  "jhr.": {
+  "jonkheer": {
     "en_GB": "jonkheer",
-    "it_IT": "jonkheer",
     "nl_NL": "jhr.",
     "position": "Before"
   },
-  "kapitein": {
+  "capitano": {
     "en_GB": "captain",
-    "it_IT": "capitano",
     "nl_NL": "kapitein",
     "position": "Before"
   },
-  "kardinaal": {
+  "card.": {
     "en_GB": "cardinal",
-    "it_IT": "card.",
     "nl_NL": "kardinaal",
     "position": "Before"
   },
-  "kolonel": {
+  "colonnello": {
     "en_GB": "colonel",
-    "it_IT": "colonnello",
     "nl_NL": "kolonel",
     "position": "Before"
   },
-  "luitenant-generaal": {
+  "tenente generale": {
     "en_GB": "lieutenant general",
-    "it_IT": "tenente generale",
     "nl_NL": "luitenant-generaal",
     "position": "Before"
   },
-  "luitenant-generaal b.d.": {
+  "tenente generale {retd}": {
     "en_GB": "lieutenant general {retd}",
-    "it_IT": "tenente generale {retd}",
     "nl_NL": "luitenant-generaal b.d.",
     "position": "Before"
   },
-  "luitenant-kolonel": {
+  "tenente colonnello": {
     "en_GB": "lieutenant colonel",
-    "it_IT": "tenente colonnello",
     "nl_NL": "luitenant-kolonel",
     "position": "Before"
   },
   "luitenant-ter-zee": {
     "en_GB": "luitenant-ter-zee",
-    "it_IT": "luitenant-ter-zee",
     "nl_NL": "luitenant-ter-zee",
     "position": "Before"
   },
-  "maarschalk": {
+  "maresciallo": {
     "en_GB": "marshal",
-    "it_IT": "maresciallo",
     "nl_NL": "maarschalk",
     "position": "Before"
   },
-  "markies": {
+  "marchese": {
     "en_GB": "Marquess",
-    "it_IT": "marchese",
     "nl_NL": "markies",
     "position": "Before"
   },
-  "markies van Belmonte": {
+  "marchese di Belmonte": {
     "en_GB": "Marquess of Belmonte",
-    "it_IT": "marchese di Belmonte",
     "nl_NL": "markies van Belmonte",
     "position": "After"
   },
-  "markies van Lajatico": {
+  "marchese di Lajatico": {
     "en_GB": "Marquess of Lajatico",
-    "it_IT": "marchese di Lajatico",
     "nl_NL": "markies van Lajatico",
     "position": "After"
   },
-  "mr.": {
+  "avv.": {
     "en_GB": "lawyer",
-    "it_IT": "avv.",
     "nl_NL": "mr.",
     "position": "Before"
   },
-  "pater": {
+  "padre": {
     "en_GB": "father",
-    "it_IT": "padre",
     "nl_NL": "pater",
     "position": "Before"
   },
-  "prins": {
+  "principe": {
     "en_GB": "prince",
-    "it_IT": "principe",
     "nl_NL": "prins",
     "position": "After"
   },
-  "prins van Capua": {
+  "principe di Capua": {
     "en_GB": "prince of Capua",
-    "it_IT": "principe di Capua",
     "nl_NL": "prins van Capua",
     "position": "After"
   },
-  "prins van Caraman": {
+  "principe di Caraman": {
     "en_GB": "prince of Caraman",
-    "it_IT": "principe di Caraman",
     "nl_NL": "prins van Caraman",
     "position": "After"
   },
-  "prins van Cariati": {
+  "principe di Cariati": {
     "en_GB": "prince of Cariati",
-    "it_IT": "principe di Cariati",
     "nl_NL": "prins van Cariati",
     "position": "After"
   },
-  "prins van Castelcicala": {
+  "principe di Castelcicala": {
     "en_GB": "prince of Castelcicala",
-    "it_IT": "principe di Castelcicala",
     "nl_NL": "prins van Castelcicala",
     "position": "After"
   },
-  "prins van Chimay": {
+  "principe di Chimay": {
     "en_GB": "prince of Chimay",
-    "it_IT": "principe di Chimay",
     "nl_NL": "prins van Chimay",
     "position": "After"
   },
-  "prins van Joinville": {
+  "principe di Joinville": {
     "en_GB": "prince of Joinville",
-    "it_IT": "principe di Joinville",
     "nl_NL": "prins van Joinville",
     "position": "After"
   },
-  "prins van Mazzano en Antuni": {
+  "principe di Mazzano ed Antuni": {
     "en_GB": "prince of Mazzano and Antuni",
-    "it_IT": "principe di Mazzano ed Antuni",
     "nl_NL": "prins van Mazzano en Antuni",
     "position": "After"
   },
-  "prins van Scilla": {
+  "principe di Scilla": {
     "en_GB": "prince of Scilla",
-    "it_IT": "principe di Scilla",
     "nl_NL": "prins van Scilla",
     "position": "After"
   },
-  "prins van Teano": {
+  "principe di Teano": {
     "en_GB": "prince of Teano",
-    "it_IT": "principe di Teano",
     "nl_NL": "prins van Teano",
     "position": "After"
   },
-  "prinses": {
+  "principessa": {
     "en_GB": "princess",
-    "it_IT": "principessa",
     "nl_NL": "prinses",
     "position": "After"
   },
-  "ridder": {
+  "Cav.": {
     "en_GB": "knight",
-    "it_IT": "Cav.",
     "nl_NL": "ridder",
     "position": "Before"
   },
-  "scheepskapitein": {
+  "capitano di vascello": {
     "en_GB": "ship captain",
-    "it_IT": "capitano di vascello",
     "nl_NL": "scheepskapitein",
     "position": "Before"
   },
-  "schout-bij-nacht": {
+  "contrammiraglio": {
     "en_GB": "counter admiral",
-    "it_IT": "contrammiraglio",
     "nl_NL": "schout-bij-nacht",
     "position": "Before"
   },
-  "zuster": {
+  "suor": {
     "en_GB": "sister",
-    "it_IT": "suor",
     "nl_NL": "zuster",
     "position": "Before"
   }

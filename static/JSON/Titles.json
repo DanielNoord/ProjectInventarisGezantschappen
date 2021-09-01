@@ -15,10 +15,6 @@
           "description": "Translation of the title in English",
           "type": "string"
         },
-        "it_IT": {
-          "description": "Translation of the title in Italian",
-          "type": "string"
-        },
         "nl_NL": {
           "description": "Translation of the title in Dutch",
           "type": "string"
@@ -29,14 +25,14 @@
           "type": "string"
         }
       },
-      "required": ["en_GB", "it_IT", "nl_NL", "position"],
+      "required": ["en_GB", "nl_NL", "position"],
       "type": "object"
     }
   },
   "properties": {
     "$schema": "string"
   },
-  "title": "Titles of people in the archive",
+  "title": "Titles of people in the archive in Italian",
   "type": "object",
   "uniqueItems": true
 }
