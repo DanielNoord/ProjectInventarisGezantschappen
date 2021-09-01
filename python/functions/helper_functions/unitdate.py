@@ -3,15 +3,17 @@
 from lxml import etree
 
 
-def unitdate(parent_element, datestring, date1, date2, element_type):
+def unitdate(
+    parent_element: etree._Element, datestring: str, date1: str, date2: str, element_type: str
+):
     """Creates and appends an unitdate element
 
     Args:
-        parent_element (etree.SubElement): The element to attacht the unitdate element to
-        datestring (string): The full date in standard format xxxx-xx-xx/xxxx-xx-xx
-        date1 (string): The begin date in text format (i.e., 1 januari 2021)
-        date2 (string): The end date in text format (i.e., 2 januari 2021)
-        element_type (string): The type of date (i.e., file, volume or function/job)
+        parent_element (etree._Element): The element to attacht the unitdate element to
+        datestring (str): The full date in standard format xxxx-xx-xx/xxxx-xx-xx
+        date1 (str): The begin date in text format (i.e., 1 januari 2021)
+        date2 (str): The end date in text format (i.e., 2 januari 2021)
+        element_type (str): The type of date (i.e., file, volume or function/job)
     """
     if not datestring:
         return

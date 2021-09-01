@@ -5,7 +5,7 @@ import json
 import docx
 
 
-def search_koelman(filename):
+def search_koelman(filename: str) -> None:
     """Checks all names in a database for hits in biographic register of Poelman book of Asker
 
     Args:

@@ -11,11 +11,14 @@ from functions.helper_functions.parse_function_string import function as read_fu
 from functions.helper_functions.parse_title_string import title as read_title
 
 
-def save_database(filename, previous_database=None):  # pylint: disable=too-many-locals
+def save_database(
+    filename: str, previous_database: dict = None
+) -> None:  # pylint: disable=too-many-locals
     """Load database from .docx and write .json
 
     Args:
         filename (str): Filename of the input file
+        previous_database (dict): Dict with data from previous database
     """
     doc = docx.Document(filename)
     all_individuals = {}
@@ -70,12 +73,12 @@ def save_database(filename, previous_database=None):  # pylint: disable=too-many
     print("Wrote file to outputs/Individuals.json")
 
 
-def load_database(filename, skip_types):
+def load_database(filename: str, skip_types: list[int]) -> None:
     """Load database from .json and write .docx
 
     Args:
         filename (str): Name of the input file
-        skip_types (list): Number of person types you might want to skip.
+        skip_types (list[int]): Number of person types you might want to skip.
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
@@ -83,7 +86,7 @@ def load_database(filename, skip_types):
     database(persons, "Individuals", skip_types)
 
 
-def merge_database(filename, previous_database_filename):
+def merge_database(filename: str, previous_database_filename: str) -> None:
     """Merges a file with a subset of the database (for example only a single person type)
     with a given previous database
 

@@ -5,7 +5,7 @@ import json
 import requests
 
 
-def fetch_na_inventaris(filename):
+def fetch_na_inventaris(filename: str) -> None:
     """Checks all names in a database for hits in the Nationaal Archief inventaris database.
     Only counts as hit when the name matches something in the document descriptions,
     inventory description matches are ignored

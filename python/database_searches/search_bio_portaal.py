@@ -5,7 +5,7 @@ import json
 import requests
 
 
-def fetch_bio_portaal_names(filename):
+def fetch_bio_portaal_names(filename: str) -> None:
     """Checks all names in a database for hits in the Biografisch Portaal database
 
     Args:

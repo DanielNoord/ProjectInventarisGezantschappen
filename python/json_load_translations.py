@@ -7,7 +7,7 @@ import re
 import docx
 
 
-def load_translations_documents(filename):
+def load_translations_documents(filename: str) -> None:
     """Load translations from .docx and write .json for documents file
 
     Args:
@@ -27,7 +27,7 @@ def load_translations_documents(filename):
     print("Wrote file to outputs/DocumentTitles.json")
 
 
-def load_translations_functions(filename):
+def load_translations_functions(filename: str) -> None:
     """Load translations from .docx and write .json for functions file
 
     Args:
@@ -51,7 +51,7 @@ def load_translations_functions(filename):
     print("Wrote file to outputs/Functions.json")
 
 
-def load_translations_placenames(filename):
+def load_translations_placenames(filename: str) -> None:
     """Load translations from .docx and write .json for placename file
 
     Args:
@@ -71,7 +71,7 @@ def load_translations_placenames(filename):
     print("Wrote file to outputs/Placenames.json")
 
 
-def load_translations_titles(filename):
+def load_translations_titles(filename: str) -> None:
     """Load translations from .docx and write .json for titles file
 
     Args:

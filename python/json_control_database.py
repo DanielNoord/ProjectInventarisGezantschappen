@@ -10,7 +10,7 @@ from json_check_placenames import check_all_placenames
 from json_check_sources import check_all_sources
 
 
-def check_translations():
+def check_translations() -> None:
     """Checks the JSON files that contain all translations
 
     Raises:
@@ -34,14 +34,16 @@ def check_translations():
     print("Finished checking translations: no missing or broken ones found!\n")
 
 
-def control_functions(data, translated_functions, identifier, used_functions):
+def control_functions(
+    data: dict, translated_functions: dict, identifier: str, used_functions: set[str]
+):
     """Controls functions of the supplied data
 
     Args:
         data (dict): Data dict of identifier
         translated_functions (dict): Dict with titles currently translated
-        identifier (string): Identifier of person with titles
-        used_functions (list): List to track titles in use in database
+        identifier (str): Identifier of person with titles
+        used_functions (set): List to track titles in use in database
 
     Raises:
         KeyError: When function is not found in current translations
@@ -61,7 +63,7 @@ def control_functions(data, translated_functions, identifier, used_functions):
                 ) from err
             if timeperiod is not None:
                 assert extract_date(timeperiod, "nl_NL")
-            used_functions.append(function)
+            used_functions.add(function)
     except ValueError as err:
         if err.args[0] == "not enough values to unpack (expected 2, got 1)":
             raise ValueError(
@@ -86,14 +88,16 @@ def control_functions(data, translated_functions, identifier, used_functions):
         ) from err
 
 
-def control_titles(data, translated_titles, identifier, used_titles):
+def control_titles(
+    data: dict, translated_titles: dict, identifier: str, used_titles: set[str]
+) -> None:
     """Controls titles of the supplied data
 
     Args:
         data (dict): Data dict of identifier
         translated_titles (dict): Dict with titles currently translated
-        identifier (string): Identifier of person with titles
-        used_titles (list): List to track titles in use in database
+        identifier (str): Identifier of person with titles
+        used_titles (set): List to track titles in use in database
 
     Raises:
         KeyError: When title is not found in current translations
@@ -113,7 +117,7 @@ def control_titles(data, translated_titles, identifier, used_titles):
                 ) from err
             if timeperiod is not None:
                 assert extract_date(timeperiod, "nl_NL")
-            used_titles.append(title)
+            used_titles.add(title)
     except ValueError as err:
         if err.args[0] == "not enough values to unpack (expected 2, got 1)":
             raise ValueError(
@@ -138,16 +142,16 @@ def control_titles(data, translated_titles, identifier, used_titles):
         ) from err
 
 
-def control_date(timeperiod):
+def control_date(timeperiod: str) -> None:
     """Controls date be calling extract_date() which raises exceptions for certain errors
 
     Args:
-        timeperiod (string): String representation in standard date form
+        timeperiod (str): String representation in standard date form
     """
     assert extract_date(timeperiod, "nl_NL")
 
 
-def check_entries(input_file):  # pylint: disable=too-many-branches
+def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
     """Checks whether the input file is correct and fits all criteria of a correct database file
     Checks for unknown functions, titles, etc.
 
@@ -162,8 +166,8 @@ def check_entries(input_file):  # pylint: disable=too-many-branches
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
     identifiers = {}
-    used_titles = []
-    used_functions = []
+    used_titles = {}
+    used_functions = {}
 
     for identifier, data in persons_in_file.items():
         # Check if entry is correctly sorted

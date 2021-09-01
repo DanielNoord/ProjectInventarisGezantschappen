@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
 
-def check_begin(date, begin_date):  # pylint: disable=too-many-return-statements
+def check_begin(
+    date: list[int], begin_date: list[str]
+) -> bool:  # pylint: disable=too-many-return-statements
     """Checks if a date falls after or on a specific date
 
     Args:
-        date (list): Date to check
-        begin_date (list): Begin date where the other date has to be after or on
+        date (list[int]): Date to check
+        begin_date (list[str]): Begin date where the other date has to be after or on
 
     Returns:
         bool: Whether the check passed
@@ -28,12 +30,14 @@ def check_begin(date, begin_date):  # pylint: disable=too-many-return-statements
     return False
 
 
-def check_end(date, end_date):  # pylint: disable=too-many-return-statements
+def check_end(
+    date: list[int], end_date: list[str]
+) -> bool:  # pylint: disable=too-many-return-statements
     """Checks if a date falls before or on a specific date
 
     Args:
-        date (list): Date to check
-        end_date (list): End date where the other date has to be before or on
+        date (list[int]): Date to check
+        end_date (list[str]): End date where the other date has to be before or on
 
     Returns:
         bool: Whether the check passed
@@ -55,11 +59,11 @@ def check_end(date, end_date):  # pylint: disable=too-many-return-statements
     return False
 
 
-def check_date(date, function_period):
+def check_date(date: list[int], function_period: str) -> bool:
     """Checks if the given date falls within the period an individual held the position
 
     Args:
-        date (list): Date of the file to be checked
+        date (list[int]): Date of the file to be checked
         function_period (str): Period in which an individual held a position
 
     Returns:

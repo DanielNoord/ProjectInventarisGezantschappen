@@ -1985,7 +1985,7 @@ ENTRIES = {
 # pylint: enable=line-too-long
 
 
-def search_tuscia(filename):
+def search_tuscia(filename: str) -> None:
     """Checks all names in a database for hits in the Dizionario Tuscia
 
     Args:

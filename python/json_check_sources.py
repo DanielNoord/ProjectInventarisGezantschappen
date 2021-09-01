@@ -183,7 +183,7 @@ SOURCE_PATTERNS = [
 # pylint: enable=line-too-long
 
 
-def update_trecanni(source):
+def update_trecanni(source: str) -> str:
     """Downloads the correct author and title date from the Dizionario Biografico
 
     Args:
@@ -216,7 +216,7 @@ def update_trecanni(source):
     return final_source
 
 
-def update_parlement(source):
+def update_parlement(source: str) -> str:
     """Downloads the correct birth date/place and death date/place from parlement.com
 
     Args:
@@ -233,7 +233,9 @@ def update_parlement(source):
     return final_source
 
 
-def check_all_sources(filename):  # pylint: disable=too-many-branches, too-many-statements
+def check_all_sources(
+    filename: str,
+) -> None:  # pylint: disable=too-many-branches, too-many-statements
     """Check and update all sources for given database
 
     Args:

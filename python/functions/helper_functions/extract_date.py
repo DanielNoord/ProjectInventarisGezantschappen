@@ -5,17 +5,17 @@ import locale
 import re
 
 
-def extract_date(date_string, localization):
+def extract_date(date_string: str, localization: str) -> tuple[str, str]:
     """Returns a string containing the written date based on localization.
         (tries to) Handles missing data correctly
 
     Args:
-        date_string (string): The date string in formate xxxx-xx-xx/xxxx-xx-xx
-        localization (string): [description]
+        date_string (str): The date string in formate xxxx-xx-xx/xxxx-xx-xx
+        localization (str): [description]
 
     Returns:
-        date1_string (string): The first date in text
-        date2_string (string): The second date in text
+        date1_string (str): The first date in text
+        date2_string (str): The second date in text
     """
     locale.setlocale(locale.LC_ALL, localization)
     date_pattern = re.compile(r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$")

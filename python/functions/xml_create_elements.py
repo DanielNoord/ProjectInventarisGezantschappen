@@ -8,12 +8,12 @@ from functions.helper_functions.extract_date import extract_date
 from functions.helper_functions.unitdate import unitdate
 
 
-def basic_xml_file():  # pylint: disable=too-many-locals
+def basic_xml_file() -> tuple[etree._Element, etree._Element]:  # pylint: disable=too-many-locals
     """Returns a basic .xml file based on EAD standard used for this project
 
     Returns:
-        etree.Element: The root element of the .xml file
-        etree.SubElement: The archdesc element of the .xml file
+        etree._Element: The root element of the .xml file
+        etree._Element: The archdesc element of the .xml file
     """
     root = etree.Element("ead")
 
@@ -63,18 +63,20 @@ def basic_xml_file():  # pylint: disable=too-many-locals
     return root, archdesc
 
 
-def volume_entry(parent_element, number, title, date, localization):
+def volume_entry(
+    parent_element: etree._Element, number: str, title: str, date: str, localization: str
+) -> etree._Element:
     """Returns an .xml element for a volume at the c01 level
 
     Args:
-        parent_element (etree.Subelement): The element to which the dossier element is appended
-        number (string): The number of the volume
-        title (string): Title of the dossier
-        date (string): Date of the dossier
-        localization (string): The localization of the .xml file
+        parent_element (etree._Element): The element to which the dossier element is appended
+        number (str): The number of the volume
+        title (str): Title of the dossier
+        date (str): Date of the dossier
+        localization (str): The localization of the .xml file
 
     Returns:
-        etree.SubElement: The dossier element at the c01 level
+        etree._Element: The dossier element at the c01 level
     """
     desc = etree.SubElement(parent_element, "dsc")
     head = etree.SubElement(desc, "head")
@@ -90,22 +92,28 @@ def volume_entry(parent_element, number, title, date, localization):
     return c01
 
 
-def dossier_entry(
-    parent_element, v_number, number, _, title, date, localization
-):  # pylint: disable=too-many-locals, too-many-arguments
+def dossier_entry(  # pylint: disable=too-many-arguments
+    parent_element: etree._Element,
+    v_number: str,
+    number: str,
+    _: str,
+    title: str,
+    date: str,
+    localization: str,
+) -> etree._Element:
     """Returns a dossier .xml element at the c02 level
 
     Args:
-        parent_element (etree.Subelement): The element to which the dossier element is appended
-        v_number (string): The volume number
-        number (string): The dossier number
-        pages (string): The pages of the dossier
-        title (string): Title of the dossier
-        date (string): Date of the dossier
-        localization (string): The localization of the .xml file
+        parent_element (etree._Element): The element to which the dossier element is appended
+        v_number (str): The volume number
+        number (str): The dossier number
+        pages (str): The pages of the dossier, unused now
+        title (str): Title of the dossier
+        date (str): Date of the dossier
+        localization (str): The localization of the .xml file
 
     Returns:
-        etree.SubElement: The dossier element at the c02 level
+        etree._Element: The dossier element at the c02 level
     """
     c02 = etree.SubElement(parent_element, "c02", level="subseries")
     c02_head = etree.SubElement(c02, "head")
@@ -120,16 +128,18 @@ def dossier_entry(
     return c02
 
 
-def file_entry(parent_element, pages, title, _, date, localization):
+def file_entry(
+    parent_element: etree._Element, pages: str, title: str, _: str, date: str, localization: str
+) -> None:
     """Returns an .xml element for a file within a dossier
 
     Args:
-        parent_element (etree.Subelement): The element to which the file element is appended
-        pages (string): The pages of the files
-        title (string): Title of the file
-        place (string): The place of the file
-        date (string): Date of the file
-        localization (string): The localization of the .xml file
+        parent_element (etree._Element): The element to which the file element is appended
+        pages (str): The pages of the files
+        title (str): Title of the file
+        place (str): The place of the file, no longer used
+        date (str): Date of the file
+        localization (str): The localization of the .xml file
     """
     if parent_element.tag == "c01":
         c02 = etree.SubElement(parent_element, "c02", level="file")

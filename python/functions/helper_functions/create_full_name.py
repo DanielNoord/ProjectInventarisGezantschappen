@@ -3,18 +3,23 @@
 from .check_date_for_function import check_date
 
 
-def full_name(
-    surname, name, titles, translation_data, localization, date
-):  # pylint: disable=too-many-arguments, too-many-branches
+def full_name(  # pylint: disable=too-many-arguments, too-many-branches
+    surname: str,
+    name: str,
+    titles: str,
+    translation_data: tuple[dict, dict, dict],
+    localization: str,
+    date: list[int],
+) -> str:
     """Creates the string for the full name including title
 
     Args:
         surname (str): Surname of individual
         name (str): First name of indiviudal
         titles (str): Function of indiviudal
-        translation_data (list): two dictionaries containing the translation of titles and functions
-        locaizaiton (str): Localization to be used ("nl_NL", "it_IT" or "en_GB")
-        date (list): Date of the file to be checked
+        translation_data (tuple[dict, dict, dict]): two dictionaries containing the translation of titles and functions
+        localization (str): Localization to be used ("nl_NL", "it_IT" or "en_GB")
+        date (list[int]): Date of the file to be checked
 
     Raises:
         Exception: When there is no surname

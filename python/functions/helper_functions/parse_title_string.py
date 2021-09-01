@@ -3,7 +3,7 @@
 import re
 
 
-def title(input_line):
+def title(input_line: str) -> list[list[str, None]]:
     """Parses a function string
 
     Args:

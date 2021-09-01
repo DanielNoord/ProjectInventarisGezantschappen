@@ -3,10 +3,12 @@
 import re
 from warnings import warn
 
+import openpyxl
+
 from functions.helper_functions.check_date_for_earlylate import check_date_earlier, check_date_later
 
 
-def parse_volume(vol):
+def parse_volume(vol: str) -> tuple[str, str, str]:
     """Parses volumes. Note that current .xlsx files do not contain volume description.
 
     Args:
@@ -23,7 +25,12 @@ def parse_volume(vol):
     return vol_num, vol_title, vol_date
 
 
-def parse_dossier(sheet, dos_number, vol_num, start_cell):
+def parse_dossier(
+    sheet: openpyxl.worksheet.worksheet.Worksheet,
+    dos_number: str,
+    vol_num: str,
+    start_cell: openpyxl.cell.cell.Cell,
+) -> tuple[str, str, str]:
     """Parses a dossier from a .xlsx sheet
 
     Args:
@@ -52,8 +59,8 @@ def parse_dossier(sheet, dos_number, vol_num, start_cell):
         warn(f"Vol: {vol_num} Dos: {dos_number} is missing a dossier title")
 
     ## Find earliest and latest data
-    early_date = [2020, 12, 31]
-    late_date = [0, 0, 0]
+    early_date = (2020, 12, 31)
+    late_date = (0, 0, 0)
 
     # Check if any of dates is "better"
     for row in sheet.iter_rows():
@@ -77,11 +84,11 @@ def parse_dossier(sheet, dos_number, vol_num, start_cell):
     return dos_pages, dos_title, dos_data
 
 
-def parse_file(input_file):
+def parse_file(input_file: tuple[openpyxl.cell.cell.Cell]) -> tuple[str, str, str, str]:
     """Parse the data of a file row in .xlsx format
 
     Args:
-        input_file (tuple): Row with file data in openpyxl Cell format
+        input_file (tuple[openpyxl.cell.cell.Cell]): Row with file data in openpyxl Cell format
 
     Returns:
         str: Page number of the file

@@ -4,7 +4,7 @@ import json
 import os
 
 
-def sort_database(filename):
+def sort_database(filename: str) -> None:
     """Sorts the entries in a database
 
     Args:

@@ -3,7 +3,7 @@
 import re
 
 
-def person(input_line):
+def person(input_line: str) -> tuple[str, str, str, str, str, str, str, str, str, str]:
     """Parses a person string
 
     Args:

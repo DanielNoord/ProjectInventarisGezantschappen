@@ -13,7 +13,7 @@ from functions.xlsx_sanitize import sanitize_xlsx
 from functions.xlsx_translate import translate_xlsx
 
 
-def create_filled_xlsx(directory_name, localization):
+def create_filled_xlsx(directory_name: str, localization: str) -> None:
     """Creates the .xlsx files of all volumes in the input directory
 
     Args:
@@ -38,7 +38,7 @@ def create_filled_xlsx(directory_name, localization):
             )
 
 
-def create_xlsx_controle(directory_names):
+def create_xlsx_controle(directory_names: list[str]) -> None:
     """Creates a combination of the various translated .xlsx files into one "control file"
 
     Args:
@@ -85,7 +85,7 @@ def create_xlsx_controle(directory_names):
             print(f"Wrote file to outputs/VolumesExcelControl/{new_filename}")
 
 
-def create_translated_xlsx(directory_name, localization):
+def create_translated_xlsx(directory_name: str, localization: str) -> None:
     """Creates the .xlsx files with a number of easy translation already done
 
     Args:
@@ -115,7 +115,7 @@ def create_translated_xlsx(directory_name, localization):
     print("Done!\nFound the following unused translations:\n", unused_trans)
 
 
-def create_sanitized_xlsx(directory_name):
+def create_sanitized_xlsx(directory_name: str) -> None:
     """Creates the .xlsx files with a number of easy sanitizations
 
     Args:
@@ -129,7 +129,7 @@ def create_sanitized_xlsx(directory_name):
             sanitize_xlsx(directory_name, filename)
 
 
-def do_full_loop():
+def do_full_loop() -> None:
     """Completes the full process of input files till seperate translations and control file"""
     print("STARTING CREATION OF .XLSX DOCUMENTS\n")
     start_time = time.time()

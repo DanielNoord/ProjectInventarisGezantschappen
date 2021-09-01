@@ -5,7 +5,7 @@ import json
 import requests
 
 
-def fetch_rkd_images(filename):
+def fetch_rkd_images(filename: str) -> None:
     """Checks all names in a database for hits in the RKD image database
 
     Args:
@@ -29,7 +29,7 @@ def fetch_rkd_images(filename):
     print("Finished checking for images!")
 
 
-def fetch_rkd_artists(filename):
+def fetch_rkd_artists(filename: str) -> None:
     """Checks all names in a database for hits in the RKD artists database
 
     Args:

@@ -4,6 +4,7 @@ import os
 import re
 from warnings import warn
 
+import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
 
@@ -11,14 +12,19 @@ from functions.xlsx_parse import parse_dossier, parse_file, parse_volume
 from functions.xml_create_elements import basic_xml_file, dossier_entry, file_entry, volume_entry
 
 
-def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
+def create_xml_individual_files(
+    localization: str,
+    sheet: openpyxl.worksheet.worksheet.Worksheet,
+    dossiers: dict,
+    vol_entry: etree._Element,
+) -> None:
     """Based on a sheet creates .xml entries for every file found
 
     Args:
         localization (str): String indicating the localization of the inventory
         sheet (openpyxl.worksheet.worksheet.Worksheet): The .xlsx sheet with data
         dossiers (dict): Dictionary of dossier numbers with their corresponding .xml element
-        vol_entry (lxml.etree._Element): The c01 element of the final .xml file
+        vol_entry (etree._Element): The c01 element of the final .xml file
             To be used when there is no dossier.
     """
     for file in sheet.iter_rows():
@@ -39,14 +45,19 @@ def create_xml_individual_files(localization, sheet, dossiers, vol_entry):
                 file_entry(vol_entry, f_page, f_title, f_place, f_date, localization)
 
 
-def create_xml_dossier(localization, sheet, v_num, c01):
+def create_xml_dossier(
+    localization: str,
+    sheet: openpyxl.worksheet.worksheet.Worksheet,
+    v_num: str,
+    c01: etree._Element,
+) -> None:
     """Creates necessary dossier entries at the c02 level
 
     Args:
         localization (str): String indicating the localization of the inventory
         sheet (openpyxl.worksheet.worksheet.Worksheet): The .xlsx sheet with data
         v_num (str): Number of the volume
-        c01 (lxml.etree._Element): The c01 element of the final .xml file
+        c01 (etree._Element): The c01 element of the final .xml file
     """
     dossiers = {}
 
@@ -75,13 +86,13 @@ def create_xml_dossier(localization, sheet, v_num, c01):
     create_xml_individual_files(localization, sheet, dossiers, c01)
 
 
-def create_xml_volume(localization, filename, archdesc):
+def create_xml_volume(localization: str, filename: str, archdesc: etree._Element) -> None:
     """Adds a volume to an 'archdesc' element
 
     Args:
         localization (str): String indicating the localization of the inventory
         filename (str): Name and directory of file
-        archdesc (lxml.etree._Element): The archdesc element of the final .xml file
+        archdesc (etree._Element): The archdesc element of the final .xml file
     """
     workbook = load_workbook(filename)
     first_sheet = workbook[workbook.sheetnames[0]]
@@ -95,7 +106,7 @@ def create_xml_volume(localization, filename, archdesc):
     print(f"""Finished writing volume {v_num}\n""")
 
 
-def create_xml_file(localization, dir_name):
+def create_xml_file(localization: str, dir_name: str) -> None:
     """Creates and writes an xml file based on directory of volumes
 
     Args:

@@ -6,7 +6,7 @@ import os
 from functions.docx_make import list_of_translated_data
 
 
-def create_controle_translations():
+def create_controle_translations() -> None:
     """Create .docx files of all titles and functions found by the translate functions
     Includes Italian and English translations on second and third row
     """

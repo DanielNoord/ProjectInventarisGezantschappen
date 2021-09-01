@@ -8,14 +8,20 @@ from openpyxl import load_workbook
 from functions.data_create_name_string import name_string
 
 
-def fill_in_xlsx(directory_name, file_name, individuals, translations, localization):
+def fill_in_xlsx(
+    directory_name: str,
+    file_name: str,
+    individuals: dict,
+    translations: tuple[dict, dict, dict],
+    localization: str,
+) -> None:
     """Fills an individual volume .xlsx file
 
     Args:
         directory_name (str): Name of input directory
         file_name (str): Name of input file
         individuals (dict): Dictionary of all individuals based on inputs/Individuals.json
-        translations (list): Dictionaries of function, title and places translations
+        translations (tuple[dict, dict, dict]): Dictionaries of function, title and places translations
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")

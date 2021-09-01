@@ -5,13 +5,13 @@ import os
 
 
 def create_type_statistics(
-    filename, type_list, skip
+    filename: str, type_list: list[int], skip: bool
 ):  # pylint: disable=too-many-locals, too-many-branches, too-many-statements
     """Print out statistics from from .json file for specified person types
 
     Args:
         filename (str): Name of the input file
-        type_list (list): Number of person types you might want to skip.
+        type_list (list[int]): Number of person types you might want to skip.
         skip (bool): Whether type_list should be seen as a skip list or as a list to select
     """
     c_comment = 0
@@ -82,7 +82,7 @@ def create_type_statistics(
     print(f"{start_string} titles: {c_titles}, {c_titles/c_surname:.2%}")
 
 
-def create_total_statistics(filename):
+def create_total_statistics(filename: str) -> None:
     """Print out statistics from from .json file for total file
 
     Args:

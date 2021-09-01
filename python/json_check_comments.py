@@ -48,7 +48,7 @@ COMMENT_PATTERNS = {
 # pylint: enable=line-too-long
 
 
-def check_all_comments(filename):
+def check_all_comments(filename: str) -> None:
     """Checks all comments for given database
 
     Args:

@@ -14,7 +14,7 @@ def extract_persons_and_identifiers(filename):
     Returns:
         [[], [], [], ...] List of lists
             [string, string] Each list contains two strings which are:
-                string: Data in inventais
+                string: Data in inventory
                 string: Identifier given to that data
     """
     doc = docx.Document(filename)

@@ -3,7 +3,7 @@
 import re
 
 
-def function(input_line):
+def function(input_line: str) -> list[list[str, None]]:
     """Parses a function string
 
     Args:

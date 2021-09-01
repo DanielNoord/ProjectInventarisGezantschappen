@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
 from create_data import person_with_identifier
+
 from functions.docx_load import extract_persons_and_identifiers
 from functions.docx_make import list_of_translated_data, list_of_translated_data_with_style
 
 
-def create_name_docx(input_file_names, input_file_data):
+def create_name_docx(input_file_names, input_file_data) -> None:
     """Creates a document with all names encountered in the input_file with translations
     in Italian, Dutch and English
 

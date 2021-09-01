@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 
+from typing import Union
+
 from functions.helper_functions.check_date_for_function import check_date
-from functions.helper_functions.create_full_name import \
-    full_name as create_full_name
+from functions.helper_functions.create_full_name import full_name as create_full_name
 
 
-def name_string(person, date, translation_data, localization):
+def name_string(
+    person: dict,
+    date: list[Union[int, None]],
+    translation_data: list[dict, dict, dict],
+    localization: str,
+) -> str:
     """Creates a string of a given person
 
     Args:
         person (dict): Dictionary of data for the relevant person
-        date (list): Date of the file in which the person is mentioned
-        translation_data (list): Dictionaries of functions and title translations
+        date (list[Union[int, None]]): Date of the file in which the person is mentioned
+        translation_data (list[dict, dict, dict]): Dictionaries of functions and title translations
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
 
     Returns:

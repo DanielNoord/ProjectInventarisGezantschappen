@@ -6,7 +6,7 @@ from functions.data_find_names import create_person
 from functions.json_translate import initialize_translation_database
 
 
-def person_with_identifier(input_file):
+def person_with_identifier(input_file: str) -> dict:
     """Creates a dictionary with all fully translated names and functions to be used in inventory
 
     Args:
@@ -47,7 +47,7 @@ def person_with_identifier(input_file):
     return data_with_identifier
 
 
-def used_functions_and_titles(input_file):
+def used_functions_and_titles(input_file: str) -> tuple[list[str], list[str]]:
     """Creates two lists with all used functions and titles in Dutch
 
     Args:
@@ -74,7 +74,7 @@ def used_functions_and_titles(input_file):
     return sorted(list(set(all_functions))), sorted(list(set(all_titles)))
 
 
-def used_names(input_file):
+def used_names(input_file: str) -> list[str]:
     """Creates two lists with all names in Dutch
 
     Args:

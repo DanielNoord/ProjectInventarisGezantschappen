@@ -3,13 +3,15 @@
 from functions.helper_functions.create_full_name import full_name as create_full_name
 
 
-def create_person(localization, person, translation_data):
+def create_person(
+    localization: str, person: dict, translation_data: list[dict, dict, dict]
+) -> tuple[str, str]:
     """Creates a data entry for the given person
 
     Args:
         localization (str): Localization of the data entry
         person (dict): The data of the person in dictionary formt
-        translation_data (list): List with the dicts of translated functions, titles and places
+        translation_data (list[dict, dict, dict]): List with the dicts of translated functions, titles and places
 
     Returns:
         str: Full name and function
