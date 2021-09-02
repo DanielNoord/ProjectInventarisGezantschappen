@@ -160,7 +160,15 @@
     "en_GB": "Description of wanted person \\1",
     "nl_NL": "Signalement van \\1"
   },
-  "Dichiarazione": {
+  "Diario di Roma \\(a stampa\\)$": {
+    "en_GB": "Diario di Roma (printed)",
+    "nl_NL": "Diario di Roma (gedrukt)"
+  },
+  "Diario di Roma$": {
+    "en_GB": "Diario di Roma",
+    "nl_NL": "Diario di Roma"
+  },
+  "Dichiarazione$": {
     "en_GB": "Declaration",
     "nl_NL": "Verklaring"
   },
@@ -184,7 +192,7 @@
     "en_GB": "Edict of \\2 on transfers and translations (printed)",
     "nl_NL": "Edict van \\2 over overdrachten en vertalingen (gedrukt)"
   },
-  "Estratto del Giornale de L'Aia$": {
+  "Estratto del Journal de la Haye$": {
     "en_GB": "Extract from the Journal de la Haye",
     "nl_NL": "Uittreksel uit het Journal de la Haye"
   },
@@ -302,7 +310,11 @@
   },
   "Journal de la Haye \\(a stampa\\)$": {
     "en_GB": "Journal de la Haye (printed)",
-    "nl_NL": "Journal de la Haye (handgeschreven)"
+    "nl_NL": "Journal de la Haye (gedrukt)"
+  },
+  "Journal de la Haye$": {
+    "en_GB": "Journal de la Haye",
+    "nl_NL": "Journal de la Haye"
   },
   "Lettera (a|al) (\\$\\w*) circa la morte (di|del|della) (\\$\\w*)$": {
     "en_GB": "Letter to \\2 about the death of \\4",
@@ -732,6 +744,10 @@
     "en_GB": "Rapport sur la consommation et le commerce des sucres, et cafés dans les Etats Romains",
     "nl_NL": "Rapport sur la consommation et le commerce des sucres, et cafés dans les Etats Romains"
   },
+  "Rapporto Commerciale dell'anno 1843 del porto di Civitavecchia (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Commercial report from the year 1843 from the port of Civitavecchia of \\2",
+    "nl_NL": "Commercieel rapport van het jaar 1943 over de haven van Civitavecchia door \\2"
+  },
   "Rapporto$": {
     "en_GB": "Report",
     "nl_NL": "Rapport"
@@ -759,6 +775,10 @@
   "Relazione inviata (a|al) (\\$\\w*)$": {
     "en_GB": "Report sent to \\2",
     "nl_NL": "Rapport verzonden naar \\2"
+  },
+  "Ricevuta (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Receipt from \\2",
+    "nl_NL": "Ontvangstbewijs van \\2"
   },
   "Ricevuta dei dispacci della società Pierre Razetti$": {
     "en_GB": "Receipt of the dispatches from the Pierre Razetti company",
