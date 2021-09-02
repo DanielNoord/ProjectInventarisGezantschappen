@@ -1696,7 +1696,10 @@
     "comment_daniel": "",
     "date_of_birth": "1806-09-23",
     "date_of_death": "1881",
-    "functions": [["Vice-Prefetto apostolico a Batavia", null]],
+    "functions": [
+      ["Vice-Prefetto apostolico a Batavia", "1842/1846"],
+      ["Ciambellano del Papa", null]
+    ],
     "images": [""],
     "name": "Hubertus Jacobus",
     "person_type": 1,
@@ -7070,6 +7073,23 @@
     "sources": [""],
     "surname": "Poelman",
     "titles": []
+  },
+  "$Pozzesi": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Direttore del Dipartimento della Posta della Toscana", null]
+    ],
+    "images": [""],
+    "name": "Giuseppe",
+    "person_type": 6,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [""],
+    "surname": "Pozzesi",
+    "titles": [[""]]
   },
   "$Pozzi": {
     "comment": "",
