@@ -48,6 +48,10 @@
     "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
     "nl_NL": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes"
   },
+  "Avviso a stampa sulla morte di Ferdinando d'Ohmas, consigliere d'ambasciata$": {
+    "en_GB": "Printed notice about the death of Ferdinando d'Ohmas, advisor of the embassy",
+    "nl_NL": "Gedrukte melding over de dood van Ferdinando d'Ohmas, adviseur van de ambassade"
+  },
   "Bianca$": {
     "en_GB": "Empty",
     "nl_NL": "Leeg"
@@ -84,7 +88,7 @@
     "en_GB": "Printed circulaire of \\2",
     "nl_NL": "Gedrukte circulaire van \\2"
   },
-  "Circolare manoscritto (di|del|della) (\\$\\w*)$": {
+  "Circolare manoscritta (di|del|della) (\\$\\w*)$": {
     "en_GB": "Handwritten circulaire of \\2",
     "nl_NL": "Handgeschreven circulaire van \\2"
   },
@@ -144,6 +148,10 @@
     "en_GB": "Copies of dispatches, diplomas and correspondence of \\2",
     "nl_NL": "Kopieën van verzendingen, diploma's en correspondentie van \\2"
   },
+  "Correspondance avec le corps diplomatique$": {
+    "en_GB": "Corrispondence avec le corps diplomatique",
+    "nl_NL": "Corrispondence avec le corps diplomatique"
+  },
   "Correspondenance avec le department des affaires Etrangeres 1827-1829$": {
     "en_GB": "Correspondenance avec le department des affaires Etrangeres 1827-1829",
     "nl_NL": "Correspondenance avec le department des affaires Etrangeres 1827-1829"
@@ -152,9 +160,9 @@
     "en_GB": "Correspondence avec les agents consulaires",
     "nl_NL": "Correspondence avec les agents consulaires"
   },
-  "Corrispondence avec le corps diplomatique$": {
-    "en_GB": "Corrispondence avec le corps diplomatique",
-    "nl_NL": "Corrispondence avec le corps diplomatique"
+  "Corrispondence de M.H. Cartenstat a Mgr. Grooff \\(Corrispondenza di M.H. Cartenstat a Mgr. Grooff\\)$": {
+    "en_GB": "Corrispondence de M.H. Cartenstat a Mgr. Grooff (Corrispondence of M.H. Cartenstat with Mgr. Grooff)",
+    "nl_NL": "Corrispondence de M.H. Cartenstat a Mgr. Grooff (Corrispondentie van M.H. Cartenstat met Mgr. Grooff)"
   },
   "Descrizione della persona ricercata (\\$\\w*)$": {
     "en_GB": "Description of wanted person \\1",
@@ -199,6 +207,10 @@
   "Estratto di un dispaccio (di|del|della) (\\$\\w*)$": {
     "en_GB": "Extract from a dispatch of \\2",
     "nl_NL": "Uittreksel uit een verzending van \\2"
+  },
+  "Estratto di una lettera di Bruxelles$": {
+    "en_GB": "Extract from a letter from Brussels",
+    "nl_NL": "Uittreksel uit een brief uit Brussel"
   },
   "Estratto di una lettera scritta al Consolato di S.M. il Re dei Paesi Bassi in Genova di 7 maggio 1825 circa l'arrivo di un Brigantino da guerra$": {
     "en_GB": "Extract from a letter to the consulate of H.M. the King of the Netherlands in Genoa on May 7, 1825 about the arrival of a war brigantine",
@@ -480,6 +492,10 @@
     "en_GB": "Letter ???",
     "nl_NL": "Brief ???"
   },
+  "Lettera a stampa (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Printed letter of \\2 to \\4",
+    "nl_NL": "Gedrukte brief van \\2 aan \\4"
+  },
   "Lettera a stampa (di|del|della) (\\$\\w*) e (di|del|della) (\\$\\w*) per i festeggiamenti del matrimonio tra (\\$\\w*) e (\\$\\w*)$": {
     "en_GB": "Printed letter of \\2 and of \\4 for the wedding celebrations between \\5 and \\6",
     "nl_NL": "Gedrukte brief van \\2 en van \\4 voor de huwelijksfeesten tussen \\5 en \\6"
@@ -578,7 +594,7 @@
   },
   "Liste des Estrangers \\(negli hotel di Roma$\\)": {
     "en_GB": "Liste des Estrangers (in the hotels of Rome)",
-    "nl_NL": "Liste des Estrangers (in de hotellen van Rome)"
+    "nl_NL": "Liste des Estrangers (in de hotels van Rome)"
   },
   "Litografia acquarellata raffigurante l'Uniforme approvata della Guardia Civica Pontifica$": {
     "en_GB": "Watercolour lithograph depicting the approved uniform of the Pontifical Civil Guard",
@@ -672,6 +688,10 @@
     "en_GB": "Note about Arab Anton born in Bagdad",
     "nl_NL": "Nota over de Arabische Anton geboren in Bagdad"
   },
+  "Nota su un incontra con (\\$\\w*)$": {
+    "en_GB": "Note about an encounter with \\1",
+    "nl_NL": "Nota over een ontmoeting met \\1"
+  },
   "Nota sui vascelli armati presenti nel porto di Genova$": {
     "en_GB": "Note on the armed vessels present in the port of Genoa",
     "nl_NL": "Nota over de gewapende schepen die aanwezig zijn in de haven van Genua"
@@ -686,7 +706,7 @@
   },
   "Notificazione (di|del|della) (\\$\\w*) \\(traduzione\\)$": {
     "en_GB": "Notification by \\2 (translation)",
-    "nl_NL": "Melding door \\2 (vertaling)"
+    "nl_NL": "Notificatie van \\2 (vertaling)"
   },
   "Notificazione (di|del|della) (\\$\\w*) sulle corse dei cavalli nell'Agro Romano \\(a stampa\\)$": {
     "en_GB": "Notification by \\2 on horse racing in the Agro Romano (printed)",
