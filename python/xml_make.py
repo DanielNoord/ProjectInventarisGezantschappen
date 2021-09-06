@@ -139,7 +139,4 @@ def create_xml_file(localization: str, dir_name: str) -> None:
 
 
 if __name__ == "__main__":
-    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    os.chdir(dname)
-
     create_xml_file("it_IT", "outputs/VolumesExcelFinal/")

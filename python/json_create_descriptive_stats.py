@@ -108,8 +108,5 @@ def create_total_statistics(filename: str) -> None:
 
 
 if __name__ == "__main__":
-    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    os.chdir(dname)
-
     create_type_statistics("inputs/Individuals.json", [0, 1, 2, 3, 4, 5], False)
     create_total_statistics("inputs/Individuals.json")

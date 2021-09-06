@@ -227,9 +227,6 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
 
 
 if __name__ == "__main__":
-    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    os.chdir(dname)
-
     check_translations()
     check_entries("inputs/Individuals.json")
     check_all_sources("inputs/Individuals.json")

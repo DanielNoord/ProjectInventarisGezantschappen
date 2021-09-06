@@ -97,9 +97,6 @@ def load_translations_titles(filename: str) -> None:
 
 
 if __name__ == "__main__":
-    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    os.chdir(dname)
-
     load_translations_documents("inputs/Translations/TranslatedDocumentTitles.docx")
     # load_translations_functions("inputs/Translations/TranslatedFunctions.docx")
     # load_translations_placenames("inputs/Translations/TranslatedPlacenames.docx")

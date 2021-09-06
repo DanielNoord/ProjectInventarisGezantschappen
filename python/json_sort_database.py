@@ -40,7 +40,4 @@ def sort_database(filename: str) -> None:
 
 
 if __name__ == "__main__":
-    dname = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    os.chdir(dname)
-
     sort_database("inputs/Individuals.json")
