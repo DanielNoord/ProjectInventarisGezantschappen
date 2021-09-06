@@ -1390,7 +1390,11 @@
     "date_of_death": "1881-11-30",
     "functions": [
       [
-        "Ciambellano del Papa",
+        "Cameriere segreto partecipanti del Papa",
+        "1845-10-20/"
+      ],
+      [
+        "Maestro di Camera del Papa",
         "1850-03-30/1856-06-16"
       ],
       [
@@ -1409,7 +1413,12 @@
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 671"
     ],
     "surname": "Borromeo Arese",
-    "titles": []
+    "titles": [
+      [
+        "card.",
+        "1868-03-13"
+      ]
+    ]
   },
   "$Bosch": {
     "comment": "Louis Bosch represented a lady referred to as 'the widow Henriette Natalie Sturbaut' in the dispute surrounding the inheritance of Francesco Cornelio Verbruggen.",
@@ -2296,8 +2305,8 @@
         "1842/1846"
       ],
       [
-        "Ciambellano del Papa",
-        null
+        "Cameriere segreto del Papa",
+        "1837/"
       ]
     ],
     "images": [
@@ -2309,7 +2318,8 @@
     "place_of_death": "Roma",
     "sources": [
       "'Hubertus Jacobus Cartenstat', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/32828011",
-      "Kleijntjens, J.C.J., 'Cartenstat, Hubertus Jacobus', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, 1927)"
+      "Kleijntjens, J.C.J., 'Cartenstat, Hubertus Jacobus', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, 1927)",
+      "Velden, Arn. J.H. van der, 'De Roomsch-Katholieke Missie in Nederlands Oost-Indië, 1808-1908' (Nijmegen: 1908), found on: https://www.delpher.nl/nl/boeken/view?objectsearch=Cartenstat&coll=boeken&identifier=MMSFUBA02:000010921:00010, p. 202"
     ],
     "surname": "Cartenstat",
     "titles": []
@@ -2548,6 +2558,34 @@
         null
       ]
     ]
+  },
+  "$Celesti": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Segretario Generale dell'intendenza di Messina",
+        null
+      ],
+      [
+        "Indentente di Messina",
+        null
+      ]
+    ],
+    "images": [
+      ""
+    ],
+    "name": "Michele",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "'Almanacco reale del regno delle Due Sicilie per l'anno 1843' (Napoli: 1843), p. 424."
+    ],
+    "surname": "Celesti",
+    "titles": []
   },
   "$Cerri": {
     "comment": "",
@@ -7556,7 +7594,7 @@
     "date_of_death": "1857-10-11",
     "functions": [
       [
-        "Ciambellano del Papa",
+        "Maestro di Camera del Papa",
         "1842-01-28/1850-05-17"
       ],
       [
@@ -8735,7 +8773,19 @@
     "date_of_death": "1880-10-14",
     "functions": [
       [
-        "Ciambellano del Papa",
+        "Cameriere segreto soprannumerario del Papa",
+        "1838-12-01/"
+      ],
+      [
+        "Prelato Domestico del Papa",
+        "1841-03-21/"
+      ],
+      [
+        "Uditore del Supremo tribunale della Segnatura apostolica",
+        "1853-03-10/"
+      ],
+      [
+        "Maestro di Camera del Papa",
         "1856-06-16/1868-03-21"
       ],
       [
@@ -8754,7 +8804,12 @@
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 607"
     ],
     "surname": "Pacca (il Giovane)",
-    "titles": []
+    "titles": [
+      [
+        "card.",
+        "1875-09-17"
+      ]
+    ]
   },
   "$Pacheco": {
     "comment": "",
@@ -8837,7 +8892,7 @@
     "date_of_death": "1867-10-12",
     "functions": [
       [
-        "Ciambellano del Papa",
+        "Maestro di Camera del Papa",
         "1838-09-13/1842-01-24"
       ],
       [
@@ -9446,7 +9501,7 @@
     "date_of_death": "",
     "functions": [
       [
-        "Direttore del Dipartimento della Posta della Toscana",
+        "Direttore del Dipartimento della Posta del Granducato di Toscana",
         null
       ]
     ],

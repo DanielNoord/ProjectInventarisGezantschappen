@@ -96,6 +96,14 @@
     "en_GB": "Librarian of the _Biblioteca Corsiniana_",
     "nl_NL": "Bibliothecaris van de _Biblioteca Corsiniana_"
   },
+  "Cameriere segreto participanti del Papa": {
+    "en_GB": "Real Secret Chaimberlain of His Holiness",
+    "nl_NL": "Werkelijk Geheim Kamerheer van Zijne Heiligheid"
+  },
+  "Cameriere segreto soprannumerario del Papa": {
+    "en_GB": "Extraordinary Secret Chaimberlain of His Holiness",
+    "nl_NL": "Boventallig Geheim Kamerheer van Zijne Heiligheid"
+  },
   "Camerlengo di Santa Romana Chiesa": {
     "en_GB": "Camerlengo of the Holy Roman Church",
     "nl_NL": "Camerlengo van de Rooms-Katholieke Kerk"
@@ -380,9 +388,9 @@
     "en_GB": "Ad interim director of the chancellery for Luxembourgish Affairs in The Hague",
     "nl_NL": "Ad interim directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag"
   },
-  "Direttore del Dipartimento della Posta della Toscana": {
-    "en_GB": "Director of the Post Department of Toscana",
-    "nl_NL": "Directeur van de Afdeling Post van Toscana"
+  "Direttore del Dipartimento della Posta del Granducato di Toscana": {
+    "en_GB": "Director of the Post Department of the Grand Duchy of Toscana",
+    "nl_NL": "Directeur van de Afdeling Post van het Groothertogdom van Toscana"
   },
   "Direttore dell'Ufficio della Dogana e Porto Franco di Genova": {
     "en_GB": "Director of Customs and the free port of Genoa",
@@ -744,6 +752,10 @@
     "en_GB": "Lieutenant of the militia of Mondovì",
     "nl_NL": "Luitenant van de militie van Mondovì"
   },
+  "Maestro di Camera del Papa": {
+    "en_GB": "Master of the Chamber of the Pope",
+    "nl_NL": "Pauselijke Kamerheer"
+  },
   "Maestro di Cerimonie e Introduttore degli Ambasciatori del Re di Sardegna": {
     "en_GB": "Master of Ceremonies and Introducer of Ambassadors of the King of Sardinia",
     "nl_NL": "Ceremoniemeester en Introducteur der Ambassadeurs van de Koning van Sardinië"
@@ -1059,6 +1071,10 @@
   "Prefetto e successivamente Presidente delle Armi dello Stato Pontifico": {
     "en_GB": "Prefect and later President _delle Armi_ {of the weapons} of the Papal State",
     "nl_NL": "Prefect en later president _delle Armi_ {van de wapens} van de Kerkelijke Staat"
+  },
+  "Prelato Domestico del Papa": {
+    "en_GB": "Domestic Prelate of the Pope",
+    "nl_NL": "Huisprelaat van de Paus"
   },
   "Prelato ponente e giudice del tribunale della Sacra Consulta": {
     "en_GB": "_Prelato ponente_ {qualified prelate} and tribunal judge of the Holy Congregation of the _Consulta_",
