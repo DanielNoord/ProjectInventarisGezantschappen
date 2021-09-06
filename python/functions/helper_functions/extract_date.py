@@ -17,7 +17,7 @@ def extract_date(date_string: str, localization: str) -> tuple[str, str]:
         date1_string (str): The first date in text
         date2_string (str): The second date in text
     """
-    locale.setlocale(locale.LC_ALL, localization)
+    locale.setlocale(locale.LC_ALL, f"{localization}.UTF-8")
     date_pattern = re.compile(r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$")
     y_1, m_1, d_1, y_2, m_2, d_2 = re.match(date_pattern, date_string).groups()
     date1_datetime = None
