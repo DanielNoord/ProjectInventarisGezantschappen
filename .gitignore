@@ -1,6 +1,7 @@
 /*
 
 # Whitelisted directories
+!.github/
 !ead2pdf/
 !EADFiles/
 !inputs
