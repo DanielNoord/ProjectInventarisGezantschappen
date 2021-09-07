@@ -152,17 +152,21 @@
     "en_GB": "Corrispondence avec le corps diplomatique",
     "nl_NL": "Corrispondence avec le corps diplomatique"
   },
-  "Correspondenance avec le department des affaires Etrangeres 1827-1829$": {
-    "en_GB": "Correspondenance avec le department des affaires Etrangeres 1827-1829",
-    "nl_NL": "Correspondenance avec le department des affaires Etrangeres 1827-1829"
+  "Correspondance avec le department des affaires Etrangeres 1827-1829$": {
+    "en_GB": "Correspondance avec le department des affaires Etrangeres 1827-1829",
+    "nl_NL": "Correspondance avec le department des affaires Etrangeres 1827-1829"
+  },
+  "Correspondance avec le ministre des affaires etranges sur diverses subjets \\(Corrispondenza con i ministri degli affari esteri sui soggetti diversi\\)$": {
+    "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Corrispondence with the ministers of external affairs on several subjects)",
+    "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Corrispondentie met de ministers van buitenlandse zaken over verschillende onderwerpen)"
+  },
+  "Correspondance de M.H. Cartenstat a Mgr. Grooff \\(Corrispondenza di M.H. Cartenstat a Mgr. Grooff\\)$": {
+    "en_GB": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Corrispondence of M.H. Cartenstat with Mgr. Grooff)",
+    "nl_NL": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Corrispondentie van M.H. Cartenstat met Mgr. Grooff)"
   },
   "Correspondence avec les agents consulaires$": {
-    "en_GB": "Correspondence avec les agents consulaires",
-    "nl_NL": "Correspondence avec les agents consulaires"
-  },
-  "Corrispondence de M.H. Cartenstat a Mgr. Grooff \\(Corrispondenza di M.H. Cartenstat a Mgr. Grooff\\)$": {
-    "en_GB": "Corrispondence de M.H. Cartenstat a Mgr. Grooff (Corrispondence of M.H. Cartenstat with Mgr. Grooff)",
-    "nl_NL": "Corrispondence de M.H. Cartenstat a Mgr. Grooff (Corrispondentie van M.H. Cartenstat met Mgr. Grooff)"
+    "en_GB": "Correspondance avec les agents consulaires",
+    "nl_NL": "Correspondance avec les agents consulaires"
   },
   "Descrizione della persona ricercata (\\$\\w*)$": {
     "en_GB": "Description of wanted person \\1",
@@ -206,7 +210,7 @@
   },
   "Estratto di un dispaccio (di|del|della) (\\$\\w*)$": {
     "en_GB": "Extract from a dispatch of \\2",
-    "nl_NL": "Uittreksel uit een verzending van \\2"
+    "nl_NL": "Uittreksel van een verzending van \\2"
   },
   "Estratto di una lettera di Bruxelles$": {
     "en_GB": "Extract from a letter from Brussels",
@@ -766,7 +770,7 @@
   },
   "Rapporto Commerciale dell'anno 1843 del porto di Civitavecchia (di|del|della) (\\$\\w*)$": {
     "en_GB": "Commercial report from the year 1843 from the port of Civitavecchia of \\2",
-    "nl_NL": "Commercieel rapport van het jaar 1943 over de haven van Civitavecchia door \\2"
+    "nl_NL": "Commercieel rapport van het jaar 1843 over de haven van Civitavecchia door \\2"
   },
   "Rapporto$": {
     "en_GB": "Report",
@@ -856,9 +860,21 @@
     "en_GB": "Transcription of a Decree of \\2 in favour of \\4",
     "nl_NL": "Transcriptie van een verordening van \\2 ten gunste van \\4"
   },
+  "Trascrizione di Editto (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Transcription of an Edict of \\2",
+    "nl_NL": "Transcriptie van een Edict van \\2"
+  },
+  "Trascrizione di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Transcription of a letter by \\2 to \\4",
+    "nl_NL": "Transcriptie van een brief door \\2 aan \\4"
+  },
   "Trascrizione di una dichiarazione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of a declaration of \\2",
     "nl_NL": "Transcriptie van een verklaring van \\2"
+  },
+  "Trascrizione di una dichiarazione del parlamento generale del Regno di Sicilia$": {
+    "en_GB": "Transcription of a declaration of the general parliament of the Kingdom of Sicily",
+    "nl_NL": "Transcriptie van een verklaring van het algemeen parlament van het Koningrijk van Sicilië"
   },
   "Trascrizione di una lettera (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of a letter of \\2",
