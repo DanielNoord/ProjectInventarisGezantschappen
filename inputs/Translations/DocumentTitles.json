@@ -168,6 +168,10 @@
     "en_GB": "Correspondance avec les agents consulaires",
     "nl_NL": "Correspondance avec les agents consulaires"
   },
+  "Decreto per l'Esilio (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Decree for the Exile of \\2",
+    "nl_NL": "Verordening voor de Verbanning van \\2"
+  },
   "Descrizione della persona ricercata (\\$\\w*)$": {
     "en_GB": "Description of wanted person \\1",
     "nl_NL": "Signalement van \\1"
@@ -740,6 +744,14 @@
     "en_GB": "Pieces Diverses",
     "nl_NL": "Pieces Diverses"
   },
+  "Proclama a stampa (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Printed proclamation van \\2",
+    "nl_NL": "Gedrukte proclamatie van \\2"
+  },
+  "Programma del nuovo Ministero (a stampa)$": {
+    "en_GB": "Program of the new Ministry (printed)",
+    "nl_NL": "Programma van het nieuwe Ministerie (gedrukt)"
+  },
   "Programma delle feste in occasione del matrimonio tra la principessa Maria Anna di Savoia e Ferdinando V re d'Ungheria$": {
     "en_GB": "Program of the festivities for the wedding between princess Maria Anna of Savoy and Ferdinand V, King of Hungary",
     "nl_NL": "Programma van de festiviteiten voor de bruiloft tussen prinses Maria Anna van Savoye en Ferdinand V, koning van Hongarije"
@@ -858,10 +870,14 @@
   },
   "Trascrizione di Decreto (di|del|della) (\\$\\w*) in favore (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of a Decree of \\2 in favour of \\4",
-    "nl_NL": "Transcriptie van een verordening van \\2 ten gunste van \\4"
+    "nl_NL": "Transcriptie van een Verordening van \\2 ten gunste van \\4"
   },
   "Trascrizione di Editto (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of an Edict of \\2",
+    "nl_NL": "Transcriptie van een Edict van \\2"
+  },
+  "Trascrizione del proclama Ai Siciliani$": {
+    "en_GB": "Transcription of the proclamation To The Sicilians2",
     "nl_NL": "Transcriptie van een Edict van \\2"
   },
   "Trascrizione di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
