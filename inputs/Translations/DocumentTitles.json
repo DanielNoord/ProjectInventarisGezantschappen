@@ -48,6 +48,14 @@
     "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
     "nl_NL": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes"
   },
+  "Avviso a stampa della navigazione riunita dei vapori napoletani e sardi in partenza da Civitavecchia nel mese di giugno$": {
+    "en_GB": "Printed notice about the joint navigation of Neapolitan and Sardinian steamers departing from Civitavecchia in the month of June",
+    "nl_NL": "Gedrukte melding over de gezamenlijke navigering van de Napolitaanse en Sardinische stoomboten vertrekkende uit Civitavecchia in de maand juni"
+  },
+  "Avviso a stampa della navigazione riunita dei vapori napoletani e sardi in partenza da Civitavecchia nel mese di maggio$": {
+    "en_GB": "Printed notice about the joint navigation of Neapolitan and Sardinian steamers departing from Civitavecchia in the month of May",
+    "nl_NL": "Gedrukte melding over de gezamenlijke navigering van de Napolitaanse en Sardinische stoomboten vertrekkende uit Civitavecchia in de maand mei"
+  },
   "Avviso a stampa sulla morte di Ferdinando d'Ohmas, consigliere d'ambasciata$": {
     "en_GB": "Printed notice about the death of Ferdinando d'Ohmas, advisor of the embassy",
     "nl_NL": "Gedrukte melding over de dood van Ferdinando d'Ohmas, adviseur van de ambassade"
@@ -91,6 +99,18 @@
   "Circolare manoscritta (di|del|della) (\\$\\w*)$": {
     "en_GB": "Handwritten circulaire of \\2",
     "nl_NL": "Handgeschreven circulaire van \\2"
+  },
+  "Consul des Pays Bas à Civitavecchia$": {
+    "en_GB": "Consul des Pays Bas à Civitavecchia",
+    "nl_NL": "Consul des Pays Bas à Civitavecchia"
+  },
+  "Consul des Pays Bas à Livourne$": {
+    "en_GB": "Consul des Pays Bas à Livourne",
+    "nl_NL": "Consul des Pays Bas à Livourne"
+  },
+  "Consul des general des Pays Bas à Naples$": {
+    "en_GB": "Consul des general des Pays Bas à Naples",
+    "nl_NL": "Consul des general des Pays Bas à Naples"
   },
   "Consulat d'Ancona$": {
     "en_GB": "Consulat d'Ancona",
@@ -207,6 +227,10 @@
   "Editto (di|del|della) (\\$\\w*) sulle volture e traslazioni \\(a stampa\\)$": {
     "en_GB": "Edict of \\2 on transfers and translations (printed)",
     "nl_NL": "Edict van \\2 over overdrachten en vertalingen (gedrukt)"
+  },
+  "Errori riportati nelle tabelle delle esportazioni$": {
+    "en_GB": "Errors reported in the tables of exportations",
+    "nl_NL": "Fouten gemeld in de overzichten van exporten"
   },
   "Estratto del Journal de la Haye$": {
     "en_GB": "Extract from the Journal de la Haye",
@@ -344,6 +368,10 @@
     "en_GB": "Letter to \\2 about the quarantine of ships attacked by pirates",
     "nl_NL": "Brief aan \\2 over de quarantaine van schepen die zijn aangevallen door piraten"
   },
+  "Lettera (a|al) (\\$\\w*) con allegata lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Letter to \\2 with attached letter from \\4",
+    "nl_NL": "Brief aan \\2 met bijgesloten brief van \\4"
+  },
   "Lettera (a|al) (\\$\\w*)$": {
     "en_GB": "Letter to \\2",
     "nl_NL": "Brief aan \\2"
@@ -379,6 +407,10 @@
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa la revoca della quarantena per le navi dei Paesi Bassi$": {
     "en_GB": "Letter of \\2 to \\4 about the revocation of the quarantine for the ships of the Netherlands",
     "nl_NL": "Brief van \\2 aan \\4 over de opheffing van de quarantaine voor de schepen van Nederland"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con allegato lettera da Livorno del 2 marzo$": {
+    "en_GB": "Letter of \\2 to \\4 with attached letter from Livorno from 2 March",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgesloten brief uit Livorno van 2 maart"
   },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con allegato promemoria$": {
     "en_GB": "Letter from \\2 to \\4 with attached memorandum",
@@ -508,6 +540,10 @@
     "en_GB": "Printed letter of \\2 and of \\4 for the wedding celebrations between \\5 and \\6",
     "nl_NL": "Gedrukte brief van \\2 en van \\4 voor de huwelijksfeesten tussen \\5 en \\6"
   },
+  "Lettera a stampa di un ufficiale della squadra Napolitana ad un socio del circolo anconitano$": {
+    "en_GB": "Printed letter of an official of the Neapolitan delegation to an associate from Anconan circles",
+    "nl_NL": "Gedrukte brief van een functionaris van de Neapolitaanse delegatie aan een contactpersoon uit de kringen van Ancona"
+  },
   "Lettera al Colonnello (su|sul) (\\$\\w*)$": {
     "en_GB": "Letter to the colonel about \\2",
     "nl_NL": "Brief naar de kolonel over \\2"
@@ -595,6 +631,10 @@
   "Lettera$": {
     "en_GB": "Letter",
     "nl_NL": "Brief"
+  },
+  "Lista delle donne olandesi che desidderano avere biglietti d'ingresso alle tribune$": {
+    "en_GB": "List of Dutch women who desire to have entrance tickets to the tribunes",
+    "nl_NL": "Lijst van Nederlandse vrouwen die graag toegangsbewijzen naar de tribunes hebben "
   },
   "Lista di Coscrizione$": {
     "en_GB": "Conscription list",
@@ -724,6 +764,10 @@
     "en_GB": "Notification by \\2",
     "nl_NL": "Melding door \\2"
   },
+  "Notificazione a stampa del Governo di Livorno$": {
+    "en_GB": "Printed notification by the Government of Livorno",
+    "nl_NL": "Gedrukte notificatie van de Overheid van Livorno"
+  },
   "Notizie dal Marocco$": {
     "en_GB": "News from Morocco",
     "nl_NL": "Nieuws uit Marokko"
@@ -740,6 +784,10 @@
     "en_GB": "Osservations Preliminarire",
     "nl_NL": "Osservations Preliminarire"
   },
+  "Petizione per rendere omaggio al Pio IX sottoscritta da vari ministri degli Esteri e diretta (a|al) (\\$\\w*)$": {
+    "en_GB": "Petition to pay homage to Pius IX undersigned by various ministers of External Affairs and directed to \\2",
+    "nl_NL": "Petitie om eer te bewijzen aan Pius IX ondertekend door verschillende ministers van Buitenlandse Zaken en gericht aan \\2"
+  },
   "Pieces Diverses$": {
     "en_GB": "Pieces Diverses",
     "nl_NL": "Pieces Diverses"
@@ -747,6 +795,14 @@
   "Proclama a stampa (di|del|della) (\\$\\w*)$": {
     "en_GB": "Printed proclamation van \\2",
     "nl_NL": "Gedrukte proclamatie van \\2"
+  },
+  "Proclama a stampa Agli Anconitani$": {
+    "en_GB": "Printed proclamation Agli Anconitani",
+    "nl_NL": "Gedrukte proclamatie Agli Anconitani"
+  },
+  "Proclama a stampa Al Popolo Napoletano$": {
+    "en_GB": "Printed proclamation Al Popolo Napoletano",
+    "nl_NL": "Gedrukte proclamatie Al Popolo Napoletano"
   },
   "Programma del nuovo Ministero (a stampa)$": {
     "en_GB": "Program of the new Ministry (printed)",
@@ -808,6 +864,10 @@
     "en_GB": "Regulations for the Fair of Sinigaglia in the year 1844 (printed)",
     "nl_NL": "Regelgeving voor de Markt van Sinigaglia in het jaar 1844 (gedrukt)"
   },
+  "Relazione di ciò che accadde negli Offici dell'Amministrazione Generale delle Poste in Roma nel Giorno 1 maggio 1848$": {
+    "en_GB": "Report on what happened in the Offices of the General Administration of the Post in Rome on the day of 1 May 1848",
+    "nl_NL": "Rapport over what er gebeurde in het kantoor van de Algemene Administratie van de Post in Rome op de dag van 1 mei 1848"
+  },
   "Relazione inviata (a|al) (\\$\\w*)$": {
     "en_GB": "Report sent to \\2",
     "nl_NL": "Rapport verzonden naar \\2"
@@ -844,9 +904,21 @@
     "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
     "nl_NL": "Statuten van de Società Olivi-moricola van de Kerkelijke Staat (gedrukt)"
   },
+  "Sul ritorno di Pio IX (avviso a stampa\\)$": {
+    "en_GB": "On the return of Pius IX (printed notice)",
+    "nl_NL": "Over de terugkeer van Pius IX (gedrukte melding)"
+  },
   "Supplica rivolta (a|al) (\\$\\w*)$": {
     "en_GB": "Plea adressed to \\2",
     "nl_NL": "Smeekbede gericht aan \\2"
+  },
+  "Tabella delle esportazioni$": {
+    "en_GB": "Table of exportations",
+    "nl_NL": "Overzicht van exporten"
+  },
+  "Tabella delle importazioni$": {
+    "en_GB": "Table of importations",
+    "nl_NL": "Overzicht van importen"
   },
   "Traduzione della lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Translation of the letter of \\2 to \\4",
@@ -864,6 +936,10 @@
     "en_GB": "Transcription by \\2 of a letter of \\4",
     "nl_NL": "Transcriptie door \\2 van een brief van \\4"
   },
+  "Trascrizione del proclama Ai Siciliani$": {
+    "en_GB": "Transcription of the proclamation Ai Siciliani",
+    "nl_NL": "Transcriptie van de proclamatie Ai Siciliani2"
+  },
   "Trascrizione della lettera (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of the letter of \\2",
     "nl_NL": "Transcriptie van de brief van \\2"
@@ -874,10 +950,6 @@
   },
   "Trascrizione di Editto (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of an Edict of \\2",
-    "nl_NL": "Transcriptie van een Edict van \\2"
-  },
-  "Trascrizione del proclama Ai Siciliani$": {
-    "en_GB": "Transcription of the proclamation To The Sicilians2",
     "nl_NL": "Transcriptie van een Edict van \\2"
   },
   "Trascrizione di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
