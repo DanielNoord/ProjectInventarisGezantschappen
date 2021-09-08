@@ -648,6 +648,10 @@
     "en_GB": "Chargé d'affaires and later envoy of the Kingdom of the Netherlands to the Kingdom of Sardinia",
     "nl_NL": "Zaakgelastigde en later gezant van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië"
   },
+  "Intendente di Messina": {
+    "en_GB": "Intendant of Messina",
+    "nl_NL": "Magistraat van Messina"
+  },
   "Internunzio all'Aia": {
     "en_GB": "Apostolic internuncio in The Hague",
     "nl_NL": "Apostolisch internuntius te Den Haag"
@@ -1339,6 +1343,10 @@
   "Segretario generale del ministero degli Affari Esteri del Regno dei Paesi Bassi": {
     "en_GB": "General secretary of the ministry of Foreign Affairs of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris-generaal van het ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
+  },
+  "Segretario generale dell'intendenza di Messina": {
+    "en_GB": "Secretary general of the administrative office of Messina",
+    "nl_NL": "Secretaris-generaal van het administratief kantoor van Messina"
   },
   "Segretario generale della Sacra Congregazione di Propaganda Fide": {
     "en_GB": "Secretary general of the Sacred Congregation of _Propaganda Fide_",
