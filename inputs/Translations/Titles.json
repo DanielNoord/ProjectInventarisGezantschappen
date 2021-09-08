@@ -35,6 +35,11 @@
     "nl_NL": "Paus",
     "position": "Before"
   },
+  "Pari de Francia": {
+    "en_GB": "Peer of France",
+    "nl_NL": "Pair van Frankrijk",
+    "position": "After"
+  },
   "ammiraglio": {
     "en_GB": "admiral",
     "nl_NL": "admiraal",
