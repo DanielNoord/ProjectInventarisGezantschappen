@@ -3,18 +3,18 @@
 import datetime
 import locale
 import re
-from typing import Optional
+from typing import Literal, Optional
 
 
 def extract_date(  # pylint: disable=too-many-branches
-    date_string: str, localization: str
+    date_string: str, localization: Literal["it_IT", "nl_NL", "en_GB"]
 ) -> tuple[Optional[str], Optional[str]]:
     """Returns a string containing the written date based on localization.
         (tries to) Handles missing data correctly
 
     Args:
         date_string (str): The date string in formate xxxx-xx-xx/xxxx-xx-xx
-        localization (str): [description]
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
 
     Returns:
         date1_string (str): The first date in text

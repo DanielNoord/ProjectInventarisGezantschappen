@@ -194,11 +194,11 @@ def update_trecanni(source: str) -> str:
     """
     page = requests.get(source)
     soup = BeautifulSoup(page.content, "html.parser")
-    title = soup.find_all("h1", {"class": "title-search title-leaf"})[0].contents[0].split(", ")
+    title = soup.find_all("h1", {"class": "title-search title-leaf"})[0].contents[0].split(", ")  # type: ignore # pylint: disable=line-too-long
     title[0] = title[0].title()
     title = ", ".join(title)
     author_string = (
-        soup.find_all("div", {"class": "module-briciole_di_pane"})[0].contents[1].contents[0]
+        soup.find_all("div", {"class": "module-briciole_di_pane"})[0].contents[1].contents[0]  # type: ignore # pylint: disable=line-too-long
     )
     author_string = author_string.replace("\t", "").replace("\n", "")
     if mat := re.match(
@@ -230,7 +230,7 @@ def update_parlement(source: str) -> str:
     """
     page = requests.get(source)
     soup = BeautifulSoup(page.content, "html.parser")
-    name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]
+    name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]  # type: ignore
     final_source = f"Redactie parlement.com, '{name}', found on: {source}"
 
     return final_source
@@ -312,7 +312,9 @@ def check_all_sources(  # pylint: disable=too-many-branches, too-many-statements
                 pass
 
             # TODO: Sources to look up
-            elif source.startswith("Dizionario bibliografico dell’Armata Sarda seimila biografie"):
+            elif source.startswith(
+                "Dizionario bibliografico dell’Armata Sarda seimila biografie"
+            ):
                 pass
 
             # If not known/missing

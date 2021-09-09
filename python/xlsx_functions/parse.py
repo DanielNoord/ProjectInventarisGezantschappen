@@ -55,11 +55,17 @@ def parse_dossier(  # pylint: disable=too-many-branches
                 if dos_pages_match:
                     dos_pages = dos_pages_match.groups()[0]
                     break
-                raise ValueError(f"Can't parse the dossier pages of {dos_number} in {vol_num}")
+                raise ValueError(
+                    f"Can't parse the dossier pages of {dos_number} in {vol_num}"
+                )
 
     ## Parse title from dossier title row
-    if start_cell.value.endswith("_0"):
-        dos_title = sheet["B"][start_cell.row - 1].value
+    if not isinstance(start_cell.value, str):
+        raise ValueError(
+            f"Number Cell of dossier should be a string. Incorrect for:\n{start_cell.value}"
+        )
+    if start_cell.value.endswith("_0") and start_cell.row:
+        dos_title = sheet["B"][int(start_cell.row) - 1].value
     else:
         dos_title = "Missing dossier title"
         warn(f"Vol: {vol_num} Dos: {dos_number} is missing a dossier title")
@@ -76,16 +82,21 @@ def parse_dossier(  # pylint: disable=too-many-branches
             or isinstance(row[0].value, date)
         ):
             raise ValueError("Unrecognizable row type in {vol_num}")
-        if row[0].value and row[0].value.startswith(f"ms{vol_num}_{dos_number}"):
-            early_date = check_date_earlier(early_date, row)
-            late_date = check_date_later(late_date, row)
+        if row[0].value:
+            if not isinstance(row[0].value, str):
+                raise ValueError(
+                    f"Expected the file number Cell to be a string. Incorrect for:\n{row[0].value}"
+                )
+            if row[0].value.startswith(f"ms{vol_num}_{dos_number}"):
+                early_date = check_date_earlier(early_date, row)
+                late_date = check_date_later(late_date, row)
 
     # Check for no changes and sanitization
     early_date_final: tuple[str, ...] = early_date
     late_date_final: tuple[str, ...] = late_date
     if early_date == ("2020", "12", "31"):
         early_date_final = ()
-    if late_date == (0, 0, 0):
+    if late_date == ("0", "0", "0"):
         late_date_final = ()
     if early_date[1] == "None" and early_date[2] != "None":
         early_date_final = tuple(early_date[0])
@@ -98,11 +109,11 @@ def parse_dossier(  # pylint: disable=too-many-branches
     return dos_pages, dos_title, dos_data
 
 
-def parse_file(input_file: tuple[Cell]) -> tuple[str, str, str, str]:
+def parse_file(row: tuple[Cell, ...]) -> tuple[str, str, str, str]:
     """Parse the data of a file row in .xlsx format
 
     Args:
-        input_file (tuple[Cell]): Row with file data in openpyxl Cell format
+        row (tuple[Cell, ...]): Row with file data in openpyxl Cell format
 
     Returns:
         str: Page number of the file
@@ -110,16 +121,27 @@ def parse_file(input_file: tuple[Cell]) -> tuple[str, str, str, str]:
         str: Place of the file
         str: Date of the file in the format xxxx-xx-xx
     """
-    file_page = re.match(r".*_(.*)", input_file[0].value).groups()[0]
-    file_title = input_file[1].value
-    file_place = input_file[5].value
+    if len(row) < 6:
+        raise ValueError(
+            f"Expected the row in Excel to have 6 cells. In correct for:\n{row}"
+        )
+    if not isinstance(row[0].value, str):
+        raise ValueError(
+            f"Expected Cell of file number to be a string. Incorrect for:\n{row[0].value}"
+        )
+    if mat := re.match(r".*_(.*)", row[0].value):
+        file_page = mat.groups()[0]
+    else:
+        raise ValueError(f"Can't parse file number of:\n{row[0].value}")
+    file_title = str(row[1].value)
+    file_place = str(row[5].value)
 
     # Sanitize date
-    file_date = [input_file[2].value, input_file[3].value, input_file[4].value]
-    if file_date[1] is None and file_date[2] is not None:
-        file_date[2] = None
-    if file_date[1] is None and file_date[2] is not None:
-        file_date[2] = None
-    file_date = [str(i).zfill(2) for i in file_date if i is not None]
+    file_date = [str(row[2].value), str(row[3].value), str(row[4].value)]
+    if file_date[1] == "None" and file_date[2] != "None":
+        file_date[2] = "None"
+    if file_date[1] == "None" and file_date[2] != "None":
+        file_date[2] = "None"
+    file_date = [i.zfill(2) for i in file_date if i != "None"]
     file_date_string = "-".join(file_date)
     return file_page, file_title, file_place, file_date_string

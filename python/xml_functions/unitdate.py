@@ -11,7 +11,7 @@ def add_unitdate(
     date1: Optional[str],
     date2: Optional[str],
     element_type: str,
-):
+) -> None:
     """Creates and appends an unitdate element
 
     Args:

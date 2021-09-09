@@ -2,28 +2,36 @@
 
 import os
 import re
+from typing import Literal, Pattern
 
 from openpyxl import load_workbook
 from openpyxl.styles import Font
+from typing_utils import (
+    TranslationDictCleaned,
+    TranslationDictCleanedDocuments,
+    TranslationDictCleanedTitles,
+)
 
 
 def translate_xlsx(  # pylint: disable=too-many-arguments
     directory_name: str,
     file_name: str,
-    localization: str,
-    translations: dict,
-    translation_data: tuple[dict, dict, dict],
-    used_translations: set[str],
+    localization: Literal["nl_NL", "en_GB"],
+    translations: TranslationDictCleanedDocuments,
+    translation_data: tuple[
+        TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
+    ],
+    used_translations: set[Pattern],
 ) -> None:
     """Translate .xlsx file
 
     Args:
         directory_name (str): Directory of .xlsx file
         file_name (str): Name of .xlsx file
-        localization (str): Localization string of target language
-        translations (dict): Translations of common document titles
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
+        translations: Translations of common document titles
         translation_data: Dictionaries with translation data for titles, functions and places
-        used_translations (set[str]): Used translations
+        used_translations (set[Pattern]): Used translations
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")
     for row in workbook[workbook.sheetnames[0]].iter_rows():

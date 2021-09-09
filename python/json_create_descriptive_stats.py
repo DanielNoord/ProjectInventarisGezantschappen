@@ -3,9 +3,9 @@
 import json
 
 
-def create_type_statistics(
+def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branches, too-many-statements
     filename: str, type_list: list[int], skip: bool
-):  # pylint: disable=too-many-locals, too-many-branches, too-many-statements
+) -> None:
     """Print out statistics from from .json file for specified person types
 
     Args:
@@ -68,14 +68,24 @@ def create_type_statistics(
     else:
         print(f"For the entries of {type_string}")
     print(f"{start_string} comments: {c_comment}, {c_comment/c_surname:.2%}")
-    print(f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel/c_surname:.2%}")
-    print(f"{start_string} birth dates: {c_date_of_birth}, {c_date_of_birth/c_surname:.2%}")
-    print(f"{start_string} death dates: {c_date_of_death}, {c_date_of_death/c_surname:.2%}")
+    print(
+        f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel/c_surname:.2%}"
+    )
+    print(
+        f"{start_string} birth dates: {c_date_of_birth}, {c_date_of_birth/c_surname:.2%}"
+    )
+    print(
+        f"{start_string} death dates: {c_date_of_death}, {c_date_of_death/c_surname:.2%}"
+    )
     print(f"{start_string} functions: {c_functions}, {c_functions/c_surname:.2%}")
     print(f"{start_string} images: {c_images}, {c_images/c_surname:.2%}")
     print(f"{start_string} name: {c_name}, {c_name/c_surname:.2%}")
-    print(f"{start_string} place of birth: {c_place_of_birth}, {c_place_of_birth/c_surname:.2%}")
-    print(f"{start_string} place of death: {c_place_of_death}, {c_place_of_death/c_surname:.2%}")
+    print(
+        f"{start_string} place of birth: {c_place_of_birth}, {c_place_of_birth/c_surname:.2%}"
+    )
+    print(
+        f"{start_string} place of death: {c_place_of_death}, {c_place_of_death/c_surname:.2%}"
+    )
     print(f"{start_string} sources: {c_sources}, {c_sources/c_surname:.2%}")
     print(f"{start_string} surname: {c_surname}, {c_surname/c_surname:.2%}")
     print(f"{start_string} titles: {c_titles}, {c_titles/c_surname:.2%}")

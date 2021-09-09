@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 
 
+from typing import Optional
+
+
 def check_begin(  # pylint: disable=too-many-return-statements
-    date: list[int], begin_date: list[str]
+    date: tuple[Optional[int], Optional[int], Optional[int]], begin_date: list[str]
 ) -> bool:
     """Checks if a date falls after or on a specific date
 
     Args:
-        date (list[int]): Date to check
+        date (tuple[Optional[int], Optional[int], Optional[int]]): Date to check
         begin_date (list[str]): Begin date where the other date has to be after or on
 
     Returns:
@@ -15,9 +18,9 @@ def check_begin(  # pylint: disable=too-many-return-statements
     """
     if begin_date == [""]:
         return True
-    if date[0] > int(begin_date[0]):
+    if date[0] is not None and date[0] > int(begin_date[0]):
         return True
-    if date[0] == int(begin_date[0]):
+    if date[0] is not None and date[0] == int(begin_date[0]):
         if date[1] is not None and len(begin_date) > 1:
             if date[1] > int(begin_date[1]):
                 return True
@@ -31,12 +34,12 @@ def check_begin(  # pylint: disable=too-many-return-statements
 
 
 def check_end(  # pylint: disable=too-many-return-statements
-    date: list[int], end_date: list[str]
+    date: tuple[Optional[int], Optional[int], Optional[int]], end_date: list[str]
 ) -> bool:
     """Checks if a date falls before or on a specific date
 
     Args:
-        date (list[int]): Date to check
+        date (tuple[Optional[int], Optional[int], Optional[int]]): Date to check
         end_date (list[str]): End date where the other date has to be before or on
 
     Returns:
@@ -44,9 +47,9 @@ def check_end(  # pylint: disable=too-many-return-statements
     """
     if end_date == [""]:
         return True
-    if date[0] < int(end_date[0]):
+    if date[0] is not None and (date[0] < int(end_date[0])):
         return True
-    if date[0] == int(end_date[0]):
+    if date[0] is not None and date[0] == int(end_date[0]):
         if date[1] is not None and len(end_date) > 1:
             if date[1] < int(end_date[1]):
                 return True
@@ -59,11 +62,13 @@ def check_end(  # pylint: disable=too-many-return-statements
     return False
 
 
-def check_date(date: list[int], function_period: str) -> bool:
+def check_date(
+    date: tuple[Optional[int], Optional[int], Optional[int]], function_period: str
+) -> bool:
     """Checks if the given date falls within the period an individual held the position
 
     Args:
-        date (list[int]): Date of the file to be checked
+        date (tuple[Optional[int], Optional[int], Optional[int]]): Date of the file to be checked
         function_period (str): Period in which an individual held a position
 
     Returns:

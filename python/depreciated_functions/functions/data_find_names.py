@@ -5,12 +5,14 @@ from functions.helper_functions.create_full_name import full_name as create_full
 
 
 def create_person(
-    localization: str, person: dict, translation_data: list[dict, dict, dict]
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
+    person: dict,
+    translation_data: list[dict, dict, dict],
 ) -> tuple[str, str]:
     """Creates a data entry for the given person
 
     Args:
-        localization (str): Localization of the data entry
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
         person (dict): The data of the person in dictionary formt
         translation_data: Dictionaries with translation data for titles, functions and places
 

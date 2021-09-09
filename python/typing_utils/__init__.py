@@ -1,8 +1,19 @@
 from typing_utils.aliases import (
-    TranslationDictCleanedTitles,
-    TranslationDictEntry,
     TranslationDict,
     TranslationDictCleaned,
-    TranslationDictTitles,
+    TranslationDictCleanedDocuments,
+    TranslationDictCleanedTitles,
+    TranslationDictEntry,
     TranslationDictEntryTitles,
+    TranslationDictTitles,
 )
+
+__all__ = [
+    "TranslationDictCleanedTitles",
+    "TranslationDictEntry",
+    "TranslationDict",
+    "TranslationDictCleaned",
+    "TranslationDictCleanedDocuments",
+    "TranslationDictTitles",
+    "TranslationDictEntryTitles",
+]

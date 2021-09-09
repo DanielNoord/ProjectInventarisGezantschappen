@@ -4,6 +4,7 @@ import json
 import os
 import re
 import time
+from typing import Literal, Pattern
 
 from openpyxl import Workbook, load_workbook
 
@@ -11,12 +12,14 @@ from data_parsing import initialize_translation_database
 from xlsx_functions import fill_in_xlsx, sanitize_xlsx, translate_xlsx
 
 
-def create_filled_xlsx(directory_name: str, localization: str) -> None:
+def create_filled_xlsx(
+    directory_name: str, localization: Literal["it_IT", "nl_NL", "en_GB"]
+) -> None:
     """Creates the .xlsx files of all volumes in the input directory
 
     Args:
         directory_name (str): Name of the directory with the input .xlsx files
-        localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
     """
     with open("inputs/Individuals.json", encoding="utf-8") as data_file:
         individuals_data = json.load(data_file)
@@ -48,7 +51,9 @@ def create_xlsx_controle(directory_names: list[str]) -> None:
             new_file = Workbook()
             new_sheet = new_file.active
             filename = os.fsdecode(file)
-            rows_original = list(load_workbook(f"{directory_names[0]}/{filename}").active.rows)
+            rows_original = list(
+                load_workbook(f"{directory_names[0]}/{filename}").active.rows
+            )
             rows_it = list(
                 load_workbook(
                     f"{directory_names[1]}/{filename.replace('.xlsx', '')}_it_IT.xlsx"
@@ -83,19 +88,21 @@ def create_xlsx_controle(directory_names: list[str]) -> None:
             print(f"Wrote file to outputs/VolumesExcelControl/{new_filename}")
 
 
-def create_translated_xlsx(directory_name: str, localization: str) -> None:
+def create_translated_xlsx(
+    directory_name: str, localization: Literal["nl_NL", "en_GB"]
+) -> None:
     """Creates the .xlsx files with a number of easy translation already done
 
     Args:
         directory_name (str): Name of the directory with the input .xlsx files
-        localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
     """
     with open("inputs/Translations/DocumentTitles.json", encoding="utf-8") as data_file:
         translations = json.loads(data_file.read())
     del translations["$schema"]
     translation_patterns = {re.compile(k): v for k, v in translations.items()}
     translation_data = initialize_translation_database()
-    used_translations: set[str] = set()
+    used_translations: set[Pattern] = set()
 
     directory = os.fsencode(directory_name)
     for file in os.listdir(directory):
@@ -109,7 +116,9 @@ def create_translated_xlsx(directory_name: str, localization: str) -> None:
                 translation_data,
                 used_translations,
             )
-    unused_trans = [i for i in translation_patterns.keys() if i not in used_translations]
+    unused_trans = [
+        i for i in translation_patterns.keys() if i not in used_translations
+    ]
     print("Done!\nFound the following unused translations:\n", unused_trans)
 
 

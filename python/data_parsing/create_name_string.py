@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from typing import Union
+from typing import Literal, Optional
 
 from date_functions import check_date
 from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
@@ -10,19 +10,19 @@ from data_parsing import full_name
 
 def name_string(
     person: dict,
-    date: list[Union[int, None]],
+    date: tuple[Optional[int], Optional[int], Optional[int]],
     translation_data: tuple[
         TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
     ],
-    localization: str,
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> str:
     """Creates a string of a given person
 
     Args:
         person (dict): Dictionary of data for the relevant person
-        date (list[Union[int, None]]): Date of the file in which the person is mentioned
+        date (tuple[Optional[int], Optional[int], Optional[int]]): Date of the file
         translation_data: Dictionaries with translation data for titles, functions and places
-        localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
 
     Returns:
         str: The string of the person as "name (functions)"

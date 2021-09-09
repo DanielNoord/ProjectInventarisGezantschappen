@@ -41,7 +41,7 @@ def create_names(localization, input_file):
     """Creates a number of .docx files based on "database" file.
 
     Args:
-        localization (str): Localization of output_files ("nl_NL", "it_IT", "en_GB")
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
         input_file (str): Name of "database" file
     """
     full_names = used_names(input_file)

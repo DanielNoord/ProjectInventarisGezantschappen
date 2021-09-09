@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from typing import Literal
 from warnings import warn
 
 from date_functions import extract_date
@@ -72,7 +73,7 @@ def volume_entry(
     number: str,
     title: str,
     date: str,
-    localization: str,
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> etree._Element:
     """Returns an .xml element for a volume at the c01 level
 
@@ -81,7 +82,7 @@ def volume_entry(
         number (str): The number of the volume
         title (str): Title of the dossier
         date (str): Date of the dossier
-        localization (str): The localization of the .xml file
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
 
     Returns:
         etree._Element: The dossier element at the c01 level
@@ -107,7 +108,7 @@ def dossier_entry(  # pylint: disable=too-many-arguments
     _: str,
     title: str,
     date: str,
-    localization: str,
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> etree._Element:
     """Returns a dossier .xml element at the c02 level
 
@@ -118,7 +119,7 @@ def dossier_entry(  # pylint: disable=too-many-arguments
         pages (str): The pages of the dossier, unused now
         title (str): Title of the dossier
         date (str): Date of the dossier
-        localization (str): The localization of the .xml file
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
 
     Returns:
         etree._Element: The dossier element at the c02 level
@@ -142,7 +143,7 @@ def file_entry(
     title: str,
     _: str,
     date: str,
-    localization: str,
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> None:
     """Returns an .xml element for a file within a dossier
 
@@ -152,7 +153,7 @@ def file_entry(
         title (str): Title of the file
         place (str): The place of the file, no longer used
         date (str): Date of the file
-        localization (str): The localization of the .xml file
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
     """
     if parent_element.tag == "c01":
         c02 = etree.SubElement(parent_element, "c02", level="file")

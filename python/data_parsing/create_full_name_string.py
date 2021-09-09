@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 
+from typing import Literal, Optional
+
 from date_functions import check_date
+from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
 
 
 def full_name(  # pylint: disable=too-many-arguments, too-many-branches
     surname: str,
     name: str,
     titles: str,
-    translation_data: tuple[dict, dict, dict],
-    localization: str,
-    date: list[int],
+    translation_data: tuple[
+        TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
+    ],
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
+    date: tuple[Optional[int], Optional[int], Optional[int]],
 ) -> str:
     """Creates the string for the full name including title
 
@@ -18,8 +23,8 @@ def full_name(  # pylint: disable=too-many-arguments, too-many-branches
         name (str): First name of indiviudal
         titles (str): Function of indiviudal
         translation_data: Dictionaries with translation data for titles, functions and places
-        localization (str): Localization to be used ("nl_NL", "it_IT" or "en_GB")
-        date (list[int]): Date of the file to be checked
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
+        date (tuple[Optional[int], Optional[int], Optional[int]]): Date of the file to be checked
 
     Raises:
         Exception: When there is no surname
@@ -72,7 +77,9 @@ def full_name(  # pylint: disable=too-many-arguments, too-many-branches
                 elif translation_entry["position"] == "After":
                     str_full_name += f" {translated_title},"
                 else:
-                    raise Exception("Can't parse second title, maybe change order in sourcefile")
+                    raise Exception(
+                        "Can't parse second title, maybe change order in sourcefile"
+                    )
     else:
         if name != "":
             str_full_name = f"{name} {surname}"

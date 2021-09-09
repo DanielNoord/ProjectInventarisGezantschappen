@@ -2,6 +2,7 @@
 
 import json
 import re
+from typing import Optional
 
 import docx  # type: ignore
 
@@ -9,7 +10,7 @@ from docx_functions import database, parse_function, parse_title
 
 
 def save_database(  # pylint: disable=too-many-locals
-    filename: str, previous_database: dict = None
+    filename: str, previous_database: Optional[dict[str, dict]] = None
 ) -> None:
     """Load database from .docx and write .json
 
@@ -18,7 +19,7 @@ def save_database(  # pylint: disable=too-many-locals
         previous_database (dict): Dict with data from previous database
     """
     doc = docx.Document(filename)
-    all_individuals = {}
+    all_individuals: dict[str, dict] = {}
 
     for para in doc.paragraphs:
         (

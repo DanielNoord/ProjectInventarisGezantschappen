@@ -35,7 +35,9 @@ def transform_translations(dir_name: str, filename: str) -> None:
     ) as file:
         json.dump(new_data, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    print(f"Wrote file to {'/'.join((dir_name.replace('inputs', 'outputs'), filename))}")
+    print(
+        f"Wrote file to {'/'.join((dir_name.replace('inputs', 'outputs'), filename))}"
+    )
 
 
 def translate_database(dir_name: str, filename: str) -> None:
@@ -67,7 +69,9 @@ def translate_database(dir_name: str, filename: str) -> None:
     ) as file:
         json.dump(new_data, file, ensure_ascii=False, indent=2)
         file.write("\n")
-    print(f"Wrote file to {'/'.join((dir_name.replace('inputs', 'outputs'), filename))}")
+    print(
+        f"Wrote file to {'/'.join((dir_name.replace('inputs', 'outputs'), filename))}"
+    )
 
 
 if __name__ == "__main__":
