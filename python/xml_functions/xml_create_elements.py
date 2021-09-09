@@ -8,7 +8,9 @@ from lxml import etree
 from xml_functions import add_unitdate
 
 
-def basic_xml_file() -> tuple[etree._Element, etree._Element]:  # pylint: disable=too-many-locals
+def basic_xml_file() -> tuple[
+    etree._Element, etree._Element
+]:  # pylint: disable=too-many-locals
     """Returns a basic .xml file based on EAD standard used for this project
 
     Returns:
@@ -33,7 +35,9 @@ def basic_xml_file() -> tuple[etree._Element, etree._Element]:  # pylint: disabl
     publicationstmt = etree.SubElement(filedesc, "publicationstmt")
     publisher = etree.SubElement(publicationstmt, "publisher")
     publisher.text = "KNIR"
-    date = etree.SubElement(publicationstmt, "date", calendar="gregorian", era="ce", normal="2021")
+    date = etree.SubElement(
+        publicationstmt, "date", calendar="gregorian", era="ce", normal="2021"
+    )
     date.text = "(c) 2021"
     para = etree.SubElement(publicationstmt, "p", id="copyright")
     extref = etree.SubElement(

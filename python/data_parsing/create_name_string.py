@@ -3,6 +3,7 @@
 from typing import Union
 
 from date_functions import check_date
+from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
 
 from data_parsing import full_name
 
@@ -10,7 +11,9 @@ from data_parsing import full_name
 def name_string(
     person: dict,
     date: list[Union[int, None]],
-    translation_data: list[dict, dict, dict],
+    translation_data: tuple[
+        TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
+    ],
     localization: str,
 ) -> str:
     """Creates a string of a given person
@@ -18,7 +21,7 @@ def name_string(
     Args:
         person (dict): Dictionary of data for the relevant person
         date (list[Union[int, None]]): Date of the file in which the person is mentioned
-        translation_data (list[dict, dict, dict]): Dictionaries of functions and title translations
+        translation_data: Dictionaries with translation data for titles, functions and places
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
 
     Returns:

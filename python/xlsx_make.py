@@ -7,10 +7,8 @@ import time
 
 from openpyxl import Workbook, load_workbook
 
-from functions.json_translate import initialize_translation_database
-from functions.xlsx_fill_in_names import fill_in_xlsx
-from functions.xlsx_sanitize import sanitize_xlsx
-from functions.xlsx_translate import translate_xlsx
+from data_parsing import initialize_translation_database
+from xlsx_functions import fill_in_xlsx, sanitize_xlsx, translate_xlsx
 
 
 def create_filled_xlsx(directory_name: str, localization: str) -> None:
@@ -20,8 +18,8 @@ def create_filled_xlsx(directory_name: str, localization: str) -> None:
         directory_name (str): Name of the directory with the input .xlsx files
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
     """
-    with open("inputs/Individuals.json", encoding="utf-8") as file:
-        individuals_data = json.load(file)
+    with open("inputs/Individuals.json", encoding="utf-8") as data_file:
+        individuals_data = json.load(data_file)
     del individuals_data["$schema"]
     translation_data = initialize_translation_database()
 
@@ -92,12 +90,12 @@ def create_translated_xlsx(directory_name: str, localization: str) -> None:
         directory_name (str): Name of the directory with the input .xlsx files
         localization (str): Localization abbreviation ("nl_NL", "it_IT", "en_GB")
     """
-    with open("inputs/Translations/DocumentTitles.json", encoding="utf-8") as file:
-        translations = json.loads(file.read())
+    with open("inputs/Translations/DocumentTitles.json", encoding="utf-8") as data_file:
+        translations = json.loads(data_file.read())
     del translations["$schema"]
     translation_patterns = {re.compile(k): v for k, v in translations.items()}
     translation_data = initialize_translation_database()
-    used_translations = set()
+    used_translations: set[str] = set()
 
     directory = os.fsencode(directory_name)
     for file in os.listdir(directory):

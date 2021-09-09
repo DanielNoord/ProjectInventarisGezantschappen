@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
 import json
-import os
 
-from functions.helper_functions.extract_date import extract_date
-from functions.json_translate import initialize_translation_database
+from data_parsing import initialize_translation_database
+from date_functions import extract_date
 from json_check_comments import check_all_comments
 from json_check_placenames import check_all_placenames
 from json_check_sources import check_all_sources
@@ -161,9 +160,9 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
     with open(input_file, encoding="utf-8") as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
-    identifiers = {}
-    used_titles = set()
-    used_functions = set()
+    identifiers = set()
+    used_titles: set[str] = set()
+    used_functions: set[str] = set()
 
     for identifier, data in persons_in_file.items():
         # Check if entry is correctly sorted
@@ -196,8 +195,9 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
                 "Identifiers should start with an '$'"
             )
 
-        if identifier in identifiers.keys():
+        if identifier in identifiers:
             raise Exception(f"Identifier of {data['surname']} is a duplicate")
+        identifiers.add(identifier)
 
         if data["person_type"] not in [0, 1, 2, 3, 4, 5, 6]:
             raise Exception(f"Type '{data['person_type']}' of {data['surname']} is invalid")

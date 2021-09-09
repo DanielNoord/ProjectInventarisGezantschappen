@@ -2,8 +2,12 @@
 
 import json
 
+from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
 
-def initialize_translation_database() -> tuple[dict, dict, dict]:
+
+def initialize_translation_database() -> tuple[
+    TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
+]:
     """Reads the files containing all translations of titles and functions
 
     Returns:

@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 import json
-import os
 
-from functions.docx_make import list_of_translated_data
+from docx_functions import list_of_translated_data
 
 
 def create_controle_translations() -> None:

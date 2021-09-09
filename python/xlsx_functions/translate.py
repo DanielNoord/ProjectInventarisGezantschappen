@@ -22,7 +22,7 @@ def translate_xlsx(  # pylint: disable=too-many-arguments
         file_name (str): Name of .xlsx file
         localization (str): Localization string of target language
         translations (dict): Translations of common document titles
-        translation_data (tuple[dict, dict, dict]): Translations of titles, functions and places
+        translation_data: Dictionaries with translation data for titles, functions and places
         used_translations (set[str]): Used translations
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")

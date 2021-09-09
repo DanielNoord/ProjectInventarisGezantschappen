@@ -3,7 +3,7 @@
 import json
 import os
 
-from functions.json_translate import initialize_translation_database
+from data_parsing import initialize_translation_database
 
 
 def transform_translations(dir_name: str, filename: str) -> None:

@@ -17,7 +17,7 @@ def full_name(  # pylint: disable=too-many-arguments, too-many-branches
         surname (str): Surname of individual
         name (str): First name of indiviudal
         titles (str): Function of indiviudal
-        translation_data (tuple[dict, dict, dict]): two dictionaries containing the translation of titles and functions
+        translation_data: Dictionaries with translation data for titles, functions and places
         localization (str): Localization to be used ("nl_NL", "it_IT" or "en_GB")
         date (list[int]): Date of the file to be checked
 

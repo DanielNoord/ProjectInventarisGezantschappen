@@ -28,7 +28,7 @@ def parse_volume(vol: tuple[Cell, ...]) -> tuple[str, str, str]:
     return vol_num, vol_title, vol_date
 
 
-def parse_dossier(
+def parse_dossier(  # pylint: disable=too-many-branches
     sheet: Worksheet,
     dos_number: str,
     vol_num: str,
@@ -115,11 +115,11 @@ def parse_file(input_file: tuple[Cell]) -> tuple[str, str, str, str]:
     file_place = input_file[5].value
 
     # Sanitize date
-    date = [input_file[2].value, input_file[3].value, input_file[4].value]
-    if date[1] is None and date[2] is not None:
-        date[2] = None
-    if date[1] is None and date[2] is not None:
-        date[2] = None
-    date = [str(i).zfill(2) for i in date if i is not None]
-    file_date = "-".join(date)
-    return file_page, file_title, file_place, file_date
+    file_date = [input_file[2].value, input_file[3].value, input_file[4].value]
+    if file_date[1] is None and file_date[2] is not None:
+        file_date[2] = None
+    if file_date[1] is None and file_date[2] is not None:
+        file_date[2] = None
+    file_date = [str(i).zfill(2) for i in file_date if i is not None]
+    file_date_string = "-".join(file_date)
+    return file_page, file_title, file_place, file_date_string

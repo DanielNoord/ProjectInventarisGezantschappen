@@ -8,8 +8,8 @@ import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
 
-from functions.xlsx_parse import parse_dossier, parse_file, parse_volume
-from functions.xml_create_elements import basic_xml_file, dossier_entry, file_entry, volume_entry
+from xlsx_functions import parse_dossier, parse_file, parse_volume
+from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
 
 
 def create_xml_individual_files(

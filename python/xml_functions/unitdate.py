@@ -34,4 +34,6 @@ def add_unitdate(
                 udate_element.text = f"{date1}"
         elif date2:
             udate_element.text = f"Tot en met {date2}"
-            raise Exception("This element only has an end date. Check if this is correct!")
+            raise Exception(
+                "This element only has an end date. Check if this is correct!"
+            )

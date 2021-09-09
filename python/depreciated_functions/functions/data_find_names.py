@@ -12,7 +12,7 @@ def create_person(
     Args:
         localization (str): Localization of the data entry
         person (dict): The data of the person in dictionary formt
-        translation_data (list[dict, dict, dict]): List with the dicts of translated functions, titles and places
+        translation_data: Dictionaries with translation data for titles, functions and places
 
     Returns:
         str: Full name and function
