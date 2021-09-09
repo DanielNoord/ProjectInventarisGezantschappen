@@ -21,7 +21,9 @@ def extract_date(  # pylint: disable=too-many-branches
         date2_string (str): The second date in text
     """
     locale.setlocale(locale.LC_ALL, f"{localization}.UTF-8")
-    date_pattern = re.compile(r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$")
+    date_pattern = re.compile(
+        r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$"
+    )
     if mat := re.match(date_pattern, date_string):
         y_1, m_1, d_1, y_2, m_2, d_2 = mat.groups()
     else:
@@ -59,6 +61,8 @@ def extract_date(  # pylint: disable=too-many-branches
     # Make sure that date1 comes before date2
     if date1_datetime and date2_datetime:
         if date1_datetime > date2_datetime:
-            raise ValueError(f"The first date in {date_string} comes before the second date")
+            raise ValueError(
+                f"The first date in {date_string} comes before the second date"
+            )
 
     return date1_string, date2_string
