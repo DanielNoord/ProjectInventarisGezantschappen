@@ -60,6 +60,10 @@
     "en_GB": "Clerk of the 1st class of the Ministry of Finance of the Kingdom of Italy",
     "nl_NL": "Beambte van de 1e klasse van het ministerie van Financiën van het Koninkrijk Italië"
   },
+  "Arcivescovo di Bologna": {
+    "en_GB": "Archbishop of Bologna",
+    "nl_NL": "Aartsbisschop van Bologna"
+  },
   "Arcivescovo di Efeso": {
     "en_GB": "Archbishop of Ephesus",
     "nl_NL": "Aartsbisschop van Efeze"
@@ -71,6 +75,10 @@
   "Arcivescovo di Utrecht": {
     "en_GB": "Archbishop of Utrecht",
     "nl_NL": "Aartsbisschop van Utrecht"
+  },
+  "Arcivescovo titolare di Nisibi": {
+    "en_GB": "Titular archbishop of Nisibi",
+    "nl_NL": "Titulair aartsbisschop van Nisibi"
   },
   "Assessore generale della direzione generale di polizia di Roma": {
     "en_GB": "General assessor of the general Directorate of the police of Rome",
@@ -376,6 +384,10 @@
     "en_GB": "Apostolic delegate in Civitavecchia",
     "nl_NL": "Apostolisch delegaat te Civitavecchia"
   },
+  "Delegato apostolico a Vienna": {
+    "en_GB": "Apostolic delegate in Vienna",
+    "nl_NL": "Apostolisch delegaat te Wenen"
+  },
   "Delegato apostolico a Viterbo": {
     "en_GB": "Apostolic delegate in Viterbo",
     "nl_NL": "Apostolisch delegaat te Viterbo"
@@ -640,9 +652,17 @@
     "en_GB": "Chargé d'affaires of the Republic of Mexico to the Holy See",
     "nl_NL": "Zaakgelastigde van de Republiek van Mexico bij de Heilige Stoel"
   },
+  "Incaricato d'affari della Santa Sede al Granducato di Toscana": {
+    "en_GB": "Chargé d'affaires of the Holy See to the Grand Duchy of Toscany",
+    "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Groothertogdom van Toscane"
+  },
   "Incaricato d'affari della Santa Sede al Regno dei Paesi Bassi": {
     "en_GB": "Chargé d'affaires of the Holy See to the Kingdom of the Netherlands",
     "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Koninkrijk der Nederlanden"
+  },
+  "Incaricato d'affari della Santa Sede al Regno di Sardegna": {
+    "en_GB": "Chargé d'affaires of the Holy See to the Kingdom of Sardinia",
+    "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Koninkrijk Sardinië"
   },
   "Incaricato d'affari e successivamente inviato del Regno dei Paesi Bassi presso il Regno di Sardegna": {
     "en_GB": "Chargé d'affaires and later envoy of the Kingdom of the Netherlands to the Kingdom of Sardinia",
@@ -1040,6 +1060,10 @@
     "en_GB": "Shopkeeper",
     "nl_NL": "Winkelier"
   },
+  "Nunzio apostolico a Monaco di Baviera": {
+    "en_GB": "Apostolic nuncio in Munich",
+    "nl_NL": "Apostolisch nuntius te München"
+  },
   "Pastore": {
     "en_GB": "Pastor",
     "nl_NL": "Dominee"
@@ -1060,9 +1084,17 @@
     "en_GB": "Pastor at the legation of the Kingdom of Prussia in Rome",
     "nl_NL": "Predikant bij het gezantschap van het Koninkrijk Pruissen te Rome"
   },
+  "Prefetto del Supremo Tribunale della Segnatura Apostolica": {
+    "en_GB": "Prefect of the Supreme Tribunal of the Apostolic Signatura",
+    "nl_NL": "Prefect van de Hoogste Rechtbank van de Apostolische Signatuur"
+  },
   "Prefetto del palazzo del Regno di Sardegna": {
     "en_GB": "Prefect of the palace of the Kingdom of Sardinia",
     "nl_NL": "Prefect van het paleis van het Koninkrijk Sardinië"
+  },
+  "Prefetto dell'Economia della Congregazione di Propaganda Fide": {
+    "en_GB": "Prefect of the Economy of the Sacred Congregation for the Propagation of the Faith",
+    "nl_NL": "Prefect van de Economie van de Heilige Congregatie voor de Voortplanting van het Geloof,"
   },
   "Prefetto della Sacra Congregazione dei Vescovi e Regolari": {
     "en_GB": "Prefect of the Congregation of Bishops and Regulars",
@@ -1196,9 +1228,13 @@
     "en_GB": "Pro-cardinal Secretary and president of the council of ministers of the Papel States",
     "nl_NL": "Pro-kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat"
   },
-  "Pro-tesoriere generale della Santa Sede": {
+  "Pro-tesoriere generale della Camera Apostolica": {
     "en_GB": "Pro-thesaurarius-general of the Apostolic Chamber",
     "nl_NL": "Pro-thesaurier-generaal van de Apostolische Kamer"
+  },
+  "Pro-tesoriere generale della Santa Sede": {
+    "en_GB": "Pro-thesaurarius-general of the Holy See",
+    "nl_NL": "Pro-thesaurier-generaal van de Heilige Stoel"
   },
   "Procuratore": {
     "en_GB": "Public prosecutor",
@@ -1420,6 +1456,10 @@
     "en_GB": "Thesaurarius general of the Apostolic Chamber",
     "nl_NL": "Thesaurier-generaal van de Apostolische Kamer"
   },
+  "Uditore del Supremo Tribunale della Segnatura Apostolica": {
+    "en_GB": "Auditor of the Supreme Tribunal of the Apostolic Signatura",
+    "nl_NL": "Auditeur van de Hoogste Rechtbank van de Apostolische Signatuur"
+  },
   "Ufficiale d'ordinanza di Napoleon III Bonaparte": {
     "en_GB": "Ordinance officer of Napoleon III Bonaparte",
     "nl_NL": "Ordonnans van Napoleon III Bonaparte"
@@ -1431,6 +1471,10 @@
   "Vescovo d'Aiaccio": {
     "en_GB": "Bishop of Ajaccio",
     "nl_NL": "Bisschop van Ajaccio"
+  },
+  "Vescovo di Jesi": {
+    "en_GB": "Bishop of Jesi",
+    "nl_NL": "Bisschop van Jesi"
   },
   "Vescovo di Senigallia": {
     "en_GB": "Bishop van Senigallia",
