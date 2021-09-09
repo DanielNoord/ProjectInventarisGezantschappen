@@ -3,8 +3,8 @@
 import os
 import re
 
-import docx
-from docx.shared import Pt
+import docx  # type: ignore
+from docx.shared import Pt  # type: ignore
 
 
 def list_to_be_translated(list_to_write: list[str], output_name: str) -> None:
@@ -55,7 +55,9 @@ def list_of_translated_data(list_to_write: list[list], output_name: str) -> None
     print(f"Wrote file at outputs/Translated{output_name}.docx")
 
 
-def list_of_translated_data_with_style(list_to_write: list[list], output_name: str) -> None:
+def list_of_translated_data_with_style(
+    list_to_write: list[list], output_name: str
+) -> None:
     """Write a docx file based on input with style applied
 
     Args:
@@ -123,7 +125,9 @@ def list_with_style(list_of_lines: list[str], output_name: str) -> None:
     print(f"Wrote file at outputs/Stylized{output_name}.docx")
 
 
-def database(dict_of_individuals: dict, output_name: str, skip_types: list[int]) -> None:
+def database(
+    dict_of_individuals: dict, output_name: str, skip_types: list[int]
+) -> None:
     """Write a docx file based on input dictionary
 
     Args:
@@ -132,7 +136,9 @@ def database(dict_of_individuals: dict, output_name: str, skip_types: list[int])
         skip_types (list[int]): Number of person_types to skip (for example [1, 2])
     """
     if skip_types:
-        output_name = f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
+        output_name = (
+            f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
+        )
 
     amount = 0
     out_doc = docx.Document()
@@ -149,9 +155,13 @@ def database(dict_of_individuals: dict, output_name: str, skip_types: list[int])
             paragraph.add_run(f"Place of birth: {data['place_of_birth']}\n")
             paragraph.add_run(f"Date of death: {data['date_of_death']}\n")
             paragraph.add_run(f"Place of death: {data['place_of_death']}\n")
-            title_string = f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
+            title_string = (
+                f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
+            )
             paragraph.add_run(title_string.replace(" (None)", ""))
-            func_string = f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
+            func_string = (
+                f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
+            )
             paragraph.add_run(func_string.replace(" (None)", ""))
             paragraph.add_run(f"Comment: {data['comment']}\n")
             paragraph.add_run(f"Comment from Daniël: {data['comment_daniel']}\n")
