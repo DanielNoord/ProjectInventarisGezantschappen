@@ -33,3 +33,19 @@ jobs:
           echo "See the above error message for possible problems."
           exit 1
         fi
+  Check_sorting_of_individuals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+      - name: Control if inputs/Individuals.json is 'sorted' correctly
+        run: |
+          if grep -rq '"images": \[""\]' inputs
+          then
+            echo "The database seems to be correctly saved"
+          else
+            echo "### WARNING: The Individuals database seems to be incorrect! ###"
+            echo "Did you give the program enough time for formatting?."
+            echo "Retry by doing ctrl+S on individuals.json and waiting a bit longer for formatting to complete."
+            exit 1
+          fi
