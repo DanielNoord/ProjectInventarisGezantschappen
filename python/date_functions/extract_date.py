@@ -3,9 +3,12 @@
 import datetime
 import locale
 import re
+from typing import Optional
 
 
-def extract_date(date_string: str, localization: str) -> tuple[str, str]:
+def extract_date(  # pylint: disable=too-many-branches
+    date_string: str, localization: str
+) -> tuple[Optional[str], Optional[str]]:
     """Returns a string containing the written date based on localization.
         (tries to) Handles missing data correctly
 
@@ -19,9 +22,16 @@ def extract_date(date_string: str, localization: str) -> tuple[str, str]:
     """
     locale.setlocale(locale.LC_ALL, f"{localization}.UTF-8")
     date_pattern = re.compile(r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$")
-    y_1, m_1, d_1, y_2, m_2, d_2 = re.match(date_pattern, date_string).groups()
-    date1_datetime = None
-    date1_string = None
+    if mat := re.match(date_pattern, date_string):
+        y_1, m_1, d_1, y_2, m_2, d_2 = mat.groups()
+    else:
+        raise ValueError(f"Can't parse the following date string:\n{date_string}")
+
+    date1_datetime: Optional[datetime.date] = None
+    date2_datetime: Optional[datetime.date] = None
+    date1_string: Optional[str] = None
+    date2_string: Optional[str] = None
+
     if y_1:
         if m_1:
             if d_1:
@@ -34,8 +44,6 @@ def extract_date(date_string: str, localization: str) -> tuple[str, str]:
             date1_datetime = datetime.date(int(y_1), 1, 1)
             date1_string = y_1
 
-    date2_datetime = None
-    date2_string = None
     if y_2:
         if m_2:
             if d_2:

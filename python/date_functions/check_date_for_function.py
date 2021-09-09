@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 
-def check_begin(
+def check_begin(  # pylint: disable=too-many-return-statements
     date: list[int], begin_date: list[str]
-) -> bool:  # pylint: disable=too-many-return-statements
+) -> bool:
     """Checks if a date falls after or on a specific date
 
     Args:
@@ -30,9 +30,9 @@ def check_begin(
     return False
 
 
-def check_end(
+def check_end(  # pylint: disable=too-many-return-statements
     date: list[int], end_date: list[str]
-) -> bool:  # pylint: disable=too-many-return-statements
+) -> bool:
     """Checks if a date falls before or on a specific date
 
     Args:
