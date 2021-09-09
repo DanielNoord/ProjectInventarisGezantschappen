@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# type: ignore # pylint: disable-all
 
 import docx
 from docx_functions import list_to_be_translated, list_with_style

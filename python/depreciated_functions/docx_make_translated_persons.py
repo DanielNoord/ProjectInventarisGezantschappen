@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# type: ignore # pylint: disable-all
 
 from docx_functions import list_of_translated_data, list_of_translated_data_with_style
 
@@ -56,6 +57,4 @@ def create_name_docx_with_style(input_file_names, input_file_data):
 
 if __name__ == "__main__":
     create_name_docx("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
-    create_name_docx_with_style(
-        "inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json"
-    )
+    create_name_docx_with_style("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
