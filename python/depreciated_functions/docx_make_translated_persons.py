@@ -56,4 +56,6 @@ def create_name_docx_with_style(input_file_names, input_file_data):
 
 if __name__ == "__main__":
     create_name_docx("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
-    create_name_docx_with_style("inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json")
+    create_name_docx_with_style(
+        "inputs/NamesFondo+Identifier.docx", "inputs/Individuals.json"
+    )
