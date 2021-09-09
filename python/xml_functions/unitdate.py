@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 
+from typing import Optional
+
 from lxml import etree
 
 
-def unitdate(
-    parent_element: etree._Element, datestring: str, date1: str, date2: str, element_type: str
+def add_unitdate(
+    parent_element: etree._Element,
+    datestring: str,
+    date1: Optional[str],
+    date2: Optional[str],
+    element_type: str,
 ):
     """Creates and appends an unitdate element
 

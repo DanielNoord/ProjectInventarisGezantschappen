@@ -2,10 +2,10 @@
 
 from warnings import warn
 
+from date_functions import extract_date
 from lxml import etree
 
-from functions.helper_functions.extract_date import extract_date
-from functions.helper_functions.unitdate import unitdate
+from xml_functions import add_unitdate
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:  # pylint: disable=too-many-locals
@@ -64,7 +64,11 @@ def basic_xml_file() -> tuple[etree._Element, etree._Element]:  # pylint: disabl
 
 
 def volume_entry(
-    parent_element: etree._Element, number: str, title: str, date: str, localization: str
+    parent_element: etree._Element,
+    number: str,
+    title: str,
+    date: str,
+    localization: str,
 ) -> etree._Element:
     """Returns an .xml element for a volume at the c01 level
 
@@ -88,7 +92,7 @@ def volume_entry(
     c01_did_title = etree.SubElement(c01_did, "unittitle")
     c01_did_title.text = title
     date1, date2 = extract_date(date, localization)
-    unitdate(c01_did, date, date1, date2, "volume")
+    add_unitdate(c01_did, date, date1, date2, "volume")
     return c01
 
 
@@ -124,12 +128,17 @@ def dossier_entry(  # pylint: disable=too-many-arguments
     c02_did_title = etree.SubElement(c02_did, "unittitle")
     c02_did_title.text = title
     date1, date2 = extract_date(date, localization)
-    unitdate(c02_did, date, date1, date2, "dossier")
+    add_unitdate(c02_did, date, date1, date2, "dossier")
     return c02
 
 
 def file_entry(
-    parent_element: etree._Element, pages: str, title: str, _: str, date: str, localization: str
+    parent_element: etree._Element,
+    pages: str,
+    title: str,
+    _: str,
+    date: str,
+    localization: str,
 ) -> None:
     """Returns an .xml element for a file within a dossier
 
@@ -149,7 +158,7 @@ def file_entry(
         c02_did_title = etree.SubElement(c02_did, "unittitle")
         c02_did_title.text = title
         date1, date2 = extract_date(date, localization)
-        unitdate(c02_did, date, date1, date2, "file")
+        add_unitdate(c02_did, date, date1, date2, "file")
     elif parent_element.tag == "c02":
         c03 = etree.SubElement(parent_element, "c03", level="file")
         c03_did = etree.SubElement(c03, "did")
@@ -158,6 +167,6 @@ def file_entry(
         c03_did_title = etree.SubElement(c03_did, "unittitle")
         c03_did_title.text = title
         date1, date2 = extract_date(date, localization)
-        unitdate(c03_did, date, date1, date2, "file")
+        add_unitdate(c03_did, date, date1, date2, "file")
     else:
         warn("File was not handled correctly")
