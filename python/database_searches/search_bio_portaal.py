@@ -15,8 +15,12 @@ def fetch_bio_portaal_names(filename: str) -> None:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
-        if not any(i for i in data["sources"] if i.count("Biografisch Portaal van Nederland")):
-            name = "+".join([data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")])
+        if not any(
+            i for i in data["sources"] if i.count("Biografisch Portaal van Nederland")
+        ):
+            name = "+".join(
+                [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
+            )
             response = requests.get(
                 f"http://www.biografischportaal.nl/personen/json?search_name={name}"
             )
@@ -27,7 +31,11 @@ def fetch_bio_portaal_names(filename: str) -> None:
                 for hit in response.json():
                     print("", hit["url_biografie"])
                     print("", hit["namen"])
-                    print("", "Birth:", [i["when"] for i in hit["event"] if i["type"] == "birth"])
+                    print(
+                        "",
+                        "Birth:",
+                        [i["when"] for i in hit["event"] if i["type"] == "birth"],
+                    )
                     print(
                         "",
                         "Death:",
