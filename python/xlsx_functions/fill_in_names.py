@@ -34,7 +34,7 @@ def fill_in_xlsx(
             line_str = "".join(line)
 
             # Clean up string
-            line_str = line[0].upper() + line[1:]
+            line_str = line_str[0].upper() + line_str[1:]
             line_str = line_str.replace("{", "(").replace("}", ")")
             row[1].value = line_str
 
