@@ -1,4 +1,4 @@
-beautifulsoup4==4.93
+beautifulsoup4==4.9.3
 types-beautifulsoup4==4.9.4
 lxml==4.6.3
 lxml-stubs==0.2.0

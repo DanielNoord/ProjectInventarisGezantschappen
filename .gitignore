@@ -19,6 +19,7 @@ outputs/*
 !.pylintrc
 !Makepdf_*
 !README.md
+!requirements-tests.txt
 !requirements.txt
 
 # To be ignored in all directories
