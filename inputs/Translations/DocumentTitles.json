@@ -173,8 +173,8 @@
     "nl_NL": "Kopieën van verzendingen, diploma's en correspondentie van \\2"
   },
   "Correspondance avec le Ministre des Affaires Etrangères \\(Corrispondenza con il Ministro degli Affari Esteri\\)$": {
-    "en_GB": "Correspondance avec le Ministre des Affaires Etrangers (Correspondence with the Minister of External Affairs)",
-    "nl_NL": "Correspondance avec le Ministre des Affaires Etrangers (Correspondentie met de Ministers van Buitenlandse Zaken)"
+    "en_GB": "Correspondance avec le Ministre des Affaires Etrangers (Correspondence with the Minister of Foreign Affairs)",
+    "nl_NL": "Correspondance avec le Ministre des Affaires Etrangers (Correspondentie met de Minister van Buitenlandse Zaken)"
   },
   "Correspondance avec le corps diplomatique$": {
     "en_GB": "Corrispondence avec le corps diplomatique",
@@ -184,9 +184,9 @@
     "en_GB": "Correspondance avec le department des affaires Etrangeres 1827-1829",
     "nl_NL": "Correspondance avec le department des affaires Etrangeres 1827-1829"
   },
-  "Correspondance avec le ministre des affaires etranges sur diverses subjets \\(Corrispondenza con i ministri degli affari esteri sui soggetti diversi\\)$": {
-    "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondence with the ministers of external affairs on several subjects)",
-    "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondentie met de ministers van buitenlandse zaken over verschillende onderwerpen)"
+  "Correspondance avec le ministre des affaires etranges sur diverses subjets \\(Corrispondenza con il Ministro degli Affari Esteri sui soggetti diversi\\)$": {
+    "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
+    "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondentie met de Minister van Buitenlandse Zaken over verschillende onderwerpen)"
   },
   "Correspondance de M.H. Cartenstat a Mgr. Grooff \\(Corrispondenza di M.H. Cartenstat a Mgr. Grooff\\)$": {
     "en_GB": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Correspondence of M.H. Cartenstat with Mgr. Grooff)",
@@ -201,8 +201,8 @@
     "nl_NL": "Correspondance avec les agents consulaires"
   },
   "Decreto per l'Esilio (di|del|della) (\\$\\w*)$": {
-    "en_GB": "Decree for the Exile of \\2",
-    "nl_NL": "Verordening voor de Verbanning van \\2"
+    "en_GB": "Decree of the Exile of \\2",
+    "nl_NL": "Verordening van de Verbanning van \\2"
   },
   "Descrizione della persona ricercata (\\$\\w*)$": {
     "en_GB": "Description of wanted person \\1",
@@ -662,7 +662,7 @@
   },
   "Lista delle donne olandesi che desidderano avere biglietti d'ingresso alle tribune$": {
     "en_GB": "List of Dutch women who desire to have entrance tickets to the tribunes",
-    "nl_NL": "Lijst van Nederlandse vrouwen die graag toegangsbewijzen naar de tribunes hebben "
+    "nl_NL": "Lijst van Nederlandse vrouwen die graag toegangsbewijzen voor de tribunes hebben"
   },
   "Lista di Coscrizione$": {
     "en_GB": "Conscription list",
@@ -817,8 +817,8 @@
     "nl_NL": "Osservations Preliminarire"
   },
   "Petizione per rendere omaggio al Pio IX sottoscritta da vari ministri degli Esteri e diretta (a|al) (\\$\\w*)$": {
-    "en_GB": "Petition to pay homage to Pius IX undersigned by various ministers of External Affairs and directed to \\2",
-    "nl_NL": "Petitie om eer te bewijzen aan Pius IX ondertekend door verschillende ministers van Buitenlandse Zaken en gericht aan \\2"
+    "en_GB": "Petition to pay homage to Pius IX undersigned by various Ministers of Foreign Affairs and directed to \\2",
+    "nl_NL": "Petitie om eer te bewijzen aan Pius IX ondertekend door verschillende Ministers van Buitenlandse Zaken en gericht aan \\2"
   },
   "Pieces Diverses$": {
     "en_GB": "Pieces Diverses",
@@ -898,7 +898,7 @@
   },
   "Relazione di ciò che accadde negli Offici dell'Amministrazione Generale delle Poste in Roma nel Giorno 1 maggio 1848$": {
     "en_GB": "Report on what happened in the Offices of the General Administration of the Post in Rome on the day of 1 May 1848",
-    "nl_NL": "Rapport over what er gebeurde in het kantoor van de Algemene Administratie van de Post in Rome op de dag van 1 mei 1848"
+    "nl_NL": "Rapport over wat er gebeurde in het kantoor van de Algemene Administratie van de Post in Rome op de dag van 1 mei 1848"
   },
   "Relazione inviata (a|al) (\\$\\w*)$": {
     "en_GB": "Report sent to \\2",
@@ -949,11 +949,11 @@
     "nl_NL": "Smeekbede gericht aan \\2"
   },
   "Tabella delle esportazioni$": {
-    "en_GB": "Table of exportations",
+    "en_GB": "Table of exports",
     "nl_NL": "Overzicht van exporten"
   },
   "Tabella delle importazioni$": {
-    "en_GB": "Table of importations",
+    "en_GB": "Table of imports",
     "nl_NL": "Overzicht van importen"
   },
   "Traduzione della lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
@@ -974,7 +974,7 @@
   },
   "Trascrizione del proclama Ai Siciliani$": {
     "en_GB": "Transcription of the proclamation Ai Siciliani",
-    "nl_NL": "Transcriptie van de proclamatie Ai Siciliani2"
+    "nl_NL": "Transcriptie van de proclamatie Ai Siciliani"
   },
   "Trascrizione della lettera (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of the letter of \\2",
@@ -998,7 +998,7 @@
   },
   "Trascrizione di una dichiarazione del parlamento generale del Regno di Sicilia$": {
     "en_GB": "Transcription of a declaration of the general parliament of the Kingdom of Sicily",
-    "nl_NL": "Transcriptie van een verklaring van het algemeen parlament van het Koningrijk van Sicilië"
+    "nl_NL": "Transcriptie van een verklaring van het algemeen parlement van het Koningrijk Sicilië"
   },
   "Trascrizione di una lettera (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of a letter of \\2",
