@@ -16,7 +16,7 @@ from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entr
 def create_xml_individual_files(
     localization: Literal["it_IT", "nl_NL", "en_GB"],
     sheet: openpyxl.worksheet.worksheet.Worksheet,
-    dossiers: dict,
+    dossiers: dict[str, etree._Element],
     vol_entry: etree._Element,
 ) -> None:
     """Based on a sheet creates .xml entries for every file found

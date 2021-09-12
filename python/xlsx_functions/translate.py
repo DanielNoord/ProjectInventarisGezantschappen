@@ -21,7 +21,7 @@ def translate_xlsx(  # pylint: disable=too-many-arguments
     translation_data: tuple[
         TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
     ],
-    used_translations: set[Pattern],
+    used_translations: set[Pattern[str]],
 ) -> None:
     """Translate .xlsx file
 

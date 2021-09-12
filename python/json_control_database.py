@@ -7,7 +7,11 @@ from date_functions import extract_date
 from json_check_comments import check_all_comments
 from json_check_placenames import check_all_placenames
 from json_check_sources import check_all_sources
-from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
+from typing_utils import (
+    IndividualsDictEntry,
+    TranslationDictCleaned,
+    TranslationDictCleanedTitles,
+)
 
 
 def check_translations() -> None:
@@ -31,7 +35,7 @@ def check_translations() -> None:
 
 
 def control_functions(
-    data: dict,
+    data: IndividualsDictEntry,
     translated_functions: TranslationDictCleaned,
     identifier: str,
     used_functions: set[str],
@@ -88,7 +92,7 @@ def control_functions(
 
 
 def control_titles(
-    data: dict,
+    data: IndividualsDictEntry,
     translated_titles: TranslationDictCleanedTitles,
     identifier: str,
     used_titles: set[str],

@@ -4,15 +4,19 @@ import os
 import re
 from typing import Literal
 
-from data_parsing import name_string
 from openpyxl import load_workbook
-from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
+from data_parsing import name_string
+from typing_utils import (
+    IndividualsDictCleaned,
+    TranslationDictCleaned,
+    TranslationDictCleanedTitles,
+)
 
 
 def fill_in_xlsx(
     directory_name: str,
     file_name: str,
-    individuals: dict,
+    individuals: IndividualsDictCleaned,
     translations: tuple[
         TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
     ],

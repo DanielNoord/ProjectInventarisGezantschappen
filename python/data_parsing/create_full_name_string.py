@@ -9,7 +9,7 @@ from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
 def full_name(  # pylint: disable=too-many-arguments, too-many-branches
     surname: str,
     name: str,
-    titles: str,
+    titles: list[tuple[str, Optional[str]]],
     translation_data: tuple[
         TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
     ],
@@ -21,7 +21,7 @@ def full_name(  # pylint: disable=too-many-arguments, too-many-branches
     Args:
         surname (str): Surname of individual
         name (str): First name of indiviudal
-        titles (str): Function of indiviudal
+        titles: Function of indiviudal
         translation_data: Dictionaries with translation data for titles, functions and places
         localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
         date (tuple[Optional[int], Optional[int], Optional[int]]): Date of the file to be checked
@@ -39,10 +39,11 @@ def full_name(  # pylint: disable=too-many-arguments, too-many-branches
 
     relevant_titles = []
     for title in titles:
-        if title[1] is None or date[0] is None:
-            relevant_titles.append(title)
-        elif check_date(date, title[1]):
-            relevant_titles.append(title)
+        if title:
+            if title[1] is None or date[0] is None:
+                relevant_titles.append(title)
+            elif check_date(date, title[1]):
+                relevant_titles.append(title)
     if relevant_titles != []:
         translation_entry = translation_data[0][relevant_titles[0][0]]
         if localization != "it_IT":

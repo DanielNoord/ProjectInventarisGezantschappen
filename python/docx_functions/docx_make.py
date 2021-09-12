@@ -6,6 +6,8 @@ import re
 import docx  # type: ignore
 from docx.shared import Pt  # type: ignore
 
+from typing_utils import IndividualsDictCleaned
+
 
 def list_to_be_translated(list_to_write: list[str], output_name: str) -> None:
     """Write a docx file based on input. Adds two white lines after every entry
@@ -28,7 +30,7 @@ def list_to_be_translated(list_to_write: list[str], output_name: str) -> None:
     print(f"Wrote file at outputs/Translated{output_name}.docx")
 
 
-def list_of_translated_data(list_to_write: list[list], output_name: str) -> None:
+def list_of_translated_data(list_to_write: list[list[str]], output_name: str) -> None:
     """Write a docx file based on input
 
     Args:
@@ -56,7 +58,7 @@ def list_of_translated_data(list_to_write: list[list], output_name: str) -> None
 
 
 def list_of_translated_data_with_style(
-    list_to_write: list[list], output_name: str
+    list_to_write: list[list[str]], output_name: str
 ) -> None:
     """Write a docx file based on input with style applied
 
@@ -126,7 +128,7 @@ def list_with_style(list_of_lines: list[str], output_name: str) -> None:
 
 
 def database(
-    dict_of_individuals: dict, output_name: str, skip_types: list[int]
+    dict_of_individuals: IndividualsDictCleaned, output_name: str, skip_types: list[int]
 ) -> None:
     """Write a docx file based on input dictionary
 
@@ -155,9 +157,12 @@ def database(
             paragraph.add_run(f"Place of birth: {data['place_of_birth']}\n")
             paragraph.add_run(f"Date of death: {data['date_of_death']}\n")
             paragraph.add_run(f"Place of death: {data['place_of_death']}\n")
-            title_string = (
-                f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
-            )
+            if data["titles"] == []:
+                title_string = "Titles: \n"
+            else:
+                title_string = (
+                    f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
+                )
             paragraph.add_run(title_string.replace(" (None)", ""))
             func_string = (
                 f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"

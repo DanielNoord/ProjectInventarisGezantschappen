@@ -3,13 +3,17 @@
 from typing import Literal, Optional
 
 from date_functions import check_date
-from typing_utils import TranslationDictCleaned, TranslationDictCleanedTitles
+from typing_utils import (
+    TranslationDictCleaned,
+    TranslationDictCleanedTitles,
+    IndividualsDictEntry,
+)
 
 from data_parsing import full_name
 
 
 def name_string(
-    person: dict,
+    person: IndividualsDictEntry,
     date: tuple[Optional[int], Optional[int], Optional[int]],
     translation_data: tuple[
         TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
@@ -41,10 +45,11 @@ def name_string(
     if person["functions"] != []:
         relevant_functions = []
         for func in person["functions"]:
-            if func[1] is None or date[0] is None:
-                relevant_functions.append(func)
-            elif check_date(date, func[1]):
-                relevant_functions.append(func)
+            if func:
+                if func[1] is None or date[0] is None:
+                    relevant_functions.append(func)
+                elif check_date(date, func[1]):
+                    relevant_functions.append(func)
         if localization != "it_IT":
             str_functions = ", ".join(
                 [translation_data[1][i[0]][localization] for i in relevant_functions]

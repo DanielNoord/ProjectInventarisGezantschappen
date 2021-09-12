@@ -102,7 +102,7 @@ def create_translated_xlsx(
     del translations["$schema"]
     translation_patterns = {re.compile(k): v for k, v in translations.items()}
     translation_data = initialize_translation_database()
-    used_translations: set[Pattern] = set()
+    used_translations: set[Pattern[str]] = set()
 
     directory = os.fsencode(directory_name)
     for file in os.listdir(directory):
