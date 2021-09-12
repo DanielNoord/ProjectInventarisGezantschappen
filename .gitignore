@@ -21,6 +21,7 @@ outputs/*
 !README.md
 !requirements-tests.txt
 !requirements.txt
+!setup.cfg
 
 # To be ignored in all directories
 **/.DS_Store
