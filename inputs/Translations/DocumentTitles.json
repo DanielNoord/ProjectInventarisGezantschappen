@@ -64,6 +64,10 @@
     "en_GB": "Printed notice about the death of Ferdinando d'Ohmas, advisor of the embassy",
     "nl_NL": "Gedrukte melding over de dood van Ferdinando d'Ohmas, adviseur van de ambassade"
   },
+  "Avviso del governo provvisorio della Lombardia$": {
+    "en_GB": "Notice from the interim government of Lombardy",
+    "nl_NL": "Melding van de interim regering van Lombardije"
+  },
   "Bianca$": {
     "en_GB": "Empty",
     "nl_NL": "Leeg"
@@ -79,6 +83,10 @@
   "Bozzetto di un monumento celebrativo \\((\\$\\w*) \\?\\) \\(disegno a inchiostro\\)$": {
     "en_GB": "Sketch of a commemorative monument (\\1 ?) (Ink drawing)",
     "nl_NL": "Schets van een herdenkingsmonument (\\1 ?) (Inkttekening)"
+  },
+  "Breve cenno di alcune pendenze del Lussemburgo$": {
+    "en_GB": "Brief mention of several pending suits from Luxembourg",
+    "nl_NL": "Korte vermelding van een aantal lopende zaken uit Luxemburg"
   },
   "Cenni sull'organizzazione della truppa pontificia \\(relazione\\)$": {
     "en_GB": "Notes on the organization of the papal troops (report)",
@@ -200,6 +208,10 @@
     "en_GB": "Correspondance avec les agents consulaires",
     "nl_NL": "Correspondance avec les agents consulaires"
   },
+  "Decreto di papa Gregorio XVI del 5 aprile 1845 circa l'Indice dei Libri Proibiti \\(a stampa\\)$": {
+    "en_GB": "Decree of pope Gregorius XVI of 5 April 1845 on the Index of Forbidden Books (printed)",
+    "nl_NL": "Verordening van paus Gregorius XVI van 5 april 1845 over de Index van Verboden Boeken (gedrukt)"
+  },
   "Decreto per l'Esilio (di|del|della) (\\$\\w*)$": {
     "en_GB": "Decree of the Exile of \\2",
     "nl_NL": "Verordening van de Verbanning van \\2"
@@ -240,9 +252,17 @@
     "en_GB": "Edict of \\2 on transfers and translations (printed)",
     "nl_NL": "Edict van \\2 over overdrachten en vertalingen (gedrukt)"
   },
+  "Encyclica di pio IX ad omnes supremos moderatores abbates$": {
+    "en_GB": "Encyclical of Pius IX ad omnes supremos moderatores abbates",
+    "nl_NL": "Encycliek van Pius IX ad omnes supremos moderatores abbates"
+  },
   "Errori riportati nelle tabelle delle esportazioni$": {
     "en_GB": "Errors reported in the tables of exportations",
     "nl_NL": "Fouten gemeld in de overzichten van exporten"
+  },
+  "Estratto del Gazetta di Roma$": {
+    "en_GB": "Extract from the Gazetta di Roma",
+    "nl_NL": "Uittreksel uit de Gazetta di Roma"
   },
   "Estratto del Journal de la Haye$": {
     "en_GB": "Extract from the Journal de la Haye",
@@ -251,6 +271,10 @@
   "Estratto di un dispaccio (di|del|della) (\\$\\w*)$": {
     "en_GB": "Extract from a dispatch of \\2",
     "nl_NL": "Uittreksel van een verzending van \\2"
+  },
+  "Estratto di un supplemento della Gazetta di Roma$": {
+    "en_GB": "Extract from a supplement to the Gazetta di Roma",
+    "nl_NL": "Uittreksel van een bijlage van de Gazetta di Roma"
   },
   "Estratto di una lettera di Bruxelles$": {
     "en_GB": "Extract from a letter from Brussels",
@@ -388,6 +412,10 @@
     "en_GB": "Letter to \\2",
     "nl_NL": "Brief aan \\2"
   },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) (allegata)$": {
+    "en_GB": "Letter from \\2 to \\4 (attached)",
+    "nl_NL": "Brief van \\2 aan \\4 (bijgevoegd)"
+  },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(cifrata\\)$": {
     "en_GB": "Letter of \\2 to \\4 (encrypted)",
     "nl_NL": "Brief van \\2 aan \\4 (versleuteld)"
@@ -464,6 +492,10 @@
     "en_GB": "Letter of \\2 to \\4 and \\5",
     "nl_NL": "Brief van \\2 aan \\4 en \\5"
   },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) e (\\$\\w*). In allegato Circolare (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Letter of \\2 to \\4 and \\5. Circulaire of \\7 attached",
+    "nl_NL": "Brief van \\2 aan \\4 en \\5. Circulaire van \\7 bijgevoegd"
+  },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) in cui afferma di essere stato assaltato da un brigante-pirata inglese in mare quando navigava sulla nave Elena$": {
     "en_GB": "Letter of \\2 to \\4 in which he claims to have been attacked at sea by an English pirate while sailing on the ship Elena",
     "nl_NL": "Brief van \\2 aan \\4 waarin hij beweert te zijn aangevallen op zee door een Engelse piraat toen hij aan het varen was op het schip Elena"
@@ -520,6 +552,10 @@
     "en_GB": "Letter of \\2 with transcrisption of a notification of \\4",
     "nl_NL": "Brief van \\2 met transcriptie van een notificatie van \\4"
   },
+  "Lettera (di|del|della) (\\$\\w*) copia di lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Letter from \\2 copy of a letter of \\4",
+    "nl_NL": "Brief van \\2 kopie van een brief van \\4"
+  },
   "Lettera (di|del|della) (\\$\\w*) e (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Letter of \\2 and \\3 to \\5",
     "nl_NL": "Brief van \\2 en \\3 aan \\5"
@@ -564,6 +600,10 @@
     "en_GB": "Letter to the colonel about \\2",
     "nl_NL": "Brief naar de kolonel over \\2"
   },
+  "Lettera apostolica (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Apostolic letter of \\2",
+    "nl_NL": "Apostolische brief van \\2"
+  },
   "Lettera cifrata (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Encrypted letter of \\2 to \\4",
     "nl_NL": "Versleutelde brief van \\2 aan \\4"
@@ -595,6 +635,10 @@
   "Lettera circolare a stampa (di|del|della) (\\$\\w*)$": {
     "en_GB": "Printed circulaire of \\2",
     "nl_NL": "Gedrukte circulaire van \\2"
+  },
+  "Lettera circolare del ministro degli interni ai governatori$": {
+    "en_GB": "Printed circulaire of the minister of internal affairs to the governors",
+    "nl_NL": "Gedrukte circulaire van de minister van binnenlandse zaken aan de gouverneurs"
   },
   "Lettera con allegato programma di una cerimonia$": {
     "en_GB": "Letter with attached the program of a ceremony",
@@ -720,6 +764,10 @@
     "en_GB": "Minute of a letter",
     "nl_NL": "Minuut van een brief"
   },
+  "Minuta di risposta alla lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Minute of a response to the letter from \\2 to \\4",
+    "nl_NL": "Responsminuut op een brief van \\2 aan \\4"
+  },
   "Minuta di risposta$": {
     "en_GB": "Minute of a response",
     "nl_NL": "Responsminuut"
@@ -799,6 +847,10 @@
   "Notificazione a stampa del Governo di Livorno$": {
     "en_GB": "Printed notification by the Government of Livorno",
     "nl_NL": "Gedrukte notificatie van de Overheid van Livorno"
+  },
+  "Notizie Romane$": {
+    "en_GB": "Roman News",
+    "nl_NL": "Nieuws uit Rome"
   },
   "Notizie dal Marocco$": {
     "en_GB": "News from Morocco",
@@ -956,9 +1008,21 @@
     "en_GB": "Table of imports",
     "nl_NL": "Overzicht van importen"
   },
+  "Traduction de la circulaire de son Eminence le Cardinal Soglia \\(traduzione della circolare della Sua Eminenza Cardinale Soglia\\)$": {
+    "en_GB": "Traduction de la circulaire de son Eminence le Cardinal Soglia (translation of a circulaire of His Eminence Cardinal Soglia)",
+    "nl_NL": "Traduction de la circulaire de son Eminence le Cardinal Soglia (vertaling van een circulaire van Zijne Eminentie Kardinaal Soglia)"
+  },
   "Traduzione della lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Translation of the letter of \\2 to \\4",
     "nl_NL": "Vertaling van de brief van \\2 aan \\4"
+  },
+  "Traduzione di un articolo del Contemporaneo$": {
+    "en_GB": "Translation of an article from the Contemporaneo",
+    "nl_NL": "Vertaling van een artikel uit de Contemporaneo"
+  },
+  "Traduzione di un articolo della Gazetta di Roma$": {
+    "en_GB": "Translation of an article from the Gazetta di Roma",
+    "nl_NL": "Vertaling van een artikel uit de Gazetta di Roma"
   },
   "Trascrizione (di|del|della) (\\$\\w*) del Journal de Paris$": {
     "en_GB": "Transcription by \\2 of the \"Journal of Paris\"",
@@ -1000,9 +1064,17 @@
     "en_GB": "Transcription of a declaration of the general parliament of the Kingdom of Sicily",
     "nl_NL": "Transcriptie van een verklaring van het algemeen parlement van het Koningrijk Sicilië"
   },
+  "Trascrizione di una lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
+    "en_GB": "Transcription of a letter of \\2 to \\4",
+    "nl_NL": "Transcriptie van een brief van \\2 aan \\4"
+  },
   "Trascrizione di una lettera (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of a letter of \\2",
     "nl_NL": "Transcriptie van een brief van \\2"
+  },
+  "Trascrizione di una lettera apostolica (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Transcription of an apostolic letter of \\2",
+    "nl_NL": "Transcriptie van een apostolische brief van \\2"
   },
   "Trascrizione e traduzione di una notificazione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription and translation of a notification of \\2",
