@@ -194,17 +194,20 @@ def update_trecanni(source: str) -> str:
     """
     page = requests.get(source)
     soup = BeautifulSoup(page.content, "html.parser")
-    title = soup.find_all("h1", {"class": "title-search title-leaf"})[0].contents[0].split(", ")
+    title = soup.find_all("h1", {"class": "title-search title-leaf"})[0].contents[0].split(", ")  # type: ignore # pylint: disable=line-too-long
     title[0] = title[0].title()
     title = ", ".join(title)
     author_string = (
-        soup.find_all("div", {"class": "module-briciole_di_pane"})[0].contents[1].contents[0]
+        soup.find_all("div", {"class": "module-briciole_di_pane"})[0].contents[1].contents[0]  # type: ignore # pylint: disable=line-too-long
     )
     author_string = author_string.replace("\t", "").replace("\n", "")
-    author, volume, year = re.match(
+    if mat := re.match(
         r"di (.*?) - Dizionario Biografico degli Italiani - Volume (.*?) \((.*)\)$",
         author_string,
-    ).groups()
+    ):
+        author, volume, year = mat.groups()
+    else:
+        raise ValueError(f"Can't parse Trecanni author string of {source}")
     author = author.split(" ")
     author = f"{author[-1]}, {' '.join(author[0:-1])}"
     final_source = (
@@ -227,15 +230,15 @@ def update_parlement(source: str) -> str:
     """
     page = requests.get(source)
     soup = BeautifulSoup(page.content, "html.parser")
-    name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]
+    name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]  # type: ignore
     final_source = f"Redactie parlement.com, '{name}', found on: {source}"
 
     return final_source
 
 
-def check_all_sources(
+def check_all_sources(  # pylint: disable=too-many-branches, too-many-statements
     filename: str,
-) -> None:  # pylint: disable=too-many-branches, too-many-statements
+) -> None:
     """Check and update all sources for given database
 
     Args:
@@ -295,8 +298,8 @@ def check_all_sources(
                     index
                 ] = f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
 
-            elif mat := [i for i in compiled_source_patterns if i.match(source)]:
-                used_patterns.add(mat[0])
+            elif match := [i for i in compiled_source_patterns if i.match(source)]:
+                used_patterns.add(match[0])
 
             # TODO: Sources to discuss
             elif source.startswith("https://notes9.senato.it/"):
@@ -309,7 +312,9 @@ def check_all_sources(
                 pass
 
             # TODO: Sources to look up
-            elif source.startswith("Dizionario bibliografico dell’Armata Sarda seimila biografie"):
+            elif source.startswith(
+                "Dizionario bibliografico dell’Armata Sarda seimila biografie"
+            ):
                 pass
 
             # If not known/missing

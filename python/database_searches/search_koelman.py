@@ -2,7 +2,7 @@
 
 import json
 
-import docx
+import docx  # type: ignore
 
 
 def search_koelman(filename: str) -> None:

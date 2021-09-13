@@ -2,26 +2,27 @@
 
 import os
 import re
+from typing import Literal
 from warnings import warn
 
 import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
 
-from functions.xlsx_parse import parse_dossier, parse_file, parse_volume
-from functions.xml_create_elements import basic_xml_file, dossier_entry, file_entry, volume_entry
+from xlsx_functions import parse_dossier, parse_file, parse_volume
+from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
 
 
 def create_xml_individual_files(
-    localization: str,
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
     sheet: openpyxl.worksheet.worksheet.Worksheet,
-    dossiers: dict,
+    dossiers: dict[str, etree._Element],
     vol_entry: etree._Element,
 ) -> None:
     """Based on a sheet creates .xml entries for every file found
 
     Args:
-        localization (str): String indicating the localization of the inventory
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
         sheet (openpyxl.worksheet.worksheet.Worksheet): The .xlsx sheet with data
         dossiers (dict): Dictionary of dossier numbers with their corresponding .xml element
         vol_entry (etree._Element): The c01 element of the final .xml file
@@ -46,7 +47,7 @@ def create_xml_individual_files(
 
 
 def create_xml_dossier(
-    localization: str,
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
     sheet: openpyxl.worksheet.worksheet.Worksheet,
     v_num: str,
     c01: etree._Element,
@@ -54,18 +55,22 @@ def create_xml_dossier(
     """Creates necessary dossier entries at the c02 level
 
     Args:
-        localization (str): String indicating the localization of the inventory
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
         sheet (openpyxl.worksheet.worksheet.Worksheet): The .xlsx sheet with data
         v_num (str): Number of the volume
         c01 (etree._Element): The c01 element of the final .xml file
     """
-    dossiers = {}
+    dossiers: dict[str, etree._Element] = {}
 
     # Find dossiers
     for cell in sheet["A"]:
-        if cell.value is not None and (mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)):
+        if cell.value is not None and (
+            mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)
+        ):
             if mat.groups()[0] not in dossiers.keys():
-                d_pages, d_title, d_data = parse_dossier(sheet, mat.groups()[0], v_num, cell)
+                d_pages, d_title, d_data = parse_dossier(
+                    sheet, mat.groups()[0], v_num, cell
+                )
 
                 # Create entry
                 dossiers[mat.groups()[0]] = dossier_entry(
@@ -86,11 +91,15 @@ def create_xml_dossier(
     create_xml_individual_files(localization, sheet, dossiers, c01)
 
 
-def create_xml_volume(localization: str, filename: str, archdesc: etree._Element) -> None:
+def create_xml_volume(
+    localization: Literal["it_IT", "nl_NL", "en_GB"],
+    filename: str,
+    archdesc: etree._Element,
+) -> None:
     """Adds a volume to an 'archdesc' element
 
     Args:
-        localization (str): String indicating the localization of the inventory
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
         filename (str): Name and directory of file
         archdesc (etree._Element): The archdesc element of the final .xml file
     """
@@ -106,11 +115,13 @@ def create_xml_volume(localization: str, filename: str, archdesc: etree._Element
     print(f"""Finished writing volume {v_num}\n""")
 
 
-def create_xml_file(localization: str, dir_name: str) -> None:
+def create_xml_file(
+    localization: Literal["it_IT", "nl_NL", "en_GB"], dir_name: str
+) -> None:
     """Creates and writes an xml file based on directory of volumes
 
     Args:
-        localization (str): String indicating the localization of the inventory
+        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
         dir_name (str): Directory name
     """
     print("Starting to create XML file!")
@@ -120,13 +131,15 @@ def create_xml_file(localization: str, dir_name: str) -> None:
     for file in sorted(os.listdir(directory)):
         filename = os.fsdecode(file)
         if not filename.count("~$") and filename.startswith("Paesi"):
-            create_xml_volume(localization, f"{dir_name}{localization}/{filename}", archdesc)
+            create_xml_volume(
+                localization, f"{dir_name}{localization}/{filename}", archdesc
+            )
 
     tree = etree.ElementTree(root)
 
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
-    tree.write(
+    tree.write(  # type: ignore # Stub doesn't recognize doctype parameter is valid
         f"outputs/Inventaris_{localization}.xml",
         pretty_print=True,
         xml_declaration=True,

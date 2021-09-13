@@ -17,9 +17,13 @@ def fetch_na_inventaris(filename: str) -> None:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
-        if not any(i for i in data["sources"] if i.startswith("Nationaal Archief, The Hague")):
+        if not any(
+            i for i in data["sources"] if i.startswith("Nationaal Archief, The Hague")
+        ):
             name = (
-                "+".join([data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")])
+                "+".join(
+                    [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
+                )
                 .replace("{", "")
                 .replace("}", "")
             )

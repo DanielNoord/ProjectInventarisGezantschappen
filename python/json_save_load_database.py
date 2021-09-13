@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 
 import json
-import os
 import re
+from typing import Optional
 
-import docx
+import docx  # type: ignore
 
-from functions.docx_make import database
-from functions.helper_functions.parse_function_string import function as read_function
-from functions.helper_functions.parse_title_string import title as read_title
+from docx_functions import database, parse_function, parse_title
+from typing_utils import IndividualsDict
 
 
-def save_database(
-    filename: str, previous_database: dict = None
-) -> None:  # pylint: disable=too-many-locals
+def save_database(  # pylint: disable=too-many-locals
+    filename: str, previous_database: Optional[IndividualsDict] = None
+) -> None:
     """Load database from .docx and write .json
 
     Args:
@@ -21,7 +20,7 @@ def save_database(
         previous_database (dict): Dict with data from previous database
     """
     doc = docx.Document(filename)
-    all_individuals = {}
+    all_individuals: IndividualsDict = {}
 
     for para in doc.paragraphs:
         (
@@ -42,8 +41,8 @@ def save_database(
         ) = re.split(r"\n.*?: ", para.text)
 
         person_type = int(person_type)
-        titles = read_title(titles)
-        functions = read_function(functions)
+        titles = parse_title(titles)
+        functions = parse_function(functions)
         sources = sources.replace("\n", "").split("| ")
         images = images.replace("\n", "").split("| ")
         all_individuals[identifier] = {

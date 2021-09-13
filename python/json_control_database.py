@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 
 import json
-import os
 
-from functions.helper_functions.extract_date import extract_date
-from functions.json_translate import initialize_translation_database
+from data_parsing import initialize_translation_database
+from date_functions import extract_date
 from json_check_comments import check_all_comments
 from json_check_placenames import check_all_placenames
 from json_check_sources import check_all_sources
+from typing_utils import (
+    IndividualsDictEntry,
+    TranslationDictCleaned,
+    TranslationDictCleanedTitles,
+)
 
 
 def check_translations() -> None:
@@ -17,8 +21,8 @@ def check_translations() -> None:
         Exception: Whenever there are any duplicates or empty translations
     """
     translated_titles, translated_functions, _ = initialize_translation_database()
-    for key, translations in translated_titles.items():
-        for translation in translations.values():
+    for key, translations_titles in translated_titles.items():
+        for translation in translations_titles.values():
             if translation == "":
                 raise Exception(f"Found an empty translation in titles at {key}")
 
@@ -31,8 +35,11 @@ def check_translations() -> None:
 
 
 def control_functions(
-    data: dict, translated_functions: dict, identifier: str, used_functions: set[str]
-):
+    data: IndividualsDictEntry,
+    translated_functions: TranslationDictCleaned,
+    identifier: str,
+    used_functions: set[str],
+) -> None:
     """Controls functions of the supplied data
 
     Args:
@@ -85,7 +92,10 @@ def control_functions(
 
 
 def control_titles(
-    data: dict, translated_titles: dict, identifier: str, used_titles: set[str]
+    data: IndividualsDictEntry,
+    translated_titles: TranslationDictCleanedTitles,
+    identifier: str,
+    used_titles: set[str],
 ) -> None:
     """Controls titles of the supplied data
 
@@ -161,9 +171,9 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
     with open(input_file, encoding="utf-8") as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
-    identifiers = {}
-    used_titles = set()
-    used_functions = set()
+    identifiers = set()
+    used_titles: set[str] = set()
+    used_functions: set[str] = set()
 
     for identifier, data in persons_in_file.items():
         # Check if entry is correctly sorted
@@ -196,11 +206,14 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
                 "Identifiers should start with an '$'"
             )
 
-        if identifier in identifiers.keys():
+        if identifier in identifiers:
             raise Exception(f"Identifier of {data['surname']} is a duplicate")
+        identifiers.add(identifier)
 
         if data["person_type"] not in [0, 1, 2, 3, 4, 5, 6]:
-            raise Exception(f"Type '{data['person_type']}' of {data['surname']} is invalid")
+            raise Exception(
+                f"Type '{data['person_type']}' of {data['surname']} is invalid"
+            )
 
         if data["titles"] != [""]:
             control_titles(data, translated_titles, identifier, used_titles)
@@ -215,7 +228,9 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
             control_date(data["date_of_death"])
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
-    unused_functions = [i for i in translated_functions.keys() if i not in used_functions]
+    unused_functions = [
+        i for i in translated_functions.keys() if i not in used_functions
+    ]
 
     if unused_titles:
         print(f"    Found the following unused titles {unused_titles}")

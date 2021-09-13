@@ -15,8 +15,12 @@ def fetch_rkd_images(filename: str) -> None:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
-        if not any(i for i in data["images"] if i.startswith("https://rkd.nl/explore/images")):
-            name = "+".join([data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")])
+        if not any(
+            i for i in data["images"] if i.startswith("https://rkd.nl/explore/images")
+        ):
+            name = "+".join(
+                [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
+            )
             response = requests.get(
                 f"https://rkd.nl/api/search/images?fieldset=brief&rows=50&query={name}"
             )
@@ -39,8 +43,14 @@ def fetch_rkd_artists(filename: str) -> None:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
-        if not any(i for i in data["sources"] if i.startswith("Dutch Institute for Art History")):
-            name = "+".join([data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")])
+        if not any(
+            i
+            for i in data["sources"]
+            if i.startswith("Dutch Institute for Art History")
+        ):
+            name = "+".join(
+                [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
+            )
             response = requests.get(
                 f"https://rkd.nl//api/search/artists?fieldset=brief&rows=50&query={name}"
             )
