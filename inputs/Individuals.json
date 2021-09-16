@@ -1021,6 +1021,23 @@
     "surname": "De Boni",
     "titles": []
   },
+  "$Borea": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console Generale del Regno di Sardegna in Toscana", null]],
+    "images": [""],
+    "name": "Jérôme",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Rusconi, Carlo, La Republica Romana del 1849, volume 2 (Torino, 1850), p. 311."
+    ],
+    "surname": "Borea",
+    "titles": []
+  },
   "$Borromeo": {
     "comment": "",
     "comment_daniel": "",
@@ -3821,6 +3838,32 @@
     "place_of_death": "",
     "sources": [""],
     "surname": "Guerra Coppioli",
+    "titles": []
+  },
+  "$Guerrazzi": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1804-08-12",
+    "date_of_death": "1873-09-23",
+    "functions": [
+      ["Direttore della Gazzetta Livornese", "1848/"],
+      [
+        "Ministro dell'Interno del Granducato di Toscana",
+        "1848-10-27/1849-01-30"
+      ],
+      ["Dittatore del Granducato di Toscana", "1849-03-27/1849-04-10"]
+    ],
+    "images": [
+      "https://raccoltastampesartori.it/opere/guerrazzi-francesco-domenico-guerrazzi-disegno-di-adolfo-matarelli"
+    ],
+    "name": "Francesco Domenico",
+    "person_type": 1,
+    "place_of_birth": "Livorno",
+    "place_of_death": "Cecina",
+    "sources": [
+      "Ciuffoletti, Zeffiro, 'Guerrazzi, Francesco Domenico', in: Dizionario Biografico degli Italiani. Volume 60 (Rome, 2003), found on: https://www.treccani.it/enciclopedia/francesco-domenico-guerrazzi_%28Dizionario-Biografico%29/"
+    ],
+    "surname": "Guerrazzi",
     "titles": []
   },
   "$Guidi": {
