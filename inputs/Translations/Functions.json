@@ -272,6 +272,10 @@
     "en_GB": "State advisor",
     "nl_NL": "Adviseur van de staat"
   },
+  "Console Generale del Regno di Sardegna in Toscana": {
+    "en_GB": "Consul general of the Kingdom of Sardinia in Toscana",
+    "nl_NL": "Consul-generaal van het Koninkrijk Sardinië te Toscane"
+  },
   "Console del Regno dei Paesi Bassi": {
     "en_GB": "Consul of the Kingdom of the Netherlands",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden"
@@ -349,7 +353,7 @@
     "nl_NL": "Consul-generaal van Portugal te Livorno"
   },
   "Console generale del Regno dei Paesi Bassi a Berna": {
-    "en_GB": "Consul general of the Kingdom of the Netherlands tin Bern",
+    "en_GB": "Consul general of the Kingdom of the Netherlands in Bern",
     "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Bern"
   },
   "Console generale del Regno dei Paesi Bassi a Cagliari": {
@@ -416,6 +420,10 @@
     "en_GB": "Director of the Costums and _Gabelle_ {Tax Office} of Ancona",
     "nl_NL": "Directeur van de Douane en _Gabelle_ {Belastingsdienst} van Ancona"
   },
+  "Direttore della Gazzetta Livornese": {
+    "en_GB": "Editor of the Gazzetta Livornese",
+    "nl_NL": "Redacteur van de Gazzetta Livornese"
+  },
   "Direttore della Sezione Marittima dell'Istituto Metereologico dei Paesi Bassi": {
     "en_GB": "Director of the Maritime Section of the Royal Dutch Meteorological Institute",
     "nl_NL": "Directeur van de afdeling Zeevaart van het KNMI"
@@ -451,6 +459,10 @@
   "Direttore generale per la liquidazione del debito pubblico dello Stato Pontificio": {
     "en_GB": "Director-general for liquidation of the public debt of the Papal States",
     "nl_NL": "Directeur-generaal voor liquidatie van de openbare schuld van de Kerkelijke Staat"
+  },
+  "Dittatore del Granducato di Toscana": {
+    "en_GB": "Dictator of the Grand Duchy of Tuscana",
+    "nl_NL": "Dictator van het Groothertogdom van Toscane"
   },
   "Duca di Lucca": {
     "en_GB": "Duke of Lucca",
@@ -939,6 +951,10 @@
   "Ministro dell'Agricoltura, Commercia e Marina del Regno di Sardegna": {
     "en_GB": "Minister of Agriculture, Trade and Marine of the Kingdom of Sardinia",
     "nl_NL": "Minister van Landbouw, Handel en Marine van het Koninkrijk Sardinië"
+  },
+  "Ministro dell'Interno del Granducato di Toscana": {
+    "en_GB": "Minister of Internal Affairs of the Grand Duchy of Tuscana",
+    "nl_NL": "Minister van Binnenlandse Zaken bij het Groothertogdom van Toscane"
   },
   "Ministro della Guerra del Regno dei Paesi Bassi": {
     "en_GB": "Minister of War of the Kingdom of the Netherlands",
