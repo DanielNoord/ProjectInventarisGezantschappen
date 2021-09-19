@@ -16,6 +16,10 @@
     "en_GB": "Affair of Mgr. Grooff Apostolic Vicar at Batavia",
     "nl_NL": "Affaire Mgr. Grooff Apostolisch Vicaris te Batavia"
   },
+  "Allegato a stampa$": {
+    "en_GB": "Printed attachment",
+    "nl_NL": "Gedrukte bijlage"
+  },
   "Allegato: supplica$": {
     "en_GB": "Attachment: supplication",
     "nl_NL": "Bijlage: smeekbede"
@@ -100,6 +104,14 @@
     "en_GB": "Chrestomathe eretique de l'ecphonographie Francais (printed)",
     "nl_NL": "Chrestomathe eretique de l'ecphonographie Francais (gedrukt)"
   },
+  "Circolare (di|del|della) (\\$\\w*) ai rappresententanti del Corpo Diplomatici$": {
+    "en_GB": "Circulaire from \\2 to the representatives of the Diplomatic Corps",
+    "nl_NL": "Circulaire van \\2 aan de vertegenwoordigers van het Diplomatiek Korps"
+  },
+  "Circolare (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Circulaire of \\2",
+    "nl_NL": "Circulaire van \\2"
+  },
   "Circolare a stampa (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Printed circulaire of \\2 to \\4",
     "nl_NL": "Gedrukte circulaire van \\2 naar \\4"
@@ -111,6 +123,18 @@
   "Circolare a stampa (di|del|della) (\\$\\w*)$": {
     "en_GB": "Printed circulaire of \\2",
     "nl_NL": "Gedrukte circulaire van \\2"
+  },
+  "Circolare agli'inviati e ai consoli della Repubblica Romana all'Estero (traduzione)$": {
+    "en_GB": "Circulaire to the envoys and the consuls of the Roman Republic abroad (translation)",
+    "nl_NL": "Circulaire aan de gezanten en de consuls van de Romeinse Republiek in het buitenland (vertaling)"
+  },
+  "Circolare agli'inviati e ai consoli della Repubblica Romana all'Estero$": {
+    "en_GB": "Circulaire to the envoys and the consuls of the Roman Republic abroad",
+    "nl_NL": "Circulaire aan de gezanten en de consuls van de Romeinse Republiek in het buitenland"
+  },
+  "Circolare alle legazioni estere$": {
+    "en_GB": "Circulaire to the foreign legations",
+    "nl_NL": "Circulaire aan de buitenlandse gezantschappen"
   },
   "Circolare manoscritta (di|del|della) (\\$\\w*)$": {
     "en_GB": "Handwritten circulaire of \\2",
@@ -146,7 +170,7 @@
   },
   "Copia di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) con l'annuncio che gli archivi dipendenti dal Consolato delle Repubblica delle Sette Province Unite a Genova gli saranno spediti dalla Legazione di Sardegna$": {
     "en_GB": "Copy of letter of \\2 to \\4 with the announcement that the archives of the Consulate of the Republic of the Seven United Netherlands in Genoa will be sent to him by the Legation of Sardinia",
-    "nl_NL": "Kopie van brief van \\2 aan \\4 met de aankondiging dat de archieven van het consulaat van de Republiek der Zeven Verenigde Provinciën in Genua hem zullen worden toegezonden door de Legatie van Sardinië"
+    "nl_NL": "Kopie van brief van \\2 aan \\4 met de aankondiging dat de archieven van het consulaat van de Republiek der Zeven Verenigde Provinciën in Genua hem zullen worden toegezonden door het Gezantschap van Sardinië"
   },
   "Copia di lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Copy of letter of \\2 to \\4",
@@ -216,6 +240,10 @@
     "en_GB": "Correspondance avec les agents consulaires",
     "nl_NL": "Correspondance avec les agents consulaires"
   },
+  "Declaration du corps de troupe francais du président de Civitavecchia \\(Dichiarazione del corpo militare del presidente di Civitavecchia)$": {
+    "en_GB": "Declaration du corps de troupe francais du président de Civitavecchia (Declaration of the French military unit of the president of Civitavecchia)",
+    "nl_NL": "Declaration du corps de troupe francais du président de Civitavecchia (Verklaring van de Franse militaire eenheid van de president van Civitavecchia)"
+  },
   "Decreto di papa Gregorio XVI del 5 aprile 1845 circa l'Indice dei Libri Proibiti \\(a stampa\\)$": {
     "en_GB": "Decree of pope Gregorius XVI of 5 April 1845 on the Index of Forbidden Books (printed)",
     "nl_NL": "Verordening van paus Gregorius XVI van 5 april 1845 over de Index van Verboden Boeken (gedrukt)"
@@ -243,6 +271,10 @@
   "Discorso dal Trono di (\\$\\w*) \\(a stampa\\)$": {
     "en_GB": "Speech from the Throne of \\1 (printed)",
     "nl_NL": "Troonrede van \\1 (gedrukt)"
+  },
+  "Discorso del Ministro degli Interni traduzione$": {
+    "en_GB": "Speech from the Minister of Internal Affairs translation",
+    "nl_NL": "Toespraak van de Minister van Binnenlandse Zaken vertaling"
   },
   "Disegno di un profilo di donna \\(caricatura\\) a matita$": {
     "en_GB": "Pencil drawing of a woman profile (caricature)",
@@ -272,17 +304,29 @@
     "en_GB": "Extracts and translations of news taken from the Monitore Romano",
     "nl_NL": "Uittreksels en vertalingen van nieuws afkomstig uit de Monitore Romano"
   },
+  "Estratti e traduzioni di notizie$": {
+    "en_GB": "Extracts and translations of news",
+    "nl_NL": "Uittreksels en vertalingen van nieuws"
+  },
   "Estratti e traduzioni di notizie, proclami e lettera (di|del|della) (\\$\\w*)$": {
     "en_GB": "Extracts and translations of news, proclamations and a letter from \\2",
     "nl_NL": "Uittreksels en vertalingen van nieuws, proclamaties en een brief van \\2"
   },
-  "Estratto del Gazetta di Roma$": {
+  "Estratto dal Gazetta di Roma$": {
     "en_GB": "Extract from the Gazetta di Roma",
     "nl_NL": "Uittreksel uit de Gazetta di Roma"
+  },
+  "Estratto dal Monitore Romano$": {
+    "en_GB": "Extract from the Monitore Romano",
+    "nl_NL": "Uittreksel uit de Monitore Romano"
   },
   "Estratto del Journal de la Haye$": {
     "en_GB": "Extract from the Journal de la Haye",
     "nl_NL": "Uittreksel uit het Journal de la Haye"
+  },
+  "Estratto di notizie su Firenze e sul (\\$\\w*)$": {
+    "en_GB": "Extract from news about Florence and \\1",
+    "nl_NL": "Uittreksel van nieuws over Florence en \\1"
   },
   "Estratto di un dispaccio (di|del|della) (\\$\\w*)$": {
     "en_GB": "Extract from a dispatch of \\2",
@@ -299,6 +343,10 @@
   "Estratto di una lettera scritta al Consolato di S.M. il Re dei Paesi Bassi in Genova di 7 maggio 1825 circa l'arrivo di un Brigantino da guerra$": {
     "en_GB": "Extract from a letter to the consulate of H.M. the King of the Netherlands in Genoa on May 7, 1825 about the arrival of a war brigantine",
     "nl_NL": "Uittreksel uit een brief aan het consulaat van Z.M. de Koning der Nederlanden in Genua op 7 mei 1825 over de komst van een oorlogsbrigantijn"
+  },
+  "Estratto e traduzioni sui fatti avvenuti a Roma$": {
+    "en_GB": "Extract and translations about events that have taken place in Rome",
+    "nl_NL": "Uittreksel en vertalingen over gebeurtenissen die zich hebben voorgedaan in Rome"
   },
   "Estratto manoscritto dal Giornale di Roma$": {
     "en_GB": "Handwritten extract from Il Giornale di Roma",
@@ -356,7 +404,7 @@
     "en_GB": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions",
     "nl_NL": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions"
   },
-  "Extrait de l'Indipendence Belge$": {
+  "Extrait de l'Indépendance Belge$": {
     "en_GB": "Extrait de l'Indipendence Belge",
     "nl_NL": "Extrait de l'Indipendence Belge"
   },
@@ -407,6 +455,10 @@
   "Invito (a|al) (\\$\\w*) con allegata lista della dame dei Paesi Bassi$": {
     "en_GB": "Invitation for \\2 with attached a list of the ladies from the Netherlands",
     "nl_NL": "Uitnodiging voor \\2 met bijgevoegde lijst van de dames uit Nederland"
+  },
+  "Journal de (\\$\\w*) \\(Giornale (di|del|della) (\\$\\w*)\\)$": {
+    "en_GB": "Journal de \\1 (Journal of \\3)",
+    "nl_NL": "Journal de \\1 (Logboek van \\3)"
   },
   "Journal de la Haye \\(a stampa\\)$": {
     "en_GB": "Journal de la Haye (printed)",
@@ -524,6 +576,10 @@
     "en_GB": "Letter of \\2 to \\4 dated Genoa, 27 Oct. 1817",
     "nl_NL": "Brief van \\2 aan \\4 gedateed Genua, 27 okt. 1817"
   },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) sui russi presenti a Roma e lista dei russi presenti$": {
+    "en_GB": "Letter from \\2 to \\4 about Russians present in Rome and list of Russians present",
+    "nl_NL": "Brief van \\2 aan \\4 over Russen aanwezig in Rome en lijst van Russen aanwezig"
+  },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Letter of \\2 to \\4",
     "nl_NL": "Brief van \\2 aan \\4"
@@ -550,7 +606,7 @@
   },
   "Lettera (di|del|della) (\\$\\w*) al Segretario della Legazione dei Paesi Bassi a Torino$": {
     "en_GB": "Letter of \\2 to the secretary of the Legation of the Kingdom of the Netherlands in Turin",
-    "nl_NL": "Brief van \\2 aan de secretaris van de Legatie van het Koninkrijk der Nederlanden in Turijn"
+    "nl_NL": "Brief van \\2 aan de secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Turijn"
   },
   "Lettera (di|del|della) (\\$\\w*) al fratello$": {
     "en_GB": "Letter of \\2 to his brother",
@@ -575,6 +631,10 @@
   "Lettera (di|del|della) (\\$\\w*) con allegata traduzione della notificazione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Letter of \\2 with added translation of the notification of \\4",
     "nl_NL": "Brief van \\2 met bijgevoegde vertaling van de notificatie van \\4"
+  },
+  "Lettera (di|del|della) (\\$\\w*) con trascrizione di una lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Letter of \\2 with transcrisption of a letter of \\4",
+    "nl_NL": "Brief van \\2 met transcriptie van een brief van \\4"
   },
   "Lettera (di|del|della) (\\$\\w*) con trascrizione di una notificazione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Letter of \\2 with transcrisption of a notification of \\4",
@@ -864,6 +924,10 @@
     "en_GB": "Confidential diplomatic notes",
     "nl_NL": "Vertrouwelijke diplomatieke notities"
   },
+  "Note indicative dei documenti diplomatici$": {
+    "en_GB": "Explanatory notes on diplomatic documents",
+    "nl_NL": "Aanvullende notities over diplomatieke documenten"
+  },
   "Note manoscritte$": {
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven nota's"
@@ -892,6 +956,10 @@
     "en_GB": "News from Morocco",
     "nl_NL": "Nieuws uit Marokko"
   },
+  "Notizie su uno spettacolo teatrale nel Teatro del Corso$": {
+    "en_GB": "News about a theatrical spectacle in the Teatro del Corso",
+    "nl_NL": "Nieuws over een theaterspektakel in het Teatro del Corso"
+  },
   "Nouvelles de Constantinople du 10 juin 1822$": {
     "en_GB": "Nouvelles de Constantinople du 10 juin 1822",
     "nl_NL": "Nouvelles de Constantinople du 10 juin 1822"
@@ -912,6 +980,10 @@
     "en_GB": "Pieces Diverses",
     "nl_NL": "Pieces Diverses"
   },
+  "Principes Fondamentaux \\(Principi Fondemantali\\)$": {
+    "en_GB": "Principes Fondamentaux (Fundamental Principles)",
+    "nl_NL": "Principes Fondamentaux (Fundamentele Beginselen)"
+  },
   "Proclama a stampa (di|del|della) (\\$\\w*)$": {
     "en_GB": "Printed proclamation van \\2",
     "nl_NL": "Gedrukte proclamatie van \\2"
@@ -931,6 +1003,14 @@
   "Programma delle feste in occasione del matrimonio tra la principessa Maria Anna di Savoia e Ferdinando V re d'Ungheria$": {
     "en_GB": "Program of the festivities for the wedding between princess Maria Anna of Savoy and Ferdinand V, King of Hungary",
     "nl_NL": "Programma van de festiviteiten voor de bruiloft tussen prinses Maria Anna van Savoye en Ferdinand V, koning van Hongarije"
+  },
+  "Promemoria$": {
+    "en_GB": "Memorandum",
+    "nl_NL": "Memorandum"
+  },
+  "Protesta dei Cittadini della Repubblica Romana$": {
+    "en_GB": "Protest of the Citizens of the Roman Republic",
+    "nl_NL": "Protest van de Burgers van de Romeinse Republiek"
   },
   "Protocollo d'intesa (di|del|della) (\\$\\w*) \\(trascrizione\\)$": {
     "en_GB": "Memorandum of Understanding of \\2 (translation)",
@@ -996,6 +1076,18 @@
     "en_GB": "Regulations for the Fair of Sinigaglia in the year 1844 (printed)",
     "nl_NL": "Regelgeving voor de Markt van Sinigaglia in het jaar 1844 (gedrukt)"
   },
+  "Relazione (di|del|della) (\\$\\w*) con estratti e trascrizioni$": {
+    "en_GB": "Report from \\2 with extracts and transcriptions",
+    "nl_NL": "Rapport van \\2 met uittreksels en transcripties"
+  },
+  "Relazione (di|del|della) (\\$\\w*) sul Motu Proprio (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Report from \\2 on the Motu Proprio of \\4",
+    "nl_NL": "Rapport van \\2 over de Motu Proprio van \\4"
+  },
+  "Relazione (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Report from \\2",
+    "nl_NL": "Rapport van \\2"
+  },
   "Relazione di ciò che accadde negli Offici dell'Amministrazione Generale delle Poste in Roma nel Giorno 1 maggio 1848$": {
     "en_GB": "Report on what happened in the Offices of the General Administration of the Post in Rome on the day of 1 May 1848",
     "nl_NL": "Rapport over wat er gebeurde in het kantoor van de Algemene Administratie van de Post in Rome op de dag van 1 mei 1848"
@@ -1003,6 +1095,10 @@
   "Relazione inviata (a|al) (\\$\\w*)$": {
     "en_GB": "Report sent to \\2",
     "nl_NL": "Rapport verzonden naar \\2"
+  },
+  "Relazione sui fatti dalla Toscana (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Report about the events from Toscana from \\2",
+    "nl_NL": "Rapport over de gebeurtenissen uit Toscana van \\2"
   },
   "Relazione$": {
     "en_GB": "Report",
@@ -1020,6 +1116,10 @@
     "en_GB": "Receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
   },
+  "Risposta (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Response of \\2",
+    "nl_NL": "Respons van \\2"
+  },
   "Ritaglio a stampa$": {
     "en_GB": "Clipping from print",
     "nl_NL": "Knipsel van print"
@@ -1028,13 +1128,17 @@
     "en_GB": "Newspaper clipping",
     "nl_NL": "Krantenknipsel"
   },
+  "Schedola Testamentaria (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Will of \\2",
+    "nl_NL": "Testament van \\2"
+  },
   "Seconde demande des heritiers Jochems de La Haye$": {
     "en_GB": "Seconde demande des heritiers Jochems de La Haye",
     "nl_NL": "Seconde demande des heritiers Jochems de La Haye"
   },
   "Sentenza in nome (di|del|della) (\\$\\w*) \\(a stampa\\) circa la condanna al carcere (di|del|della) (\\$\\w*) e (di|del|della) (\\$\\w*) come rei di aver divulgato in Bologna un proclama manoscritto diretto.+$": {
     "en_GB": "Sentence in the name of \\2 (printed) regarding the sentencing to prison of \\4 and \\6 as guilty of having disclosed in Bologna a handwritten proclamation directed to the people of the Legations that incited a revolt (Bologna, July 28, 1844)",
-    "nl_NL": "Uitspraak in de naam van \\2 (gedrukt) over de veroordeling tot gevangenisstraf van \\4 en \\6 als schuldig aan het in Bologna bekendmaken van een handgeschreven proclamatie gericht aan de mensen van de Legaties die een opstand uitriep (Bologna, 28 juli 1844)"
+    "nl_NL": "Uitspraak in de naam van \\2 (gedrukt) over de veroordeling tot gevangenisstraf van \\4 en \\6 als schuldig aan het in Bologna bekendmaken van een handgeschreven proclamatie gericht aan de mensen van de Gezantschappen die een opstand uitriep (Bologna, 28 juli 1844)"
   },
   "Statuti della Società Olivi-moricola dello Stato Pontificio \\(a stampa\\)$": {
     "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
@@ -1064,25 +1168,77 @@
     "en_GB": "Table of imports",
     "nl_NL": "Overzicht van importen"
   },
+  "Testo a stampa di un discorso pubblico (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Printed text of a public discourse from \\2",
+    "nl_NL": "Gedrukte tekst uit een openbare redevoering van \\2"
+  },
   "Traduction de la circulaire de son Eminence le Cardinal Soglia \\(traduzione della circolare della Sua Eminenza Cardinale Soglia\\)$": {
     "en_GB": "Traduction de la circulaire de son Eminence le Cardinal Soglia (translation of a circulaire of His Eminence Cardinal Soglia)",
     "nl_NL": "Traduction de la circulaire de son Eminence le Cardinal Soglia (vertaling van een circulaire van Zijne Eminentie Kardinaal Soglia)"
+  },
+  "Traduzione Sur La Ligue Italienne \\(estratto dall Gazetta di Roma (di|del|della) (\\$\\w*)\\)$": {
+    "en_GB": "Translation Sur La Ligue Italienne (extract from Gazetta di Roma from \\2)",
+    "nl_NL": "Vertaling Sur La Ligue Italienne (uittreksel uit Gazetta di Roma van \\2)"
+  },
+  "Traduzione del Decreto del Commissario provvisorio del Governo dello Stato Romano$": {
+    "en_GB": "Translation of a Decree of the interim Commissioner of the Government of the Roman State",
+    "nl_NL": "Vertaling van een Decreet van de interim Commissaris van de Regering van de Romeinse Staat"
+  },
+  "Traduzione del programma del Consiglio dei Ministri$": {
+    "en_GB": "Translation of the program of the Council of Ministers",
+    "nl_NL": "Vertaling van het programma van de Raad van Ministers"
+  },
+  "Traduzione dell'apertura dell'Assemblea Costituente Romana$": {
+    "en_GB": "Translation of the opening of the Roman Constitutional Assembly",
+    "nl_NL": "Vertaling van de opening van de Romeinse Grondwettelijke Vergadering"
   },
   "Traduzione dell'avviso a stampa della magistratura di Ancona$": {
     "en_GB": "Translation of a printed notice from the magistrate of Ancona",
     "nl_NL": "Vertaling van een gedrukte melding van het magistratuur van Ancona"
   },
+  "Traduzione della Giunta Suprema di Stato$": {
+    "en_GB": "Translation of the Giunta Suprema di Stato",
+    "nl_NL": "Vertaling van de Giunta Suprema di Stato"
+  },
+  "Traduzione della Protesta che la Santità di N. S. Pio PP. IX circondato dal Sacro Collegio ha fatto in Gaeta innanzi al Corpo Diplomatico la mattina del 14 febbraio 1849$": {
+    "en_GB": "Translation of the Protest that His Holiness of Our Lord Pope Pius IX surrounded by the Sacred College made in Gaeta before the Diplomatic Corps on 14 February 1849",
+    "nl_NL": "Vertaling van het Protest dat Zijne Heiligheid van Onze Heer Paus Pius IX, omringd door door het Heilige College, maakte in Gaeta voor het Diplomatiek Korps op 14 februari 1849"
+  },
+  "Traduzione della circolare (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Translation of the circulaire of \\2",
+    "nl_NL": "Vertaling van de circulaire van \\2"
+  },
   "Traduzione della lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Translation of the letter of \\2 to \\4",
     "nl_NL": "Vertaling van de brief van \\2 aan \\4"
+  },
+  "Traduzione della lettera (di|del|della) (\\$\\w*) ai cardinali legati$": {
+    "en_GB": "Translation of the letter of \\2 to the cardinal legats",
+    "nl_NL": "Vertaling van de brief van \\2 aan de kardinaal-legaten"
+  },
+  "Traduzione della lettera (di|del|della) (\\$\\w*) suoi sudditi$": {
+    "en_GB": "Translation of the letter of \\2 about his subjects",
+    "nl_NL": "Vertaling van de brief van \\2 over zijn onderdanen"
+  },
+  "Traduzione della lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Translation of the letter of \\2",
+    "nl_NL": "Vertaling van de brief van \\2"
   },
   "Traduzione della lettera a stampa (di|del|della) (\\$\\w*) ai sudditi dello Stato Pontificio relativa all'Amnistia \\(Roma, 16 lug. 1846\\)$": {
     "en_GB": "Translation of the printed letter of \\2 to the subjects of the Papal State relating to the Amnesty (Rome, 16 July 1846)",
     "nl_NL": "Vertaling van de gedrukte brief van \\2 aan de onderdanen van de Kerkelijke Staat met betrekking tot de Amnestie (Rome, 16 juli 1846)"
   },
+  "Traduzione di Protesta dei Cittadini della Repubblica Romana$": {
+    "en_GB": "Translation of the Protest of the Citizens of the Roman Republic",
+    "nl_NL": "Vertaling van het Protest van de Burgers van de Romeinse Republiek"
+  },
   "Traduzione di appello Peuples de la Republique$": {
     "en_GB": "Translation of the appeal Peuples de la Republique",
     "nl_NL": "Vertaling van het appel Peuples de la Republique"
+  },
+  "Traduzione di articolo (di|del|della) (\\$\\w*) sui fatti accaduti$": {
+    "en_GB": "Translation of an article from \\2 about events",
+    "nl_NL": "Vertaling van een artikel van \\2 over gebeurtenissen die zich hebben voorgedaan"
   },
   "Traduzione di un articolo del Contemporaneo$": {
     "en_GB": "Translation of an article from the Contemporaneo",
@@ -1092,6 +1248,14 @@
     "en_GB": "Translation of an article from the Gazetta di Roma",
     "nl_NL": "Vertaling van een artikel uit de Gazetta di Roma"
   },
+  "Traduzione di un proclama della Reppublica Romana$": {
+    "en_GB": "Translation of a proclamation of the Roman Republic",
+    "nl_NL": "Vertaling van een proclamatie van de Romeinse Republiek"
+  },
+  "Traduzione di una lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Translation of a letter of \\2",
+    "nl_NL": "Vertaling van een brief van \\2"
+  },
   "Traduzione di una lettera apostolica (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Translation of an apostolic letter of \\2 to \\4",
     "nl_NL": "Vertaling van een apostolische brief van \\2 aan \\4"
@@ -1099,6 +1263,10 @@
   "Traduzione di una lettera apostolica (di|del|della) (\\$\\w*)$": {
     "en_GB": "Translation of an apostolic letter of \\2",
     "nl_NL": "Vertaling van een apostolische brief van \\2"
+  },
+  "Traduzioni di estratti$": {
+    "en_GB": "Translations of extracts",
+    "nl_NL": "Vertalingen van uittreksels"
   },
   "Trascrizione (di|del|della) (\\$\\w*) del Journal de Paris$": {
     "en_GB": "Transcription by \\2 of the \"Journal of Paris\"",
@@ -1154,7 +1322,7 @@
   },
   "Trascrizione di una notificazione (di|del|della) (\\$\\w*) sulla Legazione dei Paesi Bassi$": {
     "en_GB": "Transcription of a notice by \\2 about the Legation of the Kingdom of the Netherlands",
-    "nl_NL": "Transcriptie van een notificatie van \\2 over de Legatie van het Koninkrijk der Nederlanden"
+    "nl_NL": "Transcriptie van een notificatie van \\2 over het Gezantschap van het Koninkrijk der Nederlanden"
   },
   "Trascrizione e traduzione di una notificazione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription and translation of a notification of \\2",
