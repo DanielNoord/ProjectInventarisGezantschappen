@@ -1038,6 +1038,39 @@
     "surname": "Borea",
     "titles": []
   },
+  "$Borgatti": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1818-05-30",
+    "date_of_death": "1885-04-14",
+    "functions": [
+      ["Direttore di La Speranza", "1848/"],
+      [
+        "Segretario generale del Ministero degli Affari Esteri Secolari dello Stato Pontificio",
+        "1848/1849"
+      ],
+      [
+        "Ministro di Grazia e Giustizia del Regno d'Italia",
+        "1866-06-20/1867-02-17"
+      ],
+      [
+        "Segretario generale del Ministero di Grazia e Giustizia del Regno d'Italia",
+        "1866/1866"
+      ],
+      ["Vice-Presidente del Senato del Regno d'Italia", "1876/1885"]
+    ],
+    "images": [""],
+    "name": "Francesco Giacomo Antonio Baldassarre",
+    "person_type": 1,
+    "place_of_birth": "Corpo Reno",
+    "place_of_death": "Firenze",
+    "sources": [
+      "'Borgatti Francesco', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/d7aba38662bfb3b8c125785e003c4334/839d3e297c1ed0ba4125646f005933f1?OpenDocument",
+      "Rosiello, Isabella Zanni, 'Borgatti, Francesco', in: Dizionario Biografico degli Italiani. Volume 12 (Rome, 1971), found on: https://www.treccani.it/enciclopedia/francesco-borgatti_%28Dizionario-Biografico%29/"
+    ],
+    "surname": "Borgatti",
+    "titles": [["Cav.", null]]
+  },
   "$Borromeo": {
     "comment": "",
     "comment_daniel": "",
@@ -3547,7 +3580,7 @@
       ["Consigliere di Stato", null],
       ["Membro della Camera dei Deputati del Regno d'Italia", null],
       [
-        "Segretario generale del Ministero dell'Interno",
+        "Segretario generale del Ministero dell'Interno del Stato Pontificio",
         "1868-10-18/1869-05-13"
       ]
     ],

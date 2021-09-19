@@ -436,6 +436,10 @@
     "en_GB": "Director of the police of Genoa",
     "nl_NL": "Directeur van de politie van Genua"
   },
+  "Direttore di La Speranza": {
+    "en_GB": "Editor of La Speranza",
+    "nl_NL": "Redacteur van La Speranza"
+  },
   "Direttore e comandante dei vigili del fuoco di Roma": {
     "en_GB": "Director and commander of the fire department of Rome",
     "nl_NL": "Directeur en commandant van de brandweer van Rome"
@@ -980,6 +984,10 @@
     "en_GB": "Minister of Finance en thesaurarius general of the Holy See",
     "nl_NL": "Minister van Financiën en thesaurier-generaal van de Heilige Stoel"
   },
+  "Ministro di Grazia e Giustizia del Regno d'Italia": {
+    "en_GB": "Minister of Grace and Justice of the Kingdom of Italy",
+    "nl_NL": "Minister van Gratie en Justitie van van het Koninkrijk Italië"
+  },
   "Ministro di Stato del Regno delle Due Sicilie": {
     "en_GB": "State Secretary  of the Kingdom of the Two Sicilies",
     "nl_NL": "Staatsminister van het Koninkrijk der Beide Siciliën"
@@ -1388,9 +1396,17 @@
     "en_GB": "Secretary and economist of the _Fabbrica di S. Pietro_ {Fabric of Saint Peter}",
     "nl_NL": "Secretaris en econoom van de _Fabbrica di S. Pietro_ {Kerkfabriek van Sint-Pieter}"
   },
-  "Segretario generale del Ministero dell'Interno": {
-    "en_GB": "Secretary general of the Ministry of the Interior",
-    "nl_NL": "Secretaris-generaal van het ministerie van Binnenlandse Zaken"
+  "Segretario generale del Ministero degli Affari Esteri Secolari dello Stato Pontificio": {
+    "en_GB": "Secretary general of the Ministry of External Secular Affairs of the Papal State",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Buitenlandse Seculiere Zaken van de Kerkelijke Staat"
+  },
+  "Segretario generale del Ministero dell'Interno del Stato Pontificio": {
+    "en_GB": "Secretary general of the Ministry of the Interior of the Papal State",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van de Kerkelijke Staat"
+  },
+  "Segretario generale del Ministero di Grazia e Giustizia del Regno d'Italia": {
+    "en_GB": "Secretary general of the Ministry of Grace and Justice of the Kingdom of Italy",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Gratie en Justitie van het Koninkrijk Italië"
   },
   "Segretario generale del ministero degli Affari Esteri del Regno dei Paesi Bassi": {
     "en_GB": "General secretary of the ministry of Foreign Affairs of the Kingdom of the Netherlands",
@@ -1511,6 +1527,10 @@
   "Vice-Prefetto apostolico a Batavia": {
     "en_GB": "Apostolic vice-prefect in Batavia",
     "nl_NL": "Apostolisch vice-prefect te Batavia"
+  },
+  "Vice-Presidente del Senato del Regno d'Italia": {
+    "en_GB": "Vice-president of the Senate of the Kingdom of Italy",
+    "nl_NL": "Vice-president van de Senaat van het Koninkrijk Italië"
   },
   "Vice-console del Regno dei Paesi Bassi a Cagliari": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Cagliari",
