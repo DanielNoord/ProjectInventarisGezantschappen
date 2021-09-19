@@ -592,9 +592,9 @@
     "en_GB": "Letter from \\2 to the members of the Roman Magistrate",
     "nl_NL": "Brief van \\2 aan de leden van de Romeinse Magistratuur"
   },
-  "Lettera (di|del|della) (\\$\\w*) ai rappresentanti consolari di Roma$": {
-    "en_GB": "Letter from \\2 to the consular representatives of Rome",
-    "nl_NL": "Brief van \\2 aan de consulaire vertegenwoordigers van Rome"
+  "Lettera (di|del|della) (\\$\\w*) ai rappresentanti consolari a Roma$": {
+    "en_GB": "Letter from \\2 to the consular representatives in Rome",
+    "nl_NL": "Brief van \\2 aan de consulaire vertegenwoordigers in Rome"
   },
   "Lettera (di|del|della) (\\$\\w*) al Re$": {
     "en_GB": "Letter of \\2 to the king",
