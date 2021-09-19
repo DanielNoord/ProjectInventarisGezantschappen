@@ -88,7 +88,7 @@
     "en_GB": "Lawyer",
     "nl_NL": "Advocaat"
   },
-  "Avvocato generale dei poveri dello Stato Pontifico": {
+  "Avvocato generale dei poveri dello Stato Pontificio": {
     "en_GB": "Advocate general for the poor of the Papel States",
     "nl_NL": "Advocaat-generaal voor de armen van de Kerkelijke Staat"
   },
@@ -272,9 +272,9 @@
     "en_GB": "State advisor",
     "nl_NL": "Adviseur van de staat"
   },
-  "Console Generale del Regno di Sardegna in Toscana": {
-    "en_GB": "Consul general of the Kingdom of Sardinia in Toscana",
-    "nl_NL": "Consul-generaal van het Koninkrijk Sardinië te Toscane"
+  "Console Generale del Regno di Sardegna e provvisoriamente anche del Granducato di Toscana": {
+    "en_GB": "Consul general of the Kingdom of Sardinia and provissionally of the Grand Duchy of Tuscany",
+    "nl_NL": "Consul-generaal van het Koninkrijk Sardinië en voorlopig consul-general van het Groothertogdom van Toscane"
   },
   "Console del Regno dei Paesi Bassi": {
     "en_GB": "Consul of the Kingdom of the Netherlands",
@@ -405,7 +405,7 @@
     "nl_NL": "Ad interim directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag"
   },
   "Direttore del Dipartimento della Posta del Granducato di Toscana": {
-    "en_GB": "Director of the Post Department of the Grand Duchy of Toscana",
+    "en_GB": "Director of the Post Department of the Grand Duchy of Tuscany",
     "nl_NL": "Directeur van de Afdeling Post van het Groothertogdom van Toscana"
   },
   "Direttore dell'Ufficio della Dogana e Porto Franco di Genova": {
@@ -452,7 +452,7 @@
     "en_GB": "Director-general of the Papal Museums and Galleries",
     "nl_NL": "Directeur-generaal van de Pauselijke musea en galerijen"
   },
-  "Direttore generale delle dogane dello Stato Pontifico": {
+  "Direttore generale delle dogane dello Stato Pontificio": {
     "en_GB": "Director-general of the Customs of the Papel States",
     "nl_NL": "Directeur-generaal van de Douane van de Kerkelijke Staat"
   },
@@ -465,7 +465,7 @@
     "nl_NL": "Directeur-generaal voor liquidatie van de openbare schuld van de Kerkelijke Staat"
   },
   "Dittatore del Granducato di Toscana": {
-    "en_GB": "Dictator of the Grand Duchy of Tuscana",
+    "en_GB": "Dictator of the Grand Duchy of Tuscany",
     "nl_NL": "Dictator van het Groothertogdom van Toscane"
   },
   "Duca di Lucca": {
@@ -669,7 +669,7 @@
     "nl_NL": "Zaakgelastigde van de Republiek van Mexico bij de Heilige Stoel"
   },
   "Incaricato d'affari della Santa Sede al Granducato di Toscana": {
-    "en_GB": "Chargé d'affaires of the Holy See to the Grand Duchy of Toscany",
+    "en_GB": "Chargé d'affaires of the Holy See to the Grand Duchy of Tuscany",
     "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Groothertogdom van Toscane"
   },
   "Incaricato d'affari della Santa Sede al Regno dei Paesi Bassi": {
@@ -876,7 +876,7 @@
     "en_GB": "Minister of Austria",
     "nl_NL": "Minister van Oostenrijk"
   },
-  "Ministro degli Affari Esteri Secolari dello Stato Pontifico": {
+  "Ministro degli Affari Esteri Secolari dello Stato Pontificio": {
     "en_GB": "Minister of Secular Foreign Affairs of the Papel States",
     "nl_NL": "Minister van Seculiere Buitenlandse Zaken van de Kerkelijke Staat"
   },
@@ -908,7 +908,7 @@
     "en_GB": "Minister of Foreign Affairs of the Roman Republic",
     "nl_NL": "Minister van Buitenlandse Zaken van de Romeinse Republiek"
   },
-  "Ministro degli Affari Esteri dello Stato Pontifico": {
+  "Ministro degli Affari Esteri dello Stato Pontificio": {
     "en_GB": "Minister of Foreign Affairs of the Papel States",
     "nl_NL": "Minister van Buitenlandse Zaken van de Kerkelijke Staat"
   },
@@ -924,27 +924,27 @@
     "en_GB": "Minister of Internal Affairs of the Kingdom of the Two Sicilies",
     "nl_NL": "Minister van Binnenlandse Zaken van het Koninkrijk der Beide Siciliën"
   },
-  "Ministro degli Affari Interni dello Stato Pontifico": {
+  "Ministro degli Affari Interni dello Stato Pontificio": {
     "en_GB": "Minister of Internal Affairs of the Papel States",
     "nl_NL": "Minister van Binnenlandse Zaken van de Kerkelijke Staat"
   },
-  "Ministro dei Lavori Pubblici dello Stato Pontifico": {
+  "Ministro dei Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Public Works of the Papel States",
     "nl_NL": "Minister van Openbare Werken van de Kerkelijke Staat"
   },
-  "Ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontifico": {
+  "Ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papel States",
     "nl_NL": "Minister van Handel, Landbouw, Industrie, Schone Kunsten en Openbare Werken van de Kerkelijke Staat"
   },
-  "Ministro del Commercio, Belle Arti, Industria e Agricoltura dello Stato Pontifico": {
+  "Ministro del Commercio, Belle Arti, Industria e Agricoltura dello Stato Pontificio": {
     "en_GB": "Minister of Trade, Fine Arts, Industry and Agriculture of the Papel States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Industrie en Landbouw van de Kerkelijke Staat"
   },
-  "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontifico dello Stato Pontifico": {
+  "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontificio dello Stato Pontificio": {
     "en_GB": "Minister of Trade, Fine Arts, Industry, Agriculture and Public Works of the Papel States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Industrie, Landbouw en Openbare Werken van de Kerkelijke Staat"
   },
-  "Ministro del Commercio, Belle Arti, Lavori Pubblici, Industria e Agricoltura dello Stato Pontifico": {
+  "Ministro del Commercio, Belle Arti, Lavori Pubblici, Industria e Agricoltura dello Stato Pontificio": {
     "en_GB": "Minister of Commerce, Fine Arts, Public Works, Industry and Agriculture of the Papel States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Openbare Werken, Industrie en Landbouw van de Kerkelijke Staat"
   },
@@ -957,14 +957,14 @@
     "nl_NL": "Minister van Landbouw, Handel en Marine van het Koninkrijk Sardinië"
   },
   "Ministro dell'Interno del Granducato di Toscana": {
-    "en_GB": "Minister of Internal Affairs of the Grand Duchy of Tuscana",
+    "en_GB": "Minister of Internal Affairs of the Grand Duchy of Tuscany",
     "nl_NL": "Minister van Binnenlandse Zaken bij het Groothertogdom van Toscane"
   },
   "Ministro della Guerra del Regno dei Paesi Bassi": {
     "en_GB": "Minister of War of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Oorlog van het Koninkrijk der Nederlanden"
   },
-  "Ministro della Guerra dello Stato Pontifico": {
+  "Ministro della Guerra dello Stato Pontificio": {
     "en_GB": "Minister of War of the Papal States",
     "nl_NL": "Minister van Oorlog van de Kerkelijke Staat"
   },
@@ -976,7 +976,7 @@
     "en_GB": "Minister of the Navy and Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Marine en Koloniën van het Koninkrijk der Nederlanden"
   },
-  "Ministro delle Finanze dello Stato Pontifico": {
+  "Ministro delle Finanze dello Stato Pontificio": {
     "en_GB": "Minister of Finance of the Papel States",
     "nl_NL": "Minister van Financiën van de Kerkelijke Staat"
   },
@@ -1128,7 +1128,7 @@
     "en_GB": "Prefect of ceremonies of the Pope",
     "nl_NL": "Prefect van ceremonies van de Paus"
   },
-  "Prefetto e successivamente Presidente delle Armi dello Stato Pontifico": {
+  "Prefetto e successivamente Presidente delle Armi dello Stato Pontificio": {
     "en_GB": "Prefect and later President _delle Armi_ {of the weapons} of the Papal State",
     "nl_NL": "Prefect en later president _delle Armi_ {van de wapens} van de Kerkelijke Staat"
   },
@@ -1140,7 +1140,7 @@
     "en_GB": "_Prelato ponente_ {qualified prelate} and tribunal judge of the Holy Congregation of the _Consulta_",
     "nl_NL": "_Prelato ponente_ {bevoegd prelaat} en tribunaalsrechter van de Heilige Congregatie van de _Consulta_"
   },
-  "Presidente del Consiglio dei Deputati dello Stato Pontifico": {
+  "Presidente del Consiglio dei Deputati dello Stato Pontificio": {
     "en_GB": "Chairman of the Council of Deputies of the Papal States",
     "nl_NL": "Voorzitter van de raad van afgevaardigden van de Kerkelijke Staat"
   },
@@ -1152,7 +1152,7 @@
     "en_GB": "Prime Minister of the Kingdom of Sardinia",
     "nl_NL": "Premier van het Koninkrijk Sardinië"
   },
-  "Presidente del Consiglio dei Ministri dello Stato Pontifico": {
+  "Presidente del Consiglio dei Ministri dello Stato Pontificio": {
     "en_GB": "President of the council of ministers of the Papel States",
     "nl_NL": "Voorzitter van de ministerraad van de Kerkelijke Staat"
   },
@@ -1172,7 +1172,7 @@
     "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
-  "Presidente del Consiglio dei Ministri e Segretario di Stato dello Stato Pontifico": {
+  "Presidente del Consiglio dei Ministri e Segretario di Stato dello Stato Pontificio": {
     "en_GB": "President of the council of ministers en Minister of Foreign Affairs of the Papel States",
     "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van de Kerkelijke Staat"
   },
@@ -1244,7 +1244,7 @@
     "en_GB": "_Pro-governatore_ {pro-governor} of Rome and Director-General of the Police of Rome",
     "nl_NL": "_Pro-governatore_ {pro-gouverneur} van Rome en Directeur-Generaal van de Politie van Rome"
   },
-  "Pro-ministro delle Finanze dello Stato Pontifico": {
+  "Pro-ministro delle Finanze dello Stato Pontificio": {
     "en_GB": "Pro-Minister of Finance of the Papel States",
     "nl_NL": "Pro-minister van Financiën van de Kerkelijke Staat"
   },
@@ -1376,7 +1376,7 @@
     "en_GB": "State Secretary for Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
-  "Segretario di Stato ad interim e presidente del Consiglio dei Ministri dello Stato Pontifico": {
+  "Segretario di Stato ad interim e presidente del Consiglio dei Ministri dello Stato Pontificio": {
     "en_GB": "Interim Cardinal Secretary of State and President of the Council of Ministers of the Papel States",
     "nl_NL": "Ad interim kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat"
   },
