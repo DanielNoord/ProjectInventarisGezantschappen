@@ -100,6 +100,10 @@
     "en_GB": "Librarian",
     "nl_NL": "Bibliothecaris"
   },
+  "Bibliotecario della Biblioteca Civica Reggina e ispettore delle Antichità della Calabria Ultra": {
+    "en_GB": "Librarian of the Biblioteca Civica Reggina and surveyor of the Antiquities of Calabria Ultra",
+    "nl_NL": "Bibliothecaris van de Biblioteca Civica Reggina en opzichter van de Oudheden van Calabria Ultra"
+  },
   "Bibliotecario della Biblioteca Corsiniana": {
     "en_GB": "Librarian of the _Biblioteca Corsiniana_",
     "nl_NL": "Bibliothecaris van de _Biblioteca Corsiniana_"
@@ -1279,6 +1283,10 @@
   "Professore di Navigazione a Senigallia": {
     "en_GB": "Professor of Navigation in Senigallia",
     "nl_NL": "Professor van Navigatie in Senigallia"
+  },
+  "Professore di archeologia e lingue classiche al Real Collegio a Reggio Calabria": {
+    "en_GB": "Professor of archeology and classical languages at Real Collegio in Reggio Calabria",
+    "nl_NL": "Professor van archeologie en klassieke talen bij Real Collegio in Reggio Calabria"
   },
   "Prolegato apostolico": {
     "en_GB": "Apostolic prolegate",
