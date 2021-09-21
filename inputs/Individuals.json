@@ -1808,7 +1808,7 @@
       "'Casanelli d'Istria (Archange-Xavier-Toussaint-Raphael)', in: Pierre Larousse, Grand dictionnaire universel du XIXe siècle. 3 (Paris, 1867)"
     ],
     "surname": "Casanelli d’Istria",
-    "titles": []
+    "titles": [["vescovo", null]]
   },
   "$CasarettoG": {
     "comment": "",
@@ -9530,22 +9530,31 @@
   },
   "$Vitrioli": {
     "comment": "",
-    "comment_daniel": "Ik twijfel of deze echt consul was. Checken in archief.",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "comment_daniel": "Staat in de oude inventaris dat hij consul was in Reggio Calabria, maar dat klopt niet.",
+    "date_of_birth": "1819-05-20",
+    "date_of_death": "1898-05-20",
     "functions": [
-      ["Console del Regno dei Paesi Bassi a Reggio Calabria", null]
+      [
+        "Professore di archeologia e lingue classiche al Real Collegio a Reggio Calabria",
+        "1849/1860"
+      ],
+      [
+        "Bibliotecario della Biblioteca Civica Reggina e ispettore delle Antichità della Calabria Ultra",
+        "1849/1860"
+      ]
     ],
-    "images": [""],
+    "images": [
+      "https://turismo.reggiocal.it/en/civic-art-gallery/patrimonio/ritratto-del-latinista-diego-vitrioli"
+    ],
     "name": "Diego",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Reggio Calabria",
+    "place_of_death": "Reggio Calabria",
     "sources": [
-      "'Diego Vitrioli', in: Wikipedia, L'enciclopedia libera (2019-06-03), found on: https://it.wikipedia.org/w/index.php?title=Diego_Vitrioli&oldid=105378062"
+      "Zumbo, Antonino, 'Diego Vitrioli', in: Dizionario Biografico degli Italiani, vol. 99 (2020), found on: https://www.treccani.it/enciclopedia/diego-vitrioli_%28Dizionario-Biografico%29/"
     ],
     "surname": "Vitrioli",
-    "titles": []
+    "titles": [["Cav.", null]]
   },
   "$Vivent": {
     "comment": "",
