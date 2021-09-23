@@ -12,6 +12,10 @@
     "en_GB": "\"\\1\" note on the lamentable events that took place in the Netherlands",
     "nl_NL": "\"\\1\" nota over de betreurenswaardige gebeurtenissen die in Nederland hebben plaatsgevonden"
   },
+  "Accusé de réception \\(avviso di ricevimento\\)$": {
+    "en_GB": "Accusé de réception (confirmation of receipt)",
+    "nl_NL": "Accusé de réception (ontvangstbevestiging)"
+  },
   "Affaire de Mgr. Grooff Vicario Apostolico a Batavia$": {
     "en_GB": "Affair of Mgr. Grooff Apostolic Vicar at Batavia",
     "nl_NL": "Affaire Mgr. Grooff Apostolisch Vicaris te Batavia"
@@ -27,6 +31,18 @@
   "Allocuzione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Allocution of \\2",
     "nl_NL": "Toespraak van \\2"
+  },
+  "Appello a stampa dei Bolognesi (a|al) (\\$\\w*)$": {
+    "en_GB": "Printed appeal of the Bologneses to \\2",
+    "nl_NL": "Gedrukt appel van de Bolognesen aan \\2"
+  },
+  "Appello della Società Centrale agli italiani $": {
+    "en_GB": "Appeal of the Società Centrale to the Italians",
+    "nl_NL": "Appel van de Società Centrale aan de italianen"
+  },
+  "Appello$": {
+    "en_GB": "Appeal",
+    "nl_NL": "Appel"
   },
   "Appunti manoscritti$": {
     "en_GB": "Handwritten notes",
@@ -84,6 +100,10 @@
     "en_GB": "Entrance tickets for Solemn Masses at the Vatican Basilica",
     "nl_NL": "Toegangskaarten voor hoogmissen in de Vaticaanse basiliek"
   },
+  "Biglietto di presentazione di Georges Roemer$": {
+    "en_GB": "Letter of introduction of Georges Roemer",
+    "nl_NL": "Aanbevelingsbrief van Georges Roemer"
+  },
   "Biglietto personale allegato$": {
     "en_GB": "Attached personal note",
     "nl_NL": "Bijgevoegde persoonlijke notitie"
@@ -140,6 +160,18 @@
     "en_GB": "Handwritten circulaire of \\2",
     "nl_NL": "Handgeschreven circulaire van \\2"
   },
+  "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake \\(Conto delle Entrate e Spese fatto in occasione del decesso del mons. Guglielmo A. Bake\\)$": {
+    "en_GB": "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake (Account of revenue and expenditure drawn up on the occassion of the passing of mons. William A. Bake)",
+    "nl_NL": "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake (Rekening van inkomsten en uitgaven gemaakt naar aanleiding van het overlijden van mons. William A. Bake)"
+  },
+  "Consul General des Pays Bas à Naples$": {
+    "en_GB": "Consul General des Pays Bas à Naples",
+    "nl_NL": "Consul General des Pays Bas à Naples"
+  },
+  "Consul des Pays Bas à Ancona$": {
+    "en_GB": "Consul des Pays Bas à Ancona",
+    "nl_NL": "Consul des Pays Bas à Ancona"
+  },
   "Consul des Pays Bas à Civitavecchia$": {
     "en_GB": "Consul des Pays Bas à Civitavecchia",
     "nl_NL": "Consul des Pays Bas à Civitavecchia"
@@ -163,6 +195,10 @@
   "Consulat general de Naples$": {
     "en_GB": "Consulat general de Naples",
     "nl_NL": "Consulat general de Naples"
+  },
+  "Conti saldati$": {
+    "en_GB": "Cleared accounts",
+    "nl_NL": "Afbetaalde rekeningen"
   },
   "Copia della lettera (di|del|della) (\\$\\w*) fatta (da|dal) (\\$\\w*)$": {
     "en_GB": "Copy of the letter of \\2 made by \\4",
@@ -224,7 +260,7 @@
     "en_GB": "Correspondance avec le department des affaires Etrangeres 1827-1829",
     "nl_NL": "Correspondance avec le department des affaires Etrangeres 1827-1829"
   },
-  "Correspondance avec le ministre des affaires etranges sur diverses subjets \\(Corrispondenza con il Ministro degli Affari Esteri sui soggetti diversi\\)$": {
+  "Correspondance avec le ministre des affaires étrangères sur diverses sujets \\(Corrispondenza con il Ministro degli Affari Esteri sui soggetti diversi\\)$": {
     "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
     "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondentie met de Minister van Buitenlandse Zaken over verschillende onderwerpen)"
   },
@@ -240,9 +276,13 @@
     "en_GB": "Correspondance avec les agents consulaires",
     "nl_NL": "Correspondance avec les agents consulaires"
   },
-  "Declaration du corps de troupe francais du président de Civitavecchia \\(Dichiarazione del corpo militare del presidente di Civitavecchia)$": {
-    "en_GB": "Declaration du corps de troupe francais du président de Civitavecchia (Declaration of the French military unit of the president of Civitavecchia)",
-    "nl_NL": "Declaration du corps de troupe francais du président de Civitavecchia (Verklaring van de Franse militaire eenheid van de president van Civitavecchia)"
+  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare al presidente di Civitavecchia)$": {
+    "en_GB": "Declaration du corps de troupe francais au président de Civitavecchia (Declaration of the French military unit to the president of Civitavecchia)",
+    "nl_NL": "Declaration du corps de troupe francais au président de Civitavecchia (Verklaring van de Franse militaire eenheid aan de president van Civitavecchia)"
+  },
+  "Decreto a stampa (di|del|della) (\\$\\w*) su tariffe doganali e prezzi$": {
+    "en_GB": "Printed decree of \\2 about custom rates and prices",
+    "nl_NL": "Gedrukte verordening van \\2 over douanetarieven en prijzen"
   },
   "Decreto di papa Gregorio XVI del 5 aprile 1845 circa l'Indice dei Libri Proibiti \\(a stampa\\)$": {
     "en_GB": "Decree of pope Gregorius XVI of 5 April 1845 on the Index of Forbidden Books (printed)",
@@ -276,6 +316,10 @@
     "en_GB": "Speech from the Minister of Internal Affairs translation",
     "nl_NL": "Toespraak van de Minister van Binnenlandse Zaken vertaling"
   },
+  "Discorso pronunciato all'apertura della Dieta dal Borgomastro di Zurigo$": {
+    "en_GB": "Speech given at the opening of the Diet of the Mayor of Zürich",
+    "nl_NL": "Toespraak gegeven bij de opening van het Dieet van de Burgemeester van Zürich"
+  },
   "Disegno di un profilo di donna \\(caricatura\\) a matita$": {
     "en_GB": "Pencil drawing of a woman profile (caricature)",
     "nl_NL": "Potloodtekening van een vrouwenprofiel (karikatuur)"
@@ -283,6 +327,10 @@
   "Disposizioni Generali da osservarsi \"par les envoyès et consuls à l'ètranger\" \\(a stampa\\) sottoscritto (\\$\\w*)": {
     "en_GB": "General Provisions to be observed \"par les envoyès et consuls à l'ètranger\" (printed) signed by \\1",
     "nl_NL": "Algemene bepalingen die in acht moeten worden genomen \"par les envoyès et consuls à l'ètranger\" (gedrukt) ondertekend door \\1"
+  },
+  "Disposizioni testamentarie (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Testamentary dispositions of \\2",
+    "nl_NL": "Testamentaire bepalingen van \\2"
   },
   "Documents relatifs aux troupes ponticales$": {
     "en_GB": "Documents relatifs aux troupes ponticales",
@@ -424,6 +472,10 @@
     "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
     "nl_NL": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816"
   },
+  "Extrait du Staatscourant \\(Gazette d'Etat\\)$": {
+    "en_GB": "Extrait du Staatscourant (Gazette d'Etat)",
+    "nl_NL": "Extrait du Staatscourant (Gazette d'Etat)"
+  },
   "Extrait du journal des Dèbats du fevrier 1844$": {
     "en_GB": "Extrait du journal des Dèbats du fevrier 1844",
     "nl_NL": "Extrait du journal des Dèbats du fevrier 1844"
@@ -456,6 +508,10 @@
     "en_GB": "Invitation for \\2 with attached a list of the ladies from the Netherlands",
     "nl_NL": "Uitnodiging voor \\2 met bijgevoegde lijst van de dames uit Nederland"
   },
+  "Invito (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Invitation from \\2",
+    "nl_NL": "Uitnodiging van \\2"
+  },
   "Journal de (\\$\\w*) \\(Giornale (di|del|della) (\\$\\w*)\\)$": {
     "en_GB": "Journal de \\1 (Journal of \\3)",
     "nl_NL": "Journal de \\1 (Logboek van \\3)"
@@ -467,6 +523,14 @@
   "Journal de la Haye$": {
     "en_GB": "Journal de la Haye",
     "nl_NL": "Journal de la Haye"
+  },
+  "Journal des Débats (a stampa)$": {
+    "en_GB": "Journal des Débats (Printed)",
+    "nl_NL": "Journal des Débats (Gedrukt)"
+  },
+  "Les Autoritès Romaines$": {
+    "en_GB": "Les Autoritès Romaines",
+    "nl_NL": "Les Autoritès Romaines"
   },
   "Lettera (a|al) (\\$\\w*) circa la morte (di|del|della) (\\$\\w*)$": {
     "en_GB": "Letter to \\2 about the death of \\4",
@@ -503,6 +567,10 @@
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(sostituto\\)$": {
     "en_GB": "Letter of \\2 to \\4 (substitution)",
     "nl_NL": "Brief van \\2 aan \\4 (vervanging)"
+  },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) \\(traduzione con al verso un ritaglio stampa\\)$": {
+    "en_GB": "Letter of \\2 to \\4 (translation with on the backside a newspaper cutting",
+    "nl_NL": "Brief van \\2 aan \\4 (vertaling met op de achterkant een krantenknipsel)"
   },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) circa il posto vacante di console generale del Regno dei Paesi Bassi$": {
     "en_GB": "Letter of \\2 to \\4 about the vacant position of consul general of the Kingdom of the Netherlands",
@@ -568,6 +636,10 @@
     "en_GB": "Letter of \\2 to \\4 and \\5. Circulaire of \\7 attached",
     "nl_NL": "Brief van \\2 aan \\4 en \\5. Circulaire van \\7 bijgevoegd"
   },
+  "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) e trascrizione di lettera (a|al) (\\$\\w*)$": {
+    "en_GB": "Letter from \\2 to \\4 and transcription of the letter to \\6",
+    "nl_NL": "Brief van \\2 aan \\4 en transcriptie van de brief aan \\6"
+  },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) in cui afferma di essere stato assaltato da un brigante-pirata inglese in mare quando navigava sulla nave Elena$": {
     "en_GB": "Letter of \\2 to \\4 in which he claims to have been attacked at sea by an English pirate while sailing on the ship Elena",
     "nl_NL": "Brief van \\2 aan \\4 waarin hij beweert te zijn aangevallen op zee door een Engelse piraat toen hij aan het varen was op het schip Elena"
@@ -578,7 +650,7 @@
   },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*) sui russi presenti a Roma e lista dei russi presenti$": {
     "en_GB": "Letter from \\2 to \\4 about Russians present in Rome and list of Russians present",
-    "nl_NL": "Brief van \\2 aan \\4 over Russen aanwezig in Rome en lijst van Russen aanwezig"
+    "nl_NL": "Brief van \\2 aan \\4 over Russen aanwezig in Rome en lijst van aanwezige Russen"
   },
   "Lettera (di|del|della) (\\$\\w*) (a|al) (\\$\\w*)$": {
     "en_GB": "Letter of \\2 to \\4",
@@ -587,6 +659,10 @@
   "Lettera (di|del|della) (\\$\\w*) \\(allegata\\)$": {
     "en_GB": "Letter of \\2 (attachment)",
     "nl_NL": "Brief van \\2 (bijlage)"
+  },
+  "Lettera (di|del|della) (\\$\\w*) ai Cardinali (\\Sede Vacante\\)$": {
+    "en_GB": "Letter of \\2 to the Cardinals (Sede Vacante)",
+    "nl_NL": "Brief van \\2 aan de Kardinalen (Sedisvacatie)"
   },
   "Lettera (di|del|della) (\\$\\w*) ai membri della Magistratura Romana$": {
     "en_GB": "Letter from \\2 to the members of the Roman Magistrate",
@@ -732,6 +808,10 @@
     "en_GB": "Printed circulaire of the minister of internal affairs to the governors",
     "nl_NL": "Gedrukte circulaire van de minister van binnenlandse zaken aan de gouverneurs"
   },
+  "Lettera circolare$": {
+    "en_GB": "Circulaire",
+    "nl_NL": "Circulaire"
+  },
   "Lettera con allegato programma di una cerimonia$": {
     "en_GB": "Letter with attached the program of a ceremony",
     "nl_NL": "Brief met bijgevoegd het programma van een ceremonie"
@@ -739,6 +819,10 @@
   "Lettera confidenziale (di|del|della) (\\$\\w*)$": {
     "en_GB": "Confidential letter of \\2",
     "nl_NL": "Vertrouwelijke brief van \\2"
+  },
+  "Lettera confidenziale$": {
+    "en_GB": "Confidential letter",
+    "nl_NL": "Vertrouwelijke brief"
   },
   "Lettera da Livorno$": {
     "en_GB": "Letter van Livorno",
@@ -807,6 +891,10 @@
   "Lista di Coscrizione$": {
     "en_GB": "Conscription list",
     "nl_NL": "Dienstplichtlijst"
+  },
+  "Liste des Dames Néerlandaises \\(Lista delle Signore Olandesi\\)": {
+    "en_GB": "Liste des Dames Néerlandaises (List of Dutch Ladies)",
+    "nl_NL": "Liste des Dames Néerlandaises (Lijst van Nederlandse Dames)"
   },
   "Liste des Estrangers \\(negli hotel di Roma$\\)": {
     "en_GB": "Liste des Estrangers (in the hotels of Rome)",
@@ -908,6 +996,10 @@
     "en_GB": "Note about Arab Anton born in Bagdad",
     "nl_NL": "Nota over de Arabische Anton geboren in Bagdad"
   },
+  "Nota su Bake$": {
+    "en_GB": "Note about Bake",
+    "nl_NL": "Nota over Bake"
+  },
   "Nota su un incontra con (\\$\\w*)$": {
     "en_GB": "Note about an encounter with \\1",
     "nl_NL": "Nota over een ontmoeting met \\1"
@@ -948,6 +1040,10 @@
     "en_GB": "Printed notification by the Government of Livorno",
     "nl_NL": "Gedrukte notificatie van de Overheid van Livorno"
   },
+  "Notificazioni a stampa di papa Pio IX ai cittadini Romani circa la presa di possesso presso la Basilica Lateranense \\(Roma, Tipografia della Rev. Cam. Apostolica, 1846\\).$": {
+    "en_GB": "Printed notifications by Pope Pius IX to the citizens of Rome about taking possession of the Lateran Basilica (Rome, Press of the Rev. Cam. Apostolica, 1846).",
+    "nl_NL": "Gedrukte notificaties van Paus Pius IX aan de burgers van Rome over het in bezit nemen van de Basiliek van Sint-Jan van Lateranen (Rome, Drukkerij van de Rev. Cam. Apostolica, 1846)."
+  },
   "Notizie Romane$": {
     "en_GB": "Roman News",
     "nl_NL": "Nieuws uit Rome"
@@ -964,6 +1060,10 @@
     "en_GB": "Nouvelles de Constantinople du 10 juin 1822",
     "nl_NL": "Nouvelles de Constantinople du 10 juin 1822"
   },
+  "Orazione Funeraria pronunciata da mons. H. Thiele$": {
+    "en_GB": "Eulogy given by mons. H. Thiele",
+    "nl_NL": "Grafrede gegeven door mons. H. Thiele"
+  },
   "Ordine del giorno (di|del|della) (\\$\\w*) \\(a stampa\\)$": {
     "en_GB": "Agenda of \\2 (printed)",
     "nl_NL": "Agenda van \\2 (gedrukt)"
@@ -971,6 +1071,10 @@
   "Osservations Preliminarire$": {
     "en_GB": "Osservations Preliminarire",
     "nl_NL": "Osservations Preliminarire"
+  },
+  "Pastorale (di|del|della) (\\$\\w*) in occasione dei recenti disastri della Polonia$": {
+    "en_GB": "Pastoral of \\2 on the occassion of the recent disasters in Poland",
+    "nl_NL": "Pastorale van \\2 in het licht van de recente rampen in Polen"
   },
   "Petizione per rendere omaggio al Pio IX sottoscritta da vari ministri degli Esteri e diretta (a|al) (\\$\\w*)$": {
     "en_GB": "Petition to pay homage to Pius IX undersigned by various Ministers of Foreign Affairs and directed to \\2",
@@ -1008,6 +1112,10 @@
     "en_GB": "Memorandum",
     "nl_NL": "Memorandum"
   },
+  "Prospetto delle cariche e delle attività svolte dal (\\$\\w*)$": {
+    "en_GB": "Prospectus of the charges and activities carried out by \\1",
+    "nl_NL": "Prospectus van de kosten en activiteiten uitgevoerd door \\1"
+  },
   "Protesta dei Cittadini della Repubblica Romana$": {
     "en_GB": "Protest of the Citizens of the Roman Republic",
     "nl_NL": "Protest van de Burgers van de Romeinse Republiek"
@@ -1031,6 +1139,10 @@
   "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai$": {
     "en_GB": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai",
     "nl_NL": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai"
+  },
+  "Rapport medical sur le maladie de monsieur Bake \\(referto medico sulla malattia del signor Bake\\)$": {
+    "en_GB": "Rapport medical sur le maladie de monsieur Bake (medical report about the illness of Mister Bake)",
+    "nl_NL": "Rapport medical sur le maladie de monsieur Bake (medisch rapport over de ziekte van de Heer Bake)"
   },
   "Rapport sur ce qui s'est passé à Césène, le soir du 14 Juillet 1846 traduit de l'Italien \\(rapporto su quello che è successo a Cesena, la notte del 14 Iuglio 1846 tradotto in Italiano\\)$": {
     "en_GB": "Rapport sur ce qui s'est passé à Césène, le soir du 14 Juillet 1846 traduit de l'Italien (rapport about what happened at Cesena, the night of 14 July 1846 translated to Italian)",
@@ -1075,6 +1187,10 @@
   "Regolamento per la Fiera di Sinigaglia dell'anno 1844 (a stampa)$": {
     "en_GB": "Regulations for the Fair of Sinigaglia in the year 1844 (printed)",
     "nl_NL": "Regelgeving voor de Markt van Sinigaglia in het jaar 1844 (gedrukt)"
+  },
+  "Regolamento per la Fiera di Sinigaglia dell'anno 1846 (a stampa)$": {
+    "en_GB": "Regulations for the Fair of Sinigaglia in the year 1846 (printed)",
+    "nl_NL": "Regelgeving voor de Markt van Sinigaglia in het jaar 1846 (gedrukt)"
   },
   "Relazione (di|del|della) (\\$\\w*) con estratti e trascrizioni$": {
     "en_GB": "Report from \\2 with extracts and transcriptions",
@@ -1180,6 +1296,10 @@
     "en_GB": "Translation Sur La Ligue Italienne (extract from Gazetta di Roma from \\2)",
     "nl_NL": "Vertaling Sur La Ligue Italienne (uittreksel uit Gazetta di Roma van \\2)"
   },
+  "Traduzione a stampa di un editto (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Printed translation of an edict of \\2",
+    "nl_NL": "Gedrukte vertaling van een edict van \\2"
+  },
   "Traduzione del Decreto del Commissario provvisorio del Governo dello Stato Romano$": {
     "en_GB": "Translation of a Decree of the interim Commissioner of the Government of the Roman State",
     "nl_NL": "Vertaling van een Decreet van de interim Commissaris van de Regering van de Romeinse Staat"
@@ -1190,7 +1310,7 @@
   },
   "Traduzione dell'apertura dell'Assemblea Costituente Romana$": {
     "en_GB": "Translation of the opening of the Roman Constitutional Assembly",
-    "nl_NL": "Vertaling van de opening van de Romeinse Grondwettelijke Vergadering"
+    "nl_NL": "Vertaling van de opening van de Romeinse constitutionele vergadering"
   },
   "Traduzione dell'avviso a stampa della magistratura di Ancona$": {
     "en_GB": "Translation of a printed notice from the magistrate of Ancona",
@@ -1202,7 +1322,7 @@
   },
   "Traduzione della Protesta che la Santità di N. S. Pio PP. IX circondato dal Sacro Collegio ha fatto in Gaeta innanzi al Corpo Diplomatico la mattina del 14 febbraio 1849$": {
     "en_GB": "Translation of the Protest that His Holiness of Our Lord Pope Pius IX surrounded by the Sacred College made in Gaeta before the Diplomatic Corps on 14 February 1849",
-    "nl_NL": "Vertaling van het Protest dat Zijne Heiligheid van Onze Heer Paus Pius IX, omringd door door het Heilige College, maakte in Gaeta voor het Diplomatiek Korps op 14 februari 1849"
+    "nl_NL": "Vertaling van het Protest dat Zijne Heiligheid van Onze Heer Paus Pius IX, omringd door het Heilige College, maakte in Gaeta voor het Corps Diplomatique op 14 februari 1849"
   },
   "Traduzione della circolare (di|del|della) (\\$\\w*)$": {
     "en_GB": "Translation of the circulaire of \\2",
@@ -1300,6 +1420,14 @@
     "en_GB": "Transcription of a letter by \\2 to \\4",
     "nl_NL": "Transcriptie van een brief door \\2 aan \\4"
   },
+  "Trascrizione di lettere (a|al) (\\$\\w*) e (a|al) (\\$\\w*)$": {
+    "en_GB": "Transcriptions of letters to \\2 and to \\4",
+    "nl_NL": "Transcripties van brieven aan \\2 en aan \\4"
+  },
+  "Trascrizione di un proclama del Comitato Italiano al Popolo della Romagna$": {
+    "en_GB": "Transcription of a proclamation of the Italian Committee to the People of the Romagna",
+    "nl_NL": "Transcriptie van een proclamatie van de Italiaanse Commissie aan het Volk van de Romagna"
+  },
   "Trascrizione di una dichiarazione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription of a declaration of \\2",
     "nl_NL": "Transcriptie van een verklaring van \\2"
@@ -1339,6 +1467,10 @@
   "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua$": {
     "en_GB": "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua",
     "nl_NL": "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua"
+  },
+  "William Archibald Bake né en Hollande mort en Ariccia 1846 \\(Giuglielmo Archibald Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
+    "en_GB": "William Archibald Bake né en Hollande mort en Ariccia 1846 (William Archibald Bake born in the Netherlands died in Ariccia 1846)",
+    "nl_NL": "William Archibald Bake né en Hollande mort en Ariccia 1846 (William Archibald Bake geboren in Nederland overled in Ariccia 1846)"
   },
   "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua$": {
     "en_GB": "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua",
