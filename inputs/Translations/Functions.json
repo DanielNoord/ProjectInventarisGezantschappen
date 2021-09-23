@@ -412,6 +412,10 @@
     "en_GB": "Director of the Post Department of the Grand Duchy of Tuscany",
     "nl_NL": "Directeur van de Afdeling Post van het Groothertogdom van Toscana"
   },
+  "Direttore del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "Director of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Directeur van het Ministerie van Marine en Koloniën van het Koninkrijk der Nederlanden"
+  },
   "Direttore dell'Ufficio della Dogana e Porto Franco di Genova": {
     "en_GB": "Director of Customs and the free port of Genoa",
     "nl_NL": "Directeur van de Douane en de vrijhaven van Genua"
@@ -531,6 +535,10 @@
   "Gonfaloniere di Fano": {
     "en_GB": "_Gonfaloniere_ of Fano",
     "nl_NL": "_Gonfaloniere_ van Fano"
+  },
+  "Governatore Generale delle Indie Orientali Olandesi": {
+    "en_GB": "Governor of the Dutch East Indies",
+    "nl_NL": "Gouverneur-Generaal van Nederlands-Indië"
   },
   "Governatore del Granducato del Lussemburgo per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the Grand Duchy of Luxembourg for the King of the Netherlands",
@@ -979,6 +987,10 @@
   "Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Minister of the Navy and Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Marine en Koloniën van het Koninkrijk der Nederlanden"
+  },
+  "Ministro delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "Minister of Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Minister van Koloniën van het Koninkrijk der Nederlanden"
   },
   "Ministro delle Finanze dello Stato Pontificio": {
     "en_GB": "Minister of Finance of the Papel States",
