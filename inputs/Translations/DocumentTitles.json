@@ -340,6 +340,10 @@
     "en_GB": "Edict of \\2 on transfers and translations (printed)",
     "nl_NL": "Edict van \\2 over overdrachten en vertalingen (gedrukt)"
   },
+  "Editto (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Edict of \\2",
+    "nl_NL": "Edict van \\2"
+  },
   "Encyclica di pio IX ad omnes supremos moderatores abbates$": {
     "en_GB": "Encyclical of Pius IX ad omnes supremos moderatores abbates",
     "nl_NL": "Encycliek van Pius IX ad omnes supremos moderatores abbates"
@@ -383,6 +387,10 @@
   "Estratto di un supplemento della Gazetta di Roma$": {
     "en_GB": "Extract from a supplement to the Gazetta di Roma",
     "nl_NL": "Uittreksel van een bijlage van de Gazetta di Roma"
+  },
+  "Estratto di una copia di una lettera (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Extract from a copy of a letter of \\2",
+    "nl_NL": "Uittreksel van kopie van een brief van \\2"
   },
   "Estratto di una lettera di Bruxelles$": {
     "en_GB": "Extract from a letter from Brussels",
@@ -868,6 +876,10 @@
     "en_GB": "Letter of invitation from \\2",
     "nl_NL": "Uitnodigingsbrief van \\2"
   },
+  "Lettera pastorale a stampa (di|del|della) (\\$\\w*)": {
+    "en_GB": "Printed pastoral letter of \\2",
+    "nl_NL": "Gedrukte pastorale brief van \\2"
+  },
   "Lettera per la morte di Sua Maestà (\\$\\w*) \\(a stampa\\)$": {
     "en_GB": "Letter about the death of His Majesty \\1 (printed)",
     "nl_NL": "Brief over de dood van Zijne Majesteit \\1 (gedrukt)"
@@ -988,6 +1000,10 @@
     "en_GB": "Handwritten note",
     "nl_NL": "Handgeschreven nota"
   },
+  "Nota su (\\$\\w*)$": {
+    "en_GB": "Note about \\1",
+    "nl_NL": "Nota over \\1"
+  },
   "Nota su Amsterdam$": {
     "en_GB": "Note about Amsterdam",
     "nl_NL": "Nota over Amsterdam"
@@ -995,10 +1011,6 @@
   "Nota su Anton arabo nato a Bagdad$": {
     "en_GB": "Note about Arab Anton born in Bagdad",
     "nl_NL": "Nota over de Arabische Anton geboren in Bagdad"
-  },
-  "Nota su Bake$": {
-    "en_GB": "Note about Bake",
-    "nl_NL": "Nota over Bake"
   },
   "Nota su un incontra con (\\$\\w*)$": {
     "en_GB": "Note about an encounter with \\1",
@@ -1068,6 +1080,10 @@
     "en_GB": "Agenda of \\2 (printed)",
     "nl_NL": "Agenda van \\2 (gedrukt)"
   },
+  "Ordine del giorno$": {
+    "en_GB": "Agenda",
+    "nl_NL": "Agenda"
+  },
   "Osservations Preliminarire$": {
     "en_GB": "Osservations Preliminarire",
     "nl_NL": "Osservations Preliminarire"
@@ -1103,6 +1119,10 @@
   "Programma del nuovo Ministero (a stampa)$": {
     "en_GB": "Program of the new Ministry (printed)",
     "nl_NL": "Programma van het nieuwe Ministerie (gedrukt)"
+  },
+  "Programma dell'augusta cerimonia del giuramento (a stampa)$": {
+    "en_GB": "Program of the august oath of office (printed)",
+    "nl_NL": "Programma van de verheven inzweringsceremonie (gedrukt)"
   },
   "Programma delle feste in occasione del matrimonio tra la principessa Maria Anna di Savoia e Ferdinando V re d'Ungheria$": {
     "en_GB": "Program of the festivities for the wedding between princess Maria Anna of Savoy and Ferdinand V, King of Hungary",
@@ -1244,6 +1264,14 @@
     "en_GB": "Newspaper clipping",
     "nl_NL": "Krantenknipsel"
   },
+  "Réponse de Sa Sainteté \\(risposta della Sua Santità\\)$": {
+    "en_GB": "Réponse de Sa Sainteté (response from His Holiness)",
+    "nl_NL": "Réponse de Sa Sainteté (reactie van Zijne Heiligheid)"
+  },
+  "Réponse de la Chambre des Deputes \\(risposta della Camera dei Deputati\\)$": {
+    "en_GB": "Réponse de la Chambre des Deputes (response from the Chamber of Deputies)",
+    "nl_NL": "Réponse de la Chambre des Deputes (reactie van de Kamer van Afgevaardigden)"
+  },
   "Schedola Testamentaria (di|del|della) (\\$\\w*)$": {
     "en_GB": "Will of \\2",
     "nl_NL": "Testament van \\2"
@@ -1292,6 +1320,10 @@
     "en_GB": "Traduction de la circulaire de son Eminence le Cardinal Soglia (translation of a circulaire of His Eminence Cardinal Soglia)",
     "nl_NL": "Traduction de la circulaire de son Eminence le Cardinal Soglia (vertaling van een circulaire van Zijne Eminentie Kardinaal Soglia)"
   },
+  "Traduction du dernier paragraph de l'adresse de la Chambre des deputes (traduzione dell'ultimo paragrafo del discorso della Camera dei Deputati)$": {
+    "en_GB": "Traduction du dernier paragraph de l'adresse de la Chambre des deputes (Translation of the last paragraph of the speech of the Chamer of Deputies)",
+    "nl_NL": "Traduction du dernier paragraph de l'adresse de la Chambre des deputes (Vertaling van de laatste paragraaf van de speech van de Kamer van Afgevaardigden)"
+  },
   "Traduzione Sur La Ligue Italienne \\(estratto dall Gazetta di Roma (di|del|della) (\\$\\w*)\\)$": {
     "en_GB": "Translation Sur La Ligue Italienne (extract from Gazetta di Roma from \\2)",
     "nl_NL": "Vertaling Sur La Ligue Italienne (uittreksel uit Gazetta di Roma van \\2)"
@@ -1307,6 +1339,10 @@
   "Traduzione del programma del Consiglio dei Ministri$": {
     "en_GB": "Translation of the program of the Council of Ministers",
     "nl_NL": "Vertaling van het programma van de Raad van Ministers"
+  },
+  "Traduzione dell'allocuzione (di|del|della) (\\$\\w*)$": {
+    "en_GB": "Translation of the allocution of \\2",
+    "nl_NL": "Vertaling van de toespraak van \\2"
   },
   "Traduzione dell'apertura dell'Assemblea Costituente Romana$": {
     "en_GB": "Translation of the opening of the Roman Constitutional Assembly",
@@ -1451,6 +1487,10 @@
   "Trascrizione di una notificazione (di|del|della) (\\$\\w*) sulla Legazione dei Paesi Bassi$": {
     "en_GB": "Transcription of a notice by \\2 about the Legation of the Kingdom of the Netherlands",
     "nl_NL": "Transcriptie van een notificatie van \\2 over het Gezantschap van het Koninkrijk der Nederlanden"
+  },
+  "Trascrizione e traduzione della seduta della Camera dei Deputati relativa alla Lombardia$": {
+    "en_GB": "Transcription and translation of a sitting of the Chamber of Deputies pertaining to Lombardy",
+    "nl_NL": "Transcriptie en vertaling van een zittin van de Kamer van Afgevaardigden met betrekking tot Lombardije"
   },
   "Trascrizione e traduzione di una notificazione (di|del|della) (\\$\\w*)$": {
     "en_GB": "Transcription and translation of a notification of \\2",
