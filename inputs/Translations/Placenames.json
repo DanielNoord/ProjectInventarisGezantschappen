@@ -1,5 +1,5 @@
 {
-  "$schema": "../static/JSON/Placenames.json",
+  "$schema": "../../static/JSON/Placenames.json",
   "'s-Hertogenbosch": {
     "en_GB": "'s-Hertogenbosch",
     "geonames:id": 2747351,
@@ -63,7 +63,7 @@
   "Amélie-les-Bains": {
     "en_GB": "Amélie-les-Bains",
     "geonames:id": 3037875,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Amélie-les-Bains"
   },
   "Ancona": {
@@ -93,7 +93,7 @@
   "Aranjuez": {
     "en_GB": "Aranjuez",
     "geonames:id": 3129857,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Aranjuez"
   },
   "Arco": {
@@ -117,13 +117,13 @@
   "Ascoli Piceno": {
     "en_GB": "Ascoli Piceno",
     "geonames:id": 3182749,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Ascoli Piceno"
   },
   "Asten": {
     "en_GB": "Asten",
     "geonames:id": 2759621,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Asten"
   },
   "Augusta": {
@@ -141,7 +141,7 @@
   "Bar-le-Duc": {
     "en_GB": "Bar-le-Duc",
     "geonames:id": 3034911,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Bar-le-Duc"
   },
   "Barberano": {
@@ -165,7 +165,7 @@
   "Barino": {
     "en_GB": "Barino",
     "geonames:id": 9113301,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Barino"
   },
   "Barletta": {
@@ -177,7 +177,7 @@
   "Barnstedt": {
     "en_GB": "Barnstedt",
     "geonames:id": 2952458,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Barnstedt"
   },
   "Batavia": {
@@ -189,7 +189,7 @@
   "Belluno": {
     "en_GB": "Belluno",
     "geonames:id": 3182210,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Belluno"
   },
   "Benevento": {
@@ -201,7 +201,7 @@
   "Berleburg": {
     "en_GB": "Berleburg",
     "geonames:id": 2953545,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Berleburg"
   },
   "Berlino": {
@@ -219,7 +219,7 @@
   "Bitburg": {
     "en_GB": "Bitburg",
     "geonames:id": 2948184,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Bitburg"
   },
   "Bologna": {
@@ -231,7 +231,7 @@
   "Brolio": {
     "en_GB": "Brolio",
     "geonames:id": 10401228,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Brolio"
   },
   "Bruges": {
@@ -255,7 +255,7 @@
   "Buriasco": {
     "en_GB": "Buriasco",
     "geonames:id": 3181392,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Buriasco"
   },
   "Burtscheid": {
@@ -291,7 +291,7 @@
   "Capua": {
     "en_GB": "Capua",
     "geonames:id": 3167561,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Capua"
   },
   "Carrara": {
@@ -309,31 +309,31 @@
   "Casola Valsenio": {
     "en_GB": "Casola Valsenio",
     "geonames:id": 3179830,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Casola Valsenio"
   },
   "Caupo": {
     "en_GB": "Caupo",
     "geonames:id": 8951196,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Caupo"
   },
   "Ceccano": {
     "en_GB": "Ceccano",
     "geonames:id": 3179243,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Ceccano"
   },
   "Celles": {
     "en_GB": "Celles",
     "geonames:id": 3027988,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Celles"
   },
   "Ceprano": {
     "en_GB": "Ceprano",
     "geonames:id": 3179141,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Ceprano"
   },
   "Cesena": {
@@ -351,7 +351,7 @@
   "Charleville": {
     "en_GB": "Charleville",
     "geonames:id": 3026613,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Charleville"
   },
   "Château de Blosseville": {
@@ -363,7 +363,7 @@
   "Cingoli": {
     "en_GB": "Cingoli",
     "geonames:id": 3178673,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Cingoli"
   },
   "Cinisello": {
@@ -393,13 +393,13 @@
   "Compiano": {
     "en_GB": "Compiano",
     "geonames:id": 3178225,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Compiano"
   },
   "Contrexéville": {
     "en_GB": "Contrexéville",
     "geonames:id": 3023808,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Contrexéville"
   },
   "Cordova": {
@@ -411,7 +411,7 @@
   "Corpo Reno": {
     "en_GB": "Corpo Reno",
     "geonames:id": 8299679,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Corpo Reno"
   },
   "Costantinopoli": {
@@ -441,13 +441,13 @@
   "Dillenburg": {
     "en_GB": "Dillenburg",
     "geonames:id": 2936985,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Dillenburg"
   },
   "Doesburg": {
     "en_GB": "Doesburg",
     "geonames:id": 2756772,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Doesburg"
   },
   "Dommeldange": {
@@ -489,13 +489,13 @@
   "Fermo": {
     "en_GB": "Fermo",
     "geonames:id": 3177099,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Fermo"
   },
   "Ferrara": {
     "en_GB": "Ferrara",
     "geonames:id": 6299592,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Ferrara"
   },
   "Firenze": {
@@ -513,7 +513,7 @@
   "Flée": {
     "en_GB": "Flée",
     "geonames:id": 6020981,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Flée"
   },
   "Foligno": {
@@ -549,7 +549,7 @@
   "Gand": {
     "en_GB": "Larçay",
     "geonames:id": 3007048,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Gent"
   },
   "Genova": {
@@ -579,7 +579,7 @@
   "Govone": {
     "en_GB": "Govone",
     "geonames:id": 6543832,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Govone"
   },
   "Granada": {
@@ -627,7 +627,7 @@
   "Hechingen": {
     "en_GB": "Hechingen",
     "geonames:id": 2908495,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Hechingen"
   },
   "Heino": {
@@ -651,7 +651,7 @@
   "Howick": {
     "en_GB": "Howick",
     "geonames:id": 2189716,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Howick"
   },
   "Hyères": {
@@ -687,7 +687,7 @@
   "Kassel": {
     "en_GB": "Kassel",
     "geonames:id": 2892518,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Kassel"
   },
   "Kerkdriel": {
@@ -711,13 +711,13 @@
   "Lannion": {
     "en_GB": "Lannion",
     "geonames:id": 3007609,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Lannion"
   },
   "Larçay": {
     "en_GB": "Larçay",
     "geonames:id": 3007048,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Larçay"
   },
   "Laupheim": {
@@ -729,7 +729,7 @@
   "Lebrija": {
     "en_GB": "Lebrija",
     "geonames:id": 2515096,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Lebrija"
   },
   "Leida": {
@@ -831,7 +831,7 @@
   "Macerata": {
     "en_GB": "Macerata",
     "geonames:id": 3174380,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Macerata"
   },
   "Madrid": {
@@ -843,7 +843,7 @@
   "Mahón": {
     "en_GB": "Mahón",
     "geonames:id": 2514301,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Maó-Mahón"
   },
   "Malmö": {
@@ -939,7 +939,7 @@
   "Neuilly-sur-Seine": {
     "en_GB": "Neuilly-sur-Seine",
     "geonames:id": 2990611,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Neuilly-sur-Seine"
   },
   "Nizza": {
@@ -951,7 +951,7 @@
   "Nove (Vicenza)": {
     "en_GB": "Nove (Vicenza)",
     "geonames:id": 3172183,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Nove (Vicenza)"
   },
   "Oegstgeest": {
@@ -993,7 +993,7 @@
   "Paliano": {
     "en_GB": "Paliano",
     "geonames:id": 3171603,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Paliano"
   },
   "Palma": {
@@ -1023,7 +1023,7 @@
   "Pergola": {
     "en_GB": "Pergola",
     "geonames:id": 3171212,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Pergola"
   },
   "Pesaro": {
@@ -1047,7 +1047,7 @@
   "Pirna": {
     "en_GB": "Pirna",
     "geonames:id": 2853572,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Pirna"
   },
   "Pisa": {
@@ -1059,13 +1059,13 @@
   "Pontedera": {
     "en_GB": "Pontedera",
     "geonames:id": 3170272,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Pontedera"
   },
   "Prignano sulla Secchia": {
     "en_GB": "Prignano sulla Secchia",
     "geonames:id": 3169823,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Prignano sulla Secchia"
   },
   "Reggio nell’Emilia": {
@@ -1101,7 +1101,7 @@
   "Rocca di Papa": {
     "en_GB": "Rocca di Papa",
     "geonames:id": 3169181,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Rocca di Papa"
   },
   "Roermond": {
@@ -1149,7 +1149,7 @@
   "San Sebastián": {
     "en_GB": "San Sebastián",
     "geonames:id": 3110044,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "San Sebastian"
   },
   "Santa Fe": {
@@ -1197,13 +1197,13 @@
   "Senigallia": {
     "en_GB": "Senigallia",
     "geonames:id": 3166740,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Senigallia"
   },
   "Sens": {
     "en_GB": "Sens",
     "geonames:id": 2975050,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Sens"
   },
   "Servigliano": {
@@ -1221,13 +1221,13 @@
   "Sgurgola": {
     "en_GB": "Sgurgola",
     "geonames:id": 3166562,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Sgurgola"
   },
   "Siebenbrunn": {
     "en_GB": "Siebenbrunn",
     "geonames:id": 2832719,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Siebenbrunn"
   },
   "Siena": {
@@ -1269,13 +1269,13 @@
   "Sonnino": {
     "en_GB": "Sonnino",
     "geonames:id": 3166394,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Sonnino"
   },
   "Speloncato": {
     "en_GB": "Speloncato",
     "geonames:id": 2973864,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Speloncato"
   },
   "Spotorno": {
@@ -1287,13 +1287,13 @@
   "St James's": {
     "en_GB": "St James's",
     "geonames:id": 11495097,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "St James's"
   },
   "Sterpenich": {
     "en_GB": "Sterpenich",
     "geonames:id": 2786058,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Sterpenich"
   },
   "Stoccarda": {
@@ -1341,7 +1341,7 @@
   "Tholen": {
     "en_GB": "Tholen",
     "geonames:id": 2746351,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Tholen"
   },
   "Tilburg": {
@@ -1359,7 +1359,7 @@
   "Torre Pellice": {
     "en_GB": "Torre Pellice",
     "geonames:id": 3165427,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Torre Pellice"
   },
   "Trebiolo": {
@@ -1401,7 +1401,7 @@
   "Urbino": {
     "en_GB": "Urbino",
     "geonames:id": 3165035,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Urbino"
   },
   "Utrecht": {
@@ -1413,7 +1413,7 @@
   "Valkenburg": {
     "en_GB": "Valkenburg",
     "geonames:id": 2745874,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Valkenburg"
   },
   "Valkenwaard": {
@@ -1425,7 +1425,7 @@
   "Vanves": {
     "en_GB": "Vanves",
     "geonames:id": 2970761,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Vanves"
   },
   "Velletri": {
@@ -1455,7 +1455,7 @@
   "Vezzano": {
     "en_GB": "Vezzano",
     "geonames:id": 3164451,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Vezzano"
   },
   "Vico": {
@@ -1485,13 +1485,13 @@
   "Viluco": {
     "en_GB": "Viluco",
     "geonames:id": 3868131,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Viluco"
   },
   "Viterbo": {
     "en_GB": "Viterbo",
     "geonames:id": 3164039,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Viterbo"
   },
   "Voorst": {
@@ -1503,13 +1503,13 @@
   "Voort": {
     "en_GB": "Voort",
     "geonames:id": 2784387,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Voort"
   },
   "Weimar": {
     "en_GB": "Weimar",
     "geonames:id": 2812482,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Weimar"
   },
   "Wetzlar": {
@@ -1563,7 +1563,7 @@
   "Île du Diable": {
     "en_GB": "Devil's Island",
     "geonames:id": 3572505,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Île du Diable"
   }
 }
