@@ -31,7 +31,7 @@ def load_geonames(filename: str) -> None:
         value["geonames:wikipedia"] = geoname_detials.wikipedia
 
     # Re-add schema
-    placenames["$schema"] = "../static/JSON/Placenames.json"
+    placenames["$schema"] = "../static/JSON/Placenames.json"  # type: ignore
 
     # Save file
     os.makedirs(
