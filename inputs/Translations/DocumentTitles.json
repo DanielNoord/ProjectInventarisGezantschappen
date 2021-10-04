@@ -276,7 +276,7 @@
     "en_GB": "Correspondance avec les agents consulaires",
     "nl_NL": "Correspondance avec les agents consulaires"
   },
-  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare al presidente di Civitavecchia)$": {
+  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare al presidente di Civitavecchia\\)$": {
     "en_GB": "Declaration du corps de troupe francais au président de Civitavecchia (Declaration of the French military unit to the president of Civitavecchia)",
     "nl_NL": "Declaration du corps de troupe francais au président de Civitavecchia (Verklaring van de Franse militaire eenheid aan de president van Civitavecchia)"
   },
@@ -676,7 +676,7 @@
     "en_GB": "Letter of \\2 (attachment)",
     "nl_NL": "Brief van \\2 (bijlage)"
   },
-  "Lettera (di|del|della) (\\$\\w+) ai Cardinali (\\Sede Vacante\\)$": {
+  "Lettera (di|del|della) (\\$\\w+) ai Cardinali \\(Sede Vacante\\)$": {
     "en_GB": "Letter of \\2 to the Cardinals (Sede Vacante)",
     "nl_NL": "Brief van \\2 aan de Kardinalen (Sedisvacatie)"
   },
