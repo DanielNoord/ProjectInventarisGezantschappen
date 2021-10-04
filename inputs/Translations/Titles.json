@@ -110,6 +110,11 @@
     "nl_NL": "commandeur in de Orde van Sint-Gregorius de Grote",
     "position": "After"
   },
+  "commendatore dell’Ordine dei Santi Maurizio e Lazzaro": {
+    "en_GB": "commander of the Order of Saints Maurice and Lazarus",
+    "nl_NL": "commandeur in de Orde van Sint-Mauritius en Sint-Lazarus",
+    "position": "After"
+  },
   "conte": {
     "en_GB": "count",
     "nl_NL": "graaf",

@@ -420,6 +420,12 @@
     "geonames:wikipedia": "https://en.wikipedia.org/wiki/Istanbul",
     "nl_NL": "Constantinopel"
   },
+  "Crema": {
+    "en_GB": "Crema",
+    "geonames:id": 6540640,
+    "geonames:wikipedia": "https://en.wikipedia.org/wiki/Crema%2C_Lombardy",
+    "nl_NL": "Crema"
+  },
   "Cuneo": {
     "en_GB": "Cuneo",
     "geonames:id": 6541864,

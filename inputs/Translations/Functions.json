@@ -16,10 +16,6 @@
     "en_GB": "Adjutant general of the King of the Two Sicilies",
     "nl_NL": "Adjudant-generaal van de Koning der Beide Siciliën"
   },
-  "Ambascaitore straordinario e lenipotenziario del Regno di Spagna presso la Santa Sede": {
-    "en_GB": "Extraordinary and plenipotentiary ambassador of the Kingdom of Spain to the Holy See",
-    "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel"
-  },
   "Ambasciatore del Regno delle Due Sicilie a Londra": {
     "en_GB": "Ambassador of the Kingdom of the Two Sicilies in London",
     "nl_NL": "Ambassadeur van het Koninkrijk der Beide Siciliën te Londen"
@@ -43,6 +39,14 @@
   "Ambasciatore dell'Impero di Francia presso la Santa Sede": {
     "en_GB": "Ambassador of the Empire of France to the Holy See",
     "nl_NL": "Ambassadeur van het Keizerrijk Frankrijk bij de Heilige Stoel"
+  },
+  "Ambasciatore staordinario del Regno di Sardegna presso la Santa Sede": {
+    "en_GB": "Extraordinary ambassador of the Kingdom of Sardinia to the Holy See",
+    "nl_NL": "Buitengewoon ambassadeur van het Koninkrijk Sardinië bij de Heilige Stoel"
+  },
+  "Ambasciatore straordinario e lenipotenziario del Regno di Spagna presso la Santa Sede": {
+    "en_GB": "Extraordinary and plenipotentiary ambassador of the Kingdom of Spain to the Holy See",
+    "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel"
   },
   "Amministratore dei beni della principessa Marianna dei Paesi Bassi": {
     "en_GB": "Administrator employed by Princess Marianne of the Netherlands",
@@ -1495,6 +1499,10 @@
   "Sostituto della seconda sezione della Segreteria di Stato": {
     "en_GB": "Substitute for Relations with States of the Secretariat of State of the Holy See",
     "nl_NL": "Substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel"
+  },
+  "Sotto ufficiale al 1° reggimento estero dell'esercito pontificio": {
+    "en_GB": "Sergeant of the 1st foreign regiment of the Papal army",
+    "nl_NL": "Onderofficier van het 1e buitenlandse regiment van het Pauselijke leger"
   },
   "Spedizioniero": {
     "en_GB": "Freight forwarder",
