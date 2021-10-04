@@ -276,7 +276,7 @@
     "en_GB": "Correspondance avec les agents consulaires",
     "nl_NL": "Correspondance avec les agents consulaires"
   },
-  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare al presidente di Civitavecchia)$": {
+  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare al presidente di Civitavecchia\\)$": {
     "en_GB": "Declaration du corps de troupe francais au président de Civitavecchia (Declaration of the French military unit to the president of Civitavecchia)",
     "nl_NL": "Declaration du corps de troupe francais au président de Civitavecchia (Verklaring van de Franse militaire eenheid aan de president van Civitavecchia)"
   },
@@ -317,8 +317,8 @@
     "nl_NL": "Toespraak van de Minister van Binnenlandse Zaken vertaling"
   },
   "Discorso pronunciato all'apertura della Dieta dal Borgomastro di Zurigo$": {
-    "en_GB": "Speech given at the opening of the Diet of the Mayor of Zürich",
-    "nl_NL": "Toespraak gegeven bij de opening van het Dieet van de Burgemeester van Zürich"
+    "en_GB": "Speech of the Mayor of Zürich given at the opening of the Diet",
+    "nl_NL": "Toespraak van de Burgemeester van Zürich gegeven bij de opening van het Dieet"
   },
   "Disegno di un profilo di donna \\(caricatura\\) a matita$": {
     "en_GB": "Pencil drawing of a woman profile (caricature)",
@@ -680,7 +680,7 @@
     "en_GB": "Letter of \\2 (attachment)",
     "nl_NL": "Brief van \\2 (bijlage)"
   },
-  "Lettera (di|del|della) (\\$\\w+) ai Cardinali (\\Sede Vacante\\)$": {
+  "Lettera (di|del|della) (\\$\\w+) ai Cardinali \\(Sede Vacante\\)$": {
     "en_GB": "Letter of \\2 to the Cardinals (Sede Vacante)",
     "nl_NL": "Brief van \\2 aan de Kardinalen (Sedisvacatie)"
   },
