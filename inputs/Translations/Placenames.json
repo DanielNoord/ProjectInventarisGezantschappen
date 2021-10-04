@@ -228,6 +228,12 @@
     "geonames:wikipedia": "https://en.wikipedia.org/wiki/Bologna",
     "nl_NL": "Bologna"
   },
+  "Brisighella": {
+    "en_GB": "Brisighella",
+    "geonames:id": 3181521,
+    "geonames:wikipedia": "https://en.wikipedia.org/wiki/Brisighella",
+    "nl_NL": "Brisighella"
+  },
   "Brolio": {
     "en_GB": "Brolio",
     "geonames:id": 6538598,
@@ -462,6 +468,12 @@
     "geonames:wikipedia": "https://en.wikipedia.org/wiki/Dresden",
     "nl_NL": "Dresden"
   },
+  "Duingt": {
+    "en_GB": "Duingt",
+    "geonames:id": 6442944,
+    "geonames:wikipedia": "https://en.wikipedia.org/wiki/Duingt",
+    "nl_NL": "Duingt"
+  },
   "Edimburgo": {
     "en_GB": "Edinburgh",
     "geonames:id": 2650225,
@@ -614,8 +626,8 @@
   },
   "Hannover": {
     "en_GB": "Hanover",
-    "geonames:id": null,
-    "geonames:wikipedia": null,
+    "geonames:id": 2910831,
+    "geonames:wikipedia": "https://en.wikipedia.org/wiki/Hanover_Region",
     "nl_NL": "Hannover"
   },
   "Hechingen": {
@@ -1110,12 +1122,6 @@
     "geonames:wikipedia": "https://en.wikipedia.org/wiki/Salzburg",
     "nl_NL": "Salzburg"
   },
-  "San Martino in Poggio": {
-    "en_GB": "San Martino in Poggio",
-    "geonames:id": null,
-    "geonames:wikipedia": null,
-    "nl_NL": "San Martino in Poggio"
-  },
   "San Michele di Pagana": {
     "en_GB": "San Michele di Pagana",
     "geonames:id": 3167961,
@@ -1344,17 +1350,17 @@
     "geonames:wikipedia": "https://en.wikipedia.org/wiki/Torre_Pellice",
     "nl_NL": "Torre Pellice"
   },
-  "Trebiolo": {
-    "en_GB": "Trebiolo",
-    "geonames:id": null,
-    "geonames:wikipedia": null,
-    "nl_NL": "Trebiolo"
-  },
   "Trieste": {
     "en_GB": "Trieste",
     "geonames:id": 3165185,
     "geonames:wikipedia": "https://en.wikipedia.org/wiki/Trieste",
     "nl_NL": "Triëst"
+  },
+  "Trobiolo": {
+    "en_GB": "Trobiolo",
+    "geonames:id": 8952225,
+    "geonames:wikipedia": null,
+    "nl_NL": "Trobiolo"
   },
   "Tubinga": {
     "en_GB": "Tübingen",

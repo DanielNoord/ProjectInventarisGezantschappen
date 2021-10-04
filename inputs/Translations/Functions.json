@@ -276,6 +276,10 @@
     "en_GB": "State advisor",
     "nl_NL": "Adviseur van de staat"
   },
+  "Consigliere e incaricato d'affari della Legazione del Regno del Belgio a Roma": {
+    "en_GB": "Advisor and chargé d'affaires of the Kingdom of Belgium in Rome",
+    "nl_NL": "Adviseur en zaakgelastigde van het Koninkrijk België te Rome"
+  },
   "Console Generale del Regno di Sardegna e provvisoriamente anche del Granducato di Toscana": {
     "en_GB": "Consul general of the Kingdom of Sardinia and provissionally of the Grand Duchy of Tuscany",
     "nl_NL": "Consul-generaal van het Koninkrijk Sardinië en voorlopig consul-general van het Groothertogdom van Toscane"
@@ -335,6 +339,10 @@
   "Console del Regno dei Paesi Bassi ad Alessandria d'Egitto": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Alexandria",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Alexandrië"
+  },
+  "Console del Regno delle Due Sicilie a Costantinopoli": {
+    "en_GB": "Consul of the Kingdom of the Two Sicilies in Constantinople",
+    "nl_NL": "Consul van het Koninkrijk der Beide Siciliën te Constantinopel"
   },
   "Console del Regno di Sardegna a Lagos": {
     "en_GB": "Consul of the Kingdom of Sardinia in Lagos",
@@ -411,6 +419,10 @@
   "Direttore del Dipartimento della Posta del Granducato di Toscana": {
     "en_GB": "Director of the Post Department of the Grand Duchy of Tuscany",
     "nl_NL": "Directeur van de Afdeling Post van het Groothertogdom van Toscana"
+  },
+  "Direttore del Ministero degli Affari Esteri del Regno delle Due Sicilie": {
+    "en_GB": "Director of the Ministry of External Affairs of the Kingdom of the Two Sicilies",
+    "nl_NL": "Directeur van het Ministerie van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
   },
   "Direttore del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Director of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
@@ -583,6 +595,10 @@
   "Governatore di Roma, Vice camerlengo della Chiesa Cattolica Romana e direttore generale di polizia di Roma": {
     "en_GB": "_Governatore_ {governor} of Rome, vice-camerlengo of the Holy Roman Church and director general of the police of Rome",
     "nl_NL": "_Governatore_ {gouverneur} van Rome, vice-camerlengo van de Rooms-Katholieke Kerk en directeur-generaal van de politie van Rome"
+  },
+  "Governatore e comandante della divisione militare di Genova": {
+    "en_GB": "Governor and commander of the military division of Genoa",
+    "nl_NL": "Gouverneur and commandant van de militaire divisie van Genua"
   },
   "Governatore facente funzione del Granducato del Lussemburgo per il Re dei Paesi Bassi": {
     "en_GB": "Acting governor of the Grand Duchy of Luxembourg for the King of the Netherlands",
@@ -1376,10 +1392,6 @@
     "en_GB": "Secretary of State for War and the Colonies of the United Kingdom",
     "nl_NL": "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk"
   },
-  "Segretario della Legazione del Regno del Belgio a Roma": {
-    "en_GB": "Secretary of the Legation of the Kingdom of Belgium in Rome",
-    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk België in Rome"
-  },
   "Segretario della Legazione del Regno dei Paesi Bassi a Parigi": {
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Paris",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Parijs"
@@ -1391,6 +1403,10 @@
   "Segretario della Legazione del Regno dei Paesi Bassi a Torino": {
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Turin",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Turijn"
+  },
+  "Segretario della Legazione del Regno del Belgio a Roma": {
+    "en_GB": "Secretary of the Legation of the Kingdom of Belgium in Rome",
+    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk België in Rome"
   },
   "Segretario della Legazione del Regno di Hannover a Roma": {
     "en_GB": "Secretary of the Legation of the Kingdom of Hanover in Rome",
