@@ -4,9 +4,9 @@ import os
 import re
 from typing import Literal
 
-from openpyxl import load_workbook
 from data_parsing import name_string
 from date_functions import create_document_date
+from openpyxl import load_workbook
 from typing_utils import (
     IndividualsDictCleaned,
     TranslationDictCleaned,
@@ -35,13 +35,11 @@ def fill_in_xlsx(
     workbook = load_workbook(f"{directory_name}/{file_name}")
     for row in workbook[workbook.sheetnames[0]].iter_rows():
         if row[1].value is not None:
-            date = create_document_date(row)
+            date = create_document_date(row, file_name)
             line = re.split(r"( |\.|,|\(|\))", row[1].value)
             for index, word in enumerate(line):
                 if word.startswith("$"):
-                    line[index] = name_string(
-                        individuals[word], date, translations, localization
-                    )
+                    line[index] = name_string(individuals[word], date, translations, localization)
             line_str = "".join(line)
 
             # Clean up string
