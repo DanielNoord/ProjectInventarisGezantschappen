@@ -110,7 +110,8 @@ Programming tasks:
 |Done|Person|Task|
 |:---|:---|:---
 ||Daniël| Explore use of [`PNV`](https://www.nationaalarchief.nl/archiveren/nieuws/person-name-vocabulary-nu-beschikbaar)
-||Daniël| Create integration with `WikiData` person database
+|x|Daniël| Create integration with `WikiData` person database
+||Daniël| Finish integration with `WikiData` person database
 ||Daniël| Explore integration with `SBN/ICCU` person database
 ||Daniël| Explore integration with `Culture Italia` person database
 ||Daniël| Explore integration with `ISNI` person database
