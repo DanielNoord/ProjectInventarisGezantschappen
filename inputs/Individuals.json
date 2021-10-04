@@ -2169,7 +2169,7 @@
     "name": "Giovanni Antonio Luigi",
     "person_type": 1,
     "place_of_birth": "Torino",
-    "place_of_death": "Trebiolo",
+    "place_of_death": "Trobiolo",
     "sources": [
       "Leuzzi, Maria Fubini, 'Cibrario, Luigi', in: Dizionario Biografico degli Italiani. Volume 25 (Rome, 1981), found on: https://www.treccani.it/enciclopedia/luigi-cibrario_(Dizionario-Biografico)",
       "Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), 16"
@@ -4729,6 +4729,37 @@
     "surname": "Larraín Moxó",
     "titles": [["marchese", null]]
   },
+  "$Launay": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1786-10-06",
+    "date_of_death": "1850-02-21",
+    "functions": [
+      [
+        "Governatore e comandante della divisione militare di Genova",
+        "1848-09-22/1948-12-22"
+      ],
+      [
+        "Ministro degli Affari Esteri del Regno di Sardegna",
+        "1849-03-27/1849-05-07"
+      ],
+      [
+        "Presidente del Consiglio dei Ministri del Regno di Sardegna",
+        "1849-03-27/1849-05-07"
+      ]
+    ],
+    "images": [""],
+    "name": "Claudio Gabriele",
+    "person_type": 1,
+    "place_of_birth": "Duingt",
+    "place_of_death": "Torino",
+    "sources": [
+      "Testore, Paola Casana, 'De Launay, Gabriele', in: Dizionario Biografico degli Italiani. Volume 36 (Rome, 1988), found on: https://www.treccani.it/enciclopedia/gabriele-de-launay_(Dizionario-Biografico)",
+      "'De Launay Gabriele', a cura dell'Archivio Storico del Senato della Repubblicaa, found on: https://notes9.senato.it/Web/senregno.NSF/d7aba38662bfb3b8c125785e003c4334/5568cd458e00085dc1257069003186a8?OpenDocument"
+    ],
+    "surname": "Launay",
+    "titles": [["Cav."], ["Conte", "1848/"]]
+  },
   "$Laureani": {
     "comment": "",
     "comment_daniel": "",
@@ -6469,6 +6500,30 @@
     "surname": "Novelli",
     "titles": []
   },
+  "$Noyer": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Segretario della Legazione del Regno del Belgio a Roma", null],
+      [
+        "Consigliere e incaricato d'affari della Legazione del Regno del Belgio a Roma",
+        null
+      ]
+    ],
+    "images": [""],
+    "name": "Prospero",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Inventario: Chiesa e Fondazione Reale Belga 'San Giuliano dei Fiamminghi' a Roma, Johan Ickx e Marco Pizzo (ed.) (Gangemi Editore SpA: Roma, 2016), 24",
+      "Gaetano, Frascarelli, Iscrizioni Francesi e Belghe, le quali esistono in diversi luoghi di Roma, vol. I (Roma, 1870), 659"
+    ],
+    "surname": "Noyer",
+    "titles": [["cav."]]
+  },
   "$Odescalchi": {
     "comment": "",
     "comment_daniel": "",
@@ -7086,7 +7141,7 @@
     "images": [""],
     "name": "Giovanni",
     "person_type": 1,
-    "place_of_birth": "San Martino in Poggio",
+    "place_of_birth": "Brisighella",
     "place_of_death": "Parigi",
     "sources": [
       "Fruci, Gian Luca, 'Pianori, Giovanni ', in: Dizionario Biografico degli Italiani. Volume 83 (Rome, 2015), found on: https://www.treccani.it/enciclopedia/giovanni-pianori_(Dizionario-Biografico)"
@@ -8947,6 +9002,30 @@
     ],
     "surname": "Sturbinetti",
     "titles": [["avv.", null]]
+  },
+  "$Targioni": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Console del Regno delle Due Sicilie a Costantinopoli", null],
+      [
+        "Direttore del Ministero degli Affari Esteri del Regno delle Due Sicilie",
+        null
+      ]
+    ],
+    "images": [""],
+    "name": "Edoardo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Archivio di Stato di Napli, 'Napoli e il Mediterraneo islamico nei documenti del Ministero degli affari esteri (1734 - 1860)', collocazione 4546",
+      "Collezione delle leggi e de' decreti reali del Regno delle Due Sicilie (Napoli, 1849), 45"
+    ],
+    "surname": "Targioni",
+    "titles": [["card.", "1868-03-13"]]
   },
   "$Tauffkirchen": {
     "comment": "",

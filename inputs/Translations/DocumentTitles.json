@@ -560,6 +560,10 @@
     "en_GB": "Letter to \\2 with attached letter from \\4",
     "nl_NL": "Brief aan \\2 met bijgesloten brief van \\4"
   },
+  "Lettera (a|al) (\\$\\w+) con memoria su (\\$\\w+)$": {
+    "en_GB": "Letter to \\2 with memorandum about \\3",
+    "nl_NL": "Brief aan \\2 met memorandum over \\3"
+  },
   "Lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Letter to \\2",
     "nl_NL": "Brief aan \\2"
@@ -1471,6 +1475,10 @@
   "Trascrizione di lettere (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
     "en_GB": "Transcriptions of letters to \\2 and to \\4",
     "nl_NL": "Transcripties van brieven aan \\2 en aan \\4"
+  },
+  "Trascrizione di un appello al popolo Olandese$": {
+    "en_GB": "Transcription of an appeal to the Dutch people",
+    "nl_NL": "Vertaling van een appel aan het Nederlandse volk"
   },
   "Trascrizione di un proclama del Comitato Italiano al Popolo della Romagna$": {
     "en_GB": "Transcription of a proclamation of the Italian Committee to the People of the Romagna",
