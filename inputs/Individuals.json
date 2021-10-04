@@ -1,5 +1,4 @@
 {
-    "$schema": "../static/JSON/Individuals.json",
     "$Aberdeen": {
         "comment": "",
         "comment_daniel": "",
@@ -10351,6 +10350,31 @@
         ],
         "wikidata:id": null
     },
+    "$Rap": {
+        "comment": "",
+        "comment_daniel": "",
+        "date_of_birth": "",
+        "date_of_death": "",
+        "functions": [
+            [
+                "Console del Regno dei Paesi Bassi a Palermo",
+                null
+            ]
+        ],
+        "images": [
+            ""
+        ],
+        "name": "Giuseppe",
+        "person_type": 1,
+        "place_of_birth": "",
+        "place_of_death": "",
+        "sources": [
+            "Almanacco reale del regno delle Due Sicilie (Napoli, 1855), 102"
+        ],
+        "surname": "Rap",
+        "titles": [],
+        "wikidata:id": null
+    },
     "$Raynaud": {
         "comment": "",
         "comment_daniel": "",
@@ -13934,5 +13958,6 @@
         "surname": "Zwijsen",
         "titles": [],
         "wikidata:id": null
-    }
+    },
+    "$schema": "../static/JSON/Individuals.json"
 }
