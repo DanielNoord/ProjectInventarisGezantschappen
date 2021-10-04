@@ -108,6 +108,17 @@
             "$ref": "#/definitions/function-title"
           },
           "type": "array"
+        },
+        "wikidata:id": {
+          "description": "ID of indidivual on WikiData",
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
         }
       },
       "required": [
@@ -123,7 +134,8 @@
         "comment_daniel",
         "person_type",
         "sources",
-        "images"
+        "images",
+        "wikidata:id"
       ],
       "type": "object"
     }
