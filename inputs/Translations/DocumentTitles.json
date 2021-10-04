@@ -1048,6 +1048,10 @@
     "en_GB": "Explanatory notes on diplomatic documents",
     "nl_NL": "Aanvullende notities over diplomatieke documenten"
   },
+  "Note informative sulla sostituzione (di|del|della) (\\$\\w+) con (\\$\\w+)$": {
+    "en_GB": "Information notes on the substitution of \\2 with \\3",
+    "nl_NL": "Informatienotities over de vervanging van \\2 met \\3"
+  },
   "Note manoscritte$": {
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven nota's"
