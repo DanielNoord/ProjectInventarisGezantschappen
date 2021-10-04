@@ -557,7 +557,7 @@
       "Rooseboom, W., 'Baud, Jean Chrétien baron', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 1 (Leiden, 1911)"
     ],
     "surname": "Baud",
-    "titles": [["barone", "1858"]],
+    "titles": [["barone", "1858/"]],
     "wikidata:id": "Q2334397"
   },
   "$Bazini": {
@@ -1185,7 +1185,7 @@
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 671"
     ],
     "surname": "Borromeo Arese",
-    "titles": [["card.", "1868-03-13"]],
+    "titles": [["card.", "1868-03-13/1881-11-30"]],
     "wikidata:id": "Q665388"
   },
   "$Bosch": {
@@ -6558,7 +6558,7 @@
       "Veca, Ignazio, 'Morichini, Carlo Luigi', in: Dizionario Biografico degli Italiani. Volume 76 (Rome, 2012), found on: https://www.treccani.it/enciclopedia/carlo-luigi-morichini_%28Dizionario-Biografico%29/"
     ],
     "surname": "Morichini",
-    "titles": [["card.", "1852-03-15"]],
+    "titles": [["card.", "1852-03-15/1879-04-26"]],
     "wikidata:id": "Q1042264"
   },
   "$Mulken": {
@@ -7879,6 +7879,24 @@
     "titles": [["conte", null]],
     "wikidata:id": "Q2163341"
   },
+  "$Rap": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi a Palermo", null]],
+    "images": [""],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Almanacco reale del regno delle Due Sicilie (Napoli, 1855), 102"
+    ],
+    "surname": "Rap",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Raynaud": {
     "comment": "",
     "comment_daniel": "",
@@ -8487,7 +8505,7 @@
         "Prefetto dell'Economia della Congregazione di Propaganda Fide",
         "1863-08-29/"
       ],
-      ["Prefetto del Supremo Tribunale della Segnatura Apostolica", "1867"]
+      ["Prefetto del Supremo Tribunale della Segnatura Apostolica", "1867/"]
     ],
     "images": [""],
     "name": "Carlo",
@@ -9509,7 +9527,7 @@
       "Collezione delle leggi e de' decreti reali del Regno delle Due Sicilie (Napoli, 1849), 45"
     ],
     "surname": "Targioni",
-    "titles": [["card.", "1868-03-13"]],
+    "titles": [["card.", "1868-03-13/"]],
     "wikidata:id": null
   },
   "$Tauffkirchen": {
