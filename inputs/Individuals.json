@@ -18,7 +18,7 @@
     ],
     "surname": "Hamilton-Gordon",
     "titles": [["IV conte di Aberdeen", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q24631"
   },
   "$Aerssen": {
     "comment": "",
@@ -66,7 +66,7 @@
     ],
     "surname": "Agostini",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3665316"
   },
   "$Albini": {
     "comment": "",
@@ -84,7 +84,7 @@
     ],
     "surname": "Albini",
     "titles": [["contrammiraglio", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3769926"
   },
   "$Alewijn": {
     "comment": "",
@@ -146,7 +146,7 @@
     ],
     "surname": "Altieri",
     "titles": [["card.", "1840-12-14/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q372845"
   },
   "$Ambrosoli": {
     "comment": "Ambrogio Ambrosoli published several works and studies, one of which can be found in the archive. Note has a list of publications.",
@@ -164,7 +164,7 @@
     ],
     "surname": "Ambrosoli",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q96143249"
   },
   "$Amerongen": {
     "comment": "",
@@ -204,7 +204,7 @@
     ],
     "surname": "Amici",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q55225076"
   },
   "$Annibaldi": {
     "comment": "",
@@ -249,7 +249,7 @@
     ],
     "surname": "Antonelli",
     "titles": [["card.", "1847-06-11/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q712085"
   },
   "$ArataG": {
     "comment": "",
@@ -333,7 +333,7 @@
     ],
     "surname": "von Auersperg",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q19932698"
   },
   "$Azeglio": {
     "comment": "",
@@ -357,7 +357,7 @@
     ],
     "surname": "d’Azeglio",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q469134"
   },
   "$Bake": {
     "comment": "",
@@ -381,7 +381,7 @@
     ],
     "surname": "Bake",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q21274944"
   },
   "$Baldini": {
     "comment": "",
@@ -422,7 +422,7 @@
     ],
     "surname": "Baraguey d’Hilliers",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q115995"
   },
   "$Baratta": {
     "comment": "",
@@ -479,7 +479,7 @@
       ["comandante", "1848/1850"],
       ["marchese", "1850-03/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q107422019"
   },
   "$Barnabo": {
     "comment": "",
@@ -502,7 +502,7 @@
     ],
     "surname": "Barnabò",
     "titles": [["card.", "1856-06-16/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2832751"
   },
   "$Bartolini": {
     "comment": "",
@@ -526,7 +526,7 @@
     ],
     "surname": "Bartolini",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q741956"
   },
   "$Baud": {
     "comment": "",
@@ -558,7 +558,7 @@
     ],
     "surname": "Baud",
     "titles": [["barone", "1858"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2334397"
   },
   "$Bazini": {
     "comment": "",
@@ -592,7 +592,7 @@
     ],
     "surname": "de Beaumont",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2958342"
   },
   "$Becker": {
     "comment": "",
@@ -632,7 +632,7 @@
     ],
     "surname": "Bedini",
     "titles": [["vescovo", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q263408"
   },
   "$BediniGi": {
     "comment": "",
@@ -673,7 +673,7 @@
     ],
     "surname": "de Beeckman",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2557537"
   },
   "$Belgrado": {
     "comment": "",
@@ -695,7 +695,7 @@
     ],
     "surname": "Belgrado",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q60999023"
   },
   "$Bentinck": {
     "comment": "",
@@ -719,7 +719,7 @@
     ],
     "surname": "Bentinck van Nijenhuis",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2589556"
   },
   "$Benvenuti": {
     "comment": "",
@@ -764,7 +764,7 @@
     ],
     "surname": "Berardi",
     "titles": [["vescovo", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1079640"
   },
   "$Beraudo": {
     "comment": "",
@@ -791,7 +791,7 @@
   },
   "$Berlijn": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "See extra data on wikidata. Should be findable https://www.wikidata.org/wiki/Q19997969",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -800,7 +800,7 @@
     ],
     "images": [""],
     "name": "Anton",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -808,7 +808,7 @@
     ],
     "surname": "Berlijn",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q19997969"
   },
   "$Bernadotte": {
     "comment": "",
@@ -824,7 +824,7 @@
     "sources": ["https://www.britannica.com/biography/Charles-XV"],
     "surname": "Bernadotte",
     "titles": [["principe", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q52925"
   },
   "$Bernaroli": {
     "comment": "",
@@ -882,7 +882,7 @@
     ],
     "surname": "Berti",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3839331"
   },
   "$Bessone": {
     "comment": "",
@@ -961,13 +961,13 @@
     "functions": [],
     "images": ["https://rkd.nl/explore/images/257162"],
     "name": "Otto",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [""],
     "surname": "von Bismarck",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q8442"
   },
   "$Bixio": {
     "comment": "From Koelman: Bixio, Nino (1821-1873) was een Italiaans militair en patriot en een van de meest prominente figuren van het Risorgimento. Na een opleiding bij de Piemontese marine trad hij in 1846 toe tot de Giovine Italia. Hij diende tijdens de Eerste Italiaanse Onafhankelijkheidsoorlog en werd kapitein onder Garibaldi tijdens de verdediging van de Romeinse Republiek, waarbij hij het bataljon van majoor Picard gevangennam (door K. aan Lagye toegeschreven). Daarna nam hij deel aan alle belangrijke militaire operaties tot en met de inname van Rome in 1870. Vooral zijn meedogenloze optreden op Sicilië tijdens Garibaldi expeditie in 1860 maakte hem berucht. B.: Bartoccini (1968); Staglieno (1973); Milani (2011).",
@@ -990,7 +990,7 @@
     ],
     "surname": "Bixio",
     "titles": [["tenente generale", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q699354"
   },
   "$Blochausen": {
     "comment": "",
@@ -1019,7 +1019,7 @@
     ],
     "surname": "von Blochausen",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1960296"
   },
   "$Boch": {
     "comment": "",
@@ -1039,7 +1039,7 @@
     ],
     "surname": "Boch Buschmann",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1321804"
   },
   "$Bofondi": {
     "comment": "",
@@ -1064,7 +1064,7 @@
     ],
     "surname": "Bofondi",
     "titles": [["card.", "1846-12-21/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q1235067"
   },
   "$Bonaparte": {
     "comment": "From Koelman: Bonaparte, Charles Lucien, prins van Canino (1803-1857), zoon van Napoleons broer Lucien Bonaparte, natuurwetenschapper (o.a. zoöloog, ornitholoog) en radicaaldemocratisch patriot. Hij stond aan de wieg van de nationale wetenschapscongressen die vanaf 1839 in Italië werden gehouden. Als lid en vice-voorzitter van de grondwetgevende vergadering in Rome verklaarde B. zich direct voorstander van de republiek, zijns inziens de opmaat tot een Italiaanse republiek. Na de Franse inname van Rome vluchtte bij naar Nederland, waar hij samenwerkte met de directeur Temminck en vice-directeur Schlegel van het Rijksmuseum voor Natuurlijke Historie in Leiden. Hij publiceerde er belangrijk natuurwetenschappelijk werk en in 1857 een bundeling van zijn bijdragen als gedeputeerde in Rome: Discours, allocutions et opinions dans le Conseil des députés et l'Assemblée constituante de Rome. B.: Bartoccini (1949); Bartoccini (1969); Casanova (1999); Tyson Stroud (2000).",
@@ -1086,7 +1086,7 @@
     ],
     "surname": "Bonaparte",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q7721"
   },
   "$Boni": {
     "comment": "",
@@ -1104,7 +1104,7 @@
     ],
     "surname": "De Boni",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3745170"
   },
   "$Borea": {
     "comment": "",
@@ -1161,7 +1161,7 @@
     ],
     "surname": "Borgatti",
     "titles": [["Cav.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3749656"
   },
   "$Borromeo": {
     "comment": "",
@@ -1186,7 +1186,7 @@
     ],
     "surname": "Borromeo Arese",
     "titles": [["card.", "1868-03-13"]],
-    "wikidata:id": null
+    "wikidata:id": "Q665388"
   },
   "$Bosch": {
     "comment": "Louis Bosch represented a lady referred to as 'the widow Henriette Natalie Sturbaut' in the dispute surrounding the inheritance of Francesco Cornelio Verbruggen.",
@@ -1236,7 +1236,7 @@
     ],
     "surname": "Bouillet",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3292154"
   },
   "$BourbonFeI": {
     "comment": "",
@@ -1254,7 +1254,7 @@
     ],
     "surname": "di Borbone-Due Sicilie",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Ferdinando I"
   },
   "$BourbonFeII": {
     "comment": "",
@@ -1272,7 +1272,7 @@
     ],
     "surname": "di Borbone-Due Sicilie",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q332717"
   },
   "$BourbonKF": {
     "comment": "",
@@ -1290,7 +1290,7 @@
     ],
     "surname": "di Borbone-Due Sicilie",
     "titles": [["principe di Capua", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1748721"
   },
   "$BourbonKL": {
     "comment": "",
@@ -1311,7 +1311,7 @@
     ],
     "surname": "di Borbone-Parma",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q352200"
   },
   "$BourbonLM": {
     "comment": "",
@@ -1329,7 +1329,7 @@
     ],
     "surname": "di Borbone-Francia",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q236566"
   },
   "$BourbonlFaII": {
     "comment": "",
@@ -1345,7 +1345,7 @@
     "sources": [""],
     "surname": "di Borbone-Due Sicilie",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q206223"
   },
   "$Bouteneff": {
     "comment": "His name in Cyrillic script is 'Аполлинарий Петрович Бутенёв'.",
@@ -1404,7 +1404,7 @@
     ],
     "surname": "Bresciani Borsa",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3619306"
   },
   "$Briennen": {
     "comment": "",
@@ -1455,7 +1455,7 @@
     "sources": [""],
     "surname": "Brizi (Aretino)",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q95244356"
   },
   "$Brock": {
     "comment": "",
@@ -1495,7 +1495,7 @@
     ],
     "surname": "Brocx",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2106436"
   },
   "$Brouckere": {
     "comment": "",
@@ -1520,7 +1520,7 @@
     ],
     "surname": "de Brouckère",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q527479"
   },
   "$Brunelli": {
     "comment": "",
@@ -1539,7 +1539,7 @@
     ],
     "surname": "Brunelli",
     "titles": [["card.", "1852-03-15/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q1080267"
   },
   "$Buccianti": {
     "comment": "Alessandro Buccianti was also consul of several other countries.",
@@ -1588,7 +1588,7 @@
       ["duca di Sermoneta", null],
       ["principe di Teano", null]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q969336"
   },
   "$Caffi": {
     "comment": "From Koelman: Caffi, Ippolito (1809-1866), beroemd Italiaanse veduteschilder, actief in Rome tussen 1832 en 1848 en 1855-1858. Hij schilderde er o.a. voorstellingen van de campagna en vele – ook nachtelijke - stadstaferelen (het carnaval, vuurwerk, het kunstenaarsfeest in Cervara). Tevens maakte hij naam als patriot: in 1848 streed hij in Noord-Italië (Friuli) tegen Oostenrijk en ontsnapte als krijgsgevangene. Direct voor vertrek uit Rome werd hij geregistreerd bij de Romeinse burgerwacht (23 maart 1848) in de eerste compagnie van het vierde bataljon (Campo Marzo) Guardia Civica. In 1860 werd hij door de Oostenrijkers gevangengezet wegens vermeende subversieve activiteiten; in 1866 stierf hij aan boord van een Italiaans oorlogsschip tijdens de zgn. Derde Italiaanse Onafhankelijkheidsoorlog (1866). C. had zijn atelier in de Via dei due Macelli 48. B.: AGC (1847-1850) b. 150, matr.nr.55. Caffi (2005) Ippolito Caffi (2016).",
@@ -1606,7 +1606,7 @@
     ],
     "surname": "Caffi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1059376"
   },
   "$Cagiano": {
     "comment": "",
@@ -1627,7 +1627,7 @@
       ["conte", null],
       ["card.", "1844-01-22/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q2254673"
   },
   "$Camous": {
     "comment": "",
@@ -1668,7 +1668,7 @@
     ],
     "surname": "del Campillo",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q5576683"
   },
   "$Canera": {
     "comment": "",
@@ -1705,7 +1705,7 @@
     ],
     "surname": "von Canitz und Dallwitz",
     "titles": [["Freiherr", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q881567"
   },
   "$CanitzIA": {
     "comment": "",
@@ -1803,7 +1803,7 @@
     ],
     "surname": "Carafa di Traetto",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q105038323"
   },
   "$Carneglia": {
     "comment": "",
@@ -1868,7 +1868,7 @@
     ],
     "surname": "Del Carretto",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3750610"
   },
   "$Cartenstat": {
     "comment": "",
@@ -1932,7 +1932,7 @@
     ],
     "surname": "Casanelli d’Istria",
     "titles": [["vescovo", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3535645"
   },
   "$CasarettoG": {
     "comment": "",
@@ -1997,7 +1997,7 @@
     ],
     "surname": "del Castillo y Ayensa",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q22964525"
   },
   "$Castorina": {
     "comment": "",
@@ -2031,7 +2031,7 @@
     ],
     "surname": "Cavaignac",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q379702"
   },
   "$Cavalieri": {
     "comment": "Giuseppe Birigazzi and Giuseppe Cavalieri were convicted for inciting a revolt in Bologna. The notice of their conviction is included in the archive.",
@@ -2082,7 +2082,7 @@
     ],
     "surname": "Benso",
     "titles": [["conte di Cavour", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q166092"
   },
   "$Celesti": {
     "comment": "",
@@ -2212,7 +2212,7 @@
     ],
     "surname": "van der Chijs",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q7192815"
   },
   "$Chimay": {
     "comment": "",
@@ -2240,7 +2240,7 @@
       ["principe di Caraman", null],
       ["principe di Chimay", null]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q2801772"
   },
   "$Ciacchi": {
     "comment": "",
@@ -2259,7 +2259,7 @@
     ],
     "surname": "Ciacchi",
     "titles": [["card.", "1838-02-12/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2739201"
   },
   "$Cibrario": {
     "comment": "",
@@ -2283,17 +2283,17 @@
     ],
     "surname": "Cibrario",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1131525"
   },
   "$ClementeXII": {
     "comment": "",
-    "comment_daniel": "ms295. Lijkt mij logischer als het Clemens XIII is",
+    "comment_daniel": "",
     "date_of_birth": "1652-04-07",
     "date_of_death": "1740-02-06",
     "functions": [],
     "images": [""],
     "name": "",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "Firenze",
     "place_of_death": "Roma",
     "sources": [
@@ -2301,7 +2301,7 @@
     ],
     "surname": "Clemente XII",
     "titles": [["Papa", "1730-07-12/1740-02-06"]],
-    "wikidata:id": null
+    "wikidata:id": "Q133108"
   },
   "$Codeglia": {
     "comment": "",
@@ -2321,7 +2321,7 @@
   },
   "$Collegno": {
     "comment": "",
-    "comment_daniel": "",
+    "comment_daniel": "More info on wikidata, see https://www.wikidata.org/wiki/Q3840055",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -2336,7 +2336,7 @@
     ],
     "images": [""],
     "name": "Luigi Provana",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -2344,7 +2344,7 @@
     ],
     "surname": "di Collegno",
     "titles": [["Cav.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3840055"
   },
   "$Colombo": {
     "comment": "",
@@ -2387,7 +2387,7 @@
     ],
     "surname": "de Coninck",
     "titles": [["Cav.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2630450"
   },
   "$Conti": {
     "comment": "",
@@ -2427,7 +2427,7 @@
     ],
     "surname": "Corboli Bussi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2630450"
   },
   "$Cornelissen": {
     "comment": "",
@@ -2469,7 +2469,7 @@
     ],
     "surname": "Corsini",
     "titles": [["duca di Casigliano", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q87718105"
   },
   "$CorsiniN": {
     "comment": "",
@@ -2490,7 +2490,7 @@
       ["principe", null],
       ["marchese di Lajatico", null]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q64606000"
   },
   "$Cortese": {
     "comment": "",
@@ -2573,7 +2573,7 @@
     ],
     "surname": "de Courten",
     "titles": [["colonnello", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3930205"
   },
   "$Cremers": {
     "comment": "",
@@ -2604,7 +2604,7 @@
     ],
     "surname": "Cremers",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2171521"
   },
   "$Crisafulli": {
     "comment": "",
@@ -2640,7 +2640,7 @@
     ],
     "surname": "Crispi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q332626"
   },
   "$Dabormida": {
     "comment": "Giuseppe Dabormida held several other (ministerial) positions within the Kingdom of Sardinia.",
@@ -2665,7 +2665,7 @@
     ],
     "surname": "Dabormida",
     "titles": [["maggior generale", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3108020"
   },
   "$Dandini": {
     "comment": "From Koelman: Dandini de Sylva, graaf Ferdinando (geb. 1802) was van 1851-1852 assessor en van 1852-1865 assessor-generaal van de pauselijke politie, onder directeur-generaal Mons. Antonio Matteucci. Hij hield kantoor in Palazzo Camerale, Via Ripetta 223. Dandini was bijzonder ongeliefd bij iedereen met liberale sentimenten, getuige ook zijn bijnaam ‘de Hyena’. B.: Almanacco (1855) 100; Lodolini Tupputi (1970) 40; Rinaldi (1992) 73-74; Veca (2020).",
@@ -2732,7 +2732,7 @@
     ],
     "surname": "Del Drago Biscia Gentili",
     "titles": [["principe di Mazzano ed Antuni", "1832-05-19/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q44739914"
   },
   "$DoderoC": {
     "comment": "",
@@ -2898,7 +2898,7 @@
     ],
     "surname": "von Elgger",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q58668774"
   },
   "$Elout": {
     "comment": "",
@@ -2926,7 +2926,7 @@
     ],
     "surname": "Elout",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1808871"
   },
   "$Emarese": {
     "comment": "",
@@ -2977,7 +2977,7 @@
     ],
     "surname": "Enslie",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2048931"
   },
   "$Escherich": {
     "comment": "",
@@ -3022,7 +3022,7 @@
     ],
     "surname": "Esterházy de Galantha",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1947900"
   },
   "$Estorff": {
     "comment": "",
@@ -3042,7 +3042,7 @@
     ],
     "surname": "von Estorf",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q30132320"
   },
   "$Everard": {
     "comment": "",
@@ -3087,7 +3087,7 @@
     ],
     "surname": "De Fabris",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1528743"
   },
   "$Faens": {
     "comment": "",
@@ -3138,7 +3138,7 @@
     ],
     "surname": "Fagel",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2157077"
   },
   "$Farnese": {
     "comment": "",
@@ -3156,7 +3156,7 @@
     ],
     "surname": "di Parma e Piacenza",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q229867"
   },
   "$Faubert": {
     "comment": "",
@@ -3179,7 +3179,7 @@
     ],
     "surname": "Faubert",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3384967"
   },
   "$Federici": {
     "comment": "",
@@ -3197,7 +3197,7 @@
     "sources": ["https://storia.camera.it/deputato/nicolo-federici/"],
     "surname": "Federici",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q63958006"
   },
   "$Felici": {
     "comment": "",
@@ -3231,7 +3231,7 @@
     ],
     "surname": "Fergola",
     "titles": [["generale", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3759805"
   },
   "$Ferrante": {
     "comment": "",
@@ -3335,7 +3335,7 @@
     ],
     "surname": "Ferretti",
     "titles": [["card.", "1838-11-30/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2003775"
   },
   "$FerrettiGi": {
     "comment": "",
@@ -3378,7 +3378,7 @@
     ],
     "surname": "Ferrieri",
     "titles": [["vescovo", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2707662"
   },
   "$Firoi": {
     "comment": "",
@@ -3499,7 +3499,7 @@
     ],
     "surname": "Fransoni",
     "titles": [["card.", "1826-10-02/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q1522103"
   },
   "$Fulcheri": {
     "comment": "",
@@ -3569,7 +3569,7 @@
     ],
     "surname": "Gallenga",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q204932"
   },
   "$Galletti": {
     "comment": "",
@@ -3592,7 +3592,7 @@
     ],
     "surname": "Galletti",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1119944"
   },
   "$Galli": {
     "comment": "",
@@ -3615,7 +3615,7 @@
     ],
     "surname": "Galli",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q15629084"
   },
   "$Gamberini": {
     "comment": "",
@@ -3624,7 +3624,7 @@
     "date_of_death": "1841-04-25",
     "functions": [],
     "images": [""],
-    "name": "Anton Domenico",
+    "name": "Antonio Domenico",
     "person_type": 1,
     "place_of_birth": "Imola",
     "place_of_death": "Roma",
@@ -3634,7 +3634,7 @@
     ],
     "surname": "Gamberini",
     "titles": [["card.", "1828-12-15/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q1079554"
   },
   "$Gandolfo": {
     "comment": "",
@@ -3687,7 +3687,7 @@
     ],
     "surname": "Garibaldi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q15629084"
   },
   "$Gazzelli": {
     "comment": "",
@@ -3711,7 +3711,7 @@
     ],
     "surname": "Gazelli di Rossana",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q98092782"
   },
   "$Geloes": {
     "comment": "",
@@ -3766,7 +3766,7 @@
     ],
     "surname": "Gemeau",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2871356"
   },
   "$Gericke": {
     "comment": "",
@@ -3793,7 +3793,7 @@
     ],
     "surname": "Gericke van Herwijnen",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1871695"
   },
   "$Gerra": {
     "comment": "",
@@ -3819,7 +3819,7 @@
     ],
     "surname": "Gerra",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q55228124"
   },
   "$Getaz": {
     "comment": "",
@@ -3873,7 +3873,7 @@
     ],
     "surname": "Gevers van Endegeest",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2745527"
   },
   "$Gioberti": {
     "comment": "From Koelman: Gioberti, Vincenzo (1801-1852) katholiek-liberale theoloog, filosoof, schrijver en patriot. Vanaf 1833 verbleef hij jarenlang in ballingschap in Brussel en Parijs, waar hij ook zijn belangrijkste werken schreef. In Del primato civile e morale degli italiani (1843) lanceerde hij de zogenaamde neowelfische ideologie, waarin werd bepleit dat de paus de natuurlijke leider van een nieuw te vormen Italiaanse statenbond diende te zijn. In zijn Gesuita moderno trok hij van leer tegen misstanden in de kerk en tegen de groeiende invloed van de jezuïeten, waarna het boek op de Index kwam te staan. In 1848 keerde G. naar Italië terug en maande hij de revolutionairen tot gematigdheid. In Turijn werd hij parlementsvoorzitter en van december 1848 tot februari 1849 eerste minister. Toen koning Carlo Alberto even later van het toneel verdween, moest ook Gioberti het veld ruimen. Hij sleet enkele maanden als ambassadeur in Parijs en wijdde zich daarna aan het schrijverschap (Del rinnovamento civile d’Italia, 1851). B.: Rumi (1999); Traniello (2001).",
@@ -3900,7 +3900,7 @@
     ],
     "surname": "Gioberti",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q378706"
   },
   "$Gizzi": {
     "comment": "From Koelman: Gizzi, Tommaso Pasquale (1787-1849), curiekardinaal en staatssecretaris (1846-1847), populair vanwege zijn reputatie als hervormer, die o.a. te danken was aan de loftuitingen door de prominente liberaal Massimo D’Azeglio in Degli ultimi casi di Romagna. De benoeming tot staatssecretaris van de ‘liberaal’ Gizzi door paus Pius IX (8 augustus 1846) droeg bij aan de indruk dat ook de nieuwe paus een liberaal was. Op 17 juli 1847 trad Gizzi af, in de nasleep van de allocutie van Pius IX van 29 april. B.: Monsagrati (2001); Boutry (2002) 395-397; Leblanc (2019) 427-430.",
@@ -3926,7 +3926,7 @@
     ],
     "surname": "Gizzi",
     "titles": [["card.", "1844-01-22/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q568067"
   },
   "$Goes": {
     "comment": "",
@@ -3951,7 +3951,7 @@
     ],
     "surname": "van der Goes van Dirxland",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2739961"
   },
   "$Gojon": {
     "comment": "",
@@ -3969,7 +3969,7 @@
     ],
     "surname": "de Gojon",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2958227"
   },
   "$Goltstein": {
     "comment": "",
@@ -3993,7 +3993,7 @@
     ],
     "surname": "van Goltstein",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1681931"
   },
   "$Goltz": {
     "comment": "",
@@ -4029,7 +4029,7 @@
     ],
     "surname": "Gonzaga",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3610051"
   },
   "$GregorioXVI": {
     "comment": "",
@@ -4047,7 +4047,7 @@
     ],
     "surname": "Gregorio XVI",
     "titles": [["Papa", "1831-02-02/1846-06-01"]],
-    "wikidata:id": null
+    "wikidata:id": "Q43734"
   },
   "$Grey": {
     "comment": "",
@@ -4075,7 +4075,7 @@
       ["Lord", null],
       ["3° Earl Grey", null]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q320291"
   },
   "$Grooff": {
     "comment": "The appointment and actions of Jacobus Grooff in Batavia led to some issues with the local government and bishops. As a result the local Dutch governor banned him from Indonesia, which led to some correspondence between the Holy See and the Dutch Kingdom. Eventually Grooff was sent to Suriname and a new vicar was sent to Batavia. This 'Groof Affair' is discussed in van Santen (see note).",
@@ -4095,7 +4095,7 @@
     ],
     "surname": "Grooff",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q11715799"
   },
   "$Guerra": {
     "comment": "",
@@ -4138,7 +4138,7 @@
     ],
     "surname": "Guerrazzi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q518925"
   },
   "$Guidi": {
     "comment": "",
@@ -4178,7 +4178,7 @@
     ],
     "surname": "Gutiérrez Lozano",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q5750550"
   },
   "$Hall": {
     "comment": "",
@@ -4213,7 +4213,7 @@
     ],
     "surname": "van Hall",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1430171"
   },
   "$Haye": {
     "comment": "",
@@ -4334,7 +4334,7 @@
     ],
     "surname": "Herrera Vélez",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2886118"
   },
   "$Heukensfeldt": {
     "comment": "",
@@ -4430,7 +4430,7 @@
     ],
     "surname": "Huyssen van Kattendijke",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q13737786"
   },
   "$HuyssenWJC": {
     "comment": "",
@@ -4459,7 +4459,7 @@
     ],
     "surname": "Huyssen van Kattendijke",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2547386"
   },
   "$Jacob": {
     "comment": "",
@@ -4499,7 +4499,7 @@
     ],
     "surname": "Jacobini",
     "titles": [["commendatore dell'Ordine di San Gregorio Magno", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3651524"
   },
   "$Jandel": {
     "comment": "",
@@ -4519,7 +4519,7 @@
     ],
     "surname": "Jandel",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3651524"
   },
   "$Jochems": {
     "comment": "The archive contains documents related to his death, inheritance and a dispute between his heirs.",
@@ -4578,7 +4578,7 @@
     ],
     "surname": "d’Orléans",
     "titles": [["principe di Joinville", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q454337"
   },
   "$Jonge": {
     "comment": "",
@@ -4693,7 +4693,7 @@
     ],
     "surname": "Kestner",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q97466"
   },
   "$Kiesch": {
     "comment": "",
@@ -4732,7 +4732,7 @@
     ],
     "surname": "Kiseljov",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q717801"
   },
   "$Koelman": {
     "comment": "From Koelman: Koelman, J(oh)an Hendrik (1820-1887) werd geboren in Den Haag als zoon van een timmerman. Hij ging in de leer bij Cornelis Kruseman en won 1839 de Groote Prijs voor historieschilderkunst van de Amsterdamse academie. Met A. Ehnle reisde hij naar Rome (aankomst 29 september 1840) waar hij, tot ergernis van de Nederlandse ambassadeur en de raad van de Academie, de weg van de genre- en portretkunst insloeg. Als miniaturist kreeg hij weldra opdrachten uit de hoogste kringen (Vosmaer noemt een kopie in grote minatuur op ivoor van Raphaels Transfiguratie, en een Groepsportret van de familie Borghese voor prins Marc Antonio Borghese). Ook na het einde van zijn Nederlandse pensioen (1844) bleef hij in Rome. Eind 1844 werd hij katholiek en trouwde met Enrichetta Fioroni. Bij dat huwelijk ontbrak zijn oudere broer J. Philip, die hem in 1844 naar Rome was gevolgd en met wie hij in onmin was geraakt. Met zijn jongere broer J. Daniël (1831-1857), die vermoedelijk eveneens Italië bezocht, was de verhouding beter (vgl. Koelman 1842). Getuige de Nederlandse ambassadeur was K. fanatiek sympathisant met de Romeinse republiek; of hij inderdaad ook in de burgerwacht diende (zoals zijn broer beweert) is onduidelijk. K. exposeerde meermaals bij de Società degli Amatori e Cultori delle Belle Arti (in 1844 een Keuken van het ziekenhuis in een Capucijnerklooster). Ook in Nederland bleef zijn werk bekend, dankzij reproducties in de Kunstkronijk. Op latere leeftijd stond K. model voor de figuur van Wybrand, laatste exponent van de Hollandse schildersbent in Rome, in C. Vosmaers roman Inwijding (1889). Met uitzondering van een bezoek aan Nederland in 1869 (bezoekersregister Dordrechts Museum 1869, p. 22) bleef hij tot zijn dood in Rome. Hij woonde en werkte eerst aan de Via Sistina 68 en kocht in 1850 een groot woonhuis aan de Via dell’Olmo 57, later uitgebreid met nieuwbouw aan de aangrenzende Via Paolina. K. werd begraven op het Campo Verano. B.: Ehnle (1840-41); Koelman (1842); Donovan, Rome Vol III (1843) 1008; Mercurio (1843) 301; Dubourcq (1843-44) passim; Correspondentie J.F Portaels, passim 1845-70; The Artstical Directory (1856) 65; Vosmaer (1887); Noack (1927) II, 324-325; Hoogewerff, (1933)165-169, 185-193; Reynaerts (2001) 168-169 en passim; Adelaar e.a. (2003) 65 en passim; Montani (2005-2007) 401, 404, 406.",
@@ -4756,7 +4756,7 @@
     ],
     "surname": "Koelman",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q29574935"
   },
   "$Kolb": {
     "comment": "",
@@ -4774,7 +4774,7 @@
     ],
     "surname": "von Kolb",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q18628094"
   },
   "$Koningh": {
     "comment": "",
@@ -4793,7 +4793,7 @@
     ],
     "surname": "de Koningh",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q29556650"
   },
   "$Kornis": {
     "comment": "",
@@ -4829,7 +4829,7 @@
     ],
     "surname": "Kruseman",
     "titles": [["Cav.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2788060"
   },
   "$Kubeck": {
     "comment": "",
@@ -4847,7 +4847,7 @@
     ],
     "surname": "von Kübau",
     "titles": [["Freiherr", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q18511397"
   },
   "$LaTour": {
     "comment": "",
@@ -4894,7 +4894,7 @@
     ],
     "surname": "Lambruschini",
     "titles": [["card.", "1831-09-30/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q584470"
   },
   "$Lanci": {
     "comment": "",
@@ -4936,7 +4936,7 @@
     ],
     "surname": "Lanza",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q674128"
   },
   "$Larrain": {
     "comment": "",
@@ -4959,7 +4959,7 @@
     ],
     "surname": "Larraín Moxó",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q5944825"
   },
   "$Launay": {
     "comment": "",
@@ -4994,7 +4994,7 @@
       ["Cav.", null],
       ["conte", "1848/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q326045"
   },
   "$Laureani": {
     "comment": "",
@@ -5014,7 +5014,7 @@
     ],
     "surname": "Laureani",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q27997017"
   },
   "$Laurent": {
     "comment": "",
@@ -5037,7 +5037,7 @@
     ],
     "surname": "Laurent",
     "titles": [["vescovo", "1839-09-17/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q104739"
   },
   "$Lauro": {
     "comment": "",
@@ -5235,7 +5235,7 @@
     ],
     "surname": "Lightenvelt",
     "titles": [["avv.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1819131"
   },
   "$Limburg": {
     "comment": "",
@@ -5284,7 +5284,7 @@
     ],
     "surname": "van Limburg Stirum Noordwijk",
     "titles": [["conte", "1814-08-24/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2225990"
   },
   "$Lintz": {
     "comment": "",
@@ -5391,7 +5391,7 @@
     ],
     "surname": "Lotsy",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2513943"
   },
   "$Lottum": {
     "comment": "",
@@ -5414,7 +5414,7 @@
     ],
     "surname": "von Wylich und Lottum",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q94924544"
   },
   "$Luciano": {
     "comment": "Has a claim for a sum of money at the Banco di San Giorgio in Genoa. Writes to the Dutch Consulate in hopes of retrieving some of her money. Her case is discussed by Van Santen (see note).",
@@ -5518,7 +5518,7 @@
     ],
     "surname": "Lunati",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3770842"
   },
   "$Lutzow": {
     "comment": "",
@@ -5537,7 +5537,7 @@
     ],
     "surname": "von Lützow",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q15733451"
   },
   "$Maanen": {
     "comment": "",
@@ -5582,7 +5582,7 @@
     ],
     "surname": "Macchi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3852847"
   },
   "$Macioti": {
     "comment": "",
@@ -5660,7 +5660,7 @@
     ],
     "surname": "van der Maesen de Sombreff",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2591912"
   },
   "$Magrini": {
     "comment": "From Koelman: Magrini, Paulo Emilio, of Paul Émile, was vanaf 1837- kanselier en secretaris, van 1851-1855 tevens ‘honorair attaché’ van de Nederlandse Legatie bij de Heilige Stoel en het Koninkrijk Piemonte-Sardinië. Tijdens de republiek, toen Liederkerke naar Gaeta was uitgeweken, bleef M. in Rome en probeerde de ambassadeur van informatie te voorzien. Koelman kenschetst hem als een uitgesproken clerikaal. Roncalli meldt dat M. met o.a. Nardoni en Minardi werd genoemd als een ‘beruchte spion’ in een door de politie gevonden republikeins pamflet (2 juli 1851). Tijdens de republiek ondertekende hij het protest waarmee Oudinot werd opgeroepen de Romeinse monumenten te ontzien (maar onthield zich van een ‘politiek’ oordeel). Na de val van de republiek (14 juli 1849) werd hij benoemd in de commissie die op last van diezelfde Oudinot de oorlogsschade in kaart bracht, en (ook M.) oordeelde dat die erg meeviel. B.: Rapport de la commission mixte (1850) 2; Liederkerk de Beaufort (1949) passim; Roncalli (1972) I, 277; Roncalli (1997) II, 361; De Dominicis (2017) II, ad vocem.",
@@ -5732,7 +5732,7 @@
     ],
     "surname": "de Maistre",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3438399"
   },
   "$Mamiani": {
     "comment": "",
@@ -5759,7 +5759,7 @@
     ],
     "surname": "Mamiani della Rovere",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1045355"
   },
   "$Manteri": {
     "comment": "",
@@ -5829,7 +5829,7 @@
     ],
     "surname": "della Margarita",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1088319"
   },
   "$Marini": {
     "comment": "",
@@ -5853,7 +5853,7 @@
     ],
     "surname": "Marini",
     "titles": [["card.", "1846-12-21/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q519469"
   },
   "$MariniF": {
     "comment": "",
@@ -5896,7 +5896,7 @@
     ],
     "surname": "della Marmora",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q471272"
   },
   "$Marsilio": {
     "comment": "",
@@ -5942,7 +5942,7 @@
     ],
     "surname": "Martin",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q6118895"
   },
   "$Martinez": {
     "comment": "",
@@ -6019,7 +6019,7 @@
     ],
     "surname": "De Martino",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q62061603"
   },
   "$MarzanoA": {
     "comment": "",
@@ -6041,7 +6041,7 @@
     ],
     "surname": "Asinari di San Marzano",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q51044034"
   },
   "$MarzanoF": {
     "comment": "",
@@ -6071,7 +6071,7 @@
     ],
     "surname": "di San Marzano",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q47548748"
   },
   "$Massimo": {
     "comment": "",
@@ -6090,7 +6090,7 @@
     ],
     "surname": "Massimo",
     "titles": [["card.", "1838-02-12/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q423512"
   },
   "$Mathey": {
     "comment": "",
@@ -6125,7 +6125,7 @@
     ],
     "surname": "Mattei",
     "titles": [["card.", "1892-07-02/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q989847"
   },
   "$Matteucci": {
     "comment": "",
@@ -6150,7 +6150,7 @@
     ],
     "surname": "Matteucci",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2255869"
   },
   "$Mattioli": {
     "comment": "From Koelman: Mattioli, Giuseppe Camillo (1817-1893) werd in 1844 in Bologna gearresteerd wegens het beramen van een samenzwering tegen het pauselijk gezag. In 1846 kwam hij vrij dankzij de amnestieregeling van Pius IX. De voorlopige regering in Rome wees hem in januari 1849 aan als president van de provincie Ancona, ter vervanging van Aurelio Saffi. Daar maakte hij eerst de antirevolutionaire opstand mee die door Felice Orsini werd onderdrukt, en daarna de belegering door de Oostenrijkers (22 mei-19 juni 1849). Toen Ancona viel, vluchtte hij naar Corfù. In 1859 keerde hij terug naar Italië, waar hij toetrad tot Mazzini’s Partito d’Azione. B.: Tarozzi (2008).",
@@ -6170,7 +6170,7 @@
     ],
     "surname": "Mattioli",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3770210"
   },
   "$Mazel": {
     "comment": "",
@@ -6196,7 +6196,7 @@
     ],
     "surname": "Mazel",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q19883978"
   },
   "$Mazzini": {
     "comment": "From Koelman: Mazzini, Giuseppe (1805-1872) Italiaanse politicus en patriot, algemeen beschouwd als een van de geestelijk vaders van de Italiaanse eenheidsstaat, voorman van de democratische en republikeinse stroming in het Risorgimento. Maakte als jonge man deel uit van het geheime genootschap van de Carboneria (1827-30), maar richtte spoedig zijn eigen beweging Giovine Italia (Jong Italië, 1831) op. Tijdens zijn ballingschap in Engeland (vanaf 1837) poogde hij in het buitenland de sympathie voor de Italiaanse zaak aan te wakkeren, mede door de oprichting van Jong Europa (waarin Italiaanse nationalisten de krachten met die van Duitsland en Polen moesten bundelen). Daarnaast zette hij zijn activiteiten als journalist en criticus voort, altijd zoekend naar patriotische motieven en kansen in de eigentijdse kunst, literatuur, muziek. In 1848 keerde hij naar Italië terug, eerst naar het vrijgevochten Milaan, daarna naar Toscane, waar hij een fusie met juist uitgeroepen de Romeinse republiek voorstelde – een idee dat werd geweigerd. Ten slotte kwam hij op 5 maart 1849 naar Rome, waar hij op 29 maart met A. Saffi en C. Armellini in het driemanschap werd benoemd. Vanuit zijn ballingsoord Londen richtte hij in 1850 het Italiaans Nationaal Comité op, dat met leningen en opstanden de aanstoot tot een nationale bevrijdingsoorlog moest geven. Talloze pogingen strandden (o.a. Belfiore 1852-53, Genua 1857). Inmiddels was echter de hoop van veel patriotten gevestigd op Piemonte en gematigd liberaal monarchistisch patriottisme kreeg de overhand over M.’s democratisch republikanisme. Na de eenwording bleef M. tegenstander van de ‘Piemontisering’ van Italië en volhardde in zijn republicanisme. In de lente van 1870 organiseerde hij vanuit Palermo een expeditie om Rome te bevrijden, maar werd nog voor vertrek gearresteerd. Hij werd gearresteerd, maar kreeg amnestie. Zijn laatste jaren sleet hij als balling in Londen, Lugano en (als dr. Brown) in Pisa, waar hij op 10 maart 1872 overleed. B.: Sarti (1997); Frétigné (2006); Belardelli (2010).",
@@ -6214,7 +6214,7 @@
     ],
     "surname": "Mazzini",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q187336"
   },
   "$MediciS": {
     "comment": "",
@@ -6238,7 +6238,7 @@
     ],
     "surname": "de Medici Spada",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q55900582"
   },
   "$MedicidO": {
     "comment": "",
@@ -6288,7 +6288,7 @@
     ],
     "surname": "Menabrea",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q548672"
   },
   "$Merle": {
     "comment": "",
@@ -6309,7 +6309,7 @@
     ],
     "surname": "Merle d’Aubigné",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q116045"
   },
   "$MeuricoffreA": {
     "comment": "The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels.",
@@ -6373,7 +6373,7 @@
     ],
     "surname": "Meyer von Schauensee",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q107059878"
   },
   "$Mijnden": {
     "comment": "",
@@ -6439,7 +6439,7 @@
       ["vescovo", "/1858-03-15"],
       ["card.", "1858-03-15/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q2785997"
   },
   "$Minelli": {
     "comment": "Raffaele Minelli was convicted of an act of rebellion and insurrection. The notice of his conviction is included in the archive.",
@@ -6473,7 +6473,7 @@
     ],
     "surname": "Lannes",
     "titles": [["conte di Montebello", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1556729"
   },
   "$Montoya": {
     "comment": "",
@@ -6498,7 +6498,7 @@
     ],
     "surname": "Montoya",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q18217770"
   },
   "$Morandi": {
     "comment": "From Koelman: Morandi, Giuseppe, Monseigneur, net als Pius IX afkomstig uit Senigallia, werd ten tijde van Gregorius XVI als advocaat toegewezen aan Giuseppe Galletti (die levenslang zou krijgen tot Pius IX hem amnestie gaf). Door staatssecretaris kardinaal Ferretti werd M. op 17 juli 1847 benoemd tot ‘protogouverneur’ van Rome, een functie die hij hield tot 15 november 1847. Bij het proces tegen de deelnemers aan de ‘Sanfedistische’ samenzwering was M. de aanklager. B.: Galletti (1863) 7; Catalogo della mostra storica (1895) 49; Chigi (1966) 197-201.",
@@ -6559,7 +6559,7 @@
     ],
     "surname": "Morichini",
     "titles": [["card.", "1852-03-15"]],
-    "wikidata:id": null
+    "wikidata:id": "Q1042264"
   },
   "$Mulken": {
     "comment": "",
@@ -6588,7 +6588,7 @@
     ],
     "surname": "van Mulken",
     "titles": [["generale", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2111322"
   },
   "$Murray": {
     "comment": "",
@@ -6644,7 +6644,7 @@
     ],
     "surname": "Muzzarelli",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q5041499"
   },
   "$NagellAWC": {
     "comment": "",
@@ -6674,7 +6674,7 @@
     ],
     "surname": "van Nagell van Ampsen",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2421468"
   },
   "$NagellVrouw": {
     "comment": "",
@@ -6708,7 +6708,7 @@
     ],
     "surname": "Nardoni",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q87067169"
   },
   "$Nassau": {
     "comment": "",
@@ -6729,7 +6729,7 @@
     ],
     "surname": "von Nassau",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q57302"
   },
   "$NavoniContessa": {
     "comment": "",
@@ -6788,7 +6788,7 @@
     ],
     "surname": "Ney",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3047474"
   },
   "$Nigrisoli": {
     "comment": "",
@@ -6845,7 +6845,7 @@
     ],
     "surname": "Novelli",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q24239773"
   },
   "$Noyer": {
     "comment": "",
@@ -6893,7 +6893,7 @@
     ],
     "surname": "Odescalchi",
     "titles": [["principe", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q18758550"
   },
   "$Olimart": {
     "comment": "",
@@ -6932,7 +6932,7 @@
     "sources": [""],
     "surname": "von Österreich",
     "titles": [["arciduchessa d’Austria", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q231856"
   },
   "$OostenrijkMT": {
     "comment": "",
@@ -6948,7 +6948,7 @@
     "sources": [""],
     "surname": "von Österreich-Este",
     "titles": [["arciduchessa d’Austria", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q260505"
   },
   "$OranjeM": {
     "comment": "",
@@ -6977,7 +6977,7 @@
     ],
     "surname": "van Oranje-Nassau",
     "titles": [["principessa", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q253805"
   },
   "$OranjeWFM": {
     "comment": "",
@@ -6996,7 +6996,7 @@
     "sources": [""],
     "surname": "van Oranje-Nassau",
     "titles": [["principe", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2735203"
   },
   "$OranjeWI": {
     "comment": "",
@@ -7022,7 +7022,7 @@
     ],
     "surname": "van Oranje-Nassau",
     "titles": [["principe", "1772-08-24/1815-03-15"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2079957"
   },
   "$OranjeWII": {
     "comment": "",
@@ -7049,7 +7049,7 @@
     ],
     "surname": "van Oranje-Nassau",
     "titles": [["principe", "1792-12-06/1840-10-07"]],
-    "wikidata:id": null
+    "wikidata:id": "Q154287"
   },
   "$OranjeWIII": {
     "comment": "",
@@ -7075,7 +7075,7 @@
     ],
     "surname": "van Oranje-Nassau",
     "titles": [["principe", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q125649"
   },
   "$OranjeWmina": {
     "comment": "",
@@ -7102,7 +7102,7 @@
     ],
     "surname": "van Oranje-Nassau",
     "titles": [["principessa", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q130413"
   },
   "$Orioli": {
     "comment": "",
@@ -7131,7 +7131,7 @@
     ],
     "surname": "Orioli",
     "titles": [["card.", "1838-02-12/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2517870"
   },
   "$Oudinot": {
     "comment": "",
@@ -7149,7 +7149,7 @@
     ],
     "surname": "Oudinot de Reggio",
     "titles": [["duca di Reggio", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q262812"
   },
   "$PaccaB": {
     "comment": "",
@@ -7195,7 +7195,7 @@
     ],
     "surname": "Pacca (il Giovane)",
     "titles": [["card.", "1875-09-17"]],
-    "wikidata:id": null
+    "wikidata:id": "Q3635400"
   },
   "$Pacheco": {
     "comment": "",
@@ -7281,7 +7281,7 @@
     ],
     "surname": "Pallavicini",
     "titles": [["vescovo", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q64707205"
   },
   "$PallaviciniE": {
     "comment": "Paolo Gerolamo Pallavcini was president of the Magistrato since at least 1824.",
@@ -7311,13 +7311,13 @@
     "functions": [],
     "images": [""],
     "name": "Henry John Temple",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [""],
     "surname": "Palmerston",
     "titles": [["Lord", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q64707205"
   },
   "$Pancani": {
     "comment": "Attiliano Pancani is mentioned in the archive in relation to the inheritance of the Vassen family.",
@@ -7414,7 +7414,7 @@
     ],
     "surname": "Paulucci delle Roncole",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2621033"
   },
   "$Pellissier": {
     "comment": "",
@@ -7432,7 +7432,7 @@
     ],
     "surname": "Pellissier",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q98128277"
   },
   "$Perglass": {
     "comment": "",
@@ -7488,7 +7488,7 @@
     ],
     "surname": "Perrone di San Martino",
     "titles": [["Cav.", "1815-12-06/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q30076222"
   },
   "$Pes": {
     "comment": "",
@@ -7526,7 +7526,7 @@
     ],
     "surname": "Pianori",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3107311"
   },
   "$Pidal": {
     "comment": "",
@@ -7550,7 +7550,7 @@
     ],
     "surname": "de Pidal",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q7159675"
   },
   "$Pietro": {
     "comment": "",
@@ -7569,7 +7569,7 @@
     ],
     "surname": "di Pietro",
     "titles": [["card.", "1853-12-19/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q82385"
   },
   "$Pilaer": {
     "comment": "",
@@ -7615,7 +7615,7 @@
     ],
     "surname": "Pilati",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3658875"
   },
   "$PinGouvernet": {
     "comment": "",
@@ -7633,7 +7633,7 @@
     ],
     "surname": "de La Tour du Pin Gouvernet",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3089547"
   },
   "$PioIX": {
     "comment": "",
@@ -7651,7 +7651,7 @@
     ],
     "surname": "Pio IX",
     "titles": [["Papa", "1846-06-16/1878-02-07"]],
-    "wikidata:id": null
+    "wikidata:id": "Q43720"
   },
   "$PioVII": {
     "comment": "",
@@ -7669,7 +7669,7 @@
     ],
     "surname": "Pio VII",
     "titles": [["Papa", "1800-03-14/1823-08-20"]],
-    "wikidata:id": null
+    "wikidata:id": "Q124754"
   },
   "$PioVIII": {
     "comment": "",
@@ -7687,7 +7687,7 @@
     ],
     "surname": "Pio VIII",
     "titles": [["Papa", "1829-03-31/1830-11-30"]],
-    "wikidata:id": null
+    "wikidata:id": "Q4443"
   },
   "$Poelman": {
     "comment": "",
@@ -7783,7 +7783,7 @@
     ],
     "surname": "Quaedvlieg",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q18567641"
   },
   "$RadicatiE": {
     "comment": "",
@@ -7841,7 +7841,7 @@
     ],
     "surname": "Randi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1081499"
   },
   "$Randwijck": {
     "comment": "",
@@ -7877,7 +7877,7 @@
     ],
     "surname": "van Randwijck",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2163341"
   },
   "$Raynaud": {
     "comment": "",
@@ -7915,7 +7915,7 @@
     ],
     "surname": "de Rayneval",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2840029"
   },
   "$ReF": {
     "comment": "",
@@ -7971,7 +7971,7 @@
     "functions": [],
     "images": [""],
     "name": "Hippolyte",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -7981,7 +7981,7 @@
     ],
     "surname": "de Régnon",
     "titles": [["marchese", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q76642934"
   },
   "$Reumont": {
     "comment": "",
@@ -8002,7 +8002,7 @@
     ],
     "surname": "von Reumont",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q76150"
   },
   "$Rezzi": {
     "comment": "",
@@ -8023,7 +8023,7 @@
     ],
     "surname": "Rezzi",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3839841"
   },
   "$Riario": {
     "comment": "",
@@ -8042,7 +8042,7 @@
     ],
     "surname": "Riario Sforza",
     "titles": [["card.", "1823-03-10/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q1401258"
   },
   "$Ricasoli": {
     "comment": "Bettino Ricasoli held several other (ministerial) positions within the Kingdom of Italy.",
@@ -8069,7 +8069,7 @@
     ],
     "surname": "Ricasoli",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q519900"
   },
   "$Ricci": {
     "comment": "",
@@ -8121,7 +8121,7 @@
     ],
     "surname": "Massimo",
     "titles": [["duca di Rignano", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q55836828"
   },
   "$Roest": {
     "comment": "",
@@ -8146,9 +8146,9 @@
     "sources": [
       "Redactie parlement.com, 'Mr. Th.M. Roest van Limburg', found on: https://www.parlement.com/id/vg09lljfu8xq"
     ],
-    "surname": "Roest van Lemburg",
+    "surname": "Roest van Limburg",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2576296"
   },
   "$Rollmann": {
     "comment": "",
@@ -8262,7 +8262,7 @@
       ["conte", null],
       ["Pari de Francia", "1839-11-07/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q673256"
   },
   "$RossiS": {
     "comment": "",
@@ -8306,7 +8306,7 @@
     ],
     "surname": "van Rossum",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1668663"
   },
   "$Rostolan": {
     "comment": "",
@@ -8327,7 +8327,7 @@
     ],
     "surname": "de Rostolan",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3263553"
   },
   "$Roux": {
     "comment": "",
@@ -8406,7 +8406,7 @@
     ],
     "surname": "Ruffo",
     "titles": [["principe di Castelcicala", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q80375043"
   },
   "$Rufini": {
     "comment": "",
@@ -8444,7 +8444,7 @@
     ],
     "surname": "de Ruggiero",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1084684"
   },
   "$Rusconi": {
     "comment": "From Koelman: Rusconi, Carlo (1812-1891) schrijver, vertaler, patriot en politicus uit Bologna, waar hij in februari 1831 deelnam aan de liberale opstand. Intussen maakte bij carrière als auteur van historische romans en invloedrijk vertaler van o.a. Shakespeare, Schiller, Byron en Walter Scott. In januari 1849 werd hij gekozen in de Romeinse grondwetgevende vergadering; na de proclamatie van de republiek werd hij benoemd tot minister van Buitenlandse Zaken. Vooral na de landing van de Franse troepen (april 1849) behartigde hij de belangen van de republiek in Londen en Parijs, waar hem het bericht van de Romeinse overgave bereikte. Daarop ging hij in ballingschap in België, Zwitserland en ten slotte in Genua. Hij bleef zijn literaire werk combineren met een sterk politiek engagement, dat na de Eenwording resulteerde in verschillende publieke functies, waaronder die van algemeen secretaris van de Raad van State (1879). Zijn herinneringen aan de gebeurtenissen van 1848-49 publiceerde R. in La Repubblica romana del 1849 (Turijn 1850-51). B.: Camarotto (2017).",
@@ -8499,7 +8499,7 @@
     ],
     "surname": "Sacconi",
     "titles": [["card.", "1861-09-27/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q948349"
   },
   "$Sagretti": {
     "comment": "",
@@ -8524,7 +8524,7 @@
     ],
     "surname": "Sagretti",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q105954901"
   },
   "$Saliceti": {
     "comment": "From Koelman: Saliceti, Aurelio (1804-1862) was een politicus, patriot en jurist uit Teramo, die vanaf 1836 als universitair docent burgerlijk recht en vanaf 1838 als rechter in Napels werkte. Na de afkondiging van de grondwet door Ferdinando II (11 februari 1848) werd hij intendant van de provincie Salerno en vervolgens minister van Justitie. In die hoedanigheid pleitte hij o.a. voor de verbanning van de Jezuïeten, wat tot zijn ontslag leidde. Daarop schreef hij een program voor een meer hervormingsgezinde regering, leidend tot de verdenking van republikeinse en staatsondermijnende activiteiten. Op 15 mei 1848 vluchtte hij naar Rome. Daar werd S. op 21 januari in de grondwetgevende vergadering gekozen en vervolgens met Montecchi en Armellini in het uitvoerend comité van de republiek benoemd. Na het aantreden van het driemanschap o.l.v. Mazzini (19 maart) werd S. opnieuw gedeputeerde, om ten slotte op 1 juli 1849 met Mariani en Calandrelli het laatste, zuiver formele driemanschap te vormen (tot 4 juli). Hij vluchtte vervolgens naar Londen en later naar Parijs en keerde in 1860 naar Italië terug. Kort voor zijn door werd hij in het Italiaanse parlement gekozen (1861). B.: Trincanato (2017).",
@@ -8547,7 +8547,7 @@
     ],
     "surname": "Saliceti",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3629828"
   },
   "$Salzano": {
     "comment": "",
@@ -8570,7 +8570,7 @@
     ],
     "surname": "Salzano de Luna",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q17631739"
   },
   "$Sambuy": {
     "comment": "",
@@ -8656,7 +8656,7 @@
       ["vescovo", "/1853-03-07"],
       ["card.", "1853-03-07/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q1080769"
   },
   "$Sarraz": {
     "comment": "",
@@ -8686,7 +8686,7 @@
     ],
     "surname": "de la Sarraz",
     "titles": [["tenente generale {retd}", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q4307770"
   },
   "$Savelli": {
     "comment": "",
@@ -8718,7 +8718,7 @@
       ["vescovo", "/1853-03-07"],
       ["card.", "1853-03-07/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q3034768"
   },
   "$Savini": {
     "comment": "",
@@ -8755,7 +8755,7 @@
     ],
     "surname": "di Savoia",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q181261"
   },
   "$SavoiaCE": {
     "comment": "",
@@ -8773,7 +8773,7 @@
     ],
     "surname": "di Savoia",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q175544"
   },
   "$SavoiaCF": {
     "comment": "",
@@ -8791,7 +8791,7 @@
     ],
     "surname": "di Savoia",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q312683"
   },
   "$SavoiaVE": {
     "comment": "",
@@ -8812,7 +8812,7 @@
     ],
     "surname": "di Savoia",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q168691"
   },
   "$Sayn": {
     "comment": "",
@@ -8832,7 +8832,7 @@
     ],
     "surname": "zu Sayn-Wittgenstein-Berleburg",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q762852"
   },
   "$Scala": {
     "comment": "",
@@ -8850,7 +8850,7 @@
     ],
     "surname": "Scala",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q23857304"
   },
   "$SchimmelpenninckG": {
     "comment": "",
@@ -8879,7 +8879,7 @@
     ],
     "surname": "Schimmelpenninck",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q682310"
   },
   "$SchimmelpenninckOye": {
     "comment": "",
@@ -8916,7 +8916,7 @@
     ],
     "surname": "Schimmelpenninck van der Oye",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q682310"
   },
   "$Serra": {
     "comment": "",
@@ -8962,7 +8962,7 @@
     ],
     "surname": "Simeoni",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q746874"
   },
   "$Simons": {
     "comment": "",
@@ -8985,7 +8985,7 @@
     ],
     "surname": "Simons",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q739463"
   },
   "$Sivori": {
     "comment": "",
@@ -9028,7 +9028,7 @@
     ],
     "surname": "de Smit van den Broecke",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1865755"
   },
   "$Soelen": {
     "comment": "",
@@ -9061,7 +9061,7 @@
     ],
     "surname": "Verstolk van Soelen",
     "titles": [["barone", "1823-12-30/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q739204"
   },
   "$Soglia": {
     "comment": "",
@@ -9085,7 +9085,7 @@
     ],
     "surname": "Soglia Ceroni",
     "titles": [["card.", "1838-02-12/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q769369"
   },
   "$Somaglia": {
     "comment": "",
@@ -9103,7 +9103,7 @@
     ],
     "surname": "della Somaglia",
     "titles": [["card.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q614929"
   },
   "$Sonnaz": {
     "comment": "",
@@ -9122,7 +9122,7 @@
     ],
     "surname": "Gerbaix de Sonnaz",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q652001"
   },
   "$Sonsbeeck": {
     "comment": "",
@@ -9146,7 +9146,7 @@
     ],
     "surname": "van Sonsbeeck",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q2339140"
   },
   "$Souza": {
     "comment": "",
@@ -9187,7 +9187,7 @@
     ],
     "surname": "Spaur",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2655597"
   },
   "$SpaurK": {
     "comment": "From Koelman: Spaur, Karl Graf von (1794-1854) was de chargé d’affaires (1832-38) en gevolmachtigd gezant namens het Koninkrijk Beieren in Rome (1838-. Vanaf resp. 1850 en 1851 was hij daarnaast ambassadeur namens Beieren aan het hof van de koning van Piemonte-Sardinië en die van het Koninkrijk der Beide Siciliën. In 1854 stierf hij in Florence, tijdens een terugreis naar Beieren. Spaur was een verrtouweling van Gregorius XVI en daarna van Pius IX en werd beroemd omdat hij op 24 november de vermomde paus uit Rome hielp vluchten. B.: Noack (1927) II, 564-565. B.: Simeoni (1932); Wiesenberger (1996); Spaur und Flavon (2020).",
@@ -9222,7 +9222,7 @@
     ],
     "surname": "von Spaur",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1733687"
   },
   "$Speranza": {
     "comment": "",
@@ -9261,7 +9261,7 @@
     ],
     "surname": "Spinelli Barile",
     "titles": [["principe di Cariati", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3759853"
   },
   "$SpinolaT": {
     "comment": "",
@@ -9285,7 +9285,7 @@
     ],
     "surname": "Spinola",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3992857"
   },
   "$SpinolaU": {
     "comment": "",
@@ -9303,7 +9303,7 @@
     ],
     "surname": "Spinola",
     "titles": [["card.", "1831-09-30/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2256477"
   },
   "$Steen": {
     "comment": "",
@@ -9328,7 +9328,7 @@
     ],
     "surname": "van de Steen de Jehay",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q969057"
   },
   "$Stembror": {
     "comment": "",
@@ -9366,7 +9366,7 @@
     ],
     "surname": "Sterbini",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3904284"
   },
   "$SterbiniS": {
     "comment": "",
@@ -9406,7 +9406,7 @@
     ],
     "surname": "Stöver",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q70749571"
   },
   "$Stratenus": {
     "comment": "",
@@ -9430,7 +9430,7 @@
     ],
     "surname": "Stratenus",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2135489"
   },
   "$Strens": {
     "comment": "",
@@ -9462,7 +9462,7 @@
     ],
     "surname": "Strens",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q384983"
   },
   "$Sturbinetti": {
     "comment": "From Koelman: Sturbinetti, Francesco (1807-1865) was een succesvol Romeins advocaat, wiens politieke engagement begon tijdens de liberale periode van Pius IX, toen hij kapitein in de burgerwacht werd, lid (conservatore) van de Romeinse gemeenteraad en minister van Openbare Werken en Justitie (resp. februari en maart 1848). Na Pius’ allocutie van 29 april 1848 nam hij ontslag. Vervolgens werd hij benoemd in het Consiglio di Stato en gekozen in het Consiglio dei Deputati (mei 1848), waarvan hij als voorzitter na de moord op Rossi (16 nov. 1848) de rust probeerde te bewaren. Na de vlucht van de paus kozen 16.153 Romeinen S. in januari 1849 in de Grondwetgevende vergadering, waar hij op 8 februari voor de proclamatie van de republiek stemde. In april werd hij gekozen tot raadslid en daarna tot senator van de gemeente Rome; tegenlijkertijd benoemde Mazzini hem als generaal van de Nationale Garde (voorheen Guardia Civica). Na de val van de republiek was S. voorzitter van de commissie die namens de stad Rome onderhandelde met Oudinot. Hij verwierp diens condities en gaf op 2 juli 1849 een proclamatie uit om de burgers steunen maar ook op te roepen zich bij de Franse intocht neer te leggen. Zelf vluchtte hij en streek via Genève in Genua neer. Hij kreeg nooit de gewenste pauselijke absolutie, maar in 1857 wel toestemming zich in Frascati te vestigen, waar hij in 1865 stierf. B.: Presti Danisi (2019).",
@@ -9485,7 +9485,7 @@
     ],
     "surname": "Sturbinetti",
     "titles": [["avv.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q95729926"
   },
   "$Targioni": {
     "comment": "",
@@ -9533,7 +9533,7 @@
     ],
     "surname": "von Tauffkirchen-Guttenburg",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1041439"
   },
   "$Thile": {
     "comment": "",
@@ -9556,7 +9556,7 @@
     ],
     "surname": "von Thile",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q95729926"
   },
   "$Thorel": {
     "comment": "Thorel wrote a letter to E. van der Hoeven about the vacant post of Consul General of the Kingdom of the Netherlands in Genoa.",
@@ -9606,7 +9606,7 @@
     ],
     "surname": "Tommaseo",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q558177"
   },
   "$Tornaco": {
     "comment": "",
@@ -9629,7 +9629,7 @@
     ],
     "surname": "de Tornaco",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q558177"
   },
   "$Torti": {
     "comment": "",
@@ -9647,7 +9647,7 @@
     ],
     "surname": "Tòrti",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q558177"
   },
   "$Toscana": {
     "comment": "",
@@ -9665,7 +9665,7 @@
     ],
     "surname": "di Toscana",
     "titles": [["arciduca d’Austria", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q313169"
   },
   "$Tosti": {
     "comment": "From Koelman: Tosti, Antonio (1776-1866) werd in 1838 door Gregorius XVI tot kardinaal benoemd. Hij speelde een grote rol in de oprichting van de Scholen voor Kunsten en Ambachten, was protector van de academie voor muziek van S. Cecilia (1840-1866) en de Biblioteca Apostolica Vaticana (1860-1866), en belast met het toezicht op de herbouw van de San Paolo fuori le Mura (1847-1866). Als thesaurier-generaal van de Apostolische Kamer (1834-1845) oogstte hij lof voor zijn reorganisatie van de pauselijke financiën, maar ook kritiek vanwege zijn opulente levenswijze en de verduistering van gelden. Tijdens de republiek was hij een van de drie kardinaals die in Rome achterbleven. B.: Boutry (2002) 477-478; Dinoia (2019); Leblanc (2019) 927-929.",
@@ -9688,7 +9688,7 @@
     ],
     "surname": "Tosti",
     "titles": [["card.", "1838-02-12/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q1230369"
   },
   "$Travi": {
     "comment": "",
@@ -9795,7 +9795,7 @@
     ],
     "surname": "Tuyll van Serooskerken",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q76244474"
   },
   "$Ugolini": {
     "comment": "Giuseppe Ugolini was a local Roman lawyer.",
@@ -9838,7 +9838,7 @@
     ],
     "surname": "von Usedom",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q1453756"
   },
   "$Valdivieso": {
     "comment": "Ignacio de Valdivieso joined Pope Pius IX in his flight to Gaeta.",
@@ -9938,7 +9938,7 @@
     ],
     "surname": "van den Bosch",
     "titles": [["luitenant-ter-zee", "1808/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2379045"
   },
   "$Vannicelli": {
     "comment": "",
@@ -9957,7 +9957,7 @@
     ],
     "surname": "Vannicelli Casoni",
     "titles": [["card.", "1839-12-23/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q2255237"
   },
   "$Vasconcellos": {
     "comment": "",
@@ -10030,7 +10030,7 @@
     ],
     "surname": "Vecchiotti",
     "titles": [["vescovo", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q69441636"
   },
   "$Verbecke": {
     "comment": "Several consuls of the Kingdom of the Netherlands in Messina were a member of the Verbeke family.",
@@ -10085,7 +10085,7 @@
     ],
     "surname": "von Verger",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q15278534"
   },
   "$Vignale": {
     "comment": "",
@@ -10163,7 +10163,7 @@
     ],
     "surname": "Visconti Venosta",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1231904"
   },
   "$Vitrioli": {
     "comment": "",
@@ -10192,7 +10192,7 @@
     ],
     "surname": "Vitrioli",
     "titles": [["Cav.", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q3707260"
   },
   "$Vivent": {
     "comment": "",
@@ -10236,7 +10236,7 @@
       ["jonkheer", "1821-09-01/1847-08-21"],
       ["barone", "1847-08-22/"]
     ],
-    "wikidata:id": null
+    "wikidata:id": "Q1869443"
   },
   "$Weckherlin": {
     "comment": "",
@@ -10279,7 +10279,7 @@
     ],
     "surname": "von Welden",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q78789"
   },
   "$Welsersheim": {
     "comment": "",
@@ -10349,7 +10349,7 @@
     ],
     "surname": "Willmar",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3166043"
   },
   "$Wiseman": {
     "comment": "",
@@ -10368,7 +10368,7 @@
     ],
     "surname": "Wiseman",
     "titles": [["card.", "1850-09-29/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q672816"
   },
   "$Witterhaeven": {
     "comment": "",
@@ -10424,7 +10424,7 @@
     ],
     "surname": "Wurth-Paquet",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1956419"
   },
   "$Zacchia": {
     "comment": "",
@@ -10448,7 +10448,7 @@
     ],
     "surname": "Zacchia Rondinini",
     "titles": [["card.", "1844-07-22/"]],
-    "wikidata:id": null
+    "wikidata:id": "Q742403"
   },
   "$Zedlitz": {
     "comment": "",
@@ -10502,7 +10502,7 @@
     ],
     "surname": "Zucchi",
     "titles": [["tenente generale", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q2939273"
   },
   "$ZuylenJPP": {
     "comment": "",
@@ -10535,7 +10535,7 @@
     ],
     "surname": "van Zuylen van Nijevelt",
     "titles": [["barone", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q736610"
   },
   "$ZuylenJPh": {
     "comment": "",
@@ -10565,7 +10565,7 @@
     ],
     "surname": "van Zuylen van Nijevelt",
     "titles": [["conte", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q291221"
   },
   "$Zweerts": {
     "comment": "",
@@ -10613,6 +10613,6 @@
     ],
     "surname": "Zwijsen",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q1698693"
   }
 }
