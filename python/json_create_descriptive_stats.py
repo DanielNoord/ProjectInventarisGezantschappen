@@ -97,7 +97,7 @@ def create_total_statistics(filename: str) -> None:
     Args:
         filename (str): Name of the input file
     """
-    c_types = [0, 0, 0, 0, 0, 0]
+    c_types = [0, 0, 0, 0, 0, 0, 0]
 
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
@@ -114,8 +114,9 @@ def create_total_statistics(filename: str) -> None:
     print(f"{start_string} type 3: {c_types[3]}, {c_types[3]/total_count:.2%}")
     print(f"{start_string} type 4: {c_types[4]}, {c_types[4]/total_count:.2%}")
     print(f"{start_string} type 5: {c_types[5]}, {c_types[5]/total_count:.2%}")
+    print(f"{start_string} type 6: {c_types[6]}, {c_types[6]/total_count:.2%}")
 
 
 if __name__ == "__main__":
-    create_type_statistics("inputs/Individuals.json", [0, 1, 2, 3, 4, 5], False)
+    create_type_statistics("inputs/Individuals.json", [0, 1, 2, 3, 4, 5, 6], False)
     create_total_statistics("inputs/Individuals.json")

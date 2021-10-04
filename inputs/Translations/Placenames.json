@@ -1,5 +1,5 @@
 {
-  "$schema": "../static/JSON/Placenames.json",
+  "$schema": "../../static/JSON/Placenames.json",
   "'s-Hertogenbosch": {
     "en_GB": "'s-Hertogenbosch",
     "geonames:id": 2747351,
@@ -93,7 +93,7 @@
   "Aranjuez": {
     "en_GB": "Aranjuez",
     "geonames:id": 3129857,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Aranjuez"
   },
   "Arco": {
@@ -123,7 +123,7 @@
   "Asten": {
     "en_GB": "Asten",
     "geonames:id": 2759621,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Asten"
   },
   "Augusta": {
@@ -309,7 +309,7 @@
   "Caupo": {
     "en_GB": "Caupo",
     "geonames:id": 8951196,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Caupo"
   },
   "Ceccano": {
@@ -405,7 +405,7 @@
   "Corpo Reno": {
     "en_GB": "Corpo Reno",
     "geonames:id": 8299679,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Corpo Reno"
   },
   "Costantinopoli": {
@@ -1275,7 +1275,7 @@
   "Sterpenich": {
     "en_GB": "Sterpenich",
     "geonames:id": 2786058,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Sterpenich"
   },
   "Stoccarda": {
@@ -1395,7 +1395,7 @@
   "Valkenburg": {
     "en_GB": "Valkenburg",
     "geonames:id": 2745874,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Valkenburg"
   },
   "Valkenswaard": {
@@ -1485,7 +1485,7 @@
   "Voort": {
     "en_GB": "Voort",
     "geonames:id": 2784387,
-    "geonames:wikipedia": "",
+    "geonames:wikipedia": null,
     "nl_NL": "Voort"
   },
   "Weimar": {

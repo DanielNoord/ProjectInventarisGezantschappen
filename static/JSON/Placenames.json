@@ -11,12 +11,27 @@
           "description": "Translation of the place in English",
           "type": "string"
         },
+        "geonames:id": {
+          "description": "A geonames ID",
+          "type": "integer"
+        },
+        "geonames:wikipedia": {
+          "description": "A wikipedia entry for the place",
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "nl_NL": {
           "description": "Translation of the place in Dutch",
           "type": "string"
         }
       },
-      "required": ["en_GB", "nl_NL"],
+      "required": ["en_GB", "nl_NL", "geonames:id", "geonames:wikipedia"],
       "type": "object"
     }
   },
