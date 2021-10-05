@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
-from typing import Optional
-
 from lxml import etree
 from typing_classes import DateData
 
 
-def add_unitdate(
+def add_unitdate(  # pylint: ignore=too-many-branches
     parent_element: etree._Element, datestring: str, date: DateData
 ) -> None:
     """Creates and appends an unitdate element"""
