@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 
-from typing import Literal
 from warnings import warn
 
-from date_functions import extract_date
+from date_functions import create_date_data
 from lxml import etree
+from typing_classes import VolData
 
 from xml_functions import add_unitdate
 
 
-def basic_xml_file() -> tuple[
-    etree._Element, etree._Element
-]:  # pylint: disable=too-many-locals
+def basic_xml_file() -> tuple[etree._Element, etree._Element]:
     """Returns a basic .xml file based on EAD standard used for this project
 
     Returns:
@@ -20,84 +18,82 @@ def basic_xml_file() -> tuple[
     """
     root = etree.Element("ead")
 
-    # Eadheader
-    eadheader = etree.SubElement(root, "eadheader")
-    eaddid = etree.SubElement(eadheader, "eadid")
-    comment = etree.Comment("Nationaal Archief")
+    # Control
+    control = etree.SubElement(root, "control")
+    eaddid = etree.SubElement(control, "recordid")
+    comment = etree.Comment("TO BE DECIDED")
     eaddid.append(comment)
 
     # Filedesc
-    filedesc = etree.SubElement(eadheader, "filedesc")
+    filedesc = etree.SubElement(control, "filedesc")
     titlestmt = etree.SubElement(filedesc, "titlestmt")
-    titleproper = etree.SubElement(titlestmt, "titleproper")
-    titleproper.text = "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874"  # pylint: disable=line-too-long
-    author = titleproper = etree.SubElement(titlestmt, "author")
-    author.text = "D.M. van Noord"
+    etree.SubElement(
+        titlestmt, "titleproper", {"lang": "dut"}
+    ).text = "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874"  # pylint: disable=line-too-long
+    etree.SubElement(
+        titlestmt, "titleproper", {"lang": "en"}
+    ).text = (
+        "Inventory of the archief of the Dutch Legation in Turin and Rome, 1816 - 1874"
+    )
+    etree.SubElement(
+        titlestmt, "titleproper", {"lang": "it"}
+    ).text = "Inventario del fondo archivistico delle Legazioni Olandesi a Torino e Roma, 1816 - 1874"  # pylint: disable=line-too-long
+    etree.SubElement(titlestmt, "author").text = "KNIR/ISTRIT"
     publicationstmt = etree.SubElement(filedesc, "publicationstmt")
-    publisher = etree.SubElement(publicationstmt, "publisher")
-    publisher.text = "KNIR"
-    date = etree.SubElement(
+    etree.SubElement(publicationstmt, "publisher").text = "KNIR/ISTRIT"
+    etree.SubElement(
         publicationstmt, "date", calendar="gregorian", era="ce", normal="2021"
-    )
-    date.text = "(c) 2021"
-    para = etree.SubElement(publicationstmt, "p", id="copyright")
-    extref = etree.SubElement(
-        para,
-        "extref",
-        linktype="simple",
-        href="http://creativecommons.org/publicdomain/zero/1.0/",
-        actuate="onrequest",
-        show="new",
-    )
-    extref.text = "cc0"
+    ).text = "(c) 2021"
 
-    # Profiledesc
-    profiledesc = etree.SubElement(eadheader, "profiledesc")
-    # pylint: disable=trailing-whitespace
-    language = """<langusage>This finding aid is written in 
-            <language langcode="dut" scriptcode="Latn">Dutch</language>.
-        </langusage>"""
-    profiledesc.append(etree.fromstring(language))
-    _ = etree.SubElement(profiledesc, "descrules")
+    # Required elements
+    etree.SubElement(control, "maintenancestatus", {"value": "new"})
+    maint_agency = etree.SubElement(control, "maintenanceagency")
+    etree.SubElement(maint_agency, "agencyname").text = "KNIR"
+    etree.SubElement(maint_agency, "agencyname").text = "ISTRIT"
+
+    # Languagedeclaration
+    languagedeclaration = etree.SubElement(control, "languagedeclaration")
+    etree.SubElement(
+        languagedeclaration, "language", {"langcode": "eng"}
+    ).text = "English"
+    etree.SubElement(
+        languagedeclaration, "script", {"scriptcode": "Latin"}
+    ).text = "Latin"
+
+    # Maintenancehistory
+    maintenancehistory = etree.SubElement(control, "maintenancehistory")
+    maint_event = etree.SubElement(maintenancehistory, "maintenanceevent")
+    etree.SubElement(maint_event, "eventtype", {"value": "created"})
+    etree.SubElement(
+        maint_event, "eventdatetime", {"standarddatetime": "2021"}
+    ).text = "2021"
+    etree.SubElement(maint_event, "agenttype", {"value": "human"})
+    etree.SubElement(maint_event, "agent").text = "Daniël van Noord"
+    etree.SubElement(maint_event, "eventdescription").text = "Finding aid created."
 
     # Archdesc
-    archdesc = etree.SubElement(root, "archdesc", level="fonds", type="inventory")
-    archdescdid = etree.SubElement(archdesc, "did")
-    _ = etree.SubElement(archdescdid, "unittitle")
+    archdesc = etree.SubElement(
+        root, "archdesc", {"level": "fonds", "localtype": "inventory"}
+    )
+    archdesc_did = etree.SubElement(archdesc, "did")
+    etree.SubElement(archdesc_did, "unittitle")
+    archdesc_dsc = etree.SubElement(archdesc, "dsc", {"dsctype": "combined"})
 
-    return root, archdesc
+    return root, archdesc_dsc
 
 
-def volume_entry(
-    parent_element: etree._Element,
-    number: str,
-    title: str,
-    date: str,
-    localization: Literal["it_IT", "nl_NL", "en_GB"],
-) -> etree._Element:
-    """Returns an .xml element for a volume at the c01 level
-
-    Args:
-        parent_element (etree._Element): The element to which the dossier element is appended
-        number (str): The number of the volume
-        title (str): Title of the dossier
-        date (str): Date of the dossier
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
-
-    Returns:
-        etree._Element: The dossier element at the c01 level
-    """
-    desc = etree.SubElement(parent_element, "dsc")
-    head = etree.SubElement(desc, "head")
-    head.text = f"{number} {title}"
-    c01 = etree.SubElement(desc, "c01", level="series")
+def volume_entry(archdesc_dsc: etree._Element, volume_data: VolData) -> etree._Element:
+    """Returns an .xml element for a volume at the c01 level"""
+    c01 = etree.SubElement(archdesc_dsc, "c01", level="series")
     c01_did = etree.SubElement(c01, "did")
-    c01_did_id = etree.SubElement(c01_did, "unitid", type="series_code")
-    c01_did_id.text = number + "."
-    c01_did_title = etree.SubElement(c01_did, "unittitle")
-    c01_did_title.text = title
-    date1, date2 = extract_date(date, localization)
-    add_unitdate(c01_did, date, date1, date2, "volume")
+    etree.SubElement(c01_did, "unitid").text = volume_data.num
+
+    etree.SubElement(c01_did, "unittitle", {"lang": "it"}).text = volume_data.title_it
+    etree.SubElement(c01_did, "unittitle", {"lang": "dut"}).text = volume_data.title_nl
+    etree.SubElement(c01_did, "unittitle", {"lang": "en"}).text = volume_data.title_en
+
+    date_data = create_date_data(volume_data.date)
+    add_unitdate(c01_did, volume_data.date, date_data)
     return c01
 
 
@@ -105,35 +101,26 @@ def dossier_entry(  # pylint: disable=too-many-arguments
     parent_element: etree._Element,
     v_number: str,
     number: str,
-    _: str,
     title: str,
     date: str,
-    localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> etree._Element:
-    """Returns a dossier .xml element at the c02 level
-
-    Args:
-        parent_element (etree._Element): The element to which the dossier element is appended
-        v_number (str): The volume number
-        number (str): The dossier number
-        pages (str): The pages of the dossier, unused now
-        title (str): Title of the dossier
-        date (str): Date of the dossier
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
-
-    Returns:
-        etree._Element: The dossier element at the c02 level
-    """
+    """Returns a dossier .xml element at the c02 level"""
     c02 = etree.SubElement(parent_element, "c02", level="subseries")
-    c02_head = etree.SubElement(c02, "head")
-    c02_head.text = title
     c02_did = etree.SubElement(c02, "did")
-    c02_did_id = etree.SubElement(c02_did, "unitid", type="series_code")
-    c02_did_id.text = f"{v_number}.{number}"
-    c02_did_title = etree.SubElement(c02_did, "unittitle")
-    c02_did_title.text = title
-    date1, date2 = extract_date(date, localization)
-    add_unitdate(c02_did, date, date1, date2, "dossier")
+    etree.SubElement(c02_did, "unitid").text = f"{v_number}.{number}"
+
+    etree.SubElement(
+        c02_did, "unittitle", {"lang": "it"}
+    ).text = f"THIS SHOULD BE ITALIAN {title}"
+    etree.SubElement(
+        c02_did, "unittitle", {"lang": "dut"}
+    ).text = f"THIS SHOULD BE DUTCH {title}"
+    etree.SubElement(
+        c02_did, "unittitle", {"lang": "en"}
+    ).text = f"THIS SHOULD BE ENGLISH {title}"
+
+    date_data = create_date_data(date)
+    add_unitdate(c02_did, date, date_data)
     return c02
 
 
@@ -143,7 +130,6 @@ def file_entry(
     title: str,
     _: str,
     date: str,
-    localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> None:
     """Returns an .xml element for a file within a dossier
 
@@ -158,20 +144,36 @@ def file_entry(
     if parent_element.tag == "c01":
         c02 = etree.SubElement(parent_element, "c02", level="file")
         c02_did = etree.SubElement(c02, "did")
-        c02_did_id = etree.SubElement(c02_did, "unitid", type="series_code")
-        c02_did_id.text = f"pp. {pages}"
-        c02_did_title = etree.SubElement(c02_did, "unittitle")
-        c02_did_title.text = title
-        date1, date2 = extract_date(date, localization)
-        add_unitdate(c02_did, date, date1, date2, "file")
+        etree.SubElement(c02_did, "unitid").text = f"pp. {pages}"
+
+        etree.SubElement(
+            c02_did, "unittitle", {"lang": "it"}
+        ).text = f"THIS SHOULD BE ITALIAN {title}"
+        etree.SubElement(
+            c02_did, "unittitle", {"lang": "dut"}
+        ).text = f"THIS SHOULD BE DUTCH {title}"
+        etree.SubElement(
+            c02_did, "unittitle", {"lang": "en"}
+        ).text = f"THIS SHOULD BE ENGLISH {title}"
+
+        date_data = create_date_data(date)
+        add_unitdate(c02_did, date, date_data)
     elif parent_element.tag == "c02":
         c03 = etree.SubElement(parent_element, "c03", level="file")
         c03_did = etree.SubElement(c03, "did")
-        c03_did_id = etree.SubElement(c03_did, "unitid", type="series_code")
-        c03_did_id.text = f"pp. {pages}"
-        c03_did_title = etree.SubElement(c03_did, "unittitle")
-        c03_did_title.text = title
-        date1, date2 = extract_date(date, localization)
-        add_unitdate(c03_did, date, date1, date2, "file")
+        etree.SubElement(c03_did, "unitid").text = f"pp. {pages}"
+
+        etree.SubElement(
+            c03_did, "unittitle", {"lang": "it"}
+        ).text = f"THIS SHOULD BE ITALIAN {title}"
+        etree.SubElement(
+            c03_did, "unittitle", {"lang": "dut"}
+        ).text = f"THIS SHOULD BE DUTCH {title}"
+        etree.SubElement(
+            c03_did, "unittitle", {"lang": "en"}
+        ).text = f"THIS SHOULD BE ENGLISH {title}"
+
+        date_data = create_date_data(date)
+        add_unitdate(c03_did, date, date_data)
     else:
         warn("File was not handled correctly")
