@@ -112,6 +112,10 @@
     "en_GB": "Librarian of the _Biblioteca Corsiniana_",
     "nl_NL": "Bibliothecaris van de _Biblioteca Corsiniana_"
   },
+  "Botanista": {
+    "en_GB": "Botanist",
+    "nl_NL": "Botanist"
+  },
   "Cameriere segreto partecipanti del Papa": {
     "en_GB": "Real Secret Chaimberlain of His Holiness",
     "nl_NL": "Werkelijk Geheim Kamerheer van Zijne Heiligheid"
@@ -1320,6 +1324,10 @@
     "en_GB": "Professor of Navigation in Senigallia",
     "nl_NL": "Professor van Navigatie in Senigallia"
   },
+  "Professore di Storia Naturale dei principi Umberto e Amedeo": {
+    "en_GB": "Professor of Natural History of the princes Umberto and Amedeo",
+    "nl_NL": "Professor van Natuurhistorie van de prinsen Umberto en Amedeo"
+  },
   "Professore di archeologia e lingue classiche al Real Collegio a Reggio Calabria": {
     "en_GB": "Professor of archeology and classical languages at the Real Collegio in Reggio Calabria",
     "nl_NL": "Professor van archeologie en klassieke talen bij het Real Collegio in Reggio Calabria"
@@ -1419,6 +1427,10 @@
   "Segretario della Legazione del Regno di Hannover a Roma": {
     "en_GB": "Secretary of the Legation of the Kingdom of Hanover in Rome",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk Hannover in Rome"
+  },
+  "Segretario delle classe di scienze fisiche e matematiche dell'Accademia delle Scienze di Torino": {
+    "en_GB": "Secretary of the classes of physics and mathematics at the Accademia delle Scienze di Torino",
+    "nl_NL": "Secretaris van de klassen van scheikunde en wiskunde bij de Accademia delle Scienze di Torino"
   },
   "Segretario di State degli Affari Esteri del Regno di Sardegna": {
     "en_GB": "State Secretary for Foreign Affairs of the Kingdom of Sardinia",

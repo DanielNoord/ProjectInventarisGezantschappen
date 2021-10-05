@@ -8987,6 +8987,33 @@
     "titles": [],
     "wikidata:id": "Q739463"
   },
+  "$Sismonda": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1815-04-29",
+    "date_of_death": "1870-04-24",
+    "functions": [
+      ["Botanista", null],
+      [
+        "Segretario delle classe di scienze fisiche e matematiche dell'Accademia delle Scienze di Torino",
+        "1847/"
+      ],
+      ["Professore di Storia Naturale dei principi Umberto e Amedeo", "1861/"]
+    ],
+    "images": [
+      "https://www.accademiadellescienze.it/accademia/soci/angelo-sismonda"
+    ],
+    "name": "Eugenio",
+    "person_type": 1,
+    "place_of_birth": "Corneliano d'Alba",
+    "place_of_death": "Torino",
+    "sources": [
+      "Zanoni, Elena, 'Sismonda Eugenio', in: Dizionario Biografico degli Italiani. Vol. 92 (2018), found on: https://www.treccani.it/enciclopedia/eugenio-sismonda_(Dizionario-Biografico)/"
+    ],
+    "surname": "sismonda",
+    "titles": [["Cav.", "1848/"]],
+    "wikidata:id": "Q21608993"
+  },
   "$Sivori": {
     "comment": "",
     "comment_daniel": "",
@@ -10425,6 +10452,24 @@
     "surname": "Wurth-Paquet",
     "titles": [],
     "wikidata:id": "Q1956419"
+  },
+  "$Yongh": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi a Livorno", null]],
+    "images": [""],
+    "name": "Guglielmo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Almanacco Toscano per l'anno 1851 (Stamperia Granducale: Firenze, 1851), 31"
+    ],
+    "surname": "de Yongh",
+    "titles": [["Cav.", null]],
+    "wikidata:id": ""
   },
   "$Zacchia": {
     "comment": "",
