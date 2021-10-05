@@ -5,6 +5,8 @@ import locale
 import re
 from typing import Literal, Optional
 
+from typing_classes import DateData
+
 
 def extract_date(  # pylint: disable=too-many-branches
     date_string: str, localization: Literal["it_IT", "nl_NL", "en_GB"]
@@ -66,3 +68,11 @@ def extract_date(  # pylint: disable=too-many-branches
             )
 
     return date1_string, date2_string
+
+
+def create_date_data(date: str) -> DateData:
+    """Create a DateData tuple by calling the extract_date for all localizations"""
+    date1_it, date2_it = extract_date(date, "it_IT")
+    date1_en, date2_en = extract_date(date, "en_GB")
+    date1_nl, date2_nl = extract_date(date, "nl_NL")
+    return DateData(date1_it, date2_it, date1_en, date2_en, date1_nl, date2_nl)
