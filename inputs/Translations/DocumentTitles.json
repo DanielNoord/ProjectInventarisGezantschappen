@@ -148,6 +148,10 @@
     "en_GB": "Chrestomathe eretique de l'ecphonographie Francais (printed)",
     "nl_NL": "Chrestomathe eretique de l'ecphonographie Francais (gedrukt)"
   },
+  "Circolare (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Circulaire of \\2 to \\4",
+    "nl_NL": "Circulaire van \\2 to \\4"
+  },
   "Circolare (di|del|della) (\\$\\w+) ai rappresententanti del Corpo Diplomatici$": {
     "en_GB": "Circulaire from \\2 to the representatives of the Diplomatic Corps",
     "nl_NL": "Circulaire van \\2 aan de vertegenwoordigers van het Diplomatiek Korps"
@@ -168,7 +172,7 @@
     "en_GB": "Printed circulaire of \\2",
     "nl_NL": "Gedrukte circulaire van \\2"
   },
-  "Circolare agli'inviati e ai consoli della Repubblica Romana all'Estero (traduzione)$": {
+  "Circolare agli'inviati e ai consoli della Repubblica Romana all'Estero \\(traduzione\\)$": {
     "en_GB": "Circulaire to the envoys and the consuls of the Roman Republic abroad (translation)",
     "nl_NL": "Circulaire aan de gezanten en de consuls van de Romeinse Republiek in het buitenland (vertaling)"
   },
@@ -304,11 +308,19 @@
     "en_GB": "Correspondance politique (Political correspondance)",
     "nl_NL": "Correspondance politique (Politieke correspondentie)"
   },
+  "Correspondenance avec le department des affaires Etrangeres 1827-1829$": {
+    "en_GB": "Correspondenance avec le department des affaires Etrangeres 1827-1829",
+    "nl_NL": "Correspondenance avec le department des affaires Etrangeres 1827-1829"
+  },
   "Correspondence avec les agents consulaires$": {
     "en_GB": "Correspondance avec les agents consulaires",
     "nl_NL": "Correspondance avec les agents consulaires"
   },
-  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare al presidente di Civitavecchia\\)$": {
+  "Correspondence politique$": {
+    "en_GB": "Correspondence politique",
+    "nl_NL": "Correspondence politique"
+  },
+  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare del presidente di Civitavecchia\\)$": {
     "en_GB": "Declaration du corps de troupe francais au président de Civitavecchia (Declaration of the French military unit to the president of Civitavecchia)",
     "nl_NL": "Declaration du corps de troupe francais au président de Civitavecchia (Verklaring van de Franse militaire eenheid aan de president van Civitavecchia)"
   },
@@ -336,11 +348,23 @@
     "en_GB": "Diario di Roma",
     "nl_NL": "Diario di Roma"
   },
+  "Dichiarazione (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Statement of \\2",
+    "nl_NL": "Verklaring van \\2"
+  },
+  "Dichiarazione del governo Romano \\(e relativa traduzione\\)$": {
+    "en_GB": "Statement of the Roman government (with translation)",
+    "nl_NL": "Verklaring van de Romeinse regering (met vertaling)"
+  },
   "Dichiarazione$": {
     "en_GB": "Declaration",
     "nl_NL": "Verklaring"
   },
-  "Discorso dal Trono di (\\$\\w+) \\(a stampa\\)$": {
+  "Discorso al corpo diplomatico del (\\$\\w+)$": {
+    "en_GB": "Speech to the Corps Diplomatique of \\1",
+    "nl_NL": "Toespraak aan het Corps Diplomatique van \\1"
+  },
+  "Discorso dal Trono del (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Speech from the Throne of \\1 (printed)",
     "nl_NL": "Troonrede van \\1 (gedrukt)"
   },
@@ -488,6 +512,10 @@
     "en_GB": "Extract from a letter to the consulate of H.M. the King of the Netherlands in Genoa on May 7, 1825 about the arrival of a war brigantine",
     "nl_NL": "Uittreksel uit een brief aan het consulaat van Z.M. de Koning der Nederlanden in Genua op 7 mei 1825 over de komst van een oorlogsbrigantijn"
   },
+  "Estratto e traduzione sui fatti avvenuti a Roma$": {
+    "en_GB": "Extract and translation of the events that took place in Rome",
+    "nl_NL": "Uittreksel en vertaling van de gebeurtenissen die plaatsvonden in Rome"
+  },
   "Estratto e traduzioni sui fatti avvenuti a Roma$": {
     "en_GB": "Extract and translations about events that have taken place in Rome",
     "nl_NL": "Uittreksel en vertalingen over gebeurtenissen die zich hebben voorgedaan in Rome"
@@ -568,9 +596,21 @@
     "en_GB": "Printed sheet “\\1” (Rome, \\2 aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 aug. \\3)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 apr. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 apr. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 dec. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 dec. \\3)"
+  },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia Brancadoro, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia Brancadoro, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Brancadoro, \\2)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "Foglio a stampa “(.+)” firmato (\\$\\w+) \\(Vigevano, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” signed by \\2 (Vigevano, August \\3, \\4)",
@@ -592,9 +632,25 @@
     "en_GB": "Printed newspaper \"\\1\"",
     "nl_NL": "Gedrukte krant \"\\1\""
   },
+  "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 feb. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 feb. \\5)"
+  },
+  "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 jan. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jan. \\5)"
+  },
+  "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 mar. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 mar. \\5)"
+  },
   "Giornale a stampa “(.+?)” \\(N. (\\d+) - (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 - \\3 sep. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 - \\3 sep. \\4)"
+  },
+  "Giornale a stampa “(.+?)” \\(N. (\\d+), del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 may \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 mei. \\4)"
   },
   "Giornale a stampa “(.+?)” \\(Napoli, (\\d\\d?) nov. (\\d\\d\\d\\d), N. (\\d+), Anno (\\d+)°\\)$": {
     "en_GB": "Printed newspaper “\\1” (Naples, \\2 nov. \\3, N. \\4, Year \\5)",
@@ -627,6 +683,10 @@
   "Journal de la Haye$": {
     "en_GB": "Journal de la Haye",
     "nl_NL": "Journal de la Haye"
+  },
+  "Journal del (\\$\\w+)$": {
+    "en_GB": "Journal of \\1",
+    "nl_NL": "Logboek van \\1"
   },
   "Journal des Débats (a stampa)$": {
     "en_GB": "Journal des Débats (printed)",
@@ -1116,6 +1176,10 @@
     "en_GB": "Minutes of correspondence of \\2",
     "nl_NL": "Minuten van correspondentie van \\2"
   },
+  "Mission de M. $Limburg$": {
+    "en_GB": "Mission de M. $Limburg",
+    "nl_NL": "Mission de M. $Limburg"
+  },
   "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio \\(a stampa\\)$": {
     "en_GB": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (printed)",
     "nl_NL": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (gedrukt)"
@@ -1336,6 +1400,14 @@
     "en_GB": "Report from \\2 to \\4",
     "nl_NL": "Rapport van \\2 aan \\4"
   },
+  "Rapporto (di|del|della) (\\$\\w+) con trascrizione di una lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Report from \\2 with transcription of a letter from \\4",
+    "nl_NL": "Rapport van \\2 met transcriptie van een brief van \\4"
+  },
+  "Rapporto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Report from \\2",
+    "nl_NL": "Rapport van \\2"
+  },
   "Rapporto Commerciale dell'anno 1843 del porto di Civitavecchia (di|del|della) (\\$\\w+)$": {
     "en_GB": "Commercial report from the year 1843 from the port of Civitavecchia of \\2",
     "nl_NL": "Commercieel rapport van het jaar 1843 over de haven van Civitavecchia door \\2"
@@ -1396,6 +1468,10 @@
     "en_GB": "Report",
     "nl_NL": "Rapport"
   },
+  "Reveu des Deux Mondes \\(traduzione e trascrizione\\)$": {
+    "en_GB": "Reveu des Deux Mondes (translation and transcription)",
+    "nl_NL": "Reveu des Deux Mondes (vertaling en transcriptie)"
+  },
   "Ricevuta (di|del|della) (\\$\\w+)$": {
     "en_GB": "Receipt from \\2",
     "nl_NL": "Ontvangstbewijs van \\2"
@@ -1452,6 +1528,10 @@
     "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
     "nl_NL": "Statuten van de Società Olivi-moricola van de Kerkelijke Staat (gedrukt)"
   },
+  "Suite du Journal del (\\$\\w+)$": {
+    "en_GB": "Suite du Journal of \\1",
+    "nl_NL": "Voortzetting van het logboek van \\1"
+  },
   "Suite du journal de (\\$\\w+) \\(continuazione del giornale (di|del|della) (\\$\\w+)\\)$": {
     "en_GB": "Suite du journal de \\1 (Continuation of the journal of \\3)",
     "nl_NL": "Suite du journal de \\1 (Voortzetting van het logboek van \\3)"
@@ -1500,6 +1580,14 @@
     "en_GB": "Translation of a Decree of the interim Commissioner of the Government of the Roman State",
     "nl_NL": "Vertaling van een Decreet van de interim Commissaris van de Regering van de Romeinse Staat"
   },
+  "Traduzione del foglio a stampa “(.+)” \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of printed sheet “\\1” (Rome, \\2 apr. \\3)",
+    "nl_NL": "Vertaling van gedrukt blad “\\1” (Rome, \\2 apr. \\3)"
+  },
+  "Traduzione del foglio a stampa “(.+)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of the printed sheet “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Vertaling van het gedrukte blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
   "Traduzione del programma del Consiglio dei Ministri$": {
     "en_GB": "Translation of the program of the Council of Ministers",
     "nl_NL": "Vertaling van het programma van de Raad van Ministers"
@@ -1536,6 +1624,10 @@
     "en_GB": "Translation of the Giunta Suprema di Stato",
     "nl_NL": "Vertaling van de Giunta Suprema di Stato"
   },
+  "Traduzione della Protesta (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Translation of the Protest of \\2",
+    "nl_NL": "Vertaling van het Protest van \\2"
+  },
   "Traduzione della Protesta che la Santità di N. S. Pio PP. IX circondato dal Sacro Collegio ha fatto in Gaeta innanzi al Corpo Diplomatico la mattina del 14 febbraio 1849$": {
     "en_GB": "Translation of the Protest that His Holiness of Our Lord Pope Pius IX surrounded by the Sacred College made in Gaeta before the Diplomatic Corps on 14 February 1849",
     "nl_NL": "Vertaling van het Protest dat Zijne Heiligheid van Onze Heer Paus Pius IX, omringd door het Heilige College, maakte in Gaeta voor het Corps Diplomatique op 14 februari 1849"
@@ -1543,6 +1635,10 @@
   "Traduzione della circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of the circulaire of \\2",
     "nl_NL": "Vertaling van de circulaire van \\2"
+  },
+  "Traduzione della circolare a stampa (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Translation of the printed circulaire of \\2",
+    "nl_NL": "Vertaling van de gedrukte circulaire van \\2"
   },
   "Traduzione della lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of the letter of \\2 to \\4",
@@ -1576,6 +1672,10 @@
     "en_GB": "Translation of an article from \\2 about events",
     "nl_NL": "Vertaling van een artikel van \\2 over gebeurtenissen die zich hebben voorgedaan"
   },
+  "Traduzione di estratti$": {
+    "en_GB": "Translation of extracts",
+    "nl_NL": "Vertaling van uittreksels"
+  },
   "Traduzione di un articolo del Contemporaneo$": {
     "en_GB": "Translation of an article from the Contemporaneo",
     "nl_NL": "Vertaling van een artikel uit de Contemporaneo"
@@ -1591,6 +1691,10 @@
   "Traduzione di un proclama della Reppublica Romana$": {
     "en_GB": "Translation of a proclamation of the Roman Republic",
     "nl_NL": "Vertaling van een proclamatie van de Romeinse Republiek"
+  },
+  "Traduzione di un proclama della Repubblica Romana$": {
+    "en_GB": "Translation of a proclamation of the Roman Republic",
+    "nl_NL": "Vertalingen van een proclamatie van de Romeinse Republiek"
   },
   "Traduzione di una lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of a letter of \\2",
