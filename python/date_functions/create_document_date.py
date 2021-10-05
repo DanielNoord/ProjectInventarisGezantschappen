@@ -25,16 +25,21 @@ def create_document_date(
         raise TypeError(
             f"Some argument of document date isn't an integer, see: {file_name} row: {row[0].row}"
         )
-    if year:
-        year_final: Optional[int] = int(year)  # type: ignore # Can't be date
-    else:
-        year_final = None
-    if month:
-        month_final: Optional[int] = int(month)  # type: ignore
-    else:
-        month_final = None
-    if day:
-        day_final: Optional[int] = int(day)  # type: ignore
-    else:
-        day_final = None
+    try:
+        if year:
+            year_final: Optional[int] = int(year)  # type: ignore # Can't be date
+        else:
+            year_final = None
+        if month:
+            month_final: Optional[int] = int(month)  # type: ignore
+        else:
+            month_final = None
+        if day:
+            day_final: Optional[int] = int(day)  # type: ignore
+        else:
+            day_final = None
+    except ValueError as error:
+        raise ValueError(
+            f"Incorrect date format: {error}, see {file_name} row: {row[0].row}"
+        ) from error
     return (year_final, month_final, day_final)
