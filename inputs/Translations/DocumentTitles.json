@@ -17,8 +17,8 @@
     "nl_NL": "\"\\1\""
   },
   "A stampa “(.+)” del Giornale Romano N. (\\d+) \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” of the Giornale Romano N. \\2 (Rome, August \\3, \\4)",
-    "nl_NL": "Gedrukt “\\1” van de Giornale Romano N. \\2 (Rome, \\3 augustus \\4)"
+    "en_GB": "Printed “\\1” of the Giornale Romano N. \\2 (Rome, \\3 aug. \\4)",
+    "nl_NL": "Gedrukt “\\1” van de Giornale Romano N. \\2 (Rome, \\3 aug. \\4)"
   },
   "Accusé de réception \\(avviso di ricevimento\\)$": {
     "en_GB": "Accusé de réception (confirmation of receipt)",
@@ -109,8 +109,8 @@
     "nl_NL": "Gedrukte melding over de dood van Ferdinando d'Ohmas, adviseur van de ambassade"
   },
   "Avviso a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed notice “\\1” (Rome, August \\2, \\3)",
-    "nl_NL": "Gedrukte melding “\\1” (Rome, \\2 augustus \\3)"
+    "en_GB": "Printed notice “\\1” (Rome, \\2 aug. \\3)",
+    "nl_NL": "Gedrukte melding “\\1” (Rome, \\2 aug. \\3)"
   },
   "Avviso del governo provvisorio della Lombardia$": {
     "en_GB": "Notice from the interim government of Lombardy",
@@ -352,6 +352,10 @@
     "en_GB": "Speech of the Mayor of Zürich given at the opening of the Diet",
     "nl_NL": "Toespraak van de Burgemeester van Zürich gegeven bij de opening van het Dieet"
   },
+  "Disegno acquarellato della bandiera segnale che dovranno inalberare tutti i legni di Sua Maestà il re di Sardegna (allegato alla lettera)$": {
+    "en_GB": "Watercolor drawing of the signal flag that all boats belonging to His Majesty the King of Sardinia will have to raise (attached to the letter)",
+    "nl_NL": "Aquareltekening van de seinvlag die alle boten van Zijne Majesteit de Koning van Sardinië zullen moeten hijsen (toegevoegd aan de brief)"
+  },
   "Disegno di un profilo di donna \\(caricatura\\) a matita$": {
     "en_GB": "Pencil drawing of a woman profile (caricature)",
     "nl_NL": "Potloodtekening van een vrouwenprofiel (karikatuur)"
@@ -561,8 +565,8 @@
     "nl_NL": "Gedrukt blad \"\\1\""
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, August \\2, \\3)",
-    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 augustus \\3)"
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 aug. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia Brancadoro, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia Brancadoro, \\2)",
@@ -1193,16 +1197,16 @@
     "nl_NL": "Gedrukte notificaties van Paus Pius IX aan de burgers van Rome over het in bezit nemen van de Basiliek van Sint-Jan van Lateranen (Rome, Drukkerij van de Rev. Cam. Apostolica, 1846)."
   },
   "Notizie Romane del (\\d\\d?) febbraio (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman News of February \\1, \\2",
-    "nl_NL": "Nieuws uit Rome van \\1 februari \\2"
+    "en_GB": "Roman News of \\1 feb. \\2",
+    "nl_NL": "Nieuws uit Rome van \\1 feb. \\2"
   },
   "Notizie Romane del (\\d\\d?) gennaro (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman News of January \\1, \\2",
-    "nl_NL": "Nieuws uit Rome van \\1 januari \\2"
+    "en_GB": "Roman News of \\1 jan. \\2",
+    "nl_NL": "Nieuws uit Rome van \\1 jan. \\2"
   },
   "Notizie Romane del (\\d\\d?) marzo (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman News of March \\1, \\2",
-    "nl_NL": "Nieuws uit Rome van \\1 maart \\2"
+    "en_GB": "Roman News of \\1 mar. \\2",
+    "nl_NL": "Nieuws uit Rome van \\1 mar. \\2"
   },
   "Notizie Romane$": {
     "en_GB": "Roman News",
@@ -1525,8 +1529,8 @@
     "nl_NL": "Vertaling van een gedrukte melding van het magistratuur van Ancona"
   },
   "Traduzione dell'avviso a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Translation of a printed notice “\\1” (Rome, August \\2, \\3)",
-    "nl_NL": "Vertaling van een gedrukte melding “\\1” (Rome, \\2 augustus \\3)"
+    "en_GB": "Translation of a printed notice “\\1” (Rome, \\2 aug. \\3)",
+    "nl_NL": "Vertaling van een gedrukte melding “\\1” (Rome, \\2 aug. \\3)"
   },
   "Traduzione della Giunta Suprema di Stato$": {
     "en_GB": "Translation of the Giunta Suprema di Stato",
@@ -1603,10 +1607,6 @@
   "Traduzione di una lettera circolare (di|del|della) (\\$\\w+) ai cardinali legati$": {
     "en_GB": "Translation of a circulaire of \\2 to the cardinal legates",
     "nl_NL": "Vertaling van een circulaire van \\2 aan de kardinaal legaten"
-  },
-  "Traduzione in Francese della lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
-    "en_GB": "French translation of the letter of the Alto Consiglio della Nobilità to \\2 about the transferral of a medal",
-    "nl_NL": "Franse vertaling van de brief van het Alto Consiglio della Nobilità aan \\2 over de overdracht van een medaille"
   },
   "Traduzioni di estratti$": {
     "en_GB": "Translations of extracts",
@@ -1687,6 +1687,10 @@
   "Trascrizione di una lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a letter of \\2",
     "nl_NL": "Transcriptie van een brief van \\2"
+  },
+  "Trascrizione di una lettera (di|del|della) (\\$\\w+)\\) trasmessa (di|del|della) (\\$\\w+)\\)": {
+    "en_GB": "Transcription of a letter by \\2 sent by \\4",
+    "nl_NL": "Transcriptie van een brief door \\2 verstuurd door \\4"
   },
   "Trascrizione di una lettera apostolica (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of an apostolic letter of \\2",

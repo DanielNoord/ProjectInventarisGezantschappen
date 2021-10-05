@@ -91,6 +91,9 @@ Editorial tasks:
 ||| Write summary/introduction to archive. Possibly relevant sources: Wels, Santen
 ||| Find additional information about Dutch diplomatic represenatives, current information is quite minimal
 
+Finished volumes:
+1, 3, 7, 8, 22
+
 Translation tasks:
 
 |Done|Person|Task|
