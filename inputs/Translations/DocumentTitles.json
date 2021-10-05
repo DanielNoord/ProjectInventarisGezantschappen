@@ -348,6 +348,10 @@
     "en_GB": "Speech of the Mayor of Zürich given at the opening of the Diet",
     "nl_NL": "Toespraak van de Burgemeester van Zürich gegeven bij de opening van het Dieet"
   },
+  "Disegno acquarellato della bandiera segnale che dovranno inalberare tutti i legni di Sua Maestà il re di Sardegna (allegato alla lettera)$": {
+    "en_GB": "Watercolor drawing of the signal flag that all boats belonging to His Majesty the King of Sardinia will have to raise (attached to the letter)",
+    "nl_NL": "Aquareltekening van de seinvlag die alle boten van Zijne Majesteit de Koning van Sardinië zullen moeten hijsen (toegevoegd aan de brief)"
+  },
   "Disegno di un profilo di donna \\(caricatura\\) a matita$": {
     "en_GB": "Pencil drawing of a woman profile (caricature)",
     "nl_NL": "Potloodtekening van een vrouwenprofiel (karikatuur)"
@@ -1663,6 +1667,10 @@
   "Trascrizione di una lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a letter of \\2",
     "nl_NL": "Transcriptie van een brief van \\2"
+  },
+  "Trascrizione di una lettera (di|del|della) (\\$\\w+)\\) trasmessa (di|del|della) (\\$\\w+)\\)": {
+    "en_GB": "Transcription of a letter by \\2 sent by \\4",
+    "nl_NL": "Transcriptie van een brief door \\2 verstuurd door \\4"
   },
   "Trascrizione di una lettera apostolica (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of an apostolic letter of \\2",
