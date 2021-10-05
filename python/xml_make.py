@@ -33,7 +33,7 @@ def create_xml_individual_files(
             f_page, f_title, f_place, f_date = parse_file(file)
 
             # Check if file belongs to a dossier
-            if mat := re.search(r"ms.*?_(.*?)_.*?", file[0].value):
+            if mat := re.search(r"ms.+?_(.+?)_.+?", file[0].value):
                 file_entry(
                     dossiers[mat.groups()[0]],
                     f_page,
@@ -65,7 +65,7 @@ def create_xml_dossier(
     # Find dossiers
     for cell in sheet["A"]:
         if cell.value is not None and (
-            mat := re.search(r"ms.*?_(.*?)_.*?", cell.value)
+            mat := re.search(r"ms.+?_(.+?)_.+?", cell.value)
         ):
             if mat.groups()[0] not in dossiers.keys():
                 d_pages, d_title, d_data = parse_dossier(
