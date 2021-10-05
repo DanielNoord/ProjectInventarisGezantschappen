@@ -368,13 +368,41 @@
     "en_GB": "Extract from the Gazetta di Roma",
     "nl_NL": "Uittreksel uit de Gazetta di Roma"
   },
+  "Estratto dal Gazette di Rome \\(con parte non officielle\\)$": {
+    "en_GB": "Extract from the Gazette di Rome (with non-official part)",
+    "nl_NL": "Uittreksel uit de Gazette di Rome (met onofficieel onderdeel)"
+  },
+  "Estratto dal Journal de la Haye$": {
+    "en_GB": "Extract from the Journal de la Haye",
+    "nl_NL": "Uittreksel uit het Journal de la Haye"
+  },
+  "Estratto dal Journal des Dèbats du fevrier 1844$": {
+    "en_GB": "Extract from the Journal des Dèbats du fevrier 1844",
+    "nl_NL": "Uittreksel uit het Journal des Dèbats du fevrier 1844"
+  },
+  "Estratto dal Journal des Débats$": {
+    "en_GB": "Extract from the Journal des Débats",
+    "nl_NL": "Uittreksel uit de Journal des Débats"
+  },
+  "Estratto dal Journal l'Esperance$": {
+    "en_GB": "Extract from the Journal l'Esperance",
+    "nl_NL": "Uittreksel uit de Journal l'Esperance"
+  },
   "Estratto dal Monitore Romano$": {
     "en_GB": "Extract from the Monitore Romano",
     "nl_NL": "Uittreksel uit de Monitore Romano"
   },
-  "Estratto del Journal de la Haye$": {
-    "en_GB": "Extract from the Journal de la Haye",
-    "nl_NL": "Uittreksel uit het Journal de la Haye"
+  "Estratto dal Staatscourant \\(Gazette d'Etat\\)$": {
+    "en_GB": "Extract from the Staatscourant (Gazette d'Etat)",
+    "nl_NL": "Uittreksel uit de Staatscourant (Gazette d'Etat)"
+  },
+  "Estratto dal l'Indépendance Belge$": {
+    "en_GB": "Extract from l'Indipendence Belge",
+    "nl_NL": "Uittreksel uit l'Indipendence Belge"
+  },
+  "Estratto dal la Quotidienne$": {
+    "en_GB": "Extract from la Quotidienne",
+    "nl_NL": "Uittreksel uit la Quotidienne"
   },
   "Estratto di notizie su Firenze e sul (\\$\\w+)$": {
     "en_GB": "Extract from news about Florence and \\1",
@@ -460,37 +488,9 @@
     "en_GB": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions",
     "nl_NL": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions"
   },
-  "Extrait de l'Indépendance Belge$": {
-    "en_GB": "Extrait de l'Indipendence Belge",
-    "nl_NL": "Extrait de l'Indipendence Belge"
-  },
-  "Extrait de la Quotidienne$": {
-    "en_GB": "Extrait de la Quotidienne",
-    "nl_NL": "Extrait de la Quotidienne"
-  },
-  "Extrait du Gazette di Rome \\(con parte non officielle\\)$": {
-    "en_GB": "Extrait du Gazette di Rome (with non-official part)",
-    "nl_NL": "Extrait du Gazette di Rome (met onofficieel onderdeel)"
-  },
-  "Extrait du Journal des Débats$": {
-    "en_GB": "Extrait du Journal des Débats",
-    "nl_NL": "Extrait du Journal des Débats"
-  },
-  "Extrait du Journal l'Esperance$": {
-    "en_GB": "Extrait du Journal l'Esperance",
-    "nl_NL": "Extrait du Journal l'Esperance"
-  },
   "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816$": {
     "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
     "nl_NL": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816"
-  },
-  "Extrait du Staatscourant \\(Gazette d'Etat\\)$": {
-    "en_GB": "Extrait du Staatscourant (Gazette d'Etat)",
-    "nl_NL": "Extrait du Staatscourant (Gazette d'Etat)"
-  },
-  "Extrait du journal des Dèbats du fevrier 1844$": {
-    "en_GB": "Extrait du journal des Dèbats du fevrier 1844",
-    "nl_NL": "Extrait du journal des Dèbats du fevrier 1844"
   },
   "Foggia di vestire il lutto prescritto da S.M. per la morte del (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Dress code for mourning from H.M. for the death of \\1 (printed)",
