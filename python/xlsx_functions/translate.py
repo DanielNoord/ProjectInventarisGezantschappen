@@ -42,7 +42,12 @@ def translate_xlsx(  # pylint: disable=too-many-arguments
             # Check if line matches one of the patterns that are automatically translated
             for pattern, trans in translations.items():
                 if pattern.match(line):
-                    line = re.sub(pattern, trans[localization], line)
+                    try:
+                        line = re.sub(pattern, trans[localization], line)
+                    except re.error as error:
+                        raise re.error(
+                            f"At {pattern} found the following error: {error}"
+                        ) from error
                     used_translations.add(pattern)
                     break
             else:

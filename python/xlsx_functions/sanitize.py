@@ -42,8 +42,10 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
                 if line == " ":
                     line = ""
                 elif isinstance(line, str):
-                    if line[-1] in [" ", ",", "."]:  # Remove final characters
+                    if line[-1] in {" ", ",", ".", ";"}:  # Remove final characters
                         line = line[:-1]
+                    if line[0] in {" "}:  # Remove spaces in first place
+                        line = line[1:]
                     if index != 0:
                         line = line[0].upper() + line[1:]
                     line = line.replace("( ", "(").replace(" )", ")").replace("  ", " ")

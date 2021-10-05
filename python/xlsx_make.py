@@ -161,8 +161,8 @@ def do_full_loop() -> None:
 
 
 if __name__ == "__main__":
-    # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
-    # create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "en_GB")
+    create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
+    create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "en_GB")
     # create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "nl_NL")
     # create_filled_xlsx("outputs/VolumesExcelTranslated/en_GB", "en_GB")
     # create_filled_xlsx("outputs/VolumesExcelSanitized/it_IT", "it_IT")
@@ -175,4 +175,4 @@ if __name__ == "__main__":
     #         "outputs/VolumesExcelFinal/nl_NL",
     #     ]
     # )
-    do_full_loop()
+    # do_full_loop()
