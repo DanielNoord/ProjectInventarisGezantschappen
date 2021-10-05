@@ -564,6 +564,12 @@
     "geonames:wikipedia": "https://en.wikipedia.org/wiki/Frascati",
     "nl_NL": "Frascati"
   },
+  "Gaeta": {
+    "en_GB": "Gaeta",
+    "geonames:id": 3176438,
+    "geonames:wikipedia": "https://en.wikipedia.org/wiki/Gaeta",
+    "nl_NL": "Gaeta"
+  },
   "Gand": {
     "en_GB": "Ghent",
     "geonames:id": 2797656,

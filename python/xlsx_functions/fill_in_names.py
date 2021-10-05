@@ -39,9 +39,14 @@ def fill_in_xlsx(
             line = re.split(r"( |\.|,|\(|\))", row[1].value)
             for index, word in enumerate(line):
                 if word.startswith("$"):
-                    line[index] = name_string(
-                        individuals[word], date, translations, localization
-                    )
+                    try:
+                        line[index] = name_string(
+                            individuals[word], date, translations, localization
+                        )
+                    except KeyError as error:
+                        raise KeyError(
+                            f"Incorrect identifier {error} in {file_name} on row {row[0].row}"
+                        ) from error
             line_str = "".join(line)
 
             # Clean up string

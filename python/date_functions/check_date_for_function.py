@@ -69,12 +69,17 @@ def check_date(
 
     Args:
         date (tuple[Optional[int], Optional[int], Optional[int]]): Date of the file to be checked
-        function_period (str): Period in which an individual held a position
+        function_period (str): Period in which an individual held a position/title
 
     Returns:
         bool: Whether the date fits or not
     """
-    begin_date, end_date = [i.split("-") for i in function_period.split("/")]
+    try:
+        begin_date, end_date = [i.split("-") for i in function_period.split("/")]
+    except ValueError as error:
+        raise ValueError(
+            f"Missing a '/' in function/title with date {function_period}"
+        ) from error
     if check_begin(date, begin_date) and check_end(date, end_date):
         return True
     return False
