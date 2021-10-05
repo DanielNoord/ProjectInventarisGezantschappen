@@ -204,6 +204,10 @@
     "en_GB": "Copy of the letter of \\2 made by \\4",
     "nl_NL": "Kopie van de brief van \\2 gemaakt door \\4"
   },
+  "Copia della verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$": {
+    "en_GB": "Copy of the report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
+    "nl_NL": "Kopie van het rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
+  },
   "Copia di lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con l'annuncio che gli archivi dipendenti dal Consolato delle Repubblica delle Sette Province Unite a Genova gli saranno spediti dalla Legazione di Sardegna$": {
     "en_GB": "Copy of letter of \\2 to \\4 with the announcement that the archives of the Consulate of the Republic of the Seven United Netherlands in Genoa will be sent to him by the Legation of Sardinia",
     "nl_NL": "Kopie van brief van \\2 aan \\4 met de aankondiging dat de archieven van het consulaat van de Republiek der Zeven Verenigde Provinciën in Genua hem zullen worden toegezonden door het Gezantschap van Sardinië"
@@ -800,6 +804,10 @@
     "en_GB": "Encrypted letter",
     "nl_NL": "Versleutelde brief"
   },
+  "Lettera circolare (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
+    "en_GB": "Circulaire of \\2 to \\4",
+    "nl_NL": "Circulaire van \\2 aan \\4"
+  },
   "Lettera circolare (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Circulaire of \\2 to \\4",
     "nl_NL": "Circulaire van \\2 aan \\4"
@@ -863,6 +871,10 @@
   "Lettera del Console Generale di Sua Maestà dei Paesi Bassi presso il Re di Sardegna sottoscritta (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from the consul general of His Majesty of the Netherlands to the King of Sardinia signed by \\1 to \\3",
     "nl_NL": "Brief van de consul-generaal van Zijne Majesteit der Nederlanden bij de koning van Sardinië ondertekend door \\1 to \\3"
+  },
+  "Lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
+    "en_GB": "Letter of the Alto Consiglio della Nobilità to \\2 about the transferral of a medal",
+    "nl_NL": "Brief van het Alto Consiglio della Nobilità aan \\2 over de overdracht van een medaille"
   },
   "Lettera della Direzione Generale di Polizia di Roma (a|al) (\\$\\w+) sulla distribuzione dei palchi nei teatri di Roma$": {
     "en_GB": "Letter from the General Directorate of the Police of Rome to \\2 about the distribution of stages in Roman theaters",
@@ -1272,6 +1284,10 @@
     "en_GB": "Receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
   },
+  "Risposta (di|del|della) (\\$\\w+) alla lettera dell'Alto Consiglio della Nobiltà sulla trasmissione di una medaglia$": {
+    "en_GB": "Response of \\2 to the letter of the Alto Consiglio della Nobilità about the transferral of a medal",
+    "nl_NL": "Respons van \\2 op de brief van het Alto Consiglio della Nobilità over de overdracht van een medaille"
+  },
   "Risposta (di|del|della) (\\$\\w+)$": {
     "en_GB": "Response of \\2",
     "nl_NL": "Respons van \\2"
@@ -1440,6 +1456,10 @@
     "en_GB": "Translation of an apostolic letter of \\2",
     "nl_NL": "Vertaling van een apostolische brief van \\2"
   },
+  "Traduzione in Francese della lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
+    "en_GB": "French translation of the letter of the Alto Consiglio della Nobilità to \\2 about the transferral of a medal",
+    "nl_NL": "Franse vertaling van de brief van het Alto Consiglio della Nobilità aan \\2 over de overdracht van een medaille"
+  },
   "Traduzioni di estratti$": {
     "en_GB": "Translations of extracts",
     "nl_NL": "Vertalingen van uittreksels"
@@ -1531,6 +1551,10 @@
   "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua$": {
     "en_GB": "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua",
     "nl_NL": "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua"
+  },
+  "Verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$": {
+    "en_GB": "Report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
+    "nl_NL": "Rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
   },
   "William Archibald Bake né en Hollande mort en Ariccia 1846 \\(Giuglielmo Archibald Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
     "en_GB": "William Archibald Bake né en Hollande mort en Ariccia 1846 (William Archibald Bake born in the Netherlands died in Ariccia 1846)",
