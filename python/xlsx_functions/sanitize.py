@@ -39,7 +39,7 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
 
                 # Clean up string
                 line = cell.value
-                if line == " ":
+                if isinstance(line, str) and line.isspace():
                     line = ""
                 elif isinstance(line, str):
                     if line[-1] in {" ", ",", ".", ";"}:  # Remove final characters
