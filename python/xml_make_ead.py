@@ -8,7 +8,7 @@ import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
 
-from xlsx_functions import parse_dossier, parse_file, parse_volume
+from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_volume
 from xlsx_make import create_sanitized_xlsx
 from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
 
@@ -19,15 +19,38 @@ def create_xml_individual_files(
     vol_entry: etree._Element,
 ) -> None:
     """Based on a sheet creates .xml entries for every file found"""
+    prev_file, prev_file_did, similar = None, None, None
+
     for file in sheet.iter_rows():
         if file[0].value is not None and not file[0].value.endswith("_0"):
+            if prev_file is not None and prev_file_did is not None:
+                similar = compare_rows(file, prev_file)
+
             f_page, f_title, f_place, f_date = parse_file(file)
 
-            # Check if file belongs to a dossier
-            if mat := re.search(r"ms.+?_(.+?)_.+?", file[0].value):
-                file_entry(dossiers[mat.groups()[0]], f_page, f_title, f_place, f_date)
+            if not similar:
+                # Check if file belongs to a dossier
+                try:
+                    if mat := re.search(r"ms.+?_(.+?)_.+?", file[0].value):
+                        prev_file_did = file_entry(
+                            dossiers[mat.groups()[0]], f_page, f_title, f_place, f_date
+                        )
+                    else:
+                        prev_file_did = file_entry(
+                            vol_entry, f_page, f_title, f_place, f_date
+                        )
+                except ValueError as error:
+                    raise ValueError(
+                        f"{file[0].value} gives following error: {error}"
+                    ) from error
             else:
-                file_entry(vol_entry, f_page, f_title, f_place, f_date)
+                # Update pages/id of previous document
+                unitid = prev_file_did.find("unitid")
+                if "-" in unitid.text:
+                    unitid.text = unitid.text[: unitid.text.index("-") + 1] + f_page
+                else:
+                    unitid.text += f"-{f_page}"
+            prev_file = file
 
 
 def create_xml_dossier(
@@ -60,7 +83,7 @@ def create_xml_dossier(
     if dossiers == {}:
         warn(f"V{v_num} does not have any dossiers!")
 
-    # create_xml_individual_files(sheet, dossiers, c01)
+    create_xml_individual_files(sheet, dossiers, c01)
 
 
 def create_xml_volume(
@@ -112,5 +135,5 @@ def create_xml_file(dir_name: str) -> None:
 
 
 if __name__ == "__main__":
-    create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
+    # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
     create_xml_file("outputs/VolumesExcelSanitized/it_IT")
