@@ -1,5 +1,5 @@
 from lxml import etree
-from typing_utils.translations_classes import Database
+from typing_utils import Database
 
 
 def add_geognames(
