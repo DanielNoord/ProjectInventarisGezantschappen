@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-from warnings import warn
-
 from date_functions import create_date_data
 from lxml import etree
 from typing_classes import VolData
@@ -130,17 +128,8 @@ def file_entry(
     title: str,
     _: str,
     date: str,
-) -> None:
-    """Returns an .xml element for a file within a dossier
-
-    Args:
-        parent_element (etree._Element): The element to which the file element is appended
-        pages (str): The pages of the files
-        title (str): Title of the file
-        place (str): The place of the file, no longer used
-        date (str): Date of the file
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
-    """
+) -> etree._Element:
+    """Creates an .xml element for a file within a dossier/volume"""
     if parent_element.tag == "c01":
         c02 = etree.SubElement(parent_element, "c02", level="file")
         c02_did = etree.SubElement(c02, "did")
@@ -158,7 +147,8 @@ def file_entry(
 
         date_data = create_date_data(date)
         add_unitdate(c02_did, date, date_data)
-    elif parent_element.tag == "c02":
+        return c02_did
+    if parent_element.tag == "c02":
         c03 = etree.SubElement(parent_element, "c03", level="file")
         c03_did = etree.SubElement(c03, "did")
         etree.SubElement(c03_did, "unitid").text = f"pp. {pages}"
@@ -175,5 +165,5 @@ def file_entry(
 
         date_data = create_date_data(date)
         add_unitdate(c03_did, date, date_data)
-    else:
-        warn("File was not handled correctly")
+        return c03_did
+    raise ValueError(f"File was not handled correctly{title}")
