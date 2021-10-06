@@ -47,7 +47,7 @@ def fill_in_xlsx(
                         raise KeyError(
                             f"Incorrect identifier {error} in {file_name} on row {row[0].row}"
                         ) from error
-            line_str = "".join(line)
+            row[1].value = "".join(line)
 
     new_directory = (
         directory_name.replace("VolumesExcelSanitized/", "VolumesExcelFinal/")
