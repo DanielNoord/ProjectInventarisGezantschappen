@@ -2,7 +2,6 @@
 
 import os
 import re
-from warnings import warn
 
 import openpyxl
 from lxml import etree
