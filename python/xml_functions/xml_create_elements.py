@@ -5,7 +5,7 @@ from lxml import etree
 from typing_utils import VolData
 from typing_utils.translations_classes import Translations
 
-from xml_functions import add_unitdate
+from xml_functions import add_dateset, add_geognames, add_unitdate
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:
@@ -127,7 +127,7 @@ def file_entry(
     parent_element: etree._Element,
     pages: str,
     title: str,
-    _: str,
+    place: str,
     date: str,
     translations: Translations,
 ) -> etree._Element:
@@ -139,8 +139,11 @@ def file_entry(
     else:
         raise ValueError(f"File was not handled correctly{title}")
     file_did = etree.SubElement(file_element, "did")
+
+    # ID
     etree.SubElement(file_did, "unitid").text = f"pp. {pages}"
 
+    # Titles
     etree.SubElement(
         file_did, "unittitle", {"lang": "it"}
     ).text = f"THIS SHOULD BE ITALIAN {title}"
@@ -151,6 +154,19 @@ def file_entry(
         file_did, "unittitle", {"lang": "en"}
     ).text = f"THIS SHOULD BE ENGLISH {title}"
 
+    # Date
     date_data = create_date_data(date)
     add_unitdate(file_did, date, date_data)
+
+    # Scopecontent
+    scope = etree.SubElement(file_element, "scopecontent")
+    chronlist = etree.SubElement(scope, "chronlist")
+    chronitem = etree.SubElement(chronlist, "chronitem")
+    add_dateset(chronitem, date, date_data)
+
+    # Event
+    event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
+    add_geognames(event, place, translations)
+    
+
     return file_did

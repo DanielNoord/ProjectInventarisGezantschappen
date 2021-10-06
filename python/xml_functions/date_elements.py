@@ -52,13 +52,15 @@ def add_unitdate(  # pylint: disable=too-many-branches
         udate_element_nl.text = f"Tot en met {date.date2_nl}"
 
 
-def add_datesingle(  # pylint: disable=too-many-branches
+def add_dateset(  # pylint: disable=too-many-branches
     parent_element: etree._Element, datestring: str, date: DateData
 ) -> None:
     """Creates and appends an unitdate element"""
+    dateset = etree.SubElement(parent_element, "dateset")
+
     # Add Italian unitdate
     datesing_element_it = etree.SubElement(
-        parent_element,
+        dateset,
         "datesingle",
         {"standarddate": datestring, "lang": "it"},
     )
@@ -73,7 +75,7 @@ def add_datesingle(  # pylint: disable=too-many-branches
 
     # Add English unitdate
     datesing_element_en = etree.SubElement(
-        parent_element,
+        dateset,
         "datesingle",
         {"standarddate": datestring, "lang": "en"},
     )
@@ -87,7 +89,7 @@ def add_datesingle(  # pylint: disable=too-many-branches
 
     # Add Dutch unitdate
     datesing_element_nl = etree.SubElement(
-        parent_element,
+        dateset,
         "datesingle",
         {"standarddate": datestring, "lang": "nl"},
     )
