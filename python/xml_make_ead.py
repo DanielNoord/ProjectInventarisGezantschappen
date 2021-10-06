@@ -143,6 +143,11 @@ def create_xml_file(dir_name: str) -> None:
     print("Printed file to outputs/Legation_Archive.xml")
     print("Writing XML complete!")
 
+    os.system(
+        "xmllint --noout --dtdvalid outputs/ead3.dtd outputs/Legation_Archive.xml"
+    )
+    print("XML-DTD check complete!")
+
 
 if __name__ == "__main__":
     create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
