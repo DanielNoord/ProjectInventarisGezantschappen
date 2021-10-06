@@ -145,20 +145,20 @@ def file_entry(
     file_did = etree.SubElement(file_element, "did")
 
     # ID
-    etree.SubElement(file_did, "unitid").text = f"pp. {file_data.pages}"
+    etree.SubElement(file_did, "unitid").text = f"pp. {file_data.page}"
 
     # Titles
-    add_doc_title(file_did, file_data.title, database, file_data.date)
+    add_doc_title(file_did, file_data.title, database, file_data.date_string)
 
     # Date
-    date_data = create_date_data(file_data.date)
-    add_unitdate(file_did, file_data.date, date_data)
+    date_data = create_date_data(file_data.date_string)
+    add_unitdate(file_did, file_data.date_string, date_data)
 
     # Scopecontent
     scope = etree.SubElement(file_element, "scopecontent")
     chronlist = etree.SubElement(scope, "chronlist")
     chronitem = etree.SubElement(chronlist, "chronitem")
-    add_dateset(chronitem, file_data.date, date_data)
+    add_dateset(chronitem, file_data.date_string, date_data)
 
     # Event
     event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
