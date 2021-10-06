@@ -1,4 +1,4 @@
-from typing_utils.data_classes import DateData, VolData
+from typing_utils.data_classes import DateData, FileData, VolData
 from typing_utils.translations_classes import (
     Database,
     IndividualsDict,
@@ -33,4 +33,5 @@ __all__ = [
     "Database",
     "VolData",
     "DateData",
+    "FileData",
 ]

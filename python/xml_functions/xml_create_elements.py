@@ -4,7 +4,7 @@ import re
 
 from date_functions import create_date_data
 from lxml import etree
-from typing_utils import Database, VolData
+from typing_utils import Database, FileData, VolData
 
 from xml_functions import (
     add_dateset,
@@ -132,10 +132,7 @@ def dossier_entry(  # pylint: disable=too-many-arguments
 
 def file_entry(
     parent_element: etree._Element,
-    pages: str,
-    title: str,
-    place: str,
-    date: str,
+    file_data: FileData,
     database: Database,
 ) -> etree._Element:
     """Creates an .xml element for a file within a dossier/volume"""
@@ -144,29 +141,29 @@ def file_entry(
     elif parent_element.tag == "c02":
         file_element = etree.SubElement(parent_element, "c03", level="file")
     else:
-        raise ValueError(f"File was not handled correctly{title}")
+        raise ValueError(f"File was not handled correctly{file_data.title}")
     file_did = etree.SubElement(file_element, "did")
 
     # ID
-    etree.SubElement(file_did, "unitid").text = f"pp. {pages}"
+    etree.SubElement(file_did, "unitid").text = f"pp. {file_data.pages}"
 
     # Titles
-    add_doc_title(file_did, title, database, date)
+    add_doc_title(file_did, file_data.title, database, file_data.date)
 
     # Date
-    date_data = create_date_data(date)
-    add_unitdate(file_did, date, date_data)
+    date_data = create_date_data(file_data.date)
+    add_unitdate(file_did, file_data.date, date_data)
 
     # Scopecontent
     scope = etree.SubElement(file_element, "scopecontent")
     chronlist = etree.SubElement(scope, "chronlist")
     chronitem = etree.SubElement(chronlist, "chronitem")
-    add_dateset(chronitem, date, date_data)
+    add_dateset(chronitem, file_data.date, date_data)
 
     # Event
     event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
-    add_geognames(event, place, database)
-    for identifier in re.findall(r"\$\w+", title):
+    add_geognames(event, file_data.place, database)
+    for identifier in re.findall(r"\$\w+", file_data.title):
         add_persname(event, identifier, database)
 
     return file_did

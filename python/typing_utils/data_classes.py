@@ -20,3 +20,12 @@ class DateData(NamedTuple):
     date2_en: Optional[str]
     date1_nl: Optional[str]
     date2_nl: Optional[str]
+
+
+class FileData(NamedTuple):
+    """ "Data about a file"""
+
+    page: str
+    title: str
+    place: str
+    date_string: str

@@ -8,7 +8,7 @@ from warnings import warn
 from date_functions import check_date_earlier, check_date_later
 from openpyxl.cell.cell import Cell
 from openpyxl.worksheet.worksheet import Worksheet
-from typing_utils import VolData
+from typing_utils import FileData, VolData
 
 
 def parse_volume(vol: tuple[Cell, ...]) -> VolData:
@@ -112,7 +112,7 @@ def parse_dossier(  # pylint: disable=too-many-branches
     return dos_title, dos_date
 
 
-def parse_file(row: tuple[Cell, ...]) -> tuple[str, str, str, str]:
+def parse_file(row: tuple[Cell, ...]) -> FileData:
     """Parse the data of a file row in .xlsx format"""
     if len(row) < 6:
         raise ValueError(
@@ -137,4 +137,4 @@ def parse_file(row: tuple[Cell, ...]) -> tuple[str, str, str, str]:
         file_date[2] = "None"
     file_date = [i.zfill(2) for i in file_date if i != "None"]
     file_date_string = "-".join(file_date)
-    return file_page, file_title, file_place, file_date_string
+    return FileData(file_page, file_title, file_place, file_date_string)

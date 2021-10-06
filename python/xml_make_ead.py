@@ -10,11 +10,9 @@ from openpyxl import load_workbook
 
 from data_parsing import initialize_database_for_xml
 from typing_utils import Database
-from xlsx_functions import (compare_rows, parse_dossier, parse_file,
-                            parse_volume)
+from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_volume
 from xlsx_make import create_sanitized_xlsx
-from xml_functions import (basic_xml_file, dossier_entry, file_entry,
-                           volume_entry)
+from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
 
 
 def create_xml_individual_files(
@@ -31,24 +29,17 @@ def create_xml_individual_files(
             if prev_file is not None and prev_file_did is not None:
                 similar = compare_rows(file, prev_file)
 
-            f_page, f_title, f_place, f_date = parse_file(file)
+            file_data = parse_file(file)
 
             if not similar:
                 # Check if file belongs to a dossier
                 try:
                     if mat := re.search(r"ms.+?_(.+?)_.+?", file[0].value):
                         prev_file_did = file_entry(
-                            dossiers[mat.groups()[0]],
-                            f_page,
-                            f_title,
-                            f_place,
-                            f_date,
-                            database,
+                            dossiers[mat.groups()[0]], file_data, database
                         )
                     else:
-                        prev_file_did = file_entry(
-                            vol_entry, f_page, f_title, f_place, f_date, database
-                        )
+                        prev_file_did = file_entry(vol_entry, file_data, database)
                 except ValueError as error:
                     raise ValueError(
                         f"{file[0].value} gives following error: {error}"
@@ -57,9 +48,11 @@ def create_xml_individual_files(
                 # Update pages/id of previous document
                 unitid = prev_file_did.find("unitid")
                 if "-" in unitid.text:
-                    unitid.text = unitid.text[: unitid.text.index("-") + 1] + f_page
+                    unitid.text = (
+                        unitid.text[: unitid.text.index("-") + 1] + file_data.page
+                    )
                 else:
-                    unitid.text += f"-{f_page}"
+                    unitid.text += f"-{file_data.page}"
             prev_file = file
 
 
