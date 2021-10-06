@@ -11,11 +11,11 @@
           "description": "Translation of the place in English",
           "type": "string"
         },
-        "geonames:id": {
+        "geonames_id": {
           "description": "A geonames ID",
           "type": "integer"
         },
-        "geonames:wikipedia": {
+        "geonames_wikipedia": {
           "description": "A wikipedia entry for the place",
           "oneOf": [
             {
@@ -31,7 +31,7 @@
           "type": "string"
         }
       },
-      "required": ["en_GB", "nl_NL", "geonames:id", "geonames:wikipedia"],
+      "required": ["en_GB", "nl_NL", "geonames_id", "geonames_wikipedia"],
       "type": "object"
     }
   },
