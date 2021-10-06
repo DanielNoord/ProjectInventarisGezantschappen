@@ -4,7 +4,7 @@ import json
 import os
 from typing import Dict
 
-import geocoder
+import geocoder  # type: ignore
 
 
 def load_geonames(filename: str) -> None:
