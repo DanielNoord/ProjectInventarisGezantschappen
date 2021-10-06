@@ -113,17 +113,7 @@ def parse_dossier(  # pylint: disable=too-many-branches
 
 
 def parse_file(row: tuple[Cell, ...]) -> tuple[str, str, str, str]:
-    """Parse the data of a file row in .xlsx format
-
-    Args:
-        row (tuple[Cell, ...]): Row with file data in openpyxl Cell format
-
-    Returns:
-        str: Page number of the file
-        str: Title of the file
-        str: Place of the file
-        str: Date of the file in the format xxxx-xx-xx
-    """
+    """Parse the data of a file row in .xlsx format"""
     if len(row) < 6:
         raise ValueError(
             f"Expected the row in Excel to have 6 cells. In correct for:\n{row}"
