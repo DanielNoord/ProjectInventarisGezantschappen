@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
+import re
+
 from date_functions import create_date_data
 from lxml import etree
 from typing_utils import VolData
-from typing_utils.translations_classes import Translations
+from typing_utils.translations_classes import Database
 
-from xml_functions import add_dateset, add_geognames, add_unitdate
+from xml_functions import add_dateset, add_geognames, add_persname, add_unitdate
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:
@@ -129,7 +131,7 @@ def file_entry(
     title: str,
     place: str,
     date: str,
-    translations: Translations,
+    database: Database,
 ) -> etree._Element:
     """Creates an .xml element for a file within a dossier/volume"""
     if parent_element.tag == "c01":
@@ -166,7 +168,8 @@ def file_entry(
 
     # Event
     event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
-    add_geognames(event, place, translations)
-    
+    add_geognames(event, place, database)
+    for identifier in re.findall(r"\$\w+", title):
+        add_persname(event, identifier, database)
 
     return file_did

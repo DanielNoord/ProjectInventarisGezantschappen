@@ -2,11 +2,7 @@
 
 import json
 
-from typing_utils import (
-    TranslationDictCleaned,
-    TranslationDictCleanedTitles,
-    Translations,
-)
+from typing_utils import Database, TranslationDictCleaned, TranslationDictCleanedTitles
 
 
 def initialize_translation_database() -> tuple[
@@ -39,7 +35,7 @@ def initialize_translation_database() -> tuple[
     return (titles, functions, placenames)
 
 
-def initialize_translation_database_for_xml() -> Translations:
+def initialize_database_for_xml() -> Database:
     """Reads the files containing all translations of titles and functions"""
     with open("inputs/Translations/Titles.json", encoding="utf-8") as file:
         titles = json.load(file)
@@ -57,4 +53,8 @@ def initialize_translation_database_for_xml() -> Translations:
         document_titles = json.load(file)
     del document_titles["$schema"]
 
-    return Translations(document_titles, functions, placenames, titles)
+    with open("inputs/Individuals.json", encoding="utf-8") as file:
+        individuals = json.load(file)
+    del individuals["$schema"]
+
+    return Database(document_titles, functions, placenames, titles, individuals)

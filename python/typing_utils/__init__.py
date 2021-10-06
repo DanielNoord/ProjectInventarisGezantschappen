@@ -1,5 +1,6 @@
 from typing_utils.data_classes import DateData, VolData
 from typing_utils.translations_classes import (
+    Database,
     IndividualsDict,
     IndividualsDictCleaned,
     IndividualsDictEntry,
@@ -13,7 +14,6 @@ from typing_utils.translations_classes import (
     TranslationDictEntryTitles,
     TranslationDictPlacenames,
     TranslationDictTitles,
-    Translations,
 )
 
 __all__ = [
@@ -30,7 +30,7 @@ __all__ = [
     "TranslationDictEntryPlacenames",
     "IndividualsDict",
     "IndividualsDictCleaned",
-    "Translations",
+    "Database",
     "VolData",
     "DateData",
 ]

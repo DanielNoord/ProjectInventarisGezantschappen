@@ -21,14 +21,6 @@ TranslationDictCleanedTitles = Dict[str, TranslationDictEntryTitles]
 TranslationDictPlacenames = Dict[str, Union[str, TranslationDictEntryPlacenames]]
 TranslationDictCleanedPlacenames = Dict[str, TranslationDictEntryPlacenames]
 
-
-class Translations(NamedTuple):
-    document_titles: TranslationDictCleanedDocuments
-    functions: TranslationDictCleaned
-    placenames: TranslationDictCleanedPlacenames
-    titles: TranslationDictCleanedTitles
-
-
 # Dictionaries for the Individuals file
 IndividualsDictEntry = TypedDict(
     "IndividualsDictEntry",
@@ -50,3 +42,13 @@ IndividualsDictEntry = TypedDict(
 )
 IndividualsDict = Dict[str, Union[str, IndividualsDictEntry]]
 IndividualsDictCleaned = Dict[str, IndividualsDictEntry]
+
+
+class Database(NamedTuple):
+    """A fully loaded database of all data collected in the project"""
+
+    document_titles: TranslationDictCleanedDocuments
+    functions: TranslationDictCleaned
+    placenames: TranslationDictCleanedPlacenames
+    titles: TranslationDictCleanedTitles
+    individuals: IndividualsDictCleaned

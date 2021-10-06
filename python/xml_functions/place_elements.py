@@ -1,16 +1,16 @@
 from lxml import etree
-from typing_utils.translations_classes import Translations
+from typing_utils.translations_classes import Database
 
 
 def add_geognames(
-    parent_element: etree._Element, place: str, translations: Translations
+    parent_element: etree._Element, place: str, database: Database
 ) -> None:
     """Adds a geogname to the parent element"""
     if place == "None":
         return
 
     try:
-        data = translations.placenames[place]
+        data = database.placenames[place]
         geogname = etree.SubElement(
             parent_element,
             "geogname",
