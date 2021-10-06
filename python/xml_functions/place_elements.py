@@ -5,6 +5,7 @@ from typing_utils.translations_classes import Translations
 def add_geognames(
     parent_element: etree._Element, place: str, translations: Translations
 ) -> None:
+    """Adds a geogname to the parent element"""
     if place == "None":
         return
 
