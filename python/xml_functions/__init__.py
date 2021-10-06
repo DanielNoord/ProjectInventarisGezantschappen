@@ -1,4 +1,4 @@
-from xml_functions.unitdate import add_unitdate
+from xml_functions.date_elements import add_datesingle, add_unitdate
 from xml_functions.xml_create_elements import (
     basic_xml_file,
     dossier_entry,
@@ -12,4 +12,5 @@ __all__ = [
     "dossier_entry",
     "file_entry",
     "volume_entry",
+    "add_datesingle",
 ]
