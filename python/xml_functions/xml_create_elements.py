@@ -3,6 +3,7 @@
 from date_functions import create_date_data
 from lxml import etree
 from typing_utils import VolData
+from typing_utils.translations_classes import Translations
 
 from xml_functions import add_unitdate
 
@@ -128,6 +129,7 @@ def file_entry(
     title: str,
     _: str,
     date: str,
+    translations: Translations,
 ) -> etree._Element:
     """Creates an .xml element for a file within a dossier/volume"""
     if parent_element.tag == "c01":
