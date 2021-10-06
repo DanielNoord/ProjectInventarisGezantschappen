@@ -55,6 +55,7 @@ def fill_in_name(
     date: str,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> str:
+    """Creates a document title with filled in names and functions"""
     title_split = re.split(r"( |\.|,|\(|\))", title)
     for index, word in enumerate(title_split):
         if word.startswith("$"):
