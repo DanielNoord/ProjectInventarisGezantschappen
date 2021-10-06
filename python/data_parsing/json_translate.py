@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+import re
 
 from typing_utils import Database, TranslationDictCleaned, TranslationDictCleanedTitles
 
@@ -52,6 +53,7 @@ def initialize_database_for_xml() -> Database:
     with open("inputs/Translations/DocumentTitles.json", encoding="utf-8") as file:
         document_titles = json.load(file)
     del document_titles["$schema"]
+    document_titles = {re.compile(k): v for k, v in document_titles.items()}
 
     with open("inputs/Individuals.json", encoding="utf-8") as file:
         individuals = json.load(file)
