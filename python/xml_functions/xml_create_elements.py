@@ -4,10 +4,15 @@ import re
 
 from date_functions import create_date_data
 from lxml import etree
-from typing_utils import VolData
-from typing_utils.translations_classes import Database
+from typing_utils import Database, VolData
 
-from xml_functions import add_dateset, add_geognames, add_persname, add_unitdate
+from xml_functions import (
+    add_dateset,
+    add_doc_title,
+    add_geognames,
+    add_persname,
+    add_unitdate,
+)
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:
@@ -146,15 +151,7 @@ def file_entry(
     etree.SubElement(file_did, "unitid").text = f"pp. {pages}"
 
     # Titles
-    etree.SubElement(
-        file_did, "unittitle", {"lang": "it"}
-    ).text = f"THIS SHOULD BE ITALIAN {title}"
-    etree.SubElement(
-        file_did, "unittitle", {"lang": "dut"}
-    ).text = f"THIS SHOULD BE DUTCH {title}"
-    etree.SubElement(
-        file_did, "unittitle", {"lang": "en"}
-    ).text = f"THIS SHOULD BE ENGLISH {title}"
+    add_doc_title(file_did, title, database, date)
 
     # Date
     date_data = create_date_data(date)
