@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# type: ignore # pylint: disable-all
+# Deprecated in favour of new xml-program
 
 import os
 import re
@@ -8,7 +10,6 @@ from warnings import warn
 import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
-
 from xlsx_functions import parse_dossier, parse_file, parse_volume
 from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
 
