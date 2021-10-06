@@ -140,7 +140,7 @@ def create_xml_file(
 
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
-    tree.write(  # type: ignore # Stub doesn't recognize doctype parameter is valid
+    tree.write(
         f"outputs/Inventaris_{localization}.xml",
         pretty_print=True,
         xml_declaration=True,

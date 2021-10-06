@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 
+import re
+
 from date_functions import create_date_data
 from lxml import etree
-from typing_classes import VolData
+from typing_utils import VolData
+from typing_utils.translations_classes import Database
 
-from xml_functions import add_unitdate
+from xml_functions import add_dateset, add_geognames, add_persname, add_unitdate
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:
@@ -126,44 +129,47 @@ def file_entry(
     parent_element: etree._Element,
     pages: str,
     title: str,
-    _: str,
+    place: str,
     date: str,
+    database: Database,
 ) -> etree._Element:
     """Creates an .xml element for a file within a dossier/volume"""
     if parent_element.tag == "c01":
-        c02 = etree.SubElement(parent_element, "c02", level="file")
-        c02_did = etree.SubElement(c02, "did")
-        etree.SubElement(c02_did, "unitid").text = f"pp. {pages}"
+        file_element = etree.SubElement(parent_element, "c02", level="file")
+    elif parent_element.tag == "c02":
+        file_element = etree.SubElement(parent_element, "c03", level="file")
+    else:
+        raise ValueError(f"File was not handled correctly{title}")
+    file_did = etree.SubElement(file_element, "did")
 
-        etree.SubElement(
-            c02_did, "unittitle", {"lang": "it"}
-        ).text = f"THIS SHOULD BE ITALIAN {title}"
-        etree.SubElement(
-            c02_did, "unittitle", {"lang": "dut"}
-        ).text = f"THIS SHOULD BE DUTCH {title}"
-        etree.SubElement(
-            c02_did, "unittitle", {"lang": "en"}
-        ).text = f"THIS SHOULD BE ENGLISH {title}"
+    # ID
+    etree.SubElement(file_did, "unitid").text = f"pp. {pages}"
 
-        date_data = create_date_data(date)
-        add_unitdate(c02_did, date, date_data)
-        return c02_did
-    if parent_element.tag == "c02":
-        c03 = etree.SubElement(parent_element, "c03", level="file")
-        c03_did = etree.SubElement(c03, "did")
-        etree.SubElement(c03_did, "unitid").text = f"pp. {pages}"
+    # Titles
+    etree.SubElement(
+        file_did, "unittitle", {"lang": "it"}
+    ).text = f"THIS SHOULD BE ITALIAN {title}"
+    etree.SubElement(
+        file_did, "unittitle", {"lang": "dut"}
+    ).text = f"THIS SHOULD BE DUTCH {title}"
+    etree.SubElement(
+        file_did, "unittitle", {"lang": "en"}
+    ).text = f"THIS SHOULD BE ENGLISH {title}"
 
-        etree.SubElement(
-            c03_did, "unittitle", {"lang": "it"}
-        ).text = f"THIS SHOULD BE ITALIAN {title}"
-        etree.SubElement(
-            c03_did, "unittitle", {"lang": "dut"}
-        ).text = f"THIS SHOULD BE DUTCH {title}"
-        etree.SubElement(
-            c03_did, "unittitle", {"lang": "en"}
-        ).text = f"THIS SHOULD BE ENGLISH {title}"
+    # Date
+    date_data = create_date_data(date)
+    add_unitdate(file_did, date, date_data)
 
-        date_data = create_date_data(date)
-        add_unitdate(c03_did, date, date_data)
-        return c03_did
-    raise ValueError(f"File was not handled correctly{title}")
+    # Scopecontent
+    scope = etree.SubElement(file_element, "scopecontent")
+    chronlist = etree.SubElement(scope, "chronlist")
+    chronitem = etree.SubElement(chronlist, "chronitem")
+    add_dateset(chronitem, date, date_data)
+
+    # Event
+    event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
+    add_geognames(event, place, database)
+    for identifier in re.findall(r"\$\w+", title):
+        add_persname(event, identifier, database)
+
+    return file_did

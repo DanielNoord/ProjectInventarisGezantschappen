@@ -1,9 +1,10 @@
 from typing import Dict
 
-from wikidataintegrator import wdi_core
+from typing_utils import IndividualsDictCleaned
+from wikidataintegrator import wdi_core  # type: ignore
 
 
-def search_wikidata(database: Dict) -> None:  # type: ignore # Too diffcult to type for now
+def search_wikidata(database: IndividualsDictCleaned) -> None:
     """Searches wikidata for 10 best matches"""
     for data in database.values():
         if not data.get("wikidata:id", None):
@@ -40,6 +41,7 @@ def search_wikidata(database: Dict) -> None:  # type: ignore # Too diffcult to t
                             except KeyError:
                                 print("Unrecognized language of entry")
                     print(f"https://www.wikidata.org/wiki/{person_id}")
+
 
 def unspecified_wikidate(database: Dict) -> None:  # type: ignore # Too diffcult to type for now
     """Prints out entries without a wikidata identifier"""

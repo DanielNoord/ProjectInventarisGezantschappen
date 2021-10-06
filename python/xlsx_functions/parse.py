@@ -8,7 +8,7 @@ from warnings import warn
 from date_functions import check_date_earlier, check_date_later
 from openpyxl.cell.cell import Cell
 from openpyxl.worksheet.worksheet import Worksheet
-from typing_classes import VolData
+from typing_utils import VolData
 
 
 def parse_volume(vol: tuple[Cell, ...]) -> VolData:

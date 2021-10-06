@@ -8,6 +8,8 @@ import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
 
+from data_parsing import initialize_database_for_xml
+from typing_utils.translations_classes import Database
 from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_volume
 from xlsx_make import create_sanitized_xlsx
 from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
@@ -17,6 +19,7 @@ def create_xml_individual_files(
     sheet: openpyxl.worksheet.worksheet.Worksheet,
     dossiers: dict[str, etree._Element],
     vol_entry: etree._Element,
+    database: Database,
 ) -> None:
     """Based on a sheet creates .xml entries for every file found"""
     prev_file, prev_file_did, similar = None, None, None
@@ -33,11 +36,16 @@ def create_xml_individual_files(
                 try:
                     if mat := re.search(r"ms.+?_(.+?)_.+?", file[0].value):
                         prev_file_did = file_entry(
-                            dossiers[mat.groups()[0]], f_page, f_title, f_place, f_date
+                            dossiers[mat.groups()[0]],
+                            f_page,
+                            f_title,
+                            f_place,
+                            f_date,
+                            database,
                         )
                     else:
                         prev_file_did = file_entry(
-                            vol_entry, f_page, f_title, f_place, f_date
+                            vol_entry, f_page, f_title, f_place, f_date, database
                         )
                 except ValueError as error:
                     raise ValueError(
@@ -57,6 +65,7 @@ def create_xml_dossier(
     sheet: openpyxl.worksheet.worksheet.Worksheet,
     v_num: str,
     c01: etree._Element,
+    database: Database,
 ) -> None:
     """Creates necessary dossier entries at the c02 level"""
     dossiers: dict[str, etree._Element] = {}
@@ -83,12 +92,11 @@ def create_xml_dossier(
     if dossiers == {}:
         warn(f"V{v_num} does not have any dossiers!")
 
-    create_xml_individual_files(sheet, dossiers, c01)
+    create_xml_individual_files(sheet, dossiers, c01, database)
 
 
 def create_xml_volume(
-    filename: str,
-    archdesc: etree._Element,
+    filename: str, archdesc: etree._Element, database: Database
 ) -> None:
     """Adds a volume to an 'archdesc' element"""
     workbook = load_workbook(filename)
@@ -98,7 +106,7 @@ def create_xml_volume(
     volume_data = parse_volume(first_sheet[1])
     c01 = volume_entry(archdesc, volume_data)
 
-    create_xml_dossier(first_sheet, volume_data.num, c01)
+    create_xml_dossier(first_sheet, volume_data.num, c01, database)
 
     print(f"""Finished writing volume {volume_data.num}\n""")
 
@@ -106,6 +114,8 @@ def create_xml_volume(
 def create_xml_file(dir_name: str) -> None:
     """Creates and writes an xml file based on directory of volumes"""
     print("Starting to create XML file!")
+    database = initialize_database_for_xml()
+
     root, archdesc_dsc = basic_xml_file()
 
     # Iterate files sorted by volume number
@@ -116,7 +126,7 @@ def create_xml_file(dir_name: str) -> None:
         ),
     ):
         if not file.count("~$") and file.startswith("Paesi"):
-            create_xml_volume(f"{dir_name}/{file}", archdesc_dsc)
+            create_xml_volume(f"{dir_name}/{file}", archdesc_dsc, database)
 
     tree = etree.ElementTree(root)
 
@@ -133,7 +143,12 @@ def create_xml_file(dir_name: str) -> None:
     print("Printed file to outputs/Legation_Archive.xml")
     print("Writing XML complete!")
 
+    os.system(
+        "xmllint --noout --dtdvalid outputs/ead3.dtd outputs/Legation_Archive.xml"
+    )
+    print("XML-DTD check complete!")
+
 
 if __name__ == "__main__":
-    # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
+    create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
     create_xml_file("outputs/VolumesExcelSanitized/it_IT")
