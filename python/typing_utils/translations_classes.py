@@ -25,8 +25,8 @@ TranslationDictCleanedPlacenames = Dict[str, TranslationDictEntryPlacenames]
 class Translations(NamedTuple):
     document_titles: TranslationDictCleanedDocuments
     functions: TranslationDictCleaned
-    placenames: TranslationDictCleanedTitles
-    titles: TranslationDictCleanedPlacenames
+    placenames: TranslationDictCleanedPlacenames
+    titles: TranslationDictCleanedTitles
 
 
 # Dictionaries for the Individuals file
