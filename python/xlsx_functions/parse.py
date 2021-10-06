@@ -57,7 +57,6 @@ def parse_dossier(  # pylint: disable=too-many-branches
         warn(f"Vol: {vol_num} Dos: {dos_number} is missing a dossier title")
 
     ## Find earliest and latest data
-    ## TODO: This can probably be improved performance-wise
     early_date: tuple[
         Union[str, int, None], Union[str, int, None], Union[str, int, None]
     ] = (
