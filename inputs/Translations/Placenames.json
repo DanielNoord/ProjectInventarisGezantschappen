@@ -12,6 +12,12 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Aardenburg",
     "nl_NL": "Aardenburg"
   },
+  "Aiaccio": {
+    "en_GB": "Ajaccio",
+    "geonames_id": 6452235,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ajaccio",
+    "nl_NL": "Ajaccio"
+  },
   "Aix-en-Provence": {
     "en_GB": "Aix-en-Provence",
     "geonames_id": 3038354,
@@ -107,6 +113,12 @@
     "geonames_id": 3947322,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Arequipa",
     "nl_NL": "Arequipa"
+  },
+  "Arezzo": {
+    "en_GB": "Arezzo",
+    "geonames_id": 3182884,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Arezzo",
+    "nl_NL": "Arezzo"
   },
   "Arnhem": {
     "en_GB": "Arnhem",
@@ -281,6 +293,12 @@
     "geonames_id": 3180813,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cannero_Riviera",
     "nl_NL": "Cannero"
+  },
+  "Caprarola": {
+    "en_GB": "Caprarola",
+    "geonames_id": 6540498,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Caprarola",
+    "nl_NL": "Caprarola"
   },
   "Caprera": {
     "en_GB": "Caprera",
@@ -498,6 +516,12 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Erbach%2C_Rheingau",
     "nl_NL": "Erbach"
   },
+  "Este": {
+    "en_GB": "Este",
+    "geonames_id": 3177337,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Este%2C_Veneto",
+    "nl_NL": "Este"
+  },
   "Fano": {
     "en_GB": "Fano",
     "geonames_id": 3177219,
@@ -551,6 +575,12 @@
     "geonames_id": 3176639,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fossano",
     "nl_NL": "Fossano"
+  },
+  "Francoforte": {
+    "en_GB": "Frankfurt",
+    "geonames_id": 3220968,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Frankfurt",
+    "nl_NL": "Frankfurt"
   },
   "Frankfurt sull'Oder": {
     "en_GB": "Frankfurt an der Oder",
@@ -834,6 +864,12 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Leuven",
     "nl_NL": "Leuven"
   },
+  "Lucca": {
+    "en_GB": "Lucca",
+    "geonames_id": 6542121,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lucca",
+    "nl_NL": "Lucca"
+  },
   "Lucerna": {
     "en_GB": "Lucerne",
     "geonames_id": 2659811,
@@ -870,11 +906,23 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Mah%C3%B3n",
     "nl_NL": "Maó-Mahón"
   },
+  "Malamocco": {
+    "en_GB": "Malamocco",
+    "geonames_id": 3174197,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Malamocco",
+    "nl_NL": "Malamocco"
+  },
   "Malmö": {
     "en_GB": "Malmö",
     "geonames_id": 2692969,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Malmo",
     "nl_NL": "Malmö"
+  },
+  "Malta": {
+    "en_GB": "Malta",
+    "geonames_id": 2562772,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Malta_%28island%29",
+    "nl_NL": "Malta"
   },
   "Mare di Sumatra": {
     "en_GB": "Java sea",
@@ -887,6 +935,12 @@
     "geonames_id": 2995469,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Marseille",
     "nl_NL": "Marseille"
+  },
+  "Messina": {
+    "en_GB": "Messina",
+    "geonames_id": 252417,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Messina",
+    "nl_NL": "Messina"
   },
   "Middelburg": {
     "en_GB": "Middelburg",
@@ -948,6 +1002,12 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Moscow",
     "nl_NL": "Moskou"
   },
+  "Namur": {
+    "en_GB": "Namur",
+    "geonames_id": 2790471,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Namur",
+    "nl_NL": "Namen"
+  },
   "Nantes": {
     "en_GB": "Nantes",
     "geonames_id": 2990969,
@@ -972,6 +1032,12 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nice",
     "nl_NL": "Nice"
   },
+  "Novara": {
+    "en_GB": "Novara",
+    "geonames_id": 3172189,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Novara",
+    "nl_NL": "Novara"
+  },
   "Nove": {
     "en_GB": "Nove",
     "geonames_id": 6540383,
@@ -983,6 +1049,12 @@
     "geonames_id": 2749723,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Oegstgeest",
     "nl_NL": "Oegstgeest"
+  },
+  "Olomouc": {
+    "en_GB": "Olomouc",
+    "geonames_id": 3069011,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Olomouc",
+    "nl_NL": "Olomouc"
   },
   "Oost-Souburg": {
     "en_GB": "Oost-Souburg",
@@ -1074,11 +1146,29 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pontedera",
     "nl_NL": "Pontedera"
   },
+  "Portici": {
+    "en_GB": "Portici",
+    "geonames_id": 6538768,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Portici",
+    "nl_NL": "Portici"
+  },
   "Prignano sulla Secchia": {
     "en_GB": "Prignano sulla Secchia",
     "geonames_id": 6536270,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Prignano_sulla_Secchia",
     "nl_NL": "Prignano sulla Secchia"
+  },
+  "Ravenna": {
+    "en_GB": "Ravenna",
+    "geonames_id": 6540121,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ravenna",
+    "nl_NL": "Ravenni"
+  },
+  "Reggio Calabria": {
+    "en_GB": "Reggio Calabria",
+    "geonames_id": 2523630,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Reggio_Calabria",
+    "nl_NL": "Reggio Calabria"
   },
   "Reggio nell’Emilia": {
     "en_GB": "Reggio nell’Emilia",
@@ -1103,6 +1193,12 @@
     "geonames_id": 3333187,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/London_Borough_of_Richmond_upon_Thames",
     "nl_NL": "Richmond"
+  },
+  "Rimini": {
+    "en_GB": "Rimini",
+    "geonames_id": 3169361,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rimini",
+    "nl_NL": "Rimini"
   },
   "Ripattoni": {
     "en_GB": "Ripattoni",
@@ -1145,6 +1241,12 @@
     "geonames_id": 3167961,
     "geonames_wikipedia": null,
     "nl_NL": "San Michele di Pagana"
+  },
+  "San Pietroburgo": {
+    "en_GB": "Saint Petersburg",
+    "geonames_id": 498817,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+    "nl_NL": "Sint Petersburg"
   },
   "San Remo": {
     "en_GB": "San Remo",
@@ -1458,6 +1560,12 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Verrua_Savoia",
     "nl_NL": "Verrua Savoia"
   },
+  "Vevey": {
+    "en_GB": "Vevey",
+    "geonames_id": 2658145,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vevey",
+    "nl_NL": "Vevey"
+  },
   "Vezzano": {
     "en_GB": "Vezzano",
     "geonames_id": 6541628,
@@ -1505,6 +1613,18 @@
     "geonames_id": 6540107,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Viterbo",
     "nl_NL": "Viterbo"
+  },
+  "Voorburg": {
+    "en_GB": "Voorburg",
+    "geonames_id": 2745321,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Voorburg",
+    "nl_NL": "Voorburg"
+  },
+  "Voorschoten": {
+    "en_GB": "Voorschoten",
+    "geonames_id": 2745301,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Voorschoten",
+    "nl_NL": "Voorschoten"
   },
   "Voorst": {
     "en_GB": "Voorst",
