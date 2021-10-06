@@ -8,9 +8,6 @@ def add_unitdate(  # pylint: disable=too-many-branches
     parent_element: etree._Element, datestring: str, date: DateData
 ) -> None:
     """Creates and appends an unitdate element"""
-    if not datestring:
-        raise ValueError(f"No datestring provided for {parent_element}")
-
     # Add Italian unitdate
     udate_element_it = etree.SubElement(
         parent_element,
