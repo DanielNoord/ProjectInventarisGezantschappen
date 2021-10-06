@@ -133,39 +133,24 @@ def file_entry(
 ) -> etree._Element:
     """Creates an .xml element for a file within a dossier/volume"""
     if parent_element.tag == "c01":
-        c02 = etree.SubElement(parent_element, "c02", level="file")
-        c02_did = etree.SubElement(c02, "did")
-        etree.SubElement(c02_did, "unitid").text = f"pp. {pages}"
+        file_element = etree.SubElement(parent_element, "c02", level="file")
+    elif parent_element.tag == "c02":
+        file_element = etree.SubElement(parent_element, "c03", level="file")
+    else:
+        raise ValueError(f"File was not handled correctly{title}")
+    file_did = etree.SubElement(file_element, "did")
+    etree.SubElement(file_did, "unitid").text = f"pp. {pages}"
 
-        etree.SubElement(
-            c02_did, "unittitle", {"lang": "it"}
-        ).text = f"THIS SHOULD BE ITALIAN {title}"
-        etree.SubElement(
-            c02_did, "unittitle", {"lang": "dut"}
-        ).text = f"THIS SHOULD BE DUTCH {title}"
-        etree.SubElement(
-            c02_did, "unittitle", {"lang": "en"}
-        ).text = f"THIS SHOULD BE ENGLISH {title}"
+    etree.SubElement(
+        file_did, "unittitle", {"lang": "it"}
+    ).text = f"THIS SHOULD BE ITALIAN {title}"
+    etree.SubElement(
+        file_did, "unittitle", {"lang": "dut"}
+    ).text = f"THIS SHOULD BE DUTCH {title}"
+    etree.SubElement(
+        file_did, "unittitle", {"lang": "en"}
+    ).text = f"THIS SHOULD BE ENGLISH {title}"
 
-        date_data = create_date_data(date)
-        add_unitdate(c02_did, date, date_data)
-        return c02_did
-    if parent_element.tag == "c02":
-        c03 = etree.SubElement(parent_element, "c03", level="file")
-        c03_did = etree.SubElement(c03, "did")
-        etree.SubElement(c03_did, "unitid").text = f"pp. {pages}"
-
-        etree.SubElement(
-            c03_did, "unittitle", {"lang": "it"}
-        ).text = f"THIS SHOULD BE ITALIAN {title}"
-        etree.SubElement(
-            c03_did, "unittitle", {"lang": "dut"}
-        ).text = f"THIS SHOULD BE DUTCH {title}"
-        etree.SubElement(
-            c03_did, "unittitle", {"lang": "en"}
-        ).text = f"THIS SHOULD BE ENGLISH {title}"
-
-        date_data = create_date_data(date)
-        add_unitdate(c03_did, date, date_data)
-        return c03_did
-    raise ValueError(f"File was not handled correctly{title}")
+    date_data = create_date_data(date)
+    add_unitdate(file_did, date, date_data)
+    return file_did
