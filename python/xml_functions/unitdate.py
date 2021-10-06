@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from lxml import etree
-from typing_classes import DateData
+from typing_utils import DateData
 
 
 def add_unitdate(  # pylint: disable=too-many-branches

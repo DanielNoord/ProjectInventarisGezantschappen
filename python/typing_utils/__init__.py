@@ -1,4 +1,5 @@
-from typing_utils.aliases import (
+from typing_utils.data_classes import DateData, VolData
+from typing_utils.translations_classes import (
     IndividualsDict,
     IndividualsDictCleaned,
     IndividualsDictEntry,
@@ -22,4 +23,6 @@ __all__ = [
     "IndividualsDictEntry",
     "IndividualsDict",
     "IndividualsDictCleaned",
+    "VolData",
+    "DateData",
 ]

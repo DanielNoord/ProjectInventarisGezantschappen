@@ -5,7 +5,7 @@ import locale
 import re
 from typing import Literal, Optional
 
-from typing_classes import DateData
+from typing_utils import DateData
 
 
 def extract_date(  # pylint: disable=too-many-branches

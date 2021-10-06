@@ -2,7 +2,7 @@
 
 from date_functions import create_date_data
 from lxml import etree
-from typing_classes import VolData
+from typing_utils import VolData
 
 from xml_functions import add_unitdate
 
