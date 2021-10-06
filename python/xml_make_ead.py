@@ -10,9 +10,11 @@ from openpyxl import load_workbook
 
 from data_parsing import initialize_database_for_xml
 from typing_utils import Database
-from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_volume
+from xlsx_functions import (compare_rows, parse_dossier, parse_file,
+                            parse_volume)
 from xlsx_make import create_sanitized_xlsx
-from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
+from xml_functions import (basic_xml_file, dossier_entry, file_entry,
+                           volume_entry)
 
 
 def create_xml_individual_files(
@@ -86,11 +88,6 @@ def create_xml_dossier(
                     d_title,
                     d_date,
                 )
-
-    # Create dossier if no dossiers were found?
-    # TODO: Do we want to create a dossier in these cases?
-    if dossiers == {}:
-        warn(f"V{v_num} does not have any dossiers!")
 
     create_xml_individual_files(sheet, dossiers, c01, database)
 
