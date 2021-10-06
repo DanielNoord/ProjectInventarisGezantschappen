@@ -9,8 +9,7 @@ from lxml import etree
 from openpyxl import load_workbook
 
 from data_parsing import initialize_database_for_xml
-from python.typing_utils.translations_classes import Database
-from typing_utils.translations_classes import Translations
+from typing_utils.translations_classes import Database
 from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_volume
 from xlsx_make import create_sanitized_xlsx
 from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
