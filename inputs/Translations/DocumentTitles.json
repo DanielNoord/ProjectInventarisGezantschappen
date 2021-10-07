@@ -168,6 +168,10 @@
     "en_GB": "Attached personal note",
     "nl_NL": "Bijgevoegde persoonlijke notitie"
   },
+  "Bolla d'entrata$": {
+    "en_GB": "Import note",
+    "nl_NL": "Invoernota"
+  },
   "Boni garantiti (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
@@ -1220,6 +1224,10 @@
     "en_GB": "Letter of the Alto Consiglio della Nobilità to \\2 about the conferral of a medal",
     "nl_NL": "Brief van het Alto Consiglio della Nobilità aan \\2 over de toekenning van een medaille"
   },
+  "Lettera dell'Ufficio d'istruzione Criminale del Tribunale di Torino$": {
+    "en_GB": "Letter from the Criminal Education Office of the Court of Turin",
+    "nl_NL": "Brief van het Criminile Instructie Kantoor van het Hof van Turijn"
+  },
   "Lettera della Direzione Generale di Polizia di Roma (a|al) (\\$\\w+) sulla distribuzione dei palchi nei teatri di Roma$": {
     "en_GB": "Letter from the General Directorate of the Police of Rome to \\2 about the distribution of stages in Roman theaters",
     "nl_NL": "Brief van de algemene directie van de politie van Rome aan \\2 over de verdeling van podia in Romeinse theaters"
@@ -1275,6 +1283,10 @@
   "Lettere (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)": {
     "en_GB": "Letters from \\2 to \\4 and \\6",
     "nl_NL": "Brieven van \\2 to \\4 and \\6"
+  },
+  "Lettres diverses \\(Varie lettere\\)$": {
+    "en_GB": "Lettres diverses (Various letters)",
+    "nl_NL": "Lettres diverses (Diverse brieven)"
   },
   "Lista delle donne olandesi che desidderano avere biglietti d'ingresso alle tribune$": {
     "en_GB": "List of Dutch women who desire to have entrance tickets to the tribunes",
@@ -1375,6 +1387,10 @@
   "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio \\(a stampa\\)$": {
     "en_GB": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (printed)",
     "nl_NL": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (gedrukt)"
+  },
+  "Nota con allegata Bolla d'entrata$": {
+    "en_GB": "Note with attached import note",
+    "nl_NL": "Nota with bijgevoegde invoernota"
   },
   "Nota confidenziale$": {
     "en_GB": "Confidential note",
