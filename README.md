@@ -92,7 +92,7 @@ Editorial tasks:
 ||| Find additional information about Dutch diplomatic represenatives, current information is quite minimal
 
 Finished volumes:
-1, 3, 7, 8, 10, 22
+1, 3, 7, 8, 9, 10, 22
 
 Translation tasks:
 

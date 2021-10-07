@@ -12,9 +12,17 @@
     "en_GB": "\"\\1\" note on the lamentable events that took place in the Netherlands",
     "nl_NL": "\"\\1\" nota over de betreurenswaardige gebeurtenissen die in Nederland hebben plaatsgevonden"
   },
+  "\"(.+)\" \\(a stampa\\)$": {
+    "en_GB": "\"\\1\" (printed)",
+    "nl_NL": "\"\\1\" (gedrukt)"
+  },
   "\"(.+?)\"$": {
     "en_GB": "\"\\1\"",
     "nl_NL": "\"\\1\""
+  },
+  "(\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "\\1 to \\3",
+    "nl_NL": "\\1 aan \\3"
   },
   "A stampa \"(.+)\"$": {
     "en_GB": "Printed \"\\1\"",
@@ -348,6 +356,10 @@
     "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
     "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondentie met de Minister van Buitenlandse Zaken over verschillende onderwerpen)"
   },
+  "Correspondance avec les agents consulaires$": {
+    "en_GB": "Correspondance avec les agents consulaires",
+    "nl_NL": "Correspondance avec les agents consulaires"
+  },
   "Correspondance de M.H. Cartenstat a Mgr. Grooff \\(Corrispondenza di M.H. Cartenstat a Mgr. Grooff\\)$": {
     "en_GB": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Correspondence of M.H. Cartenstat with Mgr. Grooff)",
     "nl_NL": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Correspondentie van M.H. Cartenstat met Mgr. Grooff)"
@@ -455,6 +467,10 @@
   "Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Edict of \\2",
     "nl_NL": "Edict van \\2"
+  },
+  "Editto. \"(.*)\" \\(a stampa\\)$": {
+    "en_GB": "Edict \"\\1\" (printed)",
+    "nl_NL": "Edict \"\\1\" (printed)"
   },
   "Encyclica di pio IX ad omnes supremos moderatores abbates$": {
     "en_GB": "Encyclical of Pius IX ad omnes supremos moderatores abbates",
@@ -787,6 +803,10 @@
   "Giornale di Roma \\(a stampa\\)$": {
     "en_GB": "Giornale di Roma (printed)",
     "nl_NL": "Giornale di Roma (gedrukt)"
+  },
+  "Governo Pontificio. Tariffe del soldo ed accessori$": {
+    "en_GB": "Papal Government. Pay rates and accessories",
+    "nl_NL": "Pauselijke regering. Accijnsen en accessoires"
   },
   "Imprimés Diverse 1848 \\(Diverse stampe del 1848\\)$": {
     "en_GB": "Imprimés Diverse 1848 (Various prints from 1848)",
