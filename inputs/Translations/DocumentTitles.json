@@ -348,10 +348,6 @@
     "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
     "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondentie met de Minister van Buitenlandse Zaken over verschillende onderwerpen)"
   },
-  "Correspondance avec les agents consulaires$": {
-    "en_GB": "Correspondance avec les agents consulaires",
-    "nl_NL": "Correspondance avec les agents consulaires"
-  },
   "Correspondance de M.H. Cartenstat a Mgr. Grooff \\(Corrispondenza di M.H. Cartenstat a Mgr. Grooff\\)$": {
     "en_GB": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Correspondence of M.H. Cartenstat with Mgr. Grooff)",
     "nl_NL": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Correspondentie van M.H. Cartenstat met Mgr. Grooff)"
@@ -1748,13 +1744,13 @@
     "en_GB": "Sentence in the name of \\2 (printed) regarding the sentencing to prison of \\4 and \\6 as guilty of having disclosed in Bologna a handwritten proclamation directed to the people of the Legations that incited a revolt (Bologna, July 28, 1844)",
     "nl_NL": "Uitspraak in de naam van \\2 (gedrukt) over de veroordeling tot gevangenisstraf van \\4 en \\6 als schuldig aan het in Bologna bekendmaken van een handgeschreven proclamatie gericht aan de mensen van de Gezantschappen die een opstand uitriep (Bologna, 28 juli 1844)"
   },
-  "Staatsblad van het Koningrijk der Nederlanden n. (\\d+) \\(a stampa\\)$": {
-    "en_GB": "Staatsblad van het Koningrijk der Nederlanden n. \\1 (printed)",
-    "nl_NL": "Staatsblad van het Koningrijk der Nederlanden n. \\1 (gedrukt)"
-  },
   "Staatsblad van het Koninkrijk der Nederlanden (a stampa)$": {
     "en_GB": "Staatsblad van het Koninkrijk der Nederlanden (printed)",
     "nl_NL": "Staatsblad van het Koninkrijk der Nederlanden (gedrukt)"
+  },
+  "Staatsblad van het Koninkrijk der Nederlanden n. (\\d+) \\(a stampa\\)$": {
+    "en_GB": "Staatsblad van het Koninkrijk der Nederlanden n. \\1 (printed)",
+    "nl_NL": "Staatsblad van het Koninkrijk der Nederlanden n. \\1 (gedrukt)"
   },
   "Stato comparativo del Dazio tassato dalla vigente Tariffa Doganale per la introduzione delle sottodescritte manifatture e rispettive materie grezze": {
     "en_GB": "Comparison of the excise duty levied by the current customs tariff for the import of the manufactures and raw materials described below",
