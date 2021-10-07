@@ -420,7 +420,7 @@
     "en_GB": "Speech to the Corps Diplomatique of \\1",
     "nl_NL": "Toespraak aan het Corps Diplomatique van \\1"
   },
-  "Discorso dal Trono del (\\$\\w+) \\(a stampa\\)$": {
+  "Discorso dal Trono di (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Speech from the Throne of \\1 (printed)",
     "nl_NL": "Troonrede van \\1 (gedrukt)"
   },
