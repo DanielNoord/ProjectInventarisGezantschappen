@@ -7569,6 +7569,22 @@
     "titles": [["marchese", null]],
     "wikidata:id": "Q7159675"
   },
+  "$Pieralisi": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1802",
+    "date_of_death": "1887",
+    "functions": [["Bibliotecario della Biblioteca Barberiniana", null]],
+    "images": [""],
+    "name": "Sante",
+    "person_type": 1,
+    "place_of_birth": "Jesi",
+    "place_of_death": "Roma",
+    "sources": [""],
+    "surname": "Pieralisi",
+    "titles": [["vescovo", null]],
+    "wikidata:id": "Q93262403"
+  },
   "$Pietro": {
     "comment": "",
     "comment_daniel": "",
