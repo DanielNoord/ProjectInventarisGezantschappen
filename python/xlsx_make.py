@@ -100,7 +100,7 @@ def create_translated_xlsx(
     used_translations: set[Pattern[str]] = set()
 
     directory = os.fsencode(directory_name)
-    for file in os.listdir(directory):
+    for file in sorted(os.listdir(directory)):
         if not str(file).count("~$") and str(file).startswith("b'Paesi"):
             filename = os.fsdecode(file)
             translate_xlsx(
