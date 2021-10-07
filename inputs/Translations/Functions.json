@@ -276,6 +276,10 @@
     "en_GB": "General commissioner of the Apostolic Chamber",
     "nl_NL": "Commissaris-generaal van de Apostolische Kamer"
   },
+  "Commissario straordinario pontificio a Ancona": {
+    "en_GB": "Pontifical extraordinary commissioner at Ancona",
+    "nl_NL": "Pauselijk buitengewoon gezant te Ancona"
+  },
   "Compositore": {
     "en_GB": "Composer",
     "nl_NL": "Componist"
@@ -295,6 +299,10 @@
   "Console Generale del Regno di Sardegna e provvisoriamente anche del Granducato di Toscana": {
     "en_GB": "Consul general of the Kingdom of Sardinia and provissionally of the Grand Duchy of Tuscany",
     "nl_NL": "Consul-generaal van het Koninkrijk Sardinië en voorlopig consul-general van het Groothertogdom van Toscane"
+  },
+  "Console Generale della Confederazione Elvetica presso La Santa Sede": {
+    "en_GB": "Consul general of the Swiss Confederation to the Holy See",
+    "nl_NL": "Consul-generaal van de Zwitserse Confederatie bij de Heilige Stoel"
   },
   "Console del Regno dei Paesi Bassi": {
     "en_GB": "Consul of the Kingdom of the Netherlands",
@@ -1255,6 +1263,10 @@
   "Presidente della Camera dei Deputati del Regno di Sardegna": {
     "en_GB": "President of the House of Representatives of the Kingdom of Sardinia",
     "nl_NL": "President van het Huis van Afgevaardigden van het Koninkrijk Sardinië"
+  },
+  "Presidente della Provincia di Roma e di Comarca": {
+    "en_GB": "President of the Province of Rome and of Comarca",
+    "nl_NL": "President van de Provincie van Rome en van Comarca"
   },
   "Pretendente del Ducato di Mantova": {
     "en_GB": "Pretendent of the Duchy of Mantova",

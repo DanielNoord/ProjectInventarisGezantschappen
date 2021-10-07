@@ -134,13 +134,16 @@
     "comment_daniel": "",
     "date_of_birth": "1805-07-11",
     "date_of_death": "1867-08-11",
-    "functions": [],
+    "functions": [
+      ["Presidente della Provincia di Roma e di Comarca", "1847/1849"]
+    ],
     "images": [""],
     "name": "Ludovico",
     "person_type": 1,
     "place_of_birth": "Roma",
     "place_of_death": "Albano Laziale",
     "sources": [
+      "'I Presidenti della Provincia di Roma ed i Sindaci della Città metropolitana', Città Metropolitana di Roma Capitale, found on: https://www.cittametropolitanaroma.it/homepage/la-citta-metropolitana/storia-e-territorio/la-provincia-di-roma-ed-i-suoi-presidenti/",
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 303",
       "Giuntella, Vittorio Emanuele, 'Altieri, Ludovico', in: Dizionario Biografico degli Italiani. Volume 2 (Rome, 1960), found on: https://www.treccani.it/enciclopedia/ludovico-altieri_(Dizionario-Biografico)"
     ],
@@ -188,6 +191,7 @@
     "date_of_birth": "1802",
     "date_of_death": "1877-04-01",
     "functions": [
+      ["Commissario straordinario pontificio a Ancona", "1849/"],
       [
         "Ministro del Commercio, Belle Arti, Lavori Pubblici, Industria e Agricoltura dello Stato Pontificio",
         "1859/1860"
@@ -674,6 +678,27 @@
     "surname": "de Beeckman",
     "titles": [["barone", null]],
     "wikidata:id": "Q2557537"
+  },
+  "$Begre": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Console Generale della Confederazione Elvetica presso La Santa Sede",
+        null
+      ]
+    ],
+    "images": [""],
+    "name": "Frederic",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [""],
+    "surname": "Bégré",
+    "titles": [],
+    "wikidata:id": ""
   },
   "$Belgrado": {
     "comment": "",
