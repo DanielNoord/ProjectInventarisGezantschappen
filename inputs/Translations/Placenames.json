@@ -1020,6 +1020,12 @@
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Naples",
     "nl_NL": "Napels"
   },
+  "Nashville": {
+    "en_GB": "Nashville",
+    "geonames_id": 4644585,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+    "nl_NL": "Nashville"
+  },
   "Neuilly-sur-Seine": {
     "en_GB": "Neuilly-sur-Seine",
     "geonames_id": 6451977,

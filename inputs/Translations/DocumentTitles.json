@@ -144,6 +144,14 @@
     "en_GB": "Notice from the interim government of Lombardy",
     "nl_NL": "Melding van de interim regering van Lombardije"
   },
+  "Basi principali del prestito concluso con Parigi il 8 Febbraio 1850 tra il Governo Pontificio e la Casa Rotschild$": {
+    "en_GB": "Base principles of the loan concluded with Paris on 8 February 1850 between the Papal Government and House Rotschild",
+    "nl_NL": "Basisprincipes van de lening afgesloten met Parijs op 8 februari 1850 tussen de Pauselijke Regering en Huize Rotschild"
+  },
+  "Basi principali del prestito concluso con Parigi$": {
+    "en_GB": "Base principles of the loan concluded with Paris",
+    "nl_NL": "Basisprincipes van de lening afgesloten met Parijs"
+  },
   "Bianca$": {
     "en_GB": "Empty",
     "nl_NL": "Leeg"
@@ -197,8 +205,8 @@
     "nl_NL": "Circulaire van \\2 to \\4"
   },
   "Circolare (di|del|della) (\\$\\w+) ai rappresententanti del Corpo Diplomatici$": {
-    "en_GB": "Circulaire from \\2 to the representatives of the Diplomatic Corps",
-    "nl_NL": "Circulaire van \\2 aan de vertegenwoordigers van het Diplomatiek Korps"
+    "en_GB": "Circulaire from \\2 to the representatives of the Corps Diplomatique",
+    "nl_NL": "Circulaire van \\2 aan de vertegenwoordigers van het Corps Diplomatique"
   },
   "Circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Circulaire of \\2",
@@ -243,6 +251,10 @@
   "Comunicazione a stampa del (\\$\\w+) circa la nomina di una Commissione Governativa che avrebbe avuto la direzione degli affari pubblici \\(Gaeta, 27 nov. 1848\\)$": {
     "en_GB": "Printed communication from \\1 about the appointment of a Government Commission that would have the direction of public affairs (Gaeta, 27 nov. 1848)",
     "nl_NL": "Gedrukte mededeling van \\1 over de benoeming van een regeringscommissie die de leiding zou hebben over de openbare aangelegenheden (Gaeta, 27 nov. 1848)"
+  },
+  "Condizioni alle quali la Santità di Nostro Signore papa Pio Nono ha accordato l'istituzione della Banca dello Stato Pontificio$": {
+    "en_GB": "Conditions which His Holiness of Our Lord Pope Pius the Ninth has accorded to the the institution of the Banca dello Stato Pontificio",
+    "nl_NL": "Voorwaarden welke Zijne Heiligheid van Onze Heer Paus Pius de Negende heeft verbonden aan het instituut van de Banca dello Stato Pontificio"
   },
   "Consul General des Pays Bas à Naples$": {
     "en_GB": "Consul General des Pays Bas à Naples",
@@ -561,8 +573,8 @@
     "nl_NL": "Uittreksel uit l'Esperance"
   },
   "Estratto dal l'Indépendance Belge$": {
-    "en_GB": "Extract from l'Indipendence Belge",
-    "nl_NL": "Uittreksel uit l'Indipendence Belge"
+    "en_GB": "Extract from l'Indépendance Belge",
+    "nl_NL": "Uittreksel uit l'Indépendance Belge"
   },
   "Estratto dal la Quotidienne$": {
     "en_GB": "Extract from la Quotidienne",
@@ -1205,8 +1217,8 @@
     "nl_NL": "Brief van Livorno"
   },
   "Lettera dai rappresentanti del corpo diplomatico (a|al) (\\$\\w+)$": {
-    "en_GB": "Letter from to the representatives of the diplomatic corps to \\2",
-    "nl_NL": "Brief van de vertegenwoordigers van het diplomatiek korps aan \\2"
+    "en_GB": "Letter from to the representatives of the corps diplomatique to \\2",
+    "nl_NL": "Brief van de vertegenwoordigers van het corps diplomatique aan \\2"
   },
   "Lettera dalla città di Fossano": {
     "en_GB": "Letter of the city of Fossano",
@@ -1440,6 +1452,10 @@
     "en_GB": "Note about the payment entitlements of the boats",
     "nl_NL": "Nota over de toeslagrechten op de boten"
   },
+  "Nota sui nuovi ministri Olandesi$": {
+    "en_GB": "Note about the new Dutch ministers",
+    "nl_NL": "Nota over de nieuwe Nederlandse ministers"
+  },
   "Nota sui vascelli armati presenti nel porto di Genova$": {
     "en_GB": "Note on the armed vessels present in the port of Genoa",
     "nl_NL": "Nota over de gewapende schepen die aanwezig zijn in de haven van Genua"
@@ -1467,6 +1483,10 @@
   "Note manoscritte$": {
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven nota's"
+  },
+  "Notice biographique sur Monsieur G. de Kalbermatten, commandant le régiment des gardes pontificales \\(nota biografica (su|sul) (\\$\\w+)\\)$": {
+    "en_GB": "Notice biographique sur Monsieur G. de Kalbermatten, commandant le régiment des gardes pontificales (biographical note about \\2)",
+    "nl_NL": "Notice biographique sur Monsieur G. de Kalbermatten, commandant le régiment des gardes pontificales (biografische notitie over \\2)"
   },
   "Notificazione (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Notification by \\2 (printed)",
@@ -1691,6 +1711,10 @@
   "Regolamento per la Fiera di Sinigaglia dell'anno (\\d\\d\\d\\d) \\(a stampa\\)$": {
     "en_GB": "Regulations for the Fair of Sinigaglia in the year \\1 (printed)",
     "nl_NL": "Regelgeving voor de Markt van Sinigaglia in het jaar \\1 (gedrukt)"
+  },
+  "Relation d'un entretien avec le Prince de Metternich \\(relazione del un colloquio con (\\$\\w+)\\)$": {
+    "en_GB": "Relation d'un entretien avec le Prince de Metternich (report about a conversation with \\1)",
+    "nl_NL": "Relation d'un entretien avec le Prince de Metternich (rapport over een gesprek met \\1)"
   },
   "Relazione (di|del|della) (\\$\\w+) con estratti e trascrizioni$": {
     "en_GB": "Report from \\2 with extracts and transcriptions",
