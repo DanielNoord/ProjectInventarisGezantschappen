@@ -5,7 +5,11 @@ from datetime import date
 from typing import Union
 from warnings import warn
 
-from date_functions import check_date_earlier, check_date_later
+from date_functions import (
+    check_date_earlier,
+    check_date_for_missing_elements,
+    check_date_later,
+)
 from openpyxl.cell.cell import Cell
 from openpyxl.worksheet.worksheet import Worksheet
 from typing_utils import FileData, VolData
@@ -129,6 +133,9 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
     file_place = str(row[5].value)
 
     # Sanitize date
+    check_date_for_missing_elements(
+        row[2].value, row[3].value, row[4].value, row[0].value
+    )
     file_date = [str(row[2].value), str(row[3].value), str(row[4].value)]
     if file_date[1] == "None" and file_date[2] != "None":
         file_date[2] = "None"

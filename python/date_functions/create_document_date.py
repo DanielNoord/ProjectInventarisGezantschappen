@@ -1,7 +1,8 @@
-from datetime import date
 from typing import Optional, Tuple
 
 from openpyxl.cell.cell import Cell
+
+from date_functions import check_date_for_missing_elements
 
 
 def create_document_date(
@@ -9,22 +10,7 @@ def create_document_date(
 ) -> Tuple[Optional[int], Optional[int], Optional[int]]:
     """Creates and checks a documents date info from a document row"""
     year, month, day = row[2].value, row[3].value, row[4].value
-    if day and not month:
-        raise ValueError(
-            f"Document has day but no month, see: {file_name} row: {row[0].row}"
-        )
-    if day and not year:
-        raise ValueError(
-            f"Document has day but no year, see: {file_name} row: {row[0].row}"
-        )
-    if month and not year:
-        raise ValueError(
-            f"Document has month but no year, see: {file_name} row: {row[0].row}"
-        )
-    if any(isinstance(i, date) for i in (year, month, day)):
-        raise TypeError(
-            f"Some argument of document date isn't an integer, see: {file_name} row: {row[0].row}"
-        )
+    check_date_for_missing_elements(year, month, day, row[0].value)
     try:
         if year:
             year_final: Optional[int] = int(year)  # type: ignore # Can't be date

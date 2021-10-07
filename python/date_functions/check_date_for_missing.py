@@ -1,0 +1,20 @@
+from datetime import date
+from typing import Union
+
+
+def check_date_for_missing_elements(
+    year: Union[date, str, int, None],
+    month: Union[date, str, int, None],
+    day: Union[date, str, int, None],
+    doc_number: Union[date, str, int, None],
+) -> None:
+    if day and not month:
+        raise ValueError(f"Document has day but no month, see: {doc_number}")
+    if day and not year:
+        raise ValueError(f"Document has day but no year, see: {doc_number}")
+    if month and not year:
+        raise ValueError(f"Document has month but no year, see: {doc_number}")
+    if any(isinstance(i, date) for i in (year, month, day)):
+        raise TypeError(
+            f"Some argument of document date isn't an integer, see: {doc_number}"
+        )
