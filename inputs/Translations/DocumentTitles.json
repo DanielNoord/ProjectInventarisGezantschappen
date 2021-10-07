@@ -124,6 +124,10 @@
     "en_GB": "Entrance tickets for Solemn Masses at the Vatican Basilica",
     "nl_NL": "Toegangskaarten voor hoogmissen in de Vaticaanse basiliek"
   },
+  "Biglietto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Note from \\1",
+    "nl_NL": "Notitie van \\1"
+  },
   "Biglietto di presentazione di Georges Roemer$": {
     "en_GB": "Letter of introduction of Georges Roemer",
     "nl_NL": "Aanbevelingsbrief van Georges Roemer"
@@ -1296,6 +1300,10 @@
     "en_GB": "Nouvelles de Constantinople du 10 juin 1822",
     "nl_NL": "Nouvelles de Constantinople du 10 juin 1822"
   },
+  "Opuscolo a stampa in cui il sedicente principe Alessandro Murezynowski Gonzaga fa la storia dei diritti della sua famiglia per il ducato di Mantova \\(1850 - pp. 31\\)$": {
+    "en_GB": "Printed pamphlet in which the self-proclaimed prince Alessandro Murezynowski Gonzaga tells the history of the rights of his family to the Duchy of Mantua (1850 - pp. 31)",
+    "nl_NL": "Gedrukt pamflet waarin de zelfverklaarde prins Alessandro Murezynowski Gonzaga de geschiedenis vertelt van de rechten van zijn familie op het Hertogdom van Mantua (1850 - pp. 31)"
+  },
   "Orazione Funeraria pronunciata da mons. H. Thiele$": {
     "en_GB": "Eulogy given by mons. H. Thiele",
     "nl_NL": "Grafrede gegeven door mons. H. Thiele"
@@ -1716,6 +1724,10 @@
     "en_GB": "Translation of an apostolic letter of \\2",
     "nl_NL": "Vertaling van een apostolische brief van \\2"
   },
+  "Traduzione di una lettera circolare (di|del|della) (\\$\\w+) ai Ministri degli Esteri$": {
+    "en_GB": "Translation of a circulaire of \\2 to the Ministers of Foreign Affairs",
+    "nl_NL": "Vertaling van een circulaire van \\2 aan de Ministers van Buitenlandse Zaken"
+  },
   "Traduzione di una lettera circolare (di|del|della) (\\$\\w+) ai cardinali legati$": {
     "en_GB": "Translation of a circulaire of \\2 to the cardinal legates",
     "nl_NL": "Vertaling van een circulaire van \\2 aan de kardinaal legaten"
@@ -1775,6 +1787,10 @@
   "Trascrizione di lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Transcription of a letter by \\2 to \\4",
     "nl_NL": "Transcriptie van een brief door \\2 aan \\4"
+  },
+  "Trascrizione di lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of a letter by \\2",
+    "nl_NL": "Transcriptie van een brief door \\2"
   },
   "Trascrizione di lettere (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
     "en_GB": "Transcriptions of letters to \\2 and to \\4",
