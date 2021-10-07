@@ -184,6 +184,10 @@
     "en_GB": "Brief mention of several pending suits from Luxembourg",
     "nl_NL": "Korte vermelding van een aantal lopende zaken uit Luxemburg"
   },
+  "Bulletins Secrets \\(Bollettini Segreti\\)$": {
+    "en_GB": "Bulletins Secrets (Secret Bulletins)",
+    "nl_NL": "Bulletins Secrets (Geheime Bulletins)"
+  },
   "Cenni sull'organizzazione della truppa pontificia \\(relazione\\)$": {
     "en_GB": "Notes on the organization of the papal troops (report)",
     "nl_NL": "Opmerkingen over de organisatie van de pauselijke troepen (rapport)"
@@ -284,6 +288,10 @@
     "en_GB": "Cleared accounts",
     "nl_NL": "Afbetaalde rekeningen"
   },
+  "Copia del Decreto fatto ricevere dalla Segreteria di Stato, per compilare sulle norme dello stesso, l'Editto di Amnistia$": {
+    "en_GB": "Copy of the decision of the Secretariat of State to draft the Amnesty Edict according to its rules",
+    "nl_NL": "Kopie van het besluit van het Staatssecretariaat om het Amnestieedict op te stellen volgens haar regels"
+  },
   "Copia della lettera (di|del|della) (\\$\\w+) fatta (da|dal) (\\$\\w+)$": {
     "en_GB": "Copy of the letter of \\2 made by \\4",
     "nl_NL": "Kopie van de brief van \\2 gemaakt door \\4"
@@ -356,6 +364,10 @@
     "en_GB": "Correspondance avec le department des affaires Etrangeres 1827-1829",
     "nl_NL": "Correspondance avec le department des affaires Etrangeres 1827-1829"
   },
+  "Correspondance avec le lieutenent general De La Sarraz \\(Corrispondenza col \\$Sarraz\\)$": {
+    "en_GB": "Correspondance avec le lieutenent general De La Sarraz (Correspondence with $Sarraz)",
+    "nl_NL": "Correspondance avec le lieutenent general De La Sarraz (Correspondentie met $Sarraz)"
+  },
   "Correspondance avec le ministre des affaires étrangères sur diverses sujets \\(Corrispondenza con il Ministro degli Affari Esteri sui soggetti diversi\\)$": {
     "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
     "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondentie met de Minister van Buitenlandse Zaken over verschillende onderwerpen)"
@@ -403,6 +415,10 @@
   "Diario di Roma \\(a stampa\\)$": {
     "en_GB": "Diario di Roma (printed)",
     "nl_NL": "Diario di Roma (gedrukt)"
+  },
+  "Diario di Roma \\(a stampa\\). Notizie del giorno$": {
+    "en_GB": "Diario di Rome (printed). Daily news",
+    "nl_NL": "Diario di Roma (gedrukt). Dagelijks nieuws"
   },
   "Diario di Roma$": {
     "en_GB": "Diario di Roma",
@@ -563,6 +579,10 @@
   "Estratto dal l'Indépendance Belge$": {
     "en_GB": "Extract from l'Indipendence Belge",
     "nl_NL": "Uittreksel uit l'Indipendence Belge"
+  },
+  "Estratto dal la Presse$": {
+    "en_GB": "Extract of la Presse",
+    "nl_NL": "Uittreksel uit La Presse"
   },
   "Estratto dal la Quotidienne$": {
     "en_GB": "Extract from la Quotidienne",
@@ -1432,6 +1452,10 @@
     "en_GB": "Note about Arab Anton born in Bagdad",
     "nl_NL": "Nota over de Arabische Anton geboren in Bagdad"
   },
+  "Nota su un articolo comparso su un giornale polacco$": {
+    "en_GB": "Note on an article that appeared in a Polish newspaper",
+    "nl_NL": "Notitie over een artikel dat verscheen in een Poolse krant"
+  },
   "Nota su un incontra con (\\$\\w+)$": {
     "en_GB": "Note about an encounter with \\1",
     "nl_NL": "Nota over een ontmoeting met \\1"
@@ -1476,6 +1500,10 @@
     "en_GB": "Notification by \\2 (translation)",
     "nl_NL": "Notificatie van \\2 (vertaling)"
   },
+  "Notificazione (di|del|della) (\\$\\w+) \\(trascrizione\\)$": {
+    "en_GB": "Notification of \\2 (transcription)",
+    "nl_NL": "Notificatie van \\2 (transcriptie)"
+  },
   "Notificazione (di|del|della) (\\$\\w+) sulle corse dei cavalli nell'Agro Romano \\(a stampa\\)$": {
     "en_GB": "Notification by \\2 on horse racing in the Agro Romano (printed)",
     "nl_NL": "Melding door \\2 over paardenraces in de Agro Romano (gedrukt)"
@@ -1503,6 +1531,10 @@
   "Notificazioni a stampa di papa Pio IX ai cittadini Romani circa la presa di possesso presso la Basilica Lateranense \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\).$": {
     "en_GB": "Printed notifications by Pope Pius IX to the citizens of Rome about taking possession of the Lateran Basilica (Rome, Tipografia della Rev. Cam. Apost., \\1).",
     "nl_NL": "Gedrukte notificaties van Paus Pius IX aan de burgers van Rome over het in bezit nemen van de Basiliek van Sint-Jan van Lateranen (Rome, Tipografia della Rev. Cam. Apost., \\1)."
+  },
+  "Notizie Romane con trascrizione di Sonetto satirico su (\\$\\w+)$": {
+    "en_GB": "Notizie Romane with transcription of satirical sonnet about \\1",
+    "nl_NL": "Notizie Romane met transcriptie van satirische Sonnet over \\1"
   },
   "Notizie Romane del (\\d\\d?) febbraio (\\d\\d\\d\\d)$": {
     "en_GB": "Roman News of \\1 Feb. \\2",
@@ -1532,6 +1564,10 @@
     "en_GB": "News about a theatrical spectacle in the Teatro del Corso",
     "nl_NL": "Nieuws over een theaterspektakel in het Teatro del Corso"
   },
+  "Notizie su uno spettacolo teatrale nel Teatro del Corso. Traduzione$": {
+    "en_GB": "News on a play in the Teatro del Corso. Translation",
+    "nl_NL": "Nieuws over een toneelstuk in het Teatro del Corso. Vertaling"
+  },
   "Nouvelles de Constantinople du 10 juin 1822$": {
     "en_GB": "Nouvelles de Constantinople du 10 juin 1822",
     "nl_NL": "Nouvelles de Constantinople du 10 juin 1822"
@@ -1555,6 +1591,10 @@
   "Ordine del giorno$": {
     "en_GB": "Agenda",
     "nl_NL": "Agenda"
+  },
+  "Ordung der Todtenfeyer \\(Ordine del funerale\\)$": {
+    "en_GB": "Ordung der Todtenfeyer (Order of the funeral)",
+    "nl_NL": "Ordung der Todtenfeyer (Volgorde van de begrafenis)"
   },
   "Osservations Preliminarire$": {
     "en_GB": "Osservations Preliminarire",
@@ -2044,6 +2084,10 @@
     "en_GB": "Transcription of the proclamation Ai Siciliani",
     "nl_NL": "Transcriptie van de proclamatie Ai Siciliani"
   },
+  "Trascrizione della lettera (di|del|della) (\\$\\w+) delle Segreteria di Stato$": {
+    "en_GB": "Transcription of the letter of \\2 of the Secretariat of State",
+    "nl_NL": "Transcriptie van de brief van \\2 van het Staatssecretariaat"
+  },
   "Trascrizione della lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of the letter of \\2",
     "nl_NL": "Transcriptie van de brief van \\2"
@@ -2160,6 +2204,10 @@
     "en_GB": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
+  "“(.+)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Jun. \\3)",
+    "nl_NL": "“\\1” (\\2 jun. \\3)"
+  },
   "“(.+)” \\((\\d\\d\\d\\d\\))''": {
     "en_GB": "“(\\1)” (\\2)",
     "nl_NL": "“(\\1)” (\\2)"
@@ -2171,6 +2219,10 @@
   "“(.+)” \\(Firenze, (\\d\\d?) feb. (\\d\\d\\d\\d)\\)": {
     "en_GB": "\\1 (Florence, \\2 Feb. \\3)",
     "nl_NL": "\\1 (Florence, \\2 feb. \\3)"
+  },
+  "“(.+)” \\(Pietroburgo, mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Saint Petersburg, Mar. \\2)",
+    "nl_NL": "“\\1” (Sint Petersburg, mar. \\2)"
   },
   "“(.+)”, per lesa maestà \\(Bologna, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1”, for lese majesty (Bologna, \\2 May \\3)",
