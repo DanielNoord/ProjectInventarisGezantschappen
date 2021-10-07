@@ -8948,6 +8948,29 @@
     "titles": [],
     "wikidata:id": "Q23857304"
   },
+  "$Schaffter": {
+    "comment": "Albert Schaffter was one of the founders of the Geographischen Gesellschaft in Bern.",
+    "comment_daniel": "",
+    "date_of_birth": "1823-07-28",
+    "date_of_death": "1897-07-31",
+    "functions": [
+      ["Pastore a Livorno", "1850/1854"],
+      ["Professore di Teologia a l'Università di Berna", "1863/"]
+    ],
+    "images": [
+      "https://commons.wikimedia.org/wiki/File:Albert_Schaffter_Bild.jpg"
+    ],
+    "name": "Albert",
+    "person_type": 1,
+    "place_of_birth": "Berna",
+    "place_of_death": "Nashville",
+    "sources": [
+      "Ducommun, Elie 'Albert Schaffter et la Société de Géographie de Berne', in: XVI Jahresbericht der Geographischen Gesellschaft von Bern, Ed. Brückner and C.H. Mann (ed) (Haller'sche Buchdruckerei: Bern, 1898), 59"
+    ],
+    "surname": "Schaffter",
+    "titles": [],
+    "wikidata:id": "Q35772365"
+  },
   "$SchimmelpenninckG": {
     "comment": "",
     "comment_daniel": "",

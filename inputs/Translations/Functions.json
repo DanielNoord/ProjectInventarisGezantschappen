@@ -1152,6 +1152,10 @@
     "en_GB": "Pastor",
     "nl_NL": "Dominee"
   },
+  "Pastore a Livorno": {
+    "en_GB": "Pastor at Livorno",
+    "nl_NL": "Dominee in Livorno"
+  },
   "Pittore": {
     "en_GB": "Painter",
     "nl_NL": "Schilder"
@@ -1347,6 +1351,10 @@
   "Professore di Storia Naturale dei principi Umberto e Amedeo": {
     "en_GB": "Professor of Natural History of the princes Umberto and Amedeo",
     "nl_NL": "Professor van Natuurhistorie van de prinsen Umberto en Amedeo"
+  },
+  "Professore di Teologia a l'Università di Berna": {
+    "en_GB": "Professor of Theology at the University of Bern",
+    "nl_NL": "Professor van Theologie aan de Universiteit van Bern"
   },
   "Professore di archeologia e lingue classiche al Real Collegio a Reggio Calabria": {
     "en_GB": "Professor of archeology and classical languages at the Real Collegio in Reggio Calabria",
