@@ -4090,6 +4090,24 @@
     "titles": [["Papa", "1831-02-02/1846-06-01"]],
     "wikidata:id": "Q43734"
   },
+  "$GregoriusXVI": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1765-09-18",
+    "date_of_death": "1846-06-01",
+    "functions": [],
+    "images": [""],
+    "name": "",
+    "person_type": 1,
+    "place_of_birth": "Belluno",
+    "place_of_death": "Roma",
+    "sources": [
+      "Martina, Giacomo, 'Gregorio XVI, papa', in: Dizionario Biografico degli Italiani. Volume 59 (Rome, 2002), found on: http://www.treccani.it/enciclopedia/papa-gregorio-xvi_(Dizionario_Biografico)"
+    ],
+    "surname": "Pio IX",
+    "titles": [["Papa", "1831-02-02/1846-06-01"]],
+    "wikidata:id": "Q43734"
+  },
   "$Grey": {
     "comment": "",
     "comment_daniel": "",
