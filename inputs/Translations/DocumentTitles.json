@@ -21,7 +21,7 @@
     "nl_NL": "Gedrukt \"\\1\""
   },
   "A stampa “(.+)” del Giornale Romano N. (\\d+) \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” of the Giornale Romano N. \\2 (Rome, \\3 aug. \\4)",
+    "en_GB": "Printed “\\1” of the Giornale Romano N. \\2 (Rome, \\3 Aug. \\4)",
     "nl_NL": "Gedrukt “\\1” van de Giornale Romano N. \\2 (Rome, \\3 aug. \\4)"
   },
   "Accusé de réception \\(avviso di ricevimento\\)$": {
@@ -129,7 +129,7 @@
     "nl_NL": "Gedrukte melding over de dood van Ferdinando d'Ohmas, adviseur van de ambassade"
   },
   "Avviso a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed notice “\\1” (Rome, \\2 aug. \\3)",
+    "en_GB": "Printed notice “\\1” (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukte melding “\\1” (Rome, \\2 aug. \\3)"
   },
   "Avviso del governo provvisorio della Lombardia$": {
@@ -160,7 +160,7 @@
     "en_GB": "Attached personal note",
     "nl_NL": "Bijgevoegde persoonlijke notitie"
   },
-  "Boni garantiti dal (\\$\\w+)$": {
+  "Boni garantiti (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
   },
@@ -420,9 +420,9 @@
     "en_GB": "Speech from the Minister of Internal Affairs translation",
     "nl_NL": "Toespraak van de Minister van Binnenlandse Zaken vertaling"
   },
-  "Discorso indirizzato da (\\$\\w+) (a|al) (\\$\\w+)$": {
-    "en_GB": "Speech given by \\1 to \\3",
-    "nl_NL": "Toespraak gehouden door \\1 aan \\3"
+  "Discorso indirizzato (da|dal|dalla) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Speech given by \\2 to \\4",
+    "nl_NL": "Toespraak gehouden door \\2 aan \\4"
   },
   "Discorso pronunciato all'apertura della Dieta dal Borgomastro di Zurigo$": {
     "en_GB": "Speech of the Mayor of Zürich given at the opening of the Diet",
@@ -445,8 +445,8 @@
     "nl_NL": "Testamentaire bepalingen van \\2"
   },
   "Document Maritime da Le Journal Officiel \\(a stampa\\) firmato (da|dal) (\\$\\w+)$": {
-    "en_GB": "Document Maritime from Le Journal Officiel (printed) signed by \\3",
-    "nl_NL": "Document Maritime uit Le Journal Officiel (gedrukt) ondertekend door \\3"
+    "en_GB": "Document Maritime from Le Journal Officiel (printed) signed by \\2",
+    "nl_NL": "Document Maritime uit Le Journal Officiel (gedrukt) ondertekend door \\2"
   },
   "Documents relatifs aux troupes ponticales$": {
     "en_GB": "Documents relatifs aux troupes ponticales",
@@ -681,11 +681,11 @@
     "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
   },
   "Foglio a stampa “(.*)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\) ed “(.*)”": {
-    "en_GB": "Printed sheet “\\1” (\\2 jun. \\3) and “\\4”",
+    "en_GB": "Printed sheet “\\1” (\\2 Jun. \\3) and “\\4”",
     "nl_NL": "Gedrukt blad “\\1” (\\2 jun. \\3) en “\\4”"
   },
   "Foglio a stampa “(.*)” e “(.*)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)": {
-    "en_GB": "Printed sheet “\\1” and “\\2” (Rome, \\3, jul. \\4)",
+    "en_GB": "Printed sheet “\\1” and “\\2” (Rome, \\3, Jul. \\4)",
     "nl_NL": "Gedrukt blad “\\1” en “\\2” (Rome, \\3, jul. \\4)"
   },
   "Foglio a stampa “(.*)” e “(.*)” dello Stato Pontificio": {
@@ -697,31 +697,31 @@
     "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\3  (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "Foglio a stampa “(.+)” \\(Amsterdam, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)": {
-    "en_GB": "Printed sheet “\\1” (Amsterdam, \\2 apr. \\3) ",
+    "en_GB": "Printed sheet “\\1” (Amsterdam, \\2 Apr. \\3) ",
     "nl_NL": "Gedrukt blad “\\1” (Amsterdam, \\2 apr. \\3) "
   },
   "Foglio a stampa “(.+)” \\(N. (\\d+), (\\d\\d?) feb. (\\d\\d\\d\\d)\\)": {
-    "en_GB": "Printed sheet “\\1” (N. \\2, \\3 feb. \\4)",
+    "en_GB": "Printed sheet “\\1” (N. \\2, \\3 Feb. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (N. \\2, \\3 feb. \\4)"
   },
   "Foglio a stampa “(.+)” \\(Napoli, (\\d\\d?) mag. (\\d\\d\\d\\d), N. (\\d+)\\)": {
-    "en_GB": "Printed sheet “\\1” (Naples, \\2 may \\3, N. \\4)",
+    "en_GB": "Printed sheet “\\1” (Naples, \\2 May \\3, N. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (Napels, \\2 mei \\3, N. \\4)"
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 aug. \\3)",
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 aug. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 apr. \\3)",
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Apr. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 apr. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 dec. \\3)",
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Dec. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 dec. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 nov. \\3)",
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Nov. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 nov. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia Brancadoro, (\\d\\d\\d\\d)\\)$": {
@@ -733,8 +733,8 @@
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "Foglio a stampa “(.+)” firmato (\\$\\w+) \\(Vigevano, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” signed by \\2 (Vigevano, August \\3, \\4)",
-    "nl_NL": "Gedrukt blad “\\1” ondertekent door \\2 (Vigevano, \\3 augustus \\4)"
+    "en_GB": "Printed sheet “\\1” signed by \\2 (Vigevano, Aug. \\3, \\4)",
+    "nl_NL": "Gedrukt blad “\\1” ondertekent door \\2 (Vigevano, \\3 aug. \\4)"
   },
   "Foglio a stampa “(.+)”$": {
     "en_GB": "Printed sheet “\\1”",
@@ -753,11 +753,11 @@
     "nl_NL": "Gedrukte krant \"\\1\""
   },
   "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 feb. \\5)",
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Feb. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 feb. \\5)"
   },
   "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 jan. \\5)",
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jan. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jan. \\5)"
   },
   "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
@@ -765,19 +765,19 @@
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5)"
   },
   "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 mar. \\5)",
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Mar. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 mar. \\5)"
   },
   "Giornale a stampa “(.+?)” \\(N. (\\d+) - (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2 - \\3 sep. \\4)",
+    "en_GB": "Printed newspaper “\\1” (N. \\2 - \\3 Sep. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 - \\3 sep. \\4)"
   },
   "Giornale a stampa “(.+?)” \\(N. (\\d+), del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 may \\4)",
+    "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 May \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 mei. \\4)"
   },
   "Giornale a stampa “(.+?)” \\(Napoli, (\\d\\d?) nov. (\\d\\d\\d\\d), N. (\\d+), Anno (\\d+)°\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Naples, \\2 nov. \\3, N. \\4, Year \\5)",
+    "en_GB": "Printed newspaper “\\1” (Naples, \\2 Nov. \\3, N. \\4, Year \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 nov. \\3, N. \\4, Year \\5)"
   },
   "Giornale a stampa “(.+?)”$": {
@@ -785,7 +785,7 @@
     "nl_NL": "Gedrukte krant “\\1”"
   },
   "Giornale a stampa “L'Indépendance Belge” \\(N. (\\d+), (\\d\\d?) dic. (\\d\\d\\d\\d)\\)": {
-    "en_GB": "Printed newspaper “L'Indépendance Belge” (N. \\1, \\2 dec. \\3)",
+    "en_GB": "Printed newspaper “L'Indépendance Belge” (N. \\1, \\2 Dec. \\3)",
     "nl_NL": "Gedrukte krant “L'Indépendance Belge” (N. \\1, \\2 dec. \\3)"
   },
   "Giornale di Roma \\(a stampa\\)$": {
@@ -1469,15 +1469,15 @@
     "nl_NL": "Gedrukte notificaties van Paus Pius IX aan de burgers van Rome over het in bezit nemen van de Basiliek van Sint-Jan van Lateranen (Rome, Tipografia della Rev. Cam. Apost., \\1)."
   },
   "Notizie Romane del (\\d\\d?) febbraio (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman News of \\1 feb. \\2",
+    "en_GB": "Roman News of \\1 Feb. \\2",
     "nl_NL": "Nieuws uit Rome van \\1 feb. \\2"
   },
   "Notizie Romane del (\\d\\d?) gennaro (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman News of \\1 jan. \\2",
+    "en_GB": "Roman News of \\1 Jan. \\2",
     "nl_NL": "Nieuws uit Rome van \\1 jan. \\2"
   },
   "Notizie Romane del (\\d\\d?) marzo (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman News of \\1 mar. \\2",
+    "en_GB": "Roman News of \\1 Mar. \\2",
     "nl_NL": "Nieuws uit Rome van \\1 mar. \\2"
   },
   "Notizie Romane$": {
@@ -1704,9 +1704,9 @@
     "en_GB": "Receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
   },
-  "Risposta (di|del|della) (\\$\\w+) al discorso indirizzato da (\\$\\w+)$": {
-    "en_GB": "Response of \\2 to the speech given by \\3",
-    "nl_NL": "Respons van \\2 op de toespraak gehouden door \\3"
+  "Risposta (di|del|della) (\\$\\w+) al discorso indirizzato (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Response of \\2 to the speech given by \\4",
+    "nl_NL": "Respons van \\2 op de toespraak gehouden door \\4"
   },
   "Risposta (di|del|della) (\\$\\w+) alla lettera dell'Alto Consiglio della Nobiltà sulla trasmissione di una medaglia$": {
     "en_GB": "Response of \\2 to the letter of the Alto Consiglio della Nobilità about the conferral of a medal",
@@ -1821,7 +1821,7 @@
     "nl_NL": "Vertaling van een Decreet van de interim Commissaris van de Regering van de Romeinse Staat"
   },
   "Traduzione del foglio a stampa “(.+)” \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Translation of printed sheet “\\1” (Rome, \\2 apr. \\3)",
+    "en_GB": "Translation of printed sheet “\\1” (Rome, \\2 Apr. \\3)",
     "nl_NL": "Vertaling van gedrukt blad “\\1” (Rome, \\2 apr. \\3)"
   },
   "Traduzione del foglio a stampa “(.+)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
@@ -1857,7 +1857,7 @@
     "nl_NL": "Vertaling van een gedrukte melding van het magistratuur van Ancona"
   },
   "Traduzione dell'avviso a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Translation of a printed notice “\\1” (Rome, \\2 aug. \\3)",
+    "en_GB": "Translation of a printed notice “\\1” (Rome, \\2 Aug. \\3)",
     "nl_NL": "Vertaling van een gedrukte melding “\\1” (Rome, \\2 aug. \\3)"
   },
   "Traduzione della Giunta Suprema di Stato$": {
@@ -2129,19 +2129,19 @@
     "nl_NL": "“(\\1)” (\\2)"
   },
   "“(.+)” \\(Bologna, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (Bologna, \\2 jul. \\3)",
+    "en_GB": "“\\1” (Bologna, \\2 Jul. \\3)",
     "nl_NL": "“\\1” (Bologna, \\2 jul. \\3)"
   },
   "“(.+)” \\(Firenze, (\\d\\d?) feb. (\\d\\d\\d\\d)\\)": {
-    "en_GB": "\\1 (Florence, \\2 feb. \\3)",
+    "en_GB": "\\1 (Florence, \\2 Feb. \\3)",
     "nl_NL": "\\1 (Florence, \\2 feb. \\3)"
   },
   "“(.+)”, per lesa maestà \\(Bologna, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1”, for lese majesty (Bologna, \\2 may \\3)",
+    "en_GB": "“\\1”, for lese majesty (Bologna, \\2 May \\3)",
     "nl_NL": "“\\1”, voor majesteitsschennis (Bologna, \\2 mei \\3)"
   },
   "“(.+)”, per lesa maestà \\(Bologna, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1”, for lese majesty (Bologna, \\2 mar. \\3)",
+    "en_GB": "“\\1”, for lese majesty (Bologna, \\2 Mar. \\3)",
     "nl_NL": "“\\1”, voor majesteitsschennis (Bologna, \\2 mar. \\3)"
   },
   "“(.+?)”$": {

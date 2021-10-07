@@ -9888,6 +9888,38 @@
     "titles": [["barone", null]],
     "wikidata:id": null
   },
+  "$TuyllGMK": {
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1813-01-18",
+    "date_of_death": "1878-10-29",
+    "functions": [
+      [
+        "Gran maestro della Regina Madre dei Paesi Bassi {Anna Pavlovna di Russia}",
+        "/1865-03-01"
+      ]
+    ],
+    "images": [
+      "https://rkd.nl/explore/images/126453",
+      "https://rkd.nl/explore/images/142301",
+      "https://rkd.nl/explore/images/139892",
+      "https://rkd.nl/explore/images/139893",
+      "https://rkd.nl/explore/images/247381"
+    ],
+    "name": "Willem René",
+    "person_type": 1,
+    "place_of_birth": "L'Aia",
+    "place_of_death": "Zuilen",
+    "sources": [
+      "'mr. Willem René baron van Tuyll van Serooskerken', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/18658559",
+      "Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-01",
+      "Schijf, Huibert, Netwerken van een financieel-economische elite (Amsterdam, 1993), 86",
+      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, document number: 2.3.28"
+    ],
+    "surname": "Tuyll van Serooskerken",
+    "titles": [["barone", null]],
+    "wikidata:id": "Q76244474"
+  },
   "$Ugolini": {
     "comment": "Giuseppe Ugolini was a local Roman lawyer.",
     "comment_daniel": "",
@@ -10705,37 +10737,5 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  },
-  "pieralisi": {
-    "comment": "",
-    "comment_daniel": "",
-    "date_of_birth": "1813-01-18",
-    "date_of_death": "1878-10-29",
-    "functions": [
-      [
-        "Gran maestro della Regina Madre dei Paesi Bassi {Anna Pavlovna di Russia}",
-        "/1865-03-01"
-      ]
-    ],
-    "images": [
-      "https://rkd.nl/explore/images/126453",
-      "https://rkd.nl/explore/images/142301",
-      "https://rkd.nl/explore/images/139892",
-      "https://rkd.nl/explore/images/139893",
-      "https://rkd.nl/explore/images/247381"
-    ],
-    "name": "Willem René",
-    "person_type": 1,
-    "place_of_birth": "L'Aia",
-    "place_of_death": "Zuilen",
-    "sources": [
-      "'mr. Willem René baron van Tuyll van Serooskerken', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/18658559",
-      "Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-01",
-      "Schijf, Huibert, Netwerken van een financieel-economische elite (Amsterdam, 1993), 86",
-      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, document number: 2.3.28"
-    ],
-    "surname": "Tuyll van Serooskerken",
-    "titles": [["barone", null]],
-    "wikidata:id": "Q76244474"
   }
 }
