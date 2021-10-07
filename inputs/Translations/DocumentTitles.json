@@ -236,6 +236,10 @@
     "en_GB": "Consul General des Pays Bas à Naples",
     "nl_NL": "Consul General des Pays Bas à Naples"
   },
+  "Consul des Pays Bas a Ancone \\(Console dei Paesi Bassi ad Ancona\\)$": {
+    "en_GB": "Consul des Pays Bas a Ancone (Consul of the Netherlands in Ancona)",
+    "nl_NL": "Consul des Pays Bas a Ancone (Consul van Nederland te Ancona)"
+  },
   "Consul des Pays Bas à Ancona$": {
     "en_GB": "Consul des Pays Bas à Ancona",
     "nl_NL": "Consul des Pays Bas à Ancona"
@@ -672,6 +676,10 @@
     "en_GB": "Printed sheet \"\\1\"",
     "nl_NL": "Gedrukt blad \"\\1\""
   },
+  "Foglio a stampa (.*) (di|del|della) (\\$\\w+) circa le tariffe daziarie a favore dei fabbricatori di panni di lana \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)": {
+    "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
+    "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
+  },
   "Foglio a stampa “(.*)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\) ed “(.*)”": {
     "en_GB": "Printed sheet “\\1” (\\2 jun. \\3) and “\\4”",
     "nl_NL": "Gedrukt blad “\\1” (\\2 jun. \\3) en “\\4”"
@@ -683,6 +691,14 @@
   "Foglio a stampa “(.*)” e “(.*)” dello Stato Pontificio": {
     "en_GB": "Printed sheet “\\1” and “\\2” of the Papal States",
     "nl_NL": "Gedrukt blad “\\1” en “\\2” van de Kerkelijke Staat"
+  },
+  "Foglio a stampa “(.*)” sul dazio dello zucchero e del caffè (di|del|della) (\\$\\w+) \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)": {
+    "en_GB": "Printed sheet “\\1” about the duties on sugar and coffee from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\3  (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa “(.+)” \\(Amsterdam, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)": {
+    "en_GB": "Printed sheet “\\1” (Amsterdam, \\2 apr. \\3) ",
+    "nl_NL": "Gedrukt blad “\\1” (Amsterdam, \\2 apr. \\3) "
   },
   "Foglio a stampa “(.+)” \\(N. (\\d+), (\\d\\d?) feb. (\\d\\d\\d\\d)\\)": {
     "en_GB": "Printed sheet “\\1” (N. \\2, \\3 feb. \\4)",
@@ -704,6 +720,10 @@
     "en_GB": "Printed sheet “\\1” (Rome, \\2 dec. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 dec. \\3)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 nov. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 nov. \\3)"
+  },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia Brancadoro, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia Brancadoro, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Brancadoro, \\2)"
@@ -719,10 +739,6 @@
   "Foglio a stampa “(.+)”$": {
     "en_GB": "Printed sheet “\\1”",
     "nl_NL": "Gedrukt blad “\\1”"
-  },
-  "Foglio a stampa “Notificazione” sul dazio dello zucchero e del caffè (di|del|della) (\\$\\w+) \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)": {
-    "en_GB": "Printed sheet “\\1” about the duties on sugar and coffee from \\2 (Rome, Tipografia della Rev. Cam. Apost., \\3)",
-    "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\2  (Rome, Tipografia della Rev. Cam. Apost., \\3)"
   },
   "Foglio del 1895 \\?$": {
     "en_GB": "Sheet of 1895 ?",
@@ -767,6 +783,10 @@
   "Giornale a stampa “(.+?)”$": {
     "en_GB": "Printed newspaper “\\1”",
     "nl_NL": "Gedrukte krant “\\1”"
+  },
+  "Giornale a stampa “L'Indépendance Belge” \\(N. (\\d+), (\\d\\d?) dic. (\\d\\d\\d\\d)\\)": {
+    "en_GB": "Printed newspaper “L'Indépendance Belge” (N. \\1, \\2 dec. \\3)",
+    "nl_NL": "Gedrukte krant “L'Indépendance Belge” (N. \\1, \\2 dec. \\3)"
   },
   "Giornale di Roma \\(a stampa\\)$": {
     "en_GB": "Giornale di Roma (printed)",
@@ -835,6 +855,10 @@
   "Lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Letter to \\2",
     "nl_NL": "Brief aan \\2"
+  },
+  "Lettera (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)": {
+    "en_GB": "Letter to \\2 and \\4",
+    "nl_NL": "Brief to \\2 and \\4"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) (allegata)$": {
     "en_GB": "Letter from \\2 to \\4 (attached)",
@@ -1228,6 +1252,14 @@
     "en_GB": "Letters from \\2 to \\4",
     "nl_NL": "Brieven van \\2 aan \\4"
   },
+  "Lettere (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)": {
+    "en_GB": "Letters from \\2 to \\4",
+    "nl_NL": "Brieven van \\2 to \\4"
+  },
+  "Lettere (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)": {
+    "en_GB": "Letters from \\2 to \\4 and \\6",
+    "nl_NL": "Brieven van \\2 to \\4 and \\6"
+  },
   "Lista delle donne olandesi che desidderano avere biglietti d'ingresso alle tribune$": {
     "en_GB": "List of Dutch women who desire to have entrance tickets to the tribunes",
     "nl_NL": "Lijst van Nederlandse vrouwen die graag toegangsbewijzen voor de tribunes hebben"
@@ -1340,6 +1372,10 @@
     "en_GB": "Note about the ships departing Civitavecchia",
     "nl_NL": "Nota over de schepen die uit Civitavecchia vertrekken"
   },
+  "Nota di pagamento (di|del|della) (\\$\\w+)": {
+    "en_GB": "Payment notice of \\2",
+    "nl_NL": "Betalingsnota van \\2"
+  },
   "Nota di ricezione dei dispacci diplomatici$": {
     "en_GB": "Note of receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
@@ -1447,6 +1483,10 @@
   "Notizie Romane$": {
     "en_GB": "Roman News",
     "nl_NL": "Nieuws uit Rome"
+  },
+  "Notizie Ufficiali \\(a stampa\\)$": {
+    "en_GB": "Notizie Ufficiali (printed)",
+    "nl_NL": "Notizie Ufficiali (gedrukt)"
   },
   "Notizie dal Marocco$": {
     "en_GB": "News from Morocco",
@@ -2004,6 +2044,10 @@
     "en_GB": "Transcription of an appeal to the Dutch people",
     "nl_NL": "Vertaling van een appel aan het Nederlandse volk"
   },
+  "Trascrizione di un bando di concorso per l'Accademia di Belle Arti di Roma": {
+    "en_GB": "Transcription of a competition announcement of the _Accademia di Belle Arti di Roma_",
+    "nl_NL": "Transcriptie van een wedstrijdaankondiging van de _Accademia di Belle Arti di Roma_"
+  },
   "Trascrizione di un proclama del Comitato Italiano al Popolo della Romagna$": {
     "en_GB": "Transcription of a proclamation of the Italian Committee to the People of the Romagna",
     "nl_NL": "Transcriptie van een proclamatie van de Italiaanse Commissie aan het Volk van de Romagna"
@@ -2079,6 +2123,10 @@
   "“(.*)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "“(.+)” \\((\\d\\d\\d\\d\\))''": {
+    "en_GB": "“(\\1)” (\\2)",
+    "nl_NL": "“(\\1)” (\\2)"
   },
   "“(.+)” \\(Bologna, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Bologna, \\2 jul. \\3)",
