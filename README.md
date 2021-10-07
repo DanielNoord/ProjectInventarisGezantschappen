@@ -121,7 +121,7 @@ Programming tasks:
 ||Daniël| Finish integration with `Geonames` places database
 ||Daniël| Contact Nationaal Archief about EAD and `.pdf` conversion
 ||Daniël| Create database with support of all three languages
-||Daniël| Explore whether italics in titles and functions are retained in final database
+|x|Daniël| Italics in titles in EAD-XML
 ||Daniël| Create controls of document and volume numbering (consecutive, non-overlapping, suffixes)
 ||Daniël| Final check of code, annotation and documentation
 
