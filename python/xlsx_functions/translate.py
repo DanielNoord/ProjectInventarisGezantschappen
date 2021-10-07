@@ -6,21 +6,14 @@ from typing import Literal, Pattern
 
 from openpyxl import load_workbook
 from openpyxl.styles import Font
-from typing_utils import (
-    TranslationDictCleaned,
-    TranslationDictCleanedDocuments,
-    TranslationDictCleanedTitles,
-)
+from typing_utils import Database
 
 
 def translate_xlsx(  # pylint: disable=too-many-arguments
     directory_name: str,
     file_name: str,
     localization: Literal["nl_NL", "en_GB"],
-    translations: TranslationDictCleanedDocuments,
-    translation_data: tuple[
-        TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
-    ],
+    database: Database,
     used_translations: set[Pattern[str]],
 ) -> None:
     """Translate .xlsx file
@@ -40,7 +33,7 @@ def translate_xlsx(  # pylint: disable=too-many-arguments
             line = row[1].value
 
             # Check if line matches one of the patterns that are automatically translated
-            for pattern, trans in translations.items():
+            for pattern, trans in database.document_titles.items():
                 if pattern.match(line):
                     try:
                         line = re.sub(pattern, trans[localization], line)
@@ -59,8 +52,8 @@ def translate_xlsx(  # pylint: disable=too-many-arguments
         # Translate title
         if row[5].value is not None:
             place = row[5].value
-            if place in translation_data[2].keys():
-                place = translation_data[2][place][localization]
+            if place in database.placenames.keys():
+                place = database.placenames[place][localization]
             else:
                 row[5].font = Font(color="00008b")
                 print(f"Did not find placename: {place}")

@@ -2,13 +2,12 @@
 
 import json
 import os
-import re
 import time
 from typing import Literal, Pattern
 
 from openpyxl import Workbook, load_workbook
 
-from data_parsing import initialize_translation_database
+from data_parsing import initialize_database_for_xml
 from xlsx_functions import fill_in_xlsx, sanitize_xlsx, translate_xlsx
 
 
@@ -24,7 +23,7 @@ def create_filled_xlsx(
     with open("inputs/Individuals.json", encoding="utf-8") as data_file:
         individuals_data = json.load(data_file)
     del individuals_data["$schema"]
-    translation_data = initialize_translation_database()
+    database = initialize_database_for_xml()
 
     directory = os.fsencode(directory_name)
     for file in os.listdir(directory):
@@ -34,7 +33,7 @@ def create_filled_xlsx(
                 directory_name,
                 filename,
                 individuals_data,
-                translation_data,
+                database,
                 localization,
             )
 
@@ -97,11 +96,7 @@ def create_translated_xlsx(
         directory_name (str): Name of the directory with the input .xlsx files
         localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
     """
-    with open("inputs/Translations/DocumentTitles.json", encoding="utf-8") as data_file:
-        translations = json.loads(data_file.read())
-    del translations["$schema"]
-    translation_patterns = {re.compile(k): v for k, v in translations.items()}
-    translation_data = initialize_translation_database()
+    database = initialize_database_for_xml()
     used_translations: set[Pattern[str]] = set()
 
     directory = os.fsencode(directory_name)
@@ -112,12 +107,11 @@ def create_translated_xlsx(
                 directory_name,
                 filename,
                 localization,
-                translation_patterns,
-                translation_data,
+                database,
                 used_translations,
             )
     unused_trans = [
-        i for i in translation_patterns.keys() if i not in used_translations
+        i for i in database.document_titles.keys() if i not in used_translations
     ]
     print("Done!\nFound the following unused translations:\n", unused_trans)
 

@@ -1,44 +1,38 @@
 #!/usr/bin/env python3
 
-from typing import Literal, Optional
+from typing import List, Literal, Optional, Tuple, Union
 
 from date_functions import check_date
-from typing_utils import (
-    TranslationDictCleaned,
-    TranslationDictCleanedTitles,
-    IndividualsDictEntry,
-)
+from typing_utils import Database, IndividualsDictEntry
 
-from data_parsing import full_name
+from data_parsing import full_name_with_database
 
 
 def name_string(
     person: IndividualsDictEntry,
-    date: tuple[Optional[int], Optional[int], Optional[int]],
-    translation_data: tuple[
-        TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
-    ],
+    date: Union[str, Tuple[Optional[int], Optional[int], Optional[int]]],
+    database: Database,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> str:
-    """Creates a string of a given person
+    """Creates a string of a given person"""
+    if isinstance(date, str):
+        date_list: List[Optional[int]] = [
+            int(i) if i else None for i in date.split("-")
+        ]
+        while len(date_list) != 3:
+            date_list.append(None)
+        date_tuple = (date_list[0], date_list[1], date_list[2])
+    else:
+        date_tuple = date
 
-    Args:
-        person (dict): Dictionary of data for the relevant person
-        date (tuple[Optional[int], Optional[int], Optional[int]]): Date of the file
-        translation_data: Dictionaries with translation data for titles, functions and places
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
-
-    Returns:
-        str: The string of the person as "name (functions)"
-    """
     # Create Full Name variable
-    str_full_name = full_name(
+    str_full_name = full_name_with_database(
         person["surname"],
         person["name"],
         person["titles"],
-        translation_data,
+        database,
         localization,
-        date,
+        date_tuple,
     )
 
     # Create Full Name + function variable
@@ -46,13 +40,13 @@ def name_string(
         relevant_functions = []
         for func in person["functions"]:
             if func:
-                if func[1] is None or date[0] is None:
+                if func[1] is None or date_tuple[0] is None:
                     relevant_functions.append(func)
-                elif check_date(date, func[1]):
+                elif check_date(date_tuple, func[1]):
                     relevant_functions.append(func)
         if localization != "it_IT":
             str_functions = ", ".join(
-                [translation_data[1][i[0]][localization] for i in relevant_functions]
+                [database.functions[i[0]][localization] for i in relevant_functions]
             )
         else:
             str_functions = ", ".join([i[0] for i in relevant_functions])
