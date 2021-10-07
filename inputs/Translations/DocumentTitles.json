@@ -16,6 +16,10 @@
     "en_GB": "\"\\1\"",
     "nl_NL": "\"\\1\""
   },
+  "A stampa \"(.+)\"$": {
+    "en_GB": "Printed \"\\1\"",
+    "nl_NL": "Gedrukt \"\\1\""
+  },
   "A stampa “(.+)” del Giornale Romano N. (\\d+) \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” of the Giornale Romano N. \\2 (Rome, \\3 aug. \\4)",
     "nl_NL": "Gedrukt “\\1” van de Giornale Romano N. \\2 (Rome, \\3 aug. \\4)"
@@ -140,6 +144,10 @@
     "en_GB": "Note from \\1",
     "nl_NL": "Notitie van \\1"
   },
+  "Biglietto di invito (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Letter of invitation from \\2",
+    "nl_NL": "Uitnodigingssbrief van \\2"
+  },
   "Biglietto di presentazione di Georges Roemer$": {
     "en_GB": "Letter of introduction of Georges Roemer",
     "nl_NL": "Aanbevelingsbrief van Georges Roemer"
@@ -147,6 +155,10 @@
   "Biglietto personale allegato$": {
     "en_GB": "Attached personal note",
     "nl_NL": "Bijgevoegde persoonlijke notitie"
+  },
+  "Boni garantiti dal (\\$\\w+)$": {
+    "en_GB": "Boni garantiti by \\2",
+    "nl_NL": "Boni garantiti door \\2"
   },
   "Bozzetto di un monumento celebrativo \\((\\$\\w+) \\?\\) \\(disegno a inchiostro\\)$": {
     "en_GB": "Sketch of a commemorative monument (\\1 ?) (Ink drawing)",
@@ -539,6 +551,10 @@
   "Estratto di una lettera di Bruxelles$": {
     "en_GB": "Extract from a letter from Brussels",
     "nl_NL": "Uittreksel uit een brief uit Brussel"
+  },
+  "Estratto di una lettera politica indirizzata a Napoli$": {
+    "en_GB": "Extract from a political letter addressed to Naples",
+    "nl_NL": "Uittreksel uit een politieke brief geadresseerd aan Napels"
   },
   "Estratto di una lettera scritta al Consolato di S.M. il Re dei Paesi Bassi in Genova di 7 maggio 1825 circa l'arrivo di un Brigantino da guerra$": {
     "en_GB": "Extract from a letter to the consulate of H.M. the King of the Netherlands in Genoa on May 7, 1825 about the arrival of a war brigantine",
@@ -1072,6 +1088,10 @@
     "en_GB": "Letter van Livorno",
     "nl_NL": "Brief van Livorno"
   },
+  "Lettera dai rappresentanti del corpo diplomatico (a|al) (\\$\\w+)$": {
+    "en_GB": "Letter from to the representatives of the diplomatic corps to \\2",
+    "nl_NL": "Brief van de vertegenwoordigers van het diplomatiek korps aan \\2"
+  },
   "Lettera dalla città di Fossano": {
     "en_GB": "Letter of the city of Fossano",
     "nl_NL": "Brief van de stad Fossano"
@@ -1240,6 +1260,10 @@
     "en_GB": "Note of the money owed to the late \\1",
     "nl_NL": "Nota van het geld dat verschuldigd is aan wijlen \\1"
   },
+  "Nota delle navi in partenza da Civitavecchia$": {
+    "en_GB": "Note about the ships departing Civitavecchia",
+    "nl_NL": "Nota over de schepen die uit Civitavecchia vertrekken"
+  },
   "Nota di ricezione dei dispacci diplomatici$": {
     "en_GB": "Note of receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
@@ -1264,9 +1288,17 @@
     "en_GB": "Note about an encounter with \\1",
     "nl_NL": "Nota over een ontmoeting met \\1"
   },
+  "Nota sui diritti di pagamento dei battelli$": {
+    "en_GB": "Note about the payment entitlements of the boats",
+    "nl_NL": "Nota over de toeslagrechten op de boten"
+  },
   "Nota sui vascelli armati presenti nel porto di Genova$": {
     "en_GB": "Note on the armed vessels present in the port of Genoa",
     "nl_NL": "Nota over de gewapende schepen die aanwezig zijn in de haven van Genua"
+  },
+  "Nota sulle consistenze delle truppe Austriache e dei cavalli$": {
+    "en_GB": "Note about the amounts of the Austrian troops and horses",
+    "nl_NL": "Nota over de aantallen van de Oostentrijkse troepen en paarden"
   },
   "Note (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) circa l'archivio del Consolato del Regno dei Paesi Bassi trasportato a Parigi$": {
     "en_GB": "Notes of \\2 to \\4 about the archive of the Consulate of the Kingdom of the Netherlands, which is transported to Paris",
@@ -1287,6 +1319,10 @@
   "Note manoscritte$": {
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven nota's"
+  },
+  "Notificazione (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
+    "en_GB": "Notification by \\2 (printed)",
+    "nl_NL": "Melding door \\2 (gedrukt)"
   },
   "Notificazione (di|del|della) (\\$\\w+) \\(traduzione\\)$": {
     "en_GB": "Notification by \\2 (translation)",
@@ -1511,6 +1547,10 @@
   "Relazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Report from \\2",
     "nl_NL": "Rapport van \\2"
+  },
+  "Relazione dei fatti avvenuti a Napoli$": {
+    "en_GB": "Report about the events that took place in Naples",
+    "nl_NL": "Rapport over de gebeurtenissen die plaatsvonden in Naples"
   },
   "Relazione di ciò che accadde negli Offici dell'Amministrazione Generale delle Poste in Roma nel Giorno 1 maggio 1848$": {
     "en_GB": "Report on what happened in the Offices of the General Administration of the Post in Rome on the day of 1 May 1848",
@@ -1764,6 +1804,10 @@
     "en_GB": "Translation of an article from the Giornale di Roma",
     "nl_NL": "Vertaling van een artikel uit de Giornale di Roma"
   },
+  "Traduzione di un articolo estratto di L'Indépendance Belge$": {
+    "en_GB": "Translation of an extract of an article from the L'Indépendance Belge",
+    "nl_NL": "Vertaling van een uittreksel van een artikel uit de L'Indépendance Belge"
+  },
   "Traduzione di un editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed translation of an edict of \\2",
     "nl_NL": "Gedrukte vertaling van een edict van \\2"
@@ -1779,6 +1823,10 @@
   "Traduzione di un proclama della Repubblica Romana$": {
     "en_GB": "Translation of a proclamation of the Roman Republic",
     "nl_NL": "Vertalingen van een proclamatie van de Romeinse Republiek"
+  },
+  "Traduzione di una comunicazione del Vicariato del Lussemburgo$": {
+    "en_GB": "Translation of a communication from the Vicariate of Luxembourg",
+    "nl_NL": "Vertaling van een bericht van het Vicariaat van Luxemburg"
   },
   "Traduzione di una lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of a letter of \\2",
