@@ -26,12 +26,27 @@
             }
           ]
         },
+        "latitude": {
+          "description": "Latitude of the place",
+          "type": "string"
+        },
+        "longitude": {
+          "description": "Longitude of the place",
+          "type": "string"
+        },
         "nl_NL": {
           "description": "Translation of the place in Dutch",
           "type": "string"
         }
       },
-      "required": ["en_GB", "nl_NL", "geonames_id", "geonames_wikipedia"],
+      "required": [
+        "en_GB",
+        "nl_NL",
+        "geonames_id",
+        "geonames_wikipedia",
+        "latitude",
+        "longitude"
+      ],
       "type": "object"
     }
   },
