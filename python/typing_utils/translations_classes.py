@@ -45,6 +45,8 @@ IndividualsDictEntry = TypedDict(
         "comment_daniel": str,
         "sources": list[str],
         "images": list[str],
+        "wikidata:id": Optional[str],
+        "ISNI:id": Optional[str],
     },
 )
 IndividualsDict = Dict[str, Union[str, IndividualsDictEntry]]
