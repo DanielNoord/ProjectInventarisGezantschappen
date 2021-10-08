@@ -8421,10 +8421,10 @@
     "place_of_birth": "Cantalupo nel Sannio",
     "place_of_death": "Napoli",
     "sources": [
-      "https://storia.camera.it/deputato/federico-del-re-1807",
-      "https://www.beniculturali.inaf.it/opac/astronomi/leopoldo-del-re",
       "'Presidenti del Consiglio dei ministri del Regno delle Due Sicilie', in: Wikipedia, L'enciclopedia libera (2021-04-18), found on: https://it.wikipedia.org/w/index.php?title=Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie&oldid=120009225",
-      "De Sivo, Giacinto, Storia delle Due Sicilie, volume 2 (Brindisi, 2013)"
+      "De Sivo, Giacinto, Storia delle Due Sicilie, volume 2 (Brindisi, 2013)",
+      "https://storia.camera.it/deputato/federico-del-re-1807",
+      "https://www.beniculturali.inaf.it/opac/astronomi/leopoldo-del-re"
     ],
     "surname": "Del Re",
     "titles": [],
