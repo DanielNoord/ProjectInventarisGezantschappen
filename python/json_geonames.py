@@ -2,7 +2,7 @@
 
 import json
 import os
-from typing import Dict, cast
+from typing import cast
 
 import geocoder  # type: ignore
 
