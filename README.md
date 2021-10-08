@@ -113,8 +113,7 @@ Programming tasks:
 |Done|Person|Task|
 |:---|:---|:---
 ||Daniël| Explore use of [`PNV`](https://www.nationaalarchief.nl/archiveren/nieuws/person-name-vocabulary-nu-beschikbaar)
-|x|Daniël| Create integration with `WikiData` person database
-||Daniël| Finish integration with `WikiData` person database
+|x|Daniël| <s>Create integration with `WikiData` person database</s><br />All individuals have been looked for on [`WikiData`](https://www.wikidata.org/) and IDs have been added to the `wikidata:id` field<br />New searches can be done with `search_wikidata()` in `python/database_searches/search_wikidata.py`
 ||Daniël| Explore integration with `SBN/ICCU` person database
 ||Daniël| Explore integration with `Culture Italia` person database
 ||Daniël| Explore integration with `ISNI` person database
