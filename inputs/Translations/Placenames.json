@@ -392,6 +392,14 @@
     "longitude": "8.67933",
     "nl_NL": "Cannero"
   },
+  "Cantalupo nel Sannio": {
+    "en_GB": "Cantalupo nel Sannio",
+    "geonames_id": 3180773,
+    "geonames_wikipedia": null,
+    "latitude": "41.52182",
+    "longitude": "14.39292",
+    "nl_NL": "Cantalupo nel Sannio"
+  },
   "Caprarola": {
     "en_GB": "Caprarola",
     "geonames_id": 3180635,
@@ -623,6 +631,14 @@
     "latitude": "47.36493",
     "longitude": "7.34453",
     "nl_NL": "Delémont"
+  },
+  "Diacceto": {
+    "en_GB": "Diacceto",
+    "geonames_id": 8949840,
+    "geonames_wikipedia": null,
+    "latitude": "43.78411",
+    "longitude": "11.50314",
+    "nl_NL": "Diacceto"
   },
   "Dillenburg": {
     "en_GB": "Dillenburg",
@@ -1399,6 +1415,14 @@
     "latitude": "45.72159",
     "longitude": "11.67833",
     "nl_NL": "Nove"
+  },
+  "Nyon": {
+    "en_GB": "Nyon",
+    "geonames_id": 2659422,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nyon",
+    "latitude": "46.38318",
+    "longitude": "6.23955",
+    "nl_NL": "Nyon"
   },
   "Oegstgeest": {
     "en_GB": "Oegstgeest",

@@ -5926,23 +5926,24 @@
     "wikidata:id": null
   },
   "$MadiaiF": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 4084 7661",
     "comment": "The Madiai family was involved in an international scandal, discussion of which can be found in the note.",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1805",
+    "date_of_death": "1868",
     "functions": [],
     "images": [""],
     "name": "Francesco",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Diacceto",
+    "place_of_death": "Nyon",
     "sources": [
+      "Demofonti, Laura, 'Madiai, Francesco', in: Dizionario Biografico degli Italiani. Volume 67 (Rome, 2006), found on: https://www.treccani.it/enciclopedia/francesco-madiai_(Dizionario-Biografico)/",
       "Lohrli, Anne, ‘The Madiai: A Forgotten Chapter of Church History’, Victorian Studies 33 (1989), 29–50"
     ],
     "surname": "Madiai",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q63302048"
   },
   "$MadiaiR": {
     "ISNI:id": null,
@@ -8406,8 +8407,8 @@
     "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1807-06-29",
+    "date_of_death": "1874",
     "functions": [
       [
         "Ministro degli Affari Interni del Regno delle Due Sicilie",
@@ -8415,26 +8416,31 @@
       ]
     ],
     "images": [""],
-    "name": "Frederigo",
+    "name": "Federico",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Cantalupo nel Sannio",
+    "place_of_death": "Napoli",
     "sources": [
+      "https://storia.camera.it/deputato/federico-del-re-1807",
+      "https://www.beniculturali.inaf.it/opac/astronomi/leopoldo-del-re",
       "'Presidenti del Consiglio dei ministri del Regno delle Due Sicilie', in: Wikipedia, L'enciclopedia libera (2021-04-18), found on: https://it.wikipedia.org/w/index.php?title=Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie&oldid=120009225",
       "De Sivo, Giacinto, Storia delle Due Sicilie, volume 2 (Brindisi, 2013)"
     ],
     "surname": "Del Re",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q63801380"
   },
   "$ReL": {
     "ISNI:id": null,
     "comment": "",
-    "comment_daniel": "Functie uitzoeken, zaakgelastigden zijn geaccrediteerd dus horen bij een hof",
+    "comment_daniel": "More than likely https://www.wikidata.org/wiki/Q3830688, his brother is also in the database",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Incaricato d'affari del Regno delle Due Sicilie", null],
+      [
+        "Incaricato d'affari del Regno delle Due Sicilie presso la Santa Sede",
+        null
+      ],
       ["Aiutante generale del Re delle Due Sicilie", null]
     ],
     "images": [""],
