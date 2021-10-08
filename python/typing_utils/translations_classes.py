@@ -7,7 +7,14 @@ TranslationDictEntryTitles = TypedDict(
 )
 TranslationDictEntryPlacenames = TypedDict(
     "TranslationDictEntryPlacenames",
-    {"nl_NL": str, "en_GB": str, "geonames_id": int, "geonames_wikipedia": str},
+    {
+        "nl_NL": str,
+        "en_GB": str,
+        "geonames_id": int,
+        "geonames_wikipedia": str,
+        "longitude": str,
+        "latitude": str,
+    },
 )
 
 TranslationDict = Dict[str, Union[str, TranslationDictEntry]]

@@ -21,6 +21,8 @@ def add_geognames(
         etree.SubElement(geogname, "part", {"lang": "it"}).text = place
         etree.SubElement(geogname, "part", {"lang": "en"}).text = data["en_GB"]
         etree.SubElement(geogname, "part", {"lang": "nl"}).text = data["nl_NL"]
+        etree.SubElement(
+            geogname, "geographiccoordinates", {"coordinatesystem": "WGS84"}
+        ).text = f"{data['latitude']}, {data['longitude']}"
     except KeyError:
         print(place)
-    # TODO: Add geographiccoordinates element

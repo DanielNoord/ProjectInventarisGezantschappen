@@ -118,10 +118,10 @@ Programming tasks:
 ||Daniël| Explore integration with `SBN/ICCU` person database
 ||Daniël| Explore integration with `Culture Italia` person database
 ||Daniël| Explore integration with `ISNI` person database
-||Daniël| Finish integration with `Geonames` places database
+|x|Daniël| <s>Finish integration with `Geonames` places database</s><br />All places have a Geonames ID, latitude, longitude and all locations in the EAD-XML are tagged with their ID
 ||Daniël| Contact Nationaal Archief about EAD and `.pdf` conversion
 ||Daniël| Create database with support of all three languages
-|x|Daniël| Italics in titles in EAD-XML
+|x|Daniël| <s>Italics in titles in EAD-XML</s><br />Functions and document titles can use `_` to indicate italic sections, which are stored in the XML file.<br />For example: `John _Pope_` -> John _Pope_
 ||Daniël| Create controls of document and volume numbering (consecutive, non-overlapping, suffixes)
 ||Daniël| Final check of code, annotation and documentation
 
