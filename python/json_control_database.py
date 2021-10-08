@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+import re
 from typing import cast
 
 from data_parsing import initialize_translation_database
@@ -12,6 +13,7 @@ from database_controls import (
     control_date,
     control_functions,
     control_titles,
+    is_isni,
 )
 from typing_utils.translations_classes import IndividualsDictCleaned
 
@@ -89,15 +91,15 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
             control_date(data["date_of_death"])
 
         if isinstance(data["wikidata:id"], str):
-            if not data["wikidata:id"].startswith("Q"):
+            if not re.match(r"^Q\d+$", data["wikidata:id"]):
                 raise ValueError(
-                    "Wikidata ID should start with a Q. If individual has no identifier use None"
+                    "Wikidata ID is incorrect. If individual has no identifier use None"
                 )
 
         if isinstance(["ISNI:id"], str):
-            if not data["ISNI:id"].startswith("0000"):
+            if not is_isni(data["ISNI:id"]):
                 raise ValueError(
-                    "ISNI ID should start with 0000. If individual has no identifier use None"
+                    f"ISNI ID of {identifier} is incorrect. If individual has no identifier use None"
                 )
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
