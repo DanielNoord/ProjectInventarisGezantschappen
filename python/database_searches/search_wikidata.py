@@ -1,7 +1,6 @@
-from typing import Dict
-
 from typing_utils import IndividualsDictCleaned
 from wikidataintegrator import wdi_core  # type: ignore
+from write_files import write_single_json_file
 
 
 def search_wikidata(database: IndividualsDictCleaned) -> None:
@@ -43,8 +42,25 @@ def search_wikidata(database: IndividualsDictCleaned) -> None:
                     print(f"https://www.wikidata.org/wiki/{person_id}")
 
 
-def unspecified_wikidate(database: Dict) -> None:  # type: ignore # Too diffcult to type for now
+def unspecified_wikidate(database: IndividualsDictCleaned) -> None:
     """Prints out entries without a wikidata identifier"""
     for entry, data in database.items():
         if not data.get("wikidata:id", None):
             print(f"{entry}: {data['name']} {data['surname']}")
+
+
+def convert_wikidata_to_isni(database: IndividualsDictCleaned) -> None:
+    """Checks wikidata identifiers and sees if they can be converted to ISNI identifiers"""
+    for data in database.values():
+        if data.get("wikidata:id", None):
+            wikidata = wdi_core.WDItemEngine(
+                wd_item_id=data["wikidata:id"]
+            ).get_wd_json_representation()
+            isni_data = wikidata["claims"].get("P213", None)
+            if isni_data:
+                data["ISNI:id"] = isni_data[0]["mainsnak"]["datavalue"]["value"]
+            else:
+                data["ISNI:id"] = None
+        else:
+            data["ISNI:id"] = None
+    write_single_json_file(database, "outputs", "Individuals.json")

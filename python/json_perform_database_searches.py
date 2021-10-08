@@ -2,7 +2,11 @@
 
 import json
 
-from database_searches import search_wikidata, unspecified_wikidate
+from database_searches import (
+    convert_wikidata_to_isni,
+    search_wikidata,
+    unspecified_wikidate,
+)
 
 
 def do_search_wikidata(filename: str) -> None:
@@ -23,6 +27,16 @@ def get_unspecified_wikidata(filename: str) -> None:
     unspecified_wikidate(persons_in_file)
 
 
+def check_isni(filename: str) -> None:
+    """Loads the database and checks if wikidata id can be converted to ISNI dientifiers"""
+    with open(filename, encoding="utf-8") as file:
+        persons_in_file = json.load(file)
+    del persons_in_file["$schema"]
+
+    convert_wikidata_to_isni(persons_in_file)
+
+
 if __name__ == "__main__":
-    do_search_wikidata("inputs/Individuals.json")
-    get_unspecified_wikidata("inputs/Individuals.json")
+    # do_search_wikidata("inputs/Individuals.json")
+    # get_unspecified_wikidata("inputs/Individuals.json")
+    check_isni("inputs/Individuals.json")
