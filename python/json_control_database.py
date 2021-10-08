@@ -3,10 +3,12 @@
 import json
 
 from data_parsing import initialize_translation_database
+from database_controls import (
+    check_all_comments,
+    check_all_placenames,
+    check_all_sources,
+)
 from date_functions import extract_date
-from json_check_comments import check_all_comments
-from json_check_placenames import check_all_placenames
-from json_check_sources import check_all_sources
 from typing_utils import (
     IndividualsDictEntry,
     TranslationDictCleaned,
