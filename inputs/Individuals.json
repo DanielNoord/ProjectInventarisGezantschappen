@@ -698,7 +698,7 @@
     "sources": [""],
     "surname": "Bégré",
     "titles": [],
-    "wikidata:id": ""
+    "wikidata:id": null
   },
   "$Belgrado": {
     "comment": "",
@@ -1279,7 +1279,7 @@
     ],
     "surname": "di Borbone-Due Sicilie",
     "titles": [],
-    "wikidata:id": "Ferdinando I"
+    "wikidata:id": "Q312325"
   },
   "$BourbonFeII": {
     "comment": "",
