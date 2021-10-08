@@ -1,6 +1,7 @@
 {
   "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
+    "ISNI:id": "0000 0000 8077 6220",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1784-01-28",
@@ -21,6 +22,7 @@
     "wikidata:id": "Q24631"
   },
   "$Aerssen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1817-11-07",
@@ -46,6 +48,7 @@
     "wikidata:id": null
   },
   "$Agostini": {
+    "ISNI:id": "0000 0003 8815 9296",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1803-09-03",
@@ -69,6 +72,7 @@
     "wikidata:id": "Q3665316"
   },
   "$Albini": {
+    "ISNI:id": "0000 0000 6299 6422",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1780-09-20",
@@ -87,6 +91,7 @@
     "wikidata:id": "Q3769926"
   },
   "$Alewijn": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1785-08-22",
@@ -110,6 +115,7 @@
     "wikidata:id": null
   },
   "$Allegro": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -130,6 +136,7 @@
     "wikidata:id": null
   },
   "$Altieri": {
+    "ISNI:id": "0000 0000 6131 7694",
     "comment": "From Koelman: Altieri, Lodovico (1805-1867) was o.a. apostolisch nuntius in Oostenrijk en bisschop van Efeze voor hij in 1840 door Gregorius XVI tot kardinaal werd verheven. Pius IX maakte hem in 1847 president (gouverneur) van Rome en de Comarca, een functie die hij tot 1849 en van 1850-1855 bekleedde. Na de restauratie in 1849 werd hij lid van de regeringscommissie van de pauselijke staten, met Della Genga Sermattei e Vannicelli Casoni, waarbij hij vergeefs inzette op een politiek van verzoening. A. was een groot kunstverzamelaar en – volgens geruchten –vrouwenliefhebber. B.: Giuntella (1960); Boutry (2002) 303-305; Leblanc (2018) 91-93.",
     "comment_daniel": "",
     "date_of_birth": "1805-07-11",
@@ -152,6 +159,7 @@
     "wikidata:id": "Q372845"
   },
   "$Ambrosoli": {
+    "ISNI:id": "0000 0000 6234 6454",
     "comment": "Ambrogio Ambrosoli published several works and studies, one of which can be found in the archive. Note has a list of publications.",
     "comment_daniel": "",
     "date_of_birth": "1800",
@@ -170,6 +178,7 @@
     "wikidata:id": "Q96143249"
   },
   "$Amerongen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive. He was likely from the noble family Taets van Amerongen, see: https://nl.wikipedia.org/wiki/Taets_van_Amerongen",
     "date_of_birth": "",
@@ -186,6 +195,7 @@
     "wikidata:id": null
   },
   "$Amici": {
+    "ISNI:id": "0000 0000 6164 6121",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802",
@@ -211,6 +221,7 @@
     "wikidata:id": "Q55225076"
   },
   "$Annibaldi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -231,6 +242,7 @@
     "wikidata:id": null
   },
   "$Antonelli": {
+    "ISNI:id": "0000 0000 7777 905X",
     "comment": "From Koelman: Antonelli, Giacomo (1806-1876), bijgenaamd ‘de Italiaanse Richelieu’, behoorde na 1846 direct tot de inner circle van Pius IX. In juni 1847 werd hij tot kardinaal gewijd en kwam meteen in de eerste pauselijke ministerraad; in de eerste regering met lekenministers (maart 1848) werd hij staatssecretaris, ofwel regeringsleider (een positie die hij weldra moest afstaan aan P. Rossi). In de zomer van 1848 keerde A. de hervormingspolitiek echter de rug toe en zocht toenadering tot Oostenrijk. Na de moord op Rossi was het A. die de paus adviseerde naar Gaeta te vluchten. Daar werd hij opnieuw kardinaal-staatssecretaris, een functie die hij tot 1870 behield, waarbij hij de meest invloedrijke politicus naast Pius IX bleef. Tijdens de restauratie na 1849 voerde hij een reactionair, repressief bewind.  B.: Aubert (1961); Falconi, (1983); Coppa (1990); Boutry (2002) 496-498; Leblanc (2018) 97-102.",
     "comment_daniel": "",
     "date_of_birth": "1806-04-02",
@@ -256,6 +268,7 @@
     "wikidata:id": "Q712085"
   },
   "$ArataG": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -276,6 +289,7 @@
     "wikidata:id": null
   },
   "$ArataL": {
+    "ISNI:id": null,
     "comment": "Luigi Arata was also consul of several other countries, notably Russia.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -298,6 +312,7 @@
     "wikidata:id": null
   },
   "$Arborio": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1807-08-09",
@@ -321,6 +336,7 @@
     "wikidata:id": null
   },
   "$Auersperg": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Dit is een groot geslacht. De bron vermeldt deze persoon als enige graaf van dit geslacht die tijdens vermelding Veldmaarschalk luitenant was, maar dan moeten we er dus vanuit gaan dat die bron iedereen noemt. Kunnen ook gewoon “von Auersperg”’ laten staan en voornaam weglaten.",
     "date_of_birth": "1783-08-20",
@@ -340,6 +356,7 @@
     "wikidata:id": "Q19932698"
   },
   "$Azeglio": {
+    "ISNI:id": "0000 0000 8338 6949",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-10-24",
@@ -364,6 +381,7 @@
     "wikidata:id": "Q469134"
   },
   "$Bake": {
+    "ISNI:id": "0000 0003 9705 4998",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1783-09-09",
@@ -388,6 +406,7 @@
     "wikidata:id": "Q21274944"
   },
   "$Baldini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -411,6 +430,7 @@
     "wikidata:id": null
   },
   "$Baraguay": {
+    "ISNI:id": "0000 0000 2457 6195",
     "comment": "From Koelman: Baraguay of Baraguey d’Hilliers, Achille (1795-1878) was een militair, die na de Parijse revolutie van 1848 als gedeputeerde werd gekozen in de (grond)wetgevende vergadering. In november 1849 werd hij naar Rome wordt gezonden om het commando over de Franse bezettingsmacht in Rome over te nemen van Louis de Rostolan. Tijdens de Krimoorlog kreeg hij het bevel over de zgn. ‘Baltische expeditie’; aansluitend werd hij Maarschalk van Frankrijk en senator. Tijdens de Italiaanse campagne van 1859 boekte hij als comandant van het Eerst Legerkorps een belangrijke overwinning bij Solferino. B.: DBF vol. 5 (1951) ad nomen.",
     "comment_daniel": "",
     "date_of_birth": "1795-09-06",
@@ -429,6 +449,7 @@
     "wikidata:id": "Q115995"
   },
   "$Baratta": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -449,6 +470,7 @@
     "wikidata:id": null
   },
   "$Bargagli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Laatste functie is meer een soort eervole titel, zie (https://myarchiviostoricofotografico.com/2019/01/personaggi-e-uomini-politici-toscani/). Ik twijfel of we die altijd moeten vermelden of enkel wanneer deze gebruikt wordt in het archief. Hij wordt in jaarboeken soms dus vermeld als “Scipione Bargagli, consigliere …, ministro …”, maar dat wordt dus super lang en maakt gebruik van archief misschien minder goed.",
     "date_of_birth": "1798-07-30",
@@ -486,6 +508,7 @@
     "wikidata:id": "Q107422019"
   },
   "$Barnabo": {
+    "ISNI:id": "0000 0000 7821 6785",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1801-03-02",
@@ -509,6 +532,7 @@
     "wikidata:id": "Q2832751"
   },
   "$Bartolini": {
+    "ISNI:id": "0000 0001 1024 8366",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1813-05-16",
@@ -533,6 +557,7 @@
     "wikidata:id": "Q741956"
   },
   "$Baud": {
+    "ISNI:id": "0000 0000 8232 3671",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1789-10-24",
@@ -565,6 +590,7 @@
     "wikidata:id": "Q2334397"
   },
   "$Bazini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "I can't find him and can't really read his letter. His letter is at ms281_B_114 & ms281_B_115",
     "date_of_birth": "",
@@ -581,6 +607,7 @@
     "wikidata:id": null
   },
   "$Beaumont": {
+    "ISNI:id": "0000 0001 1076 0423",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1821",
@@ -599,6 +626,7 @@
     "wikidata:id": "Q2958342"
   },
   "$Becker": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Ik vermoed een zeker Johann Gottfried, de schoonvader van de latere consul Alewijn. Hij lijkt laatstgenoemde aan te prijzen als nieuwe consul generaal in ms277_342. Zie: https://gw.geneanet.org/hubertwalbaum?lang=en&pz=hubert+charles+alphonse&nz=walbaum&p=johann+gottfried&n=becker",
     "date_of_birth": "",
@@ -615,6 +643,7 @@
     "wikidata:id": null
   },
   "$BediniGa": {
+    "ISNI:id": "0000 0000 6137 8243",
     "comment": "From Koelman: Bedini, Gaetano (1806-1864) prelaat van eenvoudige komaf uit Senigallia, was onder meer speciaal gezant namens de Heilige Stoel in Brazilië (1845-47). In die hoedanigheid stuurde hij het aanbod van Garibaldi en Anzani aan Pius IX door, om hun Italiaans Legioen uit Montevideo in te zetten voor de Italiaanse onafhankelijkheidsstrijd. Na terugkeer naar Rome was hij substituut-staatssecretaris (1848), in welke hoedanigheid hij de paus volgde naar Gaeta.  Na de restauratie van 1849 werd hij buitengewoon commissaris voor de vier Legatiën en pro-legaat van Bologna. Zijn post als nuntius van Brazilië (1852) zou B. nooit bezetten. Nog voor hij kon beginnen werd zijn nuntiatuur overschaduwd door zijn missie als speciaal gezant naar de VS (1853), waar hem een vijandige ontvangst wachtte, mede door de invloed van Mazziniaanse ballingen o.l.v. A. Gavazzi. Hij keerde daarom van New York direct naar Rome terug. Later (1861) werd hij o.a. aartsbisschop van Viterbo en Tuscania en kardinaal titularis van de Santa Maria sopra Minerva. B.: Furlani (1970); Boutry (2002) 509.",
     "comment_daniel": "",
     "date_of_birth": "1806-05-15",
@@ -639,6 +668,7 @@
     "wikidata:id": "Q263408"
   },
   "$BediniGi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Archive provides no information about this person and who he was",
     "date_of_birth": "",
@@ -655,6 +685,7 @@
     "wikidata:id": null
   },
   "$Beechman": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1781-01-31",
@@ -680,6 +711,7 @@
     "wikidata:id": "Q2557537"
   },
   "$Begre": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -701,6 +733,7 @@
     "wikidata:id": null
   },
   "$Belgrado": {
+    "ISNI:id": "0000 0003 9170 4646",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1809-05-02",
@@ -723,6 +756,7 @@
     "wikidata:id": "Q60999023"
   },
   "$Bentinck": {
+    "ISNI:id": "0000 0003 9304 9569",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-04-17",
@@ -747,6 +781,7 @@
     "wikidata:id": "Q2589556"
   },
   "$Benvenuti": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -768,6 +803,7 @@
     "wikidata:id": null
   },
   "$Berardi": {
+    "ISNI:id": "0000 0000 6152 7456",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1810-09-28",
@@ -792,6 +828,7 @@
     "wikidata:id": "Q1079640"
   },
   "$Beraudo": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -815,6 +852,7 @@
     "wikidata:id": null
   },
   "$Berlijn": {
+    "ISNI:id": "0000 0000 1401 325X",
     "comment": "",
     "comment_daniel": "See extra data on wikidata. Should be findable https://www.wikidata.org/wiki/Q19997969",
     "date_of_birth": "",
@@ -836,6 +874,7 @@
     "wikidata:id": "Q19997969"
   },
   "$Bernadotte": {
+    "ISNI:id": "0000 0003 8259 1686",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1826-05-03",
@@ -852,6 +891,7 @@
     "wikidata:id": "Q52925"
   },
   "$Bernaroli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -870,6 +910,7 @@
     "wikidata:id": null
   },
   "$Bert": {
+    "ISNI:id": null,
     "comment": "Amadeo Bert was an important contact for travellers and those interested in protestant communities in Italy and is mentioned in various travel diaries. He was also present at the funeral of W.H. van der Duyn, the chargé d’affaires of the Kingdom of the Netherlands in Turin. Amadeo also wrote several studies on the protestant communities.",
     "comment_daniel": "",
     "date_of_birth": "1809-02-09",
@@ -892,6 +933,7 @@
     "wikidata:id": null
   },
   "$Berti": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1828",
@@ -910,6 +952,7 @@
     "wikidata:id": "Q3839331"
   },
   "$Bessone": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -929,6 +972,7 @@
     "wikidata:id": null
   },
   "$Biandrate": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "I believe that letters ms278_138 & ms278_139 concern the return from France of the Prince of Carignone, Carlo Alberto di Savoia, in 1821, possibly together with the count of d'Argentau (possibly François de Mercy-Argentau, who was governor of Brabant and chamberlain to the Dutch king). It is unclear why Biandrate was involved in this, but he fits the picture as he was connected to most of the greater political figures relevant in the 1921 Piedmontese revolution. There is little doubt that he was the count of Biandrate, as it is recorded that the previous count had no sons of his own.",
     "date_of_birth": "1756-03-02",
@@ -947,6 +991,7 @@
     "wikidata:id": null
   },
   "$Bighini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Don't understand his title in the letter. ... of the 1st Infantry Division in Brussels. ms280_93",
     "date_of_birth": "",
@@ -963,6 +1008,7 @@
     "wikidata:id": null
   },
   "$Birigazzi": {
+    "ISNI:id": null,
     "comment": "Giuseppe Birigazzi and Giuseppe Cavalieri were convicted for inciting a revolt in Bologna. The notice of their conviction is included in the archive.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -979,6 +1025,7 @@
     "wikidata:id": null
   },
   "$Bismarck": {
+    "ISNI:id": "0000 0001 2101 0812",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -995,6 +1042,7 @@
     "wikidata:id": "Q8442"
   },
   "$Bixio": {
+    "ISNI:id": "0000 0000 8342 7464",
     "comment": "From Koelman: Bixio, Nino (1821-1873) was een Italiaans militair en patriot en een van de meest prominente figuren van het Risorgimento. Na een opleiding bij de Piemontese marine trad hij in 1846 toe tot de Giovine Italia. Hij diende tijdens de Eerste Italiaanse Onafhankelijkheidsoorlog en werd kapitein onder Garibaldi tijdens de verdediging van de Romeinse Republiek, waarbij hij het bataljon van majoor Picard gevangennam (door K. aan Lagye toegeschreven). Daarna nam hij deel aan alle belangrijke militaire operaties tot en met de inname van Rome in 1870. Vooral zijn meedogenloze optreden op Sicilië tijdens Garibaldi expeditie in 1860 maakte hem berucht. B.: Bartoccini (1968); Staglieno (1973); Milani (2011).",
     "comment_daniel": "",
     "date_of_birth": "1821-10-02",
@@ -1018,6 +1066,7 @@
     "wikidata:id": "Q699354"
   },
   "$Blochausen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-07-02",
@@ -1047,6 +1096,7 @@
     "wikidata:id": "Q1960296"
   },
   "$Boch": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Deze persoon past wel bij de achternaam, maar functie in Den Haag wordt niet vernoemd in biografie. Controleren in archief!",
     "date_of_birth": "1782-03-09",
@@ -1067,6 +1117,7 @@
     "wikidata:id": "Q1321804"
   },
   "$Bofondi": {
+    "ISNI:id": "0000 0000 6202 5757",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795-10-24",
@@ -1092,6 +1143,7 @@
     "wikidata:id": "Q1235067"
   },
   "$Bonaparte": {
+    "ISNI:id": "0000 0001 2142 9066",
     "comment": "From Koelman: Bonaparte, Charles Lucien, prins van Canino (1803-1857), zoon van Napoleons broer Lucien Bonaparte, natuurwetenschapper (o.a. zoöloog, ornitholoog) en radicaaldemocratisch patriot. Hij stond aan de wieg van de nationale wetenschapscongressen die vanaf 1839 in Italië werden gehouden. Als lid en vice-voorzitter van de grondwetgevende vergadering in Rome verklaarde B. zich direct voorstander van de republiek, zijns inziens de opmaat tot een Italiaanse republiek. Na de Franse inname van Rome vluchtte bij naar Nederland, waar hij samenwerkte met de directeur Temminck en vice-directeur Schlegel van het Rijksmuseum voor Natuurlijke Historie in Leiden. Hij publiceerde er belangrijk natuurwetenschappelijk werk en in 1857 een bundeling van zijn bijdragen als gedeputeerde in Rome: Discours, allocutions et opinions dans le Conseil des députés et l'Assemblée constituante de Rome. B.: Bartoccini (1949); Bartoccini (1969); Casanova (1999); Tyson Stroud (2000).",
     "comment_daniel": "",
     "date_of_birth": "1808-04-20",
@@ -1114,6 +1166,7 @@
     "wikidata:id": "Q7721"
   },
   "$Boni": {
+    "ISNI:id": "0000 0000 8339 3444",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1816-08-07",
@@ -1132,6 +1185,7 @@
     "wikidata:id": "Q3745170"
   },
   "$Borea": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1155,6 +1209,7 @@
     "wikidata:id": null
   },
   "$Borgatti": {
+    "ISNI:id": "0000 0001 1574 3913",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818-05-30",
@@ -1189,6 +1244,7 @@
     "wikidata:id": "Q3749656"
   },
   "$Borromeo": {
+    "ISNI:id": "0000 0003 7605 0752",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1822-08-03",
@@ -1214,6 +1270,7 @@
     "wikidata:id": "Q665388"
   },
   "$Bosch": {
+    "ISNI:id": null,
     "comment": "Louis Bosch represented a lady referred to as 'the widow Henriette Natalie Sturbaut' in the dispute surrounding the inheritance of Francesco Cornelio Verbruggen.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1230,6 +1287,7 @@
     "wikidata:id": null
   },
   "$Bosis": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "ms.339. Impossible to determine who this is without more information from archive. Most people seem to write this surname with “De Bosis”, but original Italian inventory uses “de Bosis”",
     "date_of_birth": "",
@@ -1246,6 +1304,7 @@
     "wikidata:id": null
   },
   "$Bouillet": {
+    "ISNI:id": "0000 0001 0896 6043",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-05-05",
@@ -1264,6 +1323,7 @@
     "wikidata:id": "Q3292154"
   },
   "$BourbonFeI": {
+    "ISNI:id": "0000 0000 7972 4538",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1751-01-12",
@@ -1282,6 +1342,7 @@
     "wikidata:id": "Q312325"
   },
   "$BourbonFeII": {
+    "ISNI:id": "0000 0000 6153 0196",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1810-01-12",
@@ -1300,6 +1361,7 @@
     "wikidata:id": "Q332717"
   },
   "$BourbonKF": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1811-11-10",
@@ -1318,6 +1380,7 @@
     "wikidata:id": "Q1748721"
   },
   "$BourbonKL": {
+    "ISNI:id": "0000 0000 6153 1914",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1799-12-22",
@@ -1339,6 +1402,7 @@
     "wikidata:id": "Q352200"
   },
   "$BourbonLM": {
+    "ISNI:id": "0000 0003 8411 4103",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1819-09-21",
@@ -1357,6 +1421,7 @@
     "wikidata:id": "Q236566"
   },
   "$BourbonlFaII": {
+    "ISNI:id": "0000 0000 6131 4100",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1836-01-16",
@@ -1373,6 +1438,7 @@
     "wikidata:id": "Q206223"
   },
   "$Bouteneff": {
+    "ISNI:id": null,
     "comment": "His name in Cyrillic script is 'Аполлинарий Петрович Бутенёв'.",
     "comment_daniel": "",
     "date_of_birth": "1787",
@@ -1394,6 +1460,7 @@
     "wikidata:id": null
   },
   "$Brandini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Noot laat zien dat dit regiment in Carignano was gestationeerd, ook in het jaar daarna. Toch volgen we de inventaris denk ik?",
     "date_of_birth": "",
@@ -1414,6 +1481,7 @@
     "wikidata:id": null
   },
   "$Bresciani": {
+    "ISNI:id": "0000 0001 2120 0587",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-07-24",
@@ -1432,6 +1500,7 @@
     "wikidata:id": "Q3619306"
   },
   "$Briennen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive, I suspect it might be https://nl.wikipedia.org/wiki/Arnoud_Willem_van_Brienen_van_de_Groote_Lindt who was Chamberlain of Willem I and his sons",
     "date_of_birth": "",
@@ -1448,6 +1517,7 @@
     "wikidata:id": null
   },
   "$Brink": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "I think this might a be a criminal who tries to appeal his conviction, but he does not seem like a major figure.",
     "date_of_birth": "",
@@ -1464,6 +1534,7 @@
     "wikidata:id": null
   },
   "$Brizi": {
+    "ISNI:id": null,
     "comment": "Oreste Brizi wrote several studies on the government and military of various Italian states. A (non-exhaustive) list of his works can be found on https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Brizi%2C%20Oreste.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1483,6 +1554,7 @@
     "wikidata:id": "Q95244356"
   },
   "$Brock": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive",
     "date_of_birth": "",
@@ -1499,6 +1571,7 @@
     "wikidata:id": null
   },
   "$Brocx": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1819-12-31",
@@ -1523,6 +1596,7 @@
     "wikidata:id": "Q2106436"
   },
   "$Brouckere": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1801-01-25",
@@ -1548,6 +1622,7 @@
     "wikidata:id": "Q527479"
   },
   "$Brunelli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795-06-23",
@@ -1567,6 +1642,7 @@
     "wikidata:id": "Q1080267"
   },
   "$Buccianti": {
+    "ISNI:id": null,
     "comment": "Alessandro Buccianti was also consul of several other countries.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1590,6 +1666,7 @@
     "wikidata:id": null
   },
   "$Caetani": {
+    "ISNI:id": "0000 0000 8339 3700",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1804-03-20",
@@ -1616,6 +1693,7 @@
     "wikidata:id": "Q969336"
   },
   "$Caffi": {
+    "ISNI:id": "0000 0000 6629 0355",
     "comment": "From Koelman: Caffi, Ippolito (1809-1866), beroemd Italiaanse veduteschilder, actief in Rome tussen 1832 en 1848 en 1855-1858. Hij schilderde er o.a. voorstellingen van de campagna en vele – ook nachtelijke - stadstaferelen (het carnaval, vuurwerk, het kunstenaarsfeest in Cervara). Tevens maakte hij naam als patriot: in 1848 streed hij in Noord-Italië (Friuli) tegen Oostenrijk en ontsnapte als krijgsgevangene. Direct voor vertrek uit Rome werd hij geregistreerd bij de Romeinse burgerwacht (23 maart 1848) in de eerste compagnie van het vierde bataljon (Campo Marzo) Guardia Civica. In 1860 werd hij door de Oostenrijkers gevangengezet wegens vermeende subversieve activiteiten; in 1866 stierf hij aan boord van een Italiaans oorlogsschip tijdens de zgn. Derde Italiaanse Onafhankelijkheidsoorlog (1866). C. had zijn atelier in de Via dei due Macelli 48. B.: AGC (1847-1850) b. 150, matr.nr.55. Caffi (2005) Ippolito Caffi (2016).",
     "comment_daniel": "",
     "date_of_birth": "1809-10-16",
@@ -1634,6 +1712,7 @@
     "wikidata:id": "Q1059376"
   },
   "$Cagiano": {
+    "ISNI:id": "0000 0000 6122 6362",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1797-12-14",
@@ -1655,6 +1734,7 @@
     "wikidata:id": "Q2254673"
   },
   "$Camous": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1673,6 +1753,7 @@
     "wikidata:id": null
   },
   "$Campillo": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1812",
@@ -1696,6 +1777,7 @@
     "wikidata:id": "Q5576683"
   },
   "$Canera": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1714,6 +1796,7 @@
     "wikidata:id": null
   },
   "$CanitzCB": {
+    "ISNI:id": "0000 0001 0980 6455",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1787-11-17",
@@ -1733,6 +1816,7 @@
     "wikidata:id": "Q881567"
   },
   "$CanitzIA": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Ik vind het erg onwaarschijnlijk dat er een “de Canitz” zaakgelastigde van Nederland was zoals vermeld wordt in archief: 1) in de periode van vermelding was er een Canitz zaakgelastigde van Pruissen, 2) wordt er een von Canitz kamerheer van Pruissen genoemd in het archief, 3) is Liedekerke gezant van Nederland. Ik denk dus dat deze de Canitz en von Canitz dezelfde zijn en in dienst van Pruissen werkte",
     "date_of_birth": "1812",
@@ -1758,6 +1842,7 @@
     "wikidata:id": null
   },
   "$Cankrien": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802",
@@ -1779,6 +1864,7 @@
     "wikidata:id": null
   },
   "$Capri": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1797,6 +1883,7 @@
     "wikidata:id": null
   },
   "$CarafaL": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Lijkt mij dezelfde als andere Carafa",
     "date_of_birth": "",
@@ -1813,6 +1900,7 @@
     "wikidata:id": null
   },
   "$CarafaT": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Lijkt mij niet de Zaakgelastigde van het Koninkrijk der Nederlanden zoals dat staat in archief, maar eerder van Beide Siciliën. Echter, volgens Trecanni is hij dit niet tijdens vermelding in archief. Wellicht even goed kijken met wat hij ondertekent",
     "date_of_birth": "1797-05-17",
@@ -1831,6 +1919,7 @@
     "wikidata:id": "Q105038323"
   },
   "$Carneglia": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1855,6 +1944,7 @@
     "wikidata:id": null
   },
   "$Carosini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1878,6 +1968,7 @@
     "wikidata:id": null
   },
   "$Carretto": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1777",
@@ -1896,6 +1987,7 @@
     "wikidata:id": "Q3750610"
   },
   "$Cartenstat": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1806-09-23",
@@ -1919,6 +2011,7 @@
     "wikidata:id": null
   },
   "$Carvalho": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1942,6 +2035,7 @@
     "wikidata:id": null
   },
   "$Casanelli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1794-10-24",
@@ -1960,6 +2054,7 @@
     "wikidata:id": "Q3535645"
   },
   "$CasarettoG": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -1981,6 +2076,7 @@
     "wikidata:id": null
   },
   "$CasarettoJ": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2002,6 +2098,7 @@
     "wikidata:id": null
   },
   "$Castillo": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795-06-29",
@@ -2025,6 +2122,7 @@
     "wikidata:id": "Q22964525"
   },
   "$Castorina": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive, I suspect it might be https://it.wikipedia.org/wiki/Domenico_Castorina",
     "date_of_birth": "",
@@ -2041,6 +2139,7 @@
     "wikidata:id": null
   },
   "$Cavaignac": {
+    "ISNI:id": "0000 0001 1611 000X",
     "comment": "From Koelman: Cavaignac, Louis Eugène (1802-1857) maakte carrière in het Franse leger in Algerije (1832-1848), waar hij opklom tot de rang van divisiegeneraal en gouverneur van Algerije werd (1848). Nadat hij eerste in de Assemblée Nationale was gekozen, werd hij tussen maart en juni 1848 tweemaal minister van Defensie aan het begin van de Tweede Franse Republiek. Op 24 juni 1848 kreeg hij van de Assemblée onbeperkte bevoegdheden om de revolutionaire opstand van de zgn. ‘Junidagen’ de kop in te drukken; op 28 juni werd hem het premierschap aangeboden, dat hij tot 20 december behield. Hij kondigde daarbij de staat van beleg af en voerde een repressief bewind. Aan Pius IX bood hij na diens vlucht uit Rome asiel in Frankrijk aan. De verkiezingen voor het presidentschap (10-11 dec. 1848) verloor hij van de latere Napoleon III, die hem na diens staatsgreep van 1851 liet arresteren. Na zijn vrijlating werd hij gekozen in het Corps législatif, maar nam daarin geen zitting omdat hij weigerde trouw te zweren aan de keizer. B.: DBF vol. 7 (1956) ad nomen; De Luna (1969).",
     "comment_daniel": "",
     "date_of_birth": "1802-10-15",
@@ -2059,6 +2158,7 @@
     "wikidata:id": "Q379702"
   },
   "$Cavalieri": {
+    "ISNI:id": null,
     "comment": "Giuseppe Birigazzi and Giuseppe Cavalieri were convicted for inciting a revolt in Bologna. The notice of their conviction is included in the archive.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2075,6 +2175,7 @@
     "wikidata:id": null
   },
   "$Cavour": {
+    "ISNI:id": "0000 0001 2102 0885",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1810-08-10",
@@ -2110,6 +2211,7 @@
     "wikidata:id": "Q166092"
   },
   "$Celesti": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2131,6 +2233,7 @@
     "wikidata:id": null
   },
   "$Cerri": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2154,6 +2257,7 @@
     "wikidata:id": null
   },
   "$Chastel": {
+    "ISNI:id": null,
     "comment": "Louis du Chastel de la Howarderie had several other functions in the Dutch diplomatic services. He was the last Dutch envoy to the Holy See before the Legation was dissolved in favour of the Legation to the Kingdom of Italy, which was then also located in Rome.",
     "comment_daniel": "",
     "date_of_birth": "1808-06-21",
@@ -2196,6 +2300,7 @@
     "wikidata:id": null
   },
   "$Chiavarini": {
+    "ISNI:id": null,
     "comment": "Giacomo Chiavarni was a man of Italian origin who resided in Amsterdam. An arrest warrant had been issued against him and the archive contains a description of him.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2214,6 +2319,7 @@
     "wikidata:id": null
   },
   "$Chijs": {
+    "ISNI:id": "0000 0003 9738 3580",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-08-22",
@@ -2240,6 +2346,7 @@
     "wikidata:id": "Q7192815"
   },
   "$Chimay": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1808-08-20",
@@ -2268,6 +2375,7 @@
     "wikidata:id": "Q2801772"
   },
   "$Ciacchi": {
+    "ISNI:id": "0000 0000 6235 1739",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1788-08-16",
@@ -2287,6 +2395,7 @@
     "wikidata:id": "Q2739201"
   },
   "$Cibrario": {
+    "ISNI:id": "0000 0000 8153 280X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-02-23",
@@ -2311,6 +2420,7 @@
     "wikidata:id": "Q1131525"
   },
   "$ClementeXII": {
+    "ISNI:id": "0000 0001 2138 9404",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1652-04-07",
@@ -2329,6 +2439,7 @@
     "wikidata:id": "Q133108"
   },
   "$Codeglia": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2345,6 +2456,7 @@
     "wikidata:id": null
   },
   "$Collegno": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "More info on wikidata, see https://www.wikidata.org/wiki/Q3840055",
     "date_of_birth": "",
@@ -2372,6 +2484,7 @@
     "wikidata:id": "Q3840055"
   },
   "$Colombo": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2390,6 +2503,7 @@
     "wikidata:id": null
   },
   "$Coninck": {
+    "ISNI:id": "0000 0003 9614 5599",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1770-11-19",
@@ -2415,6 +2529,7 @@
     "wikidata:id": "Q2630450"
   },
   "$Conti": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive. Comment Sigrid: it's tempting to say that she is the sister of mathemetician Paolo Gorini: i her letter she makes an appeal on behalf of her brother, Gemello Gorini, and mentions that his father is Giovanni Gorini and that he is a professor of maths and sciences at Pavia Uni, which is true also of Paolo G.; she also says she's acted as a mother to her brother Gemello after both their parents passed away (also true, Paolo G. was orphaned at 12). However, and this is strange, there is no mention of Paolo having a sister and an extra brother (Gemello) anywhere, but I mean ANYWHERE. According to the letter this Gemello got his degree in medicin, and she's asking for a recommendation for him with the governror of the East Indies. I cannot find the relation with Paolo Gorini at all.",
     "date_of_birth": "",
@@ -2431,6 +2546,7 @@
     "wikidata:id": null
   },
   "$Corboli": {
+    "ISNI:id": "0000 0003 9614 5599",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1813-09-24",
@@ -2455,6 +2571,7 @@
     "wikidata:id": "Q2630450"
   },
   "$Cornelissen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Mail-contact met het KNMI, hoop dat zij mij een voornaam kunnen geven",
     "date_of_birth": "",
@@ -2477,6 +2594,7 @@
     "wikidata:id": null
   },
   "$CorsiniA": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1804-07-16",
@@ -2497,6 +2615,7 @@
     "wikidata:id": "Q87718105"
   },
   "$CorsiniN": {
+    "ISNI:id": "0000 0001 2142 867X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1805-08-13",
@@ -2518,6 +2637,7 @@
     "wikidata:id": "Q64606000"
   },
   "$Cortese": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2534,6 +2654,7 @@
     "wikidata:id": null
   },
   "$Corvino": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive",
     "date_of_birth": "",
@@ -2550,6 +2671,7 @@
     "wikidata:id": null
   },
   "$Costai": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2576,6 +2698,7 @@
     "wikidata:id": null
   },
   "$Courten": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1809-01-02",
@@ -2601,6 +2724,7 @@
     "wikidata:id": "Q3930205"
   },
   "$Cremers": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1823-06-15",
@@ -2632,6 +2756,7 @@
     "wikidata:id": "Q2171521"
   },
   "$Crisafulli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2650,6 +2775,7 @@
     "wikidata:id": null
   },
   "$Crispi": {
+    "ISNI:id": "0000 0001 0862 7295",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818-10-04",
@@ -2668,6 +2794,7 @@
     "wikidata:id": "Q332626"
   },
   "$Dabormida": {
+    "ISNI:id": "0000 0004 1631 2164",
     "comment": "Giuseppe Dabormida held several other (ministerial) positions within the Kingdom of Sardinia.",
     "comment_daniel": "",
     "date_of_birth": "1799-11-21",
@@ -2693,6 +2820,7 @@
     "wikidata:id": "Q3108020"
   },
   "$Dandini": {
+    "ISNI:id": null,
     "comment": "From Koelman: Dandini de Sylva, graaf Ferdinando (geb. 1802) was van 1851-1852 assessor en van 1852-1865 assessor-generaal van de pauselijke politie, onder directeur-generaal Mons. Antonio Matteucci. Hij hield kantoor in Palazzo Camerale, Via Ripetta 223. Dandini was bijzonder ongeliefd bij iedereen met liberale sentimenten, getuige ook zijn bijnaam ‘de Hyena’. B.: Almanacco (1855) 100; Lodolini Tupputi (1970) 40; Rinaldi (1992) 73-74; Veca (2020).",
     "comment_daniel": "Bronnen missen nog. Zie Asker's bibliografie",
     "date_of_birth": "1801",
@@ -2717,6 +2845,7 @@
     "wikidata:id": null
   },
   "$Defferani": {
+    "ISNI:id": null,
     "comment": "Luigi Deferrari held the position of vice president until 1829 or 1830 and at least since 1824.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2736,6 +2865,7 @@
     "wikidata:id": null
   },
   "$DelDrago": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1773-03-09",
@@ -2760,6 +2890,7 @@
     "wikidata:id": "Q44739914"
   },
   "$DoderoC": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "I can't find this son.. In the letters he is reffered to as 'Charley' and I don't think he actually held any official titles.",
     "date_of_birth": "",
@@ -2776,6 +2907,7 @@
     "wikidata:id": null
   },
   "$DoderoD": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "I feel like his date of birth and death should be findable.",
     "date_of_birth": "",
@@ -2800,6 +2932,7 @@
     "wikidata:id": null
   },
   "$DoderoG": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "I feel like his date of birth and death should be findable.",
     "date_of_birth": "",
@@ -2826,6 +2959,7 @@
     "wikidata:id": null
   },
   "$Dutilh": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792-10-27",
@@ -2850,6 +2984,7 @@
     "wikidata:id": null
   },
   "$Duyn": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1819-04-15",
@@ -2876,6 +3011,7 @@
     "wikidata:id": null
   },
   "$Dyck": {
+    "ISNI:id": null,
     "comment": "Archive contains correspondence between him and some Dutch representatives about a debt.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2892,6 +3028,7 @@
     "wikidata:id": null
   },
   "$Eksteen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "ms310. Could be P.M. Eksteen who is mentioned here https://nl.wikipedia.org/wiki/Gijsbertus_Martinus_Cort_Heyligers, but found no source that discusses why he would be in Florence or Ronciglione",
     "date_of_birth": "",
@@ -2908,6 +3045,7 @@
     "wikidata:id": null
   },
   "$Elgger": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Dit is de enige Elgger die in Pauselijke dienst lijk te zijn",
     "date_of_birth": "1794-08-01",
@@ -2926,6 +3064,7 @@
     "wikidata:id": "Q58668774"
   },
   "$Elout": {
+    "ISNI:id": "0000 0003 9788 5599",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1767-03-22",
@@ -2954,6 +3093,7 @@
     "wikidata:id": "Q1808871"
   },
   "$Emarese": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2981,6 +3121,7 @@
     "wikidata:id": null
   },
   "$Enslie": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795-12-26",
@@ -3005,6 +3146,7 @@
     "wikidata:id": "Q2048931"
   },
   "$Escherich": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1817",
@@ -3027,6 +3169,7 @@
     "wikidata:id": null
   },
   "$Esterhazy": {
+    "ISNI:id": "0000 0000 5810 8779",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1807-09-23",
@@ -3050,6 +3193,7 @@
     "wikidata:id": "Q1947900"
   },
   "$Estorff": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1811-12-21",
@@ -3070,6 +3214,7 @@
     "wikidata:id": "Q30132320"
   },
   "$Everard": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795",
@@ -3092,6 +3237,7 @@
     "wikidata:id": null
   },
   "$Fabris": {
+    "ISNI:id": "0000 0001 1930 3819",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1790-08-19",
@@ -3115,6 +3261,7 @@
     "wikidata:id": "Q1528743"
   },
   "$Faens": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3136,6 +3283,7 @@
     "wikidata:id": null
   },
   "$Fagel": {
+    "ISNI:id": "0000 0003 9511 6454",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1771-03-10",
@@ -3166,6 +3314,7 @@
     "wikidata:id": "Q2157077"
   },
   "$Farnese": {
+    "ISNI:id": "0000 0001 0259 8323",
     "comment": "",
     "comment_daniel": "Zij is al een eeuw dood tijdens de vermelding in archief, maar ik kan ook niemand anders vinden die past bij “Elisabetta Farnese, regina di Spagna”",
     "date_of_birth": "1692-10-25",
@@ -3184,6 +3333,7 @@
     "wikidata:id": "Q229867"
   },
   "$Faubert": {
+    "ISNI:id": "0000 0000 4447 8218",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1806",
@@ -3207,6 +3357,7 @@
     "wikidata:id": "Q3384967"
   },
   "$Federici": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3225,6 +3376,7 @@
     "wikidata:id": "Q63958006"
   },
   "$Felici": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Zie ms.317. Ik vermoed dat hier een verkeerde titel staat ‘cappellaro’. Logischer lijkt me ‘cappellano’ wat zou verklaren waarom hij is opgepakt en “coniugato con prole” extra wordt vermeld in de aanklacht",
     "date_of_birth": "",
@@ -3241,6 +3393,7 @@
     "wikidata:id": null
   },
   "$Fergola": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795-02-08",
@@ -3259,6 +3412,7 @@
     "wikidata:id": "Q3759805"
   },
   "$Ferrante": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3282,6 +3436,7 @@
     "wikidata:id": null
   },
   "$FerrariG": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3306,6 +3461,7 @@
     "wikidata:id": null
   },
   "$FerrariL": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3328,6 +3484,7 @@
     "wikidata:id": null
   },
   "$Ferrere": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Writes a number of letters in ms278. No title or name is mentioned. Dizionario's and almanacco's of that period don't include a logical conte De Ferrere",
     "date_of_birth": "",
@@ -3344,6 +3501,7 @@
     "wikidata:id": null
   },
   "$FerrettiGa": {
+    "ISNI:id": null,
     "comment": "From Koelman: Ferretti, Gabriele (1795-1860), was vanaf 1827 bisschop van Rieti, vanaf 1837 aartsbisschop van Fermo en werd in 1839 tot kardinaal gewijd. Vanwege zijn gematigd liberale ideeën benoemde Pius IX hem op 17 juli 1847 tot kardinaal-staatssecretaris, als opvolger van Gizzi. Ferretti leek de hoge verwachtingen waar te maken, tot in september 1847 bij hem de twijfel over de liberale koers toesloeg; op 20 januari 1848 nam hij ontslag. Na de vlucht van Pius IX ging ook F. naar Gaeta, maar hield een rol in de marge, eerst door de dominantie van Antonelli, daarna door de keuze voor een teruggetrokken bestaan. B.: Monsagrati (1997); Boutry (2002) 378-379; Leblanc (2019) 344-346.",
     "comment_daniel": "",
     "date_of_birth": "1795-01-31",
@@ -3363,6 +3521,7 @@
     "wikidata:id": "Q2003775"
   },
   "$FerrettiGi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Lijkt mij een fout in de inventaris die G. Ferrari moet zijn",
     "date_of_birth": "",
@@ -3381,6 +3540,7 @@
     "wikidata:id": null
   },
   "$Ferrieri": {
+    "ISNI:id": "0000 0003 9721 8534",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1810-09-13",
@@ -3406,6 +3566,7 @@
     "wikidata:id": "Q2707662"
   },
   "$Firoi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "I believe he might be included in 'Dizionario bibliografico dell’Armata Sarda seimila biografie'",
     "date_of_birth": "",
@@ -3422,6 +3583,7 @@
     "wikidata:id": null
   },
   "$Fischer": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3443,6 +3605,7 @@
     "wikidata:id": null
   },
   "$Fleumer": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive, likely his first name is Hendrik",
     "date_of_birth": "",
@@ -3459,6 +3622,7 @@
     "wikidata:id": null
   },
   "$Fontana": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3475,6 +3639,7 @@
     "wikidata:id": null
   },
   "$Forstner": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive, I suspect https://nl.wikipedia.org/wiki/Hendrik_Forstner_van_Dambenoy",
     "date_of_birth": "",
@@ -3491,6 +3656,7 @@
     "wikidata:id": null
   },
   "$Fraissinet": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3509,6 +3675,7 @@
     "wikidata:id": null
   },
   "$Fransoni": {
+    "ISNI:id": "0000 0001 1563 9497",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1775-12-10",
@@ -3527,6 +3694,7 @@
     "wikidata:id": "Q1522103"
   },
   "$Fulcheri": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3548,6 +3716,7 @@
     "wikidata:id": null
   },
   "$Gabrielli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3566,6 +3735,7 @@
     "wikidata:id": null
   },
   "$Gallenga": {
+    "ISNI:id": "0000 0000 6629 8656",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1810-11-04",
@@ -3597,6 +3767,7 @@
     "wikidata:id": "Q204932"
   },
   "$Galletti": {
+    "ISNI:id": "0000 0000 6223 1112",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-08-11",
@@ -3620,6 +3791,7 @@
     "wikidata:id": "Q1119944"
   },
   "$Galli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1789-02",
@@ -3643,6 +3815,7 @@
     "wikidata:id": "Q15629084"
   },
   "$Gallieno": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3659,6 +3832,7 @@
     "wikidata:id": null
   },
   "$Gamberini": {
+    "ISNI:id": "0000 0001 0718 8075",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1760-10-31",
@@ -3678,6 +3852,7 @@
     "wikidata:id": "Q1079554"
   },
   "$Gandolfo": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3694,6 +3869,7 @@
     "wikidata:id": null
   },
   "$Gardenghi": {
+    "ISNI:id": null,
     "comment": "Giuseppe Gardenghi was convicted of an act of rebellion and insurrection. The notice of his conviction is included in the archive.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3710,6 +3886,7 @@
     "wikidata:id": null
   },
   "$Garibaldi": {
+    "ISNI:id": null,
     "comment": "From Koelman: Garibaldi, Giuseppe Maria (1807-1882) afkomstig uit Nice, was een Italiaanse patriot, avonturier en militair, die samen met Cavour, Victor Emanuele II en Mazzini een van Italië’s vaderen des vaderlands. In werd hij lid van Mazzini’s Jong Italië, waarmee hij in 1834 deelnam aan een opstand in Genua. Hij werd ter dood veroordeeld en vluchtte naar Zuid-Amerika, waar hij als vrijwilliger actief was in de zgn. Lompenoorlog in Brazilië en als generaal in de Uruguayaanse Burgeroorlog. In 1848 kwam hij naar Italië terug, waar hij o.a. als generaal van de voorlopige regering van Milaan vocht. Daarna werd hij gedeputeerde in de Romeinse grondwetgevende vergadering werd namens Macerata en brigadegeneraal van het republikeinse leger. Toen de republiek viel, trok hij op 2 juli 1849 uit Rome weg. Tijdens een poging met enkele getrouwen Venetië te bereiken stierf zijn vrouw Anita. G. zwierf enkele jaren over de wereld en vestigde zich in 1855 op Caprera, voor de kust van Sardinië. In 1859 nam hij deel aan de Tweede Onafhankelijkheidsoorlog, als generaal-majoor van een vrijwilligerskorps binnen het Sardijnse leger. In de nacht van 5/6 mei 1860 ondernam hij met ca. 1000 vrijwilligers een expeditie naar Sicilië, waar een opstand was uitgebroken. Zijn snelgroeiende leger veroverde in de maanden daarna grote delen van Zuid-Italië op de Bourbons. Die veroveringen werden vervolgens binnen het Piemontese expansionisme ‘geaccommodeerd’; zo werd de basis gelegd voor het Koninkrijk Italië (17 maart 1861). In 1866 leidde G. nogmaals een vrijwilligerskorps tijdens de Derde Italiaanse Onafhankelijkheidsoorlog om de annexatie van de Veneto. Tussen 1862 en 1867 ondernam hij met zijn eigen vrijwilligerskorps verschillende, vergeefse pogingen om Rome te bevrijden van het ‘pauselijk juk’. In zijn laatste levensfase schreef G. romans en autobiografisch proza. Zijn betekenis als internationaal icoon van de (Italiaanse) vrijheidsstrijd was zo mogelijk nog groter dan zijn militaire verdiensten. B.: Scirocco (2009); Riall (2008); Possieri (2010).",
     "comment_daniel": "",
     "date_of_birth": "1807-07-04",
@@ -3731,6 +3908,7 @@
     "wikidata:id": "Q15629084"
   },
   "$Gazzelli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1782-09-19",
@@ -3755,6 +3933,7 @@
     "wikidata:id": "Q98092782"
   },
   "$Geloes": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3771,6 +3950,7 @@
     "wikidata:id": null
   },
   "$GeloesM": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -3787,6 +3967,7 @@
     "wikidata:id": null
   },
   "$Gemeau": {
+    "ISNI:id": "0000 0004 5123 5475",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1790-01-04",
@@ -3810,6 +3991,7 @@
     "wikidata:id": "Q2871356"
   },
   "$Gericke": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1814-02-18",
@@ -3837,6 +4019,7 @@
     "wikidata:id": "Q1871695"
   },
   "$Gerra": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1829-11-15",
@@ -3863,6 +4046,7 @@
     "wikidata:id": "Q55228124"
   },
   "$Getaz": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "ms311. Also referred to as vice consul. ",
     "date_of_birth": "",
@@ -3884,6 +4068,7 @@
     "wikidata:id": null
   },
   "$Gevers": {
+    "ISNI:id": "0000 0003 5946 9682",
     "comment": "",
     "comment_daniel": "Volgens inventaris ook “Consigliere di Stato”, maar ik zou eigenlijk niet direct weten wat die functie is in Nederland",
     "date_of_birth": "1793-08-25",
@@ -3917,6 +4102,7 @@
     "wikidata:id": "Q2745527"
   },
   "$Gioberti": {
+    "ISNI:id": "0000 0001 0871 8269",
     "comment": "From Koelman: Gioberti, Vincenzo (1801-1852) katholiek-liberale theoloog, filosoof, schrijver en patriot. Vanaf 1833 verbleef hij jarenlang in ballingschap in Brussel en Parijs, waar hij ook zijn belangrijkste werken schreef. In Del primato civile e morale degli italiani (1843) lanceerde hij de zogenaamde neowelfische ideologie, waarin werd bepleit dat de paus de natuurlijke leider van een nieuw te vormen Italiaanse statenbond diende te zijn. In zijn Gesuita moderno trok hij van leer tegen misstanden in de kerk en tegen de groeiende invloed van de jezuïeten, waarna het boek op de Index kwam te staan. In 1848 keerde G. naar Italië terug en maande hij de revolutionairen tot gematigdheid. In Turijn werd hij parlementsvoorzitter en van december 1848 tot februari 1849 eerste minister. Toen koning Carlo Alberto even later van het toneel verdween, moest ook Gioberti het veld ruimen. Hij sleet enkele maanden als ambassadeur in Parijs en wijdde zich daarna aan het schrijverschap (Del rinnovamento civile d’Italia, 1851). B.: Rumi (1999); Traniello (2001).",
     "comment_daniel": "",
     "date_of_birth": "1801-04-05",
@@ -3944,6 +4130,7 @@
     "wikidata:id": "Q378706"
   },
   "$Gizzi": {
+    "ISNI:id": "0000 0003 8212 6469",
     "comment": "From Koelman: Gizzi, Tommaso Pasquale (1787-1849), curiekardinaal en staatssecretaris (1846-1847), populair vanwege zijn reputatie als hervormer, die o.a. te danken was aan de loftuitingen door de prominente liberaal Massimo D’Azeglio in Degli ultimi casi di Romagna. De benoeming tot staatssecretaris van de ‘liberaal’ Gizzi door paus Pius IX (8 augustus 1846) droeg bij aan de indruk dat ook de nieuwe paus een liberaal was. Op 17 juli 1847 trad Gizzi af, in de nasleep van de allocutie van Pius IX van 29 april. B.: Monsagrati (2001); Boutry (2002) 395-397; Leblanc (2019) 427-430.",
     "comment_daniel": "",
     "date_of_birth": "1787-09-22",
@@ -3970,6 +4157,7 @@
     "wikidata:id": "Q568067"
   },
   "$Goes": {
+    "ISNI:id": "0000 0003 9323 0026",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1806-07-28",
@@ -3995,6 +4183,7 @@
     "wikidata:id": "Q2739961"
   },
   "$Gojon": {
+    "ISNI:id": "0000 0003 7016 1101",
     "comment": "",
     "comment_daniel": "“Generale Comandante la 15.a Divisione Turr dell'Esercito Meridionale Italiano” lijkt mij toch een fout in de inventaris. Het is niet een fantastische bron maar zie: https://www.andreacavallari.it/Garibaldi/Garibaldi_Turr.htm. Esercito Meridionale Italiano is ook wel de standaard benaming van het leger van Garibaldi. Wellicht dus in het archief kijken hoe de stukken ondertekend zijn.",
     "date_of_birth": "1803-09-13",
@@ -4013,6 +4202,7 @@
     "wikidata:id": "Q2958227"
   },
   "$Goltstein": {
+    "ISNI:id": "0000 0003 9549 6370",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1794-05-30",
@@ -4037,6 +4227,7 @@
     "wikidata:id": "Q1681931"
   },
   "$Goltz": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "ms331. Kan hem niet vinden bij https://books.google.nl/books?id=IkRKAAAAcAAJ&pg=RA1-PA837&hl=nl&source=gbs_selected_pages&cad=2#v=snippet&q=Rom&f=false",
     "date_of_birth": "",
@@ -4055,6 +4246,7 @@
     "wikidata:id": null
   },
   "$Gonzaga": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1799-11-21",
@@ -4073,6 +4265,7 @@
     "wikidata:id": "Q3610051"
   },
   "$GregorioXVI": {
+    "ISNI:id": "0000 0001 2096 4745",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1765-09-18",
@@ -4091,6 +4284,7 @@
     "wikidata:id": "Q43734"
   },
   "$GregoriusXVI": {
+    "ISNI:id": "0000 0001 2096 4745",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1765-09-18",
@@ -4109,6 +4303,7 @@
     "wikidata:id": "Q43734"
   },
   "$Grey": {
+    "ISNI:id": "0000 0001 0786 7422",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-12-28",
@@ -4137,6 +4332,7 @@
     "wikidata:id": "Q320291"
   },
   "$Grooff": {
+    "ISNI:id": "0000 0000 3431 0745",
     "comment": "The appointment and actions of Jacobus Grooff in Batavia led to some issues with the local government and bishops. As a result the local Dutch governor banned him from Indonesia, which led to some correspondence between the Holy See and the Dutch Kingdom. Eventually Grooff was sent to Suriname and a new vicar was sent to Batavia. This 'Groof Affair' is discussed in van Santen (see note).",
     "comment_daniel": "",
     "date_of_birth": "1800-08-03",
@@ -4157,6 +4353,7 @@
     "wikidata:id": "Q11715799"
   },
   "$Guerra": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4173,6 +4370,7 @@
     "wikidata:id": null
   },
   "$Guerrazzi": {
+    "ISNI:id": "0000 0001 2137 3525",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1804-08-12",
@@ -4200,6 +4398,7 @@
     "wikidata:id": "Q518925"
   },
   "$Guidi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4216,6 +4415,7 @@
     "wikidata:id": null
   },
   "$Gutierrez": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818",
@@ -4240,6 +4440,7 @@
     "wikidata:id": "Q5750550"
   },
   "$Hall": {
+    "ISNI:id": "0000 0001 3919 6520",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1791-05-15",
@@ -4275,6 +4476,7 @@
     "wikidata:id": "Q1430171"
   },
   "$Haye": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4297,6 +4499,7 @@
     "wikidata:id": null
   },
   "$HeldewierI": {
+    "ISNI:id": null,
     "comment": "Eight days after the end of his appointment his daughter fled her paternal home. This became problematic as diplomatic agents enjoyed immunity, but not after their appointment ended. The correspondence related to this scandal is discussed in van Santen (zie note).",
     "comment_daniel": "Volgens de inventaris is hij vanaf 1838 gevolmachtigd minister, maar Beth vermeldt dit niet",
     "date_of_birth": "1791-12-27",
@@ -4322,6 +4525,7 @@
     "wikidata:id": null
   },
   "$HeldewierII": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1829-10-13",
@@ -4355,6 +4559,7 @@
     "wikidata:id": null
   },
   "$Hendel": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4373,6 +4578,7 @@
     "wikidata:id": null
   },
   "$Herrera": {
+    "ISNI:id": "0000 0000 3197 9371",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1808-08-24",
@@ -4396,6 +4602,7 @@
     "wikidata:id": "Q2886118"
   },
   "$Heukensfeldt": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1830-01-21",
@@ -4415,6 +4622,7 @@
     "wikidata:id": null
   },
   "$HoevenE": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1778",
@@ -4440,6 +4648,7 @@
     "wikidata:id": null
   },
   "$HoevenFF": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1832-01-06",
@@ -4464,6 +4673,7 @@
     "wikidata:id": null
   },
   "$HuyssenJW": {
+    "ISNI:id": "0000 0003 9205 5246",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1782-05-16",
@@ -4492,6 +4702,7 @@
     "wikidata:id": "Q13737786"
   },
   "$HuyssenWJC": {
+    "ISNI:id": "0000 0000 8144 1158",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1816-01-22",
@@ -4521,6 +4732,7 @@
     "wikidata:id": "Q2547386"
   },
   "$Jacob": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Don't understand his title in the letter. ... of Florenville . ms280_161",
     "date_of_birth": "",
@@ -4537,6 +4749,7 @@
     "wikidata:id": null
   },
   "$Jacobini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1791-08-15",
@@ -4561,6 +4774,7 @@
     "wikidata:id": "Q3651524"
   },
   "$Jandel": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4581,6 +4795,7 @@
     "wikidata:id": "Q3651524"
   },
   "$Jochems": {
+    "ISNI:id": null,
     "comment": "The archive contains documents related to his death, inheritance and a dispute between his heirs.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4597,6 +4812,7 @@
     "wikidata:id": null
   },
   "$Jocteau": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4621,6 +4837,7 @@
     "wikidata:id": null
   },
   "$Joinville": {
+    "ISNI:id": "0000 0001 0911 431X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818-08-14",
@@ -4640,6 +4857,7 @@
     "wikidata:id": "Q454337"
   },
   "$Jonge": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1790-08-13",
@@ -4668,6 +4886,7 @@
     "wikidata:id": null
   },
   "$Jongh": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Wels en Beth noemen hem met W., inventaris heeft het over L. In ms. 307 staat ook Gerome. Wellicht een zoon?",
     "date_of_birth": "",
@@ -4687,6 +4906,7 @@
     "wikidata:id": null
   },
   "$Kalbermatten": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1793-11-15",
@@ -4708,6 +4928,7 @@
     "wikidata:id": null
   },
   "$Kemp": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4726,6 +4947,7 @@
     "wikidata:id": null
   },
   "$Kestner": {
+    "ISNI:id": "0000 0000 8146 6347",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1777-11-28",
@@ -4756,6 +4978,7 @@
     "wikidata:id": "Q97466"
   },
   "$Kiesch": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4772,6 +4995,7 @@
     "wikidata:id": null
   },
   "$Kisseleff": {
+    "ISNI:id": "0000 0000 8102 6798",
     "comment": "",
     "comment_daniel": "Hoe willen we deze Russische naam schrijven? Zijn wel 100 mogelijkheden..",
     "date_of_birth": "1788-01-19",
@@ -4795,6 +5019,7 @@
     "wikidata:id": "Q717801"
   },
   "$Koelman": {
+    "ISNI:id": null,
     "comment": "From Koelman: Koelman, J(oh)an Hendrik (1820-1887) werd geboren in Den Haag als zoon van een timmerman. Hij ging in de leer bij Cornelis Kruseman en won 1839 de Groote Prijs voor historieschilderkunst van de Amsterdamse academie. Met A. Ehnle reisde hij naar Rome (aankomst 29 september 1840) waar hij, tot ergernis van de Nederlandse ambassadeur en de raad van de Academie, de weg van de genre- en portretkunst insloeg. Als miniaturist kreeg hij weldra opdrachten uit de hoogste kringen (Vosmaer noemt een kopie in grote minatuur op ivoor van Raphaels Transfiguratie, en een Groepsportret van de familie Borghese voor prins Marc Antonio Borghese). Ook na het einde van zijn Nederlandse pensioen (1844) bleef hij in Rome. Eind 1844 werd hij katholiek en trouwde met Enrichetta Fioroni. Bij dat huwelijk ontbrak zijn oudere broer J. Philip, die hem in 1844 naar Rome was gevolgd en met wie hij in onmin was geraakt. Met zijn jongere broer J. Daniël (1831-1857), die vermoedelijk eveneens Italië bezocht, was de verhouding beter (vgl. Koelman 1842). Getuige de Nederlandse ambassadeur was K. fanatiek sympathisant met de Romeinse republiek; of hij inderdaad ook in de burgerwacht diende (zoals zijn broer beweert) is onduidelijk. K. exposeerde meermaals bij de Società degli Amatori e Cultori delle Belle Arti (in 1844 een Keuken van het ziekenhuis in een Capucijnerklooster). Ook in Nederland bleef zijn werk bekend, dankzij reproducties in de Kunstkronijk. Op latere leeftijd stond K. model voor de figuur van Wybrand, laatste exponent van de Hollandse schildersbent in Rome, in C. Vosmaers roman Inwijding (1889). Met uitzondering van een bezoek aan Nederland in 1869 (bezoekersregister Dordrechts Museum 1869, p. 22) bleef hij tot zijn dood in Rome. Hij woonde en werkte eerst aan de Via Sistina 68 en kocht in 1850 een groot woonhuis aan de Via dell’Olmo 57, later uitgebreid met nieuwbouw aan de aangrenzende Via Paolina. K. werd begraven op het Campo Verano. B.: Ehnle (1840-41); Koelman (1842); Donovan, Rome Vol III (1843) 1008; Mercurio (1843) 301; Dubourcq (1843-44) passim; Correspondentie J.F Portaels, passim 1845-70; The Artstical Directory (1856) 65; Vosmaer (1887); Noack (1927) II, 324-325; Hoogewerff, (1933)165-169, 185-193; Reynaerts (2001) 168-169 en passim; Adelaar e.a. (2003) 65 en passim; Montani (2005-2007) 401, 404, 406.",
     "comment_daniel": "",
     "date_of_birth": "1820-01-22",
@@ -4819,6 +5044,7 @@
     "wikidata:id": "Q29574935"
   },
   "$Kolb": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1800-01-19",
@@ -4837,6 +5063,7 @@
     "wikidata:id": "Q18628094"
   },
   "$Koningh": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1808-10-17",
@@ -4856,6 +5083,7 @@
     "wikidata:id": "Q29556650"
   },
   "$Kornis": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Ergens gek dat ik deze nergens kan vinden..",
     "date_of_birth": "",
@@ -4872,6 +5100,7 @@
     "wikidata:id": null
   },
   "$Kruseman": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1828-08-15",
@@ -4892,6 +5121,7 @@
     "wikidata:id": "Q2788060"
   },
   "$Kubeck": {
+    "ISNI:id": "0000 0001 1787 8168",
     "comment": "",
     "comment_daniel": "ms.339. Voornaam en persoon is een gokje gebaseerd op timing van zijn functie bij Handelsministerie (zie wiki). Checken in bron of dit kan kloppen.",
     "date_of_birth": "",
@@ -4910,6 +5140,7 @@
     "wikidata:id": "Q18511397"
   },
   "$LaTour": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1744-11-18",
@@ -4934,6 +5165,7 @@
     "wikidata:id": null
   },
   "$Lambruschini": {
+    "ISNI:id": "0000 0001 1561 461X",
     "comment": "From Koelman: Lambruschini, Luigi (1776-1854) was vanaf 1819 aartbisschop van Genua, werd in 1831 tot kardinaal gewijd door Gregorius XVI, onder wie hij in 1836 staatssecretaris werd. Na de eerste stemming op het conclaaf van 1846 was hij nog favoriet voor het pausschap, maar werd weldra overvleugeld door de latere Pius IX, die de aartsconservatieve L. niet herbenoemde als staatssecretaris. Van 1848 tot 1850 verbleef hij in Gaeta en was o.m. actief als voorzitter van de commissie die de afkondiging van het Dogma van de Onbevlekte Ontvangenis voorbereidde. Na de restauratie had hij kortstondig grote invloed op de reactionaire ideeën van Pius IX. B.: Manzini (1960); Boutry (2002) 402-405; Monsagrati (2004); Leblanc (2019) 507-512.",
     "comment_daniel": "",
     "date_of_birth": "1776-05-16",
@@ -4957,6 +5189,7 @@
     "wikidata:id": "Q584470"
   },
   "$Lanci": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -4975,6 +5208,7 @@
     "wikidata:id": null
   },
   "$Lanza": {
+    "ISNI:id": "0000 0000 6138 7115",
     "comment": "Giovanni Lanza held several other (ministerial) positions within the Kingdom of Italy.",
     "comment_daniel": "",
     "date_of_birth": "1810-02-15",
@@ -4999,6 +5233,7 @@
     "wikidata:id": "Q674128"
   },
   "$Larrain": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1813-02-16",
@@ -5022,6 +5257,7 @@
     "wikidata:id": "Q5944825"
   },
   "$Launay": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1786-10-06",
@@ -5057,6 +5293,7 @@
     "wikidata:id": "Q326045"
   },
   "$Laureani": {
+    "ISNI:id": "0000 0000 6215 1665",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1788-09-14",
@@ -5077,6 +5314,7 @@
     "wikidata:id": "Q27997017"
   },
   "$Laurent": {
+    "ISNI:id": "0000 0001 0923 1110",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1804-07-06",
@@ -5100,6 +5338,7 @@
     "wikidata:id": "Q104739"
   },
   "$Lauro": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Eerste vermelding ms301. Ik heb het gevoel dat gerente (Directeur) eigenlijk Vice-consul is",
     "date_of_birth": "",
@@ -5122,6 +5361,7 @@
     "wikidata:id": null
   },
   "$Lazzarini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5140,6 +5380,7 @@
     "wikidata:id": null
   },
   "$LeClercq": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1779-01-31",
@@ -5170,6 +5411,7 @@
     "wikidata:id": null
   },
   "$LeColonel": {
+    "ISNI:id": null,
     "comment": "Eugenio Giuseppe Allet was also known as colonel M. Allet.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5186,6 +5428,7 @@
     "wikidata:id": null
   },
   "$Leersum": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5204,6 +5447,7 @@
     "wikidata:id": null
   },
   "$Lencisa": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5222,6 +5466,7 @@
     "wikidata:id": null
   },
   "$Leveroni": {
+    "ISNI:id": null,
     "comment": "Giambatista Leveroni held the position of vice-president until 1832 or 1833.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5243,6 +5488,7 @@
     "wikidata:id": null
   },
   "$Liedkerke": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792",
@@ -5273,6 +5519,7 @@
     "wikidata:id": null
   },
   "$Lightenvelt": {
+    "ISNI:id": "0000 0003 9085 7309",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795-10-28",
@@ -5298,6 +5545,7 @@
     "wikidata:id": "Q1819131"
   },
   "$Limburg": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Daniël's comment suggested that the initials of this count were F.A., which would make it Frederik Adrian (1804-1874), but looking into his life I think it is doubtful that he was the person described here (got phd in 1825, was an attaché with Dutch legate to Berlin in 1834). It is likelier that it is about his father, Frederik Wilhelm, who got promoted 1827 to colonel and in 1828 to secretary of war (diary Richards, and see C.J. Graaf van Limburg Iconocgraphy pages 109-123)",
     "date_of_birth": "",
@@ -5322,6 +5570,7 @@
     "wikidata:id": null
   },
   "$LimburgNoordwijk": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1786-04-16",
@@ -5347,6 +5596,7 @@
     "wikidata:id": "Q2225990"
   },
   "$Lintz": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5370,6 +5620,7 @@
     "wikidata:id": null
   },
   "$Lofato": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5386,6 +5637,7 @@
     "wikidata:id": null
   },
   "$Lorenzana": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Tijden van zijn functies zijn niet heel duidelijk, misschien overal maar weglaten?",
     "date_of_birth": "1806-04-06",
@@ -5425,6 +5677,7 @@
     "wikidata:id": null
   },
   "$Lotsy": {
+    "ISNI:id": "0000 0003 8780 0600",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1808-05-31",
@@ -5454,6 +5707,7 @@
     "wikidata:id": "Q2513943"
   },
   "$Lottum": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1796-05-03",
@@ -5477,6 +5731,7 @@
     "wikidata:id": "Q94924544"
   },
   "$Luciano": {
+    "ISNI:id": null,
     "comment": "Has a claim for a sum of money at the Banco di San Giorgio in Genoa. Writes to the Dutch Consulate in hopes of retrieving some of her money. Her case is discussed by Van Santen (see note).",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5495,6 +5750,7 @@
     "wikidata:id": null
   },
   "$Lucidi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-08-11",
@@ -5516,6 +5772,7 @@
     "wikidata:id": null
   },
   "$Ludolf": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1787-06-24",
@@ -5540,6 +5797,7 @@
     "wikidata:id": null
   },
   "$Luipold": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive, might be https://en.wikipedia.org/wiki/Luitpold,_Prince_Regent_of_Bavaria",
     "date_of_birth": "",
@@ -5556,6 +5814,7 @@
     "wikidata:id": null
   },
   "$Lunati": {
+    "ISNI:id": "0000 0000 6257 2953",
     "comment": "From Koelman: Lunati, Giuseppe (1800-1878) jurist en politicus, was minister van Financiën in de kabinetten van Mamiani (4 mei-3 augustus 1848) en Muzzarelli (16 november-23 december). Als gematigde liberaal koos hij tijdens de republiek voor een rol op de achtergrond, als regeringscommissaris bij de Bank van Rome en rechter aan het Hof van Cassatie. Daarnaast was hij conservatore (wethouder) van Financiën in het Romeinse stadsbestuur. Na de val van de republiek weigerde hij een commissariaat van Financiën dat hem door de Franse bezetter werd aangeboden. Hij riskeerde een verbanning, maar Pius IX stond hem toch toe te blijven. Op 29 november 1870 werd hij de eerste (waarnemend) burgermeester van Rome. B.: Marini (2006).",
     "comment_daniel": "",
     "date_of_birth": "1800-04-24",
@@ -5581,6 +5840,7 @@
     "wikidata:id": "Q3770842"
   },
   "$Lutzow": {
+    "ISNI:id": "0000 0000 1018 1950",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1780-07-04",
@@ -5600,6 +5860,7 @@
     "wikidata:id": "Q15733451"
   },
   "$Maanen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1778-01-29",
@@ -5618,6 +5879,7 @@
     "wikidata:id": null
   },
   "$Macchi": {
+    "ISNI:id": "0000 0000 6194 580X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818-07-01",
@@ -5645,6 +5907,7 @@
     "wikidata:id": "Q3852847"
   },
   "$Macioti": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5663,6 +5926,7 @@
     "wikidata:id": null
   },
   "$MadiaiF": {
+    "ISNI:id": null,
     "comment": "The Madiai family was involved in an international scandal, discussion of which can be found in the note.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5681,6 +5945,7 @@
     "wikidata:id": null
   },
   "$MadiaiR": {
+    "ISNI:id": null,
     "comment": "The Madiai family was involved in an international scandal, discussion of which can be found in the note.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5699,6 +5964,7 @@
     "wikidata:id": null
   },
   "$Maesen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1827-10-25",
@@ -5723,6 +5989,7 @@
     "wikidata:id": "Q2591912"
   },
   "$Magrini": {
+    "ISNI:id": null,
     "comment": "From Koelman: Magrini, Paulo Emilio, of Paul Émile, was vanaf 1837- kanselier en secretaris, van 1851-1855 tevens ‘honorair attaché’ van de Nederlandse Legatie bij de Heilige Stoel en het Koninkrijk Piemonte-Sardinië. Tijdens de republiek, toen Liederkerke naar Gaeta was uitgeweken, bleef M. in Rome en probeerde de ambassadeur van informatie te voorzien. Koelman kenschetst hem als een uitgesproken clerikaal. Roncalli meldt dat M. met o.a. Nardoni en Minardi werd genoemd als een ‘beruchte spion’ in een door de politie gevonden republikeins pamflet (2 juli 1851). Tijdens de republiek ondertekende hij het protest waarmee Oudinot werd opgeroepen de Romeinse monumenten te ontzien (maar onthield zich van een ‘politiek’ oordeel). Na de val van de republiek (14 juli 1849) werd hij benoemd in de commissie die op last van diezelfde Oudinot de oorlogsschade in kaart bracht, en (ook M.) oordeelde dat die erg meeviel. B.: Rapport de la commission mixte (1850) 2; Liederkerk de Beaufort (1949) passim; Roncalli (1972) I, 277; Roncalli (1997) II, 361; De Dominicis (2017) II, ad vocem.",
     "comment_daniel": "Ridderschap onbekend, maar Koelman lijk te verwijzen naar de Orde van de Gouden Speer.",
     "date_of_birth": "",
@@ -5754,6 +6021,7 @@
     "wikidata:id": null
   },
   "$Maineri": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5770,6 +6038,7 @@
     "wikidata:id": null
   },
   "$Maistre": {
+    "ISNI:id": "0000 0000 0056 4915",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1789-09-22",
@@ -5795,6 +6064,7 @@
     "wikidata:id": "Q3438399"
   },
   "$Mamiani": {
+    "ISNI:id": "0000 0001 2100 5749",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1799-09-18",
@@ -5822,6 +6092,7 @@
     "wikidata:id": "Q1045355"
   },
   "$Manteri": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5840,6 +6111,7 @@
     "wikidata:id": null
   },
   "$Marchetti": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1790-08-26",
@@ -5863,6 +6135,7 @@
     "wikidata:id": null
   },
   "$Margarita": {
+    "ISNI:id": "0000 0000 7970 3729",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792-11-21",
@@ -5892,6 +6165,7 @@
     "wikidata:id": "Q1088319"
   },
   "$Marini": {
+    "ISNI:id": "0000 0000 6271 0885",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1793-10-05",
@@ -5916,6 +6190,7 @@
     "wikidata:id": "Q519469"
   },
   "$MariniF": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Brieven in ms278",
     "date_of_birth": "",
@@ -5932,6 +6207,7 @@
     "wikidata:id": null
   },
   "$Marmora": {
+    "ISNI:id": "0000 0000 8142 2627",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1804-11-18",
@@ -5959,6 +6235,7 @@
     "wikidata:id": "Q471272"
   },
   "$Marsilio": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -5982,6 +6259,7 @@
     "wikidata:id": null
   },
   "$Martin": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6005,6 +6283,7 @@
     "wikidata:id": "Q6118895"
   },
   "$Martinez": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1787-03-10",
@@ -6026,6 +6305,7 @@
     "wikidata:id": null
   },
   "$Martini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818-04-18",
@@ -6055,6 +6335,7 @@
     "wikidata:id": null
   },
   "$Martino": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1811",
@@ -6082,6 +6363,7 @@
     "wikidata:id": "Q62061603"
   },
   "$MarzanoA": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1795-07-27",
@@ -6104,6 +6386,7 @@
     "wikidata:id": "Q51044034"
   },
   "$MarzanoF": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1767-11-12",
@@ -6134,6 +6417,7 @@
     "wikidata:id": "Q47548748"
   },
   "$Massimo": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1806-02-25",
@@ -6153,6 +6437,7 @@
     "wikidata:id": "Q423512"
   },
   "$Mathey": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6169,6 +6454,7 @@
     "wikidata:id": null
   },
   "$Mattei": {
+    "ISNI:id": "0000 0001 0830 797X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792-09-06",
@@ -6188,6 +6474,7 @@
     "wikidata:id": "Q989847"
   },
   "$Matteucci": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-03-15",
@@ -6213,6 +6500,7 @@
     "wikidata:id": "Q2255869"
   },
   "$Mattioli": {
+    "ISNI:id": "0000 0003 8289 1152",
     "comment": "From Koelman: Mattioli, Giuseppe Camillo (1817-1893) werd in 1844 in Bologna gearresteerd wegens het beramen van een samenzwering tegen het pauselijk gezag. In 1846 kwam hij vrij dankzij de amnestieregeling van Pius IX. De voorlopige regering in Rome wees hem in januari 1849 aan als president van de provincie Ancona, ter vervanging van Aurelio Saffi. Daar maakte hij eerst de antirevolutionaire opstand mee die door Felice Orsini werd onderdrukt, en daarna de belegering door de Oostenrijkers (22 mei-19 juni 1849). Toen Ancona viel, vluchtte hij naar Corfù. In 1859 keerde hij terug naar Italië, waar hij toetrad tot Mazzini’s Partito d’Azione. B.: Tarozzi (2008).",
     "comment_daniel": "",
     "date_of_birth": "1817-05-10",
@@ -6233,6 +6521,7 @@
     "wikidata:id": "Q3770210"
   },
   "$Mazel": {
+    "ISNI:id": "0000 0000 7066 4065",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792-07-27",
@@ -6259,6 +6548,7 @@
     "wikidata:id": "Q19883978"
   },
   "$Mazzini": {
+    "ISNI:id": "0000 0001 2098 4420",
     "comment": "From Koelman: Mazzini, Giuseppe (1805-1872) Italiaanse politicus en patriot, algemeen beschouwd als een van de geestelijk vaders van de Italiaanse eenheidsstaat, voorman van de democratische en republikeinse stroming in het Risorgimento. Maakte als jonge man deel uit van het geheime genootschap van de Carboneria (1827-30), maar richtte spoedig zijn eigen beweging Giovine Italia (Jong Italië, 1831) op. Tijdens zijn ballingschap in Engeland (vanaf 1837) poogde hij in het buitenland de sympathie voor de Italiaanse zaak aan te wakkeren, mede door de oprichting van Jong Europa (waarin Italiaanse nationalisten de krachten met die van Duitsland en Polen moesten bundelen). Daarnaast zette hij zijn activiteiten als journalist en criticus voort, altijd zoekend naar patriotische motieven en kansen in de eigentijdse kunst, literatuur, muziek. In 1848 keerde hij naar Italië terug, eerst naar het vrijgevochten Milaan, daarna naar Toscane, waar hij een fusie met juist uitgeroepen de Romeinse republiek voorstelde – een idee dat werd geweigerd. Ten slotte kwam hij op 5 maart 1849 naar Rome, waar hij op 29 maart met A. Saffi en C. Armellini in het driemanschap werd benoemd. Vanuit zijn ballingsoord Londen richtte hij in 1850 het Italiaans Nationaal Comité op, dat met leningen en opstanden de aanstoot tot een nationale bevrijdingsoorlog moest geven. Talloze pogingen strandden (o.a. Belfiore 1852-53, Genua 1857). Inmiddels was echter de hoop van veel patriotten gevestigd op Piemonte en gematigd liberaal monarchistisch patriottisme kreeg de overhand over M.’s democratisch republikanisme. Na de eenwording bleef M. tegenstander van de ‘Piemontisering’ van Italië en volhardde in zijn republicanisme. In de lente van 1870 organiseerde hij vanuit Palermo een expeditie om Rome te bevrijden, maar werd nog voor vertrek gearresteerd. Hij werd gearresteerd, maar kreeg amnestie. Zijn laatste jaren sleet hij als balling in Londen, Lugano en (als dr. Brown) in Pisa, waar hij op 10 maart 1872 overleed. B.: Sarti (1997); Frétigné (2006); Belardelli (2010).",
     "comment_daniel": "",
     "date_of_birth": "1805-06-22",
@@ -6277,6 +6567,7 @@
     "wikidata:id": "Q187336"
   },
   "$MediciS": {
+    "ISNI:id": "0000 0000 1054 5064",
     "comment": "",
     "comment_daniel": "Ik twijfel heel erg over vertaling titel. Wellicht maar gewoon laten staan?",
     "date_of_birth": "1801-08-12",
@@ -6301,6 +6592,7 @@
     "wikidata:id": "Q55900582"
   },
   "$MedicidO": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1808-11-28",
@@ -6328,6 +6620,7 @@
     "wikidata:id": null
   },
   "$Menabrea": {
+    "ISNI:id": "0000 0001 1934 395X",
     "comment": "Luigi Cambéry held several other (ministerial) positions within the Kingdom of Italy.",
     "comment_daniel": "",
     "date_of_birth": "1809-09-06",
@@ -6351,6 +6644,7 @@
     "wikidata:id": "Q548672"
   },
   "$Merle": {
+    "ISNI:id": "0000 0000 8140 9617",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1794-08-16",
@@ -6372,6 +6666,7 @@
     "wikidata:id": "Q116045"
   },
   "$Metternich": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6388,6 +6683,7 @@
     "wikidata:id": null
   },
   "$MeuricoffreA": {
+    "ISNI:id": null,
     "comment": "The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels.",
     "comment_daniel": "",
     "date_of_birth": "1800",
@@ -6410,6 +6706,7 @@
     "wikidata:id": null
   },
   "$MeuricoffreG": {
+    "ISNI:id": null,
     "comment": "The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels.",
     "comment_daniel": "",
     "date_of_birth": "1795",
@@ -6434,6 +6731,7 @@
     "wikidata:id": null
   },
   "$Meyer": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1803",
@@ -6452,6 +6750,7 @@
     "wikidata:id": "Q107059878"
   },
   "$Mijnden": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1814-11-11",
@@ -6472,6 +6771,7 @@
     "wikidata:id": null
   },
   "$Milella": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1812-08-18",
@@ -6491,6 +6791,7 @@
     "wikidata:id": null
   },
   "$Milesi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1817-03-09",
@@ -6518,6 +6819,7 @@
     "wikidata:id": "Q2785997"
   },
   "$Minelli": {
+    "ISNI:id": null,
     "comment": "Raffaele Minelli was convicted of an act of rebellion and insurrection. The notice of his conviction is included in the archive.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6534,6 +6836,7 @@
     "wikidata:id": null
   },
   "$Montebello": {
+    "ISNI:id": "0000 0004 3666 9902",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1804-12-04",
@@ -6552,6 +6855,7 @@
     "wikidata:id": "Q1556729"
   },
   "$Montoya": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6577,6 +6881,7 @@
     "wikidata:id": "Q18217770"
   },
   "$Morandi": {
+    "ISNI:id": null,
     "comment": "From Koelman: Morandi, Giuseppe, Monseigneur, net als Pius IX afkomstig uit Senigallia, werd ten tijde van Gregorius XVI als advocaat toegewezen aan Giuseppe Galletti (die levenslang zou krijgen tot Pius IX hem amnestie gaf). Door staatssecretaris kardinaal Ferretti werd M. op 17 juli 1847 benoemd tot ‘protogouverneur’ van Rome, een functie die hij hield tot 15 november 1847. Bij het proces tegen de deelnemers aan de ‘Sanfedistische’ samenzwering was M. de aanklager. B.: Galletti (1863) 7; Catalogo della mostra storica (1895) 49; Chigi (1966) 197-201.",
     "comment_daniel": "Willen we deze titel vertalen? Of als Pro-governatore laten staan?",
     "date_of_birth": "1782-07-05",
@@ -6602,6 +6907,7 @@
     "wikidata:id": null
   },
   "$Morichini": {
+    "ISNI:id": "0000 0000 6632 5562",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1805-11-21",
@@ -6638,6 +6944,7 @@
     "wikidata:id": "Q1042264"
   },
   "$Mulken": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1796-06-30",
@@ -6667,6 +6974,7 @@
     "wikidata:id": "Q2111322"
   },
   "$Murray": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive",
     "date_of_birth": "",
@@ -6683,6 +6991,7 @@
     "wikidata:id": null
   },
   "$Mussand": {
+    "ISNI:id": null,
     "comment": "Marianna Mussand is mentioned in the archive in relation to the inheritance of Francesco Cornelio Verbruggen from Genoa.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6699,6 +7008,7 @@
     "wikidata:id": null
   },
   "$Muzzarelli": {
+    "ISNI:id": "0000 0000 6534 3363",
     "comment": "From Koelman: Muzzarelli, Monseigneur graaf Carlo Emanuele (1797-1856) was decaan van de Rota (de kerkelijke rechtbank in de Curie) en een gerespecteerd geleerde. Hij was niet als priester gewijd en stond bekend als gematigd liberaal. Na de vlucht van Pius bleef hij op zijn post en trad bovendien op 29 december toe tot de Suprema Giunta di Stato (het hoogste machtsorgaan in afwezigheid van de paus) en tot de voorlopige regering. Na de proclamatie van de republiek werd M. opnieuw als minister van Onderwijs en voorzitter van de ministerraad benoemd, hetgeen hij na de restauratie met ballingschap moest bekopen. B.: Boutry (2002) 598; Camarotto (2012).",
     "comment_daniel": "",
     "date_of_birth": "1797-04-03",
@@ -6723,6 +7033,7 @@
     "wikidata:id": "Q5041499"
   },
   "$NagellAWC": {
+    "ISNI:id": "0000 0000 5482 1518",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1756-01-04",
@@ -6753,6 +7064,7 @@
     "wikidata:id": "Q2421468"
   },
   "$NagellVrouw": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Somewhat surprising if this was indeed his wife, should probably check this in the archive itself",
     "date_of_birth": "",
@@ -6769,6 +7081,7 @@
     "wikidata:id": null
   },
   "$Nardoni": {
+    "ISNI:id": null,
     "comment": "From Koelman: Nardoni, Filippo (1791-1864) was een hoge politiefunctionaris onder Gregorius XVI, berucht om zijn harde optreden en aansturing van spionage-activiteiten van de geheime dienst. Hij kreeg zo’n slechte naam dat hij na de troonsbestijging van Pius IX tijdens diens liberale fase zijn haar en snor liet afscheren om niet herkend te worden. Na de mislukte reactionaire coup (de ‘Gregoriaanse of ‘sanfedistische’ samenzwering’, juli 1847) vluchtte hij onder een valse naam naar Sicilië en Malta. Na de restauratie van 1849 keerde hij terug, eerst als hoofd van de geheime dienst, later als kolonel en commandant van de pauselijke gendarmerie. B.: About (1860) 167-178; Veca (2020).",
     "comment_daniel": "",
     "date_of_birth": "1791-11-09",
@@ -6787,6 +7100,7 @@
     "wikidata:id": "Q87067169"
   },
   "$Nassau": {
+    "ISNI:id": "0000 0003 8186 5999",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1817-07-24",
@@ -6808,6 +7122,7 @@
     "wikidata:id": "Q57302"
   },
   "$NavoniContessa": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6824,6 +7139,7 @@
     "wikidata:id": null
   },
   "$NavoniF": {
+    "ISNI:id": null,
     "comment": "François Navoni was also consul of several other countries.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6846,6 +7162,7 @@
     "wikidata:id": null
   },
   "$Ney": {
+    "ISNI:id": "0000 0000 6225 9879",
     "comment": "From Koelman: Ney, Napoléon Henri Edgar (1812-1882), prins van La Moskowa, was een Franse militair en een trouw aanhanger van L.N. Bonaparte, die hem na diens uitverkiezing tot president (dec. 1848) benoemde tot ordonnans-officier en luitenant-kolonel in zijn staf (1 maart 1849). In de zomer van 1849 werd N. op een missie gestuurd naar Rome, vanwaar hij de president verslag uitbracht. Op 19 augustus 1849 schreef Bonaparte N. zijn beroemde (door Koelman aangehaalde) brief, weldra met opzet verspreid, waarmee hij imagoschade trachtte te beperken door de Franse liberale intenties uiteen te zetten die als voorwaarde zouden gelden voor de restauratie van de pauselijke macht. De brief zorgde in de Assemblée voor een hevig debat. N. werd op 3 februari 1850 gekozen in de grondwetgevende vergadering en in 1857 in de senaat. Intussen was hij, na deelname aan de Italiaanse campagne van 1859, bevorderd tot generaal. B.: DPF (1889-1891) IV, 493.",
     "comment_daniel": "",
     "date_of_birth": "1812-04-12",
@@ -6867,6 +7184,7 @@
     "wikidata:id": "Q3047474"
   },
   "$Nigrisoli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6886,6 +7204,7 @@
     "wikidata:id": null
   },
   "$Nossardi": {
+    "ISNI:id": null,
     "comment": "Andreas Nossardi wrote a letter to E. van der Hoeven about the vacant post of Consul General of the Kingdom of the Netherlands in Genoa.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6902,6 +7221,7 @@
     "wikidata:id": null
   },
   "$Novelli": {
+    "ISNI:id": "0000 0000 6135 628X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1821-11-16",
@@ -6924,6 +7244,7 @@
     "wikidata:id": "Q24239773"
   },
   "$Noyer": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6949,6 +7270,7 @@
     "wikidata:id": null
   },
   "$Odescalchi": {
+    "ISNI:id": "0000 0000 8345 346X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1789-02-01",
@@ -6972,6 +7294,7 @@
     "wikidata:id": "Q18758550"
   },
   "$Olimart": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6995,6 +7318,7 @@
     "wikidata:id": null
   },
   "$OostenrijkMA": {
+    "ISNI:id": "0000 0000 7034 3421",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1822-05-03",
@@ -7011,6 +7335,7 @@
     "wikidata:id": "Q231856"
   },
   "$OostenrijkMT": {
+    "ISNI:id": "0000 0000 4522 9053",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1773-11-01",
@@ -7027,6 +7352,7 @@
     "wikidata:id": "Q260505"
   },
   "$OranjeM": {
+    "ISNI:id": "0000 0000 3924 5161",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1810-05-09",
@@ -7056,6 +7382,7 @@
     "wikidata:id": "Q253805"
   },
   "$OranjeWFM": {
+    "ISNI:id": "0000 0003 8978 6558",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1843-09-15",
@@ -7075,6 +7402,7 @@
     "wikidata:id": "Q2735203"
   },
   "$OranjeWI": {
+    "ISNI:id": "0000 0001 1760 2532",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1772-08-24",
@@ -7101,6 +7429,7 @@
     "wikidata:id": "Q2079957"
   },
   "$OranjeWII": {
+    "ISNI:id": "0000 0000 6657 2352",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792-12-06",
@@ -7128,6 +7457,7 @@
     "wikidata:id": "Q154287"
   },
   "$OranjeWIII": {
+    "ISNI:id": "0000 0000 6675 7576",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1817-02-19",
@@ -7154,6 +7484,7 @@
     "wikidata:id": "Q125649"
   },
   "$OranjeWmina": {
+    "ISNI:id": "0000 0003 8798 8156",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1828-08-05",
@@ -7181,6 +7512,7 @@
     "wikidata:id": "Q130413"
   },
   "$Orioli": {
+    "ISNI:id": "0000 0000 6267 9523",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1778-12-10",
@@ -7210,6 +7542,7 @@
     "wikidata:id": "Q2517870"
   },
   "$Oudinot": {
+    "ISNI:id": "0000 0000 6633 0388",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1791-11-03",
@@ -7228,6 +7561,7 @@
     "wikidata:id": "Q262812"
   },
   "$PaccaB": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Ik kan deze nergens vinden. Gezien de tijd van vermelding neem ik eigenlijk aan dat dit ook om il Giovane gaat, maar kan tot nu toe geen lijst vinden van ceremoniemeesters…",
     "date_of_birth": "",
@@ -7244,6 +7578,7 @@
     "wikidata:id": null
   },
   "$PaccaBilG": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1817-02-25",
@@ -7274,6 +7609,7 @@
     "wikidata:id": "Q3635400"
   },
   "$Pacheco": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "ms316. Het enige wat ik kan verzinnen is dat “Gomez de Sandobal Mendoza” niet klopt. Maar de tijd van zijn aanstelling komt ook niet overeen met vermelding. Er moet iets fouts zijn maar weet niet wat.",
     "date_of_birth": "",
@@ -7298,6 +7634,7 @@
     "wikidata:id": null
   },
   "$Pagnoncelli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7319,6 +7656,7 @@
     "wikidata:id": null
   },
   "$Palermo": {
+    "ISNI:id": null,
     "comment": "Gaetano Palermo was a local Roman lawyer.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7335,6 +7673,7 @@
     "wikidata:id": null
   },
   "$PallaviciniA": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1803-10-21",
@@ -7360,6 +7699,7 @@
     "wikidata:id": "Q64707205"
   },
   "$PallaviciniE": {
+    "ISNI:id": null,
     "comment": "Paolo Gerolamo Pallavcini was president of the Magistrato since at least 1824.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7380,6 +7720,7 @@
     "wikidata:id": null
   },
   "$Palmerston": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7396,6 +7737,7 @@
     "wikidata:id": "Q64707205"
   },
   "$Pancani": {
+    "ISNI:id": null,
     "comment": "Attiliano Pancani is mentioned in the archive in relation to the inheritance of the Vassen family.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7412,6 +7754,7 @@
     "wikidata:id": null
   },
   "$Parisi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7435,6 +7778,7 @@
     "wikidata:id": null
   },
   "$Pastoris": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7454,6 +7798,7 @@
     "wikidata:id": null
   },
   "$Patrizi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-11-04",
@@ -7473,6 +7818,7 @@
     "wikidata:id": null
   },
   "$Paulucci": {
+    "ISNI:id": "0000 0000 5348 3385",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1779-09-11",
@@ -7493,6 +7839,7 @@
     "wikidata:id": "Q2621033"
   },
   "$Pellissier": {
+    "ISNI:id": "0000 0001 2125 143X",
     "comment": "",
     "comment_daniel": "Ik vermoed Pierre Augustin Pellissier. Leefde in dezelfde tijd en heeft onder andere vertalingen van Plato gemaakt",
     "date_of_birth": "1819-09-30",
@@ -7511,6 +7858,7 @@
     "wikidata:id": "Q98128277"
   },
   "$Perglass": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "DN: Waarschijnlijk Karl Pergler, zie https://de.wikipedia.org/wiki/Pergler_von_Perglas",
     "date_of_birth": "",
@@ -7531,6 +7879,7 @@
     "wikidata:id": null
   },
   "$Perragallo": {
+    "ISNI:id": null,
     "comment": "Giuseppe Perragallo was a local from Genoa.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7547,6 +7896,7 @@
     "wikidata:id": null
   },
   "$Perron": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1764-02-08",
@@ -7567,6 +7917,7 @@
     "wikidata:id": "Q30076222"
   },
   "$Pes": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7587,6 +7938,7 @@
     "wikidata:id": null
   },
   "$Pianori": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1823-08-16",
@@ -7605,6 +7957,7 @@
     "wikidata:id": "Q3107311"
   },
   "$Pidal": {
+    "ISNI:id": "0000 0000 6141 0397",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1799-06-25",
@@ -7629,6 +7982,7 @@
     "wikidata:id": "Q7159675"
   },
   "$Pieralisi": {
+    "ISNI:id": "0000 0000 6137 543X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802",
@@ -7647,6 +8001,7 @@
     "wikidata:id": "Q93262403"
   },
   "$Pietro": {
+    "ISNI:id": "0000 0000 6256 2720",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1806-01-10",
@@ -7666,6 +8021,7 @@
     "wikidata:id": "Q82385"
   },
   "$Pilaer": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Beth vindt hem normaal consul en geen vice-consul zoals in de inventaris, wat houden we aan?",
     "date_of_birth": "",
@@ -7691,6 +8047,7 @@
     "wikidata:id": null
   },
   "$Pilati": {
+    "ISNI:id": "0000 0001 1804 5643",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1773-12-1929",
@@ -7712,6 +8069,7 @@
     "wikidata:id": "Q3658875"
   },
   "$PinGouvernet": {
+    "ISNI:id": "0000 0000 0000 1338",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1759-01-06",
@@ -7730,6 +8088,7 @@
     "wikidata:id": "Q3089547"
   },
   "$PioIX": {
+    "ISNI:id": "0000 0001 2321 4587",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792-05-13",
@@ -7748,6 +8107,7 @@
     "wikidata:id": "Q43720"
   },
   "$PioVII": {
+    "ISNI:id": "0000 0001 2144 8072",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1742-08-14",
@@ -7766,6 +8126,7 @@
     "wikidata:id": "Q124754"
   },
   "$PioVIII": {
+    "ISNI:id": "0000 0000 7977 1705",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1761-11-20",
@@ -7784,6 +8145,7 @@
     "wikidata:id": "Q4443"
   },
   "$Poelman": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7800,6 +8162,7 @@
     "wikidata:id": null
   },
   "$Pozzesi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7818,6 +8181,7 @@
     "wikidata:id": null
   },
   "$Pozzi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7842,6 +8206,7 @@
     "wikidata:id": null
   },
   "$ProvanaSabione": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7860,6 +8225,7 @@
     "wikidata:id": null
   },
   "$Quaedvlieg": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1823-03-21",
@@ -7880,6 +8246,7 @@
     "wikidata:id": "Q18567641"
   },
   "$RadicatiE": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7898,6 +8265,7 @@
     "wikidata:id": null
   },
   "$RaguettiC": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7914,6 +8282,7 @@
     "wikidata:id": null
   },
   "$Randi": {
+    "ISNI:id": "0000 0000 4474 730X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818-07-12",
@@ -7938,6 +8307,7 @@
     "wikidata:id": "Q1081499"
   },
   "$Randwijck": {
+    "ISNI:id": "0000 0000 2206 0347",
     "comment": "",
     "comment_daniel": "Inventaris heeft het over de koningin-moeder, maar dat klopt niet volgens laatste bron. Is ook onlogisch omdat Tuyll van Serooskerken ook genoemd wordt in archief. Die is het wel echt van de konging-moeder.",
     "date_of_birth": "1807-05-02",
@@ -7974,6 +8344,7 @@
     "wikidata:id": "Q2163341"
   },
   "$Rap": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7992,6 +8363,7 @@
     "wikidata:id": null
   },
   "$Raynaud": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8010,6 +8382,7 @@
     "wikidata:id": null
   },
   "$Rayneval": {
+    "ISNI:id": "0000 0000 1320 1232",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1813-08-01",
@@ -8030,6 +8403,7 @@
     "wikidata:id": "Q2840029"
   },
   "$ReF": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8054,6 +8428,7 @@
     "wikidata:id": null
   },
   "$ReL": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Functie uitzoeken, zaakgelastigden zijn geaccrediteerd dus horen bij een hof",
     "date_of_birth": "",
@@ -8076,6 +8451,7 @@
     "wikidata:id": null
   },
   "$Regnon": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8096,6 +8472,7 @@
     "wikidata:id": "Q76642934"
   },
   "$Reumont": {
+    "ISNI:id": "0000 0000 8344 1952",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1808-08-15",
@@ -8117,6 +8494,7 @@
     "wikidata:id": "Q76150"
   },
   "$Rezzi": {
+    "ISNI:id": "0000 0000 6139 581X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1785-07-17",
@@ -8138,6 +8516,7 @@
     "wikidata:id": "Q3839841"
   },
   "$Riario": {
+    "ISNI:id": "0000 0000 6171 952X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1782-01-08",
@@ -8157,6 +8536,7 @@
     "wikidata:id": "Q1401258"
   },
   "$Ricasoli": {
+    "ISNI:id": "0000 0000 8117 9268",
     "comment": "Bettino Ricasoli held several other (ministerial) positions within the Kingdom of Italy.",
     "comment_daniel": "",
     "date_of_birth": "1809-03-09",
@@ -8184,6 +8564,7 @@
     "wikidata:id": "Q519900"
   },
   "$Ricci": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1814-02-12",
@@ -8204,6 +8585,7 @@
     "wikidata:id": null
   },
   "$Rignano": {
+    "ISNI:id": "0000 0001 1477 2106",
     "comment": "From Koelman: Massimo, Mario, hertog van Rignano (1808-1873) was in het kabinet Mamiani (4 mei-3 augustus 1848) minister van Handel en Openbare Werken. Behalve als politicus was hij vooral bekend als wiskundige en astronoom (aan de Via del Teatro Marcello 2 is nog het torentje van zijn observatorium te zien). Hij was onder meer president van de pauselijke academie van wetenschappen (ook wel de ‘nieuwe Lincei’), commissaris-generaal van de pauselijke spoorwegen, gemeenteraadslid in Rome en werd na 1870 parlementslid. B.: Fait (1873) 147-152; Moroni (1840-1861) vol. 85, 114; vol. 89, 48 en vol. 100, 264-265.",
     "comment_daniel": "",
     "date_of_birth": "1808-06-05",
@@ -8236,6 +8618,7 @@
     "wikidata:id": "Q55836828"
   },
   "$Roest": {
+    "ISNI:id": "0000 0000 2055 0932",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1806-07-08",
@@ -8263,6 +8646,7 @@
     "wikidata:id": "Q2576296"
   },
   "$Rollmann": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8279,6 +8663,7 @@
     "wikidata:id": null
   },
   "$RoncaGB": {
+    "ISNI:id": null,
     "comment": "The archive contains documents related to his death and inheritance.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8295,6 +8680,7 @@
     "wikidata:id": null
   },
   "$RoncaGD": {
+    "ISNI:id": null,
     "comment": "The archive contains documents related to the death and inheritance of his relative, Giovanni Ronca.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8311,6 +8697,7 @@
     "wikidata:id": null
   },
   "$Ross": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8335,6 +8722,7 @@
     "wikidata:id": null
   },
   "$RossiF": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8353,6 +8741,7 @@
     "wikidata:id": null
   },
   "$RossiP": {
+    "ISNI:id": "0000 0001 1028 2556",
     "comment": "From Koelman: Rossi, Pellegrino (1787-1848) uit Carrara, kreeg als hoogleraar economie aan het Collège de France in 1834 de Franse nationaliteit. Als speciaal gezant werd hij door de minister Guizot naar Rome gestuurd om bij Gregorius XVI de ontbinding van de Jezuïetenorde in Frankrijk te bepleiten; in 1845 promoveerde hij tot ambassadeur bij de Heilige Stoel. Toen de februarirevolutie van 1848 een einde maakte aan de Julimonarchie, bleef R. als ambteloos burger in Rome, tot hij in september 1848 door Pius IX werd benoemd tot minister van Binnenlandse Zaken en Financiën in een gematigd liberaal kabinet (Soglia Ceroni), waarvan R. feitelijk de leider was. Zijn eerste daden konden de teleurstelling en woede in radicale kringen niet wegnemen; op 15 november 1848 werd hij voor het Palazzo della Cancelleria met een dolksteek in de hals om het leven werd gebracht. B.: Contigiani (2015); Lacchè (2016).",
     "comment_daniel": "",
     "date_of_birth": "1787-07-03",
@@ -8377,6 +8766,7 @@
     "wikidata:id": "Q673256"
   },
   "$RossiS": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1803",
@@ -8400,6 +8790,7 @@
     "wikidata:id": null
   },
   "$Rossum": {
+    "ISNI:id": "0000 0003 9378 0677",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1809-08-21",
@@ -8421,6 +8812,7 @@
     "wikidata:id": "Q1668663"
   },
   "$Rostolan": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1791-07-31",
@@ -8442,6 +8834,7 @@
     "wikidata:id": "Q3263553"
   },
   "$Roux": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8458,6 +8851,7 @@
     "wikidata:id": null
   },
   "$Rueff": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Er valt niet veel op te maken uit de brieven noch uit het internet. Pizzo had Kueff staan maar het lijkt mij 'Rueff' te lezen.",
     "date_of_birth": "",
@@ -8476,6 +8870,7 @@
     "wikidata:id": null
   },
   "$RuffoF": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1774-07-11",
@@ -8503,6 +8898,7 @@
     "wikidata:id": null
   },
   "$RuffoP": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1791-07-02",
@@ -8521,6 +8917,7 @@
     "wikidata:id": "Q80375043"
   },
   "$Rufini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1805",
@@ -8539,6 +8936,7 @@
     "wikidata:id": null
   },
   "$Ruggero": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1816-02-12",
@@ -8559,6 +8957,7 @@
     "wikidata:id": "Q1084684"
   },
   "$Rusconi": {
+    "ISNI:id": null,
     "comment": "From Koelman: Rusconi, Carlo (1812-1891) schrijver, vertaler, patriot en politicus uit Bologna, waar hij in februari 1831 deelnam aan de liberale opstand. Intussen maakte bij carrière als auteur van historische romans en invloedrijk vertaler van o.a. Shakespeare, Schiller, Byron en Walter Scott. In januari 1849 werd hij gekozen in de Romeinse grondwetgevende vergadering; na de proclamatie van de republiek werd hij benoemd tot minister van Buitenlandse Zaken. Vooral na de landing van de Franse troepen (april 1849) behartigde hij de belangen van de republiek in Londen en Parijs, waar hem het bericht van de Romeinse overgave bereikte. Daarop ging hij in ballingschap in België, Zwitserland en ten slotte in Genua. Hij bleef zijn literaire werk combineren met een sterk politiek engagement, dat na de Eenwording resulteerde in verschillende publieke functies, waaronder die van algemeen secretaris van de Raad van State (1879). Zijn herinneringen aan de gebeurtenissen van 1848-49 publiceerde R. in La Repubblica romana del 1849 (Turijn 1850-51). B.: Camarotto (2017).",
     "comment_daniel": "",
     "date_of_birth": "1812-03-05",
@@ -8582,6 +8981,7 @@
     "wikidata:id": null
   },
   "$Sacconi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1808-05-09",
@@ -8614,6 +9014,7 @@
     "wikidata:id": "Q948349"
   },
   "$Sagretti": {
+    "ISNI:id": "0000 0000 6289 6341",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1812-03-07",
@@ -8639,6 +9040,7 @@
     "wikidata:id": "Q105954901"
   },
   "$Saliceti": {
+    "ISNI:id": "0000 0004 1970 6409",
     "comment": "From Koelman: Saliceti, Aurelio (1804-1862) was een politicus, patriot en jurist uit Teramo, die vanaf 1836 als universitair docent burgerlijk recht en vanaf 1838 als rechter in Napels werkte. Na de afkondiging van de grondwet door Ferdinando II (11 februari 1848) werd hij intendant van de provincie Salerno en vervolgens minister van Justitie. In die hoedanigheid pleitte hij o.a. voor de verbanning van de Jezuïeten, wat tot zijn ontslag leidde. Daarop schreef hij een program voor een meer hervormingsgezinde regering, leidend tot de verdenking van republikeinse en staatsondermijnende activiteiten. Op 15 mei 1848 vluchtte hij naar Rome. Daar werd S. op 21 januari in de grondwetgevende vergadering gekozen en vervolgens met Montecchi en Armellini in het uitvoerend comité van de republiek benoemd. Na het aantreden van het driemanschap o.l.v. Mazzini (19 maart) werd S. opnieuw gedeputeerde, om ten slotte op 1 juli 1849 met Mariani en Calandrelli het laatste, zuiver formele driemanschap te vormen (tot 4 juli). Hij vluchtte vervolgens naar Londen en later naar Parijs en keerde in 1860 naar Italië terug. Kort voor zijn door werd hij in het Italiaanse parlement gekozen (1861). B.: Trincanato (2017).",
     "comment_daniel": "",
     "date_of_birth": "1804-05-14",
@@ -8662,6 +9064,7 @@
     "wikidata:id": "Q3629828"
   },
   "$Salzano": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1790-06-27",
@@ -8685,6 +9088,7 @@
     "wikidata:id": "Q17631739"
   },
   "$Sambuy": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8708,6 +9112,7 @@
     "wikidata:id": null
   },
   "$SanGiuliano": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8729,6 +9134,7 @@
     "wikidata:id": null
   },
   "$Santucci": {
+    "ISNI:id": "0000 0000 6289 598X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1796-02-18",
@@ -8771,6 +9177,7 @@
     "wikidata:id": "Q1080769"
   },
   "$Sarraz": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1787-11-23",
@@ -8801,6 +9208,7 @@
     "wikidata:id": "Q4307770"
   },
   "$Savelli": {
+    "ISNI:id": "0000 0003 7550 2972",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1792-09-15",
@@ -8833,6 +9241,7 @@
     "wikidata:id": "Q3034768"
   },
   "$Savini": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8852,6 +9261,7 @@
     "wikidata:id": null
   },
   "$SavoiaCA": {
+    "ISNI:id": "0000 0001 1021 9936",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-10-02",
@@ -8870,6 +9280,7 @@
     "wikidata:id": "Q181261"
   },
   "$SavoiaCE": {
+    "ISNI:id": "0000 0000 6687 3374",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1751-05-24",
@@ -8888,6 +9299,7 @@
     "wikidata:id": "Q175544"
   },
   "$SavoiaCF": {
+    "ISNI:id": "0000 0000 5542 8945",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1765-04-06",
@@ -8906,6 +9318,7 @@
     "wikidata:id": "Q312683"
   },
   "$SavoiaVE": {
+    "ISNI:id": "0000 0001 0774 7711",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1820-03-14",
@@ -8927,6 +9340,7 @@
     "wikidata:id": "Q168691"
   },
   "$Sayn": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1788-03-06",
@@ -8947,6 +9361,7 @@
     "wikidata:id": "Q762852"
   },
   "$Scala": {
+    "ISNI:id": "0000 0001 0779 3777",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -8965,6 +9380,7 @@
     "wikidata:id": "Q23857304"
   },
   "$Schaffter": {
+    "ISNI:id": null,
     "comment": "Albert Schaffter was one of the founders of the Geographischen Gesellschaft in Bern.",
     "comment_daniel": "",
     "date_of_birth": "1823-07-28",
@@ -8988,6 +9404,7 @@
     "wikidata:id": "Q35772365"
   },
   "$SchimmelpenninckG": {
+    "ISNI:id": "0000 0003 9758 8500",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1794-02-25",
@@ -9017,6 +9434,7 @@
     "wikidata:id": "Q682310"
   },
   "$SchimmelpenninckOye": {
+    "ISNI:id": "0000 0003 9758 8500",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1800-01-06",
@@ -9054,6 +9472,7 @@
     "wikidata:id": "Q682310"
   },
   "$Serra": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9077,6 +9496,7 @@
     "wikidata:id": null
   },
   "$Simeoni": {
+    "ISNI:id": "0000 0001 1616 864X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1816-07-12",
@@ -9100,6 +9520,7 @@
     "wikidata:id": "Q746874"
   },
   "$Simons": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-03-27",
@@ -9123,6 +9544,7 @@
     "wikidata:id": "Q739463"
   },
   "$Sismonda": {
+    "ISNI:id": "0000 0003 5910 0666",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1815-04-29",
@@ -9150,6 +9572,7 @@
     "wikidata:id": "Q21608993"
   },
   "$Sivori": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1771-05-06",
@@ -9169,6 +9592,7 @@
     "wikidata:id": null
   },
   "$Smit": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1801-05-13",
@@ -9193,6 +9617,7 @@
     "wikidata:id": "Q1865755"
   },
   "$Soelen": {
+    "ISNI:id": "0000 0000 1389 8359",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1776-03-16",
@@ -9226,6 +9651,7 @@
     "wikidata:id": "Q739204"
   },
   "$Soglia": {
+    "ISNI:id": "0000 0001 1559 097X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1779-10-11",
@@ -9250,6 +9676,7 @@
     "wikidata:id": "Q769369"
   },
   "$Somaglia": {
+    "ISNI:id": "0000 0000 6204 4034",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1744-07-29",
@@ -9268,6 +9695,7 @@
     "wikidata:id": "Q614929"
   },
   "$Sonnaz": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1816-11-26",
@@ -9287,6 +9715,7 @@
     "wikidata:id": "Q652001"
   },
   "$Sonsbeeck": {
+    "ISNI:id": "0000 0003 9184 1659",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1796-07-24",
@@ -9311,6 +9740,7 @@
     "wikidata:id": "Q2339140"
   },
   "$Souza": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "ms330. Naam lijkt me niet zijn echte Spaanse naam, functie komt ook niet overeen met bron > uitzoeken",
     "date_of_birth": "",
@@ -9332,6 +9762,7 @@
     "wikidata:id": null
   },
   "$SpaurJ": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1777-10-10",
@@ -9352,6 +9783,7 @@
     "wikidata:id": "Q2655597"
   },
   "$SpaurK": {
+    "ISNI:id": "0000 0000 1360 6168",
     "comment": "From Koelman: Spaur, Karl Graf von (1794-1854) was de chargé d’affaires (1832-38) en gevolmachtigd gezant namens het Koninkrijk Beieren in Rome (1838-. Vanaf resp. 1850 en 1851 was hij daarnaast ambassadeur namens Beieren aan het hof van de koning van Piemonte-Sardinië en die van het Koninkrijk der Beide Siciliën. In 1854 stierf hij in Florence, tijdens een terugreis naar Beieren. Spaur was een verrtouweling van Gregorius XVI en daarna van Pius IX en werd beroemd omdat hij op 24 november de vermomde paus uit Rome hielp vluchten. B.: Noack (1927) II, 564-565. B.: Simeoni (1932); Wiesenberger (1996); Spaur und Flavon (2020).",
     "comment_daniel": "",
     "date_of_birth": "1794-01-04",
@@ -9387,6 +9819,7 @@
     "wikidata:id": "Q1733687"
   },
   "$Speranza": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9403,6 +9836,7 @@
     "wikidata:id": null
   },
   "$Spinelli": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1780-08-16",
@@ -9426,6 +9860,7 @@
     "wikidata:id": "Q3759853"
   },
   "$SpinolaT": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1803-03-21",
@@ -9450,6 +9885,7 @@
     "wikidata:id": "Q3992857"
   },
   "$SpinolaU": {
+    "ISNI:id": "0000 0000 6224 532X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1791-06-29",
@@ -9468,6 +9904,7 @@
     "wikidata:id": "Q2256477"
   },
   "$Steen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Lijkt mij dus niet van Nederland maar van België. Zie noot.",
     "date_of_birth": "1781-03-29",
@@ -9493,6 +9930,7 @@
     "wikidata:id": "Q969057"
   },
   "$Stembror": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9513,6 +9951,7 @@
     "wikidata:id": null
   },
   "$SterbiniP": {
+    "ISNI:id": "0000 0000 1044 7667",
     "comment": "From Koelman: Sterbini, Pietro (1793-1863) Italiaanse politicus en schrijver. Na zijn studie vestigde hij zich als arts in Rome en begon daarnaast patriottische proza en poëzie te schrijven. Als carbonaro wist hij in 1831 generaal Sercognani vanuit de opstandige legatiën tot een mars op Rome te bewegen – al werd die bij Rieti tot staan gebracht. Na zijn vlucht kreeg hij in juli 1846 onder Pius IX amnestie. Zijn activiteiten als radicaal-democratisch journalist zette hij vanaf dat moment in Rome voort; tegelijkertijd werd hij een van de leiders van de Romeinse politieke club de Circolo popolare romano. Na de moord op P. Rossi, waarvan sommigen hem verdachten, werd S. een van de lekenministers (Handel en Openbare Werken) in de regeringen Muzzarelli I-III. Tijdens de Republiek was zijn invloed beperkt, onder meer omdat hij Garibaldi dictator wilde maken, ten koste van Mazzini. Na de val van de republiek ging hij in ballingschap naar Parijs, waar hij onder meer Tredici giornate della rivoluzione romana (1862) schreef. B.: Minocci (1994); Veca (2019).",
     "comment_daniel": "",
     "date_of_birth": "1793-01-25",
@@ -9531,6 +9970,7 @@
     "wikidata:id": "Q3904284"
   },
   "$SterbiniS": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9552,6 +9992,7 @@
     "wikidata:id": null
   },
   "$Stover": {
+    "ISNI:id": null,
     "comment": "From Koelman: Stöver, Johan Hendrik (1825-1911) was een leerling van de beeldhouwer Louis Royer. In 1851 trok hij in gezelschap van de schilders L.L. Kleijn en K.F. Philippeau naar Rome, vgl. Kunstkronijk 12 (1851), 48. Hij zou er tot 1876 blijven, waarna hij zich in Den Haag vestigde. In Rome behoorde S. tot de kunstenaarskring rond prinses Marianne, voor wie hij ook later werkzaam zou blijven (o.a. de grafmonumenten voor haar zoon J.W. von Reinhartshausen en de Christus op het graf van de prinses zelf, beide in Erbach, Rheingau). Stöver nam eerst zijn intrek in de Via de’ Pontefici 55 (waar Koelman eerder huisde), werkte daarna tot 1872 aan de Via Margutta 33, waar zijn eerste atelier in 1859 aan Bernardo Celentano overging. Hij woonde resp. aan de Via del Corso 504 en de Passeggiata di Ripetta 35. In Rome maakte hij o.a. het beeld van een Engel met een dood kind (1856) voor het mortuarium van het Diakonessenhuis in Utrecht (nu Centraal Museum) en een Moeder met kind (1859), gekocht door  voor zijn vrouw  t.g.v. de geboorte van hun zoon, de latere keizer . B.: Almanacco (1855) 292; Noack (1927) II, 582; Hoogewerff (1933); Geudeker (2018).",
     "comment_daniel": "",
     "date_of_birth": "1825-10-30",
@@ -9571,6 +10012,7 @@
     "wikidata:id": "Q70749571"
   },
   "$Stratenus": {
+    "ISNI:id": "0000 0003 9186 3786",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1807-07-22",
@@ -9595,6 +10037,7 @@
     "wikidata:id": "Q2135489"
   },
   "$Strens": {
+    "ISNI:id": "0000 0003 8871 7366",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1807-03-28",
@@ -9627,6 +10070,7 @@
     "wikidata:id": "Q384983"
   },
   "$Sturbinetti": {
+    "ISNI:id": "0000 0000 6290 5535",
     "comment": "From Koelman: Sturbinetti, Francesco (1807-1865) was een succesvol Romeins advocaat, wiens politieke engagement begon tijdens de liberale periode van Pius IX, toen hij kapitein in de burgerwacht werd, lid (conservatore) van de Romeinse gemeenteraad en minister van Openbare Werken en Justitie (resp. februari en maart 1848). Na Pius’ allocutie van 29 april 1848 nam hij ontslag. Vervolgens werd hij benoemd in het Consiglio di Stato en gekozen in het Consiglio dei Deputati (mei 1848), waarvan hij als voorzitter na de moord op Rossi (16 nov. 1848) de rust probeerde te bewaren. Na de vlucht van de paus kozen 16.153 Romeinen S. in januari 1849 in de Grondwetgevende vergadering, waar hij op 8 februari voor de proclamatie van de republiek stemde. In april werd hij gekozen tot raadslid en daarna tot senator van de gemeente Rome; tegenlijkertijd benoemde Mazzini hem als generaal van de Nationale Garde (voorheen Guardia Civica). Na de val van de republiek was S. voorzitter van de commissie die namens de stad Rome onderhandelde met Oudinot. Hij verwierp diens condities en gaf op 2 juli 1849 een proclamatie uit om de burgers steunen maar ook op te roepen zich bij de Franse intocht neer te leggen. Zelf vluchtte hij en streek via Genève in Genua neer. Hij kreeg nooit de gewenste pauselijke absolutie, maar in 1857 wel toestemming zich in Frascati te vestigen, waar hij in 1865 stierf. B.: Presti Danisi (2019).",
     "comment_daniel": "",
     "date_of_birth": "1807-04-28",
@@ -9650,6 +10094,7 @@
     "wikidata:id": "Q95729926"
   },
   "$Targioni": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9675,6 +10120,7 @@
     "wikidata:id": null
   },
   "$Tauffkirchen": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1826-07-07",
@@ -9698,6 +10144,7 @@
     "wikidata:id": "Q1041439"
   },
   "$Thile": {
+    "ISNI:id": "0000 0000 6290 5535",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1812-12-19",
@@ -9721,6 +10168,7 @@
     "wikidata:id": "Q95729926"
   },
   "$Thorel": {
+    "ISNI:id": null,
     "comment": "Thorel wrote a letter to E. van der Hoeven about the vacant post of Consul General of the Kingdom of the Netherlands in Genoa.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9737,6 +10185,7 @@
     "wikidata:id": null
   },
   "$Timmermans": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive",
     "date_of_birth": "",
@@ -9753,6 +10202,7 @@
     "wikidata:id": null
   },
   "$Tommaseo": {
+    "ISNI:id": "0000 0001 2320 061X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-10-09",
@@ -9771,6 +10221,7 @@
     "wikidata:id": "Q558177"
   },
   "$Tornaco": {
+    "ISNI:id": "0000 0001 2320 061X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1805-07-07",
@@ -9794,6 +10245,7 @@
     "wikidata:id": "Q558177"
   },
   "$Torti": {
+    "ISNI:id": "0000 0001 2320 061X",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1774-06-24",
@@ -9812,6 +10264,7 @@
     "wikidata:id": "Q558177"
   },
   "$Toscana": {
+    "ISNI:id": "0000 0000 6634 1802",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1797-10-03",
@@ -9830,6 +10283,7 @@
     "wikidata:id": "Q313169"
   },
   "$Tosti": {
+    "ISNI:id": "0000 0001 1511 4965",
     "comment": "From Koelman: Tosti, Antonio (1776-1866) werd in 1838 door Gregorius XVI tot kardinaal benoemd. Hij speelde een grote rol in de oprichting van de Scholen voor Kunsten en Ambachten, was protector van de academie voor muziek van S. Cecilia (1840-1866) en de Biblioteca Apostolica Vaticana (1860-1866), en belast met het toezicht op de herbouw van de San Paolo fuori le Mura (1847-1866). Als thesaurier-generaal van de Apostolische Kamer (1834-1845) oogstte hij lof voor zijn reorganisatie van de pauselijke financiën, maar ook kritiek vanwege zijn opulente levenswijze en de verduistering van gelden. Tijdens de republiek was hij een van de drie kardinaals die in Rome achterbleven. B.: Boutry (2002) 477-478; Dinoia (2019); Leblanc (2019) 927-929.",
     "comment_daniel": "",
     "date_of_birth": "1776-10-04",
@@ -9853,6 +10307,7 @@
     "wikidata:id": "Q1230369"
   },
   "$Travi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9871,6 +10326,7 @@
     "wikidata:id": null
   },
   "$Trucchi": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine who this is without more information from archive. There seems to be an author who lived in the 19th century with the same name",
     "date_of_birth": "",
@@ -9887,6 +10343,7 @@
     "wikidata:id": null
   },
   "$TuyllCB": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Grote kans dat dit ook Willem René Tuyll van Serooskerken {1813/1878} is, maar zonder extra informatie vind ik deze niet",
     "date_of_birth": "",
@@ -9903,6 +10360,7 @@
     "wikidata:id": null
   },
   "$TuyllGC": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1801-08-22",
@@ -9928,6 +10386,7 @@
     "wikidata:id": null
   },
   "$TuyllGMK": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1813-01-18",
@@ -9960,6 +10419,7 @@
     "wikidata:id": "Q76244474"
   },
   "$Ugolini": {
+    "ISNI:id": null,
     "comment": "Giuseppe Ugolini was a local Roman lawyer.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -9976,6 +10436,7 @@
     "wikidata:id": null
   },
   "$Usedom": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1805-07-17",
@@ -10003,6 +10464,7 @@
     "wikidata:id": "Q1453756"
   },
   "$Valdivieso": {
+    "ISNI:id": null,
     "comment": "Ignacio de Valdivieso joined Pope Pius IX in his flight to Gaeta.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10027,6 +10489,7 @@
     "wikidata:id": null
   },
   "$Vallacca": {
+    "ISNI:id": null,
     "comment": "Giuseppe Vallacca wrote a letter to E. van der Hoeven about the vacant post of Consul General of the Kingdom of the Netherlands in Genoa.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10043,6 +10506,7 @@
     "wikidata:id": null
   },
   "$Valle": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10074,6 +10538,7 @@
     "wikidata:id": null
   },
   "$VanDerBosch": {
+    "ISNI:id": null,
     "comment": "Captain of the ship De Pelicaan.",
     "comment_daniel": "",
     "date_of_birth": "1789-09-15",
@@ -10103,6 +10568,7 @@
     "wikidata:id": "Q2379045"
   },
   "$Vannicelli": {
+    "ISNI:id": "0000 0000 6248 4603",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1801-04-16",
@@ -10122,6 +10588,7 @@
     "wikidata:id": "Q2255237"
   },
   "$Vasconcellos": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10145,6 +10612,7 @@
     "wikidata:id": null
   },
   "$VassenA": {
+    "ISNI:id": null,
     "comment": "The archive contains documents related to the death and inheritance of her brother, Giovanni Vassen.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10161,6 +10629,7 @@
     "wikidata:id": null
   },
   "$VassenG": {
+    "ISNI:id": null,
     "comment": "The archive contains documents related to his death and inheritance.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10177,6 +10646,7 @@
     "wikidata:id": null
   },
   "$Vecchiotti": {
+    "ISNI:id": "0000 0003 8596 6770",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1812",
@@ -10195,6 +10665,7 @@
     "wikidata:id": "Q69441636"
   },
   "$Verbecke": {
+    "ISNI:id": null,
     "comment": "Several consuls of the Kingdom of the Netherlands in Messina were a member of the Verbeke family.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10211,6 +10682,7 @@
     "wikidata:id": null
   },
   "$Verbruggen": {
+    "ISNI:id": null,
     "comment": "The archive contains documents related to his death and a dispute about his inheritance.",
     "comment_daniel": "https://gw.geneanet.org/pmverriest?lang=fr&pz=paul+marie+edmond&nz=verriest&p=melanie&n=sturbaut&oc=2",
     "date_of_birth": "",
@@ -10227,6 +10699,7 @@
     "wikidata:id": null
   },
   "$Verger": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1806-01-23",
@@ -10250,6 +10723,7 @@
     "wikidata:id": "Q15278534"
   },
   "$Vignale": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10266,6 +10740,7 @@
     "wikidata:id": null
   },
   "$Vignet": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10289,6 +10764,7 @@
     "wikidata:id": null
   },
   "$Visconti": {
+    "ISNI:id": "0000 0000 2732 1040",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1829",
@@ -10328,6 +10804,7 @@
     "wikidata:id": "Q1231904"
   },
   "$Vitrioli": {
+    "ISNI:id": "0000 0000 6129 7849",
     "comment": "",
     "comment_daniel": "Staat in de oude inventaris dat hij consul was in Reggio Calabria, maar dat klopt niet.",
     "date_of_birth": "1819-05-20",
@@ -10357,6 +10834,7 @@
     "wikidata:id": "Q3707260"
   },
   "$Vivent": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10373,6 +10851,7 @@
     "wikidata:id": null
   },
   "$Vredenburch": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1779-12-12",
@@ -10401,6 +10880,7 @@
     "wikidata:id": "Q1869443"
   },
   "$Weckherlin": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1842-05-24",
@@ -10426,6 +10906,7 @@
     "wikidata:id": null
   },
   "$Welden": {
+    "ISNI:id": "0000 0000 8139 7417",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1782-06-20",
@@ -10444,6 +10925,7 @@
     "wikidata:id": "Q78789"
   },
   "$Welsersheim": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10462,6 +10944,7 @@
     "wikidata:id": null
   },
   "$Wilde": {
+    "ISNI:id": null,
     "comment": "The family Wilde was originally from Germany and was part of the larger community of German Catholics that had emigrated to the Netherlands. Leo was born in 1820 in Amsterdam and he and his brothers (Clemens and Wilhelm) went to various (international) colleges to eventually become Jesuits. In 1856 he traveled to Rome and started working as secretary at the “Casino” of the Dutch Zouaves, a society for the Dutch members of the zouaves regiments. In 1866 he became the official chaplain of the society. In the summer of 1870, he and 1500 other zouaves fled to Innsbrück after Garibaldi took Rome. Leo returns to Amsterdam and arrives there in October. In 1872 he travels to Mexico and never returns. He died there in 1904.",
     "comment_daniel": "",
     "date_of_birth": "1820",
@@ -10485,6 +10968,7 @@
     "wikidata:id": null
   },
   "$Willmar": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1768-09-05",
@@ -10514,6 +10998,7 @@
     "wikidata:id": "Q3166043"
   },
   "$Wiseman": {
+    "ISNI:id": "0000 0001 2138 6553",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1802-08-02",
@@ -10533,6 +11018,7 @@
     "wikidata:id": "Q672816"
   },
   "$Witterhaeven": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1765-06-22",
@@ -10552,6 +11038,7 @@
     "wikidata:id": null
   },
   "$Wurth": {
+    "ISNI:id": "0000 0003 9809 4027",
     "comment": "François-Xavier Wurth-Paquet held several other (ministerial) positions within the Grand Duchy of Luxembourg.",
     "comment_daniel": "",
     "date_of_birth": "1801-04-16",
@@ -10589,6 +11076,7 @@
     "wikidata:id": "Q1956419"
   },
   "$Zacchia": {
+    "ISNI:id": "0000 0000 6218 0183",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1787-02-22",
@@ -10613,6 +11101,7 @@
     "wikidata:id": "Q742403"
   },
   "$Zedlitz": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "No idea who this was",
     "date_of_birth": "",
@@ -10631,6 +11120,7 @@
     "wikidata:id": null
   },
   "$Zermann": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Impossible to determine with certainty. There are sources who mention a Venetian captain with the same name.",
     "date_of_birth": "",
@@ -10647,6 +11137,7 @@
     "wikidata:id": null
   },
   "$Zucchi": {
+    "ISNI:id": "0000 0000 6186 6159",
     "comment": "From Koelman: Zucchi, Carlo (1777-1861) diende als generaal in het Napoleontische Regno d’Italia en speelde een hoofdrol in de liberale opstanden in de noordelijke pauselijke staten in 1831, onder meer als leider van de voorlopige regering in Reggio Emilia en als commandant van 800 vrijwilligers die tegen de Oostenrijkers vochten. Daarvoor zat hij van 1832 tot 1848 gevangen, tot hij in 1848 door de revolutionairen werd bevrijd en weer als comandant tegen de Oostenrijkers optrok (bevrijding en beleg van Palmanova). Onder Pius IX werd Z. in genade aangenomen, waarop Pellegrino Rossi hem in 1848 aanstelde als zijn minister van Oorlog. Hij bleef in die functie tot op 16 november 1848 het kabinet Galletti aantrad. Na Pius’ vlucht bleef Z. de paus trouw en in 1849 voerder hij de pauselijke vrijwilligers aan in de strijd tegen de republiek. In 1861 kreeg hij zijn rang als generaal terug. B.: Dalla Torre (1941) passim; Bianchi (2006).",
     "comment_daniel": "",
     "date_of_birth": "1777-03-10",
@@ -10667,6 +11158,7 @@
     "wikidata:id": "Q2939273"
   },
   "$ZuylenJPP": {
+    "ISNI:id": "0000 0003 9348 3664",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1816-06-29",
@@ -10700,6 +11192,7 @@
     "wikidata:id": "Q736610"
   },
   "$ZuylenJPh": {
+    "ISNI:id": "0000 0003 9474 9356",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1819-08-19",
@@ -10730,6 +11223,7 @@
     "wikidata:id": "Q291221"
   },
   "$Zweerts": {
+    "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10748,6 +11242,7 @@
     "wikidata:id": null
   },
   "$Zwijssen": {
+    "ISNI:id": "0000 0000 3549 4945",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1793-08-28",

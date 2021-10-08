@@ -33,6 +33,18 @@
     "person": {
       "description": "A person, named by its identifier",
       "properties": {
+        "ISNI:id": {
+          "description": "ID of indidivual on ISNI. Starts with 0000 and then 3x 4 integers",
+          "oneOf": [
+            {
+              "pattern": "^0000( \\d\\d\\d\\d){3}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "comment": {
           "description": "Comments about extra info or the person",
           "type": "string"
@@ -110,9 +122,10 @@
           "type": "array"
         },
         "wikidata:id": {
-          "description": "ID of indidivual on WikiData",
+          "description": "ID of indidivual on WikiData. Should start with a Q or be null",
           "oneOf": [
             {
+              "pattern": "^Q.+$",
               "type": "string"
             },
             {
@@ -135,7 +148,8 @@
         "person_type",
         "sources",
         "images",
-        "wikidata:id"
+        "wikidata:id",
+        "ISNI:id"
       ],
       "type": "object"
     }
