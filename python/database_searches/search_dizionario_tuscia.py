@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import json  # pylint: disable=too-many-lines
 
 # pylint: disable=line-too-long

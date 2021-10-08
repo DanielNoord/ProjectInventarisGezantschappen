@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from typing import List, Literal, Optional, Tuple, Union
 
 from date_functions import check_date

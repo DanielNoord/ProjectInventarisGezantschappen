@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import re
 
 from date_functions import create_date_data

@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 ## DEPRECIATED: Site is currently not working.
 
 import sparql  # type: ignore # Can't find stubs

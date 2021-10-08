@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from lxml import etree
 from typing_utils import DateData
 
