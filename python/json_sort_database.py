@@ -2,6 +2,8 @@
 
 import json
 
+from write_files import write_single_json_file
+
 
 def sort_database(filename: str) -> None:
     """Sorts the entries in a database
@@ -33,9 +35,8 @@ def sort_database(filename: str) -> None:
             print(f"Sorted functions for {identifier}")
 
     persons["$schema"] = "../static/JSON/Individuals.json"
-    with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
-        json.dump(persons, file, ensure_ascii=False, indent=4)
-    print("Wrote file to outputs/Individuals.json")
+
+    write_single_json_file(persons, "outputs", "Individuals.json")
 
 
 if __name__ == "__main__":

@@ -6,6 +6,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+from write_files import write_single_json_file
+
 # pylint: disable=line-too-long
 SOURCE_PATTERNS = [
     # Biographical dictionaries
@@ -329,9 +331,7 @@ def check_all_sources(  # pylint: disable=too-many-branches, too-many-statements
 
     # Write new file if this file itself is run
     if __name__ == "__main__":
-        with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
-            json.dump(persons, file, ensure_ascii=False, indent=4)
-        print("Wrote file to outputs/Individuals.json")
+        write_single_json_file(persons, "outputs", "Individuals.json")
     if probably_wrong:
         print("\nThese sources might be wrong")
         print("They have not been added to the list in python/json_check_sources.py")

@@ -14,5 +14,5 @@ def write_single_json_file(
     )
 
     with open(full_path, "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
+        json.dump(data, file, ensure_ascii=False, indent=2)
     print(f"File written to {full_path}")

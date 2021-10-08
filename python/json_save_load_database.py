@@ -8,6 +8,7 @@ import docx  # type: ignore
 
 from docx_functions import database, parse_function, parse_title
 from typing_utils import IndividualsDict
+from write_files import write_single_json_file
 
 
 def save_database(  # pylint: disable=too-many-locals
@@ -67,9 +68,7 @@ def save_database(  # pylint: disable=too-many-locals
     all_individuals = dict(sorted(all_individuals.items(), key=lambda item: item[0]))
     all_individuals = {"$schema": "../static/JSON/Individuals.json"} | all_individuals
 
-    with open("outputs/Individuals.json", "w", encoding="utf-8") as file:
-        json.dump(all_individuals, file, ensure_ascii=False, indent=4)
-    print("Wrote file to outputs/Individuals.json")
+    write_single_json_file(all_individuals, "outputs", "Individuals.json")
 
 
 def load_database(filename: str, skip_types: list[int]) -> None:

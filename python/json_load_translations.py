@@ -6,6 +6,7 @@ import re
 import docx  # type: ignore
 
 from typing_utils import TranslationDict, TranslationDictTitles
+from write_files import write_single_json_file
 
 
 def load_translations_documents(filename: str) -> None:
@@ -24,10 +25,7 @@ def load_translations_documents(filename: str) -> None:
 
         all_documents[it_it_trans] = {"en_GB": en_gb_trans, "nl_NL": nl_nl_trans}
 
-    with open("outputs/DocumentTitles.json", "w", encoding="utf-8") as file:
-        json.dump(all_documents, file, ensure_ascii=False, indent=2)
-        file.write("\n")
-    print("Wrote file to outputs/DocumentTitles.json")
+    write_single_json_file(all_documents, "outputs", "DocumentTitles.json")
 
 
 def load_translations_functions(filename: str) -> None:
@@ -47,10 +45,7 @@ def load_translations_functions(filename: str) -> None:
             "nl_NL": nl_nl_trans,
         }
 
-    with open("outputs/Functions.json", "w", encoding="utf-8") as file:
-        json.dump(all_functions, file, ensure_ascii=False, indent=2)
-        file.write("\n")
-    print("Wrote file to outputs/Functions.json")
+    write_single_json_file(all_functions, "outputs", "Functions.json")
 
 
 def load_translations_placenames(filename: str) -> None:
@@ -67,10 +62,7 @@ def load_translations_placenames(filename: str) -> None:
 
         all_placenames[it_it_trans] = {"en_GB": en_gb_trans, "nl_NL": nl_nl_trans}
 
-    with open("outputs/Placenames.json", "w", encoding="utf-8") as file:
-        json.dump(all_placenames, file, ensure_ascii=False, indent=2)
-        file.write("\n")
-    print("Wrote file to outputs/Placenames.json")
+    write_single_json_file(all_placenames, "outputs", "Placenames.json")
 
 
 def load_translations_titles(filename: str) -> None:
@@ -93,10 +85,7 @@ def load_translations_titles(filename: str) -> None:
             "position": position.replace("position: ", ""),
         }
 
-    with open("outputs/Titles.json", "w", encoding="utf-8") as file:
-        json.dump(all_titles, file, ensure_ascii=False, indent=2)
-        file.write("\n")
-    print("Wrote file to outputs/Titles.json")
+    write_single_json_file(all_titles, "outputs", "Titles.json")
 
 
 if __name__ == "__main__":
