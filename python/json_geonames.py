@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 import json
-import os
 from typing import cast
 
 import geocoder  # type: ignore
 
 from typing_utils.translations_classes import TranslationDictCleanedPlacenames
+from write_files import write_single_json_file
 
 
 def load_geonames(filename: str) -> None:
@@ -41,18 +41,7 @@ def load_geonames(filename: str) -> None:
     # Re-add schema
     placenames["$schema"] = "../static/JSON/Placenames.json"
 
-    # Save file
-    os.makedirs(
-        os.path.join(os.getcwd(), "outputs/Translations"),
-        exist_ok=True,
-    )
-    with open(
-        filename.replace("inputs", "outputs"),
-        "w",
-        encoding="utf-8",
-    ) as file:
-        json.dump(placenames, file, ensure_ascii=False, indent=4)
-    print(f"File written to {filename.replace('inputs', 'outputs')}")
+    write_single_json_file(placenames, "outputs/Translations", "Placenames.json")
 
 
 def update_placenames_with_geonames(filename: str) -> None:
@@ -90,18 +79,7 @@ def update_placenames_with_geonames(filename: str) -> None:
     # Re-add schema
     placenames["$schema"] = "../../static/JSON/Placenames.json"
 
-    # Save file
-    os.makedirs(
-        os.path.join(os.getcwd(), "outputs/Translations"),
-        exist_ok=True,
-    )
-    with open(
-        filename.replace("inputs", "outputs"),
-        "w",
-        encoding="utf-8",
-    ) as file:
-        json.dump(placenames, file, ensure_ascii=False, indent=4)
-    print(f"File written to {filename.replace('inputs', 'outputs')}")
+    write_single_json_file(placenames, "outputs", "Placenames.json")
 
 
 if __name__ == "__main__":
