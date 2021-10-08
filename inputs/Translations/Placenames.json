@@ -4,1698 +4,2264 @@
     "en_GB": "'s-Hertogenbosch",
     "geonames_id": 2747351,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/%27s-Hertogenbosch",
+    "latitude": "51.69917",
+    "longitude": "5.30417",
     "nl_NL": "'s-Hertogenbosch"
   },
   "Aardenburg": {
     "en_GB": "Aardenburg",
     "geonames_id": 2760096,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Aardenburg",
+    "latitude": "51.27333",
+    "longitude": "3.44722",
     "nl_NL": "Aardenburg"
   },
   "Aiaccio": {
     "en_GB": "Ajaccio",
-    "geonames_id": 6452235,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ajaccio",
+    "geonames_id": 3038334,
+    "geonames_wikipedia": null,
+    "latitude": "41.91886",
+    "longitude": "8.73812",
     "nl_NL": "Ajaccio"
   },
   "Aix-en-Provence": {
     "en_GB": "Aix-en-Provence",
     "geonames_id": 3038354,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Aix-en-Provence",
+    "latitude": "43.5283",
+    "longitude": "5.44973",
     "nl_NL": "Aix-en-Provence"
   },
   "Ala (Trento)": {
     "en_GB": "Ala (Trento)",
     "geonames_id": 3183374,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ala%2C_Trentino",
+    "latitude": "45.76072",
+    "longitude": "11.00458",
     "nl_NL": "Ala (Trento)"
   },
   "Albano laziale": {
     "en_GB": "Albano Laziale",
-    "geonames_id": 11978223,
+    "geonames_id": 3183356,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Albano_Laziale",
+    "latitude": "41.72748",
+    "longitude": "12.659",
     "nl_NL": "Albano Laziale"
   },
   "Alessandria": {
     "en_GB": "Alessandria",
     "geonames_id": 3183299,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Alessandria",
+    "latitude": "44.90924",
+    "longitude": "8.61007",
     "nl_NL": "Alessandria"
   },
   "Alessandria d'Egitto": {
     "en_GB": "Alexandria",
     "geonames_id": 361058,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Alexandria",
+    "latitude": "31.20176",
+    "longitude": "29.91582",
     "nl_NL": "Alexandrië"
   },
   "Alicante": {
     "en_GB": "Alicante",
     "geonames_id": 2521978,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Alicante",
+    "latitude": "38.34517",
+    "longitude": "-0.48149",
     "nl_NL": "Alicante"
   },
   "Amelia": {
     "en_GB": "Amelia",
     "geonames_id": 3183113,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Amelia%2C_Umbria",
+    "latitude": "42.55177",
+    "longitude": "12.42076",
     "nl_NL": "Amelia"
   },
   "Amsterdam": {
     "en_GB": "Amsterdam",
     "geonames_id": 2759794,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Government_of_Amsterdam",
+    "latitude": "52.37403",
+    "longitude": "4.88969",
     "nl_NL": "Amsterdam"
   },
   "Amélie-les-Bains": {
     "en_GB": "Amélie-les-Bains",
-    "geonames_id": 6452464,
-    "geonames_wikipedia": "",
+    "geonames_id": 3037875,
+    "geonames_wikipedia": null,
+    "latitude": "42.47289",
+    "longitude": "2.66916",
     "nl_NL": "Amélie-les-Bains"
   },
   "Ancona": {
     "en_GB": "Ancona",
     "geonames_id": 3183089,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ancona",
+    "latitude": "43.5942",
+    "longitude": "13.50337",
     "nl_NL": "Ancona"
   },
   "Anversa": {
     "en_GB": "Antwerp",
     "geonames_id": 2803138,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Antwerp",
+    "latitude": "51.22047",
+    "longitude": "4.40026",
     "nl_NL": "Antwerpen"
   },
   "Apeldoorn": {
     "en_GB": "Apeldoorn",
     "geonames_id": 2759706,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Apeldoorn",
+    "latitude": "52.21",
+    "longitude": "5.96944",
     "nl_NL": "Apeldoorn"
   },
   "Aquisgrana": {
     "en_GB": "Aachen",
     "geonames_id": 3247449,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Aachen",
+    "latitude": "50.77664",
+    "longitude": "6.08342",
     "nl_NL": "Aken"
   },
   "Aranjuez": {
     "en_GB": "Aranjuez",
     "geonames_id": 3129857,
     "geonames_wikipedia": null,
+    "latitude": "40.03108",
+    "longitude": "-3.60246",
     "nl_NL": "Aranjuez"
   },
   "Arco": {
     "en_GB": "Arco",
-    "geonames_id": 6539794,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Arco,_Trentino",
+    "geonames_id": 3182910,
+    "geonames_wikipedia": null,
+    "latitude": "45.91772",
+    "longitude": "10.88672",
     "nl_NL": "Arco"
   },
   "Arequipa": {
     "en_GB": "Arequipa",
     "geonames_id": 3947322,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Arequipa",
+    "latitude": "-16.39889",
+    "longitude": "-71.535",
     "nl_NL": "Arequipa"
   },
   "Arezzo": {
     "en_GB": "Arezzo",
     "geonames_id": 3182884,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Arezzo",
+    "latitude": "43.46276",
+    "longitude": "11.88068",
     "nl_NL": "Arezzo"
   },
   "Arnhem": {
     "en_GB": "Arnhem",
     "geonames_id": 2759661,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Arnhem",
+    "latitude": "51.98",
+    "longitude": "5.91111",
     "nl_NL": "Arnhem"
   },
   "Ascoli Piceno": {
     "en_GB": "Ascoli Piceno",
-    "geonames_id": 6542152,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ascoli_Piceno",
+    "geonames_id": 3182749,
+    "geonames_wikipedia": null,
+    "latitude": "42.85351",
+    "longitude": "13.57395",
     "nl_NL": "Ascoli Piceno"
   },
   "Asten": {
     "en_GB": "Asten",
     "geonames_id": 2759621,
     "geonames_wikipedia": null,
+    "latitude": "51.40417",
+    "longitude": "5.74861",
     "nl_NL": "Asten"
   },
   "Augusta": {
     "en_GB": "Augsburg",
     "geonames_id": 2954172,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Augsburg",
+    "latitude": "48.37154",
+    "longitude": "10.89851",
     "nl_NL": "Augsburg"
   },
   "Bagnacavallo": {
     "en_GB": "Bagnacavallo",
     "geonames_id": 3182552,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bagnacavallo",
+    "latitude": "44.41402",
+    "longitude": "11.97813",
     "nl_NL": "Bagnacavallo"
   },
   "Bar-le-Duc": {
     "en_GB": "Bar-le-Duc",
-    "geonames_id": 6449768,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bar-le-Duc",
+    "geonames_id": 3034911,
+    "geonames_wikipedia": null,
+    "latitude": "48.77275",
+    "longitude": "5.16108",
     "nl_NL": "Bar-le-Duc"
   },
   "Barbarano Romano": {
     "en_GB": "Barbarano Romano",
-    "geonames_id": 6536895,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Barbarano_Romano",
+    "geonames_id": 3182400,
+    "geonames_wikipedia": null,
+    "latitude": "42.24908",
+    "longitude": "12.06774",
     "nl_NL": "Barbarano Romano"
   },
   "Barcellona": {
     "en_GB": "Barcelona",
     "geonames_id": 3128760,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Barcelona",
+    "latitude": "41.38879",
+    "longitude": "2.15899",
     "nl_NL": "Barcelona"
   },
   "Bari": {
     "en_GB": "Bari",
     "geonames_id": 3182351,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bari",
+    "latitude": "41.12066",
+    "longitude": "16.86982",
     "nl_NL": "Bari"
   },
   "Barino": {
     "en_GB": "Barino",
     "geonames_id": 6535159,
-    "geonames_wikipedia": "https://it.wikipedia.org/wiki/Bariano",
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bariano",
+    "latitude": "45.51258",
+    "longitude": "9.70366",
     "nl_NL": "Barino"
   },
   "Barletta": {
     "en_GB": "Barletta",
     "geonames_id": 3182340,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Barletta",
+    "latitude": "41.31429",
+    "longitude": "16.28165",
     "nl_NL": "Barletta"
   },
   "Barnstedt": {
     "en_GB": "Barnstedt",
-    "geonames_id": 6552669,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Barnstedt",
+    "geonames_id": 2952458,
+    "geonames_wikipedia": null,
+    "latitude": "53.13333",
+    "longitude": "10.36667",
     "nl_NL": "Barnstedt"
   },
   "Batavia": {
     "en_GB": "Batavia",
     "geonames_id": 1642911,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Jakarta",
+    "latitude": "-6.21462",
+    "longitude": "106.84513",
     "nl_NL": "Batavia"
   },
   "Belluno": {
     "en_GB": "Belluno",
     "geonames_id": 3182210,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Belluno",
+    "geonames_wikipedia": null,
+    "latitude": "46.14262",
+    "longitude": "12.2156",
     "nl_NL": "Belluno"
   },
   "Benevento": {
     "en_GB": "Benevento",
     "geonames_id": 3182179,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Benevento",
+    "latitude": "41.1307",
+    "longitude": "14.77816",
     "nl_NL": "Benevento"
   },
   "Berleburg": {
     "en_GB": "Berleburg",
-    "geonames_id": 6558488,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bad_Berleburg",
+    "geonames_id": 2953545,
+    "geonames_wikipedia": null,
+    "latitude": "51.05224",
+    "longitude": "8.39227",
     "nl_NL": "Berleburg"
   },
   "Berlino": {
     "en_GB": "Berlin",
     "geonames_id": 2950159,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Berlin",
+    "latitude": "52.52437",
+    "longitude": "13.41053",
     "nl_NL": "Berlijn"
   },
   "Berna": {
     "en_GB": "Bern",
     "geonames_id": 2661552,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bern",
+    "latitude": "46.94809",
+    "longitude": "7.44744",
     "nl_NL": "Bern"
   },
   "Bitburg": {
     "en_GB": "Bitburg",
-    "geonames_id": 6558497,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bitburg",
+    "geonames_id": 2948184,
+    "geonames_wikipedia": null,
+    "latitude": "49.96794",
+    "longitude": "6.52734",
     "nl_NL": "Bitburg"
   },
   "Bologna": {
     "en_GB": "Bologna",
     "geonames_id": 3181928,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bologna",
+    "latitude": "44.49381",
+    "longitude": "11.33875",
     "nl_NL": "Bologna"
   },
   "Brisighella": {
     "en_GB": "Brisighella",
     "geonames_id": 3181521,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Brisighella",
+    "latitude": "44.22228",
+    "longitude": "11.77358",
     "nl_NL": "Brisighella"
   },
   "Brolio": {
     "en_GB": "Brolio",
-    "geonames_id": 6538598,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Gaiole_in_Chianti",
+    "geonames_id": 3176411,
+    "geonames_wikipedia": null,
+    "latitude": "43.46697",
+    "longitude": "11.43386",
     "nl_NL": "Brolio"
   },
   "Bruges": {
     "en_GB": "Bruges",
     "geonames_id": 2800931,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bruges",
+    "latitude": "51.20892",
+    "longitude": "3.22424",
     "nl_NL": "Brugge"
   },
   "Bruxelles": {
     "en_GB": "Brussels",
     "geonames_id": 2800866,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/City_of_Brussels",
+    "latitude": "50.85045",
+    "longitude": "4.34878",
     "nl_NL": "Brussel"
   },
   "Buitenzorg (Java)": {
     "en_GB": "Buitenzorg (Java)",
     "geonames_id": 1648473,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bogor",
+    "latitude": "-6.59444",
+    "longitude": "106.78917",
     "nl_NL": "Buitenzorg (Java)"
   },
   "Buriasco": {
     "en_GB": "Buriasco",
-    "geonames_id": 6537260,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Buriasco",
+    "geonames_id": 3181392,
+    "geonames_wikipedia": null,
+    "latitude": "44.87222",
+    "longitude": "7.412",
     "nl_NL": "Buriasco"
   },
   "Burtscheid": {
     "en_GB": "Burtscheid",
     "geonames_id": 2940925,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Burtscheid",
+    "latitude": "50.76374",
+    "longitude": "6.09334",
     "nl_NL": "Burtscheid"
   },
   "Cagliari": {
     "en_GB": "Cagliari",
     "geonames_id": 2525473,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cagliari",
+    "latitude": "39.23054",
+    "longitude": "9.11917",
     "nl_NL": "Cagliari"
   },
   "Cannero": {
     "en_GB": "Cannero",
     "geonames_id": 3180813,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cannero_Riviera",
+    "latitude": "46.022",
+    "longitude": "8.67933",
     "nl_NL": "Cannero"
   },
   "Caprarola": {
     "en_GB": "Caprarola",
-    "geonames_id": 6540498,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Caprarola",
+    "geonames_id": 3180635,
+    "geonames_wikipedia": null,
+    "latitude": "42.32308",
+    "longitude": "12.23848",
     "nl_NL": "Caprarola"
   },
   "Caprera": {
     "en_GB": "Caprera",
     "geonames_id": 3180633,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Caprera",
+    "latitude": "41.2",
+    "longitude": "9.46667",
     "nl_NL": "Caprera"
   },
   "Capua": {
     "en_GB": "Capua",
-    "geonames_id": 6541985,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Capua",
+    "geonames_id": 3180601,
+    "geonames_wikipedia": null,
+    "latitude": "41.10519",
+    "longitude": "14.21269",
     "nl_NL": "Capua"
   },
   "Carrara": {
     "en_GB": "Carrara",
     "geonames_id": 3180423,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Carrara",
+    "latitude": "44.07926",
+    "longitude": "10.09789",
     "nl_NL": "Carrara"
   },
   "Caserta": {
     "en_GB": "Caserta",
     "geonames_id": 3179866,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Caserta",
+    "latitude": "41.07262",
+    "longitude": "14.33231",
     "nl_NL": "Caserta"
   },
   "Casola Valsenio": {
     "en_GB": "Casola Valsenio",
-    "geonames_id": 6541043,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Capua",
+    "geonames_id": 3179830,
+    "geonames_wikipedia": null,
+    "latitude": "44.22443",
+    "longitude": "11.62487",
     "nl_NL": "Casola Valsenio"
   },
   "Caupo": {
     "en_GB": "Caupo",
     "geonames_id": 8951196,
     "geonames_wikipedia": null,
+    "latitude": "45.99903",
+    "longitude": "11.83846",
     "nl_NL": "Caupo"
   },
   "Ceccano": {
     "en_GB": "Ceccano",
-    "geonames_id": 6538704,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ceccano",
+    "geonames_id": 3179243,
+    "geonames_wikipedia": null,
+    "latitude": "41.57236",
+    "longitude": "13.32901",
     "nl_NL": "Ceccano"
   },
   "Celles": {
     "en_GB": "Celles",
     "geonames_id": 2800607,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Celles,_Houyet",
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Celles%2C_Houyet",
+    "latitude": "50.23046",
+    "longitude": "5.00659",
     "nl_NL": "Celles"
   },
   "Ceprano": {
     "en_GB": "Ceprano",
-    "geonames_id": 6541144,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ceprano",
+    "geonames_id": 3179141,
+    "geonames_wikipedia": null,
+    "latitude": "41.54572",
+    "longitude": "13.51473",
     "nl_NL": "Ceprano"
   },
   "Cesena": {
     "en_GB": "Cesena",
     "geonames_id": 3178957,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cesena",
+    "latitude": "44.1391",
+    "longitude": "12.24315",
     "nl_NL": "Cesena"
   },
   "Chambéry": {
     "en_GB": "Chambéry",
     "geonames_id": 3027422,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Chamb%C3%A9ry",
+    "latitude": "45.56628",
+    "longitude": "5.92079",
     "nl_NL": "Chambéry"
   },
   "Charleville": {
     "en_GB": "Charleville",
-    "geonames_id": 6425890,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Charleville-M%C3%A9zi%C3%A8res",
+    "geonames_id": 3026613,
+    "geonames_wikipedia": null,
+    "latitude": "49.7685",
+    "longitude": "4.72487",
     "nl_NL": "Charleville"
   },
   "Château de Blosseville": {
     "en_GB": "Château de Blosseville",
-    "geonames_id": 6427368,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pennedepie",
+    "geonames_id": 2988078,
+    "geonames_wikipedia": null,
+    "latitude": "49.40427",
+    "longitude": "0.16788",
     "nl_NL": "Château de Blosseville"
   },
   "Cingoli": {
     "en_GB": "Cingoli",
-    "geonames_id": 6541067,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cingoli",
+    "geonames_id": 3178673,
+    "geonames_wikipedia": null,
+    "latitude": "43.37573",
+    "longitude": "13.20787",
     "nl_NL": "Cingoli"
   },
   "Cinisello": {
     "en_GB": "Cinisello",
     "geonames_id": 3178671,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cinisello_Balsamo",
+    "latitude": "45.55823",
+    "longitude": "9.21495",
     "nl_NL": "Cinisello"
   },
   "Città del Messico": {
     "en_GB": "Mexico City",
     "geonames_id": 3530597,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Mexico_City",
+    "latitude": "19.42847",
+    "longitude": "-99.12766",
     "nl_NL": "Mexico-Stad"
   },
   "Civitavecchia": {
     "en_GB": "Civitavecchia",
     "geonames_id": 3178587,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Civitavecchia",
+    "latitude": "42.09325",
+    "longitude": "11.79674",
     "nl_NL": "Civitavecchia"
   },
   "Como": {
     "en_GB": "Como",
     "geonames_id": 3178229,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Como",
+    "latitude": "45.80819",
+    "longitude": "9.0832",
     "nl_NL": "Como"
   },
   "Compiano": {
     "en_GB": "Compiano",
-    "geonames_id": 6541830,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Compiano",
+    "geonames_id": 3178225,
+    "geonames_wikipedia": null,
+    "latitude": "44.49605",
+    "longitude": "9.66207",
     "nl_NL": "Compiano"
   },
   "Contrexéville": {
     "en_GB": "Contrexéville",
-    "geonames_id": 6445493,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Contrex%C3%A9ville",
+    "geonames_id": 3023808,
+    "geonames_wikipedia": null,
+    "latitude": "48.18424",
+    "longitude": "5.89572",
     "nl_NL": "Contrexéville"
   },
   "Cordova": {
     "en_GB": "Córdoba",
     "geonames_id": 3860259,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/C%C3%B3rdoba%2C_Argentina",
+    "latitude": "-31.4135",
+    "longitude": "-64.18105",
     "nl_NL": "Córdoba"
   },
   "Corneliano d'Alba": {
     "en_GB": "Corneliano d'Alba",
     "geonames_id": 6535857,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Corneliano_d%27Alba",
+    "latitude": "44.73614",
+    "longitude": "7.95723",
     "nl_NL": "Corneliano d'Alba"
   },
   "Corpo Reno": {
     "en_GB": "Corpo Reno",
     "geonames_id": 8299679,
     "geonames_wikipedia": null,
+    "latitude": "44.75591",
+    "longitude": "11.30794",
     "nl_NL": "Corpo Reno"
   },
   "Costantinopoli": {
     "en_GB": "Constantinople",
     "geonames_id": 745044,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Istanbul",
+    "latitude": "41.01384",
+    "longitude": "28.94966",
     "nl_NL": "Constantinopel"
   },
   "Crema": {
     "en_GB": "Crema",
-    "geonames_id": 6540640,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Crema%2C_Lombardy",
+    "geonames_id": 3177841,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Crema",
+    "latitude": "45.36264",
+    "longitude": "9.68176",
     "nl_NL": "Crema"
   },
   "Cuneo": {
     "en_GB": "Cuneo",
-    "geonames_id": 6541864,
+    "geonames_id": 3177700,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cuneo",
+    "latitude": "44.39071",
+    "longitude": "7.54828",
     "nl_NL": "Cuneo"
   },
   "Delft": {
     "en_GB": "Delft",
     "geonames_id": 2757345,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Delft",
+    "latitude": "52.00667",
+    "longitude": "4.35556",
     "nl_NL": "Delft"
   },
   "Delémont": {
     "en_GB": "Delémont",
     "geonames_id": 2661035,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Del%C3%A9mont",
+    "latitude": "47.36493",
+    "longitude": "7.34453",
     "nl_NL": "Delémont"
   },
   "Dillenburg": {
     "en_GB": "Dillenburg",
-    "geonames_id": 6557783,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Dillenburg",
+    "geonames_id": 2936985,
+    "geonames_wikipedia": null,
+    "latitude": "50.74114",
+    "longitude": "8.28699",
     "nl_NL": "Dillenburg"
   },
   "Doesburg": {
     "en_GB": "Doesburg",
-    "geonames_id": 2756770,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Doesburg",
+    "geonames_id": 2756772,
+    "geonames_wikipedia": null,
+    "latitude": "52.0125",
+    "longitude": "6.13889",
     "nl_NL": "Doesburg"
   },
   "Dommeldange": {
     "en_GB": "Dommeldange",
     "geonames_id": 2960645,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Dommeldange",
+    "latitude": "49.63411",
+    "longitude": "6.13864",
     "nl_NL": "Dommeldange"
   },
   "Dordrecht": {
     "en_GB": "Dordrecht",
     "geonames_id": 2756669,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Dordrecht",
+    "latitude": "51.81",
+    "longitude": "4.67361",
     "nl_NL": "Dordrecht"
   },
   "Dresda": {
     "en_GB": "Dresden",
     "geonames_id": 2935022,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Dresden",
+    "latitude": "51.05089",
+    "longitude": "13.73832",
     "nl_NL": "Dresden"
   },
   "Duingt": {
     "en_GB": "Duingt",
-    "geonames_id": 6442944,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Duingt",
+    "geonames_id": 3020706,
+    "geonames_wikipedia": null,
+    "latitude": "45.8255",
+    "longitude": "6.20143",
     "nl_NL": "Duingt"
   },
   "Edimburgo": {
     "en_GB": "Edinburgh",
     "geonames_id": 2650225,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Edinburgh",
+    "latitude": "55.95206",
+    "longitude": "-3.19648",
     "nl_NL": "Edinburgh"
   },
   "Erbach": {
     "en_GB": "Erbach",
     "geonames_id": 2929801,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Erbach%2C_Rheingau",
+    "latitude": "50.0212",
+    "longitude": "8.09615",
     "nl_NL": "Erbach"
   },
   "Este": {
     "en_GB": "Este",
     "geonames_id": 3177337,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Este%2C_Veneto",
+    "latitude": "45.22338",
+    "longitude": "11.66379",
     "nl_NL": "Este"
   },
   "Fano": {
     "en_GB": "Fano",
     "geonames_id": 3177219,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fano",
+    "latitude": "43.84052",
+    "longitude": "13.01665",
     "nl_NL": "Fano"
   },
   "Fermo": {
     "en_GB": "Fermo",
-    "geonames_id": 6541874,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fermo",
+    "geonames_id": 3177099,
+    "geonames_wikipedia": null,
+    "latitude": "43.16296",
+    "longitude": "13.72274",
     "nl_NL": "Fermo"
   },
   "Ferrara": {
     "en_GB": "Ferrara",
     "geonames_id": 3177090,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ferrara",
+    "latitude": "44.83804",
+    "longitude": "11.62057",
     "nl_NL": "Ferrara"
   },
   "Firenze": {
     "en_GB": "Florence",
     "geonames_id": 3176959,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Florence",
+    "latitude": "43.77925",
+    "longitude": "11.24626",
     "nl_NL": "Florence"
   },
   "Florenville": {
     "en_GB": "Florenville",
     "geonames_id": 2798272,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Florenville",
+    "latitude": "49.69983",
+    "longitude": "5.3074",
     "nl_NL": "Florenville"
   },
   "Flée": {
     "en_GB": "Flée",
-    "geonames_id": 6454638,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fl%C3%A9e%2C_Sarthe",
+    "geonames_id": 3018346,
+    "geonames_wikipedia": null,
+    "latitude": "47.7333",
+    "longitude": "0.45273",
     "nl_NL": "Flée"
   },
   "Foligno": {
     "en_GB": "Foligno",
     "geonames_id": 3176854,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Foligno",
+    "latitude": "42.95488",
+    "longitude": "12.70268",
     "nl_NL": "Foligno"
   },
   "Forlì": {
     "en_GB": "Forlì",
     "geonames_id": 3176746,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Forl%C3%AC",
+    "latitude": "44.22177",
+    "longitude": "12.04144",
     "nl_NL": "Forlì"
   },
   "Fossano": {
     "en_GB": "Fossano",
     "geonames_id": 3176639,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fossano",
+    "latitude": "44.55077",
+    "longitude": "7.71922",
     "nl_NL": "Fossano"
   },
   "Francoforte": {
     "en_GB": "Frankfurt",
-    "geonames_id": 3220968,
+    "geonames_id": 2925533,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Frankfurt",
+    "latitude": "50.11552",
+    "longitude": "8.68417",
     "nl_NL": "Frankfurt"
   },
   "Frankfurt sull'Oder": {
     "en_GB": "Frankfurt an der Oder",
     "geonames_id": 2925535,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Frankfurt_%28Oder%29",
+    "latitude": "52.34714",
+    "longitude": "14.55062",
     "nl_NL": "Frankfurt an der Oder"
   },
   "Frascati": {
     "en_GB": "Frascati",
     "geonames_id": 3176589,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Frascati",
+    "latitude": "41.8091",
+    "longitude": "12.67942",
     "nl_NL": "Frascati"
   },
   "Gaeta": {
     "en_GB": "Gaeta",
     "geonames_id": 3176438,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Gaeta",
+    "geonames_wikipedia": "https://it.wikipedia.org/wiki/Gaeta",
+    "latitude": "41.21408",
+    "longitude": "13.57082",
     "nl_NL": "Gaeta"
   },
   "Gand": {
     "en_GB": "Ghent",
     "geonames_id": 2797656,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ghent",
+    "latitude": "51.05",
+    "longitude": "3.71667",
     "nl_NL": "Gent"
   },
   "Genova": {
     "en_GB": "Genoa",
     "geonames_id": 3176219,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Genoa",
+    "latitude": "44.40478",
+    "longitude": "8.94439",
     "nl_NL": "Genua"
   },
   "Genzano di Roma": {
     "en_GB": "Genzano di Roma",
-    "geonames_id": 6538674,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Genzano_di_Roma",
+    "geonames_id": 3176203,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Genzano",
+    "latitude": "41.70706",
+    "longitude": "12.68904",
     "nl_NL": "Genzano di Roma"
   },
   "Ginevra": {
     "en_GB": "Geneva",
     "geonames_id": 2660646,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Geneva",
+    "latitude": "46.20222",
+    "longitude": "6.14569",
     "nl_NL": "Genève"
   },
   "Gorga": {
     "en_GB": "Gorga",
     "geonames_id": 3175997,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Gorga%2C_Italy",
+    "latitude": "41.65468",
+    "longitude": "13.10663",
     "nl_NL": "Gorga"
   },
   "Govone": {
     "en_GB": "Govone",
     "geonames_id": 6535861,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Govone",
+    "latitude": "44.80445",
+    "longitude": "8.09404",
     "nl_NL": "Govone"
   },
   "Granada": {
     "en_GB": "Granada",
-    "geonames_id": 3580239,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Grenada",
+    "geonames_id": 2517117,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Granada",
+    "latitude": "37.18817",
+    "longitude": "-3.60667",
     "nl_NL": "Granada"
   },
   "Grave": {
     "en_GB": "Grave",
     "geonames_id": 2755358,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Grave%2C_Netherlands",
+    "latitude": "51.75902",
+    "longitude": "5.73882",
     "nl_NL": "Grave"
   },
   "Graz": {
     "en_GB": "Graz",
     "geonames_id": 2778067,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Graz",
+    "latitude": "47.06667",
+    "longitude": "15.45",
     "nl_NL": "Graz"
   },
   "Groninga": {
     "en_GB": "Groningen",
     "geonames_id": 2755251,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Groningen",
+    "latitude": "53.21917",
+    "longitude": "6.56667",
     "nl_NL": "Groningen"
   },
   "Grottaferrata": {
     "en_GB": "Grottaferrata",
     "geonames_id": 3175775,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Grottaferrata",
+    "latitude": "41.78664",
+    "longitude": "12.67144",
     "nl_NL": "Grottaferrata"
   },
   "Haarlem": {
     "en_GB": "Haarlem",
     "geonames_id": 2755003,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Haarlem",
+    "latitude": "52.38084",
+    "longitude": "4.63683",
     "nl_NL": "Haarlem"
   },
   "Hannover": {
     "en_GB": "Hanover",
     "geonames_id": 2910831,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Hanover_Region",
+    "latitude": "52.37052",
+    "longitude": "9.73322",
     "nl_NL": "Hannover"
   },
   "Hechingen": {
     "en_GB": "Hechingen",
-    "geonames_id": 6558166,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Hechingen",
+    "geonames_id": 2908495,
+    "geonames_wikipedia": null,
+    "latitude": "48.35149",
+    "longitude": "8.96317",
     "nl_NL": "Hechingen"
   },
   "Heino": {
     "en_GB": "Heino",
     "geonames_id": 2754502,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Heino%2C_Netherlands",
+    "latitude": "52.43661",
+    "longitude": "6.23282",
     "nl_NL": "Heino"
   },
   "Hohenberg": {
     "en_GB": "Hohenberg",
     "geonames_id": 2901913,
     "geonames_wikipedia": null,
+    "latitude": "49.16732",
+    "longitude": "9.82564",
     "nl_NL": "Hohenberg"
   },
   "Hovorany": {
     "en_GB": "Hovorany",
     "geonames_id": 3075023,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Hovorany",
+    "latitude": "48.95493",
+    "longitude": "16.99346",
     "nl_NL": "Hovorany"
   },
   "Howick": {
     "en_GB": "Howick",
     "geonames_id": 2646490,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Howick%2C_Northumberland",
+    "latitude": "55.43333",
+    "longitude": "-1.58333",
     "nl_NL": "Howick"
   },
   "Hyères": {
     "en_GB": "Hyères",
     "geonames_id": 3012937,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Hy%C3%A8res",
+    "latitude": "43.12038",
+    "longitude": "6.12857",
     "nl_NL": "Hyères"
   },
   "Imola": {
     "en_GB": "Imola",
     "geonames_id": 3175537,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Imola",
+    "latitude": "44.35916",
+    "longitude": "11.7132",
     "nl_NL": "Imola"
   },
   "Innsbruck": {
     "en_GB": "Innsbruck",
     "geonames_id": 2775220,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Innsbruck",
+    "latitude": "47.26266",
+    "longitude": "11.39454",
     "nl_NL": "Innsbruck"
   },
   "Istanbul": {
     "en_GB": "Istanbul",
     "geonames_id": 745044,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Istanbul",
+    "latitude": "41.01384",
+    "longitude": "28.94966",
     "nl_NL": "Istanbul"
   },
   "Kampen": {
     "en_GB": "Kampen",
     "geonames_id": 2753106,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Kampen%2C_Overijssel",
+    "latitude": "52.555",
+    "longitude": "5.91111",
     "nl_NL": "Kampen"
   },
   "Kassel": {
     "en_GB": "Kassel",
-    "geonames_id": 6547484,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Kassel",
+    "geonames_id": 2892518,
+    "geonames_wikipedia": null,
+    "latitude": "51.31667",
+    "longitude": "9.5",
     "nl_NL": "Kassel"
   },
   "Kerkdriel": {
     "en_GB": "Kerkdriel",
     "geonames_id": 2752947,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Kerkdriel",
+    "latitude": "51.77167",
+    "longitude": "5.33472",
     "nl_NL": "Kerkdriel"
   },
   "L'Aia": {
     "en_GB": "The Hague",
     "geonames_id": 2747373,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/The_Hague",
+    "latitude": "52.07667",
+    "longitude": "4.29861",
     "nl_NL": "Den Haag"
   },
   "La Spezia": {
     "en_GB": "La Spezia",
     "geonames_id": 3175081,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/La_Spezia",
+    "latitude": "44.103",
+    "longitude": "9.82375",
     "nl_NL": "La Spezia"
   },
   "Lannion": {
     "en_GB": "Lannion",
-    "geonames_id": 6453798,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lannion",
+    "geonames_id": 3007609,
+    "geonames_wikipedia": null,
+    "latitude": "48.73264",
+    "longitude": "-3.45657",
     "nl_NL": "Lannion"
   },
   "Larçay": {
     "en_GB": "Larçay",
-    "geonames_id": 6433032,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lar%C3%A7ay",
+    "geonames_id": 3007048,
+    "geonames_wikipedia": null,
+    "latitude": "47.36649",
+    "longitude": "0.78145",
     "nl_NL": "Larçay"
   },
   "Laupheim": {
     "en_GB": "Laupheim",
-    "geonames_id": 6558177,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Laupheim",
+    "geonames_id": 2880077,
+    "geonames_wikipedia": null,
+    "latitude": "48.22786",
+    "longitude": "9.87874",
     "nl_NL": "Laupheim"
   },
   "Lebrija": {
     "en_GB": "Lebrija",
-    "geonames_id": 6361008,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lebrija",
+    "geonames_id": 2515096,
+    "geonames_wikipedia": null,
+    "latitude": "36.92077",
+    "longitude": "-6.07529",
     "nl_NL": "Lebrija"
   },
   "Leida": {
     "en_GB": "Leiden",
     "geonames_id": 2751773,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Leiden",
+    "latitude": "52.15833",
+    "longitude": "4.49306",
     "nl_NL": "Leiden"
   },
   "Lenola": {
     "en_GB": "Lenola",
     "geonames_id": 3174891,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lenola",
+    "latitude": "41.40485",
+    "longitude": "13.45934",
     "nl_NL": "Lenola"
   },
   "Les Cayes": {
     "en_GB": "Les Cayes",
     "geonames_id": 3728097,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Les_Cayes",
+    "latitude": "18.19331",
+    "longitude": "-73.74601",
     "nl_NL": "Les Cayes"
   },
   "Liegi": {
     "en_GB": "Liège",
     "geonames_id": 2792413,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Li%C3%A8ge",
+    "latitude": "50.63373",
+    "longitude": "5.56749",
     "nl_NL": "Luik"
   },
   "Lima": {
     "en_GB": "Lima",
     "geonames_id": 3936456,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lima",
+    "latitude": "-12.04318",
+    "longitude": "-77.02824",
     "nl_NL": "Lima"
   },
   "Lisbona": {
     "en_GB": "Lisbon",
     "geonames_id": 2267057,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lisbon",
+    "latitude": "38.71667",
+    "longitude": "-9.13333",
     "nl_NL": "Lissabon"
   },
   "Lissa": {
     "en_GB": "Augsburg",
     "geonames_id": 2954172,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Augsburg",
+    "latitude": "48.37154",
+    "longitude": "10.89851",
     "nl_NL": "Vis"
   },
   "Livorno": {
     "en_GB": "Livorno",
     "geonames_id": 3174659,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Livorno",
+    "latitude": "43.54427",
+    "longitude": "10.32615",
     "nl_NL": "Livorno"
   },
   "Londra": {
     "en_GB": "London",
     "geonames_id": 2643743,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/London",
+    "latitude": "51.50853",
+    "longitude": "-0.12574",
     "nl_NL": "Londen"
   },
   "Loosdrecht": {
     "en_GB": "Loosdrecht",
     "geonames_id": 8714374,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Loosdrecht",
+    "latitude": "52.21718",
+    "longitude": "5.06899",
     "nl_NL": "Loosdrecht"
   },
   "Loosduinen": {
     "en_GB": "Loosduinen",
-    "geonames_id": 11525037,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Loosduinen",
+    "geonames_id": 2751442,
+    "geonames_wikipedia": null,
+    "latitude": "52.05073",
+    "longitude": "4.23469",
     "nl_NL": "Loosduinen"
   },
   "Losanna": {
     "en_GB": "Lausanne",
     "geonames_id": 2659994,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lausanne",
+    "latitude": "46.516",
+    "longitude": "6.63282",
     "nl_NL": "Lausanne"
   },
   "Loviano": {
     "en_GB": "Leuven",
     "geonames_id": 2792482,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Leuven",
+    "latitude": "50.87959",
+    "longitude": "4.70093",
     "nl_NL": "Leuven"
   },
   "Lucca": {
     "en_GB": "Lucca",
-    "geonames_id": 6542121,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lucca",
+    "geonames_id": 3174530,
+    "geonames_wikipedia": null,
+    "latitude": "43.84369",
+    "longitude": "10.50447",
     "nl_NL": "Lucca"
   },
   "Lucerna": {
     "en_GB": "Lucerne",
     "geonames_id": 2659811,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lucerne",
+    "latitude": "47.05048",
+    "longitude": "8.30635",
     "nl_NL": "Luzern"
   },
   "Lussemburgo": {
     "en_GB": "Luxembourg",
-    "geonames_id": 2960313,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Luxembourg",
+    "geonames_id": 2960316,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Luxembourg_%28city%29",
+    "latitude": "49.61167",
+    "longitude": "6.13",
     "nl_NL": "Luxemburg"
   },
   "Maastricht": {
     "en_GB": "Maastricht",
     "geonames_id": 2751283,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Maastricht",
+    "latitude": "50.84833",
+    "longitude": "5.68889",
     "nl_NL": "Maastricht"
   },
   "Macerata": {
     "en_GB": "Macerata",
-    "geonames_id": 6540106,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Macerata",
+    "geonames_id": 3174380,
+    "geonames_wikipedia": null,
+    "latitude": "43.29789",
+    "longitude": "13.45293",
     "nl_NL": "Macerata"
   },
   "Madrid": {
     "en_GB": "Madrid",
     "geonames_id": 3117735,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Madrid",
+    "latitude": "40.4165",
+    "longitude": "-3.70256",
     "nl_NL": "Madrid"
   },
   "Mahón": {
     "en_GB": "Mahón",
-    "geonames_id": 6533953,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Mah%C3%B3n",
+    "geonames_id": 2514301,
+    "geonames_wikipedia": null,
+    "latitude": "39.88853",
+    "longitude": "4.26583",
     "nl_NL": "Maó-Mahón"
   },
   "Malamocco": {
     "en_GB": "Malamocco",
     "geonames_id": 3174197,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Malamocco",
+    "latitude": "45.37232",
+    "longitude": "12.33902",
     "nl_NL": "Malamocco"
   },
   "Malmö": {
     "en_GB": "Malmö",
     "geonames_id": 2692969,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Malmo",
+    "latitude": "55.60587",
+    "longitude": "13.00073",
     "nl_NL": "Malmö"
   },
   "Malta": {
     "en_GB": "Malta",
     "geonames_id": 2562772,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Malta_%28island%29",
+    "latitude": "35.88182",
+    "longitude": "14.44908",
     "nl_NL": "Malta"
   },
   "Mare di Sumatra": {
     "en_GB": "Java sea",
     "geonames_id": 1818196,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Java_Sea",
+    "latitude": "-5",
+    "longitude": "110",
     "nl_NL": "Javazee"
   },
   "Marsiglia": {
     "en_GB": "Marseille",
     "geonames_id": 2995469,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Marseille",
+    "latitude": "43.29695",
+    "longitude": "5.38107",
     "nl_NL": "Marseille"
   },
   "Messina": {
     "en_GB": "Messina",
-    "geonames_id": 252417,
+    "geonames_id": 2524170,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Messina",
+    "latitude": "38.19394",
+    "longitude": "15.55256",
     "nl_NL": "Messina"
   },
   "Middelburg": {
     "en_GB": "Middelburg",
     "geonames_id": 2750896,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Middelburg",
+    "latitude": "51.5",
+    "longitude": "3.61389",
     "nl_NL": "Middelburg"
   },
   "Milano": {
     "en_GB": "Milan",
     "geonames_id": 3173435,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Milan",
+    "latitude": "45.46427",
+    "longitude": "9.18951",
     "nl_NL": "Milaan"
   },
   "Modena": {
     "en_GB": "Modena",
     "geonames_id": 3173331,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Modena",
+    "latitude": "44.64783",
+    "longitude": "10.92539",
     "nl_NL": "Modena"
   },
   "Monaco di Baviera": {
     "en_GB": "Munich",
     "geonames_id": 2867714,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Munich",
+    "latitude": "48.13743",
+    "longitude": "11.57549",
     "nl_NL": "München"
   },
   "Moncalieri": {
     "en_GB": "Moncalieri",
     "geonames_id": 3173180,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Moncalieri",
+    "latitude": "44.9994",
+    "longitude": "7.68236",
     "nl_NL": "Moncalieri"
   },
   "Monferrato": {
     "en_GB": "Montferrat",
-    "geonames_id": 3173152,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Montferrat",
+    "geonames_id": 2992605,
+    "geonames_wikipedia": null,
+    "latitude": "45.48481",
+    "longitude": "5.5902",
     "nl_NL": "Monferrato"
   },
   "Mons": {
     "en_GB": "Mons",
     "geonames_id": 2790869,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Mons",
+    "latitude": "50.45413",
+    "longitude": "3.95229",
     "nl_NL": "Bergen"
   },
   "Montalto": {
     "en_GB": "Montalto",
     "geonames_id": 3173083,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Montalto_delle_Marche",
+    "latitude": "42.98964",
+    "longitude": "13.6082",
     "nl_NL": "Montalto"
   },
   "Monza": {
     "en_GB": "Monza",
     "geonames_id": 3172629,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Monza",
+    "latitude": "45.58005",
+    "longitude": "9.27246",
     "nl_NL": "Monza"
   },
   "Mosca": {
     "en_GB": "Moscow",
     "geonames_id": 524901,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Moscow",
+    "latitude": "55.75222",
+    "longitude": "37.61556",
     "nl_NL": "Moskou"
   },
   "Namur": {
     "en_GB": "Namur",
     "geonames_id": 2790471,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Namur",
+    "latitude": "50.4669",
+    "longitude": "4.86746",
     "nl_NL": "Namen"
   },
   "Nantes": {
     "en_GB": "Nantes",
     "geonames_id": 2990969,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nantes",
+    "latitude": "47.21725",
+    "longitude": "-1.55336",
     "nl_NL": "Nantes"
   },
   "Napoli": {
     "en_GB": "Naples",
     "geonames_id": 3172394,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Naples",
+    "latitude": "40.85216",
+    "longitude": "14.26811",
     "nl_NL": "Napels"
   },
   "Nashville": {
     "en_GB": "Nashville",
     "geonames_id": 4644585,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nashville,_Tennessee",
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee",
+    "latitude": "36.16589",
+    "longitude": "-86.78444",
     "nl_NL": "Nashville"
   },
   "Neuilly-sur-Seine": {
     "en_GB": "Neuilly-sur-Seine",
-    "geonames_id": 6451977,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Neuilly-sur-Seine",
+    "geonames_id": 2990611,
+    "geonames_wikipedia": null,
+    "latitude": "48.8846",
+    "longitude": "2.26965",
     "nl_NL": "Neuilly-sur-Seine"
   },
   "Nizza": {
     "en_GB": "Nice",
     "geonames_id": 2990440,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nice",
+    "latitude": "43.70313",
+    "longitude": "7.26608",
     "nl_NL": "Nice"
   },
   "Novara": {
     "en_GB": "Novara",
     "geonames_id": 3172189,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Novara",
+    "latitude": "45.44694",
+    "longitude": "8.62118",
     "nl_NL": "Novara"
   },
   "Nove": {
     "en_GB": "Nove",
-    "geonames_id": 6540383,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nove",
+    "geonames_id": 3172183,
+    "geonames_wikipedia": null,
+    "latitude": "45.72159",
+    "longitude": "11.67833",
     "nl_NL": "Nove"
   },
   "Oegstgeest": {
     "en_GB": "Oegstgeest",
     "geonames_id": 2749723,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Oegstgeest",
+    "latitude": "52.18",
+    "longitude": "4.46944",
     "nl_NL": "Oegstgeest"
   },
   "Olomouc": {
     "en_GB": "Olomouc",
     "geonames_id": 3069011,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Olomouc",
+    "latitude": "49.59552",
+    "longitude": "17.25175",
     "nl_NL": "Olomouc"
   },
   "Oost-Souburg": {
     "en_GB": "Oost-Souburg",
     "geonames_id": 2749341,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Oost-Souburg",
+    "latitude": "51.46333",
+    "longitude": "3.60417",
     "nl_NL": "Oost-Souburg"
   },
   "Oosterhout": {
     "en_GB": "Oosterhout",
     "geonames_id": 2749450,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Oosterhout",
+    "latitude": "51.645",
+    "longitude": "4.85972",
     "nl_NL": "Oosterhout"
   },
   "Oporto": {
     "en_GB": "Oporto",
     "geonames_id": 2735943,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Porto",
+    "latitude": "41.14961",
+    "longitude": "-8.61099",
     "nl_NL": "Oporto"
   },
   "Osimo": {
     "en_GB": "Osimo",
     "geonames_id": 3171848,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Osimo",
+    "latitude": "43.48539",
+    "longitude": "13.48222",
     "nl_NL": "Osimo"
   },
   "Palermo": {
     "en_GB": "Palermo",
     "geonames_id": 2523920,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Palermo",
+    "latitude": "38.13205",
+    "longitude": "13.33561",
     "nl_NL": "Palermo"
   },
   "Paliano": {
     "en_GB": "Paliano",
-    "geonames_id": 6538709,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Paliano",
+    "geonames_id": 3171603,
+    "geonames_wikipedia": null,
+    "latitude": "41.77975",
+    "longitude": "13.07661",
     "nl_NL": "Paliano"
   },
   "Paramaribo": {
     "en_GB": "Paramaribo",
     "geonames_id": 3383330,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Paramaribo",
+    "latitude": "5.86638",
+    "longitude": "-55.16682",
     "nl_NL": "Paramaribo"
   },
   "Parigi": {
     "en_GB": "Paris",
     "geonames_id": 2988507,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Paris",
+    "latitude": "48.85341",
+    "longitude": "2.3488",
     "nl_NL": "Parijs"
   },
   "Parma": {
     "en_GB": "Parma",
     "geonames_id": 3171457,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Parma",
+    "latitude": "44.79935",
+    "longitude": "10.32618",
     "nl_NL": "Parma"
   },
   "Pergola": {
     "en_GB": "Pergola",
-    "geonames_id": 6540446,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pergola,_Marche",
+    "geonames_id": 3171212,
+    "geonames_wikipedia": null,
+    "latitude": "43.55485",
+    "longitude": "12.83633",
     "nl_NL": "Pergola"
   },
   "Pesaro": {
     "en_GB": "Pesaro",
     "geonames_id": 3171173,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pesaro",
+    "latitude": "43.90921",
+    "longitude": "12.9164",
     "nl_NL": "Pesaro"
   },
   "Piacenza": {
     "en_GB": "Piacenza",
     "geonames_id": 3171058,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Piacenza",
+    "latitude": "45.05242",
+    "longitude": "9.69342",
     "nl_NL": "Piacenza"
   },
   "Pirna": {
     "en_GB": "Pirna",
-    "geonames_id": 6550822,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pirna",
+    "geonames_id": 2853572,
+    "geonames_wikipedia": null,
+    "latitude": "50.95843",
+    "longitude": "13.93702",
     "nl_NL": "Pirna"
   },
   "Pisa": {
     "en_GB": "Pisa",
     "geonames_id": 3170647,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pisa",
+    "latitude": "43.70853",
+    "longitude": "10.4036",
     "nl_NL": "Pisa"
   },
   "Pontedera": {
     "en_GB": "Pontedera",
-    "geonames_id": 6536839,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pontedera",
+    "geonames_id": 3170272,
+    "geonames_wikipedia": null,
+    "latitude": "43.66141",
+    "longitude": "10.63067",
     "nl_NL": "Pontedera"
   },
   "Portici": {
     "en_GB": "Portici",
-    "geonames_id": 6538768,
+    "geonames_id": 3170116,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Portici",
+    "latitude": "40.81563",
+    "longitude": "14.33716",
     "nl_NL": "Portici"
   },
   "Prignano sulla Secchia": {
     "en_GB": "Prignano sulla Secchia",
-    "geonames_id": 6536270,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Prignano_sulla_Secchia",
+    "geonames_id": 3169823,
+    "geonames_wikipedia": null,
+    "latitude": "44.43836",
+    "longitude": "10.6919",
     "nl_NL": "Prignano sulla Secchia"
   },
   "Ravenna": {
     "en_GB": "Ravenna",
-    "geonames_id": 6540121,
+    "geonames_id": 3169561,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ravenna",
+    "latitude": "44.41344",
+    "longitude": "12.20121",
     "nl_NL": "Ravenni"
   },
   "Reggio Calabria": {
     "en_GB": "Reggio Calabria",
     "geonames_id": 2523630,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Reggio_Calabria",
+    "latitude": "38.11047",
+    "longitude": "15.66129",
     "nl_NL": "Reggio Calabria"
   },
   "Reggio nell’Emilia": {
     "en_GB": "Reggio nell’Emilia",
     "geonames_id": 3169522,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Reggio_Emilia",
+    "latitude": "44.69825",
+    "longitude": "10.63125",
     "nl_NL": "Reggio nell’Emilia"
   },
   "Rheinfelden": {
     "en_GB": "Rheinfelden",
     "geonames_id": 2847639,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rheinfelden_%28Baden%29",
+    "latitude": "47.56013",
+    "longitude": "7.78715",
     "nl_NL": "Rheinfelden"
   },
   "Ribera": {
     "en_GB": "Ribera",
-    "geonames_id": 6539174,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ribera,_Agrigento",
+    "geonames_id": 2523619,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ribera",
+    "latitude": "37.49773",
+    "longitude": "13.26676",
     "nl_NL": "Ribera"
   },
   "Richmond": {
     "en_GB": "Richmond",
-    "geonames_id": 3333187,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/London_Borough_of_Richmond_upon_Thames",
+    "geonames_id": 2639389,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Richmond%2C_London",
+    "latitude": "51.46171",
+    "longitude": "-0.30633",
     "nl_NL": "Richmond"
   },
   "Rimini": {
     "en_GB": "Rimini",
     "geonames_id": 3169361,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rimini",
+    "latitude": "44.05755",
+    "longitude": "12.56528",
     "nl_NL": "Rimini"
   },
   "Ripattoni": {
     "en_GB": "Ripattoni",
-    "geonames_id": 6540715,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bellante,_Abruzzo",
+    "geonames_id": 318226,
+    "geonames_wikipedia": null,
+    "latitude": "39.24396",
+    "longitude": "27.88963",
     "nl_NL": "Ripattoni"
   },
   "Rocca di Papa": {
     "en_GB": "Rocca di Papa",
-    "geonames_id": 6536962,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rocca_di_Papa",
+    "geonames_id": 3169181,
+    "geonames_wikipedia": null,
+    "latitude": "41.7658",
+    "longitude": "12.70188",
     "nl_NL": "Rocca di Papa"
   },
   "Roermond": {
     "en_GB": "Roermond",
     "geonames_id": 2748000,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Roermond",
+    "latitude": "51.19417",
+    "longitude": "5.9875",
     "nl_NL": "Roermond"
   },
   "Roma": {
     "en_GB": "Rome",
     "geonames_id": 3169070,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rome",
+    "latitude": "41.89193",
+    "longitude": "12.51133",
     "nl_NL": "Rome"
   },
   "Rotterdam": {
     "en_GB": "Rotterdam",
     "geonames_id": 2747891,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rotterdam",
+    "latitude": "51.9225",
+    "longitude": "4.47917",
     "nl_NL": "Rotterdam"
   },
   "Salisburgo": {
     "en_GB": "Salzburg",
     "geonames_id": 2766824,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Salzburg",
+    "latitude": "47.79941",
+    "longitude": "13.04399",
     "nl_NL": "Salzburg"
   },
   "San Michele di Pagana": {
     "en_GB": "San Michele di Pagana",
     "geonames_id": 3167961,
-    "geonames_wikipedia": null,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/San_Michele_di_Pagana",
+    "latitude": "44.35298",
+    "longitude": "9.23564",
     "nl_NL": "San Michele di Pagana"
   },
   "San Pietroburgo": {
     "en_GB": "Saint Petersburg",
     "geonames_id": 498817,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+    "latitude": "59.93863",
+    "longitude": "30.31413",
     "nl_NL": "Sint Petersburg"
   },
   "San Remo": {
     "en_GB": "San Remo",
     "geonames_id": 3167777,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sanremo",
+    "latitude": "43.81725",
+    "longitude": "7.7772",
     "nl_NL": "San Remo"
   },
   "San Sebastián": {
     "en_GB": "San Sebastián",
-    "geonames_id": 6358157,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n",
+    "geonames_id": 3110044,
+    "geonames_wikipedia": null,
+    "latitude": "43.31283",
+    "longitude": "-1.97499",
     "nl_NL": "San Sebastian"
   },
   "Santa Fe": {
     "en_GB": "Santa Fe",
     "geonames_id": 3836277,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Santa_Fe%2C_Argentina",
+    "latitude": "-31.64881",
+    "longitude": "-60.70868",
     "nl_NL": "Santa Fe"
   },
   "Santiago del Cile": {
     "en_GB": "Santiago de Chile",
     "geonames_id": 3871336,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Santiago",
+    "latitude": "-33.45694",
+    "longitude": "-70.64827",
     "nl_NL": "Santiago de Chile"
   },
   "Santopadre": {
     "en_GB": "Santopadre",
-    "geonames_id": 6542260,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Santopadre",
+    "geonames_id": 8969318,
+    "geonames_wikipedia": null,
+    "latitude": "41.60598",
+    "longitude": "13.61874",
     "nl_NL": "Santopadre"
   },
   "Sassari": {
     "en_GB": "Sassari",
     "geonames_id": 3167096,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sassari",
+    "latitude": "40.72586",
+    "longitude": "8.55552",
     "nl_NL": "Sassari"
   },
   "Savona": {
     "en_GB": "Savona",
     "geonames_id": 3167022,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Savona",
+    "latitude": "44.30905",
+    "longitude": "8.47715",
     "nl_NL": "Savona"
   },
   "Scilla": {
     "en_GB": "Scilla",
     "geonames_id": 2523187,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Scilla%2C_Calabria",
+    "latitude": "38.25201",
+    "longitude": "15.71837",
     "nl_NL": "Scilla"
   },
   "Sebenico": {
     "en_GB": "Šibenik",
     "geonames_id": 3190941,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/%C5%A0ibenik",
+    "latitude": "43.73429",
+    "longitude": "15.8942",
     "nl_NL": "Šibenik"
   },
   "Senigallia": {
     "en_GB": "Senigallia",
-    "geonames_id": 6536781,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Senigallia",
+    "geonames_id": 3166740,
+    "geonames_wikipedia": null,
+    "latitude": "43.71626",
+    "longitude": "13.20882",
     "nl_NL": "Senigallia"
   },
   "Sens": {
     "en_GB": "Sens",
-    "geonames_id": 6613904,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sens",
+    "geonames_id": 2975050,
+    "geonames_wikipedia": null,
+    "latitude": "48.19738",
+    "longitude": "3.28328",
     "nl_NL": "Sens"
   },
   "Servigliano": {
     "en_GB": "Servigliano",
     "geonames_id": 3166619,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Servigliano",
+    "latitude": "43.07993",
+    "longitude": "13.49268",
     "nl_NL": "Servigliano"
   },
   "Sestri Levante": {
     "en_GB": "Sestri Levante",
     "geonames_id": 3166595,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sestri_Levante",
+    "latitude": "44.27317",
+    "longitude": "9.39683",
     "nl_NL": "Sestri Levante"
   },
   "Sgurgola": {
     "en_GB": "Sgurgola",
-    "geonames_id": 6538713,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sgurgola",
+    "geonames_id": 3166562,
+    "geonames_wikipedia": null,
+    "latitude": "41.66897",
+    "longitude": "13.15009",
     "nl_NL": "Sgurgola"
   },
   "Siebenbrunnen": {
     "en_GB": "Siebenbrunnen",
     "geonames_id": 2960071,
-    "geonames_wikipedia": "",
+    "geonames_wikipedia": null,
+    "latitude": "49.62806",
+    "longitude": "6.10444",
     "nl_NL": "Siebenbrunnen"
   },
   "Siena": {
     "en_GB": "Siena",
     "geonames_id": 3166548,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Siena",
+    "latitude": "43.31822",
+    "longitude": "11.33064",
     "nl_NL": "Siena"
   },
   "Sierre": {
     "en_GB": "Sierre",
     "geonames_id": 2658606,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sierre",
+    "latitude": "46.29192",
+    "longitude": "7.53559",
     "nl_NL": "Sierre"
   },
   "Simpelveld": {
     "en_GB": "Simpelveld",
     "geonames_id": 2747312,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Simpelveld",
+    "latitude": "50.83417",
+    "longitude": "5.98194",
     "nl_NL": "Simpelveld"
   },
   "Sintra": {
     "en_GB": "Sintra",
     "geonames_id": 2262912,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sintra",
+    "latitude": "38.80097",
+    "longitude": "-9.37826",
     "nl_NL": "Sintra"
   },
   "Siviglia": {
     "en_GB": "Seville",
     "geonames_id": 2510911,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Seville",
+    "latitude": "37.38283",
+    "longitude": "-5.97317",
     "nl_NL": "Sevilla"
   },
   "Smyrna": {
     "en_GB": "Smyrna",
     "geonames_id": 311046,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Smyrna",
+    "latitude": "38.41273",
+    "longitude": "27.13838",
     "nl_NL": "Smyrna"
   },
   "Sonnino": {
     "en_GB": "Sonnino",
-    "geonames_id": 6540531,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Sonnino",
+    "geonames_id": 3166394,
+    "geonames_wikipedia": null,
+    "latitude": "41.41673",
+    "longitude": "13.24592",
     "nl_NL": "Sonnino"
   },
   "Speloncato": {
     "en_GB": "Speloncato",
-    "geonames_id": 6431242,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Speloncato",
+    "geonames_id": 2973864,
+    "geonames_wikipedia": null,
+    "latitude": "42.56177",
+    "longitude": "8.9812",
     "nl_NL": "Speloncato"
   },
   "Spotorno": {
     "en_GB": "Spotorno",
     "geonames_id": 3166228,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Spotorno",
+    "latitude": "44.22638",
+    "longitude": "8.41647",
     "nl_NL": "Spotorno"
   },
   "St James's": {
     "en_GB": "St James's",
     "geonames_id": 6615507,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/St_James%27s",
+    "latitude": "51.5073",
+    "longitude": "-0.13982",
     "nl_NL": "St James's"
   },
   "Sterpenich": {
     "en_GB": "Sterpenich",
     "geonames_id": 2786058,
     "geonames_wikipedia": null,
+    "latitude": "49.64766",
+    "longitude": "5.89091",
     "nl_NL": "Sterpenich"
   },
   "Stoccarda": {
     "en_GB": "Stuttgart",
     "geonames_id": 2825297,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Stuttgart",
+    "latitude": "48.78232",
+    "longitude": "9.17702",
     "nl_NL": "Stuttgart"
   },
   "Stoccolma": {
     "en_GB": "Stockholm",
     "geonames_id": 2673730,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Stockholm",
+    "latitude": "59.32938",
+    "longitude": "18.06871",
     "nl_NL": "Stockholm"
   },
   "Subiaco": {
     "en_GB": "Subiaco",
     "geonames_id": 3166052,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Subiaco%2C_Lazio",
+    "latitude": "41.92619",
+    "longitude": "13.08906",
     "nl_NL": "Subiaco"
   },
   "Surabaya": {
     "en_GB": "Surabaya",
     "geonames_id": 1625822,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Surabaya",
+    "latitude": "-7.24917",
+    "longitude": "112.75083",
     "nl_NL": "Surabaya"
   },
   "Tassullo": {
     "en_GB": "Tassullo",
     "geonames_id": 3165904,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tassullo",
+    "latitude": "46.34298",
+    "longitude": "11.04539",
     "nl_NL": "Tassullo"
   },
   "Tegucigalpa": {
     "en_GB": "Tegucigalpa",
     "geonames_id": 3600949,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tegucigalpa",
+    "latitude": "14.0818",
+    "longitude": "-87.20681",
     "nl_NL": "Tegucigalpa"
   },
   "The Falls, Llandogo": {
     "en_GB": "Llandogo",
     "geonames_id": 2644129,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Llandogo",
+    "latitude": "51.73422",
+    "longitude": "-2.68908",
     "nl_NL": "Llandogo"
   },
   "Tholen": {
     "en_GB": "Tholen",
-    "geonames_id": 2746350,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tholen",
+    "geonames_id": 2746351,
+    "geonames_wikipedia": null,
+    "latitude": "51.53167",
+    "longitude": "4.22083",
     "nl_NL": "Tholen"
   },
   "Tilburg": {
     "en_GB": "Tilburg",
     "geonames_id": 2746301,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tilburg",
+    "latitude": "51.55551",
+    "longitude": "5.0913",
     "nl_NL": "Tübingen"
   },
   "Torino": {
     "en_GB": "Turin",
     "geonames_id": 3165524,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Turin",
+    "latitude": "45.07049",
+    "longitude": "7.68682",
     "nl_NL": "Turijn"
   },
   "Torre Pellice": {
     "en_GB": "Torre Pellice",
-    "geonames_id": 6539527,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Torre_Pellice",
+    "geonames_id": 3165427,
+    "geonames_wikipedia": null,
+    "latitude": "44.82102",
+    "longitude": "7.21672",
     "nl_NL": "Torre Pellice"
   },
   "Trieste": {
     "en_GB": "Trieste",
     "geonames_id": 3165185,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Trieste",
+    "latitude": "45.64953",
+    "longitude": "13.77678",
     "nl_NL": "Triëst"
   },
   "Trobiolo": {
     "en_GB": "Trobiolo",
     "geonames_id": 8952225,
     "geonames_wikipedia": null,
+    "latitude": "45.61325",
+    "longitude": "10.50485",
     "nl_NL": "Trobiolo"
   },
   "Tubinga": {
     "en_GB": "Tübingen",
     "geonames_id": 2820860,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/T%C3%BCbingen",
+    "latitude": "48.52266",
+    "longitude": "9.05222",
     "nl_NL": "Tübingen"
   },
   "Tunisi": {
     "en_GB": "Tunis",
     "geonames_id": 2464470,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tunis",
+    "latitude": "36.81897",
+    "longitude": "10.16579",
     "nl_NL": "Tunis"
   },
   "Uccle": {
     "en_GB": "Uccle",
     "geonames_id": 2785123,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Uccle",
+    "latitude": "50.80225",
+    "longitude": "4.33943",
     "nl_NL": "Ukkel"
   },
   "Udine": {
     "en_GB": "Udine",
     "geonames_id": 3165072,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Udine",
+    "latitude": "46.0693",
+    "longitude": "13.23715",
     "nl_NL": "Udine"
   },
   "Urbino": {
     "en_GB": "Urbino",
-    "geonames_id": 6541472,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Urbino",
+    "geonames_id": 3165035,
+    "geonames_wikipedia": null,
+    "latitude": "43.72621",
+    "longitude": "12.63633",
     "nl_NL": "Urbino"
   },
   "Utrecht": {
     "en_GB": "Utrecht",
     "geonames_id": 2745912,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Utrecht",
+    "latitude": "52.09083",
+    "longitude": "5.12222",
     "nl_NL": "Utrecht"
   },
   "Valkenburg": {
     "en_GB": "Valkenburg",
     "geonames_id": 2745874,
     "geonames_wikipedia": null,
+    "latitude": "50.86523",
+    "longitude": "5.83205",
     "nl_NL": "Valkenburg"
   },
   "Valkenswaard": {
     "en_GB": "Valkenswaard",
     "geonames_id": 2745860,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Valkenswaard",
+    "latitude": "51.35083",
+    "longitude": "5.45972",
     "nl_NL": "Valkenswaard"
   },
   "Vanves": {
     "en_GB": "Vanves",
-    "geonames_id": 6613135,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vanves",
+    "geonames_id": 2970761,
+    "geonames_wikipedia": null,
+    "latitude": "48.82345",
+    "longitude": "2.29025",
     "nl_NL": "Vanves"
   },
   "Velletri": {
     "en_GB": "Velletri",
     "geonames_id": 3164630,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Velletri",
+    "latitude": "41.68573",
+    "longitude": "12.77753",
     "nl_NL": "Velletri"
   },
   "Venezia": {
     "en_GB": "Venice",
     "geonames_id": 3164603,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Venice",
+    "latitude": "45.43713",
+    "longitude": "12.33265",
     "nl_NL": "Venetië"
   },
   "Verona": {
     "en_GB": "Verona",
     "geonames_id": 3164527,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Verona",
+    "latitude": "45.4299",
+    "longitude": "10.98444",
     "nl_NL": "Verona"
   },
   "Verrua Savoia": {
     "en_GB": "Verrua Savoia",
     "geonames_id": 6534335,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Verrua_Savoia",
+    "latitude": "45.15675",
+    "longitude": "8.09223",
     "nl_NL": "Verrua Savoia"
   },
   "Vevey": {
     "en_GB": "Vevey",
     "geonames_id": 2658145,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vevey",
+    "latitude": "46.46299",
+    "longitude": "6.84345",
     "nl_NL": "Vevey"
   },
   "Vezzano": {
     "en_GB": "Vezzano",
-    "geonames_id": 6541628,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vezzano_Ligure",
+    "geonames_id": 3164451,
+    "geonames_wikipedia": null,
+    "latitude": "44.14144",
+    "longitude": "9.88692",
     "nl_NL": "Vezzano"
   },
   "Vico": {
     "en_GB": "Vico",
-    "geonames_id": 6431141,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vico,_Corse-du-Sud",
+    "geonames_id": 2969386,
+    "geonames_wikipedia": null,
+    "latitude": "42.16683",
+    "longitude": "8.79892",
     "nl_NL": "Vico"
   },
   "Vienna": {
     "en_GB": "Vienna",
     "geonames_id": 2761369,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vienna",
+    "latitude": "48.20849",
+    "longitude": "16.37208",
     "nl_NL": "Wenen"
   },
   "Vigevano": {
     "en_GB": "Vigevano",
     "geonames_id": 3164376,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vigevano",
+    "geonames_wikipedia": null,
+    "latitude": "45.31407",
+    "longitude": "8.85437",
     "nl_NL": "Vigevano"
   },
   "Villafranca": {
     "en_GB": "Villafranca",
     "geonames_id": 3164243,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Villafranca_d%27Asti",
+    "latitude": "44.91539",
+    "longitude": "8.02658",
     "nl_NL": "Villafranca"
   },
   "Villaviciosa": {
     "en_GB": "Villaviciosa",
     "geonames_id": 3104707,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Villaviciosa%2C_Asturias",
+    "latitude": "43.48126",
+    "longitude": "-5.43574",
     "nl_NL": "Villaviciosa"
   },
   "Viluco": {
     "en_GB": "Viluco",
     "geonames_id": 3868132,
-    "geonames_wikipedia": "",
+    "geonames_wikipedia": null,
+    "latitude": "-33.77825",
+    "longitude": "-70.79527",
     "nl_NL": "Viluco"
   },
   "Viterbo": {
     "en_GB": "Viterbo",
-    "geonames_id": 6540107,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Viterbo",
+    "geonames_id": 3164039,
+    "geonames_wikipedia": null,
+    "latitude": "42.41937",
+    "longitude": "12.1056",
     "nl_NL": "Viterbo"
   },
   "Voorburg": {
     "en_GB": "Voorburg",
     "geonames_id": 2745321,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Voorburg",
+    "latitude": "52.07417",
+    "longitude": "4.35972",
     "nl_NL": "Voorburg"
   },
   "Voorschoten": {
     "en_GB": "Voorschoten",
     "geonames_id": 2745301,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Voorschoten",
+    "latitude": "52.1275",
+    "longitude": "4.44861",
     "nl_NL": "Voorschoten"
   },
   "Voorst": {
     "en_GB": "Voorst",
     "geonames_id": 2745297,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Voorst",
+    "latitude": "52.17",
+    "longitude": "6.14167",
     "nl_NL": "Voorst"
   },
   "Voort": {
     "en_GB": "Voort",
     "geonames_id": 2784387,
     "geonames_wikipedia": null,
+    "latitude": "50.79484",
+    "longitude": "5.31983",
     "nl_NL": "Voort"
   },
   "Weimar": {
     "en_GB": "Weimar",
-    "geonames_id": 6549750,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Weimar",
+    "geonames_id": 2812482,
+    "geonames_wikipedia": null,
+    "latitude": "50.9803",
+    "longitude": "11.32903",
     "nl_NL": "Weimar"
   },
   "Wetzlar": {
     "en_GB": "Wetzlar",
     "geonames_id": 2809889,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Wetzlar",
+    "latitude": "50.56109",
+    "longitude": "8.50495",
     "nl_NL": "Wetzlar"
   },
   "Wiesbaden": {
     "en_GB": "Wiesbaden",
     "geonames_id": 2809346,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Wiesbaden",
+    "latitude": "50.08258",
+    "longitude": "8.24932",
     "nl_NL": "Wiesbaden"
   },
   "Woerden": {
     "en_GB": "Woerden",
     "geonames_id": 2744248,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Woerden",
+    "latitude": "52.085",
+    "longitude": "4.88333",
     "nl_NL": "Woerden"
   },
   "Wolkenstein": {
     "en_GB": "Wolkenstein",
-    "geonames_id": 6550774,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Wolkenstein",
+    "geonames_id": 2806474,
+    "geonames_wikipedia": null,
+    "latitude": "50.65552",
+    "longitude": "13.07132",
     "nl_NL": "Wolkenstein"
   },
   "Zoelen": {
     "en_GB": "Zoelen",
     "geonames_id": 2743861,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zoelen",
+    "latitude": "51.9125",
+    "longitude": "5.40278",
     "nl_NL": "Zoelen"
   },
   "Zuilen": {
     "en_GB": "Zuilen",
     "geonames_id": 2743628,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zuilen",
+    "latitude": "52.10884",
+    "longitude": "5.09084",
     "nl_NL": "Zuilen"
   },
   "Zurigo": {
     "en_GB": "Zürich",
     "geonames_id": 2657896,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Z%C3%BCrich",
+    "latitude": "47.36667",
+    "longitude": "8.55",
     "nl_NL": "Zürich"
   },
   "Zwolle": {
     "en_GB": "Zwolle",
     "geonames_id": 2743477,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zwolle",
+    "latitude": "52.5125",
+    "longitude": "6.09444",
     "nl_NL": "Zwolle"
   }
 }
