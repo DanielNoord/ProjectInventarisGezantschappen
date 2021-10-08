@@ -276,7 +276,7 @@
     "en_GB": "General commissioner of the Apostolic Chamber",
     "nl_NL": "Commissaris-generaal van de Apostolische Kamer"
   },
-  "Commissario straordinario pontificio a Ancona": {
+  "Commissario straordinario pontificio ad Ancona": {
     "en_GB": "Pontifical extraordinary commissioner at Ancona",
     "nl_NL": "Pauselijk buitengewoon gezant te Ancona"
   },
@@ -307,10 +307,6 @@
   "Console del Regno dei Paesi Bassi": {
     "en_GB": "Consul of the Kingdom of the Netherlands",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden"
-  },
-  "Console del Regno dei Paesi Bassi a Ancona": {
-    "en_GB": "Consul of the Kingdom of the Netherlands in Ancona",
-    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Ancona"
   },
   "Console del Regno dei Paesi Bassi a Barcellona": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Barcelona",
@@ -364,6 +360,10 @@
     "en_GB": "Consul of the Kingdom of the Netherlands in Alexandria",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Alexandrië"
   },
+  "Console del Regno dei Paesi Bassi ad Ancona": {
+    "en_GB": "Consul of the Kingdom of the Netherlands in Ancona",
+    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Ancona"
+  },
   "Console del Regno delle Due Sicilie a Costantinopoli": {
     "en_GB": "Consul of the Kingdom of the Two Sicilies in Constantinople",
     "nl_NL": "Consul van het Koninkrijk der Beide Siciliën te Constantinopel"
@@ -416,7 +416,7 @@
     "en_GB": "Consul general of the Kingdom of the Netherlands in Trieste",
     "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Triëst"
   },
-  "Console generale dell'Impero d'Austria a Ancona": {
+  "Console generale dell'Impero d'Austria ad Ancona": {
     "en_GB": "Consul general of the Empire of Austria in Ancona",
     "nl_NL": "Consul-generaal van het Keizerrijk Oostenrijk te Ancona"
   },
@@ -687,6 +687,10 @@
   "Incaricato d'affari del Regno dei Paesi Bassi presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the Kingdom of the Netherlands to the Holy See",
     "nl_NL": "Zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel"
+  },
+  "Incaricato d'affari del Regno delle Due Sicilie": {
+    "en_GB": "Chargé d'affaires of the Kingdom of the Two Sicilies",
+    "nl_NL": "Zaakgelastigde van het Koninkrijk der Beide Siciliën"
   },
   "Incaricato d'affari del Regno delle Due Sicilie presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the Kingdom of the Two Sicilies to the Holy See",

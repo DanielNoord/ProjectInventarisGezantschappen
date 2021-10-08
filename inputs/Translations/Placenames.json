@@ -40,7 +40,7 @@
     "longitude": "11.00458",
     "nl_NL": "Ala (Trento)"
   },
-  "Albano laziale": {
+  "Albano Laziale": {
     "en_GB": "Albano Laziale",
     "geonames_id": 3183356,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Albano_Laziale",
@@ -463,6 +463,14 @@
     "latitude": "41.57236",
     "longitude": "13.32901",
     "nl_NL": "Ceccano"
+  },
+  "Cecina": {
+    "en_GB": "Cecina",
+    "geonames_id": 3179235,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cecina,_Tuscany",
+    "latitude": "43.30621",
+    "longitude": "10.51729",
+    "nl_NL": "Cecina"
   },
   "Celles": {
     "en_GB": "Celles",
@@ -992,6 +1000,14 @@
     "longitude": "28.94966",
     "nl_NL": "Istanbul"
   },
+  "Jesi": {
+    "en_GB": "Jesi",
+    "geonames_id": 3175628,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Iesi",
+    "latitude": "43.52142",
+    "longitude": "13.24368",
+    "nl_NL": "Jesi"
+  },
   "Kampen": {
     "en_GB": "Kampen",
     "geonames_id": 2753106,
@@ -1127,6 +1143,14 @@
     "latitude": "43.54427",
     "longitude": "10.32615",
     "nl_NL": "Livorno"
+  },
+  "Llandogo": {
+    "en_GB": "Llandogo",
+    "geonames_id": 2644129,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Llandogo",
+    "latitude": "51.73422",
+    "longitude": "-2.68908",
+    "nl_NL": "Llandogo"
   },
   "Londra": {
     "en_GB": "London",
@@ -1951,14 +1975,6 @@
     "latitude": "14.0818",
     "longitude": "-87.20681",
     "nl_NL": "Tegucigalpa"
-  },
-  "The Falls, Llandogo": {
-    "en_GB": "Llandogo",
-    "geonames_id": 2644129,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Llandogo",
-    "latitude": "51.73422",
-    "longitude": "-2.68908",
-    "nl_NL": "Llandogo"
   },
   "Tholen": {
     "en_GB": "Tholen",
