@@ -732,6 +732,30 @@
     "en_GB": "Printed sheet “\\1” (Amsterdam, \\2 Apr. \\3) ",
     "nl_NL": "Gedrukt blad “\\1” (Amsterdam, \\2 apr. \\3) "
   },
+  "Foglio a stampa “(.+)” \\(Anno (\\d+), N. (\\d+), (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Year \\2, N. \\3, \\4 Aug. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2, N. \\3, \\4 aug. \\5)"
+  },
+  "Foglio a stampa “(.+)” \\(Anno (\\d+), N. (\\d+), (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Year \\2, N. \\3, \\4 Apr. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2, N. \\3, \\4 feb. \\5)"
+  },
+  "Foglio a stampa “(.+)” \\(Anno (\\d+), N. (\\d+), (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Year \\2, N. \\3, \\4 Dec. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2, N. \\3, \\4 dec. \\5)"
+  },
+  "Foglio a stampa “(.+)” \\(Anno (\\d+), N. (\\d+), (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Year \\2, N. \\3, \\4 May \\5)",
+    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2, N. \\3, \\4 mei \\5)"
+  },
+  "Foglio a stampa “(.+)” \\(Anno (\\d+), N. (\\d+), (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Year \\2, N. \\3, \\4 Mar. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2, N. \\3, \\4 mrt. \\5)"
+  },
+  "Foglio a stampa “(.+)” \\(Anno (\\d+), N. (\\d+), (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Year \\2, N. \\3, \\4 Sep. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2, N. \\3, \\4 sep. \\5)"
+  },
   "Foglio a stampa “(.+)” \\(N. (\\d+), (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (N. \\2, \\3 Feb. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (N. \\2, \\3 feb. \\4)"
@@ -765,8 +789,8 @@
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "Foglio a stampa “(.+)” e “(.+)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” and “\\2” (Rome, \\3, Jul. \\4)",
-    "nl_NL": "Gedrukt blad “\\1” en “\\2” (Rome, \\3, jul. \\4)"
+    "en_GB": "Printed sheet “\\1” and “\\2” (Rome, \\3 Jul. \\4)",
+    "nl_NL": "Gedrukt blad “\\1” en “\\2” (Rome, \\3 jul. \\4)"
   },
   "Foglio a stampa “(.+)” e “(.+)” dello Stato Pontificio$": {
     "en_GB": "Printed sheet “\\1” and “\\2” of the Papal States",
@@ -1871,6 +1895,18 @@
   "Supplemento al N. (\\d+) del giornale di Roma \\(a stampa\\)$": {
     "en_GB": "Supplement to N. \\1 of the Giornale di Roma (printed)",
     "nl_NL": "Bijlage bij N. \\1 van de Giornale di Roma (gedrukt)"
+  },
+  "Supplemento al “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Supplement to “\\1” (\\2 Feb. \\3)",
+    "nl_NL": "Bijlage bij “\\1” (\\2 feb. \\3)"
+  },
+  "Supplemento al “(.+)” \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Supplement to “\\1” (\\2 Jan. \\3)",
+    "nl_NL": "Bijlage bij “\\1” (\\2 jan. \\3)"
+  },
+  "Supplemento al “(.+)” \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Supplement to “\\1” (\\2 Nov. \\3)",
+    "nl_NL": "Bijlage bij “\\1” (\\2 nov. \\3)"
   },
   "Supplica (di|del|della) (\\$\\w+)$": {
     "en_GB": "Plea from \\2",
