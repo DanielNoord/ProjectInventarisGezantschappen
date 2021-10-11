@@ -1,5 +1,5 @@
 import re
-from typing import Literal
+from typing import Literal, Optional
 
 from data_parsing import name_string
 from lxml import etree
@@ -46,11 +46,12 @@ def add_italics(parent_element: etree._Element, title: str) -> None:
         parent_element.text = title
 
 
-def add_doc_title(
+def add_unittitle(
     parent_element: etree._Element, title: str, database: Database, date: str
-) -> None:
+) -> Optional[re.Pattern[str]]:
     """Adds a unittitle to the parent element"""
     title_en, title_nl, title_it = title, title, title
+    used_trans = None
 
     # Find document translation
     for pattern, trans in database.document_titles.items():
@@ -62,10 +63,10 @@ def add_doc_title(
                 raise re.error(
                     f"At {pattern} found the following error: {error}"
                 ) from error
-
-            # TODO: Add this functionality to XML
-            # used_translations.add(pattern)
-            break
+            used_trans = pattern
+    if not used_trans:
+        print("Missing translation for:")
+        print(title)
 
     title_it = fill_in_name(title_it, database, date, "it_IT")
     title_en = fill_in_name(title_en, database, date, "en_GB")
@@ -82,3 +83,5 @@ def add_doc_title(
     add_italics(
         etree.SubElement(parent_element, "unittitle", {"lang": "dut"}), title_nl
     )
+
+    return used_trans

@@ -1,16 +1,12 @@
 import re
+from typing import Optional
 
 from date_functions import create_date_data
 from lxml import etree
 from typing_utils import Database, FileData, VolData
 
-from xml_functions import (
-    add_dateset,
-    add_doc_title,
-    add_geognames,
-    add_persname,
-    add_unitdate,
-)
+from xml_functions import (add_dateset, add_geognames, add_persname,
+                           add_unitdate, add_unittitle)
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:
@@ -107,33 +103,27 @@ def dossier_entry(  # pylint: disable=too-many-arguments
     number: str,
     title: str,
     date: str,
-) -> etree._Element:
+    database: Database,
+) -> tuple[etree._Element, Optional[re.Pattern[str]]]:
     """Returns a dossier .xml element at the c02 level"""
     c02 = etree.SubElement(parent_element, "c02", level="subseries")
     c02_did = etree.SubElement(c02, "did")
     etree.SubElement(c02_did, "unitid").text = f"{v_number}.{number}"
 
-    etree.SubElement(
-        c02_did, "unittitle", {"lang": "it"}
-    ).text = f"THIS SHOULD BE ITALIAN {title}"
-    etree.SubElement(
-        c02_did, "unittitle", {"lang": "dut"}
-    ).text = f"THIS SHOULD BE DUTCH {title}"
-    etree.SubElement(
-        c02_did, "unittitle", {"lang": "en"}
-    ).text = f"THIS SHOULD BE ENGLISH {title}"
+    pattern = add_unittitle(c02_did, title, database, "")
 
     date_data = create_date_data(date)
     add_unitdate(c02_did, date, date_data)
-    return c02
+    return c02, pattern
 
 
 def file_entry(
     parent_element: etree._Element,
     file_data: FileData,
     database: Database,
-) -> etree._Element:
+) -> tuple[etree._Element, Optional[re.Pattern[str]]]:
     """Creates an .xml element for a file within a dossier/volume"""
+
     if parent_element.tag == "c01":
         file_element = etree.SubElement(parent_element, "c02", level="file")
     elif parent_element.tag == "c02":
@@ -146,7 +136,9 @@ def file_entry(
     etree.SubElement(file_did, "unitid").text = f"pp. {file_data.page}"
 
     # Titles
-    add_doc_title(file_did, file_data.title, database, file_data.date_string)
+    used_trans = add_unittitle(
+        file_did, file_data.title, database, file_data.date_string
+    )
 
     # Date
     date_data = create_date_data(file_data.date_string)
@@ -164,4 +156,4 @@ def file_entry(
     for identifier in re.findall(r"\$\w+", file_data.title):
         add_persname(event, identifier, database)
 
-    return file_did
+    return file_did, used_trans

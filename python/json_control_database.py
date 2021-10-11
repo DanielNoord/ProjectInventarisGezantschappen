@@ -99,7 +99,7 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
         if isinstance(["ISNI:id"], str):
             if not is_isni(data["ISNI:id"]):
                 raise ValueError(
-                    f"ISNI ID of {identifier} is incorrect. If individual has no identifier use None"
+                    f"ISNI ID of {identifier} is incorrect. If person has no identifier use None"
                 )
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]

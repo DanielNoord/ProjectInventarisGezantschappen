@@ -19,9 +19,10 @@ def create_xml_individual_files(
     dossiers: dict[str, etree._Element],
     vol_entry: etree._Element,
     database: Database,
-) -> None:
+) -> set[re.Pattern[str]]:
     """Based on a sheet creates .xml entries for every file found"""
     prev_file, prev_file_did, similar = None, None, None
+    used_trans: set[re.Pattern[str]] = set()
 
     for file in sheet.iter_rows():
         if file[0].value is not None and not file[0].value.endswith("_0"):
@@ -34,11 +35,13 @@ def create_xml_individual_files(
                 # Check if file belongs to a dossier
                 try:
                     if mat := re.search(r"ms.+?_(.+?)_.+?", file[0].value):
-                        prev_file_did = file_entry(
+                        prev_file_did, used_trans_update = file_entry(
                             dossiers[mat.groups()[0]], file_data, database
                         )
                     else:
-                        prev_file_did = file_entry(vol_entry, file_data, database)
+                        prev_file_did, used_trans_update = file_entry(
+                            vol_entry, file_data, database
+                        )
                 except ValueError as error:
                     raise ValueError(
                         f"{file[0].value} gives following error: {error}"
@@ -53,6 +56,10 @@ def create_xml_individual_files(
                 else:
                     unitid.text += f"-{file_data.page}"
             prev_file = file
+            if used_trans_update:
+                used_trans.add(used_trans_update)
+
+    return used_trans
 
 
 def create_xml_dossier(
@@ -60,9 +67,10 @@ def create_xml_dossier(
     v_num: str,
     c01: etree._Element,
     database: Database,
-) -> set[str]:
+) -> tuple[set[str], set[re.Pattern[str]]]:
     """Creates necessary dossier entries at the c02 level"""
     dossiers: dict[str, etree._Element] = {}
+    used_trans: set[re.Pattern[str]] = set()
 
     # Find dossiers
     for cell in sheet["A"]:
@@ -73,24 +81,23 @@ def create_xml_dossier(
                 d_title, d_date = parse_dossier(sheet, mat.groups()[0], v_num, cell)
 
                 # Create entry
-                dossiers[mat.groups()[0]] = dossier_entry(
-                    c01,
-                    v_num,
-                    mat.groups()[0],
-                    d_title,
-                    d_date,
+                dossiers[mat.groups()[0]], pattern = dossier_entry(
+                    c01, v_num, mat.groups()[0], d_title, d_date, database
                 )
 
-    create_xml_individual_files(sheet, dossiers, c01, database)
+                if pattern:
+                    used_trans.add(pattern)
+
+    used_trans.update(create_xml_individual_files(sheet, dossiers, c01, database))
 
     if not dossiers:
-        return {v_num}
-    return {f"{v_num}_{i}" for i in dossiers}
+        return {v_num}, used_trans
+    return {f"{v_num}_{i}" for i in dossiers}, used_trans
 
 
 def create_xml_volume(
     filename: str, archdesc: etree._Element, database: Database
-) -> dict[str, set[str]]:
+) -> tuple[dict[str, set[str]], set[re.Pattern[str]]]:
     """Adds a volume to an 'archdesc' element"""
     workbook = load_workbook(filename)
     first_sheet = workbook[workbook.sheetnames[0]]
@@ -99,11 +106,13 @@ def create_xml_volume(
     volume_data = parse_volume(first_sheet[1])
     c01 = volume_entry(archdesc, volume_data)
 
-    dossiers = create_xml_dossier(first_sheet, volume_data.num, c01, database)
+    dossiers, used_trans = create_xml_dossier(
+        first_sheet, volume_data.num, c01, database
+    )
 
     print(f"""Finished writing volume {volume_data.num}\n""")
 
-    return {volume_data.num: dossiers}
+    return {volume_data.num: dossiers}, used_trans
 
 
 def create_xml_file(dir_name: str) -> None:
@@ -111,6 +120,7 @@ def create_xml_file(dir_name: str) -> None:
     print("Starting to create XML file!")
     database = initialize_database_for_xml()
     dossiers: dict[str, set[str]] = {}
+    used_translations: set[re.Pattern[str]] = set()
 
     root, archdesc_dsc = basic_xml_file()
 
@@ -122,9 +132,11 @@ def create_xml_file(dir_name: str) -> None:
         ),
     ):
         if not file.count("~$") and file.startswith("Paesi"):
-            dossiers.update(
-                create_xml_volume(f"{dir_name}/{file}", archdesc_dsc, database)
+            dossiers_update, used_translations_update = create_xml_volume(
+                f"{dir_name}/{file}", archdesc_dsc, database
             )
+            dossiers.update(dossiers_update)
+            used_translations.update(used_translations_update)
 
     tree = etree.ElementTree(root)
 
@@ -140,8 +152,19 @@ def create_xml_file(dir_name: str) -> None:
 
     print("Printed file to outputs/Legation_Archive.xml")
     print("Writing XML complete!")
+
+    # Printing some descriptive stats
+    print("Found the following dossiers:")
     for i in dossiers.values():
         print(", ".join(i))
+    print("Found the following unused translations:")
+    print(
+        "\n".join(
+            i.pattern
+            for i in database.document_titles.keys()
+            if i not in used_translations
+        )
+    )
 
     os.system(
         "xmllint --noout --dtdvalid outputs/ead3.dtd outputs/Legation_Archive.xml"
