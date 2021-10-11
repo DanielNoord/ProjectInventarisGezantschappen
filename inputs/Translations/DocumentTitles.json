@@ -836,9 +836,13 @@
     "en_GB": "Decorative frieze with acanthus spirals (printed engraving)",
     "nl_NL": "Decoratieve fries met acanthus-spiralen (geprinte gravure)"
   },
+  "Giornale a stampa \"(.+)\" \\((\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (\\2 Oct. \\3)",
+    "nl_NL": "Gedrukt nieuwsblad “\\1” (\\2 okt. \\3)"
+  },
   "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Year \\2 - N. \\3 of \\4 Aug. \\5)",
-    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2 - N. \\3 van \\4 aug. \\5)"
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Aug. \\5)",
+    "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 aug. \\5)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Apr. \\5)",
@@ -857,18 +861,18 @@
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 mrt. \\5)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Year \\2 - N. \\3 of \\4 Nov. \\5)",
-    "nl_NL": "Gedrukt blad “\\1” (Jaar \\2 - N. \\3 van \\4 nov. \\5)"
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Nov. \\5)",
+    "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 nov. \\5)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Sep. \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 sep. \\5)"
   },
-  "Giornale a stampa \"(.+)\" \\(N. (\\d+) del (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(N. (\\w+) del (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Feb. \\4)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (N. \\2 van \\3 feb. \\4)"
   },
-  "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - N. (\\w+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5)"
   },
@@ -880,19 +884,19 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Nov. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 nov. \\5)"
   },
-  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) - (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+?)\" \\(N. (\\w+) - (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 - \\3 Sep. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 - \\3 sep. \\4)"
   },
-  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+?)\" \\(N. (\\w+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Jul. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 jul. \\4)"
   },
-  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+?)\" \\(N. (\\w+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 May \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 mei \\4)"
   },
-  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+?)\" \\(N. (\\w+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Nov. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 nov. \\4)"
   },
@@ -916,7 +920,7 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Mar. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 mar. \\5)"
   },
-  "Giornale a stampa “(.+?)” \\(N. (\\d+), del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa “(.+?)” \\(N. (\\w+), del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 May \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 mei. \\4)"
   },
@@ -924,7 +928,7 @@
     "en_GB": "Printed newspaper “\\1”",
     "nl_NL": "Gedrukte krant “\\1”"
   },
-  "Giornale a stampa “L'Indépendance Belge” \\(N. (\\d+), (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa “L'Indépendance Belge” \\(N. (\\w+), (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “L'Indépendance Belge” (N. \\1, \\2 Dec. \\3)",
     "nl_NL": "Gedrukte krant “L'Indépendance Belge” (N. \\1, \\2 dec. \\3)"
   },
