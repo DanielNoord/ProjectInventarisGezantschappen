@@ -268,45 +268,41 @@
     "en_GB": "Printed communication from \\1 about the appointment of a Government Commission that would have the direction of public affairs (Gaeta, 27 nov. 1848)",
     "nl_NL": "Gedrukte mededeling van \\1 over de benoeming van een regeringscommissie die de leiding zou hebben over de openbare aangelegenheden (Gaeta, 27 nov. 1848)"
   },
+  "Comunicazione circolare a stampa$": {
+    "en_GB": "Printed circulaire",
+    "nl_NL": "Gedrukte circulaire"
+  },
   "Condizioni alle quali la Santità di Nostro Signore papa Pio Nono ha accordato l'istituzione della Banca dello Stato Pontificio$": {
     "en_GB": "Conditions which His Holiness of Our Lord Pope Pius the Ninth has accorded to the the institution of the Banca dello Stato Pontificio",
     "nl_NL": "Voorwaarden welke Zijne Heiligheid van Onze Heer Paus Pius de Negende heeft verbonden aan het instituut van de Banca dello Stato Pontificio"
   },
-  "Consul General des Pays Bas à Naples$": {
-    "en_GB": "Consul General des Pays Bas à Naples",
-    "nl_NL": "Consul General des Pays Bas à Naples"
+  "Consul General des Pays Bas à Naples \\(Console Generale dei Paesi Bassi a Napoli\\)$": {
+    "en_GB": "Consul General des Pays Bas à Naples (Consul general of the Netherlands in Naples)",
+    "nl_NL": "Consul General des Pays Bas à Naples (Consul-generaal van Nederland te Napels)"
   },
-  "Consul des Pays Bas a Ancone \\(Console dei Paesi Bassi ad Ancona\\)$": {
-    "en_GB": "Consul des Pays Bas a Ancone (Consul of the Netherlands in Ancona)",
-    "nl_NL": "Consul des Pays Bas a Ancone (Consul van Nederland te Ancona)"
+  "Consul des Pays Bas à Ancone \\(Console dei Paesi Bassi ad Ancona\\)$": {
+    "en_GB": "Consul des Pays Bas à Ancone (Consul of the Netherlands in Ancona)",
+    "nl_NL": "Consul des Pays Bas à Ancone (Consul van Nederland te Ancona)"
   },
-  "Consul des Pays Bas à Ancona$": {
-    "en_GB": "Consul des Pays Bas à Ancona",
-    "nl_NL": "Consul des Pays Bas à Ancona"
+  "Consul des Pays Bas à Civitavecchia \\(Console dei Paesi Bassi a Civitavecchia\\)$": {
+    "en_GB": "Consul des Pays Bas à Civitavecchia (Consul of the Netherlands in Civitavecchia)",
+    "nl_NL": "Consul des Pays Bas à Civitavecchia (Consul van Nederland te Civitavecchia)"
   },
-  "Consul des Pays Bas à Civitavecchia$": {
-    "en_GB": "Consul des Pays Bas à Civitavecchia",
-    "nl_NL": "Consul des Pays Bas à Civitavecchia"
+  "Consul des Pays Bas à Livourne \\(Console dei Paesi Bassi a Livorno\\)$": {
+    "en_GB": "Consul des Pays Bas à Livourne (Consul of the Netherlands in Livorno)",
+    "nl_NL": "Consul des Pays Bas à Livourne (Consul van Nederland te Livorno)"
   },
-  "Consul des Pays Bas à Livourne$": {
-    "en_GB": "Consul des Pays Bas à Livourne",
-    "nl_NL": "Consul des Pays Bas à Livourne"
+  "Consulat d'Ancona \\(Consolato Ancona\\)$": {
+    "en_GB": "Consulat d'Ancona (Consulate of Ancona)",
+    "nl_NL": "Consulat d'Ancona (Consulaat van Ancona)"
   },
-  "Consul des general des Pays Bas à Naples$": {
-    "en_GB": "Consul des general des Pays Bas à Naples",
-    "nl_NL": "Consul des general des Pays Bas à Naples"
+  "Consulat de Civitavecchia \\(Consolato di Civitavecchia\\)$": {
+    "en_GB": "Consulat de Civitavecchia (Consulate of Civitavecchia)",
+    "nl_NL": "Consulat de Civitavecchia (Consulaat van Civitavecchia)"
   },
-  "Consulat d'Ancona$": {
-    "en_GB": "Consulat d'Ancona",
-    "nl_NL": "Consulat d'Ancona"
-  },
-  "Consulat de Civitavecchia$": {
-    "en_GB": "Consulat de Civitavecchia",
-    "nl_NL": "Consulat de Civitavecchia"
-  },
-  "Consulat general de Naples$": {
-    "en_GB": "Consulat general de Naples",
-    "nl_NL": "Consulat general de Naples"
+  "Consulat general de Naples \\(Consolato Generale di Napoli\\)$": {
+    "en_GB": "Consulat general de Naples (Consulate General of Naples)",
+    "nl_NL": "Consulat general de Naples (Consulaat-Generaal van Napels)"
   },
   "Conti saldati$": {
     "en_GB": "Cleared accounts",
@@ -376,13 +372,13 @@
     "en_GB": "Correspondance avec le Ministre des Affaires Etrangers (Correspondence with the Minister of Foreign Affairs)",
     "nl_NL": "Correspondance avec le Ministre des Affaires Etrangers (Correspondentie met de Minister van Buitenlandse Zaken)"
   },
-  "Correspondance avec le corps diplomatique$": {
-    "en_GB": "Corrispondence avec le corps diplomatique",
-    "nl_NL": "Corrispondence avec le corps diplomatique"
+  "Correspondance avec le corps diplomatique \\(Corrispondenza con il corpo diplomatico\\)$": {
+    "en_GB": "Corrispondence avec le corps diplomatique (Correspondence with the corps diplomatique)",
+    "nl_NL": "Corrispondence avec le corps diplomatique (Correspondentie met het corps diplomatique)"
   },
-  "Correspondance avec le department des affaires Etrangeres 1827-1829$": {
-    "en_GB": "Correspondance avec le department des affaires Etrangeres 1827-1829",
-    "nl_NL": "Correspondance avec le department des affaires Etrangeres 1827-1829"
+  "Correspondance avec le department des affaires Etrangeres (\\d\\d\\d\\d-\\d\\d\\d\\d) \\(Corrispondenza con il Ministero degli Affari Esteri (\\d\\d\\d\\d-\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Correspondance avec le department des affaires Etrangeres \\1 (Correspondence with the Ministry of Foreign Affairs \\2)",
+    "nl_NL": "Correspondance avec le department des affaires Etrangeres \\1 (Correspondentie met het Minister van Buitenlandse Zaken \\2)"
   },
   "Correspondance avec le lieutenent general De La Sarraz \\(Corrispondenza col \\$Sarraz\\)$": {
     "en_GB": "Correspondance avec le lieutenent general De La Sarraz (Correspondence with $Sarraz)",
@@ -392,9 +388,9 @@
     "en_GB": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
     "nl_NL": "Correspondance avec le ministre des affaires etranges sur diverses subjets (Correspondentie met de Minister van Buitenlandse Zaken over verschillende onderwerpen)"
   },
-  "Correspondance avec les agents consulaires$": {
-    "en_GB": "Correspondance avec les agents consulaires",
-    "nl_NL": "Correspondance avec les agents consulaires"
+  "Correspondance avec les agents consulaires \\(Corrispondenza con funzionari consolari\\)$": {
+    "en_GB": "Correspondance avec les agents consulaires (Correspondence with consular agents)",
+    "nl_NL": "Correspondance avec les agents consulaires (Correspondentie met consulaire ambtenaren)"
   },
   "Correspondance de M.H. Cartenstat a Mgr. Grooff \\(Corrispondenza di M.H. Cartenstat a Mgr. Grooff\\)$": {
     "en_GB": "Correspondance de M.H. Cartenstat a Mgr. Grooff (Correspondence of M.H. Cartenstat with Mgr. Grooff)",
@@ -476,7 +472,7 @@
     "en_GB": "Speech of the Mayor of Zürich given at the opening of the Diet",
     "nl_NL": "Toespraak van de Burgemeester van Zürich gegeven bij de opening van het Dieet"
   },
-  "Disegno acquarellato della bandiera segnale che dovranno inalberare tutti i legni di Sua Maestà il re di Sardegna (allegato alla lettera)$": {
+  "Disegno acquarellato della bandiera segnale che dovranno inalberare tutti i legni di Sua Maestà il re di Sardegna \\(allegato alla lettera\\)$": {
     "en_GB": "Watercolor drawing of the signal flag that all boats belonging to His Majesty the King of Sardinia will have to raise (attached to the letter)",
     "nl_NL": "Aquareltekening van de seinvlag die alle boten van Zijne Majesteit de Koning van Sardinië zullen moeten hijsen (toegevoegd aan de brief)"
   },
@@ -944,9 +940,17 @@
     "en_GB": "Journal des Débats (printed)",
     "nl_NL": "Journal des Débats (gedrukt)"
   },
-  "Les Autoritès Romaines$": {
-    "en_GB": "Les Autoritès Romaines",
-    "nl_NL": "Les Autoritès Romaines"
+  "Le Ministre des Affaires Estrangers \\(Il ministro degli Esteri\\)$": {
+    "en_GB": "Le Ministre des Affaires Estrangers (The Minister of Foreign Affairs)",
+    "nl_NL": "Le Ministre des Affaires Estrangers (De minister van Buitenlandse Zaken)"
+  },
+  "Le Segretaire d'Etat \\(Il Segretario di Stato\\)$": {
+    "en_GB": "Le Segretaire d'Etat (The Secretary of State)",
+    "nl_NL": "Le Segretaire d'Etat (De staatssecretaris)"
+  },
+  "Les Autoritès Romaines \\(Le autorità romane\\)$": {
+    "en_GB": "Les Autoritès Romaines (The Roman authorities)",
+    "nl_NL": "Les Autoritès Romaines (De Romeinse autoriteiten)"
   },
   "Lettera (a|al) (\\$\\w+) \\(annuncio della fuga del (\\$\\w+)\\)$": {
     "en_GB": "Letter to \\2 (announcement of the flight of \\3)",
@@ -1024,7 +1028,7 @@
     "en_GB": "Letter of \\2 to \\4 about the visits on board",
     "nl_NL": "Brief van \\2 aan \\4 over de bezoeken aan board"
   },
-  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegato lettera da Livorno del 2 marzo$": {
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegata lettera da Livorno del 2 marzo$": {
     "en_GB": "Letter of \\2 to \\4 with attached letter from Livorno from 2 March",
     "nl_NL": "Brief van \\2 aan \\4 met bijgesloten brief uit Livorno van 2 maart"
   },
@@ -1484,6 +1488,10 @@
     "en_GB": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (printed)",
     "nl_NL": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (gedrukt)"
   },
+  "Nomine fatta alla corte (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Appointments made at the court of \\2",
+    "nl_NL": "Afspraken gemaakt aan het hof van \\2"
+  },
   "Nota con allegata Bolla d'entrata$": {
     "en_GB": "Note with attached import note",
     "nl_NL": "Nota with bijgevoegde invoernota"
@@ -1622,19 +1630,19 @@
   },
   "Notizie Romane del (\\d\\d?) febbraio (\\d\\d\\d\\d)$": {
     "en_GB": "Roman News of \\1 Feb. \\2",
-    "nl_NL": "Nieuws uit Rome van \\1 feb. \\2"
+    "nl_NL": "Romeins nieuws van \\1 feb. \\2"
   },
   "Notizie Romane del (\\d\\d?) gennaro (\\d\\d\\d\\d)$": {
     "en_GB": "Roman News of \\1 Jan. \\2",
-    "nl_NL": "Nieuws uit Rome van \\1 jan. \\2"
+    "nl_NL": "Romeins nieuws van \\1 jan. \\2"
   },
   "Notizie Romane del (\\d\\d?) marzo (\\d\\d\\d\\d)$": {
     "en_GB": "Roman News of \\1 Mar. \\2",
-    "nl_NL": "Nieuws uit Rome van \\1 mar. \\2"
+    "nl_NL": "Romeins nieuws van \\1 mar. \\2"
   },
   "Notizie Romane$": {
     "en_GB": "Roman News",
-    "nl_NL": "Nieuws uit Rome"
+    "nl_NL": "Romeins nieuws"
   },
   "Notizie Ufficiali \\(a stampa\\)$": {
     "en_GB": "Notizie Ufficiali (printed)",
@@ -1643,6 +1651,58 @@
   "Notizie dal Marocco$": {
     "en_GB": "News from Morocco",
     "nl_NL": "Nieuws uit Marokko"
+  },
+  "Notizie di Roma dei (\\d\\d?) aprile (\\d\\d\\d\\d)$": {
+    "en_GB": "News of Rome of \\1 April \\2",
+    "nl_NL": "Nieuws van Rome van \\1 april \\2"
+  },
+  "Notizie di Roma dei (\\d\\d?) giugno (\\d\\d\\d\\d)$": {
+    "en_GB": "News from Rome of \\1 June \\2",
+    "nl_NL": "Nieuws van Rome van \\1 juni \\2"
+  },
+  "Notizie di Roma dei (\\d\\d?) maggio (\\d\\d\\d\\d)$": {
+    "en_GB": "News from Rome of \\1 May \\2",
+    "nl_NL": "Nieuws van Rome van \\1 mei \\2"
+  },
+  "Notizie romane dei (\\d\\d?) agosto (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 August \\2",
+    "nl_NL": "Romeins nieuws van \\1 augustus \\2"
+  },
+  "Notizie romane dei (\\d\\d?) aprile (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 April \\2",
+    "nl_NL": "Romeins nieuws van \\1 april \\2"
+  },
+  "Notizie romane dei (\\d\\d?) dicembre (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 Dicember \\2",
+    "nl_NL": "Romeins nieuws van \\1 december \\2"
+  },
+  "Notizie romane dei (\\d\\d?) febbraio (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 February \\2",
+    "nl_NL": "Romeins nieuws van \\1 februari \\2"
+  },
+  "Notizie romane dei (\\d\\d?) gennaio (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 January \\2",
+    "nl_NL": "Romeins nieuws van \\1 januari \\2"
+  },
+  "Notizie romane dei (\\d\\d?) luglio (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 July \\2",
+    "nl_NL": "Romeins nieuws van \\1 juli \\2"
+  },
+  "Notizie romane dei (\\d\\d?) marzo (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 March \\2",
+    "nl_NL": "Romeins nieuws van \\1 maart \\2"
+  },
+  "Notizie romane dei (\\d\\d?) novembre (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 November \\2",
+    "nl_NL": "Romeins nieuws van \\1 november \\2"
+  },
+  "Notizie romane dei (\\d\\d?) ottobre (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 October \\2",
+    "nl_NL": "Romeins nieuws van \\1 october \\2"
+  },
+  "Notizie romane dei (\\d\\d?) settembre (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman news of \\1 September \\2",
+    "nl_NL": "Romeins nieuws van \\1 september \\2"
   },
   "Notizie su uno spettacolo teatrale nel Teatro del Corso$": {
     "en_GB": "News about a theatrical spectacle in the Teatro del Corso",
@@ -1692,9 +1752,9 @@
     "en_GB": "Petition to pay homage to Pius IX undersigned by various Ministers of Foreign Affairs and directed to \\2",
     "nl_NL": "Petitie om eer te bewijzen aan Pius IX ondertekend door verschillende Ministers van Buitenlandse Zaken en gericht aan \\2"
   },
-  "Pieces Diverses$": {
-    "en_GB": "Pieces Diverses",
-    "nl_NL": "Pieces Diverses"
+  "Pieces Diverses \\(Documenti vari\\)$": {
+    "en_GB": "Pieces Diverses (Various documents)",
+    "nl_NL": "Pieces Diverses (Diverse stukken)"
   },
   "Principes Fondamentaux \\(Principi Fondemantali\\)$": {
     "en_GB": "Principes Fondamentaux (Fundamental Principles)",
@@ -1833,8 +1893,8 @@
     "nl_NL": "Rapport van \\2"
   },
   "Relazione circa i fatti che causarono l'intevento (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Report about the things that cause the intervention of \\2",
-    "nl_NL": "Rapport over de dingen die leiden tot de interventie van \\2"
+    "en_GB": "Report about the facts that cause the intervention of \\2",
+    "nl_NL": "Rapport over de zaken die leiden tot de interventie van \\2"
   },
   "Relazione dei fatti avvenuti a Napoli$": {
     "en_GB": "Report about the events that took place in Naples",
@@ -2264,13 +2324,13 @@
     "en_GB": "Transcription of a letter of \\2 to \\4",
     "nl_NL": "Transcriptie van een brief van \\2 aan \\4"
   },
+  "Trascrizione di una lettera (di|del|della) (\\$\\w+) trasmessa (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Transcription of a letter by \\2 sent by \\4",
+    "nl_NL": "Transcriptie van een brief door \\2 verstuurd door \\4"
+  },
   "Trascrizione di una lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a letter of \\2",
     "nl_NL": "Transcriptie van een brief van \\2"
-  },
-  "Trascrizione di una lettera (di|del|della) (\\$\\w+)\\) trasmessa (di|del|della) (\\$\\w+)\\)$": {
-    "en_GB": "Transcription of a letter by \\2 sent by \\4",
-    "nl_NL": "Transcriptie van een brief door \\2 verstuurd door \\4"
   },
   "Trascrizione di una lettera apostolica (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of an apostolic letter of \\2",
