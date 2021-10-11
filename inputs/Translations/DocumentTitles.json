@@ -8,6 +8,10 @@
     "en_GB": "\"\\1\" (printed)",
     "nl_NL": "\"\\1\" (gedrukt)"
   },
+  "\"(.+)\" \\(copia\\). A margine appunto a matita: \"Diamanti e beni della Casa Savoia ipotecati per sovvenire a spese di guerra\"$": {
+    "en_GB": "\"\\1\" (copy). In the margin noted with pencil: \"Diamonds and assets of the House of Savoy mortgaged to subsidize the expenses of war\"",
+    "nl_NL": "\"\\1\" (kopie). In de kantlijn met potlood genoteerd: \"Diamanten en bezittingen van het Huis van Savoye gehypothekeerd om de kosten van de oorlog te subsidiëren\""
+  },
   "\"(.+)\" di papa Pio IX circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from Pope Pius IX concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\2 Nov. \\3)",
     "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de toepassing van belasting op beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2 nov. \\3)"
@@ -36,19 +40,15 @@
     "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
-  "\"(.+?)\" \\(copia\\). A margine appunto a matita: \"Diamanti e beni della Casa Savoia ipotecati per sovvenire a spese di guerra\"$": {
-    "en_GB": "\"\\1\" (copy). In the margin noted with pencil: \"Diamonds and assets of the House of Savoy mortgaged to subsidize the expenses of war\"",
-    "nl_NL": "\"\\1\" (kopie). In de kantlijn met potlood genoteerd: \"Diamanten en bezittingen van het Huis van Savoye gehypothekeerd om de kosten van de oorlog te subsidiëren\""
-  },
-  "\"(.+?)\" firmato (da|dal) (\\$\\w+)$": {
+  "\"(.+)\" firmato (da|dal) (\\$\\w+)$": {
     "en_GB": "\"\\1\" signed by \\3",
     "nl_NL": "\"\\1\" ondertekend door \\3"
   },
-  "\"(.+?)\" nota sui fatti lacrimevoli avvenuti nei Paesi Bassi$": {
+  "\"(.+)\" nota sui fatti lacrimevoli avvenuti nei Paesi Bassi$": {
     "en_GB": "\"\\1\" note on the lamentable events that took place in the Netherlands",
     "nl_NL": "\"\\1\" nota over de betreurenswaardige gebeurtenissen die in Nederland hebben plaatsgevonden"
   },
-  "\"(.+?)\"$": {
+  "\"(.+)\"$": {
     "en_GB": "\"\\1\"",
     "nl_NL": "\"\\1\""
   },
@@ -856,6 +856,10 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jan. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jan. \\5)"
   },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5)"
+  },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 May \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 mei \\5)"
@@ -871,10 +875,6 @@
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Sep. \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 sep. \\5)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\w+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5)",
-    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Jun. \\5)",
@@ -908,11 +908,11 @@
     "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 May \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 mei. \\4)"
   },
-  "Giornale a stampa \"(.+)\" \\(Napoli, (\\d\\d?) nov. (\\d\\d\\d\\d), N. (\\d+), Anno (\\d+)°\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Napoli, (\\d\\d?) nov. (\\d\\d\\d\\d), N. (\\d+), Anno (\\w+)°\\)$": {
     "en_GB": "Printed newspaper “\\1” (Naples, \\2 Nov. \\3, N. \\4, Year \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 nov. \\3, N. \\4, Year \\5)"
   },
-  "Giornale a stampa \"(.+?)\"$": {
+  "Giornale a stampa \"(.+)\"$": {
     "en_GB": "Printed newspaper “\\1”",
     "nl_NL": "Gedrukte krant “\\1”"
   },
@@ -1892,6 +1892,10 @@
     "en_GB": "Relation d'un entretien avec le Prince de Metternich (report about a conversation with \\1)",
     "nl_NL": "Relation d'un entretien avec le Prince de Metternich (rapport over een gesprek met \\1)"
   },
+  "Relazione (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)": {
+    "en_GB": "Report from \\2 to \\4",
+    "nl_NL": "Rapport van \\2 aan \\4"
+  },
   "Relazione (di|del|della) (\\$\\w+) con estratti e trascrizioni$": {
     "en_GB": "Report from \\2 with extracts and transcriptions",
     "nl_NL": "Rapport van \\2 met uittreksels en transcripties"
@@ -1927,6 +1931,10 @@
   "Relazione$": {
     "en_GB": "Report",
     "nl_NL": "Rapport"
+  },
+  "Relazioni (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Reports from \\2",
+    "nl_NL": "Rapporten van \\2"
   },
   "Reveu des Deux Mondes \\(traduzione e trascrizione\\)$": {
     "en_GB": "Reveu des Deux Mondes (translation and transcription)",
