@@ -1600,6 +1600,10 @@
     "en_GB": "Notification to the inhabitants of Rome about the arms license",
     "nl_NL": "Melding aan de inwoners van Rome over de wapenvergunning"
   },
+  "Notificazione circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Notification concerning the tax on the exercise of professions (Rome, Tipografia della Rev. Cam. Apost., \\1)",
+    "nl_NL": "Notificatie omtrent de belasting op de uitoefening van beroepen (Rome, Tipografia della Rev. Cam. Apost., \\1)"
+  },
   "Notificazione della Commissione governativa di Stato \\(a stampa\\)$": {
     "en_GB": "Notification of the Commissione governativa di Stato (printed)",
     "nl_NL": "Melding van de Commissione governativa di Stato (gedrukt)"
@@ -2012,6 +2016,10 @@
     "en_GB": "Translation of the program of the Council of Ministers",
     "nl_NL": "Vertaling van het programma van de Raad van Ministers"
   },
+  "Traduzione del “(.+)” di papa Pio IX circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of the “\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Vertaling van de “\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
   "Traduzione dell'allocuzione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of the allocution of \\2",
     "nl_NL": "Vertaling van de toespraak van \\2"
@@ -2331,6 +2339,38 @@
   "“(.+)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "“(.+)” \\(Roma, Ufizio Uffizio Centrale della Cività Cattolica, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
+    "nl_NL": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)"
+  },
+  "“(.+)” di papa Pio IX circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\2 Nov. \\3)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de toepassing van belasting op beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2 nov. \\3)"
+  },
+  "“(.+)” di papa Pio IX circa la legge sul governo dei Comuni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the Municipalities (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de Gemeentes (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "“(.+)” di papa Pio IX circa la legge sul governo delle provincie e sull'amministrazione provinciale \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the provinces and about provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de provincies en over provinciale administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "“(.+)” di papa Pio IX circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "“(.+)” di papa Pio IX circa la pubblica amministrazione \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning public administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent publieke administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "“(.+)” di papa Pio IX circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the tax on the exercise of professions (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de belasting op de uitoefening van beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "“(.+)” di papa Pio IX circa le disposizioni speciali sulla rappresentanza e sull'amministrazione del Comune di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "“(.+)”, per lesa maestà \\(Bologna, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1”, for lese majesty (Bologna, \\2 May \\3)",
