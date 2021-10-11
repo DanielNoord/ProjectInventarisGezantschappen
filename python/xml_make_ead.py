@@ -60,7 +60,7 @@ def create_xml_dossier(
     v_num: str,
     c01: etree._Element,
     database: Database,
-) -> None:
+) -> set[str]:
     """Creates necessary dossier entries at the c02 level"""
     dossiers: dict[str, etree._Element] = {}
 
@@ -83,10 +83,14 @@ def create_xml_dossier(
 
     create_xml_individual_files(sheet, dossiers, c01, database)
 
+    if not dossiers:
+        return {v_num}
+    return {f"{v_num}_{i}" for i in dossiers}
+
 
 def create_xml_volume(
     filename: str, archdesc: etree._Element, database: Database
-) -> None:
+) -> dict[str, set[str]]:
     """Adds a volume to an 'archdesc' element"""
     workbook = load_workbook(filename)
     first_sheet = workbook[workbook.sheetnames[0]]
@@ -95,15 +99,18 @@ def create_xml_volume(
     volume_data = parse_volume(first_sheet[1])
     c01 = volume_entry(archdesc, volume_data)
 
-    create_xml_dossier(first_sheet, volume_data.num, c01, database)
+    dossiers = create_xml_dossier(first_sheet, volume_data.num, c01, database)
 
     print(f"""Finished writing volume {volume_data.num}\n""")
+
+    return {volume_data.num: dossiers}
 
 
 def create_xml_file(dir_name: str) -> None:
     """Creates and writes an xml file based on directory of volumes"""
     print("Starting to create XML file!")
     database = initialize_database_for_xml()
+    dossiers: dict[str, set[str]] = {}
 
     root, archdesc_dsc = basic_xml_file()
 
@@ -115,7 +122,9 @@ def create_xml_file(dir_name: str) -> None:
         ),
     ):
         if not file.count("~$") and file.startswith("Paesi"):
-            create_xml_volume(f"{dir_name}/{file}", archdesc_dsc, database)
+            dossiers.update(
+                create_xml_volume(f"{dir_name}/{file}", archdesc_dsc, database)
+            )
 
     tree = etree.ElementTree(root)
 
@@ -131,6 +140,8 @@ def create_xml_file(dir_name: str) -> None:
 
     print("Printed file to outputs/Legation_Archive.xml")
     print("Writing XML complete!")
+    for i in dossiers.values():
+        print(", ".join(i))
 
     os.system(
         "xmllint --noout --dtdvalid outputs/ead3.dtd outputs/Legation_Archive.xml"
