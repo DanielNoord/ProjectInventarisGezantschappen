@@ -8986,6 +8986,35 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Russell": {
+    "ISNI:id": "0000 0001 2130 5389",
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1792-08-18",
+    "date_of_death": "1878-05-28",
+    "functions": [
+      ["Segretario della Guerra e Colonie del Regno Unito", "1839/1841"],
+      ["Presidente del Consiglio dei Ministri del Regno Unito", "1846/1852"],
+      ["Presidente del Consiglio dei Ministri del Regno Unito", "1865/1866"]
+    ],
+    "images": [
+      "https://www.portrait.gov.au/portraits/2014.2/lord-john-russell",
+      "https://www.npg.org.uk/collections/search/portrait/mw05514/John-Russell-1st-Earl-Russell?LinkID=mp03900&role=sit&rNo=7",
+      "https://www.npg.org.uk/collections/search/portrait/mw05516/John-Russell-1st-Earl-Russell?LinkID=mp03900&role=sit&rNo=10"
+    ],
+    "name": "John",
+    "person_type": 1,
+    "place_of_birth": "Londra",
+    "place_of_death": "Londra",
+    "sources": [
+      "Wadpole, Spencer, The Life of Lord John Russell. Vol. I (Longmans, Green and co.: London, 1889)",
+      "Wadpole, Spencer, The Life of Lord John Russell. Vol. II (Longmans, Green and co.: London, 1889)",
+      "Ward, John M. 'Russell, John (1792-1887)', in: Australian Dictionary of Biography. Vol. 21 (1967), found on: https://adb.anu.edu.au/biography/russell-john-2619/text3615"
+    ],
+    "surname": "Russell",
+    "titles": [["1° Earl Russell", "1861/"]],
+    "wikidata:id": "Q157259"
+  },
   "$Sacconi": {
     "ISNI:id": null,
     "comment": "",

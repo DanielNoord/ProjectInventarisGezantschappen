@@ -1,5 +1,10 @@
 {
   "$schema": "../../static/JSON/Titles.json",
+  "1° Earl Russell": {
+    "en_GB": "1st Earl Russell",
+    "nl_NL": "1e Earl Russell",
+    "position": "After"
+  },
   "1° ufficiale della sanità in pensione di 2° classe": {
     "en_GB": "retired 1st officer of health, 2nd class,",
     "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
