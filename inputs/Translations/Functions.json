@@ -1224,13 +1224,13 @@
     "en_GB": "President of the council of ministers of the Papel States",
     "nl_NL": "Voorzitter van de ministerraad van de Kerkelijke Staat"
   },
-  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri Zaken del Regno dei Paesi Bassi": {
-    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Netherlands",
-    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
-  },
   "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno d'Italia": {
     "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of Italy",
     "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Italië"
+  },
+  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno dei Paesi Bassi": {
+    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Netherlands",
+    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
   },
   "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno delle Due Sicilie": {
     "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Two Sicilies",
