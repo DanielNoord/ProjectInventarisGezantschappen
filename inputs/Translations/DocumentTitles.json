@@ -1,8 +1,40 @@
 {
   "$schema": "../../static/JSON/DocumentTitles.json",
+  "\"(.+)\" \\(Roma, Ufizio Uffizio Centrale della Cività Cattolica, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
+    "nl_NL": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)"
+  },
   "\"(.+)\" \\(a stampa\\)$": {
     "en_GB": "\"\\1\" (printed)",
     "nl_NL": "\"\\1\" (gedrukt)"
+  },
+  "\"(.+)\" di papa Pio IX circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\2 Nov. \\3)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de toepassing van belasting op beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2 nov. \\3)"
+  },
+  "\"(.+)\" di papa Pio IX circa la legge sul governo dei Comuni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the Municipalities (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de Gemeentes (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "\"(.+)\" di papa Pio IX circa la legge sul governo delle provincie e sull'amministrazione provinciale \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the provinces and about provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de provincies en over provinciale administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "\"(.+)\" di papa Pio IX circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "\"(.+)\" di papa Pio IX circa la pubblica amministrazione \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning public administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent publieke administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "\"(.+)\" di papa Pio IX circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the tax on the exercise of professions (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de belasting op de uitoefening van beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "\"(.+)\" di papa Pio IX circa le disposizioni speciali sulla rappresentanza e sull'amministrazione del Comune di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "\"(.+?)\" \\(copia\\). A margine appunto a matita: \"Diamanti e beni della Casa Savoia ipotecati per sovvenire a spese di guerra\"$": {
     "en_GB": "\"\\1\" (copy). In the margin noted with pencil: \"Diamonds and assets of the House of Savoy mortgaged to subsidize the expenses of war\"",
@@ -808,41 +840,73 @@
     "en_GB": "Decorative frieze with acanthus spirals (printed engraving)",
     "nl_NL": "Decoratieve fries met acanthus-spiralen (geprinte gravure)"
   },
-  "Giornale a stampa \"(.+?)\"$": {
-    "en_GB": "Printed newspaper \"\\1\"",
-    "nl_NL": "Gedrukte krant \"\\1\""
-  },
-  "Giornale a stampa “(.+)” \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Year \\2 - N. \\3 of \\4 Aug. \\5)",
     "nl_NL": "Gedrukt blad “\\1” (Jaar \\2 - N. \\3 van \\4 aug. \\5)"
   },
-  "Giornale a stampa “(.+)” \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Apr. \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 feb. \\5)"
   },
-  "Giornale a stampa “(.+)” \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Dec. \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 dec. \\5)"
   },
-  "Giornale a stampa “(.+)” \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 May \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 mei \\5)"
   },
-  "Giornale a stampa “(.+)” \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Mar. \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 mrt. \\5)"
   },
-  "Giornale a stampa “(.+)” \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Year \\2 - N. \\3 of \\4 Nov. \\5)",
     "nl_NL": "Gedrukt blad “\\1” (Jaar \\2 - N. \\3 van \\4 nov. \\5)"
   },
-  "Giornale a stampa “(.+)” \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(Anno (\\d+) - N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Sep. \\5)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (Jaar \\2 - N. \\3 van \\4 sep. \\5)"
   },
-  "Giornale a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+  "Giornale a stampa \"(.+)\" \\(N. (\\d+) del (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Feb. \\4)",
     "nl_NL": "Gedrukt nieuwsblad “\\1” (N. \\2 van \\3 feb. \\4)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Jun. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 jun. \\5)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Nov. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 nov. \\5)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) - (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (N. \\2 - \\3 Sep. \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (N. \\2 - \\3 sep. \\4)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Jul. \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 jul. \\4)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 May \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 mei \\4)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Nov. \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 nov. \\4)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(Napoli, (\\d\\d?) nov. (\\d\\d\\d\\d), N. (\\d+), Anno (\\d+)°\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Naples, \\2 Nov. \\3, N. \\4, Year \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 nov. \\3, N. \\4, Year \\5)"
+  },
+  "Giornale a stampa \"(.+?)\"$": {
+    "en_GB": "Printed newspaper \"\\1\"",
+    "nl_NL": "Gedrukte krant \"\\1\""
   },
   "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Feb. \\5)",
@@ -852,45 +916,13 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jan. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jan. \\5)"
   },
-  "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5)",
-    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5)"
-  },
   "Giornale a stampa “(.+?)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Mar. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 mar. \\5)"
   },
-  "Giornale a stampa “(.+?)” \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Jun. \\5)",
-    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 jun. \\5)"
-  },
-  "Giornale a stampa “(.+?)” \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Nov. \\5)",
-    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 nov. \\5)"
-  },
-  "Giornale a stampa “(.+?)” \\(N. (\\d+) - (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2 - \\3 Sep. \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (N. \\2 - \\3 sep. \\4)"
-  },
-  "Giornale a stampa “(.+?)” \\(N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Jul. \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 jul. \\4)"
-  },
-  "Giornale a stampa “(.+?)” \\(N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 May \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 mei \\4)"
-  },
-  "Giornale a stampa “(.+?)” \\(N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Nov. \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 nov. \\4)"
-  },
   "Giornale a stampa “(.+?)” \\(N. (\\d+), del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 May \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 mei. \\4)"
-  },
-  "Giornale a stampa “(.+?)” \\(Napoli, (\\d\\d?) nov. (\\d\\d\\d\\d), N. (\\d+), Anno (\\d+)°\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Naples, \\2 Nov. \\3, N. \\4, Year \\5)",
-    "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 nov. \\3, N. \\4, Year \\5)"
   },
   "Giornale a stampa “(.+?)”$": {
     "en_GB": "Printed newspaper “\\1”",
@@ -1948,21 +1980,21 @@
     "en_GB": "On the return of Pius IX (printed notice)",
     "nl_NL": "Over de terugkeer van Pius IX (gedrukte melding)"
   },
-  "Supplemento al N. (\\d+) del giornale di Roma \\(a stampa\\)$": {
-    "en_GB": "Supplement to N. \\1 of the Giornale di Roma (printed)",
-    "nl_NL": "Bijlage bij N. \\1 van de Giornale di Roma (gedrukt)"
-  },
-  "Supplemento al “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+  "Supplemento a “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Supplement to “\\1” (\\2 Feb. \\3)",
     "nl_NL": "Bijlage bij “\\1” (\\2 feb. \\3)"
   },
-  "Supplemento al “(.+)” \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+  "Supplemento a “(.+)” \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Supplement to “\\1” (\\2 Jan. \\3)",
     "nl_NL": "Bijlage bij “\\1” (\\2 jan. \\3)"
   },
-  "Supplemento al “(.+)” \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+  "Supplemento a “(.+)” \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Supplement to “\\1” (\\2 Nov. \\3)",
     "nl_NL": "Bijlage bij “\\1” (\\2 nov. \\3)"
+  },
+  "Supplemento al N. (\\d+) del giornale di Roma \\(a stampa\\)$": {
+    "en_GB": "Supplement to N. \\1 of the Giornale di Roma (printed)",
+    "nl_NL": "Bijlage bij N. \\1 van de Giornale di Roma (gedrukt)"
   },
   "Supplica (di|del|della) (\\$\\w+)$": {
     "en_GB": "Plea from \\2",
@@ -2000,6 +2032,10 @@
     "en_GB": "Printed translation of an edict of \\2",
     "nl_NL": "Gedrukte vertaling van een edict van \\2"
   },
+  "Traduzione del \"(.+)\" di papa Pio IX circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of the “\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Vertaling van de “\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
   "Traduzione del Decreto del Commissario provvisorio del Governo dello Stato Romano$": {
     "en_GB": "Translation of a Decree of the interim Commissioner of the Government of the Roman State",
     "nl_NL": "Vertaling van een Decreet van de interim Commissaris van de Regering van de Romeinse Staat"
@@ -2015,10 +2051,6 @@
   "Traduzione del programma del Consiglio dei Ministri$": {
     "en_GB": "Translation of the program of the Council of Ministers",
     "nl_NL": "Vertaling van het programma van de Raad van Ministers"
-  },
-  "Traduzione del “(.+)” di papa Pio IX circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Translation of the “\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "Vertaling van de “\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "Traduzione dell'allocuzione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of the allocution of \\2",
@@ -2339,38 +2371,6 @@
   "“(.+)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
-  },
-  "“(.+)” \\(Roma, Ufizio Uffizio Centrale della Cività Cattolica, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
-    "nl_NL": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)"
-  },
-  "“(.+)” di papa Pio IX circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\2 Nov. \\3)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de toepassing van belasting op beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2 nov. \\3)"
-  },
-  "“(.+)” di papa Pio IX circa la legge sul governo dei Comuni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the Municipalities (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de Gemeentes (Rome, Tipografia della Rev. Cam. Apost., \\2)"
-  },
-  "“(.+)” di papa Pio IX circa la legge sul governo delle provincie e sull'amministrazione provinciale \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the provinces and about provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de provincies en over provinciale administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
-  },
-  "“(.+)” di papa Pio IX circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
-  },
-  "“(.+)” di papa Pio IX circa la pubblica amministrazione \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning public administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent publieke administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
-  },
-  "“(.+)” di papa Pio IX circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the tax on the exercise of professions (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de belasting op de uitoefening van beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2)"
-  },
-  "“(.+)” di papa Pio IX circa le disposizioni speciali sulla rappresentanza e sull'amministrazione del Comune di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "“(.+)”, per lesa maestà \\(Bologna, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1”, for lese majesty (Bologna, \\2 May \\3)",
