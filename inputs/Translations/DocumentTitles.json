@@ -1,5 +1,9 @@
 {
   "$schema": "../../static/JSON/DocumentTitles.json",
+  "\"(.+)\" \\(Dichiarazione del corpo militare del presidente di Civitavecchia\\)$": {
+    "en_GB": "\"\\1\" (Declaration of the French military unit to the president of Civitavecchia)",
+    "nl_NL": "\"\\1\" (Verklaring van de Franse militaire eenheid aan de president van Civitavecchia)"
+  },
   "\"(.+)\" \\(Roma, Uffizio Centrale della Cività Cattolica, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
     "nl_NL": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)"
@@ -11,6 +15,14 @@
   "\"(.+)\" \\(copia\\). A margine appunto a matita: \"Diamanti e beni della Casa Savoia ipotecati per sovvenire a spese di guerra\"$": {
     "en_GB": "\"\\1\" (copy). In the margin noted with pencil: \"Diamonds and assets of the House of Savoy mortgaged to subsidize the expenses of war\"",
     "nl_NL": "\"\\1\" (kopie). In de kantlijn met potlood genoteerd: \"Diamanten en bezittingen van het Huis van Savoye gehypothekeerd om de kosten van de oorlog te subsidiëren\""
+  },
+  "\"(.+)\" \\(rapporto su quello che è successo a Cesena, la notte del 14 Iuglio 1846 tradotto in Italiano\\)$": {
+    "en_GB": "\"\\1\" (rapport about what happened at Cesena, the night of 14 July 1846 translated to Italian)",
+    "nl_NL": "\"\\1\" (rapport over wat er is gebeurd in Cesena, de nacht van 14 juli 1846 vertaald naar het Italiaans)"
+  },
+  "\"(.+)\" \\(traduzione dell'ultimo paragrafo del discorso della Camera dei Deputati\\)$": {
+    "en_GB": "\"\\1\" (Translation of the last paragraph of the speech of the Chamer of Deputies)",
+    "nl_NL": "\"\\1\" (Vertaling van de laatste paragraaf van de speech van de Kamer van Afgevaardigden)"
   },
   "\"(.+)\" di papa Pio IX circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from Pope Pius IX concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\2 Nov. \\3)",
@@ -51,6 +63,10 @@
   "\"(.+)\"$": {
     "en_GB": "\"\\1\"",
     "nl_NL": "\"\\1\""
+  },
+  "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
+    "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
+    "nl_NL": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake geboren in Nederland overled in Ariccia 1846)"
   },
   "(\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "\\1 to \\3",
@@ -296,9 +312,9 @@
     "en_GB": "Handwritten circulaire of \\2",
     "nl_NL": "Handgeschreven circulaire van \\2"
   },
-  "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake \\(Conto delle Entrate e Spese fatto in occasione del decesso del mons. Guglielmo A. Bake\\)$": {
-    "en_GB": "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake (Account of revenue and expenditure drawn up on the occassion of the passing of mons. William A. Bake)",
-    "nl_NL": "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake (Rekening van inkomsten en uitgaven gemaakt naar aanleiding van het overlijden van mons. William A. Bake)"
+  "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake \\(Conto delle Entrate e Spese fatto in occasione del decesso del (\\$\\w+)\\)$": {
+    "en_GB": "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake (Account of revenue and expenditure drawn up on the occassion of the passing of \\1)",
+    "nl_NL": "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake (Rekening van inkomsten en uitgaven gemaakt naar aanleiding van het overlijden van \\1)"
   },
   "Comunicazione a stampa del (\\$\\w+) circa la nomina di una Commissione Governativa che avrebbe avuto la direzione degli affari pubblici \\(Gaeta, 27 nov. 1848\\)$": {
     "en_GB": "Printed communication from \\1 about the appointment of a Government Commission that would have the direction of public affairs (Gaeta, 27 nov. 1848)",
@@ -372,13 +388,13 @@
     "en_GB": "Copy of letters of \\2 to \\4 and \\6",
     "nl_NL": "Kopie van brieven van \\2 aan \\4 en \\6"
   },
+  "Copia di un Editto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Copy of an Edict of \\2",
+    "nl_NL": "Kopie van een Edict van \\2"
+  },
   "Copia di un decreto del Re dei Paesi Bassi in favore di (\\$\\w+)$": {
     "en_GB": "Copy of a decree of the King of the Netherlands in favour of \\1",
     "nl_NL": "Kopie van een verordening van de Koning der Nederlanden ten gunste van \\1"
-  },
-  "Copia di un editto (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Copy of an edict of \\2",
-    "nl_NL": "Kopie van een edict van \\2"
   },
   "Copia di una delibera dell'Ammiragliato di Genova$": {
     "en_GB": "Copy of a resolution of the Admiralty of Genoa",
@@ -447,10 +463,6 @@
   "Corrispondenza particolare da L'Indépendance Belge$": {
     "en_GB": "Special correspondance from L'Indépendance Belge",
     "nl_NL": "Bijzondere correspondentie uit L'Indépendance Belge"
-  },
-  "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare del presidente di Civitavecchia\\)$": {
-    "en_GB": "Declaration du corps de troupe francais au président de Civitavecchia (Declaration of the French military unit to the president of Civitavecchia)",
-    "nl_NL": "Declaration du corps de troupe francais au président de Civitavecchia (Verklaring van de Franse militaire eenheid aan de president van Civitavecchia)"
   },
   "Decreto a stampa (di|del|della) (\\$\\w+) su tariffe doganali e prezzi$": {
     "en_GB": "Printed decree of \\2 about custom rates and prices",
@@ -660,9 +672,9 @@
     "en_GB": "Extract from the observations from the representatives of the House of Representatives",
     "nl_NL": "Uittreksel van de observaties van de vertegenwoordigers van de Tweede Kamer der Staten-Generaal"
   },
-  "Estratto di Lo Statuto \\(a stampa\\)$": {
-    "en_GB": "Extract from Lo Statuto (printed)",
-    "nl_NL": "Uittreksel van Lo Statuto (gedrukt)"
+  "Estratto di Lo Statuto$": {
+    "en_GB": "Extract from Lo Statuto",
+    "nl_NL": "Uittreksel van Lo Statuto"
   },
   "Estratto di notizie su Firenze e sul (\\$\\w+)$": {
     "en_GB": "Extract from news about Florence and \\1",
@@ -779,10 +791,6 @@
   "Foglio a stampa \"(.+)\"$": {
     "en_GB": "Printed sheet \"\\1\"",
     "nl_NL": "Gedrukt blad \"\\1\""
-  },
-  "Foglio a stampa (.+) (di|del|della) (\\$\\w+) circa le tariffe daziarie a favore dei fabbricatori di panni di lana \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
-    "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
   },
   "Foglio a stampa della relazione di una adunanza della Camera dei Deputati$": {
     "en_GB": "Printed sheet about the report from an assembly of the Chamber of Deputies",
@@ -904,6 +912,10 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Nov. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 nov. \\5)"
   },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+)° - Napoli, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Naples, N. \\3 \\4 Nov. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Napels, N. \\3 \\4 nov. \\5)"
+  },
   "Giornale a stampa \"(.+)\" \\(N. (\\w+) - (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 - \\3 Sep. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 - \\3 sep. \\4)"
@@ -923,14 +935,6 @@
   "Giornale a stampa \"(.+)\" \\(N. (\\w+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Nov. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 nov. \\4)"
-  },
-  "Giornale a stampa \"(.+)\" \\(N. (\\w+), del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 May \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 mei. \\4)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Napoli, (\\d\\d?) nov. (\\d\\d\\d\\d), N. (\\d+), Anno (\\w+)°\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Naples, \\2 Nov. \\3, N. \\4, Year \\5)",
-    "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 nov. \\3, N. \\4, Year \\5)"
   },
   "Giornale a stampa \"(.+)\"$": {
     "en_GB": "Printed newspaper “\\1”",
@@ -1297,8 +1301,8 @@
     "nl_NL": "Circulaire aan \\2"
   },
   "Lettera circolare (a|al) (\\$\\w+), (a|al) (\\$\\w+), (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
-    "en_GB": "Circulaire to \\2, to \\4, to 6 and to 8",
-    "nl_NL": "Circulaire aan \\2, aan \\4, aan 6 en aan 8"
+    "en_GB": "Circulaire to \\2, to \\4, to \\6 and to \\8",
+    "nl_NL": "Circulaire aan \\2, aan \\4, aan \\6 en aan \\8"
   },
   "Lettera circolare (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Circulaire of \\2 to \\4",
@@ -1676,10 +1680,6 @@
     "en_GB": "Notification for the Fair of Sinigaglia in the year \\1 (printed)",
     "nl_NL": "Mededeling voor de Markt van Sinigaglia in het jaar \\1 (gedrukt)"
   },
-  "Notificazioni a stampa di papa Pio IX ai cittadini Romani circa la presa di possesso presso la Basilica Lateranense \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed notifications by Pope Pius IX to the citizens of Rome about taking possession of the Lateran Basilica (Rome, Tipografia della Rev. Cam. Apost., \\1)",
-    "nl_NL": "Gedrukte notificaties van Paus Pius IX aan de burgers van Rome over het in bezit nemen van de Basiliek van Sint-Jan van Lateranen (Rome, Tipografia della Rev. Cam. Apost., \\1)"
-  },
   "Notizie Romane con trascrizione di Sonetto satirico su (\\$\\w+)$": {
     "en_GB": "Notizie Romane with transcription of satirical sonnet about \\1",
     "nl_NL": "Notizie Romane met transcriptie van satirische Sonnet over \\1"
@@ -1844,7 +1844,7 @@
     "en_GB": "Draft declaration to be put before \\2",
     "nl_NL": "Conceptdeclaratie om voor te leggen aan \\2"
   },
-  "Programma del nuovo Ministero (a stampa)$": {
+  "Programma del nuovo Ministero \\(a stampa\\)$": {
     "en_GB": "Program of the new Ministry (printed)",
     "nl_NL": "Programma van het nieuwe Ministerie (gedrukt)"
   },
@@ -1884,13 +1884,9 @@
     "en_GB": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai",
     "nl_NL": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai"
   },
-  "Rapport medical sur le maladie de monsieur Bake \\(referto medico sulla malattia del signor Bake\\)$": {
-    "en_GB": "Rapport medical sur le maladie de monsieur Bake (medical report about the illness of Mister Bake)",
-    "nl_NL": "Rapport medical sur le maladie de monsieur Bake (medisch rapport over de ziekte van de Heer Bake)"
-  },
-  "Rapport sur ce qui s'est passé à Césène, le soir du 14 Juillet 1846 traduit de l'Italien \\(rapporto su quello che è successo a Cesena, la notte del 14 Iuglio 1846 tradotto in Italiano\\)$": {
-    "en_GB": "Rapport sur ce qui s'est passé à Césène, le soir du 14 Juillet 1846 traduit de l'Italien (rapport about what happened at Cesena, the night of 14 July 1846 translated to Italian)",
-    "nl_NL": "Rapport sur ce qui s'est passé à Césène, le soir du 14 Juillet 1846 traduit de l'Italien (rapport over wat er is gebeurd in Cesena, de nacht van 14 juli 1846 vertaald naar het Italiaans)"
+  "Rapport medical sur le maladie de monsieur Bake \\(referto medico sulla malattia del (\\$\\w+)\\)$": {
+    "en_GB": "Rapport medical sur le maladie de monsieur Bake (medical report about the illness of \\1)",
+    "nl_NL": "Rapport medical sur le maladie de monsieur Bake (medisch rapport over de ziekte van \\1)"
   },
   "Rapport sur la consommation et le commerce des sucres, et cafés dans les Etats Romains$": {
     "en_GB": "Rapport sur la consommation et le commerce des sucres, et cafés dans les Etats Romains",
@@ -2068,10 +2064,6 @@
     "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
     "nl_NL": "Statuten van de Società Olivi-moricola van de Kerkelijke Staat (gedrukt)"
   },
-  "Suite du Journal del (\\$\\w+)$": {
-    "en_GB": "Suite du Journal of \\1",
-    "nl_NL": "Voortzetting van het logboek van \\1"
-  },
   "Suite du journal del (\\$\\w+) \\(continuazione del giornale (di|del|della) (\\$\\w+)\\)$": {
     "en_GB": "Suite du journal del \\1 (Continuation of the journal of \\3)",
     "nl_NL": "Suite du journal del \\1 (Voortzetting van het logboek van \\3)"
@@ -2119,10 +2111,6 @@
   "Traduction de la circulaire de son Eminence le Cardinal Soglia \\(traduzione della circolare della Sua Eminenza Cardinale Soglia\\)$": {
     "en_GB": "Traduction de la circulaire de son Eminence le Cardinal Soglia (translation of a circulaire of His Eminence Cardinal Soglia)",
     "nl_NL": "Traduction de la circulaire de son Eminence le Cardinal Soglia (vertaling van een circulaire van Zijne Eminentie Kardinaal Soglia)"
-  },
-  "Traduction du dernier paragraph de l'adresse de la Chambre des deputes \\(traduzione dell'ultimo paragrafo del discorso della Camera dei Deputati\\)$": {
-    "en_GB": "Traduction du dernier paragraph de l'adresse de la Chambre des deputes (Translation of the last paragraph of the speech of the Chamer of Deputies)",
-    "nl_NL": "Traduction du dernier paragraph de l'adresse de la Chambre des deputes (Vertaling van de laatste paragraaf van de speech van de Kamer van Afgevaardigden)"
   },
   "Traduzione Sur La Ligue Italienne \\(estratto dall Gazetta di Roma (di|del|della) (\\$\\w+)\\)$": {
     "en_GB": "Translation Sur La Ligue Italienne (extract from Gazetta di Roma from \\2)",
@@ -2180,6 +2168,10 @@
     "en_GB": "Translation of a printed notice “\\1” (Rome, \\2 Aug. \\3)",
     "nl_NL": "Vertaling van een gedrukte melding “\\1” (Rome, \\2 aug. \\3)"
   },
+  "Traduzione della \"Protesta che la Santità di N. S. Pio PP. IX circondato dal Sacro Collegio ha fatto in Gaeta innanzi al Corpo Diplomatico la mattina del 14 febbraio 1849\"$": {
+    "en_GB": "Translation of the \"Protest that His Holiness of Our Lord Pope Pius IX surrounded by the Sacred College made in Gaeta before the Diplomatic Corps on 14 February 1849\"",
+    "nl_NL": "Vertaling van het \"Protest dat Zijne Heiligheid van Onze Heer Paus Pius IX, omringd door het Heilige College, maakte in Gaeta voor het Corps Diplomatique op 14 februari 1849\""
+  },
   "Traduzione della Giunta Suprema di Stato$": {
     "en_GB": "Translation of the Giunta Suprema di Stato",
     "nl_NL": "Vertaling van de Giunta Suprema di Stato"
@@ -2188,10 +2180,6 @@
     "en_GB": "Translation of the Protest of \\2",
     "nl_NL": "Vertaling van het Protest van \\2"
   },
-  "Traduzione della Protesta che la Santità di N. S. Pio PP. IX circondato dal Sacro Collegio ha fatto in Gaeta innanzi al Corpo Diplomatico la mattina del 14 febbraio 1849$": {
-    "en_GB": "Translation of the Protest that His Holiness of Our Lord Pope Pius IX surrounded by the Sacred College made in Gaeta before the Diplomatic Corps on 14 February 1849",
-    "nl_NL": "Vertaling van het Protest dat Zijne Heiligheid van Onze Heer Paus Pius IX, omringd door het Heilige College, maakte in Gaeta voor het Corps Diplomatique op 14 februari 1849"
-  },
   "Traduzione della circolare a stampa (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of the printed circulaire of \\2",
     "nl_NL": "Vertaling van de gedrukte circulaire van \\2"
@@ -2199,10 +2187,6 @@
   "Traduzione della lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of the letter of \\2 to \\4",
     "nl_NL": "Vertaling van de brief van \\2 aan \\4"
-  },
-  "Traduzione della lettera (di|del|della) (\\$\\w+) ai Cardinali Legati$": {
-    "en_GB": "Translation of the letter of \\2 to the Cardinal Legats",
-    "nl_NL": "Vertaling van de brief van \\2 aan de Kardinaal-Legaten"
   },
   "Traduzione della lettera (di|del|della) (\\$\\w+) suoi sudditi$": {
     "en_GB": "Translation of the letter of \\2 about his subjects",
@@ -2284,6 +2268,10 @@
     "en_GB": "Translation of an apostolic letter of \\2",
     "nl_NL": "Vertaling van een apostolische brief van \\2"
   },
+  "Traduzione di una lettera circolare (di|del|della) (\\$\\w+) ai Cardinali Legati$": {
+    "en_GB": "Translation of a circulaire of \\2 to the Cardinal Legats",
+    "nl_NL": "Vertaling van een circulaire van \\2 aan de Kardinaal-Legaten"
+  },
   "Traduzione di una lettera circolare (di|del|della) (\\$\\w+) ai Ministri degli Esteri$": {
     "en_GB": "Translation of a circulaire of \\2 to the Ministers of Foreign Affairs",
     "nl_NL": "Vertaling van een circulaire van \\2 aan de Ministers van Buitenlandse Zaken"
@@ -2358,7 +2346,7 @@
   },
   "Trascrizione di un estratto dal Journal Officiel du Royaume des Pays-Bas$": {
     "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",
-    "nl_NL": "Transcriptie van een exract uit het Journal Officiel du Royaume des Pays-Bas"
+    "nl_NL": "Transcriptie van een extract uit het Journal Officiel du Royaume des Pays-Bas"
   },
   "Trascrizione di un proclama del Comitato Italiano al Popolo della Romagna$": {
     "en_GB": "Transcription of a proclamation of the Italian Committee to the People of the Romagna",
@@ -2423,10 +2411,6 @@
   "Verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$": {
     "en_GB": "Report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
     "nl_NL": "Rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
-  },
-  "William Archibald Bake né en Hollande mort en Ariccia 1846 \\(Giuglielmo Archibald Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
-    "en_GB": "William Archibald Bake né en Hollande mort en Ariccia 1846 (William Archibald Bake born in the Netherlands died in Ariccia 1846)",
-    "nl_NL": "William Archibald Bake né en Hollande mort en Ariccia 1846 (William Archibald Bake geboren in Nederland overled in Ariccia 1846)"
   },
   "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua$": {
     "en_GB": "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua",
