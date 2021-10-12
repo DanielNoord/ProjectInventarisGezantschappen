@@ -1,29 +1,25 @@
-from typing import Optional
+from typing import Union
+
+from typing_utils import DateTuple
+
+from date_functions.create_dates_tuple import create_date_tuple
 
 
 def check_begin(  # pylint: disable=too-many-return-statements
-    date: tuple[Optional[int], Optional[int], Optional[int]], begin_date: list[str]
+    date: DateTuple, begin_date: DateTuple
 ) -> bool:
-    """Checks if a date falls after or on a specific date
-
-    Args:
-        date (tuple[Optional[int], Optional[int], Optional[int]]): Date to check
-        begin_date (list[str]): Begin date where the other date has to be after or on
-
-    Returns:
-        bool: Whether the check passed
-    """
-    if begin_date == [""]:
+    """Checks if a date falls after or on a specific date"""
+    if not begin_date.year and not begin_date.month and not begin_date.day:
         return True
-    if date[0] is not None and date[0] > int(begin_date[0]):
+    if date.year and date.year > begin_date.year:  # type: ignore # mypy error
         return True
-    if date[0] is not None and date[0] == int(begin_date[0]):
-        if date[1] is not None and len(begin_date) > 1:
-            if date[1] > int(begin_date[1]):
+    if date.year and date.year == begin_date.year:
+        if date.month and begin_date.month:
+            if date.month > begin_date.month:
                 return True
-            if date[1] == int(begin_date[1]):
-                if date[2] is not None and len(begin_date) > 2:
-                    return bool(date[2] >= int(begin_date[2]))
+            if date.month == begin_date.month:
+                if date.day and begin_date.day:
+                    return bool(date.day >= begin_date.day)
                 return True
             return False
         return True
@@ -31,28 +27,20 @@ def check_begin(  # pylint: disable=too-many-return-statements
 
 
 def check_end(  # pylint: disable=too-many-return-statements
-    date: tuple[Optional[int], Optional[int], Optional[int]], end_date: list[str]
+    date: DateTuple, end_date: DateTuple
 ) -> bool:
-    """Checks if a date falls before or on a specific date
-
-    Args:
-        date (tuple[Optional[int], Optional[int], Optional[int]]): Date to check
-        end_date (list[str]): End date where the other date has to be before or on
-
-    Returns:
-        bool: Whether the check passed
-    """
-    if end_date == [""]:
+    """Checks if a date falls before or on a specific date"""
+    if not end_date.year and not end_date.month and not end_date.day:
         return True
-    if date[0] is not None and (date[0] < int(end_date[0])):
+    if date.year and date.year < end_date.year:  # type: ignore # mypy error
         return True
-    if date[0] is not None and date[0] == int(end_date[0]):
-        if date[1] is not None and len(end_date) > 1:
-            if date[1] < int(end_date[1]):
+    if date.year and date.year == end_date.year:
+        if date.month and end_date.month:
+            if date.month < end_date.month:
                 return True
-            if date[1] == int(end_date[1]):
-                if date[2] is not None and len(end_date) > 2:
-                    return bool(date[2] <= int(end_date[2]))
+            if date.month == end_date.month:
+                if date.day and end_date.day:
+                    return bool(date.day <= end_date.day)
                 return True
             return False
         return True
@@ -60,23 +48,20 @@ def check_end(  # pylint: disable=too-many-return-statements
 
 
 def check_date(
-    date: tuple[Optional[int], Optional[int], Optional[int]], function_period: str
+    date: Union[tuple[DateTuple], tuple[DateTuple, DateTuple]],
+    function_period: str,
 ) -> bool:
-    """Checks if the given date falls within the period an individual held the position
+    """Checks if the given date falls within the period an individual held the position"""
+    dates = create_date_tuple(function_period)
+    if len(dates) != 2:
+        raise ValueError(f"Missing a '/' in function/title with date {function_period}")
 
-    Args:
-        date (tuple[Optional[int], Optional[int], Optional[int]]): Date of the file to be checked
-        function_period (str): Period in which an individual held a position/title
+    begin_date, end_date = dates  # type: ignore
 
-    Returns:
-        bool: Whether the date fits or not
-    """
-    try:
-        begin_date, end_date = [i.split("-") for i in function_period.split("/")]
-    except ValueError as error:
-        raise ValueError(
-            f"Missing a '/' in function/title with date {function_period}"
-        ) from error
-    if check_begin(date, begin_date) and check_end(date, end_date):
-        return True
+    if len(date) == 1:
+        if check_begin(date[0], begin_date) and check_end(date[0], end_date):
+            return True
+    else:
+        if check_begin(end_date, date[0]) and check_end(begin_date, date[1]):  # type: ignore # ???
+            return True
     return False
