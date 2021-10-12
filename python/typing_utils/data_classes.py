@@ -5,9 +5,7 @@ class VolData(NamedTuple):
     """Data about a volume"""
 
     num: str
-    title_it: str
-    title_en: str
-    title_nl: str
+    title: str
     date: str
 
 
@@ -23,9 +21,17 @@ class DateData(NamedTuple):
 
 
 class FileData(NamedTuple):
-    """ "Data about a file"""
+    """Data about a file"""
 
     page: str
     title: str
     place: str
     date_string: str
+
+
+class DateTuple(NamedTuple):
+    """Tuple with entry for year, month and day"""
+
+    year: Optional[int]
+    month: Optional[int]
+    day: Optional[int]
