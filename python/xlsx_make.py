@@ -124,7 +124,7 @@ def create_sanitized_xlsx(directory_name: str) -> None:
     """
 
     directory_path = os.path.realpath(directory_name)
-    for file in os.listdir(directory_path):
+    for file in sorted(os.listdir(directory_path)):
         if not str(file).count("~$") and str(file).startswith("Paesi"):
             filename = os.fsdecode(file)
             sanitize_xlsx(directory_name, filename)
