@@ -784,6 +784,10 @@
     "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
   },
+  "Foglio a stampa della relazione di una adunanza della Camera dei Deputati$": {
+    "en_GB": "Printed sheet about the report from an assembly of the Chamber of Deputies",
+    "nl_NL": "Gedrukt blad over een rapport van een bijeenkomst van de Kamer van Afgevaardigden"
+  },
   "Foglio a stampa sulle legge di navigazione nei Paesi Bassi da L'Indépendance Belge$": {
     "en_GB": "Printed sheet about the laws of navigation in the Netherlands from L'Indépendance Belge",
     "nl_NL": "Gedrukt blad over de scheepsvaartwetten in Nederland uit L'Indépendance Belge"
