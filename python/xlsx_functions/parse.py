@@ -48,7 +48,7 @@ def parse_dossier(  # pylint: disable=too-many-branches
         raise ValueError(
             f"Number Cell of dossier should be a string. Incorrect for:\n{start_cell.value}"
         )
-    if start_cell.value.endswith("_0") and start_cell.row:
+    if start_cell.value.endswith("_title") and start_cell.row:
         dos_title = str(sheet["B"][int(start_cell.row) - 1].value)
     else:
         dos_title = "Missing dossier title"

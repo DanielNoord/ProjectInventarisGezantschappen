@@ -25,7 +25,7 @@ def create_xml_individual_files(
     used_trans: set[re.Pattern[str]] = set()
 
     for file in sheet.iter_rows():
-        if file[0].value is not None and not file[0].value.endswith("_0"):
+        if file[0].value is not None and not file[0].value.endswith("_title"):
             if prev_file is not None and prev_file_did is not None:
                 similar = compare_rows(file, prev_file)
 
@@ -101,18 +101,23 @@ def create_xml_volume(
     """Adds a volume to an 'archdesc' element"""
     workbook = load_workbook(filename)
     first_sheet = workbook[workbook.sheetnames[0]]
+    used_translations: set[re.Pattern[str]] = set()
 
     # Create volume entry at c01 level
     volume_data = parse_volume(first_sheet[1])
-    c01 = volume_entry(archdesc, volume_data)
+    c01, used_trans_vol = volume_entry(archdesc, volume_data, database)
 
-    dossiers, used_trans = create_xml_dossier(
+    dossiers, used_trans_dos = create_xml_dossier(
         first_sheet, volume_data.num, c01, database
     )
 
+    if used_trans_vol:
+        used_translations.add(used_trans_vol)
+    used_translations.update(used_trans_dos)
+
     print(f"""Finished writing volume {volume_data.num}\n""")
 
-    return {volume_data.num: dossiers}, used_trans
+    return {volume_data.num: dossiers}, used_translations
 
 
 def create_xml_file(dir_name: str) -> None:

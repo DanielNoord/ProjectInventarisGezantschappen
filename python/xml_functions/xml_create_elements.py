@@ -5,8 +5,13 @@ from date_functions import create_date_data
 from lxml import etree
 from typing_utils import Database, FileData, VolData
 
-from xml_functions import (add_dateset, add_geognames, add_persname,
-                           add_unitdate, add_unittitle)
+from xml_functions import (
+    add_dateset,
+    add_geognames,
+    add_persname,
+    add_unitdate,
+    add_unittitle,
+)
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:
@@ -82,19 +87,20 @@ def basic_xml_file() -> tuple[etree._Element, etree._Element]:
     return root, archdesc_dsc
 
 
-def volume_entry(archdesc_dsc: etree._Element, volume_data: VolData) -> etree._Element:
+def volume_entry(
+    archdesc_dsc: etree._Element, volume_data: VolData, database: Database
+) -> tuple[etree._Element, Optional[re.Pattern[str]]]:
     """Returns an .xml element for a volume at the c01 level"""
     c01 = etree.SubElement(archdesc_dsc, "c01", level="series")
     c01_did = etree.SubElement(c01, "did")
     etree.SubElement(c01_did, "unitid").text = volume_data.num
 
-    etree.SubElement(c01_did, "unittitle", {"lang": "it"}).text = volume_data.title_it
-    etree.SubElement(c01_did, "unittitle", {"lang": "dut"}).text = volume_data.title_nl
-    etree.SubElement(c01_did, "unittitle", {"lang": "en"}).text = volume_data.title_en
+    used_trans = add_unittitle(c01_did, volume_data.title, database, volume_data.date)
 
     date_data = create_date_data(volume_data.date)
     add_unitdate(c01_did, volume_data.date, date_data)
-    return c01
+
+    return c01, used_trans
 
 
 def dossier_entry(  # pylint: disable=too-many-arguments
@@ -110,7 +116,7 @@ def dossier_entry(  # pylint: disable=too-many-arguments
     c02_did = etree.SubElement(c02, "did")
     etree.SubElement(c02_did, "unitid").text = f"{v_number}.{number}"
 
-    pattern = add_unittitle(c02_did, title, database, "")
+    pattern = add_unittitle(c02_did, title, database, date)
 
     date_data = create_date_data(date)
     add_unitdate(c02_did, date, date_data)
