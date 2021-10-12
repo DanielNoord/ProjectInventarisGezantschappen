@@ -212,6 +212,10 @@
     "en_GB": "Note from \\1",
     "nl_NL": "Notitie van \\1"
   },
+  "Biglietto della Diligenza per Roma$": {
+    "en_GB": "Ticket for stage-coach to Rome",
+    "nl_NL": "Toegangskaart voor postkoets naar Rome"
+  },
   "Biglietto di invito (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter of invitation from \\2",
     "nl_NL": "Uitnodigingssbrief van \\2"
@@ -376,6 +380,10 @@
     "en_GB": "Copy of a decree of the King of the Netherlands in favour of \\1",
     "nl_NL": "Kopie van een verordening van de Koning der Nederlanden ten gunste van \\1"
   },
+  "Copia di un editto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Copy of an edict of \\2",
+    "nl_NL": "Kopie van een edict van \\2"
+  },
   "Copia di una delibera dell'Ammiragliato di Genova$": {
     "en_GB": "Copy of a resolution of the Admiralty of Genoa",
     "nl_NL": "Kopie van een resolutie van de Admiraliteit van Genua"
@@ -439,6 +447,10 @@
   "Correspondance sui divers objets \\(Corrispondenza su vari oggetti\\)$": {
     "en_GB": "Correspondance sui divers objets (Correspondence on various topics)",
     "nl_NL": "CorriCorrespondance sui divers objets (Correspondentie over verschillende onderwerpen)"
+  },
+  "Corrispondenza particolare da L'Indépendance Belge$": {
+    "en_GB": "Special correspondance from L'Indépendance Belge",
+    "nl_NL": "Bijzondere correspondentie uit L'Indépendance Belge"
   },
   "Declaration du corps de troupe francais au président de Civitavecchia \\(Dichiarazione del corpo militare del presidente di Civitavecchia\\)$": {
     "en_GB": "Declaration du corps de troupe francais au président de Civitavecchia (Declaration of the French military unit to the president of Civitavecchia)",
@@ -652,6 +664,10 @@
     "en_GB": "Extract from the Gazzetta Universal di Augusta of January \\1, \\2 n. \\3",
     "nl_NL": "Uittreksel uit de Gazzetta Universal di Augusta van \\1 januari \\2 n. \\3"
   },
+  "Estratto delle osservazioni dei rappresentanti della Seconda Camera degli Stati Generali$": {
+    "en_GB": "Extract from the observations from the representatives of the House of Representatives",
+    "nl_NL": "Uittreksel van de observaties van de vertegenwoordigers van de Tweede Kamer der Staten-Generaal"
+  },
   "Estratto di Lo Statuto \\(a stampa\\)$": {
     "en_GB": "Extract from Lo Statuto (printed)",
     "nl_NL": "Uittreksel van Lo Statuto (gedrukt)"
@@ -776,6 +792,10 @@
     "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
   },
+  "Foglio a stampa sulle legge di navigazione nei Paesi Bassi da L'Indépendance Belge$": {
+    "en_GB": "Printed sheet about the laws of navigation in the Netherlands from L'Indépendance Belge",
+    "nl_NL": "Gedrukt blad over de scheepsvaartwetten in Nederland uit L'Indépendance Belge"
+  },
   "Foglio a stampa “(.+)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\) ed “(.+)”$": {
     "en_GB": "Printed sheet “\\1” (\\2 Jun. \\3) and “\\4”",
     "nl_NL": "Gedrukt blad “\\1” (\\2 jun. \\3) en “\\4”"
@@ -879,6 +899,10 @@
   "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - N. (\\w+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5)"
+  },
+  "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Apr. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 apr. \\5)"
   },
   "Giornale a stampa \"(.+?)\" \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Jun. \\5)",
@@ -1288,6 +1312,10 @@
     "en_GB": "Circulaire to \\2",
     "nl_NL": "Circulaire aan \\2"
   },
+  "Lettera circolare (a|al) (\\$\\w+), (a|al) (\\$\\w+), (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
+    "en_GB": "Circulaire to \\2, to \\4, to 6 and to 8",
+    "nl_NL": "Circulaire aan \\2, aan \\4, aan 6 en aan 8"
+  },
   "Lettera circolare (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Circulaire of \\2 to \\4",
     "nl_NL": "Circulaire van \\2 aan \\4"
@@ -1463,6 +1491,10 @@
   "Memoria (di|del|della) (\\$\\w+)$": {
     "en_GB": "Memory of \\2",
     "nl_NL": "Memorie van \\2"
+  },
+  "Memoria su fatti riguardanti Vienna, Genova e transunti di avvisi$": {
+    "en_GB": "Memory on things regarding Vienna, Genoa and summaries of notices",
+    "nl_NL": "Memorie over zaken aangaande Wenen, Genua en samenvattingen van meldingen"
   },
   "Memoria sui negoziati con il Regno di Sardegna$": {
     "en_GB": "Memory on the negotiations with the Kingdom of Sardinia",
@@ -1784,6 +1816,10 @@
     "en_GB": "Osservations Preliminarire",
     "nl_NL": "Osservations Preliminarire"
   },
+  "Osservazioni$": {
+    "en_GB": "Observations",
+    "nl_NL": "Observaties"
+  },
   "Pastorale (di|del|della) (\\$\\w+) in occasione dei recenti disastri della Polonia$": {
     "en_GB": "Pastoral of \\2 on the occassion of the recent disasters in Poland",
     "nl_NL": "Pastorale van \\2 in het licht van de recente rampen in Polen"
@@ -1800,6 +1836,10 @@
     "en_GB": "Principes Fondamentaux (Fundamental Principles)",
     "nl_NL": "Principes Fondamentaux (Fundamentele Beginselen)"
   },
+  "Proclama (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Proclamation van \\2",
+    "nl_NL": "Proclamatie van \\2"
+  },
   "Proclama a stampa (di|del|della) (\\$\\w+) sull'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed proclamation van \\2 on public order (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "nl_NL": "Gedrukte proclamatie van \\2 over publieke order (Rome, Tipografia della Rev. Cam. Apost., \\3)"
@@ -1815,6 +1855,10 @@
   "Proclama a stampa Al Popolo Napoletano$": {
     "en_GB": "Printed proclamation Al Popolo Napoletano",
     "nl_NL": "Gedrukte proclamatie Al Popolo Napoletano"
+  },
+  "Progetto di dichiarazione da trasmettere (a|al) (\\$\\w+)$": {
+    "en_GB": "Draft declaration to be put before \\2",
+    "nl_NL": "Conceptdeclaratie om voor te leggen aan \\2"
   },
   "Programma del nuovo Ministero (a stampa)$": {
     "en_GB": "Program of the new Ministry (printed)",
@@ -1919,6 +1963,10 @@
   "Relation d'un entretien avec le Prince de Metternich \\(relazione del un colloquio con (\\$\\w+)\\)$": {
     "en_GB": "Relation d'un entretien avec le Prince de Metternich (report about a conversation with \\1)",
     "nl_NL": "Relation d'un entretien avec le Prince de Metternich (rapport over een gesprek met \\1)"
+  },
+  "Relazione (a|al) (\\$\\w+)$": {
+    "en_GB": "Report to \\2",
+    "nl_NL": "Rapport aan \\2"
   },
   "Relazione (di|del|della) (\\$\\w+) con estratti e trascrizioni$": {
     "en_GB": "Report from \\2 with extracts and transcriptions",
@@ -2343,6 +2391,10 @@
   "Trascrizione di un bando di concorso per l'Accademia di Belle Arti di Roma$": {
     "en_GB": "Transcription of a competition announcement of the _Accademia di Belle Arti di Roma_",
     "nl_NL": "Transcriptie van een wedstrijdaankondiging van de _Accademia di Belle Arti di Roma_"
+  },
+  "Trascrizione di un estratto dal Journal Officiel du Royaume des Pays-Bas$": {
+    "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",
+    "nl_NL": "Transcriptie van een exract uit het Journal Officiel du Royaume des Pays-Bas"
   },
   "Trascrizione di un proclama del Comitato Italiano al Popolo della Romagna$": {
     "en_GB": "Transcription of a proclamation of the Italian Committee to the People of the Romagna",

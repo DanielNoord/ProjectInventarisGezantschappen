@@ -2293,6 +2293,27 @@
     ],
     "wikidata:id": "Q2254673"
   },
+  "$Callamandi": {
+    "ISNI:id": null,
+    "comment": "",
+    "comment_daniel": "Impossible to determine who this is without more information. Could also be Callamani",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [
+      ""
+    ],
+    "name": "M",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      ""
+    ],
+    "surname": "Callamandi",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Camous": {
     "ISNI:id": null,
     "comment": "",
@@ -3147,12 +3168,20 @@
     "date_of_death": "1870-10-01",
     "functions": [
       [
+        "Senatore del Regno di Sardegna",
+        "1848/"
+      ],
+      [
+        "Intendente generale dell'Azienda delle Gabelle del Regno di Sardegna",
+        "1850/"
+      ],
+      [
         "Ministro degli Affari Esteri del Regno di Sardegna",
         "1855-05-31/1856-05-05"
       ]
     ],
     "images": [
-      ""
+      "https://www.museotorino.it/view/s/40acf3e22ef44d21922544f1740fafbc"
     ],
     "name": "Giovanni Antonio Luigi",
     "person_type": 1,
@@ -3164,6 +3193,10 @@
     ],
     "surname": "Cibrario",
     "titles": [
+      [
+        "Cav.",
+        null
+      ],
       [
         "conte",
         null
