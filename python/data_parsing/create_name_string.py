@@ -49,5 +49,5 @@ def name_string(
         else:
             str_functions = ", ".join([i[0] for i in relevant_functions])
         if str_functions != "":
-            return f"{str_full_name} ({str_functions})"
-    return str_full_name
+            str_full_name = f"{str_full_name} ({str_functions})"
+    return str_full_name.replace("{", "(").replace("}", ")")

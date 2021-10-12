@@ -25,6 +25,18 @@ def fill_in_name(
     return "".join(title_split)
 
 
+def fix_quotes(title: str) -> str:
+    """Change the double quotes in a title to be “ or ” based on occurence"""
+    for occurence, quote_match in enumerate(re.finditer(r"\"|“|”", title)):
+        if occurence % 2:
+            quote = "”"
+        else:
+            quote = "“"
+        pos = quote_match.start()
+        title = "".join((title[:pos], quote, title[pos + 1 :]))
+    return title
+
+
 def add_italics(parent_element: etree._Element, title: str) -> None:
     """Appends the title to the parent_element and inserts emph elements if necessary"""
     if "_" in title:
@@ -77,6 +89,11 @@ def add_unittitle(
         raise ValueError(
             f"Italics indication is not the same for English and Dutch translation of {title}"
         )
+
+    if re.match(r"\"|“|”", title_it):
+        title_it = fix_quotes(title_it)
+        title_en = fix_quotes(title_en)
+        title_nl = fix_quotes(title_nl)
 
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "it"}), title_it)
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "en"}), title_en)
