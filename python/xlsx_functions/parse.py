@@ -18,13 +18,9 @@ def parse_volume(vol: tuple[Cell, ...]) -> VolData:
     if not isinstance(vol[0].value, (str)):
         raise ValueError(f"Volume number should be a string, check {vol[0].value}")
     vol_num = re.findall(r"ms(.*?)_.*", vol[0].value)[0]
-    # TODO: Fix titles of volumes
-    vol_title_it = f"Questo è il titolo del volume {vol_num}"
-    vol_title_en = f"This is the title of volume {vol_num}"
-    vol_title_nl = f"Dit is de titel van volume {vol_num}"
-    # TODO: Fix dates of volumes
-    vol_date = "1800-01-01/2021-12-31"
-    return VolData(vol_num, vol_title_it, vol_title_en, vol_title_nl, vol_date)
+    title = str(vol[1].value)
+    vol_date = f"{vol[2].value or ''}/{vol[3].value or ''}"
+    return VolData(vol_num, title, vol_date)
 
 
 def parse_dossier(  # pylint: disable=too-many-branches
