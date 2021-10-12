@@ -944,10 +944,6 @@
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Nov. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 nov. \\4)"
   },
-  "Giornale a stampa \"(.+)\" \\(N. (\\w+), del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 May \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 mei \\4)"
-  },
   "Giornale a stampa \"(.+)\" \\(N. (\\w+), del (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2, of \\3 Oct. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2, van \\3 Ott. \\4)"
