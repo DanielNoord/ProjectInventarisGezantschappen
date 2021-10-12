@@ -1,7 +1,7 @@
-from typing import Literal, Optional
+from typing import Literal, Optional, Union
 
 from date_functions import check_date
-from typing_utils import Database
+from typing_utils import Database, DateTuple
 
 
 def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-branches
@@ -10,7 +10,7 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
     titles: list[tuple[str, Optional[str]]],
     database: Database,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
-    date: tuple[Optional[int], Optional[int], Optional[int]],
+    date: Union[tuple[DateTuple], tuple[DateTuple, DateTuple]],
 ) -> str:
     """Creates the string for the full name including title"""
     if surname == "":

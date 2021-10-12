@@ -1,27 +1,19 @@
-from typing import List, Literal, Optional, Tuple, Union
+from typing import Literal, Union
 
-from date_functions import check_date
-from typing_utils import Database, IndividualsDictEntry
+from date_functions import check_date, create_date_tuple
+from typing_utils import Database, DateTuple, IndividualsDictEntry
 
 from data_parsing import full_name_with_database
 
 
 def name_string(
     person: IndividualsDictEntry,
-    date: Union[str, Tuple[Optional[int], Optional[int], Optional[int]]],
+    date: Union[str, DateTuple],
     database: Database,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> str:
     """Creates a string of a given person"""
-    if isinstance(date, str):
-        date_list: List[Optional[int]] = [
-            int(i) if i else None for i in date.split("-")
-        ]
-        while len(date_list) != 3:
-            date_list.append(None)
-        date_tuple = (date_list[0], date_list[1], date_list[2])
-    else:
-        date_tuple = date
+    date_tuple = create_date_tuple(date)
 
     # Create Full Name variable
     str_full_name = full_name_with_database(
