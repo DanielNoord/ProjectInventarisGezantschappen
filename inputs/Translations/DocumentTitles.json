@@ -28,6 +28,10 @@
     "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
+  "\"(.+)\" (di|del|della) (\\$\\w+)$": {
+    "en_GB": "“\\1” from \\3",
+    "nl_NL": "“\\1” van \\3)"
+  },
   "\"(.+)\" \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Aug. \\3)",
     "nl_NL": "“\\1” (\\2 aug. \\3)"
@@ -64,6 +68,10 @@
     "en_GB": "“\\1” (\\2 Mar. \\3)",
     "nl_NL": "“\\1” (\\2 mrt. \\3)"
   },
+  "\"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$": {
+    "en_GB": "“\\1” (\\2 Nov. \\3) from \\5",
+    "nl_NL": "“\\1” (\\2 nov. \\3) van \\5"
+  },
   "\"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Nov. \\3)",
     "nl_NL": "“\\1” (\\2 nov. \\3)"
@@ -79,6 +87,10 @@
   "\"(.+)\" \\(Firenze, Tipografia di F. Bencini, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)",
     "nl_NL": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)"
+  },
+  "\"(.+)\" \\(Lussemburgo, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Luxembourg, \\2 Apr. \\3)",
+    "nl_NL": "“\\1” (Luxemburg, \\2 apr. \\3)"
   },
   "\"(.+)\" \\(Napoli, Stamperia Reale, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Napoli, Stamperia Reale, \\2)",
@@ -136,6 +148,14 @@
     "en_GB": "Printed attachment",
     "nl_NL": "Gedrukte bijlage"
   },
+  "Allegato alla lettera$": {
+    "en_GB": "Attachment to the letter",
+    "nl_NL": "Bijlage bij de brief"
+  },
+  "Allegato$": {
+    "en_GB": "Attachment",
+    "nl_NL": "Bijlage"
+  },
   "Allegato: supplica$": {
     "en_GB": "Attachment: supplication",
     "nl_NL": "Bijlage: smeekbede"
@@ -156,6 +176,10 @@
     "en_GB": "Printed appeal of the Bologneses to \\2",
     "nl_NL": "Gedrukt appel van de Bolognesen aan \\2"
   },
+  "Appello a stampa$": {
+    "en_GB": "Printed appeal",
+    "nl_NL": "Gedrukt appel"
+  },
   "Appello della Società Centrale agli italiani$": {
     "en_GB": "Appeal of the Società Centrale to the Italians",
     "nl_NL": "Appel van de Società Centrale aan de Italianen"
@@ -167,6 +191,10 @@
   "Appunti manoscritti$": {
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven notities"
+  },
+  "Appunto allegato$": {
+    "en_GB": "Attached note",
+    "nl_NL": "Bijgevoegde notitie"
   },
   "Appunto della legazione dei Paesi Bassi a Parigi$": {
     "en_GB": "Note from the Legation of the Netherlands in Paris",
@@ -415,6 +443,10 @@
   "Copia della verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$": {
     "en_GB": "Copy of the report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
     "nl_NL": "Kopie van het rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
+  },
+  "Copia di \"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Copy of “\\1” (\\2 Nov. \\3) from \\5",
+    "nl_NL": "Kopie van “\\1” (\\2 nov. \\3) van \\5"
   },
   "Copia di lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con l'annuncio che gli archivi dipendenti dal Consolato delle Repubblica delle Sette Province Unite a Genova gli saranno spediti dalla Legazione di Sardegna$": {
     "en_GB": "Copy of letter of \\2 to \\4 with the announcement that the archives of the Consulate of the Republic of the Seven United Netherlands in Genoa will be sent to him by the Legation of Sardinia",
@@ -872,6 +904,14 @@
     "en_GB": "Printed sheet “\\1” (Amsterdam, \\2 Apr. \\3) ",
     "nl_NL": "Gedrukt blad “\\1” (Amsterdam, \\2 apr. \\3) "
   },
+  "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (The Hague, \\2 Jul. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 jul. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Lussemburgo, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Luxembourg, \\2) ",
+    "nl_NL": "Gedrukt blad “\\1” (Luxemburg, \\2) "
+  },
   "Foglio a stampa “(.+)” \\(Napoli, (\\d\\d?) mag. (\\d\\d\\d\\d), N. (\\d+)\\)$": {
     "en_GB": "Printed sheet “\\1” (Naples, \\2 May \\3, N. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (Napels, \\2 mei \\3, N. \\4)"
@@ -1160,6 +1200,10 @@
     "en_GB": "Letter to \\2 with attached letter from \\4",
     "nl_NL": "Brief aan \\2 met bijgesloten brief van \\4"
   },
+  "Lettera (a|al) (\\$\\w+) con allegata$": {
+    "en_GB": "Letter to \\2 with attachment",
+    "nl_NL": "Brief aan \\2 met bijlage"
+  },
   "Lettera (a|al) (\\$\\w+) con memoria su (\\$\\w+)$": {
     "en_GB": "Letter to \\2 with memorandum about \\3",
     "nl_NL": "Brief aan \\2 met memorandum over \\3"
@@ -1436,6 +1480,10 @@
     "en_GB": "Circulaire to \\2",
     "nl_NL": "Circulaire aan \\2"
   },
+  "Lettera circolare (a|al) (\\$\\w+), (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
+    "en_GB": "Circulaire to \\2, to \\4, to \\6 and to \\8",
+    "nl_NL": "Circulaire aan \\2, aan \\4, aan \\6 en aan \\8"
+  },
   "Lettera circolare (a|al) (\\$\\w+), (a|al) (\\$\\w+), (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
     "en_GB": "Circulaire to \\2, to \\4, to \\6 and to \\8",
     "nl_NL": "Circulaire aan \\2, aan \\4, aan \\6 en aan \\8"
@@ -1483,6 +1531,10 @@
   "Lettera con allegato programma di una cerimonia$": {
     "en_GB": "Letter with attached the program of a ceremony",
     "nl_NL": "Brief met bijgevoegd het programma van een ceremonie"
+  },
+  "Lettera confidenziale (a|al) (\\$\\w+)$": {
+    "en_GB": "Confidential letter of \\2",
+    "nl_NL": "Vertrouwelijke brief van \\2"
   },
   "Lettera confidenziale (di|del|della) (\\$\\w+)$": {
     "en_GB": "Confidential letter of \\2",
@@ -1620,7 +1672,11 @@
     "en_GB": "Memory of \\2",
     "nl_NL": "Memorie van \\2"
   },
-  "Memoria su fatti riguardanti Vienna, Genova e transunti di avvisi$": {
+  "Memoria sui fatti accaduti in Lussemburgo$": {
+    "en_GB": "Memory on things that happened in Luxembourg",
+    "nl_NL": "Memorie over zaken die zich hebben voorgedaan in Luxemburg"
+  },
+  "Memoria sui fatti riguardanti Vienna, Genova e transunti di avvisi$": {
     "en_GB": "Memory on things regarding Vienna, Genoa and summaries of notices",
     "nl_NL": "Memorie over zaken aangaande Wenen, Genua en samenvattingen van meldingen"
   },
@@ -2443,6 +2499,10 @@
   "Traduzione di una lettera circolare$": {
     "en_GB": "Translation of a circulaire",
     "nl_NL": "Vertaling van een circulaire"
+  },
+  "Traduzione in Francese della lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
+    "en_GB": "Translation in French of the letter of the Alto Consiglio della Nobilità to \\2 about the conferral of a medal",
+    "nl_NL": "Vertaling in het Frans van de brief van het Alto Consiglio della Nobilità aan \\2 over de toekenning van een medaille"
   },
   "Trascrione di articoli tratti dal Giornale di Roma$": {
     "en_GB": "Transcription of articles from the Giornale di Roma",
