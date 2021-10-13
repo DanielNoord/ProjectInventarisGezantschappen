@@ -130,18 +130,18 @@ def create_xml_file(dir_name: str) -> None:
     root, archdesc_dsc = basic_xml_file()
 
     # Iterate files sorted by volume number
+    files = [i for i in os.listdir(dir_name) if i.startswith("Paesi")]
     for file in sorted(
-        os.listdir(dir_name),
+        files,
         key=lambda name: int(
             name.replace("Paesi Bassi VOLUME ", "").replace("_it_IT.xlsx", "")
         ),
     ):
-        if not file.count("~$") and file.startswith("Paesi"):
-            dossiers_update, used_translations_update = create_xml_volume(
-                f"{dir_name}/{file}", archdesc_dsc, database
-            )
-            dossiers.update(dossiers_update)
-            used_translations.update(used_translations_update)
+        dossiers_update, used_translations_update = create_xml_volume(
+            f"{dir_name}/{file}", archdesc_dsc, database
+        )
+        dossiers.update(dossiers_update)
+        used_translations.update(used_translations_update)
 
     tree = etree.ElementTree(root)
 
