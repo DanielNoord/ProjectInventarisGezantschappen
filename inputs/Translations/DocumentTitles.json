@@ -444,10 +444,6 @@
     "en_GB": "Copy of the report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
     "nl_NL": "Kopie van het rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
   },
-  "Copia di \"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Copy of “\\1” (\\2 Nov. \\3) from \\5",
-    "nl_NL": "Kopie van “\\1” (\\2 nov. \\3) van \\5"
-  },
   "Copia di lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con l'annuncio che gli archivi dipendenti dal Consolato delle Repubblica delle Sette Province Unite a Genova gli saranno spediti dalla Legazione di Sardegna$": {
     "en_GB": "Copy of letter of \\2 to \\4 with the announcement that the archives of the Consulate of the Republic of the Seven United Netherlands in Genoa will be sent to him by the Legation of Sardinia",
     "nl_NL": "Kopie van brief van \\2 aan \\4 met de aankondiging dat de archieven van het consulaat van de Republiek der Zeven Verenigde Provinciën in Genua hem zullen worden toegezonden door het Gezantschap van Sardinië"
@@ -477,7 +473,7 @@
     "nl_NL": "Kopie van een resolutie van de Admiraliteit van Genua"
   },
   "Copia di una lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) circa la morte (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Copy of a letter of \\2 to \\4 over de dood van \\6",
+    "en_GB": "Copy of a letter of \\2 to \\4 about the death of \\6",
     "nl_NL": "Kopie van een brief van \\2 aan \\4 over de dood van \\6"
   },
   "Copia di una lettera (di|del|della) (\\$\\w+) (di|del|della) (\\$\\w+)$": {
@@ -679,6 +675,10 @@
   "Estratti e traduzioni di notizie, proclami e lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Extracts and translations of news, proclamations and a letter from \\2",
     "nl_NL": "Uittreksels en vertalingen van nieuws, proclamaties en een brief van \\2"
+  },
+  "Estratti e traduzioni$": {
+    "en_GB": "Extracts and translations",
+    "nl_NL": "Uittreksels en vertalingen"
   },
   "Estratto con notizie provenenti da Napoli$": {
     "en_GB": "Extract with news coming from Naples",
@@ -904,6 +904,10 @@
     "en_GB": "Printed sheet about the laws of navigation in the Netherlands from L'Indépendance Belge",
     "nl_NL": "Gedrukt blad over de scheepsvaartwetten in Nederland uit L'Indépendance Belge"
   },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” of \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
   "Foglio a stampa “(.+)” \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (\\2 aug. \\3)"
@@ -971,6 +975,10 @@
   "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (The Hague, \\2 Dec. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 dec. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (The Hague, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 jun. \\3)"
   },
   "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (The Hague, \\2 Jul. \\3)",
@@ -1040,6 +1048,10 @@
     "en_GB": "Printed sheet “\\1” (Rome, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 set. \\3)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2)"
+  },
   "Foglio a stampa “(.+)” \\(Roma, Editore Alessandro Natali, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Editore Alessandro Natali, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Editore Alessandro Natali, \\2)"
@@ -1052,6 +1064,10 @@
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia Brancadoro, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Brancadoro, \\2)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, Tipografia Menicanti, s.d.\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia Menicanti, n.d.\\)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Menicanti, z.d.\\)"
+  },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia Salviucci, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia Salviucci, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Salviucci, \\2)"
@@ -1059,10 +1075,6 @@
   "Foglio a stampa “(.+)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
-  },
-  "Foglio a stampa “(.+)” \\(Tipografia Menicanti, s.d.\\)$": {
-    "en_GB": "Printed sheet “\\1” (Tipografia Menicanti, n.d.\\)",
-    "nl_NL": "Gedrukt blad “\\1” (Tipografia Menicanti, z.d.\\)"
   },
   "Foglio a stampa “(.+)” e “(.+)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” and “\\2” (Rome, \\3 Jul. \\4)",
@@ -1416,10 +1428,6 @@
     "en_GB": "Letter to \\2 with attached letter from \\4",
     "nl_NL": "Brief aan \\2 met bijgesloten brief van \\4"
   },
-  "Lettera (a|al) (\\$\\w+) con allegata$": {
-    "en_GB": "Letter to \\2 with attachment",
-    "nl_NL": "Brief aan \\2 met bijlage"
-  },
   "Lettera (a|al) (\\$\\w+) con memoria su (\\$\\w+)$": {
     "en_GB": "Letter to \\2 with memorandum about \\3",
     "nl_NL": "Brief aan \\2 met memorandum over \\3"
@@ -1480,6 +1488,10 @@
     "en_GB": "Letter of \\2 to \\4 with attached letter from Livorno from 2 March",
     "nl_NL": "Brief van \\2 aan \\4 met bijgesloten brief uit Livorno van 2 maart"
   },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegata lettera$": {
+    "en_GB": "Letter from \\2 to \\4 with attached letter",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgesloten brief"
+  },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegato promemoria$": {
     "en_GB": "Letter from \\2 to \\4 with attached memorandum",
     "nl_NL": "Brief van \\2 aan \\4 met bijgevoegd memorandum"
@@ -1519,6 +1531,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) e (\\$\\w+). In allegato Circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to \\4 and \\5. Circulaire of \\7 attached",
     "nl_NL": "Brief van \\2 aan \\4 en \\5. Circulaire van \\7 bijgevoegd"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
+    "en_GB": "Letter from \\2 to \\4 and \\6",
+    "nl_NL": "Brief van \\2 aan \\4 en \\6"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) e trascrizione di lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from \\2 to \\4 and transcription of the letter to \\6",
@@ -1716,6 +1732,10 @@
     "en_GB": "Circulaire of \\2 at the court of Amsterdam",
     "nl_NL": "Circulaire van \\2 bij het gerechtshof van Amsterdam"
   },
+  "Lettera circolare (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Circulaire of \\2",
+    "nl_NL": "Circulaire van \\2"
+  },
   "Lettera circolare a stampa (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con invio manoscritto$": {
     "en_GB": "Printed circulaire of \\2 to \\4 with handwritten dispatch",
     "nl_NL": "Gedrukte circulaire van \\2 naar \\4 met handgeschreven bericht"
@@ -1761,7 +1781,7 @@
     "nl_NL": "Vertrouwelijke brief"
   },
   "Lettera da Livorno$": {
-    "en_GB": "Letter van Livorno",
+    "en_GB": "Letter from Livorno",
     "nl_NL": "Brief van Livorno"
   },
   "Lettera dai rappresentanti del corpo diplomatico (a|al) (\\$\\w+)$": {
@@ -1828,14 +1848,6 @@
     "en_GB": "Letter",
     "nl_NL": "Brief"
   },
-  "Lettere (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
-    "en_GB": "Letters from \\2 to \\4 and \\6",
-    "nl_NL": "Brieven van \\2 aan \\4 en \\6"
-  },
-  "Lettere (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
-    "en_GB": "Letters from \\2 to \\4",
-    "nl_NL": "Brieven van \\2 aan \\4"
-  },
   "Lettere (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letters from \\2 to \\4 and \\6",
     "nl_NL": "Brieven van \\2 to \\4 and \\6"
@@ -1900,7 +1912,7 @@
     "en_GB": "Memory on the negotiations with the Kingdom of Sardinia",
     "nl_NL": "Memorie over de onderhandelingen met het Koninkrijk Sardinië"
   },
-  "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849)$": {
+  "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$": {
     "en_GB": "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Minister of Foreign Affairs. Correspondence with the Corps Diplomatique. Roman authorities. Consul of the Netherlands in Ancona, Civitavecchia, Livorno, Naples. Various pieces 1848-1849)",
     "nl_NL": "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Minister van Buitenlandse Zaken. Correspondentie met het Corps Diplomatique. Romeinse autoriteiten. Consul van Nederland in Ancona, Civitavecchia, Livorno, Napels. Diverse stukken 1848-1849)"
   },
@@ -1956,7 +1968,7 @@
     "en_GB": "Mission de M. le Conte de Limburg Stirum (Mission of $Limburg)",
     "nl_NL": "Mission de M. le Conte de Limburg Stirum (Missie van $Limburg)"
   },
-  "Monsieur Van der Hoeven. Pieces diverses \\(Signore $HoevenE. Documenti vari\\)$": {
+  "Monsieur Van der Hoeven. Pieces diverses \\(Signore \\$HoevenE. Documenti vari\\)$": {
     "en_GB": "Monsieur Van der Hoeven. Pieces diverses (Sir $HoevenE. Various documents)",
     "nl_NL": "Monsieur Van der Hoeven. Pieces diverses (Mijnheer $HoevenE. Diverse documenten)"
   },
@@ -2372,6 +2384,10 @@
     "en_GB": "Report to \\2",
     "nl_NL": "Rapport aan \\2"
   },
+  "Relazione (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Report from \\2 to \\4",
+    "nl_NL": "Rapport van \\2 aan \\4"
+  },
   "Relazione (di|del|della) (\\$\\w+) con estratti e trascrizioni$": {
     "en_GB": "Report from \\2 with extracts and transcriptions",
     "nl_NL": "Rapport van \\2 met uittreksels en transcripties"
@@ -2556,9 +2572,9 @@
     "en_GB": "Printed translation of an edict of \\2",
     "nl_NL": "Gedrukte vertaling van een edict van \\2"
   },
-  "Traduzione del \"(.+)\" di papa Pio IX circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Translation of the “\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "Vertaling van de “\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  "Traduzione del \"(.+)\" (di|del|della) (\\$\\w+) circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of the “\\1” from \\3 concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Vertaling van de “\\1” van \\3 omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "Traduzione del Decreto del Commissario provvisorio del Governo dello Stato Romano$": {
     "en_GB": "Translation of a Decree of the interim Commissioner of the Government of the Roman State",
@@ -2761,7 +2777,7 @@
     "nl_NL": "Transcriptie van het dag bevel van \\2"
   },
   "Trascrizione di circolare (di|del|della) (\\$\\w+) ai governatori delle province$": {
-    "en_GB": "Transcription of a circulaire van \\2 to the governors of the provinces",
+    "en_GB": "Transcription of a circulaire of \\2 to the governors of the provinces",
     "nl_NL": "Transcriptie van een circulaire van \\2 aan de gouverneurs van de provincies"
   },
   "Trascrizione di lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
