@@ -884,6 +884,14 @@
     "en_GB": "Printed sheet “\\1” from \\3 about the collection of the new taxes on the exercise of professions, arts, trade, industries and commerce (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de inzameling van de nieuwe belastingen op het uitoefenen van beroepen, kunsten, handel, industrieën en bedrijven (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Foglio a stampa \"(.+)\" \\((\\$\\w+)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2)"
+  },
+  "Foglio a stampa \"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\) \\((\\$\\w+)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 May \\3) (\\4)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 mei \\3) (\\4)"
+  },
   "Foglio a stampa \"(.+)\"$": {
     "en_GB": "Printed sheet \"\\1\"",
     "nl_NL": "Gedrukt blad \"\\1\""
@@ -896,25 +904,93 @@
     "en_GB": "Printed sheet about the laws of navigation in the Netherlands from L'Indépendance Belge",
     "nl_NL": "Gedrukt blad over de scheepsvaartwetten in Nederland uit L'Indépendance Belge"
   },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 aug. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Apr. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 apr. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Dec. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 dec. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Feb. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 feb. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Jan. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 jan. \\3)"
+  },
   "Foglio a stampa “(.+)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\) ed “(.+)”$": {
     "en_GB": "Printed sheet “\\1” (\\2 Jun. \\3) and “\\4”",
     "nl_NL": "Gedrukt blad “\\1” (\\2 jun. \\3) en “\\4”"
   },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Jun. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 jun. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Jul. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 jul. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 May \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 mei \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Mar. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 mrt. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Nov. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 nov. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Oct. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 oct. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d?) sep. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Sep. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 sep. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\((\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2)"
+  },
   "Foglio a stampa “(.+)” \\(Amsterdam, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Amsterdam, \\2 Apr. \\3) ",
     "nl_NL": "Gedrukt blad “\\1” (Amsterdam, \\2 apr. \\3) "
+  },
+  "Foglio a stampa “(.+)” \\(Batavia, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Batavia, \\2 Jan. \\3) ",
+    "nl_NL": "Gedrukt blad “\\1” (Batavia, \\2 jan. \\3) "
+  },
+  "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (The Hague, \\2 Dec. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 dec. \\3)"
   },
   "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (The Hague, \\2 Jul. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 jul. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Lussemburgo, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Luxembourg, \\2) ",
-    "nl_NL": "Gedrukt blad “\\1” (Luxemburg, \\2) "
+    "en_GB": "Printed sheet “\\1” (Luxembourg, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Luxemburg, \\2)"
   },
   "Foglio a stampa “(.+)” \\(Napoli, (\\d\\d?) mag. (\\d\\d\\d\\d), N. (\\d+)\\)$": {
     "en_GB": "Printed sheet “\\1” (Naples, \\2 May \\3, N. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (Napels, \\2 mei \\3, N. \\4)"
+  },
+  "Foglio a stampa “(.+)” \\(Napoli, Tipografia Fibreniano, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Naples, Tipografia Fibreniano, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Napels, Tipografia Fibreniano, \\2)"
+  },
+  "Foglio a stampa “(.+)” \\(Parigi, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Paris, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Parijs, \\2)"
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, \\2 Aug. \\3)",
@@ -928,17 +1004,65 @@
     "en_GB": "Printed sheet “\\1” (Rome, \\2 Dec. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 dec. \\3)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Feb. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 feb. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Jan. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 jan. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 jun. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Jul. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 jul. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 May \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 mei \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Mar. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 mrt. \\3)"
+  },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, \\2 Nov. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 nov. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Oct. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 oct. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 set. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, Editore Alessandro Natali, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Editore Alessandro Natali, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Editore Alessandro Natali, \\2)"
+  },
+  "Foglio a stampa “(.+)” \\(Roma, Tipografia Ajani, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia Ajani, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Ajani, \\2)"
   },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia Brancadoro, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia Brancadoro, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Brancadoro, \\2)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, Tipografia Salviucci, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia Salviucci, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Salviucci, \\2)"
+  },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "Foglio a stampa “(.+)” \\(Tipografia Menicanti, s.d.\\)$": {
+    "en_GB": "Printed sheet “\\1” (Tipografia Menicanti, n.d.\\)",
+    "nl_NL": "Gedrukt blad “\\1” (Tipografia Menicanti, z.d.\\)"
   },
   "Foglio a stampa “(.+)” e “(.+)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” and “\\2” (Rome, \\3 Jul. \\4)",
@@ -956,9 +1080,13 @@
     "en_GB": "Printed sheet “\\1” about the duties on sugar and coffee from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\3  (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
-  "Foglio a stampa “(.+)”$": {
-    "en_GB": "Printed sheet “\\1”",
-    "nl_NL": "Gedrukt blad “\\1”"
+  "Foglio a stampa “(.+)” sull'ordine pubblico \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the public order (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de publieke orde (Rome, \\2 aug. \\3)"
+  },
+  "Foglio a stampa “(.+)” sull'ordine pubblico \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the public order (Rome, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de publieke orde (Rome, \\2 set. \\3)"
   },
   "Foglio del 1895 \\?$": {
     "en_GB": "Sheet of 1895 ?",
@@ -1569,8 +1697,8 @@
     "nl_NL": "Circulaire aan \\2"
   },
   "Lettera circolare (a|al) (\\$\\w+), (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
-    "en_GB": "Circulaire to \\2, to \\4, to \\6 and to \\8",
-    "nl_NL": "Circulaire aan \\2, aan \\4, aan \\6 en aan \\8"
+    "en_GB": "Circulaire to \\2, to \\4 and to \\6",
+    "nl_NL": "Circulaire aan \\2, aan \\4 en aan \\6"
   },
   "Lettera circolare (a|al) (\\$\\w+), (a|al) (\\$\\w+), (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
     "en_GB": "Circulaire to \\2, to \\4, to \\6 and to \\8",
@@ -2121,15 +2249,15 @@
     "nl_NL": "Principes Fondamentaux (Fundamentele Beginselen)"
   },
   "Proclama (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Proclamation van \\2",
+    "en_GB": "Proclamation of \\2",
     "nl_NL": "Proclamatie van \\2"
   },
   "Proclama a stampa (di|del|della) (\\$\\w+) sull'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed proclamation van \\2 on public order (Rome, Tipografia della Rev. Cam. Apost., \\3)",
-    "nl_NL": "Gedrukte proclamatie van \\2 over publieke order (Rome, Tipografia della Rev. Cam. Apost., \\3)"
+    "en_GB": "Printed proclamation of \\2 about the public order (Rome, Tipografia della Rev. Cam. Apost., \\3)",
+    "nl_NL": "Gedrukte proclamatie van \\2 over de publieke order (Rome, Tipografia della Rev. Cam. Apost., \\3)"
   },
   "Proclama a stampa (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Printed proclamation van \\2",
+    "en_GB": "Printed proclamation of \\2",
     "nl_NL": "Gedrukte proclamatie van \\2"
   },
   "Proclama a stampa Agli Anconitani$": {
