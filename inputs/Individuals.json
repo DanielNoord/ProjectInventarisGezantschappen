@@ -3093,16 +3093,21 @@
   "$Eksteen": {
     "ISNI:id": null,
     "comment": "",
-    "comment_daniel": "ms310. Could be P.M. Eksteen who is mentioned here https://nl.wikipedia.org/wiki/Gijsbertus_Martinus_Cort_Heyligers, but found no source that discusses why he would be in Florence or Ronciglione",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [["Maggiore generale del Regno dei Paesi Bassi", null]],
+    "comment_daniel": "",
+    "date_of_birth": "1784-02-09",
+    "date_of_death": "1857-10-14",
+    "functions": [
+      ["Maggiore generale del Regno dei Paesi Bassi", "1817-06-16/"]
+    ],
     "images": [""],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [""],
+    "name": "Petrus Michiel",
+    "person_type": 2,
+    "place_of_birth": "Città del Capo",
+    "place_of_death": "Bruxelles",
+    "sources": [
+      "https://www.geneagraphie.com/getperson.php?personID=I164073&tree=1",
+      "NA: Nummer toegang: 2.13.04, inventarisnummer: 312, folionummer: 17"
+    ],
     "surname": "Eksteen",
     "titles": [],
     "wikidata:id": null

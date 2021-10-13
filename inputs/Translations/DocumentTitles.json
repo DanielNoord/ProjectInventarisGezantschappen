@@ -1020,6 +1020,18 @@
     "en_GB": "Printed newspaper “\\1” (\\2 Sep. \\3)",
     "nl_NL": "Gedrukte krant “\\1” (\\2 sep. \\3)"
   },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Belgio, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Belgium, N. \\3 of \\4 Nov. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - België, N. \\3 van \\4 nov. \\5)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Bologna, N. (\\d+) del (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Bologna, N. \\3 of \\4 Oct. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Bologna, N. \\3 van \\4 oct. \\5)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Genova, N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Genoa, N. \\3 of \\4 Sep. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Genua, N. \\3 van \\4 sep. \\5)"
+  },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Aug. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 aug. \\5)"
@@ -1068,6 +1080,62 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Sep. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 sep. \\5)"
   },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Aug. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 aug. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Apr. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 apr. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Dec. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 dec. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Feb. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 feb. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Jan. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 jan. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Jun. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 jun. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Jul. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 jul. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 May \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 mei \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Mar. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 mrt. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Nov. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 nov. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Oct. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 oct. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Sep. \\6)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 sep. \\6)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Napoli, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Naples, N. \\3 of \\4 Nov. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Napels, N. \\3 van \\4 nov. \\5)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Roma, N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Rome, N. \\3 of \\4 Apr. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Rome, N. \\3 van \\4 apr. \\5)"
+  },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Apr. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 apr. \\5)"
@@ -1079,6 +1147,18 @@
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Torino, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Turin, N. \\3 of \\4 Nov. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Turijn, N. \\3 van \\4 nov. \\5)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Berna, N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Bern, N. \\2 of \\3 Mar. \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (Bern, N. \\2 van \\3 mrt. \\4)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Firenze, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Florence, N. \\2 of \\3 Jun. \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (Florence, N. \\2 van \\3 jun. \\4)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Firenze, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Florence, N. \\2 of \\3 Nov. \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (Florence, N. \\2 van \\3 nov. \\4)"
   },
   "Giornale a stampa \"(.+)\" \\(N. (\\d+) del (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Aug. \\4)",
@@ -1127,6 +1207,14 @@
   "Giornale a stampa \"(.+)\" \\(N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Sep. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 sep. \\4)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Rome, \\2 Apr. \\3)",
+    "nl_NL": "Gedrukte krant “\\1” (Rome, \\2 apr. \\3)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Roma, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Rome, \\2 Mar. \\3)",
+    "nl_NL": "Gedrukte krant “\\1” (Rome, \\2 mrt. \\3)"
   },
   "Giornale a stampa \"(.+)\"$": {
     "en_GB": "Printed newspaper “\\1”",

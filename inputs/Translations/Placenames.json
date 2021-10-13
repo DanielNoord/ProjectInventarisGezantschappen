@@ -544,6 +544,14 @@
     "longitude": "9.21495",
     "nl_NL": "Cinisello"
   },
+  "Città del Capo": {
+    "en_GB": "Cape Town",
+    "geonames_id": 3369157,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cape_Town",
+    "latitude": "-33.92584",
+    "longitude": "18.42322",
+    "nl_NL": "Kaapstad"
+  },
   "Città del Messico": {
     "en_GB": "Mexico City",
     "geonames_id": 3530597,
