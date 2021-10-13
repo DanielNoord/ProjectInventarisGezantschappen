@@ -2908,6 +2908,25 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Deheselle": {
+    "ISNI:id": null,
+    "comment": "",
+    "comment_daniel": "last name sometimes written down as Decessel or Debessele because people can't spell",
+    "date_of_birth": "1789-07-04",
+    "date_of_death": "",
+    "functions": [["Vescovo di Namur", "1836/"]],
+    "images": [""],
+    "name": "Niccola Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Charneux",
+    "place_of_death": "",
+    "sources": [
+      "'Annuario Pontificio del 1860' (Tipografia della R.C.A.: Roma, 1860), p. 162"
+    ],
+    "surname": "Deheselle",
+    "titles": [["vescovo", "1836/"]],
+    "wikidata:id": null
+  },
   "$DelDrago": {
     "ISNI:id": null,
     "comment": "",
@@ -3094,13 +3113,16 @@
     "comment_daniel": "Dit is de enige Elgger die in Pauselijke dienst lijk te zijn",
     "date_of_birth": "1794-08-01",
     "date_of_death": "1858-11-04",
-    "functions": [],
+    "functions": [
+      ["Comandante della seconda divisione dell'esercito pontificio", null]
+    ],
     "images": [""],
     "name": "Franz",
     "person_type": 4,
     "place_of_birth": "Rheinfelden",
     "place_of_death": "Lucerna",
     "sources": [
+      "'La Civiltà Cattolica. Vol I' (Tipografia della Civiltà Cattolica: Roma, 1859), p. 105.",
       "Lisscher, Markus, 'von Elgger, Franz', in: Historisches Lexikon der Schweiz (2004), found on https://hls-dhs-dss.ch/it/articles/013332/2004-08-31/"
     ],
     "surname": "von Elgger",
@@ -3664,6 +3686,36 @@
     "surname": "Fleumer",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Fontaine": {
+    "ISNI:id": null,
+    "comment": "",
+    "comment_daniel": "Seems incredible but not actually sure if this Fontaine is the same as Fontana, the console in Molfetta. Same name but I can't find it in Fontaine's history. We'll have to check the date of when Fontana was in Molfetta.",
+    "date_of_birth": "1787-01-06",
+    "date_of_death": "1871-02-11",
+    "functions": [
+      [
+        "Governatore del Granducato del Lussemburgo per il Re dei Paesi Bassi",
+        "1841/1848"
+      ],
+      [
+        "Presidente del Consiglio e Amministratore generale degli Affari Esteri del Granducato di Lussemburgo",
+        "1848-08-01/1848-12-02"
+      ]
+    ],
+    "images": [
+      "https://commons.wikimedia.org/wiki/File:Gaspard_De_La_Fontaine.jpg"
+    ],
+    "name": "Gaspard-Théodore-Ignace",
+    "person_type": 1,
+    "place_of_birth": "Lussemburgo",
+    "place_of_death": "Lussemburgo",
+    "sources": [
+      "Thewes, Guy, Les gouvernements du Grand-Duché de Luxembourg depuis 1848 (Presse du gouvernement du grand-cuhé de Luxembourg: Luxembourg, 2011), pp. 12-14"
+    ],
+    "surname": "de la Fontaine",
+    "titles": [],
+    "wikidata:id": "Q725755"
   },
   "$Fontana": {
     "ISNI:id": null,

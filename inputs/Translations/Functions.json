@@ -256,6 +256,10 @@
     "en_GB": "Commander of the second division of the Italian army",
     "nl_NL": "Commandant van de tweede divisie van het Italiaanse leger"
   },
+  "Comandante della seconda divisione dell'esercito pontificio": {
+    "en_GB": "Commander of the second division of the Papal army",
+    "nl_NL": "Commandant van de tweede divisie van het Pauselijke leger"
+  },
   "Comandante delle truppe austriache": {
     "en_GB": "Commander of the Austrian troops",
     "nl_NL": "Commandant van de Oostenrijkse troepen"
@@ -1607,6 +1611,10 @@
   "Vescovo di Jesi": {
     "en_GB": "Bishop of Jesi",
     "nl_NL": "Bisschop van Jesi"
+  },
+  "Vescovo di Namur": {
+    "en_GB": "Bishop of Namur",
+    "nl_NL": "Bisschop van Namen"
   },
   "Vescovo di Senigallia": {
     "en_GB": "Bishop van Senigallia",
