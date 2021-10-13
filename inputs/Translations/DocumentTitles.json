@@ -28,13 +28,53 @@
     "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
+  "\"(.+)\" \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Aug. \\3)",
+    "nl_NL": "“\\1” (\\2 aug. \\3)"
+  },
   "\"(.+)\" \\((\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Apr. \\3)",
     "nl_NL": "“\\1” (\\2 apr. \\3)"
   },
+  "\"(.+)\" \\((\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Dec. \\3)",
+    "nl_NL": "“\\1” (\\2 dec. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Feb. \\3)",
+    "nl_NL": "“\\1” (\\2 feb. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Jan. \\3)",
+    "nl_NL": "“\\1” (\\2 jan. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Jun. \\3)",
+    "nl_NL": "“\\1” (\\2 jun. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Jul. \\3)",
+    "nl_NL": "“\\1” (\\2 jul. \\3)"
+  },
   "\"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 May \\3)",
     "nl_NL": "“\\1” (\\2 mei \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Mar. \\3)",
+    "nl_NL": "“\\1” (\\2 mrt. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Nov. \\3)",
+    "nl_NL": "“\\1” (\\2 nov. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Oct. \\3)",
+    "nl_NL": "“\\1” (\\2 okt. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Sep. \\3)",
+    "nl_NL": "“\\1” (\\2 sep. \\3)"
   },
   "\"(.+)\" \\(Firenze, Tipografia di F. Bencini, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)",
@@ -898,7 +938,7 @@
   },
   "Giornale a stampa \"(.+)\" \\((\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (\\2 Apr. \\3)",
-    "nl_NL": "Gedrukte krant “\\1” (\\2 feb. \\3)"
+    "nl_NL": "Gedrukte krant “\\1” (\\2 apr. \\3)"
   },
   "Giornale a stampa \"(.+)\" \\((\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (\\2 Dec. \\3)",
@@ -946,7 +986,7 @@
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Apr. \\5)",
-    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 feb. \\5)"
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 apr. \\5)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Dec. \\5)",
@@ -1006,7 +1046,7 @@
   },
   "Giornale a stampa \"(.+)\" \\(N. (\\d+) del (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Apr. \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 feb. \\4)"
+    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 apr. \\4)"
   },
   "Giornale a stampa \"(.+)\" \\(N. (\\d+) del (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Dec. \\4)",
