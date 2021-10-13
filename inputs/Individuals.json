@@ -909,6 +909,23 @@
     "titles": [["Cav.", null]],
     "wikidata:id": null
   },
+  "$Berret": {
+    "ISNI:id": null,
+    "comment": "",
+    "comment_daniel": "Very highly suspect that it's Barret instead of Berret. Either way too generic a name to know who this is about. The info we have from the archive now is that he's a priest and an acquaintance of Jan van Berkel from Delft.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [""],
+    "name": "Thomas",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [""],
+    "surname": "Berret",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Bert": {
     "ISNI:id": null,
     "comment": "Amadeo Bert was an important contact for travellers and those interested in protestant communities in Italy and is mentioned in various travel diaries. He was also present at the funeral of W.H. van der Duyn, the chargé d’affaires of the Kingdom of the Netherlands in Turin. Amadeo also wrote several studies on the protestant communities.",

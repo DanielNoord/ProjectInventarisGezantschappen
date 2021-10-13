@@ -28,6 +28,22 @@
     "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
+  "\"(.+)\" \\((\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 Apr. \\3)",
+    "nl_NL": "“\\1” (\\2 apr. \\3)"
+  },
+  "\"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (\\2 May \\3)",
+    "nl_NL": "“\\1” (\\2 mei \\3)"
+  },
+  "\"(.+)\" \\(Firenze, Tipografia di F. Bencini, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)",
+    "nl_NL": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)"
+  },
+  "\"(.+)\" \\(Napoli, Stamperia Reale, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Napoli, Stamperia Reale, \\2)",
+    "nl_NL": "“\\1” (Napoli, Stamperia Reale, \\2)"
+  },
   "\"(.+)\" \\(Roma, Uffizio Centrale della Cività Cattolica, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
     "nl_NL": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)"
@@ -868,6 +884,10 @@
     "en_GB": "Sheet of 1895 ?",
     "nl_NL": "Blad van 1895 ?"
   },
+  "Fragment d'une conversation avec S.A.S. le prince de M \\(frammento di un conversazione con S.A.S. (\\$\\w+)\\)$": {
+    "en_GB": "Fragment d'une conversation avec S.A.S. le prince de M (fragment of a conversation with HSH \\1)",
+    "nl_NL": "Fragment d'une conversation avec S.A.S. le prince de M (fragment van een gesprek met ZDH \\1)"
+  },
   "Fregio decorativo con girali d'acanto \\(incisione a stampa\\)$": {
     "en_GB": "Decorative frieze with acanthus spirals (printed engraving)",
     "nl_NL": "Decoratieve fries met acanthus-spiralen (geprinte gravure)"
@@ -1588,6 +1608,10 @@
     "en_GB": "Note of the money owed to the late \\1",
     "nl_NL": "Nota van het geld dat verschuldigd is aan wijlen \\1"
   },
+  "Nota della carta moneta$": {
+    "en_GB": "Note of banknotes",
+    "nl_NL": "Nota van bankbiljetten"
+  },
   "Nota delle navi in partenza da Civitavecchia$": {
     "en_GB": "Note about the ships departing Civitavecchia",
     "nl_NL": "Nota over de schepen die uit Civitavecchia vertrekken"
@@ -1659,6 +1683,10 @@
   "Note manoscritte$": {
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven nota's"
+  },
+  "Notice biographique sur Monsieur Elgger \\(nota biografica (su|sul) (\\$\\w+)\\)$": {
+    "en_GB": "Notice biographique sur Monsieur Elgger (biographical note about \\2)",
+    "nl_NL": "Notice biographique sur Monsieur Elgger (biografische notitie over \\2)"
   },
   "Notice biographique sur Monsieur G. de Kalbermatten, commandant le régiment des gardes pontificales \\(nota biografica (su|sul) (\\$\\w+)\\)$": {
     "en_GB": "Notice biographique sur Monsieur G. de Kalbermatten, commandant le régiment des gardes pontificales (biographical note about \\2)",
@@ -2087,6 +2115,10 @@
   "Staatsblad van het Koningrijk der Nederlanden n. (\\d+) \\(a stampa\\)$": {
     "en_GB": "Staatsblad van het Koningrijk der Nederlanden n. \\1 (printed)",
     "nl_NL": "Staatsblad van het Koningrijk der Nederlanden n. \\1 (gedrukt)"
+  },
+  "Stampati diversi$": {
+    "en_GB": "Several printed documents",
+    "nl_NL": "Verschillende gedrukte documenten"
   },
   "Stato comparativo del Dazio tassato dalla vigente Tariffa Doganale per la introduzione delle sottodescritte manifatture e rispettive materie grezze$": {
     "en_GB": "Comparison of the excise duty levied by the current customs tariff for the import of the manufactures and raw materials described below",
