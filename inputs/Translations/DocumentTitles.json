@@ -208,6 +208,10 @@
     "en_GB": "Appeal of the Società Centrale to the Italians",
     "nl_NL": "Appel van de Società Centrale aan de Italianen"
   },
+  "Appello di Protesta dei Cittadini della Repubblica Romana$": {
+    "en_GB": "Appeal of Protest of the Citizens of the Roman Republic",
+    "nl_NL": "Protestoproep van de Burgers van de Romeinse Republiek"
+  },
   "Appello in lingua tedesca$": {
     "en_GB": "Appeal in the German language",
     "nl_NL": "Appel in de Duitse taal"
@@ -616,17 +620,21 @@
     "en_GB": "Statement of \\2",
     "nl_NL": "Verklaring van \\2"
   },
-  "Dichiarazione del governo Romano \\(e relativa traduzione\\)$": {
-    "en_GB": "Statement of the Roman government (with translation)",
-    "nl_NL": "Verklaring van de Romeinse regering (met vertaling)"
+  "Dichiarazione del governo Romano \\(e relativa traduzione\\) \\(a stampa\\)$": {
+    "en_GB": "Statement of the Roman government (with translation) (printed)",
+    "nl_NL": "Verklaring van de Romeinse regering (met vertaling) (gedrukt)"
   },
   "Dichiarazione$": {
     "en_GB": "Declaration",
     "nl_NL": "Verklaring"
   },
-  "Discorso dal Trono di (\\$\\w+) \\(a stampa\\)$": {
-    "en_GB": "Speech from the Throne of \\1 (printed)",
-    "nl_NL": "Troonrede van \\1 (gedrukt)"
+  "Discorso (di|del|della) (\\$\\w+) al corpo diplomatico$": {
+    "en_GB": "Speech by \\2 to the corps diplomatique",
+    "nl_NL": "Toespraak van \\2 aan het corps diplomatique"
+  },
+  "Discorso dal Trono (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
+    "en_GB": "Speech from the Throne of \\2 (printed)",
+    "nl_NL": "Troonrede van \\2 (gedrukt)"
   },
   "Discorso del Ministro degli Interni traduzione$": {
     "en_GB": "Speech from the Minister of Internal Affairs translation",
@@ -2376,6 +2384,10 @@
     "en_GB": "Prospectus of the charges and activities carried out by \\1",
     "nl_NL": "Prospectus van de kosten en activiteiten uitgevoerd door \\1"
   },
+  "Protesta a stampa (di|del|della) (\\$\\w+) \\(Gaeta, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)\\)$": {
+    "en_GB": "Printed protest from \\2 (Gaeta, \\2 Jan. \\3)",
+    "nl_NL": "Gedrukt protest van\\2 (Gaeta, \\2 jan. \\3)"
+  },
   "Protocollo d'intesa (di|del|della) (\\$\\w+) \\(trascrizione\\)$": {
     "en_GB": "Memorandum of Understanding of \\2 (translation)",
     "nl_NL": "Memorandum van overeenstemming van \\2 (vertaling)"
@@ -2632,6 +2644,10 @@
     "en_GB": "Table of imports",
     "nl_NL": "Overzicht van importen"
   },
+  "Tarduzione della protesta (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Translation of the protest from \\2",
+    "nl_NL": "Vertaling van het protest van\\2"
+  },
   "Tariffe$": {
     "en_GB": "Tariffs",
     "nl_NL": "Tarieven"
@@ -2656,9 +2672,21 @@
     "en_GB": "Translation of the “\\1” from \\3 concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Vertaling van de “\\1” van \\3 omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Traduzione del \"(.+)\" (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Translation of “\\1” from \\3",
+    "nl_NL": "Vertaling van “\\1” van \\3)"
+  },
+  "Traduzione del \"(.+)\"$": {
+    "en_GB": "Translation of “\\1”",
+    "nl_NL": "Vertaling van “\\1”"
+  },
   "Traduzione del Decreto del Commissario provvisorio del Governo dello Stato Romano$": {
     "en_GB": "Translation of a Decree of the interim Commissioner of the Government of the Roman State",
     "nl_NL": "Vertaling van een Decreet van de interim Commissaris van de Regering van de Romeinse Staat"
+  },
+  "Traduzione del foglio a stampa “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of printed sheet “\\1” (\\2 Feb. \\3)",
+    "nl_NL": "Vertaling van gedrukt blad “\\1” (\\2 feb. \\3)"
   },
   "Traduzione del foglio a stampa “(.+)” \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Translation of printed sheet “\\1” (Rome, \\2 Apr. \\3)",
@@ -2691,6 +2719,10 @@
   "Traduzione dell'appello ai popoli dello Stato Pontificio da parte della Giunta Provvisoria$": {
     "en_GB": "Translation of the appeal to the Peoples of the Papal States by the Giunta Provvisoria",
     "nl_NL": "Vertaling van de oproep aan de volkeren van de Kerkelijke Staat door de Giunta Provvisoria"
+  },
+  "Traduzione dell'appello della Repubblica Romnana ai popoli della penisola$": {
+    "en_GB": "Translation of the appeal of the Roman Republic to the peoples of the peninsula",
+    "nl_NL": "Vertaling van de oproep van de Romeinse Republiek aan de volkeren van het peninsula"
   },
   "Traduzione dell'avviso a stampa del Consiglio dei Ministri dello Stato Pontificio “Popoli degli Stati di Santa Chiesa” \\(Roma, 11 ago. 1848\\)$": {
     "en_GB": "Translation of the printed notice of the council of ministers of the Papel States \"Popoli degli Stati di Santa Chiesa\" (Rome, 11 aug. 1848)",
@@ -2767,6 +2799,10 @@
   "Traduzione di articolo (di|del|della) (\\$\\w+) sui fatti accaduti$": {
     "en_GB": "Translation of an article from \\2 about events",
     "nl_NL": "Vertaling van een artikel van \\2 over gebeurtenissen die zich hebben voorgedaan"
+  },
+  "Traduzione di estratti dal giornale a stampa “(.+)” \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translations of extracts from the printed newspaper \\1 (Year \\2 - N. \\3 of \\4 Mar. \\5)",
+    "nl_NL": "Vertalingen van uittreksels van het gedrukte nieuwsblad \\1 (Jaar \\2 - N. \\3 van \\4 Mrt. \\5)"
   },
   "Traduzione di estratti$": {
     "en_GB": "Translations of extracts",
