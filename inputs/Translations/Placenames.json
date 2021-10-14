@@ -328,6 +328,22 @@
     "longitude": "11.77358",
     "nl_NL": "Brisighella"
   },
+  "Broadlands": {
+    "en_GB": "Broadlands",
+    "geonames_id": 9257715,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Broadlands",
+    "latitude": "50.9868",
+    "longitude": "-1.49505",
+    "nl_NL": "Broadlands"
+  },
+  "Brocket Hall": {
+    "en_GB": "Brocket Hall",
+    "geonames_id": 2654614,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Brocket_Hall",
+    "latitude": "51.8",
+    "longitude": "-0.23333",
+    "nl_NL": "Brocket Hall"
+  },
   "Brolio": {
     "en_GB": "Brolio",
     "geonames_id": 3176411,
@@ -1255,6 +1271,14 @@
     "latitude": "49.61167",
     "longitude": "6.13",
     "nl_NL": "Luxemburg"
+  },
+  "Luçon": {
+    "en_GB": "Luçon",
+    "geonames_id": 2997210,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Luçon",
+    "latitude": "46.45493",
+    "longitude": "-1.16629",
+    "nl_NL": "Luçon"
   },
   "Maastricht": {
     "en_GB": "Maastricht",
