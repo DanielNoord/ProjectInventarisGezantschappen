@@ -84,6 +84,14 @@
     "en_GB": "“\\1” (\\2 Sep. \\3)",
     "nl_NL": "“\\1” (\\2 sep. \\3)"
   },
+  "\"(.+)\" \\((\\d\\d\\d\\d)\\)  e note$": {
+    "en_GB": "“\\1” (\\2) and notes",
+    "nl_NL": "“\\1” (\\2) en notities"
+  },
+  "\"(.+)\" \\((\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$": {
+    "en_GB": "“\\1” (\\2) from \\4",
+    "nl_NL": "“\\1” (\\2) van \\4"
+  },
   "\"(.+)\" \\(Firenze, Tipografia di F. Bencini, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)",
     "nl_NL": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)"
@@ -95,6 +103,14 @@
   "\"(.+)\" \\(Napoli, Stamperia Reale, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Napoli, Stamperia Reale, \\2)",
     "nl_NL": "“\\1” (Napoli, Stamperia Reale, \\2)"
+  },
+  "\"(.+)\" \\(Roma, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Rome, \\2 Jun. \\3)",
+    "nl_NL": "“\\1” (Rome, \\2 jun. \\3)"
+  },
+  "\"(.+)\" \\(Roma, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Rome, \\2 Sep. \\3)",
+    "nl_NL": "“\\1” (Rome, \\2 sep. \\3)"
   },
   "\"(.+)\" \\(Roma, Uffizio Centrale della Cività Cattolica, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
@@ -172,6 +188,14 @@
     "en_GB": "Appeal of \\2 to the soldiers",
     "nl_NL": "Appel van \\2 aan de soldaten"
   },
+  "Appello (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Appeal of \\2 and of \\4 to \\6",
+    "nl_NL": "Appel van \\2 en van \\4 aan \\6"
+  },
+  "Appello a stampa ai Romani da parte (di|del|della) (\\$\\w+) circa il suo nuovo incarico a comandante in capo dell'armata e a Governatore di Roma \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet to the Romans by \\2 about his new appointment to commander-in-chief of the army and Governor of Rome (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over zijn nieuwe benoeming tot opperbevelhebber van het leger en Gouverneur van Rome (Rome, \\2 aug. \\3)"
+  },
   "Appello a stampa dei Bolognesi (a|al) (\\$\\w+)$": {
     "en_GB": "Printed appeal of the Bologneses to \\2",
     "nl_NL": "Gedrukt appel van de Bolognesen aan \\2"
@@ -183,6 +207,10 @@
   "Appello della Società Centrale agli italiani$": {
     "en_GB": "Appeal of the Società Centrale to the Italians",
     "nl_NL": "Appel van de Società Centrale aan de Italianen"
+  },
+  "Appello in lingua tedesca$": {
+    "en_GB": "Appeal in the German language",
+    "nl_NL": "Appel in de Duitse taal"
   },
   "Appello$": {
     "en_GB": "Appeal",
@@ -744,6 +772,10 @@
     "en_GB": "Extract from l'Esperance",
     "nl_NL": "Uittreksel uit l'Esperance"
   },
+  "Estratto dal l'Indépendance Belge del 1 agosto 1849 (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Extract from l'Indépendance Belge of 1 August 1849 from \\2",
+    "nl_NL": "Uittreksel uit l'Indépendance Belge van 1 augustus 1849 van \\2"
+  },
   "Estratto dal l'Indépendance Belge$": {
     "en_GB": "Extract from l'Indépendance Belge",
     "nl_NL": "Uittreksel uit l'Indépendance Belge"
@@ -880,6 +912,10 @@
     "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
   },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circla la consegna delle armi da fuoco, da taglio e da punta \\(Roma, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” by \\3 concerning the delivery of firearms, sidearms and pointed weapons (Rome, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande de levering van vuurwapens, handwapens en scherpe wapens (Rome, \\2 sep. \\3)"
+  },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) sulla riscossione di nuove tasse sull'esercizio delle professioni, arti, mestieri, industrie e commerci \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 about the collection of the new taxes on the exercise of professions, arts, trade, industries and commerce (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de inzameling van de nieuwe belastingen op het uitoefenen van beroepen, kunsten, handel, industrieën en bedrijven (Rome, Tipografia della Rev. Cam. Apost., \\4)"
@@ -891,6 +927,10 @@
   "Foglio a stampa \"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\) \\((\\$\\w+)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 May \\3) (\\4)",
     "nl_NL": "Gedrukt blad “\\1” (\\2 mei \\3) (\\4)"
+  },
+  "Foglio a stampa \"(.+)\" \\(Gaeta, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Gaeta, \\2 Jul. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Gaeta, \\2 jul. \\3)"
   },
   "Foglio a stampa \"(.+)\"$": {
     "en_GB": "Printed sheet \"\\1\"",
@@ -1076,6 +1116,10 @@
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
+  "Foglio a stampa “(.+)” circa il perdono delle pene da parte della Santa Sede \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” concerning the pardon of penalisation by the Holy See (Rome, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” aangaande de kwijtschelding van straffen door de Heilige Stoel (Rome, \\2 set. \\3)"
+  },
   "Foglio a stampa “(.+)” e “(.+)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” and “\\2” (Rome, \\3 Jul. \\4)",
     "nl_NL": "Gedrukt blad “\\1” en “\\2” (Rome, \\3 jul. \\4)"
@@ -1092,6 +1136,14 @@
     "en_GB": "Printed sheet “\\1” about the duties on sugar and coffee from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\3  (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Foglio a stampa “(.+)” sul riconoscimento della moneta corrente \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the acknowledgement of the currency (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de erkenning van de munteenheid (Rome, \\2 aug. \\3)"
+  },
+  "Foglio a stampa “(.+)” sul riordinamento della forza armata \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the reorganization of the armed forces (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de reorganisatie van de strijdkrachten (Rome, \\2 aug. \\3)"
+  },
   "Foglio a stampa “(.+)” sull'ordine pubblico \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the public order (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de publieke orde (Rome, \\2 aug. \\3)"
@@ -1099,6 +1151,18 @@
   "Foglio a stampa “(.+)” sull'ordine pubblico \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the public order (Rome, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de publieke orde (Rome, \\2 set. \\3)"
+  },
+  "Foglio a stampa “(.+)” sulla continuazione del corso coattivo dei biglietti della Banca Romana \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the continuation of the mandatory circulation of banknotes from the Banca Romana (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de voortzetting van de verplichte verspreiding van bankbiljetten van de Banca Romana (Rome, \\2 aug. \\3)"
+  },
+  "Foglio a stampa “(.+)” sulla nullità della carta monetata posta in circolazione dal Governo Provvisorio e sulla conferma di tutti i Boni del Tesoro da parte del pontefice\\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the invalidity of banknotes put into circulation by the Provisional Government and about the confirmation of all the Boni del Tesoro by the pontiff (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de ongeldigheid van de bankbiljetten welke in omloop zijn gebracht door de Tijdelijke Regering en over de confirmatie van alle Boni del Tesoro door de paus (Rome, \\2 aug. \\3)"
+  },
+  "Foglio a stampa “(.+)” sulla regolazione della giustizia civile, criminale ed amministrativa \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
   },
   "Foglio del 1895 \\?$": {
     "en_GB": "Sheet of 1895 ?",
@@ -1792,6 +1856,10 @@
     "en_GB": "Letter of the city of Fossano",
     "nl_NL": "Brief van de stad Fossano"
   },
+  "Lettera degli amministratori generale (a|al) (\\$\\w+)$": {
+    "en_GB": "Letter from the general administrators to \\2",
+    "nl_NL": "Brief van de algemeen administratoren aan \\2"
+  },
   "Lettera dei membri della Magistratura Romana (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the members of the Roman Magistrate to \\2",
     "nl_NL": "Brief van de leden van de Romeinse Magistratuur aan \\2"
@@ -2007,6 +2075,10 @@
   "Nota di ricezione dei dispacci diplomatici$": {
     "en_GB": "Note of receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
+  },
+  "Nota e osservazioni sul rapporto del Consiglio del Granducato di Lussemburgo$": {
+    "en_GB": "Note and observations about the rapport of the Council of the Grand Duchy of Luxembourg",
+    "nl_NL": "Nota en observaties over het rapport van de Raad van het Groothertogdom van Luxemburg"
   },
   "Nota manoscritta$": {
     "en_GB": "Handwritten note",
@@ -2516,9 +2588,13 @@
     "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
     "nl_NL": "Statuten van de Società Olivi-moricola van de Kerkelijke Staat (gedrukt)"
   },
-  "Suite du journal del (\\$\\w+) \\(continuazione del giornale (di|del|della) (\\$\\w+)\\)$": {
-    "en_GB": "Suite du journal del \\1 (Continuation of the journal of \\3)",
-    "nl_NL": "Suite du journal del \\1 (Voortzetting van het logboek van \\3)"
+  "Suite du journal de M. Magrini (continuazione del giornale (di|del|della) (\\$\\w+) con trascrizioni di avvisi e proclami)\\)$": {
+    "en_GB": "Suite du journal de M. Magrini (Continuation of the journal of \\3 with transcriptions of notices and proclamations)",
+    "nl_NL": "Suite du journal de M. Magrini (Voortzetting van het logboek van \\3 met transcripties van meldingen en proclamaties)"
+  },
+  "Suite du journal de M. Magrini \\(continuazione del giornale (di|del|della) (\\$\\w+)\\)$": {
+    "en_GB": "Suite du journal de M. Magrini (Continuation of the journal of \\3)",
+    "nl_NL": "Suite du journal de M. Magrini (Voortzetting van het logboek van \\3)"
   },
   "Sul ritorno di Pio IX \\(avviso a stampa\\)$": {
     "en_GB": "On the return of Pius IX (printed notice)",
@@ -2556,6 +2632,10 @@
     "en_GB": "Table of imports",
     "nl_NL": "Overzicht van importen"
   },
+  "Tariffe$": {
+    "en_GB": "Tariffs",
+    "nl_NL": "Tarieven"
+  },
   "Testo a stampa di un discorso pubblico (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed text of a public discourse from \\2",
     "nl_NL": "Gedrukte tekst uit een openbare redevoering van \\2"
@@ -2591,6 +2671,10 @@
   "Traduzione del programma del Consiglio dei Ministri$": {
     "en_GB": "Translation of the program of the Council of Ministers",
     "nl_NL": "Vertaling van het programma van de Raad van Ministers"
+  },
+  "Traduzione del “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of “\\1” (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Vertaling van “\\1” (Rome, \\2 aug. \\3)"
   },
   "Traduzione dell'allocuzione$": {
     "en_GB": "Translation of the allocution",
@@ -2655,6 +2739,22 @@
   "Traduzione della notificazione della commissione governativa di stato \\(a stampa\\)$": {
     "en_GB": "Translation of the notification of the commissione governativa di stato (printed)",
     "nl_NL": "Vertaling van de melding van de commissione governativa di stato (gedrukt)"
+  },
+  "Traduzione della “(.+)” circa il perdono delle pene da parte della Santa Sede \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Tramslation of “\\1” concerning the pardon of penalisation by the Holy See (Rome, \\2 Sep. \\3)",
+    "nl_NL": "Vertaling van “\\1” aangaande de kwijtschelding van straffen door de Heilige Stoel (Rome, \\2 set. \\3)"
+  },
+  "Traduzione della “(.+)” sul riordinamento della forza armata \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of “\\1” about the reorganization of the armed forces (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Vertaling van “\\1” over de reorganisatie van de strijdkrachten (Rome, \\2 aug. \\3)"
+  },
+  "Traduzione della “(.+)” sull'ordine pubblico \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of “\\1” about the public order (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Vertaling van “\\1” over de openbare verordening (Rome, \\2 aug. \\3)"
+  },
+  "Traduzione della “(.+)” sulla regolazione della giustizia civile, criminale ed amministrativa \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
+    "nl_NL": "Vertaling van “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
   },
   "Traduzione di Appello di Protesta dei Cittadini della Repubblica Romana$": {
     "en_GB": "Translation of the Appeal of Protest of the Citizens of the Roman Republic",
