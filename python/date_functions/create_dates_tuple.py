@@ -6,6 +6,7 @@ from typing_utils import DateTuple
 def create_date_tuple(
     date: Union[str, DateTuple]
 ) -> Union[tuple[DateTuple], tuple[DateTuple, DateTuple]]:
+    """Creates a tuple of DateTuple's based on an existing DateTuple or date string"""
     if isinstance(date, str):
         # Transform into correct tuple if double date (xxxx-xx-xx/xxxx-xx-xx)
         if "/" in date:

@@ -13,6 +13,7 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
     """
     last_line = 0
     workbook = load_workbook(f"{directory_name}/{file_name}")
+    # pylint: disable-next=too-many-nested-blocks
     for row in workbook[workbook.sheetnames[0]].iter_rows():
         for index, cell in enumerate(row):
             if cell.value is not None:
