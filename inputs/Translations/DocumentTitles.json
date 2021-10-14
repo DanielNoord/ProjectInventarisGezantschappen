@@ -212,9 +212,17 @@
     "en_GB": "Printed appeal",
     "nl_NL": "Gedrukt appel"
   },
+  "Appello dei consoli di Lussemburgo al Vicario Apostolico$": {
+    "en_GB": "Appeal of the consuls of Luxembourg to the Apostolic Vicar",
+    "nl_NL": "Oproep van de consuls van Luxemburg aan de Apostolische Vicaris"
+  },
   "Appello della Società Centrale agli italiani$": {
     "en_GB": "Appeal of the Società Centrale to the Italians",
     "nl_NL": "Appel van de Società Centrale aan de Italianen"
+  },
+  "Appello di Protesta dei Cittadini della Repubblica Romana$": {
+    "en_GB": "Appeal of Protest of the Citizens of the Roman Republic",
+    "nl_NL": "Protestoproep van de Burgers van de Romeinse Republiek"
   },
   "Appello in lingua tedesca$": {
     "en_GB": "Appeal in the German language",
@@ -303,6 +311,10 @@
   "Avviso a stampa sulla morte di Ferdinando d'Ohmas, consigliere d'ambasciata$": {
     "en_GB": "Printed notice about the death of Ferdinando d'Ohmas, advisor of the embassy",
     "nl_NL": "Gedrukte melding over de dood van Ferdinando d'Ohmas, adviseur van de ambassade"
+  },
+  "Avviso a stampa “(.+)” \\(Ancona, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed notice “\\1” (Ancona, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukte melding “\\1” (Ancona, \\2 jun. \\3)"
   },
   "Avviso a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed notice “\\1” (Rome, \\2 Aug. \\3)",
@@ -944,7 +956,7 @@
     "en_GB": "Printed sheet “\\1” (\\2 May \\3) (\\4)",
     "nl_NL": "Gedrukt blad “\\1” (\\2 mei \\3) (\\4)"
   },
-  "Foglio a stampa \"(.+)\" \\(Gaeta, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)\\)$": {
+  "Foglio a stampa \"(.+)\" \\(Gaeta, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Gaeta, \\2 Jul. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Gaeta, \\2 jul. \\3)"
   },
@@ -2792,6 +2804,10 @@
     "en_GB": "Translation of the letter of \\2 to \\4",
     "nl_NL": "Vertaling van de brief van \\2 aan \\4"
   },
+  "Traduzione della lettera (di|del|della) (\\$\\w+) ai membri della Magistratura Romana$": {
+    "en_GB": "Translation of the letter from \\2 to the members of the Roman Magistrate",
+    "nl_NL": "Vertaling van de brief van \\2 aan de leden van de Romeinse Magistratuur"
+  },
   "Traduzione della lettera (di|del|della) (\\$\\w+) suoi sudditi$": {
     "en_GB": "Translation of the letter of \\2 about his subjects",
     "nl_NL": "Vertaling van de brief van \\2 over zijn onderdanen"
@@ -2803,6 +2819,10 @@
   "Traduzione della lettera a stampa (di|del|della) (\\$\\w+) ai sudditi dello Stato Pontificio relativa all'Amnistia \\(Roma, 16 lug. 1846\\)$": {
     "en_GB": "Translation of the printed letter of \\2 to the subjects of the Papal State relating to the Amnesty (Rome, 16 July 1846)",
     "nl_NL": "Vertaling van de gedrukte brief van \\2 aan de onderdanen van de Kerkelijke Staat met betrekking tot de Amnestie (Rome, 16 juli 1846)"
+  },
+  "Traduzione della lettera dei membri della Magistratura Romana (a|al) (\\$\\w+)$": {
+    "en_GB": "Translation of the letter from the members of the Roman Magistrate to \\2",
+    "nl_NL": "Vertaling van de brief van de leden van de Romeinse Magistratuur aan \\2"
   },
   "Traduzione della notificazione della commissione governativa di stato \\(a stampa\\)$": {
     "en_GB": "Translation of the notification of the commissione governativa di stato (printed)",
@@ -2940,6 +2960,10 @@
     "en_GB": "Transcription by \\2 of a letter of \\4",
     "nl_NL": "Transcriptie door \\2 van een brief van \\4"
   },
+  "Trascrizione del \"(.+)\"$": {
+    "en_GB": "Transcription of “\\1”",
+    "nl_NL": "Transcriptie van “\\1”"
+  },
   "Trascrizione del proclama Ai Siciliani$": {
     "en_GB": "Transcription of the proclamation Ai Siciliani",
     "nl_NL": "Transcriptie van de proclamatie Ai Siciliani"
@@ -3027,6 +3051,10 @@
   "Trascrizione di una notificazione (di|del|della) (\\$\\w+) sulla Legazione dei Paesi Bassi$": {
     "en_GB": "Transcription of a notice by \\2 about the Legation of the Kingdom of the Netherlands",
     "nl_NL": "Transcriptie van een notificatie van \\2 over het Gezantschap van het Koninkrijk der Nederlanden"
+  },
+  "Trascrizione e traduzione del \"(.+)\"$": {
+    "en_GB": "Transcription and translation of “\\1”",
+    "nl_NL": "Transcriptie en vertaling van “\\1”"
   },
   "Trascrizione e traduzione della seduta della Camera dei Deputati relativa alla Lombardia$": {
     "en_GB": "Transcription and translation of a sitting of the Chamber of Deputies pertaining to Lombardy",
