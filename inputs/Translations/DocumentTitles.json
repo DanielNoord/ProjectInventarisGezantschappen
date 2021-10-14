@@ -108,13 +108,17 @@
     "en_GB": "“\\1” (Rome, \\2 Jun. \\3)",
     "nl_NL": "“\\1” (Rome, \\2 jun. \\3)"
   },
-  "\"(.+)\" \\(Roma, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
+  "\"(.+)\" \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, \\2 Sep. \\3)",
     "nl_NL": "“\\1” (Rome, \\2 sep. \\3)"
   },
   "\"(.+)\" \\(Roma, Uffizio Centrale della Cività Cattolica, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
     "nl_NL": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)"
+  },
+  "\"(.+)\" \\(Torino, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Turin, \\2 Sep. \\3)",
+    "nl_NL": "“\\1” (Turijn, \\2 sep. \\3)"
   },
   "\"(.+)\" \\(a stampa\\)$": {
     "en_GB": "\"\\1\" (printed)",
@@ -920,7 +924,7 @@
     "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
   },
-  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circla la consegna delle armi da fuoco, da taglio e da punta \\(Roma, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circla la consegna delle armi da fuoco, da taglio e da punta \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” by \\3 concerning the delivery of firearms, sidearms and pointed weapons (Rome, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande de levering van vuurwapens, handwapens en scherpe wapens (Rome, \\2 sep. \\3)"
   },
