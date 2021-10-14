@@ -660,6 +660,10 @@
     "en_GB": "Grand Master of Ceremonies to the King of Italy",
     "nl_NL": "Groot ceremoniemeester van de Koning van Italië"
   },
+  "Gran maestro della Casa Reale di Sardegna": {
+    "en_GB": "Grandmaster of the Royal House of the Sardinia",
+    "nl_NL": "Grootmeester van het Koninklijk Huis van Sardinië"
+  },
   "Gran maestro della Regina Madre dei Paesi Bassi {Anna Pavlovna di Russia}": {
     "en_GB": "Grand master of the Queen Mother of the Netherlands {Anna Pavlovna of Russia}",
     "nl_NL": "Grootmeester van de Koningin-Moeder der Nederlanden {Anna Paulowna van Rusland}"
@@ -1627,6 +1631,10 @@
   "Vicario Apostolico a Batavia": {
     "en_GB": "Vicar apostolic in Batavia",
     "nl_NL": "Apostolisch vicaris te Batavia"
+  },
+  "Vicario Generale dei Frati Predicatori": {
+    "en_GB": "Vicar General of the Order of Preachers",
+    "nl_NL": "Vicaris-generaal van de dominicanen of Orde der Predikheren"
   },
   "Vicario apostolico nel Granducato del Lussemburgo": {
     "en_GB": "Vicar apostolic in the Grand Duchy of Luxembourg",

@@ -840,6 +840,14 @@
     "longitude": "12.67942",
     "nl_NL": "Frascati"
   },
+  "Friedrichsruhe": {
+    "en_GB": "Friedrichsruhe",
+    "geonames_id": 2924483,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Friedrichsruhe",
+    "latitude": "53.52766",
+    "longitude": "11.75125",
+    "nl_NL": "Friedrichsruhe"
+  },
   "Gaeta": {
     "en_GB": "Gaeta",
     "geonames_id": 3176438,
@@ -871,6 +879,14 @@
     "latitude": "41.70706",
     "longitude": "12.68904",
     "nl_NL": "Genzano di Roma"
+  },
+  "Gerbéviller": {
+    "en_GB": "Gerbéviller",
+    "geonames_id": 3016264,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Gerbéviller",
+    "latitude": "48.49618",
+    "longitude": "6.51075",
+    "nl_NL": "Gerbéviller"
   },
   "Ginevra": {
     "en_GB": "Geneva",
@@ -1800,6 +1816,14 @@
     "longitude": "8.47715",
     "nl_NL": "Savona"
   },
+  "Schönhausen": {
+    "en_GB": "Schönhausen",
+    "geonames_id": 2836586,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Schönhausen,_Mecklenburg-Vorpommern",
+    "latitude": "53.55414",
+    "longitude": "13.70007",
+    "nl_NL": "Schönhausen"
+  },
   "Scilla": {
     "en_GB": "Scilla",
     "geonames_id": 2523187,
@@ -2295,6 +2319,14 @@
     "latitude": "50.65552",
     "longitude": "13.07132",
     "nl_NL": "Wolkenstein"
+  },
+  "Yverdon-les-Bains": {
+    "en_GB": "Yverdon-les-Bains",
+    "geonames_id": 2657941,
+    "geonames_wikipedia": "Yverdon-les-Bains",
+    "latitude": "46.77852",
+    "longitude": "6.64115",
+    "nl_NL": "Yverdon-les-Bains"
   },
   "Zoelen": {
     "en_GB": "Zoelen",
