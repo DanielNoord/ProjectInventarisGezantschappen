@@ -5693,9 +5693,9 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "https://books.google.it/books?id=xrLL9foWEk4C&q=Limburg+Stirum+Turijn&dq=Limburg+Stirum+Turijn&hl=nl&sa=X&ved=2ahUKEwj8naHs4cnzAhU8R_EDHUgCBf8Q6AF6BAgIEAI",
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 318",
-      "Nationaal Archief, The Hague, 'Inventaris van het archief van de familie Van Limburg Stirum, (1553) 1824-1894', inventory number: 2.21.107"
+      "Nationaal Archief, The Hague, 'Inventaris van het archief van de familie Van Limburg Stirum, (1553) 1824-1894', inventory number: 2.21.107",
+      "https://books.google.it/books?id=xrLL9foWEk4C&q=Limburg+Stirum+Turijn&dq=Limburg+Stirum+Turijn&hl=nl&sa=X&ved=2ahUKEwj8naHs4cnzAhU8R_EDHUgCBf8Q6AF6BAgIEAI"
     ],
     "surname": "Limburg Stirum",
     "titles": [["conte", null]],
