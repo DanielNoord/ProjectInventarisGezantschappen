@@ -116,8 +116,8 @@ Programming tasks:
 |x|Daniël| <s>Create integration with `WikiData` person database</s><br />All individuals have been looked for on [`WikiData`](https://www.wikidata.org/) and IDs have been added to the `wikidata:id` field<br />New searches can be done with `search_wikidata()` in `python/database_searches/search_wikidata.py`
 |x|Daniël| <s>Explore integration with `SBN/ICCU` person database</s><br />Benefit [`SBN/ICCU`](https://www.iccu.sbn.it/) of integration is minimal as the database is not likely to have many new individuals. Furthermore, it does not have an accessible API
 ||Daniël| Explore integration with `Cultura Italia` person database
-||Daniël| Finish integration with `ISNI` person database
-|x|Daniël| <s>Create integration with [`Geonames`](https://www.geonames.org/) places database</s><br />All places have a Geonames ID, latitude, longitude and all locations in the EAD-XML are tagged with their ID
+|x|Daniël| <s>Create integration with `ISNI` person database</s><br />All individuals have been looked for on [`ISNI`](https://isni.org) and IDs have been added to the `ISNI:id` field<br />New searches can be done with `search_isni_api()` in `python/database_searches/search_isni.py`
+|x|Daniël| <s>Create integration with `Geonames` places database</s><br />All places have a [`Geonames`](https://www.geonames.org/) ID, latitude, longitude and all locations in the EAD-XML are tagged with their ID
 ||Daniël| Contact Nationaal Archief about EAD and `.pdf` conversion
 ||Daniël| Create database with support of all three languages
 |x|Daniël| <s>Italics in titles in EAD-XML</s><br />Functions and document titles can use `_` to indicate italic sections, which are stored in the XML file.<br />For example: `John _Pope_` -> John _Pope_
