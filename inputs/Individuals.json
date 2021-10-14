@@ -733,8 +733,8 @@
     "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1802-10-17",
+    "date_of_death": "1850-06-30",
     "functions": [
       [
         "Console Generale della Confederazione Elvetica presso La Santa Sede",
@@ -743,10 +743,12 @@
     ],
     "images": [""],
     "name": "Frederic",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [""],
+    "person_type": 1,
+    "place_of_birth": "Yverdon-les-Bains",
+    "place_of_death": "Firenze",
+    "sources": [
+      "https://gw.geneanet.org/awagni?lang=en&pz=gabrielle+fabrizia&nz=wagniere&ocz=0&p=frederic&n=begre"
+    ],
     "surname": "Bégré",
     "titles": [],
     "wikidata:id": null
@@ -873,20 +875,21 @@
   "$Berlijn": {
     "ISNI:id": "0000 0000 1401 325X",
     "comment": "",
-    "comment_daniel": "See extra data on wikidata. Should be findable https://www.wikidata.org/wiki/Q19997969",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "comment_daniel": "",
+    "date_of_birth": "1817-05-21",
+    "date_of_death": "1870-01-16",
     "functions": [
       ["Membro dell'Accademia di Santa Cecilia di Roma", null],
       ["Compositore", null]
     ],
     "images": [""],
     "name": "Anton",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Amsterdam",
     "sources": [
-      "'A.W. Berlijn', in: A.J. van der AA, Biographisch woordenboek der Nederlanden. Bijvoegsel (Haarlem, 1878)"
+      "'A.W. Berlijn', in: A.J. van der AA, Biographisch woordenboek der Nederlanden. Bijvoegsel (Haarlem, 1878)",
+      "https://www.jewishencyclopedia.com//articles/3082-berlijn-anton-aron-wolf"
     ],
     "surname": "Berlijn",
     "titles": [],
@@ -1064,17 +1067,19 @@
     "ISNI:id": "0000 0001 2101 0812",
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1815-04-01",
+    "date_of_death": "1898-07-30",
     "functions": [],
     "images": ["https://rkd.nl/explore/images/257162"],
     "name": "Otto",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [""],
+    "person_type": 1,
+    "place_of_birth": "Schönhausen",
+    "place_of_death": "Friedrichsruhe",
+    "sources": [
+      "Stolberg-Wernigerode, Otto Graf zu, 'Bismarck, Otto Fürst von' in: Neue Deutsche Biographie. Band 2 (Berlin, 1955)"
+    ],
     "surname": "von Bismarck",
-    "titles": [],
+    "titles": [["conte", "1865/"]],
     "wikidata:id": "Q8442"
   },
   "$Bixio": {
@@ -1869,7 +1874,7 @@
     "wikidata:id": "Q881567"
   },
   "$CanitzIA": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 1401 5570",
     "comment": "",
     "comment_daniel": "Ik vind het erg onwaarschijnlijk dat er een “de Canitz” zaakgelastigde van Nederland was zoals vermeld wordt in archief: 1) in de periode van vermelding was er een Canitz zaakgelastigde van Pruissen, 2) wordt er een von Canitz kamerheer van Pruissen genoemd in het archief, 3) is Liedekerke gezant van Nederland. Ik denk dus dat deze de Canitz en von Canitz dezelfde zijn en in dienst van Pruissen werkte",
     "date_of_birth": "1812",
@@ -2264,7 +2269,7 @@
     "wikidata:id": "Q166092"
   },
   "$Celesti": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6192 5411",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -2275,7 +2280,7 @@
     ],
     "images": [""],
     "name": "Michele",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -2519,11 +2524,11 @@
     "wikidata:id": null
   },
   "$Collegno": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6187 3965",
     "comment": "",
     "comment_daniel": "More info on wikidata, see https://www.wikidata.org/wiki/Q3840055",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1786-06-21",
+    "date_of_death": "1861-11-16",
     "functions": [
       [
         "Primo ufficiale della Ministero degli Affari Esteri del Regno di Sardegna",
@@ -2536,11 +2541,12 @@
     ],
     "images": [""],
     "name": "Luigi Provana",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Torino",
+    "place_of_death": "Torino",
     "sources": [
-      "Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), 17"
+      "Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), 17",
+      "https://notes9.senato.it/Web/senregno.NSF/d7aba38662bfb3b8c125785e003c4334/81f53dfa8b35b711c125706900318725?OpenDocument"
     ],
     "surname": "di Collegno",
     "titles": [["Cav.", null]],
@@ -2787,7 +2793,7 @@
     "wikidata:id": "Q3930205"
   },
   "$Cremers": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 8435 4623",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1823-06-15",
@@ -3120,7 +3126,7 @@
     ],
     "images": [""],
     "name": "Petrus Michiel",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "Città del Capo",
     "place_of_death": "Bruxelles",
     "sources": [
@@ -3576,17 +3582,19 @@
   "$Ferrere": {
     "ISNI:id": null,
     "comment": "",
-    "comment_daniel": "Writes a number of letters in ms278. No title or name is mentioned. Dizionario's and almanacco's of that period don't include a logical conte De Ferrere",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Gran maestro della Casa Reale di Sardegna", null]],
     "images": [""],
-    "name": "",
-    "person_type": 2,
+    "name": "Filippo",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [""],
-    "surname": "De Ferrere",
+    "sources": [
+      "https://books.google.it/books?id=maBjAAAAcAAJ&pg=PA193&dq=%22giorgio%22%22+garretti%22+%22ferrere%22&hl=it&sa=X&ved=2ahUKEwik0ofPlqDyAhXng_0HHdI7BSMQ6AF6BAgHEAM#v=onepage&q&f=false"
+    ],
+    "surname": "Garetti di Ferrere",
     "titles": [["conte", null]],
     "wikidata:id": null
   },
@@ -3712,7 +3720,7 @@
     "wikidata:id": null
   },
   "$Fontaine": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0004 5809 664X",
     "comment": "",
     "comment_daniel": "Seems incredible but not actually sure if this Fontaine is the same as Fontana, the console in Molfetta. Same name but I can't find it in Fontaine's history. We'll have to check the date of when Fontana was in Molfetta.",
     "date_of_birth": "1787-01-06",
@@ -3940,13 +3948,15 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Generale della Guardia Civica di Roma", null]],
+    "functions": [["Generale della Guardia Civica di Roma", "1848-10-19/"]],
     "images": [""],
     "name": "Giuseppe",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [""],
+    "sources": [
+      "https://books.google.it/books?id=XtM-inSQRiIC&pg=PA2&lpg=PA2&dq=comandante+della+guardia+civica+Giuseppe+Gallieno&source=bl&ots=TiD-tBbrrg&sig=ACfU3U2Hb41gkOUdlNQzXuQcRZNtHN2r9A&hl=nl&sa=X&ved=2ahUKEwiq3L7NzMnzAhV7_7sIHT02AAcQ6AF6BAgYEAM#v=onepage&q=comandante%20della%20guardia%20civica%20Giuseppe%20Gallieno&f=false"
+    ],
     "surname": "Gallieno",
     "titles": [],
     "wikidata:id": null
@@ -4006,7 +4016,7 @@
     "wikidata:id": null
   },
   "$Garibaldi": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0001 2145 1298",
     "comment": "From Koelman: Garibaldi, Giuseppe Maria (1807-1882) afkomstig uit Nice, was een Italiaanse patriot, avonturier en militair, die samen met Cavour, Victor Emanuele II en Mazzini een van Italië’s vaderen des vaderlands. In werd hij lid van Mazzini’s Jong Italië, waarmee hij in 1834 deelnam aan een opstand in Genua. Hij werd ter dood veroordeeld en vluchtte naar Zuid-Amerika, waar hij als vrijwilliger actief was in de zgn. Lompenoorlog in Brazilië en als generaal in de Uruguayaanse Burgeroorlog. In 1848 kwam hij naar Italië terug, waar hij o.a. als generaal van de voorlopige regering van Milaan vocht. Daarna werd hij gedeputeerde in de Romeinse grondwetgevende vergadering werd namens Macerata en brigadegeneraal van het republikeinse leger. Toen de republiek viel, trok hij op 2 juli 1849 uit Rome weg. Tijdens een poging met enkele getrouwen Venetië te bereiken stierf zijn vrouw Anita. G. zwierf enkele jaren over de wereld en vestigde zich in 1855 op Caprera, voor de kust van Sardinië. In 1859 nam hij deel aan de Tweede Onafhankelijkheidsoorlog, als generaal-majoor van een vrijwilligerskorps binnen het Sardijnse leger. In de nacht van 5/6 mei 1860 ondernam hij met ca. 1000 vrijwilligers een expeditie naar Sicilië, waar een opstand was uitgebroken. Zijn snelgroeiende leger veroverde in de maanden daarna grote delen van Zuid-Italië op de Bourbons. Die veroveringen werden vervolgens binnen het Piemontese expansionisme ‘geaccommodeerd’; zo werd de basis gelegd voor het Koninkrijk Italië (17 maart 1861). In 1866 leidde G. nogmaals een vrijwilligerskorps tijdens de Derde Italiaanse Onafhankelijkheidsoorlog om de annexatie van de Veneto. Tussen 1862 en 1867 ondernam hij met zijn eigen vrijwilligerskorps verschillende, vergeefse pogingen om Rome te bevrijden van het ‘pauselijk juk’. In zijn laatste levensfase schreef G. romans en autobiografisch proza. Zijn betekenis als internationaal icoon van de (Italiaanse) vrijheidsstrijd was zo mogelijk nog groter dan zijn militaire verdiensten. B.: Scirocco (2009); Riall (2008); Possieri (2010).",
     "comment_daniel": "",
     "date_of_birth": "1807-07-04",
@@ -4535,7 +4545,7 @@
     "wikidata:id": null
   },
   "$Gutierrez": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0004 3677 9925",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1818",
@@ -4894,19 +4904,20 @@
     "wikidata:id": "Q3651524"
   },
   "$Jandel": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6120 0170",
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1810-07-10",
+    "date_of_death": "1872-12-11",
     "functions": [
-      ["Ministro Generale dei Frati Predicatori", "1850/1872-12-11"]
+      ["Vicario Generale dei Frati Predicatori", "1850-10-01/1855-12-21"],
+      ["Ministro Generale dei Frati Predicatori", "1855-12-21/1872-12-11"]
     ],
     "images": [""],
     "name": "Alexandre Vincent",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Gerbéviller",
+    "place_of_death": "Roma",
     "sources": [
       "Cormier, Hyacinthe Marie, La vita del reverendissimo padre fr. Alessandro Vincenzo Jandel, LXXIII maestro generale dei Frati Predicatori (Rome, 1896)"
     ],
@@ -4932,11 +4943,11 @@
     "wikidata:id": null
   },
   "$Jocteau": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0003 7542 2665",
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1801",
+    "date_of_death": "1864",
     "functions": [
       [
         "Primo ufficiale della Ministero degli Affari Esteri del Regno di Sardegna",
@@ -5139,7 +5150,7 @@
     "wikidata:id": "Q717801"
   },
   "$Koelman": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6924 3239",
     "comment": "From Koelman: Koelman, J(oh)an Hendrik (1820-1887) werd geboren in Den Haag als zoon van een timmerman. Hij ging in de leer bij Cornelis Kruseman en won 1839 de Groote Prijs voor historieschilderkunst van de Amsterdamse academie. Met A. Ehnle reisde hij naar Rome (aankomst 29 september 1840) waar hij, tot ergernis van de Nederlandse ambassadeur en de raad van de Academie, de weg van de genre- en portretkunst insloeg. Als miniaturist kreeg hij weldra opdrachten uit de hoogste kringen (Vosmaer noemt een kopie in grote minatuur op ivoor van Raphaels Transfiguratie, en een Groepsportret van de familie Borghese voor prins Marc Antonio Borghese). Ook na het einde van zijn Nederlandse pensioen (1844) bleef hij in Rome. Eind 1844 werd hij katholiek en trouwde met Enrichetta Fioroni. Bij dat huwelijk ontbrak zijn oudere broer J. Philip, die hem in 1844 naar Rome was gevolgd en met wie hij in onmin was geraakt. Met zijn jongere broer J. Daniël (1831-1857), die vermoedelijk eveneens Italië bezocht, was de verhouding beter (vgl. Koelman 1842). Getuige de Nederlandse ambassadeur was K. fanatiek sympathisant met de Romeinse republiek; of hij inderdaad ook in de burgerwacht diende (zoals zijn broer beweert) is onduidelijk. K. exposeerde meermaals bij de Società degli Amatori e Cultori delle Belle Arti (in 1844 een Keuken van het ziekenhuis in een Capucijnerklooster). Ook in Nederland bleef zijn werk bekend, dankzij reproducties in de Kunstkronijk. Op latere leeftijd stond K. model voor de figuur van Wybrand, laatste exponent van de Hollandse schildersbent in Rome, in C. Vosmaers roman Inwijding (1889). Met uitzondering van een bezoek aan Nederland in 1869 (bezoekersregister Dordrechts Museum 1869, p. 22) bleef hij tot zijn dood in Rome. Hij woonde en werkte eerst aan de Via Sistina 68 en kocht in 1850 een groot woonhuis aan de Via dell’Olmo 57, later uitgebreid met nieuwbouw aan de aangrenzende Via Paolina. K. werd begraven op het Campo Verano. B.: Ehnle (1840-41); Koelman (1842); Donovan, Rome Vol III (1843) 1008; Mercurio (1843) 301; Dubourcq (1843-44) passim; Correspondentie J.F Portaels, passim 1845-70; The Artstical Directory (1856) 65; Vosmaer (1887); Noack (1927) II, 324-325; Hoogewerff, (1933)165-169, 185-193; Reynaerts (2001) 168-169 en passim; Adelaar e.a. (2003) 65 en passim; Montani (2005-2007) 401, 404, 406.",
     "comment_daniel": "",
     "date_of_birth": "1820-01-22",
@@ -5260,7 +5271,7 @@
     "wikidata:id": "Q18511397"
   },
   "$LaTour": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6193 9477",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1744-11-18",
@@ -5667,7 +5678,7 @@
   "$Limburg": {
     "ISNI:id": null,
     "comment": "",
-    "comment_daniel": "Daniël's comment suggested that the initials of this count were F.A., which would make it Frederik Adrian (1804-1874), but looking into his life I think it is doubtful that he was the person described here (got phd in 1825, was an attaché with Dutch legate to Berlin in 1834). It is likelier that it is about his father, Frederik Wilhelm, who got promoted 1827 to colonel and in 1828 to secretary of war (diary Richards, and see C.J. Graaf van Limburg Iconocgraphy pages 109-123)",
+    "comment_daniel": "Zowel Beth als Valk zijn er heel zeker van dat dit F.A. moet zijn. Laten we dat dan maar aanhouden. We blijven zoeken naar geboortedatum en volledige naam.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -5677,11 +5688,12 @@
       ]
     ],
     "images": [""],
-    "name": "",
+    "name": "F.A.",
     "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
+      "https://books.google.it/books?id=xrLL9foWEk4C&q=Limburg+Stirum+Turijn&dq=Limburg+Stirum+Turijn&hl=nl&sa=X&ved=2ahUKEwj8naHs4cnzAhU8R_EDHUgCBf8Q6AF6BAgIEAI",
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 318",
       "Nationaal Archief, The Hague, 'Inventaris van het archief van de familie Van Limburg Stirum, (1553) 1824-1894', inventory number: 2.21.107"
     ],
@@ -6066,7 +6078,7 @@
     "wikidata:id": "Q63302048"
   },
   "$MadiaiR": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0003 8954 8023",
     "comment": "The Madiai family was involved in an international scandal, discussion of which can be found in the note.",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -6404,7 +6416,7 @@
     "wikidata:id": "Q6118895"
   },
   "$Martinez": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0001 1797 6243",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1787-03-10",
@@ -6902,7 +6914,7 @@
     "wikidata:id": null
   },
   "$Milella": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6267 9216",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1812-08-18",
@@ -7198,18 +7210,18 @@
     "ISNI:id": null,
     "comment": "",
     "comment_daniel": "Vrouw van AWC",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1761-03-25",
+    "date_of_death": "1853-12-19",
     "functions": [],
-    "images": [""],
-    "name": "",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "images": ["https://rkd.nl/explore/images/183196"],
+    "name": "Anna Catharina Elisabeth",
+    "person_type": 1,
+    "place_of_birth": "L'Aia",
+    "place_of_death": "L'Aia",
     "sources": [""],
-    "surname": "van Nagell",
+    "surname": "van Nagell - du Tour",
     "titles": [["baronessa", null]],
-    "wikidata:id": null
+    "wikidata:id": "Q76259620"
   },
   "$Nardoni": {
     "ISNI:id": null,
@@ -7315,7 +7327,7 @@
     "wikidata:id": "Q3047474"
   },
   "$Nigrisoli": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6247 4704",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -7851,21 +7863,21 @@
     "wikidata:id": null
   },
   "$Palmerston": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0001 1026 6425",
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1784-10-20",
+    "date_of_death": "1865-10-18",
     "functions": [],
     "images": [""],
     "name": "Henry John Temple",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Broadlands",
+    "place_of_death": "Brocket Hall",
     "sources": [""],
     "surname": "Palmerston",
     "titles": [["Lord", null]],
-    "wikidata:id": "Q64707205"
+    "wikidata:id": "Q193656"
   },
   "$Pancani": {
     "ISNI:id": null,
@@ -7929,7 +7941,7 @@
     "wikidata:id": null
   },
   "$Patrizi": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 6130 5589",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1798-11-04",
@@ -8069,7 +8081,7 @@
     "wikidata:id": null
   },
   "$Pianori": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 2378 3950",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1823-08-16",
@@ -8590,14 +8602,14 @@
     "ISNI:id": null,
     "comment": "",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1785-02-28",
+    "date_of_death": "1863-11-23",
     "functions": [],
     "images": [""],
     "name": "Hippolyte",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Luçon",
+    "place_of_death": "Nantes",
     "sources": [
       "Bureaux de l'agence générale pour la défense de la liberté religieuse, Premier bulletin de l'agence générale pour la défense de la liberté religieuse (Paris, 1831-12-05), 46",
       "Foreign Office, British and Foreign State Papers. 1833-1834, volume 22 (London, 1847), 382",
@@ -9053,7 +9065,7 @@
     "wikidata:id": "Q80375043"
   },
   "$Rufini": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0003 7634 5112",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1805",
@@ -10135,7 +10147,7 @@
     "wikidata:id": "Q3904284"
   },
   "$SterbiniS": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0003 8037 8478",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "",
@@ -10157,7 +10169,7 @@
     "wikidata:id": null
   },
   "$Stover": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0003 9275 8697",
     "comment": "From Koelman: Stöver, Johan Hendrik (1825-1911) was een leerling van de beeldhouwer Louis Royer. In 1851 trok hij in gezelschap van de schilders L.L. Kleijn en K.F. Philippeau naar Rome, vgl. Kunstkronijk 12 (1851), 48. Hij zou er tot 1876 blijven, waarna hij zich in Den Haag vestigde. In Rome behoorde S. tot de kunstenaarskring rond prinses Marianne, voor wie hij ook later werkzaam zou blijven (o.a. de grafmonumenten voor haar zoon J.W. von Reinhartshausen en de Christus op het graf van de prinses zelf, beide in Erbach, Rheingau). Stöver nam eerst zijn intrek in de Via de’ Pontefici 55 (waar Koelman eerder huisde), werkte daarna tot 1872 aan de Via Margutta 33, waar zijn eerste atelier in 1859 aan Bernardo Celentano overging. Hij woonde resp. aan de Via del Corso 504 en de Passeggiata di Ripetta 35. In Rome maakte hij o.a. het beeld van een Engel met een dood kind (1856) voor het mortuarium van het Diakonessenhuis in Utrecht (nu Centraal Museum) en een Moeder met kind (1859), gekocht door  voor zijn vrouw  t.g.v. de geboorte van hun zoon, de latere keizer . B.: Almanacco (1855) 292; Noack (1927) II, 582; Hoogewerff (1933); Geudeker (2018).",
     "comment_daniel": "",
     "date_of_birth": "1825-10-30",
@@ -10493,7 +10505,7 @@
   "$Trucchi": {
     "ISNI:id": null,
     "comment": "",
-    "comment_daniel": "Impossible to determine who this is without more information from archive. There seems to be an author who lived in the 19th century with the same name",
+    "comment_daniel": "Impossible to determine who this is without more information from archive. There seems to be an author who lived in the 19th century with the same name. Possibly https://isni.org/isni/0000000061427308",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -10551,7 +10563,7 @@
     "wikidata:id": null
   },
   "$TuyllGMK": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0003 9581 6645",
     "comment": "",
     "comment_daniel": "",
     "date_of_birth": "1813-01-18",
