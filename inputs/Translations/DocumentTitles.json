@@ -10,7 +10,7 @@
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la legge sul governo delle provincie e sull'amministrazione provinciale \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the provinces and about provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de provincies en over provinciale administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de provincies en over provinciaal beheer (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
@@ -26,7 +26,7 @@
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa le disposizioni speciali sulla rappresentanza e sull'amministrazione del Comune di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over de administratie van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over het beheer van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+)$": {
     "en_GB": "“\\1” from \\3",
@@ -167,6 +167,10 @@
   "Affaire de Mgr. Grooff Vicario Apostolico a Batavia$": {
     "en_GB": "Affair of Mgr. Grooff Apostolic Vicar at Batavia",
     "nl_NL": "Affaire Mgr. Grooff Apostolisch Vicaris te Batavia"
+  },
+  "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg \\(Affare relativa all'amministrazione del Granducato di Lussemburgo\\)$": {
+    "en_GB": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affair relating to spiritual administration of the Grand Duchy of Luxembourg)",
+    "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affaire aangaande het spirituele beheer van het Groothertogdom van Luxemburg)"
   },
   "Allegato a stampa$": {
     "en_GB": "Printed attachment",
@@ -363,6 +367,10 @@
   "Bolla d'entrata$": {
     "en_GB": "Import note",
     "nl_NL": "Invoernota"
+  },
+  "Bollettini segreti 1847. Roma - Napoli$": {
+    "en_GB": "Secret bulletin 1847. Rome - Naples",
+    "nl_NL": "Geheim bulletin 1847. Rome - Napels"
   },
   "Boni garantiti (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Boni garantiti by \\2",
@@ -692,7 +700,7 @@
     "en_GB": "Dèpêches et lettres avec le Ministre des Affaires Etrangères (Press reports and letters with the Minister of Foreign Affairs)",
     "nl_NL": "Dèpêches et lettres avec le Ministre des Affaires Etrangères (Persberichten en brieven met de Minister van Buitenlandse Zaken)"
   },
-  "Dépêches du Consul Géneral et des Vice Consuls de son Ressort \\(Messaggi del Console Generale e dei Vice Consoli della sua zona\\)$": {
+  "Dépêches du Consul Géneral et des Vice Consuls de son Ressort \\(Spedizioni del Console Generale e dei Vice Consoli della sua zona\\)$": {
     "en_GB": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Dispatches of the Consul General and Vice Consuls of his area)",
     "nl_NL": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Verzendingen van de consul-generaal en vice-consuls van zijn gebied)"
   },
@@ -924,6 +932,10 @@
     "en_GB": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions",
     "nl_NL": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions"
   },
+  "Extrait de dépêche - N. (\\d+) \\(Estratto di una spedizione - N. (\\d+)\\)$": {
+    "en_GB": "Extrait de dépêche - N. \\1 (Extract from a dispatches - N. \\2)",
+    "nl_NL": "Extrait de dépêches - N. \\1 (Uittreksel uit een verzending -N. \\2)"
+  },
   "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816$": {
     "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
     "nl_NL": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816"
@@ -987,6 +999,10 @@
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ampliamento della Guardia Civica di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\) con allegato “(.+)”$": {
+    "en_GB": "Printed sheet “\\1” from \\3 about the expansion of the Guarda Civica van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) with attachment \\5",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 over de uitbreiding van de Guarda Civica  van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) met bijlage \\5"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 concerning the public order (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
@@ -1556,6 +1572,10 @@
     "en_GB": "Letter to \\2 with memorandum about \\3",
     "nl_NL": "Brief aan \\2 met memorandum over \\3"
   },
+  "Lettera (a|al) (\\$\\w+) con numero sottoscrizioni (copia)$": {
+    "en_GB": "Letter to \\2 with a number written below (copy)",
+    "nl_NL": "Brief aan \\2 met ondergeschreven nummer (kopie)"
+  },
   "Lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Letter to \\2",
     "nl_NL": "Brief aan \\2"
@@ -1767,6 +1787,10 @@
   "Lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter of \\2",
     "nl_NL": "Brief van \\2"
+  },
+  "Lettera (di|del|della) (\\$\\w+), copia di una lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Letter of \\2, copy of a letter from \\4",
+    "nl_NL": "Brief van \\2, kopie van een brief van \\4"
   },
   "Lettera \\?$": {
     "en_GB": "Letter ?",
@@ -2384,6 +2408,10 @@
     "en_GB": "Pieces diverses (Various documents)",
     "nl_NL": "Pieces diverses (Diverse stukken)"
   },
+  "Pièces diverses \\(Documenti vari\\)$": {
+    "en_GB": "Pièces diverses (Various pieces)",
+    "nl_NL": "Pièces diverses (Diverse stukken)"
+  },
   "Pièces diverses. Correspondance avec le departement des Affaires Etrangères Sardes 1818-1829 \\(Documenti vari. Corrispondenza col Dipartimento agli Affari Sardi 1818-1829\\)$": {
     "en_GB": "Pièces diverses. Correspondance avec le departement des Affaires Etrangères Sardes 1818-1829 (Various documents. Correspondence with the Sardinian Ministry of Foreign Affairs 1818-1829)",
     "nl_NL": "Pièces diverses. Correspondance avec le departement des Affaires Etrangères Sardes 1818-1829 (Diverse documenten. Correspondentie met het Sardijnse Ministerie van Buitenlandse Zaken 1818-1829)"
@@ -2651,6 +2679,10 @@
   "Staatsblad van het Koningrijk der Nederlanden n. (\\d+) \\(a stampa\\)$": {
     "en_GB": "Staatsblad van het Koningrijk der Nederlanden n. \\1 (printed)",
     "nl_NL": "Staatsblad van het Koningrijk der Nederlanden n. \\1 (gedrukt)"
+  },
+  "Stampa fotomeccanica del campionario della ditta H. Belder & Co. di Amsterdam, delle pompe a fuoco \\(1847\\) con incisioni delle macchine$": {
+    "en_GB": "Photomechanical print from a sample book of the company H. Belder & Co from Amsterdam, about pumps and fire (1847) with instructions about the machines",
+    "nl_NL": "Fotomechanische print uit een voorbeeldboek van het bedrijf H. Belder & Co uit Amsterdam, over pompen en vuur (1847) met instructies voor de machines"
   },
   "Stampati diversi$": {
     "en_GB": "Several printed documents",
@@ -2968,10 +3000,6 @@
     "en_GB": "Translation in French of the letter of the Alto Consiglio della Nobilità to \\2 about the conferral of a medal",
     "nl_NL": "Vertaling in het Frans van de brief van het Alto Consiglio della Nobilità aan \\2 over de toekenning van een medaille"
   },
-  "Trascrione di articoli tratti dal Giornale di Roma$": {
-    "en_GB": "Transcription of articles from the Giornale di Roma",
-    "nl_NL": "Transcriptie van artikelen van de Giornale di Roma"
-  },
   "Trascrizione (di|del|della) (\\$\\w+) del Journal de Paris$": {
     "en_GB": "Transcription by \\2 of the \"Journal of Paris\"",
     "nl_NL": "Transcriptie door \\2 van de \"Journal of Paris\""
@@ -3084,6 +3112,10 @@
     "en_GB": "Transcription and translation of a sitting of the Chamber of Deputies pertaining to Lombardy",
     "nl_NL": "Transcriptie en vertaling van een zittin van de Kamer van Afgevaardigden met betrekking tot Lombardije"
   },
+  "Trascrizione e traduzione di Notizie del giorno$": {
+    "en_GB": "Transcription and translation of Daily news",
+    "nl_NL": "Transcriptie en vertaling van Dagelijks nieuws"
+  },
   "Trascrizione e traduzione di una notificazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription and translation of a notification of \\2",
     "nl_NL": "Transcriptie en vertaling van een notificatie van \\2"
@@ -3099,6 +3131,10 @@
   "Trascrizioni e copie di lettere fatte (da|dal) (\\$\\w+) indirizzate (a|ad) (\\$\\w+), Genova, Marsiglia, Barcellona$": {
     "en_GB": "Transcriptions and copies of letters made by \\2 addressed to \\4, Genoa, Marseille, Barcelona",
     "nl_NL": "Transcripties en kopieën van brieven gemaakt door \\2 gericht aan \\4, Genua, Marseille, Barcelona"
+  },
+  "Trascrizone di articoli tratti dal Giornale di Roma$": {
+    "en_GB": "Transcription of articles from the Giornale di Roma",
+    "nl_NL": "Transcriptie van artikelen van de Giornale di Roma"
   },
   "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua$": {
     "en_GB": "Tweede Semester van 't Jaar 1818. Zes maanden Lyst, van Aankomst en Vertrek, der Neederlandsche Koopvaardy Scheepen in de Haven te Genua",
@@ -3123,6 +3159,10 @@
   "“(.+)” \\((\\d\\d\\d\\d\\))$": {
     "en_GB": "“(\\1)” (\\2)",
     "nl_NL": "“(\\1)” (\\2)"
+  },
+  "“(.+)” \\(Batavia, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Batavia, \\2 Jan. \\3) ",
+    "nl_NL": "“\\1” (Batavia, \\2 jan. \\3) "
   },
   "“(.+)” \\(Bologna, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Bologna, \\2 Jul. \\3)",
