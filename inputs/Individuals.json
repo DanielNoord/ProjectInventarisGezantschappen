@@ -2552,6 +2552,30 @@
     "titles": [["Cav.", null]],
     "wikidata:id": "Q3840055"
   },
+  "$Colloredo": {
+    "ISNI:id": "0000 0000 8077 6220",
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1778-11-28",
+    "date_of_death": "1864-10-09",
+    "functions": [
+      [
+        "Luogotenente Generale del Sovrano Militare Ordine di Malta",
+        "1845-09-15/1864-10-09"
+      ]
+    ],
+    "images": [""],
+    "name": "Filippo",
+    "person_type": 1,
+    "place_of_birth": "Udine",
+    "place_of_death": "Recanati",
+    "sources": [
+      "Francesco Giuseppe Terrinoni Memorie storiche della resa di Malta ai francesi nel 1798, tip. delle Belle Arti, Roma, 1867"
+    ],
+    "surname": "di Colloredo-Mels",
+    "titles": [["marchese", null]],
+    "wikidata:id": "Q553371"
+  },
   "$Colombo": {
     "ISNI:id": null,
     "comment": "",
@@ -9647,6 +9671,23 @@
     "surname": "Schimmelpenninck van der Oye",
     "titles": [["barone", null]],
     "wikidata:id": "Q682310"
+  },
+  "$Serafini": {
+    "ISNI:id": null,
+    "comment": "Local notable from Fano",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [""],
+    "name": "Serafino",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [""],
+    "surname": "Serafini",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Serra": {
     "ISNI:id": null,
