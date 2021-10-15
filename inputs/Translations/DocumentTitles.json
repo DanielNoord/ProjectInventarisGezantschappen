@@ -424,6 +424,10 @@
     "en_GB": "Printed circulaire of the Ministry of the Interior signed by \\1 about the withdrawal of the Austrians from Ferrara, but with the current threat of foreign power (Rome, July 18, 1848)",
     "nl_NL": "Gedrukte circulaire van het Ministerie van Binnenlandse Zaken ondertekend door \\1 over de terugtrekking van de Oostenrijkers uit Ferrara, maar met de huidige dreiging van buitenlandse macht (Rome, 18 juli 1848)"
   },
+  "Circolare a stampa della Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti relativa a “(.+)”$": {
+    "en_GB": "Printed circulaire of the Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti relating to \\1",
+    "nl_NL": "Gedrukte circulaire van het Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti aangaande \\1"
+  },
   "Circolare agli'inviati e ai consoli della Repubblica Romana all'Estero \\(traduzione\\)$": {
     "en_GB": "Circulaire to the envoys and the consuls of the Roman Republic abroad (translation)",
     "nl_NL": "Circulaire aan de gezanten en de consuls van de Romeinse Republiek in het buitenland (vertaling)"
@@ -2132,6 +2136,10 @@
     "en_GB": "Appointments made at the court of \\2",
     "nl_NL": "Afspraken gemaakt aan het hof van \\2"
   },
+  "Nota (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Note from \\2",
+    "nl_NL": "Nota van \\2"
+  },
   "Nota con allegata Bolla d'entrata$": {
     "en_GB": "Note with attached import note",
     "nl_NL": "Nota with bijgevoegde invoernota"
@@ -2575,6 +2583,10 @@
   "Relazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Report from \\2",
     "nl_NL": "Rapport van \\2"
+  },
+  "Relazione a Sua Altezza Reale$": {
+    "en_GB": "Report to His Royal Highness",
+    "nl_NL": "Rapport aan Zijne Koninklijke Hoogheid"
   },
   "Relazione circa i fatti che causarono l'intevento (di|del|della) (\\$\\w+)$": {
     "en_GB": "Report about the facts that cause the intervention of \\2",
