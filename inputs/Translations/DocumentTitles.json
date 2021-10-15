@@ -968,6 +968,10 @@
     "en_GB": "Printed sheet \"\\1\"",
     "nl_NL": "Gedrukt blad \"\\1\""
   },
+  "Foglio a stampa \"(.+)\", articolo (di|del|della) (\\$\\w+) \\(Estratto dal \"(.+)\", Anno (\\w+) - N. (\\d+) del (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1”, article by \\3 (Extract “\\4”, Year \\5 - N. \\6 of \\7)",
+    "nl_NL": "Gedrukt blad “\\1”, artikel door \\3 (Extract “\\4”, Jaar \\5 - N. \\6 van \\7)"
+  },
   "Foglio a stampa con la benedizione (di|del|della) (\\$\\w+) \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)\\)$": {
     "en_GB": "Printed sheet with the benediction of \\2 (\\3 Feb. \\4)",
     "nl_NL": "Gedrukt blad met de zegening van \\2 (\\3 feb. \\4)"
@@ -983,6 +987,14 @@
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” of \\3 concerning the public order (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande de publieke verordening (Rome, Tipografia della Rev. Cam. Apost., \\4 jul. \\5)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa lo spostamento di alcune feste \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” of \\3 concerning the postponement of several feasts (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande het uistel van verscheidene feesten (Rome, Tipografia della Rev. Cam. Apost., \\4 jul. \\5)"
   },
   "Foglio a stampa “(.+)” \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 Aug. \\3)",
@@ -1063,6 +1075,10 @@
   "Foglio a stampa “(.+)” \\(Lussemburgo, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Luxembourg, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Luxemburg, \\2)"
+  },
+  "Foglio a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (N. \\2 of \\3 Jul. \\4)",
+    "nl_NL": "Gedrukt blad “\\1” (N. \\2 van \\3 jul. \\4)"
   },
   "Foglio a stampa “(.+)” \\(Napoli, (\\d\\d?) mag. (\\d\\d\\d\\d), N. (\\d+)\\)$": {
     "en_GB": "Printed sheet “\\1” (Naples, \\2 May \\3, N. \\4)",
@@ -1152,6 +1168,10 @@
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d) - Estratto dall' “(.+)”, N. (\\d+)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract from \\3, N. \\4)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract uit \\3, N. \\4)"
+  },
   "Foglio a stampa “(.+)” circa il perdono delle pene da parte della Santa Sede \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” concerning the pardon of penalisation by the Holy See (Rome, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt blad “\\1” aangaande de kwijtschelding van straffen door de Heilige Stoel (Rome, \\2 set. \\3)"
@@ -1166,11 +1186,15 @@
   },
   "Foglio a stampa “(.+)” firmato (\\$\\w+) \\(Vigevano, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” signed by \\2 (Vigevano, Aug. \\3, \\4)",
-    "nl_NL": "Gedrukt blad “\\1” ondertekent door \\2 (Vigevano, \\3 aug. \\4)"
+    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\2 (Vigevano, \\3 aug. \\4)"
+  },
+  "Foglio a stampa “(.+)” firmato (da|dal) (\\$\\w+) \\(Roma, Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” signed by \\3 (Rome, Tipografia Cattolica, \\4)",
+    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Rome, Tipografia Cattolica, \\4)"
   },
   "Foglio a stampa “(.+)” sul dazio dello zucchero e del caffè (di|del|della) (\\$\\w+) \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” about the duties on sugar and coffee from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
-    "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+    "en_GB": "Printed sheet “\\1” about the duties on sugar and coffee from \\3 (Rome, Stamperia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\3 (Rome, Stamperia della Rev. Cam. Apost., \\4)"
   },
   "Foglio a stampa “(.+)” sul riconoscimento della moneta corrente \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the acknowledgement of the currency (Rome, \\2 Aug. \\3)",
@@ -1200,9 +1224,9 @@
     "en_GB": "Printed sheet “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
   },
-  "Foglio del 1895 \\?$": {
-    "en_GB": "Sheet of 1895 ?",
-    "nl_NL": "Blad van 1895 ?"
+  "Foglio del 1895$": {
+    "en_GB": "Sheet of 1895",
+    "nl_NL": "Blad van 1895"
   },
   "Fragment d'une conversation avec S.A.S. le prince de M \\(frammento di un conversazione con S.A.S. (\\$\\w+)\\)$": {
     "en_GB": "Fragment d'une conversation avec S.A.S. le prince de M (fragment of a conversation with HSH \\1)",
@@ -2372,11 +2396,11 @@
     "en_GB": "Proclamation of \\2",
     "nl_NL": "Proclamatie van \\2"
   },
-  "Proclama a stampa (di|del|della) (\\$\\w+) \"(.+)\" \\(Roma, (\\d\\d?) Mar. (\\d\\d\\d\\d)\\)$": {
+  "Proclama a stampa (di|del|della) (\\$\\w+) \"(.+)\" \\(Roma, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed proclamation of \\2 \"\\1\"(Rome, \\3 Mar. \\4)",
     "nl_NL": "Gedrukte proclamatie van \\2 \"\\1\" (Rome, \\3 mrt. \\4)"
   },
-  "Proclama a stampa (di|del|della) (\\$\\w+) \\(Torino, (\\d\\d?) Mar. (\\d\\d\\d\\d)\\)$": {
+  "Proclama a stampa (di|del|della) (\\$\\w+) \\(Torino, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed proclamation of \\2 (Turin, \\3 Mar. \\4)",
     "nl_NL": "Gedrukte proclamatie van \\2 (Turijn, \\3 mrt. \\4)"
   },
@@ -2396,7 +2420,7 @@
     "en_GB": "Printed proclamation Al Popolo Napoletano",
     "nl_NL": "Gedrukte proclamatie Al Popolo Napoletano"
   },
-  "Proclama a stampa per l'ordine pubblico di Roma rivolto ai cittadini (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) Mar. (\\d\\d\\d\\d)\\)$": {
+  "Proclama a stampa per l'ordine pubblico di Roma rivolto ai cittadini (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed proclamation about the public order addressed to the citizens of \\2 (Rome, \\3 Mar. \\4)",
     "nl_NL": "Gedrukte proclamatie over de publieke order gericht aan de burgers van \\2 (Rome, \\3 mrt. \\4)"
   },
