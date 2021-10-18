@@ -45,10 +45,6 @@
             }
           ]
         },
-        "comment": {
-          "description": "Comments about extra info or the person",
-          "type": "string"
-        },
         "comment_daniel": {
           "description": "Comments made by Daniël, not relevant for future users",
           "type": "string"
@@ -75,10 +71,11 @@
           "description": "Array of relevant images",
           "items": [
             {
+              "pattern": ".+",
               "type": "string"
             }
           ],
-          "minItems": 1,
+          "minItems": 0,
           "type": "array"
         },
         "name": {
@@ -104,10 +101,23 @@
           "description": "Array of relevant sources",
           "items": [
             {
+              "pattern": ".+",
               "type": "string"
             }
           ],
-          "minItems": 1,
+          "type": "array"
+        },
+        "sources_other": {
+          "additionalItems": {
+            "type": "string"
+          },
+          "description": "Array of relevant other sources",
+          "items": [
+            {
+              "pattern": ".+",
+              "type": "string"
+            }
+          ],
           "type": "array"
         },
         "surname": {
@@ -143,10 +153,10 @@
         "place_of_death",
         "titles",
         "functions",
-        "comment",
         "comment_daniel",
         "person_type",
         "sources",
+        "sources_other",
         "images",
         "wikidata:id",
         "ISNI:id"

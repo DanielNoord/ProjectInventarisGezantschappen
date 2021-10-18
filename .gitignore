@@ -6,6 +6,7 @@
 !EADFiles/
 !inputs
 inputs/*
+!inputs/Biographies.json
 !inputs/Individuals.docx
 !inputs/Individuals.json
 !inputs/Translations

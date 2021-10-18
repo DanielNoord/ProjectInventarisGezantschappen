@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "additionalProperties": {
+    "$ref": "#/definitions/person"
+  },
+  "definitions": {
+    "person": {
+      "description": "A person, named by its identifier",
+      "properties": {
+        "en_GB": {
+          "description": "Biography in English",
+          "oneOf": [
+            {
+              "pattern": "^\\w+.*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "it_IT": {
+          "description": "Biography in Italian",
+          "oneOf": [
+            {
+              "pattern": "^\\w+.*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "nl_NL": {
+          "description": "Biography in Dutch",
+          "oneOf": [
+            {
+              "pattern": "^\\w+.*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": ["en_GB", "it_IT", "nl_NL"],
+      "type": "object"
+    }
+  },
+  "properties": {
+    "$schema": "string"
+  },
+  "title": "List of all individuals mentioned in the archive",
+  "type": "object",
+  "uniqueItems": true
+}
