@@ -40,7 +40,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Control if inputs/Individuals.json is 'sorted' correctly
         run: |
-          if grep -rq '"images": \[""\]' inputs
+          if grep -rq '"titles": [["conte", null]],' inputs
           then
             echo "The database seems to be correctly saved"
           else
