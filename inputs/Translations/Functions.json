@@ -144,6 +144,10 @@
     "en_GB": "State Chancellor of the Grand Duchy of Luxembourg in The Hague",
     "nl_NL": "Rijkskanselier van het Groothertogdom Luxemburg te Den Haag"
   },
+  "Cancelliere di Stato dell'Impero d'Austria": {
+    "en_GB": "State Chancellor of the Empire of Austria",
+    "nl_NL": "Rijkskanselier van het Keizerrijk Oostenrijk"
+  },
   "Cancelliere di stato ad interim per gli Affari Lussemburghesi all'Aia": {
     "en_GB": "Ad interim state chancellor for Luxembourgish Affairs in The Hague",
     "nl_NL": "Ad interim staatskanselier voor Luxemburgse Aangelegenheden te Den Haag"
@@ -983,6 +987,10 @@
   "Ministro degli Affari Esteri del Regno di Sardegna": {
     "en_GB": "Minister of Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
+  },
+  "Ministro degli Affari Esteri dell'Impero d'Austria": {
+    "en_GB": "Minister of Foreign Affairs of the Empire of Austria",
+    "nl_NL": "Minister van Buitenlandse Zaken van het Keizerrijk Oostenrijk"
   },
   "Ministro degli Affari Esteri della Repubblica Romana": {
     "en_GB": "Minister of Foreign Affairs of the Roman Republic",
