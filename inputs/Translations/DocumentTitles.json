@@ -9,8 +9,8 @@
     "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de Gemeentes (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la legge sul governo delle provincie e sull'amministrazione provinciale \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the provinces and about provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de provincies en over provinciaal beheer (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the provinces and about the provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de regering van de provincies en over het provinciaal bestuur (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
@@ -26,7 +26,7 @@
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa le disposizioni speciali sulla rappresentanza e sull'amministrazione del Comune di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over het beheer van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over het bestuur van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+)$": {
     "en_GB": "“\\1” from \\3",
@@ -168,9 +168,9 @@
     "en_GB": "Affair of Mgr. Grooff Apostolic Vicar at Batavia",
     "nl_NL": "Affaire Mgr. Grooff Apostolisch Vicaris te Batavia"
   },
-  "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg \\(Affare relativa all'amministrazione del Granducato di Lussemburgo\\)$": {
+  "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg \\(Affare relativa all'amministrazione spirituale del Granducato di Lussemburgo\\)$": {
     "en_GB": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affair relating to spiritual administration of the Grand Duchy of Luxembourg)",
-    "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affaire aangaande het spirituele beheer van het Groothertogdom van Luxemburg)"
+    "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affaire aangaande het spirituele bestuur van het Groothertogdom van Luxemburg)"
   },
   "Allegato a stampa$": {
     "en_GB": "Printed attachment",

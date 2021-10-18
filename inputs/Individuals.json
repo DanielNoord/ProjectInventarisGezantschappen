@@ -8005,6 +8005,30 @@
     "titles": [["marchese", null]],
     "wikidata:id": "Q2621033"
   },
+  "$Pelichy": {
+    "ISNI:id": "0000 0000 3013 6065",
+    "comment": "",
+    "comment_daniel": "",
+    "date_of_birth": "1772-06-22",
+    "date_of_death": "1844-11-24",
+    "functions": [
+      [
+        "Ministro del Culto Cattolico Romano del Regno dei Paesi Bassi",
+        "1843-10-18/1844-11-24"
+      ]
+    ],
+    "images": [""],
+    "name": "François",
+    "person_type": 1,
+    "place_of_birth": "Bruges",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Redactie parlement.com, 'F.J.M.Th. baron De Pélichy de Lichtervelde', found on: https://www.parlement.com/id/vg09llszqeqv"
+    ],
+    "surname": "de Pélichy de Lichtervelde",
+    "titles": [["barone", "1816-04-14/"]],
+    "wikidata:id": "Q2051811"
+  },
   "$Pellissier": {
     "ISNI:id": "0000 0001 2125 143X",
     "comment": "",
