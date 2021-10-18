@@ -136,6 +136,10 @@
     "en_GB": "\"\\1\" signed by \\3",
     "nl_NL": "\"\\1\" ondertekend door \\3"
   },
+  "\"(.+)\" nota manoscritta$": {
+    "en_GB": "\"\\1\" handwritten note",
+    "nl_NL": "\"\\1\" handgeschreven nota"
+  },
   "\"(.+)\" nota sui fatti lacrimevoli avvenuti nei Paesi Bassi$": {
     "en_GB": "\"\\1\" note on the lamentable events that took place in the Netherlands",
     "nl_NL": "\"\\1\" nota over de betreurenswaardige gebeurtenissen die in Nederland hebben plaatsgevonden"
@@ -143,6 +147,10 @@
   "\"(.+)\"$": {
     "en_GB": "\"\\1\"",
     "nl_NL": "\"\\1\""
+  },
+  "\"(.+)\", \"(.+)\" \\(a stampa\\)$": {
+    "en_GB": "“\\1”, “\\2” (printed)",
+    "nl_NL": "“\\1”, “\\2” (gedrukt)"
   },
   "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
     "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
@@ -276,6 +284,10 @@
     "en_GB": "Note",
     "nl_NL": "Notitie"
   },
+  "Articolo estratto da L'Indépendance Belge$": {
+    "en_GB": "Extract extracted from L'Indépendance Belge",
+    "nl_NL": "Artikel geëxtraheerd uit L'Indépendance Belge"
+  },
   "Atti del Concistoro Segreto tenuto dalla Santità di Nostro Signore papa Gregorio XVI felicemente regnante nel Palazzo Apostolico Quirinale il dì 22 luglio 1844$": {
     "en_GB": "Proceedings of the Secret Consistory held by the Holiness of Our Lord Pope Gregory XVI happily reigning in the Quirinal Apostolic Palace on July 22, 1844",
     "nl_NL": "Handelingen van het Geheime Consistorie gehouden door de Heiligheid van Onze-Lieve-Heer paus Gregorius XVI, gelukkig regerend in het Quirinaal Apostolisch Paleis op 22 juli 1844"
@@ -351,6 +363,10 @@
   "Biglietto della Diligenza per Roma$": {
     "en_GB": "Ticket for stage-coach to Rome",
     "nl_NL": "Toegangskaart voor postkoets naar Rome"
+  },
+  "Biglietto di accompagno$": {
+    "en_GB": "Compliments slip",
+    "nl_NL": "Complimentenbriefje"
   },
   "Biglietto di invito (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter of invitation from \\2",
@@ -628,6 +644,10 @@
     "en_GB": "Proxy for inheritance dispute of \\2",
     "nl_NL": "Volmacht voor erfenisgeschil van \\2"
   },
+  "Departement van Buitenlandsche Zaken \\(Dipartimento degli Affari Esteri (di|del|della) (\\$\\w+)\\) \\(a stampa\\)$": {
+    "en_GB": "Departement van Buitenlandsche Zaken (Department of Foreign Relations from \\1) (printed)",
+    "nl_NL": "Departement van Buitenlandsche Zaken (Departement van Buitenlandse Zaken van \\1) (gedrukt)"
+  },
   "Descrizione della persona ricercata (\\$\\w+)$": {
     "en_GB": "Description of wanted person \\1",
     "nl_NL": "Signalement van \\1"
@@ -715,6 +735,10 @@
   "Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Edict of \\2",
     "nl_NL": "Edict van \\2"
+  },
+  "Editto a stampa (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Printed edict of \\2",
+    "nl_NL": "Gedrukt edict van \\2"
   },
   "Editto. \"(.+)\" \\(a stampa\\)$": {
     "en_GB": "Edict \"\\1\" (printed)",
@@ -947,6 +971,14 @@
   "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816$": {
     "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
     "nl_NL": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816"
+  },
+  "Fasc. (\\d+) \"(.+)\", \"(.+)\" \\(a stampa\\)$": {
+    "en_GB": "Bundle \\1 “\\2”, “\\3” (printed)",
+    "nl_NL": "Bundel \\1 “\\2”, “\\3” (gedrukt)"
+  },
+  "Fasc. (\\d+) \"(.+)\", Sessione 1851. N. 92. Camera dei Deputati. Trattato di navigazione e commercio con Paesi Bassi presentato dal Ministro degli Esteri nella tornata del 7 luglio 1851$": {
+    "en_GB": "Bundle \\1 “\\2”, Session 1851. N. 92. Chamber of Deputies. Treatise about navigation and commerce with the Netherlands presented by the Minister of External Affairs upon his return on 7 July 1851",
+    "nl_NL": "Bundel \\1 “\\2”, Sessie 1851. N. 92. Kamer van Afgevaardigden. Traktaat over de scheepsvaart en handel met de Nederlanden gepresenteerd door de Minister van Buitenlandse Zaken bij zijn terugkeer op 7 juli 1851"
   },
   "Foggia di vestire il lutto prescritto da S.M. per la morte del (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Dress code for mourning from H.M. for the death of \\1 (printed)",
@@ -1248,6 +1280,10 @@
     "en_GB": "Printed sheet “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
   },
+  "Formulario per gli ambasciatori (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
+    "en_GB": "Form for the ambassadors from \\2 (printed)",
+    "nl_NL": "Formulier voor de ambassadeurs van \\2 (gedrukt)"
+  },
   "Fragment d'une conversation avec S.A.S. le prince de M \\(frammento di un conversazione con S.A.S. (\\$\\w+)\\)$": {
     "en_GB": "Fragment d'une conversation avec S.A.S. le prince de M (fragment of a conversation with HSH \\1)",
     "nl_NL": "Fragment d'une conversation avec S.A.S. le prince de M (fragment van een gesprek met ZDH \\1)"
@@ -1512,6 +1548,10 @@
     "en_GB": "Papal Government. Pay rates and accessories",
     "nl_NL": "Pauselijke regering. Accijnsen en accessoires"
   },
+  "Il Risorgimento \\(a stampa\\)$": {
+    "en_GB": "Roma e gli Stati Romani nel 1850 (printed)",
+    "nl_NL": "Roma e gli Stati Romani nel 1850 (gedrukt)"
+  },
   "Imprimés Diverse 1848 \\(Diverse stampe del 1848\\)$": {
     "en_GB": "Imprimés Diverse 1848 (Various prints from 1848)",
     "nl_NL": "Imprimés Diverse 1848 (Diverse prenten uit 1848)"
@@ -1767,6 +1807,10 @@
   "Lettera (di|del|della) (\\$\\w+) con allegata traduzione della notificazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 with added translation of the notification of \\4",
     "nl_NL": "Brief van \\2 met bijgevoegde vertaling van de notificatie van \\4"
+  },
+  "Lettera (di|del|della) (\\$\\w+) con trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Letter of \\2 with transcrisption of an edict from \\3",
+    "nl_NL": "Brief van \\2 met transcriptie van een edict van \\3"
   },
   "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica \\((\\$\\w+)\\) con \"(.+)\"$": {
     "en_GB": "Letter of \\2 with transcrisption of a notification of the _Guarda Civica_ (\\3) with \"\\4\"",
@@ -2636,6 +2680,10 @@
     "en_GB": "Receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
   },
+  "Ricevute di ricezione dei dispacci diplomatici$": {
+    "en_GB": "Confirmations of receipt of diplomatic dispatches",
+    "nl_NL": "Ontvangstbevestigingen van diplomatieke verzendingen"
+  },
   "Risposta (di|del|della) (\\$\\w+) al discorso indirizzato (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Response of \\2 to the speech given by \\4",
     "nl_NL": "Respons van \\2 op de toespraak gehouden door \\4"
@@ -2727,6 +2775,10 @@
   "Sul ritorno di Pio IX \\(avviso a stampa\\)$": {
     "en_GB": "On the return of Pius IX (printed notice)",
     "nl_NL": "Over de terugkeer van Pius IX (gedrukte melding)"
+  },
+  "Sunto di articoli apparsi sulla stampa": {
+    "en_GB": "Summary of articles that appeared in print",
+    "nl_NL": "Samenvatting van artikelen die geprint zijn"
   },
   "Supplemento a “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Supplement to “\\1” (\\2 Feb. \\3)",
@@ -3068,6 +3120,10 @@
     "en_GB": "Transcription of a letter by \\2",
     "nl_NL": "Transcriptie van een brief door \\2"
   },
+  "Trascrizione di norme sulle pensioni$": {
+    "en_GB": "Transcription of the norm on pension",
+    "nl_NL": "Transcriptie over de norm voor pensioen"
+  },
   "Trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed transcription of an edict of \\2",
     "nl_NL": "Gedrukte transcriptie van een edict van \\2"
@@ -3091,6 +3147,10 @@
   "Trascrizione di una circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a circulaire of \\2",
     "nl_NL": "Transcriptie van een circulaire van \\2"
+  },
+  "Trascrizione di una determinazioni generali del dipartimento degli Affari Esteri$": {
+    "en_GB": "Transcription of the general determinations of the department of Foreign Affairs",
+    "nl_NL": "Transcriptie van de algemene besluiten van het departement van Buitenlandse Zaken"
   },
   "Trascrizione di una dichiarazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a declaration of \\2",
