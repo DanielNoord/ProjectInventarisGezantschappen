@@ -16,6 +16,10 @@
     "en_GB": "Adjutant general of the King of the Two Sicilies",
     "nl_NL": "Adjudant-generaal van de Koning der Beide Siciliën"
   },
+  "Ambasciatore del Regno dei Paesi Bassi a Londra": {
+    "en_GB": "Ambassador of the Kingdom of the Netherlands in London",
+    "nl_NL": "Ambassadeur van het Koninkrijk der Nederlanden te Londen"
+  },
   "Ambasciatore del Regno delle Due Sicilie a Londra": {
     "en_GB": "Ambassador of the Kingdom of the Two Sicilies in London",
     "nl_NL": "Ambassadeur van het Koninkrijk der Beide Siciliën te Londen"
@@ -44,7 +48,7 @@
     "en_GB": "Extraordinary ambassador of the Kingdom of Sardinia to the Holy See",
     "nl_NL": "Buitengewoon ambassadeur van het Koninkrijk Sardinië bij de Heilige Stoel"
   },
-  "Ambasciatore straordinario e lenipotenziario del Regno di Spagna presso la Santa Sede": {
+  "Ambasciatore straordinario e plenipotenziario del Regno di Spagna presso la Santa Sede": {
     "en_GB": "Extraordinary and plenipotentiary ambassador of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel"
   },
@@ -279,6 +283,10 @@
   "Commissario del Re d'Italia per la provincia di Civitavecchia": {
     "en_GB": "Commissioner of the King of Italy for the province of Civitavecchia",
     "nl_NL": "Commissaris van de Koning van Italië voor de provincie Civitavecchia"
+  },
+  "Commissario generale del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "General commissioner of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Commissaris-generaal van het Ministerie van Marine en Koloniën van het Koninkrijk der Nederlanden"
   },
   "Commissario generale del _Magistrato di Sanità_ di Genova": {
     "en_GB": "General commissioner of the _Magistrato di Sanità_ of Genoa",
@@ -700,6 +708,10 @@
     "en_GB": "Chargé d'affaires of the Kingdom of the Netherlands to the Kingdom of Italy",
     "nl_NL": "Zaakgelastigde van het Koninkrijk der Nederlanden bij het Koninkrijk Italië"
   },
+  "Incaricato d'affari del Regno dei Paesi Bassi presso il Regno del Belgio": {
+    "en_GB": "Chargé d'affaires of the Kingdom of the Netherlands to the Kingdom of Belgium",
+    "nl_NL": "Zaakgelastigde van het Koninkrijk der Nederlanden bij het Koninkrijk België"
+  },
   "Incaricato d'affari del Regno dei Paesi Bassi presso il Regno di Sardegna": {
     "en_GB": "Chargé d'affaires of the Kingdom of the Netherlands to the Kingdom of Sardinia",
     "nl_NL": "Zaakgelastigde van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië"
@@ -1048,6 +1060,10 @@
     "en_GB": "Minister of Internal Affairs of the Grand Duchy of Tuscany",
     "nl_NL": "Minister van Binnenlandse Zaken bij het Groothertogdom van Toscane"
   },
+  "Ministro dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "Minister of Public Education, National Indusry and Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Minister van Publiek Onderwijs, Nationale Nijverheid en Koloniën van het Koninkrijk der Nederlanden"
+  },
   "Ministro della Guerra del Regno dei Paesi Bassi": {
     "en_GB": "Minister of War of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Oorlog van het Koninkrijk der Nederlanden"
@@ -1176,6 +1192,10 @@
     "en_GB": "Shopkeeper",
     "nl_NL": "Winkelier"
   },
+  "Nunzio a Madrid": {
+    "en_GB": "Apostolic nuncio in Madrid",
+    "nl_NL": "Apostolisch nuntius te Madrid"
+  },
   "Nunzio apostolico a Monaco di Baviera": {
     "en_GB": "Apostolic nuncio in Munich",
     "nl_NL": "Apostolisch nuntius te München"
@@ -1215,6 +1235,10 @@
   "Prefetto dell'Economia della Congregazione di Propaganda Fide": {
     "en_GB": "Prefect of the Economy of the Sacred Congregation for the Propagation of the Faith",
     "nl_NL": "Prefect van de Economie van de Heilige Congregatie voor de Voortplanting van het Geloof,"
+  },
+  "Prefetto della Congregazione dell'Indice dei Libri Proibiti": {
+    "en_GB": "Prefect of Congregation for the Index of Forbidden Books",
+    "nl_NL": "Prefect van de Congregatie van de Index van Verboden Boeken "
   },
   "Prefetto della Sacra Congregazione dei Vescovi e Regolari": {
     "en_GB": "Prefect of the Congregation of Bishops and Regulars",
@@ -1499,6 +1523,10 @@
   "Segretario di State degli Affari Esteri del Regno di Sardegna": {
     "en_GB": "State Secretary for Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
+  },
+  "Segretario di State del Regno dei Paesi Bassi": {
+    "en_GB": "State Secretary of the Kingdom of the Netherlands",
+    "nl_NL": "Staatssecretaris van het Koninkrijk der Nederlanden"
   },
   "Segretario di Stato ad interim e presidente del Consiglio dei Ministri dello Stato Pontificio": {
     "en_GB": "Interim Cardinal Secretary of State and President of the Council of Ministers of the Papel States",

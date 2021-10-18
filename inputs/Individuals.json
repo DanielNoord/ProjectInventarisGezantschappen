@@ -3433,6 +3433,45 @@
     "titles": [["barone", null]],
     "wikidata:id": "Q2157077"
   },
+  "$Falck": {
+    "ISNI:id": "0000 0000 2927 1702",
+    "comment_daniel": "",
+    "date_of_birth": "1777-03-19",
+    "date_of_death": "1843-03-16",
+    "functions": [
+      [
+        "Commissario generale del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi",
+        "1808-11-29/1810-12-31"
+      ],
+      [
+        "Segretario di State del Regno dei Paesi Bassi",
+        "1813-12-31/1818-03-19"
+      ],
+      [
+        "Ministro dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi",
+        "1818-04-01/1824-03-30"
+      ],
+      ["Ambasciatore del Regno dei Paesi Bassi a Londra", "1824/1832"],
+      [
+        "Incaricato d'affari del Regno dei Paesi Bassi presso il Regno del Belgio",
+        "1839/1843"
+      ]
+    ],
+    "images": ["https://www.rijksmuseum.nl/nl/collectie/NG-316"],
+    "name": "Anton Reinhard",
+    "person_type": 1,
+    "place_of_birth": "Utrecht",
+    "place_of_death": "Bruxelles",
+    "sources": [
+      "'Anton Reinhard Falck', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/23733506",
+      "'Mr. Anton Reinhard Falck', in: Repertorium van ambtsdragers en ambtenaren 1428-1861, found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861/app/personen/11948",
+      "Redactie parlement.com, 'Mr. A.R. (Anton) Falck', found on: https://www.parlement.com/id/vg09llswffq6/a_r_anton_falck"
+    ],
+    "sources_other": [],
+    "surname": "Falck",
+    "titles": [],
+    "wikidata:id": "Q252131"
+  },
   "$Farnese": {
     "ISNI:id": "0000 0001 0259 8323",
     "comment_daniel": "Zij is al een eeuw dood tijdens de vermelding in archief, maar ik kan ook niemand anders vinden die past bij “Elisabetta Farnese, regina di Spagna”",
@@ -4283,6 +4322,42 @@
     "surname": "Gioberti",
     "titles": [],
     "wikidata:id": "Q378706"
+  },
+  "$Giustiniani": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1769-12-29",
+    "date_of_death": "1843-02-24",
+    "functions": [
+      ["Prelato Domestico del Papa", "1814/"],
+      [
+        "Pro-governatore di Roma e Direttore Generale di Polizia di Roma",
+        "1814/1815"
+      ],
+      ["Nunzio a Madrid", "1816/1826"],
+      [
+        "Prefetto della Congregazione dell'Indice dei Libri Proibiti",
+        "1834/1843"
+      ],
+      ["Camerlengo di Santa Romana Chiesa", "1837/1843"]
+    ],
+    "images": [
+      "https://www.beweb.chiesacattolica.it/benistorici/bene/7114619/"
+    ],
+    "name": "Giacomo",
+    "person_type": 1,
+    "place_of_birth": "Roma",
+    "place_of_death": "Roma",
+    "sources": [
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 381"
+    ],
+    "sources_other": [],
+    "surname": "Giustiniani",
+    "titles": [
+      ["7th Principe Giustiniani", null],
+      ["card.", "1826-10-02/"]
+    ],
+    "wikidata:id": "Q2518230"
   },
   "$Gizzi": {
     "ISNI:id": "0000 0003 8212 6469",
@@ -6973,7 +7048,9 @@
         "1854/1858-03-15"
       ]
     ],
-    "images": [],
+    "images": [
+      "https://www.beweb.chiesacattolica.it/benistorici/bene/1669877/Ambito+romano+sec.+XIX%2C+Ritratto+del+cardinale+Giuseppe+Milesi#action=ricerca%2Frisultati&view=griglia&locale=it&ordine=&ambito=CEIOA&liberadescr=Giuseppe+Milesi&liberaluogo=&dominio=1"
+    ],
     "name": "Giuseppe",
     "person_type": 1,
     "place_of_birth": "Ancona",
@@ -7054,7 +7131,7 @@
   },
   "$Morandi": {
     "ISNI:id": null,
-    "comment_daniel": "Willen we deze titel vertalen? Of als Pro-governatore laten staan?",
+    "comment_daniel": "Willen we deze titel vertalen? Of als Pro-governatore laten staan? Buonty vertaalt hem wel naar het Frans in zijn boek.",
     "date_of_birth": "1782-07-05",
     "date_of_death": "1824-05-06",
     "functions": [
@@ -7102,7 +7179,9 @@
         "1878-07-15/1879-04-26"
       ]
     ],
-    "images": [],
+    "images": [
+      "https://www.beweb.chiesacattolica.it/benistorici/bene/3917617/Ambito+bolognese+sec.+XX%2C+Card.+Morichini#action=ricerca%2Frisultati&view=griglia&locale=it&ordine=&ambito=CEIOA&liberadescr=Morichini&liberaluogo=&dominio=1"
+    ],
     "name": "Carlo Luigi",
     "person_type": 1,
     "place_of_birth": "Roma",
@@ -8159,7 +8238,7 @@
     "date_of_death": "1865-07-28",
     "functions": [
       [
-        "Ambasciatore straordinario e lenipotenziario del Regno di Spagna presso la Santa Sede",
+        "Ambasciatore straordinario e plenipotenziario del Regno di Spagna presso la Santa Sede",
         "1857-10-11/1858"
       ]
     ],
@@ -8202,7 +8281,9 @@
     "date_of_birth": "1806-01-10",
     "date_of_death": "1884-03-06",
     "functions": [],
-    "images": [],
+    "images": [
+      "https://www.beweb.chiesacattolica.it/benistorici/bene/4838769/Prod.+italiana+%281878+circa%29%2C+Cardinale+Camillo+Di+Pietro#action=ricerca%2Frisultati&view=griglia&locale=it&ordine=&ambito=CEIOA&liberadescr=Camillo+di+Pietro&liberaluogo=&dominio=1"
+    ],
     "name": "Camillo",
     "person_type": 1,
     "place_of_birth": "Roma",
@@ -9640,6 +9721,10 @@
     "date_of_death": "1863-10-04",
     "functions": [
       [
+        "Segretario di State del Regno dei Paesi Bassi",
+        "1835-11-04/1836-11-04"
+      ],
+      [
         "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno dei Paesi Bassi",
         "1848-03-25/1848-05-17"
       ]
@@ -9656,6 +9741,7 @@
     "place_of_death": "Arnhem",
     "sources": [
       "'Gerrit graaf Schimmelpenninck', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/2425692",
+      "'Gerrit graaf Schimmelpenninck', in: Repertorium van ambtsdragers en ambtenaren 1428-1861, found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861/app/personen/81",
       "Redactie parlement.com, 'G. (Gerrit) graaf Schimmelpenninck', found on: https://www.parlement.com/id/vg09ll7ggszb/g_gerrit_graaf_schimmelpenninck"
     ],
     "sources_other": [],
