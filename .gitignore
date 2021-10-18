@@ -9,6 +9,7 @@ inputs/*
 !inputs/Biographies.json
 !inputs/Individuals.docx
 !inputs/Individuals.json
+!inputs/SourcePatterns.json
 !inputs/Translations
 !outputs
 outputs/*
