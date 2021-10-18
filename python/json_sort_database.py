@@ -19,6 +19,11 @@ def sort_database(filename: str) -> None:
         if len(data["sources"]) > 1 and data["sources"] != sorted(data["sources"]):
             persons[identifier]["sources"] = sorted(data["sources"])
             print(f"Sorted sources for {identifier}")
+        if len(data["sources_other"]) > 1 and data["sources_other"] != sorted(
+            data["sources_other"]
+        ):
+            persons[identifier]["sources_other"] = sorted(data["sources_other"])
+            print(f"Sorted sources_other for {identifier}")
         if len(data["titles"]) > 1 and data["titles"] != sorted(
             data["titles"], key=lambda x: (x[1] is not None, x[1])
         ):

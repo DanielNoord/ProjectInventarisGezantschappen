@@ -6,7 +6,6 @@ from typing import cast
 
 from data_parsing import initialize_translation_database
 from database_controls import (
-    check_all_comments,
     check_all_placenames,
     check_all_sources,
     check_translations,
@@ -41,6 +40,15 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
     for identifier, data in persons_in_file.items():
         # Check if entry is correctly sorted
         if len(data["sources"]) > 1 and data["sources"] != sorted(data["sources"]):
+            raise Exception(
+                f"Incorrect sorting of sources found for {identifier}.\n"
+                "Try running json_sort_database.py and copying "
+                "outputs/Individuals.json to inputs/Individual.json"
+            )
+
+        if len(data["sources_other"]) > 1 and data["sources_other"] != sorted(
+            data["sources_other"]
+        ):
             raise Exception(
                 f"Incorrect sorting of sources found for {identifier}.\n"
                 "Try running json_sort_database.py and copying "
@@ -120,7 +128,6 @@ if __name__ == "__main__":
     check_translations()
     check_entries("inputs/Individuals.json")
     check_all_sources("inputs/Individuals.json")
-    check_all_comments("inputs/Individuals.json")
     check_all_placenames("inputs/Individuals.json")
 
     print("All checks done!")
