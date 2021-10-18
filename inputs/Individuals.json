@@ -6,7 +6,10 @@
     "date_of_birth": "1784-01-28",
     "date_of_death": "1860-12-14",
     "functions": [
-      ["Ministro degli Affari Esteri del Regno Unito", "1841-09-02/1846-07-06"]
+      [
+        "Ministro degli Affari Esteri del Regno Unito",
+        "1841-09-02/1846-07-06"
+      ]
     ],
     "images": [],
     "name": "George",
@@ -18,7 +21,12 @@
     ],
     "sources_other": [],
     "surname": "Hamilton-Gordon",
-    "titles": [["IV conte di Aberdeen", null]],
+    "titles": [
+      [
+        "IV conte di Aberdeen",
+        null
+      ]
+    ],
     "wikidata:id": "Q24631"
   },
   "$Aerssen": {
@@ -32,7 +40,9 @@
         "1852/1852"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/195234"],
+    "images": [
+      "https://rkd.nl/explore/images/195234"
+    ],
     "name": "Joost Peter",
     "person_type": 1,
     "place_of_birth": "Zwolle",
@@ -44,7 +54,12 @@
     ],
     "sources_other": [],
     "surname": "van Aerssen Beijeren van Voshol",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Agostini": {
@@ -76,7 +91,12 @@
     "comment_daniel": "Hij was de archivaris van de Kanselarij in Den Haag, welke de ridderordes overziet. Ahn hoorde bij de Orde van de Eikenkroon, maar ik heb nog geen bron buiten Wikipedia",
     "date_of_birth": "1796",
     "date_of_death": "1866-03-01",
-    "functions": [["Archivista", null]],
+    "functions": [
+      [
+        "Archivista",
+        null
+      ]
+    ],
     "images": [],
     "name": "Johann Conrad",
     "person_type": 1,
@@ -95,7 +115,12 @@
     "comment_daniel": "",
     "date_of_birth": "1780-09-20",
     "date_of_death": "1859-07-31",
-    "functions": [["Maggior generale del Regno di Sardegna a Genova", null]],
+    "functions": [
+      [
+        "Maggior generale del Regno di Sardegna a Genova",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
@@ -106,7 +131,12 @@
     ],
     "sources_other": [],
     "surname": "Albini",
-    "titles": [["contrammiraglio", null]],
+    "titles": [
+      [
+        "contrammiraglio",
+        null
+      ]
+    ],
     "wikidata:id": "Q3769926"
   },
   "$Alewijn": {
@@ -115,7 +145,10 @@
     "date_of_birth": "1785-08-22",
     "date_of_death": "1850-02-24",
     "functions": [
-      ["Console generale del Regno dei Paesi Bassi a Genova", "1825-08-06/"]
+      [
+        "Console generale del Regno dei Paesi Bassi a Genova",
+        "1825-08-06/"
+      ]
     ],
     "images": [],
     "name": "Henrick",
@@ -130,7 +163,12 @@
     ],
     "sources_other": [],
     "surname": "Alewijn",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Allegro": {
@@ -139,7 +177,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Vice-console del Regno dei Paesi Bassi ad Oneglia", "/1858"]
+      [
+        "Vice-console del Regno dei Paesi Bassi ad Oneglia",
+        "/1858"
+      ]
     ],
     "images": [],
     "name": "Filippo",
@@ -160,7 +201,10 @@
     "date_of_birth": "1805-07-11",
     "date_of_death": "1867-08-11",
     "functions": [
-      ["Presidente della Provincia di Roma e di Comarca", "1847/1849"]
+      [
+        "Presidente della Provincia di Roma e di Comarca",
+        "1847/1849"
+      ]
     ],
     "images": [],
     "name": "Ludovico",
@@ -174,7 +218,12 @@
     ],
     "sources_other": [],
     "surname": "Altieri",
-    "titles": [["card.", "1840-12-14/"]],
+    "titles": [
+      [
+        "card.",
+        "1840-12-14/"
+      ]
+    ],
     "wikidata:id": "Q372845"
   },
   "$Ambrosoli": {
@@ -182,7 +231,12 @@
     "comment_daniel": "",
     "date_of_birth": "1800",
     "date_of_death": "1871",
-    "functions": [["Canonico", null]],
+    "functions": [
+      [
+        "Canonico",
+        null
+      ]
+    ],
     "images": [],
     "name": "Ambrogio",
     "person_type": 1,
@@ -210,7 +264,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "van Amerongen",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Amici": {
@@ -219,7 +278,10 @@
     "date_of_birth": "1802",
     "date_of_death": "1877-04-01",
     "functions": [
-      ["Commissario straordinario pontificio ad Ancona", "1849/"],
+      [
+        "Commissario straordinario pontificio ad Ancona",
+        "1849/"
+      ],
       [
         "Ministro del Commercio, Belle Arti, Lavori Pubblici, Industria e Agricoltura dello Stato Pontificio",
         "1859/1860"
@@ -245,7 +307,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Avvocato generale dei poveri dello Stato Pontificio", null]
+      [
+        "Avvocato generale dei poveri dello Stato Pontificio",
+        null
+      ]
     ],
     "images": [],
     "name": "Niccola",
@@ -257,7 +322,12 @@
     ],
     "sources_other": [],
     "surname": "Annibaldi",
-    "titles": [["avv.", null]],
+    "titles": [
+      [
+        "avv.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Antonelli": {
@@ -270,9 +340,14 @@
         "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio",
         "1848-03-10/1848-04-29"
       ],
-      ["Cardinale Segretario di Stato", "1848-11-29/1876-11-06"]
+      [
+        "Cardinale Segretario di Stato",
+        "1848-11-29/1876-11-06"
+      ]
     ],
-    "images": ["https://rkd.nl/explore/images/250221"],
+    "images": [
+      "https://rkd.nl/explore/images/250221"
+    ],
     "name": "Giacomo",
     "person_type": 0,
     "place_of_birth": "Sonnino",
@@ -283,7 +358,12 @@
     ],
     "sources_other": [],
     "surname": "Antonelli",
-    "titles": [["card.", "1847-06-11/"]],
+    "titles": [
+      [
+        "card.",
+        "1847-06-11/"
+      ]
+    ],
     "wikidata:id": "Q712085"
   },
   "$ArataG": {
@@ -292,7 +372,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno dei Paesi Bassi a Civitavecchia", "1837"]
+      [
+        "Console del Regno dei Paesi Bassi a Civitavecchia",
+        "1837"
+      ]
     ],
     "images": [],
     "name": "Giovanni",
@@ -313,7 +396,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno dei Paesi Bassi a Civitavecchia", "1838-03-10/1847"]
+      [
+        "Console del Regno dei Paesi Bassi a Civitavecchia",
+        "1838-03-10/1847"
+      ]
     ],
     "images": [],
     "name": "Luigi",
@@ -359,7 +445,12 @@
     "comment_daniel": "Dit is een groot geslacht. De bron vermeldt deze persoon als enige graaf van dit geslacht die tijdens vermelding Veldmaarschalk luitenant was, maar dan moeten we er dus vanuit gaan dat die bron iedereen noemt. Kunnen ook gewoon “von Auersperg”’ laten staan en voornaam weglaten.",
     "date_of_birth": "1783-08-20",
     "date_of_death": "1859-06-19",
-    "functions": [["Tenente del feldmaresciallo", "1842-09-01/1849-11-17"]],
+    "functions": [
+      [
+        "Tenente del feldmaresciallo",
+        "1842-09-01/1849-11-17"
+      ]
+    ],
     "images": [],
     "name": "Karl Joseph",
     "person_type": 4,
@@ -371,7 +462,12 @@
     ],
     "sources_other": [],
     "surname": "von Auersperg",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q19932698"
   },
   "$Azeglio": {
@@ -396,7 +492,12 @@
     ],
     "sources_other": [],
     "surname": "d’Azeglio",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q469134"
   },
   "$Bake": {
@@ -445,7 +546,12 @@
     ],
     "sources_other": [],
     "surname": "Constantini Baldini",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Baraguay": {
@@ -453,7 +559,12 @@
     "comment_daniel": "",
     "date_of_birth": "1795-09-06",
     "date_of_death": "1878-06-06",
-    "functions": [["Ispettore generale dell'esercito francese", "1847-06-11/"]],
+    "functions": [
+      [
+        "Ispettore generale dell'esercito francese",
+        "1847-06-11/"
+      ]
+    ],
     "images": [],
     "name": "Louis-Achille",
     "person_type": 1,
@@ -464,7 +575,12 @@
     ],
     "sources_other": [],
     "surname": "Baraguey d’Hilliers",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q115995"
   },
   "$Baratta": {
@@ -473,7 +589,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Direttore dell'Ufficio della Dogana e Porto Franco di Genova", null]
+      [
+        "Direttore dell'Ufficio della Dogana e Porto Franco di Genova",
+        null
+      ]
     ],
     "images": [],
     "name": "Carlo",
@@ -485,7 +604,12 @@
     ],
     "sources_other": [],
     "surname": "Baratta",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Bargagli": {
@@ -498,7 +622,10 @@
         "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana",
         null
       ],
-      ["Ciambellano del Granduca di Toscana", "/1846-09-24"],
+      [
+        "Ciambellano del Granduca di Toscana",
+        "/1846-09-24"
+      ],
       [
         "Ministro residente del Granducato di Toscana presso la Santa Sede",
         "1846-09-24/1859-04-27"
@@ -520,9 +647,18 @@
     "sources_other": [],
     "surname": "Bargagli",
     "titles": [
-      ["Cav.", "/1848"],
-      ["comandante", "1848/1850"],
-      ["marchese", "1850-03/"]
+      [
+        "Cav.",
+        "/1848"
+      ],
+      [
+        "comandante",
+        "1848/1850"
+      ],
+      [
+        "marchese",
+        "1850-03/"
+      ]
     ],
     "wikidata:id": "Q107422019"
   },
@@ -547,7 +683,12 @@
     ],
     "sources_other": [],
     "surname": "Barnabò",
-    "titles": [["card.", "1856-06-16/"]],
+    "titles": [
+      [
+        "card.",
+        "1856-06-16/"
+      ]
+    ],
     "wikidata:id": "Q2832751"
   },
   "$Bartolini": {
@@ -594,7 +735,9 @@
         "1842-01-01/1848-03-25"
       ]
     ],
-    "images": ["https://www.rijksmuseum.nl/nl/collectie/SK-A-3799"],
+    "images": [
+      "https://www.rijksmuseum.nl/nl/collectie/SK-A-3799"
+    ],
     "name": "Jean Chrétien",
     "person_type": 1,
     "place_of_birth": "L'Aia",
@@ -605,7 +748,12 @@
     ],
     "sources_other": [],
     "surname": "Baud",
-    "titles": [["barone", "1858/"]],
+    "titles": [
+      [
+        "barone",
+        "1858/"
+      ]
+    ],
     "wikidata:id": "Q2334397"
   },
   "$Bazini": {
@@ -630,7 +778,12 @@
     "comment_daniel": "",
     "date_of_birth": "1821",
     "date_of_death": "1888-01-12",
-    "functions": [["Pittore", null]],
+    "functions": [
+      [
+        "Pittore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Edouard",
     "person_type": 1,
@@ -683,7 +836,12 @@
     ],
     "sources_other": [],
     "surname": "Bedini",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": "Q263408"
   },
   "$BediniGi": {
@@ -726,7 +884,12 @@
     ],
     "sources_other": [],
     "surname": "de Beeckman",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q2557537"
   },
   "$Begre": {
@@ -758,7 +921,12 @@
     "comment_daniel": "",
     "date_of_birth": "1809-05-02",
     "date_of_death": "1866-02-18",
-    "functions": [["Internunzio all'Aia", "1848-02-12/1855-11-01"]],
+    "functions": [
+      [
+        "Internunzio all'Aia",
+        "1848-02-12/1855-11-01"
+      ]
+    ],
     "images": [],
     "name": "Carlo",
     "person_type": 0,
@@ -773,7 +941,12 @@
     ],
     "sources_other": [],
     "surname": "Belgrado",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q60999023"
   },
   "$Bentinck": {
@@ -798,7 +971,12 @@
     ],
     "sources_other": [],
     "surname": "Bentinck van Nijenhuis",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q2589556"
   },
   "$Benvenuti": {
@@ -820,7 +998,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Benvenuti",
-    "titles": [["avv.", null]],
+    "titles": [
+      [
+        "avv.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Berardi": {
@@ -845,7 +1028,12 @@
     ],
     "sources_other": [],
     "surname": "Berardi",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": "Q1079640"
   },
   "$Beraudo": {
@@ -869,7 +1057,12 @@
     ],
     "sources_other": [],
     "surname": "Beraudo di Pralormo",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Berlijn": {
@@ -878,8 +1071,14 @@
     "date_of_birth": "1817-05-21",
     "date_of_death": "1870-01-16",
     "functions": [
-      ["Membro dell'Accademia di Santa Cecilia di Roma", null],
-      ["Compositore", null]
+      [
+        "Membro dell'Accademia di Santa Cecilia di Roma",
+        null
+      ],
+      [
+        "Compositore",
+        null
+      ]
     ],
     "images": [],
     "name": "Anton",
@@ -900,16 +1099,28 @@
     "comment_daniel": "",
     "date_of_birth": "1826-05-03",
     "date_of_death": "1872-09-18",
-    "functions": [["Re di Svezia", "1859-07-08/1872-09-18"]],
+    "functions": [
+      [
+        "Re di Svezia",
+        "1859-07-08/1872-09-18"
+      ]
+    ],
     "images": [],
     "name": "Karel XV Lodewijk Eugen",
     "person_type": 1,
     "place_of_birth": "Stoccolma",
     "place_of_death": "Malmö",
-    "sources": ["https://www.britannica.com/biography/Charles-XV"],
+    "sources": [
+      "https://www.britannica.com/biography/Charles-XV"
+    ],
     "sources_other": [],
     "surname": "Bernadotte",
-    "titles": [["principe", null]],
+    "titles": [
+      [
+        "principe",
+        null
+      ]
+    ],
     "wikidata:id": "Q52925"
   },
   "$Bernaroli": {
@@ -917,7 +1128,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Direttore della Dogane e Gabelle di Ancona", null]],
+    "functions": [
+      [
+        "Direttore della Dogane e Gabelle di Ancona",
+        null
+      ]
+    ],
     "images": [],
     "name": "Daniele",
     "person_type": 1,
@@ -928,7 +1144,12 @@
     ],
     "sources_other": [],
     "surname": "Bernaroli",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Berret": {
@@ -954,7 +1175,10 @@
     "date_of_birth": "1809-02-09",
     "date_of_death": "1883-03-14",
     "functions": [
-      ["Cappellano valdese nella comunità protestante a Torino", null]
+      [
+        "Cappellano valdese nella comunità protestante a Torino",
+        null
+      ]
     ],
     "images": [],
     "name": "Amadeo",
@@ -976,7 +1200,12 @@
     "comment_daniel": "",
     "date_of_birth": "1828",
     "date_of_death": "1890-10-29",
-    "functions": [["Questore di Roma", null]],
+    "functions": [
+      [
+        "Questore di Roma",
+        null
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 1,
@@ -996,15 +1225,23 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Vice-console del Regno dei Paesi Bassi a Nizza", "/1826-05-14"],
-      ["Console del Regno dei Paesi Bassi a Nizza", "1826-05-15/"]
+      [
+        "Vice-console del Regno dei Paesi Bassi a Nizza",
+        "/1826-05-14"
+      ],
+      [
+        "Console del Regno dei Paesi Bassi a Nizza",
+        "1826-05-15/"
+      ]
     ],
     "images": [],
     "name": "Joseph",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["Middelburgsche courant, 59 (Middelburg, 1826-05-18), 2"],
+    "sources": [
+      "Middelburgsche courant, 59 (Middelburg, 1826-05-18), 2"
+    ],
     "sources_other": [],
     "surname": "Bessone",
     "titles": [],
@@ -1026,7 +1263,12 @@
     ],
     "sources_other": [],
     "surname": "de Biandrate",
-    "titles": [["conte", "1779/1840"]],
+    "titles": [
+      [
+        "conte",
+        "1779/1840"
+      ]
+    ],
     "wikidata:id": null
   },
   "$Bighini": {
@@ -1051,7 +1293,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Barbiere", null]],
+    "functions": [
+      [
+        "Barbiere",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
@@ -1069,7 +1316,9 @@
     "date_of_birth": "1815-04-01",
     "date_of_death": "1898-07-30",
     "functions": [],
-    "images": ["https://rkd.nl/explore/images/257162"],
+    "images": [
+      "https://rkd.nl/explore/images/257162"
+    ],
     "name": "Otto",
     "person_type": 1,
     "place_of_birth": "Schönhausen",
@@ -1079,7 +1328,12 @@
     ],
     "sources_other": [],
     "surname": "von Bismarck",
-    "titles": [["conte", "1865/"]],
+    "titles": [
+      [
+        "conte",
+        "1865/"
+      ]
+    ],
     "wikidata:id": "Q8442"
   },
   "$Bixio": {
@@ -1103,7 +1357,12 @@
     ],
     "sources_other": [],
     "surname": "Bixio",
-    "titles": [["tenente generale", null]],
+    "titles": [
+      [
+        "tenente generale",
+        null
+      ]
+    ],
     "wikidata:id": "Q699354"
   },
   "$Blochausen": {
@@ -1133,7 +1392,12 @@
     ],
     "sources_other": [],
     "surname": "von Blochausen",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q1960296"
   },
   "$Boch": {
@@ -1142,7 +1406,10 @@
     "date_of_birth": "1782-03-09",
     "date_of_death": "1858-02-09",
     "functions": [
-      ["Cancelliere di Stato del Granducato del Lussemburgo all'Aia", null]
+      [
+        "Cancelliere di Stato del Granducato del Lussemburgo all'Aia",
+        null
+      ]
     ],
     "images": [],
     "name": "Johann Franz Nicolaus",
@@ -1154,7 +1421,12 @@
     ],
     "sources_other": [],
     "surname": "Boch Buschmann",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q1321804"
   },
   "$Bofondi": {
@@ -1163,7 +1435,10 @@
     "date_of_birth": "1795-10-24",
     "date_of_death": "1867-12-02",
     "functions": [
-      ["Cardinale Segretario di Stato", "1848-01-21/1848-03-10"],
+      [
+        "Cardinale Segretario di Stato",
+        "1848-01-21/1848-03-10"
+      ],
       [
         "Presidente del Consiglio dei Ministri e Segretario di Stato dello Stato Pontificio",
         "1848-02-01/1848-03-10"
@@ -1180,7 +1455,12 @@
     ],
     "sources_other": [],
     "surname": "Bofondi",
-    "titles": [["card.", "1846-12-21/"]],
+    "titles": [
+      [
+        "card.",
+        "1846-12-21/"
+      ]
+    ],
     "wikidata:id": "Q1235067"
   },
   "$Bonaparte": {
@@ -1211,7 +1491,12 @@
     "comment_daniel": "",
     "date_of_birth": "1816-08-07",
     "date_of_death": "1870-11-07",
-    "functions": [["Scrittore", null]],
+    "functions": [
+      [
+        "Scrittore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Filippo",
     "person_type": 1,
@@ -1255,7 +1540,10 @@
     "date_of_birth": "1818-05-30",
     "date_of_death": "1885-04-14",
     "functions": [
-      ["Direttore di La Speranza", "1848/"],
+      [
+        "Direttore di La Speranza",
+        "1848/"
+      ],
       [
         "Segretario generale del Ministero degli Affari Esteri Secolari dello Stato Pontificio",
         "1848/1849"
@@ -1268,7 +1556,10 @@
         "Segretario generale del Ministero di Grazia e Giustizia del Regno d'Italia",
         "1866/1866"
       ],
-      ["Vice-Presidente del Senato del Regno d'Italia", "1876/1885"]
+      [
+        "Vice-Presidente del Senato del Regno d'Italia",
+        "1876/1885"
+      ]
     ],
     "images": [],
     "name": "Francesco Giacomo Antonio Baldassarre",
@@ -1281,7 +1572,12 @@
     ],
     "sources_other": [],
     "surname": "Borgatti",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": "Q3749656"
   },
   "$Borromeo": {
@@ -1290,8 +1586,14 @@
     "date_of_birth": "1822-08-03",
     "date_of_death": "1881-11-30",
     "functions": [
-      ["Cameriere segreto partecipanti del Papa", "1845-10-20/"],
-      ["Maestro di Camera del Papa", "1850-03-30/1856-06-16"],
+      [
+        "Cameriere segreto partecipanti del Papa",
+        "1845-10-20/"
+      ],
+      [
+        "Maestro di Camera del Papa",
+        "1850-03-30/1856-06-16"
+      ],
       [
         "Maggiordomo del Papa e Prefetto dei Palazzi Apostolici",
         "1856-06-15/1868-03-13"
@@ -1307,7 +1609,12 @@
     ],
     "sources_other": [],
     "surname": "Borromeo Arese",
-    "titles": [["card.", "1868-03-13/1881-11-30"]],
+    "titles": [
+      [
+        "card.",
+        "1868-03-13/1881-11-30"
+      ]
+    ],
     "wikidata:id": "Q665388"
   },
   "$Bosch": {
@@ -1349,7 +1656,12 @@
     "comment_daniel": "",
     "date_of_birth": "1798-05-05",
     "date_of_death": "1864-12-28",
-    "functions": [["Professore", null]],
+    "functions": [
+      [
+        "Professore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Marie-Nicolas",
     "person_type": 1,
@@ -1368,7 +1680,12 @@
     "comment_daniel": "",
     "date_of_birth": "1751-01-12",
     "date_of_death": "1825-01-04",
-    "functions": [["Re delle Due Sicilie", "1816-12-11/1825-01-04"]],
+    "functions": [
+      [
+        "Re delle Due Sicilie",
+        "1816-12-11/1825-01-04"
+      ]
+    ],
     "images": [],
     "name": "Ferdinando I",
     "person_type": 1,
@@ -1387,7 +1704,12 @@
     "comment_daniel": "",
     "date_of_birth": "1810-01-12",
     "date_of_death": "1859-05-22",
-    "functions": [["Re delle Due Sicilie", "1830-11-08/1859-05-22"]],
+    "functions": [
+      [
+        "Re delle Due Sicilie",
+        "1830-11-08/1859-05-22"
+      ]
+    ],
     "images": [],
     "name": "Ferdinando II",
     "person_type": 1,
@@ -1417,7 +1739,12 @@
     ],
     "sources_other": [],
     "surname": "di Borbone-Due Sicilie",
-    "titles": [["principe di Capua", null]],
+    "titles": [
+      [
+        "principe di Capua",
+        null
+      ]
+    ],
     "wikidata:id": "Q1748721"
   },
   "$BourbonKL": {
@@ -1426,8 +1753,14 @@
     "date_of_birth": "1799-12-22",
     "date_of_death": "1883-04-16",
     "functions": [
-      ["Duca di Lucca", "1824-03-24/1847-12-17"],
-      ["Duca di Parma e Piacenza", "1847-12-17/1849-05-24"]
+      [
+        "Duca di Lucca",
+        "1824-03-24/1847-12-17"
+      ],
+      [
+        "Duca di Parma e Piacenza",
+        "1847-12-17/1849-05-24"
+      ]
     ],
     "images": [],
     "name": "Carlo Ludovico",
@@ -1447,7 +1780,12 @@
     "comment_daniel": "",
     "date_of_birth": "1819-09-21",
     "date_of_death": "1864-02-01",
-    "functions": [["Duchessa di Parma", "1854-03-27/1859-06-09"]],
+    "functions": [
+      [
+        "Duchessa di Parma",
+        "1854-03-27/1859-06-09"
+      ]
+    ],
     "images": [],
     "name": "Luisa Maria",
     "person_type": 1,
@@ -1466,7 +1804,12 @@
     "comment_daniel": "",
     "date_of_birth": "1836-01-16",
     "date_of_death": "1894-12-27",
-    "functions": [["Re delle Due Sicilie", "1859-05-22/1861-03-20"]],
+    "functions": [
+      [
+        "Re delle Due Sicilie",
+        "1859-05-22/1861-03-20"
+      ]
+    ],
     "images": [],
     "name": "Francesco II",
     "person_type": 1,
@@ -1506,7 +1849,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Chirurgo maggiore del 6 ° reggimento fanteria ad Alessandria", null]
+      [
+        "Chirurgo maggiore del 6 ° reggimento fanteria ad Alessandria",
+        null
+      ]
     ],
     "images": [],
     "name": "Federico",
@@ -1526,7 +1872,12 @@
     "comment_daniel": "",
     "date_of_birth": "1798-07-24",
     "date_of_death": "1862-03-14",
-    "functions": [["Gesuita", null]],
+    "functions": [
+      [
+        "Gesuita",
+        null
+      ]
+    ],
     "images": [],
     "name": "Antonio",
     "person_type": 1,
@@ -1554,7 +1905,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "van Briennen",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Brink": {
@@ -1580,8 +1936,14 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Capitano della Repubblica di San Martino", null],
-      ["Scrittore", null]
+      [
+        "Capitano della Repubblica di San Martino",
+        null
+      ],
+      [
+        "Scrittore",
+        null
+      ]
     ],
     "images": [],
     "name": "Oreste",
@@ -1679,7 +2041,12 @@
     ],
     "sources_other": [],
     "surname": "Brunelli",
-    "titles": [["card.", "1852-03-15/"]],
+    "titles": [
+      [
+        "card.",
+        "1852-03-15/"
+      ]
+    ],
     "wikidata:id": "Q1080267"
   },
   "$Buccianti": {
@@ -1712,8 +2079,14 @@
     "date_of_birth": "1804-03-20",
     "date_of_death": "1882-12-12",
     "functions": [
-      ["Colonnello", null],
-      ["Direttore e comandante dei vigili del fuoco di Roma", "1834/1864"]
+      [
+        "Colonnello",
+        null
+      ],
+      [
+        "Direttore e comandante dei vigili del fuoco di Roma",
+        "1834/1864"
+      ]
     ],
     "images": [],
     "name": "Michelangelo",
@@ -1728,8 +2101,14 @@
     "sources_other": [],
     "surname": "Caetani",
     "titles": [
-      ["duca di Sermoneta", null],
-      ["principe di Teano", null]
+      [
+        "duca di Sermoneta",
+        null
+      ],
+      [
+        "principe di Teano",
+        null
+      ]
     ],
     "wikidata:id": "Q969336"
   },
@@ -1738,7 +2117,12 @@
     "comment_daniel": "",
     "date_of_birth": "1809-10-16",
     "date_of_death": "1866-07-20",
-    "functions": [["Pittore", null]],
+    "functions": [
+      [
+        "Pittore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Ippolito",
     "person_type": 1,
@@ -1757,7 +2141,12 @@
     "comment_daniel": "",
     "date_of_birth": "1797-12-14",
     "date_of_death": "1867-01-13",
-    "functions": [["Vescovo di Senigallia", "1844-01-22/1848-07-18"]],
+    "functions": [
+      [
+        "Vescovo di Senigallia",
+        "1844-01-22/1848-07-18"
+      ]
+    ],
     "images": [],
     "name": "Antonio Maria",
     "person_type": 1,
@@ -1769,8 +2158,14 @@
     "sources_other": [],
     "surname": "Cagiano de Azevedo",
     "titles": [
-      ["conte", null],
-      ["card.", "1844-01-22/"]
+      [
+        "conte",
+        null
+      ],
+      [
+        "card.",
+        "1844-01-22/"
+      ]
     ],
     "wikidata:id": "Q2254673"
   },
@@ -1797,7 +2192,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Segretario del consolato del Regno dei Paesi Bassi a Nizza", null]
+      [
+        "Segretario del consolato del Regno dei Paesi Bassi a Nizza",
+        null
+      ]
     ],
     "images": [],
     "name": "Alexandre",
@@ -1839,7 +2237,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Prefetto del palazzo del Regno di Sardegna", "1856/1866"]],
+    "functions": [
+      [
+        "Prefetto del palazzo del Regno di Sardegna",
+        "1856/1866"
+      ]
+    ],
     "images": [],
     "name": "Alessandro",
     "person_type": 1,
@@ -1858,7 +2261,12 @@
     "comment_daniel": "",
     "date_of_birth": "1787-11-17",
     "date_of_death": "1850-04-25",
-    "functions": [["Ciambellano del Re di Prussia", null]],
+    "functions": [
+      [
+        "Ciambellano del Re di Prussia",
+        null
+      ]
+    ],
     "images": [],
     "name": "Karl Ernst Wilhelm",
     "person_type": 1,
@@ -1870,7 +2278,12 @@
     ],
     "sources_other": [],
     "surname": "von Canitz und Dallwitz",
-    "titles": [["Freiherr", null]],
+    "titles": [
+      [
+        "Freiherr",
+        null
+      ]
+    ],
     "wikidata:id": "Q881567"
   },
   "$CanitzIA": {
@@ -1896,7 +2309,12 @@
     ],
     "sources_other": [],
     "surname": "von Canitz und Dallwitz",
-    "titles": [["Freiherr", null]],
+    "titles": [
+      [
+        "Freiherr",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Cankrien": {
@@ -1905,7 +2323,10 @@
     "date_of_birth": "1802",
     "date_of_death": "1890-12-26",
     "functions": [
-      ["Console del Regno dei Paesi Bassi a Marsiglia", "1843-04-13/1853"]
+      [
+        "Console del Regno dei Paesi Bassi a Marsiglia",
+        "1843-04-13/1853"
+      ]
     ],
     "images": [],
     "name": "Richard Christoffel",
@@ -1927,7 +2348,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Prelato ponente e giudice del tribunale della Sacra Consulta", null]
+      [
+        "Prelato ponente e giudice del tribunale della Sacra Consulta",
+        null
+      ]
     ],
     "images": [],
     "name": "Giovanni",
@@ -1962,7 +2386,12 @@
     "comment_daniel": "Lijkt mij niet de Zaakgelastigde van het Koninkrijk der Nederlanden zoals dat staat in archief, maar eerder van Beide Siciliën. Echter, volgens Trecanni is hij dit niet tijdens vermelding in archief. Wellicht even goed kijken met wat hij ondertekent",
     "date_of_birth": "1797-05-17",
     "date_of_death": "1871-03-25",
-    "functions": [["Incaricato d'affari del Regno delle Due Sicilie", null]],
+    "functions": [
+      [
+        "Incaricato d'affari del Regno delle Due Sicilie",
+        null
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 4,
@@ -1986,7 +2415,10 @@
         "Vice-console del Regno dei Paesi Bassi a Cagliari",
         "1825-02-26/1825-07-02"
       ],
-      ["Console generale del Regno dei Paesi Bassi a Cagliari", "1825-07-02/"]
+      [
+        "Console generale del Regno dei Paesi Bassi a Cagliari",
+        "1825-07-02/"
+      ]
     ],
     "images": [],
     "name": "Fortunato",
@@ -2022,7 +2454,12 @@
     ],
     "sources_other": [],
     "surname": "Carossini",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Carretto": {
@@ -2041,7 +2478,12 @@
     ],
     "sources_other": [],
     "surname": "Del Carretto",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q3750610"
   },
   "$Cartenstat": {
@@ -2050,8 +2492,14 @@
     "date_of_birth": "1806-09-23",
     "date_of_death": "1881",
     "functions": [
-      ["Cameriere segreto soprannumerario del Papa", "1837/"],
-      ["Vice-Prefetto apostolico a Batavia", "1842/1846"]
+      [
+        "Cameriere segreto soprannumerario del Papa",
+        "1837/"
+      ],
+      [
+        "Vice-Prefetto apostolico a Batavia",
+        "1842/1846"
+      ]
     ],
     "images": [],
     "name": "Hubertus Jacobus",
@@ -2089,7 +2537,12 @@
     ],
     "sources_other": [],
     "surname": "de Carvalho",
-    "titles": [["barone da Venda da Cruz", null]],
+    "titles": [
+      [
+        "barone da Venda da Cruz",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Casanelli": {
@@ -2097,7 +2550,12 @@
     "comment_daniel": "",
     "date_of_birth": "1794-10-24",
     "date_of_death": "1869-10-12",
-    "functions": [["Vescovo d'Aiaccio", "1833-09-30/1869-10-12"]],
+    "functions": [
+      [
+        "Vescovo d'Aiaccio",
+        "1833-09-30/1869-10-12"
+      ]
+    ],
     "images": [],
     "name": "Saverio Sante Raffaele",
     "person_type": 1,
@@ -2108,7 +2566,12 @@
     ],
     "sources_other": [],
     "surname": "Casanelli d’Istria",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": "Q3535645"
   },
   "$CasarettoG": {
@@ -2117,7 +2580,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno dei Paesi Bassi ad Ancona", "1847-02-11/"]
+      [
+        "Console del Regno dei Paesi Bassi ad Ancona",
+        "1847-02-11/"
+      ]
     ],
     "images": [],
     "name": "Giuseppe",
@@ -2139,7 +2605,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno dei Paesi Bassi ad Ancona", "1842-11-03/1847-02-11"]
+      [
+        "Console del Regno dei Paesi Bassi ad Ancona",
+        "1842-11-03/1847-02-11"
+      ]
     ],
     "images": [],
     "name": "Jacques",
@@ -2201,7 +2670,12 @@
     "comment_daniel": "",
     "date_of_birth": "1802-10-15",
     "date_of_death": "1857-10-28",
-    "functions": [["Generale nell'esercito francese", null]],
+    "functions": [
+      [
+        "Generale nell'esercito francese",
+        null
+      ]
+    ],
     "images": [],
     "name": "Eugène Louis",
     "person_type": 1,
@@ -2220,7 +2694,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Capo-travaglio nella Casa di Pubblica Beneficenza", null]],
+    "functions": [
+      [
+        "Capo-travaglio nella Casa di Pubblica Beneficenza",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
@@ -2265,7 +2744,12 @@
     ],
     "sources_other": [],
     "surname": "Benso",
-    "titles": [["conte di Cavour", null]],
+    "titles": [
+      [
+        "conte di Cavour",
+        null
+      ]
+    ],
     "wikidata:id": "Q166092"
   },
   "$Celesti": {
@@ -2274,8 +2758,14 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Segretario generale dell'intendenza di Messina", null],
-      ["Intendente di Messina", null]
+      [
+        "Segretario generale dell'intendenza di Messina",
+        null
+      ],
+      [
+        "Intendente di Messina",
+        null
+      ]
     ],
     "images": [],
     "name": "Michele",
@@ -2352,8 +2842,14 @@
     "sources_other": [],
     "surname": "du Chastel de La Howarderie",
     "titles": [
-      ["conte", null],
-      ["Cav.", null]
+      [
+        "conte",
+        null
+      ],
+      [
+        "Cav.",
+        null
+      ]
     ],
     "wikidata:id": null
   },
@@ -2387,7 +2883,9 @@
         "1835/1867-11-04"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/159988"],
+    "images": [
+      "https://rkd.nl/explore/images/159988"
+    ],
     "name": "Pieter Otto",
     "person_type": 0,
     "place_of_birth": "Delft",
@@ -2427,8 +2925,14 @@
     "sources_other": [],
     "surname": "de Riquet",
     "titles": [
-      ["principe di Caraman", null],
-      ["principe di Chimay", null]
+      [
+        "principe di Caraman",
+        null
+      ],
+      [
+        "principe di Chimay",
+        null
+      ]
     ],
     "wikidata:id": "Q2801772"
   },
@@ -2437,7 +2941,12 @@
     "comment_daniel": "",
     "date_of_birth": "1788-08-16",
     "date_of_death": "1865-12-17",
-    "functions": [["Legato apostolico a Ferrara", "1847-03-29/1848"]],
+    "functions": [
+      [
+        "Legato apostolico a Ferrara",
+        "1847-03-29/1848"
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 1,
@@ -2449,7 +2958,12 @@
     ],
     "sources_other": [],
     "surname": "Ciacchi",
-    "titles": [["card.", "1838-02-12/"]],
+    "titles": [
+      [
+        "card.",
+        "1838-02-12/"
+      ]
+    ],
     "wikidata:id": "Q2739201"
   },
   "$Cibrario": {
@@ -2458,7 +2972,10 @@
     "date_of_birth": "1802-02-23",
     "date_of_death": "1870-10-01",
     "functions": [
-      ["Senatore del Regno di Sardegna", "1848/"],
+      [
+        "Senatore del Regno di Sardegna",
+        "1848/"
+      ],
       [
         "Intendente generale dell'Azienda delle Gabelle del Regno di Sardegna",
         "1850/"
@@ -2482,8 +2999,14 @@
     "sources_other": [],
     "surname": "Cibrario",
     "titles": [
-      ["Cav.", null],
-      ["conte", null]
+      [
+        "Cav.",
+        null
+      ],
+      [
+        "conte",
+        null
+      ]
     ],
     "wikidata:id": "Q1131525"
   },
@@ -2503,7 +3026,12 @@
     ],
     "sources_other": [],
     "surname": "Clemente XII",
-    "titles": [["Papa", "1730-07-12/1740-02-06"]],
+    "titles": [
+      [
+        "Papa",
+        "1730-07-12/1740-02-06"
+      ]
+    ],
     "wikidata:id": "Q133108"
   },
   "$Codeglia": {
@@ -2511,13 +3039,20 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-console del Regno dei Paesi Bassi a La Spezia", null]],
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a La Spezia",
+        null
+      ]
+    ],
     "images": [],
     "name": "Paolo",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["Gazzetta Piemontese, Anno 1833, 42 (Turin, 1833-04-09), 208"],
+    "sources": [
+      "Gazzetta Piemontese, Anno 1833, 42 (Turin, 1833-04-09), 208"
+    ],
     "sources_other": [],
     "surname": "Codeglia",
     "titles": [],
@@ -2549,7 +3084,12 @@
     ],
     "sources_other": [],
     "surname": "di Collegno",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": "Q3840055"
   },
   "$Colloredo": {
@@ -2573,7 +3113,12 @@
     ],
     "sources_other": [],
     "surname": "di Colloredo-Mels",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q553371"
   },
   "$Colombo": {
@@ -2581,7 +3126,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Luogotenente della milizia di Mondovì", null]],
+    "functions": [
+      [
+        "Luogotenente della milizia di Mondovì",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giambattista",
     "person_type": 1,
@@ -2618,7 +3168,12 @@
     ],
     "sources_other": [],
     "surname": "de Coninck",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": "Q2630450"
   },
   "$Conti": {
@@ -2669,7 +3224,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Ufficiale della Marina", null],
+      [
+        "Ufficiale della Marina",
+        null
+      ],
       [
         "Direttore della Sezione Marittima dell'Istituto Metereologico dei Paesi Bassi",
         null
@@ -2692,7 +3250,10 @@
     "date_of_birth": "1804-07-16",
     "date_of_death": "1868-03-04",
     "functions": [
-      ["Ministro degli Affari Esteri del Granducato di Toscana", "1849/1856"]
+      [
+        "Ministro degli Affari Esteri del Granducato di Toscana",
+        "1849/1856"
+      ]
     ],
     "images": [],
     "name": "Andrea",
@@ -2704,7 +3265,12 @@
     ],
     "sources_other": [],
     "surname": "Corsini",
-    "titles": [["duca di Casigliano", null]],
+    "titles": [
+      [
+        "duca di Casigliano",
+        null
+      ]
+    ],
     "wikidata:id": "Q87718105"
   },
   "$CorsiniN": {
@@ -2724,8 +3290,14 @@
     "sources_other": [],
     "surname": "Corsini",
     "titles": [
-      ["principe", null],
-      ["marchese di Lajatico", null]
+      [
+        "principe",
+        null
+      ],
+      [
+        "marchese di Lajatico",
+        null
+      ]
     ],
     "wikidata:id": "Q64606000"
   },
@@ -2734,7 +3306,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-console del Regno dei Paesi Bassi a Savona", null]],
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a Savona",
+        null
+      ]
+    ],
     "images": [],
     "name": "Angelo",
     "person_type": 1,
@@ -2769,9 +3346,18 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Sindaco del Magistrato di Sanità di Genova", "/1831"],
-      ["Segretario del _Magistrato di Sanità_ di Genova", "1832/1836"],
-      ["Commissario generale del _Magistrato di Sanità_ di Genova", "1837/"]
+      [
+        "Sindaco del Magistrato di Sanità di Genova",
+        "/1831"
+      ],
+      [
+        "Segretario del _Magistrato di Sanità_ di Genova",
+        "1832/1836"
+      ],
+      [
+        "Commissario generale del _Magistrato di Sanità_ di Genova",
+        "1837/"
+      ]
     ],
     "images": [],
     "name": "Cristoforo",
@@ -2796,7 +3382,10 @@
     "date_of_birth": "1809-01-02",
     "date_of_death": "1904-12-24",
     "functions": [
-      ["Comandante del 1° reggimento estero dell'esercito pontificio", null],
+      [
+        "Comandante del 1° reggimento estero dell'esercito pontificio",
+        null
+      ],
       [
         "Comandante del 2° reggimento estero dell'esercito pontificio a Forlì",
         null
@@ -2813,7 +3402,12 @@
     ],
     "sources_other": [],
     "surname": "de Courten",
-    "titles": [["colonnello", null]],
+    "titles": [
+      [
+        "colonnello",
+        null
+      ]
+    ],
     "wikidata:id": "Q3930205"
   },
   "$Cremers": {
@@ -2853,7 +3447,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Professore", null]],
+    "functions": [
+      [
+        "Professore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Vincenzo",
     "person_type": 1,
@@ -2896,7 +3495,10 @@
         "Ministro degli Affari Esteri del Regno di Sardegna",
         "1852-11-04/1855-01-10"
       ],
-      ["Senatore del Regno di Sardegna", "1852-11-07/1869-08-10"]
+      [
+        "Senatore del Regno di Sardegna",
+        "1852-11-07/1869-08-10"
+      ]
     ],
     "images": [],
     "name": "Giuseppe",
@@ -2909,7 +3511,12 @@
     ],
     "sources_other": [],
     "surname": "Dabormida",
-    "titles": [["maggior generale", null]],
+    "titles": [
+      [
+        "maggior generale",
+        null
+      ]
+    ],
     "wikidata:id": "Q3108020"
   },
   "$Dandini": {
@@ -2934,7 +3541,12 @@
     ],
     "sources_other": [],
     "surname": "Dandini de Sylva",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Defferani": {
@@ -2942,7 +3554,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-presidente del Magistrato di Sanità di Genova", null]],
+    "functions": [
+      [
+        "Vice-presidente del Magistrato di Sanità di Genova",
+        null
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 1,
@@ -2962,7 +3579,12 @@
     "comment_daniel": "last name sometimes written down as Decessel or Debessele because people can't spell",
     "date_of_birth": "1789-07-04",
     "date_of_death": "",
-    "functions": [["Vescovo di Namur", "1836/"]],
+    "functions": [
+      [
+        "Vescovo di Namur",
+        "1836/"
+      ]
+    ],
     "images": [],
     "name": "Niccola Giuseppe",
     "person_type": 1,
@@ -2973,7 +3595,12 @@
     ],
     "sources_other": [],
     "surname": "Deheselle",
-    "titles": [["vescovo", "1836/"]],
+    "titles": [
+      [
+        "vescovo",
+        "1836/"
+      ]
+    ],
     "wikidata:id": null
   },
   "$DelDrago": {
@@ -2998,7 +3625,12 @@
     ],
     "sources_other": [],
     "surname": "Del Drago Biscia Gentili",
-    "titles": [["principe di Mazzano ed Antuni", "1832-05-19/"]],
+    "titles": [
+      [
+        "principe di Mazzano ed Antuni",
+        "1832-05-19/"
+      ]
+    ],
     "wikidata:id": "Q44739914"
   },
   "$DoderoC": {
@@ -3053,8 +3685,14 @@
         "Console della Repubblica delle Sette Province Unite a Genova",
         "1797-10-30/1814-08-03"
       ],
-      ["Console del Regno dei Paesi Bassi a Genova", "1814-08-03/1816-10-02"],
-      ["Console generale del Regno dei Paesi Bassi a Genova", "1816-10-03/"]
+      [
+        "Console del Regno dei Paesi Bassi a Genova",
+        "1814-08-03/1816-10-02"
+      ],
+      [
+        "Console generale del Regno dei Paesi Bassi a Genova",
+        "1816-10-03/"
+      ]
     ],
     "images": [],
     "name": "Guiseppe",
@@ -3076,8 +3714,14 @@
     "date_of_birth": "1792-10-27",
     "date_of_death": "1866-07-07",
     "functions": [
-      ["Console del Regno dei Paesi Bassi", "1825-06-03/1838-09-07"],
-      ["Console generale del Regno dei Paesi Bassi a Trieste", "1838-09-08/"]
+      [
+        "Console del Regno dei Paesi Bassi",
+        "1825-06-03/1838-09-07"
+      ],
+      [
+        "Console generale del Regno dei Paesi Bassi a Trieste",
+        "1838-09-08/"
+      ]
     ],
     "images": [],
     "name": "Daniel Pierre",
@@ -3101,13 +3745,18 @@
     "date_of_birth": "1819-04-15",
     "date_of_death": "1858-03-31",
     "functions": [
-      ["Ciambellano del Re dei Paesi Bassi", "1847/1858-03-31"],
+      [
+        "Ciambellano del Re dei Paesi Bassi",
+        "1847/1858-03-31"
+      ],
       [
         "Incaricato d'affari e successivamente inviato del Regno dei Paesi Bassi presso il Regno di Sardegna",
         "1856/1858"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/181673"],
+    "images": [
+      "https://rkd.nl/explore/images/181673"
+    ],
     "name": "Willem Hendrik",
     "person_type": 0,
     "place_of_birth": "Uccle",
@@ -3119,7 +3768,12 @@
     ],
     "sources_other": [],
     "surname": "van der Duyn",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Dyck": {
@@ -3145,7 +3799,10 @@
     "date_of_birth": "1784-02-09",
     "date_of_death": "1857-10-14",
     "functions": [
-      ["Maggiore generale del Regno dei Paesi Bassi", "1817-06-16/"]
+      [
+        "Maggiore generale del Regno dei Paesi Bassi",
+        "1817-06-16/"
+      ]
     ],
     "images": [],
     "name": "Petrus Michiel",
@@ -3167,7 +3824,10 @@
     "date_of_birth": "1794-08-01",
     "date_of_death": "1858-11-04",
     "functions": [
-      ["Comandante della seconda divisione dell'esercito pontificio", null]
+      [
+        "Comandante della seconda divisione dell'esercito pontificio",
+        null
+      ]
     ],
     "images": [],
     "name": "Franz",
@@ -3235,8 +3895,14 @@
     "sources_other": [],
     "surname": "Vagina d’Emarese",
     "titles": [
-      ["Cav.", null],
-      ["avv.", null]
+      [
+        "Cav.",
+        null
+      ],
+      [
+        "avv.",
+        null
+      ]
     ],
     "wikidata:id": null
   },
@@ -3271,8 +3937,14 @@
     "date_of_birth": "1817",
     "date_of_death": "1891-08-28",
     "functions": [
-      ["Sacerdote", null],
-      ["Segretario del Vescovo de Grooff a Batavia", "1844/1846"]
+      [
+        "Sacerdote",
+        null
+      ],
+      [
+        "Segretario del Vescovo de Grooff a Batavia",
+        "1844/1846"
+      ]
     ],
     "images": [],
     "name": "Jan Daniël",
@@ -3309,7 +3981,12 @@
     ],
     "sources_other": [],
     "surname": "Esterházy de Galantha",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q1947900"
   },
   "$Estorff": {
@@ -3318,7 +3995,10 @@
     "date_of_birth": "1811-12-21",
     "date_of_death": "1877-10-08",
     "functions": [
-      ["Ciambellano del Re dei Paesi Bassi Guglielmo I", "1841/1843"]
+      [
+        "Ciambellano del Re dei Paesi Bassi Guglielmo I",
+        "1841/1843"
+      ]
     ],
     "images": [],
     "name": "Georg Otto Carl",
@@ -3330,7 +4010,12 @@
     ],
     "sources_other": [],
     "surname": "von Estorf",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q30132320"
   },
   "$Everard": {
@@ -3339,9 +4024,14 @@
     "date_of_birth": "1795",
     "date_of_death": "1868-03-05",
     "functions": [
-      ["Medico alla corte del Re dei Paesi Bassi", "1849-08-18/1868-03-05"]
+      [
+        "Medico alla corte del Re dei Paesi Bassi",
+        "1849-08-18/1868-03-05"
+      ]
     ],
-    "images": ["https://rkd.nl/explore/images/161020"],
+    "images": [
+      "https://rkd.nl/explore/images/161020"
+    ],
     "name": "Pierre Florent Joseph",
     "person_type": 1,
     "place_of_birth": "",
@@ -3362,9 +4052,18 @@
     "date_of_birth": "1790-08-19",
     "date_of_death": "1860-08-22",
     "functions": [
-      ["Pittore", null],
-      ["Scultore", null],
-      ["Direttore generale dei Musei e Gallerie Pontificie", "1837/1860"]
+      [
+        "Pittore",
+        null
+      ],
+      [
+        "Scultore",
+        null
+      ],
+      [
+        "Direttore generale dei Musei e Gallerie Pontificie",
+        "1837/1860"
+      ]
     ],
     "images": [],
     "name": "Giuseppe",
@@ -3386,7 +4085,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console generale del Regno dei Paesi Bassi a Berna", "1832-05-15/1865"]
+      [
+        "Console generale del Regno dei Paesi Bassi a Berna",
+        "1832-05-15/1865"
+      ]
     ],
     "images": [],
     "name": "Henri",
@@ -3430,7 +4132,12 @@
     ],
     "sources_other": [],
     "surname": "Fagel",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q2157077"
   },
   "$Falck": {
@@ -3444,20 +4151,25 @@
         "1808-11-29/1810-12-31"
       ],
       [
-        "Segretario di State del Regno dei Paesi Bassi",
+        "Segretario di Stato del Regno dei Paesi Bassi",
         "1813-12-31/1818-03-19"
       ],
       [
         "Ministro dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi",
         "1818-04-01/1824-03-30"
       ],
-      ["Ambasciatore del Regno dei Paesi Bassi a Londra", "1824/1832"],
+      [
+        "Ambasciatore del Regno dei Paesi Bassi a Londra",
+        "1824/1832"
+      ],
       [
         "Incaricato d'affari del Regno dei Paesi Bassi presso il Regno del Belgio",
         "1839/1843"
       ]
     ],
-    "images": ["https://www.rijksmuseum.nl/nl/collectie/NG-316"],
+    "images": [
+      "https://www.rijksmuseum.nl/nl/collectie/NG-316"
+    ],
     "name": "Anton Reinhard",
     "person_type": 1,
     "place_of_birth": "Utrecht",
@@ -3477,7 +4189,12 @@
     "comment_daniel": "Zij is al een eeuw dood tijdens de vermelding in archief, maar ik kan ook niemand anders vinden die past bij “Elisabetta Farnese, regina di Spagna”",
     "date_of_birth": "1692-10-25",
     "date_of_death": "1766-07-11",
-    "functions": [["Regina di Spagna", "1724-09-06/1746-07-06"]],
+    "functions": [
+      [
+        "Regina di Spagna",
+        "1724-09-06/1746-07-06"
+      ]
+    ],
     "images": [],
     "name": "Elisabetta Farnese",
     "person_type": 4,
@@ -3521,14 +4238,19 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Membro della Camera dei Deputati del Regno di Sardegna", null]
+      [
+        "Membro della Camera dei Deputati del Regno di Sardegna",
+        null
+      ]
     ],
     "images": [],
     "name": "Nicolò",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["https://storia.camera.it/deputato/nicolo-federici/"],
+    "sources": [
+      "https://storia.camera.it/deputato/nicolo-federici/"
+    ],
     "sources_other": [],
     "surname": "Federici",
     "titles": [],
@@ -3539,7 +4261,12 @@
     "comment_daniel": "Zie ms.317. Ik vermoed dat hier een verkeerde titel staat ‘cappellaro’. Logischer lijkt me ‘cappellano’ wat zou verklaren waarom hij is opgepakt en “coniugato con prole” extra wordt vermeld in de aanklacht",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Cappellaio", null]],
+    "functions": [
+      [
+        "Cappellaio",
+        null
+      ]
+    ],
     "images": [],
     "name": "Antonio",
     "person_type": 4,
@@ -3556,7 +4283,12 @@
     "comment_daniel": "",
     "date_of_birth": "1795-02-08",
     "date_of_death": "1870-02-27",
-    "functions": [["Governatore della Piazza di Messina", null]],
+    "functions": [
+      [
+        "Governatore della Piazza di Messina",
+        null
+      ]
+    ],
     "images": [],
     "name": "Gennaro",
     "person_type": 1,
@@ -3567,7 +4299,12 @@
     ],
     "sources_other": [],
     "surname": "Fergola",
-    "titles": [["generale", null]],
+    "titles": [
+      [
+        "generale",
+        null
+      ]
+    ],
     "wikidata:id": "Q3759805"
   },
   "$Ferrante": {
@@ -3604,7 +4341,10 @@
         "Ministro delle Finanze dello Stato Pontificio",
         "1854-11-30/1870-07-12"
       ],
-      ["Tesoriere della Santa Sede", "1856-06-16/1870-07-12"]
+      [
+        "Tesoriere della Santa Sede",
+        "1856-06-16/1870-07-12"
+      ]
     ],
     "images": [],
     "name": "Giuseppe",
@@ -3617,7 +4357,12 @@
     ],
     "sources_other": [],
     "surname": "Ferrari",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$FerrariL": {
@@ -3626,8 +4371,14 @@
     "date_of_birth": "",
     "date_of_death": "1872-03-03",
     "functions": [
-      ["Prefetto delle cerimonie del Papa", null],
-      ["Protonotario apostolico", null]
+      [
+        "Prefetto delle cerimonie del Papa",
+        null
+      ],
+      [
+        "Protonotario apostolico",
+        null
+      ]
     ],
     "images": [],
     "name": "Luigi",
@@ -3640,7 +4391,12 @@
     ],
     "sources_other": [],
     "surname": "Ferrari",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Ferrere": {
@@ -3648,7 +4404,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Gran maestro della Casa Reale di Sardegna", null]],
+    "functions": [
+      [
+        "Gran maestro della Casa Reale di Sardegna",
+        null
+      ]
+    ],
     "images": [],
     "name": "Filippo",
     "person_type": 1,
@@ -3659,7 +4420,12 @@
     ],
     "sources_other": [],
     "surname": "Garetti di Ferrere",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$FerrettiGa": {
@@ -3667,7 +4433,12 @@
     "comment_daniel": "",
     "date_of_birth": "1795-01-31",
     "date_of_death": "1860-09-13",
-    "functions": [["Cardinale Segretario di Stato", "1847-07-10/1848-01-20"]],
+    "functions": [
+      [
+        "Cardinale Segretario di Stato",
+        "1847-07-10/1848-01-20"
+      ]
+    ],
     "images": [],
     "name": "Gabriele",
     "person_type": 0,
@@ -3679,7 +4450,12 @@
     ],
     "sources_other": [],
     "surname": "Ferretti",
-    "titles": [["card.", "1838-11-30/"]],
+    "titles": [
+      [
+        "card.",
+        "1838-11-30/"
+      ]
+    ],
     "wikidata:id": "Q2003775"
   },
   "$FerrettiGi": {
@@ -3688,7 +4464,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Ministro delle Finanze e Tesoriere generale della Santa Sede", null]
+      [
+        "Ministro delle Finanze e Tesoriere generale della Santa Sede",
+        null
+      ]
     ],
     "images": [],
     "name": "G.",
@@ -3724,7 +4503,12 @@
     ],
     "sources_other": [],
     "surname": "Ferrieri",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": "Q2707662"
   },
   "$Firoi": {
@@ -3741,7 +4525,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Firoi",
-    "titles": [["capitano di vascello", null]],
+    "titles": [
+      [
+        "capitano di vascello",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Fischer": {
@@ -3750,7 +4539,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console generale del Regno dei Paesi Bassi a Genova", "1850-10-15/"]
+      [
+        "Console generale del Regno dei Paesi Bassi a Genova",
+        "1850-10-15/"
+      ]
     ],
     "images": [],
     "name": "Jean Thierry",
@@ -3818,7 +4610,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-console del Regno dei Paesi Bassi a Molfetta", null]],
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a Molfetta",
+        null
+      ]
+    ],
     "images": [],
     "name": "Ignazio",
     "person_type": 1,
@@ -3844,7 +4641,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Forstner de Dambenoy",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Fraissinet": {
@@ -3853,7 +4655,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console generale del Regno dei Paesi Bassi a Marsiglia", null]
+      [
+        "Console generale del Regno dei Paesi Bassi a Marsiglia",
+        null
+      ]
     ],
     "images": [],
     "name": "",
@@ -3882,7 +4687,12 @@
     ],
     "sources_other": [],
     "surname": "Fransoni",
-    "titles": [["card.", "1826-10-02/"]],
+    "titles": [
+      [
+        "card.",
+        "1826-10-02/"
+      ]
+    ],
     "wikidata:id": "Q1522103"
   },
   "$Fulcheri": {
@@ -3891,7 +4701,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Primo ufficiale della Ministero di Finanze del Regno di Sardegna", null]
+      [
+        "Primo ufficiale della Ministero di Finanze del Regno di Sardegna",
+        null
+      ]
     ],
     "images": [],
     "name": "Giacomo",
@@ -3912,7 +4725,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Gonfaloniere di Fano", null]],
+    "functions": [
+      [
+        "Gonfaloniere di Fano",
+        null
+      ]
+    ],
     "images": [],
     "name": "Andrea",
     "person_type": 1,
@@ -4011,7 +4829,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Generale della Guardia Civica di Roma", "1848-10-19/"]],
+    "functions": [
+      [
+        "Generale della Guardia Civica di Roma",
+        "1848-10-19/"
+      ]
+    ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
@@ -4042,7 +4865,12 @@
     ],
     "sources_other": [],
     "surname": "Gamberini",
-    "titles": [["card.", "1828-12-15/"]],
+    "titles": [
+      [
+        "card.",
+        "1828-12-15/"
+      ]
+    ],
     "wikidata:id": "Q1079554"
   },
   "$Gandolfo": {
@@ -4050,13 +4878,20 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Giudice del Quartiere della Maddalena a Genova", null]],
+    "functions": [
+      [
+        "Giudice del Quartiere della Maddalena a Genova",
+        null
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["Gazzetta di Genova, Anno XVIII, 41 (Genoa, 1815-05-24), 163"],
+    "sources": [
+      "Gazzetta di Genova, Anno XVIII, 41 (Genoa, 1815-05-24), 163"
+    ],
     "sources_other": [],
     "surname": "Gandolfo",
     "titles": [],
@@ -4123,7 +4958,12 @@
     ],
     "sources_other": [],
     "surname": "Gazelli di Rossana",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q98092782"
   },
   "$Geloes": {
@@ -4140,7 +4980,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "de Geloes",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$GeloesM": {
@@ -4157,7 +5002,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "de Geloes",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Gemeau": {
@@ -4209,7 +5059,12 @@
     ],
     "sources_other": [],
     "surname": "Gericke van Herwijnen",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q1871695"
   },
   "$Gerra": {
@@ -4218,8 +5073,14 @@
     "date_of_birth": "1829-11-15",
     "date_of_death": "1882-07-31",
     "functions": [
-      ["Consigliere di Stato", null],
-      ["Membro della Camera dei Deputati del Regno d'Italia", null],
+      [
+        "Consigliere di Stato",
+        null
+      ],
+      [
+        "Membro della Camera dei Deputati del Regno d'Italia",
+        null
+      ],
       [
         "Segretario generale del Ministero dell'Interno del Stato Pontificio",
         "1868-10-18/1869-05-13"
@@ -4329,17 +5190,26 @@
     "date_of_birth": "1769-12-29",
     "date_of_death": "1843-02-24",
     "functions": [
-      ["Prelato Domestico del Papa", "1814/"],
+      [
+        "Prelato Domestico del Papa",
+        "1814/"
+      ],
       [
         "Pro-governatore di Roma e Direttore Generale di Polizia di Roma",
         "1814/1815"
       ],
-      ["Nunzio a Madrid", "1816/1826"],
+      [
+        "Nunzio a Madrid",
+        "1816/1826"
+      ],
       [
         "Prefetto della Congregazione dell'Indice dei Libri Proibiti",
         "1834/1843"
       ],
-      ["Camerlengo di Santa Romana Chiesa", "1837/1843"]
+      [
+        "Camerlengo di Santa Romana Chiesa",
+        "1837/1843"
+      ]
     ],
     "images": [
       "https://www.beweb.chiesacattolica.it/benistorici/bene/7114619/"
@@ -4354,8 +5224,14 @@
     "sources_other": [],
     "surname": "Giustiniani",
     "titles": [
-      ["7th Principe Giustiniani", null],
-      ["card.", "1826-10-02/"]
+      [
+        "7th Principe Giustiniani",
+        null
+      ],
+      [
+        "card.",
+        "1826-10-02/"
+      ]
     ],
     "wikidata:id": "Q2518230"
   },
@@ -4365,8 +5241,14 @@
     "date_of_birth": "1787-09-22",
     "date_of_death": "1849-06-03",
     "functions": [
-      ["Arcivescovo di Tebe", "1839-01-18/1844-01-22"],
-      ["Cardinale Segretario di Stato", "1846-08-01/1847-07-05"],
+      [
+        "Arcivescovo di Tebe",
+        "1839-01-18/1844-01-22"
+      ],
+      [
+        "Cardinale Segretario di Stato",
+        "1846-08-01/1847-07-05"
+      ],
       [
         "Presidente del Consiglio dei Ministri dello Stato Pontificio",
         "1847-06-12/1847-07-05"
@@ -4383,7 +5265,12 @@
     ],
     "sources_other": [],
     "surname": "Gizzi",
-    "titles": [["card.", "1844-01-22/"]],
+    "titles": [
+      [
+        "card.",
+        "1844-01-22/"
+      ]
+    ],
     "wikidata:id": "Q568067"
   },
   "$Goes": {
@@ -4397,7 +5284,9 @@
         "1861-01-14/1861-03-14"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/177418"],
+    "images": [
+      "https://rkd.nl/explore/images/177418"
+    ],
     "name": "Louis Napoleon",
     "person_type": 1,
     "place_of_birth": "Loosduinen",
@@ -4409,7 +5298,12 @@
     ],
     "sources_other": [],
     "surname": "van der Goes van Dirxland",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q2739961"
   },
   "$Gojon": {
@@ -4417,7 +5311,12 @@
     "comment_daniel": "“Generale Comandante la 15.a Divisione Turr dell'Esercito Meridionale Italiano” lijkt mij toch een fout in de inventaris. Het is niet een fantastische bron maar zie: https://www.andreacavallari.it/Garibaldi/Garibaldi_Turr.htm. Esercito Meridionale Italiano is ook wel de standaard benaming van het leger van Garibaldi. Wellicht dus in het archief kijken hoe de stukken ondertekend zijn.",
     "date_of_birth": "1803-09-13",
     "date_of_death": "1870-05-17",
-    "functions": [["Aiutante di campo dell'Imperatore di Francia", "1853/"]],
+    "functions": [
+      [
+        "Aiutante di campo dell'Imperatore di Francia",
+        "1853/"
+      ]
+    ],
     "images": [],
     "name": "Charles-Marie-Augustin",
     "person_type": 4,
@@ -4428,7 +5327,12 @@
     ],
     "sources_other": [],
     "surname": "de Gojon",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q2958227"
   },
   "$Goltstein": {
@@ -4453,7 +5357,12 @@
     ],
     "sources_other": [],
     "surname": "van Goltstein",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q1681931"
   },
   "$Goltz": {
@@ -4462,7 +5371,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Predicatore presso la Legazione del Regno di Prussia a Roma", null]
+      [
+        "Predicatore presso la Legazione del Regno di Prussia a Roma",
+        null
+      ]
     ],
     "images": [],
     "name": "",
@@ -4480,7 +5392,12 @@
     "comment_daniel": "",
     "date_of_birth": "1799-11-21",
     "date_of_death": "1875",
-    "functions": [["Pretendente del Ducato di Mantova", null]],
+    "functions": [
+      [
+        "Pretendente del Ducato di Mantova",
+        null
+      ]
+    ],
     "images": [],
     "name": "Alessandro Murzynowski",
     "person_type": 1,
@@ -4510,7 +5427,12 @@
     ],
     "sources_other": [],
     "surname": "Gregorio XVI",
-    "titles": [["Papa", "1831-02-02/1846-06-01"]],
+    "titles": [
+      [
+        "Papa",
+        "1831-02-02/1846-06-01"
+      ]
+    ],
     "wikidata:id": "Q43734"
   },
   "$GregoriusXVI": {
@@ -4529,7 +5451,12 @@
     ],
     "sources_other": [],
     "surname": "Pio IX",
-    "titles": [["Papa", "1831-02-02/1846-06-01"]],
+    "titles": [
+      [
+        "Papa",
+        "1831-02-02/1846-06-01"
+      ]
+    ],
     "wikidata:id": "Q43734"
   },
   "$Grey": {
@@ -4556,8 +5483,14 @@
     "sources_other": [],
     "surname": "Grey",
     "titles": [
-      ["Lord", null],
-      ["3° Earl Grey", null]
+      [
+        "Lord",
+        null
+      ],
+      [
+        "3° Earl Grey",
+        null
+      ]
     ],
     "wikidata:id": "Q320291"
   },
@@ -4566,8 +5499,15 @@
     "comment_daniel": "",
     "date_of_birth": "1800-08-03",
     "date_of_death": "1852-04-29",
-    "functions": [["Vicario Apostolico a Batavia", null]],
-    "images": ["https://rkd.nl/explore/images/58600"],
+    "functions": [
+      [
+        "Vicario Apostolico a Batavia",
+        null
+      ]
+    ],
+    "images": [
+      "https://rkd.nl/explore/images/58600"
+    ],
     "name": "Jacobus",
     "person_type": 1,
     "place_of_birth": "Amsterdam",
@@ -4609,8 +5549,14 @@
         "Ministro dell'Interno del Granducato di Toscana",
         "1848-10-27/1849-01-30"
       ],
-      ["Direttore della Gazzetta Livornese", "1848/"],
-      ["Dittatore del Granducato di Toscana", "1849-03-27/1849-04-10"]
+      [
+        "Direttore della Gazzetta Livornese",
+        "1848/"
+      ],
+      [
+        "Dittatore del Granducato di Toscana",
+        "1849-03-27/1849-04-10"
+      ]
     ],
     "images": [
       "https://raccoltastampesartori.it/opere/guerrazzi-francesco-domenico-guerrazzi-disegno-di-adolfo-matarelli"
@@ -4711,7 +5657,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno dei Paesi Bassi a Barcellona", "1822-06-26/"]
+      [
+        "Console del Regno dei Paesi Bassi a Barcellona",
+        "1822-06-26/"
+      ]
     ],
     "images": [],
     "name": "Eugenio",
@@ -4751,7 +5700,12 @@
     ],
     "sources_other": [],
     "surname": "Heldewier",
-    "titles": [["jonkheer", null]],
+    "titles": [
+      [
+        "jonkheer",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$HeldewierII": {
@@ -4783,8 +5737,14 @@
     "sources_other": [],
     "surname": "Heldewier",
     "titles": [
-      ["avv.", null],
-      ["jonkheer", null]
+      [
+        "avv.",
+        null
+      ],
+      [
+        "jonkheer",
+        null
+      ]
     ],
     "wikidata:id": null
   },
@@ -4793,7 +5753,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Consigliere del Duca di Nassau", null]],
+    "functions": [
+      [
+        "Consigliere del Duca di Nassau",
+        null
+      ]
+    ],
     "images": [],
     "name": "Heinrich",
     "person_type": 1,
@@ -4836,8 +5801,15 @@
     "comment_daniel": "",
     "date_of_birth": "1830-01-21",
     "date_of_death": "1886-01-07",
-    "functions": [["Console del Regno dei Paesi Bassi a Livorno", null]],
-    "images": ["https://rkd.nl/nl/explore/images/128154"],
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi a Livorno",
+        null
+      ]
+    ],
+    "images": [
+      "https://rkd.nl/nl/explore/images/128154"
+    ],
     "name": "Louis Roch Marie",
     "person_type": 1,
     "place_of_birth": "Amsterdam",
@@ -4874,7 +5846,12 @@
     ],
     "sources_other": [],
     "surname": "van der Hoeven",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$HoevenFF": {
@@ -4888,7 +5865,9 @@
         "1873/"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/231871"],
+    "images": [
+      "https://rkd.nl/explore/images/231871"
+    ],
     "name": "Fredrik Philip",
     "person_type": 1,
     "place_of_birth": "Como",
@@ -4899,7 +5878,12 @@
     ],
     "sources_other": [],
     "surname": "van der Hoeven",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$HuyssenJW": {
@@ -4928,7 +5912,12 @@
     ],
     "sources_other": [],
     "surname": "Huyssen van Kattendijke",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q13737786"
   },
   "$HuyssenWJC": {
@@ -5000,7 +5989,12 @@
     ],
     "sources_other": [],
     "surname": "Jacobini",
-    "titles": [["commendatore dell'Ordine di San Gregorio Magno", null]],
+    "titles": [
+      [
+        "commendatore dell'Ordine di San Gregorio Magno",
+        null
+      ]
+    ],
     "wikidata:id": "Q3651524"
   },
   "$Jandel": {
@@ -5009,8 +6003,14 @@
     "date_of_birth": "1810-07-10",
     "date_of_death": "1872-12-11",
     "functions": [
-      ["Vicario Generale dei Frati Predicatori", "1850-10-01/1855-12-21"],
-      ["Ministro Generale dei Frati Predicatori", "1855-12-21/1872-12-11"]
+      [
+        "Vicario Generale dei Frati Predicatori",
+        "1850-10-01/1855-12-21"
+      ],
+      [
+        "Ministro Generale dei Frati Predicatori",
+        "1855-12-21/1872-12-11"
+      ]
     ],
     "images": [],
     "name": "Alexandre Vincent",
@@ -5064,7 +6064,12 @@
     ],
     "sources_other": [],
     "surname": "Jocteau",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Joinville": {
@@ -5084,7 +6089,12 @@
     ],
     "sources_other": [],
     "surname": "d’Orléans",
-    "titles": [["principe di Joinville", null]],
+    "titles": [
+      [
+        "principe di Joinville",
+        null
+      ]
+    ],
     "wikidata:id": "Q454337"
   },
   "$Jonge": {
@@ -5093,7 +6103,10 @@
     "date_of_birth": "1790-08-13",
     "date_of_death": "1864-05-22",
     "functions": [
-      ["Membro del _Ridderschap_ del Brabante Settentrionale", null]
+      [
+        "Membro del _Ridderschap_ del Brabante Settentrionale",
+        null
+      ]
     ],
     "images": [
       "https://rkd.nl/explore/images/171174",
@@ -5121,7 +6134,12 @@
     "comment_daniel": "Wels en Beth noemen hem met W., inventaris heeft het over L. In ms. 307 staat ook Gerome. Wellicht een zoon?",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi a Livorno", null]],
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi a Livorno",
+        null
+      ]
+    ],
     "images": [],
     "name": "Guglielmo",
     "person_type": 5,
@@ -5133,7 +6151,12 @@
     ],
     "sources_other": [],
     "surname": "de Jongh",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Kalbermatten": {
@@ -5142,7 +6165,10 @@
     "date_of_birth": "1793-11-15",
     "date_of_death": "1875-12-25",
     "functions": [
-      ["Generale dei reggimenti esteri dell'esercito pontificio", null]
+      [
+        "Generale dei reggimenti esteri dell'esercito pontificio",
+        null
+      ]
     ],
     "images": [],
     "name": "Wilhelm",
@@ -5155,7 +6181,12 @@
     ],
     "sources_other": [],
     "surname": "von Kalbermatten",
-    "titles": [["brigadier generale", null]],
+    "titles": [
+      [
+        "brigadier generale",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Kemp": {
@@ -5183,7 +6214,10 @@
     "date_of_birth": "1777-11-28",
     "date_of_death": "1853-03-15",
     "functions": [
-      ["Segretario della Legazione del Regno di Hannover a Roma", "1817/1825"],
+      [
+        "Segretario della Legazione del Regno di Hannover a Roma",
+        "1817/1825"
+      ],
       [
         "Incaricato d'affari del Regno di Hannover presso la Santa Sede",
         "1825/1849"
@@ -5213,7 +6247,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi a Venetia", null]],
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi a Venetia",
+        null
+      ]
+    ],
     "images": [],
     "name": "",
     "person_type": 1,
@@ -5246,7 +6285,12 @@
     ],
     "sources_other": [],
     "surname": "Kiseljov",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q717801"
   },
   "$Koelman": {
@@ -5254,7 +6298,12 @@
     "comment_daniel": "",
     "date_of_birth": "1820-01-22",
     "date_of_death": "1887-02-01",
-    "functions": [["Pittore", null]],
+    "functions": [
+      [
+        "Pittore",
+        null
+      ]
+    ],
     "images": [
       "https://rkd.nl/explore/images/34574",
       "https://rkd.nl/explore/images/245181",
@@ -5279,7 +6328,12 @@
     "comment_daniel": "",
     "date_of_birth": "1800-01-19",
     "date_of_death": "1868-10-22",
-    "functions": [["Console del Regno di Württemberg a Roma", "1833/"]],
+    "functions": [
+      [
+        "Console del Regno di Württemberg a Roma",
+        "1833/"
+      ]
+    ],
     "images": [],
     "name": "Karl",
     "person_type": 1,
@@ -5298,7 +6352,12 @@
     "comment_daniel": "",
     "date_of_birth": "1808-10-17",
     "date_of_death": "1845-06-30",
-    "functions": [["Scultore", null]],
+    "functions": [
+      [
+        "Scultore",
+        null
+      ]
+    ],
     "images": [],
     "name": "John",
     "person_type": 1,
@@ -5327,7 +6386,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Kornis",
-    "titles": [["capitano", null]],
+    "titles": [
+      [
+        "capitano",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Kruseman": {
@@ -5335,7 +6399,12 @@
     "comment_daniel": "",
     "date_of_birth": "1828-08-15",
     "date_of_death": "1918-06-10",
-    "functions": [["Pittore dilettante", "1843/1918"]],
+    "functions": [
+      [
+        "Pittore dilettante",
+        "1843/1918"
+      ]
+    ],
     "images": [],
     "name": "Johannes Diederikus",
     "person_type": 1,
@@ -5348,7 +6417,12 @@
     ],
     "sources_other": [],
     "surname": "Kruseman",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": "Q2788060"
   },
   "$Kubeck": {
@@ -5356,7 +6430,12 @@
     "comment_daniel": "ms.339. Voornaam en persoon is een gokje gebaseerd op timing van zijn functie bij Handelsministerie (zie wiki). Checken in bron of dit kan kloppen.",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Ministro d'Austria", null]],
+    "functions": [
+      [
+        "Ministro d'Austria",
+        null
+      ]
+    ],
     "images": [],
     "name": "Max Kübeck",
     "person_type": 5,
@@ -5367,7 +6446,12 @@
     ],
     "sources_other": [],
     "surname": "von Kübau",
-    "titles": [["Freiherr", null]],
+    "titles": [
+      [
+        "Freiherr",
+        null
+      ]
+    ],
     "wikidata:id": "Q18511397"
   },
   "$LaTour": {
@@ -5392,7 +6476,12 @@
     ],
     "sources_other": [],
     "surname": "De La Tour",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Lambruschini": {
@@ -5401,8 +6490,14 @@
     "date_of_birth": "1776-05-16",
     "date_of_death": "1854-05-12",
     "functions": [
-      ["Cardinale Segretario di Stato", "1836-01-12/1846-06-01"],
-      ["Cardinale vescovo di Sabina-Poggio Mirteto", "1842-01-24/1847-07"]
+      [
+        "Cardinale Segretario di Stato",
+        "1836-01-12/1846-06-01"
+      ],
+      [
+        "Cardinale vescovo di Sabina-Poggio Mirteto",
+        "1842-01-24/1847-07"
+      ]
     ],
     "images": [],
     "name": "Luigi",
@@ -5416,7 +6511,12 @@
     ],
     "sources_other": [],
     "surname": "Lambruschini",
-    "titles": [["card.", "1831-09-30/"]],
+    "titles": [
+      [
+        "card.",
+        "1831-09-30/"
+      ]
+    ],
     "wikidata:id": "Q584470"
   },
   "$Lanci": {
@@ -5424,7 +6524,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Comandante della 3° Divisione Militare a Bologna", null]],
+    "functions": [
+      [
+        "Comandante della 3° Divisione Militare a Bologna",
+        null
+      ]
+    ],
     "images": [],
     "name": "Pier Girolamo",
     "person_type": 1,
@@ -5435,7 +6540,12 @@
     ],
     "sources_other": [],
     "surname": "Lanci",
-    "titles": [["tenente colonnello", null]],
+    "titles": [
+      [
+        "tenente colonnello",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Lanza": {
@@ -5484,7 +6594,12 @@
     ],
     "sources_other": [],
     "surname": "Larraín Moxó",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q5944825"
   },
   "$Launay": {
@@ -5518,8 +6633,14 @@
     "sources_other": [],
     "surname": "Launay",
     "titles": [
-      ["Cav.", null],
-      ["conte", "1848/"]
+      [
+        "Cav.",
+        null
+      ],
+      [
+        "conte",
+        "1848/"
+      ]
     ],
     "wikidata:id": "Q326045"
   },
@@ -5529,7 +6650,10 @@
     "date_of_birth": "1788-09-14",
     "date_of_death": "1849-10-14",
     "functions": [
-      ["Primo conservatore della Biblioteca Vaticana", "1838-02-12/"]
+      [
+        "Primo conservatore della Biblioteca Vaticana",
+        "1838-02-12/"
+      ]
     ],
     "images": [],
     "name": "Gabriele",
@@ -5565,7 +6689,12 @@
     ],
     "sources_other": [],
     "surname": "Laurent",
-    "titles": [["vescovo", "1839-09-17/"]],
+    "titles": [
+      [
+        "vescovo",
+        "1839-09-17/"
+      ]
+    ],
     "wikidata:id": "Q104739"
   },
   "$Lauro": {
@@ -5578,7 +6707,10 @@
         "Gerente del Consolato Generale del Regno dei Paesi Bassi a Napoli",
         null
       ],
-      ["Vice-console del Regno dei Paesi Bassi a Napoli", null]
+      [
+        "Vice-console del Regno dei Paesi Bassi a Napoli",
+        null
+      ]
     ],
     "images": [],
     "name": "Francesco",
@@ -5596,7 +6728,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Comandante della Piazza di Ancona", null]],
+    "functions": [
+      [
+        "Comandante della Piazza di Ancona",
+        null
+      ]
+    ],
     "images": [],
     "name": "Francesco Maria",
     "person_type": 1,
@@ -5607,7 +6744,12 @@
     ],
     "sources_other": [],
     "surname": "Lazzarini",
-    "titles": [["capitano", null]],
+    "titles": [
+      [
+        "capitano",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$LeClercq": {
@@ -5646,16 +6788,28 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Comandante del reggimento degli Zuavi pontifici", null]],
+    "functions": [
+      [
+        "Comandante del reggimento degli Zuavi pontifici",
+        null
+      ]
+    ],
     "images": [],
     "name": "Eugenio Giuseppe",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["La Civiltà Cattolica, Anno 21, 6 (Rome, 1870), 35"],
+    "sources": [
+      "La Civiltà Cattolica, Anno 21, 6 (Rome, 1870), 35"
+    ],
     "sources_other": [],
     "surname": "Allet",
-    "titles": [["colonnello", null]],
+    "titles": [
+      [
+        "colonnello",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Leersum": {
@@ -5674,7 +6828,12 @@
     ],
     "sources_other": [],
     "surname": "van Leersum",
-    "titles": [["1° ufficiale della sanità in pensione di 2° classe", null]],
+    "titles": [
+      [
+        "1° ufficiale della sanità in pensione di 2° classe",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Lencisa": {
@@ -5682,7 +6841,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Scrittore", null]],
+    "functions": [
+      [
+        "Scrittore",
+        null
+      ]
+    ],
     "images": [],
     "name": "G.F.",
     "person_type": 1,
@@ -5702,7 +6866,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Vice-presidente del Magistrato di Sanità di Genova", "1826/"]
+      [
+        "Vice-presidente del Magistrato di Sanità di Genova",
+        "1826/"
+      ]
     ],
     "images": [],
     "name": "Giambatista",
@@ -5732,7 +6899,10 @@
         "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi presso la Santa Sede",
         "1830-08-09/1855"
       ],
-      ["Ministro residente del Regno dei Paesi Bassi a Torino", "1844/1855"]
+      [
+        "Ministro residente del Regno dei Paesi Bassi a Torino",
+        "1844/1855"
+      ]
     ],
     "images": [],
     "name": "Florent Charles Auguste",
@@ -5746,7 +6916,12 @@
     ],
     "sources_other": [],
     "surname": "de Liedekerke-Beaufort",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Lightenvelt": {
@@ -5772,7 +6947,12 @@
     ],
     "sources_other": [],
     "surname": "Lightenvelt",
-    "titles": [["avv.", null]],
+    "titles": [
+      [
+        "avv.",
+        null
+      ]
+    ],
     "wikidata:id": "Q1819131"
   },
   "$Limburg": {
@@ -5798,7 +6978,12 @@
     ],
     "sources_other": [],
     "surname": "Limburg Stirum",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$LimburgNoordwijk": {
@@ -5824,7 +7009,12 @@
     ],
     "sources_other": [],
     "surname": "van Limburg Stirum Noordwijk",
-    "titles": [["conte", "1814-08-24/"]],
+    "titles": [
+      [
+        "conte",
+        "1814-08-24/"
+      ]
+    ],
     "wikidata:id": "Q2225990"
   },
   "$Lintz": {
@@ -5856,7 +7046,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-console del Regno dei Paesi Bassi a Termini", null]],
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a Termini",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
@@ -5905,7 +7100,12 @@
     ],
     "sources_other": [],
     "surname": "Lorenzana",
-    "titles": [["marchese di Belmonte", null]],
+    "titles": [
+      [
+        "marchese di Belmonte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Lotsy": {
@@ -5959,7 +7159,12 @@
     ],
     "sources_other": [],
     "surname": "von Wylich und Lottum",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q94924544"
   },
   "$Luciano": {
@@ -6004,7 +7209,12 @@
     ],
     "sources_other": [],
     "surname": "Lucidi",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Ludolf": {
@@ -6029,7 +7239,12 @@
     ],
     "sources_other": [],
     "surname": "van Ludolf",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Luipold": {
@@ -6059,7 +7274,10 @@
         "Ministro delle Finanze dello Stato Pontificio",
         "1848-05-04/1848-08-03"
       ],
-      ["Ministro delle Finanze dello Stato Pontificio", "1848-11-20/1848-12-04"]
+      [
+        "Ministro delle Finanze dello Stato Pontificio",
+        "1848-11-20/1848-12-04"
+      ]
     ],
     "images": [],
     "name": "Giuseppe",
@@ -6080,7 +7298,12 @@
     "comment_daniel": "",
     "date_of_birth": "1780-07-04",
     "date_of_death": "1858-10-28",
-    "functions": [["Ambasciatore dell'Impero Austriaco a Roma", "1826/1848"]],
+    "functions": [
+      [
+        "Ambasciatore dell'Impero Austriaco a Roma",
+        "1826/1848"
+      ]
+    ],
     "images": [],
     "name": "Rudolf",
     "person_type": 1,
@@ -6092,7 +7315,12 @@
     ],
     "sources_other": [],
     "surname": "von Lützow",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q15733451"
   },
   "$Maanen": {
@@ -6148,7 +7376,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Prelato ponente e giudice del tribunale della Sacra Consulta", null]
+      [
+        "Prelato ponente e giudice del tribunale della Sacra Consulta",
+        null
+      ]
     ],
     "images": [],
     "name": "Luigi",
@@ -6235,7 +7466,10 @@
         "Cancelliere della Legazione del Regno dei Paesi Bassi a Roma",
         "1837/1838"
       ],
-      ["Addetto alla Legazione del Regno dei Paesi Bassi a Roma", "1839/1847"],
+      [
+        "Addetto alla Legazione del Regno dei Paesi Bassi a Roma",
+        "1839/1847"
+      ],
       [
         "Addetto onorario della Legazione del Regno dei Paesi Bassi a Roma",
         "1851/1855"
@@ -6254,7 +7488,12 @@
     ],
     "sources_other": [],
     "surname": "Magrini",
-    "titles": [["Cav.", "1851/"]],
+    "titles": [
+      [
+        "Cav.",
+        "1851/"
+      ]
+    ],
     "wikidata:id": null
   },
   "$Maineri": {
@@ -6268,7 +7507,9 @@
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["La Civiltà Cattolica, Anno 3, X (Rome, 1852), 714"],
+    "sources": [
+      "La Civiltà Cattolica, Anno 3, X (Rome, 1852), 714"
+    ],
     "sources_other": [],
     "surname": "Maineri",
     "titles": [],
@@ -6284,7 +7525,10 @@
         "Primo ufficiale della Ministero degli Affari Esteri del Regno di Sardegna",
         "1825-12-19/1830-11-10"
       ],
-      ["Governatore di Nizza al Re di Sardegna", "1838/1848"]
+      [
+        "Governatore di Nizza al Re di Sardegna",
+        "1838/1848"
+      ]
     ],
     "images": [],
     "name": "Rodolphe",
@@ -6297,7 +7541,12 @@
     ],
     "sources_other": [],
     "surname": "de Maistre",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q3438399"
   },
   "$Mamiani": {
@@ -6333,7 +7582,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console generale dal Portogallo a Livorno", null]],
+    "functions": [
+      [
+        "Console generale dal Portogallo a Livorno",
+        null
+      ]
+    ],
     "images": [],
     "name": "Nicola",
     "person_type": 1,
@@ -6368,7 +7622,12 @@
     ],
     "sources_other": [],
     "surname": "Marchetti degli Angelini",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Margarita": {
@@ -6398,7 +7657,12 @@
     ],
     "sources_other": [],
     "surname": "della Margarita",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q1088319"
   },
   "$Marini": {
@@ -6423,7 +7687,12 @@
     ],
     "sources_other": [],
     "surname": "Marini",
-    "titles": [["card.", "1846-12-21/"]],
+    "titles": [
+      [
+        "card.",
+        "1846-12-21/"
+      ]
+    ],
     "wikidata:id": "Q519469"
   },
   "$MariniF": {
@@ -6492,7 +7761,12 @@
     ],
     "sources_other": [],
     "surname": "de Marsilio",
-    "titles": [["comandante", null]],
+    "titles": [
+      [
+        "comandante",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Martin": {
@@ -6525,7 +7799,10 @@
     "date_of_birth": "1787-03-10",
     "date_of_death": "1862-02-07",
     "functions": [
-      ["Ambasciatore del Regno di Spagna presso la Santa Sede", "1848/1849"]
+      [
+        "Ambasciatore del Regno di Spagna presso la Santa Sede",
+        "1848/1849"
+      ]
     ],
     "images": [],
     "name": "Francisco de Paula",
@@ -6566,8 +7843,14 @@
     "sources_other": [],
     "surname": "Martini Giovio Della Torre",
     "titles": [
-      ["conte", null],
-      ["commendatore dell’Ordine dei Santi Maurizio e Lazzaro", "1850/"]
+      [
+        "conte",
+        null
+      ],
+      [
+        "commendatore dell’Ordine dei Santi Maurizio e Lazzaro",
+        "1850/"
+      ]
     ],
     "wikidata:id": null
   },
@@ -6605,8 +7888,14 @@
     "date_of_birth": "1795-07-27",
     "date_of_death": "1876-06-02",
     "functions": [
-      ["Arcivescovo di Efeso", "1846-01-19/1876-07-02"],
-      ["Primo prefetto della Biblioteca Vaticana", "1853-06-27/1876-06-02"]
+      [
+        "Arcivescovo di Efeso",
+        "1846-01-19/1876-07-02"
+      ],
+      [
+        "Primo prefetto della Biblioteca Vaticana",
+        "1853-06-27/1876-06-02"
+      ]
     ],
     "images": [],
     "name": "Alessandro",
@@ -6636,7 +7925,10 @@
         "Primo segretario di stato per gli Affari Esteri del Regno di Sardegna",
         "1817-12-26/1821-03-13"
       ],
-      ["Gran Ciambellano di Sardegna", "1822/1828"]
+      [
+        "Gran Ciambellano di Sardegna",
+        "1822/1828"
+      ]
     ],
     "images": [],
     "name": "Filippo Antonio Maria Asinari",
@@ -6650,7 +7942,12 @@
     ],
     "sources_other": [],
     "surname": "di San Marzano",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q47548748"
   },
   "$Massimo": {
@@ -6670,7 +7967,12 @@
     ],
     "sources_other": [],
     "surname": "Massimo",
-    "titles": [["card.", "1838-02-12/"]],
+    "titles": [
+      [
+        "card.",
+        "1838-02-12/"
+      ]
+    ],
     "wikidata:id": "Q423512"
   },
   "$Mathey": {
@@ -6678,7 +7980,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Scrittore", null]],
+    "functions": [
+      [
+        "Scrittore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Carlo",
     "person_type": 1,
@@ -6707,7 +8014,12 @@
     ],
     "sources_other": [],
     "surname": "Mattei",
-    "titles": [["card.", "1892-07-02/"]],
+    "titles": [
+      [
+        "card.",
+        "1892-07-02/"
+      ]
+    ],
     "wikidata:id": "Q989847"
   },
   "$Matteucci": {
@@ -6716,7 +8028,10 @@
     "date_of_birth": "1802-03-15",
     "date_of_death": "1866-07-09",
     "functions": [
-      ["Direttore generale di polizia di Roma", "1852-12-13/1866-06-22"],
+      [
+        "Direttore generale di polizia di Roma",
+        "1852-12-13/1866-06-22"
+      ],
       [
         "Governatore di Roma e Vice camerlengo della Chiesa Cattolica Romana",
         "1853-03-10/1866-06-22"
@@ -6742,7 +8057,10 @@
     "date_of_birth": "1817-05-10",
     "date_of_death": "1893-01-01",
     "functions": [
-      ["Governatore di Ancona della Repubblica Romana", "1849-01-12/1849-06-20"]
+      [
+        "Governatore di Ancona della Repubblica Romana",
+        "1849-01-12/1849-06-20"
+      ]
     ],
     "images": [],
     "name": "Giuseppe Camillo",
@@ -6768,7 +8086,9 @@
         "1841-12-23/1863-06-17"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/213023"],
+    "images": [
+      "https://rkd.nl/explore/images/213023"
+    ],
     "name": "Jean Zacharie",
     "person_type": 1,
     "place_of_birth": "Tholen",
@@ -6825,7 +8145,12 @@
     ],
     "sources_other": [],
     "surname": "de Medici Spada",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q55900582"
   },
   "$MedicidO": {
@@ -6834,7 +8159,10 @@
     "date_of_birth": "1808-11-28",
     "date_of_death": "1857-10-11",
     "functions": [
-      ["Maestro di Camera del Papa", "1842-01-28/1850-05-17"],
+      [
+        "Maestro di Camera del Papa",
+        "1842-01-28/1850-05-17"
+      ],
       [
         "Maggiordomo del Papa e Prefetto dei Palazzi Apostolici",
         "1850-05-17/1856-06-16"
@@ -6851,8 +8179,14 @@
     "sources_other": [],
     "surname": "de Medici d’Ottajano",
     "titles": [
-      ["principe", null],
-      ["vescovo", null]
+      [
+        "principe",
+        null
+      ],
+      [
+        "vescovo",
+        null
+      ]
     ],
     "wikidata:id": null
   },
@@ -6886,8 +8220,14 @@
     "date_of_birth": "1794-08-16",
     "date_of_death": "1872-10-21",
     "functions": [
-      ["Pastore", null],
-      ["Storico", null]
+      [
+        "Pastore",
+        null
+      ],
+      [
+        "Storico",
+        null
+      ]
     ],
     "images": [],
     "name": "Jean-Henri",
@@ -6923,9 +8263,18 @@
     "sources_other": [],
     "surname": "Metternich-Winneburg",
     "titles": [
-      ["conte", null],
-      ["Cav.", "1805/"],
-      ["Principe di Metternich", "1813/"]
+      [
+        "conte",
+        null
+      ],
+      [
+        "Cav.",
+        "1805/"
+      ],
+      [
+        "Principe di Metternich",
+        "1813/"
+      ]
     ],
     "wikidata:id": "Q45662"
   },
@@ -6935,9 +8284,14 @@
     "date_of_birth": "1800",
     "date_of_death": "1875",
     "functions": [
-      ["Console generale del Regno dei Paesi Bassi a Napoli", "1837-04-04/"]
+      [
+        "Console generale del Regno dei Paesi Bassi a Napoli",
+        "1837-04-04/"
+      ]
     ],
-    "images": ["https://collections.louvre.fr/ark:/53355/cl020625454"],
+    "images": [
+      "https://collections.louvre.fr/ark:/53355/cl020625454"
+    ],
     "name": "Auguste",
     "person_type": 1,
     "place_of_birth": "",
@@ -6963,7 +8317,9 @@
         "1840-10-26/"
       ]
     ],
-    "images": ["https://collections.louvre.fr/ark:/53355/cl020625454"],
+    "images": [
+      "https://collections.louvre.fr/ark:/53355/cl020625454"
+    ],
     "name": "Georges",
     "person_type": 1,
     "place_of_birth": "",
@@ -6982,7 +8338,12 @@
     "comment_daniel": "",
     "date_of_birth": "1803",
     "date_of_death": "1860",
-    "functions": [["Comandante della Guardia Svizzera", "1847/1860"]],
+    "functions": [
+      [
+        "Comandante della Guardia Svizzera",
+        "1847/1860"
+      ]
+    ],
     "images": [],
     "name": "Franz Xaver Leopold",
     "person_type": 1,
@@ -7001,8 +8362,15 @@
     "comment_daniel": "",
     "date_of_birth": "1814-11-11",
     "date_of_death": "1873-01-08",
-    "functions": [["Scrittore", null]],
-    "images": ["https://rkd.nl/explore/images/180044"],
+    "functions": [
+      [
+        "Scrittore",
+        null
+      ]
+    ],
+    "images": [
+      "https://rkd.nl/explore/images/180044"
+    ],
     "name": "Jan Conrad",
     "person_type": 1,
     "place_of_birth": "Haarlem",
@@ -7022,7 +8390,12 @@
     "comment_daniel": "",
     "date_of_birth": "1812-08-18",
     "date_of_death": "1899",
-    "functions": [["Delegato apostolico a Viterbo", null]],
+    "functions": [
+      [
+        "Delegato apostolico a Viterbo",
+        null
+      ]
+    ],
     "images": [],
     "name": "Niccolò",
     "person_type": 1,
@@ -7034,7 +8407,12 @@
     ],
     "sources_other": [],
     "surname": "Milella",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Milesi": {
@@ -7062,8 +8440,14 @@
     "sources_other": [],
     "surname": "Milesi Pironi Ferretti",
     "titles": [
-      ["vescovo", "/1858-03-15"],
-      ["card.", "1858-03-15/"]
+      [
+        "vescovo",
+        "/1858-03-15"
+      ],
+      [
+        "card.",
+        "1858-03-15/"
+      ]
     ],
     "wikidata:id": "Q2785997"
   },
@@ -7089,7 +8473,12 @@
     "comment_daniel": "",
     "date_of_birth": "1804-12-04",
     "date_of_death": "1875-08-29",
-    "functions": [["Generale", null]],
+    "functions": [
+      [
+        "Generale",
+        null
+      ]
+    ],
     "images": [],
     "name": "Gustave Olivier",
     "person_type": 1,
@@ -7100,7 +8489,12 @@
     ],
     "sources_other": [],
     "surname": "Lannes",
-    "titles": [["conte di Montebello", null]],
+    "titles": [
+      [
+        "conte di Montebello",
+        null
+      ]
+    ],
     "wikidata:id": "Q1556729"
   },
   "$Montoya": {
@@ -7139,7 +8533,10 @@
         "Procuratore generale del Fisco e del tribunale della Rev. Camera Apostolica",
         "1847/"
       ],
-      ["Pro-governatore di Roma", "1847/"]
+      [
+        "Pro-governatore di Roma",
+        "1847/"
+      ]
     ],
     "images": [],
     "name": "Giuseppe",
@@ -7161,8 +8558,14 @@
     "date_of_birth": "1805-11-21",
     "date_of_death": "1879-04-26",
     "functions": [
-      ["Arcivescovo titolare di Nisibi", "1845-04-21/1852-03-18"],
-      ["Nunzio apostolico a Monaco di Baviera", "1845/1847"],
+      [
+        "Arcivescovo titolare di Nisibi",
+        "1845-04-21/1852-03-18"
+      ],
+      [
+        "Nunzio apostolico a Monaco di Baviera",
+        "1845/1847"
+      ],
       [
         "Pro-tesoriere generale della Camera Apostolica",
         "1847-08-02/1848-04-24"
@@ -7171,9 +8574,18 @@
         "Ministro delle Finanze dello Stato Pontificio",
         "1848-03-10/1848-04-24"
       ],
-      ["Delegato apostolico a Vienna", "1848-05-26/1848-07-05"],
-      ["Vescovo di Jesi", "1854-06-23/1871-11-24"],
-      ["Arcivescovo di Bologna", "1871-11-24/1876-12-22"],
+      [
+        "Delegato apostolico a Vienna",
+        "1848-05-26/1848-07-05"
+      ],
+      [
+        "Vescovo di Jesi",
+        "1854-06-23/1871-11-24"
+      ],
+      [
+        "Arcivescovo di Bologna",
+        "1871-11-24/1876-12-22"
+      ],
       [
         "Prefetto del Supremo Tribunale della Segnatura Apostolica",
         "1878-07-15/1879-04-26"
@@ -7191,7 +8603,12 @@
     ],
     "sources_other": [],
     "surname": "Morichini",
-    "titles": [["card.", "1852-03-15/1879-04-26"]],
+    "titles": [
+      [
+        "card.",
+        "1852-03-15/1879-04-26"
+      ]
+    ],
     "wikidata:id": "Q1042264"
   },
   "$Mulken": {
@@ -7221,7 +8638,12 @@
     ],
     "sources_other": [],
     "surname": "van Mulken",
-    "titles": [["generale", null]],
+    "titles": [
+      [
+        "generale",
+        null
+      ]
+    ],
     "wikidata:id": "Q2111322"
   },
   "$Murray": {
@@ -7311,7 +8733,12 @@
     ],
     "sources_other": [],
     "surname": "van Nagell van Ampsen",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q2421468"
   },
   "$NagellVrouw": {
@@ -7320,7 +8747,9 @@
     "date_of_birth": "1761-03-25",
     "date_of_death": "1853-12-19",
     "functions": [],
-    "images": ["https://rkd.nl/explore/images/183196"],
+    "images": [
+      "https://rkd.nl/explore/images/183196"
+    ],
     "name": "Anna Catharina Elisabeth",
     "person_type": 1,
     "place_of_birth": "L'Aia",
@@ -7328,7 +8757,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "van Nagell - du Tour",
-    "titles": [["baronessa", null]],
+    "titles": [
+      [
+        "baronessa",
+        null
+      ]
+    ],
     "wikidata:id": "Q76259620"
   },
   "$Nardoni": {
@@ -7336,7 +8770,12 @@
     "comment_daniel": "",
     "date_of_birth": "1791-11-09",
     "date_of_death": "1864-08-26",
-    "functions": [["Tenente colonnello della Gendarmeria pontificia", null]],
+    "functions": [
+      [
+        "Tenente colonnello della Gendarmeria pontificia",
+        null
+      ]
+    ],
     "images": [],
     "name": "Filippo",
     "person_type": 1,
@@ -7356,10 +8795,18 @@
     "date_of_birth": "1817-07-24",
     "date_of_death": "1905-11-17",
     "functions": [
-      ["Duca di Nassau", "1839-08-30/1866-10-08"],
-      ["Granduca di Lussemburgo", "1890-11-23/1905-11-17"]
+      [
+        "Duca di Nassau",
+        "1839-08-30/1866-10-08"
+      ],
+      [
+        "Granduca di Lussemburgo",
+        "1890-11-23/1905-11-17"
+      ]
     ],
-    "images": ["https://rkd.nl/explore/images/228890"],
+    "images": [
+      "https://rkd.nl/explore/images/228890"
+    ],
     "name": "Adolf",
     "person_type": 1,
     "place_of_birth": "Wiesbaden",
@@ -7386,7 +8833,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Navoni",
-    "titles": [["contessa", null]],
+    "titles": [
+      [
+        "contessa",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$NavoniF": {
@@ -7395,7 +8847,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno dei Paesi Bassi a Cagliari", "1814-08-03/"]
+      [
+        "Console del Regno dei Paesi Bassi a Cagliari",
+        "1814-08-03/"
+      ]
     ],
     "images": [],
     "name": "François",
@@ -7409,7 +8864,12 @@
     ],
     "sources_other": [],
     "surname": "Navoni",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Ney": {
@@ -7418,8 +8878,14 @@
     "date_of_birth": "1812-04-12",
     "date_of_death": "1882-10-04",
     "functions": [
-      ["Ufficiale d'ordinanza di Napoleon III Bonaparte", "1849/"],
-      ["Tenente colonnello", "1849/1852"]
+      [
+        "Ufficiale d'ordinanza di Napoleon III Bonaparte",
+        "1849/"
+      ],
+      [
+        "Tenente colonnello",
+        "1849/1852"
+      ]
     ],
     "images": [],
     "name": "Edgar Napoléon Henry",
@@ -7440,8 +8906,14 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Professore", null],
-      ["Chimico", null]
+      [
+        "Professore",
+        null
+      ],
+      [
+        "Chimico",
+        null
+      ]
     ],
     "images": [],
     "name": "Gaetano",
@@ -7459,7 +8931,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Negoziante", null]],
+    "functions": [
+      [
+        "Negoziante",
+        null
+      ]
+    ],
     "images": [],
     "name": "Andreas",
     "person_type": 1,
@@ -7477,9 +8954,18 @@
     "date_of_birth": "1821-11-16",
     "date_of_death": "1900-03-11",
     "functions": [
-      ["Bibliotecario", null],
-      ["Poeta", null],
-      ["Storico", null]
+      [
+        "Bibliotecario",
+        null
+      ],
+      [
+        "Poeta",
+        null
+      ],
+      [
+        "Storico",
+        null
+      ]
     ],
     "images": [],
     "name": "Ettore",
@@ -7500,7 +8986,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Segretario della Legazione del Regno del Belgio a Roma", null],
+      [
+        "Segretario della Legazione del Regno del Belgio a Roma",
+        null
+      ],
       [
         "Consigliere e incaricato d'affari della Legazione del Regno del Belgio a Roma",
         null
@@ -7517,7 +9006,12 @@
     ],
     "sources_other": [],
     "surname": "Noyer",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Odescalchi": {
@@ -7541,7 +9035,12 @@
     ],
     "sources_other": [],
     "surname": "Odescalchi",
-    "titles": [["principe", null]],
+    "titles": [
+      [
+        "principe",
+        null
+      ]
+    ],
     "wikidata:id": "Q18758550"
   },
   "$Olimart": {
@@ -7573,7 +9072,12 @@
     "comment_daniel": "",
     "date_of_birth": "1822-05-03",
     "date_of_death": "1855-01-20",
-    "functions": [["Regina di Sardegna", "1849-03-27/1855-01-20"]],
+    "functions": [
+      [
+        "Regina di Sardegna",
+        "1849-03-27/1855-01-20"
+      ]
+    ],
     "images": [],
     "name": "Adelheid",
     "person_type": 1,
@@ -7582,7 +9086,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "von Österreich",
-    "titles": [["arciduchessa d’Austria", null]],
+    "titles": [
+      [
+        "arciduchessa d’Austria",
+        null
+      ]
+    ],
     "wikidata:id": "Q231856"
   },
   "$OostenrijkMT": {
@@ -7590,7 +9099,12 @@
     "comment_daniel": "",
     "date_of_birth": "1773-11-01",
     "date_of_death": "1832-03-29",
-    "functions": [["Regina di Sardegna", "1802-06-04/1821-03-13"]],
+    "functions": [
+      [
+        "Regina di Sardegna",
+        "1802-06-04/1821-03-13"
+      ]
+    ],
     "images": [],
     "name": "Maria Theresia",
     "person_type": 1,
@@ -7599,7 +9113,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "von Österreich-Este",
-    "titles": [["arciduchessa d’Austria", null]],
+    "titles": [
+      [
+        "arciduchessa d’Austria",
+        null
+      ]
+    ],
     "wikidata:id": "Q260505"
   },
   "$OranjeM": {
@@ -7629,7 +9148,12 @@
     ],
     "sources_other": [],
     "surname": "van Oranje-Nassau",
-    "titles": [["principessa", null]],
+    "titles": [
+      [
+        "principessa",
+        null
+      ]
+    ],
     "wikidata:id": "Q253805"
   },
   "$OranjeWFM": {
@@ -7649,7 +9173,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "van Oranje-Nassau",
-    "titles": [["principe", null]],
+    "titles": [
+      [
+        "principe",
+        null
+      ]
+    ],
     "wikidata:id": "Q2735203"
   },
   "$OranjeWI": {
@@ -7658,7 +9187,10 @@
     "date_of_birth": "1772-08-24",
     "date_of_death": "1843-12-12",
     "functions": [
-      ["Re dei Paesi Bassi e Granduca di Lussemburgo", "1815-03-16/1840-10-07"]
+      [
+        "Re dei Paesi Bassi e Granduca di Lussemburgo",
+        "1815-03-16/1840-10-07"
+      ]
     ],
     "images": [
       "https://rkd.nl/explore/images/267303",
@@ -7676,7 +9208,12 @@
     ],
     "sources_other": [],
     "surname": "van Oranje-Nassau",
-    "titles": [["principe", "1772-08-24/1815-03-15"]],
+    "titles": [
+      [
+        "principe",
+        "1772-08-24/1815-03-15"
+      ]
+    ],
     "wikidata:id": "Q2079957"
   },
   "$OranjeWII": {
@@ -7685,7 +9222,10 @@
     "date_of_birth": "1792-12-06",
     "date_of_death": "1849-03-17",
     "functions": [
-      ["Re dei Paesi Bassi e Granduca di Lussemburgo", "1840-10-07/1849-03-17"]
+      [
+        "Re dei Paesi Bassi e Granduca di Lussemburgo",
+        "1840-10-07/1849-03-17"
+      ]
     ],
     "images": [
       "https://rkd.nl/explore/images/270824",
@@ -7704,7 +9244,12 @@
     ],
     "sources_other": [],
     "surname": "van Oranje-Nassau",
-    "titles": [["principe", "1792-12-06/1840-10-07"]],
+    "titles": [
+      [
+        "principe",
+        "1792-12-06/1840-10-07"
+      ]
+    ],
     "wikidata:id": "Q154287"
   },
   "$OranjeWIII": {
@@ -7713,7 +9258,10 @@
     "date_of_birth": "1817-02-19",
     "date_of_death": "1890-11-23",
     "functions": [
-      ["Re dei Paesi Bassi e Granduca di Lussemburgo", "1849-03-17/1890-11-23"]
+      [
+        "Re dei Paesi Bassi e Granduca di Lussemburgo",
+        "1849-03-17/1890-11-23"
+      ]
     ],
     "images": [
       "https://rkd.nl/explore/images/268634",
@@ -7731,7 +9279,12 @@
     ],
     "sources_other": [],
     "surname": "van Oranje-Nassau",
-    "titles": [["principe", null]],
+    "titles": [
+      [
+        "principe",
+        null
+      ]
+    ],
     "wikidata:id": "Q125649"
   },
   "$OranjeWmina": {
@@ -7759,7 +9312,12 @@
     ],
     "sources_other": [],
     "surname": "van Oranje-Nassau",
-    "titles": [["principessa", null]],
+    "titles": [
+      [
+        "principessa",
+        null
+      ]
+    ],
     "wikidata:id": "Q130413"
   },
   "$Orioli": {
@@ -7789,7 +9347,12 @@
     ],
     "sources_other": [],
     "surname": "Orioli",
-    "titles": [["card.", "1838-02-12/"]],
+    "titles": [
+      [
+        "card.",
+        "1838-02-12/"
+      ]
+    ],
     "wikidata:id": "Q2517870"
   },
   "$Oudinot": {
@@ -7797,7 +9360,12 @@
     "comment_daniel": "",
     "date_of_birth": "1791-11-03",
     "date_of_death": "1863-06-07",
-    "functions": [["Generale nell'esercito francese", null]],
+    "functions": [
+      [
+        "Generale nell'esercito francese",
+        null
+      ]
+    ],
     "images": [],
     "name": "Charles Nicolas Victor",
     "person_type": 1,
@@ -7808,7 +9376,12 @@
     ],
     "sources_other": [],
     "surname": "Oudinot de Reggio",
-    "titles": [["duca di Reggio", null]],
+    "titles": [
+      [
+        "duca di Reggio",
+        null
+      ]
+    ],
     "wikidata:id": "Q262812"
   },
   "$PaccaB": {
@@ -7816,7 +9389,12 @@
     "comment_daniel": "Ik kan deze nergens vinden. Gezien de tijd van vermelding neem ik eigenlijk aan dat dit ook om il Giovane gaat, maar kan tot nu toe geen lijst vinden van ceremoniemeesters…",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Maestro di cerimonia", null]],
+    "functions": [
+      [
+        "Maestro di cerimonia",
+        null
+      ]
+    ],
     "images": [],
     "name": "Bartolomeo",
     "person_type": 5,
@@ -7834,13 +9412,22 @@
     "date_of_birth": "1817-02-25",
     "date_of_death": "1880-10-14",
     "functions": [
-      ["Cameriere segreto soprannumerario del Papa", "1838-12-01/"],
-      ["Prelato Domestico del Papa", "1841-03-21/"],
+      [
+        "Cameriere segreto soprannumerario del Papa",
+        "1838-12-01/"
+      ],
+      [
+        "Prelato Domestico del Papa",
+        "1841-03-21/"
+      ],
       [
         "Uditore del Supremo Tribunale della Segnatura Apostolica",
         "1853-03-10/"
       ],
-      ["Maestro di Camera del Papa", "1856-06-16/1868-03-21"],
+      [
+        "Maestro di Camera del Papa",
+        "1856-06-16/1868-03-21"
+      ],
       [
         "Maggiordomo del Papa e Prefetto dei Palazzi Apostolici",
         "1868-03-21/1875-09-17"
@@ -7856,7 +9443,12 @@
     ],
     "sources_other": [],
     "surname": "Pacca (il Giovane)",
-    "titles": [["card.", "1875-09-17"]],
+    "titles": [
+      [
+        "card.",
+        "1875-09-17"
+      ]
+    ],
     "wikidata:id": "Q3635400"
   },
   "$Pacheco": {
@@ -7890,7 +9482,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Commissario generale della Rev. Camera Apostolica", "1856/1861"]
+      [
+        "Commissario generale della Rev. Camera Apostolica",
+        "1856/1861"
+      ]
     ],
     "images": [],
     "name": "Antonio",
@@ -7911,7 +9506,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Avvocato", null]],
+    "functions": [
+      [
+        "Avvocato",
+        null
+      ]
+    ],
     "images": [],
     "name": "Gaetano",
     "person_type": 1,
@@ -7929,7 +9529,10 @@
     "date_of_birth": "1803-10-21",
     "date_of_death": "1867-10-12",
     "functions": [
-      ["Maestro di Camera del Papa", "1838-09-13/1842-01-24"],
+      [
+        "Maestro di Camera del Papa",
+        "1838-09-13/1842-01-24"
+      ],
       [
         "Maggiordomo del Papa e Prefetto dei Palazzi Apostolici",
         "1842-01-24/1848-11-01"
@@ -7946,7 +9549,12 @@
     ],
     "sources_other": [],
     "surname": "Pallavicini",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": "Q64707205"
   },
   "$PallaviciniE": {
@@ -7954,7 +9562,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Presidente del Magistrato di Sanità di Genova", "/1834"]],
+    "functions": [
+      [
+        "Presidente del Magistrato di Sanità di Genova",
+        "/1834"
+      ]
+    ],
     "images": [],
     "name": "Paolo Gerolamo",
     "person_type": 1,
@@ -7967,7 +9580,12 @@
     ],
     "sources_other": [],
     "surname": "Pallavicini",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Palmerston": {
@@ -7984,7 +9602,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Palmerston",
-    "titles": [["Lord", null]],
+    "titles": [
+      [
+        "Lord",
+        null
+      ]
+    ],
     "wikidata:id": "Q193656"
   },
   "$Pancani": {
@@ -8045,7 +9668,12 @@
     ],
     "sources_other": [],
     "surname": "di Pastoris",
-    "titles": [["contessa", null]],
+    "titles": [
+      [
+        "contessa",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Patrizi": {
@@ -8065,7 +9693,12 @@
     ],
     "sources_other": [],
     "surname": "Patrizi Naro",
-    "titles": [["card.", "1834-06-23/"]],
+    "titles": [
+      [
+        "card.",
+        "1834-06-23/"
+      ]
+    ],
     "wikidata:id": null
   },
   "$Paulucci": {
@@ -8074,7 +9707,10 @@
     "date_of_birth": "1779-09-11",
     "date_of_death": "1849-0125",
     "functions": [
-      ["Governatore di Genova al Re di Sardegna", "1832/1847-12-11"]
+      [
+        "Governatore di Genova al Re di Sardegna",
+        "1832/1847-12-11"
+      ]
     ],
     "images": [],
     "name": "Filippo",
@@ -8086,7 +9722,12 @@
     ],
     "sources_other": [],
     "surname": "Paulucci delle Roncole",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q2621033"
   },
   "$Pelichy": {
@@ -8110,7 +9751,12 @@
     ],
     "sources_other": [],
     "surname": "de Pélichy de Lichtervelde",
-    "titles": [["barone", "1816-04-14/"]],
+    "titles": [
+      [
+        "barone",
+        "1816-04-14/"
+      ]
+    ],
     "wikidata:id": "Q2051811"
   },
   "$Pellissier": {
@@ -8118,7 +9764,12 @@
     "comment_daniel": "",
     "date_of_birth": "1819-09-30",
     "date_of_death": "1894",
-    "functions": [["Professore di Filosofia", null]],
+    "functions": [
+      [
+        "Professore di Filosofia",
+        null
+      ]
+    ],
     "images": [],
     "name": "Pierre-Augustin",
     "person_type": 1,
@@ -8137,7 +9788,12 @@
     "comment_daniel": "DN: Waarschijnlijk Karl Pergler, zie https://de.wikipedia.org/wiki/Pergler_von_Perglas",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Comandante delle truppe austriache", null]],
+    "functions": [
+      [
+        "Comandante delle truppe austriache",
+        null
+      ]
+    ],
     "images": [],
     "name": "",
     "person_type": 5,
@@ -8147,9 +9803,18 @@
     "sources_other": [],
     "surname": "von Perglass",
     "titles": [
-      ["barone", null],
-      ["tenente generale", null],
-      ["maresciallo", null]
+      [
+        "barone",
+        null
+      ],
+      [
+        "tenente generale",
+        null
+      ],
+      [
+        "maresciallo",
+        null
+      ]
     ],
     "wikidata:id": null
   },
@@ -8158,7 +9823,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Mediatore da noleggi", null]],
+    "functions": [
+      [
+        "Mediatore da noleggi",
+        null
+      ]
+    ],
     "images": [],
     "name": "Guiseppe",
     "person_type": 1,
@@ -8175,7 +9845,12 @@
     "comment_daniel": "",
     "date_of_birth": "1764-02-08",
     "date_of_death": "1836-05-24",
-    "functions": [["Maestro di cerimonia del Re di Sardegna", "1814/1822"]],
+    "functions": [
+      [
+        "Maestro di cerimonia del Re di Sardegna",
+        "1814/1822"
+      ]
+    ],
     "images": [],
     "name": "Carlo Giuseppe",
     "person_type": 1,
@@ -8188,7 +9863,12 @@
     ],
     "sources_other": [],
     "surname": "Perrone di San Martino",
-    "titles": [["Cav.", "1815-12-06/"]],
+    "titles": [
+      [
+        "Cav.",
+        "1815-12-06/"
+      ]
+    ],
     "wikidata:id": "Q30076222"
   },
   "$Pes": {
@@ -8197,7 +9877,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Incaricato d'affari del Regno di Sardegna presso la Santa Sede", null]
+      [
+        "Incaricato d'affari del Regno di Sardegna presso la Santa Sede",
+        null
+      ]
     ],
     "images": [],
     "name": "Domenico",
@@ -8209,7 +9892,12 @@
     ],
     "sources_other": [],
     "surname": "Pes di S. Vittorio",
-    "titles": [["conte della Minerva", null]],
+    "titles": [
+      [
+        "conte della Minerva",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Pianori": {
@@ -8253,7 +9941,12 @@
     ],
     "sources_other": [],
     "surname": "de Pidal",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q7159675"
   },
   "$Pieralisi": {
@@ -8261,7 +9954,12 @@
     "comment_daniel": "",
     "date_of_birth": "1802",
     "date_of_death": "1887",
-    "functions": [["Bibliotecario della Biblioteca Barberiniana", null]],
+    "functions": [
+      [
+        "Bibliotecario della Biblioteca Barberiniana",
+        null
+      ]
+    ],
     "images": [],
     "name": "Sante",
     "person_type": 1,
@@ -8272,7 +9970,12 @@
     ],
     "sources_other": [],
     "surname": "Pieralisi",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": "Q93262403"
   },
   "$Pietro": {
@@ -8294,7 +9997,12 @@
     ],
     "sources_other": [],
     "surname": "di Pietro",
-    "titles": [["card.", "1853-12-19/"]],
+    "titles": [
+      [
+        "card.",
+        "1853-12-19/"
+      ]
+    ],
     "wikidata:id": "Q82385"
   },
   "$Pilaer": {
@@ -8329,8 +10037,14 @@
     "date_of_birth": "1773-12-1929",
     "date_of_death": "1802-10-27",
     "functions": [
-      ["Giurista", null],
-      ["Scrittore", null]
+      [
+        "Giurista",
+        null
+      ],
+      [
+        "Scrittore",
+        null
+      ]
     ],
     "images": [],
     "name": "Carlo Antonio",
@@ -8350,7 +10064,12 @@
     "comment_daniel": "",
     "date_of_birth": "1759-01-06",
     "date_of_death": "1837-02-26",
-    "functions": [["Ambasciatore del Regno di Francia a Torino", "1820/"]],
+    "functions": [
+      [
+        "Ambasciatore del Regno di Francia a Torino",
+        "1820/"
+      ]
+    ],
     "images": [],
     "name": "Frédéric-Séraphin",
     "person_type": 1,
@@ -8361,7 +10080,12 @@
     ],
     "sources_other": [],
     "surname": "de La Tour du Pin Gouvernet",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q3089547"
   },
   "$PioIX": {
@@ -8380,7 +10104,12 @@
     ],
     "sources_other": [],
     "surname": "Pio IX",
-    "titles": [["Papa", "1846-06-16/1878-02-07"]],
+    "titles": [
+      [
+        "Papa",
+        "1846-06-16/1878-02-07"
+      ]
+    ],
     "wikidata:id": "Q43720"
   },
   "$PioVII": {
@@ -8399,7 +10128,12 @@
     ],
     "sources_other": [],
     "surname": "Pio VII",
-    "titles": [["Papa", "1800-03-14/1823-08-20"]],
+    "titles": [
+      [
+        "Papa",
+        "1800-03-14/1823-08-20"
+      ]
+    ],
     "wikidata:id": "Q124754"
   },
   "$PioVIII": {
@@ -8418,7 +10152,12 @@
     ],
     "sources_other": [],
     "surname": "Pio VIII",
-    "titles": [["Papa", "1829-03-31/1830-11-30"]],
+    "titles": [
+      [
+        "Papa",
+        "1829-03-31/1830-11-30"
+      ]
+    ],
     "wikidata:id": "Q4443"
   },
   "$Poelman": {
@@ -8426,7 +10165,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Capitano", null]],
+    "functions": [
+      [
+        "Capitano",
+        null
+      ]
+    ],
     "images": [],
     "name": "Cornelio",
     "person_type": 2,
@@ -8444,7 +10188,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Direttore del Dipartimento della Posta del Granducato di Toscana", null]
+      [
+        "Direttore del Dipartimento della Posta del Granducato di Toscana",
+        null
+      ]
     ],
     "images": [],
     "name": "Giuseppe",
@@ -8464,7 +10211,7 @@
     "date_of_death": "",
     "functions": [
       [
-        "Segretario di State degli Affari Esteri del Regno di Sardegna",
+        "Segretario di Stato degli Affari Esteri del Regno di Sardegna",
         "/1826-04"
       ]
     ],
@@ -8479,7 +10226,12 @@
     ],
     "sources_other": [],
     "surname": "Pozzi",
-    "titles": [["Cav.", "1823-01-01/"]],
+    "titles": [
+      [
+        "Cav.",
+        "1823-01-01/"
+      ]
+    ],
     "wikidata:id": null
   },
   "$ProvanaSabione": {
@@ -8487,7 +10239,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Direttore della polizia di Genova", null]],
+    "functions": [
+      [
+        "Direttore della polizia di Genova",
+        null
+      ]
+    ],
     "images": [],
     "name": "Casimiro",
     "person_type": 1,
@@ -8498,7 +10255,12 @@
     ],
     "sources_other": [],
     "surname": "Provana del Sabione",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Quaedvlieg": {
@@ -8506,7 +10268,12 @@
     "comment_daniel": "",
     "date_of_birth": "1823-03-21",
     "date_of_death": "1874-03-03",
-    "functions": [["Pittore", null]],
+    "functions": [
+      [
+        "Pittore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Charles",
     "person_type": 1,
@@ -8538,7 +10305,12 @@
     ],
     "sources_other": [],
     "surname": "di Cocconato",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$RaguettiC": {
@@ -8546,7 +10318,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Professore di Navigazione a Senigallia", null]],
+    "functions": [
+      [
+        "Professore di Navigazione a Senigallia",
+        null
+      ]
+    ],
     "images": [],
     "name": "Charles",
     "person_type": 1,
@@ -8568,7 +10345,10 @@
         "Governatore di Roma e direttore generale di polizia di Roma",
         "1865-10/1870-09-20"
       ],
-      ["Vice camerlengo della Chiesa Cattolica Romana", "1866-06-22/1870-09-20"]
+      [
+        "Vice camerlengo della Chiesa Cattolica Romana",
+        "1866-06-22/1870-09-20"
+      ]
     ],
     "images": [],
     "name": "Lorenzo",
@@ -8597,8 +10377,14 @@
         "Ministro degli Affari Esteri del Regno dei Paesi Bassi",
         "1848-01-01/1848-03-25"
       ],
-      ["Gran Maestro della Regina dei Paesi Bassi", "1854-07-01/1877-06-16"],
-      ["Gran Maestro del Re dei Paesi Bassi", "1877-06-16/1891-12-04"]
+      [
+        "Gran Maestro della Regina dei Paesi Bassi",
+        "1854-07-01/1877-06-16"
+      ],
+      [
+        "Gran Maestro del Re dei Paesi Bassi",
+        "1877-06-16/1891-12-04"
+      ]
     ],
     "images": [
       "https://rkd.nl/explore/images/125893",
@@ -8617,7 +10403,12 @@
     ],
     "sources_other": [],
     "surname": "van Randwijck",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q2163341"
   },
   "$Rap": {
@@ -8625,7 +10416,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi a Palermo", null]],
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi a Palermo",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
@@ -8644,7 +10440,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-console del Regno dei Paesi Bassi a Nizza", null]],
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a Nizza",
+        null
+      ]
+    ],
     "images": [],
     "name": "Auguste",
     "person_type": 1,
@@ -8664,7 +10465,10 @@
     "date_of_birth": "1813-08-01",
     "date_of_death": "1858-02-10",
     "functions": [
-      ["Ambasciatore dell'Impero di Francia presso la Santa Sede", "1850/1857"]
+      [
+        "Ambasciatore dell'Impero di Francia presso la Santa Sede",
+        "1850/1857"
+      ]
     ],
     "images": [],
     "name": "Alphonse",
@@ -8676,7 +10480,12 @@
     ],
     "sources_other": [],
     "surname": "de Rayneval",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q2840029"
   },
   "$ReF": {
@@ -8716,7 +10525,10 @@
         "Incaricato d'affari del Regno delle Due Sicilie presso la Santa Sede",
         null
       ],
-      ["Aiutante generale del Re delle Due Sicilie", null]
+      [
+        "Aiutante generale del Re delle Due Sicilie",
+        null
+      ]
     ],
     "images": [],
     "name": "Leopoldo",
@@ -8729,7 +10541,12 @@
     ],
     "sources_other": [],
     "surname": "Del Re",
-    "titles": [["ammiraglio", null]],
+    "titles": [
+      [
+        "ammiraglio",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Regnon": {
@@ -8750,7 +10567,12 @@
     ],
     "sources_other": [],
     "surname": "de Régnon",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": "Q76642934"
   },
   "$Reumont": {
@@ -8759,7 +10581,10 @@
     "date_of_birth": "1808-08-15",
     "date_of_death": "1887-04-27",
     "functions": [
-      ["Incaricato d'affari del Regno di Prussia presso la Santa Sede", null]
+      [
+        "Incaricato d'affari del Regno di Prussia presso la Santa Sede",
+        null
+      ]
     ],
     "images": [],
     "name": "Alfred",
@@ -8781,7 +10606,10 @@
     "date_of_birth": "1785-07-17",
     "date_of_death": "1857-01-23",
     "functions": [
-      ["Bibliotecario della Biblioteca Corsiniana", "1836/1857-01-23"]
+      [
+        "Bibliotecario della Biblioteca Corsiniana",
+        "1836/1857-01-23"
+      ]
     ],
     "images": [],
     "name": "Luigi Maria",
@@ -8802,7 +10630,12 @@
     "comment_daniel": "",
     "date_of_birth": "1782-01-08",
     "date_of_death": "1857-03-14",
-    "functions": [["Camerlengo di Santa Romana Chiesa", "1843-04-03/"]],
+    "functions": [
+      [
+        "Camerlengo di Santa Romana Chiesa",
+        "1843-04-03/"
+      ]
+    ],
     "images": [],
     "name": "Tommaso",
     "person_type": 1,
@@ -8814,7 +10647,12 @@
     ],
     "sources_other": [],
     "surname": "Riario Sforza",
-    "titles": [["card.", "1823-03-10/"]],
+    "titles": [
+      [
+        "card.",
+        "1823-03-10/"
+      ]
+    ],
     "wikidata:id": "Q1401258"
   },
   "$Ricasoli": {
@@ -8850,7 +10688,12 @@
     "comment_daniel": "",
     "date_of_birth": "1814-02-12",
     "date_of_death": "1872-01-15",
-    "functions": [["Delegato apostolico a Civitavecchia", "1845-04-21/1846"]],
+    "functions": [
+      [
+        "Delegato apostolico a Civitavecchia",
+        "1845-04-21/1846"
+      ]
+    ],
     "images": [],
     "name": "Achille Maria",
     "person_type": 1,
@@ -8896,7 +10739,12 @@
     ],
     "sources_other": [],
     "surname": "Massimo",
-    "titles": [["duca di Rignano", null]],
+    "titles": [
+      [
+        "duca di Rignano",
+        null
+      ]
+    ],
     "wikidata:id": "Q55836828"
   },
   "$Roest": {
@@ -8988,7 +10836,10 @@
         "Vice-console del Regno dei Paesi Bassi a Malta",
         "1816-09-25/1829-08-17"
       ],
-      ["Console del Regno dei Paesi Bassi a Malta", "1829-08-17/"]
+      [
+        "Console del Regno dei Paesi Bassi a Malta",
+        "1829-08-17/"
+      ]
     ],
     "images": [],
     "name": "John Clunes",
@@ -9000,7 +10851,12 @@
     ],
     "sources_other": [],
     "surname": "Ross",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$RossiF": {
@@ -9008,7 +10864,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi a Cagliari", null]],
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi a Cagliari",
+        null
+      ]
+    ],
     "images": [],
     "name": "Francesco",
     "person_type": 1,
@@ -9019,7 +10880,12 @@
     ],
     "sources_other": [],
     "surname": "Rossi",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$RossiP": {
@@ -9028,7 +10894,10 @@
     "date_of_birth": "1787-07-03",
     "date_of_death": "1848-11-15",
     "functions": [
-      ["Ambasciatore del Regno di Francia presso la Santa Sede", "1846/1846"]
+      [
+        "Ambasciatore del Regno di Francia presso la Santa Sede",
+        "1846/1846"
+      ]
     ],
     "images": [],
     "name": "Pellegrino",
@@ -9042,8 +10911,14 @@
     "sources_other": [],
     "surname": "Rossi",
     "titles": [
-      ["conte", null],
-      ["Pari de Francia", "1839-11-07/"]
+      [
+        "conte",
+        null
+      ],
+      [
+        "Pari de Francia",
+        "1839-11-07/"
+      ]
     ],
     "wikidata:id": "Q673256"
   },
@@ -9053,8 +10928,14 @@
     "date_of_birth": "1803",
     "date_of_death": "1857",
     "functions": [
-      ["Delegato apostolico ad Ancona", "/1846-12-21"],
-      ["Delegato apostolico a Civitavecchia", "1842-01-24/"]
+      [
+        "Delegato apostolico ad Ancona",
+        "/1846-12-21"
+      ],
+      [
+        "Delegato apostolico a Civitavecchia",
+        "1842-01-24/"
+      ]
     ],
     "images": [],
     "name": "Stefano",
@@ -9068,7 +10949,12 @@
     ],
     "sources_other": [],
     "surname": "Rossi",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Rossum": {
@@ -9077,9 +10963,14 @@
     "date_of_birth": "1809-08-21",
     "date_of_death": "1873-04-10",
     "functions": [
-      ["Segretario e amante della principessa Marianne di Oranje-Nassau", null]
+      [
+        "Segretario e amante della principessa Marianne di Oranje-Nassau",
+        null
+      ]
     ],
-    "images": ["https://rkd.nl/explore/images/144649"],
+    "images": [
+      "https://rkd.nl/explore/images/144649"
+    ],
     "name": "Johannes",
     "person_type": 0,
     "place_of_birth": "L'Aia",
@@ -9099,8 +10990,14 @@
     "date_of_birth": "1791-07-31",
     "date_of_death": "1862-12-02",
     "functions": [
-      ["Generale", null],
-      ["Governatore francese di Roma", "1849-08-07/1849-11-19"]
+      [
+        "Generale",
+        null
+      ],
+      [
+        "Governatore francese di Roma",
+        "1849-08-07/1849-11-19"
+      ]
     ],
     "images": [],
     "name": "Louis",
@@ -9120,7 +11017,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-console del Regno dei Paesi Bassi a Marsiglia", null]],
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a Marsiglia",
+        null
+      ]
+    ],
     "images": [],
     "name": "",
     "person_type": 1,
@@ -9138,7 +11040,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Sotto ufficiale al 1° reggimento estero dell'esercito pontificio", null]
+      [
+        "Sotto ufficiale al 1° reggimento estero dell'esercito pontificio",
+        null
+      ]
     ],
     "images": [],
     "name": "Guillaume",
@@ -9157,7 +11062,10 @@
     "date_of_birth": "1774-07-11",
     "date_of_death": "1852-04-18",
     "functions": [
-      ["Ministro di Stato del Regno delle Due Sicilie", "1821/"],
+      [
+        "Ministro di Stato del Regno delle Due Sicilie",
+        "1821/"
+      ],
       [
         "Ministro degli Affari Esteri del Regno delle Due Sicilie",
         "1840-03/1848"
@@ -9174,8 +11082,14 @@
     "sources_other": [],
     "surname": "Ruffo di Calabria",
     "titles": [
-      ["principe di Scilla", null],
-      ["duca di Santa Cristina", "1829-12/"]
+      [
+        "principe di Scilla",
+        null
+      ],
+      [
+        "duca di Santa Cristina",
+        "1829-12/"
+      ]
     ],
     "wikidata:id": null
   },
@@ -9184,7 +11098,12 @@
     "comment_daniel": "",
     "date_of_birth": "1791-07-02",
     "date_of_death": "1865-11-12",
-    "functions": [["Ambasciatore del Regno delle Due Sicilie a Londra", null]],
+    "functions": [
+      [
+        "Ambasciatore del Regno delle Due Sicilie a Londra",
+        null
+      ]
+    ],
     "images": [],
     "name": "Paolo",
     "person_type": 1,
@@ -9195,7 +11114,12 @@
     ],
     "sources_other": [],
     "surname": "Ruffo",
-    "titles": [["principe di Castelcicala", null]],
+    "titles": [
+      [
+        "principe di Castelcicala",
+        null
+      ]
+    ],
     "wikidata:id": "Q80375043"
   },
   "$Rufini": {
@@ -9203,7 +11127,12 @@
     "comment_daniel": "",
     "date_of_birth": "1805",
     "date_of_death": "1852-11-08",
-    "functions": [["Direttore generale di polizia di Roma", "1850-11-07/"]],
+    "functions": [
+      [
+        "Direttore generale di polizia di Roma",
+        "1850-11-07/"
+      ]
+    ],
     "images": [],
     "name": "Ildebrando",
     "person_type": 1,
@@ -9214,7 +11143,12 @@
     ],
     "sources_other": [],
     "surname": "Rufini",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Ruggero": {
@@ -9223,7 +11157,10 @@
     "date_of_birth": "1816-02-12",
     "date_of_death": "1896-10-09",
     "functions": [
-      ["Prelato ponente e giudice del tribunale della Sacra Consulta", null]
+      [
+        "Prelato ponente e giudice del tribunale della Sacra Consulta",
+        null
+      ]
     ],
     "images": [],
     "name": "Gaetano",
@@ -9268,9 +11205,18 @@
     "date_of_birth": "1792-08-18",
     "date_of_death": "1878-05-28",
     "functions": [
-      ["Segretario della Guerra e Colonie del Regno Unito", "1839/1841"],
-      ["Presidente del Consiglio dei Ministri del Regno Unito", "1846/1852"],
-      ["Presidente del Consiglio dei Ministri del Regno Unito", "1865/1866"]
+      [
+        "Segretario della Guerra e Colonie del Regno Unito",
+        "1839/1841"
+      ],
+      [
+        "Presidente del Consiglio dei Ministri del Regno Unito",
+        "1846/1852"
+      ],
+      [
+        "Presidente del Consiglio dei Ministri del Regno Unito",
+        "1865/1866"
+      ]
     ],
     "images": [
       "https://www.portrait.gov.au/portraits/2014.2/lord-john-russell",
@@ -9288,7 +11234,12 @@
     ],
     "sources_other": [],
     "surname": "Russell",
-    "titles": [["1° Earl Russell", "1861/"]],
+    "titles": [
+      [
+        "1° Earl Russell",
+        "1861/"
+      ]
+    ],
     "wikidata:id": "Q157259"
   },
   "$Sacconi": {
@@ -9309,7 +11260,10 @@
         "Prefetto dell'Economia della Congregazione di Propaganda Fide",
         "1863-08-29/"
       ],
-      ["Prefetto del Supremo Tribunale della Segnatura Apostolica", "1867/"]
+      [
+        "Prefetto del Supremo Tribunale della Segnatura Apostolica",
+        "1867/"
+      ]
     ],
     "images": [],
     "name": "Carlo",
@@ -9321,7 +11275,12 @@
     ],
     "sources_other": [],
     "surname": "Sacconi",
-    "titles": [["card.", "1861-09-27/"]],
+    "titles": [
+      [
+        "card.",
+        "1861-09-27/"
+      ]
+    ],
     "wikidata:id": "Q948349"
   },
   "$Sagretti": {
@@ -9334,7 +11293,10 @@
         "Prelato ponente e giudice del tribunale della Sacra Consulta",
         "/1843-08-05"
       ],
-      ["Presidente del Tribunale della Sacra Consulta", "1854-11-16/"]
+      [
+        "Presidente del Tribunale della Sacra Consulta",
+        "1854-11-16/"
+      ]
     ],
     "images": [],
     "name": "Salvo Maria",
@@ -9419,7 +11381,12 @@
     ],
     "sources_other": [],
     "surname": "di Sambuy",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$SanGiuliano": {
@@ -9441,7 +11408,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "di San Giuliano",
-    "titles": [["marchese", null]],
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Santucci": {
@@ -9482,8 +11454,14 @@
     "sources_other": [],
     "surname": "Santucci",
     "titles": [
-      ["vescovo", "/1853-03-07"],
-      ["card.", "1853-03-07/"]
+      [
+        "vescovo",
+        "/1853-03-07"
+      ],
+      [
+        "card.",
+        "1853-03-07/"
+      ]
     ],
     "wikidata:id": "Q1080769"
   },
@@ -9515,7 +11493,12 @@
     ],
     "sources_other": [],
     "surname": "de la Sarraz",
-    "titles": [["tenente generale {retd}", null]],
+    "titles": [
+      [
+        "tenente generale {retd}",
+        null
+      ]
+    ],
     "wikidata:id": "Q4307770"
   },
   "$Savelli": {
@@ -9524,7 +11507,10 @@
     "date_of_birth": "1792-09-15",
     "date_of_death": "1864-08-30",
     "functions": [
-      ["Prolegato apostolico", null],
+      [
+        "Prolegato apostolico",
+        null
+      ],
       [
         "Pro-governatore di Roma e Direttore Generale di Polizia di Roma",
         "1847/"
@@ -9546,8 +11532,14 @@
     "sources_other": [],
     "surname": "Savelli",
     "titles": [
-      ["vescovo", "/1853-03-07"],
-      ["card.", "1853-03-07/"]
+      [
+        "vescovo",
+        "/1853-03-07"
+      ],
+      [
+        "card.",
+        "1853-03-07/"
+      ]
     ],
     "wikidata:id": "Q3034768"
   },
@@ -9556,7 +11548,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Capitano aiutante dei Dragoni Pontifici", null]],
+    "functions": [
+      [
+        "Capitano aiutante dei Dragoni Pontifici",
+        null
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 1,
@@ -9576,7 +11573,12 @@
     "comment_daniel": "",
     "date_of_birth": "1798-10-02",
     "date_of_death": "1849-07-28",
-    "functions": [["Re di Sardegna", "1831-04-27/1849-03-23"]],
+    "functions": [
+      [
+        "Re di Sardegna",
+        "1831-04-27/1849-03-23"
+      ]
+    ],
     "images": [],
     "name": "Carlo Alberto",
     "person_type": 1,
@@ -9595,7 +11597,12 @@
     "comment_daniel": "",
     "date_of_birth": "1751-05-24",
     "date_of_death": "1819-10-06",
-    "functions": [["Re di Sardegna", "1796-10-16/1802-06-04"]],
+    "functions": [
+      [
+        "Re di Sardegna",
+        "1796-10-16/1802-06-04"
+      ]
+    ],
     "images": [],
     "name": "Carlo Emanuele IV",
     "person_type": 1,
@@ -9614,7 +11621,12 @@
     "comment_daniel": "",
     "date_of_birth": "1765-04-06",
     "date_of_death": "1831-04-27",
-    "functions": [["Re di Sardegna", "1821-03-13/1831-04-27"]],
+    "functions": [
+      [
+        "Re di Sardegna",
+        "1821-03-13/1831-04-27"
+      ]
+    ],
     "images": [],
     "name": "Carlo Felice",
     "person_type": 1,
@@ -9634,8 +11646,14 @@
     "date_of_birth": "1820-03-14",
     "date_of_death": "1878-01-09",
     "functions": [
-      ["Re di Sardegna", "1849-03-23/1861-03-17"],
-      ["Re d'Italia", "1861-03-17/1878-01-09"]
+      [
+        "Re di Sardegna",
+        "1849-03-23/1861-03-17"
+      ],
+      [
+        "Re d'Italia",
+        "1861-03-17/1878-01-09"
+      ]
     ],
     "images": [],
     "name": "Vittorio Emanuele II",
@@ -9656,7 +11674,10 @@
     "date_of_birth": "1788-03-06",
     "date_of_death": "1874-01-06",
     "functions": [
-      ["Ministro di Stato del principe di Nassau", "1852-02-07/1866-06-30"]
+      [
+        "Ministro di Stato del principe di Nassau",
+        "1852-02-07/1866-06-30"
+      ]
     ],
     "images": [],
     "name": "August Ludwig",
@@ -9676,7 +11697,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno di Sardegna a Lagos", null]],
+    "functions": [
+      [
+        "Console del Regno di Sardegna a Lagos",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giambattista",
     "person_type": 1,
@@ -9696,8 +11722,14 @@
     "date_of_birth": "1823-07-28",
     "date_of_death": "1897-07-31",
     "functions": [
-      ["Pastore a Livorno", "1850/1854"],
-      ["Professore di Teologia a l'Università di Berna", "1863/"]
+      [
+        "Pastore a Livorno",
+        "1850/1854"
+      ],
+      [
+        "Professore di Teologia a l'Università di Berna",
+        "1863/"
+      ]
     ],
     "images": [
       "https://commons.wikimedia.org/wiki/File:Albert_Schaffter_Bild.jpg"
@@ -9721,7 +11753,7 @@
     "date_of_death": "1863-10-04",
     "functions": [
       [
-        "Segretario di State del Regno dei Paesi Bassi",
+        "Segretario di Stato del Regno dei Paesi Bassi",
         "1835-11-04/1836-11-04"
       ],
       [
@@ -9746,7 +11778,12 @@
     ],
     "sources_other": [],
     "surname": "Schimmelpenninck",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q682310"
   },
   "$SchimmelpenninckOye": {
@@ -9784,7 +11821,12 @@
     ],
     "sources_other": [],
     "surname": "Schimmelpenninck van der Oye",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q682310"
   },
   "$Serafini": {
@@ -9810,8 +11852,14 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Delegato apostolico a Civitavecchia", null],
-      ["Comandante superiore della Piazza di Civitavecchia", "/1870-09-16"]
+      [
+        "Delegato apostolico a Civitavecchia",
+        null
+      ],
+      [
+        "Comandante superiore della Piazza di Civitavecchia",
+        "/1870-09-16"
+      ]
     ],
     "images": [],
     "name": "José",
@@ -9825,7 +11873,12 @@
     ],
     "sources_other": [],
     "surname": "Serra",
-    "titles": [["colonnello", null]],
+    "titles": [
+      [
+        "colonnello",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Simeoni": {
@@ -9882,12 +11935,18 @@
     "date_of_birth": "1815-04-29",
     "date_of_death": "1870-04-24",
     "functions": [
-      ["Botanista", null],
+      [
+        "Botanista",
+        null
+      ],
       [
         "Segretario delle classe di scienze fisiche e matematiche dell'Accademia delle Scienze di Torino",
         "1847/"
       ],
-      ["Professore di Storia Naturale dei principi Umberto e Amedeo", "1861/"]
+      [
+        "Professore di Storia Naturale dei principi Umberto e Amedeo",
+        "1861/"
+      ]
     ],
     "images": [
       "https://www.accademiadellescienze.it/accademia/soci/angelo-sismonda"
@@ -9901,7 +11960,12 @@
     ],
     "sources_other": [],
     "surname": "sismonda",
-    "titles": [["Cav.", "1848/"]],
+    "titles": [
+      [
+        "Cav.",
+        "1848/"
+      ]
+    ],
     "wikidata:id": "Q21608993"
   },
   "$Sivori": {
@@ -9915,12 +11979,20 @@
     "person_type": 1,
     "place_of_birth": "Palermo",
     "place_of_death": "Palermo",
-    "sources": ["Dizionario bibliografico dell’Armata Sarda seimila biografie"],
+    "sources": [
+      "Dizionario bibliografico dell’Armata Sarda seimila biografie"
+    ],
     "sources_other": [],
     "surname": "Sivori",
     "titles": [
-      ["capitano di vascello", "1825-02-19/1826-01-29"],
-      ["contrammiraglio", "1826-01-29/"]
+      [
+        "capitano di vascello",
+        "1825-02-19/1826-01-29"
+      ],
+      [
+        "contrammiraglio",
+        "1826-01-29/"
+      ]
     ],
     "wikidata:id": null
   },
@@ -9980,7 +12052,12 @@
     ],
     "sources_other": [],
     "surname": "Verstolk van Soelen",
-    "titles": [["barone", "1823-12-30/"]],
+    "titles": [
+      [
+        "barone",
+        "1823-12-30/"
+      ]
+    ],
     "wikidata:id": "Q739204"
   },
   "$Soglia": {
@@ -9989,7 +12066,10 @@
     "date_of_birth": "1779-10-11",
     "date_of_death": "1856-08-12",
     "functions": [
-      ["Cardinale Segretario di Stato", "1848-06-04/1848-11-29"],
+      [
+        "Cardinale Segretario di Stato",
+        "1848-06-04/1848-11-29"
+      ],
       [
         "Presidente del Consiglio dei Ministri dello Stato Pontificio",
         "1848-08-06/1848-11-15"
@@ -10005,7 +12085,12 @@
     ],
     "sources_other": [],
     "surname": "Soglia Ceroni",
-    "titles": [["card.", "1838-02-12/"]],
+    "titles": [
+      [
+        "card.",
+        "1838-02-12/"
+      ]
+    ],
     "wikidata:id": "Q769369"
   },
   "$Somaglia": {
@@ -10024,7 +12109,12 @@
     ],
     "sources_other": [],
     "surname": "della Somaglia",
-    "titles": [["card.", null]],
+    "titles": [
+      [
+        "card.",
+        null
+      ]
+    ],
     "wikidata:id": "Q614929"
   },
   "$Sonnaz": {
@@ -10032,7 +12122,12 @@
     "comment_daniel": "",
     "date_of_birth": "1816-11-26",
     "date_of_death": "1892-05-21",
-    "functions": [["Gran Maestro di Cerimonie del Re d'Italia", null]],
+    "functions": [
+      [
+        "Gran Maestro di Cerimonie del Re d'Italia",
+        null
+      ]
+    ],
     "images": [],
     "name": "Maurizio Luigi",
     "person_type": 1,
@@ -10044,7 +12139,12 @@
     ],
     "sources_other": [],
     "surname": "Gerbaix de Sonnaz",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q652001"
   },
   "$Sonsbeeck": {
@@ -10088,7 +12188,9 @@
     "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["La Civiltà Cattolica, Anno 15, 7 (Rome, 1864), 738"],
+    "sources": [
+      "La Civiltà Cattolica, Anno 15, 7 (Rome, 1864), 738"
+    ],
     "sources_other": [],
     "surname": "de Souza",
     "titles": [],
@@ -10100,7 +12202,10 @@
     "date_of_birth": "1777-10-10",
     "date_of_death": "1852-11-01",
     "functions": [
-      ["Governatore della Lombardia al Re di Sardegna", "1840/1848-03-17"]
+      [
+        "Governatore della Lombardia al Re di Sardegna",
+        "1840/1848-03-17"
+      ]
     ],
     "images": [],
     "name": "Johann Baptist",
@@ -10112,7 +12217,12 @@
     ],
     "sources_other": [],
     "surname": "Spaur",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q2655597"
   },
   "$SpaurK": {
@@ -10148,7 +12258,12 @@
     ],
     "sources_other": [],
     "surname": "von Spaur",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q1733687"
   },
   "$Speranza": {
@@ -10162,7 +12277,9 @@
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": ["Il Fanfulla, Anno 2, 10 (Rome, 1847), 37"],
+    "sources": [
+      "Il Fanfulla, Anno 2, 10 (Rome, 1847), 37"
+    ],
     "sources_other": [],
     "surname": "Speranza",
     "titles": [],
@@ -10189,7 +12306,12 @@
     ],
     "sources_other": [],
     "surname": "Spinelli Barile",
-    "titles": [["principe di Cariati", null]],
+    "titles": [
+      [
+        "principe di Cariati",
+        null
+      ]
+    ],
     "wikidata:id": "Q3759853"
   },
   "$SpinolaT": {
@@ -10202,7 +12324,10 @@
         "Membro della Camera dei Deputati del Regno di Sardegna",
         "1849-12-20/1857-10-25"
       ],
-      ["Senatore del Regno d'Italia", "1862-11-16/1879-10-24"]
+      [
+        "Senatore del Regno d'Italia",
+        "1862-11-16/1879-10-24"
+      ]
     ],
     "images": [],
     "name": "Tommaso",
@@ -10222,7 +12347,12 @@
     "comment_daniel": "",
     "date_of_birth": "1791-06-29",
     "date_of_death": "1858-01-21",
-    "functions": [["Legato apostolico a Bologna", "1841-09-15/1844-04-29"]],
+    "functions": [
+      [
+        "Legato apostolico a Bologna",
+        "1841-09-15/1844-04-29"
+      ]
+    ],
     "images": [],
     "name": "Ugo Pietro",
     "person_type": 1,
@@ -10233,7 +12363,12 @@
     ],
     "sources_other": [],
     "surname": "Spinola",
-    "titles": [["card.", "1831-09-30/"]],
+    "titles": [
+      [
+        "card.",
+        "1831-09-30/"
+      ]
+    ],
     "wikidata:id": "Q2256477"
   },
   "$Steen": {
@@ -10259,7 +12394,12 @@
     ],
     "sources_other": [],
     "surname": "van de Steen de Jehay",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q969057"
   },
   "$Stembror": {
@@ -10268,7 +12408,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno dei Paesi Bassi a Barcellona", "1814-08-03/"]
+      [
+        "Console del Regno dei Paesi Bassi a Barcellona",
+        "1814-08-03/"
+      ]
     ],
     "images": [],
     "name": "Frederik Hugo",
@@ -10308,8 +12451,14 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Vice-direttore generale delle dogane pontificie", null],
-      ["Direttore generale delle dogane dello Stato Pontificio", null]
+      [
+        "Vice-direttore generale delle dogane pontificie",
+        null
+      ],
+      [
+        "Direttore generale delle dogane dello Stato Pontificio",
+        null
+      ]
     ],
     "images": [],
     "name": "Stanislao",
@@ -10329,8 +12478,15 @@
     "comment_daniel": "",
     "date_of_birth": "1825-10-30",
     "date_of_death": "1911-05-28",
-    "functions": [["Scultore", null]],
-    "images": ["https://rkd.nl/explore/images/292313"],
+    "functions": [
+      [
+        "Scultore",
+        null
+      ]
+    ],
+    "images": [
+      "https://rkd.nl/explore/images/292313"
+    ],
     "name": "Johan Hendrik",
     "person_type": 1,
     "place_of_birth": "Haarlem",
@@ -10355,7 +12511,9 @@
         "1862-02-01/1862-03-13"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/156641"],
+    "images": [
+      "https://rkd.nl/explore/images/156641"
+    ],
     "name": "Anthony Jan Lucas",
     "person_type": 1,
     "place_of_birth": "L'Aia",
@@ -10366,7 +12524,12 @@
     ],
     "sources_other": [],
     "surname": "Stratenus",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q2135489"
   },
   "$Strens": {
@@ -10388,7 +12551,9 @@
         "1861-11-10/1862-01-31"
       ]
     ],
-    "images": ["https://rkd.nl/explore/images/133061"],
+    "images": [
+      "https://rkd.nl/explore/images/133061"
+    ],
     "name": "Martin Pascal Hubert",
     "person_type": 1,
     "place_of_birth": "Roermond",
@@ -10423,7 +12588,12 @@
     ],
     "sources_other": [],
     "surname": "Sturbinetti",
-    "titles": [["avv.", null]],
+    "titles": [
+      [
+        "avv.",
+        null
+      ]
+    ],
     "wikidata:id": "Q95729926"
   },
   "$Targioni": {
@@ -10432,7 +12602,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Console del Regno delle Due Sicilie a Costantinopoli", null],
+      [
+        "Console del Regno delle Due Sicilie a Costantinopoli",
+        null
+      ],
       [
         "Direttore del Ministero degli Affari Esteri del Regno delle Due Sicilie",
         null
@@ -10449,7 +12622,12 @@
     ],
     "sources_other": [],
     "surname": "Targioni",
-    "titles": [["card.", "1868-03-13/"]],
+    "titles": [
+      [
+        "card.",
+        "1868-03-13/"
+      ]
+    ],
     "wikidata:id": null
   },
   "$Tauffkirchen": {
@@ -10473,7 +12651,12 @@
     ],
     "sources_other": [],
     "surname": "von Tauffkirchen-Guttenburg",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q1041439"
   },
   "$Thile": {
@@ -10539,7 +12722,12 @@
     "comment_daniel": "",
     "date_of_birth": "1802-10-09",
     "date_of_death": "1874-05-01",
-    "functions": [["Scrittore", null]],
+    "functions": [
+      [
+        "Scrittore",
+        null
+      ]
+    ],
     "images": [],
     "name": "Niccolò",
     "person_type": 1,
@@ -10574,7 +12762,12 @@
     ],
     "sources_other": [],
     "surname": "de Tornaco",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q558177"
   },
   "$Torti": {
@@ -10582,7 +12775,12 @@
     "comment_daniel": "",
     "date_of_birth": "1774-06-24",
     "date_of_death": "1852-02-15",
-    "functions": [["Poeta", null]],
+    "functions": [
+      [
+        "Poeta",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giovanni",
     "person_type": 1,
@@ -10601,7 +12799,12 @@
     "comment_daniel": "",
     "date_of_birth": "1797-10-03",
     "date_of_death": "1870-01-29",
-    "functions": [["Granduca di Toscana", "1824-06-18/1859-07-21"]],
+    "functions": [
+      [
+        "Granduca di Toscana",
+        "1824-06-18/1859-07-21"
+      ]
+    ],
     "images": [],
     "name": "Leopold II",
     "person_type": 1,
@@ -10612,7 +12815,12 @@
     ],
     "sources_other": [],
     "surname": "di Toscana",
-    "titles": [["arciduca d’Austria", null]],
+    "titles": [
+      [
+        "arciduca d’Austria",
+        null
+      ]
+    ],
     "wikidata:id": "Q313169"
   },
   "$Tosti": {
@@ -10621,9 +12829,18 @@
     "date_of_birth": "1776-10-04",
     "date_of_death": "1866-03-20",
     "functions": [
-      ["Pro-tesoriere generale della Santa Sede", "1834-01-20/1834-06-25"],
-      ["Tesoriere generale della Santa Sede", "1834-06-25/1839-02-21"],
-      ["Pro-tesoriere generale della Santa Sede", "1839-02-21/1845-04-21"]
+      [
+        "Pro-tesoriere generale della Santa Sede",
+        "1834-01-20/1834-06-25"
+      ],
+      [
+        "Tesoriere generale della Santa Sede",
+        "1834-06-25/1839-02-21"
+      ],
+      [
+        "Pro-tesoriere generale della Santa Sede",
+        "1839-02-21/1845-04-21"
+      ]
     ],
     "images": [],
     "name": "Antonio",
@@ -10636,7 +12853,12 @@
     ],
     "sources_other": [],
     "surname": "Tosti",
-    "titles": [["card.", "1838-02-12/"]],
+    "titles": [
+      [
+        "card.",
+        "1838-02-12/"
+      ]
+    ],
     "wikidata:id": "Q1230369"
   },
   "$Travi": {
@@ -10644,7 +12866,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Spedizioniero", null]],
+    "functions": [
+      [
+        "Spedizioniero",
+        null
+      ]
+    ],
     "images": [],
     "name": "Filippo",
     "person_type": 1,
@@ -10680,7 +12907,12 @@
     "comment_daniel": "Grote kans dat dit ook Willem René Tuyll van Serooskerken {1813/1878} is, maar zonder extra informatie vind ik deze niet",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Ciambellano del Re dei Paesi Bassi", null]],
+    "functions": [
+      [
+        "Ciambellano del Re dei Paesi Bassi",
+        null
+      ]
+    ],
     "images": [],
     "name": "",
     "person_type": 5,
@@ -10689,7 +12921,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Tuyll van Serooskerken",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$TuyllGC": {
@@ -10698,7 +12935,10 @@
     "date_of_birth": "1801-08-22",
     "date_of_death": "1860-02-17",
     "functions": [
-      ["Grande ufficiale della Casa Reale dei Paesi Bassi", "/1860-02-17"]
+      [
+        "Grande ufficiale della Casa Reale dei Paesi Bassi",
+        "/1860-02-17"
+      ]
     ],
     "images": [
       "https://rkd.nl/nl/explore/images/147781",
@@ -10715,7 +12955,12 @@
     ],
     "sources_other": [],
     "surname": "Tuyll van Serooskerken van Vleuten",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$TuyllGMK": {
@@ -10748,7 +12993,12 @@
     ],
     "sources_other": [],
     "surname": "Tuyll van Serooskerken",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q76244474"
   },
   "$Ugolini": {
@@ -10756,7 +13006,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Avvocato", null]],
+    "functions": [
+      [
+        "Avvocato",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
@@ -10765,7 +13020,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Ugolini",
-    "titles": [["avv.", null]],
+    "titles": [
+      [
+        "avv.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Usedom": {
@@ -10793,7 +13053,12 @@
     ],
     "sources_other": [],
     "surname": "von Usedom",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q1453756"
   },
   "$Valdivieso": {
@@ -10818,7 +13083,12 @@
     ],
     "sources_other": [],
     "surname": "de Valdivieso y Vidal de Lorca",
-    "titles": [["conte de San Pedro del Álamo", null]],
+    "titles": [
+      [
+        "conte de San Pedro del Álamo",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Vallacca": {
@@ -10867,7 +13137,12 @@
     ],
     "sources_other": [],
     "surname": "della Valle",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$VanDerBosch": {
@@ -10897,7 +13172,12 @@
     ],
     "sources_other": [],
     "surname": "van den Bosch",
-    "titles": [["luitenant-ter-zee", "1808/"]],
+    "titles": [
+      [
+        "luitenant-ter-zee",
+        "1808/"
+      ]
+    ],
     "wikidata:id": "Q2379045"
   },
   "$Vannicelli": {
@@ -10905,7 +13185,12 @@
     "comment_daniel": "",
     "date_of_birth": "1801-04-16",
     "date_of_death": "1877-04-21",
-    "functions": [["Legato apostolico a Bologna", "1844-04-30/1846-12-21"]],
+    "functions": [
+      [
+        "Legato apostolico a Bologna",
+        "1844-04-30/1846-12-21"
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 1,
@@ -10917,7 +13202,12 @@
     ],
     "sources_other": [],
     "surname": "Vannicelli Casoni",
-    "titles": [["card.", "1839-12-23/"]],
+    "titles": [
+      [
+        "card.",
+        "1839-12-23/"
+      ]
+    ],
     "wikidata:id": "Q2255237"
   },
   "$Vasconcellos": {
@@ -10958,7 +13248,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "Vassen",
-    "titles": [["suor", null]],
+    "titles": [
+      [
+        "suor",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$VassenG": {
@@ -10966,7 +13261,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Canonico", null]],
+    "functions": [
+      [
+        "Canonico",
+        null
+      ]
+    ],
     "images": [],
     "name": "Giovanni Uberto",
     "person_type": 1,
@@ -10983,7 +13283,12 @@
     "comment_daniel": "",
     "date_of_birth": "1812",
     "date_of_death": "1880-02-27",
-    "functions": [["Internunzio all'Aia", "1855-11-12/1863-03-16"]],
+    "functions": [
+      [
+        "Internunzio all'Aia",
+        "1855-11-12/1863-03-16"
+      ]
+    ],
     "images": [],
     "name": "Settimio Maria",
     "person_type": 0,
@@ -10994,7 +13299,12 @@
     ],
     "sources_other": [],
     "surname": "Vecchiotti",
-    "titles": [["vescovo", null]],
+    "titles": [
+      [
+        "vescovo",
+        null
+      ]
+    ],
     "wikidata:id": "Q69441636"
   },
   "$Verbecke": {
@@ -11002,7 +13312,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi a Messina", null]],
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi a Messina",
+        null
+      ]
+    ],
     "images": [],
     "name": "J.F.",
     "person_type": 1,
@@ -11060,7 +13375,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Vice-console del Regno dei Paesi Bassi a Nizza", null]],
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a Nizza",
+        null
+      ]
+    ],
     "images": [],
     "name": "Francesco",
     "person_type": 1,
@@ -11093,7 +13413,12 @@
     ],
     "sources_other": [],
     "surname": "de Vignet",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Visconti": {
@@ -11163,7 +13488,12 @@
     ],
     "sources_other": [],
     "surname": "Vitrioli",
-    "titles": [["Cav.", null]],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": "Q3707260"
   },
   "$Vivent": {
@@ -11189,7 +13519,10 @@
     "date_of_birth": "1801-12-17",
     "date_of_death": "1873-10-07",
     "functions": [
-      ["Giudice presso la Corte suprema delle Indie Orientali Olandesi", null]
+      [
+        "Giudice presso la Corte suprema delle Indie Orientali Olandesi",
+        null
+      ]
     ],
     "images": [],
     "name": "",
@@ -11228,8 +13561,14 @@
     "sources_other": [],
     "surname": "van Vredenburch",
     "titles": [
-      ["jonkheer", "1821-09-01/1847-08-21"],
-      ["barone", "1847-08-22/"]
+      [
+        "jonkheer",
+        "1821-09-01/1847-08-21"
+      ],
+      [
+        "barone",
+        "1847-08-22/"
+      ]
     ],
     "wikidata:id": "Q1869443"
   },
@@ -11264,7 +13603,12 @@
     "comment_daniel": "",
     "date_of_birth": "1782-06-20",
     "date_of_death": "1853-08-07",
-    "functions": [["Tenente maresciallo dell'esercito austriaco", null]],
+    "functions": [
+      [
+        "Tenente maresciallo dell'esercito austriaco",
+        null
+      ]
+    ],
     "images": [],
     "name": "Franz Ludwig",
     "person_type": 1,
@@ -11275,7 +13619,12 @@
     ],
     "sources_other": [],
     "surname": "von Welden",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q78789"
   },
   "$Welsersheim": {
@@ -11283,7 +13632,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console generale dell'Impero d'Austria ad Ancona", null]],
+    "functions": [
+      [
+        "Console generale dell'Impero d'Austria ad Ancona",
+        null
+      ]
+    ],
     "images": [],
     "name": "Gottfried",
     "person_type": 1,
@@ -11294,7 +13648,12 @@
     ],
     "sources_other": [],
     "surname": "Welserheim",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Wilde": {
@@ -11303,8 +13662,14 @@
     "date_of_birth": "1820",
     "date_of_death": "1904",
     "functions": [
-      ["Gesuita", null],
-      ["Cappellano", null]
+      [
+        "Gesuita",
+        null
+      ],
+      [
+        "Cappellano",
+        null
+      ]
     ],
     "images": [],
     "name": "Leo",
@@ -11318,7 +13683,12 @@
     ],
     "sources_other": [],
     "surname": "Wilde",
-    "titles": [["padre", null]],
+    "titles": [
+      [
+        "padre",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Willmar": {
@@ -11368,7 +13738,12 @@
     ],
     "sources_other": [],
     "surname": "Wiseman",
-    "titles": [["card.", "1850-09-29/"]],
+    "titles": [
+      [
+        "card.",
+        "1850-09-29/"
+      ]
+    ],
     "wikidata:id": "Q672816"
   },
   "$Witterhaeven": {
@@ -11376,7 +13751,12 @@
     "comment_daniel": "",
     "date_of_birth": "1765-06-22",
     "date_of_death": "1843-12-19",
-    "functions": [["Medico", null]],
+    "functions": [
+      [
+        "Medico",
+        null
+      ]
+    ],
     "images": [],
     "name": "Jean Baptiste",
     "person_type": 1,
@@ -11451,7 +13831,12 @@
     ],
     "sources_other": [],
     "surname": "Zacchia Rondinini",
-    "titles": [["card.", "1844-07-22/"]],
+    "titles": [
+      [
+        "card.",
+        "1844-07-22/"
+      ]
+    ],
     "wikidata:id": "Q742403"
   },
   "$Zedlitz": {
@@ -11460,7 +13845,10 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Ciambellano del granduca ereditario di Sassonia Weimar Eisenach", null]
+      [
+        "Ciambellano del granduca ereditario di Sassonia Weimar Eisenach",
+        null
+      ]
     ],
     "images": [],
     "name": "",
@@ -11470,7 +13858,12 @@
     "sources": [],
     "sources_other": [],
     "surname": "von Zedlitz",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Zermann": {
@@ -11496,7 +13889,10 @@
     "date_of_birth": "1777-03-10",
     "date_of_death": "1863-12-19",
     "functions": [
-      ["Ministro della Guerra dello Stato Pontificio", "1848-11/1848-12"]
+      [
+        "Ministro della Guerra dello Stato Pontificio",
+        "1848-11/1848-12"
+      ]
     ],
     "images": [],
     "name": "Carlo",
@@ -11508,7 +13904,12 @@
     ],
     "sources_other": [],
     "surname": "Zucchi",
-    "titles": [["tenente generale", null]],
+    "titles": [
+      [
+        "tenente generale",
+        null
+      ]
+    ],
     "wikidata:id": "Q2939273"
   },
   "$ZuylenJPP": {
@@ -11542,7 +13943,12 @@
     ],
     "sources_other": [],
     "surname": "van Zuylen van Nijevelt",
-    "titles": [["barone", null]],
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
     "wikidata:id": "Q736610"
   },
   "$ZuylenJPh": {
@@ -11573,7 +13979,12 @@
     ],
     "sources_other": [],
     "surname": "van Zuylen van Nijevelt",
-    "titles": [["conte", null]],
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": "Q291221"
   },
   "$Zweerts": {
@@ -11581,7 +13992,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Procuratore", null]],
+    "functions": [
+      [
+        "Procuratore",
+        null
+      ]
+    ],
     "images": [],
     "name": "J.B.",
     "person_type": 1,
@@ -11605,7 +14021,10 @@
         "Incaricato d'affari ad interim della Santa Sede al Regno dei Paesi Bassi",
         "1847-09-24/1848-07-03"
       ],
-      ["Arcivescovo di Utrecht", "1853-04-21/1868-02-04"]
+      [
+        "Arcivescovo di Utrecht",
+        "1853-04-21/1868-02-04"
+      ]
     ],
     "images": [
       "https://rkd.nl/explore/images/165461",

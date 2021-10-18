@@ -285,7 +285,7 @@
     "nl_NL": "Notitie"
   },
   "Articolo estratto da L'Indépendance Belge$": {
-    "en_GB": "Extract extracted from L'Indépendance Belge",
+    "en_GB": "Article extracted from L'Indépendance Belge",
     "nl_NL": "Artikel geëxtraheerd uit L'Indépendance Belge"
   },
   "Atti del Concistoro Segreto tenuto dalla Santità di Nostro Signore papa Gregorio XVI felicemente regnante nel Palazzo Apostolico Quirinale il dì 22 luglio 1844$": {
@@ -2777,8 +2777,8 @@
     "nl_NL": "Over de terugkeer van Pius IX (gedrukte melding)"
   },
   "Sunto di articoli apparsi sulla stampa": {
-    "en_GB": "Summary of articles that appeared in print",
-    "nl_NL": "Samenvatting van artikelen die geprint zijn"
+    "en_GB": "Summary of articles that appeared in the press",
+    "nl_NL": "Samenvatting van artikelen die in de krant verschenen zijn"
   },
   "Supplemento a “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Supplement to “\\1” (\\2 Feb. \\3)",
@@ -3121,8 +3121,8 @@
     "nl_NL": "Transcriptie van een brief door \\2"
   },
   "Trascrizione di norme sulle pensioni$": {
-    "en_GB": "Transcription of the norm on pension",
-    "nl_NL": "Transcriptie over de norm voor pensioen"
+    "en_GB": "Transcription of the norms on pension",
+    "nl_NL": "Transcriptie over de pensioennormen"
   },
   "Trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed transcription of an edict of \\2",
