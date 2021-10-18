@@ -168,9 +168,9 @@
     "en_GB": "Affair of Mgr. Grooff Apostolic Vicar at Batavia",
     "nl_NL": "Affaire Mgr. Grooff Apostolisch Vicaris te Batavia"
   },
-  "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg \\(Affare relativa all'amministrazione spirituale del Granducato di Lussemburgo\\)$": {
-    "en_GB": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affair relating to spiritual administration of the Grand Duchy of Luxembourg)",
-    "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affaire aangaande het spirituele bestuur van het Groothertogdom van Luxemburg)"
+  "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg \\(Affare relativa all'amministrazione religiosa del Granducato di Lussemburgo\\)$": {
+    "en_GB": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affair relating to the religious administration of the Grand Duchy of Luxembourg)",
+    "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affaire aangaande het religieuze bestuur van het Groothertogdom van Luxemburg)"
   },
   "Allegato a stampa$": {
     "en_GB": "Printed attachment",
@@ -941,8 +941,8 @@
     "nl_NL": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions"
   },
   "Extrait de dépêche - N. (\\d+) \\(Estratto di una spedizione - N. (\\d+)\\)$": {
-    "en_GB": "Extrait de dépêche - N. \\1 (Extract from a dispatches - N. \\2)",
-    "nl_NL": "Extrait de dépêches - N. \\1 (Uittreksel uit een verzending -N. \\2)"
+    "en_GB": "Extrait de dépêche - N. \\1 (Extract from a dispatch - N. \\2)",
+    "nl_NL": "Extrait de dépêche - N. \\1 (Uittreksel uit een verzending -N. \\2)"
   },
   "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816$": {
     "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
@@ -1193,8 +1193,8 @@
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "Foglio a stampa “(.+)” \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d) - Estratto dall' “(.+)”, N. (\\d+)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract from \\3, N. \\4)",
-    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract uit \\3, N. \\4)"
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract from “\\3”, N. \\4)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract uit “\\3”, N. \\4)"
   },
   "Foglio a stampa “(.+)” circa il perdono delle pene da parte della Santa Sede \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” concerning the pardon of penalisation by the Holy See (Rome, \\2 Sep. \\3)",
