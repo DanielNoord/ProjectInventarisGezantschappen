@@ -2,8 +2,12 @@
 
 import json
 
-from database_searches import (convert_wikidata_to_isni, search_isni_api,
-                               search_wikidata, unspecified_wikidate)
+from database_searches import (
+    convert_wikidata_to_isni,
+    search_isni_api,
+    search_wikidata,
+    unspecified_wikidate,
+)
 
 
 def do_search_wikidata(filename: str) -> None:
