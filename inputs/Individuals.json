@@ -4295,6 +4295,29 @@
     "titles": [],
     "wikidata:id": "Q2745527"
   },
+  "$Giannuzzi": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "1871-11-22",
+    "functions": [
+      ["Presidente della Commissione di Revisione e Grazia", null],
+      ["Prelato Domestico del Papa", "1829/"],
+      ["Uditore del Supremo Tribunale della Segnatura Apostolica", "1839/1843"]
+    ],
+    "images": [],
+    "name": "Francesco Maria",
+    "person_type": 1,
+    "place_of_birth": "Anagni",
+    "place_of_death": "Roma",
+    "sources": [
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l’âge de la Restauration (1814-1846) (Rome, 2002), 289"
+    ],
+    "sources_other": [],
+    "surname": "Giannuzzi",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Gioberti": {
     "ISNI:id": "0000 0001 0871 8269",
     "comment_daniel": "",
@@ -8053,8 +8076,16 @@
     "comment_daniel": "",
     "date_of_birth": "1798-11-04",
     "date_of_death": "1876-12-17",
-    "functions": [],
-    "images": [],
+    "functions": [
+      ["Prelato Domestico del Papa", "1817-10-31/"],
+      [
+        "Vicario generale di Sua Santità per la città di Roma e distretto",
+        "1841-12-22/1876-12-17"
+      ]
+    ],
+    "images": [
+      "http://www.araldicavaticana.com/1834%20PATRIZI%20NARO%20MONTORO%20COSTANTINO%20SMOM.jpg"
+    ],
     "name": "Constantino",
     "person_type": 1,
     "place_of_birth": "Siena",
@@ -11203,6 +11234,31 @@
     "surname": "van Vloten",
     "titles": [],
     "wikidata:id": "Q2991173"
+  },
+  "$Volpicelli": {
+    "ISNI:id": "0000 0000 7139 4175",
+    "comment_daniel": "",
+    "date_of_birth": "1804-01-08",
+    "date_of_death": "1879-04-14",
+    "functions": [
+      [
+        "Professore di Fisica Sperimentale e di Fisica Matematica all'Università di Roma",
+        null
+      ],
+      ["Segretario dell'Accademia Pontificia de' Nuovi Lincei", "1847/1879"]
+    ],
+    "images": [],
+    "name": "Paolo",
+    "person_type": 1,
+    "place_of_birth": "Roma",
+    "place_of_death": "Roma",
+    "sources": [
+      "'Archivio Paolo Volpicelli', a cura di Paola Cagiano de Azevedo (Accademia Nazionale dei Lincei: Roma, 2016), found on: https://www.lincei.it/sites/default/files/documenti/Archivio/Volpicelli_Inventario.pdf"
+    ],
+    "sources_other": [],
+    "surname": "Volpicelli",
+    "titles": [],
+    "wikidata:id": "Q55900615"
   },
   "$Vredenburch": {
     "ISNI:id": null,
