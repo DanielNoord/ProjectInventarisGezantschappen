@@ -1328,6 +1328,10 @@
     "en_GB": "President of the House of Representatives of the Kingdom of Sardinia",
     "nl_NL": "President van het Huis van Afgevaardigden van het Koninkrijk Sardinië"
   },
+  "Presidente della Commissione di Revisione e Grazia": {
+    "en_GB": "President of the Commission of Revision and Grace",
+    "nl_NL": "Voorzitter van de Commissie van Revisie en Gratie"
+  },
   "Presidente della Provincia di Roma e di Comarca": {
     "en_GB": "President of the Province of Rome and of Comarca",
     "nl_NL": "President van de Provincie van Rome en van Comarca"
@@ -1403,6 +1407,10 @@
   "Professore di Filosofia": {
     "en_GB": "Professor of Philosophy",
     "nl_NL": "Professor van filosofie"
+  },
+  "Professore di Fisica Sperimentale e di Fisica Matematica all'Università di Roma": {
+    "en_GB": "Professor of Experimental Physics and of Mathematical Physics at the University of Rome",
+    "nl_NL": "Professor van Experimentele Natuurkunde en van Wiskunde Natuurkunde aan de Universiteit van Rome"
   },
   "Professore di Navigazione a Senigallia": {
     "en_GB": "Professor of Navigation in Senigallia",
@@ -1487,6 +1495,10 @@
   "Segretario del ministero degli Affari Esteri del Regno dei Paesi Bassi": {
     "en_GB": "Secretary of the ministry of Foreign Affairs of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris van het ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
+  },
+  "Segretario dell'Accademia Pontificia de' Nuovi Lincei": {
+    "en_GB": "Secretary of the Accademia Pontificia de' Nuovi Lincei",
+    "nl_NL": "Secretaris van de Accademia Pontificia de' Nuovi Lincei"
   },
   "Segretario della Congregazione per gli affari ecclesiastici straordinari": {
     "en_GB": "Secretary of the Congregation for Extraordinary Ecclesiastical Affairs",
@@ -1683,6 +1695,10 @@
   "Vicario apostolico nel Granducato del Lussemburgo": {
     "en_GB": "Vicar apostolic in the Grand Duchy of Luxembourg",
     "nl_NL": "Apostolisch vicaris in het Groothertogdom Luxemburg"
+  },
+  "Vicario generale di Sua Santità per la città di Roma e distretto": {
+    "en_GB": "Cardinal vicar of His Holiness for the city of Rome and the district",
+    "nl_NL": "Kardinaal-vicaris van Zijne Heiligheid voor de stad Rome and het district"
   },
   "Vice camerlengo della Chiesa Cattolica Romana": {
     "en_GB": "Vice-camerlengo of the Holy Roman Church",
