@@ -620,6 +620,10 @@
     "en_GB": "Correspondance sui divers objets (Correspondence on various topics)",
     "nl_NL": "Correspondance sui divers objets (Correspondentie over verschillende onderwerpen)"
   },
+  "Corrispondenza Politica. Lettera a stampa (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Political correspondance. Printed letter of \\2",
+    "nl_NL": "Politieke correspondentie. Gedrukte brief van \\2"
+  },
   "Corrispondenza diplomatica$": {
     "en_GB": "Diplomatic correspondence",
     "nl_NL": "Diplomatieke correspondentie"
@@ -743,6 +747,10 @@
   "Editto. \"(.+)\" \\(a stampa\\)$": {
     "en_GB": "Edict \"\\1\" (printed)",
     "nl_NL": "Edict \"\\1\" (printed)"
+  },
+  "Elenco degli aggreditati del corpo diplomatico presso la Santa Sede$": {
+    "en_GB": "List of the corps diplomatique accredited to the Holy See",
+    "nl_NL": "Lijst van het corps diplomatique geaccrediteerd bij de Heilige Zee"
   },
   "Elenco delle Guardie Nobili$": {
     "en_GB": "List of the Guardie Nobili",
@@ -880,6 +888,10 @@
     "en_GB": "Extract from a dispatch of \\2",
     "nl_NL": "Uittreksel van een verzending van \\2"
   },
+  "Estratto di un rapporto$": {
+    "en_GB": "Extract from a report",
+    "nl_NL": "Uittreksel van een rapport"
+  },
   "Estratto di un supplemento della Gazetta di Roma$": {
     "en_GB": "Extract from a supplement to the Gazetta di Roma",
     "nl_NL": "Uittreksel van een bijlage van de Gazetta di Roma"
@@ -979,6 +991,10 @@
   "Fasc. (\\d+) \"(.+)\", Sessione 1851. N. 92. Camera dei Deputati. Trattato di navigazione e commercio con Paesi Bassi presentato dal Ministro degli Esteri nella tornata del 7 luglio 1851$": {
     "en_GB": "Bundle \\1 “\\2”, Session 1851. N. 92. Chamber of Deputies. Treatise about navigation and commerce with the Netherlands presented by the Minister of External Affairs upon his return on 7 July 1851",
     "nl_NL": "Bundel \\1 “\\2”, Sessie 1851. N. 92. Kamer van Afgevaardigden. Traktaat over de scheepsvaart en handel met de Nederlanden gepresenteerd door de Minister van Buitenlandse Zaken bij zijn terugkeer op 7 juli 1851"
+  },
+  "Fasc. (\\d+) \"(.+)\". Lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Bundle \\1 “\\2”. Letter from \\4",
+    "nl_NL": "Bundel \\1 “\\2”. Brief van \\4"
   },
   "Foggia di vestire il lutto prescritto da S.M. per la morte del (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Dress code for mourning from H.M. for the death of \\1 (printed)",
@@ -1624,13 +1640,13 @@
     "en_GB": "Letter to \\2 with a number written below (copy)",
     "nl_NL": "Brief aan \\2 met ondergeschreven nummer (kopie)"
   },
-  "Lettera (a|al) (\\$\\w+)$": {
-    "en_GB": "Letter to \\2",
-    "nl_NL": "Brief aan \\2"
-  },
   "Lettera (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter to \\2 and \\4",
     "nl_NL": "Brief to \\2 and \\4"
+  },
+  "Lettera (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter to \\2",
+    "nl_NL": "Brief aan \\2"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) \\(cifrata\\)$": {
     "en_GB": "Letter of \\2 to \\4 (encrypted)",
@@ -1820,6 +1836,10 @@
     "en_GB": "Letter of \\2 with transcrisption of a notification of the _Guarda Civica_ (\\3)",
     "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de _Guarda Civica_ (\\3)"
   },
+  "Lettera (di|del|della) (\\$\\w+) da Villa Celimontana$": {
+    "en_GB": "Letter of \\2 from Villa Celimontana",
+    "nl_NL": "Brief van \\2 van Villa Celimontana"
+  },
   "Lettera (di|del|della) (\\$\\w+) e (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 and \\3 to \\5",
     "nl_NL": "Brief van \\2 en \\3 aan \\5"
@@ -1827,6 +1847,10 @@
   "Lettera (di|del|della) (\\$\\w+) e (\\$\\w+) circa la revoca della quarantena per le navi dei Paesi Bassi$": {
     "en_GB": "Letter of \\2 and \\3 about the revocation of the quarantine for the ships of the Netherlands",
     "nl_NL": "Brief van \\2 en \\3 over de opheffing van de quarantaine voor de schepen van Nederland"
+  },
+  "Lettera (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Letter of \\2 and of \\4",
+    "nl_NL": "Brief van \\2 en van \\4"
   },
   "Lettera (di|del|della) (\\$\\w+) e minuta di risposta$": {
     "en_GB": "Letter from \\2 and minute of the response",
@@ -2068,7 +2092,11 @@
     "en_GB": "Lettres diverses (Various letters)",
     "nl_NL": "Lettres diverses (Diverse brieven)"
   },
-  "Lista delle donne olandesi che desidderano avere biglietti d'ingresso alle tribune$": {
+  "Lista dei viaggi$": {
+    "en_GB": "List of travels",
+    "nl_NL": "Lijst van reizen"
+  },
+  "Lista delle donne olandesi che desiderano avere biglietti d'ingresso alle tribune$": {
     "en_GB": "List of Dutch women who desire to have entrance tickets to the tribunes",
     "nl_NL": "Lijst van Nederlandse vrouwen die graag toegangsbewijzen voor de tribunes hebben"
   },
@@ -2204,9 +2232,21 @@
     "en_GB": "Note of the money owed to the late \\1",
     "nl_NL": "Nota van het geld dat verschuldigd is aan wijlen \\1"
   },
+  "Nota della carta moneta ammortizzata$": {
+    "en_GB": "Note of devalued banknotes",
+    "nl_NL": "Nota van afgeschreven bankbiljetten"
+  },
   "Nota della carta moneta$": {
     "en_GB": "Note of banknotes",
     "nl_NL": "Nota van bankbiljetten"
+  },
+  "Nota della commissione per il censimento della Gran Bretagna$": {
+    "en_GB": "Note from the commission for the census of Great Britain",
+    "nl_NL": "Nota van de commissie voor de volkstelling van Groot Brittanië"
+  },
+  "Nota della commissione per il censimento della Toscana$": {
+    "en_GB": "Note from the commission for the census of Toscana",
+    "nl_NL": "Nota van de commissie voor de volkstelling van Toscane"
   },
   "Nota delle navi in partenza da Civitavecchia$": {
     "en_GB": "Note about the ships departing Civitavecchia",
@@ -2259,6 +2299,10 @@
   "Nota sui vascelli armati presenti nel porto di Genova$": {
     "en_GB": "Note on the armed vessels present in the port of Genoa",
     "nl_NL": "Nota over de gewapende schepen die aanwezig zijn in de haven van Genua"
+  },
+  "Nota sulla Direzione Generale del Debito Pubblica$": {
+    "en_GB": "Note about the General Direction of Public Debt",
+    "nl_NL": "Nota over het Algemeen Directoraat van Staatsschuld"
   },
   "Nota sulle consistenze delle truppe Austriache e dei cavalli$": {
     "en_GB": "Note about the amounts of the Austrian troops and horses",
@@ -2512,6 +2556,10 @@
     "en_GB": "Draft declaration to be put before \\2",
     "nl_NL": "Conceptdeclaratie om voor te leggen aan \\2"
   },
+  "Progetto di discorso al corpo diplomatico$": {
+    "en_GB": "Draft speech to the corps diplomatique",
+    "nl_NL": "Concepttoespraak aan het corps diplomatique"
+  },
   "Programma del nuovo Ministero \\(a stampa\\)$": {
     "en_GB": "Program of the new Ministry (printed)",
     "nl_NL": "Programma van het nieuwe Ministerie (gedrukt)"
@@ -2655,6 +2703,10 @@
   "Relazione sui fatti dalla Toscana (di|del|della) (\\$\\w+)$": {
     "en_GB": "Report about the events from Toscana from \\2",
     "nl_NL": "Rapport over de gebeurtenissen uit Toscana van \\2"
+  },
+  "Relazione sulle attività diplomatiche$": {
+    "en_GB": "Report about diplomatic activities",
+    "nl_NL": "Rapport over diplomatieke activiteiten"
   },
   "Relazione$": {
     "en_GB": "Report",
@@ -2944,6 +2996,10 @@
     "en_GB": "Translation of the printed letter of \\2 to the subjects of the Papal State relating to the Amnesty (Rome, 16 July 1846)",
     "nl_NL": "Vertaling van de gedrukte brief van \\2 aan de onderdanen van de Kerkelijke Staat met betrekking tot de Amnestie (Rome, 16 juli 1846)"
   },
+  "Traduzione della lettera a stampa (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Translation of the printed letter of \\2",
+    "nl_NL": "Vertaling van de gedrukte brief van \\2"
+  },
   "Traduzione della lettera dei membri della Magistratura Romana (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of the letter from the members of the Roman Magistrate to \\2",
     "nl_NL": "Vertaling van de brief van de leden van de Romeinse Magistratuur aan \\2"
@@ -3067,6 +3123,10 @@
   "Traduzione in Francese della lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
     "en_GB": "Translation in French of the letter of the Alto Consiglio della Nobilità to \\2 about the conferral of a medal",
     "nl_NL": "Vertaling in het Frans van de brief van het Alto Consiglio della Nobilità aan \\2 over de toekenning van een medaille"
+  },
+  "Transunto di articoli$": {
+    "en_GB": "Summary of articles",
+    "nl_NL": "Samenvatting van artikelen"
   },
   "Trascrizione (di|del|della) (\\$\\w+) del Journal de Paris$": {
     "en_GB": "Transcription by \\2 of the \"Journal of Paris\"",
