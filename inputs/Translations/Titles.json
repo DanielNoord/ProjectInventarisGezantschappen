@@ -25,6 +25,11 @@
     "nl_NL": "ridder",
     "position": "Before"
   },
+  "Conte di Neipperg": {
+    "en_GB": "Count of Neipperg",
+    "nl_NL": "Graaf van Neipperg",
+    "position": "After"
+  },
   "Freiherr": {
     "en_GB": "Freiherr",
     "nl_NL": "Freiherr",

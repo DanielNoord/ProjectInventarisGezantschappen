@@ -64,6 +64,10 @@
     "en_GB": "Administrator-general of Justice of the Grand Duchy of Luxembourg",
     "nl_NL": "Administrateur-generaal van Justitie van het Groothertogdom Luxemburg"
   },
+  "Amministratore principale e segretario provvisorio presso la Segretariato dello Stato del Regno dei Paesi Bassi": {
+    "en_GB": "Principal administrator and temporary secretary of the State Secretariat of the Kingdom of the Netherlands",
+    "nl_NL": "Referendaris en tijdelijk griffier bij de Staatssecretarie van het Koninkrijk der Nederlanden"
+  },
   "Applicato di 1 ° classe nel Ministero delle Finanze del Regno d'Italia": {
     "en_GB": "Clerk of the 1st class of the Ministry of Finance of the Kingdom of Italy",
     "nl_NL": "Beambte van de 1e klasse van het ministerie van Financiën van het Koninkrijk Italië"
@@ -232,6 +236,10 @@
     "en_GB": "Chamberlain of the Grand Duke of Saxe-Weimar-Eisenach",
     "nl_NL": "Kamerheer van de Groothertog van Saksen-Weimar-Eisenach"
   },
+  "Ciambellano della Duchessa di Parma, Piacenza e Guastalla": {
+    "en_GB": "Chamberlain of the Duchess of Parma, Piacenza and Guastalla",
+    "nl_NL": "Kamerheer van de Gravin van Parma, Piacenza en Guastalla"
+  },
   "Ciambellano e maestro di cerimonie del Re dei Paesi Bassi": {
     "en_GB": "Chamberlain and master of ceremonies of the King of the Netherlands",
     "nl_NL": "Kamerheer-ceremoniemeester van de Koning der Nederlanden"
@@ -275,6 +283,10 @@
   "Comandante delle truppe austriache": {
     "en_GB": "Commander of the Austrian troops",
     "nl_NL": "Commandant van de Oostenrijkse troepen"
+  },
+  "Comandante in capo delle truppe Parmensi": {
+    "en_GB": "Commander in chief of the troops of Parma",
+    "nl_NL": "Opperbevelhebber van de troepen van Parma"
   },
   "Comandante superiore della Piazza di Civitavecchia": {
     "en_GB": "Commander in chief of the fortress of Civitavecchia",
@@ -824,7 +836,7 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Portugal to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Portugal bij de Heilige Stoel"
   },
-  "Inviato straordinario e ministro plenipotenziario del Regno di Baviera bij het Koninkrijk der Beide Siciliën": {
+  "Inviato straordinario e ministro plenipotenziario del Regno di Baviera presso il Regno delle Due Sicilie": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Bavaria to the Kingdom of the Two Sicilies",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Beieren bij het Koninkrijk der Beide Siciliën"
   },
@@ -852,9 +864,21 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Sardinia to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Sardinië bij de Heilige Stoel"
   },
+  "Inviato straordinario e ministro plenipotenziario del Regno di Spagna a Torino": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain at Turin",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje te Turijn"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso il Regno delle Due Sicilie": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Kingdom of the Two Sicilies",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij het Koninkrijk der Beide Siciliën"
+  },
   "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilge Stoel"
+  },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero d'Austria a Stockholm": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Austria at Stockholm",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Oostenrijk te Stockholm"
   },
   "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Roma": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Rome",
@@ -976,6 +1000,10 @@
     "en_GB": "Minister of Secular Foreign Affairs of the Papel States",
     "nl_NL": "Minister van Seculiere Buitenlandse Zaken van de Kerkelijke Staat"
   },
+  "Ministro degli Affari Esteri del Ducato di Parma e Piacenza": {
+    "en_GB": "Minister of Foreign Affairs of the Duchy of Parma and Piacenza",
+    "nl_NL": "Minister van Buitenlandse Zaken van het Hertogdom van Parma en Piacenza"
+  },
   "Ministro degli Affari Esteri del Granducato di Toscana": {
     "en_GB": "Minister of Foreign Affairs of the Grand Duchy of Tuscany",
     "nl_NL": "Minister van Buitenlandse Zaken van het Groothertogdom Toscane"
@@ -1084,6 +1112,10 @@
     "en_GB": "Minister of Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Koloniën van het Koninkrijk der Nederlanden"
   },
+  "Ministro delle Finanze del Regno dei Paesi Bassi": {
+    "en_GB": "Minister of Finance of the Kingdom of the Netherlands",
+    "nl_NL": "Minister van Financiën van het Koninkrijk der Nederlanden"
+  },
   "Ministro delle Finanze dello Stato Pontificio": {
     "en_GB": "Minister of Finance of the Papel States",
     "nl_NL": "Minister van Financiën van de Kerkelijke Staat"
@@ -1097,7 +1129,7 @@
     "nl_NL": "Minister van Gratie en Justitie van van het Koninkrijk Italië"
   },
   "Ministro di Stato del Regno delle Due Sicilie": {
-    "en_GB": "State Secretary  of the Kingdom of the Two Sicilies",
+    "en_GB": "State Secretary of the Kingdom of the Two Sicilies",
     "nl_NL": "Staatsminister van het Koninkrijk der Beide Siciliën"
   },
   "Ministro di Stato del principe di Nassau": {
@@ -1348,6 +1380,10 @@
     "en_GB": "First prefect of the Vatican Library",
     "nl_NL": "Eerste prefect van de Vaticaanse Bibliotheek"
   },
+  "Primo presidente del supremo Consiglio d'ammiragliato e del Consiglio amministrativo della Marina": {
+    "en_GB": "First president of the supreme Council of the Admiralty and of the Administrative Council of the Marine",
+    "nl_NL": "Eerste president van de Hoge Raad van de Admiraliteit en van de Administratieve Raad van de Marine"
+  },
   "Primo segretario di stato di Guerra del Regno di Sardegna": {
     "en_GB": "First State Secretary of War of the Kingdom of Sardinia",
     "nl_NL": "Eerste staatssecretaris van Oorlog van het Koninkrijk Sardinië"
@@ -1563,6 +1599,10 @@
   "Segretario generale del Ministero degli Affari Esteri Secolari dello Stato Pontificio": {
     "en_GB": "Secretary general of the Ministry of External Secular Affairs of the Papal State",
     "nl_NL": "Secretaris-generaal van het Ministerie van Buitenlandse Seculiere Zaken van de Kerkelijke Staat"
+  },
+  "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassio": {
+    "en_GB": "Secretary general of the Ministry of the Interior of the Kingdom of the Netherlands",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van van het Koninkrijk der Nederlanden"
   },
   "Segretario generale del Ministero dell'Interno del Stato Pontificio": {
     "en_GB": "Secretary general of the Ministry of the Interior of the Papal State",

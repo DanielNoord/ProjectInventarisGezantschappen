@@ -575,6 +575,37 @@
     "titles": [],
     "wikidata:id": "Q741956"
   },
+  "$Bassecourt": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1793-09-06",
+    "date_of_death": "1874-06-06",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno di Spagna a Torino",
+        "1829/"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso il Regno delle Due Sicilie",
+        "1834/"
+      ]
+    ],
+    "images": [
+      "https://www.museodelprado.es/coleccion/obra-de-arte/dionisio-de-bassecourt-marques-de-bassecourt/8e546503-b897-4f12-b440-6e2f37aa7d8f"
+    ],
+    "name": "Dionisio",
+    "person_type": 1,
+    "place_of_birth": "Barcellona",
+    "place_of_death": "Madrid",
+    "sources": [],
+    "sources_other": [
+      "'Gaceta de Madrid, Juevas 12 de Novembre de 1829', in: Gaceta de Madrid (Imprenta Real: Madrid, 1829), p. 592",
+      "Kalendario manual y guía de forasteros en Madrid (Imprenta Real: Madrid, 1834), p. 117"
+    ],
+    "surname": "de Bassecourt y Armero",
+    "titles": [["marchese", null]],
+    "wikidata:id": "Q66021064"
+  },
   "$Baud": {
     "ISNI:id": "0000 0000 8232 3671",
     "comment_daniel": "",
@@ -1135,6 +1166,32 @@
     "surname": "von Blochausen",
     "titles": [["barone", null]],
     "wikidata:id": "Q1960296"
+  },
+  "$Blokland": {
+    "ISNI:id": "0000 0003 9040 9717",
+    "comment_daniel": "",
+    "date_of_birth": "1772-07-05",
+    "date_of_death": "1844-02-25",
+    "functions": [
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1837-09-30/1840-01-09"
+      ]
+    ],
+    "images": [
+      "https://geheugen.delpher.nl/nl/geheugen/view?coll=ngvn&identifier=BDM01:235"
+    ],
+    "name": "Gerard Beelaerts",
+    "person_type": 1,
+    "place_of_birth": "Dordrecht",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Redactie parlement.com, 'Jhr. Mr. Dr. G. Beelaerts van Blokland', found on: https://www.parlement.com/id/vg09llr3azy8/g_beelaerts_van_blokland"
+    ],
+    "sources_other": [],
+    "surname": "van Blokland",
+    "titles": [["Cav.", "1817-10-23/"]],
+    "wikidata:id": "Q4813845"
   },
   "$Boch": {
     "ISNI:id": null,
@@ -4184,6 +4241,34 @@
     "titles": [],
     "wikidata:id": "Q2871356"
   },
+  "$Geneys": {
+    "ISNI:id": "0000 0000 5832 7090",
+    "comment_daniel": "",
+    "date_of_birth": "1761-04-28",
+    "date_of_death": "1839-01-08",
+    "functions": [
+      ["Governatore di Genova al Re di Sardegna", "1820/"],
+      [
+        "Primo presidente del supremo Consiglio d'ammiragliato e del Consiglio amministrativo della Marina",
+        "1821/"
+      ]
+    ],
+    "images": [
+      "https://it.wikipedia.org/wiki/Giorgio_Andrea_Agn%C3%A8s_des_Geneys#/media/File:Giorgio_Des_Geneys.jpg"
+    ],
+    "name": "Giorgio Andrea",
+    "person_type": 1,
+    "place_of_birth": "Chiomonte",
+    "place_of_death": "Genova",
+    "sources": [
+      "Burgio, Carmelo, 'Il Commandante Generale Giorgio des Geneys', in: Notiziario Storico dell'Arma dei Carabinieri. N. 3, Anno 5 (2016), p. 12, found on: http://www.carabinieri.it/docs/default-source/editoria/notiziariostorico/notiziario_2020-3.pdf?sfvrsn=9313e23_2",
+      "Fubini, Elsa, 'Agnès des Geneys, Giorgio Andrea', in: Dizionario Biografico degli Italiani. Vol. 1 (1960), found on: https://www.treccani.it/enciclopedia/agnes-des-geneys-giorgio-andrea_(Dizionario-Biografico)/"
+    ],
+    "sources_other": [],
+    "surname": "Agnès des Geneys",
+    "titles": [["Cav.", "1804/"]],
+    "wikidata:id": "Q714604"
+  },
   "$Gericke": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -4727,6 +4812,30 @@
     "surname": "van Hall",
     "titles": [],
     "wikidata:id": "Q1430171"
+  },
+  "$Hamecourt": {
+    "ISNI:id": null,
+    "comment_daniel": "NB: d'Hamecourt was de griffier/secretaris onder De Mey van Streefkerke (in deze periode bestond het Staatssecretarie als dep. (1813-1840)). Ik kan zijn eerste naam niet achterhalen, hij ondertekent meestal met L.G.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Amministratore principale e segretario provvisorio presso la Segretariato dello Stato del Regno dei Paesi Bassi",
+        "1824/1831"
+      ]
+    ],
+    "images": [],
+    "name": "A.L.E.G.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Steur, J., Bijdragen en Mededelingen betreffende de Geschiedenis der Nederlanden, in: Bijdragen en Mededeelingen van het Historisch Genootschap. Deel 84 (1969), p. 98"
+    ],
+    "sources_other": [],
+    "surname": "D'Hamecourt",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Haye": {
     "ISNI:id": null,
@@ -7434,6 +7543,43 @@
     "surname": "Navoni",
     "titles": [["conte", null]],
     "wikidata:id": null
+  },
+  "$Neipperg": {
+    "ISNI:id": "0000 0000 2219 3668",
+    "comment_daniel": "",
+    "date_of_birth": "1775-04-08",
+    "date_of_death": "1829-02-22",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero d'Austria a Stockholm",
+        "1811/1813"
+      ],
+      ["Ciambellano della Duchessa di Parma, Piacenza e Guastalla", "1814"],
+      ["Comandante in capo delle truppe Parmensi", "1814/1829"],
+      [
+        "Ministro degli Affari Esteri del Ducato di Parma e Piacenza",
+        "1814/1829"
+      ]
+    ],
+    "images": [
+      "https://www.britishmuseum.org/collection/object/P_1848-0930-37",
+      "https://commons.wikimedia.org/wiki/File:Neipperg-adamalbert1810.jpg"
+    ],
+    "name": "Adam Albert",
+    "person_type": 1,
+    "place_of_birth": "Vienna",
+    "place_of_death": "Parma",
+    "sources": [
+      "Fuchs, Peter, 'Neipperg, Adam Adalbert (Albert) Graf von', in: Neue Deutsche Biographie 19 (1999), pp. 49-50, found on: https://www.deutsche-biographie.de/sfz70983.html#ndbcontent",
+      "Schzl., 'Neipperg, Adam Adalbert Graf von', in: Allgemeine Deutsche Biographie 23 (1886), p. 408-412, fuond on: https://www.deutsche-biographie.de/sfz70983.html#adbcontent_autor"
+    ],
+    "sources_other": [],
+    "surname": "Neipperg",
+    "titles": [
+      ["Conte di Neipperg", null],
+      ["Cav.", "1801/"]
+    ],
+    "wikidata:id": "Q348626"
   },
   "$Ney": {
     "ISNI:id": "0000 0000 6225 9879",
@@ -10165,7 +10311,7 @@
         "1850/1854-10-26"
       ],
       [
-        "Inviato straordinario e ministro plenipotenziario del Regno di Baviera bij het Koninkrijk der Beide Siciliën",
+        "Inviato straordinario e ministro plenipotenziario del Regno di Baviera presso il Regno delle Due Sicilie",
         "1851/1854-10-26"
       ]
     ],
@@ -10399,6 +10545,36 @@
     "surname": "Stratenus",
     "titles": [["barone", null]],
     "wikidata:id": "Q2135489"
+  },
+  "$Streefkerk": {
+    "ISNI:id": "0000 0000 9929 4061",
+    "comment_daniel": "",
+    "date_of_birth": "1782-04-17",
+    "date_of_death": "1841-01-05",
+    "functions": [
+      [
+        "Segretario della Legazione del Regno dei Paesi Bassi a Parigi",
+        "1803/1805"
+      ],
+      [
+        "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassio",
+        "1813/1814"
+      ],
+      ["Segretario di Stato del Regno dei Paesi Bassi", "1823-12-28/1835-11-12"]
+    ],
+    "images": [],
+    "name": "Jean Gijsberto",
+    "person_type": 1,
+    "place_of_birth": "Leida",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Ramaer, Johan Christoffel, 'J. G. Baron de Mey van Streefkerk', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 8 (1930), p. 1151",
+      "Redactie parlement.com, 'Mr. J.G. baron de Mey van Streefkerk', found on: https://www.parlement.com/id/vg09llt0per3#p.loopbaan"
+    ],
+    "sources_other": [],
+    "surname": "de Mey van Streefkerk",
+    "titles": [["barone", "1826/"]],
+    "wikidata:id": "Q13736737"
   },
   "$Strens": {
     "ISNI:id": "0000 0003 8871 7366",
