@@ -392,9 +392,9 @@
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
   },
-  "Bozzetto di un monumento celebrativo \\((\\$\\w+) \\?\\) \\(disegno a inchiostro\\)$": {
-    "en_GB": "Sketch of a commemorative monument (\\1 ?) (Ink drawing)",
-    "nl_NL": "Schets van een herdenkingsmonument (\\1 ?) (Inkttekening)"
+  "Bozzetto di un monumento celebrativo \\((\\$\\w+)\\) \\(disegno a inchiostro\\)$": {
+    "en_GB": "Sketch of a commemorative monument (\\1) (Ink drawing)",
+    "nl_NL": "Schets van een herdenkingsmonument (\\1) (Inkttekening)"
   },
   "Breve cenno di alcune pendenze del Lussemburgo$": {
     "en_GB": "Brief mention of several pending suits from Luxembourg",
@@ -1892,18 +1892,6 @@
     "en_GB": "Letter of \\2, copy of a letter from \\4",
     "nl_NL": "Brief van \\2, kopie van een brief van \\4"
   },
-  "Lettera \\?$": {
-    "en_GB": "Letter ?",
-    "nl_NL": "Brief ?"
-  },
-  "Lettera \\?\\?$": {
-    "en_GB": "Letter ??",
-    "nl_NL": "Brief ??"
-  },
-  "Lettera \\?\\?\\?$": {
-    "en_GB": "Letter ???",
-    "nl_NL": "Brief ???"
-  },
   "Lettera a stampa (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Printed letter of \\2 to \\4",
     "nl_NL": "Gedrukte brief van \\2 aan \\4"
@@ -2071,10 +2059,6 @@
   "Lettera della Segreteria di Stato per gli Affrai Eesteri$": {
     "en_GB": "Letter of the Secretariat of State for Foreign Affairs",
     "nl_NL": "Brief van het Staatssecretariaat voor Buitenlandse Zaken"
-  },
-  "Lettera della principessa di Saluzzo \\(\\?'\\)$": {
-    "en_GB": "Letter of the princess of Saluzzo (?')",
-    "nl_NL": "Brief van de prinses van Saluzzo (?')"
   },
   "Lettera della principessa di Saluzzo$": {
     "en_GB": "Letter of the princess of Saluzzo",
