@@ -716,6 +716,10 @@
     "en_GB": "Testamentary dispositions of \\2",
     "nl_NL": "Testamentaire bepalingen van \\2"
   },
+  "Division d'Occupation en Italie. Justice Militaire \\(a stampa\\)$": {
+    "en_GB": "Division d'Occupation en Italie. Justice Militaire (printed)",
+    "nl_NL": "Division d'Occupation en Italie. Justice Militaire (gedrukt)"
+  },
   "Document Maritime da Le Journal Officiel \\(a stampa\\) firmato (da|dal) (\\$\\w+)$": {
     "en_GB": "Document Maritime from Le Journal Officiel (printed) signed by \\2",
     "nl_NL": "Document Maritime uit Le Journal Officiel (gedrukt) ondertekend door \\2"
@@ -992,6 +996,10 @@
     "en_GB": "Bundle \\1 “\\2”, Session 1851. N. 92. Chamber of Deputies. Treatise about navigation and commerce with the Netherlands presented by the Minister of External Affairs upon his return on 7 July 1851",
     "nl_NL": "Bundel \\1 “\\2”, Sessie 1851. N. 92. Kamer van Afgevaardigden. Traktaat over de scheepsvaart en handel met de Nederlanden gepresenteerd door de Minister van Buitenlandse Zaken bij zijn terugkeer op 7 juli 1851"
   },
+  "Fasc. (\\d+) \"(.+)\", fasc. (\\d+) \"(.+)\"$": {
+    "en_GB": "Bundle \\1 “\\2”, bundle \\3 “\\4”",
+    "nl_NL": "Bundel \\1 “\\2”', bundel \\3 “\\4”"
+  },
   "Fasc. (\\d+) \"(.+)\". Lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Bundle \\1 “\\2”. Letter from \\4",
     "nl_NL": "Bundel \\1 “\\2”. Brief van \\4"
@@ -1051,6 +1059,14 @@
   "Foglio a stampa sulle legge di navigazione nei Paesi Bassi da L'Indépendance Belge$": {
     "en_GB": "Printed sheet about the laws of navigation in the Netherlands from L'Indépendance Belge",
     "nl_NL": "Gedrukt blad over de scheepsvaartwetten in Nederland uit L'Indépendance Belge"
+  },
+  "Foglio a stampa “(.+)”  (di|del|della) (\\$\\w+), relativa a disposizioni di ordine pubblico anche riguardanti alla stampa \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” relating to the arrangement of the public order also regarding the press (Rome, \\2 May \\3)",
+    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de regeling van de publieke orde in Rome, ook ten aanzien van de pers (Rome, \\2 mei \\3)"
+  },
+  "Foglio a stampa “(.+)”  relativo all'ordine pubblico a Roma e in Comarca, firmata (da|dal|dalla) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” relating to the public order in Rome and in Comarca, signed by \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 May \\5)",
+    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de publieke orde in Rome en in Comarca, ondertekend door \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 mei \\5)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
@@ -1295,6 +1311,10 @@
   "Foglio a stampa “(.+)” sulla regolazione della giustizia civile, criminale ed amministrativa \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
+  },
+  "Foglio sulla Ondata di tempesta del 1825 \"(.+)\"$": {
+    "en_GB": "Sheet about the February flood of 1825 “\\1”",
+    "nl_NL": "Blad over de Watersnoodramp van 1825 “\\1”'"
   },
   "Formulario per gli ambasciatori (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Form for the ambassadors from \\2 (printed)",
@@ -1599,6 +1619,10 @@
   "Journal des Débats \\(a stampa\\)$": {
     "en_GB": "Journal des Débats (printed)",
     "nl_NL": "Journal des Débats (gedrukt)"
+  },
+  "Journal des Débats politiques et littéraires \\(a stampa\\)$": {
+    "en_GB": "Journal des Débats politiques et littéraires (printed)",
+    "nl_NL": "Journal des Débats politiques et littéraires (gedrukt)"
   },
   "Lasciapassare (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Laissez-passer from \\2 to \\4",
@@ -2404,6 +2428,10 @@
     "en_GB": "News from Morocco",
     "nl_NL": "Nieuws uit Marokko"
   },
+  "Notizie dall'Italia$": {
+    "en_GB": "News from Italy",
+    "nl_NL": "Nieuws uit Italië"
+  },
   "Notizie di Roma dei (\\d\\d?) aprile (\\d\\d\\d\\d)$": {
     "en_GB": "News of Rome of \\1 April \\2",
     "nl_NL": "Nieuws van Rome van \\1 april \\2"
@@ -2704,6 +2732,10 @@
     "en_GB": "Report about the events from Toscana from \\2",
     "nl_NL": "Rapport over de gebeurtenissen uit Toscana van \\2"
   },
+  "Relazione sulla permanenza delle truppe Francesi a Roma$": {
+    "en_GB": "Report about the stay of the French troops in Rome",
+    "nl_NL": "Rapport over het verblijf van de Franse troepen in Rome"
+  },
   "Relazione sulle attività diplomatiche$": {
     "en_GB": "Report about diplomatic activities",
     "nl_NL": "Rapport over diplomatieke activiteiten"
@@ -2968,6 +3000,10 @@
     "en_GB": "Translation of the Giunta Suprema di Stato",
     "nl_NL": "Vertaling van de Giunta Suprema di Stato"
   },
+  "Traduzione della Notificazione$": {
+    "en_GB": "Translation of a notification",
+    "nl_NL": "Vertaling van een melding"
+  },
   "Traduzione della Protesta (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of the Protest of \\2",
     "nl_NL": "Vertaling van het Protest van \\2"
@@ -3064,7 +3100,7 @@
     "en_GB": "Translation of an article from the Gazetta di Roma",
     "nl_NL": "Vertaling van een artikel uit de Gazetta di Roma"
   },
-  "Traduzione di un articolo estratto di L'Indépendance Belge$": {
+  "Traduzione di un articolo estratto da L'Indépendance Belge$": {
     "en_GB": "Translation of an extract of an article from the L'Indépendance Belge",
     "nl_NL": "Vertaling van een uittreksel van een artikel uit de L'Indépendance Belge"
   },
@@ -3135,6 +3171,10 @@
   "Trascrizione (di|del|della) (\\$\\w+) di una lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Transcription by \\2 of a letter to \\4",
     "nl_NL": "Transcriptie door \\2 van een brief aan \\4"
+  },
+  "Trascrizione (di|del|della) (\\$\\w+) di una lettera (di|del|della) (\\$\\w+) sottoscritta (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Transcription by \\2 of a letter of \\4 signed by \\6 and by \\8",
+    "nl_NL": "Transcriptie door \\2 van een brief van \\4 ondertekend door \\6 en door \\8"
   },
   "Trascrizione (di|del|della) (\\$\\w+) di una lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription by \\2 of a letter of \\4",
