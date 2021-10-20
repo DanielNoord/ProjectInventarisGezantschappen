@@ -328,6 +328,18 @@
     "en_GB": "Advisor and chargé d'affaires of the Kingdom of Belgium in Rome",
     "nl_NL": "Adviseur en zaakgelastigde van het Koninkrijk België te Rome"
   },
+  "Console Generale del Regno di Sardegna a Tunisi": {
+    "en_GB": "Consul general of the Kingdom of Sardinia at Tunis",
+    "nl_NL": "Consul-generaal van het Koninkrijk Sardinië te Tunis"
+  },
+  "Console Generale del Regno di Sardegna ad Algeri": {
+    "en_GB": "Consul of the Kingdom of Sardinia in Algeria",
+    "nl_NL": "Consul van het Koninkrijk Sardinië te Algerië"
+  },
+  "Console Generale del Regno di Sardegna ad Atene": {
+    "en_GB": "Consul general of the Kingdom of Sardinia at Athens",
+    "nl_NL": "Consul-generaal van het Koninkrijk Sardinië te Athene"
+  },
   "Console Generale del Regno di Sardegna e provvisoriamente anche del Granducato di Toscana": {
     "en_GB": "Consul general of the Kingdom of Sardinia and provissionally of the Grand Duchy of Tuscany",
     "nl_NL": "Consul-generaal van het Koninkrijk Sardinië en voorlopig consul-general van het Groothertogdom van Toscane"
@@ -1403,6 +1415,10 @@
   "Primo ufficiale della Ministero di Finanze del Regno di Sardegna": {
     "en_GB": "First official of the Ministry of Finance of the Kingdom of Sardinia",
     "nl_NL": "Hoofdambtenaar van het ministerie van Financiën van het Koninkrijk Sardinië"
+  },
+  "Primo ufficiale della segreteria di Stato degli Affari Esteri del Regno di Sardegna": {
+    "en_GB": "First official of the State secretariat of External Affairs of the Kingdom of Sardinia",
+    "nl_NL": "Referendaris bij de Staatssecretarie van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Pro-governatore di Roma": {
     "en_GB": "_Pro-governatore_ {pro-governor} of Rome",
