@@ -260,6 +260,10 @@
     "en_GB": "Handwritten note",
     "nl_NL": "Handgeschreven notitie"
   },
+  "Appunto per omaggio al Papa$": {
+    "en_GB": "Note in homage to the Pope",
+    "nl_NL": "Notitie ter ere van de paus"
+  },
   "Appunto su un contratto$": {
     "en_GB": "Note on a contract",
     "nl_NL": "Notitie over een contract"
@@ -459,6 +463,14 @@
   "Circolare manoscritta (di|del|della) (\\$\\w+)$": {
     "en_GB": "Handwritten circulaire of \\2",
     "nl_NL": "Handgeschreven circulaire van \\2"
+  },
+  "Communicazione circolare a stampa della Legazione degli Stati dell'America Centrale$": {
+    "en_GB": "Printed circulaire of the Legation of the Central American States",
+    "nl_NL": "Gedrukte circulaire van het Gezantschap van de Midden-Amerikaanse Staten"
+  },
+  "Communicazione circolare a stampa$": {
+    "en_GB": "Printed circulaire",
+    "nl_NL": "Gedrukte circulaire"
   },
   "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake \\(Conto delle Entrate e Spese fatto in occasione del decesso del (\\$\\w+)\\)$": {
     "en_GB": "Compte des Recettes et Dépenses faites à l'occasion du décès de mons. Guillaume A. Bake (Account of revenue and expenditure drawn up on the occassion of the passing of \\1)",
@@ -1666,7 +1678,11 @@
   },
   "Lettera (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter to \\2 and \\4",
-    "nl_NL": "Brief to \\2 and \\4"
+    "nl_NL": "Brief aan \\2 en aan \\4"
+  },
+  "Lettera (a|al|alla) (\\$\\w+), (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter to \\2, to \\4 and to \\6",
+    "nl_NL": "Brief aan \\2, aan \\4 en aan \\6"
   },
   "Lettera (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter to \\2",
@@ -2787,6 +2803,10 @@
   "Réponse de la Chambre des Deputes \\(risposta della Camera dei Deputati\\)$": {
     "en_GB": "Réponse de la Chambre des Deputes (response from the Chamber of Deputies)",
     "nl_NL": "Réponse de la Chambre des Deputes (reactie van de Kamer van Afgevaardigden)"
+  },
+  "Scheda con i connotati personali (di|del|della) (\\$\\w+), giardiniere olandese$": {
+    "en_GB": "Sheet with personal characteristics of \\2, Dutch gardner",
+    "nl_NL": "Blad met persoonlijke kenmerken van \\2, Nederlandse hovenier"
   },
   "Schedola Testamentaria (di|del|della) (\\$\\w+)$": {
     "en_GB": "Will of \\2",

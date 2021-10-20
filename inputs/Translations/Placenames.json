@@ -2224,6 +2224,14 @@
     "longitude": "8.09223",
     "nl_NL": "Verrua Savoia"
   },
+  "Versailles": {
+    "en_GB": "Versailles",
+    "geonames_id": 2969679,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+    "latitude": "48.80359",
+    "longitude": "2.13424",
+    "nl_NL": "Versailles"
+  },
   "Vevey": {
     "en_GB": "Vevey",
     "geonames_id": 2658145,
