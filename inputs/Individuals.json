@@ -1780,7 +1780,7 @@
     "date_of_death": "1877",
     "functions": [
       [
-        "Primo ufficiale della segreteria di Stato degli Affari Esteri del Regno di Sardegna",
+        "Primo ufficiale del Ministero degli Affari Esteri del Regno di Sardegna",
         "1835-03-21/1847-12-23"
       ]
     ],
@@ -1789,7 +1789,9 @@
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Moscati, Ruggero (ed.), Le Scritture della Segreteria di Stato degli Affari Esteri del Regno di Sardegna. Vol. 1 (Tipografia Riservata del Ministero degli Affari Esteri: Roma, 1947), p. 18, found on: https://www.esteri.it/mae/resource/doc/2017/05/scritt_segr_stato_mae_regno_sardegna.pdf"
+    ],
     "sources_other": [],
     "surname": "De Buttet",
     "titles": [["Cav.", null]],
@@ -4515,6 +4517,31 @@
     "surname": "Gioberti",
     "titles": [],
     "wikidata:id": "Q378706"
+  },
+  "$Girardin": {
+    "ISNI:id": "0000 0001 2133 493X",
+    "comment_daniel": "",
+    "date_of_birth": "1802-06-22",
+    "date_of_death": "1881-04-27",
+    "functions": [
+      ["Fondatore e direttore della giornale La Presse", "1836-07-01/"]
+    ],
+    "images": [
+      "https://en.muzeo.com/art-print/portrait-demile-de-girardin-journaliste-1802-1881/carolus-duran",
+      "https://www.rijksmuseum.nl/en/collection/RP-F-F25476-K"
+    ],
+    "name": "Émile",
+    "person_type": 1,
+    "place_of_birth": "Parigi",
+    "place_of_death": "Parigi",
+    "sources": [
+      "'Emile de Girardin' (biographie extraite du dictionnaire des parlementaires français de 1798 à 1889, Adolpe Robert et Gaston Cougny), found on: https://www2.assemblee-nationale.fr/sycomore/fiche/%28num_dept%29/8489",
+      "Delporte, Christine, 'Emile de Girardin', in Commemorations Collection 2006, found on: https://francearchives.fr/fr/pages_histoire/39828"
+    ],
+    "sources_other": [],
+    "surname": "de Girardin",
+    "titles": [["Cav.", "1842-08-24/"]],
+    "wikidata:id": "Q286644"
   },
   "$Giustiniani": {
     "ISNI:id": null,
