@@ -1,33 +1,56 @@
-# Python directory
+## Python directory
 
-The python directory contains a number of programs used during the project. The sub-directory `functions` contains some auxiliary functions that can be imported by any of the other programs. The `depreciated` sub-directory contains programs that are no longer used, but are kept for the sake of reporting and showing the progress of the project.
+The python directory contains a number of programs used during the project. Most functions are part of a module that is then loaded by any of the files in the base directory. The files in the base directory are scripts that should be run from the project's root.
 
-## Database_searches
+### data_parsing
 
-Contains a number of programs that search online database for the combination of names and surnames as found in the individuals database. Results are printed to the console and can be piped to a file using:
+Module with functions that can 1) load all translations and data files and 2) create the "filled in" name string. Based on the (translation) data provided these functions return a string with the full name and function and titles of individuals in Italian, English and Dutch.
 
-```bash
-python3 program.py > file
-```
+### database_controls
 
-## docx_ category
+Module with functions that are used to check the `Individuals.json` file for inconsistencies such as unknown titles or placenames, incorrect ISNI's or nonsensical dates.
 
-`docx_make_controls_translations.py` creates _.docx_ files from the _.json_ files containing translations.
+### database_searches
 
-## json_ category
+Module with functions used to perform automatic database searches. We currently support searching in `Biografisch Portaal van Nederland`, `Dizionario storico biografico della Tuscia`, `ISNI`, an upcoming book about `Johan Koelman`, `Nationaal Archief`, `RKD` and `WikiData`. Results are printed to standard output so should ideally by piped to a file to allow checking of actual corrects hits.
 
-A number of functions related to the data files in _.json_. The documents starting with `json_check` contain checks for the individuals database and whether the data entered follows certain patterns. Running `json_control_database.py` loads all these programs and performs them and some additional checks.
+### date_functions
 
-`json_create_descriptive_stats.py` prints out some descriptive statistics about the individuals database.
+Module with functions related to checking and comparing dates. These are used throughout the project for example to control that we don't refer to the `31st of February`.
 
-`json_load_translations.py` contains functions that convert _.docx_ documents of the various translations to _.json_ files.
+### deprecated_functions
 
-`json_save_load_database.py` can be used to convert the individuals _.json_ database to _.docx_, covert vice-versa and merge a _.docx_ and _.json_ file. During merging precedence is given to the _.docx_ file.
+Non-functional module which contains all files that were used in previous stages of the project. These functions or script can't be expected to work anymore, but are kept for later reference.
 
-## xlsx_make.py
+### docx_functions
 
-Based on the `./inputs` directory creates the sanitized, translated and filled _.xlsx_ documents of the _griglie_. Outputs can be found in `./outputs`.
+Module with functions used to write, read and parse `docx` files. With the switch to only using `json` these functions tend to get outdated quickly, but should in theory still work.
 
-## xml_make.py
+### typing_utils
 
-Based on the _.xlsx_ documents of the _griglie_ in `./outputs` makes a _.xml_ file of the inventory. This file is EAD compliant. Running `./Makepdf_it_IT` (or the code inside that file) creates a test _.pdf_ file using the submodule `./ead2pdf`.
+Module that stores some of our typing aliases.
+
+### write_files
+
+Module with functions that homogenize the process of writing files. For example, throughout the project writing a `json` file is done using the same functions and thus goes through the same checks.
+
+### xlsx_functions
+
+Module with functions used to write, read and parse `xlsx` files. As the project is evolving to only using `xml` for the final database the writing of `xlsx` files for the final database can become outdated. However, sanitization and parsing of base data is still done with this module.
+
+### xml_functions
+
+Module with functions used to write the final `xml` file. We use `lxml` to create an EAD-compliant `xml` file.
+
+### Scripts
+
+- `docx_make_controls_translations`: Transforms the `json` files of our data and translations into `docx` files which are easier to read during the control process.
+- `json_control_database`: Main script used to control the database on inconsistencies and errors. Also used in the CI.
+- `json_create_descriptive_stats`: Script to print some stats about the database.
+- `json_geonames`: Script used to add geonames identifiers to `Placenames.json` and update that file based on already present identifiers.
+- `json_load_translations`: Script to write `json` files from translations files in `docx` format.
+- `json_perform_database_searches`: Script to perform some of the searches included in the `database_searches` module.
+- `json_save_load_database`: Script that can write `Individuals.json` to `docx` and vice-versa, as well as merge a `docx` and `json` version.
+- `json_sort_database`: Script to sort `Individuals.json` and the data of the fields of the individuals within it.
+- `xlsx_make`: Script to make the final database in `xslx` format.
+- `xml_make_ead`: Script to make the final database in `xml` format.
