@@ -488,6 +488,22 @@
     "en_GB": "Conditions which His Holiness of Our Lord Pope Pius the Ninth has accorded to the the institution of the Banca dello Stato Pontificio",
     "nl_NL": "Voorwaarden welke Zijne Heiligheid van Onze Heer Paus Pius de Negende heeft verbonden aan het instituut van de Banca dello Stato Pontificio"
   },
+  "Consolato di Ancona. Lettera (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Consulate of Ancona. Letter to \\2",
+    "nl_NL": "Consulaat van Ancona. Brief aan \\2"
+  },
+  "Consolato di Civitavecchia. Lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Consulate of Civitavecchia. Letter from \\2",
+    "nl_NL": "Consulaat van Civitavecchia. Brief van \\2"
+  },
+  "Consolato di Livorno. Lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Consulate of Livorno. Letter from \\2",
+    "nl_NL": "Consulaat van Livorno. Brief van \\2"
+  },
+  "Consolato di Napoli. Lettera (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Consulate of Naples. Letter to \\2",
+    "nl_NL": "Consulaat van Napels. Brief aan \\2"
+  },
   "Consul General des Pays Bas à Naples \\(Console Generale dei Paesi Bassi a Napoli\\)$": {
     "en_GB": "Consul General des Pays Bas à Naples (Consul general of the Netherlands in Naples)",
     "nl_NL": "Consul General des Pays Bas à Naples (Consul-generaal van Nederland te Napels)"
@@ -764,7 +780,7 @@
     "en_GB": "Edict \"\\1\" (printed)",
     "nl_NL": "Edict \"\\1\" (printed)"
   },
-  "Elenco degli aggreditati del corpo diplomatico presso la Santa Sede$": {
+  "Elenco degli accreditati del corpo diplomatico presso la Santa Sede$": {
     "en_GB": "List of the corps diplomatique accredited to the Holy See",
     "nl_NL": "Lijst van het corps diplomatique geaccrediteerd bij de Heilige Zee"
   },
@@ -1072,14 +1088,6 @@
     "en_GB": "Printed sheet about the laws of navigation in the Netherlands from L'Indépendance Belge",
     "nl_NL": "Gedrukt blad over de scheepsvaartwetten in Nederland uit L'Indépendance Belge"
   },
-  "Foglio a stampa “(.+)”  (di|del|della) (\\$\\w+), relativa a disposizioni di ordine pubblico anche riguardanti alla stampa \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” relating to the arrangement of the public order also regarding the press (Rome, \\2 May \\3)",
-    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de regeling van de publieke orde in Rome, ook ten aanzien van de pers (Rome, \\2 mei \\3)"
-  },
-  "Foglio a stampa “(.+)”  relativo all'ordine pubblico a Roma e in Comarca, firmata (da|dal|dalla) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” relating to the public order in Rome and in Comarca, signed by \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 May \\5)",
-    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de publieke orde in Rome en in Comarca, ondertekend door \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 mei \\5)"
-  },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
@@ -1095,6 +1103,14 @@
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa lo spostamento di alcune feste \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 concerning the postponement of several feasts (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande het uistel van verscheidene feesten (Rome, Tipografia della Rev. Cam. Apost., \\4 jul. \\5)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+), relativa a disposizioni di ordine pubblico anche riguardanti alla stampa \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” relating to the arrangement of the public order also regarding the press (Rome, \\2 May \\3)",
+    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de regeling van de publieke orde in Rome, ook ten aanzien van de pers (Rome, \\2 mei \\3)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+), relativa all'armottizzazione della carta moneta \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” relating to the amortisation of banknotes (Rome, \\2 Jan. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de amortisatie van bankbiljetten (Rome, \\2 jan. \\3)"
   },
   "Foglio a stampa “(.+)” \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 Aug. \\3)",
@@ -1292,6 +1308,10 @@
     "en_GB": "Printed sheet “\\1” signed by \\3 (Rome, Tipografia Cattolica, \\4)",
     "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Rome, Tipografia Cattolica, \\4)"
   },
+  "Foglio a stampa “(.+)” relativo all'ordine pubblico a Roma e in Comarca, firmata (da|dal|dalla) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” relating to the public order in Rome and in Comarca, signed by \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 May \\5)",
+    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de publieke orde in Rome en in Comarca, ondertekend door \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 mei \\5)"
+  },
   "Foglio a stampa “(.+)” sul dazio dello zucchero e del caffè (di|del|della) (\\$\\w+) \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the duties on sugar and coffee from \\3 (Rome, Stamperia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” over de accijns op suiker en koffie van \\3 (Rome, Stamperia della Rev. Cam. Apost., \\4)"
@@ -1395,6 +1415,10 @@
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Bologna, N. (\\d+) del (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Bologna, N. \\3 of \\4 Oct. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Bologna, N. \\3 van \\4 oct. \\5)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Genova, N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Genoa, N. \\3 of \\4 Jul. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Genua, N. \\3 van \\4 jul. \\5)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Genova, N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Genoa, N. \\3 of \\4 Sep. \\5)",
@@ -1680,13 +1704,13 @@
     "en_GB": "Letter to \\2 and \\4",
     "nl_NL": "Brief aan \\2 en aan \\4"
   },
-  "Lettera (a|al|alla) (\\$\\w+), (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter to \\2, to \\4 and to \\6",
-    "nl_NL": "Brief aan \\2, aan \\4 en aan \\6"
-  },
   "Lettera (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter to \\2",
     "nl_NL": "Brief aan \\2"
+  },
+  "Lettera (a|al|alla) (\\$\\w+), (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter to \\2, to \\4 and to \\6",
+    "nl_NL": "Brief aan \\2, aan \\4 en aan \\6"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) \\(cifrata\\)$": {
     "en_GB": "Letter of \\2 to \\4 (encrypted)",
@@ -2524,6 +2548,10 @@
     "en_GB": "Osservations Preliminarire",
     "nl_NL": "Osservations Preliminarire"
   },
+  "Osservazione estratte da una lettera di Firenze$": {
+    "en_GB": "Observations extracted from a letter from Florence",
+    "nl_NL": "Observaties gehaald uit een brief uit Florence"
+  },
   "Osservazioni$": {
     "en_GB": "Observations",
     "nl_NL": "Observaties"
@@ -3236,9 +3264,25 @@
     "en_GB": "Transcription of an appeal to the Dutch people",
     "nl_NL": "Vertaling van een appel aan het Nederlandse volk"
   },
+  "Trascrizione di un articolo estratto da L'Indépendance Belge$": {
+    "en_GB": "Trascription of an extract of an article from the L'Indépendance Belge",
+    "nl_NL": "Transcriptie van een uittreksel van een artikel uit de L'Indépendance Belge"
+  },
+  "Trascrizione di un articolo estratto dal Journal des Débats$": {
+    "en_GB": "Trascription of an extract of an article from the Journal des Débats",
+    "nl_NL": "Transcriptie van een uittreksel van een artikel uit de Journal des Débats"
+  },
+  "Trascrizione di un articolo estratto dal Monitore Toscano$": {
+    "en_GB": "Trascription of an extract of an article from the Monitore Toscano",
+    "nl_NL": "Transcriptie van een uittreksel van een artikel uit de Monitore Toscano"
+  },
   "Trascrizione di un bando di concorso per l'Accademia di Belle Arti di Roma$": {
     "en_GB": "Transcription of a competition announcement of the _Accademia di Belle Arti di Roma_",
     "nl_NL": "Transcriptie van een wedstrijdaankondiging van de _Accademia di Belle Arti di Roma_"
+  },
+  "Trascrizione di un concordato del 1851 (a|al|alla) (\\$\\w+) estratto dalla stampa del 4 agosto 1851$": {
+    "en_GB": "Transcription of a concordat of 1851 to \\2 extracted from the newspaper of 4 August 1851",
+    "nl_NL": "Transcriptie van een concordaat van 1851 aan \\2 gehaald uit een krant van 4 augustus 1851"
   },
   "Trascrizione di un estratto dal Journal Officiel du Royaume des Pays-Bas$": {
     "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",

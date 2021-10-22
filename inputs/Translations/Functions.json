@@ -1664,6 +1664,10 @@
     "en_GB": "Auditor of the _Magistrato di Sanità_ of Genoa",
     "nl_NL": "Auditor van het _Magistrato di Sanità_ van Genua"
   },
+  "Soprassindico di Firenze": {
+    "en_GB": "Magistrate auditor of Firenze",
+    "nl_NL": "Magistraat-auditeur van Florence"
+  },
   "Sostituto ad interim della seconda sezione della Segreteria di Stato": {
     "en_GB": "Interim substitute for Relations with States of the Secretariat of State of the Holy See",
     "nl_NL": "Ad interim substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel"
@@ -1783,6 +1787,10 @@
   "Vice-console del Regno dei Paesi Bassi a Lisbona": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Lisbon",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Lissabon"
+  },
+  "Vice-console del Regno dei Paesi Bassi a Livorno": {
+    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Livorno",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Livorno"
   },
   "Vice-console del Regno dei Paesi Bassi a Malta": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Malta",

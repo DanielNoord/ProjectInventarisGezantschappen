@@ -1566,6 +1566,25 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Brancadori": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Soprassindico di Firenze", null]],
+    "images": [],
+    "name": "G",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Leggi del Gran-Ducato della Toscana (Stamperia Gran-Ducale: Firenze, 1818), 121"
+    ],
+    "surname": "Brancadori",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Brandini": {
     "ISNI:id": null,
     "comment_daniel": "Noot laat zien dat dit regiment in Carignano was gestationeerd, ook in het jaar daarna. Toch volgen we de inventaris denk ik?",
@@ -1866,19 +1885,21 @@
     ],
     "wikidata:id": "Q2254673"
   },
-  "$Callamandi": {
+  "$Callamand": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information. Could also be Callamani",
+    "comment_daniel": "Was consul at the same time as De Yongh/same legation (at Livorno)",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Vice-console del Regno dei Paesi Bassi a Livorno", null]],
     "images": [],
-    "name": "M",
-    "person_type": 2,
+    "name": "Massimo",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Almanacco Toscano per l'anno 1851 (Stamperia Granducale: Firenze, 1851), 31"
+    ],
     "surname": "Callamandi",
     "titles": [],
     "wikidata:id": null
@@ -1994,7 +2015,7 @@
   "$Cankrien": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "1802",
+    "date_of_birth": "1802-04-22",
     "date_of_death": "1890-12-26",
     "functions": [
       ["Console del Regno dei Paesi Bassi a Marsiglia", "1843-04-13/1853"]
@@ -2008,6 +2029,7 @@
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 348"
     ],
     "sources_other": [
+      "Epen, Didericus Gijsbertus van, Nederland's Patriciaat. Vol. 16 (Centraal bureau voor genealogie en heraldick.: Den Haag, 1926), p. 47.",
       "van Hoboken, Alex Appelius, 'Richard Christoffel Cankrien', in: Genealogie van de Hobokens (2020-08-10), found on: http://genealogie.vanhoboken.nl/getperson.php?personID=I12444&tree=Hoboken (retrieved on 2021-05-13)"
     ],
     "surname": "Cankrien",
