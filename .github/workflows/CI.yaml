@@ -65,6 +65,8 @@ jobs:
         sudo locale-gen en_GB.UTF-8
         sudo locale-gen nl_NL.UTF-8
     - name: Execute ci_script_check_making_database
+      env: 
+        ONEDRIVE_LINK: ${{ secrets.ONEDRIVE_LINK }}
       run: |
         python3 python/ci_script_check_making_database.py
     - id: get-comment-body-titles
