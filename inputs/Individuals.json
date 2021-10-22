@@ -5432,6 +5432,25 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Kerfbijl": {
+    "ISNI:id": null,
+    "comment_daniel": "Doneerde honderd frank voor de watersnoodramp. Het is aannemelijk dat dit de zoon is van Diederik Kerfbijl, consul te Livorno (http://resources.huygens.knaw.nl/retroboeken/schutte/#page=479&accessor=accessor_index&view=imagePane&accessor_href=http%3A%2F%2Fresources.huygens.knaw.nl%2Fretroboeken%2Fschutte%2Faccessor_index%2Findex_html%3Fpage%3D0%26source%3D1%26id%3Daccessor_index&size=1219&source=2)",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J.P.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Swart, Nicolaas, Historisch Tafereel van den Zwaren Watersnood (Schalekamp en van de Grampel: Amsterdam, 1826), p. 369."
+    ],
+    "sources_other": [],
+    "surname": "Kerfbijl",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Kestner": {
     "ISNI:id": "0000 0000 8146 6347",
     "comment_daniel": "",
