@@ -1,8 +1,6 @@
 name: CI
 on:
   push:
-    branches:
-      - main
   pull_request:
 jobs:
   Run_json_control_database:
@@ -49,3 +47,68 @@ jobs:
             echo "Retry by doing ctrl+S on individuals.json and waiting a bit longer for formatting to complete."
             exit 1
           fi
+  Create_database:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo content
+      uses: actions/checkout@v2
+    - name: Setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        pip install -r requirements-tests.txt
+    - name: Reconfigure locales
+      run: |
+        sudo locale-gen it_IT.UTF-8
+        sudo locale-gen en_GB.UTF-8
+        sudo locale-gen nl_NL.UTF-8
+    - name: Execute ci_script_check_making_database
+      env: 
+        ONEDRIVE_LINK: ${{ secrets.ONEDRIVE_LINK }}
+      run: |
+        python3 python/ci_script_check_making_database.py
+    - id: get-comment-body-titles
+      run: |
+        body=$(cat outputs/missing_titles)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create titles commit comment
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          These are the currently missing titles:
+        
+          ${{ steps.get-comment-body-titles.outputs.body }}
+    - id: get-comment-body-placenames
+      run: |
+        body=$(cat outputs/missing_placenames)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create placenames commit comment
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          These are the currently missing placenames:
+        
+          ${{ steps.get-comment-body-placenames.outputs.body }}
+    - id: get-comment-body-translations
+      run: |
+        body=$(cat outputs/missing_translations)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create translations commit comment
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          These are the currently missing translations:
+        
+          ${{ steps.get-comment-body-translations.outputs.body }}
+    

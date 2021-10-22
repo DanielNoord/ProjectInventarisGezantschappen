@@ -25,4 +25,7 @@ def add_geognames(
             geogname, "geographiccoordinates", {"coordinatesystem": "WGS84"}
         ).text = f"{data['latitude']}, {data['longitude']}"
     except KeyError:
-        print(place)
+        with open("outputs/missing_placenames", "a", encoding="utf-8") as file:
+            c01 = parent_element.getparent().getparent().getparent().getparent().getparent()  # type: ignore
+            volume = c01.getchildren()[0].getchildren()[0].text  # type: ignore
+            print(f"|Vol: {volume}|{place}", file=file)
