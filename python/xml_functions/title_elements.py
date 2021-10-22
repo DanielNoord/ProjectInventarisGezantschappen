@@ -76,9 +76,6 @@ def add_unittitle(
                     f"At {pattern} found the following error: {error}"
                 ) from error
             used_trans = pattern
-    if not used_trans:
-        print("Missing translation for:")
-        print(title)
 
     title_it = fill_in_name(title_it, database, date, "it_IT")
     title_en = fill_in_name(title_en, database, date, "en_GB")

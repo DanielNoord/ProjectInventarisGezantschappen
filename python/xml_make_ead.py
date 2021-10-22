@@ -177,6 +177,23 @@ def create_xml_file(dir_name: str) -> None:
     print("XML-DTD check complete!")
 
 
+def create_output_files() -> None:
+    """Creates some files to store messages during the creation process"""
+    with open("outputs/missing_translations", "w", encoding="utf-8") as file:
+        file.writelines(
+            "|no.  |Missing translations |\n" "| ------------- | ------------- |\n"
+        )
+    with open("outputs/missing_titles", "w", encoding="utf-8") as file:
+        file.writelines(
+            "|no.  |Missing titles |\n" "| ------------- | ------------- |\n"
+        )
+    with open("outputs/missing_placenames", "w", encoding="utf-8") as file:
+        file.writelines(
+            "|no.  |Missing placenames |\n" "| ------------- | ------------- |\n"
+        )
+
+
 if __name__ == "__main__":
+    create_output_files()
     create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
     create_xml_file("outputs/VolumesExcelSanitized/it_IT")

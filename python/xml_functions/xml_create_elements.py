@@ -146,6 +146,11 @@ def file_entry(
         file_did, file_data.title, database, file_data.date_string
     )
 
+    if not used_trans:
+        with open("outputs/missing_translations", "a", encoding="utf-8") as file:
+            volume = parent_element.getchildren()[0].getchildren()[0].text
+            print(f"|{volume}.{file_data.page}|{file_data.title}", file=file)
+
     # Date
     date_data = create_date_data(file_data.date_string)
     add_unitdate(file_did, file_data.date_string, date_data)

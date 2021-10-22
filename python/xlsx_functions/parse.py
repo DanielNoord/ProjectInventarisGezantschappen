@@ -20,7 +20,8 @@ def parse_volume(vol: tuple[Cell, ...]) -> VolData:
     vol_num = re.findall(r"ms(.*?)_.*", vol[0].value)[0]
     title = str(vol[1].value)
     if title == "None":
-        print("Missing volume title for:", vol_num)
+        with open("outputs/missing_titles", "a", encoding="utf-8") as file:
+            print(f"|Vol: {vol_num}|Missing a volume title", file=file)
     vol_date = f"{vol[2].value or ''}/{vol[3].value or ''}"
     return VolData(vol_num, title, vol_date)
 
@@ -53,10 +54,17 @@ def parse_dossier(  # pylint: disable=too-many-branches
     if start_cell.value.endswith("_title") and start_cell.row:
         dos_title = str(sheet["B"][int(start_cell.row) - 1].value)
         if dos_title == "None":
-            print(f"Vol: {vol_num} Dos: {dos_number} is missing a dossier title")
+            with open("outputs/missing_titles", "a", encoding="utf-8") as file:
+                print(
+                    f"|Vol: {vol_num} Dos: {dos_number} |Missing a dossier title",
+                    file=file,
+                )
     else:
         dos_title = "Missing dossier title"
-        warn(f"Vol: {vol_num} Dos: {dos_number} is missing a dossier title")
+        with open("outputs/missing_titles", "a", encoding="utf-8") as file:
+            print(
+                f"|Vol: {vol_num} Dos: {dos_number}|Missing a dossier title", file=file
+            )
 
     ## Find earliest and latest data
     early_date: tuple[
