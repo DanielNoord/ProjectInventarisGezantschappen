@@ -64,9 +64,9 @@ jobs:
         sudo locale-gen it_IT.UTF-8
         sudo locale-gen en_GB.UTF-8
         sudo locale-gen nl_NL.UTF-8
-    - name: Execute CI_check_making_database
+    - name: Execute ci_script_check_making_database
       run: |
-        python3 python/CI_check_making_database.py
+        python3 python/ci_script_check_making_database.py
     - id: get-comment-body-titles
       run: |
         body=$(cat outputs/missing_titles)
