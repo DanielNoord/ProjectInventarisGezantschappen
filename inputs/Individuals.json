@@ -120,7 +120,7 @@
     ],
     "images": [],
     "name": "Henrick",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Amsterdam",
     "place_of_death": "Genova",
     "sources": [
@@ -441,7 +441,7 @@
     ],
     "images": [],
     "name": "Pier Domenico",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -652,7 +652,7 @@
     "functions": [],
     "images": [],
     "name": "C.",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -710,7 +710,7 @@
     ],
     "images": [],
     "name": "Gaetano",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Senigallia",
     "place_of_death": "Viterbo",
     "sources": [
@@ -872,7 +872,7 @@
     ],
     "images": [],
     "name": "Giuseppe",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Ceccano",
     "place_of_death": "",
     "sources": [
@@ -976,7 +976,7 @@
     "functions": [],
     "images": [],
     "name": "Thomas",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -1016,7 +1016,7 @@
     "functions": [["Questore di Roma", null]],
     "images": [],
     "name": "Luigi",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Prignano sulla Secchia",
     "place_of_death": "Modena",
     "sources": [],
@@ -1055,7 +1055,7 @@
     "functions": [],
     "images": [],
     "name": "Ercole Silva",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "Milano",
     "place_of_death": "Cinisello",
     "sources": [
@@ -1074,7 +1074,7 @@
     "functions": [],
     "images": [],
     "name": "Dominique",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -1160,7 +1160,7 @@
     ],
     "images": [],
     "name": "Frédéric Georges Prosper",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Parigi",
     "place_of_death": "Contrexéville",
     "sources": [
@@ -1812,7 +1812,7 @@
       "Moscati, Ruggero (ed.), Le Scritture della Segreteria di Stato degli Affari Esteri del Regno di Sardegna. Vol. 1 (Tipografia Riservata del Ministero degli Affari Esteri: Roma, 1947), p. 18, found on: https://www.esteri.it/mae/resource/doc/2017/05/scritt_segr_stato_mae_regno_sardegna.pdf"
     ],
     "sources_other": [],
-    "surname": "De Buttet",
+    "surname": "de Buttet",
     "titles": [["Cav.", null]],
     "wikidata:id": null
   },
@@ -1852,7 +1852,7 @@
     "functions": [["Pittore", null]],
     "images": [],
     "name": "Ippolito",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Belluno",
     "place_of_death": "Lissa",
     "sources": [
@@ -1988,7 +1988,7 @@
   },
   "$CanitzIA": {
     "ISNI:id": "0000 0000 1401 5570",
-    "comment_daniel": "Ik vind het erg onwaarschijnlijk dat er een “de Canitz” zaakgelastigde van Nederland was zoals vermeld wordt in archief: 1) in de periode van vermelding was er een Canitz zaakgelastigde van Pruissen, 2) wordt er een von Canitz kamerheer van Pruissen genoemd in het archief, 3) is Liedekerke gezant van Nederland. Ik denk dus dat deze de Canitz en von Canitz dezelfde zijn en in dienst van Pruissen werkte",
+    "comment_daniel": "Ik vind het erg onwaarschijnlijk dat er een “de Canitz” zaakgelastigde van Nederland was zoals vermeld wordt in archief: 1) in de periode van vermelding was er een Canitz zaakgelastigde van Pruissen, 2) wordt er een von Canitz kamerheer van Pruissen genoemd in het archief, 3) is Liedekerke gezant van Nederland. Dit lijkt dus de zoon van bovengenoemde die inderdaad gezant was.",
     "date_of_birth": "1812",
     "date_of_death": "1894",
     "functions": [
@@ -2033,23 +2033,6 @@
       "van Hoboken, Alex Appelius, 'Richard Christoffel Cankrien', in: Genealogie van de Hobokens (2020-08-10), found on: http://genealogie.vanhoboken.nl/getperson.php?personID=I12444&tree=Hoboken (retrieved on 2021-05-13)"
     ],
     "surname": "Cankrien",
-    "titles": [],
-    "wikidata:id": null
-  },
-  "$Cappa": {
-    "ISNI:id": null,
-    "comment_daniel": "REMOVE!!!",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
-    "images": [],
-    "name": "",
-    "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
-    "surname": "Cappa",
     "titles": [],
     "wikidata:id": null
   },
@@ -2187,7 +2170,7 @@
     ],
     "images": [],
     "name": "Hubertus Jacobus",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Maastricht",
     "place_of_death": "Roma",
     "sources": [
@@ -2253,7 +2236,7 @@
     ],
     "images": [],
     "name": "Giuseppe",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -2477,7 +2460,7 @@
     ],
     "images": [],
     "name": "Louis Gabriël Jean François de Paule",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Hovorany",
     "place_of_death": "Nizza",
     "sources": [
@@ -2631,7 +2614,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Firenze",
     "place_of_death": "Roma",
     "sources": [
@@ -2678,7 +2661,7 @@
     ],
     "images": [],
     "name": "Luigi Provana",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Torino",
     "place_of_death": "Torino",
     "sources": [
@@ -2747,7 +2730,7 @@
     ],
     "images": [],
     "name": "Patrice Charles Ghislain",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Bruges",
     "place_of_death": "Bruges",
     "sources": [
@@ -2816,7 +2799,7 @@
     ],
     "images": [],
     "name": "J.E.",
-    "person_type": 3,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -2974,7 +2957,7 @@
       "https://rkd.nl/explore/images/171245"
     ],
     "name": "Epimachus Jacobus Johannes Baptista",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Groninga",
     "place_of_death": "Zurigo",
     "sources": [
@@ -3065,7 +3048,7 @@
     ],
     "images": [],
     "name": "Ferdinando",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -3102,16 +3085,17 @@
     "ISNI:id": null,
     "comment_daniel": "last name sometimes written down as Decessel or Debessele because people can't spell",
     "date_of_birth": "1789-07-04",
-    "date_of_death": "",
-    "functions": [["Vescovo di Namur", "1836/"]],
+    "date_of_death": "1865-08-15",
+    "functions": [["Vescovo di Namur", "1836-03-13/1865-08-15"]],
     "images": [],
     "name": "Niccola Giuseppe",
     "person_type": 1,
     "place_of_birth": "Charneux",
-    "place_of_death": "",
+    "place_of_death": "Namur",
     "sources": [],
     "sources_other": [
-      "'Annuario Pontificio del 1860' (Tipografia della R.C.A.: Roma, 1860), p. 162"
+      "'Annuario Pontificio del 1860' (Tipografia della R.C.A.: Roma, 1860), p. 162",
+      "https://fr.wikipedia.org/wiki/Nicolas-Joseph_Dehesselle"
     ],
     "surname": "Deheselle",
     "titles": [["vescovo", "1836/"]],
@@ -3966,7 +3950,7 @@
       "https://commons.wikimedia.org/wiki/File:Gaspard_De_La_Fontaine.jpg"
     ],
     "name": "Gaspard-Théodore-Ignace",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Lussemburgo",
     "place_of_death": "Lussemburgo",
     "sources": [
@@ -4300,7 +4284,7 @@
     "functions": [],
     "images": [],
     "name": "Theodore",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -4317,7 +4301,7 @@
     "functions": [],
     "images": [],
     "name": "Maurice",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -4587,7 +4571,7 @@
       "https://www.beweb.chiesacattolica.it/benistorici/bene/7114619/"
     ],
     "name": "Giacomo",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Roma",
     "place_of_death": "Roma",
     "sources": [
@@ -4641,7 +4625,7 @@
     ],
     "images": ["https://rkd.nl/explore/images/177418"],
     "name": "Louis Napoleon",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Loosduinen",
     "place_of_death": "L'Aia",
     "sources": [
@@ -4687,7 +4671,7 @@
     ],
     "images": [],
     "name": "Jan Karel",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Arnhem",
     "place_of_death": "L'Aia",
     "sources": [
@@ -4726,7 +4710,7 @@
     "functions": [["Pretendente del Ducato di Mantova", null]],
     "images": [],
     "name": "Alessandro Murzynowski",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Dresda",
     "place_of_death": "Parigi",
     "sources": [],
@@ -4745,7 +4729,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Belluno",
     "place_of_death": "Roma",
     "sources": [
@@ -4793,7 +4777,7 @@
     "functions": [["Vicario Apostolico a Batavia", null]],
     "images": ["https://rkd.nl/explore/images/58600"],
     "name": "Jacobus",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Amsterdam",
     "place_of_death": "Paramaribo",
     "sources": [
@@ -4917,7 +4901,7 @@
       "https://rkd.nl/explore/images/262374"
     ],
     "name": "Floris Adriaan",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Amsterdam",
     "place_of_death": "L'Aia",
     "sources": [
@@ -4944,7 +4928,7 @@
     ],
     "images": [],
     "name": "A.L.E.G.",
-    "person_type": 1,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -5115,7 +5099,7 @@
     ],
     "images": [],
     "name": "Elias",
-    "person_type": 2,
+    "person_type": 0,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -5142,7 +5126,7 @@
     ],
     "images": ["https://rkd.nl/explore/images/231871"],
     "name": "Fredrik Philip",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Como",
     "place_of_death": "Venezia",
     "sources": [
@@ -5171,7 +5155,7 @@
       "https://rkd.nl/explore/images/169826"
     ],
     "name": "Johan Willem",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Middelburg",
     "place_of_death": "Parigi",
     "sources": [
@@ -5222,7 +5206,7 @@
     "functions": [],
     "images": [],
     "name": "Louis",
-    "person_type": 2,
+    "person_type": 5,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -5919,13 +5903,13 @@
   },
   "$LeColonel": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Le Colonel is een bijnaam. Wellicht leuk om een biografie over te schrijven.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [["Comandante del reggimento degli Zuavi pontifici", null]],
     "images": [],
     "name": "Eugenio Giuseppe",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -6039,7 +6023,7 @@
     ],
     "images": [],
     "name": "Leonardus Antonius",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "'s-Hertogenbosch",
     "place_of_death": "Hyères",
     "sources": [
@@ -6452,7 +6436,7 @@
     "functions": [],
     "images": [],
     "name": "Francesco",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Diacceto",
     "place_of_death": "Nyon",
     "sources": [
@@ -6496,7 +6480,7 @@
     ],
     "images": [],
     "name": "Paul Therèse",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Maastricht",
     "place_of_death": "Maastricht",
     "sources": [
@@ -6527,7 +6511,7 @@
     ],
     "images": [],
     "name": "Paolo Emilio",
-    "person_type": 2,
+    "person_type": 0,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -7256,7 +7240,7 @@
     ],
     "images": ["https://collections.louvre.fr/ark:/53355/cl020625454"],
     "name": "Georges",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -7594,7 +7578,7 @@
       "https://rkd.nl/explore/images/126784"
     ],
     "name": "Anne Willem Carel",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "L'Aia",
     "place_of_death": "L'Aia",
     "sources": [
@@ -7730,7 +7714,7 @@
       "https://commons.wikimedia.org/wiki/File:Neipperg-adamalbert1810.jpg"
     ],
     "name": "Adam Albert",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Vienna",
     "place_of_death": "Parma",
     "sources": [
@@ -8760,7 +8744,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Senigallia",
     "place_of_death": "Roma",
     "sources": [
@@ -8779,7 +8763,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Cesena",
     "place_of_death": "Roma",
     "sources": [
@@ -8798,7 +8782,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Cingoli",
     "place_of_death": "Roma",
     "sources": [
@@ -9497,7 +9481,7 @@
     ],
     "images": [],
     "name": "Louis",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Aix-en-Provence",
     "place_of_death": "Marsiglia",
     "sources": [
@@ -9867,7 +9851,7 @@
     ],
     "images": [],
     "name": "Vincenzo",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Gorga",
     "place_of_death": "Rocca di Papa",
     "sources": [
@@ -9898,7 +9882,7 @@
       "https://rkd.nl/explore/images/220436"
     ],
     "name": "James Albert Henry",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Grave",
     "place_of_death": "L'Aia",
     "sources": [
@@ -10170,7 +10154,7 @@
       "https://rkd.nl/explore/images/234049"
     ],
     "name": "Willem Anne",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Doesburg",
     "place_of_death": "Voorst",
     "sources": [
@@ -10369,7 +10353,7 @@
       "https://rkd.nl/explore/images/146816"
     ],
     "name": "Johan Gijsbert",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Rotterdam",
     "place_of_death": "Zoelen",
     "sources": [
@@ -10462,7 +10446,7 @@
     ],
     "images": [],
     "name": "Herman",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Zwolle",
     "place_of_death": "Heino",
     "sources": [
@@ -10823,7 +10807,7 @@
     ],
     "images": ["https://rkd.nl/explore/images/133061"],
     "name": "Martin Pascal Hubert",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Roermond",
     "place_of_death": "Maastricht",
     "sources": [
@@ -10848,7 +10832,7 @@
     ],
     "images": [],
     "name": "Francesco",
-    "person_type": 0,
+    "person_type": 1,
     "place_of_birth": "Roma",
     "place_of_death": "Frascati",
     "sources": [
@@ -11475,7 +11459,7 @@
   },
   "$Verbruggen": {
     "ISNI:id": null,
-    "comment_daniel": "https://gw.geneanet.org/pmverriest?lang=fr&pz=paul+marie+edmond&nz=verriest&p=melanie&n=sturbaut&oc=2",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "1817-02-01",
     "functions": [],
@@ -11485,7 +11469,9 @@
     "place_of_birth": "",
     "place_of_death": "Genova",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "https://gw.geneanet.org/pmverriest?lang=fr&pz=paul+marie+edmond&nz=verriest&p=melanie&n=sturbaut&oc=2"
+    ],
     "surname": "Verbruggen",
     "titles": [],
     "wikidata:id": null
@@ -11584,7 +11570,7 @@
     ],
     "images": [],
     "name": "Emilio",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Milano",
     "place_of_death": "Roma",
     "sources": [
@@ -12018,7 +12004,7 @@
       "https://rkd.nl/explore/images/164998"
     ],
     "name": "Jacob Pieter Pompejus",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Dordrecht",
     "place_of_death": "L'Aia",
     "sources": [
@@ -12050,7 +12036,7 @@
     ],
     "images": [],
     "name": "Julius Philip Jacob Adriaan",
-    "person_type": 1,
+    "person_type": 0,
     "place_of_birth": "Dommeldange",
     "place_of_death": "L'Aia",
     "sources": [
