@@ -1,7 +1,7 @@
 import re
 from typing import Literal, Optional
 
-from data_parsing import name_string
+from data_parsing import control_title, name_string
 from lxml import etree
 from typing_utils import Database
 
@@ -91,6 +91,10 @@ def add_unittitle(
         title_it = fix_quotes(title_it)
         title_en = fix_quotes(title_en)
         title_nl = fix_quotes(title_nl)
+
+    control_title(title_it, parent_element)
+    control_title(title_en, parent_element)
+    control_title(title_nl, parent_element)
 
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "it"}), title_it)
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "en"}), title_en)
