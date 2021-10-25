@@ -191,6 +191,10 @@ def create_output_files() -> None:
         file.writelines(
             "|no.  |Missing placenames |\n" "| ------------- | ------------- |\n"
         )
+    with open("outputs/title_errors", "w", encoding="utf-8") as file:
+        file.writelines(
+            "|no.  |Errors in titles |\n" "| ------------- | ------------- |\n"
+        )
 
 
 if __name__ == "__main__":

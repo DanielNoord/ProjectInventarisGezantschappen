@@ -1,6 +1,7 @@
 import asyncio
 import os
 from base64 import b64encode
+from typing import Optional
 
 import aiofiles
 import aiohttp
@@ -19,7 +20,7 @@ class OneDrive:
     `download() -> None`: fire async download of all files found in URL
     """
 
-    def __init__(self, url=None, path=None):
+    def __init__(self, url: Optional[str] = None, path: Optional[str] = None) -> None:
         if not (url and path):
             raise ValueError("URL to shared resource or path to download is missing.")
 
@@ -39,10 +40,10 @@ class OneDrive:
             }
         )
 
-    def _token(self, url):
+    def _token(self, url: str) -> str:
         return "u!" + b64encode(url.encode()).decode()
 
-    def _traverse_url(self, url, name=""):
+    def _traverse_url(self, url: str, name: str = "") -> None:
         """Traverse the folder tree and store leaf urls with filenames"""
 
         r = self.session.get(f"{self.prefix}{url}{self.suffix}").json()
@@ -50,7 +51,7 @@ class OneDrive:
 
         # shared file
         if not r["children"]:
-            file = {}
+            file: dict[str, str] = {}
             file["name"] = name.lstrip(os.sep)
             file["url"] = r["@content.downloadUrl"]
             self.to_download.append(file)
@@ -76,7 +77,9 @@ class OneDrive:
                 self.to_download.append(file)
                 print(f"Found {file['name']}")
 
-    async def _download_file(self, file, session):
+    async def _download_file(
+        self, file: dict[str, str], session: aiohttp.ClientSession
+    ) -> None:
         async with session.get(file["url"], timeout=None) as r:
             filename = os.path.join(self.path, file["name"])
             os.makedirs(os.path.dirname(filename), exist_ok=True)
@@ -89,15 +92,15 @@ class OneDrive:
         progress = int(self.downloaded / len(self.to_download) * 100)
         print(f"Download progress: {progress}%")
 
-    async def _downloader(self):
+    async def _downloader(self) -> None:
         async with aiohttp.ClientSession() as session:
             await asyncio.wait(
                 [self._download_file(file, session) for file in self.to_download]
             )
 
-    def download(self):
+    def download(self) -> None:
         print("Traversing public folder\n")
-        self.to_download = []
+        self.to_download: list[dict[str, str]] = []
         self.downloaded = 0
         self._traverse_url(self.compiled_url)
 

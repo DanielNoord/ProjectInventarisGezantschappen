@@ -1,10 +1,10 @@
-name: CI
+name: Database controls
 on:
   push:
-  pull_request:
 jobs:
   Run_json_control_database:
     runs-on: ubuntu-latest
+    name: Controls of database
     steps:
     - name: Checkout repo content
       uses: actions/checkout@v2
@@ -32,6 +32,7 @@ jobs:
           exit 1
         fi
   Check_sorting_of_individuals:
+    name: Check sorting of Individuals.json
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo content

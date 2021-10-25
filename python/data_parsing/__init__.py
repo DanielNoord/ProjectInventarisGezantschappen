@@ -1,3 +1,4 @@
+from data_parsing.control_title_string import control_title
 from data_parsing.create_full_name_string import full_name_with_database
 from data_parsing.create_name_string import name_string
 from data_parsing.json_translate import (
@@ -10,4 +11,5 @@ __all__ = [
     "name_string",
     "initialize_translation_database",
     "initialize_database_for_xml",
+    "control_title",
 ]

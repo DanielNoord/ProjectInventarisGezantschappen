@@ -1,7 +1,7 @@
 import re
 from typing import Literal, Optional
 
-from data_parsing import name_string
+from data_parsing import control_title, name_string
 from lxml import etree
 from typing_utils import Database
 
@@ -21,13 +21,15 @@ def fill_in_name(
                     database.individuals[word], date, database, localization
                 )
             except KeyError as error:
-                raise KeyError(f"Incorrect identifier {error} in {title}") from error
+                raise KeyError(
+                    f"Don't recognize identifier {error} in {title}"
+                ) from error
     return "".join(title_split)
 
 
 def fix_quotes(title: str) -> str:
     """Change the double quotes in a title to be “ or ” based on occurence"""
-    for occurence, quote_match in enumerate(re.finditer(r"\"|“|”", title)):
+    for occurence, quote_match in enumerate(re.finditer(r"\"|“|”|'", title)):
         if occurence % 2:
             quote = "”"
         else:
@@ -83,14 +85,16 @@ def add_unittitle(
 
     # Add and check italics
     if sum("_" in i for i in (title_it, title_en, title_nl)) == 1:
-        raise ValueError(
-            f"Italics indication is not the same for English and Dutch translation of {title}"
-        )
+        raise ValueError(f"Only one language has italtics indication for {title}")
 
-    if re.match(r"\"|“|”", title_it):
+    if re.search(r"\"|“|”|'", title_it):
         title_it = fix_quotes(title_it)
         title_en = fix_quotes(title_en)
         title_nl = fix_quotes(title_nl)
+
+    control_title(title_it, parent_element)
+    control_title(title_en, parent_element)
+    control_title(title_nl, parent_element)
 
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "it"}), title_it)
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "en"}), title_en)

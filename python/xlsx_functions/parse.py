@@ -1,7 +1,6 @@
 import re
 from datetime import date
 from typing import Union
-from warnings import warn
 
 from date_functions import (
     check_date_earlier,
