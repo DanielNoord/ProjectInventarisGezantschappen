@@ -148,7 +148,7 @@ def file_entry(
 
     if not used_trans:
         with open("outputs/missing_translations", "a", encoding="utf-8") as file:
-            volume = parent_element.getchildren()[0].getchildren()[0].text
+            volume = parent_element.getchildren()[0].getchildren()[0].text  # type: ignore
             print(f"|{volume}.{file_data.page}|{file_data.title}", file=file)
 
     # Date
