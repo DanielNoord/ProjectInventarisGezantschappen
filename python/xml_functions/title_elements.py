@@ -21,7 +21,9 @@ def fill_in_name(
                     database.individuals[word], date, database, localization
                 )
             except KeyError as error:
-                raise KeyError(f"Incorrect identifier {error} in {title}") from error
+                raise KeyError(
+                    f"Don't recognize identifier {error} in {title}"
+                ) from error
     return "".join(title_split)
 
 
@@ -83,9 +85,7 @@ def add_unittitle(
 
     # Add and check italics
     if sum("_" in i for i in (title_it, title_en, title_nl)) == 1:
-        raise ValueError(
-            f"Italics indication is not the same for English and Dutch translation of {title}"
-        )
+        raise ValueError(f"Only one language has italtics indication for {title}")
 
     if re.match(r"\"|“|”", title_it):
         title_it = fix_quotes(title_it)
