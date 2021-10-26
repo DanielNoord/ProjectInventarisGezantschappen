@@ -1429,6 +1429,25 @@
     "titles": [],
     "wikidata:id": "Q3292154"
   },
+  "$Bouquie": {
+    "ISNI:id": null,
+    "comment_daniel": "Bouquié was een Belgische familie die zich uiteindelijk te Eibergen vestigde, waar Jean Baptiste Paul (de vader van onze Bouquié) een textielfabriek oprichtte. Volgens Te Vaarwerk was ofwel Jean Baptiste Paul ofwel Armand zelf een belangrijk informant van de koning van NL over de ontwikkelingen in België, vlak na de scheiding. Hij specifieert ook dat Armand in 1840 naar Frankrijk vertrok, wat verklaart waarom hij als titel 'fournissuer d'armée Française krijgt'.",
+    "date_of_birth": "1810-11-17",
+    "date_of_death": "",
+    "functions": [["Fornitore dell'esercito Francese", null]],
+    "images": [],
+    "name": "Jean Baptiste Gustave Armand",
+    "person_type": 1,
+    "place_of_birth": "Bruxelles",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Te Vaarwerk, Bennie, 'Geschiedenis van de 'oude' N18. Jean Baptiste Paul Bouquié, of hoe een Belg aartsvader van de Eibergse textiel werd', found on: https://adoc.pub/geschiedenis-van-de-oude-n18-1-jean-baptiste-paul-bouquie-of.html"
+    ],
+    "surname": "Bouquié",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$BourbonFeI": {
     "ISNI:id": "0000 0000 7972 4538",
     "comment_daniel": "",
@@ -2034,6 +2053,26 @@
     ],
     "surname": "Cankrien",
     "titles": [],
+    "wikidata:id": null
+  },
+  "$Cappa": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Vice-console del Regno dei Paesi Bassi a Savona", null]],
+    "images": [],
+    "name": "Paolo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Calendario Generale del Regno pel 1853 (Tipografia Sociale degli Artisti A. Pons e C.: Torino, 1853), p. 32",
+      "Calendario Generale del Regno pel 1860 (Tipografia dell'Unione Tipografico-Editrice: Torino, 1860), p. 38"
+    ],
+    "surname": "Cappa",
+    "titles": [["avv.", null]],
     "wikidata:id": null
   },
   "$Capri": {
