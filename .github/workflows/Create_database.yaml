@@ -15,6 +15,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements-tests.txt
+        sudo apt-get install libxml2-utils
     - name: Reconfigure locales
       run: |
         sudo locale-gen it_IT.UTF-8
