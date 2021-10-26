@@ -27,6 +27,7 @@ class FileData(NamedTuple):
     title: str
     place: str
     date_string: str
+    file_name: str
 
 
 class DateTuple(NamedTuple):
