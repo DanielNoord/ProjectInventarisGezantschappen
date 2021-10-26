@@ -1,11 +1,15 @@
+**Forked from https://github.com/py-radicz/onedrive-sharedfolder-download**
+
+Updated in 2021 to work with the new standard of OneDrive links
+
 ### Description
 
 Asynchronously downloads contents of provided OneDrive **shared** folder/file url without authentication. 
 
 Works for:
-- Linux (tested)
-- Windows (tested)
-- most probably also for MacOS (not tested)
+- Linux (not tested)
+- Windows (not tested)
+- MacOS (tested)
 
 
 
