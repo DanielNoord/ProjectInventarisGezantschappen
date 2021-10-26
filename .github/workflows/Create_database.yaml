@@ -89,6 +89,7 @@ jobs:
           <details>
           <summary>
           Found the following erros in the created XML database.
+          </summary>
 
           Standard errors include:
 
@@ -97,6 +98,8 @@ jobs:
           ```python
           ${{ steps.get-xml-dtd-errors.outputs.body }}
           ```
+
+          </details>
 
     # Get input for commit comment
     - name: Get titles comment body
