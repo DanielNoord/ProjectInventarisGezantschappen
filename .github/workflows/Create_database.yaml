@@ -1,0 +1,152 @@
+name: XML Database Creation
+on:
+  push:
+jobs:
+  Create_database:
+    name: Create XML database
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo content
+      uses: actions/checkout@v2
+    - name: Setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        pip install -r requirements-tests.txt
+    - name: Reconfigure locales
+      run: |
+        sudo locale-gen it_IT.UTF-8
+        sudo locale-gen en_GB.UTF-8
+        sudo locale-gen nl_NL.UTF-8
+    - name: Execute ci_script_check_making_database
+      continue-on-error: true
+      env: 
+        ONEDRIVE_LINK: ${{ secrets.ONEDRIVE_LINK }}
+      run: |
+        python3 python/ci_script_check_making_database.py 2> outputs/STDERR 1> outputs/STDOUT
+    - name: Set no-error variable
+      id: STDERR
+      run: |
+        if [ $(wc -l < outputs/STDERR) -ge 2 ]
+        then
+          echo ::set-output name=full::true
+        else
+          echo ::set-output name=empty::true
+        fi
+
+    # Create commit comments
+    - name: Get error comment body
+      id: get-comment-body-error
+      if: ${{ steps.STDERR.outputs.full }}
+      run: |
+        body=$(cat outputs/STDERR)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create errors commit comment
+      if: ${{ steps.STDERR.outputs.full }}
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          **An error occurred when trying to create the database!**
+
+          The following was the error, contact Daniël if the error is not clear:
+        
+          ```python
+          ${{ steps.get-comment-body-error.outputs.body }}
+          ```
+    - name: Get titles comment body
+      id: get-comment-body-titles
+      if: ${{ steps.STDERR.outputs.empty }}
+      run: |
+        body=$(cat outputs/missing_titles)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Get placenames comment body
+      id: get-comment-body-placenames
+      if: ${{ steps.STDERR.outputs.empty }}
+      run: |
+        body=$(cat outputs/missing_placenames)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Get translations comment body
+      id: get-comment-body-translations
+      if: ${{ steps.STDERR.outputs.empty }}
+      run: |
+        body=$(cat outputs/missing_translations)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Get title errors comment body
+      id: get-title-errors-body-translations
+      if: ${{ steps.STDERR.outputs.empty }}
+      run: |
+        body=$(cat outputs/title_errors)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create commit comment
+      if: ${{ steps.STDERR.outputs.empty }}
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          <details>
+          <summary>
+          These are the currently missing titles:</summary>
+
+          ${{ steps.get-comment-body-titles.outputs.body }}
+          </details>
+    
+          <details>
+          <summary>
+          These are the currently missing placenames:</summary>
+        
+          ${{ steps.get-comment-body-placenames.outputs.body }}
+          </details>
+    
+          <details>
+          <summary>
+          These are the currently missing translations:</summary>
+        
+          ${{ steps.get-comment-body-translations.outputs.body }}
+          </details>
+    
+          <details>
+          <summary>
+          These are the errors found in titles:</summary>
+        
+          ${{ steps.get-title-errors-body-translations.outputs.body }}
+          </details>
+    - name: Get log comment body
+      id: get-log-body-translations
+      run: |
+        body=$(cat outputs/STDOUT)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create log commit comment
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          <details>
+          <summary>
+          This is the rest of the output log. Please check for additional errors:</summary>
+
+          ```python
+          ${{ steps.get-log-body-translations.outputs.body }}
+          ```
+    
+    # Actually fail on error
+    - name: Check if errors occurred
+      if: ${{ steps.STDERR.outputs.full }}
+      run: exit 1
