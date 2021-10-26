@@ -96,6 +96,14 @@
     "en_GB": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)",
     "nl_NL": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)"
   },
+  "\"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (The Hague, \\3 Aug. \\4)",
+    "nl_NL": "“\\1” (Den Haag, \\3 aug. \\4)"
+  },
+  "\"(.+)\" \\(L'Aia, A.J. van Weelden, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (The Hague, A.J. van Weelden, \\2)",
+    "nl_NL": "“\\1” (Den Haag, A.J. van Weelden, \\2)"
+  },
   "\"(.+)\" \\(Lussemburgo, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Luxembourg, \\2 Apr. \\3)",
     "nl_NL": "“\\1” (Luxemburg, \\2 apr. \\3)"
@@ -904,6 +912,10 @@
     "en_GB": "Extract from the Gazetta di Roma",
     "nl_NL": "Uittreksel uit de Gazetta di Roma"
   },
+  "Estratto del trattato di navigazione tra il Belgio e il Regno delle due Sicile$": {
+    "en_GB": "Extract from the treatise of navigation between Belgium and the Kingdom of the Two Sicilies",
+    "nl_NL": "Uittreksel uit het scheepsvaartverdrag tussen België en het Koninkrijk der Beide Siciliën"
+  },
   "Estratto della Gazzetta Universale di Augusta dei (\\d\\d?) gennaio (\\d\\d\\d\\d) n. (\\d+)$": {
     "en_GB": "Extract from the Gazzetta Universal di Augusta of January \\1, \\2 n. \\3",
     "nl_NL": "Uittreksel uit de Gazzetta Universal di Augusta van \\1 januari \\2 n. \\3"
@@ -1039,6 +1051,22 @@
   "Fasc. (\\d+) \"(.+)\". Lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Bundle \\1 “\\2”. Letter from \\4",
     "nl_NL": "Bundel \\1 “\\2”. Brief van \\4"
+  },
+  "Fasc. (\\d+). Convenzione addizionale del 1855. Lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Bundle \\1. Additional convention of 1855. Letter from \\4",
+    "nl_NL": "Bundel \\1. Aanvullende bijeenkomst van 1855. Brief van \\4"
+  },
+  "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Bundle \\1. Various documents. “\\2” (The Hague, \\3 Aug. \\4)",
+    "nl_NL": "Bundel \\1. Verschillende documenten. “\\2” (Den Haag, \\3 aug. \\4)"
+  },
+  "Fasc. (\\d+). Progetti e testo del trattato del 1848$": {
+    "en_GB": "Bundle \\1. Drafts and text of the treatise of 1848",
+    "nl_NL": "Bundel \\1. Concepten en tekst van het traktaat van 1848"
+  },
+  "Fasc. (\\d+). Ulteriore Trattato del 1852. \"(.+)\" \\(a stampa\\)$": {
+    "en_GB": "Bundle \\1. Ulterior Treatise of 1852. “\\2” (printed)",
+    "nl_NL": "Bundel \\1. Nieuw Traktaat van 1852. “\\2” (gedrukt)"
   },
   "Foggia di vestire il lutto prescritto da S.M. per la morte del (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Dress code for mourning from H.M. for the death of \\1 (printed)",
@@ -1672,6 +1700,10 @@
     "en_GB": "Journal des Débats politiques et littéraires (printed)",
     "nl_NL": "Journal des Débats politiques et littéraires (gedrukt)"
   },
+  "L'Echo Universel, Journal des Pays-Bas$": {
+    "en_GB": "L'Echo Universel, Journal des Pays-Bas",
+    "nl_NL": "L'Echo Universel, Journal des Pays-Bas"
+  },
   "Lasciapassare (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Laissez-passer from \\2 to \\4",
     "nl_NL": "Laissez-passer van \\2 aan \\4"
@@ -2068,6 +2100,10 @@
     "en_GB": "Confidential letter",
     "nl_NL": "Vertrouwelijke brief"
   },
+  "Lettera da Batavia priva di sottoscrizione$": {
+    "en_GB": "Letter from Batavia without subscripts",
+    "nl_NL": "Brief uit Batavia zonder onderschriften"
+  },
   "Lettera da Livorno$": {
     "en_GB": "Letter from Livorno",
     "nl_NL": "Brief van Livorno"
@@ -2196,6 +2232,10 @@
     "en_GB": "Memory of \\2",
     "nl_NL": "Memorie van \\2"
   },
+  "Memoria sugli Stati Uniti d'America$": {
+    "en_GB": "Memory on the United States of America",
+    "nl_NL": "Memorie over de Verenigde Staten van Amerika"
+  },
   "Memoria sui fatti accaduti in Lussemburgo$": {
     "en_GB": "Memory on things that happened in Luxembourg",
     "nl_NL": "Memorie over zaken die zich hebben voorgedaan in Luxemburg"
@@ -2208,9 +2248,17 @@
     "en_GB": "Memory on the negotiations with the Kingdom of Sardinia",
     "nl_NL": "Memorie over de onderhandelingen met het Koninkrijk Sardinië"
   },
+  "Memoria sull'Inghilterra$": {
+    "en_GB": "Memory on England",
+    "nl_NL": "Memorie over Engeland"
+  },
   "Memoria sulla legislazione vigente sui trattati di navigazione$": {
     "en_GB": "Memory on the valid legislation about treatises of navigation",
     "nl_NL": "Memorie over de geldige wetgeving aangaande scheepsvaarttraktaten"
+  },
+  "Memoria$": {
+    "en_GB": "Memory",
+    "nl_NL": "Memorie"
   },
   "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$": {
     "en_GB": "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Minister of Foreign Affairs. Correspondence with the Corps Diplomatique. Roman authorities. Consul of the Netherlands in Ancona, Civitavecchia, Livorno, Naples. Various pieces 1848-1849)",
@@ -2316,6 +2364,10 @@
     "en_GB": "Note from the commission for the census of Toscana",
     "nl_NL": "Nota van de commissie voor de volkstelling van Toscane"
   },
+  "Nota delle diligenze per Napoli$": {
+    "en_GB": "Note of the stage-coaches to Naples",
+    "nl_NL": "Nota van de postkoetsen naar Napels"
+  },
   "Nota delle navi in partenza da Civitavecchia$": {
     "en_GB": "Note about the ships departing Civitavecchia",
     "nl_NL": "Nota over de schepen die uit Civitavecchia vertrekken"
@@ -2379,6 +2431,10 @@
   "Nota sulle consistenze delle truppe Austriache e dei cavalli$": {
     "en_GB": "Note about the amounts of the Austrian troops and horses",
     "nl_NL": "Nota over de aantallen van de Oostentrijkse troepen en paarden"
+  },
+  "Nota$": {
+    "en_GB": "Note",
+    "nl_NL": "Nota"
   },
   "Note (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) circa l'archivio del Consolato del Regno dei Paesi Bassi trasportato a Parigi$": {
     "en_GB": "Notes of \\2 to \\4 about the archive of the Consulate of the Kingdom of the Netherlands, which is transported to Paris",
@@ -2584,6 +2640,10 @@
     "en_GB": "Observations extracted from a letter from Florence",
     "nl_NL": "Observaties gehaald uit een brief uit Florence"
   },
+  "Osservazioni sul progetto di trattato di navigazione col Regno delle Due Sicile$": {
+    "en_GB": "Observations about the draft treatise of navigation with the Kingdom of the Two Sicilies",
+    "nl_NL": "Observaties over het concept van het scheepsvaarttraktaat met het Konkrijk der Beide Siciliën"
+  },
   "Osservazioni$": {
     "en_GB": "Observations",
     "nl_NL": "Observaties"
@@ -2639,6 +2699,10 @@
   "Proclama a stampa per l'ordine pubblico di Roma rivolto ai cittadini (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed proclamation about the public order addressed to the citizens of \\2 (Rome, \\3 Mar. \\4)",
     "nl_NL": "Gedrukte proclamatie over de publieke orde gericht aan de burgers van \\2 (Rome, \\3 mrt. \\4)"
+  },
+  "Progetti e testo del trattato del 1848$": {
+    "en_GB": "Drafts and text of the treatise of 1848",
+    "nl_NL": "Concepten en tekst van het traktaat van 1848"
   },
   "Progetto di dichiarazione da trasmettere (a|al) (\\$\\w+)$": {
     "en_GB": "Draft declaration to be put before \\2",
@@ -2964,6 +3028,10 @@
     "en_GB": "Plea addressed to \\2",
     "nl_NL": "Smeekbede gericht aan \\2"
   },
+  "Tabella comparativa di alcune tasse del Regno delle Due Sicilie$": {
+    "en_GB": "Comparative table of several taxes from the Kingdom of the Two Sicilies",
+    "nl_NL": "Comparatief overzicht van enkele belastingen van het Koninkrijk der Beide Siciliën"
+  },
   "Tabella delle esportazioni$": {
     "en_GB": "Table of exports",
     "nl_NL": "Overzicht van exporten"
@@ -3172,9 +3240,9 @@
     "en_GB": "Translation of an article from the Gazetta di Roma",
     "nl_NL": "Vertaling van een artikel uit de Gazetta di Roma"
   },
-  "Traduzione di un articolo estratto da L'Indépendance Belge$": {
-    "en_GB": "Translation of an extract of an article from the L'Indépendance Belge",
-    "nl_NL": "Vertaling van een uittreksel van een artikel uit de L'Indépendance Belge"
+  "Traduzione di un articolo estratto da “(.+)”$": {
+    "en_GB": "Translation of an extract of an article from “\\1”",
+    "nl_NL": "Vertaling van een uittreksel van een artikel uit “\\1”"
   },
   "Traduzione di un estratto della Gazetta Piemontese con supplica (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of an extract from the Gazetta Piemontese with a plea to \\2",
