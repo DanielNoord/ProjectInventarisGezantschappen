@@ -25,7 +25,7 @@ def create_xml_individual_files(
     used_trans: set[re.Pattern[str]] = set()
 
     for file in sheet.iter_rows():
-        if file[0].value is not None:
+        if file[0].value is None:
             continue
         if " " in file[0].value:
             raise ValueError(
