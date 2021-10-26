@@ -27,7 +27,7 @@ jobs:
         ONEDRIVE_LINK: ${{ secrets.ONEDRIVE_LINK }}
       run: |
         python3 python/ci_script_check_making_database.py 2> outputs/STDERR 1> outputs/STDOUT
-    - name: Set no-error variable
+    - name: Set STDERR variable
       id: STDERR
       run: |
         if [ $(wc -l < outputs/STDERR) -ge 2 ]
@@ -36,7 +36,7 @@ jobs:
         else
           echo ::set-output name=empty::true
         fi
-    - name: Set no-error variable
+    - name: Set XMLERR variable
       id: XMLERR
       run: |
         if [ $(wc -l < outputs/xml_errors) -gt 0 ]
@@ -46,7 +46,7 @@ jobs:
           echo ::set-output name=empty::true
         fi
 
-    # Create commit comments
+    # Create error commit comment
     - name: Get error comment body
       id: get-comment-body-error
       if: ${{ steps.STDERR.outputs.full }}
@@ -68,9 +68,40 @@ jobs:
           ```python
           ${{ steps.get-comment-body-error.outputs.body }}
           ```
+    
+    # Create XML DTD comment
+    - name: Get XML-DTD comment body
+      if: ${{ steps.XMLERR.outputs.full }}
+      id: get-xml-dtd-errors
+      run: |
+        body=$(cat outputs/xml_errors)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create XML-DTD commit comment
+      if: ${{ steps.XMLERR.outputs.full }}
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          **An error occurred when trying to create the database!**
+          
+          <details>
+          <summary>
+          Found the following erros in the created XML database.
+
+          Standard errors include:
+
+          - `element dao: validity error : ID xxx already defined` means that that file ID xxx occurs multiple times
+
+          ```python
+          ${{ steps.get-xml-dtd-errors.outputs.body }}
+          ```
+
+    # Get input for commit comment
     - name: Get titles comment body
       id: get-comment-body-titles
-      if: ${{ steps.STDERR.outputs.empty }}
+      if: ${{ steps.STDERR.outputs.full || steps.XMLERR.outputs.full }}
       run: |
         body=$(cat outputs/missing_titles)
         body="${body//'%'/'%25'}"
@@ -79,7 +110,7 @@ jobs:
         echo ::set-output name=body::$body
     - name: Get placenames comment body
       id: get-comment-body-placenames
-      if: ${{ steps.STDERR.outputs.empty }}
+      if: ${{ steps.STDERR.outputs.full || steps.XMLERR.outputs.full }}
       run: |
         body=$(cat outputs/missing_placenames)
         body="${body//'%'/'%25'}"
@@ -88,7 +119,7 @@ jobs:
         echo ::set-output name=body::$body
     - name: Get translations comment body
       id: get-comment-body-translations
-      if: ${{ steps.STDERR.outputs.empty }}
+      if: ${{ steps.STDERR.outputs.full || steps.XMLERR.outputs.full }}
       run: |
         body=$(cat outputs/missing_translations)
         body="${body//'%'/'%25'}"
@@ -97,15 +128,17 @@ jobs:
         echo ::set-output name=body::$body
     - name: Get title errors comment body
       id: get-title-errors-body-translations
-      if: ${{ steps.STDERR.outputs.empty }}
+      if: ${{ steps.STDERR.outputs.full || steps.XMLERR.outputs.full }}
       run: |
         body=$(cat outputs/title_errors)
         body="${body//'%'/'%25'}"
         body="${body//$'\n'/'%0A'}"
         body="${body//$'\r'/'%0D'}" 
         echo ::set-output name=body::$body
+
+    # Create commit comment
     - name: Create commit comment
-      if: ${{ steps.STDERR.outputs.empty }}
+      if: ${{ steps.STDERR.outputs.full || steps.XMLERR.outputs.full }}
       uses: peter-evans/commit-comment@v1
       with:
         body: |
@@ -137,32 +170,7 @@ jobs:
           ${{ steps.get-title-errors-body-translations.outputs.body }}
           </details>
     
-    # XML DTD comment
-    - name: Get XML-DTD comment body
-      if: ${{ steps.XMLERR.outputs.full }}
-      id: get-xml-dtd-errors
-      run: |
-        body=$(cat outputs/xml_errors)
-        body="${body//'%'/'%25'}"
-        body="${body//$'\n'/'%0A'}"
-        body="${body//$'\r'/'%0D'}" 
-        echo ::set-output name=body::$body
-    - name: Create log commit comment
-      if: ${{ steps.XMLERR.outputs.full }}
-      uses: peter-evans/commit-comment@v1
-      with:
-        body: |
-          <details>
-          <summary>
-          Found the following erros in the created XML database.
-
-          Standard errors include:
-
-          - `element dao: validity error : ID xxx already defined` means that that file ID xxx occurs multiple times
-
-          ```python
-          ${{ steps.get-xml-dtd-errors.outputs.body }}
-          ```
+    # Create output log comment
     - name: Get log comment body
       id: get-log-body-translations
       run: |
