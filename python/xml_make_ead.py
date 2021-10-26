@@ -25,6 +25,10 @@ def create_xml_individual_files(
     used_trans: set[re.Pattern[str]] = set()
 
     for file in sheet.iter_rows():
+        if " " in file[0].value:
+            raise ValueError(
+                f"There is a space in the file number {file[0].value}. This is not allowed!"
+            )
         if file[0].value is not None and not file[0].value.endswith("_title"):
             if prev_file is not None and prev_file_did is not None:
                 similar = compare_rows(file, prev_file)
