@@ -167,4 +167,17 @@ def file_entry(
     for identifier in re.findall(r"\$\w+", file_data.title):
         add_persname(event, identifier, database)
 
+    # Daoset
+    daoset = etree.SubElement(file_did, "daoset", {"coverage": "whole"})
+    etree.SubElement(
+        daoset,
+        "dao",
+        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}r"},
+    )
+    etree.SubElement(
+        daoset,
+        "dao",
+        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}v"},
+    )
+
     return file_did, used_trans

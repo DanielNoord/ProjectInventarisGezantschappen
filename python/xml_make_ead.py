@@ -55,6 +55,27 @@ def create_xml_individual_files(
                     )
                 else:
                     unitid.text += f"-{file_data.page}"
+
+                # Update daoset of previous document
+                daoset = prev_file_did.find("daoset")
+                etree.SubElement(
+                    daoset,
+                    "dao",
+                    {
+                        "coverage": "part",
+                        "daotype": "derived",
+                        "id": f"{file_data.file_name}r",
+                    },
+                )
+                etree.SubElement(
+                    daoset,
+                    "dao",
+                    {
+                        "coverage": "part",
+                        "daotype": "derived",
+                        "id": f"{file_data.file_name}v",
+                    },
+                )
             prev_file = file
             if used_trans_update:
                 used_trans.add(used_trans_update)
@@ -172,7 +193,7 @@ def create_xml_file(dir_name: str) -> None:
     )
 
     os.system(
-        "xmllint --noout --dtdvalid outputs/ead3.dtd outputs/Legation_Archive.xml"
+        "xmllint --noout --dtdvalid outputs/ead3.dtd outputs/Legation_Archive.xml 2> outputs/xml_errors"
     )
     print("XML-DTD check complete!")
 
@@ -195,6 +216,8 @@ def create_output_files() -> None:
         file.writelines(
             "|no.  |Errors in titles |\n" "| ------------- | ------------- |\n"
         )
+    with open("outputs/xml_errors", "w", encoding="utf-8") as file:
+        file.writelines("")
 
 
 if __name__ == "__main__":
