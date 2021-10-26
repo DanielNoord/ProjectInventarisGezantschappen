@@ -91,8 +91,6 @@ Editorial tasks:
 ||| Write summary/introduction to archive. Possibly relevant sources: Wels, Santen
 ||| Find additional information about Dutch diplomatic represenatives, current information is quite minimal
 
-Finished volumes:
-1, 3, 5, 6, 7, 8, 9, 10, 22
 
 Translation tasks:
 
@@ -112,10 +110,10 @@ Programming tasks:
 
 |Done|Person|Task|
 |:---|:---|:---
-||Daniël| Explore use of [`PNV`](https://www.nationaalarchief.nl/archiveren/nieuws/person-name-vocabulary-nu-beschikbaar)
+|x|Daniël| <s>Explore use of [`PNV`](https://www.nationaalarchief.nl/archiveren/nieuws/person-name-vocabulary-nu-beschikbaar)</s><br />Too difficult to do recursively and could create problems with other partners/formats
 |x|Daniël| <s>Create integration with `WikiData` person database</s><br />All individuals have been looked for on [`WikiData`](https://www.wikidata.org/) and IDs have been added to the `wikidata:id` field<br />New searches can be done with `search_wikidata()` in `python/database_searches/search_wikidata.py`
 |x|Daniël| <s>Explore integration with `SBN/ICCU` person database</s><br />Benefit [`SBN/ICCU`](https://www.iccu.sbn.it/) of integration is minimal as the database is not likely to have many new individuals. Furthermore, it does not have an accessible API
-||Daniël| Explore integration with `Cultura Italia` person database
+|x|Daniël| <s>Explore integration with `Cultura Italia` person database</s><br /> [`Cultura Italia`](http://www.culturaitalia.it) API is not easily accessible and difficult to connect to our database
 |x|Daniël| <s>Create integration with `ISNI` person database</s><br />All individuals have been looked for on [`ISNI`](https://isni.org) and IDs have been added to the `ISNI:id` field<br />New searches can be done with `search_isni_api()` in `python/database_searches/search_isni.py`
 |x|Daniël| <s>Create integration with `Geonames` places database</s><br />All places have a [`Geonames`](https://www.geonames.org/) ID, latitude, longitude and all locations in the EAD-XML are tagged with their ID
 ||Daniël| Contact Nationaal Archief about EAD and `.pdf` conversion
