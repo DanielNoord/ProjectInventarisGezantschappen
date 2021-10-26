@@ -30,7 +30,7 @@
   },
   "\"(.+)\" (di|del|della) (\\$\\w+)$": {
     "en_GB": "“\\1” from \\3",
-    "nl_NL": "“\\1” van \\3)"
+    "nl_NL": "“\\1” van \\3"
   },
   "\"(.+)\" \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Aug. \\3)",
@@ -179,6 +179,10 @@
   "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg \\(Affare relativa all'amministrazione religiosa del Granducato di Lussemburgo\\)$": {
     "en_GB": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affair relating to the religious administration of the Grand Duchy of Luxembourg)",
     "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affaire aangaande het religieuze bestuur van het Groothertogdom van Luxemburg)"
+  },
+  "Allegato a stampa \"(.+)\"$": {
+    "en_GB": "Printed attachment “\\1”",
+    "nl_NL": "Gedrukte bijlage “\\1”"
   },
   "Allegato a stampa$": {
     "en_GB": "Printed attachment",
@@ -1824,7 +1828,7 @@
     "en_GB": "Letter from \\2 to \\4 about Russians present in Rome and list of Russians present",
     "nl_NL": "Brief van \\2 aan \\4 over Russen aanwezig in Rome en lijst van aanwezige Russen"
   },
-  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to \\4",
     "nl_NL": "Brief van \\2 aan \\4"
   },
@@ -2112,6 +2116,10 @@
     "en_GB": "Letter of invitation from \\2",
     "nl_NL": "Uitnodigingsbrief van \\2"
   },
+  "Lettera di partecipazione alle nozze della figlia (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter of participation to the wedding night of the daughter of \\2 to \\4",
+    "nl_NL": "Brief van participatie aan de huwelijksnacht van de dochter van \\2 aan \\4"
+  },
   "Lettera pastorale a stampa (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed pastoral letter of \\2",
     "nl_NL": "Gedrukte pastorale brief van \\2"
@@ -2191,6 +2199,10 @@
   "Memoria sui negoziati con il Regno di Sardegna$": {
     "en_GB": "Memory on the negotiations with the Kingdom of Sardinia",
     "nl_NL": "Memorie over de onderhandelingen met het Koninkrijk Sardinië"
+  },
+  "Memoria sulla legislazione vigente sui trattati di navigazione$": {
+    "en_GB": "Memory on the valid legislation about treatises of navigation",
+    "nl_NL": "Memorie over de geldige wetgeving aangaande scheepsvaarttraktaten"
   },
   "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$": {
     "en_GB": "Ministre des Affaires Etrangères. Correspondance avec le Corps Diplomatique. Autorites Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Minister of Foreign Affairs. Correspondence with the Corps Diplomatique. Roman authorities. Consul of the Netherlands in Ancona, Civitavecchia, Livorno, Naples. Various pieces 1848-1849)",
@@ -2376,6 +2388,10 @@
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven nota's"
   },
+  "Note storiche sul giornale ecclesiastico di Roma$": {
+    "en_GB": "Historical notes about the ecclesiastical newspaper of Rome",
+    "nl_NL": "Historische notities over de ecclesiastische krant van Rome"
+  },
   "Notice biographique sur Monsieur Elgger \\(nota biografica (su|sul) (\\$\\w+)\\)$": {
     "en_GB": "Notice biographique sur Monsieur Elgger (biographical note about \\2)",
     "nl_NL": "Notice biographique sur Monsieur Elgger (biografische notitie over \\2)"
@@ -2415,6 +2431,10 @@
   "Notificazione circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Notification concerning the tax on the exercise of professions (Rome, Tipografia della Rev. Cam. Apost., \\1)",
     "nl_NL": "Notificatie omtrent de belasting op de uitoefening van beroepen (Rome, Tipografia della Rev. Cam. Apost., \\1)"
+  },
+  "Notificazione del Ministero delle Finanze sulle tariffe doganali  \\(a stampa\\)$": {
+    "en_GB": "Notification of the Ministry of Finance about custom rates (printed)",
+    "nl_NL": "Melding van het Ministerie van Financiën over douanetarieven (gedrukt)"
   },
   "Notificazione della commissione governativa di stato \\(a stampa\\)$": {
     "en_GB": "Notification of the commissione governativa di stato (printed)",
@@ -2764,6 +2784,10 @@
     "en_GB": "Report about the stay of the French troops in Rome",
     "nl_NL": "Rapport over het verblijf van de Franse troepen in Rome"
   },
+  "Relazione sulla stato attuale della questione sulle ferrovie degli stati romani$": {
+    "en_GB": "Report about the current state of affairs on the question about the railways of the Roman states",
+    "nl_NL": "Rapport over de huidige stand van zaken waar het de vraag van de spoorwegen van de Romeinse staten betreft"
+  },
   "Relazione sulle attività diplomatiche$": {
     "en_GB": "Report about diplomatic activities",
     "nl_NL": "Rapport over diplomatieke activiteiten"
@@ -2795,6 +2819,10 @@
   "Ricevute di ricezione dei dispacci diplomatici$": {
     "en_GB": "Confirmations of receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbevestigingen van diplomatieke verzendingen"
+  },
+  "Richiesta di passoporto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Request for a passport of \\2",
+    "nl_NL": "Verzoek voor een paspoort van \\2"
   },
   "Risposta (di|del|della) (\\$\\w+) al discorso indirizzato (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Response of \\2 to the speech given by \\4",
@@ -3215,6 +3243,10 @@
   "Trascrizione del \"(.+)\"$": {
     "en_GB": "Transcription of “\\1”",
     "nl_NL": "Transcriptie van “\\1”"
+  },
+  "Trascrizione del discorso per l'apertura dell'assemblea legislativa a l'Aia$": {
+    "en_GB": "Transcription of the speech for the opening of the legislative assembly in the Hague",
+    "nl_NL": "Transcriptie van de toespraak voor de opening van de wetgevende raad in Den Haag"
   },
   "Trascrizione del proclama Ai Siciliani$": {
     "en_GB": "Transcription of the proclamation Ai Siciliani",
