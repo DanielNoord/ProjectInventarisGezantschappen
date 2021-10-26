@@ -5002,6 +5002,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Heeckeren": {
+    "ISNI:id": null,
+    "comment_daniel": "Ondertekent slechts met B. van Heeckeren, waarin de B heel goed voor Baron kan staan. Bijna zeker is dat deze van Beeckeren bij de Enghuizen-tak van het geslacht hoorde, welke aanhangers waren van Oranje en daar belangrijke functies bekleedden, maar het is niet te zeggen om wie het specifiek gaat zonder meer informatie.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van Heeckeren",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$HeldewierI": {
     "ISNI:id": null,
     "comment_daniel": "Volgens de inventaris is hij vanaf 1838 gevolmachtigd minister, maar Beth vermeldt dit niet",
@@ -7543,17 +7560,22 @@
   },
   "$Murray": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "comment_daniel": "In Italian he is often referred to as Odoardo.",
+    "date_of_birth": "1823",
+    "date_of_death": "1851",
+    "functions": [
+      ["Ispettore di polizia della Repubblica Romana ad Ancona", null]
+    ],
     "images": [],
-    "name": "Edouard",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
+    "name": "Edward",
+    "person_type": 1,
+    "place_of_birth": "Cefalonia",
+    "place_of_death": "Roma",
+    "sources": [
+      "'The Case of Mr Murray. Volume 21: debated on Thursday 27 May 1852', Hansard Archive, found on: https://hansard.parliament.uk/Commons/1852-05-27/debates/bd329696-2fcd-4e51-b0b7-6a06cda77011/TheCaseOfMrMurray?highlight=murray#contribution-a430c0f3-a68a-4e0e-8293-57582c2b4e96",
+      "'The Case of Mr Murray. Volume 21: debated on Thursday 28 May 1852', Hansard Archive, found on: https://hansard.parliament.uk/Commons/1852-05-28/debates/111a056e-b567-446f-bc7b-4fc931bfa38f/TheCaseOfMrMurray"
+    ],
+    "sources_other": ["http://www.cairomontenotte.com/cognome/murray.html"],
     "surname": "Murray",
     "titles": [],
     "wikidata:id": null
