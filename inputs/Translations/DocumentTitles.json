@@ -180,6 +180,10 @@
     "en_GB": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affair relating to the religious administration of the Grand Duchy of Luxembourg)",
     "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg (Affaire aangaande het religieuze bestuur van het Groothertogdom van Luxemburg)"
   },
+  "Allegato a relazione$": {
+    "en_GB": "Attachment to a report",
+    "nl_NL": "Bijlage bij een rapport"
+  },
   "Allegato a stampa \"(.+)\"$": {
     "en_GB": "Printed attachment “\\1”",
     "nl_NL": "Gedrukte bijlage “\\1”"
@@ -1107,6 +1111,10 @@
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa lo spostamento di alcune feste \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 concerning the postponement of several feasts (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande het uistel van verscheidene feesten (Rome, Tipografia della Rev. Cam. Apost., \\4 jul. \\5)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+), circa una convenzione postale tra lo Stato Pontificio e l'Imperatore di Austria \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\) \\(a stampa\\)$": {
+    "en_GB": "Printed sheet “\\1” concerning a postal agreement between the Pontifical State and the Emperor of Austria (Rome, \\2 Jul. \\3) (printed)",
+    "nl_NL": "Gedrukt blad “\\1” aangaande een postovereenkomst tussen de Pauselijke Staat en de Keizer van Oostenrijk (Rome, \\2 jul. \\3) (gedrukt)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+), relativa a disposizioni di ordine pubblico anche riguardanti alla stampa \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” relating to the arrangement of the public order also regarding the press (Rome, \\2 May \\3)",
@@ -2327,6 +2335,10 @@
   "Nota manoscritta$": {
     "en_GB": "Handwritten note",
     "nl_NL": "Handgeschreven nota"
+  },
+  "Nota storica su (\\$\\w+) condannato a morte dal tribunale della Sacra Consulta$": {
+    "en_GB": "Historical note about \\1 condemned to death by the Tribunale della Sacra Consulta",
+    "nl_NL": "Historische nota over \\1 veroordeeld tot de dood door de Tribunale della Sacra Consulta"
   },
   "Nota su (\\$\\w+)$": {
     "en_GB": "Note about \\1",
