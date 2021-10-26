@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 
-from onedrive.onedrive import OneDrive
+from onedrive.onedrive import OneDrive  # type: ignore
 from xlsx_make import create_sanitized_xlsx
 from xml_make_ead import create_output_files, create_xml_file
 
