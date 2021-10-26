@@ -97,8 +97,8 @@
     "nl_NL": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)"
   },
   "\"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (The Hague, \\3 Aug. \\4)",
-    "nl_NL": "“\\1” (Den Haag, \\3 aug. \\4)"
+    "en_GB": "“\\1” (The Hague, \\2 Aug. \\3)",
+    "nl_NL": "“\\1” (Den Haag, \\2 aug. \\3)"
   },
   "\"(.+)\" \\(L'Aia, A.J. van Weelden, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (The Hague, A.J. van Weelden, \\2)",
