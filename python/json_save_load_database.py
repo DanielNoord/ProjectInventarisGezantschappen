@@ -23,6 +23,7 @@ def save_database(  # pylint: disable=too-many-locals
     doc = docx.Document(filename)
     all_individuals: IndividualsDict = {}
 
+    # TODO: This does not work currently and removes fields we are using
     for para in doc.paragraphs:
         (
             identifier,
@@ -46,7 +47,7 @@ def save_database(  # pylint: disable=too-many-locals
         functions = parse_function(functions)
         sources = sources.replace("\n", "").split("| ")
         images = images.replace("\n", "").split("| ")
-        all_individuals[identifier] = {
+        all_individuals[identifier] = {  # type: ignore
             "surname": surname,
             "person_type": person_type,
             "name": name,
