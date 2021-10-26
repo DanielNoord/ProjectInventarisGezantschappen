@@ -35,6 +35,15 @@ jobs:
         else
           echo ::set-output name=empty::true
         fi
+    - name: Set no-error variable
+      id: XMLERR
+      run: |
+        if [ $(wc -l < outputs/xml_errors) -gt 0 ]
+        then
+          echo ::set-output name=full::true
+        else
+          echo ::set-output name=empty::true
+        fi
 
     # Create commit comments
     - name: Get error comment body
@@ -126,6 +135,33 @@ jobs:
         
           ${{ steps.get-title-errors-body-translations.outputs.body }}
           </details>
+    
+    # XML DTD comment
+    - name: Get XML-DTD comment body
+      if: ${{ steps.XMLERR.outputs.full }}
+      id: get-xml-dtd-errors
+      run: |
+        body=$(cat outputs/xml_errors)
+        body="${body//'%'/'%25'}"
+        body="${body//$'\n'/'%0A'}"
+        body="${body//$'\r'/'%0D'}" 
+        echo ::set-output name=body::$body
+    - name: Create log commit comment
+      if: ${{ steps.XMLERR.outputs.full }}
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          <details>
+          <summary>
+          Found the following erros in the created XML database.
+
+          Standard errors include:
+
+          - `element dao: validity error : ID xxx already defined` means that that file ID xxx occurs multiple times
+
+          ```python
+          ${{ steps.get-xml-dtd-errors.outputs.body }}
+          ```
     - name: Get log comment body
       id: get-log-body-translations
       run: |
@@ -148,5 +184,5 @@ jobs:
     
     # Actually fail on error
     - name: Check if errors occurred
-      if: ${{ steps.STDERR.outputs.full }}
+      if: ${{ steps.STDERR.outputs.full || steps.XMLERR.outputs.full }}
       run: exit 1
