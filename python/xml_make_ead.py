@@ -70,7 +70,7 @@ def create_xml_individual_files(
                     {
                         "coverage": "part",
                         "daotype": "derived",
-                        "id": f"{file_data.file_name}r",
+                        "id": f"{file_data.file_name}r.tif",
                     },
                 )
                 etree.SubElement(
@@ -79,7 +79,7 @@ def create_xml_individual_files(
                     {
                         "coverage": "part",
                         "daotype": "derived",
-                        "id": f"{file_data.file_name}v",
+                        "id": f"{file_data.file_name}v.tif",
                     },
                 )
             prev_file = file

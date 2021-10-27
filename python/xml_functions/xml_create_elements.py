@@ -172,12 +172,12 @@ def file_entry(
     etree.SubElement(
         daoset,
         "dao",
-        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}r"},
+        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}r.tif"},
     )
     etree.SubElement(
         daoset,
         "dao",
-        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}v"},
+        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}v.tif"},
     )
 
     return file_did, used_trans
