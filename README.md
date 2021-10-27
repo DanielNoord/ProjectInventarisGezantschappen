@@ -86,7 +86,7 @@ Editorial tasks:
 ||| Check if individuals of type 5 can be found or "finished" when their respective _griglie_ have been sent
 ||| Check the images currently linked to individuals for usability, some images are not as relevant (photos of individuals when they were a child, etc.)
 ||| Update sources that start with "https://notes9.senato.it/", "https://storia.camera.it/presidenti/", "https://storia.camera.it/deputato/" and "https://www.britannica.com/biography/". These links are not persistent so currently not sure how to refer to them
-||| Look up individuals in _Dizionario bibliografico dell’Armata Sarda seimila biografie_. Relevant indivduals have _Dizionario bibliografico dell’Armata Sarda seimila biografie_ listed among their sources
+||| Look up individuals in _Dizionario bibliografico dell'Armata Sarda seimila biografie_. Relevant indivduals have _Dizionario bibliografico dell'Armata Sarda seimila biografie_ listed among their sources
 ||| Write biographical notes of individuals (or translate existing ones from biographic dictionaries)
 ||| Write summary/introduction to archive. Possibly relevant sources: Wels, Santen
 ||| Find additional information about Dutch diplomatic represenatives, current information is quite minimal

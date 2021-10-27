@@ -65,12 +65,12 @@
     "nl_NL": "admiraal",
     "position": "Before"
   },
-  "arciduca d’Austria": {
+  "arciduca d'Austria": {
     "en_GB": "archduke of Austria",
     "nl_NL": "aartshertog van Oostenrijk",
     "position": "After"
   },
-  "arciduchessa d’Austria": {
+  "arciduchessa d'Austria": {
     "en_GB": "archduchess of Austria",
     "nl_NL": "aartshertogin van Oostenrijk",
     "position": "After"
@@ -125,14 +125,14 @@
     "nl_NL": "commandant",
     "position": "Before"
   },
+  "commendatore dell'Ordine dei Santi Maurizio e Lazzaro": {
+    "en_GB": "commander of the Order of Saints Maurice and Lazarus",
+    "nl_NL": "commandeur in de Orde van Sint-Mauritius en Sint-Lazarus",
+    "position": "After"
+  },
   "commendatore dell'Ordine di San Gregorio Magno": {
     "en_GB": "commander of the Order of Saint Gregory the Great",
     "nl_NL": "commandeur in de Orde van Sint-Gregorius de Grote",
-    "position": "After"
-  },
-  "commendatore dell’Ordine dei Santi Maurizio e Lazzaro": {
-    "en_GB": "commander of the Order of Saints Maurice and Lazarus",
-    "nl_NL": "commandeur in de Orde van Sint-Mauritius en Sint-Lazarus",
     "position": "After"
   },
   "conte": {

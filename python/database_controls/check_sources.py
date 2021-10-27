@@ -89,7 +89,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
         elif re.match(r"\$Lohrli", source):
             sources[
                 index
-            ] = "Lohrli, Anne, ‘The Madiai: A Forgotten Chapter of Church History’, Victorian Studies 33 (1989), 29–50"  # pylint: disable=line-too-long
+            ] = "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29–50"  # pylint: disable=line-too-long
         elif mat := re.match(r"\$Moroni, (\d*), (.*)", source):
             sources[
                 index
@@ -130,7 +130,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
 
         # TODO: Sources to look up
         elif source.startswith(
-            "Dizionario bibliografico dell’Armata Sarda seimila biografie"
+            "Dizionario bibliografico dell'Armata Sarda seimila biografie"
         ):
             pass
 
