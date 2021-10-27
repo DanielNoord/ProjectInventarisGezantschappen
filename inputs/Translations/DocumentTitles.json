@@ -1672,6 +1672,10 @@
     "en_GB": "Imprimés Diverse 1848 (Various prints from 1848)",
     "nl_NL": "Imprimés Diverse 1848 (Diverse prenten uit 1848)"
   },
+  "Indicazione delle autorità Romane e degli agenti consolari dei Paesi Bassi modificati il 1 settembre 1854$": {
+    "en_GB": "Indication of the Roman authorities and of the consular agents of the Netherlands modified on 1 September 1854",
+    "nl_NL": "Indicatie van de Romeinse authoriteiten en van de consulaire agenten van Nederland aangepast op 1 september 1854"
+  },
   "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes$": {
     "en_GB": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes",
     "nl_NL": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes"
@@ -3176,6 +3180,10 @@
     "en_GB": "Translation of the printed circulaire of \\2",
     "nl_NL": "Vertaling van de gedrukte circulaire van \\2"
   },
+  "Traduzione della legge del 1 settembre 1854 che modifica le tariffe d'entrata e uscita$": {
+    "en_GB": "Translation of the law of 1 September 1854 which modifies the entrance and exit tariffs",
+    "nl_NL": "Vertaling van de wet van 1 september 1854 welke de toegangs- en exittarieven aanpast"
+  },
   "Traduzione della lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of the letter of \\2 to \\4",
     "nl_NL": "Vertaling van de brief van \\2 aan \\4"
@@ -3347,6 +3355,10 @@
   "Trascrizione del \"(.+)\"$": {
     "en_GB": "Transcription of “\\1”",
     "nl_NL": "Transcriptie van “\\1”"
+  },
+  "Trascrizione del Journal Officiel du Royaume des Pays-Bas$": {
+    "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",
+    "nl_NL": "Transcriptie van een extract uit het Journal Officiel du Royaume des Pays-Bas"
   },
   "Trascrizione del discorso per l'apertura dell'assemblea legislativa a l'Aia$": {
     "en_GB": "Transcription of the speech for the opening of the legislative assembly in the Hague",
