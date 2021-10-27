@@ -29,7 +29,7 @@ def fill_in_name(
 
 def fix_quotes(title: str) -> str:
     """Change the double quotes in a title to be “ or ” based on occurence"""
-    for occurence, quote_match in enumerate(re.finditer(r"\"|“|”|'", title)):
+    for occurence, quote_match in enumerate(re.finditer(r"\"|“|”", title)):
         if occurence % 2:
             quote = "”"
         else:
@@ -87,7 +87,7 @@ def add_unittitle(
     if sum("_" in i for i in (title_it, title_en, title_nl)) == 1:
         raise ValueError(f"Only one language has italtics indication for {title}")
 
-    if re.search(r"\"|“|”|'", title_it):
+    if re.search(r"\"|“|”", title_it):
         title_it = fix_quotes(title_it)
         title_en = fix_quotes(title_en)
         title_nl = fix_quotes(title_nl)
