@@ -3,6 +3,7 @@ from lxml import etree
 
 def control_title(title: str, parent_element: etree._Element) -> None:
     """Control titles for common errors"""
+    # pylint: disable=line-too-long
     with open("outputs/title_errors", "a", encoding="utf-8") as file:
         if title.count('"') % 2:
             vol = parent_element.getparent().getparent().getchildren()[0].getchildren()[0].text  # type: ignore

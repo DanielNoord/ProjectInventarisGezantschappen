@@ -148,4 +148,10 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
         file_date[2] = "None"
     file_date = [i.zfill(2) for i in file_date if i != "None"]
     file_date_string = "-".join(file_date)
-    return FileData(file_page, file_title, file_place, file_date_string, row[0].value.replace("ms", "MS"))
+    return FileData(
+        file_page,
+        file_title,
+        file_place,
+        file_date_string,
+        row[0].value.replace("ms", "MS"),
+    )
