@@ -40,8 +40,8 @@ def get_files_in_volume_directory(volume: str, scans_directory: str) -> set[str]
 def traverse_c01_elements(database: TextIO, scans_directory: str) -> None:
     """Finds all c01 files in a xml file and traverses them"""
     # Create log file
-    with open("outputs/missing_files", "w", encoding="utf-8") as file:
-        file.writelines(
+    with open("outputs/missing_files", "w", encoding="utf-8") as log:
+        log.writelines(
             "Overview of files currently not linking to excel description:\n"
         )
 
