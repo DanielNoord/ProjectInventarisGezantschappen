@@ -1,3 +1,4 @@
+from xml_functions.daoset import add_dao, fix_daoset
 from xml_functions.date_elements import add_dateset, add_unitdate
 from xml_functions.person_elements import add_persname
 from xml_functions.place_elements import add_geognames
@@ -19,4 +20,6 @@ __all__ = [
     "add_geognames",
     "add_persname",
     "add_unittitle",
+    "fix_daoset",
+    "add_dao",
 ]

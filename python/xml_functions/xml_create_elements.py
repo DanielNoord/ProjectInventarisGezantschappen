@@ -11,6 +11,7 @@ from xml_functions import (
     add_persname,
     add_unitdate,
     add_unittitle,
+    add_dao
 )
 
 
@@ -169,15 +170,6 @@ def file_entry(
 
     # Daoset
     daoset = etree.SubElement(file_did, "daoset", {"coverage": "whole"})
-    etree.SubElement(
-        daoset,
-        "dao",
-        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}r.tif"},
-    )
-    etree.SubElement(
-        daoset,
-        "dao",
-        {"coverage": "part", "daotype": "derived", "id": f"{file_data.file_name}v.tif"},
-    )
+    add_dao(daoset, file_data)
 
     return file_did, used_trans

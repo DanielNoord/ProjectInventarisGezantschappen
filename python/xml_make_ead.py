@@ -11,7 +11,14 @@ from data_parsing import initialize_database_for_xml
 from typing_utils import Database
 from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_volume
 from xlsx_make import create_sanitized_xlsx
-from xml_functions import basic_xml_file, dossier_entry, file_entry, volume_entry
+from xml_functions import (
+    add_dao,
+    basic_xml_file,
+    dossier_entry,
+    file_entry,
+    fix_daoset,
+    volume_entry,
+)
 
 
 def create_xml_individual_files(
@@ -36,6 +43,17 @@ def create_xml_individual_files(
                 similar = compare_rows(file, prev_file)
 
             file_data = parse_file(file)
+
+            # If current file is a verso description, remove verso from previous daoset
+            if re.match(r".+v", file_data.file_name):
+                if prev_file_did is None:
+                    raise ValueError(
+                        # pylint: disable-next=line-too-long
+                        f"{file_data.file_name} is a verso and a volume's first file. That is impossible."
+                    )
+                for dao in prev_file_did.find("daoset"):
+                    if dao.attrib["id"] == f"{file_data.file_name}.tif":
+                        dao.getparent().remove(dao)
 
             if not similar:
                 # Check if file belongs to a dossier
@@ -64,24 +82,8 @@ def create_xml_individual_files(
 
                 # Update daoset of previous document
                 daoset = prev_file_did.find("daoset")
-                etree.SubElement(
-                    daoset,
-                    "dao",
-                    {
-                        "coverage": "part",
-                        "daotype": "derived",
-                        "id": f"{file_data.file_name}r.tif",
-                    },
-                )
-                etree.SubElement(
-                    daoset,
-                    "dao",
-                    {
-                        "coverage": "part",
-                        "daotype": "derived",
-                        "id": f"{file_data.file_name}v.tif",
-                    },
-                )
+                add_dao(daoset, file_data)
+
             prev_file = file
             if used_trans_update:
                 used_trans.add(used_trans_update)
@@ -170,6 +172,8 @@ def create_xml_file(dir_name: str) -> None:
         dossiers.update(dossiers_update)
         used_translations.update(used_translations_update)
 
+    fix_daoset(root)
+
     tree = etree.ElementTree(root)
 
     # Check if outputs directory exists and then write file
@@ -199,6 +203,7 @@ def create_xml_file(dir_name: str) -> None:
     )
 
     os.system(
+        # pylint: disable-next=line-too-long
         "xmllint --noout --dtdvalid outputs/ead3.dtd outputs/Legation_Archive.xml 2> outputs/xml_errors"
     )
     print("XML-DTD check complete!")
