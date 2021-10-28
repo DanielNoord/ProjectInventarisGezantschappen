@@ -60,6 +60,7 @@ def traverse_c01_elements(database: TextIO, scans_directory: str) -> None:
         assert len(unitid) == 1
         assert isinstance(unitid[0].text, str)
         volume_files = get_files_in_volume_directory(unitid[0].text, scans_directory)
+        volume_files.discard(".DS_Store")
         match_daoset_ids(c01, volume_files)
 
 
