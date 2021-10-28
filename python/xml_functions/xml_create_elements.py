@@ -11,7 +11,7 @@ from xml_functions import (
     add_persname,
     add_unitdate,
     add_unittitle,
-    add_dao
+    add_dao,
 )
 
 

@@ -18,7 +18,7 @@ def fix_daoset(root: etree._Element) -> None:
 
 def add_dao(daoset: etree._Element, file_data: FileData) -> None:
     """Adds a dao element to a daoset"""
-    
+
     # If only a verso we only add the verso dao-element
     if re.match(r".+v", file_data.file_name):
         etree.SubElement(
