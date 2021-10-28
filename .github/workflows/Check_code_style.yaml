@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   Run_checkers:
-    name: Run mypy
+    name: Run formatters, linters and checkers
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo content
