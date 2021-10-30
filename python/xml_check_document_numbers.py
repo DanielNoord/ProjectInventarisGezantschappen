@@ -13,12 +13,11 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
     with open("outputs/missing_files", "a", encoding="utf-8") as log:
         print(f"** Looking at MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore
         missing_files = set()
-        for daoset in c01.iterdescendants("daoset"):  # type: ignore
-            for dao in daoset.iterchildren():
-                try:
-                    volume_files.remove(dao.attrib["id"])
-                except KeyError:
-                    missing_files.add(dao.attrib["id"])
+        for dao in c01.iterdescendants("dao"):  # type: ignore
+            try:
+                volume_files.remove(dao.attrib["id"])
+            except KeyError:
+                missing_files.add(dao.attrib["id"])
         if len(missing_files) != 0:
             print(
                 "The following files (described in excel) are missing a scan:", file=log
