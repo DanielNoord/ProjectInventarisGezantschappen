@@ -29,6 +29,8 @@ class FileData(NamedTuple):
     place: str
     date_string: str
     file_name: str
+    series: str
+    series_level: int
 
 
 class DateTuple(NamedTuple):
