@@ -3,15 +3,15 @@ from typing import Optional
 
 from date_functions import create_date_data
 from lxml import etree
-from typing_utils import Database, FileData, VolData
+from typing_utils import Database, FileData, SeriesData
 
 from xml_functions import (
+    add_dao,
     add_dateset,
     add_geognames,
     add_persname,
     add_unitdate,
     add_unittitle,
-    add_dao,
 )
 
 
@@ -88,20 +88,27 @@ def basic_xml_file() -> tuple[etree._Element, etree._Element]:
     return root, archdesc_dsc
 
 
-def volume_entry(
-    archdesc_dsc: etree._Element, volume_data: VolData, database: Database
+def series_entry(
+    parent_element: etree._Element, series_data: SeriesData, database: Database
 ) -> tuple[etree._Element, Optional[re.Pattern[str]]]:
-    """Returns an .xml element for a volume at the c01 level"""
-    c01 = etree.SubElement(archdesc_dsc, "c01", level="series")
-    c01_did = etree.SubElement(c01, "did")
-    etree.SubElement(c01_did, "unitid").text = volume_data.num
+    """Returns an .xml element for a series at the c0X level"""
+    series_level = "series"
+    if series_data.level > 1:
+        series_level = "subseries"
+    serie_c = etree.SubElement(
+        parent_element, f"c0{series_data.level}", level=series_level
+    )
+    serie_c_did = etree.SubElement(serie_c, "did")
+    etree.SubElement(serie_c_did, "unitid").text = series_data.num
 
-    used_trans = add_unittitle(c01_did, volume_data.title, database, volume_data.date)
+    used_trans = add_unittitle(
+        serie_c_did, series_data.title, database, series_data.date
+    )
 
-    date_data = create_date_data(volume_data.date)
-    add_unitdate(c01_did, volume_data.date, date_data)
+    date_data = create_date_data(series_data.date)
+    add_unitdate(serie_c_did, series_data.date, date_data)
 
-    return c01, used_trans
+    return serie_c, used_trans
 
 
 def dossier_entry(  # pylint: disable=too-many-arguments

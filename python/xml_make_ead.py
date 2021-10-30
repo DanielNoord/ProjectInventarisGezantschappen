@@ -9,7 +9,7 @@ from openpyxl import load_workbook
 
 from data_parsing import initialize_database_for_xml
 from typing_utils import Database
-from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_volume
+from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_series
 from xlsx_make import create_sanitized_xlsx
 from xml_functions import (
     add_dao,
@@ -17,7 +17,7 @@ from xml_functions import (
     dossier_entry,
     file_entry,
     fix_daoset,
-    volume_entry,
+    series_entry,
 )
 
 
@@ -131,22 +131,33 @@ def create_xml_volume(
     workbook = load_workbook(filename)
     first_sheet = workbook[workbook.sheetnames[0]]
     used_translations: set[re.Pattern[str]] = set()
+    sub_levels: dict[str, etree._Element] = {}
 
-    # Create volume entry at c01 level
-    volume_data = parse_volume(first_sheet[1])
-    c01, used_trans_vol = volume_entry(archdesc, volume_data, database)
+    for index, cell in enumerate(first_sheet["A"]):
+        if match := re.match("(.*)_title", cell.value or ""):
+            series_data = parse_series(first_sheet[index + 1])
+            if series_data.level == 1:
+                sub_levels[match.groups()[0]], used_trans_series = series_entry(
+                    archdesc, series_data, database
+                )
+            else:
+                parent_level = re.match(fr"(.*)_.*?", match.groups()[0])
+                sub_levels[match.groups()[0]], used_trans_series = series_entry(
+                    sub_levels[parent_level.groups()[0]], series_data, database
+                )
+            if used_trans_series:
+                used_translations.add(used_trans_series)
 
-    dossiers, used_trans_dos = create_xml_dossier(
-        first_sheet, volume_data.num, c01, database
-    )
+    # dossiers, used_trans_dos = create_xml_dossier(
+    #     first_sheet, volume_data.num, c01, database
+    # )
 
-    if used_trans_vol:
-        used_translations.add(used_trans_vol)
-    used_translations.update(used_trans_dos)
+    # used_translations.update(used_trans_dos)
 
-    print(f"""Finished writing volume {volume_data.num}\n""")
+    volume_number = re.match("(.*)_title", first_sheet["A"][0].value).groups()[0]
+    print(f"""Finished writing volume {volume_number}\n""")
 
-    return {volume_data.num: dossiers}, used_translations
+    return {volume_number: sub_levels}, used_translations
 
 
 def create_xml_file(dir_name: str) -> None:

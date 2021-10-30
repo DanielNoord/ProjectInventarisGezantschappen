@@ -7,7 +7,7 @@ from xml_functions.xml_create_elements import (
     basic_xml_file,
     dossier_entry,
     file_entry,
-    volume_entry,
+    series_entry,
 )
 
 __all__ = [
@@ -15,7 +15,7 @@ __all__ = [
     "basic_xml_file",
     "dossier_entry",
     "file_entry",
-    "volume_entry",
+    "series_entry",
     "add_dateset",
     "add_geognames",
     "add_persname",
