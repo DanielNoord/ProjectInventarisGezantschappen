@@ -2376,7 +2376,7 @@
     "en_GB": "Model of a bill of exchange",
     "nl_NL": "Model van een orderbrief"
   },
-  "Modello di quitanza$": {
+  "Modello di quitenza$": {
     "en_GB": "Model of a receipt",
     "nl_NL": "Model van een kwitantie"
   },
@@ -3044,6 +3044,10 @@
     "en_GB": "Comparison of the excise duty levied by the current customs tariff for the import of the manufactures and raw materials described below",
     "nl_NL": "Vergelijking van de accijns die wordt geheven door het huidige douanetarief voor de import van de hieronder beschreven fabricaten en grondstoffen"
   },
+  "Stato generale dei diritti coloniali$": {
+    "en_GB": "General condition of colonial rights",
+    "nl_NL": "Algemene toestand van koloniale rechten"
+  },
   "Statuti della Società Olivi-moricola dello Stato Pontificio \\(a stampa\\)$": {
     "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
     "nl_NL": "Statuten van de Società Olivi-moricola van de Kerkelijke Staat (gedrukt)"
@@ -3099,6 +3103,10 @@
   "Tabella comparativa di alcune tasse del Regno delle Due Sicilie$": {
     "en_GB": "Comparative table of several taxes from the Kingdom of the Two Sicilies",
     "nl_NL": "Comparatief overzicht van enkele belastingen van het Koninkrijk der Beide Siciliën"
+  },
+  "Tabella dei generi coloniali$": {
+    "en_GB": "Table of colonial matters",
+    "nl_NL": "Overzicht van koloniale zaken"
   },
   "Tabella delle esportazioni$": {
     "en_GB": "Table of exports",
