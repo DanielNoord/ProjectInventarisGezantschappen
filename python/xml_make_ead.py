@@ -2,6 +2,7 @@
 
 import os
 import re
+from typing import cast
 
 import openpyxl
 from lxml import etree
@@ -9,122 +10,95 @@ from openpyxl import load_workbook
 
 from data_parsing import initialize_database_for_xml
 from typing_utils import Database
-from xlsx_functions import compare_rows, parse_dossier, parse_file, parse_series
+from xlsx_functions import compare_rows, parse_file, parse_series
 from xlsx_make import create_sanitized_xlsx
-from xml_functions import (
-    add_dao,
-    basic_xml_file,
-    dossier_entry,
-    file_entry,
-    fix_daoset,
-    series_entry,
-)
+from xml_functions import add_dao, basic_xml_file, file_entry, fix_daoset, series_entry
 
 
 def create_xml_individual_files(
     sheet: openpyxl.worksheet.worksheet.Worksheet,
-    dossiers: dict[str, etree._Element],
-    vol_entry: etree._Element,
+    series: dict[str, etree._Element],
     database: Database,
 ) -> set[re.Pattern[str]]:
     """Based on a sheet creates .xml entries for every file found"""
-    prev_file, prev_file_did, similar = None, None, None
+    prev_file, prev_file_did, prev_series = None, None, None
     used_trans: set[re.Pattern[str]] = set()
 
     for file in sheet.iter_rows():
-        if file[0].value is None:
+        similar = False
+        # Skip empty lines or series title lines
+        if file[0].value is None or file[0].value.endswith("_title"):
             continue
+
+        # Error on files with a space in their "file number"
         if " " in file[0].value:
             raise ValueError(
                 f"There is a space in the file number {file[0].value}. This is not allowed!"
             )
-        if not file[0].value.endswith("_title"):
-            if prev_file is not None and prev_file_did is not None:
-                similar = compare_rows(file, prev_file)
 
-            file_data = parse_file(file)
+        file_data = parse_file(file)
 
-            # If current file is a verso description, remove verso from previous daoset
-            if re.match(r".+v", file_data.file_name):
-                if prev_file_did is None:
-                    raise ValueError(
-                        # pylint: disable-next=line-too-long
-                        f"{file_data.file_name} is a verso and a volume's first file. That is impossible."
-                    )
-                for dao in prev_file_did.find("daoset"):
-                    if dao.attrib["id"] == f"{file_data.file_name}.tif":
-                        dao.getparent().remove(dao)
+        if (
+            prev_file is not None
+            and prev_file_did is not None
+            and file_data.series == prev_series
+        ):
+            similar = compare_rows(file, prev_file)
 
-            if not similar:
-                # Check if file belongs to a dossier
-                try:
-                    if mat := re.search(r"ms.+?_(.+?)_.+?", file[0].value):
-                        prev_file_did, used_trans_update = file_entry(
-                            dossiers[mat.groups()[0]], file_data, database
-                        )
-                    else:
-                        prev_file_did, used_trans_update = file_entry(
-                            vol_entry, file_data, database
-                        )
-                except ValueError as error:
-                    raise ValueError(
-                        f"{file[0].value} gives following error: {error}"
-                    ) from error
+        # If current file is a verso description, remove verso from previous daoset
+        if re.match(r".+v", file_data.file_name):
+            if prev_file_did is None:
+                raise ValueError(
+                    # pylint: disable-next=line-too-long
+                    f"{file_data.file_name} is a verso appearing before the description of {file_data.file_name[:-1]}"
+                )
+            for dao in prev_file_did.find("daoset"):
+                if dao.attrib["id"] == f"{file_data.file_name}.tif":
+                    dao.getparent().remove(dao)
+
+        if not similar:
+            prev_file_did, used_trans_update = file_entry(
+                series[file_data.series], file_data, database
+            )
+        # Update pages/id of previous document
+        else:
+            # If similar means prev_file_did is defined
+            prev_file_did = cast(
+                etree._Element, prev_file_did  # pylint: disable=protected-access
+            )
+            unitid = prev_file_did.find("unitid")
+            if (
+                not isinstance(
+                    unitid, etree._Element  # pylint: disable=protected-access
+                )
+                or not unitid.text
+                or not isinstance(unitid.text, str)
+            ):
+                raise ValueError(
+                    f"Can't find unitid in {prev_file_did}, it is empty or it isn't a string"
+                )
+            if "-" in unitid.text:
+                unitid.text = unitid.text[: unitid.text.index("-") + 1] + file_data.page
             else:
-                # Update pages/id of previous document
-                unitid = prev_file_did.find("unitid")
-                if "-" in unitid.text:
-                    unitid.text = (
-                        unitid.text[: unitid.text.index("-") + 1] + file_data.page
-                    )
-                else:
-                    unitid.text += f"-{file_data.page}"
+                unitid.text += f"-{file_data.page}"
 
-                # Update daoset of previous document
-                daoset = prev_file_did.find("daoset")
-                add_dao(daoset, file_data)
+            # Update daoset of previous document
+            daoset = prev_file_did.find("daoset")
+            if not isinstance(
+                daoset, etree._Element  # pylint: disable=protected-access
+            ):
+                raise ValueError(f"Can't find daoset in {prev_file_did}")
+            add_dao(daoset, file_data)
 
-            prev_file = file
-            if used_trans_update:
-                used_trans.add(used_trans_update)
+        prev_file = file
+        prev_series = file_data.series
+        if used_trans_update:
+            used_trans.add(used_trans_update)
 
     return used_trans
 
 
-def create_xml_dossier(
-    sheet: openpyxl.worksheet.worksheet.Worksheet,
-    v_num: str,
-    c01: etree._Element,
-    database: Database,
-) -> tuple[set[str], set[re.Pattern[str]]]:
-    """Creates necessary dossier entries at the c02 level"""
-    dossiers: dict[str, etree._Element] = {}
-    used_trans: set[re.Pattern[str]] = set()
-
-    # Find dossiers
-    for cell in sheet["A"]:
-        if cell.value is not None and (
-            mat := re.search(r"ms.+?_(.+?)_.+?", cell.value)
-        ):
-            if mat.groups()[0] not in dossiers.keys():
-                d_title, d_date = parse_dossier(sheet, mat.groups()[0], v_num, cell)
-
-                # Create entry
-                dossiers[mat.groups()[0]], pattern = dossier_entry(
-                    c01, v_num, mat.groups()[0], d_title, d_date, database
-                )
-
-                if pattern:
-                    used_trans.add(pattern)
-
-    used_trans.update(create_xml_individual_files(sheet, dossiers, c01, database))
-
-    if not dossiers:
-        return {v_num}, used_trans
-    return {f"{v_num}_{i}" for i in dossiers}, used_trans
-
-
-def create_xml_volume(
+def create_xml_series(
     filename: str, archdesc: etree._Element, database: Database
 ) -> tuple[dict[str, dict[str, etree._Element]], set[re.Pattern[str]]]:
     """Adds a volume to an 'archdesc' element"""
@@ -153,11 +127,9 @@ def create_xml_volume(
             if used_trans_series:
                 used_translations.add(used_trans_series)
 
-    # dossiers, used_trans_dos = create_xml_dossier(
-    #     first_sheet, volume_data.num, c01, database
-    # )
+    used_trans_dos = create_xml_individual_files(first_sheet, sub_levels, database)
 
-    # used_translations.update(used_trans_dos)
+    used_translations.update(used_trans_dos)
 
     volume_number = re.match("(.*)_title", first_sheet["A"][0].value)
     if not volume_number:
@@ -187,7 +159,7 @@ def create_xml_file(dir_name: str) -> None:
             name.replace("Paesi Bassi VOLUME ", "").replace("_it_IT.xlsx", "")
         ),
     ):
-        series_update, used_translations_update = create_xml_volume(
+        series_update, used_translations_update = create_xml_series(
             f"{dir_name}/{file}", archdesc_dsc, database
         )
         series.update(series_update)
