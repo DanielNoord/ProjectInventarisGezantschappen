@@ -9,20 +9,21 @@ from date_functions import (
 )
 from openpyxl.cell.cell import Cell
 from openpyxl.worksheet.worksheet import Worksheet
-from typing_utils import FileData, VolData
+from typing_utils import FileData, SeriesData
 
 
-def parse_volume(vol: tuple[Cell, ...]) -> VolData:
-    """Parses volumes. Note that current .xlsx files do not contain volume description"""
-    if not isinstance(vol[0].value, (str)):
-        raise ValueError(f"Volume number should be a string, check {vol[0].value}")
-    vol_num = re.findall(r"ms(.*?)_.*", vol[0].value)[0]
-    title = str(vol[1].value)
+def parse_series(serie: tuple[Cell, ...]) -> SeriesData:
+    """Parses series. Note that current .xlsx files often do not contain series description"""
+    if not isinstance(serie[0].value, (str)):
+        raise ValueError(f"Series number should be a string, check {serie[0].value}")
+    serie_num = re.findall(r"ms(\w+_)*(\w+?)_title", serie[0].value)[0][1]
+    title = str(serie[1].value)
     if title == "None":
         with open("outputs/missing_titles", "a", encoding="utf-8") as file:
-            print(f"|Vol: {vol_num}|Missing a volume title", file=file)
-    vol_date = f"{vol[2].value or ''}/{vol[3].value or ''}"
-    return VolData(vol_num, title, vol_date)
+            print(f"|Vol: {serie_num}|Missing a series title", file=file)
+    vol_date = f"{serie[2].value or ''}/{serie[3].value or ''}"
+    level_string = re.match(fr".*{serie_num}_", serie[0].value).group()
+    return SeriesData(serie_num, title, vol_date, level_string.count("_"))
 
 
 def parse_dossier(  # pylint: disable=too-many-branches

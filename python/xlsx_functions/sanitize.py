@@ -15,7 +15,7 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
     workbook = load_workbook(f"{directory_name}/{file_name}")
     # pylint: disable-next=too-many-nested-blocks
     for row in workbook[workbook.sheetnames[0]].iter_rows():
-        for index, cell in enumerate(row):
+        for index, cell in enumerate(row[:6]):
             if cell.value is not None:
                 # # Check document number for inconsistensies
                 # if index == 0:

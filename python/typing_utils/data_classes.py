@@ -1,12 +1,13 @@
 from typing import NamedTuple, Optional
 
 
-class VolData(NamedTuple):
-    """Data about a volume"""
+class SeriesData(NamedTuple):
+    """Data about a series"""
 
     num: str
     title: str
     date: str
+    level: int
 
 
 class DateData(NamedTuple):
