@@ -126,7 +126,7 @@ def create_xml_dossier(
 
 def create_xml_volume(
     filename: str, archdesc: etree._Element, database: Database
-) -> tuple[dict[str, set[str]], set[re.Pattern[str]]]:
+) -> tuple[dict[str, dict[str, etree._Element]], set[re.Pattern[str]]]:
     """Adds a volume to an 'archdesc' element"""
     workbook = load_workbook(filename)
     first_sheet = workbook[workbook.sheetnames[0]]
@@ -141,7 +141,12 @@ def create_xml_volume(
                     archdesc, series_data, database
                 )
             else:
-                parent_level = re.match(fr"(.*)_.*?", match.groups()[0])
+                parent_level = re.match(r"(.*)_.*?", match.groups()[0])
+                if not parent_level:
+                    raise ValueError(
+                        f"Can't determine the series parent of {cell.value}."
+                        "Does it have the correct format?"
+                    )
                 sub_levels[match.groups()[0]], used_trans_series = series_entry(
                     sub_levels[parent_level.groups()[0]], series_data, database
                 )
@@ -154,17 +159,22 @@ def create_xml_volume(
 
     # used_translations.update(used_trans_dos)
 
-    volume_number = re.match("(.*)_title", first_sheet["A"][0].value).groups()[0]
-    print(f"""Finished writing volume {volume_number}\n""")
+    volume_number = re.match("(.*)_title", first_sheet["A"][0].value)
+    if not volume_number:
+        raise ValueError(
+            f"Can't determine the volume/ms number of {first_sheet['A'][0].value}."
+            "Does it have the correct format?"
+        )
+    print(f"""Finished writing volume {volume_number.groups()[0]}\n""")
 
-    return {volume_number: sub_levels}, used_translations
+    return {str(volume_number.groups()[0]): sub_levels}, used_translations
 
 
 def create_xml_file(dir_name: str) -> None:
     """Creates and writes an xml file based on directory of volumes"""
     print("Starting to create XML file!")
     database = initialize_database_for_xml()
-    dossiers: dict[str, set[str]] = {}
+    series: dict[str, dict[str, etree._Element]] = {}
     used_translations: set[re.Pattern[str]] = set()
 
     root, archdesc_dsc = basic_xml_file()
@@ -177,10 +187,10 @@ def create_xml_file(dir_name: str) -> None:
             name.replace("Paesi Bassi VOLUME ", "").replace("_it_IT.xlsx", "")
         ),
     ):
-        dossiers_update, used_translations_update = create_xml_volume(
+        series_update, used_translations_update = create_xml_volume(
             f"{dir_name}/{file}", archdesc_dsc, database
         )
-        dossiers.update(dossiers_update)
+        series.update(series_update)
         used_translations.update(used_translations_update)
 
     fix_daoset(root)
@@ -202,7 +212,7 @@ def create_xml_file(dir_name: str) -> None:
 
     # Printing some descriptive stats
     print("Found the following dossiers:")
-    for i in dossiers.values():
+    for i in series.values():
         print(", ".join(i))
     print("Found the following unused translations:")
     print(
