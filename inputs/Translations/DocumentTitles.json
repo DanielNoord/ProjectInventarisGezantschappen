@@ -173,8 +173,8 @@
     "nl_NL": "Gedrukt “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "A stampa \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\4)",
-    "nl_NL": "Gedrukt “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+    "en_GB": "Printed “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Gedrukt “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "A stampa \"(.+)\"$": {
     "en_GB": "Printed \"\\1\"",
@@ -3397,8 +3397,8 @@
     "nl_NL": "Transcriptie van “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "Trascrizione del \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Transcription of “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\4)",
-    "nl_NL": "Transcriptie van “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+    "en_GB": "Transcription of “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Transcriptie van “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "Trascrizione del \"(.+)\"$": {
     "en_GB": "Transcription of “\\1”",
