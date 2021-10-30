@@ -111,39 +111,15 @@ def series_entry(
     return serie_c, used_trans
 
 
-def dossier_entry(  # pylint: disable=too-many-arguments
-    parent_element: etree._Element,
-    v_number: str,
-    number: str,
-    title: str,
-    date: str,
-    database: Database,
-) -> tuple[etree._Element, Optional[re.Pattern[str]]]:
-    """Returns a dossier .xml element at the c02 level"""
-    c02 = etree.SubElement(parent_element, "c02", level="subseries")
-    c02_did = etree.SubElement(c02, "did")
-    etree.SubElement(c02_did, "unitid").text = f"{v_number}.{number}"
-
-    pattern = add_unittitle(c02_did, title, database, date)
-
-    date_data = create_date_data(date)
-    add_unitdate(c02_did, date, date_data)
-    return c02, pattern
-
-
 def file_entry(
     parent_element: etree._Element,
     file_data: FileData,
     database: Database,
 ) -> tuple[etree._Element, Optional[re.Pattern[str]]]:
     """Creates an .xml element for a file within a dossier/volume"""
-
-    if parent_element.tag == "c01":
-        file_element = etree.SubElement(parent_element, "c02", level="file")
-    elif parent_element.tag == "c02":
-        file_element = etree.SubElement(parent_element, "c03", level="file")
-    else:
-        raise ValueError(f"File was not handled correctly{file_data.title}")
+    file_element = etree.SubElement(
+        parent_element, f"c0{file_data.series_level}", level="file"
+    )
     file_did = etree.SubElement(file_element, "did")
 
     # ID

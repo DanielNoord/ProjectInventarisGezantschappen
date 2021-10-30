@@ -5,7 +5,6 @@ from xml_functions.place_elements import add_geognames
 from xml_functions.title_elements import add_unittitle
 from xml_functions.xml_create_elements import (
     basic_xml_file,
-    dossier_entry,
     file_entry,
     series_entry,
 )
@@ -13,7 +12,6 @@ from xml_functions.xml_create_elements import (
 __all__ = [
     "add_unitdate",
     "basic_xml_file",
-    "dossier_entry",
     "file_entry",
     "series_entry",
     "add_dateset",
