@@ -52,7 +52,7 @@ def check_all_comments(filename: str) -> None:
     """Checks all comments for given database
 
     Args:
-        filename (str): File name of initial database
+        filename: File name of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)

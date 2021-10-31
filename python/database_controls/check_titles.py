@@ -11,10 +11,10 @@ def control_titles(
     """Controls titles of the supplied data
 
     Args:
-        data (dict): Data dict of identifier
-        translated_titles (dict): Dict with titles currently translated
-        identifier (str): Identifier of person with titles
-        used_titles (set): List to track titles in use in database
+        data: Data dict of identifier
+        translated_titles: Dict with titles currently translated
+        identifier: Identifier of person with titles
+        used_titles: List to track titles in use in database
 
     Raises:
         KeyError: When title is not found in current translations

@@ -7,7 +7,7 @@ def check_all_placenames(filename: str) -> None:
     """Checks all placenames in a given database are Italian and known
 
     Args:
-        filename (str): File name of initial database
+        filename: File name of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)

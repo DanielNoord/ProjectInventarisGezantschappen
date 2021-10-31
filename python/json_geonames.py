@@ -13,7 +13,7 @@ def load_geonames(filename: str) -> None:
     """Load geonames data for keys in json file
 
     Args:
-        filename (str): Filename to load
+        filename: Filename to load
     """
 
     # Load file

@@ -10,7 +10,7 @@ def extract_persons_and_identifiers(filename):
     """Loads people mentioned and given identifier from specified file
 
     Args:
-        filename (str): File to be scanned
+        filename: File to be scanned
 
     Returns:
         [[], [], [], ...] List of lists
@@ -31,7 +31,7 @@ def extract_persons(filename):
     """Loads people mentioned from "database" file
 
     Args:
-        filename (str): File to be scanned
+        filename: File to be scanned
 
     Returns:
         list[str, str, ...]: List of persons (in string format) found in the file
@@ -69,7 +69,7 @@ def extract_translations(filename):
     """Loads translations from file
 
     Args:
-        filename (str): File to be scanned
+        filename: File to be scanned
 
     Returns:
         dict{{}, {}, {}, ... }: Dictionary of translations (which are also dictionaries)

@@ -8,8 +8,8 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
     """Sanitize an .xlsx file
 
     Args:
-        directory_name (str): Directory of .xlsx file
-        file_name (str): Name of .xlsx file
+        directory_name: Directory of .xlsx file
+        file_name: Name of .xlsx file
     """
     last_line = 0
     workbook = load_workbook(f"{directory_name}/{file_name}")

@@ -11,7 +11,7 @@ def person_with_identifier(input_file: str) -> dict:
     """Creates a dictionary with all fully translated names and functions to be used in inventory
 
     Args:
-        input_file (str): Name of the "database" file
+        input_file: Name of the "database" file
 
     Raises:
         Exception: If the identifier is missing
@@ -52,7 +52,7 @@ def used_functions_and_titles(input_file: str) -> tuple[list[str], list[str]]:
     """Creates two lists with all used functions and titles in Dutch
 
     Args:
-        input_file (str): Name of the "database" file
+        input_file: Name of the "database" file
 
     Returns:
         list: A list of all used functions
@@ -79,7 +79,7 @@ def used_names(input_file: str) -> list[str]:
     """Creates two lists with all names in Dutch
 
     Args:
-        input_file (str): Name of the "database" file
+        input_file: Name of the "database" file
 
     Returns:
         list: A list of all names

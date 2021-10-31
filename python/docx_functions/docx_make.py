@@ -11,8 +11,8 @@ def list_to_be_translated(list_to_write: list[str], output_name: str) -> None:
     """Write a docx file based on input. Adds two white lines after every entry
 
     Args:
-        list_to_write (list[str]): List of translated names to be written, all in strings
-        output_name (str): Name of the output file
+        list_to_write: List of translated names to be written, all in strings
+        output_name: Name of the output file
     """
     out_doc = docx.Document()
     for line in list_to_write:
@@ -32,9 +32,9 @@ def list_of_translated_data(list_to_write: list[list[str]], output_name: str) ->
     """Write a docx file based on input
 
     Args:
-        list_to_write (list[list]): List of translated data to be written, all in strings.
+        list_to_write: List of translated data to be written, all in strings.
             Follows pattern [Data in inventaris, identifier, data in IT, data in NL, data in EN]
-        output_name (str): Name of the output file
+        output_name: Name of the output file
     """
     out_doc = docx.Document()
     for entry in list_to_write:
@@ -61,9 +61,9 @@ def list_of_translated_data_with_style(
     """Write a docx file based on input with style applied
 
     Args:
-        list_to_write (list[list]): List of translated data to be written, all in strings.
+        list_to_write: List of translated data to be written, all in strings.
             Follows pattern [Data in inventaris, identifier, data in IT, data in NL, data in EN]
-        output_name (str): Name of the output file
+        output_name: Name of the output file
     """
     out_doc = docx.Document()
     for entry in list_to_write:
@@ -98,8 +98,8 @@ def list_with_style(list_of_lines: list[str], output_name: str) -> None:
     """Write a docx file based on input
 
     Args:
-        list_of_lines (list[str]): List of lines to be written
-        output_name (str): Name of output file
+        list_of_lines: List of lines to be written
+        output_name: Name of output file
     """
     out_doc = docx.Document()
     for line in list_of_lines:
@@ -131,9 +131,9 @@ def database(
     """Write a docx file based on input dictionary
 
     Args:
-        dict_of_individuals (dict): Dictionary containing all individuals
-        output_name (str): Name of output file
-        skip_types (list[int]): Number of person_types to skip (for example [1, 2])
+        dict_of_individuals: Dictionary containing all individuals
+        output_name: Name of output file
+        skip_types: Number of person_types to skip (for example [1, 2])
     """
     if skip_types:
         output_name = (

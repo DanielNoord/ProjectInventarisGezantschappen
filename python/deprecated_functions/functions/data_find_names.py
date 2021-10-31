@@ -12,8 +12,8 @@ def create_person(
     """Creates a data entry for the given person
 
     Args:
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
-        person (dict): The data of the person in dictionary formt
+        localization: Localization abbreviation
+        person: The data of the person in dictionary formt
         translation_data: Dictionaries with translation data for titles, functions and places
 
     Returns:

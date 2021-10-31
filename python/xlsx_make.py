@@ -17,8 +17,8 @@ def create_filled_xlsx(
     """Creates the .xlsx files of all volumes in the input directory
 
     Args:
-        directory_name (str): Name of the directory with the input .xlsx files
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
+        directory_name: Name of the directory with the input .xlsx files
+        localization: Localization abbreviation
     """
     with open("inputs/Individuals.json", encoding="utf-8") as data_file:
         individuals_data = json.load(data_file)
@@ -42,7 +42,7 @@ def create_xlsx_controle(directory_names: list[str]) -> None:
     """Creates a combination of the various translated .xlsx files into one "control file"
 
     Args:
-        directory_names (list): Directories of the file to be merged
+        directory_names: Directories of the file to be merged
     """
     directory = os.fsencode(directory_names[0])
     for file in os.listdir(directory):
@@ -93,8 +93,8 @@ def create_translated_xlsx(
     """Creates the .xlsx files with a number of easy translation already done
 
     Args:
-        directory_name (str): Name of the directory with the input .xlsx files
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
+        directory_name: Name of the directory with the input .xlsx files
+        localization: Localization abbreviation
     """
     database = initialize_database_for_xml()
     used_translations: set[Pattern[str]] = set()
@@ -120,7 +120,7 @@ def create_sanitized_xlsx(directory_name: str) -> None:
     """Creates the .xlsx files with a number of easy sanitizations
 
     Args:
-        directory_name (str): Name of the directory with the input .xlsx files
+        directory_name: Name of the directory with the input .xlsx files
     """
 
     directory_path = os.path.realpath(directory_name)

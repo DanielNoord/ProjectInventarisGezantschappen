@@ -6,7 +6,7 @@ def parse_function(input_line: str) -> list[tuple[str, Optional[str]]]:
     """Parses a function string
 
     Args:
-        input_line (str): Line to be parsed
+        input_line: Line to be parsed
 
     Returns:
         list[tuple[str, Optional[str]]]: List of tuples

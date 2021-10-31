@@ -13,12 +13,12 @@ def extract_date(  # pylint: disable=too-many-branches
         (tries to) Handles missing data correctly
 
     Args:
-        date_string (str): The date string in formate xxxx-xx-xx/xxxx-xx-xx
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
+        date_string: The date string in formate xxxx-xx-xx/xxxx-xx-xx
+        localization: Localization abbreviation
 
     Returns:
-        date1_string (str): The first date in text
-        date2_string (str): The second date in text
+        date1_string: The first date in text
+        date2_string: The second date in text
     """
     locale.setlocale(locale.LC_ALL, f"{localization}.UTF-8")
     date_pattern = re.compile(

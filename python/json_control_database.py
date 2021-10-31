@@ -22,7 +22,7 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
     Checks for unknown functions, titles, etc.
 
     Args:
-        input_file (str): Name of the input file
+        input_file: Name of the input file
 
     Raises:
         Exception: Whenever something is missing/incorrect

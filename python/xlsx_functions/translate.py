@@ -17,12 +17,12 @@ def translate_xlsx(  # pylint: disable=too-many-arguments
     """Translate .xlsx file
 
     Args:
-        directory_name (str): Directory of .xlsx file
-        file_name (str): Name of .xlsx file
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
+        directory_name: Directory of .xlsx file
+        file_name: Name of .xlsx file
+        localization: Localization abbreviation
         translations: Translations of common document titles
         translation_data: Dictionaries with translation data for titles, functions and places
-        used_translations (set[Pattern]): Used translations
+        used_translations: Used translations
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")
     for row in workbook[workbook.sheetnames[0]].iter_rows():

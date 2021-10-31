@@ -12,7 +12,7 @@ def load_translations_documents(filename: str) -> None:
     """Load translations from .docx and write .json for documents file
 
     Args:
-        filename (str): Filename of the input file
+        filename: Filename of the input file
     """
     doc = docx.Document(filename)
     all_documents: TranslationDict = {
@@ -31,7 +31,7 @@ def load_translations_functions(filename: str) -> None:
     """Load translations from .docx and write .json for functions file
 
     Args:
-        filename (str): Filename of the input file
+        filename: Filename of the input file
     """
     doc = docx.Document(filename)
     all_functions: TranslationDict = {"$schema": "../../static/JSON/Functions.json"}
@@ -51,7 +51,7 @@ def load_translations_placenames(filename: str) -> None:
     """Load translations from .docx and write .json for placename file
 
     Args:
-        filename (str): Filename of the input file
+        filename: Filename of the input file
     """
     doc = docx.Document(filename)
     all_placenames: TranslationDict = {"$schema": "../../static/JSON/Placenames.json"}
@@ -68,7 +68,7 @@ def load_translations_titles(filename: str) -> None:
     """Load translations from .docx and write .json for titles file
 
     Args:
-        filename (str): Filename of the input file
+        filename: Filename of the input file
     """
     doc = docx.Document(filename)
     all_titles: TranslationDictTitles = {"$schema": "../../static/JSON/Titles.json"}

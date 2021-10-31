@@ -7,7 +7,7 @@ def fetch_bio_portaal_names(filename: str) -> None:
     """Checks all names in a database for hits in the Biografisch Portaal database
 
     Args:
-        filename (str): File name of initial database
+        filename: File name of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)

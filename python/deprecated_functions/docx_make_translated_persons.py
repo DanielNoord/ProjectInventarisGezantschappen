@@ -12,8 +12,8 @@ def create_name_docx(input_file_names, input_file_data) -> None:
     in Italian, Dutch and English
 
     Args:
-        input_file_names (str): Name of file with all people + their identifier
-        input_file_data (str): Name of "database" file with all relevante info about people
+        input_file_names: Name of file with all people + their identifier
+        input_file_data: Name of "database" file with all relevante info about people
     """
     input_file_names = extract_persons_and_identifiers(input_file_names)
     person_data = person_with_identifier(input_file_data)
@@ -36,8 +36,8 @@ def create_name_docx_with_style(input_file_names, input_file_data):
     in Italian, Dutch and English with added style (italic etc.)
 
     Args:
-        input_file_names (str): Name of file with all people + their identifier
-        input_file_data (str): Name of "database" file with all relevante info about people
+        input_file_names: Name of file with all people + their identifier
+        input_file_data: Name of "database" file with all relevante info about people
     """
     input_file_names = extract_persons_and_identifiers(input_file_names)
     person_data = person_with_identifier(input_file_data)

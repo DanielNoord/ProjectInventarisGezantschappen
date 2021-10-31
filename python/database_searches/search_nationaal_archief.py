@@ -9,7 +9,7 @@ def fetch_na_inventaris(filename: str) -> None:
     inventory description matches are ignored
 
     Args:
-        filename (str): File name of initial database
+        filename: ame of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)

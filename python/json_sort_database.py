@@ -9,7 +9,7 @@ def sort_database(filename: str) -> None:
     """Sorts the entries in a database
 
     Args:
-        filename (str): File name of initial database
+        filename: File name of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)

@@ -13,7 +13,7 @@ def create_json_database(input_file):
     """Creates JSON file from old Eigennamen file
 
     Args:
-        input_file (str): File name of database file
+        input_file: File name of database file
     """
     data_with_identifier = {"$schema": "../static/JSON/Individuals.json"}
     persons_in_file = extract_persons(input_file)
@@ -55,8 +55,8 @@ def create_json_translations(input_file, file_name):
     """Creates JSON from translation file
 
     Args:
-        input_file (str): Name of input file
-        file_name (str): Name of output file
+        input_file: Name of input file
+        file_name: Name of output file
     """
     translations = {"$schema": f"../static/JSON/{file_name}.json"}
     translations = dict(translations, **extract_translations(input_file))

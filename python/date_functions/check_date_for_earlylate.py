@@ -13,8 +13,8 @@ def check_date_earlier(  # pylint: disable=too-many-return-statements
     """Check if the given date is earlier than other data
 
     Args:
-        early_date (tuple[str, str, str]): Strings of year, month, day
-        row (tuple[Cell, ...]): .xlsx row with date info
+        early_date: Strings of year, month, day
+        row: .xlsx row with date info
 
     Returns:
         tuple[str, str, str]: Strings or ints of year, month, day
@@ -61,8 +61,8 @@ def check_date_later(  # pylint: disable=too-many-return-statements
     """Check if the given date is later than other data
 
     Args:
-        late_date (tuple[str, str, str]): Strings of year, month, day
-        row (tuple[Cell, ...]): .xlsx row with date info
+        late_date: Strings of year, month, day
+        row: .xlsx row with date info
 
     Returns:
         tuple[str, str, str]: Strings of year, month, day

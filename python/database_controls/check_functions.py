@@ -11,10 +11,10 @@ def control_functions(
     """Controls functions of the supplied data
 
     Args:
-        data (dict): Data dict of identifier
-        translated_functions (dict): Dict with titles currently translated
-        identifier (str): Identifier of person with titles
-        used_functions (set): List to track titles in use in database
+        data: Data dict of identifier
+        translated_functions: Dict with titles currently translated
+        identifier: Identifier of person with titles
+        used_functions: List to track titles in use in database
 
     Raises:
         KeyError: When function is not found in current translations

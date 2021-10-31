@@ -12,7 +12,7 @@ def create_to_be_translated(input_file):
     Likely unnecessary in future
 
     Args:
-        input_file (str): Name of "database" file with all relevant titles and functions
+        input_file: Name of "database" file with all relevant titles and functions
     """
     functions, titles = used_functions_and_titles(input_file)
 
@@ -26,7 +26,7 @@ def create_names_in_fondo(input_file):
     Likely unnecessary in future
 
     Args:
-        input_file (str): Name of "fondo" file with all relevant names/entries
+        input_file: Name of "fondo" file with all relevant names/entries
     """
     doc = docx.Document(input_file)
     all_text = []
@@ -41,8 +41,8 @@ def create_names(localization, input_file):
     """Creates a number of .docx files based on "database" file.
 
     Args:
-        localization (Literal["it_IT", "nl_NL", "en_GB"]): Localization abbreviation
-        input_file (str): Name of "database" file
+        localization: Localization abbreviation
+        input_file: Name of "database" file
     """
     full_names = used_names(input_file)
     functions, titles = used_functions_and_titles(input_file)

@@ -6,7 +6,7 @@ def parse_person(input_line: str) -> Sequence[str]:
     """Parses a person string
 
     Args:
-        input_line (str): Line to be parsed
+        input_line: Line to be parsed
 
     Returns:
         str: Identifier

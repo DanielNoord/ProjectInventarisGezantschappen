@@ -12,8 +12,8 @@ def transform_translations(dir_name: str, filename: str) -> None:
     create file with Italian {Dutch, English} form for each key
 
     Args:
-        dir_name (str): Name of the directory of file
-        filename (str): Filename of the input file
+        dir_name: Name of the directory of file
+        filename: Filename of the input file
     """
     new_data = {}
     with open("/".join((dir_name, filename)), "r", encoding="utf-8") as file:
@@ -44,8 +44,8 @@ def translate_database(dir_name: str, filename: str) -> None:
     """Load database and translate all fields to their Italian form
 
     Args:
-        dir_name (str): Name of the directory of file
-        filename (str): Filename of the input file
+        dir_name: Name of the directory of file
+        filename: Filename of the input file
     """
     translated_titles, translated_functions, _ = initialize_translation_database()
 

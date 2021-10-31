@@ -17,8 +17,8 @@ def save_database(  # pylint: disable=too-many-locals
     """Load database from .docx and write .json
 
     Args:
-        filename (str): Filename of the input file
-        previous_database (dict): Dict with data from previous database
+        filename: Filename of the input file
+        previous_database: Dict with data from previous database
     """
     doc = docx.Document(filename)
     all_individuals: IndividualsDict = {}
@@ -76,8 +76,8 @@ def load_database(filename: str, skip_types: list[int]) -> None:
     """Load database from .json and write .docx
 
     Args:
-        filename (str): Name of the input file
-        skip_types (list[int]): Number of person types you might want to skip.
+        filename: Name of the input file
+        skip_types: Number of person types you might want to skip.
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
@@ -90,8 +90,8 @@ def merge_database(filename: str, previous_database_filename: str) -> None:
     with a given previous database
 
     Args:
-        filename (str): Name of file of new data
-        previous_database_filename (str): Name of file of old data
+        filename: Name of file of new data
+        previous_database_filename: Name of file of old data
     """
     with open(previous_database_filename, encoding="utf-8") as file:
         prev_persons = json.load(file)

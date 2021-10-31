@@ -7,7 +7,7 @@ def search_koelman(filename: str) -> None:
     """Checks all names in a database for hits in biographic register of Poelman book of Asker
 
     Args:
-        filename (str): File name of initial database
+        filename: al database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)

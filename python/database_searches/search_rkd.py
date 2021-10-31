@@ -7,7 +7,7 @@ def fetch_rkd_images(filename: str) -> None:
     """Checks all names in a database for hits in the RKD image database
 
     Args:
-        filename (str): File name of initial database
+        filename: File name of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
@@ -35,7 +35,7 @@ def fetch_rkd_artists(filename: str) -> None:
     """Checks all names in a database for hits in the RKD artists database
 
     Args:
-        filename (str): File name of initial database
+        filename: File name of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)

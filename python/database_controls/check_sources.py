@@ -12,7 +12,7 @@ def update_trecanni(source: str) -> str:
     """Downloads the correct author and title date from the Dizionario Biografico
 
     Args:
-        source (str): The source to be updated
+        source: The source to be updated
 
     Returns:
         str: Updated source
@@ -48,7 +48,7 @@ def update_parlement(source: str) -> str:
     """Downloads the correct birth date/place and death date/place from parlement.com
 
     Args:
-        source (str): The source of the person to be update
+        source: The source of the person to be update
 
     Returns:
         str: Updated source
@@ -151,7 +151,7 @@ def check_all_sources(
     """Check and update all sources for given database
 
     Args:
-        filename (str): File name of initial database
+        filename: File name of initial database
     """
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
