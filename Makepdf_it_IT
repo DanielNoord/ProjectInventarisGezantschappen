@@ -1,4 +1,5 @@
 #!/bin/zsh
+# TODO: This no longer works and should be updated!
 BASEDIR=$(dirname "$0")
 cd $BASEDIR
 python3 $BASEDIR/python/xml_make.py
