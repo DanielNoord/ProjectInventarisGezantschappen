@@ -42,6 +42,7 @@ def create_xml_individual_files(
             prev_file is not None
             and prev_file_did is not None
             and file_data.series == prev_series
+            and file_data.title != "Bianca"
         ):
             similar = compare_rows(file, prev_file)
 
