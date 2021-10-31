@@ -12,7 +12,7 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
     localization: Literal["it_IT", "nl_NL", "en_GB"],
     date: Union[tuple[DateTuple], tuple[DateTuple, DateTuple]],
 ) -> str:
-    """Creates the string for the full name including title"""
+    """Creates the string for the full name including any possible titles"""
     if surname == "":
         raise Exception(f"{name} has no surname!")
 
