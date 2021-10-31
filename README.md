@@ -9,39 +9,40 @@ Some descriptive statistics about the data in the individuals database.
 <details>
 <summary>Individuals with data fields:</summary>
   
-  Updated as of 03-10-2021
+  Updated as of 31-10-2021
 
   >|Field|n|%|
   >|:---:|:---:|:---:|
-  >|Comments|82|17.01%
-  >|'Daniel' comment|71|14.73%
-  >|Birth dates|299|62.03%
-  >|Death dates|305|63.28%
-  >|Functions|389|80.71%
-  >|Images|54|11.20%
-  >|Name|459|95.23%
-  >|Place of birth|290|60.17%
-  >|Place of death|292|60.58%
-  >|Sources|391|81.12%
-  >|Surname|482|100.00%
-  >|Titles|222|46.06%
+  >|ISNI|216|41.06%
+  >|'Daniel' comment|78|14.83%
+  >|Birth dates|340|64.64%
+  >|Death dates|345|65.59%
+  >|Functions|431|81.94%
+  >|Images|75|14.26%
+  >|Name|505|96.01%
+  >|Place of birth|328|62.36%
+  >|Place of death|329|62.55%
+  >|Sources|337|64.07%
+  >|Other sources|118|35.74%
+  >|Surname|526|100.00%
+  >|Titles|247|46.96%
+  >|Wikidata|287|54.56%
 
 </details>
 
 <details>
 <summary>Individuals of type:</summary>
   
-  Updated as of 03-10-2021
+  Updated as of 31-10-2021
 
   >|Type|n|%
   >|:---:|:---:|:---:
-  >0|30|6.22%
-  >1|379|78.63%
-  >2|19|3.94%
-  >3|1|0.21%
-  >4|20|4.15%
-  >5|32|6.64%
-  >6|1|0.21%
+  >0|74|14.07%
+  >1|377|71.67%
+  >2|13|4.37%
+  >3|0|0.0%
+  >4|20|3.80%
+  >5|32|6.08%
 
 </details>
 
@@ -81,7 +82,7 @@ Editorial tasks:
 
 |Done|Person|Task|
 |:---|:---|:---
-||| Translate `Comment` fields starting with `From Koelman`. These are directly copied from the biographies as found in the Koelman book
+||| Translate biographies fields starting with `From Koelman`. These are directly copied from the biographies as found in the Koelman book
 ||| Check if indivduals of type 2 can be found or "finished"
 ||| Check if individuals of type 5 can be found or "finished" when their respective _griglie_ have been sent
 ||| Check the images currently linked to individuals for usability, some images are not as relevant (photos of individuals when they were a child, etc.)
@@ -91,20 +92,12 @@ Editorial tasks:
 ||| Write summary/introduction to archive. Possibly relevant sources: Wels, Santen
 ||| Find additional information about Dutch diplomatic represenatives, current information is quite minimal
 
-
 Translation tasks:
 
 |Done|Person|Task|
 |:---|:---|:---
 ||| Convert additional _griglie_ from Rome into standard that is compatible with `python` programs (change names into identifiers, check for new individuals, etc.)
 ||| Write translations of titles which are not recognized yet using regular expression patterns
-
-Data tasks:
-
-|Done|Person|Task|
-|:---|:---|:---
-||| See if see `ms280_94b` has been uploaded yet. What does this "b" refer to? It is unclear what this "b" document refers to
-||| **Contact Rome about inconsistent document number suffixes.** Interchangeable use of "b", "v", "V" "bis", etc. See for example differences between ms279 and ms280 (for Daniël: see related commented code in `./python/xlsx_functions/sanitize.py`)
 
 Programming tasks:
 
@@ -120,7 +113,7 @@ Programming tasks:
 ||Daniël| Create database with support of all three languages
 |x|Daniël| <s>Italics in titles in EAD-XML</s><br />Functions and document titles can use `_` to indicate italic sections, which are stored in the XML file.<br />For example: `John _Pope_` -> John _Pope_
 ||Daniël| Create controls of document and volume numbering (consecutive, non-overlapping, suffixes)
-||Daniël| Final check of code, annotation and documentation
+|x|Daniël| Final check of code, annotation and documentation
 
 End of project tasks:
 
