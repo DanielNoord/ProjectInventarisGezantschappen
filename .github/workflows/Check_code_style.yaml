@@ -15,10 +15,12 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-        pip install mypy
+        pip install mypy pylint
     - name: Run mypy
       run: mypy
     - name: Run black
       uses: psf/black@stable
       with:
         src: "./python"
+    - name: Run pylint
+      run: pylint --disable=fixme python
