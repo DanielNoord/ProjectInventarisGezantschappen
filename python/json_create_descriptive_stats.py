@@ -13,7 +13,7 @@ def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branche
         type_list: Number of person types you might want to skip.
         skip: Whether type_list should be seen as a skip list or as a list to select
     """
-    c_comment = 0
+    c_isni = 0
     c_comment_daniel = 0
     c_date_of_birth = 0
     c_date_of_death = 0
@@ -23,8 +23,10 @@ def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branche
     c_place_of_birth = 0
     c_place_of_death = 0
     c_sources = 0
+    c_sources_other = 0
     c_surname = 0
     c_titles = 0
+    c_wikidata = 0
 
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
@@ -33,30 +35,34 @@ def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branche
         if (skip and data["person_type"] not in type_list) or (
             not skip and data["person_type"] in type_list
         ):
-            if data["comment"] != "":
-                c_comment += 1
-            if data["comment_daniel"] != "":
+            if data["ISNI:id"]:
+                c_isni += 1
+            if data["comment_daniel"]:
                 c_comment_daniel += 1
-            if data["date_of_birth"] != "":
+            if data["date_of_birth"]:
                 c_date_of_birth += 1
-            if data["date_of_death"] != "":
+            if data["date_of_death"]:
                 c_date_of_death += 1
-            if data["functions"] != []:
+            if data["functions"]:
                 c_functions += 1
-            if data["images"] != [""]:
+            if data["images"]:
                 c_images += 1
-            if data["name"] != "":
+            if data["name"]:
                 c_name += 1
-            if data["place_of_birth"] != "":
+            if data["place_of_birth"]:
                 c_place_of_birth += 1
-            if data["place_of_death"] != "":
+            if data["place_of_death"]:
                 c_place_of_death += 1
-            if data["sources"] != [""]:
+            if data["sources"]:
                 c_sources += 1
-            if data["surname"] != "":
+            if data["sources_other"]:
+                c_sources_other += 1
+            if data["surname"]:
                 c_surname += 1
-            if data["titles"] != []:
+            if data["titles"]:
                 c_titles += 1
+            if data["wikidata:id"]:
+                c_wikidata += 1
     start_string = "    Number of entries with"
     if type_list != [] and skip or type_list != [0, 1, 2, 3, 4, 5] and not skip:
         type_string = f"the types {' and '.join(str(i) for i in type_list)}:"
@@ -67,7 +73,7 @@ def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branche
         print(f"For the entries excluding {type_string}")
     else:
         print(f"For the entries of {type_string}")
-    print(f"{start_string} comments: {c_comment}, {c_comment/c_surname:.2%}")
+    print(f"{start_string} ISNI id: {c_isni}, {c_isni/c_surname:.2%}")
     print(
         f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel/c_surname:.2%}"
     )
@@ -87,8 +93,12 @@ def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branche
         f"{start_string} place of death: {c_place_of_death}, {c_place_of_death/c_surname:.2%}"
     )
     print(f"{start_string} sources: {c_sources}, {c_sources/c_surname:.2%}")
+    print(
+        f"{start_string} sources other: {c_sources_other}, {c_sources_other/c_surname:.2%}"
+    )
     print(f"{start_string} surname: {c_surname}, {c_surname/c_surname:.2%}")
     print(f"{start_string} titles: {c_titles}, {c_titles/c_surname:.2%}")
+    print(f"{start_string} wikidata id: {c_wikidata}, {c_wikidata/c_surname:.2%}")
 
 
 def create_total_statistics(filename: str) -> None:
@@ -97,7 +107,7 @@ def create_total_statistics(filename: str) -> None:
     Args:
         filename: Name of the input file
     """
-    c_types = [0, 0, 0, 0, 0, 0, 0]
+    c_types = [0, 0, 0, 0, 0, 0]
 
     with open(filename, encoding="utf-8") as file:
         persons = json.load(file)
@@ -114,9 +124,8 @@ def create_total_statistics(filename: str) -> None:
     print(f"{start_string} type 3: {c_types[3]}, {c_types[3]/total_count:.2%}")
     print(f"{start_string} type 4: {c_types[4]}, {c_types[4]/total_count:.2%}")
     print(f"{start_string} type 5: {c_types[5]}, {c_types[5]/total_count:.2%}")
-    print(f"{start_string} type 6: {c_types[6]}, {c_types[6]/total_count:.2%}")
 
 
 if __name__ == "__main__":
-    create_type_statistics("inputs/Individuals.json", [0, 1, 2, 3, 4, 5, 6], False)
+    create_type_statistics("inputs/Individuals.json", [0, 1, 2, 3, 4, 5], False)
     create_total_statistics("inputs/Individuals.json")
