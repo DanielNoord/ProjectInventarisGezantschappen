@@ -16,9 +16,9 @@ jobs:
       run: |
         pip install -r requirements.txt
         pip install mypy
-    - name: mypy
+    - name: Run mypy
       run: mypy
-    - name: black
+    - name: Run black
       uses: psf/black@stable
       with:
         src: "./python"

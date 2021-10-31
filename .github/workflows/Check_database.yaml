@@ -4,7 +4,7 @@ on:
 jobs:
   Run_json_control_database:
     runs-on: ubuntu-latest
-    name: Controls of database
+    name: Control of database
     steps:
     - name: Checkout repo content
       uses: actions/checkout@v2
@@ -44,7 +44,7 @@ jobs:
             echo "The database seems to be correctly saved"
           else
             echo "### WARNING: The Individuals database seems to be incorrect! ###"
-            echo "Did you give the program enough time for formatting?."
+            echo "Did you give the Visual Studio Code enough time for formatting?."
             echo "Retry by doing ctrl+S on individuals.json and waiting a bit longer for formatting to complete."
             exit 1
           fi
