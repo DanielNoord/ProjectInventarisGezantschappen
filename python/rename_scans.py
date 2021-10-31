@@ -1,9 +1,9 @@
 import os
 import re
 
-FOLDER = "/Volumes/Seagate Basic Meda/VolumesLegazione/MS283"
-PATTERN_TO_CHANGE = "MS283_"
-PATTERN_TO_CHANGE_TO = "MS283_10_"
+FOLDER = "/Volumes/Seagate Basic Meda/VolumesLegazione/MS295"
+PATTERN_TO_CHANGE = "MS295_b_"
+PATTERN_TO_CHANGE_TO = "MS295_19_b_"
 FIXED_PATTERN = r"(\d+)(.*)([rv].tif)"
 
 

@@ -2,7 +2,7 @@ from lxml import etree
 from typing_utils import DateData
 
 
-def add_unitdate(  # pylint: disable=too-many-branches
+def add_unitdate(
     parent_element: etree._Element, datestring: str, date: DateData
 ) -> None:
     """Creates and appends an unitdate element"""
@@ -50,7 +50,7 @@ def add_unitdate(  # pylint: disable=too-many-branches
         udate_element_nl.text = f"Tot en met {date.date2_nl}"
 
 
-def add_dateset(  # pylint: disable=too-many-branches
+def add_dateset(
     parent_element: etree._Element, datestring: str, date: DateData
 ) -> None:
     """Creates and appends an unitdate element"""

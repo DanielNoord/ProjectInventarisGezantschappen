@@ -15,7 +15,7 @@ from xlsx_make import create_sanitized_xlsx
 from xml_functions import add_dao, basic_xml_file, file_entry, fix_daoset, series_entry
 
 
-def create_xml_individual_files(
+def create_xml_individual_files(  # pylint: disable=too-many-branches
     sheet: openpyxl.worksheet.worksheet.Worksheet,
     series: dict[str, etree._Element],
     database: Database,
