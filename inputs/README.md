@@ -1,98 +1,111 @@
-# Inputs directory
+## Inputs directory
 
 This directory contains a number of documents and sub-directories with data, either related to the actual inventory or the indivudals that are mentioned in the documents in the archive.
 
-For the sake of usability most documents are included both in _.json_ and _.docx_ format. In case of conflicts between these documents the _.json_ files should be seen as _leading_. For future updates, it is preferable to use the _.json_ format.
+For the sake of usability most documents are included both in `.json` and `.docx` format. In case of conflicts between these documents the `.json` files should be seen as "authorative". For future updates, it is preferable to use the `.json` format to avoid possible conflicts between the two file types..
 
-## Individuals.json/docx
+### Individuals.json/docx
 
 This is the _main_ database of the individuals mentioned in the archive. It contains all information about all individuals as is currently known.
 
 A JSON Schema for the database can be found at `./static/JSON/Indivudals.json`. This is a description of how the field and entries should be written and can be used to test if the database is "correct".
 
-Here follows a short summary and example of each field for an indivdual entry (person). It is important to follow the JSON Schema and structure of each field, as otherwise data will be lost on conversion from _.json_ and _.docx_ to other databases.
+Here follows a short summary and example of each field for an indivdual entry (person). It is important to follow the JSON Schema and structure of each field, as otherwise data will be lost on conversion from `.json` and `.docx` and the creation of a `EAD XML` database is impossible.
 
 <details>
 <summary>Database description</summary>
-Each entry has a unique identifier. This is often a `$` followed by the surname of the individual. Each entry has 13 fields. In the .docx document each field is represented by the name of the field, a `:`, a space and the data of that field.
+Each entry has a unique identifier. This is often a `$` followed by the surname of the individual. Each entry has 15 fields. In the `.docx` document each field is represented by the name of the field, a `:`, a space and the data of that field.
+    1) `ISNI:id`: 0000 0000 7777 905X
+        The [`ISNI`](https://isni.org) id of the indidivual if it exists. Otherwise it is `null`.
 
-    1) Type: 1
-    Each individual has a type, this indicate how finished their entry is.
+    2) `comment_daniel`: ...
+        A comment about the individual that is only relevant during the data collection process and should not be stored in the final database.
 
-        0 is "important". A more detaild biographical note would be preferable.
+    3) `date_of_birth`: 1806-04-02
+        Date of birth of the individual. Follows pattern yyyy-mm-dd. Don't forget to add leading 0's for month and day (see example).
 
-        1 is "finished" (or not likely that any additional sources will be found).
+    4) `date_of_death`: 1876-11-06
+        Date of death of the individual. Follows pattern yyyy-mm-dd. Don't forget to add leading 0's for month and day (see example).
 
-        2 is "unfinished". Additional sources need (or shoud be able) to be found.
+    5) `functions`: Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio (1848-03-10/1848-04-29)
+        Functions of individual in **Italian**. If dates are known those can be added. Don't forget to add a `/` if only one date is known. Words in italics in final inventory are between `_`, parentheses are indicated by `{}`.
 
-        3 is "waiting on others". A request for information has been sent to external parties.
+    6) `images`: https://rkd.nl/explore/images/250221
+        Links to images of the individual.
 
-        4 is "question project lead". This person has a question that needs to be answered by the project lead. This question can be found under the field “Comment from Daniël”
+    7) `name`: Giacomo
+        First name of individual.
 
-        5 is "waiting on scan". Need additional information from archive to identify this individual.
+    8) `person_type`: 0
+        Each individual has a type, this indicates how finished their entry is.
 
-    2) Surname: Alewijn
-    Surname of the individual.
+        `0` is "important". A more detailed biographical note would be preferable. These should be stored in `inputs/Biographies.json`
 
-    3) Name: Henrick
-    First name of individual.
+        `1` is "finished" (or not likely that any additional sources will be found).
 
-    4) Date of birth: 1785-08-22
-    Date of birth of the individual. Follows pattern yyyy-mm-dd. Don't forget to add leading 0's (see example).
+        `2` is "unfinished". Additional sources need (or shoud be able) to be found.
 
-    5) Place of birth: Amsterdam
-    Place of birth of individual in Italian.
+        `3` is "waiting on others". A request for information has been sent to external parties.
 
-    6) Date of death: 1850-02-24
-    Date of death of the individual. Follows pattern yyyy-mm-dd. Don't forget to add leading 0's (see example).
+        `4` is "question project lead". This person has a question that needs to be answered by the project lead. This question can (often) be found under the field `comment_from_daniel`
 
-    7) Place of death: Genova
-    Place of death of individual in Italian.
+        `5` is "waiting on scan". Need additional information from archive to identify this individual.
 
-    8) Titles: jhr. (1821-09-01/1847-08-21)| ridder| baron (1847-08-22/)| hertog (/1860)
-    Titles of individual in Dutch. Multiple titles are seperated by `| `. If dates are known those can be added. Don't forget to add a `/` if only one date is known.
+    9)  `place_of_birth`: Sonnino
+        Place of birth of individual in Italian.
 
-    9) Functions: _Governatore_ {gouverneur} van Rome, vice-camerlengo van de Rooms-Katholieke Kerk en directeur-generaal van de politie van Rome (1842/)
-    Functions of individual in Dutch. Multiple titles are seperated by `| `. If dates are known those can be added. Don't forget to add a `/` if only one date is known. Words in italics in final inventory are between `_`, parentheses are indicated by `{}` (see example).
+    10) `place_of_death`: Roma
+        Place of death of individual in Italian.
 
-    10) Comment: Louis Bosch represented a lady referred to as 'the widow Henriette Natalie Sturbaut' in the dispute surrounding the inheritance of Francesco Cornelio Verbruggen.
-    Short biographical note or remark in English.
+    11) `sources`: Aubert, Roger, 'Antonelli, Giacomo', in: Dizionario Biografico degli Italiani. Volume 3 (Rome, Treccani, 1961), found on: https://www.treccani.it/enciclopedia/giacomo-antonelli_(Dizionario-Biografico)
+        Secondary or "good" sources relevant for the indidivual. Places are in English.
+    
+    12) `sources_other`: Osservatore del Trasimeno, Anno XIII, 29 (Perugia, 1838-04-10), 1
+        Primary or "weak" sources relevant for the indidivual. Places are in English.
 
-    11) Comment from Daniël: How do we write this name?
-    Comment from Daniël, often containing a question for the project lead.
+    13) `surname`: Antonelli
+        Surname of individual.
 
-    12) Sources: Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (L'Aia, 1918), 356| van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (L'Aia, 1955), 644, 670| Stadsarchief Amsterdam, Amsterdam, inventory number: 2.10.2.6
-    Sources. Multiple sources are separeted by "| ". Places are in Italian. Links cannot be hyperlinks in .docx to prevent data loss.
+    14) `titl`: card. (1847-06-11/)
+        Titles of individual in **Italian**. If dates are known those can be added. Don't forget to add a `/` if only one date is known.
 
-    13) Images: https://rkd.nl/explore/images/144618| https://rkd.nl/explore/images/144620| https://rkd.nl/explore/images/144623| https://rkd.nl/explore/images/144637
-    Images of the individual. Multiple sources are separeted by "| ". Places are in Italian. Links cannot be hyperlinks in .docx to prevent data loss.
+    15) `wikidata:id`: Q712085
+        [`WikiData`](https://www.wikidata.org/) ID of the indiviual if it exists. Otherwise it is `null`.
 </details>
 
-### Adding a new individual to the database
+#### Adding a new individual to the database
 
-Adding a new individual to the database is possible both in the _.docx_ and _.json_ files. The most straight-forward method is to duplicate a previous entry and change the identifier to a new **unused** identifier. Subsequently, update all the fields to match the new individual. **Make sure to use the correct structure of the data fields**, even if fields are empty. For the _.docx_ version the means to always add a single space after the `:`, so "Surname: " and **not** "Surname:". Otherwise conversion to _.json_ is impossible and the errors will need to fixed at a later time.
+Adding a new individual to the database is possible both in the `.docx` and `.json` files. The most straight-forward method is to duplicate a previous entry and change the identifier to a new **unused** identifier. Subsequently, update all the fields to match the new individual. **Make sure to use the correct structure of the data fields**, even if fields are empty. For the _.docx_ version the means to always add a single space after the `:`, so "Surname: " and **not** "Surname:". Otherwise conversion to `.json` is impossible and the errors will need to fixed at a later time.
 
-## Translations
+### Biographies.json
 
-The directory Translations contains all translation of document titles, functions, places and titles in Dutch, Italian and English. Copies in _.docx_ can be found in the same directory. Make sure to only add updates to either the _.docx_ or _.json_ files. JSON Schema's for the respective documents can be found in the `./static/JSON/` folder.
+This file stores all biographies and biographical notes of all individuals that have one. They are stored in the `en_GB`, `it_IT` and `nl_NL` fields for the respective languages.
 
-The `TranslatedFunctions` en `TranslatedTitles` documents follow this structure:
+### SourcePatterns.json
 
-- Dutch translation
+`Json` file with regular expression patterns for used sources in the database that gets used to check if they conform to a certain standard of annotation.
+
+### Translations
+
+The directory Translations contains all translation of document titles, functions, places and titles in Dutch, Italian and English. Copies in `.docx` can be found in the same directory. Make sure to only add updates to either the `.docx` or `.json` files (preferably the latter). JSON Schema's for the respective documents can be found in the `./static/JSON/` folder.
+
+The `DocumentTitles`, `TranslatedFunctions` and `TranslatedTitles` documents follow this structure:
+
 - Italian translation
 - English translation
-
-For `TranslatedTitles` a fourth field is added which indicates whether the title should be placed `Before` (graaf Jan Jansen) of `After` (Jan Jansen, prins van Utrecht) the name..
-
-`TranslatedPlacenames` follows this structure:
-
-- Italian translation
 - Dutch translation
-- English translation
 
-`TranslatedDocumentTitles` follows the same structure as `TranslatedPlacenames`. However, it uses _regular expression_ pattern matching to make the translations more flexible.
+For `TranslatedTitles` a fourth field is added which indicates whether the title should be placed `Before` (count Jan Jansen) of `After` (Jan Jansen, prince of Utrecht) the name.
+The Italian translation in `DocumentTitles` is a regular expression pattern that matches the title used in the `excel` file.
 
-### Regular expression example
+`TranslatedPlacenames` follows a similar structure, but also has the following fields:
+
+- `geonames_id`: the [`Geonames`](https://www.geonames.org/) id for the place.
+- `geonames_wikipedia`: a link to the wikipedia page of the place.
+- `latitude`: the latitude of the place downloaded from `GeoNames`.
+- `longitude`: the longitude of the place downloaded from `GeoNames`.
+
+#### Regular expression example
 
 Translation pair in file:
 
@@ -106,9 +119,9 @@ Result in inventory:
 
 (\$\w*) corresponds to an identifier, for example $VanNoord. Because it is the second pattern in between parenthesis it is replaced by \2. The $ at the end of the line indicates a line-break.
 
-Additional explanations of regular expressions can be found online.</details>
+Additional explanations of regular expressions can be found online.
 
-## VolumesExcel
+### VolumesExcel
 
 The folder `VolumcesExcel` contains a sub-directory `original`. These are all the _griglie_ without any changes as received from Rome.
 
@@ -116,6 +129,6 @@ The sub-directory _it\_IT_ contains the modified _griglie_ in Italian. They use 
 
 To facilitate searching in the archive the directory also contains a file `Paesi Bassi ALL FILES.xlsx`. This is a collection of all original _griglie_ as received from Rome, without any modifications.
 
-## Oud
+### Oud
 
-This directory contains the original inventory in _.docx_ and the translation of this in Dutch made at the start of the project.
+This directory contains the original inventory in `.docx` and the translation of this in Dutch made at the start of the project.
