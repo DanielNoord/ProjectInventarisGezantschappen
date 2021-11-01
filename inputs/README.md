@@ -15,6 +15,7 @@ Here follows a short summary and example of each field for an indivdual entry (p
 <details>
 <summary>Database description</summary>
 Each entry has a unique identifier. This is often a `$` followed by the surname of the individual. Each entry has 15 fields. In the `.docx` document each field is represented by the name of the field, a `:`, a space and the data of that field.
+    
     1) `ISNI:id`: 0000 0000 7777 905X
         The [`ISNI`](https://isni.org) id of the indidivual if it exists. Otherwise it is `null`.
 
