@@ -1,6 +1,3 @@
-from lxml import etree
-
-
 def control_title(title: str, file_name: str) -> None:
     """Control document titles for common errors"""
     with open("outputs/title_errors", "a", encoding="utf-8") as file:
