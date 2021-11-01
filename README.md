@@ -112,7 +112,6 @@ Programming tasks:
 ||Daniël| Contact Nationaal Archief about EAD and `.pdf` conversion
 ||Daniël| Create database with support of all three languages
 |x|Daniël| <s>Italics in titles in EAD-XML</s><br />Functions and document titles can use `_` to indicate italic sections, which are stored in the XML file.<br />For example: `John _Pope_` -> John _Pope_
-||Daniël| Create controls of document and volume numbering (consecutive, non-overlapping, suffixes)
 |x|Daniël| Final check of code, annotation and documentation
 
 End of project tasks:
