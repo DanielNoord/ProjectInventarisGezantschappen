@@ -102,7 +102,7 @@ def series_entry(
     etree.SubElement(serie_c_did, "unitid").text = series_data.num
 
     used_trans = add_unittitle(
-        serie_c_did, series_data.title, database, series_data.date
+        serie_c_did, series_data.title, database, series_data.date, series_data.num
     )
 
     date_data = create_date_data(series_data.date)
@@ -127,13 +127,12 @@ def file_entry(
 
     # Titles
     used_trans = add_unittitle(
-        file_did, file_data.title, database, file_data.date_string
+        file_did, file_data.title, database, file_data.date_string, file_data.file_name
     )
 
     if not used_trans:
         with open("outputs/missing_translations", "a", encoding="utf-8") as file:
-            volume = parent_element.getchildren()[0].getchildren()[0].text  # type: ignore
-            print(f"|{volume}.{file_data.page}|{file_data.title}", file=file)
+            print(f"|{file_data.file_name}|{file_data.title}", file=file)
 
     # Date
     date_data = create_date_data(file_data.date_string)
@@ -147,7 +146,7 @@ def file_entry(
 
     # Event
     event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
-    add_geognames(event, file_data.place, database)
+    add_geognames(event, file_data.place, database, file_data.file_name)
     for identifier in re.findall(r"\$\w+", file_data.title):
         add_persname(event, identifier, database)
 

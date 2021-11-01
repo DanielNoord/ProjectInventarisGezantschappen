@@ -61,7 +61,11 @@ def add_italics(parent_element: etree._Element, title: str) -> None:
 
 
 def add_unittitle(
-    parent_element: etree._Element, title: str, database: Database, date: str
+    parent_element: etree._Element,
+    title: str,
+    database: Database,
+    date: str,
+    file_name: str,
 ) -> Optional[re.Pattern[str]]:
     """Adds a unittitle to the parent element"""
     title_en, title_nl, title_it = title, title, title
@@ -92,9 +96,9 @@ def add_unittitle(
         title_en = fix_quotes(title_en)
         title_nl = fix_quotes(title_nl)
 
-    control_title(title_it, parent_element)
-    control_title(title_en, parent_element)
-    control_title(title_nl, parent_element)
+    control_title(title_it, file_name)
+    control_title(title_en, file_name)
+    control_title(title_nl, file_name)
 
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "it"}), title_it)
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "en"}), title_en)

@@ -3,7 +3,7 @@ from typing_utils import Database
 
 
 def add_geognames(
-    parent_element: etree._Element, place: str, database: Database
+    parent_element: etree._Element, place: str, database: Database, file_name: str
 ) -> None:
     """Adds a geogname to the parent element"""
     if place == "None":
@@ -26,7 +26,4 @@ def add_geognames(
         ).text = f"{data['latitude']}, {data['longitude']}"
     except KeyError:
         with open("outputs/missing_placenames", "a", encoding="utf-8") as file:
-            # pylint: disable-next=line-too-long
-            c01 = parent_element.getparent().getparent().getparent().getparent().getparent()  # type: ignore
-            volume = c01.getchildren()[0].getchildren()[0].text  # type: ignore
-            print(f"|Vol: {volume}|{place}", file=file)
+            print(f"|Vol: {file_name}|{place}", file=file)
