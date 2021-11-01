@@ -19,13 +19,17 @@ def update_trecanni(source: str) -> str:
     """
     page = requests.get(source)
     soup = BeautifulSoup(page.content, "html.parser")
-    # pylint: disable-next=line-too-long
-    title = soup.find_all("h1", {"class": "title-search title-leaf"})[0].contents[0].split(", ")  # type: ignore
+    title = (
+        soup.find_all("h1", {"class": "title-search title-leaf"})[0]
+        .contents[0]
+        .split(", ")
+    )
     title[0] = title[0].title()
     title = ", ".join(title)
     author_string = (
-        # pylint: disable-next=line-too-long
-        soup.find_all("div", {"class": "module-briciole_di_pane"})[0].contents[1].contents[0]  # type: ignore
+        soup.find_all("div", {"class": "module-briciole_di_pane"})[0]
+        .contents[1]
+        .contents[0]
     )
     author_string = author_string.replace("\t", "").replace("\n", "")
     if mat := re.match(
@@ -57,7 +61,7 @@ def update_parlement(source: str) -> str:
     """
     page = requests.get(source)
     soup = BeautifulSoup(page.content, "html.parser")
-    name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]  # type: ignore
+    name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]
     final_source = f"Redactie parlement.com, '{name}', found on: {source}"
 
     return final_source
