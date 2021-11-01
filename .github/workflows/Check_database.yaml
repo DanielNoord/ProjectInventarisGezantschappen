@@ -14,7 +14,7 @@ jobs:
         python-version: 3.9
     - name: Install dependencies
       run: |
-        pip install -r requirements-tests.txt
+        pip install -r requirements.txt
     - name: Reconfigure locales
       run: |
         sudo locale-gen it_IT.UTF-8
