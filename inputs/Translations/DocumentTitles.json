@@ -1,32 +1,32 @@
 {
   "$schema": "../../static/JSON/DocumentTitles.json",
   "\"(.+)\" (di|del|della) (\\$\\w+) circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\2 Nov. \\3)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de toepassing van belasting op beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2 nov. \\3)"
+    "en_GB": "“\\1” from \\3 concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\4 Nov. \\5)",
+    "nl_NL": "“\\1” van \\3 omtrent de wet over de toepassing van belasting op beroepen (Rome, Tipografia della Rev. Cam. Apost., \\4 nov. \\5)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la legge sul governo dei Comuni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the Municipalities (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over het bestuur van de Gemeentes (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "en_GB": "“\\1” from \\3 concerning the law about the government of the Municipalities (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "“\\1” van \\3 omtrent de wet over het bestuur van de Gemeentes (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la legge sul governo delle provincie e sull'amministrazione provinciale \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the law about the government of the provinces and about the provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de regering van de provincies en over het provinciaal bestuur (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "en_GB": "“\\1” from \\3 concerning the law about the government of the provinces and about the provincial administration (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "“\\1” van \\3 omtrent de wet over de regering van de provincies en over het provinciaal bestuur (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la legge sulla Consulta di Stato per le Finanze \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "en_GB": "“\\1” from \\3 concerning the Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "“\\1” van \\3 omtrent de wet over de Consulta di Stato per le Finanze (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la pubblica amministrazione \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning public administration (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent publieke administratie (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "en_GB": "“\\1” from \\3 concerning public administration (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "“\\1” van \\3 omtrent publieke administratie (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the tax on the exercise of professions (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de belasting op de uitoefening van beroepen (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "en_GB": "“\\1” from \\3 concerning the tax on the exercise of professions (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "“\\1” van \\3 omtrent de belasting op de uitoefening van beroepen (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa le disposizioni speciali sulla rappresentanza e sull'amministrazione del Comune di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from Pope Pius IX concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)",
-    "nl_NL": "“\\1” van Paus Pius IX omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over het bestuur van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+    "en_GB": "“\\1” from \\3 concerning the special regulations of representation and the administration of the Municipalities of Rome (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "“\\1” van \\3 omtrent de wet over de bijzondere bepalingen aangaande vertegenwoordiging en over het bestuur van de Gemeentes van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "\"(.+)\" (di|del|della) (\\$\\w+)$": {
     "en_GB": "“\\1” from \\3",
@@ -172,6 +172,18 @@
     "en_GB": "Printed “\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "A stampa \"(.+)\" (di|del|della) (\\$\\w+) circa l'esportazione all'estero libera da dazi di frumento, riso e legumi \\(Roma, Tip. della R. C. A., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” from \\3 concerning the exportation abroad of wheat, rice and vegetables free of duties (Rome, Tip. della R. C. A., \\4)",
+    "nl_NL": "Gedrukt “\\1” van \\3 omtrent de export naar het buitenland van tarwe, rijst en groente vrij van belasting (Rome, Tip. della R. C. A., \\4)"
+  },
+  "A stampa \"(.+)\" (di|del|della) (\\$\\w+) circa la convenzione stipulata tra lo Stato Pontificio e il Granducato di Toscana per reprimere il contrabbando e agevolare il commercio e l'industria \\(Roma, Tip. della R. C. A., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” from \\3 concerning the convention stipulated between the Papal States and the Grand Duchy of Toscana to suppress contraband and to facilitate commerce and industry (Rome, Tip. della R. C. A., \\4)",
+    "nl_NL": "Gedrukt “\\1” van \\3 omtrent de overeenkomst bedongen tussen de Kerkelijke Staat en het Groothertogdom Toscane om smokkelwaar te onderdrukken en de handel en industrie te faciliteren (Rome, Tip. della R. C. A., \\4)"
+  },
+  "A stampa \"(.+)\" \\((\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed \"\\1\" (\\2 Mar. \\3)",
+    "nl_NL": "Gedrukt \"\\1\" (\\2 mrt. \\3)"
+  },
   "A stampa \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "Gedrukt “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
@@ -207,6 +219,10 @@
   "Allegato a stampa$": {
     "en_GB": "Printed attachment",
     "nl_NL": "Gedrukte bijlage"
+  },
+  "Allegato alla lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Attachment to the letter of \\2 to \\4",
+    "nl_NL": "Bijlage bij de brief van \\2 aan \\4"
   },
   "Allegato alla lettera$": {
     "en_GB": "Attachment to the letter",
@@ -344,6 +360,10 @@
     "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
     "nl_NL": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes"
   },
+  "Avviso a stampa agli associati del Corriere Livornese$": {
+    "en_GB": "Printed notice to the associates of the Corriere Livornese",
+    "nl_NL": "Gedrukte melding aan de betrokkenen bji de Corriere Livornese"
+  },
   "Avviso a stampa del Consiglio dei Ministri dello Stato Pontificio “Popoli degli Stati di Santa Chiesa” \\(Roma, 11 ago. 1848\\)$": {
     "en_GB": "Printed notice of the council of ministers of the Papel States \"Popoli degli Stati di Santa Chiesa\" (Rome, 11 aug. 1848)",
     "nl_NL": "Gedrukt melding van de ministerraad van de Kerkelijke Staat \"Popoli degli Stati di Santa Chiesa\" (Rome, 11 aug. 1848)"
@@ -424,9 +444,9 @@
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
   },
-  "Bozzetto di un monumento celebrativo \\((\\$\\w+)\\) \\(disegno a inchiostro\\)$": {
-    "en_GB": "Sketch of a commemorative monument (\\1) (Ink drawing)",
-    "nl_NL": "Schets van een herdenkingsmonument (\\1) (Inkttekening)"
+  "Bozzetto di un monumento celebrativo (di|del|della) (\\$\\w+) \\(disegno a inchiostro\\)$": {
+    "en_GB": "Sketch of a commemorative monument of \\2 (Ink drawing)",
+    "nl_NL": "Schets van een herdenkingsmonument van \\2 (Inkttekening)"
   },
   "Breve cenno di alcune pendenze del Lussemburgo$": {
     "en_GB": "Brief mention of several pending suits from Luxembourg",
@@ -1165,8 +1185,8 @@
     "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande het uistel van verscheidene feesten (Rome, Tipografia della Rev. Cam. Apost., \\4 jul. \\5)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+), circa una convenzione postale tra lo Stato Pontificio e l'Imperatore di Austria \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\) \\(a stampa\\)$": {
-    "en_GB": "Printed sheet “\\1” concerning a postal agreement between the Pontifical State and the Emperor of Austria (Rome, \\2 Jul. \\3) (printed)",
-    "nl_NL": "Gedrukt blad “\\1” aangaande een postovereenkomst tussen de Pauselijke Staat en de Keizer van Oostenrijk (Rome, \\2 jul. \\3) (gedrukt)"
+    "en_GB": "Printed sheet “\\1” concerning a postal agreement between the Papal States and the Emperor of Austria (Rome, \\2 Jul. \\3) (printed)",
+    "nl_NL": "Gedrukt blad “\\1” aangaande een postovereenkomst tussen de Kerkelijke Staat en de Keizer van Oostenrijk (Rome, \\2 jul. \\3) (gedrukt)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+), relativa a disposizioni di ordine pubblico anche riguardanti alla stampa \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” relating to the arrangement of the public order also regarding the press (Rome, \\2 May \\3)",
@@ -1251,6 +1271,10 @@
   "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (The Hague, \\2 Jul. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 jul. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(L'Aia, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (The Hague, \\2 Mar. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 mrt. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Lussemburgo, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Luxembourg, \\2)",
@@ -1684,6 +1708,10 @@
     "en_GB": "Papal Government. Pay rates and accessories",
     "nl_NL": "Pauselijke regering. Accijnsen en accessoires"
   },
+  "Il Lucifero. Giornale politico, economico, letterario$": {
+    "en_GB": "Il Lucifero. Giornale politico, economico, letterario",
+    "nl_NL": "Il Lucifero. Giornale politico, economico, letterario"
+  },
   "Il Risorgimento \\(a stampa\\)$": {
     "en_GB": "Roma e gli Stati Romani nel 1850 (printed)",
     "nl_NL": "Roma e gli Stati Romani nel 1850 (gedrukt)"
@@ -1728,9 +1756,17 @@
     "en_GB": "Journal des Débats politiques et littéraires (printed)",
     "nl_NL": "Journal des Débats politiques et littéraires (gedrukt)"
   },
+  "L'Arlecchino. Giornale Comico-Politico$": {
+    "en_GB": "L'Arlecchino. Giornale Comico-Politico",
+    "nl_NL": "L'Arlecchino. Giornale Comico-Politico"
+  },
   "L'Echo Universel, Journal des Pays-Bas$": {
     "en_GB": "L'Echo Universel, Journal des Pays-Bas",
     "nl_NL": "L'Echo Universel, Journal des Pays-Bas"
+  },
+  "LLettera (di|del|della) (\\$\\w+) ai direttori del Commercio del Levante e la Navigazione nel Mediterraneo$": {
+    "en_GB": "Letter from \\2 to the directors of Commerce in the Levant and Navigation in the Mediterranean",
+    "nl_NL": "Brief van \\2 aan de directeurs van Handel in de Levant en Scheepvaart op de Middellandse Zee"
   },
   "Lasciapassare (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Laissez-passer from \\2 to \\4",
@@ -2025,7 +2061,7 @@
     "nl_NL": "Gedrukte brief van \\1 aan \\2 over het aanbod van de Bisschoppen en Oversten van de Religieuze Ordes van de kerkelijke staat van een bedrag om het financiële krediet van de staat te verhogen (Rome, 27 oct. 1848) en handgeschreven vertaling in het Frans"
   },
   "Lettera a stampa (di|del|della) (\\$\\w+) ai sudditi dello Stato Pontificio relativa all'Amnistia \\(Roma, 16 lug. 1846\\)$": {
-    "en_GB": "Printed letter of \\2 to the subjects of the Papal State relating to the Amnesty (Rome, 16 July 1846)",
+    "en_GB": "Printed letter of \\2 to the subjects of the Papal States relating to the Amnesty (Rome, 16 July 1846)",
     "nl_NL": "Gedrukte brief van \\2 aan de onderdanen van de Kerkelijke Staat met betrekking tot de Amnestie (Rome, 16 juli 1846)"
   },
   "Lettera a stampa (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+) per i festeggiamenti del matrimonio tra (\\$\\w+) e (\\$\\w+)$": {
@@ -2115,6 +2151,10 @@
   "Lettera circolare a stampa ai Cardinali Legati$": {
     "en_GB": "Printed circulaire to the Cardinal Legats",
     "nl_NL": "Gedrukte circulaire naar de Kardinaal-Legaten"
+  },
+  "Lettera circolare ai consoli dei Paesi Bassi a Napoli, Livorno, Genova, Civitavecchia$": {
+    "en_GB": "Circulaire to the consuls of the Netherlands in Naples, Livorno, Genoa, Civitavecchia",
+    "nl_NL": "Circulaire aan de consuls van Nederland te Napels, Livorno, Genua, Civitavechia"
   },
   "Lettera circolare del Comitato Romano$": {
     "en_GB": "Circulaire of the Comitato Romano",
@@ -2223,6 +2263,10 @@
   "Lettera per la morte di Sua Maestà (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Letter about the death of His Majesty \\1 (printed)",
     "nl_NL": "Brief over de dood van Zijne Majesteit \\1 (gedrukt)"
+  },
+  "Lettera senza firma e distinatario$": {
+    "en_GB": "Letter without signature and addressee",
+    "nl_NL": "Letter zonder ondertekening en geadresseerde"
   },
   "Lettera$": {
     "en_GB": "Letter",
@@ -2580,6 +2624,10 @@
     "en_GB": "Notification for the Fair of Sinigaglia in the year \\1 (printed)",
     "nl_NL": "Mededeling voor de Markt van Sinigaglia in het jaar \\1 (gedrukt)"
   },
+  "Notizie Napoletane del (\\d\\d?) marzo (\\d\\d\\d\\d)$": {
+    "en_GB": "Roman News of \\1 Mar. \\2",
+    "nl_NL": "Romeins nieuws van \\1 mar. \\2"
+  },
   "Notizie Romane con trascrizione di Sonetto satirico su (\\$\\w+)$": {
     "en_GB": "Notizie Romane with transcription of satirical sonnet about \\1",
     "nl_NL": "Notizie Romane met transcriptie van satirische Sonnet over \\1"
@@ -2904,6 +2952,10 @@
     "en_GB": "Report to His Royal Highness",
     "nl_NL": "Rapport aan Zijne Koninklijke Hoogheid"
   },
+  "Relazione a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Printed report from \\2 to \\4",
+    "nl_NL": "Gedrukt rapport van \\2 aan \\4"
+  },
   "Relazione circa i fatti che causarono l'intevento (di|del|della) (\\$\\w+)$": {
     "en_GB": "Report about the facts that cause the intervention of \\2",
     "nl_NL": "Rapport over de zaken die leiden tot de interventie van \\2"
@@ -3049,7 +3101,7 @@
     "nl_NL": "Algemene toestand van koloniale rechten"
   },
   "Statuti della Società Olivi-moricola dello Stato Pontificio \\(a stampa\\)$": {
-    "en_GB": "Statutes of the Società Olivi-moricola of the Papal State (printed)",
+    "en_GB": "Statutes of the Società Olivi-moricola of the Papal States (printed)",
     "nl_NL": "Statuten van de Società Olivi-moricola van de Kerkelijke Staat (gedrukt)"
   },
   "Statuto a stampa per il governo della Toscana \"(.+)\"$": {
@@ -3083,6 +3135,10 @@
   "Supplemento a “(.+)” \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Supplement to “\\1” (\\2 Nov. \\3)",
     "nl_NL": "Bijlage bij “\\1” (\\2 nov. \\3)"
+  },
+  "Supplemento al N. (\\d+) del Giornale Il Piceno \\(a stampa\\)$": {
+    "en_GB": "Supplement to N. \\1 of the Giornale Il Piceno (printed)",
+    "nl_NL": "Bijlage bij N. \\1 van de Giornale Il Piceno (gedrukt)"
   },
   "Supplemento al N. (\\d+) del Giornale di Roma \\(a stampa\\)$": {
     "en_GB": "Supplement to N. \\1 of the Giornale di Roma (printed)",
@@ -3249,7 +3305,7 @@
     "nl_NL": "Vertaling van de brief van \\2"
   },
   "Traduzione della lettera a stampa (di|del|della) (\\$\\w+) ai sudditi dello Stato Pontificio relativa all'Amnistia \\(Roma, 16 lug. 1846\\)$": {
-    "en_GB": "Translation of the printed letter of \\2 to the subjects of the Papal State relating to the Amnesty (Rome, 16 July 1846)",
+    "en_GB": "Translation of the printed letter of \\2 to the subjects of the Papal States relating to the Amnesty (Rome, 16 July 1846)",
     "nl_NL": "Vertaling van de gedrukte brief van \\2 aan de onderdanen van de Kerkelijke Staat met betrekking tot de Amnestie (Rome, 16 juli 1846)"
   },
   "Traduzione della lettera a stampa (di|del|della) (\\$\\w+)$": {
@@ -3392,6 +3448,10 @@
     "en_GB": "Transcription by \\2 of a letter to \\4",
     "nl_NL": "Transcriptie door \\2 van een brief aan \\4"
   },
+  "Trascrizione (di|del|della) (\\$\\w+) di una lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Transcription from \\2 of a letter from \\4 to \\6",
+    "nl_NL": "Transcriptie van \\2 van een brief van \\4 aan \\6"
+  },
   "Trascrizione (di|del|della) (\\$\\w+) di una lettera (di|del|della) (\\$\\w+) sottoscritta (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Transcription by \\2 of a letter of \\4 signed by \\6 and by \\8",
     "nl_NL": "Transcriptie door \\2 van een brief van \\4 ondertekend door \\6 en door \\8"
@@ -3500,6 +3560,10 @@
     "en_GB": "Transcription of a proclamation of the Italian Committee to the People of the Romagna",
     "nl_NL": "Transcriptie van een proclamatie van de Italiaanse Commissie aan het Volk van de Romagna"
   },
+  "Trascrizione di un rapporto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of a report from \\2",
+    "nl_NL": "Transcriptie van een rapport van \\2"
+  },
   "Trascrizione di una circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a circulaire of \\2",
     "nl_NL": "Transcriptie van een circulaire van \\2"
@@ -3556,7 +3620,7 @@
     "en_GB": "Transcription and translation of a notification of \\2",
     "nl_NL": "Transcriptie en vertaling van een notificatie van \\2"
   },
-  "Trascrizioni del carteggio tra il Governatore, Duca di Genova e (\\$\\w+) in data Genova$": {
+  "Trascrizioni del carteggio tra (\\$\\w+) e (\\$\\w+) in data Genova$": {
     "en_GB": "Transcriptions of the correspondence between the Governor, Duke of Genoa and \\1 dated Genoa",
     "nl_NL": "Transcripties van de correspondentie tussen de Gouverneur, Hertog van Genua en \\1 gedateerd te Genua"
   },
