@@ -4,6 +4,10 @@
     "en_GB": "Attaché to the Legation of the Kingdom of the Netherlands in Rome",
     "nl_NL": "Attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
   },
+  "Addetto alla Legazione dell'Impero Austriaco a Londra": {
+    "en_GB": "Attaché to the Legation of the Empire of Austra in London",
+    "nl_NL": "Attaché bij het Gezantschap van het Keizerrijk Oostenrijk te Londen"
+  },
   "Addetto onorario della Legazione del Regno dei Paesi Bassi a Roma": {
     "en_GB": "Honorary attaché of the Legation of the Kingdom of the Netherlands in Rome",
     "nl_NL": "Honorair attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
@@ -47,6 +51,10 @@
   "Ambasciatore staordinario del Regno di Sardegna presso la Santa Sede": {
     "en_GB": "Extraordinary ambassador of the Kingdom of Sardinia to the Holy See",
     "nl_NL": "Buitengewoon ambassadeur van het Koninkrijk Sardinië bij de Heilige Stoel"
+  },
+  "Ambasciatore staordinario dell'Impero Austriaco presso la Santa Sede": {
+    "en_GB": "Extraordinary ambassador of the Empire of Austria to the Holy See",
+    "nl_NL": "Buitengewoon ambassadeur van het Keizerrijk Oostenrijk bij de Heilige Stoel"
   },
   "Ambasciatore straordinario e plenipotenziario del Regno di Spagna presso la Santa Sede": {
     "en_GB": "Extraordinary and plenipotentiary ambassador of the Kingdom of Spain to the Holy See",
@@ -1084,6 +1092,10 @@
     "en_GB": "Minister of Internal Affairs of the Papel States",
     "nl_NL": "Minister van Binnenlandse Zaken van de Kerkelijke Staat"
   },
+  "Ministro degli Affari del culto Romano-Cattoliche del Regno dei Paesi Bassi": {
+    "en_GB": "Minister of Affairs of the Roman-Catholic Worship Service of the Kingdom of the Netherlands",
+    "nl_NL": "Minister voor de Zaken van de Rooms-Katholieke Eredienst van het Koninkrijk der Nederlanden"
+  },
   "Ministro dei Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Public Works of the Papel States",
     "nl_NL": "Minister van Openbare Werken van de Kerkelijke Staat"
@@ -1247,6 +1259,10 @@
   "Ministro residente del Regno dei Paesi Bassi presso la Santa Sede": {
     "en_GB": "Resident minister of the Kingdom of the Netherlands to the Holy See",
     "nl_NL": "Minister-resident van het Koninkrijk der Nederlanden bij de Heilige Stoel"
+  },
+  "Ministro residente del Regno di Belgio presso la Santa Sede": {
+    "en_GB": "Resident minister of the Kingdom of Belgium at the Holy See",
+    "nl_NL": "Minister-resident van het Koninkrijk België bij de Heilige Stoel"
   },
   "Negoziante": {
     "en_GB": "Shopkeeper",
