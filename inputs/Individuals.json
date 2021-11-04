@@ -2737,6 +2737,31 @@
     "titles": [["marchese", null]],
     "wikidata:id": "Q553371"
   },
+  "$ColloredoW": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1799-10-29",
+    "date_of_death": "1859-10-26",
+    "functions": [
+      ["Addetto alla Legazione dell'Impero Austriaco a Londra", "1820/1824"],
+      [
+        "Ambasciatore staordinario dell'Impero Austriaco presso la Santa Sede",
+        "1856/1859"
+      ]
+    ],
+    "images": ["https://www.portraitindex.de/documents/obj/34003996"],
+    "name": "Franz",
+    "person_type": 1,
+    "place_of_birth": "Vienna",
+    "place_of_death": "Zurigo",
+    "sources": [
+      "Allmayer-Beck, Johann Christoph, 'Colloredo-Waldsee, Franz de Paula Graf von' in: Neue Deutsche Biographie 3 (1957), p. 327, found on: https://www.deutsche-biographie.de/pnd116639598.html#ndbcontent"
+    ],
+    "sources_other": [],
+    "surname": "de Paula von Colloredo-Waldsee",
+    "titles": [["conte", null]],
+    "wikidata:id": "Q1449854"
+  },
   "$Colombo": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3871,22 +3896,38 @@
   },
   "$FerrettiGi": {
     "ISNI:id": null,
-    "comment_daniel": "Lijkt mij een fout in de inventaris die G. Ferrari moet zijn",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "comment_daniel": "",
+    "date_of_birth": "1817-03-09",
+    "date_of_death": "1873-08-02",
     "functions": [
-      ["Ministro delle Finanze e Tesoriere generale della Santa Sede", null]
+      ["Prelato Domestico del Papa", "1839/"],
+      ["Delegato apostolico ad Ascoli", "1843/1844"],
+      ["Delegato apostolico a Civitavecchia", "1844/1845"],
+      ["Delegato apostolico a Macerata", "1845/1849"],
+      ["Delegato apostolico a Urbino e Pesaro", "1849/1851"],
+      ["Delegato apostolico a Forlì", "1852/1854"],
+      [
+        "Ministro del Commercio e Lavori Pubblici dello Stato Pontificio",
+        "1854/"
+      ],
+      ["Legato apostolico a Bologna", "1858/1859"]
     ],
-    "images": [],
-    "name": "G.",
-    "person_type": 4,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "images": [
+      "https://www.beweb.chiesacattolica.it/benistorici/bene/1253429/Pilari+G.+%281871%29%2C+Ritratto+del+cardinale+Giuseppe+Milesi+Pironi+Ferretti#action=ricerca%2Frisultati&view=griglia&locale=it&ordine=&ambito=CEIOA&liberadescr=Milesi+Pironi+Ferretti&liberaluogo=&dominio=1&highlight=Milesi&highlight=Pironi&highlight=Ferretti",
+      "http://www.araldicavaticana.com/mx064.htm"
+    ],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Ancona",
+    "place_of_death": "Roma",
+    "sources": [
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 419",
+      "Severini, Marco, 'Milsei Ferretti, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 74 (Rome, Treccani, 2010), found on: https://www.treccani.it/enciclopedia/giuseppe-milesi-ferretti_(Dizionario-Biografico)/"
+    ],
     "sources_other": [],
-    "surname": "Ferretti",
-    "titles": [],
-    "wikidata:id": null
+    "surname": "Milesi Pironi Ferretti",
+    "titles": [["card.", "1858-03-15/"]],
+    "wikidata:id": "Q2785997"
   },
   "$Ferrieri": {
     "ISNI:id": "0000 0003 9721 8534",
@@ -9095,6 +9136,33 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Ravestein": {
+    "ISNI:id": "0000 0000 6973 0563",
+    "comment_daniel": "",
+    "date_of_birth": "1812-05-24",
+    "date_of_death": "1889-04-20",
+    "functions": [
+      [
+        "Ministro residente del Regno di Belgio presso la Santa Sede",
+        "1850/1859"
+      ]
+    ],
+    "images": [],
+    "name": "Émile Jean Josse Emmanuel Ghislain",
+    "person_type": 1,
+    "place_of_birth": "Malines",
+    "place_of_death": "Malines",
+    "sources": [
+      "Meester de Ravestein, Emile de, Indexeintrag: Deutsche Biographie, https://www.deutsche-biographie.de/pnd116991992.html [03.11.2021]"
+    ],
+    "sources_other": [
+      "https://books.google.nl/books?id=CtcvDwAAQBAJ&pg=PA635&dq=emile+de+meester+de+ravestein+belgio&hl=nl&sa=X&ved=2ahUKEwjN0c_-kfzzAhXR_bsIHQw4DmQQ6AF6BAgFEAI#v=onepage&q=meester%20de%20ravestein&f=false",
+      "https://fr.wikipedia.org/wiki/Emile_de_Meester_de_Ravestein"
+    ],
+    "surname": "de Meester de Ravestein",
+    "titles": [["Cav.", null]],
+    "wikidata:id": "Q1337230"
+  },
   "$Raynaud": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -10494,6 +10562,32 @@
     "titles": [["card.", null]],
     "wikidata:id": "Q614929"
   },
+  "$Son": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1804-06-08",
+    "date_of_death": "1875-11-06",
+    "functions": [
+      [
+        "Ministro degli Affari del culto Romano-Cattoliche del Regno dei Paesi Bassi",
+        "1845-08-16/1848-03-25"
+      ]
+    ],
+    "images": [
+      "https://www.bhic.nl/memorix/images/search/detail/8df4ba1a-45fb-11e3-9e1b-bffd1b024527/media/64a1027d-429c-a62b-90db-721c77c37e2c"
+    ],
+    "name": "Jan Baptist",
+    "person_type": 1,
+    "place_of_birth": "'s-Hertogenbosch",
+    "place_of_death": "'s-Hertogenbosch",
+    "sources": [
+      "Redactie parlement.com, 'Mr. J.B. van Son', found on: https://www.parlement.com/id/vg09lljm96yt/j_b_van_son"
+    ],
+    "sources_other": [],
+    "surname": "van Son",
+    "titles": [],
+    "wikidata:id": "Q1960519"
+  },
   "$Sonnaz": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -10974,6 +11068,23 @@
     "surname": "von Tauffkirchen-Guttenburg",
     "titles": [["conte", null]],
     "wikidata:id": "Q1041439"
+  },
+  "$Terribilini": {
+    "ISNI:id": null,
+    "comment_daniel": "Must be state somewhere",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi a Civitavecchia", null]],
+    "images": [],
+    "name": "A.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Terribilini",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Thile": {
     "ISNI:id": "0000 0000 6290 5535",
@@ -12026,6 +12137,23 @@
     "sources_other": [],
     "surname": "von Zedlitz",
     "titles": [["barone", null]],
+    "wikidata:id": null
+  },
+  "$Zelling": {
+    "ISNI:id": null,
+    "comment_daniel": "Hij was sowieso een reeder: hij schreef een brief naar Chastel vragend om financiële hulp voor kapitein Cornelis, wier schip (Amicitia) in een ramp betrokken was. Het lijkt erop dat hij ook een schoolonderwijzer en schrijver van kinderboeken was, omdat deze persoon ook in Eekste in de gem. Scheemda van Groningen woonde, wat me een beetje een te kleine plek lijkt om twee mensen met de naam 'EJ Zelling' te hebben",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "E.J.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Zelling",
+    "titles": [],
     "wikidata:id": null
   },
   "$Zermann": {
