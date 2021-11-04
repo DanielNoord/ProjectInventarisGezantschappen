@@ -476,6 +476,18 @@
     "en_GB": "Apostolic delegate in Civitavecchia",
     "nl_NL": "Apostolisch delegaat te Civitavecchia"
   },
+  "Delegato apostolico a Forlì": {
+    "en_GB": "Apostolic delegate in Forlì",
+    "nl_NL": "Apostolisch delegaat te Forlì"
+  },
+  "Delegato apostolico a Macerata": {
+    "en_GB": "Apostolic delegate in Macerata",
+    "nl_NL": "Apostolisch delegaat te Macerata"
+  },
+  "Delegato apostolico a Urbino e Pesaro": {
+    "en_GB": "Apostolic delegate in Urbino and Pesaro",
+    "nl_NL": "Apostolisch delegaat te Urbino en Pesaro"
+  },
   "Delegato apostolico a Vienna": {
     "en_GB": "Apostolic delegate in Vienna",
     "nl_NL": "Apostolisch delegaat te Wenen"
@@ -487,6 +499,10 @@
   "Delegato apostolico ad Ancona": {
     "en_GB": "Apostolic delegate in Ancona",
     "nl_NL": "Apostolisch delegaat te Ancona"
+  },
+  "Delegato apostolico ad Ascoli": {
+    "en_GB": "Apostolic delegate in Ascoli",
+    "nl_NL": "Apostolisch delegaat te Ascoli"
   },
   "Direttore ad interim della cancelleria per gli Affari Lussemburghesi dell'Aia": {
     "en_GB": "Ad interim director of the chancellery for Luxembourgish Affairs in The Hague",
@@ -1099,6 +1115,10 @@
   "Ministro dei Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Public Works of the Papel States",
     "nl_NL": "Minister van Openbare Werken van de Kerkelijke Staat"
+  },
+  "Ministro del Commercio e Lavori Pubblici dello Stato Pontificio": {
+    "en_GB": "Minister of Trade and Public Works of the Papel States",
+    "nl_NL": "Minister van Handel en Openbare Werken van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papel States",
