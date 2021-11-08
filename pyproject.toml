@@ -1,0 +1,12 @@
+# Global mypy options:
+[tool.mypy]
+files = "python"
+strict = true
+
+# Global pylint options
+[tool.pylint.MASTER]
+extension-pkg-allow-list="lxml"
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = ["duplicate-code", "missing-module-docstring"]
+enable = ["c-extension-no-member", "missing-function-docstring"]
