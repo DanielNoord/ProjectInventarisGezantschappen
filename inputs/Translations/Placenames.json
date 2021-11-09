@@ -704,6 +704,14 @@
     "longitude": "7.34453",
     "nl_NL": "Delémont"
   },
+  "Deventer": {
+    "en_GB": "Deventer",
+    "geonames_id": 2756987,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Deventer",
+    "latitude": "52.255",
+    "longitude": "6.16389",
+    "nl_NL": "Deventer"
+  },
   "Diacceto": {
     "en_GB": "Diacceto",
     "geonames_id": 8949840,
@@ -1807,6 +1815,14 @@
     "latitude": "47.79941",
     "longitude": "13.04399",
     "nl_NL": "Salzburg"
+  },
+  "San Cristóbal de Las Casas": {
+    "en_GB": "San Cristóbal de las Casas",
+    "geonames_id": 3519537,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_las_Casas",
+    "latitude": "16.73176",
+    "longitude": " -92.64126",
+    "nl_NL": "San Cristóbal de las Casas"
   },
   "San Michele di Pagana": {
     "en_GB": "San Michele di Pagana",
