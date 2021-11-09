@@ -225,7 +225,7 @@
       ["Commissario straordinario pontificio ad Ancona", "1849/"],
       [
         "Ministro del Commercio, Belle Arti, Lavori Pubblici, Industria e Agricoltura dello Stato Pontificio",
-        "1859/1860"
+        "1858/1860"
       ]
     ],
     "images": [],
@@ -553,6 +553,23 @@
     "surname": "Barnabò",
     "titles": [["card.", "1856-06-16/"]],
     "wikidata:id": "Q2832751"
+  },
+  "$Baronis": {
+    "ISNI:id": null,
+    "comment_daniel": "Woonde aan de Via della Consolata n. 7 te Turijn en is de zuster van een zekere J.C. Sterkenburg",
+    "date_of_birth": "",
+    "date_of_death": "1856",
+    "functions": [],
+    "images": [],
+    "name": "Johanna",
+    "person_type": 2,
+    "place_of_birth": "L'Aia",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Baronis",
+    "titles": [["Contessa", null]],
+    "wikidata:id": null
   },
   "$Bartolini": {
     "ISNI:id": "0000 0001 1024 8366",
@@ -1622,6 +1639,25 @@
       "Ministero dell'interno, Calendario generale del Regno di Sardegna (Turin, 1851), 438"
     ],
     "surname": "Brandini",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Brauw": {
+    "ISNI:id": null,
+    "comment_daniel": "Nog enige twijfel of het Cornelis Frederik Stavenisse de Brauw of Constantijn Philip de Brauw is. Hij ondertekent met Stavenisse, en C.F was een kapitein in de marine, plus hij was rondom Genua in die tijd, MAAR de brief kondigt de aankomst van het fregat de Ruyter aan, en het was C.P. die hier kapitein van werd in de late jaren vijftig van de negentiende eeuw.",
+    "date_of_birth": "1811-07-08",
+    "date_of_death": "1892-11-15",
+    "functions": [],
+    "images": [
+      "https://www.maritiemdigitaal.nl/index.cfm?event=search.getdetail&id=120094049"
+    ],
+    "name": "Constantijn Philip",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "de Brauw",
     "titles": [],
     "wikidata:id": null
   },
@@ -3920,6 +3956,27 @@
     "titles": [["vescovo", null]],
     "wikidata:id": "Q2707662"
   },
+  "$Figueiredo": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Incaricato d'affari del'Impero del Brasile presso la Santa Sede", null]
+    ],
+    "images": [],
+    "name": "J.B.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Notizie per l'Anno 1853 (Tipografia Salviucci: Roma, 1853), p. 311"
+    ],
+    "surname": "Figueiredo",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Firoi": {
     "ISNI:id": null,
     "comment_daniel": "I believe he might be included in 'Dizionario bibliografico dell'Armata Sarda seimila biografie'",
@@ -5218,6 +5275,28 @@
     "titles": [["Cav.", null]],
     "wikidata:id": null
   },
+  "$Hoovenaar": {
+    "ISNI:id": "0000 0003 8746 8425",
+    "comment_daniel": "",
+    "date_of_birth": "1808",
+    "date_of_death": "1886",
+    "functions": [
+      ["Scrittore", null],
+      ["Editore del Rutering en Vermandel a Deventer", null]
+    ],
+    "images": [],
+    "name": "Pieter",
+    "person_type": 1,
+    "place_of_birth": "L'Aia",
+    "place_of_death": "Deventer",
+    "sources": [
+      "Historisch Centrum Overijssel, BS Overlijden Deventer, archief 123, inventarisnummer 3163, aktenummer 512, p. 186"
+    ],
+    "sources_other": [],
+    "surname": "Hoovenaar Rutering",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$HuyssenJW": {
     "ISNI:id": "0000 0003 9205 5246",
     "comment_daniel": "",
@@ -5844,6 +5923,34 @@
     "surname": "Larraín Moxó",
     "titles": [["marchese", null]],
     "wikidata:id": "Q5944825"
+  },
+  "$Larrainzar": {
+    "ISNI:id": "0000 0000 2769 3733",
+    "comment_daniel": "",
+    "date_of_birth": "1809-12-26",
+    "date_of_death": "1884-09-11",
+    "functions": [
+      [
+        "Ambasciatore straordinario e plenipotenziario della Repubblica del Messico agli Stati Uniti d'America",
+        "1852-03-05/1853-07-01"
+      ],
+      [
+        "Ambasciatore straordinario e plenipotenziario della Repubblica del Messico presso la Santa Sede",
+        "1853/1855"
+      ]
+    ],
+    "images": [],
+    "name": "Manuel",
+    "person_type": 1,
+    "place_of_birth": "San Cristóbal de Las Casas",
+    "place_of_death": "Città del Messico",
+    "sources": [],
+    "sources_other": [
+      "Sosa, Francisco, Biografia del Sr. Lic. D. Manuel Larrainzar (Tip. Bareedillo y Comp.: México, 1884), found on: http://cdigital.dgb.uanl.mx/la/1020025274/1020025274.PDF"
+    ],
+    "surname": "Larráinzar Piñero",
+    "titles": [],
+    "wikidata:id": "Q5993437"
   },
   "$Launay": {
     "ISNI:id": null,
@@ -6508,6 +6615,35 @@
     "surname": "Macchi",
     "titles": [],
     "wikidata:id": "Q3852847"
+  },
+  "$Machado": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno del Portogallo presso la Santa Sede",
+        "1857-08-07/1858-06-29"
+      ],
+      [
+        "Ministro plenipotenziario del Regno del Portogallo presso la Santa Sede",
+        "1858-06-29/1862-11-05"
+      ]
+    ],
+    "images": [],
+    "name": "João Carlos",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Ministério dos Negócios Estrangeiros, 'História Diplomática / Relações Diplomáticas / Titulares/ Santa Sé - Titulares', in: Portal Diplomático, found on: https://portaldiplomatico.mne.gov.pt/relacoesbilaterais/historia-diplomatica?view=article&id=646",
+      "https://pt.wikipedia.org/wiki/Visconde_de_Alte"
+    ],
+    "surname": "da Franca e Horta Teles Machado",
+    "titles": [["1° Visconte d'Alte", "1851-11-26/"]],
+    "wikidata:id": null
   },
   "$Macioti": {
     "ISNI:id": null,
@@ -7371,6 +7507,42 @@
     "titles": [],
     "wikidata:id": "Q107059878"
   },
+  "$Migliorati": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1825-05-12",
+    "date_of_death": "1898-05-29",
+    "functions": [
+      [
+        "Reggente della Legazione del Regno di Sardegna a Roma",
+        "1854-09-03/1858-01-15"
+      ],
+      [
+        "Reggente della Legazione del Regno di Sardegna all'Aia",
+        "1857-11-29/1859-10"
+      ],
+      [
+        "Incaricato d'affari del Regno di Sardegna a Copenaghen",
+        "1860-01-16/1863-11-22"
+      ]
+    ],
+    "images": [],
+    "name": "Giovanni Antonio",
+    "person_type": 1,
+    "place_of_birth": "Genova",
+    "place_of_death": "Firenze",
+    "sources": [
+      "'Migliorati Giovanni Antonio', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/web/senregno.nsf/825dafd139c849bdc125785d0059ad7c/3fbbb317d81d04754125646f005d8075?OpenDocument",
+      "Bernasconi, Paola, 'Migliorati, Giovanni Antonio', in: Dizionario Biografico degli Italiani. Vol. 74 (2010), found on: https://www.treccani.it/enciclopedia/giovanni-antonio-migliorati_(Dizionario-Biografico)"
+    ],
+    "sources_other": [],
+    "surname": "Migliorati",
+    "titles": [
+      ["marchese", null],
+      ["Cav.", null]
+    ],
+    "wikidata:id": "Q3766458"
+  },
   "$Mijnden": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -7426,7 +7598,7 @@
       ["Delegato apostolico a Urbino e Pesaro", "1849/1851"],
       ["Delegato apostolico a Forlì", "1852/1854"],
       [
-        "Ministro del Commercio, Belle Arti, Industria e Agricoltura dello Stato Pontificio",
+        "Ministro del Commercio e Lavori Pubblici dello Stato Pontificio",
         "1854/1858-03-15"
       ],
       ["Legato apostolico a Bologna", "1858/1859"]
@@ -7948,6 +8120,25 @@
     ],
     "surname": "Noyer",
     "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
+  "$Nutges": {
+    "ISNI:id": null,
+    "comment_daniel": "Weduwe van Arnoud David Willink van Bennebroek, die overleed in 1854. Hertrouwde met Jacob Gerrit Willen baron van Utenhove",
+    "date_of_birth": "1784-06-29",
+    "date_of_death": "1858-05-25",
+    "functions": [],
+    "images": ["https://rkd.nl/nl/explore/images/182360"],
+    "name": "Johanna Maria",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Bennebroek",
+    "sources": [
+      "'Arnoud David Willink', Nederland's Patriciaat. Vol. 36 (Centraal bureau voor genealogie en heraldick.: Den Haag, 1950), p. 373"
+    ],
+    "sources_other": [],
+    "surname": "Nutges",
+    "titles": [],
     "wikidata:id": null
   },
   "$Odescalchi": {
@@ -10628,6 +10819,26 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Spakler": {
+    "ISNI:id": "0000 0003 9779 7994",
+    "comment_daniel": "",
+    "date_of_birth": "1813-12-25",
+    "date_of_death": "1863-06-17",
+    "functions": [["Scrittore", null]],
+    "images": [],
+    "name": "Johannes Christoffel",
+    "person_type": 1,
+    "place_of_birth": "Rotterdam",
+    "place_of_death": "Dordrecht",
+    "sources": [
+      "'Johannes Christoffel Spakler', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/30365581",
+      "'Spakler' in: Biographisch woordenboek den Noord- en Zuidnederlansche letterkunde, Jos van den Branden en J.G. Frederiks (red.) (L.J. Veen: Amsterdam, 1888-1891), p. 745"
+    ],
+    "sources_other": [],
+    "surname": "Spakler",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$SpaurJ": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -10856,6 +11067,23 @@
       "Almanacco Romano pel 1858. Raccolta dei primari dignitari e funzionari della citta' di Roma, Anno 4 (Rome, 1858), 170"
     ],
     "surname": "Sterbini",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Sterkenburg": {
+    "ISNI:id": null,
+    "comment_daniel": "Broer van Baronis. Is wederom een veeltakkig geslacht, dus hier nog even induiken om erachter te komen wie dit is.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J.C.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van Sterkenburg",
     "titles": [],
     "wikidata:id": null
   },
