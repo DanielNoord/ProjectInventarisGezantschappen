@@ -1528,6 +1528,14 @@
     "longitude": "2.26965",
     "nl_NL": "Neuilly-sur-Seine"
   },
+  "New York City": {
+    "en_GB": "New York City",
+    "geonames_id": 5128581,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/New_York_City",
+    "latitude": "40.71427",
+    "longitude": "-74.00597",
+    "nl_NL": "New York City"
+  },
   "Nizza": {
     "en_GB": "Nice",
     "geonames_id": 2990440,
@@ -1711,6 +1719,14 @@
     "latitude": "44.43836",
     "longitude": "10.6919",
     "nl_NL": "Prignano sulla Secchia"
+  },
+  "Princeton": {
+    "en_GB": "Princeton",
+    "geonames_id": 5102922,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Princeton%2C_New_Jersey",
+    "latitude": "40.34872",
+    "longitude": "-74.65905",
+    "nl_NL": "Princeton"
   },
   "Ravenna": {
     "en_GB": "Ravenna",
