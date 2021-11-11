@@ -135,7 +135,10 @@ def file_entry(
             print(f"|{file_data.file_name}|{file_data.title}", file=file)
 
     # Date
-    date_data = create_date_data(file_data.date_string)
+    try:
+        date_data = create_date_data(file_data.date_string)
+    except ValueError as error:
+        raise ValueError(f"{error.args[0]} for file {file_data.file_name}") from error
     add_unitdate(file_did, file_data.date_string, date_data)
 
     # Scopecontent
