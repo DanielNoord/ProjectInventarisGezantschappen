@@ -372,6 +372,10 @@
     "en_GB": "Printed notice to the associates of the Corriere Livornese",
     "nl_NL": "Gedrukte melding aan de betrokkenen bji de Corriere Livornese"
   },
+  "Avviso a stampa ai naviganti firmato (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Printed notice to navigators signed by \\2",
+    "nl_NL": "Gedrukte melding aan scheepvaarders ondertekend door \\2"
+  },
   "Avviso a stampa del Consiglio dei Ministri dello Stato Pontificio “Popoli degli Stati di Santa Chiesa” \\(Roma, 11 ago. 1848\\)$": {
     "en_GB": "Printed notice of the council of ministers of the Papel States \"Popoli degli Stati di Santa Chiesa\" (Rome, 11 aug. 1848)",
     "nl_NL": "Gedrukt melding van de ministerraad van de Kerkelijke Staat \"Popoli degli Stati di Santa Chiesa\" (Rome, 11 aug. 1848)"
@@ -463,6 +467,14 @@
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2 to \\4",
     "nl_NL": "Concept van een brief van \\2 aan \\4"
+  },
+  "Bozza di lettera (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Draft of a letter from \\2",
+    "nl_NL": "Concept van een brief van \\2"
+  },
+  "Bozza di lettera circolare ai rappresentanti delle Legazioni straniere presso la Santa Sede$": {
+    "en_GB": "Draft of a cirulaire to the representatives of foreign legations at the Holy See",
+    "nl_NL": "Concept van een circulaire aan de vertegenwoordigers van buitenlandse gezantschappen bij de Heilige Stoel"
   },
   "Bozze e minuta di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Drafts and minute from the letter from \\2 to \\4",
@@ -740,6 +752,14 @@
     "en_GB": "Decree of \\2",
     "nl_NL": "Decreet van \\2"
   },
+  "Decreto a stampa (di|del|della) (\\$\\w+) circa i trattati di commercio \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed decree of \\2 about commercial treatises (Naples, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukte verordening van \\2 over handelstraktaten (Napels, \\2 jun. \\3)"
+  },
+  "Decreto a stampa (di|del|della) (\\$\\w+) per i trattati di commercio$": {
+    "en_GB": "Printed decree of \\2 about commercial treatises",
+    "nl_NL": "Gedrukte verordening van \\2 over handelstraktaten"
+  },
   "Decreto a stampa (di|del|della) (\\$\\w+) su tariffe doganali e prezzi$": {
     "en_GB": "Printed decree of \\2 about custom rates and prices",
     "nl_NL": "Gedrukte verordening van \\2 over douanetarieven en prijzen"
@@ -999,6 +1019,10 @@
   "Estratto della Gazzetta Universale di Augusta dei (\\d\\d?) gennaio (\\d\\d\\d\\d) n. (\\d+)$": {
     "en_GB": "Extract from the Gazzetta Universal di Augusta of January \\1, \\2 n. \\3",
     "nl_NL": "Uittreksel uit de Gazzetta Universal di Augusta van \\1 januari \\2 n. \\3"
+  },
+  "Estratto della decisione della Gran Corte di Salerno il 19 luglio 1858 a carico degli accusati dei fatti di Ponza e di Sapri$": {
+    "en_GB": "Extract from the decision of the High Court of Salerno of 19 July 1858 against those accused of the events of Ponza and Sapri",
+    "nl_NL": "Uittreksel van de beslissingn van het Hooggerechtshof van Salerno van 19 juli 1858 tegen degene beschuldigd van de gebeurtenissen van Ponza en Sapri"
   },
   "Estratto delle osservazioni dei rappresentanti della Seconda Camera degli Stati Generali$": {
     "en_GB": "Extract from the observations from the representatives of the House of Representatives",
@@ -2024,6 +2048,10 @@
     "en_GB": "Letter from \\2 to the consular representatives in Rome",
     "nl_NL": "Brief van \\2 aan de consulaire vertegenwoordigers in Rome"
   },
+  "Lettera (di|del|della) (\\$\\w+) al Direzione Generale della Polizia$": {
+    "en_GB": "Draft of a letter from \\2 to the General Directorate of the Police",
+    "nl_NL": "Concept van een brief van \\2 aan het Directoraat-Generaal van de Politie"
+  },
   "Lettera (di|del|della) (\\$\\w+) al Re$": {
     "en_GB": "Letter of \\2 to the king",
     "nl_NL": "Brief van \\2 aan de koning"
@@ -2228,6 +2256,14 @@
     "en_GB": "Printed circulaire of the minister of internal affairs to the governors",
     "nl_NL": "Gedrukte circulaire van de minister van binnenlandse zaken aan de gouverneurs"
   },
+  "Lettera circolare litografata con varie sottoscrizioni$": {
+    "en_GB": "Lithographed circulaire with various subscripts",
+    "nl_NL": "Gelitografeerde circulaire met verschillende onderschriften"
+  },
+  "Lettera circolare litografata$": {
+    "en_GB": "Lithographed circulaire",
+    "nl_NL": "Gelitografeerde circulaire"
+  },
   "Lettera circolare$": {
     "en_GB": "Circulaire",
     "nl_NL": "Circulaire"
@@ -2263,6 +2299,10 @@
   "Lettera dai rappresentanti del corpo diplomatico (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from to the representatives of the corps diplomatique to \\2",
     "nl_NL": "Brief van de vertegenwoordigers van het corps diplomatique aan \\2"
+  },
+  "Lettera dalla Anticamera Pontificia (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the Pontifical Antechamber to \\2",
+    "nl_NL": "Brief van de Pauselijke Voorkamer aan \\2"
   },
   "Lettera dalla città di Fossano$": {
     "en_GB": "Letter of the city of Fossano",
@@ -2323,6 +2363,10 @@
   "Lettera di invito (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter of invitation from \\2",
     "nl_NL": "Uitnodigingsbrief van \\2"
+  },
+  "Lettera di invito dall'anticamera pontificia (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter of invitation from the Pontifical antechamber to \\2",
+    "nl_NL": "Uitnodigingsbrief van de Pauselijke voorkamer aan \\2"
   },
   "Lettera di partecipazione alle nozze della figlia (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of participation to the wedding night of the daughter of \\2 to \\4",
@@ -2543,6 +2587,10 @@
   "Nota dei Consiglieri componenti il Consiglio compito per l'elezione del Luogotenente del Magistero del S. M. O. tenuto nel giorno 13 settembre 1845$": {
     "en_GB": "Note of the Councilors who are members of the Council for the election of the Lieutenant of the Magisterium of the S. M. O. held on 13 September 1845",
     "nl_NL": "Nota van de raadsleden die lid zijn van de raad voor de verkiezing van de luitenant van het magistraat van de S. M. O. gehouden op 13 september 1845"
+  },
+  "Nota dei contatti essistenti nel regno di Napoli (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Note from existing contacts in the Kingdom of Naples to \\e",
+    "nl_NL": "Nota van bestaande contacten in het Koninkrijk Napels aan \\2"
   },
   "Nota del denaro spettante al fu (\\$\\w+)$": {
     "en_GB": "Note of the money owed to the late \\1",
@@ -2875,6 +2923,10 @@
   "Ordine del giorno$": {
     "en_GB": "Agenda",
     "nl_NL": "Agenda"
+  },
+  "Ordine di concessione di alcuni cavalli a favore (di|del|della) (\\$\\w+) da parte delle Segreteria di Stato della Santa Sede$": {
+    "en_GB": "Order granting several horses to \\2 on the part of the Secretariat of the Holy See",
+    "nl_NL": "Opdracht die enkele paarden toekent aan \\2 gegeven door het Secretariaat van de Heilige Stoel"
   },
   "Ordung der Todtenfeyer \\(Ordine del funerale\\)$": {
     "en_GB": "Ordung der Todtenfeyer (Order of the funeral)",
@@ -3587,6 +3639,10 @@
   "Traduzione di una lettera circolare$": {
     "en_GB": "Translation of a circulaire",
     "nl_NL": "Vertaling van een circulaire"
+  },
+  "Traduzione di una lettera con bozze e correzioni$": {
+    "en_GB": "Translation of a letter with drafts and corrections",
+    "nl_NL": "Vertaling van een brief met conceptversies en correcties"
   },
   "Traduzione in Francese della lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
     "en_GB": "Translation in French of the letter of the Alto Consiglio della Nobilità to \\2 about the conferral of a medal",
