@@ -144,6 +144,10 @@
     "en_GB": "\"\\1\" signed by \\3",
     "nl_NL": "\"\\1\" ondertekend door \\3"
   },
+  "\"(.+)\" litografia a stampa$": {
+    "en_GB": "“\\1” printed lithograph",
+    "nl_NL": "“\\1” gedrukte litho"
+  },
   "\"(.+)\" nota manoscritta$": {
     "en_GB": "\"\\1\" handwritten note",
     "nl_NL": "\"\\1\" handgeschreven nota"
@@ -452,6 +456,10 @@
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 (attachment)",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 (bijlage)"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2 to \\4",
     "nl_NL": "Concept van een brief van \\2 aan \\4"
@@ -728,6 +736,10 @@
     "en_GB": "Special correspondance from L'Indépendance Belge",
     "nl_NL": "Bijzondere correspondentie uit L'Indépendance Belge"
   },
+  "Decreto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Decree of \\2",
+    "nl_NL": "Decreet van \\2"
+  },
   "Decreto a stampa (di|del|della) (\\$\\w+) su tariffe doganali e prezzi$": {
     "en_GB": "Printed decree of \\2 about custom rates and prices",
     "nl_NL": "Gedrukte verordening van \\2 over douanetarieven en prijzen"
@@ -783,6 +795,10 @@
   "Discorso dal Trono di (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Speech from the Throne of \\1 (printed)",
     "nl_NL": "Troonrede van \\1 (gedrukt)"
+  },
+  "Discorso dal Trono di (\\$\\w+) \\(avviso a stampa\\)$": {
+    "en_GB": "Speech from the Throne of \\1 (printed notice)",
+    "nl_NL": "Troonrede van \\1 (gedrukte melding)"
   },
   "Discorso del Ministro degli Interni traduzione$": {
     "en_GB": "Speech from the Minister of Internal Affairs translation",
@@ -1756,6 +1772,14 @@
     "en_GB": "Invitation from \\2",
     "nl_NL": "Uitnodiging van \\2"
   },
+  "Invito litografato (a|al) (\\$\\w+)$": {
+    "en_GB": "Lithographed invitation to \\2",
+    "nl_NL": "Gelithografeerde uitnodiging aan \\2"
+  },
+  "Invito per l'apertura del Parlamento (a|al) (\\$\\w+)$": {
+    "en_GB": "Invitation for the opening of Parliament to \\2",
+    "nl_NL": "Uitnodiging voor de opening van het Parlement aan \\2"
+  },
   "Journal de la Haye \\(a stampa\\)$": {
     "en_GB": "Journal de la Haye (printed)",
     "nl_NL": "Journal de la Haye (gedrukt)"
@@ -1883,6 +1907,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) circa le visite di bordo$": {
     "en_GB": "Letter of \\2 to \\4 about the visits on board",
     "nl_NL": "Brief van \\2 aan \\4 over de bezoeken aan board"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con albero genealogico allegato \"(.+)\"$": {
+    "en_GB": "Letter of \\2 to \\4 with attached pedigree “\\5”",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgevoegde stamboom “\\5”"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con alcune memorie, note e minute di altre lettere$": {
     "en_GB": "Letter of \\2 to \\4 with several memories, notes and minutes of other letters",
@@ -2392,6 +2420,10 @@
     "en_GB": "Memory on the negotiations with the Kingdom of Sardinia",
     "nl_NL": "Memorie over de onderhandelingen met het Koninkrijk Sardinië"
   },
+  "Memoria sul decreto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Memory about the decree of \\2",
+    "nl_NL": "Memorie over het decreet van \\2"
+  },
   "Memoria sull'Inghilterra$": {
     "en_GB": "Memory on England",
     "nl_NL": "Memorie over Engeland"
@@ -2455,6 +2487,14 @@
   "Minutario della corrispondenza (di|del|della) (\\$\\w+)$": {
     "en_GB": "Minutes of correspondence of \\2",
     "nl_NL": "Minuten van correspondentie van \\2"
+  },
+  "Minute diverse di corrispondenza e appunti diversi$": {
+    "en_GB": "Several minutes of correspondence and several notes",
+    "nl_NL": "Diverse minuten van correspondentie en diverse notities"
+  },
+  "Minute diverse di corrispondenza$": {
+    "en_GB": "Several minutes of correspondence",
+    "nl_NL": "Diverse minuten van correspondentie"
   },
   "Mission de M. le Conte de Limburg Stirum \\(Missione del \\$Limburg\\)$": {
     "en_GB": "Mission de M. le Conte de Limburg Stirum (Mission of $Limburg)",
@@ -3124,6 +3164,10 @@
     "en_GB": "Response of \\2",
     "nl_NL": "Respons van \\2"
   },
+  "Risposta ad alcune domande poste (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Response to several questions posed by \\2",
+    "nl_NL": "Respons op verschillende vragen gesteld door \\2"
+  },
   "Ritaglio a stampa del \"(.+)\"$": {
     "en_GB": "Printed clipping from the “\\1”",
     "nl_NL": "Gedrukt knipsel van de “\\1”"
@@ -3256,6 +3300,10 @@
     "en_GB": "Plea addressed to \\2",
     "nl_NL": "Smeekbede gericht aan \\2"
   },
+  "Tabella a stampa$": {
+    "en_GB": "Printed table",
+    "nl_NL": "Gedrukt overzicht"
+  },
   "Tabella comparativa di alcune tasse del Regno delle Due Sicilie$": {
     "en_GB": "Comparative table of several taxes from the Kingdom of the Two Sicilies",
     "nl_NL": "Comparatief overzicht van enkele belastingen van het Koninkrijk der Beide Siciliën"
@@ -3363,6 +3411,10 @@
   "Traduzione dell'avviso a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Translation of a printed notice “\\1” (Rome, \\2 Aug. \\3)",
     "nl_NL": "Vertaling van een gedrukte melding “\\1” (Rome, \\2 aug. \\3)"
+  },
+  "Traduzione dell'avviso$": {
+    "en_GB": "Translation of a printed notice",
+    "nl_NL": "Vertaling van een gedrukte melding"
   },
   "Traduzione della \"Protesta che la Santità di N. S. Pio PP. IX circondato dal Sacro Collegio ha fatto in Gaeta innanzi al Corpo Diplomatico la mattina del 14 febbraio 1849\"$": {
     "en_GB": "Translation of the \"Protest that His Holiness of Our Lord Pope Pius IX surrounded by the Sacred College made in Gaeta before the Diplomatic Corps on 14 February 1849\"",
