@@ -744,7 +744,7 @@
     "comment_daniel": "Archive provides no information about this person and who he was",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Chimico", null]],
     "images": [],
     "name": "Giuseppe",
     "person_type": 5,
@@ -4030,6 +4030,23 @@
     "sources": [],
     "sources_other": [],
     "surname": "Fleumer",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Folgori": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Troiano",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Folgori",
     "titles": [],
     "wikidata:id": null
   },
@@ -11143,6 +11160,30 @@
     "surname": "van Sterkenburg",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Stockton": {
+    "ISNI:id": "0000 0000 2746 4666",
+    "comment_daniel": "",
+    "date_of_birth": "1826-08-02",
+    "date_of_death": "1900-01-22",
+    "functions": [
+      [
+        "Ministro pelipontenziario degli Stati Uniti d'America presso la Santa Sede",
+        "1858-06-15/1861-05-23"
+      ]
+    ],
+    "images": ["http://loc.gov/pictures/resource/cwpbh.00143/"],
+    "name": "John",
+    "person_type": 1,
+    "place_of_birth": "Princeton",
+    "place_of_death": "New York City",
+    "sources": [],
+    "sources_other": [
+      "'John Potter Stockton (1826-1900)', Office of the Historian, found on: https://history.state.gov/departmenthistory/people/stockton-john-potter"
+    ],
+    "surname": "Potter Stockton",
+    "titles": [],
+    "wikidata:id": "Q433837"
   },
   "$Stover": {
     "ISNI:id": "0000 0003 9275 8697",
