@@ -568,7 +568,7 @@
     "sources": [],
     "sources_other": [],
     "surname": "Baronis",
-    "titles": [["Contessa", null]],
+    "titles": [["contessa", null]],
     "wikidata:id": null
   },
   "$Bartolini": {
@@ -4839,6 +4839,39 @@
     "surname": "Gonzaga",
     "titles": [],
     "wikidata:id": "Q3610051"
+  },
+  "$Gramont": {
+    "ISNI:id": "0000 0001 1224 5492",
+    "comment_daniel": "",
+    "date_of_birth": "1819-08-14",
+    "date_of_death": "1880-01-17",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero di Francia presso la Santa Sede",
+        "1857/1860"
+      ],
+      ["Ministro degli Affari Esteri dell'Impero di Francia", "1870-05/1870-08"]
+    ],
+    "images": [
+      "https://www.npg.org.uk/collections/search/portrait/mw275870/Antoine-Alfred-Agnor-10th-duc-de-Gramont?LinkID=mp158995&role=sit&rNo=0",
+      "http://roglo.eu/roglo?lang=fr;m=IMH;d=1243844885;i=373679;k=/antoine.10.de_gramont"
+    ],
+    "name": "Antoine Alfred",
+    "person_type": 1,
+    "place_of_birth": "Parigi",
+    "place_of_death": "Parigi",
+    "sources": [],
+    "sources_other": [
+      "https://catalogue.bnf.fr/ark:/12148/cb124594384",
+      "https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/169409",
+      "https://www.siv.archives-nationales.culture.gouv.fr/siv/POG/FRAN_POG_05/p-3tksl9038-i77metyqtrbz"
+    ],
+    "surname": "Agénor de Gramont",
+    "titles": [
+      ["principe di Bidache", null],
+      ["conte di Gramont", "1855/"]
+    ],
+    "wikidata:id": "Q585590"
   },
   "$GregorioXVI": {
     "ISNI:id": "0000 0001 2096 4745",
@@ -9632,6 +9665,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Romunde": {
+    "ISNI:id": "0000 0000 1066 0062",
+    "comment_daniel": "",
+    "date_of_birth": "1812-07-17",
+    "date_of_death": "1860-03-04",
+    "functions": [
+      [
+        "Ministro degli Affari del culto Romano-Cattoliche del Regno dei Paesi Bassi",
+        "1856-08-01/1860-02-23"
+      ]
+    ],
+    "images": ["https://rkd.nl/nl/explore/images/147306"],
+    "name": "Johannes Wilhelmus",
+    "person_type": 1,
+    "place_of_birth": "Kampen",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Redactie parlement.com, 'Mr. J.W. van Romunde', found on: https://www.parlement.com/id/vg09lljfu8xr/j_w_van_romunde"
+    ],
+    "sources_other": [],
+    "surname": "van Romunde",
+    "titles": [],
+    "wikidata:id": "Q3295098"
+  },
   "$RoncaGB": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -12340,18 +12397,22 @@
     "wikidata:id": null
   },
   "$Zelling": {
-    "ISNI:id": null,
-    "comment_daniel": "Hij was sowieso een reeder: hij schreef een brief naar Chastel vragend om financiële hulp voor kapitein Cornelis, wier schip (Amicitia) in een ramp betrokken was. Het lijkt erop dat hij ook een schoolonderwijzer en schrijver van kinderboeken was, omdat deze persoon ook in Eekste in de gem. Scheemda van Groningen woonde, wat me een beetje een te kleine plek lijkt om twee mensen met de naam 'EJ Zelling' te hebben",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "ISNI:id": "0000 0000 5333 0207",
+    "comment_daniel": "",
+    "date_of_birth": "1797",
+    "date_of_death": "1861-04-26",
     "functions": [],
     "images": [],
-    "name": "E.J.",
-    "person_type": 2,
+    "name": "Eildert Jans",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "'Eildert Jans Zelling', Stichting Maritiem-Historische Database, found on: https://www.marhisdata.nl/eigenaar&id=12326",
+      "AlleGroningers, Doop- en trouwboek 1739-1811, Kerkelijke gemeente Nieuweschans, Archiefnummer 124, Inventarisnummer 316",
+      "AlleGroningers, Overlijdensregister 1861, aktenummer 33"
+    ],
     "surname": "Zelling",
     "titles": [],
     "wikidata:id": null
