@@ -35,11 +35,6 @@
     "nl_NL": "Graaf van Neipperg",
     "position": "After"
   },
-  "Contessa": {
-    "en_GB": "Countess",
-    "nl_NL": "Gravin",
-    "position": "Before"
-  },
   "Freiherr": {
     "en_GB": "Freiherr",
     "nl_NL": "Freiherr",
@@ -165,6 +160,11 @@
     "nl_NL": "graaf van Cavour",
     "position": "After"
   },
+  "conte di Gramont": {
+    "en_GB": "count of Gramont",
+    "nl_NL": "graaf van Gramont",
+    "position": "After"
+  },
   "conte di Montebello": {
     "en_GB": "count of Montebello",
     "nl_NL": "graaf van Montebello",
@@ -258,6 +258,11 @@
   "principe": {
     "en_GB": "prince",
     "nl_NL": "prins",
+    "position": "After"
+  },
+  "principe di Bidache": {
+    "en_GB": "prince of Bidache",
+    "nl_NL": "prins van Bidache",
     "position": "After"
   },
   "principe di Capua": {

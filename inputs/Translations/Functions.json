@@ -948,6 +948,10 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Austria at Stockholm",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Oostenrijk te Stockholm"
   },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero di Francia presso la Santa Sede": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of France to the Holy See",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Frankrijk bij de Heilige Stoel"
+  },
   "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Roma": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Rome",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Rome"
@@ -1103,6 +1107,10 @@
   "Ministro degli Affari Esteri dell'Impero d'Austria": {
     "en_GB": "Minister of Foreign Affairs of the Empire of Austria",
     "nl_NL": "Minister van Buitenlandse Zaken van het Keizerrijk Oostenrijk"
+  },
+  "Ministro degli Affari Esteri dell'Impero di Francia": {
+    "en_GB": "Minister of Foreign Affairs of the Empire of France",
+    "nl_NL": "Minister van Buitenlandse Zaken van het Keizerrijk Frankrijk"
   },
   "Ministro degli Affari Esteri della Repubblica Romana": {
     "en_GB": "Minister of Foreign Affairs of the Roman Republic",
