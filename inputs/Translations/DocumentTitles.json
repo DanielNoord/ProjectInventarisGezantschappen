@@ -2136,6 +2136,10 @@
     "en_GB": "Letter of \\2, copy of a letter from \\4",
     "nl_NL": "Brief van \\2, kopie van een brief van \\4"
   },
+  "Lettera (di|del|della) (\\$\\w+), sostituto del (\\$\\w+), (a|al) (\\$\\w+)$": {
+    "en_GB": "Letter of \\2, substitute of \\3, to \\5",
+    "nl_NL": "Brief van \\2, plaatsvervanger van \\3, aan \\5"
+  },
   "Lettera a stampa (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Printed letter of \\2 to \\4",
     "nl_NL": "Gedrukte brief van \\2 aan \\4"
