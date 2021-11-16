@@ -5,16 +5,6 @@
     "it_IT": null,
     "nl_NL": null
   },
-  "$Poelman": {
-    "en_GB": null,
-    "it_IT": null,
-    "nl_NL": "Poelman was tussen 1853-1857 de kapitein van de schoener-galjoot AMICITIA, welke betrokken raakte bij een aanzeiling toen het onderweg was van Rotterdam naar Civitavecchia. Zowel Poelman als Zelling hadden contact met Chastel hierover."
-  },
-  "$Zelling": {
-    "en_GB": null,
-    "it_IT": null,
-    "nl_NL": "Hij was een reeder en was aldus financieel verantwoordelijk voor de AMICITIA (kapt. Cornelis Poelman), welke in een ongeluk betrokken was bij Civitavecchia in 1856. Hij schreef een brief naar Chastel vragend om financiële hulp. Zelling was ook een schoolonderwijzer en schrijver van kinderboeken. De andere schepen die hij bezat waren: AMELIA, ANNEGINA ELZINA, CERES, GEBROEDERS ZELLING en WIËA GESINA."
-  },
   "$Ambrosoli": {
     "en_GB": "Ambrogio Ambrosoli published several works and studies, one of which can be found in the archive. Note has a list of publications.",
     "it_IT": null,
@@ -159,6 +149,11 @@
     "en_GB": "From Koelman: Gizzi, Tommaso Pasquale (1787-1849), curiekardinaal en staatssecretaris (1846-1847), populair vanwege zijn reputatie als hervormer, die o.a. te danken was aan de loftuitingen door de prominente liberaal Massimo D'Azeglio in Degli ultimi casi di Romagna. De benoeming tot staatssecretaris van de 'liberaal' Gizzi door paus Pius IX (8 augustus 1846) droeg bij aan de indruk dat ook de nieuwe paus een liberaal was. Op 17 juli 1847 trad Gizzi af, in de nasleep van de allocutie van Pius IX van 29 april. B.: Monsagrati (2001); Boutry (2002) 395-397; Leblanc (2019) 427-430.",
     "it_IT": null,
     "nl_NL": null
+  },
+  "$Godefroi": {
+    "en_GB": null,
+    "it_IT": null,
+    "nl_NL": "Godefroi was een vooraanstaande Joodse advocaat, een liberaal Tweede Kamerlid en bovendien de eerste Nederlandse Jood die een positie kreeg in een kabinet. Van 1849 tot zijn dood in 1881 was hij bijna onafgebroken lid van de Tweede Kamer en bekleedde tijdens het kabinet-van Zuylen van Nijevelt/Van Heemstra de functie van minister van Justitie. Hij was ook enige tijd president van de Hoofdcommissie tot de Zaken der Israëlieten, en het was in deze hoedanigheid dat hij in 1857 beroep deed op de min. van B.Z., baron van Goltstein, en de min. voor Religie, prof. Bosscha, om protest te maken tegen Paus Pius IX (R.G. Fuks-Mansfeld doet kort verslag van deze kwestie: de Paus had het kind Edgardo Mortrara uit zijn huis in Bologna laten weghalen omdat hij niet toestond dat het kind, welke door de dienstmeid gedoopt was, zou worden opgevoed door Joodse ouders. Op aandringen van o.a. Godefroi, tekende de ambassadeur in Rome twee keer protest aan, samen met vele andere ambassadeurs en internationale staatshoofden, maar de paus volhardde en de kwestie werd uiteindelijk losgelaten). Als min. van Justitie was Godefroi grotendeels verantwoordelijk voor de totstandkoming van de Wet op de Raad van State in 1861. Hij was na 1870 veel afwezig vanwege de ziekte van zijn vrouw, maar bleef desondanks betrokken bij de politiek tot aan zijn dood in 1881."
   },
   "$Grooff": {
     "en_GB": "The appointment and actions of Jacobus Grooff in Batavia led to some issues with the local government and bishops. As a result the local Dutch governor banned him from Indonesia, which led to some correspondence between the Holy See and the Dutch Kingdom. Eventually Grooff was sent to Suriname and a new vicar was sent to Batavia. This 'Groof Affair' is discussed in van Santen (see note).",
@@ -320,6 +315,11 @@
     "it_IT": null,
     "nl_NL": null
   },
+  "$Poelman": {
+    "en_GB": null,
+    "it_IT": null,
+    "nl_NL": "Poelman was tussen 1853-1857 de kapitein van de schoener-galjoot AMICITIA, welke betrokken raakte bij een aanzeiling toen het onderweg was van Rotterdam naar Civitavecchia. Zowel Poelman als Zelling hadden contact met Chastel hierover."
+  },
   "$Ricasoli": {
     "en_GB": "Bettino Ricasoli held several other (ministerial) positions within the Kingdom of Italy.",
     "it_IT": null,
@@ -440,10 +440,20 @@
     "it_IT": null,
     "nl_NL": null
   },
+  "$Wolff": {
+    "en_GB": "Wolff was secretary and treasurer with the Dutch Israelite Central Synagogue in The Hauge and held several minor positions in Dutch government. He was secretary of the General Committee on the affairs of the Israelites (during the presidency of M.H. Godefroi) and, according to R.G. Fuks-Mansfeld, he was involved in several committees attached to the Ministry of Religion and the Ministry of Finance. Wolff was also the second editor of the periodical 'Yearbooks for Israelites in the Netherlands'.",
+    "it_IT": null,
+    "nl_NL": "Wolff was lange tijd secretaris en penningmneester bij de Nederlandse Israëlitische Centrale Synagoge in Den Haag en hield daarbij ook verscheidene functies bij de Nederlandse overhand. Hij was secretaris bij de Hoofdcommissie tot de Zaken der Israëlieten (tijdens het presidentschap van M.H. Godefroi) en was volgens R.G. Fuks-Mansfeld ook betrokken bij enkele commissies verbonden aan het Ministerie van Religie en het Ministerie van Financiën. Daarnaast was Wolff de tweede redacteur van het blad 'Jaaarboeken voor Israëlieten in Nederland'."
+  },
   "$Wurth": {
     "en_GB": "François-Xavier Wurth-Paquet held several other (ministerial) positions within the Grand Duchy of Luxembourg.",
     "it_IT": null,
     "nl_NL": null
+  },
+  "$Zelling": {
+    "en_GB": null,
+    "it_IT": null,
+    "nl_NL": "Hij was een reeder en was aldus financieel verantwoordelijk voor de AMICITIA (kapt. Cornelis Poelman), welke in een ongeluk betrokken was bij Civitavecchia in 1856. Hij schreef een brief naar Chastel vragend om financiële hulp. Zelling was ook een schoolonderwijzer en schrijver van kinderboeken. De andere schepen die hij bezat waren: AMELIA, ANNEGINA ELZINA, CERES, GEBROEDERS ZELLING en WIËA GESINA."
   },
   "$Zucchi": {
     "en_GB": "From Koelman: Zucchi, Carlo (1777-1861) diende als generaal in het Napoleontische Regno d'Italia en speelde een hoofdrol in de liberale opstanden in de noordelijke pauselijke staten in 1831, onder meer als leider van de voorlopige regering in Reggio Emilia en als commandant van 800 vrijwilligers die tegen de Oostenrijkers vochten. Daarvoor zat hij van 1832 tot 1848 gevangen, tot hij in 1848 door de revolutionairen werd bevrijd en weer als comandant tegen de Oostenrijkers optrok (bevrijding en beleg van Palmanova). Onder Pius IX werd Z. in genade aangenomen, waarop Pellegrino Rossi hem in 1848 aanstelde als zijn minister van Oorlog. Hij bleef in die functie tot op 16 november 1848 het kabinet Galletti aantrad. Na Pius' vlucht bleef Z. de paus trouw en in 1849 voerder hij de pauselijke vrijwilligers aan in de strijd tegen de republiek. In 1861 kreeg hij zijn rang als generaal terug. B.: Dalla Torre (1941) passim; Bianchi (2006).",
