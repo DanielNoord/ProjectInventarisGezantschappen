@@ -84,6 +84,10 @@
     "en_GB": "Principal administrator and temporary secretary of the State Secretariat of the Kingdom of the Netherlands",
     "nl_NL": "Referendaris en tijdelijk griffier bij de Staatssecretarie van het Koninkrijk der Nederlanden"
   },
+  "Amministratore principale presso il Dipartimento della Giustizia del Regno dei Paesi Bassi": {
+    "en_GB": "Principal administrator with the Department of Justice of the Kingdom of the Netherlands",
+    "nl_NL": "Referendaris bij het Departement van Justitie van het Koninkrijk der Nederlanden"
+  },
   "Applicato di 1 ° classe nel Ministero delle Finanze del Regno d'Italia": {
     "en_GB": "Clerk of the 1st class of the Ministry of Finance of the Kingdom of Italy",
     "nl_NL": "Beambte van de 1e klasse van het ministerie van Financiën van het Koninkrijk Italië"
@@ -299,6 +303,10 @@
   "Comandante delle truppe austriache": {
     "en_GB": "Commander of the Austrian troops",
     "nl_NL": "Commandant van de Oostenrijkse troepen"
+  },
+  "Comandante in capo della divisione Francese a Roma": {
+    "en_GB": "Commander in chief of the French division in Rome",
+    "nl_NL": "Opperbevelhebber van de Franse divisie te Rome"
   },
   "Comandante in capo delle truppe Parmensi": {
     "en_GB": "Commander in chief of the troops of Parma",
@@ -1060,6 +1068,10 @@
     "en_GB": "Interim Minister of Foreign Affairs of the Kingdom of the Netherlands",
     "nl_NL": "Ad interim minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
   },
+  "Ministro ad interim degli Affari Interni del Regno dei Paesi Bassi": {
+    "en_GB": "Interim minister of Internal Affairs of the Kingdom of the Netherlands",
+    "nl_NL": "Tijdelijk minister van Binnenlandse Zaken van het Koninkrijk der Nederlanden"
+  },
   "Ministro ad interim del Culto Cattolico Romano del Regno dei Paesi Bassi": {
     "en_GB": "Interim Minister for Affairs of the Roman Catholic Worship of the Kingdom of the Netherlands",
     "nl_NL": "Tijdelijk minister voor Zaken der rooms-katholieke Eredienst van het Koninkrijk der Nederlanden"
@@ -1135,6 +1147,10 @@
   "Ministro degli Affari Interni dello Stato Pontificio": {
     "en_GB": "Minister of Internal Affairs of the Papel States",
     "nl_NL": "Minister van Binnenlandse Zaken van de Kerkelijke Staat"
+  },
+  "Ministro degli Affari del Culto Riformato e gli altri Culti Religiosi non Cattolici": {
+    "en_GB": "Minister for Affairs of Reformed Worship and Other Kinds of Religious, non-Catholic Worship",
+    "nl_NL": "Minister van Zaken van de Hervormde en andere Erediensten, behalve die der Rooms-Katholieke"
   },
   "Ministro degli Affari del culto Romano-Cattoliche del Regno dei Paesi Bassi": {
     "en_GB": "Minister of Affairs of the Roman-Catholic Worship Service of the Kingdom of the Netherlands",
@@ -1212,6 +1228,10 @@
     "en_GB": "Minister of Finance en thesaurarius general of the Holy See",
     "nl_NL": "Minister van Financiën en thesaurier-generaal van de Heilige Stoel"
   },
+  "Ministro di Giustizia del Regno dei Paesi Bassi": {
+    "en_GB": "Minister of Justice of the Kingdom of the Netherlands",
+    "nl_NL": "Minister van Justitie van het Koninkrijk der Nederlanden"
+  },
   "Ministro di Grazia e Giustizia del Regno d'Italia": {
     "en_GB": "Minister of Grace and Justice of the Kingdom of Italy",
     "nl_NL": "Minister van Gratie en Justitie van van het Koninkrijk Italië"
@@ -1224,7 +1244,7 @@
     "en_GB": "State Secretary of the Prince of Nassau",
     "nl_NL": "Staatsminister van de prins van Nassau"
   },
-  "Ministro pelipontenziario degli Stati Uniti d'America presso la Santa Sede": {
+  "Ministro plenipontenziario degli Stati Uniti d'America presso la Santa Sede": {
     "en_GB": "Minister plenipotenziario of the United States of America at the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Verenigde Staten van Amerika bij de Heilige Stoel"
   },
@@ -1460,6 +1480,10 @@
     "en_GB": "President of the House of Representatives of the Kingdom of Sardinia",
     "nl_NL": "President van het Huis van Afgevaardigden van het Koninkrijk Sardinië"
   },
+  "Presidente della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi": {
+    "en_GB": "President of the General Committee on the affairs of the Israelites of the Kingdom of the Netherlands",
+    "nl_NL": "Voorzitter van de Hoofdcommissie tot de zaken der Israëlieten van het Koninkrijk der Nederlanden"
+  },
   "Presidente della Commissione di Revisione e Grazia": {
     "en_GB": "President of the Commission of Revision and Grace",
     "nl_NL": "Voorzitter van de Commissie van Revisie en Gratie"
@@ -1624,6 +1648,10 @@
     "en_GB": "Sculptor",
     "nl_NL": "Beeldhouwer"
   },
+  "Segretario del Real Somiglieria e primo uffiziale della Controloria della Real Casa del Regno delle Due Sicilie": {
+    "en_GB": "Secretary of the Real Somiglieria and first official of the Controloria of the Royal House of the Kingdom of the Two Sicilies",
+    "nl_NL": "Secretaris van het Real Somiglieria en hoofdambtenaar van de Controloria van het Koninklijk Huis van het Koninkrijk der Beide Siciliën"
+  },
   "Segretario del Vescovo de Grooff a Batavia": {
     "en_GB": "Secretary of Bishop de Grooff at Batavia",
     "nl_NL": "Secretaris van Bisschop De Grooff te Batavia"
@@ -1643,6 +1671,10 @@
   "Segretario dell'Accademia Pontificia de' Nuovi Lincei": {
     "en_GB": "Secretary of the Accademia Pontificia de' Nuovi Lincei",
     "nl_NL": "Secretaris van de Accademia Pontificia de' Nuovi Lincei"
+  },
+  "Segretario della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi": {
+    "en_GB": "Secretary of the General Committee on the affairs of the Israelites of the Kingdom of the Netherlands",
+    "nl_NL": "Secretaris van de Hoofdcommissie tot de zaken der Israëlieten van het Koninkrijk der Nederlanden"
   },
   "Segretario della Congregazione per gli affari ecclesiastici straordinari": {
     "en_GB": "Secretary of the Congregation for Extraordinary Ecclesiastical Affairs",
@@ -1708,7 +1740,7 @@
     "en_GB": "Secretary general of the Ministry of External Secular Affairs of the Papal State",
     "nl_NL": "Secretaris-generaal van het Ministerie van Buitenlandse Seculiere Zaken van de Kerkelijke Staat"
   },
-  "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassio": {
+  "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassi": {
     "en_GB": "Secretary general of the Ministry of the Interior of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van van het Koninkrijk der Nederlanden"
   },
