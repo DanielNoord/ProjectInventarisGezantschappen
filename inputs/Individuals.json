@@ -378,6 +378,23 @@
     "titles": [["conte", null]],
     "wikidata:id": "Q19932698"
   },
+  "$Ayala": {
+    "ISNI:id": null,
+    "comment_daniel": "Dit zouden meerdere mensen van het geslacht Ayala (Valva) kunnen zijn, meer info nodig. Zie overzicht namen: http://www.famiglienobilinapolitane.it/Genealogie/Genealogie/d%27Ayala%20Valva.htm",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "d'Ayala",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Azeglio": {
     "ISNI:id": "0000 0000 8338 6949",
     "comment_daniel": "",
@@ -1264,6 +1281,25 @@
     "titles": [["card.", "1846-12-21/"]],
     "wikidata:id": "Q1235067"
   },
+  "$Bois": {
+    "ISNI:id": null,
+    "comment_daniel": "Te weinig info nog om te kunnen weten om welke persoon het gaat. Ik vermoed Fransiscus Henricus Augustus Josephus (1798-1867).",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "https://geneagraphie.com/pedigrees/Adelsboeken/HIST_1%20-%201925.PDF"
+    ],
+    "surname": "Du Bois d Ferrières",
+    "titles": [["barone", null]],
+    "wikidata:id": null
+  },
   "$Bonaparte": {
     "ISNI:id": "0000 0001 2142 9066",
     "comment_daniel": "",
@@ -1426,6 +1462,64 @@
     "surname": "de Bosis",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Bosse": {
+    "ISNI:id": "0000 0000 2957 0999",
+    "comment_daniel": "",
+    "date_of_birth": "1809-12-16",
+    "date_of_death": "1879-02-21",
+    "functions": [
+      [
+        "Ministro ad interim delle Finanze del Regno dei Paesi Bassi",
+        "1848-06-03/1848-11-21"
+      ],
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1848-11-21/1853-04-19"
+      ],
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1858-03-12/1860-02-22"
+      ],
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1866-02-10/1866-06-01"
+      ],
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1868-06-03/1871-01-04"
+      ],
+      [
+        "Ministro degli Affari del Culto Riformato e gli altri Culti Religiosi non Cattolici",
+        "1868-06-04/1868-09-01"
+      ],
+      [
+        "Ministro delle Colonie del Regno dei Paesi Bassi",
+        "1871-01-04/1872-07-06"
+      ],
+      [
+        "Ministro ad interim degli Affari Interni del Regno dei Paesi Bassi",
+        "1872-06-04/1872-07-06"
+      ],
+      [
+        "Ministro delle Colonie del Regno dei Paesi Bassi",
+        "1877-11-03/1879-02-21"
+      ]
+    ],
+    "images": [
+      "https://geheugen.delpher.nl/nl/geheugen/view?identifier=ANP01%3A13856958"
+    ],
+    "name": "Pieter Philip",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Redactie parlement.com, 'Mr. P. Ph. (Pieter) van Bosse', found on: https://www.parlement.com/id/vg09lkyl9fdv/p_ph_pieter_van_bosse"
+    ],
+    "sources_other": [],
+    "surname": "van Bosse",
+    "titles": [],
+    "wikidata:id": "Q1975184"
   },
   "$Bouillet": {
     "ISNI:id": "0000 0001 0896 6043",
@@ -2152,7 +2246,13 @@
     "comment_daniel": "Lijkt mij niet de Zaakgelastigde van het Koninkrijk der Nederlanden zoals dat staat in archief, maar eerder van Beide Siciliën. Echter, volgens Trecanni is hij dit niet tijdens vermelding in archief. Wellicht even goed kijken met wat hij ondertekent. Sigrid: hij ondertekent met Incaricato del portafoglio del Ministero degli Affari Esteri",
     "date_of_birth": "1797-05-17",
     "date_of_death": "1871-03-25",
-    "functions": [["Incaricato d'affari del Regno delle Due Sicilie", null]],
+    "functions": [
+      ["Incaricato d'affari del Regno delle Due Sicilie", "1831/"],
+      [
+        "Ministro degli Affari Esteri del Regno delle Due Sicilie",
+        "1852-01-19/1860-06-28"
+      ]
+    ],
     "images": [],
     "name": "Luigi",
     "person_type": 4,
@@ -4748,6 +4848,37 @@
     "titles": [["card.", "1844-01-22/"]],
     "wikidata:id": "Q568067"
   },
+  "$Godefroi": {
+    "ISNI:id": "0000 0000 1044 292X",
+    "comment_daniel": "",
+    "date_of_birth": "1813-12-16",
+    "date_of_death": "1882-06-25",
+    "functions": [
+      [
+        "Presidente della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi",
+        null
+      ],
+      [
+        "Ministro di Giustizia del Regno dei Paesi Bassi",
+        "1860-03-09/1862-02-01"
+      ]
+    ],
+    "images": [
+      "https://www.dwc.knaw.nl/biografie/pmknaw/?pagetype=authorDetail&aId=PE00000426"
+    ],
+    "name": "Michel Henry",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Würzburg",
+    "sources": [
+      "Fuks-Mansfeld, R.G., 'Arduous Adaption, 1814-1870', in: The History of the Jews in the Netherlands, J.C.H. Blom, R.G. Fuks-Mansfeld, I. Schöffer, Erica Pomerans, Arnold J. Pomerans (red.), (The Littman Library of Jewish Civilization: London, 2001), p. 210",
+      "Redactie parlement.com, 'Mr. M.H. Godefroi', found on: https://www.parlement.com/id/vg09ll12voru/m_h_godefroi"
+    ],
+    "sources_other": [],
+    "surname": "Godefroi",
+    "titles": [],
+    "wikidata:id": "Q1927784"
+  },
   "$Goes": {
     "ISNI:id": "0000 0003 9323 0026",
     "comment_daniel": "",
@@ -4780,18 +4911,30 @@
     "comment_daniel": "“Generale Comandante la 15.a Divisione Turr dell'Esercito Meridionale Italiano” lijkt mij toch een fout in de inventaris. Het is niet een fantastische bron maar zie: https://www.andreacavallari.it/Garibaldi/Garibaldi_Turr.htm. Esercito Meridionale Italiano is ook wel de standaard benaming van het leger van Garibaldi. Wellicht dus in het archief kijken hoe de stukken ondertekend zijn.",
     "date_of_birth": "1803-09-13",
     "date_of_death": "1870-05-17",
-    "functions": [["Aiutante di campo dell'Imperatore di Francia", "1853/"]],
-    "images": [],
+    "functions": [
+      ["Aiutante di campo dell'Imperatore di Francia", "1853/"],
+      [
+        "Comandante in capo della divisione Francese a Roma",
+        "1856-10-05/1862-05-28"
+      ]
+    ],
+    "images": [
+      "https://www.getty.edu/art/collection/objects/235396/franck-francois-marie-louis-alexandre-gobinet-de-villecholles-justin-lallier-charles-marie-augustin-de-goyon-french-1866/"
+    ],
     "name": "Charles-Marie-Augustin",
     "person_type": 4,
     "place_of_birth": "Nantes",
     "place_of_death": "Parigi",
     "sources": [
-      "'Goyon (Charles Marie Augustin, comte de)', in: Adolphe Robert, Edgar Bourloton and Gaston Cougny, Dictionnaire des parlementaires français. Volume 3 (Parigi, Edgar Bourloton, 1891)"
+      "'Goyon (Charles Marie Augustin, comte de)', in: Adolphe Robert, Edgar Bourloton and Gaston Cougny, Dictionnaire des parlementaires français. Volume 3 (Parigi, Edgar Bourloton, 1891)",
+      "'Magny, Ludovic de, Le nobiliaire universel: recueil général des généalogies historiques des maisons nobles de l'Europe (Institut Heraldique: Paris, 1866)"
     ],
     "sources_other": [],
     "surname": "de Gojon",
-    "titles": [["conte", null]],
+    "titles": [
+      ["conte", null],
+      ["Cav.", null]
+    ],
     "wikidata:id": "Q2958227"
   },
   "$Goltstein": {
@@ -5107,6 +5250,35 @@
     "surname": "D'Hamecourt",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Harris": {
+    "ISNI:id": "0000 0001 1607 1629",
+    "comment_daniel": "",
+    "date_of_birth": "1807-03-25",
+    "date_of_death": "1889-05-17",
+    "functions": [
+      ["Ministro degli Affari Esteri del Regno Unito", "1852/1852"],
+      ["Ministro degli Affari Esteri del Regno Unito", "1858/1859"]
+    ],
+    "images": [
+      "https://www.rct.uk/collection/search#/1/collection/917002/james-harris-3rd-earl-of-malmesbury-1807-89",
+      "https://www.britishmuseum.org/collection/object/P_1896-1230-643",
+      "https://artuk.org/discover/artworks/james-howard-harris-18071889-3rd-earl-of-malmesbury-pc-dcl-gcb-aged-44-217719"
+    ],
+    "name": "James Howard",
+    "person_type": 1,
+    "place_of_birth": "Londra",
+    "place_of_death": "Londra",
+    "sources": [
+      "'Harris, James Howard', in: Oxford Dictionary of National Biography, Brian Harrison and H.C.G. Matthew (ed.). Vol. 25 (Oxford University Press: Oxford, 2004)."
+    ],
+    "sources_other": [],
+    "surname": "Harris",
+    "titles": [
+      ["Visconte FitzHarris", "1820/1841"],
+      ["3° Conte di Malmesbury", "1841/1889"]
+    ],
+    "wikidata:id": "Q321003"
   },
   "$Haye": {
     "ISNI:id": null,
@@ -8701,6 +8873,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Passantino": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Segretario del Real Somiglieria e primo uffiziale della Controloria della Real Casa del Regno delle Due Sicilie",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Gaetano",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Notizie interne, estratte dal Giornale costituzionale del regno delle due Sicilie (1853), 238"
+    ],
+    "surname": "Passantino",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Pastoris": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -10555,6 +10751,36 @@
     "titles": [["barone", null]],
     "wikidata:id": "Q682310"
   },
+  "$Schroder": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1815",
+    "date_of_death": "1869-05-21",
+    "functions": [
+      [
+        "Amministratore principale presso il Dipartimento della Giustizia del Regno dei Paesi Bassi",
+        "1843-07-29/1848-08-25"
+      ],
+      [
+        "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassi",
+        "1848-08-25/1869-05-21"
+      ]
+    ],
+    "images": [],
+    "name": "Jan",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Mr. Jan Schröder', found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861/app/personen/3169"
+    ],
+    "sources_other": [
+      "Gemeentearchief, The Hague, 'Ambtenaar van de burgerlijke stand van de gemeente 's-Gravenhage', inventory number: 0335-01, inventory number: 1295, found on: https://hdl.handle.net/21.12124/4D45A17A6390498098E8364A44863D09"
+    ],
+    "surname": "Schröder",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Serafini": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -11168,7 +11394,7 @@
     "date_of_death": "1900-01-22",
     "functions": [
       [
-        "Ministro pelipontenziario degli Stati Uniti d'America presso la Santa Sede",
+        "Ministro plenipontenziario degli Stati Uniti d'America presso la Santa Sede",
         "1858-06-15/1861-05-23"
       ]
     ],
@@ -11241,7 +11467,7 @@
         "1803/1805"
       ],
       [
-        "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassio",
+        "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassi",
         "1813/1814"
       ],
       ["Segretario di Stato del Regno dei Paesi Bassi", "1823-12-28/1835-11-12"]
@@ -12351,6 +12577,32 @@
       "Uytterhoeven, Ann, 'Jean Baptiste UYTTERHOEVEN', in: Familiegeschiedenis van Ann Uytterhoeven, Geneanet, found on: https://gw.geneanet.org/auytt?lang=nl&p=jean+baptiste&n=uytterhoeven&oc=1 (retrieved on 2021-05-13)"
     ],
     "surname": "Uytterhoeven",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Wolff": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1812",
+    "date_of_death": "1888",
+    "functions": [
+      [
+        "Segretario della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi",
+        "1851/"
+      ]
+    ],
+    "images": [],
+    "name": "A.B.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Fuks-Mansfeld, R.G., 'Arduous Adaption, 1814-1870', in: The History of the Jews in the Netherlands, J.C.H. Blom, R.G. Fuks-Mansfeld, I. Schöffer, Erica Pomerans, Arnold J. Pomerans (red.), (The Littman Library of Jewish Civilization: London, 2001), p. 208"
+    ],
+    "sources_other": [
+      "Zuiden, D.S., 'Organisatie en geschiedenis van het Israëlitisch Kerkgenootschap tot ca. 1870', in: Studia Rosenthaliana, 5.2 (1971)."
+    ],
+    "surname": "Wolff",
     "titles": [],
     "wikidata:id": null
   },
