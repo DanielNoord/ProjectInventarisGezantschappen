@@ -476,6 +476,10 @@
     "en_GB": "Draft of a cirulaire to the representatives of foreign legations at the Holy See",
     "nl_NL": "Concept van een circulaire aan de vertegenwoordigers van buitenlandse gezantschappen bij de Heilige Stoel"
   },
+  "Bozza di risposta$": {
+    "en_GB": "Draft of a response",
+    "nl_NL": "Concept van een respons"
+  },
   "Bozze e minuta di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Drafts and minute from the letter from \\2 to \\4",
     "nl_NL": "Concepttekst en minuut van de brief van \\2 aan \\4"
@@ -3781,6 +3785,10 @@
     "nl_NL": "Transcriptie van een proclamatie van de Italiaanse Commissie aan het Volk van de Romagna"
   },
   "Trascrizione di un rapporto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of a report from \\2",
+    "nl_NL": "Transcriptie van een rapport van \\2"
+  },
+  "Trascrizione di proclama (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a report from \\2",
     "nl_NL": "Transcriptie van een rapport van \\2"
   },
