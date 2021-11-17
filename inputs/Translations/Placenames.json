@@ -800,6 +800,14 @@
     "longitude": "11.66379",
     "nl_NL": "Este"
   },
+  "Etten": {
+    "en_GB": "Etten",
+    "geonames_id": 2755996,
+    "geonames_wikipedia": null,
+    "latitude": "51.57056",
+    "longitude": "4.63726",
+    "nl_NL": "Etten"
+  },
   "Fano": {
     "en_GB": "Fano",
     "geonames_id": 3177219,
@@ -1023,6 +1031,14 @@
     "latitude": "52.37052",
     "longitude": "9.73322",
     "nl_NL": "Hannover"
+  },
+  "Harderwijk": {
+    "en_GB": "Harderwijk",
+    "geonames_id": 2754848,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Harderwijk",
+    "latitude": "52.34167",
+    "longitude": "5.62083",
+    "nl_NL": "Harderwijk"
   },
   "Hechingen": {
     "en_GB": "Hechingen",

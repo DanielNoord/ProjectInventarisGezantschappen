@@ -684,6 +684,10 @@
     "en_GB": "Governor of the Dutch East Indies",
     "nl_NL": "Gouverneur-Generaal van Nederlands-Indië"
   },
+  "Governatore dei Possedimenti Olandesi sulla Costa della Guinea": {
+    "en_GB": "Governor of the Dutch Possessions on the Cost of Guinea",
+    "nl_NL": "Gouverneur van de Nederlandse Bezittingen ter Kuste van Guinea"
+  },
   "Governatore del Granducato del Lussemburgo per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the Grand Duchy of Luxembourg for the King of the Netherlands",
     "nl_NL": "Gouverneur van het Groothertogdom Luxemburg voor de Koning der Nederlanden"
@@ -887,6 +891,10 @@
   "Inviato straordinario e incaricato d'affari del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Prussia to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Bruxelles": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Brussel",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden te Brussel"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Parigi": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Paris",
