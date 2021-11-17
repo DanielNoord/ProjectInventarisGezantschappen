@@ -8116,6 +8116,37 @@
     "titles": [["baronessa", null]],
     "wikidata:id": "Q76259620"
   },
+  "$Nagtglas": {
+    "ISNI:id": "0000 0003 8765 3612",
+    "comment_daniel": "",
+    "date_of_birth": "1814-05-16",
+    "date_of_death": "1897-01-19",
+    "functions": [
+      [
+        "Governatore dei Possedimenti Olandesi sulla Costa della Guinea",
+        "1857/1862"
+      ],
+      [
+        "Governatore dei Possedimenti Olandesi sulla Costa della Guinea",
+        "1869/1871"
+      ]
+    ],
+    "images": [
+      "https://en.wikipedia.org/wiki/Cornelis_Nagtglas#/media/File:Cornelis_Nagtglas.jpg"
+    ],
+    "name": "Cornelis Johannes Marius",
+    "person_type": 1,
+    "place_of_birth": "Utrecht",
+    "place_of_death": "Harderwijk",
+    "sources": [
+      "Redactie Koninklijk Zeeuwsch Genootschap der Wetenschappen, 'Cornelis Johannes Marius Nagtglas', found on: https://kzgwonline.nl/persoon/cornelis-johannes-marius-nagtglas",
+      "Visscher-Passchman, G.E.W., 'C.J.M. Nagtglas, gouverneur en diplomaat aan de Goudkust', in: Zeeland (2003). Found on: https://tijdschriftenbankzeeland.nl/issue/zld/2003-06-01/edition/0/page/2"
+    ],
+    "sources_other": [],
+    "surname": "Nagtglas",
+    "titles": [["Cav.", "1872/"]],
+    "wikidata:id": "Q5171243"
+  },
   "$Nardoni": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -9200,6 +9231,23 @@
     "titles": [["card.", "1853-12-19/"]],
     "wikidata:id": "Q82385"
   },
+  "$Pignal": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Marie-Julien",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Pignal",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Pilaer": {
     "ISNI:id": null,
     "comment_daniel": "Beth vindt hem normaal consul en geen vice-consul zoals in de inventaris, wat houden we aan?",
@@ -9832,6 +9880,45 @@
     "surname": "Massimo",
     "titles": [["duca di Rignano", null]],
     "wikidata:id": "Q55836828"
+  },
+  "$Rochussen": {
+    "ISNI:id": "0000 0000 8358 3408",
+    "comment_daniel": "",
+    "date_of_birth": "1797-10-23",
+    "date_of_death": "1871-01-21",
+    "functions": [
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1840-07-31/1843-06-25"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Bruxelles",
+        "1843-07-01/1845-02"
+      ],
+      [
+        "Governatore Generale delle Indie Orientali Olandesi",
+        "1845-09-30/1851-05-12"
+      ],
+      [
+        "Ministro delle Colonie del Regno dei Paesi Bassi",
+        "1858-03-18/1861-01-01"
+      ]
+    ],
+    "images": [
+      "https://www.rijksmuseum.nl/nl/zoeken/objecten?q=Jan+Jacob+Rochussen&p=1&ps=12&st=Objects&ii=0#/RP-P-1920-887,0"
+    ],
+    "name": "Jan Jacob",
+    "person_type": 1,
+    "place_of_birth": "Etten",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Redactie parlement.com, 'J.J. Rochussen', found on: https://www.parlement.com/id/vg09ll5ux9z0/j_j_rochussen",
+      "Reinsma, Riemer en Jan Jacob Rochussen, 'De autobiografie van Jan Jacob Rochussen (1797-1871) medegedeeld door Dr. R. Reinsma' in: Bijdragen en Mededelingen van het Historisch Genootschap. Deel 73 (1959). Found on: https://www.dbnl.org/tekst/_bij005195801_01/_bij005195801_01_0005.php"
+    ],
+    "sources_other": [],
+    "surname": "Rochussen",
+    "titles": [["Cav.", "1829-07-05/"]],
+    "wikidata:id": "Q729220"
   },
   "$Roest": {
     "ISNI:id": "0000 0000 2055 0932",
