@@ -360,6 +360,10 @@
     "en_GB": "Proceedings of the Secret Consistory held by the Holiness of Our Lord Pope Pius IX happily reigning in the Vatican Apostolic Palace on September 30, 1850",
     "nl_NL": "Handelingen van het Geheime Consistorie gehouden door de Heiligheid van Onze-Lieve-Heer paus Pius IX, gelukkig regerend in het Vaticaanse Apostolisch Paleis op 30 september 1850"
   },
+  "Atto giudiziario contro Villarbon$": {
+    "en_GB": "Judicial act against Villarbon",
+    "nl_NL": "Juridische actie tegen Villarbon"
+  },
   "Autoritès romaines$": {
     "en_GB": "Autoritès romaines",
     "nl_NL": "Autoritès romaines"
@@ -475,6 +479,10 @@
   "Bozza di lettera circolare ai rappresentanti delle Legazioni straniere presso la Santa Sede$": {
     "en_GB": "Draft of a cirulaire to the representatives of foreign legations at the Holy See",
     "nl_NL": "Concept van een circulaire aan de vertegenwoordigers van buitenlandse gezantschappen bij de Heilige Stoel"
+  },
+  "Bozza di lettera scritta dalle Stanze del Vaticano$": {
+    "en_GB": "Draft of a letter written from the Vatican Rooms",
+    "nl_NL": "Concept van een brief geschreven in de Vaticaanse Kamers"
   },
   "Bozza di risposta$": {
     "en_GB": "Draft of a response",
@@ -1208,6 +1216,10 @@
     "en_GB": "Printed sheet “\\1” (Gaeta, \\2 Jul. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Gaeta, \\2 jul. \\3)"
   },
+  "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) Set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (The Hague, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 sep. \\3)"
+  },
   "Foglio a stampa \"(.+)\" rivolta (a|al) (\\$\\w+)$": {
     "en_GB": "Printed sheet “\\1” directed to \\3",
     "nl_NL": "Gedrukt blad “\\1” gericht aan \\3"
@@ -1495,6 +1507,22 @@
   "Foglio a stampa “(.+)” sulla regolazione della giustizia civile, criminale ed amministrativa \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
+  },
+  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 aug. \\3)"
+  },
+  "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Portici, \\2 sep. \\3)"
+  },
+  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Oct. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 okt. \\3)"
+  },
+  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 jun. \\3)"
   },
   "Foglio sulla Ondata di tempesta del 1825 \"(.+)\"$": {
     "en_GB": "Sheet about the February flood of 1825 “\\1”",
@@ -2532,6 +2560,10 @@
     "en_GB": "Minute of a response, broken down by points. Report",
     "nl_NL": "Responsminuut, onderverdeeld in punten. Rapport"
   },
+  "Minuta e memoria$": {
+    "en_GB": "Minute and memory",
+    "nl_NL": "Minuut en memorie"
+  },
   "Minuta$": {
     "en_GB": "Minute",
     "nl_NL": "Minuut"
@@ -2652,6 +2684,10 @@
     "en_GB": "Handwritten note",
     "nl_NL": "Handgeschreven nota"
   },
+  "Nota priva di firma (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Unsigned note to \\2",
+    "nl_NL": "Niet-ondertekende nota aan \\2"
+  },
   "Nota storica su (\\$\\w+) condannato a morte dal tribunale della Sacra Consulta$": {
     "en_GB": "Historical note about \\1 condemned to death by the Tribunale della Sacra Consulta",
     "nl_NL": "Historische nota over \\1 veroordeeld tot de dood door de Tribunale della Sacra Consulta"
@@ -2675,6 +2711,10 @@
   "Nota su un incontro con (\\$\\w+)$": {
     "en_GB": "Note about an encounter with \\1",
     "nl_NL": "Nota over een ontmoeting met \\1"
+  },
+  "Nota su un permesso di lasciapassare (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Note about the permission for laissez-passer to \\2",
+    "nl_NL": "Nota over de toestemming voor laissez-passer aan \\2"
   },
   "Nota su un volume della biblioteca vaticana$": {
     "en_GB": "Note about a volume from the Vatican library",
@@ -3124,6 +3164,10 @@
     "en_GB": "Report to \\2",
     "nl_NL": "Rapport aan \\2"
   },
+  "Relazione (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) sulla condotta del Regno Sardo$": {
+    "en_GB": "Report from \\2 to \\4 about the conduct of the Kingdom of Sardinia",
+    "nl_NL": "Rapport van \\2 aan \\4 over het gedrag van het Koninkrijk Sardinië"
+  },
   "Relazione (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Report from \\2 to \\4",
     "nl_NL": "Rapport van \\2 aan \\4"
@@ -3228,9 +3272,17 @@
     "en_GB": "Response to several questions posed by \\2",
     "nl_NL": "Respons op verschillende vragen gesteld door \\2"
   },
+  "Ritagli a stampa di articoli di giornale$": {
+    "en_GB": "Printed clippings of articles from newspapers",
+    "nl_NL": "Gedrukte knipsels van artikels uit kranten"
+  },
   "Ritaglio a stampa del \"(.+)\"$": {
     "en_GB": "Printed clipping from the “\\1”",
     "nl_NL": "Gedrukt knipsel van de “\\1”"
+  },
+  "Ritaglio a stampa di articolo di giornale$": {
+    "en_GB": "Printed clipping of an article from a newspaper",
+    "nl_NL": "Gedrukt knipsel van een artikel uit een krant"
   },
   "Ritaglio a stampa$": {
     "en_GB": "Clipping from print",
@@ -3360,6 +3412,10 @@
     "en_GB": "Plea addressed to \\2",
     "nl_NL": "Smeekbede gericht aan \\2"
   },
+  "Tabella a stampa “(.+)”$": {
+    "en_GB": "Printed table “\\1”",
+    "nl_NL": "Gedrukt overzicht “\\1”"
+  },
   "Tabella a stampa$": {
     "en_GB": "Printed table",
     "nl_NL": "Gedrukt overzicht"
@@ -3383,6 +3439,10 @@
   "Tariffe$": {
     "en_GB": "Tariffs",
     "nl_NL": "Tarieven"
+  },
+  "Telegramma (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Telegram from \\2 to \\4",
+    "nl_NL": "Telegram van \\2 aan \\4"
   },
   "Testo a stampa di un discorso pubblico (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed text of a public discourse from \\2",
@@ -3744,6 +3804,10 @@
     "en_GB": "Transcription of the norms on pension",
     "nl_NL": "Transcriptie over de pensioennormen"
   },
+  "Trascrizione di proclama (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of a report from \\2",
+    "nl_NL": "Transcriptie van een rapport van \\2"
+  },
   "Trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed transcription of an edict of \\2",
     "nl_NL": "Gedrukte transcriptie van een edict van \\2"
@@ -3764,6 +3828,10 @@
     "en_GB": "Trascription of an extract of an article from the Monitore Toscano",
     "nl_NL": "Transcriptie van een uittreksel van een artikel uit de Monitore Toscano"
   },
+  "Trascrizione di un avviso (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of a notice from \\2",
+    "nl_NL": "Transcriptie van een melding van \\2"
+  },
   "Trascrizione di un avviso ai naviganti firmato (\\$\\w+)$": {
     "en_GB": "Transcription of a notice to sailors, signed \\1",
     "nl_NL": "Transcriptie van een melding aan zeelieden, ondertekend \\1"
@@ -3776,6 +3844,10 @@
     "en_GB": "Transcription of a concordat of 1851 to \\2 extracted from the newspaper of 4 August 1851",
     "nl_NL": "Transcriptie van een concordaat van 1851 aan \\2 gehaald uit een krant van 4 augustus 1851"
   },
+  "Trascrizione di un decreto del (\\d\\d?) ottobre (\\d\\d\\d\\d)$": {
+    "en_GB": "Transcription of a decree of \\1 October \\2",
+    "nl_NL": "Transcriptie van een verordening van \\1 oktober \\2"
+  },
   "Trascrizione di un estratto dal Journal Officiel du Royaume des Pays-Bas$": {
     "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",
     "nl_NL": "Transcriptie van een extract uit het Journal Officiel du Royaume des Pays-Bas"
@@ -3785,10 +3857,6 @@
     "nl_NL": "Transcriptie van een proclamatie van de Italiaanse Commissie aan het Volk van de Romagna"
   },
   "Trascrizione di un rapporto (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Transcription of a report from \\2",
-    "nl_NL": "Transcriptie van een rapport van \\2"
-  },
-  "Trascrizione di proclama (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a report from \\2",
     "nl_NL": "Transcriptie van een rapport van \\2"
   },
