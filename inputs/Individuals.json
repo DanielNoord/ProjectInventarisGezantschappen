@@ -420,6 +420,38 @@
     "titles": [["marchese", null]],
     "wikidata:id": "Q469134"
   },
+  "$Bach": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1813-01-04",
+    "date_of_death": "1893-11-12",
+    "functions": [
+      ["Ministro di Giustizia dell'Impero d'Austria", "1848-07-18/1849-05"],
+      [
+        "Ministro degli Affari Interni dell'Impero d'Austria",
+        "1849-06-28/1859-08-21"
+      ],
+      [
+        "Ambasciatore staordinario dell'Impero Austriaco presso la Santa Sede",
+        "1859/1867"
+      ]
+    ],
+    "images": [
+      "https://sammlung.wienmuseum.at/en/object/47447-alexander-freiherr-von-bach/"
+    ],
+    "name": "Alexander",
+    "person_type": 1,
+    "place_of_birth": "Loosdorf",
+    "place_of_death": "Schöngrabern",
+    "sources": [
+      "Angermann, Erich, 'Bach, Alexander Freiherr von' in: Neue Deutsche Biographie 1 (1953), pp. 489-490, found on: https://www.deutsche-biographie.de/sfz42203.html#ndbcontent",
+      "Ilwof, Franz, 'Bach, Alexander Freiherr von' in: Allgemeine Deutsche Biographie 46 (1902), pp. 158-172, found on: https://www.deutsche-biographie.de/sfz42203.html#adbcontent"
+    ],
+    "sources_other": [],
+    "surname": "von Bach",
+    "titles": [["barone", null]],
+    "wikidata:id": "Q448912"
+  },
   "$Bake": {
     "ISNI:id": "0000 0003 9705 4998",
     "comment_daniel": "",
@@ -6347,6 +6379,33 @@
     "titles": [["colonnello", null]],
     "wikidata:id": null
   },
+  "$Leemans": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1809-04-28",
+    "date_of_death": "1893-10-14",
+    "functions": [
+      [
+        "Curatore d'arte del Museo statale delle Antichità di Leida",
+        "1835-12-03/1891"
+      ],
+      ["Direttore del Museo Etnografico di Leida", "1839/1880"]
+    ],
+    "images": [
+      "https://nl.wikipedia.org/wiki/Conrad_Leemans#/media/Bestand:NINO-117_C-Leemans.tif"
+    ],
+    "name": "Cornelis",
+    "person_type": 1,
+    "place_of_birth": "Zaltbommel",
+    "place_of_death": "Leida",
+    "sources": [
+      "Pleyte, W., 'Levensbericht C. Leemans', in: Jaarboek (1894). Found on: https://www.dwc.knaw.nl/DL/levensberichten/PE00001509.pdf"
+    ],
+    "sources_other": [],
+    "surname": "Leemans",
+    "titles": [["Cav.", "1849-05-16/"]],
+    "wikidata:id": null
+  },
   "$Leersum": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -7634,6 +7693,36 @@
     "surname": "Merle d'Aubigné",
     "titles": [],
     "wikidata:id": "Q116045"
+  },
+  "$Mesones": {
+    "ISNI:id": null,
+    "comment_daniel": "His son, Manuel M. Mesones, was also ambassador to the Holy See (between 1879-1887)",
+    "date_of_birth": "1825",
+    "date_of_death": "1879-12-16",
+    "functions": [
+      [
+        "Ministro plenipotenziario della Repubblica del Perù presso la Santa Sede",
+        "1857-05-10/1861"
+      ],
+      [
+        "Ministro plenipotenziario della Repubblica del Perù presso la Santa Sede",
+        "1865/1865"
+      ]
+    ],
+    "images": [
+      "https://www.wikidata.org/wiki/Q9025242#/media/File:Luis_Mesones.tif"
+    ],
+    "name": "Luis",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Abanto, Julio, 'Diplomacia, Iglesia y lazos familiares. Las relaciones diplomáticas entre el Perú y la Santa Sede (1859-1887)', in: Argumentos 1.2 (2020). Https://doi.org/10.46476/ra.v1i2.51"
+    ],
+    "sources_other": [],
+    "surname": "Mesones",
+    "titles": [],
+    "wikidata:id": "Q9025242"
   },
   "$Metternich": {
     "ISNI:id": "0000 0001 2131 9430",
@@ -9248,6 +9337,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Pignone": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1813-05-08",
+    "date_of_death": "1894-06-24",
+    "functions": [["Sindaco di Napoli", "1857-01-27/1860-09-07"]],
+    "images": [],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Oriolo",
+    "place_of_death": "Portici",
+    "sources": [],
+    "sources_other": [
+      "Scognamiglio, Stanislao, 'Figli di Portici famosi: il Patrizio Napoletano Giuseppe Pignone del Carretto', LoSpeakersCorner.eu, 21 April 2019, acc. 18 November 2021. Found on: http://www.lospeakerscorner.eu/figli-di-portici-famosi-il-patrizio-napoletano-giuseppe-pignone-del-carretto/"
+    ],
+    "surname": "Pignone del Carreto",
+    "titles": [
+      ["Cav.", null],
+      ["marchese di Oriolo", null],
+      ["principe d'Alessandria", null],
+      ["duca di Pontelandolfo", null]
+    ],
+    "wikidata:id": null
+  },
   "$Pilaer": {
     "ISNI:id": null,
     "comment_daniel": "Beth vindt hem normaal consul en geen vice-consul zoals in de inventaris, wat houden we aan?",
@@ -10022,6 +10135,33 @@
     "surname": "Ronca",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Rosas": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1812-03-16",
+    "date_of_death": "1873-11-03",
+    "functions": [
+      [
+        "Ambasciatore straordinario e plenipotenziario del Regno di Spagna presso la Santa Sede",
+        "1858-07-18/1860-11-21"
+      ]
+    ],
+    "images": [
+      "https://dbe.rah.es/biografias/4411/antonio-sanchez-del-rio-y-lopez-de-la-rosa"
+    ],
+    "name": "Antonio",
+    "person_type": 1,
+    "place_of_birth": "Ronda",
+    "place_of_death": "Madrid",
+    "sources": [
+      "Gallo, Juan Pérez de Guzmán y, 'Historia política y parlamentaria', in: Boletín de la Real Academia de la Historia. Vol. 63 (1913).",
+      "García, Antonio Fernández, 'Sánchez del Río y López de la Rosa, Antonio', in: Real Academia de La Historia, Diccionario Biográfico electrónico, found on: https://dbe.rah.es/biografias/4411/antonio-sanchez-del-rio-y-lopez-de-la-rosa"
+    ],
+    "sources_other": [],
+    "surname": "de los Ríos y Rosas",
+    "titles": [],
+    "wikidata:id": "Q2893913"
   },
   "$Ross": {
     "ISNI:id": null,
@@ -11836,6 +11976,30 @@
     "titles": [["arciduca d'Austria", null]],
     "wikidata:id": "Q313169"
   },
+  "$Tosi": {
+    "ISNI:id": null,
+    "comment_daniel": "Niet te verwarren met de man van dezelfde naam die vescovo di Pavia was en bovendien overleed in 1845",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Sostituto del ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Luigi",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Almanacco Romano pel 1858, ossia, raccolta dei primari dignitari e funzionari della città di Roma (Tipografia Sinimberghi: Roma, 1858), p. 144"
+    ],
+    "surname": "Tosi",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Tosti": {
     "ISNI:id": "0000 0001 1511 4965",
     "comment_daniel": "",
@@ -12251,8 +12415,8 @@
     "date_of_death": "",
     "functions": [["Console del Regno dei Paesi Bassi a Messina", null]],
     "images": [],
-    "name": "J.F.",
-    "person_type": 1,
+    "name": "J.J.",
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
