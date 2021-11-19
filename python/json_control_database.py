@@ -17,7 +17,9 @@ from database_controls import (
 from typing_utils.translations_classes import IndividualsDictCleaned
 
 
-def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
+def check_entries(  # pylint: disable=too-many-branches, too-many-statements
+    input_file: str,
+) -> None:
     """Checks whether the input file is correct and fits all criteria of a correct database file
     Checks for unknown functions, titles, etc.
 
@@ -55,21 +57,31 @@ def check_entries(input_file: str) -> None:  # pylint: disable=too-many-branches
                 "outputs/Individuals.json to inputs/Individual.json"
             )
 
-        if len(data["titles"]) > 1 and data["titles"] != sorted(
-            data["titles"], key=lambda x: (x[1] is not None, x[1])
-        ):
-            raise Exception(
-                f"Incorrect sorting of titles found for {identifier}.\n"
-                "Make sure they are sorted based on their time"
-            )
+        try:
+            if len(data["titles"]) > 1 and data["titles"] != sorted(
+                data["titles"], key=lambda x: (x[1] is not None, x[1])
+            ):
+                raise Exception(
+                    f"Incorrect sorting of titles found for {identifier}.\n"
+                    "Make sure they are sorted based on their time"
+                )
+        except IndexError as error:
+            raise IndexError(
+                f"Something wrong with the titles of {identifier}. Error: {error}"
+            ) from error
 
-        if len(data["functions"]) > 1 and data["functions"] != sorted(
-            data["functions"], key=lambda x: (x[1] is not None, x[1])
-        ):
-            raise Exception(
-                f"Incorrect sorting of functions found for {identifier}.\n"
-                "Make sure they are sorted based on their time"
-            )
+        try:
+            if len(data["functions"]) > 1 and data["functions"] != sorted(
+                data["functions"], key=lambda x: (x[1] is not None, x[1])
+            ):
+                raise Exception(
+                    f"Incorrect sorting of functions found for {identifier}.\n"
+                    "Make sure they are sorted based on their time"
+                )
+        except IndexError as error:
+            raise IndexError(
+                f"Something wrong with the functions of {identifier}. Error: {error}"
+            ) from error
 
         if identifier[0] != "$":
             raise Exception(
