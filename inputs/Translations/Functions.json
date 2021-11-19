@@ -488,6 +488,10 @@
     "en_GB": "Consul general of the Empire of Austria in Ancona",
     "nl_NL": "Consul-generaal van het Keizerrijk Oostenrijk te Ancona"
   },
+  "Curatore d'arte del Museo statale delle Antichità di Leida": {
+    "en_GB": "Curator of the Museum of Antiquities of Leiden",
+    "nl_NL": "Curator van het Rijksuseum van Oudheden van Leiden"
+  },
   "Delegato apostolico a Civitavecchia": {
     "en_GB": "Apostolic delegate in Civitavecchia",
     "nl_NL": "Apostolisch delegaat te Civitavecchia"
@@ -535,6 +539,10 @@
   "Direttore del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Director of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Directeur van het Ministerie van Marine en Koloniën van het Koninkrijk der Nederlanden"
+  },
+  "Direttore del Museo Etnografico di Leida": {
+    "en_GB": "Director of the Ethnographic Museum of Leiden",
+    "nl_NL": "Directeur van het Rijks Ethnographisch Museum van Leiden"
   },
   "Direttore dell'Ufficio della Dogana e Porto Franco di Genova": {
     "en_GB": "Director of Customs and the free port of Genoa",
@@ -1152,6 +1160,10 @@
     "en_GB": "Minister of Internal Affairs of the Kingdom of the Two Sicilies",
     "nl_NL": "Minister van Binnenlandse Zaken van het Koninkrijk der Beide Siciliën"
   },
+  "Ministro degli Affari Interni dell'Impero d'Austria": {
+    "en_GB": "Minister of Internal Affairs of the Empire of Austria",
+    "nl_NL": "Minister van Binnenlandse Zaken van het Keizerrijk Oostenrijk"
+  },
   "Ministro degli Affari Interni dello Stato Pontificio": {
     "en_GB": "Minister of Internal Affairs of the Papel States",
     "nl_NL": "Minister van Binnenlandse Zaken van de Kerkelijke Staat"
@@ -1173,7 +1185,7 @@
     "nl_NL": "Minister van Handel en Openbare Werken van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
-    "en_GB": "Minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papel States",
+    "en_GB": "Minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papal States",
     "nl_NL": "Minister van Handel, Landbouw, Industrie, Schone Kunsten en Openbare Werken van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Belle Arti, Industria e Agricoltura dello Stato Pontificio": {
@@ -1239,6 +1251,10 @@
   "Ministro di Giustizia del Regno dei Paesi Bassi": {
     "en_GB": "Minister of Justice of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Justitie van het Koninkrijk der Nederlanden"
+  },
+  "Ministro di Giustizia dell'Impero d'Austria": {
+    "en_GB": "Minister of Justice of the Empire of Austria",
+    "nl_NL": "Minister van Justitie van het Keizerrijk Oostenrijk"
   },
   "Ministro di Grazia e Giustizia del Regno d'Italia": {
     "en_GB": "Minister of Grace and Justice of the Kingdom of Italy",
@@ -1792,6 +1808,10 @@
     "en_GB": "Auditor of the _Magistrato di Sanità_ of Genoa",
     "nl_NL": "Auditor van het _Magistrato di Sanità_ van Genua"
   },
+  "Sindaco di Napoli": {
+    "en_GB": "Mayor of Naples",
+    "nl_NL": "Burgemeester van Napels"
+  },
   "Soprassindico di Firenze": {
     "en_GB": "Magistrate auditor of Firenze",
     "nl_NL": "Magistraat-auditeur van Florence"
@@ -1799,6 +1819,10 @@
   "Sostituto ad interim della seconda sezione della Segreteria di Stato": {
     "en_GB": "Interim substitute for Relations with States of the Secretariat of State of the Holy See",
     "nl_NL": "Ad interim substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel"
+  },
+  "Sostituto del ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
+    "en_GB": "Substitute minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papal States",
+    "nl_NL": "Plaatsvervangend minister van Handel, Landbouw, Industrie, Schone Kunsten en Openbare Werken van de Kerkelijke Staat"
   },
   "Sostituto della Segreteria di Stato della Santa Sede": {
     "en_GB": "Deputy Cardinal Secretary of State",

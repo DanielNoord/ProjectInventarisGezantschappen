@@ -10,11 +10,6 @@
     "nl_NL": "1e Burggraaf van Alte",
     "position": "After"
   },
-  "Visconte FitzHarris": {
-    "en_GB": "Viscount FitzHarris",
-    "nl_NL": "Burggraaf FitzHarris",
-    "position": "After"
-  },
   "1° ufficiale della sanità in pensione di 2° classe": {
     "en_GB": "retired 1st officer of health, 2nd class,",
     "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
@@ -73,6 +68,11 @@
   "Principe di Metternich": {
     "en_GB": "Prince of Metternich,",
     "nl_NL": "Prins van Metternich,",
+    "position": "After"
+  },
+  "Visconte FitzHarris": {
+    "en_GB": "Viscount FitzHarris",
+    "nl_NL": "Burggraaf FitzHarris",
     "position": "After"
   },
   "ammiraglio": {
@@ -200,6 +200,11 @@
     "nl_NL": "hertog van Casigliano",
     "position": "After"
   },
+  "duca di Pontelandolfo": {
+    "en_GB": "duke of Pontelandolfo",
+    "nl_NL": "hertog van Pontelandolfo",
+    "position": "After"
+  },
   "duca di Reggio": {
     "en_GB": "duke of Reggio",
     "nl_NL": "hertog van Reggio",
@@ -255,6 +260,11 @@
     "nl_NL": "markies van Lajatico",
     "position": "After"
   },
+  "marchese di Oriolo": {
+    "en_GB": "Marquess of Oriolo",
+    "nl_NL": "markies van Oriolo",
+    "position": "After"
+  },
   "maresciallo": {
     "en_GB": "marshal",
     "nl_NL": "maarschalk",
@@ -268,6 +278,11 @@
   "principe": {
     "en_GB": "prince",
     "nl_NL": "prins",
+    "position": "After"
+  },
+  "principe d'Alessandria": {
+    "en_GB": "prince of Alessandria",
+    "nl_NL": "prins van Alessandria",
     "position": "After"
   },
   "principe di Bidache": {

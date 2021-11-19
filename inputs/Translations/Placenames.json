@@ -1272,6 +1272,14 @@
     "longitude": "-0.12574",
     "nl_NL": "Londen"
   },
+  "Loosdorf": {
+    "en_GB": "Loosdorf",
+    "geonames_id": 2772264,
+    "geonames_wikipedia": null,
+    "latitude": "48.2",
+    "longitude": "15.4",
+    "nl_NL": "Loosdorf"
+  },
   "Loosdrecht": {
     "en_GB": "Loosdrecht",
     "geonames_id": 8714374,
@@ -1840,6 +1848,14 @@
     "longitude": "12.51133",
     "nl_NL": "Rome"
   },
+  "Ronda": {
+    "en_GB": "Ronda",
+    "geonames_id": 2511730,
+    "geonames_wikipedia": null,
+    "latitude": "36.74231",
+    "longitude": "-5.16709",
+    "nl_NL": "Ronda"
+  },
   "Rotterdam": {
     "en_GB": "Rotterdam",
     "geonames_id": 2747891,
@@ -1935,6 +1951,14 @@
     "latitude": "44.30905",
     "longitude": "8.47715",
     "nl_NL": "Savona"
+  },
+  "Schöngrabern": {
+    "en_GB": "Schöngrabern",
+    "geonames_id": 2765679,
+    "geonames_wikipedia": null,
+    "latitude": "48.6",
+    "longitude": "16.05",
+    "nl_NL": "Schöngrabern"
   },
   "Schönhausen": {
     "en_GB": "Schönhausen",
@@ -2472,9 +2496,17 @@
     "longitude": "6.64115",
     "nl_NL": "Yverdon-les-Bains"
   },
+  "Zaltbommel": {
+    "en_GB": "Zaltbommel",
+    "geonames_id": 2743861,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zaltbommel",
+    "latitude": "51.81",
+    "longitude": "5.24444",
+    "nl_NL": "Zaltbommel"
+  },
   "Zoelen": {
     "en_GB": "Zoelen",
-    "geonames_id": 2743861,
+    "geonames_id": 2744102,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zoelen",
     "latitude": "51.9125",
     "longitude": "5.40278",
