@@ -620,6 +620,28 @@
     "titles": [["contessa", null]],
     "wikidata:id": null
   },
+  "$Bartels": {
+    "ISNI:id": null,
+    "comment_daniel": "Niet te verwarren met zijn vader Cornelis Hendrik Bartels, welke in Elmina stierf in 1850 en ook betrokken was bij de Rechtbank",
+    "date_of_birth": "1818",
+    "date_of_death": "1857",
+    "functions": [
+      ["Giudice ad interim del tribunale a St. George d'Elmina", "1856/1857"]
+    ],
+    "images": [],
+    "name": "Louis",
+    "person_type": 1,
+    "place_of_birth": "Ermina",
+    "place_of_death": "Ermina",
+    "sources": [],
+    "sources_other": [
+      "'Bijlagen van het Verslag der Handelingen van de Tweede Kamer der Staten-Generaal, 1858-1859', found on: https://books.google.nl/books?id=20s9AQAAMAAJ&pg=RA1-PA726-IA23&dq=L+bartels+elmina&hl=nl&sa=X&ved=2ahUKEwjB8uvUu670AhX-gP0HHQVdCCIQ6AF6BAgIEAI#v=onepage&q=bartels&f=false",
+      "'Bijlagen van het Verslag der Handelingen van de Tweede Kamer der Staten-Generaal, 1859-1860', found on: https://books.google.nl/books?id=cUo9AQAAMAAJ&pg=PA528&dq=c+bartels+guinea&hl=nl&sa=X&ved=2ahUKEwjRt7iGt670AhUj4YUKHYFKDSEQ6AF6BAgLEAI#v=onepage&q=c%20bartels%20guinea&f=false"
+    ],
+    "surname": "Bartels",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Bartolini": {
     "ISNI:id": "0000 0001 1024 8366",
     "comment_daniel": "",
@@ -1494,6 +1516,31 @@
     "surname": "de Bosis",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Bossche": {
+    "ISNI:id": "0000 0003 9432 1990",
+    "comment_daniel": "",
+    "date_of_birth": "1819-09-04",
+    "date_of_death": "1889-01-12",
+    "functions": [
+      [
+        "Governatore dei Possedimenti Olandesi sulla Costa della Guinea",
+        "1857/1857"
+      ]
+    ],
+    "images": [],
+    "name": "Jules Félicien Romain Stanislas",
+    "person_type": 1,
+    "place_of_birth": "Mons",
+    "place_of_death": "Aden",
+    "sources": [],
+    "sources_other": [
+      "Almanak voor de Nederlandsche West-Indische bezittingen, en de kust van Guinea. Jaargang 1859 (De Gebroeders van Cleef: Den Haag, 1858), p. 209",
+      "https://en.wikipedia.org/wiki/Jules_van_den_Bossche"
+    ],
+    "surname": "van den Bossche",
+    "titles": [["Cav.", "1850-12-06/"]],
+    "wikidata:id": "Q16062604"
   },
   "$Bosse": {
     "ISNI:id": "0000 0000 2957 0999",
@@ -6468,7 +6515,7 @@
   },
   "$Liedkerke": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "De fam. Liedekerke-Beaufort had een zomerresidentie in Celles, België (niet Noisy, Frankrijk) dat heet: Chateau de Noisy (of de Miranda, vandaag de dag).",
     "date_of_birth": "1792",
     "date_of_death": "1855-09-27",
     "functions": [
@@ -7648,6 +7695,26 @@
     ],
     "wikidata:id": null
   },
+  "$Melvil": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1804-03-29",
+    "date_of_death": "1893-08-16",
+    "functions": [["Direttore del Nederlansche Bank", "1838-12/1851-03"]],
+    "images": [],
+    "name": "John",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "Driebergen",
+    "sources": [],
+    "sources_other": [
+      "'Inventaris van het Secretariearchief, archieven van afdelingen van de hoofdbank en archieven van de bankkantoren van De Nederlandsche Bank NV, 1814-1995', Historisch Archief DNB (Nationaal Archief: Den Haag, 2011)",
+      "Utrechts Archief, Burgerlijke Stand van de gemeenten in de provincie Utrecht 1811-1902, Inventarisnummer: 369-11, Aktenummer: 22"
+    ],
+    "surname": "Melvil",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Menabrea": {
     "ISNI:id": "0000 0001 1934 395X",
     "comment_daniel": "",
@@ -7853,6 +7920,41 @@
       ["Cav.", null]
     ],
     "wikidata:id": "Q3766458"
+  },
+  "$Mijer": {
+    "ISNI:id": "0000 0000 4930 4815",
+    "comment_daniel": "",
+    "date_of_birth": "1812-06-03",
+    "date_of_death": "1881-02-06",
+    "functions": [
+      [
+        "Ministro delle Colonie del Regno dei Paesi Bassi",
+        "1856-01-01/1858-03-18"
+      ],
+      [
+        "Ministro delle Colonie del Regno dei Paesi Bassi",
+        "1866-05-30/1866-09-17"
+      ],
+      [
+        "Governatore Generale delle Indie Orientali Olandesi",
+        "1866-12-28/1872-01-01"
+      ]
+    ],
+    "images": [
+      "https://www.rijksmuseum.nl/en/collection/RP-F-F01025-A",
+      "https://rkd.nl/nl/explore/images/165321"
+    ],
+    "name": "Pieter",
+    "person_type": 1,
+    "place_of_birth": "Batavia",
+    "place_of_death": "Scheveningen",
+    "sources": [
+      "Redactie parlement.com, 'Mr. P. Mijer', found on: https://www.parlement.com/id/vg09ll3jiyi9/p_mijer"
+    ],
+    "sources_other": [],
+    "surname": "Mijer",
+    "titles": [],
+    "wikidata:id": "Q2131329"
   },
   "$Mijnden": {
     "ISNI:id": null,
@@ -11050,6 +11152,41 @@
     "titles": [["colonnello", null]],
     "wikidata:id": null
   },
+  "$SerraF": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1801-04-13",
+    "date_of_death": "1877-11-21",
+    "functions": [
+      [
+        "Comandante generale della Regia Marina del Regno di Sardegna",
+        "1859-10-07/"
+      ],
+      [
+        "Presidente del Consiglio Superiore di Marina del Regno di Sardegna",
+        "1867-03-28/"
+      ],
+      [
+        "Intendente generale dell'Azienda Generale della Marina del Regno di Sardegna",
+        "1949-05-29/"
+      ]
+    ],
+    "images": [],
+    "name": "Francesco",
+    "person_type": 1,
+    "place_of_birth": "Genova",
+    "place_of_death": "Firenze",
+    "sources": [
+      "'Serra Francesco', a cura dell'Archivio Storico del Senato della Repubblica, found on: http://notes9.senato.it/web/senregno.nsf/9a9ed8f00e7e7ad6c12570000030610a/1ab4f9db05d4341fc12570690031873f?OpenDocument"
+    ],
+    "sources_other": [],
+    "surname": "Serra",
+    "titles": [
+      ["Cav.", null],
+      ["conte", "1833-03-23/"]
+    ],
+    "wikidata:id": "Q6953298"
+  },
   "$Simeoni": {
     "ISNI:id": "0000 0001 1616 864X",
     "comment_daniel": "",
@@ -11637,6 +11774,27 @@
     "surname": "Potter Stockton",
     "titles": [],
     "wikidata:id": "Q433837"
+  },
+  "$Stolberg": {
+    "ISNI:id": "0000 0000 1359 3344",
+    "comment_daniel": "Stolberg wordt vaak geschreven als Stalberg of Stahelberg. Vooralsnog even checken of het echt deze persoon is, want ik weet het niet zeker. Deze persoon is sowieso fervent katholiek (groot deel van de familie niet) en in de 'juiste' politieke positie om brieven uit te wisselen ten behoeve van Anna Pavlovna.",
+    "date_of_birth": "1804-08-12",
+    "date_of_death": "1859-04-15",
+    "functions": [],
+    "images": [
+      "https://digital.ub.uni-paderborn.de/ihd/content/pageview/1809516"
+    ],
+    "name": "Joseph Theodor",
+    "person_type": 5,
+    "place_of_birth": "Münster",
+    "place_of_death": "Rumillies",
+    "sources": [],
+    "sources_other": [
+      "https://de.wikipedia.org/wiki/Joseph_Theodor_zu_Stolberg-Stolberg"
+    ],
+    "surname": "zu Stolberg-Stolberg",
+    "titles": [["conte di Stolberg", null]],
+    "wikidata:id": "Q1708085"
   },
   "$Stover": {
     "ISNI:id": "0000 0003 9275 8697",
@@ -12975,6 +13133,23 @@
     "sources": [],
     "sources_other": [],
     "surname": "Zermann",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Zina": {
+    "ISNI:id": null,
+    "comment_daniel": "No idea who this is",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Zina",
     "titles": [],
     "wikidata:id": null
   },
