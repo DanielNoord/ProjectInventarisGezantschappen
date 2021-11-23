@@ -5700,6 +5700,32 @@
     "titles": [["commendatore dell'Ordine di San Gregorio Magno", null]],
     "wikidata:id": "Q3651524"
   },
+  "$Jacquemoud": {
+    "ISNI:id": "0000 0004 0966 2756",
+    "comment_daniel": "",
+    "date_of_birth": "1802-05-26",
+    "date_of_death": "1863-11-27",
+    "functions": [
+      ["Sindaco di Albertville", null],
+      ["Senatore del Regno di Sardegna", "1837-08-02/"],
+      ["Presidente della Camera di Commercio di Chambéry", "1840/1860"]
+    ],
+    "images": [],
+    "name": "Joseph",
+    "person_type": 1,
+    "place_of_birth": "Chambéry",
+    "place_of_death": "Chambéry",
+    "sources": [
+      "'Jacquemoud, Giuseppe', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/d7aba38662bfb3b8c125785e003c4334/1f9e908b77dbb673c1257069003186e2?OpenDocument"
+    ],
+    "sources_other": [],
+    "surname": "Jacquemoud",
+    "titles": [
+      ["Cav.", null],
+      ["barone", "1834-07-05/"]
+    ],
+    "wikidata:id": "Q3185122"
+  },
   "$Jandel": {
     "ISNI:id": "0000 0000 6120 0170",
     "comment_daniel": "",

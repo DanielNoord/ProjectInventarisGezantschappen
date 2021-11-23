@@ -1524,6 +1524,10 @@
     "en_GB": "President of the House of Representatives of the Kingdom of Sardinia",
     "nl_NL": "President van het Huis van Afgevaardigden van het Koninkrijk Sardinië"
   },
+  "Presidente della Camera di Commercio di Chambéry": {
+    "en_GB": "President of the Chamber of Commerce of Chambéry",
+    "nl_NL": "President van de Kamer van Koophandel van Chambéry"
+  },
   "Presidente della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi": {
     "en_GB": "President of the General Committee on the affairs of the Israelites of the Kingdom of the Netherlands",
     "nl_NL": "Voorzitter van de Hoofdcommissie tot de zaken der Israëlieten van het Koninkrijk der Nederlanden"
@@ -1827,6 +1831,10 @@
   "Sindaco del Magistrato di Sanità di Genova": {
     "en_GB": "Auditor of the _Magistrato di Sanità_ of Genoa",
     "nl_NL": "Auditor van het _Magistrato di Sanità_ van Genua"
+  },
+  "Sindaco di Albertville": {
+    "en_GB": "Mayor of Albertville",
+    "nl_NL": "Burgemeester van Albertville"
   },
   "Sindaco di Napoli": {
     "en_GB": "Mayor of Naples",
