@@ -372,6 +372,10 @@
     "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
     "nl_NL": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes"
   },
+  "Avviso a stampa (di|del|della) (\\$\\w+) ai naviganti$": {
+    "en_GB": "Printed notice from \\2 to navigators",
+    "nl_NL": "Gedrukte melding van \\2 aan scheepvaarders"
+  },
   "Avviso a stampa agli associati del Corriere Livornese$": {
     "en_GB": "Printed notice to the associates of the Corriere Livornese",
     "nl_NL": "Gedrukte melding aan de betrokkenen bji de Corriere Livornese"
@@ -643,6 +647,10 @@
   "Copia della verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$": {
     "en_GB": "Copy of the report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
     "nl_NL": "Kopie van het rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
+  },
+  "Copia di lettera (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Copy of letter to \\2",
+    "nl_NL": "Kopie van brief aan \\2"
   },
   "Copia di lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con l'annuncio che gli archivi dipendenti dal Consolato delle Repubblica delle Sette Province Unite a Genova gli saranno spediti dalla Legazione di Sardegna$": {
     "en_GB": "Copy of letter of \\2 to \\4 with the announcement that the archives of the Consulate of the Republic of the Seven United Netherlands in Genoa will be sent to him by the Legation of Sardinia",
@@ -1152,6 +1160,10 @@
     "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
     "nl_NL": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816"
   },
+  "Fasc. (\\d+) \"(.+)\"$": {
+    "en_GB": "Bundle \\1 “\\2”",
+    "nl_NL": "Bundel \\1 “\\2”"
+  },
   "Fasc. (\\d+) \"(.+)\", \"(.+)\" \\(a stampa\\)$": {
     "en_GB": "Bundle \\1 “\\2”, “\\3” (printed)",
     "nl_NL": "Bundel \\1 “\\2”, “\\3” (gedrukt)"
@@ -1512,17 +1524,17 @@
     "en_GB": "Printed “\\1” (Palermo, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt “\\1” (Palermo, \\2 aug. \\3)"
   },
-  "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
-    "nl_NL": "Gedrukt “\\1” (Portici, \\2 sep. \\3)"
+  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 jun. \\3)"
   },
   "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Palermo, \\2 Oct. \\3)",
     "nl_NL": "Gedrukt “\\1” (Palermo, \\2 okt. \\3)"
   },
-  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Palermo, \\2 Jun. \\3)",
-    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 jun. \\3)"
+  "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Portici, \\2 sep. \\3)"
   },
   "Foglio sulla Ondata di tempesta del 1825 \"(.+)\"$": {
     "en_GB": "Sheet about the February flood of 1825 “\\1”",
@@ -1824,6 +1836,10 @@
     "en_GB": "Invitation for \\2 with attached a list of the ladies from the Netherlands",
     "nl_NL": "Uitnodiging voor \\2 met bijgevoegde lijst van de dames uit Nederland"
   },
+  "Invito (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Invitation from \\2 to \\4",
+    "nl_NL": "Uitnodiging van \\2 aan \\4"
+  },
   "Invito (di|del|della) (\\$\\w+)$": {
     "en_GB": "Invitation from \\2",
     "nl_NL": "Uitnodiging van \\2"
@@ -1831,6 +1847,14 @@
   "Invito litografato (a|al) (\\$\\w+)$": {
     "en_GB": "Lithographed invitation to \\2",
     "nl_NL": "Gelithografeerde uitnodiging aan \\2"
+  },
+  "Invito litografato dell'Accademia Reale delle Scienze di Torino (a|al) (\\$\\w+) con nota$": {
+    "en_GB": "Lithographed invitation from the Accademia Reale delle Scienze di Torino to \\2 with note",
+    "nl_NL": "Gelithografeerde uitnodiging van de Accademia Reale delle Scienze di Torino aan \\2 met nota"
+  },
+  "Invito litografato dell'Accademia Reale delle Scienze di Torino (a|al) (\\$\\w+)$": {
+    "en_GB": "Lithographed invitation from the Accademia Reale delle Scienze di Torino to \\2",
+    "nl_NL": "Gelithografeerde uitnodiging van de Accademia Reale delle Scienze di Torino aan \\2"
   },
   "Invito per l'apertura del Parlamento (a|al) (\\$\\w+)$": {
     "en_GB": "Invitation for the opening of Parliament to \\2",
@@ -2432,6 +2456,10 @@
     "en_GB": "Letters from \\2 to \\4",
     "nl_NL": "Brieven van \\2 to \\4"
   },
+  "Lettere particolari$": {
+    "en_GB": "Special letters",
+    "nl_NL": "Bijzondere brieven"
+  },
   "Lettres diverses (\\d\\d\\d\\d-\\d\\d\\d\\d) \\(Varie lettere (\\d\\d\\d\\d-\\d\\d\\d\\d)\\)$": {
     "en_GB": "Lettres diverses \\1 (Various letters \\2)",
     "nl_NL": "Lettres diverses \\1 (Diverse brieven \\2)"
@@ -2479,6 +2507,14 @@
   "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère$": {
     "en_GB": "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère",
     "nl_NL": "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère"
+  },
+  "Memoria  allegata$": {
+    "en_GB": "Attached memory",
+    "nl_NL": "Bijgevoegde memorie"
+  },
+  "Memoria (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Memory of \\2 to \\4",
+    "nl_NL": "Memorie van \\2 aan \\4"
   },
   "Memoria (di|del|della) (\\$\\w+)$": {
     "en_GB": "Memory of \\2",
@@ -3447,6 +3483,10 @@
   "Testo a stampa di un discorso pubblico (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed text of a public discourse from \\2",
     "nl_NL": "Gedrukte tekst uit een openbare redevoering van \\2"
+  },
+  "Titoli dei fascicoli della corrispondenza di corte$": {
+    "en_GB": "Titles of the bundles of correspondance of the courts",
+    "nl_NL": "Titels van de bundels met correspondentie van de hoven"
   },
   "Traduction de la circulaire de son Eminence le Cardinal Soglia \\(traduzione della circolare della Sua Eminenza Cardinale Soglia\\)$": {
     "en_GB": "Traduction de la circulaire de son Eminence le Cardinal Soglia (translation of a circulaire of His Eminence Cardinal Soglia)",
