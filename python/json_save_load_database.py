@@ -4,7 +4,7 @@ import json
 import re
 from typing import Optional
 
-import docx  # type: ignore
+import docx  # type: ignore[import]
 
 from docx_functions import database, parse_function, parse_title
 from typing_utils import IndividualsDict
@@ -47,7 +47,7 @@ def save_database(  # pylint: disable=too-many-locals
         functions = parse_function(functions)
         sources = sources.replace("\n", "").split("| ")
         images = images.replace("\n", "").split("| ")
-        all_individuals[identifier] = {  # type: ignore
+        all_individuals[identifier] = {  # type: ignore[assignment]
             "surname": surname,
             "person_type": person_type,
             "name": name,

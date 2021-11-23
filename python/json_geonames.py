@@ -3,7 +3,7 @@
 import json
 from typing import cast
 
-import geocoder  # type: ignore
+import geocoder  # type: ignore[import]
 
 from typing_utils.translations_classes import TranslationDictCleanedPlacenames
 from write_files import write_single_json_file

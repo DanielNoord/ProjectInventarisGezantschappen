@@ -11,7 +11,7 @@ def check_begin(  # pylint: disable=too-many-return-statements
     """Checks if a date falls after or on a specific date"""
     if not begin_date.year and not begin_date.month and not begin_date.day:
         return True
-    if date.year and date.year > begin_date.year:  # type: ignore # mypy error
+    if date.year and date.year > begin_date.year:  # type: ignore[operator]
         return True
     if date.year and date.year == begin_date.year:
         if date.month and begin_date.month:
@@ -32,7 +32,7 @@ def check_end(  # pylint: disable=too-many-return-statements
     """Checks if a date falls before or on a specific date"""
     if not end_date.year and not end_date.month and not end_date.day:
         return True
-    if date.year and date.year < end_date.year:  # type: ignore # mypy error
+    if date.year and date.year < end_date.year:  # type: ignore[operator]
         return True
     if date.year and date.year == end_date.year:
         if date.month and end_date.month:
@@ -56,12 +56,12 @@ def check_date(
     if len(dates) != 2:
         raise ValueError(f"Missing a '/' in function/title with date {function_period}")
 
-    begin_date, end_date = dates  # type: ignore
+    begin_date, end_date = dates  # type: ignore[misc]
 
     if len(date) == 1:
         if check_begin(date[0], begin_date) and check_end(date[0], end_date):
             return True
     else:
-        if check_begin(end_date, date[0]) and check_end(begin_date, date[1]):  # type: ignore # ???
+        if check_begin(end_date, date[0]) and check_end(begin_date, date[1]):  # type: ignore[misc]
             return True
     return False

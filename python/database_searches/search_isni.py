@@ -2,7 +2,7 @@ from xml.etree import ElementTree
 
 import requests
 from typing_utils import IndividualsDictCleaned
-from wikidataintegrator import wdi_core  # type: ignore
+from wikidataintegrator import wdi_core  # type: ignore[import]
 from write_files import write_single_json_file
 
 
@@ -19,7 +19,7 @@ def convert_wikidata_to_isni(database: IndividualsDictCleaned) -> None:
             else:
                 data["ISNI:id"] = None
 
-    database["$schema"] = "../static/JSON/Individuals.json"  # type: ignore
+    database["$schema"] = "../static/JSON/Individuals.json"  # type: ignore[assignment]
     write_single_json_file(database, "outputs", "Individuals.json")
 
 
@@ -54,5 +54,5 @@ def search_isni_api(database: IndividualsDictCleaned) -> None:
                 print(forename, surname)
                 print(uri)
 
-    database["$schema"] = "../static/JSON/Individuals.json"  # type: ignore
+    database["$schema"] = "../static/JSON/Individuals.json"  # type: ignore[assignment]
     write_single_json_file(database, "outputs", "Individuals.json")

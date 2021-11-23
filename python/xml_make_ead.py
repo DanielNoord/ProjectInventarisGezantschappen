@@ -172,7 +172,7 @@ def create_xml_file(dir_name: str) -> None:
 
     # Check if outputs directory exists and then write file
     os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
-    tree.write(  # type: ignore # Stub doesn't recognize doctype parameter is valid
+    tree.write(  # type: ignore[call-arg] # Stub doesn't recognize doctype parameter is valid
         "outputs/Legation_Archive.xml",
         pretty_print=True,
         xml_declaration=True,

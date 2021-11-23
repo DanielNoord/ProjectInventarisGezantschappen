@@ -1,6 +1,6 @@
 import json
 
-import docx  # type: ignore
+import docx  # type: ignore[import]
 
 
 def search_koelman(filename: str) -> None:

@@ -11,11 +11,11 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
     Prints a warning if a file is never used.
     """
     with open("outputs/missing_files", "a", encoding="utf-8") as log:
-        print(f"** Looking at MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore
+        print(f"** Looking at MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore[union-attr]
         missing_files = set()
-        for dao in c01.iterdescendants("dao"):  # type: ignore
+        for dao in c01.iterdescendants("dao"):
             try:
-                volume_files.remove(dao.attrib["id"])
+                volume_files.remove(str(dao.attrib["id"]))
             except KeyError:
                 missing_files.add(dao.attrib["id"])
         if len(missing_files) != 0:

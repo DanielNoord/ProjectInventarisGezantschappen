@@ -12,15 +12,15 @@ def create_document_date(row: Tuple[Cell, ...], file_name: str) -> DateTuple:
     check_date_for_missing_elements(year, month, day, row[0].value)
     try:
         if year:
-            year_final: Optional[int] = int(year)  # type: ignore # Can't be date
+            year_final: Optional[int] = int(year)  # type: ignore[arg-type] # Can't be date
         else:
             year_final = None
         if month:
-            month_final: Optional[int] = int(month)  # type: ignore
+            month_final: Optional[int] = int(month)  # type: ignore[arg-type]
         else:
             month_final = None
         if day:
-            day_final: Optional[int] = int(day)  # type: ignore
+            day_final: Optional[int] = int(day)  # type: ignore[arg-type]
         else:
             day_final = None
     except ValueError as error:

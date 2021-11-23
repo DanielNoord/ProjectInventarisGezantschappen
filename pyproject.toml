@@ -2,6 +2,7 @@
 [tool.mypy]
 files = "python"
 strict = true
+show_error_codes = true
 
 # Global pylint options
 [tool.pylint.MASTER]
