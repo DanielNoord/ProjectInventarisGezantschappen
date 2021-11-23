@@ -16,6 +16,14 @@
     "longitude": "3.44722",
     "nl_NL": "Aardenburg"
   },
+  "Aden": {
+    "en_GB": "Aden",
+    "geonames_id": 415189,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Aden",
+    "latitude": "12.77944",
+    "longitude": "45.03667",
+    "nl_NL": "Aden"
+  },
   "Aiaccio": {
     "en_GB": "Ajaccio",
     "geonames_id": 3038334,
@@ -416,6 +424,14 @@
     "longitude": "9.11917",
     "nl_NL": "Cagliari"
   },
+  "Camerino": {
+    "en_GB": "Camerino",
+    "geonames_id": 3181094,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Camerino",
+    "latitude": "43.13866",
+    "longitude": "13.06785",
+    "nl_NL": "Camerino"
+  },
   "Cannero": {
     "en_GB": "Cannero",
     "geonames_id": 3180813,
@@ -768,6 +784,14 @@
     "longitude": "13.73832",
     "nl_NL": "Dresden"
   },
+  "Driebergen": {
+    "en_GB": "Driebergen",
+    "geonames_id": 2756620,
+    "geonames_wikipedia": null,
+    "latitude": "52.05149",
+    "longitude": " 5.28743",
+    "nl_NL": "Driebergen"
+  },
   "Duingt": {
     "en_GB": "Duingt",
     "geonames_id": 3020706,
@@ -783,6 +807,14 @@
     "latitude": "55.95206",
     "longitude": "-3.19648",
     "nl_NL": "Edinburgh"
+  },
+  "Elmina": {
+    "en_GB": "Elmina",
+    "geonames_id": 2301190,
+    "geonames_wikipedia": "https://nl.wikipedia.org/wiki/Fort_Sint_George_(Ghana)",
+    "latitude": "5.0847",
+    "longitude": "-1.35093",
+    "nl_NL": "Elmina"
   },
   "Erbach": {
     "en_GB": "Erbach",
@@ -903,6 +935,14 @@
     "latitude": "41.8091",
     "longitude": "12.67942",
     "nl_NL": "Frascati"
+  },
+  "Friburgo": {
+    "en_GB": "Freiburg",
+    "geonames_id": 2925177,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Freiburg_im_Breisgau",
+    "latitude": "47.9959",
+    "longitude": "7.85222",
+    "nl_NL": "Freiburg"
   },
   "Friedrichsruhe": {
     "en_GB": "Friedrichsruhe",
@@ -1159,6 +1199,14 @@
     "latitude": "44.103",
     "longitude": "9.82375",
     "nl_NL": "La Spezia"
+  },
+  "Lagos": {
+    "en_GB": "Lagos",
+    "geonames_id": 3009047,
+    "geonames_wikipedia": null,
+    "latitude": "43.20885",
+    "longitude": " -0.22478",
+    "nl_NL": "Lagos"
   },
   "Lannion": {
     "en_GB": "Lannion",
@@ -1512,6 +1560,14 @@
     "longitude": "37.61556",
     "nl_NL": "Moskou"
   },
+  "Münster": {
+    "en_GB": "Münster",
+    "geonames_id": 2867543,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/M%C3%BCnster",
+    "latitude": "51.96236",
+    "longitude": "7.62571",
+    "nl_NL": "Münster"
+  },
   "Namur": {
     "en_GB": "Namur",
     "geonames_id": 2790471,
@@ -1616,6 +1672,14 @@
     "longitude": "3.60417",
     "nl_NL": "Oost-Souburg"
   },
+  "Oosterbeek": {
+    "en_GB": "Oosterbeek",
+    "geonames_id": 2749503,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Oosterbeek",
+    "latitude": "51.98583",
+    "longitude": "5.84583",
+    "nl_NL": "Oosterbeek"
+  },
   "Oosterhout": {
     "en_GB": "Oosterhout",
     "geonames_id": 2749450,
@@ -1696,6 +1760,14 @@
     "longitude": "12.83633",
     "nl_NL": "Pergola"
   },
+  "Perugia": {
+    "en_GB": "Perugia",
+    "geonames_id": 3171180,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Perugia",
+    "latitude": "43.1122",
+    "longitude": "12.38878",
+    "nl_NL": "Perugia"
+  },
   "Pesaro": {
     "en_GB": "Pesaro",
     "geonames_id": 3171173,
@@ -1711,6 +1783,14 @@
     "latitude": "45.05242",
     "longitude": "9.69342",
     "nl_NL": "Piacenza"
+  },
+  "Pinerolo": {
+    "en_GB": "Pinerolo",
+    "geonames_id": 3170694,
+    "geonames_wikipedia": null,
+    "latitude": "44.88534",
+    "longitude": "7.33135",
+    "nl_NL": "Pinerolo"
   },
   "Pirna": {
     "en_GB": "Pirna",
@@ -1872,6 +1952,14 @@
     "longitude": "4.47917",
     "nl_NL": "Rotterdam"
   },
+  "Rumillies": {
+    "en_GB": "Rumillies",
+    "geonames_id": 2787527,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rumillies",
+    "latitude": "50.62105",
+    "longitude": "3.44325",
+    "nl_NL": "Rumillies"
+  },
   "Salisburgo": {
     "en_GB": "Salzburg",
     "geonames_id": 2766824,
@@ -1959,6 +2047,14 @@
     "latitude": "44.30905",
     "longitude": "8.47715",
     "nl_NL": "Savona"
+  },
+  "Scheveningen": {
+    "en_GB": "Scheveningen",
+    "geonames_id": 2747599,
+    "geonames_wikipedia": null,
+    "latitude": "52.10461",
+    "longitude": "4.27557",
+    "nl_NL": "Scheveningen"
   },
   "Schöngrabern": {
     "en_GB": "Schöngrabern",
