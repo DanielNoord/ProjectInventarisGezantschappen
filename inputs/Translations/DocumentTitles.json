@@ -188,6 +188,10 @@
     "en_GB": "Printed \"\\1\" (\\2 Mar. \\3)",
     "nl_NL": "Gedrukt \"\\1\" (\\2 mrt. \\3)"
   },
+  "A stampa \"(.+)\" \\(Roma, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Rome, \\2)",
+    "nl_NL": "Gedrukt “\\1” (Rome, \\2)"
+  },
   "A stampa \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "Gedrukt “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
@@ -224,6 +228,10 @@
     "en_GB": "Printed attachment",
     "nl_NL": "Gedrukte bijlage"
   },
+  "Allegato al Progetto di Concordato$": {
+    "en_GB": "Attachment to the Project of the Concordat",
+    "nl_NL": "Bijlage bij het Project van het Concordaat"
+  },
   "Allegato alla lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Attachment to the letter of \\2 to \\4",
     "nl_NL": "Bijlage bij de brief van \\2 aan \\4"
@@ -231,6 +239,10 @@
   "Allegato alla lettera$": {
     "en_GB": "Attachment to the letter",
     "nl_NL": "Bijlage bij de brief"
+  },
+  "Allegato relativo alle decisioni prese dall'assemblea di stato$": {
+    "en_GB": "Attachment relating to the decisions taken by the assembly of the state",
+    "nl_NL": "Bijlage gerelateerd aan de beslissingen genomen door de bijeenkomst van de staat"
   },
   "Allegato trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Attached transcription of an Edict of \\2",
@@ -468,13 +480,25 @@
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
   },
+  "Bozza di Progetto di Concordato con La Santa Sede$": {
+    "en_GB": "Draft of the proposal of the Concordat with the Holy See",
+    "nl_NL": "Proefversie van het voorstel van het Concordaat met de Heilige Stoel"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
     "en_GB": "Draft of a letter from \\2 to \\4 (attachment)",
     "nl_NL": "Concept van een brief van \\2 aan \\4 (bijlage)"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con note contabili$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 with notes to the accounts",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 met notities over de rekeningen"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2 to \\4",
     "nl_NL": "Concept van een brief van \\2 aan \\4"
+  },
+  "Bozza di lettera (di|del|della) (\\$\\w+) alla Direzione delle Poste$": {
+    "en_GB": "Draft of a letter from \\2 to the Directorate of the Post",
+    "nl_NL": "Concept van een brief van \\2 aan het Directoraat van de Post"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2",
@@ -708,6 +732,10 @@
     "en_GB": "Copies of dispatches, diplomas and correspondence of \\2",
     "nl_NL": "Kopieën van verzendingen, diploma's en correspondentie van \\2"
   },
+  "Correspondance Italienne. Litographiée \\(Corrispondenza Italiana. Litografato \\(a stampa\\)\\))$": {
+    "en_GB": "Correspondance Italienne. Litographiée (Italian Correspondence. Lithographed (printed))",
+    "nl_NL": "Correspondance Italienne. Litographiée (Italiaanse Correspondentie. Gelithografeerd (gedrukt))"
+  },
   "Correspondance avec Les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde \\(Corrispondenza con Ministri e altri funzionari del governo di S.M. Sardegna\\)$": {
     "en_GB": "Correspondance avec Les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde (Correspondence with Ministers and other officials of the government of H.M. Sardinia)",
     "nl_NL": "Correspondance avec Les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde (Correspondentie met ministers en andere functionarissen van de regering van H.M. Sardinië)"
@@ -931,6 +959,10 @@
   "Errori riportati nelle tabelle delle esportazioni$": {
     "en_GB": "Errors reported in the tables of exportations",
     "nl_NL": "Fouten gemeld in de overzichten van exporten"
+  },
+  "Esposizione delle motivazioni governative$": {
+    "en_GB": "Presentation of the motivations of government",
+    "nl_NL": "Presentatie van de beweegredenen van de overheid"
   },
   "Estratti e traduzioni di notizie tratte dal Monitore Romano$": {
     "en_GB": "Extracts and translations of news taken from the Monitore Romano",
@@ -1904,6 +1936,10 @@
     "en_GB": "Le Segretaire d'Etat (The Secretary of State)",
     "nl_NL": "Le Segretaire d'Etat (De staatssecretaris)"
   },
+  "Legazione di Roma. Corrispondenza politica$": {
+    "en_GB": "Legation from Rome. Political correspondence",
+    "nl_NL": "Gezantschap van Rome. Politieke correspondentie"
+  },
   "Les Autoritès Romaines \\(Le autorità romane\\)$": {
     "en_GB": "Les Autoritès Romaines (The Roman authorities)",
     "nl_NL": "Les Autoritès Romaines (De Romeinse autoriteiten)"
@@ -2660,6 +2696,10 @@
     "en_GB": "Confidential note",
     "nl_NL": "Vertrouwelijke nota"
   },
+  "Nota degli allegati relativi al concordato con il Lussemburgo$": {
+    "en_GB": "Note of the attachments relating to the concordat with Luxembourg",
+    "nl_NL": "Nota van de bijlages die gerelateerd zijn aan het concordaat met Luxemburg"
+  },
   "Nota dei Consiglieri componenti il Consiglio compito per l'elezione del Luogotenente del Magistero del S. M. O. tenuto nel giorno 13 settembre 1845$": {
     "en_GB": "Note of the Councilors who are members of the Council for the election of the Lieutenant of the Magisterium of the S. M. O. held on 13 September 1845",
     "nl_NL": "Nota van de raadsleden die lid zijn van de raad voor de verkiezing van de luitenant van het magistraat van de S. M. O. gehouden op 13 september 1845"
@@ -3024,6 +3064,10 @@
     "en_GB": "Observations extracted from a letter from Florence",
     "nl_NL": "Observaties gehaald uit een brief uit Florence"
   },
+  "Osservazioni (di|del|della) (\\$\\w+) sul controprogetto di Concordato$": {
+    "en_GB": "Observations from \\2 about the counterproposal of the Concordat",
+    "nl_NL": "Observaties van \\2 over het tegenvoorstel van het Concordaat"
+  },
   "Osservazioni sul progetto di trattato di navigazione col Regno delle Due Sicile$": {
     "en_GB": "Observations about the draft treatise of navigation with the Kingdom of the Two Sicilies",
     "nl_NL": "Observaties over het concept van het scheepsvaarttraktaat met het Konkrijk der Beide Siciliën"
@@ -3087,6 +3131,10 @@
   "Progetti e testo del trattato del 1848$": {
     "en_GB": "Drafts and text of the treatise of 1848",
     "nl_NL": "Concepten en tekst van het traktaat van 1848"
+  },
+  "Progetto di Concordato di Roma e Controprogetto$": {
+    "en_GB": "Proposal for the Concordat of Roma and Counterproposal",
+    "nl_NL": "Voorstel voor het Concordaat van Rome en Tegenvoorstel"
   },
   "Progetto di dichiarazione da trasmettere (a|al) (\\$\\w+)$": {
     "en_GB": "Draft declaration to be put before \\2",
@@ -3291,6 +3339,10 @@
   "Richiesta di passoporto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Request for a passport of \\2",
     "nl_NL": "Verzoek voor een paspoort van \\2"
+  },
+  "Richieste di modifiche al Concordato inviate dalla Santa Sede$": {
+    "en_GB": "Requests for modifications to the Concordat sent by the Holy See",
+    "nl_NL": "Verzoeken tot modificaties aan het Concordaat verstuurd door de Heilige Stoel"
   },
   "Risposta (di|del|della) (\\$\\w+) al discorso indirizzato (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Response of \\2 to the speech given by \\4",
@@ -3571,6 +3623,10 @@
   "Traduzione dell'avviso a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Translation of a printed notice “\\1” (Rome, \\2 Aug. \\3)",
     "nl_NL": "Vertaling van een gedrukte melding “\\1” (Rome, \\2 aug. \\3)"
+  },
+  "Traduzione dell'avviso a stampa$": {
+    "en_GB": "Translation of a printed notice",
+    "nl_NL": "Vertaling van een gedrukte melding"
   },
   "Traduzione dell'avviso$": {
     "en_GB": "Translation of a printed notice",
