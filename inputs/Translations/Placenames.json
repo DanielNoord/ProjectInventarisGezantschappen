@@ -1616,6 +1616,14 @@
     "longitude": "-74.00597",
     "nl_NL": "New York City"
   },
+  "Nimega": {
+    "en_GB": "Nijmegen",
+    "geonames_id": 2750053,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nijmegen",
+    "latitude": "51.8425",
+    "longitude": "5.85278",
+    "nl_NL": "Nijmegen"
+  },
   "Nizza": {
     "en_GB": "Nice",
     "geonames_id": 2990440,
