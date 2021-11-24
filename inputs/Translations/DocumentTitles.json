@@ -352,6 +352,14 @@
     "en_GB": "Articles extracted from “\\1”",
     "nl_NL": "Artikelen geëxtraheerd uit “\\1”"
   },
+  "Articoli estratti dal giornale \"(.+)\"$": {
+    "en_GB": "Articles extracted from the journal “\\1”",
+    "nl_NL": "Artikelen geëxtraheerd uit het blad “\\1”"
+  },
+  "Articoli tratti da \"(.+)\"$": {
+    "en_GB": "Articles from “\\1”",
+    "nl_NL": "Artikelen uit “\\1”"
+  },
   "Articolo estratto da L'Indépendance Belge$": {
     "en_GB": "Article extracted from L'Indépendance Belge",
     "nl_NL": "Artikel geëxtraheerd uit L'Indépendance Belge"
@@ -427,6 +435,10 @@
   "Avviso della morte (di|del|della) (\\$\\w+) a Rocca di Papa a causa del colera in data 27 set. 1855$": {
     "en_GB": "Notice of the death of \\2 at Rocca di Papa caused by cholera on the date of 27 Sept. 1855",
     "nl_NL": "Melding van het overlijden van \\2 bij Rocca di Papa veroorzaakt door cholera op 27 sept. 1855"
+  },
+  "Basi per una convenzione tra la Santa Sede e il governo del granducato di Nassau onde sistemare le cose ecclesiastiche nella diocesi di Limburgo (e sua traduzione in francese)$": {
+    "en_GB": "Basis for a convention between the Holy See and the Grand Duchy of Nassau in order to systemize ecclesiastical matters in the diocese of Limburg (and its translation in French)",
+    "nl_NL": "Basis voor een conventie tussen de Heilige Stoel en the overheid van het Groothertogdom van Nassau om ecclesiastische zaken in het bisdom van Limburg te systematiseren (en de vertaling in het Frans)"
   },
   "Basi principali del prestito concluso a Parigi il 8 Febbraio 1850 tra il Governo Pontificio e la Casa Rotschild$": {
     "en_GB": "Base principles of the loan concluded with Paris on 8 February 1850 between the Papal Government and House Rotschild",
@@ -527,6 +539,10 @@
   "Breve cenno di alcune pendenze del Lussemburgo$": {
     "en_GB": "Brief mention of several pending suits from Luxembourg",
     "nl_NL": "Korte vermelding van een aantal lopende zaken uit Luxemburg"
+  },
+  "Breve notizia sulla chiesa$": {
+    "en_GB": "Brief piece of news about the church",
+    "nl_NL": "Kort stuk nieuws over de kerk"
   },
   "Bulletins Secrets \\(Bollettini Segreti\\)$": {
     "en_GB": "Bulletins Secrets (Secret Bulletins)",
@@ -664,6 +680,10 @@
     "en_GB": "Copy of the decision of the Secretariat of State to draft the Amnesty Edict according to its rules",
     "nl_NL": "Kopie van het besluit van het Staatssecretariaat om het Amnestieedict op te stellen volgens haar regels"
   },
+  "Copia dell'Ultimatum dato dal Santo Padre sulla controversia religiosa$": {
+    "en_GB": "Copy of the ultimatum given by the Holy Father about the religious controversy",
+    "nl_NL": "Kopie van het ultimatum gegeven door de Heilige Vader over de religieuze controverse"
+  },
   "Copia della lettera (di|del|della) (\\$\\w+) fatta (da|dal) (\\$\\w+)$": {
     "en_GB": "Copy of the letter of \\2 made by \\4",
     "nl_NL": "Kopie van de brief van \\2 gemaakt door \\4"
@@ -732,7 +752,7 @@
     "en_GB": "Copies of dispatches, diplomas and correspondence of \\2",
     "nl_NL": "Kopieën van verzendingen, diploma's en correspondentie van \\2"
   },
-  "Correspondance Italienne. Litographiée \\(Corrispondenza Italiana. Litografato \\(a stampa\\)\\))$": {
+  "Correspondance Italienne. Litographiée \\(Corrispondenza Italiana. Litografato \\(a stampa\\)\\)$": {
     "en_GB": "Correspondance Italienne. Litographiée (Italian Correspondence. Lithographed (printed))",
     "nl_NL": "Correspondance Italienne. Litographiée (Italiaanse Correspondentie. Gelithografeerd (gedrukt))"
   },
@@ -1860,9 +1880,17 @@
     "en_GB": "Indication of the Roman authorities and of the consular agents of the Netherlands modified on 1 September 1854",
     "nl_NL": "Indicatie van de Romeinse authoriteiten en van de consulaire agenten van Nederland aangepast op 1 september 1854"
   },
+  "Indice dei documenti presenti nella sezione \"(.+)\"$": {
+    "en_GB": "Index of the documents present in the section “\\1”",
+    "nl_NL": "Index van de documenten aanwezig onder de sectie “\\1”"
+  },
   "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes$": {
     "en_GB": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes",
     "nl_NL": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes"
+  },
+  "Inventario dei documenti relativi al trattato di negozazione tra la Santa Sede e il ducato di Nassau$": {
+    "en_GB": "Inventory of documents relating to the treatise of negotiation between the Holy See and the duchy of Nassau",
+    "nl_NL": "Inventaris van documenten met betrekking tot het verdrag van onderhandeling tussen de Heilige Stoel en het hertogdom van Nassau"
   },
   "Invito (a|al) (\\$\\w+) con allegata lista della dame dei Paesi Bassi$": {
     "en_GB": "Invitation for \\2 with attached a list of the ladies from the Netherlands",
@@ -1887,6 +1915,10 @@
   "Invito litografato dell'Accademia Reale delle Scienze di Torino (a|al) (\\$\\w+)$": {
     "en_GB": "Lithographed invitation from the Accademia Reale delle Scienze di Torino to \\2",
     "nl_NL": "Gelithografeerde uitnodiging van de Accademia Reale delle Scienze di Torino aan \\2"
+  },
+  "Invito per il funerale dello Zar di Russia (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Invitation for the funeral of the Tsar of Russia to \\2",
+    "nl_NL": "Uitnodiging voor de begrafenis van de Tsaar van Rusland aan \\2"
   },
   "Invito per l'apertura del Parlamento (a|al) (\\$\\w+)$": {
     "en_GB": "Invitation for the opening of Parliament to \\2",
@@ -2044,6 +2076,10 @@
     "en_GB": "Letter from \\2 to \\4 with attached memorandum",
     "nl_NL": "Brief van \\2 aan \\4 met bijgevoegd memorandum"
   },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con altre firme di sottoscrittori$": {
+    "en_GB": "Letter of \\2 to \\4 with other autographs of those who undersigned",
+    "nl_NL": "Brief van \\2 aan \\4 met andere handtekeningen van ondergeschrevenen"
+  },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con elenchi delle attività previste durante il mese di agosto$": {
     "en_GB": "Letter of \\2 to \\4 with lists of activities planned during August",
     "nl_NL": "Brief van \\2 aan \\4 met lijsten van geplande activiteiten in augustus"
@@ -2055,6 +2091,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con nota aggiunta$": {
     "en_GB": "Letter of \\2 to \\4 with note attached",
     "nl_NL": "Brief van \\2 aan \\4 met bijgevoegde notitie"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con nota sulle merci importate$": {
+    "en_GB": "Letter of \\2 to \\4 with a note about imported goods",
+    "nl_NL": "Brief van \\2 aan \\4 met een nota over geïmporteerde goederen"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con parole cifrate e nota di ricezione dei dispacci diplomatici$": {
     "en_GB": "Letter of \\2 to \\4 with encrypted words and a note of receipt of diplomatic dispatche",
@@ -2468,6 +2508,10 @@
     "en_GB": "Letter of participation to the wedding night of the daughter of \\2 to \\4",
     "nl_NL": "Brief van participatie aan de huwelijksnacht van de dochter van \\2 aan \\4"
   },
+  "Lettera di presentazione dell'attrice Anne Hamburg, nata a Leeuwarden$": {
+    "en_GB": "Letter of presentation of the actrice Anne Hamburg, born in Leeuwarden",
+    "nl_NL": "Aanbiedingsbrief van de actrice Anne Hamburg, geboren te Leeuwarden"
+  },
   "Lettera pastorale a stampa (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed pastoral letter of \\2",
     "nl_NL": "Gedrukte pastorale brief van \\2"
@@ -2548,6 +2592,10 @@
     "en_GB": "Attached memory",
     "nl_NL": "Bijgevoegde memorie"
   },
+  "Memoria  sulla diffusione del colera$": {
+    "en_GB": "Mmemory about the spread of cholera",
+    "nl_NL": "Memorie over de spreiding van cholera"
+  },
   "Memoria (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Memory of \\2 to \\4",
     "nl_NL": "Memorie van \\2 aan \\4"
@@ -2555,6 +2603,10 @@
   "Memoria (di|del|della) (\\$\\w+)$": {
     "en_GB": "Memory of \\2",
     "nl_NL": "Memorie van \\2"
+  },
+  "Memoria inviata al (di|del|della) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità di Limburgo$": {
+    "en_GB": "Memory sent to \\2 relating to the ecclesiastical reports of the inheritance of Limburg",
+    "nl_NL": "Memorie verzonden aan \\2 met betrekking tot de ecclesiastische rapporten over de erfenis van Limburg"
   },
   "Memoria sugli Stati Uniti d'America$": {
     "en_GB": "Memory on the United States of America",
@@ -2580,6 +2632,10 @@
     "en_GB": "Memory on England",
     "nl_NL": "Memorie over Engeland"
   },
+  "Memoria sulla Controversia tra il Governo dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Granducato di Nassau per la Diocesi di Limburgo$": {
+    "en_GB": "Memory about the controversy between the government of the Kingdom of the Netherlands and the Holy See relating to the ecclesiastical relations in the Grand Duchy of Nassau for the Diocese of Limburg ",
+    "nl_NL": "Memorie over de controverse tussen de overheid van het Koninkrijk der Nederlanden en de Heilige Stoel met betrekking tot de ecclesiastische relaties in het Groothertogdom van Nassau voor het bisschop van Limburg"
+  },
   "Memoria sulla legislazione vigente sui trattati di navigazione$": {
     "en_GB": "Memory on the valid legislation about treatises of navigation",
     "nl_NL": "Memorie over de geldige wetgeving aangaande scheepsvaarttraktaten"
@@ -2599,6 +2655,10 @@
   "Minuta con appunti$": {
     "en_GB": "Minute with notes",
     "nl_NL": "Minuut met notities"
+  },
+  "Minuta del Processo Verbale (di|del|della) (\\$\\w+) per il rapporto tra Roma e Torino$": {
+    "en_GB": "Minute of the formal report van \\2 for the report between Rome and Turin",
+    "nl_NL": "Minuut van het proces-verbaal van \\2 voor het rapport tussen Rome en Turijn"
   },
   "Minuta di lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Minute of a letter to \\2",
@@ -2680,6 +2740,10 @@
     "en_GB": "Appointments made at the court of \\2",
     "nl_NL": "Afspraken gemaakt aan het hof van \\2"
   },
+  "Nota (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Notes to \\2",
+    "nl_NL": "Nota's aan \\2"
+  },
   "Nota (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Note from \\2 to \\4",
     "nl_NL": "Nota van \\2 aan \\4"
@@ -2687,6 +2751,10 @@
   "Nota (di|del|della) (\\$\\w+)$": {
     "en_GB": "Note from \\2",
     "nl_NL": "Nota van \\2"
+  },
+  "Nota allegata alla memoria inviata al (di|del|della) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità di Limburgo$": {
+    "en_GB": "Note adhered to the memory sent to \\2 relating to the ecclesiastical relations of the inheritance of Limburg",
+    "nl_NL": "Nota bijgevoegd bij de memorie verzonden aan \\2 met betrekking tot de ecclesiastische relaties van de erfenis van Limburg"
   },
   "Nota con allegata Bolla d'entrata$": {
     "en_GB": "Note with attached import note",
@@ -2756,6 +2824,14 @@
     "en_GB": "Note and observations about the rapport of the Council of the Grand Duchy of Luxembourg",
     "nl_NL": "Nota en observaties over het rapport van de Raad van het Groothertogdom van Luxemburg"
   },
+  "Nota introduttiva (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Introductory note from \\2",
+    "nl_NL": "Inleidende nota van \\2"
+  },
+  "Nota introduttiva alla controversia sul granducato di Nassau (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Introductory note to the controversy about the Grand Duchy of Nassau from \\2",
+    "nl_NL": "Inleidende nota bij de controverse over het Groothertogdom van Nassau van \\2"
+  },
   "Nota manoscritta$": {
     "en_GB": "Handwritten note",
     "nl_NL": "Handgeschreven nota"
@@ -2811,6 +2887,10 @@
   "Nota sulla Direzione Generale del Debito Pubblica$": {
     "en_GB": "Note about the General Direction of Public Debt",
     "nl_NL": "Nota over het Algemeen Directoraat van Staatsschuld"
+  },
+  "Nota sulla imposizioni di bollo nello Stato Pontificio$": {
+    "en_GB": "Note about taxation on stamps in the Papal States",
+    "nl_NL": "Nota over zegelrecht binnen de Kerkelijke Staat"
   },
   "Nota sulla morte (di|del|della) (\\$\\w+) avvenuta nel Comune di Trofarello$": {
     "en_GB": "Note about the death of \\2 in the Comune of Trofarello",
@@ -3024,6 +3104,10 @@
     "en_GB": "News on a play in the Teatro del Corso. Translation",
     "nl_NL": "Nieuws over een toneelstuk in het Teatro del Corso. Vertaling"
   },
+  "Notizie sull'amministrazione del duca dato di Luxenbourg$": {
+    "en_GB": "News about the administration of the duke in Luxembourg",
+    "nl_NL": "Nieuws over het beleid van de graaf in Luxemburg"
+  },
   "Nouvelles de Constantinople du 10 juin 1822$": {
     "en_GB": "Nouvelles de Constantinople du 10 juin 1822",
     "nl_NL": "Nouvelles de Constantinople du 10 juin 1822"
@@ -3068,6 +3152,10 @@
     "en_GB": "Observations from \\2 about the counterproposal of the Concordat",
     "nl_NL": "Observaties van \\2 over het tegenvoorstel van het Concordaat"
   },
+  "Osservazioni sul discorso (di|del|della) (\\$\\w+) fatto (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Observations about the address of \\2 to \\4",
+    "nl_NL": "Observaties over de toespraak van \\2 naar \\4"
+  },
   "Osservazioni sul progetto di trattato di navigazione col Regno delle Due Sicile$": {
     "en_GB": "Observations about the draft treatise of navigation with the Kingdom of the Two Sicilies",
     "nl_NL": "Observaties over het concept van het scheepsvaarttraktaat met het Konkrijk der Beide Siciliën"
@@ -3095,6 +3183,10 @@
   "Principes Fondamentaux \\(Principi Fondamentali\\)$": {
     "en_GB": "Principes Fondamentaux (Fundamental Principles)",
     "nl_NL": "Principes Fondamentaux (Fundamentele Beginselen)"
+  },
+  "Processo Verbale (di|del|della) (\\$\\w+) per il rapporto tra Roma e Torino$": {
+    "en_GB": "Formal report van \\2 for the report between Rome and Turin",
+    "nl_NL": "Proces-verbaal van \\2 voor het rapport tussen Rome en Turijn"
   },
   "Proclama (di|del|della) (\\$\\w+)$": {
     "en_GB": "Proclamation of \\2",
@@ -3155,6 +3247,10 @@
   "Programma delle feste in occasione del matrimonio tra la principessa Maria Anna di Savoia e Ferdinando V re d'Ungheria$": {
     "en_GB": "Program of the festivities for the wedding between princess Maria Anna of Savoy and Ferdinand V, King of Hungary",
     "nl_NL": "Programma van de festiviteiten voor de bruiloft tussen prinses Maria Anna van Savoye en Ferdinand V, koning van Hongarije"
+  },
+  "Promemoria (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Memorandum of \\2 to \\4",
+    "nl_NL": "Memorandum van \\2 aan \\4"
   },
   "Promemoria$": {
     "en_GB": "Memorandum",
@@ -3524,6 +3620,14 @@
     "en_GB": "Table of imports",
     "nl_NL": "Overzicht van importen"
   },
+  "Tabella delle navi che partono da Ancona$": {
+    "en_GB": "Table of the ships departing from Ancona",
+    "nl_NL": "Overzicht van de schepen die vertrekken vanaf Ancona"
+  },
+  "Tabella delle navi che partono da Civitavecchia$": {
+    "en_GB": "Table of the ships departing from Civitavecchia",
+    "nl_NL": "Overzicht van de schepen die vertrekken vanaf Civitavecchia"
+  },
   "Tariffe$": {
     "en_GB": "Tariffs",
     "nl_NL": "Tarieven"
@@ -3880,6 +3984,10 @@
     "en_GB": "Transcription of day order of \\2",
     "nl_NL": "Transcriptie van het dag bevel van \\2"
   },
+  "Trascrizione di articoli apparsi sul Giornale di Roma": {
+    "en_GB": "Transcription of articles that appeared in the Giornale di Roma",
+    "nl_NL": "Transcriptie van artikelen die verschenen zijn in het Giornale di Roma"
+  },
   "Trascrizione di avviso$": {
     "en_GB": "Transcription of a notice",
     "nl_NL": "Transcriptie van een melding"
@@ -3971,6 +4079,10 @@
   "Trascrizione di una dichiarazione del parlamento generale del Regno di Sicilia$": {
     "en_GB": "Transcription of a declaration of the general parliament of the Kingdom of Sicily",
     "nl_NL": "Transcriptie van een verklaring van het algemeen parlement van het Koningrijk Sicilië"
+  },
+  "Trascrizione di una disposizione firmata (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Transcription of a disposition signed by \\2",
+    "nl_NL": "Transcriptie van een bepaling ondertekend door \\2"
   },
   "Trascrizione di una lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Transcription of a letter of \\2 to \\4",
