@@ -188,18 +188,6 @@
     "en_GB": "Printed \"\\1\" (\\2 Mar. \\3)",
     "nl_NL": "Gedrukt \"\\1\" (\\2 mrt. \\3)"
   },
-  "A stampa \"(.+)\" \\(Caserta, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed \"\\1\" (Caserta, \\2 May \\3)",
-    "nl_NL": "Gedrukt \"\\1\" (Caserta, \\2 mei \\3)"
-  },
-  "A stampa \"(.+)\" \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\), circolare relativa alla segnalazione notturna in caso di nebbia per i bastimenti di bandiera pontificia a vapore e a vela$": {
-    "en_GB": "Printed \"\\1\" (Rome, \\2 Jan. \\3), circulaire relating to the nocturnal signal in the case of fog for the sailing and steam ships with a pontifical banner",
-    "nl_NL": "Gedrukt \"\\1\" (Rome, \\2 jan. \\3), circulaire aangaande het nachtelijke signaal in het geval van mist voor zeil- en stoomschepen met een kerkelijke bannier"
-  },
-  "A stampa \"(.+)\" \\(Roma, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Rome, \\2)",
-    "nl_NL": "Gedrukt “\\1” (Rome, \\2)"
-  },
   "A stampa \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
     "nl_NL": "Gedrukt “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
@@ -355,6 +343,10 @@
   "Appunto$": {
     "en_GB": "Note",
     "nl_NL": "Notitie"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. 1858. Corrispondenza politica in arrivo$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1858. Incoming political correspondance",
+    "nl_NL": "Archief van de Legatie van Nederland in Rome en Napels. 1858. Inkomende politieke correspondentie"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. 1859. Corrispondenza politica in partenza$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1859. Outgoing political correspondance",
@@ -833,12 +825,12 @@
     "nl_NL": "Decreet van \\2"
   },
   "Decreto a stampa (di|del|della) (\\$\\w+) circa i trattati di commercio \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed decree of \\2 about commercial treatises (Naples, \\2 Jun. \\3)",
-    "nl_NL": "Gedrukte verordening van \\2 over handelstraktaten (Napels, \\2 jun. \\3)"
+    "en_GB": "Printed decree of \\2 about commercial treatises (Naples, \\3 Jun. \\4)",
+    "nl_NL": "Gedrukte verordening van \\2 over handelstraktaten (Napels, \\3 jun. \\4)"
   },
-  "Decreto a stampa (di|del|della) (\\$\\w+) per i trattati di commercio$": {
-    "en_GB": "Printed decree of \\2 about commercial treatises",
-    "nl_NL": "Gedrukte verordening van \\2 over handelstraktaten"
+  "Decreto a stampa (di|del|della) (\\$\\w+) per i trattati di commercio \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed decree of \\2 about commercial treatises (Naples, \\3 Jun. \\4)",
+    "nl_NL": "Gedrukte verordening van \\2 over handelstraktaten (Napels, \\3 jun. \\4)"
   },
   "Decreto a stampa (di|del|della) (\\$\\w+) su tariffe doganali e prezzi$": {
     "en_GB": "Printed decree of \\2 about custom rates and prices",
@@ -1288,6 +1280,10 @@
     "en_GB": "Printed sheet “\\1” (\\2 May \\3) (\\4)",
     "nl_NL": "Gedrukt blad “\\1” (\\2 mei \\3) (\\4)"
   },
+  "Foglio a stampa \"(.+)\" \\(Caserta, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \"\\1\" (Caserta, \\2 May \\3)",
+    "nl_NL": "Gedrukt blad \"\\1\" (Caserta, \\2 mei \\3)"
+  },
   "Foglio a stampa \"(.+)\" \\(Gaeta, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Gaeta, \\2 Jul. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Gaeta, \\2 jul. \\3)"
@@ -1295,6 +1291,22 @@
   "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) Set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (The Hague, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Den Haag, \\2 sep. \\3)"
+  },
+  "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \"\\1\" (The Hague, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt blad \"\\1\" (Den Haag, \\2 aug. \\3)"
+  },
+  "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \"\\1\" (The Hague, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukt blad \"\\1\" (Den Haag, \\2 jun. \\3)"
+  },
+  "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\), circolare relativa alla segnalazione notturna in caso di nebbia per i bastimenti di bandiera pontificia a vapore e a vela$": {
+    "en_GB": "Printed sheet \"\\1\" (Rome, \\2 Jan. \\3), circulaire relating to the nocturnal signal in the case of fog for the sailing and steam ships with a pontifical banner",
+    "nl_NL": "Gedrukt blad \"\\1\" (Rome, \\2 jan. \\3), circulaire aangaande het nachtelijke signaal in het geval van mist voor zeil- en stoomschepen met een kerkelijke bannier"
+  },
+  "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2)"
   },
   "Foglio a stampa \"(.+)\" rivolta (a|al) (\\$\\w+)$": {
     "en_GB": "Printed sheet “\\1” directed to \\3",
@@ -2252,17 +2264,17 @@
     "en_GB": "Letter of \\2 from Villa Celimontana",
     "nl_NL": "Brief van \\2 van Villa Celimontana"
   },
-  "Lettera (di|del|della) (\\$\\w+) e (\\$\\w+) (a|al) (\\$\\w+)$": {
-    "en_GB": "Letter of \\2 and \\3 to \\5",
-    "nl_NL": "Brief van \\2 en \\3 aan \\5"
-  },
   "Lettera (di|del|della) (\\$\\w+) e (\\$\\w+) circa la revoca della quarantena per le navi dei Paesi Bassi$": {
-    "en_GB": "Letter of \\2 and \\3 about the revocation of the quarantine for the ships of the Netherlands",
+    "en_GB": "Letter from \\2 and \\3 about the revocation of the quarantine for the ships of the Netherlands",
     "nl_NL": "Brief van \\2 en \\3 over de opheffing van de quarantaine voor de schepen van Nederland"
   },
+  "Lettera (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Letter from \\2 and \\3 to \\5",
+    "nl_NL": "Brief van \\2 en \\3 aan \\5"
+  },
   "Lettera (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Letter of \\2 and of \\4",
-    "nl_NL": "Brief van \\2 en van \\4"
+    "en_GB": "Letter from \\2 and \\4",
+    "nl_NL": "Brief van \\2 en \\4"
   },
   "Lettera (di|del|della) (\\$\\w+) e minuta di risposta$": {
     "en_GB": "Letter from \\2 and minute of the response",
@@ -2752,9 +2764,13 @@
     "en_GB": "Appointments made at the court of \\2",
     "nl_NL": "Afspraken gemaakt aan het hof van \\2"
   },
+  "Nota  dei contatti esistenti nel regno di Napoli (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Note from existing contacts in the kingdom of Naples to \\2",
+    "nl_NL": "Nota van bestaande contacten in het koninkrijk van Napels aan \\2"
+  },
   "Nota (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Notes to \\2",
-    "nl_NL": "Nota's aan \\2"
+    "en_GB": "Note to \\2",
+    "nl_NL": "Nota aan \\2"
   },
   "Nota (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Note from \\2 to \\4",
@@ -2763,6 +2779,10 @@
   "Nota (di|del|della) (\\$\\w+)$": {
     "en_GB": "Note from \\2",
     "nl_NL": "Nota van \\2"
+  },
+  "Nota a stampa del dipartimento degli Affari Esteri$": {
+    "en_GB": "Printed note of the department of External Affairs",
+    "nl_NL": "Gedrukte nota van het departement van Buitenlandse Zaken"
   },
   "Nota allegata alla memoria inviata al (di|del|della) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità di Limburgo$": {
     "en_GB": "Note adhered to the memory sent to \\2 relating to the ecclesiastical relations of the inheritance of Limburg",
@@ -3887,6 +3907,10 @@
   "Traduzione di una comunicazione del Vicariato del Lussemburgo$": {
     "en_GB": "Translation of a communication from the Vicariate of Luxembourg",
     "nl_NL": "Vertaling van een bericht van het Vicariaat van Luxemburg"
+  },
+  "Traduzione di una lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Translation of a letter of \\2 to \\4",
+    "nl_NL": "Vertaling van een brief van \\2 aan \\4"
   },
   "Traduzione di una lettera (di|del|della) (\\$\\w+) ai Romani$": {
     "en_GB": "Translation of a letter of \\2 to the Romans",
