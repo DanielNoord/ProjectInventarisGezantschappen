@@ -188,6 +188,14 @@
     "en_GB": "Printed \"\\1\" (\\2 Mar. \\3)",
     "nl_NL": "Gedrukt \"\\1\" (\\2 mrt. \\3)"
   },
+  "A stampa \"(.+)\" \\(Caserta, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed \"\\1\" (Caserta, \\2 May \\3)",
+    "nl_NL": "Gedrukt \"\\1\" (Caserta, \\2 mei \\3)"
+  },
+  "A stampa \"(.+)\" \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\), circolare relativa alla segnalazione notturna in caso di nebbia per i bastimenti di bandiera pontificia a vapore e a vela$": {
+    "en_GB": "Printed \"\\1\" (Rome, \\2 Jan. \\3), circulaire relating to the nocturnal signal in the case of fog for the sailing and steam ships with a pontifical banner",
+    "nl_NL": "Gedrukt \"\\1\" (Rome, \\2 jan. \\3), circulaire aangaande het nachtelijke signaal in het geval van mist voor zeil- en stoomschepen met een kerkelijke bannier"
+  },
   "A stampa \"(.+)\" \\(Roma, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Rome, \\2)",
     "nl_NL": "Gedrukt “\\1” (Rome, \\2)"
@@ -347,6 +355,10 @@
   "Appunto$": {
     "en_GB": "Note",
     "nl_NL": "Notitie"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. 1859. Corrispondenza politica in partenza$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1859. Outgoing political correspondance",
+    "nl_NL": "Archief van de Legatie van Nederland in Rome en Napels. 1859. Uitgaande politieke correspondentie"
   },
   "Articoli estratti dal \"(.+)\"$": {
     "en_GB": "Articles extracted from “\\1”",
