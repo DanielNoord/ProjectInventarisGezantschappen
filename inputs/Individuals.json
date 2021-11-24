@@ -4471,6 +4471,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Gallotta": {
+    "ISNI:id": null,
+    "comment_daniel": "Wellicht Giuseppe Gallotti, maar heb meer info nodig om dit te bevestigen: https://notes9.senato.it/Web/senregno.NSF/592f3a2113f3300fc125785d005993dd/e2d4b39508f5e9f34125646f005bfbb1?OpenDocument",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Gallotta",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Gamberini": {
     "ISNI:id": "0000 0001 0718 8075",
     "comment_daniel": "",
@@ -5079,6 +5096,41 @@
     "titles": [],
     "wikidata:id": "Q3610051"
   },
+  "$Goudriaan": {
+    "ISNI:id": "0000 0000 1609 5906",
+    "comment_daniel": "",
+    "date_of_birth": "1812-12-07",
+    "date_of_death": "1885-03-14",
+    "functions": [
+      [
+        "Ministro degli Affari Interni del Regno dei Paesi Bassi",
+        "1858-03-18/1860-02-23"
+      ],
+      [
+        "Ministro degli Affari Interni del Regno dei Paesi Bassi",
+        "1860-02-23/1861-03-14"
+      ],
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1861-03-14/1862-01-31"
+      ]
+    ],
+    "images": [
+      "https://rkd.nl/nl/explore/portraits/record?query=Jacob+George+Hieronymus+van+Tets&start=0"
+    ],
+    "name": "Jacob George Hieronymus",
+    "person_type": 1,
+    "place_of_birth": "Haarlem",
+    "place_of_death": "Nimega",
+    "sources": [
+      "'Jacob George Hieronymus van Tets van Goudriaan', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/02885206",
+      "Redactie parlement.com, 'Jhr. Mr. J.G.H. van Tets van Goudriaan', found on: https://www.parlement.com/id/vg09lljj57y7/j_g_h_van_tets_van_goudriaan"
+    ],
+    "sources_other": [],
+    "surname": "van Tets van Goudriaan",
+    "titles": [],
+    "wikidata:id": "Q2167649"
+  },
   "$Gramont": {
     "ISNI:id": "0000 0001 1224 5492",
     "comment_daniel": "",
@@ -5520,6 +5572,23 @@
       "Perthes, Justus, Almanach de Gotha. Annuaire diplomatique et statistique pour l'année 1861 (Gotha, 1861), 858"
     ],
     "surname": "Heukensfeldt Slaghek",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Heuvel": {
+    "ISNI:id": null,
+    "comment_daniel": "Vraagt in zijn brief om een paspoort..",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "A.J.",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van den Heuvel",
     "titles": [],
     "wikidata:id": null
   },
