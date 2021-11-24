@@ -346,11 +346,11 @@
   },
   "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. 1858. Corrispondenza politica in arrivo$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1858. Incoming political correspondance",
-    "nl_NL": "Archief van de Legatie van Nederland in Rome en Napels. 1858. Inkomende politieke correspondentie"
+    "nl_NL": "Archief van het Gezantschap van Nederland in Rome en Napels. 1858. Inkomende politieke correspondentie"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. 1859. Corrispondenza politica in partenza$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1859. Outgoing political correspondance",
-    "nl_NL": "Archief van de Legatie van Nederland in Rome en Napels. 1859. Uitgaande politieke correspondentie"
+    "nl_NL": "Archief van het Gezantschap van Nederland in Rome en Napels. 1859. Uitgaande politieke correspondentie"
   },
   "Articoli estratti dal \"(.+)\"$": {
     "en_GB": "Articles extracted from “\\1”",
@@ -819,6 +819,10 @@
   "Corrispondenza particolare da L'Indépendance Belge$": {
     "en_GB": "Special correspondance from L'Indépendance Belge",
     "nl_NL": "Bijzondere correspondentie uit L'Indépendance Belge"
+  },
+  "Corrispondenza politica. Legazione di Torino$": {
+    "en_GB": "Political correspondence. Legation of Turin",
+    "nl_NL": "Politieke correspondentie. Gezantschap van Turijn"
   },
   "Decreto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Decree of \\2",
@@ -1336,6 +1340,18 @@
     "en_GB": "Printed sheet “\\1” of \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa il commercio con l'Estero dell'olio di olive \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\2 about the foreign trade of olive oil (Rome, Tipografia della Rev. Cam. Apost., \\3)",
+    "nl_NL": "Gedrukt blad “\\1” van \\2 over de handel met het buitenland van olijfolie (Rome, Tipografia della Rev. Cam. Apost., \\3)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa il commercio con l'estero delle paste lavorate, del biscotto, dei formentoni e dei lupini \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\2 about the foreign trade of processed pasta, biscuits, maize and lupin (Rome, Tipografia della Rev. Cam. Apost., \\3)",
+    "nl_NL": "Gedrukt blad “\\1” van \\2 over de handel met het buitenland van verwerkte deegwaren, koekjes, maïs en lupine (Rome, Tipografia della Rev. Cam. Apost., \\3)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa il permesso dell'esportazione all'estero dei grani \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\2 about permission of the exportation abroad of grain (Rome, Tipografia della Rev. Cam. Apost., \\3)",
+    "nl_NL": "Gedrukt blad “\\1” van \\2 over de toestemming voor de export van graan naar het buitenland (Rome, Tipografia della Rev. Cam. Apost., \\3)"
+  },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ampliamento della Guardia Civica di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\) con allegato “(.+)”$": {
     "en_GB": "Printed sheet “\\1” from \\3 about the expansion of the Guarda Civica van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) with attachment \\5",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de uitbreiding van de Guarda Civica  van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) met bijlage \\5"
@@ -1455,6 +1471,18 @@
   "Foglio a stampa “(.+)” \\(Napoli, Tipografia Fibreniano, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Naples, Tipografia Fibreniano, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Napels, Tipografia Fibreniano, \\2)"
+  },
+  "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Aug. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 aug. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 jun. \\3)"
+  },
+  "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Oct. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 okt. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Parigi, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Paris, \\2)",
@@ -1595,18 +1623,6 @@
   "Foglio a stampa “(.+)” sulla regolazione della giustizia civile, criminale ed amministrativa \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
-  },
-  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Palermo, \\2 Aug. \\3)",
-    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 aug. \\3)"
-  },
-  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Palermo, \\2 Jun. \\3)",
-    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 jun. \\3)"
-  },
-  "Foglio stampa “(.+)” \\(Palermo, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Palermo, \\2 Oct. \\3)",
-    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 okt. \\3)"
   },
   "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
@@ -1928,17 +1944,17 @@
     "en_GB": "Invitation from \\2",
     "nl_NL": "Uitnodiging van \\2"
   },
-  "Invito litografato (a|al) (\\$\\w+)$": {
-    "en_GB": "Lithographed invitation to \\2",
-    "nl_NL": "Gelithografeerde uitnodiging aan \\2"
-  },
-  "Invito litografato dell'Accademia Reale delle Scienze di Torino (a|al) (\\$\\w+) con nota$": {
+  "Invito dell'Accademia Reale delle Scienze di Torino (a|al) (\\$\\w+) con nota$": {
     "en_GB": "Lithographed invitation from the Accademia Reale delle Scienze di Torino to \\2 with note",
     "nl_NL": "Gelithografeerde uitnodiging van de Accademia Reale delle Scienze di Torino aan \\2 met nota"
   },
-  "Invito litografato dell'Accademia Reale delle Scienze di Torino (a|al) (\\$\\w+)$": {
+  "Invito dell'Accademia Reale delle Scienze di Torino (a|al) (\\$\\w+)$": {
     "en_GB": "Lithographed invitation from the Accademia Reale delle Scienze di Torino to \\2",
     "nl_NL": "Gelithografeerde uitnodiging van de Accademia Reale delle Scienze di Torino aan \\2"
+  },
+  "Invito litografato (a|al) (\\$\\w+)$": {
+    "en_GB": "Lithographed invitation to \\2",
+    "nl_NL": "Gelithografeerde uitnodiging aan \\2"
   },
   "Invito per il funerale dello Zar di Russia (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Invitation for the funeral of the Tsar of Russia to \\2",
@@ -1992,7 +2008,15 @@
     "en_GB": "Le Segretaire d'Etat (The Secretary of State)",
     "nl_NL": "Le Segretaire d'Etat (De staatssecretaris)"
   },
-  "Legazione di Roma. Corrispondenza politica$": {
+  "Legazione di Roma e Napoli. 1859. Corrispondenza politica \\(in partenza\\)$": {
+    "en_GB": "Legation in Rome and Naples. 1859. Political correspondance (outgoing)",
+    "nl_NL": "Gezantschap in Rome en Napels. 1859. Politieke correspondentie (uitgaand)"
+  },
+  "Legazione di Roma e Torino. Corrispondenza in arrivo 1859$": {
+    "en_GB": "Legation of Rome and Turin. Incoming political correspondence 1859",
+    "nl_NL": "Gezantschap van Rome en Turijn. Inkomende politieke correspondentie 1859"
+  },
+  "Legazione di Roma. Corrispondenza Politica$": {
     "en_GB": "Legation from Rome. Political correspondence",
     "nl_NL": "Gezantschap van Rome. Politieke correspondentie"
   },
@@ -2107,6 +2131,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con elenchi delle attività previste durante il mese di agosto$": {
     "en_GB": "Letter of \\2 to \\4 with lists of activities planned during August",
     "nl_NL": "Brief van \\2 aan \\4 met lijsten van geplande activiteiten in augustus"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con memoria allegata$": {
+    "en_GB": "Letter of \\2 to \\4 with attached memory",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgevoegde memorie"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con nota aggiunta trascritta (a|al) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to \\4 with added transcribed note to \\6",
@@ -2404,6 +2432,10 @@
     "en_GB": "Printed circulaire to the Cardinal Legats",
     "nl_NL": "Gedrukte circulaire naar de Kardinaal-Legaten"
   },
+  "Lettera circolare a stampa$": {
+    "en_GB": "Printed circulaire",
+    "nl_NL": "Gedrukte circulaire"
+  },
   "Lettera circolare ai consoli dei Paesi Bassi a Napoli, Livorno, Genova, Civitavecchia$": {
     "en_GB": "Circulaire to the consuls of the Netherlands in Naples, Livorno, Genoa, Civitavecchia",
     "nl_NL": "Circulaire aan de consuls van Nederland te Napels, Livorno, Genua, Civitavechia"
@@ -2612,10 +2644,6 @@
     "en_GB": "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère",
     "nl_NL": "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère"
   },
-  "Memoria  allegata$": {
-    "en_GB": "Attached memory",
-    "nl_NL": "Bijgevoegde memorie"
-  },
   "Memoria  sulla diffusione del colera$": {
     "en_GB": "Mmemory about the spread of cholera",
     "nl_NL": "Memorie over de spreiding van cholera"
@@ -2627,6 +2655,10 @@
   "Memoria (di|del|della) (\\$\\w+)$": {
     "en_GB": "Memory of \\2",
     "nl_NL": "Memorie van \\2"
+  },
+  "Memoria allegata$": {
+    "en_GB": "Attached memory",
+    "nl_NL": "Bijgevoegde memorie"
   },
   "Memoria inviata al (di|del|della) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità di Limburgo$": {
     "en_GB": "Memory sent to \\2 relating to the ecclesiastical reports of the inheritance of Limburg",
@@ -2764,10 +2796,6 @@
     "en_GB": "Appointments made at the court of \\2",
     "nl_NL": "Afspraken gemaakt aan het hof van \\2"
   },
-  "Nota  dei contatti esistenti nel regno di Napoli (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Note from existing contacts in the kingdom of Naples to \\2",
-    "nl_NL": "Nota van bestaande contacten in het koninkrijk van Napels aan \\2"
-  },
   "Nota (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Note to \\2",
     "nl_NL": "Nota aan \\2"
@@ -2803,6 +2831,10 @@
   "Nota dei Consiglieri componenti il Consiglio compito per l'elezione del Luogotenente del Magistero del S. M. O. tenuto nel giorno 13 settembre 1845$": {
     "en_GB": "Note of the Councilors who are members of the Council for the election of the Lieutenant of the Magisterium of the S. M. O. held on 13 September 1845",
     "nl_NL": "Nota van de raadsleden die lid zijn van de raad voor de verkiezing van de luitenant van het magistraat van de S. M. O. gehouden op 13 september 1845"
+  },
+  "Nota dei contatti esistenti nel regno di Napoli (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Note from existing contacts in the kingdom of Naples to \\2",
+    "nl_NL": "Nota van bestaande contacten in het koninkrijk van Napels aan \\2"
   },
   "Nota dei contatti essistenti nel regno di Napoli (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Note from existing contacts in the Kingdom of Naples to \\e",
