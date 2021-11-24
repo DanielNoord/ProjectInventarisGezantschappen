@@ -712,6 +712,10 @@
     "en_GB": "Governor of the Grand Duchy of Luxembourg for the King of the Netherlands",
     "nl_NL": "Gouverneur van het Groothertogdom Luxemburg voor de Koning der Nederlanden"
   },
+  "Governatore della Banca di Credito Italiano di Torino": {
+    "en_GB": "Governor of the Banca di Credito Italiano di Torino",
+    "nl_NL": "Gouverneur van de Banca di Credito Italiano di Torino"
+  },
   "Governatore della Lombardia al Re di Sardegna": {
     "en_GB": "Governor of Lombardy to the King of Sardinia",
     "nl_NL": "Gouverneur van Lombardije voor de Koning van Sardinië"
@@ -1795,6 +1799,10 @@
   "Segretario generale del Ministero dell'Interno del Stato Pontificio": {
     "en_GB": "Secretary general of the Ministry of the Interior of the Papal State",
     "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van de Kerkelijke Staat"
+  },
+  "Segretario generale del Ministero delle Finanze del Regno di Sardegna": {
+    "en_GB": "Secretary general of the Ministry of Finance of the Kingdom of Sardinia",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Financiën van het Koninkrijk Sardinië"
   },
   "Segretario generale del Ministero di Grazia e Giustizia del Regno d'Italia": {
     "en_GB": "Secretary general of the Ministry of Grace and Justice of the Kingdom of Italy",
