@@ -8078,6 +8078,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Mollerus": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1812",
+    "date_of_death": "1899",
+    "functions": [["Ciambellano del Re dei Paesi Bassi", null]],
+    "images": [],
+    "name": "Henry Marie",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Mollerus",
+    "titles": [["barone", null]],
+    "wikidata:id": null
+  },
   "$Montebello": {
     "ISNI:id": "0000 0004 3666 9902",
     "comment_daniel": "",
@@ -10690,6 +10707,37 @@
     "titles": [],
     "wikidata:id": "Q3629828"
   },
+  "$Salmour": {
+    "ISNI:id": "0000 0000 7781 3959",
+    "comment_daniel": "",
+    "date_of_birth": "1806-01-14",
+    "date_of_death": "1878-03-06",
+    "functions": [
+      ["Governatore della Banca di Credito Italiano di Torino", null],
+      [
+        "Segretario generale del Ministero delle Finanze del Regno di Sardegna",
+        "1855/"
+      ]
+    ],
+    "images": [
+      "https://www.wikidata.org/wiki/Q3942561#/media/File:Ruggiero_Gabaleone_di_Salmour.jpg"
+    ],
+    "name": "Ruggiero",
+    "person_type": 1,
+    "place_of_birth": "Parigi",
+    "place_of_death": "Torino",
+    "sources": [
+      "'Gabaleone di Salmour Ruggiero', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/592f3a2113f3300fc125785d005993dd/5f9645c9863b915cc1257069003186c9?OpenDocument",
+      "'Salmour, Ruggero Gabaleone conte di', L'Unificazione (2011), found on: https://www.treccani.it/enciclopedia/ruggero-gabaleone-conte-di-salmour_%28L%27Unificazione%29/"
+    ],
+    "sources_other": [],
+    "surname": "Gabaleone di Salmour",
+    "titles": [
+      ["conte", null],
+      ["Cav.", null]
+    ],
+    "wikidata:id": "Q3942561"
+  },
   "$Salzano": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -11506,6 +11554,23 @@
     "sources": [],
     "sources_other": ["La Civiltà Cattolica, Anno 15, 7 (Rome, 1864), 738"],
     "surname": "de Souza",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Spada": {
+    "ISNI:id": null,
+    "comment_daniel": "Could be anyone, need more info from the archive.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Spada",
     "titles": [],
     "wikidata:id": null
   },
