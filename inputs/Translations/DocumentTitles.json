@@ -100,7 +100,11 @@
     "en_GB": "“\\1” (The Hague, \\2 Aug. \\3)",
     "nl_NL": "“\\1” (Den Haag, \\2 aug. \\3)"
   },
-  "\"(.+)\" \\(L'Aia, A.J. van Weelden, (\\d\\d\\d\\d)\\)$": {
+  "\"(.+)\" \\(L'Aia, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (The Hague, \\2 Mar. \\3)",
+    "nl_NL": "“\\1” (Den Haag, \\2 mrt. \\3)"
+  },
+  "\"(.+)\" \\(L'Aia, A.J. Van Weelden, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (The Hague, A.J. van Weelden, \\2)",
     "nl_NL": "“\\1” (Den Haag, A.J. van Weelden, \\2)"
   },
@@ -1248,13 +1252,21 @@
     "en_GB": "Bundle \\1 “\\2”. Letter from \\4",
     "nl_NL": "Bundel \\1 “\\2”. Brief van \\4"
   },
-  "Fasc. (\\d+). Convenzione addizionale del 1855. Lettera (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Bundle \\1. Additional convention of 1855. Letter from \\4",
-    "nl_NL": "Bundel \\1. Aanvullende bijeenkomst van 1855. Brief van \\4"
+  "Fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"$": {
+    "en_GB": "Bundle \\1 “\\2”; bundle \\3 “\\4”; bundle \\5 “\\6”; bundle \\7 “\\8”; bundle \\9 “\\10”",
+    "nl_NL": "Bundel \\1 “\\2”; bundel \\3 “\\4”; bundel \\5 “\\6”; bundel \\7 “\\8”; bundel \\9 “\\10”"
+  },
+  "Fasc. (\\d+). Convenzione addizionale del 1855. Lettera (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Bundle \\1. Additional convention of 1855. Letter to \\4",
+    "nl_NL": "Bundel \\1. Aanvullende bijeenkomst van 1855. Brief aan \\4"
   },
   "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Bundle \\1. Various documents. “\\2” (The Hague, \\3 Aug. \\4)",
     "nl_NL": "Bundel \\1. Verschillende documenten. “\\2” (Den Haag, \\3 aug. \\4)"
+  },
+  "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Bundle \\1. Various documents. “\\2” (The Hague, \\3 Jul. \\4)",
+    "nl_NL": "Bundel \\1. Verschillende documenten. “\\2” (Den Haag, \\3 jul. \\4)"
   },
   "Fasc. (\\d+). Progetti e testo del trattato del 1848$": {
     "en_GB": "Bundle \\1. Drafts and text of the treatise of 1848",
@@ -2879,6 +2891,10 @@
   "Nota delle navi in partenza da Civitavecchia$": {
     "en_GB": "Note about the ships departing Civitavecchia",
     "nl_NL": "Nota over de schepen die uit Civitavecchia vertrekken"
+  },
+  "Nota delle onorificenze date dalla Francia, dalla Russia, dall'Austria, dalla Prussia, dalla Danimarca, dalla Sardegna e dal Belgio$": {
+    "en_GB": "Note of the decorations of honour bestowed by France, Russia, Austria, Prussia, Denmark, Sardinia and Belgium",
+    "nl_NL": "Nota van de eerbetogen gegeven door Frankrijk, Rusland, Oostenrijk, Pruisen, Denemarken, Sardinië en België"
   },
   "Nota di invio eseguito (da|dal|dalla) (\\$\\w+) di una cassa di manoscritti$": {
     "en_GB": "Dispatch note by \\2 from a box of manuscripts",
