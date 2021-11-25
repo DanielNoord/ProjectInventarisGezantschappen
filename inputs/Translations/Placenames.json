@@ -424,6 +424,14 @@
     "longitude": "9.11917",
     "nl_NL": "Cagliari"
   },
+  "Altmünster": {
+    "en_GB": "Altmünster",
+    "geonames_id": 2782627,
+    "geonames_wikipedia": null,
+    "latitude": "47.90219",
+    "longitude": "13.76415",
+    "nl_NL": "Altmünster"
+  },
   "Camerino": {
     "en_GB": "Camerino",
     "geonames_id": 3181094,
@@ -433,6 +441,14 @@
     "nl_NL": "Camerino"
   },
   "Cannero": {
+    "en_GB": "Nagykanizsa",
+    "geonames_id": 3047679,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nagykanizsa",
+    "latitude": "46.45347",
+    "longitude": "16.99104",
+    "nl_NL": "Nagykanizsa"
+  },
+  "Canissa": {
     "en_GB": "Cannero",
     "geonames_id": 3180813,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cannero_Riviera",
@@ -935,6 +951,14 @@
     "latitude": "41.8091",
     "longitude": "12.67942",
     "nl_NL": "Frascati"
+  },
+  "Frenchville": {
+    "en_GB": "Frenchville",
+    "geonames_id": 4964918,
+    "geonames_wikipedia": null,
+    "latitude": "46.68115",
+    "longitude": "-68.33309",
+    "nl_NL": "Frenchville"
   },
   "Friburgo": {
     "en_GB": "Freiburg",
@@ -2551,6 +2575,14 @@
     "latitude": "50.79484",
     "longitude": "5.31983",
     "nl_NL": "Voort"
+  },
+  "Weert": {
+    "en_GB": "Weert",
+    "geonames_id": 2783910,
+    "geonames_wikipedia": null,
+    "latitude": "50.82908",
+    "longitude": "5.53666",
+    "nl_NL": "Weert"
   },
   "Weimar": {
     "en_GB": "Weimar",

@@ -168,6 +168,10 @@
     "en_GB": "Chancellor with the Legation of the Kingdom of the Netherlands in Rome",
     "nl_NL": "Kanselier bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
   },
+  "Cancelliere della Legazione del Regno di Prussia a Roma": {
+    "en_GB": "Chancellor with the Legation of the Kingdom of Prussia in Rome",
+    "nl_NL": "Kanselier bij het Gezantschap van het Koninkrijk Pruisen in Rome"
+  },
   "Cancelliere di Stato del Granducato del Lussemburgo all'Aia": {
     "en_GB": "State Chancellor of the Grand Duchy of Luxembourg in The Hague",
     "nl_NL": "Rijkskanselier van het Groothertogdom Luxemburg te Den Haag"
@@ -279,6 +283,10 @@
   "Comandante del reggimento degli Zuavi pontifici": {
     "en_GB": "Commander of the regiment of Papal Zouaves",
     "nl_NL": "Commandant van het regiment van Pauselijke Zouaven"
+  },
+  "Comandante dell'ottava corpo d'armata dell'Impero d'Austria": {
+    "en_GB": "Commander of the eighth military corps of the Empire of Austria",
+    "nl_NL": "Commandant van het achtste legerkorps van het Keizerrijk Oostenrijk"
   },
   "Comandante della 3° Divisione Militare a Bologna": {
     "en_GB": "Commander of the 3th military division in Bologna",
@@ -848,6 +856,10 @@
     "en_GB": "Chargé d'affaires of the Kingdom of Hanover to the Holy See",
     "nl_NL": "Zaakgelastigde van het Koninkrijk Hannover bij de Heilige Stoel"
   },
+  "Incaricato d'affari del Regno di Portogallo presso la Santa Sede": {
+    "en_GB": "Chargé d'affaires of the Kingdom of Portugal to the Holy See",
+    "nl_NL": "Zaakgelastigde van het Koninkrijk Portugal bij de Heilige Stoel"
+  },
   "Incaricato d'affari del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the Kingdom of Prussia to the Holy See",
     "nl_NL": "Zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
@@ -1403,6 +1415,10 @@
   "Pastore a Livorno": {
     "en_GB": "Pastor at Livorno",
     "nl_NL": "Dominee in Livorno"
+  },
+  "Pastore della Santa Luce a Frenchville": {
+    "en_GB": "Pastor of Santa Luce at Frenchville",
+    "nl_NL": "Dominee van Santa Luce in Frenchville"
   },
   "Pittore": {
     "en_GB": "Painter",

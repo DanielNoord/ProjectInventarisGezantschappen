@@ -140,6 +140,11 @@
     "nl_NL": "commandant",
     "position": "Before"
   },
+  "commendatore": {
+    "en_GB": "commander",
+    "nl_NL": "commandeur",
+    "position": "Before"
+  },
   "commendatore dell'Ordine dei Santi Maurizio e Lazzaro": {
     "en_GB": "commander of the Order of Saints Maurice and Lazarus",
     "nl_NL": "commandeur in de Orde van Sint-Mauritius en Sint-Lazarus",
