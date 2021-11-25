@@ -116,6 +116,14 @@
     "en_GB": "“\\1” (Napoli, Stamperia Reale, \\2)",
     "nl_NL": "“\\1” (Napoli, Stamperia Reale, \\2)"
   },
+  "\"(.+)\" \\(Napoli, Tipografia Porcelli, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Naples, Tipografia Porcelli, \\2)",
+    "nl_NL": "“\\1” (Napels, Tipografia Porcelli, \\2)"
+  },
+  "\"(.+)\" \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Rome, \\2 Apr. \\3)",
+    "nl_NL": "“\\1” (Rome, \\2 apr. \\3)"
+  },
   "\"(.+)\" \\(Roma, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, \\2 Jun. \\3)",
     "nl_NL": "“\\1” (Rome, \\2 jun. \\3)"
@@ -167,6 +175,10 @@
   "\"(.+)\", \"(.+)\" \\(a stampa\\)$": {
     "en_GB": "“\\1”, “\\2” (printed)",
     "nl_NL": "“\\1”, “\\2” (gedrukt)"
+  },
+  "\"(.+)\". Nota (di|del|della) (\\$\\w+)$": {
+    "en_GB": "“\\1”. Note from \\3",
+    "nl_NL": "“\\1”. Nota van \\3"
   },
   "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
     "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
@@ -831,6 +843,10 @@
   "Corrispondenza politica. Legazione di Torino$": {
     "en_GB": "Political correspondence. Legation of Turin",
     "nl_NL": "Politieke correspondentie. Gezantschap van Turijn"
+  },
+  "Corrispondenza ufficiale politica su vari soggetti e d'ordinaria amministrazione$": {
+    "en_GB": "Official political correspondence about various subjects and ordinary administration",
+    "nl_NL": "Officiële politieke correspondentie over verschillende onderwerpen en dagelijks bestuur"
   },
   "Decreto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Decree of \\2",
@@ -1947,6 +1963,10 @@
   "Indice dei documenti presenti nella sezione \"(.+)\"$": {
     "en_GB": "Index of the documents present in the section “\\1”",
     "nl_NL": "Index van de documenten aanwezig onder de sectie “\\1”"
+  },
+  "Indice$": {
+    "en_GB": "Index",
+    "nl_NL": "Index"
   },
   "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes$": {
     "en_GB": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes",
