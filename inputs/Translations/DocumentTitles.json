@@ -396,6 +396,10 @@
     "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
     "nl_NL": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes"
   },
+  "Avviso (di|del|della) (\\$\\w+) ai marinai \\(Naviganti\\)$": {
+    "en_GB": "Notice from \\2 to the mariners (Navigators)",
+    "nl_NL": "Melding van \\2 aan de mariniers (Scheepvaarders)"
+  },
   "Avviso a stampa (di|del|della) (\\$\\w+) ai naviganti$": {
     "en_GB": "Printed notice from \\2 to navigators",
     "nl_NL": "Gedrukte melding van \\2 aan scheepvaarders"
@@ -836,6 +840,10 @@
     "en_GB": "Printed decree of \\2 about commercial treatises (Naples, \\3 Jun. \\4)",
     "nl_NL": "Gedrukte verordening van \\2 over handelstraktaten (Napels, \\3 jun. \\4)"
   },
+  "Decreto a stampa (di|del|della) (\\$\\w+) per i trattati di navigazione e commercio \\(Caserta, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed decree of \\2 about navigational and commercial treatises (Caserta, \\3 Dec. \\4)",
+    "nl_NL": "Gedrukte verordening van \\2 over scheepsvaart- en handelstraktaten (Caserta, \\3 dec. \\4)"
+  },
   "Decreto a stampa (di|del|della) (\\$\\w+) su tariffe doganali e prezzi$": {
     "en_GB": "Printed decree of \\2 about custom rates and prices",
     "nl_NL": "Gedrukte verordening van \\2 over douanetarieven en prijzen"
@@ -1263,6 +1271,10 @@
   "Foggia di vestire il lutto prescrtto da S.M. per la morte (di|del|della) (\\$\\w+) occorsa in Genova li 29 marzo 1832 \\(a stampa\\)$": {
     "en_GB": "Dress code for mourning from H.M. for the death of \\1 which occurred in Genoa on 29 March 1832 (printed)",
     "nl_NL": "Kledingvoorschrift voor rouw van Z.M. voor de dood van \\1 die plaatsvond in Genua op 29 maart 1832 (gedrukt)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa la consegna delle armi da fuoco, da taglio e da punta \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” by \\3 concerning the delivery of firearms, sidearms and pointed weapons (Rome, \\2 Sep. \\3)",
@@ -4024,6 +4036,10 @@
     "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",
     "nl_NL": "Transcriptie van een extract uit het Journal Officiel du Royaume des Pays-Bas"
   },
+  "Trascrizione del decreto a stampa (di|del|della) (\\$\\w+) per i trattati di navigazione e commercio \\(Caserta, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Transcription of the printed decree of \\2 about navigational and commercial treatises (Caserta, \\3 Dec. \\4)",
+    "nl_NL": "Transcriptie van de gedrukte verordening van \\2 over scheepsvaart- en handelstraktaten (Caserta, \\3 dec. \\4)"
+  },
   "Trascrizione del discorso per l'apertura dell'assemblea legislativa a l'Aia$": {
     "en_GB": "Transcription of the speech for the opening of the legislative assembly in the Hague",
     "nl_NL": "Transcriptie van de toespraak voor de opening van de wetgevende raad in Den Haag"
@@ -4088,17 +4104,21 @@
     "en_GB": "Transcription of an appeal to the Dutch people",
     "nl_NL": "Vertaling van een appel aan het Nederlandse volk"
   },
+  "Trascrizione di un articolo estratto da \"(.+)\"$": {
+    "en_GB": "Trascription of an article extracted from “\\1”",
+    "nl_NL": "Transcriptie van een artikel geëxtraheerd uit “\\1”"
+  },
   "Trascrizione di un articolo estratto da L'Indépendance Belge$": {
-    "en_GB": "Trascription of an extract of an article from the L'Indépendance Belge",
-    "nl_NL": "Transcriptie van een uittreksel van een artikel uit de L'Indépendance Belge"
+    "en_GB": "Trascription of an article extracted from the L'Indépendance Belge",
+    "nl_NL": "Transcriptie van een artikel geëxtraheerd uit de L'Indépendance Belge"
   },
   "Trascrizione di un articolo estratto dal Journal des Débats$": {
-    "en_GB": "Trascription of an extract of an article from the Journal des Débats",
-    "nl_NL": "Transcriptie van een uittreksel van een artikel uit de Journal des Débats"
+    "en_GB": "Trascription of an article extracted from the Journal des Débats",
+    "nl_NL": "Transcriptie van een artikel geëxtraheerd uit de Journal des Débats"
   },
   "Trascrizione di un articolo estratto dal Monitore Toscano$": {
-    "en_GB": "Trascription of an extract of an article from the Monitore Toscano",
-    "nl_NL": "Transcriptie van een uittreksel van een artikel uit de Monitore Toscano"
+    "en_GB": "Trascription of an article extracted from the Monitore Toscano",
+    "nl_NL": "Transcriptie van een artikel geëxtraheerd uit de Monitore Toscano"
   },
   "Trascrizione di un avviso (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a notice from \\2",
