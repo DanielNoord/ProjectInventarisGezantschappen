@@ -1273,8 +1273,8 @@
     "nl_NL": "Bundel \\1 “\\2”; bundel \\3 “\\4”; bundel \\5 “\\6”; bundel \\7 “\\8”; bundel \\9 “\\10”"
   },
   "Fasc. (\\d+). Convenzione addizionale del 1855. Lettera (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Bundle \\1. Additional convention of 1855. Letter to \\4",
-    "nl_NL": "Bundel \\1. Aanvullende bijeenkomst van 1855. Brief aan \\4"
+    "en_GB": "Bundle \\1. Additional convention of 1855. Letter to \\3",
+    "nl_NL": "Bundel \\1. Aanvullende bijeenkomst van 1855. Brief aan \\3"
   },
   "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Bundle \\1. Various documents. “\\2” (The Hague, \\3 Aug. \\4)",
