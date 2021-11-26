@@ -1,9 +1,9 @@
 import os
 import re
 
-FOLDER = "/Volumes/Seagate Basic Meda/VolumesLegazione/MS295"
-PATTERN_TO_CHANGE = "MS295_b_"
-PATTERN_TO_CHANGE_TO = "MS295_19_b_"
+FOLDER = "/Volumes/Seagate Basic Meda/VolumesLegazione/MS321"
+PATTERN_TO_CHANGE = "MS321_"
+PATTERN_TO_CHANGE_TO = "MS321_39_2_"
 FIXED_PATTERN = r"(\d+)(.*)([rv].tif)"
 
 
@@ -11,7 +11,8 @@ def rename_files() -> None:
     """Rename files in a folder based on globals"""
     files = os.listdir(FOLDER)
     for file in files:
-        if match := re.match(PATTERN_TO_CHANGE + FIXED_PATTERN, file):
+        sanitized_file = file.replace("rbis", "bisr").replace("vbis", "bisv")
+        if match := re.match(PATTERN_TO_CHANGE + FIXED_PATTERN, sanitized_file):
             groups = match.groups()
             if int(groups[0]) > 0:
                 os.rename(
