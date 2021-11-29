@@ -289,6 +289,25 @@
     "titles": [["card.", "1847-06-11/"]],
     "wikidata:id": "Q712085"
   },
+  "$ArataA": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi a Civitavecchia", null]],
+    "images": [],
+    "name": "Alessandro",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Calendario generale del Regno d'Italia pel 1879 (Tipografia Elzeviriana: Roma, 1879), p. 96"
+    ],
+    "surname": "Arata",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$ArataG": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -900,6 +919,25 @@
     "titles": [["conte", null]],
     "wikidata:id": "Q60999023"
   },
+  "$Bellando": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Vice-console del Regno dei Paesi Bassi a Taranto", null]],
+    "images": [],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Annuario diplomatico del Regno d'Italia 1887 (Tipografo del Ministero degli Affari Esteri: Roma, 1887), 302"
+    ],
+    "surname": "Bellando",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Bentinck": {
     "ISNI:id": "0000 0003 9304 9569",
     "comment_daniel": "",
@@ -1185,6 +1223,23 @@
     "sources": [],
     "sources_other": [],
     "surname": "Birigazzi",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Bisani": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Luigi",
+    "person_type": 4,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Bisani",
     "titles": [],
     "wikidata:id": null
   },
@@ -2408,6 +2463,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Carolus": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Hendrik",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Annuario Pontificio 1863 (Tipografia della Rev. Cam. Apost.: Roma, 1863), p. 397"
+    ],
+    "surname": "Carolus",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Carosini": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3561,6 +3640,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Drossaerts": {
+    "ISNI:id": null,
+    "comment_daniel": "Woonde in Vught, Kasteel Leeuwenstein",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Vice-presidente del Magistrato di Sanità di Genova", null]],
+    "images": [],
+    "name": "A.J.C.V.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Drossaerts van Drongelen",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Dutilh": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3729,10 +3825,7 @@
       "Gazzetta Ufficiale di Roma, Anno 1, 30 (Rome, 1870-10-22), 117"
     ],
     "surname": "Vagina d'Emarese",
-    "titles": [
-      ["Cav.", null],
-      ["avv.", null]
-    ],
+    "titles": [["Cav.", null]],
     "wikidata:id": null
   },
   "$Enslie": {
@@ -3967,6 +4060,38 @@
     "surname": "Falck",
     "titles": [],
     "wikidata:id": "Q252131"
+  },
+  "$Farini": {
+    "ISNI:id": "0000 0001 2102 3605",
+    "comment_daniel": "",
+    "date_of_birth": "1812-10-22",
+    "date_of_death": "1866-08-01",
+    "functions": [
+      ["Medico", null],
+      [
+        "Ministro della Pubblica Istruzione del Regno di Sardegna",
+        "1851-10-21/1852"
+      ],
+      [
+        "Ministro degli Affari Esteri del Regno di Sardegna",
+        "1860-03-24/1860-12-31"
+      ],
+      ["Luogotenente Generale delle province napoletane", "1860-11-06/"]
+    ],
+    "images": [
+      "https://www.museotorino.it/view/s/16308fce71d9475c87a527fb713346b8"
+    ],
+    "name": "Luigi Carlo",
+    "person_type": 1,
+    "place_of_birth": "Russi",
+    "place_of_death": "Russi",
+    "sources": [
+      "Raponi, Nicola, 'Farini, Luigi Carlo', in: Dizionario Biografico degli Italiani. Volume 45 (Rome, Treccani, 1995), found on: https://www.treccani.it/enciclopedia/luigi-carlo-farini_(Dizionario-Biografico)"
+    ],
+    "sources_other": [],
+    "surname": "Farini",
+    "titles": [["Cav.", null]],
+    "wikidata:id": "Q729032"
   },
   "$Farnese": {
     "ISNI:id": "0000 0001 0259 8323",
@@ -5234,6 +5359,25 @@
     ],
     "wikidata:id": "Q585590"
   },
+  "$Graven": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Capo della polizia di Maastricht", null]],
+    "images": [],
+    "name": "W.J.H.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Algemeen Politie-blad van het Koningrijk der Nederlanden (Den Haag, 1876), 479"
+    ],
+    "surname": "Graven",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$GregorioXVI": {
     "ISNI:id": "0000 0001 2096 4745",
     "comment_daniel": "",
@@ -5419,13 +5563,14 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Floris Adriaan van Hall', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/76054589",
+      "Heijnsbergen, van, 'Hall (Foris Adriaan, baron van)', in: Nieuw Nederlandsch biogafisch woordenboek, P.J. Blok en P.C. Molhuysen (red.) (A.W. Sijthoff: Leiden, 1921), found on: ",
       "Redactie parlement.com, 'Mr. F.A. baron van Hall', found on: https://www.parlement.com/9291000/biof/00515"
     ],
     "sources_other": [
       "Nationaal Archief, The Hague, 'Inventaris van de archieven van M.C. van Hall; F.A. van Hall; mr. J. Bondt', inventory number: 2.21.005.34"
     ],
     "surname": "van Hall",
-    "titles": [],
+    "titles": [["barone", "1856/"]],
     "wikidata:id": "Q1430171"
   },
   "$Hamecourt": {
@@ -6095,7 +6240,7 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi a Venetia", null]],
+    "functions": [["Console del Regno dei Paesi Bassi a Venezia", null]],
     "images": [],
     "name": "",
     "person_type": 1,
@@ -13321,6 +13466,38 @@
     "surname": "Wilde",
     "titles": [["padre", null]],
     "wikidata:id": null
+  },
+  "$Willebois": {
+    "ISNI:id": "0000 0003 9430 8622",
+    "comment_daniel": "",
+    "date_of_birth": "1816-02-17",
+    "date_of_death": "1892-09-15",
+    "functions": [
+      [
+        "Commissario del Re dei Paesi Bassi per il Ducato di Limburgo",
+        "1856-10-01/1874-08-27"
+      ],
+      [
+        "Ministro degli Affari Esteri del Regno dei Paesi Bassi",
+        "1874-08-27/1877-11-03"
+      ],
+      [
+        "Ministro degli Affari Esteri del Regno dei Paesi Bassi",
+        "1883-04-23/1885-11-01"
+      ]
+    ],
+    "images": ["https://rkd.nl/nl/explore/images/164259"],
+    "name": "Pieter Joseph August Marie",
+    "person_type": 1,
+    "place_of_birth": "'s-Hertogenbosch",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Redactie parlement.com, 'Jhr.Mr. P.J.A.M. (Joseph) van der Does de Willebois', found on: https://www.parlement.com/id/vg09llj55bt7/p_j_a_m_joseph_van_der_does_de_willebois"
+    ],
+    "sources_other": [],
+    "surname": "van der Does de Willebois",
+    "titles": [["jonkheer", "1877-10-18/"]],
+    "wikidata:id": "Q2094268"
   },
   "$Willmar": {
     "ISNI:id": null,
