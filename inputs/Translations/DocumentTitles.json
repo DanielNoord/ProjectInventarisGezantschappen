@@ -320,6 +320,10 @@
     "en_GB": "Appeal",
     "nl_NL": "Appel"
   },
+  "Appendice$": {
+    "en_GB": "Appendix",
+    "nl_NL": "Appendix"
+  },
   "Appunti manoscritti$": {
     "en_GB": "Handwritten notes",
     "nl_NL": "Handgeschreven notities"
@@ -436,6 +440,10 @@
     "en_GB": "Printed notice of the council of ministers of the Papel States \"Popoli degli Stati di Santa Chiesa\" (Rome, 11 aug. 1848)",
     "nl_NL": "Gedrukt melding van de ministerraad van de Kerkelijke Staat \"Popoli degli Stati di Santa Chiesa\" (Rome, 11 aug. 1848)"
   },
+  "Avviso a stampa del Ministero del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici \\(Roma, 7 lug. 1860\\)$": {
+    "en_GB": "Printed notice of the Ministry of Trade, Fine Arts, Industry, Agriculture and Public Works (Rome, 7 Jul. 1848)",
+    "nl_NL": "Gedrukt melding van het Ministerie van Handel, Schone Kunsten, Industrie, Landbouw en Openbare Werken (Rome, 7 jul. 1860)"
+  },
   "Avviso a stampa della navigazione riunita dei vapori napoletani e sardi in partenza da Civitavecchia nel mese di giugno$": {
     "en_GB": "Printed notice about the joint navigation of Neapolitan and Sardinian steamers departing from Civitavecchia in the month of June",
     "nl_NL": "Gedrukte melding over de gezamenlijke navigering van de Napolitaanse en Sardinische stoomboten vertrekkende uit Civitavecchia in de maand juni"
@@ -443,6 +451,10 @@
   "Avviso a stampa della navigazione riunita dei vapori napoletani e sardi in partenza da Civitavecchia nel mese di maggio$": {
     "en_GB": "Printed notice about the joint navigation of Neapolitan and Sardinian steamers departing from Civitavecchia in the month of May",
     "nl_NL": "Gedrukte melding over de gezamenlijke navigering van de Napolitaanse en Sardinische stoomboten vertrekkende uit Civitavecchia in de maand mei"
+  },
+  "Avviso a stampa sull'ordine pubblico della Prefettura di Polizia di Napoli \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed notice about the public order of the Prefecture of the Police of Naples (\\1 Jun. \\2)",
+    "nl_NL": "Gedrukte melding over de publieke orde van de Prefectuur van de Politie van Napels (\\1 jun. \\2)"
   },
   "Avviso a stampa sulla morte di Ferdinando d'Ohmas, consigliere d'ambasciata$": {
     "en_GB": "Printed notice about the death of Ferdinando d'Ohmas, advisor of the embassy",
@@ -534,7 +546,7 @@
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con note contabili$": {
     "en_GB": "Draft of a letter from \\2 to \\4 with notes to the accounts",
-    "nl_NL": "Concept van een brief van \\2 aan \\4 met notities over de rekeningen"
+    "nl_NL": "Concept van een brief van \\2 aan \\4 met nota's over de rekeningen"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2 to \\4",
@@ -863,6 +875,10 @@
   "Decreto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Decree of \\2",
     "nl_NL": "Decreet van \\2"
+  },
+  "Decreto a stampa (di|del|della) (\\$\\w+) \"(.+)\" relativo alle tariffe dei dazi doganali \\(Napoli, (\\d\\d?) Mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed decree of \\2 “\\3” relating to custom rates (Naples, \\4 Mar. \\5)",
+    "nl_NL": "Gedrukte verordening van \\2 “\\3” met betrekking tot accijns (Napels, \\4 mrt. \\5)"
   },
   "Decreto a stampa (di|del|della) (\\$\\w+) circa i trattati di commercio \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed decree of \\2 about commercial treatises (Naples, \\3 Jun. \\4)",
@@ -1548,6 +1564,10 @@
     "en_GB": "Printed “\\1” (Palermo, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt “\\1” (Palermo, \\2 aug. \\3)"
   },
+  "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, \\2 Apr. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 apr. \\3)"
+  },
   "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Palermo, \\2 Jun. \\3)",
     "nl_NL": "Gedrukt “\\1” (Palermo, \\2 jun. \\3)"
@@ -1696,6 +1716,10 @@
     "en_GB": "Printed sheet “\\1” about the regulations of civil, criminal and administrative justice (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
   },
+  "Foglio a stampa. Proclama d'assedio (di|del|della) (\\$\\w+) \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet. Proclamation of the siege from \\2 (Naples, \\4 Jun. \\5)",
+    "nl_NL": "Gedrukt blad. Proclamatie van het beleg van \\2 (Napels, \\4 jun. \\5)"
+  },
   "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt “\\1” (Portici, \\2 sep. \\3)"
@@ -1799,6 +1823,10 @@
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jan. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jan. \\5)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\) relativo al decreto (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+) per la difesa della Sicilia$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5) relating to the decree from \\7 and \\9 about the defense of Sicily",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4 jun. \\5) met betrekking tot het decreet van \\7 en \\9 over de verdediging van Sicilië"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4 Jun. \\5)",
@@ -2100,6 +2128,10 @@
     "en_GB": "Legation from Rome. Political correspondence",
     "nl_NL": "Gezantschap van Rome. Politieke correspondentie"
   },
+  "Legazioni di Roma e Napoli. Corrispondenza politica \\(in arrivo\\)$": {
+    "en_GB": "Legations of Rome and Naples. Political correspondance (incoming)",
+    "nl_NL": "Gezantschap van Rome en Napels. Politieke correspondentie (inkomend)"
+  },
   "Les Autoritès Romaines \\(Le autorità romane\\)$": {
     "en_GB": "Les Autoritès Romaines (The Roman authorities)",
     "nl_NL": "Les Autoritès Romaines (De Romeinse autoriteiten)"
@@ -2287,6 +2319,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) sui russi presenti a Roma e lista dei russi presenti$": {
     "en_GB": "Letter from \\2 to \\4 about Russians present in Rome and list of Russians present",
     "nl_NL": "Brief van \\2 aan \\4 over Russen aanwezig in Rome en lijst van aanwezige Russen"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con note$": {
+    "en_GB": "Letter from \\2 to \\4 with notes",
+    "nl_NL": "Brief van \\2 aan \\4 met nota's"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to \\4",
@@ -3616,6 +3652,10 @@
     "en_GB": "Report about diplomatic activities",
     "nl_NL": "Rapport over diplomatieke activiteiten"
   },
+  "Relazione sulle misure prese per il forte di Termini$": {
+    "en_GB": "Report about the measures taken for the fort of Termini",
+    "nl_NL": "Rapport over de maatregelen genomen voor het fort van Termini"
+  },
   "Relazione sullo stato attuale delle finanze pontificie$": {
     "en_GB": "Report about the current state of the pontifical finances",
     "nl_NL": "Rapport over de actuele staat van de pauselijke financiën"
@@ -3675,6 +3715,10 @@
   "Ritagli a stampa di articoli di giornale$": {
     "en_GB": "Printed clippings of articles from newspapers",
     "nl_NL": "Gedrukte knipsels van artikels uit kranten"
+  },
+  "Ritagli a stampa di articoli$": {
+    "en_GB": "Printed clippings of articles",
+    "nl_NL": "Gedrukte knipsels van artikels"
   },
   "Ritaglio a stampa del \"(.+)\"$": {
     "en_GB": "Printed clipping from the “\\1”",
@@ -4264,6 +4308,10 @@
     "en_GB": "Transcription of a letter by \\2",
     "nl_NL": "Transcriptie van een brief door \\2"
   },
+  "Trascrizione di lettere circolari \\(molto deteriorate\\)$": {
+    "en_GB": "Transcriptions of circulaires (gravely deteriorated)",
+    "nl_NL": "Transcripties van circulaires (erg verslechterd)"
+  },
   "Trascrizione di norme sulle pensioni$": {
     "en_GB": "Transcription of the norms on pension",
     "nl_NL": "Transcriptie over de pensioennormen"
@@ -4331,6 +4379,10 @@
   "Trascrizione di un estratto dal Journal Officiel du Royaume des Pays-Bas$": {
     "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",
     "nl_NL": "Transcriptie van een extract uit het Journal Officiel du Royaume des Pays-Bas"
+  },
+  "Trascrizione di un proclama (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of a proclamation from \\2",
+    "nl_NL": "Transcriptie van een proclamatie van \\2"
   },
   "Trascrizione di un proclama del Comitato Italiano al Popolo della Romagna$": {
     "en_GB": "Transcription of a proclamation of the Italian Committee to the People of the Romagna",
@@ -4451,6 +4503,10 @@
   "“(.+)” \\(Firenze, (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "\\1 (Florence, \\2 Feb. \\3)",
     "nl_NL": "\\1 (Florence, \\2 feb. \\3)"
+  },
+  "“(.+)” \\(Palermo, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Palermo, \\2 May \\3)",
+    "nl_NL": "“\\1” (Palermo, \\2 mei \\3)"
   },
   "“(.+)” \\(Pietroburgo, mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Saint Petersburg, Mar. \\2)",
