@@ -1717,8 +1717,8 @@
     "nl_NL": "Gedrukt blad “\\1” over de regulaties van burger-, straf- en bestuursrecht (Rome, \\2 aug. \\3)"
   },
   "Foglio a stampa. Proclama d'assedio (di|del|della) (\\$\\w+) \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet. Proclamation of the siege from \\2 (Naples, \\4 Jun. \\5)",
-    "nl_NL": "Gedrukt blad. Proclamatie van het beleg van \\2 (Napels, \\4 jun. \\5)"
+    "en_GB": "Printed sheet. Proclamation of the siege from \\2 (Naples, \\3 Jun. \\4)",
+    "nl_NL": "Gedrukt blad. Proclamatie van het beleg van \\2 (Napels, \\3 jun. \\4)"
   },
   "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
