@@ -80,6 +80,14 @@
     "longitude": "-0.48149",
     "nl_NL": "Alicante"
   },
+  "Altmünster": {
+    "en_GB": "Altmünster",
+    "geonames_id": 2782627,
+    "geonames_wikipedia": null,
+    "latitude": "47.90219",
+    "longitude": "13.76415",
+    "nl_NL": "Altmünster"
+  },
   "Amelia": {
     "en_GB": "Amelia",
     "geonames_id": 3183113,
@@ -424,14 +432,6 @@
     "longitude": "9.11917",
     "nl_NL": "Cagliari"
   },
-  "Altmünster": {
-    "en_GB": "Altmünster",
-    "geonames_id": 2782627,
-    "geonames_wikipedia": null,
-    "latitude": "47.90219",
-    "longitude": "13.76415",
-    "nl_NL": "Altmünster"
-  },
   "Camerino": {
     "en_GB": "Camerino",
     "geonames_id": 3181094,
@@ -440,14 +440,6 @@
     "longitude": "13.06785",
     "nl_NL": "Camerino"
   },
-  "Cannero": {
-    "en_GB": "Nagykanizsa",
-    "geonames_id": 3047679,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nagykanizsa",
-    "latitude": "46.45347",
-    "longitude": "16.99104",
-    "nl_NL": "Nagykanizsa"
-  },
   "Canissa": {
     "en_GB": "Cannero",
     "geonames_id": 3180813,
@@ -455,6 +447,14 @@
     "latitude": "46.022",
     "longitude": "8.67933",
     "nl_NL": "Cannero"
+  },
+  "Cannero": {
+    "en_GB": "Nagykanizsa",
+    "geonames_id": 3047679,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Nagykanizsa",
+    "latitude": "46.45347",
+    "longitude": "16.99104",
+    "nl_NL": "Nagykanizsa"
   },
   "Cantalupo nel Sannio": {
     "en_GB": "Cantalupo nel Sannio",
@@ -1991,6 +1991,14 @@
     "latitude": "50.62105",
     "longitude": "3.44325",
     "nl_NL": "Rumillies"
+  },
+  "Russi": {
+    "en_GB": "Russi",
+    "geonames_id": 3168784,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Russi",
+    "latitude": "44.37645",
+    "longitude": "12.03335",
+    "nl_NL": "Russi"
   },
   "Salisburgo": {
     "en_GB": "Salzburg",

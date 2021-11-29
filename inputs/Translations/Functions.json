@@ -208,6 +208,10 @@
     "en_GB": "Captain of the Republic of San Martino",
     "nl_NL": "Kapitein van de Republiek van San Martino"
   },
+  "Capo della polizia di Maastricht": {
+    "en_GB": "Chief of the police of Maastricht",
+    "nl_NL": "Hoofcommissaris van de politie van Maastricht"
+  },
   "Capo-travaglio nella Casa di Pubblica Beneficenza": {
     "en_GB": "Chief worker in the _Casa di Pubblica Beneficenza_ {House of Public Charity}",
     "nl_NL": "Hoofd-arbeider in het _Casa di Pubblica Beneficenza_ {Huis van Openbare Liefdadigheid}"
@@ -336,6 +340,10 @@
     "en_GB": "Commissioner of the King of Italy for the province of Civitavecchia",
     "nl_NL": "Commissaris van de Koning van Italië voor de provincie Civitavecchia"
   },
+  "Commissario del Re dei Paesi Bassi per il Ducato di Limburgo": {
+    "en_GB": "Commissioner of the King of the Netherlands for the Duchy of Limburg",
+    "nl_NL": "Commissaris van de Koning van Nederland voor het Hertogdom Limburg"
+  },
   "Commissario generale del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "General commissioner of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Commissaris-generaal van het Ministerie van Marine en Koloniën van het Koninkrijk der Nederlanden"
@@ -436,7 +444,7 @@
     "en_GB": "Consul of the Kingdom of the Netherlands in Reggio Calabria",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Reggio Calabria"
   },
-  "Console del Regno dei Paesi Bassi a Venetia": {
+  "Console del Regno dei Paesi Bassi a Venezia": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Venetië",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Venetië"
   },
@@ -960,6 +968,10 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden bij de Heilige Stoel"
   },
+  "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Belgium to the Holy See",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel"
+  },
   "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede e le altre corti italiane": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Belgium to the Holy See and other Italian courts",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk België bij de Heilige Stoel en andere Italiaanse hoven"
@@ -1047,6 +1059,10 @@
   "Luogotenente Generale del Sovrano Militare Ordine di Malta": {
     "en_GB": "Lieutenant general of the Sovereign Military Order of Malta",
     "nl_NL": "Luitenant-generaal van de Soevereine Militaire Orde van Malta"
+  },
+  "Luogotenente Generale delle province napoletane": {
+    "en_GB": "Lieutenant general of the Neapolitan provinces",
+    "nl_NL": "Luitenant-generaal van de Napolitaanse provincies"
   },
   "Luogotenente della milizia di Mondovì": {
     "en_GB": "Lieutenant of the militia of Mondovì",
@@ -1275,6 +1291,10 @@
   "Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Minister of the Navy and Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Marine en Koloniën van het Koninkrijk der Nederlanden"
+  },
+  "Ministro della Pubblica Istruzione del Regno di Sardegna": {
+    "en_GB": "Minister of Public Education of the Kingdom of Sardinia",
+    "nl_NL": "Minister van Publiek Onderwijs van het Koninkrijk Sardinië"
   },
   "Ministro delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Minister of Colonies of the Kingdom of the Netherlands",
@@ -2039,6 +2059,10 @@
   "Vice-console del Regno dei Paesi Bassi a Savona": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Savona",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Savona"
+  },
+  "Vice-console del Regno dei Paesi Bassi a Taranto": {
+    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Taranto",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Taranto"
   },
   "Vice-console del Regno dei Paesi Bassi a Termini": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Termini",
