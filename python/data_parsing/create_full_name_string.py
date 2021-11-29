@@ -23,7 +23,7 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
                 relevant_titles.append(title)
             elif check_date(date, title[1]):
                 relevant_titles.append(title)
-    if relevant_titles != []:
+    if relevant_titles:
         translation_entry = database.titles[relevant_titles[0][0]]
         if localization != "it_IT":
             translated_title = translation_entry[localization]
