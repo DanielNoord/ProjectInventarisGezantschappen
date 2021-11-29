@@ -92,6 +92,10 @@
     "en_GB": "Clerk of the 1st class of the Ministry of Finance of the Kingdom of Italy",
     "nl_NL": "Beambte van de 1e klasse van het ministerie van Financiën van het Koninkrijk Italië"
   },
+  "Architetto di corte del Regno di Hannover": {
+    "en_GB": "Court architect at the Kingdom of Hanover",
+    "nl_NL": "Hofarchitect bij het Koninkrijk Hannover"
+  },
   "Archivista": {
     "en_GB": "Archivist",
     "nl_NL": "Archivist"
@@ -588,6 +592,10 @@
     "en_GB": "Director of the police of Genoa",
     "nl_NL": "Directeur van de politie van Genua"
   },
+  "Direttore di Bijdragen tot de Natuurkundige Wetenschappen": {
+    "en_GB": "Editor of Bijdragen tot de Natuurkundige Wetenschappen",
+    "nl_NL": "Redacteur Bijdragen tot de Natuurkundige Wetenschappen"
+  },
   "Direttore di La Speranza": {
     "en_GB": "Editor of La Speranza",
     "nl_NL": "Redacteur van La Speranza"
@@ -1083,6 +1091,10 @@
   "Medico alla corte del Re dei Paesi Bassi": {
     "en_GB": "Physician at the court of the King of the Netherlands",
     "nl_NL": "Geneesheer bij de hofhouding van de Koning der Nederlanden"
+  },
+  "Medico della città a Amsterdam": {
+    "en_GB": "City physician at Amsterdam",
+    "nl_NL": "Stadsgeneesheer te Amsterdam"
   },
   "Membro del _Ridderschap_ del Brabante Settentrionale": {
     "en_GB": "Member of the _Ridderschap_ of North Brabant",
@@ -1740,6 +1752,10 @@
     "en_GB": "Secretary of the Accademia Pontificia de' Nuovi Lincei",
     "nl_NL": "Secretaris van de Accademia Pontificia de' Nuovi Lincei"
   },
+  "Segretario dell'Accademia reale delle arti e delle scienze dei Paesi Bassi \\(KNAW\\)": {
+    "en_GB": "Secretary of the Royal Netherlands Academy of Arts and Sciences (KNAW)",
+    "nl_NL": "Secretaris van de Koninklijke Nederlandse Akademie van Wetenschappen (KNAW)"
+  },
   "Segretario della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi": {
     "en_GB": "Secretary of the General Committee on the affairs of the Israelites of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris van de Hoofdcommissie tot de zaken der Israëlieten van het Koninkrijk der Nederlanden"
@@ -1971,6 +1987,10 @@
   "Vice camerlengo della Chiesa Cattolica Romana": {
     "en_GB": "Vice-camerlengo of the Holy Roman Church",
     "nl_NL": "Vice-camerlengo van de Rooms-Katholieke Kerk"
+  },
+  "Vice console generale del Regno dei Paesi Bassi a Venezia": {
+    "en_GB": "Vice consul of the Kingdom of the Netherlands in Venice",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Venezië"
   },
   "Vice-Prefetto apostolico a Batavia": {
     "en_GB": "Apostolic vice-prefect in Batavia",
