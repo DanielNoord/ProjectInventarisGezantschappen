@@ -214,8 +214,9 @@ def check_all_sources(
         print(r"However, that list is awful anyway and is in dire need of updating :')")
         for i in probably_wrong:
             print("", i)
-    unused_patterns = [i for i in compiled_source_patterns if not i in used_patterns]
-    if unused_patterns:
+    if unused_patterns := [
+        i for i in compiled_source_patterns if not i in used_patterns
+    ]:
         print(f"Found the following unused source patterns:\n {unused_patterns}")
     print(f"Finished checking sources in {filename}!\n")
 

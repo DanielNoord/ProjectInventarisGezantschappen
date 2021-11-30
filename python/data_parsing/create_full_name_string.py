@@ -60,9 +60,8 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
                     raise Exception(
                         "Can't parse second title, maybe change order in sourcefile"
                     )
+    elif name != "":
+        str_full_name = f"{name} {surname}"
     else:
-        if name != "":
-            str_full_name = f"{name} {surname}"
-        else:
-            str_full_name = surname
+        str_full_name = surname
     return str_full_name

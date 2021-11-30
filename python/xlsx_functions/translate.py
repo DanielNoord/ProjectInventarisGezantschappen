@@ -20,8 +20,7 @@ def translate_xlsx(
         directory_name: Directory of .xlsx file
         file_name: Name of .xlsx file
         localization: Localization abbreviation
-        translations: Translations of common document titles
-        translation_data: Dictionaries with translation data for titles, functions and places
+        database: Database with all translation data
         used_translations: Used translations
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")
@@ -49,8 +48,7 @@ def translate_xlsx(
 
         # Translate title
         if row[5].value is not None:
-            place = row[5].value
-            if place in database.placenames.keys():
+            if (place := row[5].value) in database.placenames.keys():
                 place = database.placenames[place][localization]
             else:
                 row[5].font = Font(color="00008b")

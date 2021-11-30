@@ -62,8 +62,7 @@ def check_all_comments(filename: str) -> None:
     used_patterns = set()
 
     for identifier, data in persons.items():
-        comment = data["comment"]
-        if comment == "":
+        if (comment := data["comment"]) == "":
             pass
 
         elif mat := [i for i in compiled_comment_patterns if i.match(comment)]:
@@ -74,8 +73,9 @@ def check_all_comments(filename: str) -> None:
             print(count_todo, identifier, data["name"], data["surname"])
             print(f"    {comment}")
 
-    unused_patterns = [i for i in compiled_comment_patterns if not i in used_patterns]
-    if unused_patterns:
+    if unused_patterns := [
+        i for i in compiled_comment_patterns if not i in used_patterns
+    ]:
         print(f"Found the following unused comment patterns:\n {unused_patterns}")
 
     print(f"Finished checking comments in {filename}\n")

@@ -116,8 +116,7 @@ def create_xml_series(
                     archdesc, series_data, database
                 )
             else:
-                parent_level = re.match(r"(.*)_.*?", match.groups()[0])
-                if not parent_level:
+                if not (parent_level := re.match(r"(.*)_.*?", match.groups()[0])):
                     raise ValueError(
                         f"Can't determine the series parent of {cell.value}."
                         "Does it have the correct format?"
@@ -132,8 +131,7 @@ def create_xml_series(
 
     used_translations.update(used_trans_dos)
 
-    volume_number = re.match("(.*)_title", first_sheet["A"][0].value)
-    if not volume_number:
+    if not (volume_number := re.match("(.*)_title", first_sheet["A"][0].value)):
         raise ValueError(
             f"Can't determine the volume/ms number of {first_sheet['A'][0].value}."
             "Does it have the correct format?"

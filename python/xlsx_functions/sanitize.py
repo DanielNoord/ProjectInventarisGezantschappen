@@ -24,7 +24,7 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
                         line = line[:-1]
                     while line[0] in {" "}:  # Remove spaces in first place
                         line = line[1:]
-                    if index != 0:
+                    if index:
                         if len(line) > 1:
                             line = line[0].upper() + line[1:]
                         elif len(line) == 1:

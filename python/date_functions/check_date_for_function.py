@@ -61,7 +61,6 @@ def check_date(
     if len(date) == 1:
         if check_begin(date[0], begin_date) and check_end(date[0], end_date):
             return True
-    else:
-        if check_begin(end_date, date[0]) and check_end(begin_date, date[1]):  # type: ignore[misc]
-            return True
+    elif check_begin(end_date, date[0]) and check_end(begin_date, date[1]):  # type: ignore[misc]
+        return True
     return False

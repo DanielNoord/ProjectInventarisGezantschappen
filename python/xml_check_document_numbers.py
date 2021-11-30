@@ -19,13 +19,13 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
                 volume_files.remove(str(dao.attrib["id"]))
             except KeyError:
                 missing_files.add(dao.attrib["id"])
-        if len(missing_files) != 0:
+        if missing_files:
             print(
                 "The following files (described in excel) are missing a scan:", file=log
             )
             for file_name in sorted(missing_files):
                 print(file_name, file=log)
-        if len(volume_files) != 0:
+        if volume_files:
             print(
                 "The following files (scans) are not covered by any dao (ID) in the XML database:",
                 file=log,

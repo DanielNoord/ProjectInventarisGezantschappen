@@ -13,8 +13,7 @@ def convert_wikidata_to_isni(database: IndividualsDictCleaned) -> None:
             wikidata = wdi_core.WDItemEngine(
                 wd_item_id=data["wikidata:id"]
             ).get_wd_json_representation()
-            isni_data = wikidata["claims"].get("P213", None)
-            if isni_data:
+            if isni_data := wikidata["claims"].get("P213", None):
                 data["ISNI:id"] = isni_data[0]["mainsnak"]["datavalue"]["value"]
             else:
                 data["ISNI:id"] = None

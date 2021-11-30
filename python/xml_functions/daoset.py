@@ -11,8 +11,7 @@ def fix_daoset(root: etree._Element) -> None:
             # Change dao-element to have coverage of whole
             child_nodes[0].attrib["coverage"] = "whole"
 
-            parent = daoset.getparent()
-            if parent is None:
+            if (parent := daoset.getparent()) is None:
                 raise ValueError(f"{daoset} is missing a parent element!")
 
             # Append daoset to did-element (parent node of daoset) and remove daoset
