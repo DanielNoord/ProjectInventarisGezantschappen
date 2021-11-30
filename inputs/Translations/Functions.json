@@ -636,6 +636,10 @@
     "en_GB": "Dictator of the Grand Duchy of Tuscany",
     "nl_NL": "Dictator van het Groothertogdom van Toscane"
   },
+  "Dittatore dell'Emilia": {
+    "en_GB": "Dictator of the Emilia",
+    "nl_NL": "Dictator van de Emilia"
+  },
   "Duca di Lucca": {
     "en_GB": "Duke of Lucca",
     "nl_NL": "Hertog van Lucca"
@@ -947,6 +951,10 @@
   "Inviato straordinario e incaricato d'affari del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Prussia to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Berlino": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Berlin",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden te Berlijn"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Bruxelles": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Brussel",

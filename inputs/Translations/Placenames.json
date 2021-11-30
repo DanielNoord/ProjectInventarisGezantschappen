@@ -72,6 +72,14 @@
     "longitude": "29.91582",
     "nl_NL": "Alexandrië"
   },
+  "Alghero": {
+    "en_GB": "Alghero",
+    "geonames_id": 3183284,
+    "geonames_wikipedia": null,
+    "latitude": "40.55969",
+    "longitude": "8.31953",
+    "nl_NL": "Alghero"
+  },
   "Alicante": {
     "en_GB": "Alicante",
     "geonames_id": 2521978,
@@ -1223,6 +1231,14 @@
     "latitude": "44.103",
     "longitude": "9.82375",
     "nl_NL": "La Spezia"
+  },
+  "Laag-Keppel": {
+    "en_GB": "Laag-Keppel",
+    "geonames_id": 2752107,
+    "geonames_wikipedia": null,
+    "latitude": "51.99667",
+    "longitude": "6.22222",
+    "nl_NL": "Laag-Keppel"
   },
   "Lagos": {
     "en_GB": "Lagos",
