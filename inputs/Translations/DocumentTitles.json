@@ -376,6 +376,10 @@
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1859. Outgoing political correspondance",
     "nl_NL": "Archief van het Gezantschap van Nederland in Rome en Napels. 1859. Uitgaande politieke correspondentie"
   },
+  "Archivio della Legazione dei Paesi Bassi a Roma. 1861. Corrispondenza diplomatica in arrivo$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. 1861. Outgoing diplomatic correspondance",
+    "nl_NL": "Archief van het Gezantschap van Nederland in Rome. 1861. Uitgaande diplomatieke correspondentie"
+  },
   "Articoli estratti dal \"(.+)\"$": {
     "en_GB": "Articles extracted from “\\1”",
     "nl_NL": "Artikelen geëxtraheerd uit “\\1”"
@@ -568,9 +572,17 @@
     "en_GB": "Draft of a letter written from the Vatican Rooms",
     "nl_NL": "Concept van een brief geschreven in de Vaticaanse Kamers"
   },
+  "Bozza di lettera$": {
+    "en_GB": "Draft of a letter",
+    "nl_NL": "Conceptbrief"
+  },
   "Bozza di risposta$": {
     "en_GB": "Draft of a response",
     "nl_NL": "Concept van een respons"
+  },
+  "Bozze di lettere$": {
+    "en_GB": "Drafts of letters",
+    "nl_NL": "Conceptbrieven"
   },
   "Bozze e minuta di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Drafts and minute from the letter from \\2 to \\4",
@@ -959,6 +971,10 @@
   "Discorso indirizzato (da|dal|dalla) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Speech given by \\2 to \\4",
     "nl_NL": "Toespraak gehouden door \\2 aan \\4"
+  },
+  "Discorso pronunciato (da|dal|dalla) (\\$\\w+) alla riunione della Seconda Camera degli Stati Generali \\(copia litografica\\)$": {
+    "en_GB": "Speech of \\2 at the meeting of the House of Representatives (lithographed copy)",
+    "nl_NL": "Toespraak van \\2 bij de bijeenkomst van de Tweede Kamer der Staten-Generaal (gelithografeerd kopie)"
   },
   "Discorso pronunciato all'apertura della Dieta dal Borgomastro di Zurigo$": {
     "en_GB": "Speech of the Mayor of Zürich given at the opening of the Diet",
@@ -1412,6 +1428,10 @@
     "en_GB": "Printed sheet \\1) “\\2” (Rome, Tipografia delle Belle Arti, \\3)",
     "nl_NL": "Gedrukt blad \\1) “\\2” (Rome, Tipografia delle Belle Arti, \\3)"
   },
+  "Foglio a stampa con firma autografa (di|del|della) (\\$\\w+) \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet with the autograph of \\2 “\\3” (\\4)",
+    "nl_NL": "Gedrukt blad met de handtekening van \\2 “\\3” (\\4)"
+  },
   "Foglio a stampa con la benedizione (di|del|della) (\\$\\w+) \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)\\)$": {
     "en_GB": "Printed sheet with the benediction of \\2 (\\3 Feb. \\4)",
     "nl_NL": "Gedrukt blad met de zegening van \\2 (\\3 feb. \\4)"
@@ -1800,6 +1820,10 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Bologna, N. \\3 of \\4 Oct. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Bologna, N. \\3 van \\4 oct. \\5)"
   },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Bruxelles, N. (\\d+) del (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Brussels, N. \\3 of \\4 Mar. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Brussel, N. \\3 van \\4 mrt. \\5)"
+  },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Genova, N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Genoa, N. \\3 of \\4 Jul. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Genua, N. \\3 van \\4 jul. \\5)"
@@ -2136,6 +2160,14 @@
     "en_GB": "Legation from Rome. Political correspondence",
     "nl_NL": "Gezantschap van Rome. Politieke correspondentie"
   },
+  "Legazione di Roma. Corrispondenza diplomatica in partenza$": {
+    "en_GB": "Legation in Rome. Outgoing diplomatic correspondance",
+    "nl_NL": "Gezantschap in Rome. Uitgaande diplomatieke correspondentie"
+  },
+  "Legazione di Torino. Corrispondenza diplomatica in arrivo$": {
+    "en_GB": "Legation of Turin. Incoming diplomatic correspondence",
+    "nl_NL": "Gezantschap van Turijn. Inkomende diplomatieke correspondentie"
+  },
   "Legazioni di Roma e Napoli. Corrispondenza diplomatica \\(in arrivo\\)$": {
     "en_GB": "Legations of Rome and Naples. Diplomatic correspondance (incoming)",
     "nl_NL": "Gezantschap van Rome en Napels. Diplomatieke correspondentie (inkomend)"
@@ -2247,6 +2279,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegato promemoria$": {
     "en_GB": "Letter from \\2 to \\4 with attached memorandum",
     "nl_NL": "Brief van \\2 aan \\4 met bijgevoegd memorandum"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegato suo discorso$": {
+    "en_GB": "Letter from \\2 to \\4 with his speech attached",
+    "nl_NL": "Brief van \\2 aan \\4 met zijn toespraak bijgevoegd"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con altre firme di sottoscrittori$": {
     "en_GB": "Letter of \\2 to \\4 with other autographs of those who undersigned",
@@ -2500,6 +2536,10 @@
     "en_GB": "Letter attached to the Letter of \\2 to \\4",
     "nl_NL": "Brief bijgevoegd bij de brief van \\2 aan \\4"
   },
+  "Lettera allegata senza firma$": {
+    "en_GB": "Attached letter without signature",
+    "nl_NL": "Bijgevoegde brief zonder handtekening"
+  },
   "Lettera apostolica (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Apostolic letter of \\2 (printed)",
     "nl_NL": "Apostolische brief van \\2 (gedrukt)"
@@ -2551,6 +2591,10 @@
   "Lettera circolare (di|del|della) (\\$\\w+) dall'ufficio di Giustizia di Amsterdam$": {
     "en_GB": "Circulaire of \\2 at the court of Amsterdam",
     "nl_NL": "Circulaire van \\2 bij het gerechtshof van Amsterdam"
+  },
+  "Lettera circolare (di|del|della) (\\$\\w+) sui fatti di Gaeta$": {
+    "en_GB": "Circulaire of \\2 on the events of Gaeta",
+    "nl_NL": "Circulaire van \\2 over de gebeurtenissen van Gaeta"
   },
   "Lettera circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Circulaire of \\2",
@@ -3932,6 +3976,10 @@
     "en_GB": "Telegram from \\2 to \\4",
     "nl_NL": "Telegram van \\2 aan \\4"
   },
+  "Telegramma cifrato (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Encrypted telegram from \\2 to \\4",
+    "nl_NL": "Versleutelde telegram van \\2 aan \\4"
+  },
   "Testo a stampa di un discorso pubblico (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed text of a public discourse from \\2",
     "nl_NL": "Gedrukte tekst uit een openbare redevoering van \\2"
@@ -4323,6 +4371,10 @@
   "Trascrizione di lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a letter by \\2",
     "nl_NL": "Transcriptie van een brief door \\2"
+  },
+  "Trascrizione di lettera circolare (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of the circulaire of \\2",
+    "nl_NL": "Transcriptie van de circulaire van \\2"
   },
   "Trascrizione di norme sulle pensioni$": {
     "en_GB": "Transcription of the norms on pension",
