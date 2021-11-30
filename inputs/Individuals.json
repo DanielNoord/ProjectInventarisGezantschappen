@@ -4072,6 +4072,7 @@
         "Ministro della Pubblica Istruzione del Regno di Sardegna",
         "1851-10-21/1852"
       ],
+      ["Dittatore dell'Emilia", "1859-07/1860-03"],
       [
         "Ministro degli Affari Esteri del Regno di Sardegna",
         "1860-03-24/1860-12-31"
@@ -10387,7 +10388,7 @@
     ],
     "sources_other": [],
     "surname": "Ricasoli",
-    "titles": [],
+    "titles": [["Cav.", null]],
     "wikidata:id": "Q519900"
   },
   "$Ricci": {
@@ -11405,6 +11406,33 @@
     "surname": "Schaffter",
     "titles": [],
     "wikidata:id": "Q35772365"
+  },
+  "$SchimmelpenninckAlex": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1796-05-05",
+    "date_of_death": "1877-12-17",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Berlino",
+        "1842/1862"
+      ]
+    ],
+    "images": ["https://rkd.nl/nl/explore/images/146213"],
+    "name": "Alexander Carel Jacob",
+    "person_type": 1,
+    "place_of_birth": "Laag-Keppel",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Dutch Institute for Art History (RKD), 'Oskar Begas', found on: https://rkd.nl/nl/explore/images/146213"
+    ],
+    "sources_other": [],
+    "surname": "Schimmelpenninck van der Oye",
+    "titles": [
+      ["barone", null],
+      ["Cav.", "1862-12-18/"]
+    ],
+    "wikidata:id": null
   },
   "$SchimmelpenninckG": {
     "ISNI:id": "0000 0003 9758 8500",
