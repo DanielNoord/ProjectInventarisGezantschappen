@@ -17,19 +17,26 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
             if cell.value is not None:
                 # Clean up string
                 line = cell.value
-                if isinstance(line, str) and line.isspace():
-                    line = ""
-                elif isinstance(line, str):
-                    while line[-1] in {" ", ",", ".", ";"}:  # Remove final characters
-                        line = line[:-1]
-                    while line[0] in {" "}:  # Remove spaces in first place
-                        line = line[1:]
-                    if index:
-                        if len(line) > 1:
-                            line = line[0].upper() + line[1:]
-                        elif len(line) == 1:
-                            line = line.upper()
-                    line = line.replace("( ", "(").replace(" )", ")").replace("  ", " ")
+                if isinstance(line, str):
+                    if line.isspace():
+                        line = ""
+                    elif line:
+                        # Remove final characters
+                        while line[-1] in {" ", ",", ".", ";"}:
+                            line = line[:-1]
+                        # Remove spaces in first place
+                        while line[0] in {" "}:
+                            line = line[1:]
+                        if index:
+                            if len(line) > 1:
+                                line = line[0].upper() + line[1:]
+                            elif len(line) == 1:
+                                line = line.upper()
+                        line = (
+                            line.replace("( ", "(")
+                            .replace(" )", ")")
+                            .replace("  ", " ")
+                        )
                 row[index].value = line
 
     new_directory = directory_name.replace("inputs", "outputs").replace(
