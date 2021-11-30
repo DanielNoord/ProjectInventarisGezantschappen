@@ -1576,6 +1576,10 @@
     "en_GB": "Printed “\\1” (Palermo, \\2 Oct. \\3)",
     "nl_NL": "Gedrukt “\\1” (Palermo, \\2 okt. \\3)"
   },
+  "Foglio a stampa “(.+)” \\(Palermo, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, N. \\2 of \\3 Jun. \\4)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, N. \\2 van \\3 jun. \\4)"
+  },
   "Foglio a stampa “(.+)” \\(Parigi, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Paris, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Parijs, \\2)"
@@ -1984,6 +1988,10 @@
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Sep. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 sep. \\4)"
   },
+  "Giornale a stampa \"(.+)\" \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Naples, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 jun. \\3)"
+  },
   "Giornale a stampa \"(.+)\" \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Rome, \\2 Apr. \\3)",
     "nl_NL": "Gedrukte krant “\\1” (Rome, \\2 apr. \\3)"
@@ -2128,9 +2136,13 @@
     "en_GB": "Legation from Rome. Political correspondence",
     "nl_NL": "Gezantschap van Rome. Politieke correspondentie"
   },
-  "Legazioni di Roma e Napoli. Corrispondenza politica \\(in arrivo\\)$": {
-    "en_GB": "Legations of Rome and Naples. Political correspondance (incoming)",
-    "nl_NL": "Gezantschap van Rome en Napels. Politieke correspondentie (inkomend)"
+  "Legazioni di Roma e Napoli. Corrispondenza diplomatica \\(in arrivo\\)$": {
+    "en_GB": "Legations of Rome and Naples. Diplomatic correspondance (incoming)",
+    "nl_NL": "Gezantschap van Rome en Napels. Diplomatieke correspondentie (inkomend)"
+  },
+  "Legazioni di Roma e Napoli. Corrispondenza diplomatica \\(in partenza\\)$": {
+    "en_GB": "Legations of Rome and Naples. Diplomatic correspondance (outgoing)",
+    "nl_NL": "Gezantschap van Rome en Napels. Diplomatieke correspondentie (uitgaand)"
   },
   "Les Autoritès Romaines \\(Le autorità romane\\)$": {
     "en_GB": "Les Autoritès Romaines (The Roman authorities)",
@@ -2259,6 +2271,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con nota aggiunta$": {
     "en_GB": "Letter of \\2 to \\4 with note attached",
     "nl_NL": "Brief van \\2 aan \\4 met bijgevoegde notitie"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con nota allegata$": {
+    "en_GB": "Letter of \\2 to \\4 with adhered note",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgevoegde nota"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con nota sulle merci importate$": {
     "en_GB": "Letter of \\2 to \\4 with a note about imported goods",
@@ -4308,10 +4324,6 @@
     "en_GB": "Transcription of a letter by \\2",
     "nl_NL": "Transcriptie van een brief door \\2"
   },
-  "Trascrizione di lettere circolari \\(molto deteriorate\\)$": {
-    "en_GB": "Transcriptions of circulaires (gravely deteriorated)",
-    "nl_NL": "Transcripties van circulaires (erg verslechterd)"
-  },
   "Trascrizione di norme sulle pensioni$": {
     "en_GB": "Transcription of the norms on pension",
     "nl_NL": "Transcriptie over de pensioennormen"
@@ -4459,6 +4471,10 @@
   "Trascrizioni di lettere (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
     "en_GB": "Transcriptions of letters to \\2 and to \\4",
     "nl_NL": "Transcripties van brieven aan \\2 en aan \\4"
+  },
+  "Trascrizioni di lettere circolari \\(molto deteriorate\\)$": {
+    "en_GB": "Transcriptions of circulaires (gravely deteriorated)",
+    "nl_NL": "Transcripties van circulaires (erg verslechterd)"
   },
   "Trascrizioni e copie di lettere fatte (da|dal) (\\$\\w+) indirizzate (a|ad) (\\$\\w+), Genova, Marsiglia, Barcellona$": {
     "en_GB": "Transcriptions and copies of letters made by \\2 addressed to \\4, Genoa, Marseille, Barcelona",
