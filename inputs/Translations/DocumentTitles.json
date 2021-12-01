@@ -2168,6 +2168,10 @@
     "en_GB": "Legation of Turin. Incoming diplomatic correspondence",
     "nl_NL": "Gezantschap van Turijn. Inkomende diplomatieke correspondentie"
   },
+  "Legazione di Torino. Corrispondenza diplomatica$": {
+    "en_GB": "Legation of Turin. Diplomatic correspondence",
+    "nl_NL": "Gezantschap van Turijn. Diplomatieke correspondentie"
+  },
   "Legazioni di Roma e Napoli. Corrispondenza diplomatica \\(in arrivo\\)$": {
     "en_GB": "Legations of Rome and Naples. Diplomatic correspondance (incoming)",
     "nl_NL": "Gezantschap van Rome en Napels. Diplomatieke correspondentie (inkomend)"
@@ -2368,6 +2372,10 @@
     "en_GB": "Letter of \\2 to \\4 dated Genoa, 27 Oct. 1817",
     "nl_NL": "Brief van \\2 aan \\4 gedateed Genua, 27 okt. 1817"
   },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) su un manoscritto olandese nella Biblioteca dell'Università di Bologna$": {
+    "en_GB": "Letter of \\2 to \\4 about a Dutch manuscript in the University Library of Bologna",
+    "nl_NL": "Brief van \\2 aan \\4 over een Nederlands manuscript in de Universiteitsbibliotheek van Bologna"
+  },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) sui russi presenti a Roma e lista dei russi presenti$": {
     "en_GB": "Letter from \\2 to \\4 about Russians present in Rome and list of Russians present",
     "nl_NL": "Brief van \\2 aan \\4 over Russen aanwezig in Rome en lijst van aanwezige Russen"
@@ -2532,6 +2540,10 @@
     "en_GB": "Letter to the colonel about \\2",
     "nl_NL": "Brief naar de kolonel over \\2"
   },
+  "Lettera alla Camera di Commercio e Fabbriche a Amsterdam$": {
+    "en_GB": "Letter to the Chamber of Commerce and Factories in Amsterdam",
+    "nl_NL": "Brief aan de Kamer van Koophandel en Fabrieken te Amsterdam"
+  },
   "Lettera allegata alla lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Letter attached to the Letter of \\2 to \\4",
     "nl_NL": "Brief bijgevoegd bij de brief van \\2 aan \\4"
@@ -2631,6 +2643,10 @@
   "Lettera circolare del ministro degli interni ai governatori$": {
     "en_GB": "Printed circulaire of the minister of internal affairs to the governors",
     "nl_NL": "Gedrukte circulaire van de minister van binnenlandse zaken aan de gouverneurs"
+  },
+  "Lettera circolare litografata (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Lithographed circulaire of \\2",
+    "nl_NL": "Gelitografeerde circulaire van \\2"
   },
   "Lettera circolare litografata con varie sottoscrizioni$": {
     "en_GB": "Lithographed circulaire with various subscripts",
