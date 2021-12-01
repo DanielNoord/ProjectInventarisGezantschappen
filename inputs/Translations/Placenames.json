@@ -1280,6 +1280,14 @@
     "longitude": "-6.07529",
     "nl_NL": "Lebrija"
   },
+  "Leeuwarden": {
+    "en_GB": "Leeuwarden",
+    "geonames_id": 2751792,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Leeuwarden",
+    "latitude": "53.20139",
+    "longitude": "5.80859",
+    "nl_NL": "Leeuwarden"
+  },
   "Leida": {
     "en_GB": "Leiden",
     "geonames_id": 2751773,
@@ -1511,6 +1519,14 @@
     "latitude": "43.29695",
     "longitude": "5.38107",
     "nl_NL": "Marseille"
+  },
+  "Meletole": {
+    "en_GB": "Meletole",
+    "geonames_id": 3173624,
+    "geonames_wikipedia": null,
+    "latitude": "44.84881",
+    "longitude": "10.58217",
+    "nl_NL": "Meletole"
   },
   "Messina": {
     "en_GB": "Messina",
