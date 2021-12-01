@@ -8027,6 +8027,43 @@
     ],
     "wikidata:id": null
   },
+  "$Melegari": {
+    "ISNI:id": "0000 0000 6244 1304",
+    "comment_daniel": "Used the false name Thomas Emery from Malta for some time",
+    "date_of_birth": "1805-02-19",
+    "date_of_death": "1881-05-22",
+    "functions": [
+      ["Fondatore della Giovane Italia", "1831-07/"],
+      [
+        "Professore di Economia Politica e Diritto Internazionale all'Accademia di Losanna",
+        "1843/1846"
+      ],
+      ["Senatore del Regno d'Italia", "1862-11-30/"],
+      [
+        "Segretario Generale al Ministero degli Affari Esteri del Regno d'Italia",
+        "1862-03/1862-12"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia presso la Confederazione Elvetica",
+        "1867-07-29/1881-05-22"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Luigi_Amedeo_Melegari.gif"
+    ],
+    "name": "Luigi Amedeo",
+    "person_type": 0,
+    "place_of_birth": "Meletole",
+    "place_of_death": "Berna",
+    "sources": [
+      "Vidari, Gian Savino Peno, 'Melegari, Luigi Amedeo', in: Enciclopedia Italiana. Volume 73 (Rome, Treccani, 2009), found on: https://www.treccani.it/enciclopedia/luigi-amedeo-melegari_%28Dizionario-Biografico%29/",
+      "'Melegari, Luigi Amedeo', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/825dafd139c849bdc125785d0059ad7c/2765cfef957d88f04125646f005d6475?OpenDocument"
+    ],
+    "sources_other": [],
+    "surname": "Melegari",
+    "titles": [["Cav.", null]],
+    "wikidata:id": "Q3266487"
+  },
   "$Melvil": {
     "ISNI:id": null,
     "comment_daniel": "",
