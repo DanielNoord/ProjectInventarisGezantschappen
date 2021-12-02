@@ -1173,6 +1173,36 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Betz": {
+    "ISNI:id": "0000 0003 9005 4813",
+    "comment_daniel": "",
+    "date_of_birth": "1816-10-30",
+    "date_of_death": "1868-05-20",
+    "functions": [
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1862-01-01/1865-11-27"
+      ],
+      [
+        "Ministro ad interim delle Colonie del Regno dei Paesi Bassi",
+        "1863-01-03/1863-02-01"
+      ]
+    ],
+    "images": [
+      "https://geheugen.delpher.nl/nl/geheugen/view?coll=ngvn&identifier=BDM01:293"
+    ],
+    "name": "Gerardus Henri",
+    "person_type": 1,
+    "place_of_birth": "Breda",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Redactie parlement.com, '', found on: https://www.parlement.com/id/vg09llr3azy8/g_beelaerts_van_blokland"
+    ],
+    "sources_other": [],
+    "surname": "Betz",
+    "titles": [],
+    "wikidata:id": "Q1987047"
+  },
   "$Biandrate": {
     "ISNI:id": null,
     "comment_daniel": "I believe that letters ms278_138 & ms278_139 concern the return from France of the Prince of Carignone, Carlo Alberto di Savoia, in 1821, possibly together with the count of d'Argentau (possibly François de Mercy-Argentau, who was governor of Brabant and chamberlain to the Dutch king). It is unclear why Biandrate was involved in this, but he fits the picture as he was connected to most of the greater political figures relevant in the 1921 Piedmontese revolution. There is little doubt that he was the count of Biandrate, as it is recorded that the previous count had no sons of his own.",
@@ -7494,6 +7524,42 @@
     "titles": [],
     "wikidata:id": "Q1045355"
   },
+  "$Manna": {
+    "ISNI:id": "0000 0000 3274 5008",
+    "comment_daniel": "",
+    "date_of_birth": "1813-01-21",
+    "date_of_death": "1865-07-23",
+    "functions": [
+      [
+        "Ministro segretario delle Finanze del Regno delle Due Sicilie",
+        "1848/1848"
+      ],
+      [
+        "Ministro segretario delle Finanze del Regno delle Due Sicilie",
+        "1860/1860"
+      ],
+      [
+        "Ministro del Agricoltura, Industria e Commercio del Regno d'Italia",
+        "1862-12-08/1864-09-24"
+      ],
+      ["Professore di Economia politica all'Università di Napoli", "1865-01/"]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Giovanni_Manna.jpg"
+    ],
+    "name": "Giovanni",
+    "person_type": 1,
+    "place_of_birth": "Napoli",
+    "place_of_death": "Torre del Greco",
+    "sources": [
+      "'Manna Giovanni', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/825dafd139c849bdc125785d0059ad7c/9c16b946333f96c84125646f005d07c0?OpenDocument",
+      "Napoli, Mario Di, 'Manna, Giovanni', in: Dizionario Biografico degli Italiani. Volume 69 (Rome, Treccani, 2017), found on: https://www.treccani.it/enciclopedia/giovanni-manna_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Manna",
+    "titles": [["Cav.", null]],
+    "wikidata:id": "Q3107250"
+  },
   "$Manteri": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -8038,11 +8104,11 @@
         "Professore di Economia Politica e Diritto Internazionale all'Accademia di Losanna",
         "1843/1846"
       ],
-      ["Senatore del Regno d'Italia", "1862-11-30/"],
       [
         "Segretario Generale al Ministero degli Affari Esteri del Regno d'Italia",
         "1862-03/1862-12"
       ],
+      ["Senatore del Regno d'Italia", "1862-11-30/"],
       [
         "Inviato straordinario e ministro plenipotenziario del Regno d'Italia presso la Confederazione Elvetica",
         "1867-07-29/1881-05-22"
@@ -8056,8 +8122,8 @@
     "place_of_birth": "Meletole",
     "place_of_death": "Berna",
     "sources": [
-      "Vidari, Gian Savino Peno, 'Melegari, Luigi Amedeo', in: Enciclopedia Italiana. Volume 73 (Rome, Treccani, 2009), found on: https://www.treccani.it/enciclopedia/luigi-amedeo-melegari_%28Dizionario-Biografico%29/",
-      "'Melegari, Luigi Amedeo', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/825dafd139c849bdc125785d0059ad7c/2765cfef957d88f04125646f005d6475?OpenDocument"
+      "'Melegari, Luigi Amedeo', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/825dafd139c849bdc125785d0059ad7c/2765cfef957d88f04125646f005d6475?OpenDocument",
+      "Vidari, Gian Savino Peno, 'Melegari, Luigi Amedeo', in: Enciclopedia Italiana. Volume 73 (Rome, Treccani, 2009), found on: https://www.treccani.it/enciclopedia/luigi-amedeo-melegari_%28Dizionario-Biografico%29/"
     ],
     "sources_other": [],
     "surname": "Melegari",
@@ -9480,6 +9546,44 @@
     "surname": "Parisi",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Pasolini": {
+    "ISNI:id": "0000 0000 6141 0071",
+    "comment_daniel": "",
+    "date_of_birth": "1815-02-08",
+    "date_of_death": "1876-12-04",
+    "functions": [
+      [
+        "Ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio",
+        "1848/1848"
+      ],
+      ["Gonfaloniere di Ravenna", "1857/1859"],
+      ["Governatore di Milano al Re di Sardegna", "1860-03/1862"],
+      ["Prefetto di Torino", "1862-03-21/1865-02-01"],
+      [
+        "Ministro degli Affari Esteri del Regno d'Italia",
+        "1862-12-08/1863-03-24"
+      ],
+      ["Prefetto di Venezia", "1866-12-09/1867-04-04"]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/Giuseppe_Pasolini_foto.jpg"
+    ],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Ravenna",
+    "place_of_death": "Ravenna",
+    "sources": [
+      "'Pasolini Giuseppe', a cura dell'Archivio Storico del Senato della Repubblica, found on: http://notes9.senato.it/Web/senregno.NSF/9a29a2e73f195df7c125785d0059b96c/e7277351b0ab852bc125706900318711?OpenDocument",
+      "Fruci, Gian Luca, 'Pasolini Dall'Onda, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 81 (Rome, Treccani, 2014), found on: https://www.treccani.it/enciclopedia/giuseppe-pasolini-dall-onda_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Pasolini Dall'Onda",
+    "titles": [
+      ["conte", null],
+      ["Cav.", "1862-04-03/"]
+    ],
+    "wikidata:id": "Q364470"
   },
   "$Passantino": {
     "ISNI:id": null,
@@ -12921,6 +13025,36 @@
     "surname": "von Usedom",
     "titles": [["barone", null]],
     "wikidata:id": "Q1453756"
+  },
+  "$Uyttenhooven": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1822-03-29",
+    "date_of_death": "1878-12-11",
+    "functions": [
+      ["Pittore", null],
+      [
+        "Cancelliere sostituto presso la Seconda Camera degli Stati Generali del Regno dei Paesi Bassi",
+        "1849-05-16/1851-11-05"
+      ],
+      [
+        "Amministratore principale il Ministero delle Finanze del Regno dei Paesi Bassi",
+        "1851-11-04/1863-06-21"
+      ]
+    ],
+    "images": [],
+    "name": "Adriaan",
+    "person_type": 1,
+    "place_of_birth": "Flessinga",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Mr. Adriaan Uyttenhoven', found on: http://resources.huygens.knaw.nl/repertoriumambtsdragersambtenaren1428-1861/app/personen/724",
+      "Dutch Institute for Art History (RKD), 'Adriaan Uyttenhooven', found on: https://rkd.nl/nl/explore/artists/78878"
+    ],
+    "sources_other": [],
+    "surname": "Uyttenhooven",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Valdivieso": {
     "ISNI:id": null,
