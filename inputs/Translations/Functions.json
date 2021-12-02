@@ -84,6 +84,10 @@
     "en_GB": "Principal administrator and temporary secretary of the State Secretariat of the Kingdom of the Netherlands",
     "nl_NL": "Referendaris en tijdelijk griffier bij de Staatssecretarie van het Koninkrijk der Nederlanden"
   },
+  "Amministratore principale il Ministero delle Finanze del Regno dei Paesi Bassi": {
+    "en_GB": "Principal administrator at the Ministry of Finances of the Kingdom of the Netherlands",
+    "nl_NL": "Referendaris bij het Ministerie van Financiën van het Koninkrijk der Nederlanden"
+  },
   "Amministratore principale presso il Dipartimento della Giustizia del Regno dei Paesi Bassi": {
     "en_GB": "Principal administrator with the Department of Justice of the Kingdom of the Netherlands",
     "nl_NL": "Referendaris bij het Departement van Justitie van het Koninkrijk der Nederlanden"
@@ -191,6 +195,10 @@
   "Cancelliere di stato gli Affari Lussemburghesi all'Aia": {
     "en_GB": "State chancellor for Luxembourgish Affairs in The Hague",
     "nl_NL": "Staatskanselier voor Luxemburgse Aangelegenheden te Den Haag"
+  },
+  "Cancelliere sostituto presso la Seconda Camera degli Stati Generali del Regno dei Paesi Bassi": {
+    "en_GB": "Substitute registrar of the the House of Representatives of the Kingdom of the Netherlands",
+    "nl_NL": "Commies-griffier der Tweede Kamer der Staten-Generaal van het Koninkrijk der Nederlanden"
   },
   "Canonico": {
     "en_GB": "Canon",
@@ -732,6 +740,10 @@
     "en_GB": "_Gonfaloniere_ of Livorno",
     "nl_NL": "_Gonfaloniere_ van Livorno"
   },
+  "Gonfaloniere di Ravenna": {
+    "en_GB": "_Gonfaloniere_ of Ravenna",
+    "nl_NL": "_Gonfaloniere_ van Ravenna"
+  },
   "Governatore Generale delle Indie Orientali Olandesi": {
     "en_GB": "Governor of the Dutch East Indies",
     "nl_NL": "Gouverneur-Generaal van Nederlands-Indië"
@@ -771,6 +783,10 @@
   "Governatore di Genova al Re di Sardegna": {
     "en_GB": "Governor of Genoa to the King of Sardinia",
     "nl_NL": "Gouverneur van Genua voor de Koning van Sardinië"
+  },
+  "Governatore di Milano al Re di Sardegna": {
+    "en_GB": "Governor of Milan to the King of Sardinia",
+    "nl_NL": "Gouverneur van Milaan voor de Koning van Sardinië"
   },
   "Governatore di Nizza al Re di Sardegna": {
     "en_GB": "Governor of Nice to the King of Sardinia",
@@ -1168,6 +1184,10 @@
     "en_GB": "Interim Minister for Affairs of the Roman Catholic Worship of the Kingdom of the Netherlands",
     "nl_NL": "Tijdelijk minister voor Zaken der rooms-katholieke Eredienst van het Koninkrijk der Nederlanden"
   },
+  "Ministro ad interim delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "Minister ad interim of Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Ad interim minister van Koloniën van het Koninkrijk der Nederlanden"
+  },
   "Ministro ad interim delle Finanze del Regno dei Paesi Bassi": {
     "en_GB": "Interim Minister of Finance of the Kingdom of the Netherlands",
     "nl_NL": "Ad interim minister van Financiën van het Koninkrijk der Nederlanden"
@@ -1255,6 +1275,10 @@
   "Ministro dei Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Public Works of the Papel States",
     "nl_NL": "Minister van Openbare Werken van de Kerkelijke Staat"
+  },
+  "Ministro del Agricoltura, Industria e Commercio del Regno d'Italia": {
+    "en_GB": "Minister of Agriculture, Industry and Trade of the Kingdom of Italy",
+    "nl_NL": "Minister van Landbouw, Industrie en Handel van het Koninkrijk Italië"
   },
   "Ministro del Commercio e Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Trade and Public Works of the Papel States",
@@ -1440,6 +1464,10 @@
     "en_GB": "Resident minister of the Kingdom of Belgium at the Holy See",
     "nl_NL": "Minister-resident van het Koninkrijk België bij de Heilige Stoel"
   },
+  "Ministro segretario delle Finanze del Regno delle Due Sicilie": {
+    "en_GB": "Minister Secretary of Finances of the Kingdom of the Two Sicilies",
+    "nl_NL": "Minister-secretaris van Financiën van het Koninkrijk der Beide Siciliën"
+  },
   "Negoziante": {
     "en_GB": "Shopkeeper",
     "nl_NL": "Winkelier"
@@ -1507,6 +1535,14 @@
   "Prefetto delle cerimonie del Papa": {
     "en_GB": "Prefect of ceremonies of the Pope",
     "nl_NL": "Prefect van ceremonies van de Paus"
+  },
+  "Prefetto di Torino": {
+    "en_GB": "Prefect of Turin",
+    "nl_NL": "Prefect van Turijn"
+  },
+  "Prefetto di Venezia": {
+    "en_GB": "Prefect of Venice",
+    "nl_NL": "Prefect van Venetië"
   },
   "Prefetto e successivamente Presidente delle Armi dello Stato Pontificio": {
     "en_GB": "Prefect and later President _delle Armi_ {of the weapons} of the Papal State",
@@ -1683,6 +1719,10 @@
   "Professore di Economia Politica e Diritto Internazionale all'Accademia di Losanna": {
     "en_GB": "Professor of Political Economy and International Law at the Academy of Lausanne",
     "nl_NL": "Professor van Politieke Economie en Internationaal Recht aan de Academie van Lausanne"
+  },
+  "Professore di Economia politica all'Università di Napoli": {
+    "en_GB": "Professor of Political Economy at the University of Naples",
+    "nl_NL": "Professor van Politieke Economie aan de Universiteit van Napels"
   },
   "Professore di Filosofia": {
     "en_GB": "Professor of Philosophy",

@@ -360,6 +360,14 @@
     "longitude": "11.33875",
     "nl_NL": "Bologna"
   },
+  "Breda": {
+    "en_GB": "Breda",
+    "geonames_id": 2758401,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Breda",
+    "latitude": "51.58656",
+    "longitude": "4.77596",
+    "nl_NL": "Breda"
+  },
   "Brisighella": {
     "en_GB": "Brisighella",
     "geonames_id": 3181521,
@@ -895,6 +903,14 @@
     "latitude": "43.77925",
     "longitude": "11.24626",
     "nl_NL": "Florence"
+  },
+  "Flessinga": {
+    "en_GB": "Vlissingen",
+    "geonames_id": 2745392,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Vlissingen",
+    "latitude": "51.4425",
+    "longitude": "3.57361",
+    "nl_NL": "Vlissingen"
   },
   "Florenville": {
     "en_GB": "Florenville",
@@ -2375,6 +2391,14 @@
     "latitude": "44.82102",
     "longitude": "7.21672",
     "nl_NL": "Torre Pellice"
+  },
+  "Torre del Greco": {
+    "en_GB": "Torre del Greco",
+    "geonames_id": 3165456,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Torre_del_Greco",
+    "latitude": "40.78931",
+    "longitude": "14.36806",
+    "nl_NL": "Torre del Greco"
   },
   "Trieste": {
     "en_GB": "Trieste",
