@@ -368,17 +368,17 @@
     "en_GB": "Note",
     "nl_NL": "Notitie"
   },
-  "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. 1858. Corrispondenza politica in arrivo$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1858. Incoming political correspondance",
-    "nl_NL": "Archief van het Gezantschap van Nederland in Rome en Napels. 1858. Inkomende politieke correspondentie"
+  "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. (\\d\\d\\d\\d). Corrispondenza politica in arrivo$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. \\1. Incoming political correspondance",
+    "nl_NL": "Archief van het Gezantschap van Nederland in Rome en Napels. \\1. Inkomende politieke correspondentie"
   },
-  "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. 1859. Corrispondenza politica in partenza$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. 1859. Outgoing political correspondance",
-    "nl_NL": "Archief van het Gezantschap van Nederland in Rome en Napels. 1859. Uitgaande politieke correspondentie"
+  "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. (\\d\\d\\d\\d). Corrispondenza politica in partenza$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. \\1. Outgoing political correspondance",
+    "nl_NL": "Archief van het Gezantschap van Nederland in Rome en Napels. \\1. Uitgaande politieke correspondentie"
   },
-  "Archivio della Legazione dei Paesi Bassi a Roma. 1861. Corrispondenza diplomatica in arrivo$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome. 1861. Outgoing diplomatic correspondance",
-    "nl_NL": "Archief van het Gezantschap van Nederland in Rome. 1861. Uitgaande diplomatieke correspondentie"
+  "Archivio della Legazione dei Paesi Bassi a Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in arrivo$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. \\1. Outgoing diplomatic correspondance",
+    "nl_NL": "Archief van het Gezantschap van Nederland in Rome. \\1. Uitgaande diplomatieke correspondentie"
   },
   "Articoli estratti dal \"(.+)\"$": {
     "en_GB": "Articles extracted from “\\1”",
@@ -1360,9 +1360,17 @@
     "en_GB": "Printed sheet “\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa il pagamento dei crediti verso l'Erario \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 about the payment of claims to the treasury (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 over de aflossing van de schuldverordeningen aan de schatkist (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa la consegna delle armi da fuoco, da taglio e da punta \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” by \\3 concerning the delivery of firearms, sidearms and pointed weapons (Rome, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande de levering van vuurwapens, handwapens en scherpe wapens (Rome, \\2 sep. \\3)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa la normativa della segnalazione dei navigli pontifici \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 about the regulations of the signalling of pontifical vessels (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 over het reglement voor het signaleren van pauselijke schepen (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa le tariffe daziarie a favore dei fabbricatori di panni di lana \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
@@ -1375,6 +1383,10 @@
   "Foglio a stampa \"(.+)\" \\((\\$\\w+)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2)",
     "nl_NL": "Gedrukt blad “\\1” (\\2)"
+  },
+  "Foglio a stampa \"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2 Feb. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2 feb. \\3)"
   },
   "Foglio a stampa \"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\) \\((\\$\\w+)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 May \\3) (\\4)",
@@ -1408,6 +1420,14 @@
     "en_GB": "Printed sheet “\\1” (Rome, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2)"
   },
+  "Foglio a stampa \"(.+)\" circa l'emissione dei Certificati sul pubblico Tesoro \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the issuing of certificates about the public treasury (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” over de uitgave van certificaten over de openbare schatkist (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa \"(.+)\" firmato (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Printed sheet “\\1” signed by \\3",
+    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3"
+  },
   "Foglio a stampa \"(.+)\" rivolta (a|al) (\\$\\w+)$": {
     "en_GB": "Printed sheet “\\1” directed to \\3",
     "nl_NL": "Gedrukt blad “\\1” gericht aan \\3"
@@ -1427,6 +1447,10 @@
   "Foglio a stampa (.+)\\) \"(.+)\" \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \\1) “\\2” (Rome, Tipografia delle Belle Arti, \\3)",
     "nl_NL": "Gedrukt blad \\1) “\\2” (Rome, Tipografia delle Belle Arti, \\3)"
+  },
+  "Foglio a stampa (.+)\\) \"(.+)\"$": {
+    "en_GB": "Printed sheet \\1) “\\2”",
+    "nl_NL": "Gedrukt blad \\1) “\\2”"
   },
   "Foglio a stampa con firma autografa (di|del|della) (\\$\\w+) \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet with the autograph of \\2 “\\3” (\\4)",
@@ -2432,6 +2456,10 @@
     "en_GB": "Letter of \\2 to his brother",
     "nl_NL": "Brief van \\2 aan zijn broer"
   },
+  "Lettera (di|del|della) (\\$\\w+) al ministero degli Affari Esteri$": {
+    "en_GB": "Letter from \\2 to th ministry of Foreign Relations",
+    "nl_NL": "Brief van \\2 aan het ministerie van Buitenlandse Zaken"
+  },
   "Lettera (di|del|della) (\\$\\w+) all'Ambasciatore del Regno dei Paesi Bassi a Torino circa la morte di suo marito (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to the Ambassador of the Kingdom of the Netherlands in Turin about the death of her husband \\3",
     "nl_NL": "Brief van \\2 aan de Ambassadeur van het Koninkrijk der Nederlanden in Turijn over de dood van haar echtgenoot \\3"
@@ -2864,6 +2892,10 @@
     "en_GB": "Mmemory about the spread of cholera",
     "nl_NL": "Memorie over de spreiding van cholera"
   },
+  "Memoria (a|al|alla) (\\$\\w+) su una decisione della Camera dei Deputati del Parlamento Italiano$": {
+    "en_GB": "Memory to \\2 about a decision of the Chamber of Deputies of the Italian Parliament",
+    "nl_NL": "Memorie aan \\2 over een beslissling van de Kamer van Afgevaardigden van het Italiaanse Parlement"
+  },
   "Memoria (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Memory of \\2 to \\4",
     "nl_NL": "Memorie van \\2 aan \\4"
@@ -3032,6 +3064,10 @@
     "en_GB": "Printed note of the department of External Affairs",
     "nl_NL": "Gedrukte nota van het departement van Buitenlandse Zaken"
   },
+  "Nota alla lettera$": {
+    "en_GB": "Note of a letter",
+    "nl_NL": "Nota bij een brief"
+  },
   "Nota allegata alla memoria inviata al (di|del|della) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità di Limburgo$": {
     "en_GB": "Note adhered to the memory sent to \\2 relating to the ecclesiastical relations of the inheritance of Limburg",
     "nl_NL": "Nota bijgevoegd bij de memorie verzonden aan \\2 met betrekking tot de ecclesiastische relaties van de erfenis van Limburg"
@@ -3107,6 +3143,10 @@
   "Nota di pagamento (di|del|della) (\\$\\w+)$": {
     "en_GB": "Payment notice of \\2",
     "nl_NL": "Betalingsnota van \\2"
+  },
+  "Nota di protocollo$": {
+    "en_GB": "Note of protocol",
+    "nl_NL": "Nota over protocol"
   },
   "Nota di ricezione dei dispacci diplomatici$": {
     "en_GB": "Note of receipt of diplomatic dispatches",
@@ -3599,6 +3639,10 @@
   "Protocollo d'intesa sulle relazioni commerciali$": {
     "en_GB": "Memorandum of understanding on commercial relations",
     "nl_NL": "Memorandum van overeenstemming over commerciële relaties"
+  },
+  "Questione sui dazi sugli zuccheri$": {
+    "en_GB": "Question about the duties on sugar",
+    "nl_NL": "Vraag over de belasting op suiker"
   },
   "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai$": {
     "en_GB": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentière de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Dèces de François C. Verbruggen, de la Ville de Tournai",
