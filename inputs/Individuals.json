@@ -269,6 +269,7 @@
     "date_of_birth": "1806-04-02",
     "date_of_death": "1876-11-06",
     "functions": [
+      ["Pro-tesoriere generale della Santa Sede", "1845-04-22/1847-08"],
       [
         "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio",
         "1848-03-10/1848-04-29"
@@ -1760,6 +1761,25 @@
     "surname": "di Borbone-Due Sicilie",
     "titles": [],
     "wikidata:id": "Q332717"
+  },
+  "$BourbonIsa": {
+    "ISNI:id": "0000 0001 2142 592X",
+    "comment_daniel": "",
+    "date_of_birth": "1830-10-10",
+    "date_of_death": "1904-04-09",
+    "functions": [["Regina di Spagna", "1833-09-29/1868-09-30"]],
+    "images": [],
+    "name": "María Isabel Luisa",
+    "person_type": 1,
+    "place_of_birth": "Madrid",
+    "place_of_death": "Parigi",
+    "sources": [
+      "Castañer, Trinidad Ortuzar, 'Isabel II', Real Academia di la Historia, found on: https://dbe.rah.es/biografias/13007/isabel-ii"
+    ],
+    "sources_other": [],
+    "surname": "de Borbón y Borbón-Dos Sicilias",
+    "titles": [],
+    "wikidata:id": "Q183085"
   },
   "$BourbonKF": {
     "ISNI:id": null,
@@ -6429,6 +6449,49 @@
     "titles": [["Freiherr", null]],
     "wikidata:id": "Q18511397"
   },
+  "$Kuypers": {
+    "ISNI:id": "0000 0000 8106 206X",
+    "comment_daniel": "",
+    "date_of_birth": "1837-10-29",
+    "date_of_death": "1920-11-08",
+    "functions": [
+      [
+        "Fondatore e presidente del Partito Anti-Rivoluzionario dei Paesi Bassi",
+        "1879-04-03/"
+      ],
+      [
+        "Professore di Teologia alla Vrije Universiteit di Amsterdam",
+        "1879-09-06/1901-08"
+      ],
+      ["Fondatore della Vrije Universiteit di Amsterdam", "1880/"],
+      ["Rettore della Vrije Universiteit di Amsterdam", "1898-09/1899-09"],
+      [
+        "Ministro degli Affari Interni del Regno dei Paesi Bassi",
+        "1901-07-31/1905-08-16"
+      ]
+    ],
+    "images": [
+      "https://www.rijksmuseum.nl/nl/collectie/RP-F-F01548",
+      "https://rkd.nl/nl/explore/images/217852",
+      "https://www.rijksmuseum.nl/nl/collectie/RP-T-1962-277",
+      "https://geheugen.delpher.nl/nl/geheugen/view?coll=ngvn&identifier=VUMCC01%3AUBVU001-1-KUY-002"
+    ],
+    "name": "Abraham",
+    "person_type": 0,
+    "place_of_birth": "Maassluis",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Araham Kuyper', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/09132265",
+      "Puchinger, G., 'Kuijper, Abraham (1837-1920)', in: Biografisch Woordenboek van Nederland, found on: http://resources.huygens.knaw.nl/bwn1880-2000/lemmata/bwn2/kuijper",
+      "Redactie parlement.com, 'Dr. A. (Abraham) Kuyper', found on: https://www.parlement.com/id/vg09ll2lb8zw/a_abraham_kuyper"
+    ],
+    "sources_other": [
+      "Urbanus-Kamper, M.A., 'Inventaris van het archief van Abraham Kuyper, zijn gezin en zijn familie, levensjaren 1837-1920', Historisch Documentatiecentrum voor het Nederlands Protestantisme (1800-heden) (Amsterdam, 2009), collection number: 154"
+    ],
+    "surname": "Kuypers",
+    "titles": [["pastore", "1863-08-09"]],
+    "wikidata:id": "Q320014"
+  },
   "$LaTour": {
     "ISNI:id": "0000 0000 6193 9477",
     "comment_daniel": "",
@@ -9061,6 +9124,27 @@
     "titles": [["principe", null]],
     "wikidata:id": "Q18758550"
   },
+  "$Ohms": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1797",
+    "date_of_death": "1848-10-18",
+    "functions": [
+      ["Consigliere della Legazione dell'Impero d'Austria a Roma", null]
+    ],
+    "images": [],
+    "name": "Ferdinand",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "'Ferdinand von Ohms', a cura dell'archivio del Thorvaldsens Museum, found on: https://arkivet.thorvaldsensmuseum.dk/people/ohms-ferdinand-von"
+    ],
+    "surname": "von Ohms",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Olimart": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -9308,6 +9392,33 @@
     "surname": "Orioli",
     "titles": [["card.", "1838-02-12/"]],
     "wikidata:id": "Q2517870"
+  },
+  "$Orlandini": {
+    "ISNI:id": null,
+    "comment_daniel": "He's mentioned in one letter of the archive (until now) which does not give conclusive evidence that it is this person, though I strongly suspect it is",
+    "date_of_birth": "1799",
+    "date_of_death": "1867-07-10",
+    "functions": [
+      ["Prelato Domestico del Papa", "1834-06-09/"],
+      ["Delegato apostolico a Viterbo", "1843-01-27/"],
+      [
+        "Presidente del Tribunale Civile di Roma per le cose ecclesiastiche",
+        "1863/"
+      ],
+      ["Uditore del Papa", "1866/"]
+    ],
+    "images": [],
+    "name": "Marcello",
+    "person_type": 1,
+    "place_of_birth": "Cisterna",
+    "place_of_death": "Roma",
+    "sources": [
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 448"
+    ],
+    "sources_other": [],
+    "surname": "Orlandini",
+    "titles": [["vescovo", null]],
+    "wikidata:id": null
   },
   "$Oudinot": {
     "ISNI:id": "0000 0000 6633 0388",
@@ -13641,6 +13752,23 @@
     ],
     "surname": "Welserheim",
     "titles": [["conte", null]],
+    "wikidata:id": null
+  },
+  "$Wessenberg": {
+    "ISNI:id": null,
+    "comment_daniel": "It's strange, I can hardly find a trace of Ferdinand while the Wessenberg lineage is quite well known...",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Ferdinand",
+    "person_type": 4,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "von Wessenberg",
+    "titles": [],
     "wikidata:id": null
   },
   "$Wilde": {
