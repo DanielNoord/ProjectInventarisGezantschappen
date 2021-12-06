@@ -4625,8 +4625,8 @@
     "nl_NL": "Transcriptie en vertaling van een notificatie van \\2"
   },
   "Trascrizione manoscritta di un proclama \"(.+)\" a firma (\\$\\w+)$": {
-    "en_GB": "Handwritten transcription of a proclamation “\\1” signed \\3",
-    "nl_NL": "Handgeschreven transcriptie van een proclamatie “\\1” ondertekend \\3"
+    "en_GB": "Handwritten transcription of a proclamation “\\1” signed \\2",
+    "nl_NL": "Handgeschreven transcriptie van een proclamatie “\\1” ondertekend \\2"
   },
   "Trascrizioni del carteggio tra (\\$\\w+) e (\\$\\w+) in data Genova$": {
     "en_GB": "Transcriptions of the correspondence between the Governor, Duke of Genoa and \\1 dated Genoa",
