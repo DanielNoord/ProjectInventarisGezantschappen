@@ -416,9 +416,9 @@
     "en_GB": "Judicial act against Villarbon",
     "nl_NL": "Juridische actie tegen Villarbon"
   },
-  "Autoritès romaines$": {
-    "en_GB": "Autoritès romaines",
-    "nl_NL": "Autoritès romaines"
+  "Autorités romaines$": {
+    "en_GB": "Autorités romaines",
+    "nl_NL": "Autorités romaines"
   },
   "Autre extrait du Journal de la Haye touchant les Mariages Mixtes$": {
     "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
@@ -427,6 +427,10 @@
   "Avviso (di|del|della) (\\$\\w+) ai marinai \\(Naviganti\\)$": {
     "en_GB": "Notice from \\2 to the mariners (Navigators)",
     "nl_NL": "Melding van \\2 aan de mariniers (Scheepvaarders)"
+  },
+  "Avviso a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) circa la sua costituzione diretto$": {
+    "en_GB": "Printed notice from \\2 to \\4 concerning her direct constitution",
+    "nl_NL": "Gedrukte melding van \\2 aan \\4 aangaande haar directe grondwet"
   },
   "Avviso a stampa (di|del|della) (\\$\\w+) ai naviganti$": {
     "en_GB": "Printed notice from \\2 to navigators",
@@ -460,9 +464,9 @@
     "en_GB": "Printed notice about the public order of the Prefecture of the Police of Naples (\\1 Jun. \\2)",
     "nl_NL": "Gedrukte melding over de publieke orde van de Prefectuur van de Politie van Napels (\\1 jun. \\2)"
   },
-  "Avviso a stampa sulla morte di Ferdinando d'Ohmas, consigliere d'ambasciata$": {
-    "en_GB": "Printed notice about the death of Ferdinando d'Ohmas, advisor of the embassy",
-    "nl_NL": "Gedrukte melding over de dood van Ferdinando d'Ohmas, adviseur van de ambassade"
+  "Avviso a stampa sulla morte (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Printed notice about the death of \\2",
+    "nl_NL": "Gedrukte melding over de dood van \\2"
   },
   "Avviso a stampa “(.+)” \\(Ancona, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed notice “\\1” (Ancona, \\2 Jun. \\3)",
@@ -536,6 +540,10 @@
     "en_GB": "Secret bulletin 1847. Rome - Naples",
     "nl_NL": "Geheim bulletin 1847. Rome - Napels"
   },
+  "Bollettini segreti$": {
+    "en_GB": "Secret Bulletin",
+    "nl_NL": "Geheim Bulletin"
+  },
   "Boni garantiti (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
@@ -587,6 +595,10 @@
   "Bozze e minuta di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Drafts and minute from the letter from \\2 to \\4",
     "nl_NL": "Concepttekst en minuut van de brief van \\2 aan \\4"
+  },
+  "Bozzetto a colori della bandiera inneggiante (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Coloured sketch of the flag hailing \\2",
+    "nl_NL": "Gekleurde schets van de vlag ter verheerlijking van \\2"
   },
   "Bozzetto di un monumento celebrativo (di|del|della) (\\$\\w+) \\(disegno a inchiostro\\)$": {
     "en_GB": "Sketch of a commemorative monument of \\2 (Ink drawing)",
@@ -1420,6 +1432,10 @@
     "en_GB": "Printed sheet “\\1” (Rome, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2)"
   },
+  "Foglio a stampa \"(.+)\" \\(Roma, Tipografia Camerale, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia Camerale, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Camerale, \\2)"
+  },
   "Foglio a stampa \"(.+)\" circa l'emissione dei Certificati sul pubblico Tesoro \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the issuing of certificates about the public treasury (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” over de uitgave van certificaten over de openbare schatkist (Rome, Tipografia della Rev. Cam. Apost., \\4)"
@@ -1707,6 +1723,10 @@
   "Foglio a stampa “(.+)” \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d) - Estratto dall' “(.+)”, N. (\\d+)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract from “\\3”, N. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract uit “\\3”, N. \\4)"
+  },
+  "Foglio a stampa “(.+)” circa il pagamento delle tasse marittime tra il Governo Pontificio e il Ducato di Modena \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” about the payment of maritime taxes between the Papal Government and the Duchy of Modena (Rome, Tipografia della Rev. Cam. Apost., \\2 Apr. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” over de betaling van maritieme belasting tussen de Pauselijke Regering en het Hertogdom van Modena (Rome, Tipografia della Rev. Cam. Apost., \\2 apr. \\3)"
   },
   "Foglio a stampa “(.+)” circa il perdono delle pene da parte della Santa Sede \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” concerning the pardon of penalisation by the Holy See (Rome, \\2 Sep. \\3)",
@@ -2104,6 +2124,10 @@
     "en_GB": "Invitation from \\2",
     "nl_NL": "Uitnodiging van \\2"
   },
+  "Invito alle solenne funzione della domenica delle Palme \\(a stampa\\)$": {
+    "en_GB": "Invitation to the solemn service of Palm Sunday (printed)",
+    "nl_NL": "Uitnodiging voor de plechtige dienst van Palmzondag (gedrukt)"
+  },
   "Invito dalla Congregazione di Santa Maria dell'Anima$": {
     "en_GB": "Invitation from the Congregation of the Santa Maria dell'Anima",
     "nl_NL": "Uitnodiging van de Congregatie van de Santa Maria dell'Anima"
@@ -2455,10 +2479,6 @@
   "Lettera (di|del|della) (\\$\\w+) al fratello$": {
     "en_GB": "Letter of \\2 to his brother",
     "nl_NL": "Brief van \\2 aan zijn broer"
-  },
-  "Lettera (di|del|della) (\\$\\w+) al ministero degli Affari Esteri$": {
-    "en_GB": "Letter from \\2 to th ministry of Foreign Relations",
-    "nl_NL": "Brief van \\2 aan het ministerie van Buitenlandse Zaken"
   },
   "Lettera (di|del|della) (\\$\\w+) all'Ambasciatore del Regno dei Paesi Bassi a Torino circa la morte di suo marito (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to the Ambassador of the Kingdom of the Netherlands in Turin about the death of her husband \\3",
@@ -3152,6 +3172,10 @@
     "en_GB": "Note of receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbewijs van diplomatieke verzendingen"
   },
+  "Nota di spese occorse (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Note of costs from \\2 to \\4",
+    "nl_NL": "Kostennota van \\2 aan \\4"
+  },
   "Nota diretta al Corpo Diplomatico$": {
     "en_GB": "Note directed to the Corps Diplomatique",
     "nl_NL": "Nota gericht aan het Corps Diplomatique"
@@ -3159,6 +3183,10 @@
   "Nota e osservazioni sul rapporto del Consiglio del Granducato di Lussemburgo$": {
     "en_GB": "Note and observations about the rapport of the Council of the Grand Duchy of Luxembourg",
     "nl_NL": "Nota en observaties over het rapport van de Raad van het Groothertogdom van Luxemburg"
+  },
+  "Nota firmata (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Nota signed by \\2",
+    "nl_NL": "Nota ondertekend door \\2"
   },
   "Nota introduttiva (di|del|della) (\\$\\w+)$": {
     "en_GB": "Introductory note from \\2",
@@ -3356,6 +3384,10 @@
     "en_GB": "Roman News of \\1 Jul. \\2",
     "nl_NL": "Romeins nieuws van \\1 jul. \\2"
   },
+  "Notizie Romane del (\\d\\d?) marzo (\\d\\d\\d\\d) \\(e Napoli\\)$": {
+    "en_GB": "Roman News of \\1 Mar. \\2 (and Naples)",
+    "nl_NL": "Romeins nieuws van \\1 mar. \\2 (en Napels)"
+  },
   "Notizie Romane del (\\d\\d?) marzo (\\d\\d\\d\\d)$": {
     "en_GB": "Roman News of \\1 Mar. \\2",
     "nl_NL": "Romeins nieuws van \\1 mar. \\2"
@@ -3460,6 +3492,14 @@
     "en_GB": "New reflections on the current state of the pontifical finances",
     "nl_NL": "Nieuwe reflecties op de actuele staat van de pauselijke financiën"
   },
+  "Opuscolo a stampa \"(.+)\" \\(Italia, nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed pamphlet \"\\1\" (Italy, Nov. \\2)",
+    "nl_NL": "Gedrukt pamflet \"\\1\" (Italië, nov. \\2)"
+  },
+  "Opuscolo a stampa \"(.+)\"$": {
+    "en_GB": "Printed pamphlet \"\\1\"",
+    "nl_NL": "Gedrukt pamflet \"\\1\""
+  },
   "Opuscolo a stampa in cui il sedicente principe Alessandro Murezynowski Gonzaga fa la storia dei diritti della sua famiglia per il ducato di Mantova \\(1850 - pp. 31\\)$": {
     "en_GB": "Printed pamphlet in which the self-proclaimed prince Alessandro Murezynowski Gonzaga tells the history of the rights of his family to the Duchy of Mantua (1850 - pp. 31)",
     "nl_NL": "Gedrukt pamflet waarin de zelfverklaarde prins Alessandro Murezynowski Gonzaga de geschiedenis vertelt van de rechten van zijn familie op het Hertogdom van Mantua (1850 - pp. 31)"
@@ -3515,6 +3555,10 @@
   "Pagina a stampa firmata (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Printed page signed by \\2",
     "nl_NL": "Gedrukte pagina ondertekend door \\2"
+  },
+  "Pasquino e Martorio così parlavano fra loro allorchè la rinunzia (di|del|della) (\\$\\w+) alla carica di Pro-Tesoriere Generale \\(componimento in versi\\)$": {
+    "en_GB": "Pasquino and Martorio spoke thus between the two of them about the rinunciation of \\2 of the position of pro-thesaurarius-general (composed in verse)",
+    "nl_NL": "Pasquino en Martorio spraken aldus onderling over \\2 die afstand deed van de positie van pro-thesaurier-generaal (samengesteld in verzen)"
   },
   "Pastorale (di|del|della) (\\$\\w+) in occasione dei recenti disastri della Polonia$": {
     "en_GB": "Pastoral of \\2 on the occassion of the recent disasters in Poland",
@@ -4392,6 +4436,10 @@
     "en_GB": "Transcription of the proclamation Ai Siciliani",
     "nl_NL": "Transcriptie van de proclamatie Ai Siciliani"
   },
+  "Trascrizione del proclama Al Popolo Napoletano. Cittadini della Guardia di Sicurezza$": {
+    "en_GB": "Transcription of the proclamation Ai Siciliani. Cittadini della Guardia di Sicurezza",
+    "nl_NL": "Transcriptie van de proclamatie Ai Siciliani. Cittadini della Guardia di Sicurezza"
+  },
   "Trascrizione della lettera (di|del|della) (\\$\\w+) delle Segreteria di Stato$": {
     "en_GB": "Transcription of the letter of \\2 of the Secretariat of State",
     "nl_NL": "Transcriptie van de brief van \\2 van het Staatssecretariaat"
@@ -4575,6 +4623,10 @@
   "Trascrizione e traduzione di una notificazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription and translation of a notification of \\2",
     "nl_NL": "Transcriptie en vertaling van een notificatie van \\2"
+  },
+  "Trascrizione manoscritta di un proclama \"(.+)\" a firma (\\$\\w+)$": {
+    "en_GB": "Handwritten transcription of a proclamation “\\1” signed \\3",
+    "nl_NL": "Handgeschreven transcriptie van een proclamatie “\\1” ondertekend \\3"
   },
   "Trascrizioni del carteggio tra (\\$\\w+) e (\\$\\w+) in data Genova$": {
     "en_GB": "Transcriptions of the correspondence between the Governor, Duke of Genoa and \\1 dated Genoa",
