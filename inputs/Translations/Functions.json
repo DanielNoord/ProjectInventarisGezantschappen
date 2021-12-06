@@ -520,6 +520,10 @@
     "en_GB": "Consul general of the Empire of Austria in Ancona",
     "nl_NL": "Consul-generaal van het Keizerrijk Oostenrijk te Ancona"
   },
+  "Consigliere della Legazione dell'Impero d'Austria a Roma": {
+    "en_GB": "Advisor to the Legation of the Empire of Austria in Rome",
+    "nl_NL": "Adviseur van het Gezantschap van het Keizerrijk Oostenrijk te Rome"
+  },
   "Curatore d'arte del Museo statale delle Antichità di Leida": {
     "en_GB": "Curator of the Museum of Antiquities of Leiden",
     "nl_NL": "Curator van het Rijksuseum van Oudheden van Leiden"
@@ -672,9 +676,17 @@
     "en_GB": "Founder of Giovane Italia",
     "nl_NL": "Oprichter van Giovani Italia"
   },
+  "Fondatore della Vrije Universiteit di Amsterdam": {
+    "en_GB": "Founder of the Vrije Universiteit of Amsterdam",
+    "nl_NL": "Oprichter van de Vrije Universiteit van Amsterdam"
+  },
   "Fondatore e direttore della giornale La Presse": {
     "en_GB": "Founder and editor of the journal La Presse",
     "nl_NL": "Oprichter en redacteuru van de krant La Presse"
+  },
+  "Fondatore e presidente del Partito Anti-Rivoluzionario dei Paesi Bassi": {
+    "en_GB": "Founder and president of the Anti-Revolutionary Party of the Netherlands",
+    "nl_NL": "Oprichter en President van de Anti-Revolutionaire Partij van Nederland"
   },
   "Fornitore dell'esercito Francese": {
     "en_GB": "Supplier of the French army",
@@ -1608,6 +1620,10 @@
     "en_GB": "President of the _Magistrato di Sanità_ of Genoa",
     "nl_NL": "President van het _Magistrato di Sanità_ van Genua"
   },
+  "Presidente del Tribunale Civile di Roma per le cose ecclesiastiche": {
+    "en_GB": "President of the Civil Tribunal of Rome for Ecclesiastical Matters",
+    "nl_NL": "President van de Burgerlijke Rechtbank van Roma voor Ecclesiastische Zaken"
+  },
   "Presidente del Tribunale della Sacra Consulta": {
     "en_GB": "President of the tribunal of the Holy Congregation of the _Consulta_",
     "nl_NL": "Tribunaalspresident van de Heilige Congregatie van de _Consulta_"
@@ -1744,6 +1760,10 @@
     "en_GB": "Professor of Theology at the University of Bern",
     "nl_NL": "Professor van Theologie aan de Universiteit van Bern"
   },
+  "Professore di Teologia alla Vrije Universiteit di Amsterdam": {
+    "en_GB": "Professor of Theology at the Vrije Universiteit of Amsterdam",
+    "nl_NL": "Professor Theologie bij de Vrije Universiteit van Amsterdam"
+  },
   "Professore di archeologia e lingue classiche al Real Collegio a Reggio Calabria": {
     "en_GB": "Professor of archeology and classical languages at the Real Collegio in Reggio Calabria",
     "nl_NL": "Professor van archeologie en klassieke talen bij het Real Collegio in Reggio Calabria"
@@ -1795,6 +1815,10 @@
   "Regina di Spagna": {
     "en_GB": "Queen of Spain",
     "nl_NL": "Koningin van Spanje"
+  },
+  "Rettore della Vrije Universiteit di Amsterdam": {
+    "en_GB": "Rector of the Vrije Universiteit of Amsterdam",
+    "nl_NL": "Rector van de Vrije Universiteit van Amsterdam"
   },
   "Sacerdote": {
     "en_GB": "Priest",
@@ -2023,6 +2047,10 @@
   "Tesoriere generale della Santa Sede": {
     "en_GB": "Thesaurarius general of the Apostolic Chamber",
     "nl_NL": "Thesaurier-generaal van de Apostolische Kamer"
+  },
+  "Uditore del Papa": {
+    "en_GB": "Auditor of the Pope",
+    "nl_NL": "Auditeur van de Paus"
   },
   "Uditore del Supremo Tribunale della Segnatura Apostolica": {
     "en_GB": "Auditor of the Supreme Tribunal of the Apostolic Signatura",

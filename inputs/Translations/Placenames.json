@@ -640,6 +640,14 @@
     "longitude": "9.21495",
     "nl_NL": "Cinisello"
   },
+  "Cisterna": {
+    "en_GB": "Cisterna",
+    "geonames_id": 3178634,
+    "geonames_wikipedia": null,
+    "latitude": "42.91667",
+    "longitude": "12.48333",
+    "nl_NL": "Cisterna"
+  },
   "Città del Capo": {
     "en_GB": "Cape Town",
     "geonames_id": 3369157,
@@ -1455,6 +1463,14 @@
     "latitude": "46.45493",
     "longitude": "-1.16629",
     "nl_NL": "Luçon"
+  },
+  "Maassluis": {
+    "en_GB": "Maassluis",
+    "geonames_id": 2751285,
+    "geonames_wikipedia": null,
+    "latitude": "51.92333",
+    "longitude": "4.25",
+    "nl_NL": "Maassluis"
   },
   "Maastricht": {
     "en_GB": "Maastricht",
