@@ -376,6 +376,10 @@
     "en_GB": "Counselor to the Duke of Nassau",
     "nl_NL": "Raadsheer van de Hertog van Nassau"
   },
+  "Consigliere della Legazione dell'Impero d'Austria a Roma": {
+    "en_GB": "Advisor to the Legation of the Empire of Austria in Rome",
+    "nl_NL": "Adviseur van het Gezantschap van het Keizerrijk Oostenrijk te Rome"
+  },
   "Consigliere di Stato": {
     "en_GB": "State advisor",
     "nl_NL": "Adviseur van de staat"
@@ -519,10 +523,6 @@
   "Console generale dell'Impero d'Austria ad Ancona": {
     "en_GB": "Consul general of the Empire of Austria in Ancona",
     "nl_NL": "Consul-generaal van het Keizerrijk Oostenrijk te Ancona"
-  },
-  "Consigliere della Legazione dell'Impero d'Austria a Roma": {
-    "en_GB": "Advisor to the Legation of the Empire of Austria in Rome",
-    "nl_NL": "Adviseur van het Gezantschap van het Keizerrijk Oostenrijk te Rome"
   },
   "Curatore d'arte del Museo statale delle Antichità di Leida": {
     "en_GB": "Curator of the Museum of Antiquities of Leiden",
@@ -1607,6 +1607,10 @@
   "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Sardegna": {
     "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
+  },
+  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Spagna": {
+    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Kingdom of Spain",
+    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Spanje"
   },
   "Presidente del Consiglio dei Ministri e Segretario di Stato dello Stato Pontificio": {
     "en_GB": "President of the council of ministers en Minister of Foreign Affairs of the Papel States",

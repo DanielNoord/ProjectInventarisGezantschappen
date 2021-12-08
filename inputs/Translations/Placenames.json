@@ -2759,5 +2759,13 @@
     "latitude": "52.5125",
     "longitude": "6.09444",
     "nl_NL": "Zwolle"
+  },
+  "Écija": {
+    "en_GB": "Écija",
+    "geonames_id": 2518770,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/%C3%89cija",
+    "latitude": "37.5422",
+    "longitude": " -5.0826",
+    "nl_NL": "Écija"
   }
 }
