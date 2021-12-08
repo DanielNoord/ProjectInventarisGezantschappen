@@ -5971,6 +5971,10 @@
       [
         "Ministro della Marina del Regno dei Paesi Bassi",
         "1861-03-14/1866-02-06"
+      ],
+      [
+        "Ministro ad interim degli Affari Esteri del Regno dei Paesi Bassi",
+        "1864-01-02/1864-03-15"
       ]
     ],
     "images": [
@@ -9488,29 +9492,41 @@
     "wikidata:id": "Q3635400"
   },
   "$Pacheco": {
-    "ISNI:id": null,
-    "comment_daniel": "ms316. Het enige wat ik kan verzinnen is dat “Gomez de Sandobal Mendoza” niet klopt. Maar de tijd van zijn aanstelling komt ook niet overeen met vermelding. Er moet iets fouts zijn maar weet niet wat.",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "ISNI:id": "0000 0000 6638 4343",
+    "comment_daniel": "(Comment Sigrid: dit gaat wss om Joaquín Francisco Pacheco - zijn handtekening online komt overeen met zijn handtekening in de brieven) ms316. Het enige wat ik kan verzinnen is dat “Gomez de Sandobal Mendoza” niet klopt. Maar de tijd van zijn aanstelling komt ook niet overeen met vermelding. Er moet iets fouts zijn maar weet niet wat.",
+    "date_of_birth": "1808-02-22",
+    "date_of_death": "1865-10-08",
     "functions": [
       [
+        "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Spagna",
+        "1847-03-28/1847-08-31"
+      ],
+      [
+        "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Spagna",
+        "1854-07-30/1854-11-29"
+      ],
+      [
         "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso la Santa Sede",
-        "/1847"
+        "1854-12/1855-05"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso la Santa Sede",
+        "1864-03-01/1864-09-16"
       ]
     ],
-    "images": [],
-    "name": "Juan Francisco",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [
-      "'Anexo:Embajadores de España ante la Santa Sede', in: Wikipedia, La enciclopedia libre (2020-08-08), found on: https://es.wikipedia.org/w/index.php?title=Anexo:Embajadores_de_Espa%C3%B1a_ante_la_Santa_Sede&oldid=128335881",
-      "Gaceta de Madrid, N. 4800 (Madrid, 1847-11-05)"
+    "images": ["https://www.rae.es/academico/joaquin-francisco-pacheco"],
+    "name": "Joaquín Francisco",
+    "person_type": 1,
+    "place_of_birth": "Écija",
+    "place_of_death": "Madrid",
+    "sources": [
+      "'Pacheco, Joaquín Francisco', a cura dell'Archivio del Senato di Spagna, found on: https://www.senado.es/web/conocersenado/senadohistoria/senado18341923/senadores/fichasenador/index.html?lang=es_ES&id1=2117",
+      "Montequi, Rafael Flaquer, 'Joaquín Francisco Pacheco y Gutiérrez Calderón', in: Real Academia de la Historia, found on: https://dbe.rah.es/biografias/7713/joaquin-francisco-pacheco-y-gutierrez-calderon"
     ],
-    "surname": "Pacheco Gomez de Sandobal Mendoza",
-    "titles": [],
-    "wikidata:id": null
+    "sources_other": [],
+    "surname": "Pacheco y Gutiérrez Calderón",
+    "titles": [["Cav.", null]],
+    "wikidata:id": "Q1397919"
   },
   "$Pagnoncelli": {
     "ISNI:id": null,
@@ -13449,7 +13465,7 @@
       "'Ferdinand von Verger', in: Wikipedia, Die freie Enzyklopädie (2021-02-23), found on: https://de.wikipedia.org/w/index.php?title=Ferdinand_von_Verger&oldid=209116681"
     ],
     "surname": "von Verger",
-    "titles": [],
+    "titles": [["Freiherr", null]],
     "wikidata:id": "Q15278534"
   },
   "$Vignale": {
