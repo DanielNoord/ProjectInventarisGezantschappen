@@ -528,6 +528,14 @@
     "longitude": "11.62487",
     "nl_NL": "Casola Valsenio"
   },
+  "Castelnuovo Nigra": {
+    "en_GB": "Castelnuovo Nigra",
+    "geonames_id": 3179516,
+    "geonames_wikipedia": null,
+    "latitude": "45.43816",
+    "longitude": " 7.69461",
+    "nl_NL": "Castelnuovo Nigra"
+  },
   "Caupo": {
     "en_GB": "Caupo",
     "geonames_id": 8951196,
@@ -1328,6 +1336,14 @@
     "longitude": "13.45934",
     "nl_NL": "Lenola"
   },
+  "Lent": {
+    "en_GB": "Lent",
+    "geonames_id": 2751714,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Lent%2C_Gelderland",
+    "latitude": "51.86167",
+    "longitude": "5.86667",
+    "nl_NL": "Lent"
+  },
   "Les Cayes": {
     "en_GB": "Les Cayes",
     "geonames_id": 3728097,
@@ -1640,6 +1656,14 @@
     "longitude": "9.27246",
     "nl_NL": "Monza"
   },
+  "Morelia": {
+    "en_GB": "Morelia",
+    "geonames_id": 3995402,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Morelia",
+    "latitude": "19.70078",
+    "longitude": " -101.18443",
+    "nl_NL": "Morelia"
+  },
   "Mosca": {
     "en_GB": "Moscow",
     "geonames_id": 524901,
@@ -1935,6 +1959,14 @@
     "latitude": "40.34872",
     "longitude": "-74.65905",
     "nl_NL": "Princeton"
+  },
+  "Rapallo": {
+    "en_GB": "Rapallo",
+    "geonames_id": 3169602,
+    "geonames_wikipedia": null,
+    "latitude": "44.3496",
+    "longitude": "9.22796",
+    "nl_NL": "Rapallo"
   },
   "Ravenna": {
     "en_GB": "Ravenna",
