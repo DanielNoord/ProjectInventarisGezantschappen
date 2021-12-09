@@ -140,6 +140,10 @@
     "en_GB": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)",
     "nl_NL": "“\\1” (Rome, Uffizio Centrale della Cività Cattolica, \\2)"
   },
+  "\"(.+)\" \\(San Martino in Vignale, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (San Martino in Vignale, \\2 Sep. \\3)",
+    "nl_NL": "“\\1” (San Martino in Vignale, \\2 sep. \\3)"
+  },
   "\"(.+)\" \\(Torino, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Turin, \\2 Mar. \\3)",
     "nl_NL": "“\\1” (Turijn, \\2 mrt. \\3)"
@@ -789,8 +793,8 @@
     "nl_NL": "Kopie van het rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
   },
   "Copia di lettera (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Copy of letter to \\2",
-    "nl_NL": "Kopie van brief aan \\2"
+    "en_GB": "Copy of a letter to \\2",
+    "nl_NL": "Kopie van een brief aan \\2"
   },
   "Copia di lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con l'annuncio che gli archivi dipendenti dal Consolato delle Repubblica delle Sette Province Unite a Genova gli saranno spediti dalla Legazione di Sardegna$": {
     "en_GB": "Copy of letter of \\2 to \\4 with the announcement that the archives of the Consulate of the Republic of the Seven United Netherlands in Genoa will be sent to him by the Legation of Sardinia",
@@ -831,6 +835,10 @@
   "Copia di una lettera (di|del|della) (\\$\\w+) (di|del|della) (\\$\\w+)$": {
     "en_GB": "Copy of a letter from \\2 by \\4",
     "nl_NL": "Kopie van een brief van \\2 door \\4"
+  },
+  "Copia di una lettera$": {
+    "en_GB": "Copy of a letter",
+    "nl_NL": "Kopie van een brief"
   },
   "Copia di una nota della polizia di Milano inviata al Console$": {
     "en_GB": "Copy of a note from the police of Milan sent to the Consul",
@@ -1256,6 +1264,10 @@
     "en_GB": "Extract from a copy of a letter of \\2",
     "nl_NL": "Uittreksel van kopie van een brief van \\2"
   },
+  "Estratto di una lettera (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Extract of a letter to \\2",
+    "nl_NL": "Extract van een brief aan \\2"
+  },
   "Estratto di una lettera apostolica$": {
     "en_GB": "Extract of an apostolic letter",
     "nl_NL": "Extract van een apostolische brief"
@@ -1288,9 +1300,17 @@
     "en_GB": "Handwritten extract from Il Giornale di Roma",
     "nl_NL": "Hangeschreven uittreksel van Il Giornale di Roma"
   },
+  "Estratto manoscritto dal Journal de la Haye$": {
+    "en_GB": "Handwritten extract from the Journal de la Haye",
+    "nl_NL": "Handgeschreven uittreksel uit het Journal de la Haye"
+  },
   "Estratto manoscritto dal Journal des Débats$": {
     "en_GB": "Handwritten extract from the Journal des Débats",
     "nl_NL": "Handgeschreven uittreksel uit de Journal des Débats"
+  },
+  "Estratto$": {
+    "en_GB": "Extract",
+    "nl_NL": "Uittreksel"
   },
   "Etat de Mouvemens operés par les Batimens Néerlandais dans le Port de Génes, pendant le second semestre de l'an 1819$": {
     "en_GB": "Etat de Mouvemens operés par les Batimens Néerlandais dans le Port de Génes, pendant le second semestre de l'an 1819",
@@ -1412,13 +1432,25 @@
     "en_GB": "Printed sheet “\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa il divieto di estrazione all'estero dei cereali \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 concerning the prohibition on the exportation of grain (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande het verbod op het exporteren van graan (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa il pagamento dei crediti verso l'Erario \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 about the payment of claims to the treasury (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de aflossing van de schuldverordeningen aan de schatkist (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa l'introduzione esente dal dazio, nello Stato Pontificio, dei cereali di provenienza estera \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 concerning the tax-exempt introduction of grain of foreign origin into the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande de belastingsvrije introductie van graan van buitenlandse herkomst in de Pauselijke Staat (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa la consegna delle armi da fuoco, da taglio e da punta \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” by \\3 concerning the delivery of firearms, sidearms and pointed weapons (Rome, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande de levering van vuurwapens, handwapens en scherpe wapens (Rome, \\2 sep. \\3)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa la costituzione di un Consiglio di Censura per vigilare sulla stampa \\(Roma, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” by \\3 concerning the constitution of a Council of Censure to monitor the press (Rome, \\2 Mar. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande de stichting van een Raad van Censuur om toezicht te houden op de Pers (Rome, \\2 mrt. \\3)"
   },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa la normativa della segnalazione dei navigli pontifici \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 about the regulations of the signalling of pontifical vessels (Rome, Tipografia della Rev. Cam. Apost., \\4)",
@@ -1427,6 +1459,18 @@
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa le tariffe daziarie a favore dei fabbricatori di panni di lana \\(Roma, Stamperia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\2 about the tariff rates for woolen cloth manufacturers (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "nl_NL": "Gedrukt blad “\\1” from \\2 over de accijns voor wollen stoffen fabrikanten (Rome, Stamperia della Rev. Cam. Apost., \\3)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) contro il danneggiamento dell'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 against the corruption of the public order (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 tegen de ontwrichting van de publieke orde (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) contro la stampa clandestina \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 against the underground press (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 tegen de illegale pers (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) sulla imposizione delle tariffe dei cereali \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 about the imposition of tariffs on grain (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 over de oplegging van tarieven op graan (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) sulla riscossione di nuove tasse sull'esercizio delle professioni, arti, mestieri, industrie e commerci \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 about the collection of the new taxes on the exercise of professions, arts, trade, industries and commerce (Rome, Tipografia della Rev. Cam. Apost., \\4)",
@@ -1567,6 +1611,10 @@
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 about the public order (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de publieke orde (Rome, Tipografia della Rev. Cam. Apost., \\4 jul. \\5)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” of \\3 about the public order (Rome, Tipografia della Rev. Cam. Apost., \\4 Sep. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 over de publieke orde (Rome, Tipografia della Rev. Cam. Apost., \\4 sep. \\5)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa lo spostamento di alcune feste \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 concerning the postponement of several feasts (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
@@ -2728,6 +2776,10 @@
     "en_GB": "Circulaire of \\2 to \\4",
     "nl_NL": "Circulaire van \\2 aan \\4"
   },
+  "Lettera circolare (di|del|della) (\\$\\w+) \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Circulaire of \\2 (Rome, \\3 Apr. \\4)",
+    "nl_NL": "Circulaire van \\2 (Rome \\3 apr. \\4)"
+  },
   "Lettera circolare (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Circulaire of \\2 (printed)",
     "nl_NL": "Circulaire van \\2 (gedrukt)"
@@ -3760,6 +3812,10 @@
     "en_GB": "Memorandum",
     "nl_NL": "Memorandum"
   },
+  "Prose e Poesia dell'avv. Tommasso Zauli Sajani lette nel Prazo Nazionale nel teatro Alibert \\(a stampa\\)$": {
+    "en_GB": "Prose and Poetry of Tomasso Zauli Sajani read in the Prazo Nazionale of the Alibert theatre (printed)",
+    "nl_NL": "Proza en Poezië van mr. Tomasso Zauli Sajani gelezen in het Prazo Nazionale van het Alibert theater (gedrukt)"
+  },
   "Prospetto dei movimenti effettuati nel porto di Ancona$": {
     "en_GB": "Prospectus of the movements occuring in the port of Ancona",
     "nl_NL": "Prospectus van de verplaatsingen die zich voor hebben gedaan in de poort van Ancona"
@@ -3771,6 +3827,10 @@
   "Prospetto delle cariche e delle attività svolte dal (\\$\\w+)$": {
     "en_GB": "Prospectus of the charges and activities carried out by \\1",
     "nl_NL": "Prospectus van de kosten en activiteiten uitgevoerd door \\1"
+  },
+  "Protesta (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Protest from \\2",
+    "nl_NL": "Protest van\\2"
   },
   "Protesta a stampa (di|del|della) (\\$\\w+) \\(Gaeta, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed protest from \\2 (Gaeta, \\2 Jan. \\3)",
@@ -4228,6 +4288,10 @@
     "en_GB": "Translation of “\\1” from \\3",
     "nl_NL": "Vertaling van “\\1” van \\3)"
   },
+  "Traduzione del \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of “\\1” (\\2)",
+    "nl_NL": "Vertaling van “\\1” (\\2)"
+  },
   "Traduzione del \"(.+)\"$": {
     "en_GB": "Translation of “\\1”",
     "nl_NL": "Vertaling van “\\1”"
@@ -4304,6 +4368,14 @@
     "en_GB": "Translation of a printed notice",
     "nl_NL": "Vertaling van een gedrukte melding"
   },
+  "Traduzione della \"(.+)\" (di|del|della) (\\$\\w+) circa il divieto di estrazione all'estero dei cereali \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of the “\\1” from \\3 concerning the prohibition on the exportation of grain (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Vertaling van de “\\1” van \\3 aangaande het verbod op het exporteren van graan (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Traduzione della \"(.+)\"$": {
+    "en_GB": "Translation of the “\\1”",
+    "nl_NL": "Vertaling van de “\\1”"
+  },
   "Traduzione della \"Protesta che la Santità di N. S. Pio PP. IX circondato dal Sacro Collegio ha fatto in Gaeta innanzi al Corpo Diplomatico la mattina del 14 febbraio 1849\"$": {
     "en_GB": "Translation of the \"Protest that His Holiness of Our Lord Pope Pius IX surrounded by the Sacred College made in Gaeta before the Diplomatic Corps on 14 February 1849\"",
     "nl_NL": "Vertaling van het \"Protest dat Zijne Heiligheid van Onze Heer Paus Pius IX, omringd door het Heilige College, maakte in Gaeta voor het Corps Diplomatique op 14 februari 1849\""
@@ -4352,6 +4424,10 @@
     "en_GB": "Translation of the printed letter of \\2",
     "nl_NL": "Vertaling van de gedrukte brief van \\2"
   },
+  "Traduzione della lettera circolare (di|del|della) (\\$\\w+) \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of the circulaire of \\2 (Rome, \\3 Apr. \\4)",
+    "nl_NL": "Vertaling van de circulaire van \\2 (Rome \\3 apr. \\4)"
+  },
   "Traduzione della lettera dei membri della Magistratura Romana (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of the letter from the members of the Roman Magistrate to \\2",
     "nl_NL": "Vertaling van de brief van de leden van de Romeinse Magistratuur aan \\2"
@@ -4359,6 +4435,10 @@
   "Traduzione della notificazione della commissione governativa di stato \\(a stampa\\)$": {
     "en_GB": "Translation of the notification of the commissione governativa di stato (printed)",
     "nl_NL": "Vertaling van de melding van de commissione governativa di stato (gedrukt)"
+  },
+  "Traduzione della “(.+)” (di|del|della) (\\$\\w+) circa l'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of the “\\1” of \\3 about the public order (Rome, Tipografia della Rev. Cam. Apost., \\4 Sep. \\5)",
+    "nl_NL": "Vertaling van de “\\1” van \\3 over de publieke orde (Rome, Tipografia della Rev. Cam. Apost., \\4 sep. \\5)"
   },
   "Traduzione della “(.+)” circa il perdono delle pene da parte della Santa Sede \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Tramslation of “\\1” concerning the pardon of penalisation by the Holy See (Rome, \\2 Sep. \\3)",
@@ -4404,6 +4484,10 @@
     "en_GB": "Translation of an edict signed by \\2",
     "nl_NL": "Vertaling van een edict getekend door \\2"
   },
+  "Traduzione di un appello del popolo di Napoli$": {
+    "en_GB": "Translation of an appeal from the people of Naples",
+    "nl_NL": "Vertaling van een appel van het volk van Napels"
+  },
   "Traduzione di un articolo apparso sul Giornale di Roma martedì (\\d\\d?) ott. (\\d\\d\\d\\d)$": {
     "en_GB": "Translation of an article the appeared in the Giornale di Roma on Tuesday \\1 Oct. \\2",
     "nl_NL": "Vertaling van een artikel dat verscheen in de Giornale di Roma op dinsdag \\1 okt. \\2"
@@ -4423,6 +4507,10 @@
   "Traduzione di un articolo estratto da “(.+)”$": {
     "en_GB": "Translation of an extract of an article from “\\1”",
     "nl_NL": "Vertaling van een uittreksel van een artikel uit “\\1”"
+  },
+  "Traduzione di un estratto del giornale a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Translation of an extract from the printed newspaper “\\1” (N. \\2 of \\3 Nov. \\4)",
+    "nl_NL": "Vertaling van een extract uit het geprinte nieuwsblad “\\1” (N. \\2 van \\3 nov. \\4)"
   },
   "Traduzione di un estratto della Gazetta Piemontese con supplica (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of an extract from the Gazetta Piemontese with a plea to \\2",
@@ -4740,9 +4828,21 @@
     "en_GB": "Transcription of a notice by \\2 about the Legation of the Kingdom of the Netherlands",
     "nl_NL": "Transcriptie van een notificatie van \\2 over het Gezantschap van het Koninkrijk der Nederlanden"
   },
+  "Trascrizione e traduzione del \"(.+)\" \\(Napoli, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Transcription and translation of “\\1” (\\2 Aug. \\3)",
+    "nl_NL": "Transcriptie en vertaling van “\\1” (\\2 aug. \\3"
+  },
   "Trascrizione e traduzione del \"(.+)\"$": {
     "en_GB": "Transcription and translation of “\\1”",
     "nl_NL": "Transcriptie en vertaling van “\\1”"
+  },
+  "Trascrizione e traduzione del Giornale di Napoli$": {
+    "en_GB": "Transcription and translation of the Giornale di Napoli",
+    "nl_NL": "Transcriptie en vertaling van de Giornale di Napoli"
+  },
+  "Trascrizione e traduzione dell'Editto (di|del|della) (\\$\\w+) sulla stampa clandestina$": {
+    "en_GB": "Transcription and translation of the edict of \\2 about the underground press",
+    "nl_NL": "Transcriptie en vertaling van het edict van \\2 over de illegale pers"
   },
   "Trascrizione e traduzione della seduta della Camera dei Deputati relativa alla Lombardia$": {
     "en_GB": "Transcription and translation of a sitting of the Chamber of Deputies pertaining to Lombardy",
@@ -4751,6 +4851,10 @@
   "Trascrizione e traduzione di Notizie del giorno$": {
     "en_GB": "Transcription and translation of Daily news",
     "nl_NL": "Transcriptie en vertaling van Dagelijks nieuws"
+  },
+  "Trascrizione e traduzione di un supplemento del Diario di Roma \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Transcription and translation of a supplement to of the Diario di Roma (\\1 Aug. \\2)",
+    "nl_NL": "Transcriptie en vertaling van een bijlage bij de Diario di Roma (\\1 aug. \\2)"
   },
   "Trascrizione e traduzione di una notificazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription and translation of a notification of \\2",
