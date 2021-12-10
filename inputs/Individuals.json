@@ -72,6 +72,32 @@
     "titles": [],
     "wikidata:id": "Q3665316"
   },
+  "$Aguilar": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1813-09-25",
+    "date_of_death": "1884-03-28",
+    "functions": [
+      [
+        "Ministro plenipotenziario del Secondo Impero Messicano presso la Santa Sede",
+        "1864-04-10/1865-07"
+      ]
+    ],
+    "images": [
+      "https://mexicana.cultura.gob.mx/en/repositorio/detalle?id=_suri:INEHRM:TransObject:5bcbda667a8a0222ef147e82"
+    ],
+    "name": "Ignacio",
+    "person_type": 1,
+    "place_of_birth": "Morelia",
+    "place_of_death": "Città di Messico",
+    "sources": [],
+    "sources_other": [
+      "https://acervo.sre.gob.mx/index.php/embajadores-de-mexico?id=187"
+    ],
+    "surname": "Aguilar y Marocho",
+    "titles": [],
+    "wikidata:id": "Q5913057"
+  },
   "$Ahn": {
     "ISNI:id": null,
     "comment_daniel": "Hij was de archivaris van de Kanselarij in Den Haag, welke de ridderordes overziet. Ahn hoorde bij de Orde van de Eikenkroon, maar ik heb nog geen bron buiten Wikipedia",
@@ -446,7 +472,7 @@
     "date_of_birth": "1813-01-04",
     "date_of_death": "1893-11-12",
     "functions": [
-      ["Ministro di Giustizia dell'Impero d'Austria", "1848-07-18/1849-05"],
+      ["Ministro della Giustizia dell'Impero d'Austria", "1848-07-18/1849-05"],
       [
         "Ministro degli Affari Interni dell'Impero d'Austria",
         "1849-06-28/1859-08-21"
@@ -896,6 +922,37 @@
     "surname": "Bégré",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Beijerinck": {
+    "ISNI:id": "0000 0003 9243 6137",
+    "comment_daniel": "",
+    "date_of_birth": "1800-12-04",
+    "date_of_death": "1874-03-26",
+    "functions": [
+      [
+        "Ingegnere prinicpale del Rijkswaterstaat nella regione della Zelanda",
+        "1854-07-01/1858"
+      ],
+      [
+        "Ingegnere prinicpale del Rijkswaterstaat nella regione dell'Olanda del Sud",
+        "1858-04-01/1866-04"
+      ]
+    ],
+    "images": [
+      "http://www.beijerinckgemaal.nl/wp-content/uploads/2015/04/jan-anne-beijerinck.jpg"
+    ],
+    "name": "Jan Anne",
+    "person_type": 1,
+    "place_of_birth": "Lent",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Jan Anne Beijerinck', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/15765800",
+      "Ramaer, J.C., 'Beijerinck (Jan Anne)', in: P.J. Blok en P.C. Molhuysn (red.), Nieuw Nederlandsch Biografisch Woordenboek, deel 1 (A.W. Sijthoff: Leiden, 1911)"
+    ],
+    "sources_other": [],
+    "surname": "Beijerinck",
+    "titles": [],
+    "wikidata:id": "Q15222315"
   },
   "$Belgrado": {
     "ISNI:id": "0000 0003 9170 4646",
@@ -2359,7 +2416,7 @@
   },
   "$CanitzIA": {
     "ISNI:id": "0000 0000 1401 5570",
-    "comment_daniel": "Ik vind het erg onwaarschijnlijk dat er een “de Canitz” zaakgelastigde van Nederland was zoals vermeld wordt in archief: 1) in de periode van vermelding was er een Canitz zaakgelastigde van Pruissen, 2) wordt er een von Canitz kamerheer van Pruissen genoemd in het archief, 3) is Liedekerke gezant van Nederland. Dit lijkt dus de zoon van bovengenoemde die inderdaad gezant was.",
+    "comment_daniel": "(Comment Sigrid: Canitz was in elk geval in 1845 ook al gezant in Rome, zie annuario pontificio van dat jaar. Hij komt dan ook voor in het archief, zie ms291). Ik vind het erg onwaarschijnlijk dat er een “de Canitz” zaakgelastigde van Nederland was zoals vermeld wordt in archief: 1) in de periode van vermelding was er een Canitz zaakgelastigde van Pruissen, 2) wordt er een von Canitz kamerheer van Pruissen genoemd in het archief, 3) is Liedekerke gezant van Nederland. Dit lijkt dus de zoon van bovengenoemde die inderdaad gezant was.",
     "date_of_birth": "1812",
     "date_of_death": "1894",
     "functions": [
@@ -2425,6 +2482,23 @@
     ],
     "surname": "Cappa",
     "titles": [["avv.", null]],
+    "wikidata:id": null
+  },
+  "$Cappello": {
+    "ISNI:id": null,
+    "comment_daniel": "Ondertekent met S. Cav. Cappello, gaat over Tosti die afstand doet van de post van thesaurier.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 4,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Cappello",
+    "titles": [["Cav.", null]],
     "wikidata:id": null
   },
   "$Capri": {
@@ -3026,6 +3100,23 @@
       ["conte", null]
     ],
     "wikidata:id": "Q1131525"
+  },
+  "$Cleef": {
+    "ISNI:id": null,
+    "comment_daniel": "Weduwe van Hendrikus van Haaf (Tiel)",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Catharina",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van Cleef-van Haaf",
+    "titles": [],
+    "wikidata:id": null
   },
   "$ClementeXII": {
     "ISNI:id": "0000 0001 2138 9404",
@@ -3687,6 +3778,25 @@
     ],
     "sources_other": [],
     "surname": "Dodero",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Donner": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi a Palermo", null]],
+    "images": [],
+    "name": "Alfredo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Gazzetta ufficiale del Regno d'Italia (1879), p. 516, found on: https://books.google.nl/books?id=8nZWjhZ9IRcC&dq=alfredo+donner+console+palermo&hl=nl&source=gbs_navlinks_s"
+    ],
+    "surname": "Donner",
     "titles": [],
     "wikidata:id": null
   },
@@ -4812,6 +4922,35 @@
     "titles": [],
     "wikidata:id": "Q15629084"
   },
+  "$Gattinara": {
+    "ISNI:id": "0000 0000 0271 0242",
+    "comment_daniel": "",
+    "date_of_birth": "1807-04-30",
+    "date_of_death": "1869-01-23",
+    "functions": [
+      [
+        "Prefetto di palazzo e gran maestro delle cerimonie del Re d'Italia",
+        "1860/1864"
+      ]
+    ],
+    "images": [],
+    "name": "Ferdinando",
+    "person_type": 1,
+    "place_of_birth": "Milano",
+    "place_of_death": "Firenze",
+    "sources": [
+      "'Arborio Gattinara di Breme Ferdinando', a cura dell'Archivio Storico del Senato della Repubblica, found on: http://notes9.senato.it/web/senregno.nsf/9a9ed8f00e7e7ad6c12570000030610a/bb67770bda9d1677c125706900318658?OpenDocument",
+      "Bernardi, Marziano, 'Breme, Ferdinando Arborio Gattinara duca di Sartirana marchese di', in: Dizionario Biografico degli Italiani. Volume 14 (Rome, Treccani, 1972), found on: https://www.treccani.it/enciclopedia/ferdinando-arborio-gattinara-duca-di-sartirana-marchese-di-breme_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Arborio Gattinara di Breme",
+    "titles": [
+      ["marchese di Breme", null],
+      ["Cav.", null],
+      ["duca di Sartirana", "1867-05-26/"]
+    ],
+    "wikidata:id": "Q3068710"
+  },
   "$Gazzelli": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -5201,7 +5340,7 @@
         null
       ],
       [
-        "Ministro di Giustizia del Regno dei Paesi Bassi",
+        "Ministro della Giustizia del Regno dei Paesi Bassi",
         "1860-03-09/1862-02-01"
       ]
     ],
@@ -6307,6 +6446,32 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$King": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1814-01-26",
+    "date_of_death": "1876-10-13",
+    "functions": [
+      ["Aiutante generale di New York City", "1840/1844"],
+      [
+        "Ministro residente degli Stati Uniti d'America presso la Santa Sede",
+        "1863-10-07/1867-01-08"
+      ]
+    ],
+    "images": ["http://loc.gov/pictures/resource/cwpbh.01057/"],
+    "name": "Rufus",
+    "person_type": 1,
+    "place_of_birth": "New York City",
+    "place_of_death": "New York City",
+    "sources": [
+      "'King, Gen. Rufus (1814-1876)', a cura di Wisconsin Historical Society, found on: https://www.wisconsinhistory.org/Records/Article/CS2379",
+      "'Rufus King (1814–1876)', Office of the Historian, found on: https://history.state.gov/departmenthistory/people/king-rufus2"
+    ],
+    "sources_other": [],
+    "surname": "King",
+    "titles": [],
+    "wikidata:id": "Q7378068"
+  },
   "$Kisseleff": {
     "ISNI:id": "0000 0000 8102 6798",
     "comment_daniel": "Hoe willen we deze Russische naam schrijven? Zijn wel 100 mogelijkheden..",
@@ -6330,6 +6495,28 @@
     "surname": "Kiseljov",
     "titles": [["conte", null]],
     "wikidata:id": "Q717801"
+  },
+  "$Kleist": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1821-03-23",
+    "date_of_death": "1892-01-14",
+    "functions": [
+      ["Ciambellano del Re di Sassonia", null],
+      ["Ministro residente del Regno di Sassonia presso la Santa Sede", null]
+    ],
+    "images": [],
+    "name": "Ewald Heinrich Erdmann Bogislaff",
+    "person_type": 1,
+    "place_of_birth": "Tychowo",
+    "place_of_death": "Frankfurt",
+    "sources": [],
+    "sources_other": [
+      "'Die v. Kleist auf Wendisch-Tychow', found on: https://v-kleist.com/Wendisch-Tychow/tychowbuch62.htm"
+    ],
+    "surname": "von Kleist-Wendisch Tychow",
+    "titles": [["conte", null]],
+    "wikidata:id": "Q1382824"
   },
   "$Koelman": {
     "ISNI:id": "0000 0000 6924 3239",
@@ -8898,6 +9085,25 @@
     "titles": [],
     "wikidata:id": "Q57302"
   },
+  "$Navarro": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Vice-console del Regno dei Paesi Bassi a Terranova", null]],
+    "images": [],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Nederlandsche residentie-almanak, vol. 4 (Gebroeders Belinfante: Den Haag, 1871), p. 106"
+    ],
+    "surname": "Navarro",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$NavoniContessa": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -8997,6 +9203,55 @@
     "surname": "Ney",
     "titles": [],
     "wikidata:id": "Q3047474"
+  },
+  "$Nigra": {
+    "ISNI:id": "0000 0001 1658 5291",
+    "comment_daniel": "",
+    "date_of_birth": "1828-06-11",
+    "date_of_death": "1907-07-01",
+    "functions": [
+      [
+        "Segretario di Camillo Benso conte di Cavour a Londra e a Parigi",
+        "1855-11/1856-04"
+      ],
+      ["Vice-console del Regno d'Italia a Parigi", "1858-03-25/1859-03"],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Parigi",
+        "1861-01-01/1861"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Pietroburgo",
+        "1876-05-05/1882"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Londra",
+        "1882-11-11/1885"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Vienna",
+        "1885-11-09/"
+      ]
+    ],
+    "images": [
+      "https://www.wikidata.org/wiki/Q962574#/media/File:Costantino_Nigra_BNF_Gallica.jpg",
+      "https://www.npg.org.uk/collections/search/portrait/mw04683/Count-Constantino-Nigra?LinkID=mp03299&search=sas&sText=nigra&OConly=true&role=sit&rNo=0",
+      "https://www.getty.edu/art/collection/objects/137169/andre-adolphe-eugene-disderi-le-comte-nigra-french-1862/"
+    ],
+    "name": "Lorenzo Annibale Costantino",
+    "person_type": 0,
+    "place_of_birth": "Castelnuovo Nigra",
+    "place_of_death": "Rapallo",
+    "sources": [
+      "'Nigra Costantino', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/2de3ff09bb1b6a2ec125785d0059b162/7d425b1a4b26b7e24125646f005ddb68?OpenDocument",
+      "Levra, Umberto, 'Nigra, Costantino', in: Dizionario Biografico degli Italiani. Volume 78 (Rome, Treccani, 2013), found on: https://www.treccani.it/enciclopedia/costantino-nigra_(Dizionario-Biografico)/"
+    ],
+    "sources_other": [],
+    "surname": "Nigra",
+    "titles": [
+      ["Cav.", null],
+      ["conte di Villa Castelnuovo", "1882-12-21/"]
+    ],
+    "wikidata:id": "Q962574"
   },
   "$Nigrisoli": {
     "ISNI:id": "0000 0000 6247 4704",
@@ -9172,6 +9427,42 @@
     "surname": "d'Olimart",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Olivier": {
+    "ISNI:id": "0000 0003 8751 6802",
+    "comment_daniel": "",
+    "date_of_birth": "1808-08-01",
+    "date_of_death": "1869-11-12",
+    "functions": [
+      [
+        "Fondatore e direttore della giornale Themis, Regtskundig Tijdschrift",
+        "1839/1854"
+      ],
+      [
+        "Ministro della Giustizia del Regno dei Paesi Bassi",
+        "1862-02-01/1866-02-10"
+      ],
+      [
+        "Ministro ad interim delle Finanze del Regno dei Paesi Bassi",
+        "1865-11-27/1866-02-10"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Nicolaas_Olivier.jpg"
+    ],
+    "name": "Nicolaas",
+    "person_type": 1,
+    "place_of_birth": "Utrecht",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Nicolaas Olivier', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/28923897",
+      "Redactie parlement.com, 'Mr. N. Olivier', found on: https://www.parlement.com/id/vg09ll3s2vyz/n_olivier",
+      "Santen, J. H. von, 'Olivier, Nicolaas (1808-1869)', in: Biografisch Woordenboek van Nederland, found on: http://resources.huygens.knaw.nl/bwn1880-2000/lemmata/bwn4/olivin"
+    ],
+    "sources_other": [],
+    "surname": "Olivier",
+    "titles": [],
+    "wikidata:id": "Q2686313"
   },
   "$OostenrijkMA": {
     "ISNI:id": "0000 0000 7034 3421",
@@ -10284,6 +10575,43 @@
     ],
     "surname": "Provana del Sabione",
     "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
+  "$Pulido": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Ministro plenipotenziario della Repubblica del Venezuela agli Stati Uniti d'America",
+        "1851/1852"
+      ],
+      [
+        "Ministro plenipotenziario della Repubblica del Venezuela presso l'Impero di Francia e il Regno Unito",
+        "1853/"
+      ],
+      [
+        "Ministro plenipotenziario della Repubblica del Venezuela presso la Santa Sede",
+        "1862/1864"
+      ],
+      [
+        "Ministro plenipotenziario della Repubblica del Venezuela presso il Regno dei Paesi Bassi",
+        "1871/"
+      ]
+    ],
+    "images": [],
+    "name": "Lucio",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Register of the Department of State in Four Parts (Government Printing Office: Washington, 1874), p. 125",
+      "Rosales, Manuel Landaeta, Los Venezolanos en el Exterior (Tip. J. M. Herrera Irigoyen: Caracas, 1903), found on: https://upload.wikimedia.org/wikipedia/commons/9/9e/Los_Venezolanos_en_el_exterior_%28IA_losvenezolanosen00land%29.pdf"
+    ],
+    "surname": "Pulido",
+    "titles": [],
     "wikidata:id": null
   },
   "$Quaedvlieg": {
