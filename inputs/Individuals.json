@@ -268,6 +268,23 @@
     "titles": [],
     "wikidata:id": "Q55225076"
   },
+  "$Angelis": {
+    "ISNI:id": null,
+    "comment_daniel": "Wordt genoemd in vol. 17, maar het kan om meerder personen gaan.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 5,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "De Angelis",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Annibaldi": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3988,6 +4005,48 @@
     "titles": [["Cav.", null]],
     "wikidata:id": null
   },
+  "$Emery": {
+    "ISNI:id": "0000 0001 1561 2753",
+    "comment_daniel": "Carlo Emery-Coen's real neam was Johan Cohen; he used Coen when he stayed in Naples",
+    "date_of_birth": "1806-04-21",
+    "date_of_death": "1880-05-17",
+    "functions": [
+      ["Compositore", null],
+      ["Numismatico", null]
+    ],
+    "images": ["https://gallica.bnf.fr/ark:/12148/btv1b105244781"],
+    "name": "Henry",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Bry-sur-Marne",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Cohen",
+    "titles": [],
+    "wikidata:id": "Q670238"
+  },
+  "$Engelhart": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "1863-05-07",
+    "functions": [
+      ["Viceré della Lombardia e Venezia", null],
+      ["Tenente del feldmaresciallo", null]
+    ],
+    "images": [],
+    "name": "Alexander",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "Vienna",
+    "sources": [
+      "'Engelhartt-Schnellenstein', in: von Wurzbach, Constant (red.), Biographisches Lexikon des Kaiserthums Oesterreich, vol. 24 (Verlag der Universitäts-Buchdruckerei von L.C. Zamarski: Wien, 1872), pp. 402-403"
+    ],
+    "sources_other": [],
+    "surname": "Engelhardt von Schnellenstein",
+    "titles": [["Freiherr", null]],
+    "wikidata:id": "Q94617937"
+  },
   "$Enslie": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -5248,6 +5307,25 @@
     "surname": "de Girardin",
     "titles": [["Cav.", "1842-08-24/"]],
     "wikidata:id": "Q286644"
+  },
+  "$Girometti": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1780-10-07",
+    "date_of_death": "1851-11-17",
+    "functions": [["Incisiore e medaglista", null]],
+    "images": [],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Roma",
+    "place_of_death": "Roma",
+    "sources": [
+      "Stefanelli, Lucia Pirzio Biroli, 'Girometti, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 56 (Rome, Treccani, 2001), found on: https://www.treccani.it/enciclopedia/giuseppe-girometti_(Dizionario-Biografico)"
+    ],
+    "sources_other": [],
+    "surname": "Girometti",
+    "titles": [["Cav.", null]],
+    "wikidata:id": "Q1339913"
   },
   "$Giroud": {
     "ISNI:id": null,
@@ -13358,23 +13436,6 @@
     "titles": [],
     "wikidata:id": null
   },
-  "$TuyllCB": {
-    "ISNI:id": null,
-    "comment_daniel": "Grote kans dat dit ook Willem René Tuyll van Serooskerken {1813/1878} is, maar zonder extra informatie vind ik deze niet",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [["Ciambellano del Re dei Paesi Bassi", null]],
-    "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
-    "surname": "Tuyll van Serooskerken",
-    "titles": [["barone", null]],
-    "wikidata:id": null
-  },
   "$TuyllGC": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -13404,10 +13465,11 @@
   },
   "$TuyllGMK": {
     "ISNI:id": "0000 0003 9581 6645",
-    "comment_daniel": "",
+    "comment_daniel": "Polvliet schrijft dat Willem overleed in april 1888 te Zutphen en geboren werd op 18 december in plaats van januari",
     "date_of_birth": "1813-01-18",
     "date_of_death": "1878-10-29",
     "functions": [
+      ["Ciambellano del Re dei Paesi Bassi", "1839/"],
       [
         "Gran maestro della Regina Madre dei Paesi Bassi {Anna Pavlovna di Russia}",
         "/1865-03-01"
@@ -13430,10 +13492,14 @@
     ],
     "sources_other": [
       "Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-01",
-      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, document number: 2.3.28"
+      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, document number: 2.3.28",
+      "Polvliet, Christiaan Johan, Genealogie van het geslacht van Tuyll van Serooskerken en van de overige, uitgestorven, takken van het geslacht van Tuyll (Genealogisch-Heraldisch Archief: Oisterwijk, 1894), p. 39"
     ],
     "surname": "Tuyll van Serooskerken",
-    "titles": [["barone", null]],
+    "titles": [
+      ["barone", null],
+      ["Cav.", null]
+    ],
     "wikidata:id": "Q76244474"
   },
   "$Ugolini": {
