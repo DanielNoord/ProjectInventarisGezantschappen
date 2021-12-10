@@ -964,6 +964,10 @@
     "en_GB": "Chargé d'affaires and later envoy of the Kingdom of the Netherlands to the Kingdom of Sardinia",
     "nl_NL": "Zaakgelastigde en later gezant van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië"
   },
+  "Incisiore e medaglista": {
+    "en_GB": "Engraver and medallist",
+    "nl_NL": "Graveur en medailleur"
+  },
   "Ingegnere prinicpale del Rijkswaterstaat nella regione dell'Olanda del Sud": {
     "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in South Holland",
     "nl_NL": "Hoofdingenieur van Rijkswaterstaat bij de regio Zuid-Holland"
@@ -1547,6 +1551,10 @@
   "Negoziante": {
     "en_GB": "Shopkeeper",
     "nl_NL": "Winkelier"
+  },
+  "Numismatico": {
+    "en_GB": "Numismatist",
+    "nl_NL": "Numismaat"
   },
   "Nunzio a Madrid": {
     "en_GB": "Apostolic nuncio in Madrid",
@@ -2255,5 +2263,9 @@
   "Vice-presidente del Magistrato di Sanità di Genova": {
     "en_GB": "Vice-president of the _Magistrato di Sanità_ of Genoa",
     "nl_NL": "Vice-president van het _Magistrato di Sanità_ van Genua"
+  },
+  "Viceré della Lombardia e Venezia": {
+    "en_GB": "Viceroy of Lombardy and Venice",
+    "nl_NL": "Onderkoning van Lombardije en Venetië"
   }
 }
