@@ -13469,11 +13469,11 @@
     "date_of_birth": "1813-01-18",
     "date_of_death": "1878-10-29",
     "functions": [
-      ["Ciambellano del Re dei Paesi Bassi", "1839/"],
       [
         "Gran maestro della Regina Madre dei Paesi Bassi {Anna Pavlovna di Russia}",
         "/1865-03-01"
-      ]
+      ],
+      ["Ciambellano del Re dei Paesi Bassi", "1839/"]
     ],
     "images": [
       "https://rkd.nl/explore/images/126453",
@@ -13492,8 +13492,8 @@
     ],
     "sources_other": [
       "Koninklijke Verzamelingen, The Hague, Archive: Thesaurie, inventory number E08-II-01",
-      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, document number: 2.3.28",
-      "Polvliet, Christiaan Johan, Genealogie van het geslacht van Tuyll van Serooskerken en van de overige, uitgestorven, takken van het geslacht van Tuyll (Genealogisch-Heraldisch Archief: Oisterwijk, 1894), p. 39"
+      "Polvliet, Christiaan Johan, Genealogie van het geslacht van Tuyll van Serooskerken en van de overige, uitgestorven, takken van het geslacht van Tuyll (Genealogisch-Heraldisch Archief: Oisterwijk, 1894), p. 39",
+      "Stadsarchief Utrecht, Utrecht, 'Huis Zuilen', inventory number: 76, document number: 2.3.28"
     ],
     "surname": "Tuyll van Serooskerken",
     "titles": [
