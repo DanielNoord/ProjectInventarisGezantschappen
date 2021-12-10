@@ -235,6 +235,11 @@
     "nl_NL": "hertog van Santa Cristina",
     "position": "After"
   },
+  "duca di Sartirana": {
+    "en_GB": "duke of Sartirana",
+    "nl_NL": "hertog van Sartirana",
+    "position": "After"
+  },
   "duca di Sermoneta": {
     "en_GB": "duke of Sermoneta",
     "nl_NL": "hertog van Sermoneta",
@@ -268,6 +273,11 @@
   "marchese di Belmonte": {
     "en_GB": "Marquess of Belmonte",
     "nl_NL": "markies van Belmonte",
+    "position": "After"
+  },
+  "marchese di Breme": {
+    "en_GB": "Marquess of Breme",
+    "nl_NL": "markies van Breme",
     "position": "After"
   },
   "marchese di Lajatico": {

@@ -20,6 +20,10 @@
     "en_GB": "Adjutant general of the King of the Two Sicilies",
     "nl_NL": "Adjudant-generaal van de Koning der Beide Siciliën"
   },
+  "Aiutante generale di New York City": {
+    "en_GB": "Adjutant general of New York City",
+    "nl_NL": "Adjudant-generaal van New York City"
+  },
   "Ambasciatore del Regno dei Paesi Bassi a Londra": {
     "en_GB": "Ambassador of the Kingdom of the Netherlands in London",
     "nl_NL": "Ambassadeur van het Koninkrijk der Nederlanden te Londen"
@@ -271,6 +275,10 @@
   "Ciambellano del Re di Prussia": {
     "en_GB": "Chamberlain of the King of Prussia",
     "nl_NL": "Kamerheer van de Koning van Pruissen"
+  },
+  "Ciambellano del Re di Sassonia": {
+    "en_GB": "Chamberlain of the King of Saxony",
+    "nl_NL": "Kamerheer van de Koning van Saksen"
   },
   "Ciambellano del granduca ereditario di Sassonia Weimar Eisenach": {
     "en_GB": "Chamberlain of the Grand Duke of Saxe-Weimar-Eisenach",
@@ -684,6 +692,10 @@
     "en_GB": "Founder and editor of the journal La Presse",
     "nl_NL": "Oprichter en redacteuru van de krant La Presse"
   },
+  "Fondatore e direttore della giornale Themis, Regtskundig Tijdschrift": {
+    "en_GB": "Founder and editor of the journal Themis, Regtskundig Tijdschrift",
+    "nl_NL": "Oprichter en redacteuru van de krant Themis, Regtskundig Tijdschrift"
+  },
   "Fondatore e presidente del Partito Anti-Rivoluzionario dei Paesi Bassi": {
     "en_GB": "Founder and president of the Anti-Revolutionary Party of the Netherlands",
     "nl_NL": "Oprichter en President van de Anti-Revolutionaire Partij van Nederland"
@@ -952,6 +964,14 @@
     "en_GB": "Chargé d'affaires and later envoy of the Kingdom of the Netherlands to the Kingdom of Sardinia",
     "nl_NL": "Zaakgelastigde en later gezant van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië"
   },
+  "Ingegnere prinicpale del Rijkswaterstaat nella regione dell'Olanda del Sud": {
+    "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in South Holland",
+    "nl_NL": "Hoofdingenieur van Rijkswaterstaat bij de regio Zuid-Holland"
+  },
+  "Ingegnere prinicpale del Rijkswaterstaat nella regione della Zelanda": {
+    "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in Zeeland",
+    "nl_NL": "Hoofdingenieur van Rijkswaterstaat bij de regio Zeeland"
+  },
   "Intendente di Messina": {
     "en_GB": "Intendant of Messina",
     "nl_NL": "Magistraat van Messina"
@@ -983,6 +1003,22 @@
   "Inviato straordinario e incaricato d'affari del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Prussia to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Londra": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in London",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Londen"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Parigi": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Paris",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Parijs"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Pietroburgo": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Petersburg",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Petersburg"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Vienna": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Vienna",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Wenen"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia presso la Confederazione Elvetica": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy to the Swiss Confederation",
@@ -1328,6 +1364,14 @@
     "en_GB": "Minister of Public Education, National Indusry and Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Publiek Onderwijs, Nationale Nijverheid en Koloniën van het Koninkrijk der Nederlanden"
   },
+  "Ministro della Giustizia del Regno dei Paesi Bassi": {
+    "en_GB": "Minister of Justice of the Kingdom of the Netherlands",
+    "nl_NL": "Minister van Justitie van het Koninkrijk der Nederlanden"
+  },
+  "Ministro della Giustizia dell'Impero d'Austria": {
+    "en_GB": "Minister of Justice of the Empire of Austria",
+    "nl_NL": "Minister van Justitie van het Keizerrijk Oostenrijk"
+  },
   "Ministro della Guerra del Regno dei Paesi Bassi": {
     "en_GB": "Minister of War of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Oorlog van het Koninkrijk der Nederlanden"
@@ -1363,14 +1407,6 @@
   "Ministro delle Finanze e Tesoriere generale della Santa Sede": {
     "en_GB": "Minister of Finance en thesaurarius general of the Holy See",
     "nl_NL": "Minister van Financiën en thesaurier-generaal van de Heilige Stoel"
-  },
-  "Ministro di Giustizia del Regno dei Paesi Bassi": {
-    "en_GB": "Minister of Justice of the Kingdom of the Netherlands",
-    "nl_NL": "Minister van Justitie van het Koninkrijk der Nederlanden"
-  },
-  "Ministro di Giustizia dell'Impero d'Austria": {
-    "en_GB": "Minister of Justice of the Empire of Austria",
-    "nl_NL": "Minister van Justitie van het Keizerrijk Oostenrijk"
   },
   "Ministro di Grazia e Giustizia del Regno d'Italia": {
     "en_GB": "Minister of Grace and Justice of the Kingdom of Italy",
@@ -1408,6 +1444,10 @@
     "en_GB": "Minister plenipotentiary of the Kingdom of Bavaria to the Holy See",
     "nl_NL": "Gevolmachtigd minister van het Koninkrijk Beieren bij de Heilige Stoel"
   },
+  "Ministro plenipotenziario del Secondo Impero Messicano presso la Santa Sede": {
+    "en_GB": "Minister plenipotentiary ambassador of the Second Mexican Empire to the Holy See",
+    "nl_NL": "Gevolmachtigd minister van het Tweede Mexicaanse Rijk bij de Heilige Stoel"
+  },
   "Ministro plenipotenziario dell'Impero d'Austria presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Empire of Austria to the Holy See",
     "nl_NL": "Gevolmachtigd minister van het Keizerrijk Oostenrijk bij de Heilige Stoel"
@@ -1432,6 +1472,22 @@
     "en_GB": "Minister plenipotentiary of the Republic of Peru to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Peru bij de Heilige Stoel"
   },
+  "Ministro plenipotenziario della Repubblica del Venezuela agli Stati Uniti d'America": {
+    "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the United States of America",
+    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij de Verenigde Staten van Amerika"
+  },
+  "Ministro plenipotenziario della Repubblica del Venezuela presso il Regno dei Paesi Bassi": {
+    "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the Kingdom of the Netherlands",
+    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij het Koninkrijk der Nederlanden"
+  },
+  "Ministro plenipotenziario della Repubblica del Venezuela presso l'Impero di Francia e il Regno Unito": {
+    "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the Empire of France and the United Kingdom",
+    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij het Keizerrijk Frankrijk en het Verenigd Koninkrijk"
+  },
+  "Ministro plenipotenziario della Repubblica del Venezuela presso la Santa Sede": {
+    "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the Holy See",
+    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij de Heilige Stoel"
+  },
   "Ministro plenipotenziario della Repubblica dell'Ecuador presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Republic of Ecuador to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Ecuador bij de Heilige Stoel"
@@ -1451,6 +1507,10 @@
   "Ministro plenipotenziario della Repubblica di Haiti presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Republic of Haiti to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Haïti bij de Heilige Stoel"
+  },
+  "Ministro residente degli Stati Uniti d'America presso la Santa Sede": {
+    "en_GB": "Resident minister of the United States of America to the Holy See",
+    "nl_NL": "Minister-resident van de Verenigde Staten van Amerika bij de Heilige Stoel"
   },
   "Ministro residente del Granducato di Toscana presso la Santa Sede": {
     "en_GB": "Resident minister of the Grand Duchy of Tuscany at the Holy See",
@@ -1475,6 +1535,10 @@
   "Ministro residente del Regno di Belgio presso la Santa Sede": {
     "en_GB": "Resident minister of the Kingdom of Belgium at the Holy See",
     "nl_NL": "Minister-resident van het Koninkrijk België bij de Heilige Stoel"
+  },
+  "Ministro residente del Regno di Sassonia presso la Santa Sede": {
+    "en_GB": "Resident minister of the Kingdom of Saxony at the Holy See",
+    "nl_NL": "Minister-resident van het Koninkrijk Saksen bij de Heilige Stoel"
   },
   "Ministro segretario delle Finanze del Regno delle Due Sicilie": {
     "en_GB": "Minister Secretary of Finances of the Kingdom of the Two Sicilies",
@@ -1555,6 +1619,10 @@
   "Prefetto di Venezia": {
     "en_GB": "Prefect of Venice",
     "nl_NL": "Prefect van Venetië"
+  },
+  "Prefetto di palazzo e gran maestro delle cerimonie del Re d'Italia": {
+    "en_GB": "Prefect of the Palace and master of Ceremonies for the King of Italy",
+    "nl_NL": "Prefect van het paleis en ceremoniemeester voor de Koning van Italië"
   },
   "Prefetto e successivamente Presidente delle Armi dello Stato Pontificio": {
     "en_GB": "Prefect and later President _delle Armi_ {of the weapons} of the Papal State",
@@ -1904,6 +1972,10 @@
     "en_GB": "Secretary of the classes of physics and mathematics at the Accademia delle Scienze di Torino",
     "nl_NL": "Secretaris van de klassen van scheikunde en wiskunde bij de Accademia delle Scienze di Torino"
   },
+  "Segretario di Camillo Benso conte di Cavour a Londra e a Parigi": {
+    "en_GB": "Secretary to Camillo Benso count of Cavour in London and Paris",
+    "nl_NL": "Secretaris van Camillo Benso graaf van Cavour in Londen en Parijs"
+  },
   "Segretario di Stato ad interim e presidente del Consiglio dei Ministri dello Stato Pontificio": {
     "en_GB": "Interim Cardinal Secretary of State and President of the Council of Ministers of the Papel States",
     "nl_NL": "Ad interim kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat"
@@ -2116,6 +2188,10 @@
     "en_GB": "Vice-president of the Senate of the Kingdom of Italy",
     "nl_NL": "Vice-president van de Senaat van het Koninkrijk Italië"
   },
+  "Vice-console del Regno d'Italia a Parigi": {
+    "en_GB": "Vice-consul of the Kingdom of Italy in Paris",
+    "nl_NL": "Vice-consul van het Koninkrijk Italië te Parijs"
+  },
   "Vice-console del Regno dei Paesi Bassi a Cagliari": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Cagliari",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Cagliari"
@@ -2163,6 +2239,10 @@
   "Vice-console del Regno dei Paesi Bassi a Termini": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Termini",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Termini"
+  },
+  "Vice-console del Regno dei Paesi Bassi a Terranova": {
+    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Terranova",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Terranova"
   },
   "Vice-console del Regno dei Paesi Bassi ad Oneglia": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Oneglia",
