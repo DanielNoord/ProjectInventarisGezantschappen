@@ -96,6 +96,10 @@
     "en_GB": "“\\1” (\\2) and notes",
     "nl_NL": "“\\1” (\\2) en notities"
   },
+  "\"(.+)\" \\(1848\\) firmato (da|dal) (\\$\\w+)$": {
+    "en_GB": "\"\\1\" (1848) signed by \\3",
+    "nl_NL": "\"\\1\" (1848) ondertekend door \\3"
+  },
   "\"(.+)\" \\(Firenze, Tipografia di F. Bencini, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)",
     "nl_NL": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)"
@@ -287,6 +291,10 @@
   "Allocuzione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Allocution of \\2",
     "nl_NL": "Toespraak van \\2"
+  },
+  "Appello (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Appeal of \\2 to \\4",
+    "nl_NL": "Appel van \\2 aan \\4"
   },
   "Appello (di|del|della) (\\$\\w+) a Popoli dell'Alta Italia$": {
     "en_GB": "Appeal of \\2 to the people of Northern Italy",
@@ -796,6 +804,10 @@
     "en_GB": "Copy of the report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
     "nl_NL": "Kopie van het rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
   },
+  "Copia di \"(.+)\" (di|del|della) (\\$\\w+) \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Copy of “\\1” from \\3 (\\4 Nov. \\5)",
+    "nl_NL": "Kopie van “\\1” van \\3 (\\4 nov. \\5)"
+  },
   "Copia di lettera (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Copy of a letter to \\2",
     "nl_NL": "Kopie van een brief aan \\2"
@@ -1276,6 +1288,10 @@
     "en_GB": "Extract from a dispatch of \\2",
     "nl_NL": "Uittreksel van een verzending van \\2"
   },
+  "Estratto di un messagio (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Extract from a message of \\2",
+    "nl_NL": "Uittreksel van een bericht van \\2"
+  },
   "Estratto di un rapporto$": {
     "en_GB": "Extract from a report",
     "nl_NL": "Uittreksel van een rapport"
@@ -1420,6 +1436,10 @@
     "en_GB": "Bundle \\1 “\\2”; bundle \\3 “\\4”; bundle \\5 “\\6”; bundle \\7 “\\8”; bundle \\9 “\\10”",
     "nl_NL": "Bundel \\1 “\\2”; bundel \\3 “\\4”; bundel \\5 “\\6”; bundel \\7 “\\8”; bundel \\9 “\\10”"
   },
+  "Fasc. (\\d+). Carte (\\d+)-(\\d+). Corrispondenza col Console Generale di Napoli$": {
+    "en_GB": "Bundle \\1. Archival documents \\2-\\3. Correspondence with the Consul General of Naples",
+    "nl_NL": "Bundel \\1. Archiefstukken \\2-\\3. Correspondentie met de Consul-Generaal van Napels"
+  },
   "Fasc. (\\d+). Convenzione addizionale del 1855. Lettera (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Bundle \\1. Additional convention of 1855. Letter to \\3",
     "nl_NL": "Bundel \\1. Aanvullende bijeenkomst van 1855. Brief aan \\3"
@@ -1491,6 +1511,10 @@
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) contro la stampa clandestina \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 against the underground press (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 tegen de illegale pers (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) sul commercio marittimo tra lo Stato Pontificio e il Regno di Sardegna \\((\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 about the maritime commerce between the Papal States and Kingdom of Sardinia (\\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 omtrent de maritieme handel tussen de Kerkelijke Staat en het Koninkrijk Sardinië (\\4)"
   },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) sulla imposizione delle tariffe dei cereali \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 about the imposition of tariffs on grain (Rome, Tipografia della Rev. Cam. Apost., \\4)",
@@ -1884,6 +1908,10 @@
     "en_GB": "Printed sheet “\\1” signed by \\3 (Rome, Tipografia Cattolica, \\4)",
     "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Rome, Tipografia Cattolica, \\4)"
   },
+  "Foglio a stampa “(.+)” firmato (da|dal) (\\$\\w+) \\(Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” signed by \\3 (Tipografia Cattolica, \\4)",
+    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Tipografia Cattolica, \\4)"
+  },
   "Foglio a stampa “(.+)” relativo all'ordine pubblico a Roma e in Comarca, firmata (da|dal|dalla) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” relating to the public order in Rome and in Comarca, signed by \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 May \\5)",
     "nl_NL": "Gedrukt blad “\\1” met betrekking tot de publieke orde in Rome en in Comarca, ondertekend door \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4 mei \\5)"
@@ -2200,6 +2228,10 @@
     "en_GB": "Printed newspaper “\\1” (N. \\2 of \\3 Sep. \\4)",
     "nl_NL": "Gedrukte krant “\\1” (N. \\2 van \\3 sep. \\4)"
   },
+  "Giornale a stampa \"(.+)\" \\(N. (\\d+) del lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (N. \\2 of Jul. \\3)",
+    "nl_NL": "Gedrukte krant “\\1” (N. \\2 van jul. \\3)"
+  },
   "Giornale a stampa \"(.+)\" \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Naples, \\2 Jun. \\3)",
     "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 jun. \\3)"
@@ -2236,7 +2268,7 @@
     "en_GB": "Imprimés Diverse 1848 (Various prints from 1848)",
     "nl_NL": "Imprimés Diverse 1848 (Diverse prenten uit 1848)"
   },
-  "Incisioni a bulino dell'onorificenza di Cavaliere dell'Ordine di S. Gregorio conferite (a|al|alla) (\\$\\w+) (da|dal|dalla) (\\$\\w+) (1847) con campione di tessuto$": {
+  "Incisioni a bulino dell'onorificenza di Cavaliere dell'Ordine di S. Gregorio conferite (a|al|alla) (\\$\\w+) (da|dal|dalla) (\\$\\w+) \\(1847\\) con campione di tessuto$": {
     "en_GB": "Burin engraving of the distinction of Knight of the Order of St. Gregory bestowed on \\2 by \\4 (1847) with tissue samples",
     "nl_NL": "Beitelets van de onderscheiding van Ridder van de Orde van St. Gregorius verleend aan \\2 door \\4 (1847) met stofmonsters"
   },
@@ -2383,6 +2415,10 @@
   "Lettera (a|al) (\\$\\w+) \\(annuncio della fuga del (\\$\\w+)\\)$": {
     "en_GB": "Letter to \\2 (announcement of the flight of \\3)",
     "nl_NL": "Brief aan \\2 (aankonding van de vlucht van \\3)"
+  },
+  "Lettera (a|al) (\\$\\w+) \\(con allegato\\)$": {
+    "en_GB": "Letter to \\4 (with attachment)",
+    "nl_NL": "Brief aan \\4 (met bijlage)"
   },
   "Lettera (a|al) (\\$\\w+) circa la morte (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter to \\2 about the death of \\4",
@@ -3012,6 +3048,10 @@
     "en_GB": "Letter signed by Guillaume to \\2",
     "nl_NL": "Brief getekend door Guillaume aan \\2"
   },
+  "Lettera pastorale a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Printed pastoral letter of \\2 to \\4",
+    "nl_NL": "Gedrukte pastorale brief van \\2 aan \\4"
+  },
   "Lettera pastorale a stampa (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed pastoral letter of \\2",
     "nl_NL": "Gedrukte pastorale brief van \\2"
@@ -3476,6 +3516,10 @@
     "en_GB": "Notes of \\2 to \\4 about the archive of the Consulate of the Kingdom of the Netherlands, which is transported to Paris",
     "nl_NL": "Notities van \\2 aan \\4 over het naar Parijs vervoerde archief van het Consulaat van het Koninkrijk der Nederlanden"
   },
+  "Note (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Notes from \\2",
+    "nl_NL": "Nota's van \\2"
+  },
   "Note confidenziali di carattere diplomatico$": {
     "en_GB": "Confidential diplomatic notes",
     "nl_NL": "Vertrouwelijke diplomatieke notities"
@@ -3860,7 +3904,7 @@
     "en_GB": "Memorandum",
     "nl_NL": "Memorandum"
   },
-  "Prose e Poesia dell'avv. Tommasso Zauli Sajani lette nel Prazo Nazionale nel teatro Alibert \\(a stampa\\)$": {
+  "Prosa e Poesia dell'avv. Tommasso Zauli Sajani lette nel Prazo Nazionale nel teatro Alibert \\(a stampa\\)$": {
     "en_GB": "Prose and Poetry of Tomasso Zauli Sajani read in the Prazo Nazionale of the Alibert theatre (printed)",
     "nl_NL": "Proza en Poezië van mr. Tomasso Zauli Sajani gelezen in het Prazo Nazionale van het Alibert theater (gedrukt)"
   },
@@ -3939,6 +3983,10 @@
   "Rapporto$": {
     "en_GB": "Report",
     "nl_NL": "Rapport"
+  },
+  "Regio Decreto del Governo dei Paesi Bassi riguardante la navigazione marittima \\(N. (\\d+) del (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Royal decree of the government of the Netherlands regarding maritime navigation (N. \\1 of \\3 Dec. \\4)",
+    "nl_NL": "Koninklijk besluit van de overheid van Nederland aangaande de scheepsvaart (N. \\1 van \\3 dec. \\4)"
   },
   "Registro dei dispacci arrivati$": {
     "en_GB": "Register of received dispatches",
@@ -4564,6 +4612,10 @@
     "en_GB": "Translation of an article from the Gazetta di Roma",
     "nl_NL": "Vertaling van een artikel uit de Gazetta di Roma"
   },
+  "Traduzione di un articolo estratto da L'Indépendance Belge$": {
+    "en_GB": "Translation of an article extracted from the L'Indépendance Belge",
+    "nl_NL": "Vertaling van een artikel geëxtraheerd uit de L'Indépendance Belge"
+  },
   "Traduzione di un articolo estratto da “(.+)”$": {
     "en_GB": "Translation of an extract of an article from “\\1”",
     "nl_NL": "Vertaling van een uittreksel van een artikel uit “\\1”"
@@ -4947,6 +4999,10 @@
   "Verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$": {
     "en_GB": "Report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
     "nl_NL": "Rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
+  },
+  "Vol. (\\d+)": {
+    "en_GB": "Vol. \\1",
+    "nl_NL": "Vol. \\1"
   },
   "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua$": {
     "en_GB": "Zes Maanden Lyst van 't eerst semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua",
