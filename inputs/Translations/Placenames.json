@@ -1112,6 +1112,14 @@
     "longitude": "15.45",
     "nl_NL": "Graz"
   },
+  "Groesbeek": {
+    "en_GB": "Groesbeek",
+    "geonames_id": 2755272,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Groesbeek",
+    "latitude": "51.77667",
+    "longitude": "5.93611",
+    "nl_NL": "Groesbeek"
+  },
   "Groninga": {
     "en_GB": "Groningen",
     "geonames_id": 2755251,
@@ -1215,6 +1223,14 @@
     "latitude": "47.26266",
     "longitude": "11.39454",
     "nl_NL": "Innsbruck"
+  },
+  "Isola Brazos": {
+    "en_GB": "Brazos Island",
+    "geonames_id": 4676158,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Brazos_Island",
+    "latitude": "26.03063",
+    "longitude": "-97.15747",
+    "nl_NL": "Brazos Eiland"
   },
   "Istanbul": {
     "en_GB": "Istanbul",
@@ -1487,6 +1503,14 @@
     "latitude": "46.45493",
     "longitude": "-1.16629",
     "nl_NL": "Luçon"
+  },
+  "Léon": {
+    "en_GB": "Léon",
+    "geonames_id": 3998655,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Le%C3%B3n%2C_Guanajuato",
+    "latitude": "21.12908",
+    "longitude": "-101.67374",
+    "nl_NL": "Léon"
   },
   "Maassluis": {
     "en_GB": "Maassluis",
@@ -2400,6 +2424,14 @@
     "longitude": "112.75083",
     "nl_NL": "Surabaya"
   },
+  "Tacuba": {
+    "en_GB": "Tacuba",
+    "geonames_id": 3516437,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tlacopan",
+    "latitude": "19.45671",
+    "longitude": "-99.18723",
+    "nl_NL": "Tacuba"
+  },
   "Tassullo": {
     "en_GB": "Tassullo",
     "geonames_id": 3165904,
@@ -2799,6 +2831,14 @@
     "latitude": "47.36667",
     "longitude": "8.55",
     "nl_NL": "Zürich"
+  },
+  "Zutphen": {
+    "en_GB": "Zutphen",
+    "geonames_id": 2743608,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zutphen",
+    "latitude": "52.13833",
+    "longitude": "6.20139",
+    "nl_NL": "Zutphen"
   },
   "Zwolle": {
     "en_GB": "Zwolle",

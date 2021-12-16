@@ -116,6 +116,10 @@
     "en_GB": "Archbishop of Ephesus",
     "nl_NL": "Aartsbisschop van Efeze"
   },
+  "Arcivescovo di Liegi": {
+    "en_GB": "Archbishop of Liège",
+    "nl_NL": "Aartsbisschop van Luik"
+  },
   "Arcivescovo di Tebe": {
     "en_GB": "Archbishop of Thebe",
     "nl_NL": "Aartsbisschop van Thebe"
@@ -135,6 +139,14 @@
   "Avvocato": {
     "en_GB": "Lawyer",
     "nl_NL": "Advocaat"
+  },
+  "Avvocato e procuratore al Concilio Giudiziario di Semarang": {
+    "en_GB": "Lawyer and prosecutor at the Council of Justice of Semarang",
+    "nl_NL": "Advocaat en procureur bij de Raad van Justitie van Semarang"
+  },
+  "Avvocato e procuratore al Concilio Giudiziario di Surabaya": {
+    "en_GB": "Lawyer and prosecutor at the Council of Justice of Surabaya",
+    "nl_NL": "Advocaat en procureur bij de Raad van Justitie van Soerabaja"
   },
   "Avvocato generale dei poveri dello Stato Pontificio": {
     "en_GB": "Advocate general for the poor of the Papel States",
@@ -432,9 +444,17 @@
     "en_GB": "Consul of the Kingdom of the Netherlands in Civitavecchia",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Civitavecchia"
   },
+  "Console del Regno dei Paesi Bassi a Gedda": {
+    "en_GB": "Consul of the Kingdom of the Netherlands in Jeddah",
+    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Djedda"
+  },
   "Console del Regno dei Paesi Bassi a Genova": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Genoa",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Genua"
+  },
+  "Console del Regno dei Paesi Bassi a Lipsia": {
+    "en_GB": "Consul of the Kingdom of the Netherlands in Leipzig",
+    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Leipzig"
   },
   "Console del Regno dei Paesi Bassi a Livorno": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Livorno",
@@ -995,6 +1015,10 @@
   "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana": {
     "en_GB": "Intieme adviseur van Staat, Financiën en Oorlog of the Grand Duchy of Tuscany",
     "nl_NL": "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane"
+  },
+  "Inviato dell'Emperatore Massimiliano nella commissione per il concordato tra l'Impero Messicano e la Santa Sede": {
+    "en_GB": "Envoy of Emperor Maximilian in the commission for the concordat between the Mexican Empire and the Holy See",
+    "nl_NL": "Gezant van Keizer Maximiliaan in de commissie voor het concordaat tussen het Mexiaanse Rijk en de Heilige Stoel"
   },
   "Inviato straordinario e incaricato d'affari del Regno dei Paesi Bassi presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of the Netherlands to the Holy See",
@@ -1828,6 +1852,10 @@
     "en_GB": "Professor of Experimental Physics and of Mathematical Physics at the University of Rome",
     "nl_NL": "Professor van Experimentele Natuurkunde en van Wiskunde Natuurkunde aan de Universiteit van Rome"
   },
+  "Professore di Matematica all'Università di Messico": {
+    "en_GB": "Professor of Mathematics at the University of Mexico",
+    "nl_NL": "Professor van Wiskunde aan de Universiteit van Mexico"
+  },
   "Professore di Navigazione a Senigallia": {
     "en_GB": "Professor of Navigation in Senigallia",
     "nl_NL": "Professor van Navigatie in Senigallia"
@@ -2167,6 +2195,10 @@
   "Vicario Apostolico a Batavia": {
     "en_GB": "Vicar apostolic in Batavia",
     "nl_NL": "Apostolisch vicaris te Batavia"
+  },
+  "Vicario Apostolico a Tamaulipas": {
+    "en_GB": "Vicar apostolic in Tamaulipas",
+    "nl_NL": "Apostolisch vicaris te Tamaulipas"
   },
   "Vicario Generale dei Frati Predicatori": {
     "en_GB": "Vicar General of the Order of Preachers",
