@@ -88,6 +88,14 @@
     "longitude": "-0.48149",
     "nl_NL": "Alicante"
   },
+  "Alphen aan den Rijn": {
+    "en_GB": "Alphen aan den Rijn",
+    "geonames_id": 2759875,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Alphen%2C_South_Holland",
+    "latitude": "52.12917",
+    "longitude": "4.65546",
+    "nl_NL": "Alphen aan den Rijn"
+  },
   "Altmünster": {
     "en_GB": "Altmünster",
     "geonames_id": 2782627,
