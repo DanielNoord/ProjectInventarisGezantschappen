@@ -2470,6 +2470,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Bremen": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi ad Ancona",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "H.",
+    "person_type": 4,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Nederlandsche Residentie-almanak voor het jaar 1871 (Gebroeders Belinfante: Den Haag, 1871)"
+    ],
+    "surname": "von Bremen",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Bresciani": {
     "ISNI:id": "0000 0001 2120 0587",
     "comment_daniel": "",
@@ -3031,6 +3055,35 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Capecchi": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Medico Primario di Sanità a Livorno",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Vincenzo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Almanacco toscano per l'anno bisestile 1856 (Stamperia Granducale: Firenze, 1856), p. 352"
+    ],
+    "surname": "Capecchi",
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
+    "wikidata:id": null
+  },
   "$Cappa": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3574,6 +3627,50 @@
     "surname": "Cerri",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Cerruti": {
+    "ISNI:id": "0000 0000 6157 3567",
+    "comment_daniel": "",
+    "date_of_birth": "1808-07-16",
+    "date_of_death": "1896-03-12",
+    "functions": [
+      [
+        "Ministro residente del Regno d'Italia a Costantinopoli",
+        "1861-07-13/1862"
+      ],
+      [
+        "Segretario generale del ministero degli Affari Esteri del Regno d'Italia",
+        "1863-03-26/1866-12-30"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Washington",
+        "1867-05-27/"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a l'Aia e a Madrid",
+        "1869/1869"
+      ]
+    ],
+    "images": [
+      "https://en.wikipedia.org/wiki/Marcello_Cerruti#/media/File:Chevalier_Marcello_Cerrutti,_Italian_Minister_-_NARA_-_527105.tif"
+    ],
+    "name": "Marcello",
+    "person_type": 1,
+    "place_of_birth": "Genova",
+    "place_of_death": "Roma",
+    "sources": [
+      "'Cerruti Marcello', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/96ec2bcd072560f1c125785d0059806a/2de2612b214916354125646f005a1054?OpenDocument",
+      "Clemente, Vincenzo, 'Cerruti, Marcello', in: Dizionario Biografico degli Italiani. Volume 24 (Rome, Treccani, 1980), found on: https://www.treccani.it/enciclopedia/marcello-cerruti_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Cerruti",
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
+    "wikidata:id": "Q3845548"
   },
   "$Chastel": {
     "ISNI:id": null,
@@ -7177,20 +7274,35 @@
   },
   "$Heeckeren": {
     "ISNI:id": null,
-    "comment_daniel": "Ondertekent slechts met B. van Heeckeren, waarin de B heel goed voor Baron kan staan. Bijna zeker is dat deze van Beeckeren bij de Enghuizen-tak van het geslacht hoorde, welke aanhangers waren van Oranje en daar belangrijke functies bekleedden, maar het is niet te zeggen om wie het specifiek gaat zonder meer informatie.",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
-    "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "comment_daniel": "",
+    "date_of_birth": "1792-11-28",
+    "date_of_death": "1884-09-28",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Vienna",
+        "1842-06-15/1875-10"
+      ]
+    ],
+    "images": [
+      "https://www.parlement.com/id/vg09llo7vtxr/j_d_b_a_baron_van_heeckeren_tot"
+    ],
+    "name": "Jacob Derk Burchard Anne",
+    "person_type": 1,
+    "place_of_birth": "Zutphen",
+    "place_of_death": "Parigi",
+    "sources": [
+      "'Jacob Derk Burchard Anne Heeckeren tot Enghuizen', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/50566383",
+      "Redactie parlement.com, 'J.D.B.A. baron van Heeckeren tot Enghuizen', found on: https://www.parlement.com/id/vg09llo7vtxr/j_d_b_a_baron_van_heeckeren_tot"
+    ],
     "sources_other": [],
-    "surname": "van Heeckeren",
-    "titles": [],
-    "wikidata:id": null
+    "surname": "van Heeckeren tot Enghuizen",
+    "titles": [
+      [
+        "barone",
+        null
+      ]
+    ],
+    "wikidata:id": "Q2393417"
   },
   "$HeldewierI": {
     "ISNI:id": null,
@@ -8682,6 +8794,36 @@
         "1849-05-16/"
       ]
     ],
+    "wikidata:id": null
+  },
+  "$LeemansJa": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1819-01-21",
+    "date_of_death": "1884-03-29",
+    "functions": [
+      [
+        "Membro del Concilio Giudiziario di Semarang",
+        "1846-06/"
+      ],
+      [
+        "Avvocato generale presso la Corte Suprema delle Indie Orientali Olandesi",
+        "1849/"
+      ]
+    ],
+    "images": [],
+    "name": "Jasper Andreus Adrianus",
+    "person_type": 1,
+    "place_of_birth": "Zaltbommel",
+    "place_of_death": "Amsterdam",
+    "sources": [
+      "'Jasper Andreas Adriaan Leemans', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/43800251",
+      "Ramaer, J.C., 'Leemans (Mr. Jasper Andreus Adrianus)', in: K.H. Kossmann and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 9 (Leiden, A.W. Sijthoff, 1933)",
+      "Redactie parlement.com, 'Mr. J.A.A. Leemans', found on: https://www.parlement.com/id/vg09ll2pl7qb"
+    ],
+    "sources_other": [],
+    "surname": "Leemans",
+    "titles": [],
     "wikidata:id": null
   },
   "$Leersum": {
@@ -15027,6 +15169,30 @@
         null
       ]
     ],
+    "wikidata:id": null
+  },
+  "$Secchi": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi ad Alghero",
+        "1827-01-08/"
+      ]
+    ],
+    "images": [],
+    "name": "Giuseppe Luigi",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Il Nuovo Palmaverde Almanacco Storico-Amministrativo-Statistico del Regno d'Italia pel 1869 (Tipografia del Palmaverde di Pellino e Chiariglione: Torino, 1869), p. 311"
+    ],
+    "surname": "Secchi",
+    "titles": [],
     "wikidata:id": null
   },
   "$Serafini": {
