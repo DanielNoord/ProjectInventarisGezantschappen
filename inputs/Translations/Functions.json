@@ -152,6 +152,10 @@
     "en_GB": "Advocate general for the poor of the Papel States",
     "nl_NL": "Advocaat-generaal voor de armen van de Kerkelijke Staat"
   },
+  "Avvocato generale presso la Corte Suprema delle Indie Orientali Olandesi": {
+    "en_GB": "Judge at the Supreme court of the Dutch East Indies",
+    "nl_NL": "Raadsheer bij het Hooggerechtshof van Nederlands-Indië"
+  },
   "Barbiere": {
     "en_GB": "Barber",
     "nl_NL": "Kapper"
@@ -1048,6 +1052,14 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Vienna",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Wenen"
   },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Washington": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Washington",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Washington"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a l'Aia e a Madrid": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in the Hague and in Madrid",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Den Haag en te Madrid"
+  },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia presso la Confederazione Elvetica": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy to the Swiss Confederation",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië bij de Zwitserse Confederatie"
@@ -1063,6 +1075,10 @@
   "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Parigi": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Paris",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden te Parijs"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Vienna": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Vienna",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden te Wenen"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi presso il Regno di Sardegna": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands to the Kingdom of Sardinia",
@@ -1212,6 +1228,10 @@
     "en_GB": "Doctor",
     "nl_NL": "Arts"
   },
+  "Medico Primario di Sanità a Livorno": {
+    "en_GB": "Primary Doctor of Health at Livorno",
+    "nl_NL": "Hoofdarts der Gezondheid te Livorno"
+  },
   "Medico alla corte del Re dei Paesi Bassi": {
     "en_GB": "Physician at the court of the King of the Netherlands",
     "nl_NL": "Geneesheer bij de hofhouding van de Koning der Nederlanden"
@@ -1219,6 +1239,10 @@
   "Medico della città a Amsterdam": {
     "en_GB": "City physician at Amsterdam",
     "nl_NL": "Stadsgeneesheer te Amsterdam"
+  },
+  "Membro del Concilio Giudiziario di Semarang": {
+    "en_GB": "Member of the Council of Justice of Semarang",
+    "nl_NL": "Lid van de Raad van Justitie van Semarang"
   },
   "Membro del _Ridderschap_ del Brabante Settentrionale": {
     "en_GB": "Member of the _Ridderschap_ of North Brabant",
@@ -1543,6 +1567,10 @@
   "Ministro residente del Granducato di Toscana presso la Santa Sede": {
     "en_GB": "Resident minister of the Grand Duchy of Tuscany at the Holy See",
     "nl_NL": "Minister-resident van het Groothertogdom Toscane bij de Heilige Stoel"
+  },
+  "Ministro residente del Regno d'Italia a Costantinopoli": {
+    "en_GB": "Resident minister of the Kingdom of Italy in Constantinople",
+    "nl_NL": "Minister-resident van het Koninkrijk Italië te Constantinopel"
   },
   "Ministro residente del Regno dei Paesi Bassi a Torino": {
     "en_GB": "Resident minister of the Kingdom of the Netherlands in Turin",
@@ -2060,6 +2088,10 @@
     "en_GB": "Secretary general of the Ministry of Grace and Justice of the Kingdom of Italy",
     "nl_NL": "Secretaris-generaal van het Ministerie van Gratie en Justitie van het Koninkrijk Italië"
   },
+  "Segretario generale del ministero degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "General secretary of the ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Secretaris-generaal van het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+  },
   "Segretario generale del ministero degli Affari Esteri del Regno dei Paesi Bassi": {
     "en_GB": "General secretary of the ministry of Foreign Affairs of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris-generaal van het ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
@@ -2283,6 +2315,10 @@
   "Vice-console del Regno dei Paesi Bassi a Terranova": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Terranova",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Terranova"
+  },
+  "Vice-console del Regno dei Paesi Bassi ad Alghero": {
+    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Alghero",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Alghero"
   },
   "Vice-console del Regno dei Paesi Bassi ad Oneglia": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Oneglia",
