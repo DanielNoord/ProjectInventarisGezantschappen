@@ -322,7 +322,7 @@
   },
   "Appello (di|del|della) (\\$\\w+), (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Appeal of \\2 and \\4 and \\6 to \\8",
-    "nl_NL": "Appel van \\2 en \\4 en \\6v aan \\8"
+    "nl_NL": "Appel van \\2 en \\4 en \\6 aan \\8"
   },
   "Appello a stampa ai Romani da parte (di|del|della) (\\$\\w+) circa il suo nuovo incarico a comandante in capo dell'armata e a Governatore di Roma \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet to the Romans by \\2 about his new appointment to commander-in-chief of the army and Governor of Rome (Rome, \\2 Aug. \\3)",
@@ -4452,10 +4452,6 @@
     "en_GB": "Response of \\2 to the speech given by \\4",
     "nl_NL": "Respons van \\2 op de toespraak gehouden door \\4"
   },
-  "Risposta alla nota (di|del|della) (\\$\\w+) (da|dal|dalla) (\\$\\w+)$": {
-    "en_GB": "Response to the note of \\2 by \\4",
-    "nl_NL": "Respons op de nota van \\2 door \\4"
-  },
   "Risposta (di|del|della) (\\$\\w+) alla lettera dell'Alto Consiglio della Nobiltà sulla trasmissione di una medaglia$": {
     "en_GB": "Response of \\2 to the letter of the Alto Consiglio della Nobilità about the conferral of a medal",
     "nl_NL": "Respons van \\2 op de brief van het Alto Consiglio della Nobilità over de toekenning van een medaille"
@@ -4467,6 +4463,10 @@
   "Risposta ad alcune domande poste (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Response to several questions posed by \\2",
     "nl_NL": "Respons op verschillende vragen gesteld door \\2"
+  },
+  "Risposta alla nota (di|del|della) (\\$\\w+) (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Response to the note of \\2 by \\4",
+    "nl_NL": "Respons op de nota van \\2 door \\4"
   },
   "Ritagli a stampa di articoli di giornale$": {
     "en_GB": "Printed clippings of articles from newspapers",
