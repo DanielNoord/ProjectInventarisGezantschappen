@@ -988,6 +988,10 @@
     "en_GB": "Correspondance politique (Political correspondence)",
     "nl_NL": "Correspondance politique (Politieke correspondentie)"
   },
+  "Correspondance politique avec le Ministre des Affaires Étrangères$": {
+    "en_GB": "Correspondance politique avec le Ministre des Affaires Étrangères",
+    "nl_NL": "Correspondance politique avec le Ministre des Affaires Étrangères"
+  },
   "Correspondance politique. Correspondance sur divers objets 1843-1844. Imprimes divers 1848 \\(Corrispondenza politica. Corrispondenza su vari oggetti 1843-1844. Diverse stampe del 1848\\)$": {
     "en_GB": "Correspondance politique. Correspondance sur divers objets 1843-1844. Imprimes divers 1848 (Political correspondence. Correspondence on various subjects 1843-1844. Several prints from 1848)",
     "nl_NL": "Correspondance politique. Correspondance sur divers objets 1843-1844. Imprimes divers 1848 (Politieke correspondentie. Correspondentie over diverse onderwerpen 1843-1844. Verschillende prenten uit 1848)"
@@ -1207,6 +1211,10 @@
   "Estratti di corrispondenze particolari pubblicate su \"(.+)\"$": {
     "en_GB": "Extracts of special correspondence published in \"\\1\"",
     "nl_NL": "Extracten van bijzondere correspondentie gepubliceerd in \"\\1\""
+  },
+  "Estratti di notizie inviata (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Extracts from news sent to \\2 and \\4",
+    "nl_NL": "Extracten uit nieuws verzonden naar \\2 en \\4"
   },
   "Estratti e traduzioni di notizie tratte dal Monitore Romano$": {
     "en_GB": "Extracts and translations of news taken from the Monitore Romano",
@@ -1468,13 +1476,17 @@
     "en_GB": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions",
     "nl_NL": "Etat nominatif des V. Consuls des Pays-Bas en charge dans le Réssort du Consulat Général qui ont obtenu l'Exequatur à leur Diplome, et sontet exercice de leurs Fondions"
   },
-  "Extrait de dépêche - N. (\\d+) \\(Estratto di una spedizione - N. (\\d+)\\)$": {
-    "en_GB": "Extrait de dépêche - N. \\1 (Extract from a dispatch - N. \\2)",
-    "nl_NL": "Extrait de dépêche - N. \\1 (Uittreksel uit een verzending -N. \\2)"
+  "Extrait de la dépêche - N. (\\d+) \\(Estratto di una spedizione - N. (\\d+)\\)$": {
+    "en_GB": "Extrait de la dépêche - N. \\1 (Extract from a dispatch - N. \\2)",
+    "nl_NL": "Extrait de la dépêche - N. \\1 (Uittreksel uit een verzending - N. \\2)"
   },
   "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816$": {
     "en_GB": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816",
     "nl_NL": "Extrait du Reglement arreté par S. M. le Roi de Sardaigne relatif aux Tarifs Consulaires, le 14 sept. 1816"
+  },
+  "Extrait$": {
+    "en_GB": "Extrait",
+    "nl_NL": "Extrait"
   },
   "Fasc. (\\d+) \"(.+)\"$": {
     "en_GB": "Bundle \\1 “\\2”",
@@ -2028,13 +2040,13 @@
     "en_GB": "Printed sheet “\\1” and “\\2” of the Papal States",
     "nl_NL": "Gedrukt blad “\\1” en “\\2” van de Kerkelijke Staat"
   },
+  "Foglio a stampa “(.+)” firmata (da|dal) (\\$\\w+) \\(Roma, Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” signed by \\3 (Rome, Tipografia Cattolica, \\4)",
+    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Rome, Tipografia Cattolica, \\4)"
+  },
   "Foglio a stampa “(.+)” firmato (\\$\\w+) \\(Vigevano, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” signed by \\2 (Vigevano, Aug. \\3, \\4)",
     "nl_NL": "Gedrukt blad “\\1” ondertekend door \\2 (Vigevano, \\3 aug. \\4)"
-  },
-  "Foglio a stampa “(.+)” firmato (da|dal) (\\$\\w+) \\(Roma, Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” signed by \\3 (Rome, Tipografia Cattolica, \\4)",
-    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Rome, Tipografia Cattolica, \\4)"
   },
   "Foglio a stampa “(.+)” firmato (da|dal) (\\$\\w+) \\(Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” signed by \\3 (Tipografia Cattolica, \\4)",
@@ -2464,7 +2476,7 @@
     "en_GB": "Printed invitation from \\2 to \\4",
     "nl_NL": "Gedrukte uitnodiging van \\2 aan \\4"
   },
-  "Invito alle solenne funzione della domenica delle Palme \\(a stampa\\)$": {
+  "Invito alla solenne funzione della domenica delle Palme \\(a stampa\\)$": {
     "en_GB": "Invitation to the solemn service of Palm Sunday (printed)",
     "nl_NL": "Uitnodiging voor de plechtige dienst van Palmzondag (gedrukt)"
   },
@@ -2592,6 +2604,10 @@
     "en_GB": "Les Autoritès Romaines (The Roman authorities)",
     "nl_NL": "Les Autoritès Romaines (De Romeinse autoriteiten)"
   },
+  "Les Autorités Romaines$": {
+    "en_GB": "Les Autorités Romaines",
+    "nl_NL": "Les Autorités Romaines"
+  },
   "Lettera (a|al) (\\$\\w+) \\(annuncio della fuga del (\\$\\w+)\\)$": {
     "en_GB": "Letter to \\2 (announcement of the flight of \\3)",
     "nl_NL": "Brief aan \\2 (aankonding van de vlucht van \\3)"
@@ -2620,9 +2636,17 @@
     "en_GB": "Letter to \\2 with a number written below (copy)",
     "nl_NL": "Brief aan \\2 met ondergeschreven nummer (kopie)"
   },
+  "Lettera (a|al|alla) (\\$\\w+) \\(deteriorata\\)$": {
+    "en_GB": "Letter to \\2 (deteriorated)",
+    "nl_NL": "Brief aan \\2 (verslechterd)"
+  },
   "Lettera (a|al|alla) (\\$\\w+) \\(molto deteriorata\\)$": {
     "en_GB": "Letter to \\2 (gravely deteriorated)",
     "nl_NL": "Brief aan \\2 (erg verslechterd)"
+  },
+  "Lettera (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+) \\(nel verso\\)$": {
+    "en_GB": "Letter to \\2 and \\4 (on the back)",
+    "nl_NL": "Brief aan \\2 en aan \\4 (op de keerzijde)"
   },
   "Lettera (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter to \\2 and \\4",
@@ -2824,6 +2848,10 @@
     "en_GB": "Letter from \\2 to \\4, \\6 and \\8",
     "nl_NL": "Brief van \\2 aan \\4, \\6 en \\8"
   },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
+    "en_GB": "Letter from \\2 to \\4 (attachment)",
+    "nl_NL": "Brief van \\2 aan \\4 (bijlage)"
+  },
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con note$": {
     "en_GB": "Letter from \\2 to \\4 with notes",
     "nl_NL": "Brief van \\2 aan \\4 met nota's"
@@ -2968,6 +2996,10 @@
     "en_GB": "Letter of \\2, substitute of \\3, to \\5",
     "nl_NL": "Brief van \\2, plaatsvervanger van \\3, aan \\5"
   },
+  "Lettera (di|del|della) (\\$\\w+). Nota allegata dei regali lasciati a diversi personaggi (da|dal|dalla) (\\$\\w+) giunto in Roma il dì 29 agosto 1846 alle 11 della sera, e ripartito il giorno 30 dello stesso mese, circa le 10 della serada$": {
+    "en_GB": "Letter from \\2. Attached note of gifts and several people by \\4, arrived in Rome on 29 August at 11 in the evening, and distributed on the 30th of the same month, around 10 in the evening",
+    "nl_NL": "Brief van \\2. Bijgevoegde nota over geschenken en enkele mensen door \\4, gearriveerd in Rome op 39 augustus om 11 uur 's avonds, en afgeleverd op de 30e van dezelfde maand, rond 10 uur 's avonds"
+  },
   "Lettera a stampa (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Printed letter of \\2 to \\4",
     "nl_NL": "Gedrukte brief van \\2 aan \\4"
@@ -3003,6 +3035,10 @@
   "Lettera alla Camera di Commercio e Fabbriche a Amsterdam$": {
     "en_GB": "Letter to the Chamber of Commerce and Factories in Amsterdam",
     "nl_NL": "Brief aan de Kamer van Koophandel en Fabrieken te Amsterdam"
+  },
+  "Lettera allegata (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Attached letter of \\2",
+    "nl_NL": "Bijgevoegde brief van \\2"
   },
   "Lettera allegata alla lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Letter attached to the Letter of \\2 to \\4",
@@ -4332,6 +4368,10 @@
     "en_GB": "Report to \\2",
     "nl_NL": "Rapport aan \\2"
   },
+  "Relazione (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) - Traduzione della circolare$": {
+    "en_GB": "Report from \\2 to \\4 - Translation of the circulaire",
+    "nl_NL": "Rapport van \\2 aan \\4 - Vertaling van de circulaire"
+  },
   "Relazione (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) sulla condotta del Regno Sardo$": {
     "en_GB": "Report from \\2 to \\4 about the conduct of the Kingdom of Sardinia",
     "nl_NL": "Rapport van \\2 aan \\4 over het gedrag van het Koninkrijk Sardinië"
@@ -4531,6 +4571,10 @@
   "Seconde demande des heritiers Jochems de La Haye$": {
     "en_GB": "Seconde demande des heritiers Jochems de La Haye",
     "nl_NL": "Seconde demande des heritiers Jochems de La Haye"
+  },
+  "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations \\(Seconda nota indicativa dei funzionari tanto civili che militari ai quali si potrebbe conferire le onorificenze\\)$": {
+    "en_GB": "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations (Second explanatory note about either civil as well as military officials on whom decorations may be bestowed)",
+    "nl_NL": "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations (Tweede toelichtingsnota over ofwel civiele ofwel militaire functionarissen aan wie onderscheiden zouden kunnen worden verleend)"
   },
   "Secrétaire d'Etat. Autorites Romaines. Agents Consulaires. Corps Diplomatique. Trompes Pontificales. Pièces diverses. 1844 \\(Segretario di Stato. Autorità romane. Funzionari consolari. Corpo diplomatico. Trombe Pontificie. Documenti vari. 1844\\)$": {
     "en_GB": "Secrétaire d'Etat. Autorites Romaines. Agents Consulaires. Corps Diplomatique. Trompes Pontificales. Pièces diverses. 1844 (Secretary of State. Roman authorities. Consular agents. Corps diplomatique. Papal Trumpets. Various documents. 1844)",
