@@ -360,6 +360,14 @@
     "longitude": "6.52734",
     "nl_NL": "Bitburg"
   },
+  "Bloemendaal": {
+    "en_GB": "Bloemendaal",
+    "geonames_id": 2758804,
+    "geonames_wikipedia": null,
+    "latitude": "52.4025",
+    "longitude": "4.62222",
+    "nl_NL": "Bloemendaal"
+  },
   "Bologna": {
     "en_GB": "Bologna",
     "geonames_id": 3181928,

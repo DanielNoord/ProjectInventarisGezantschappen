@@ -308,6 +308,10 @@
     "en_GB": "Chamberlain and master of ceremonies of the King of the Netherlands",
     "nl_NL": "Kamerheer-ceremoniemeester van de Koning der Nederlanden"
   },
+  "Collezionista d'arte": {
+    "en_GB": "Art collector",
+    "nl_NL": "Kunstverzamelaar"
+  },
   "Colonnello": {
     "en_GB": "Colonel",
     "nl_NL": "Kolonel"
@@ -375,6 +379,10 @@
   "Commissario del Re dei Paesi Bassi per il Ducato di Limburgo": {
     "en_GB": "Commissioner of the King of the Netherlands for the Duchy of Limburg",
     "nl_NL": "Commissaris van de Koning van Nederland voor het Hertogdom Limburg"
+  },
+  "Commissario del Re dei Paesi Bassi per la provincia di Olanda Settentrionale": {
+    "en_GB": "Commissioner of the King of the Netherlands for the province of North Holland",
+    "nl_NL": "Commissaris van de Koning van Nederland voor de provincie Noord-Holland"
   },
   "Commissario generale del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "General commissioner of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
@@ -816,9 +824,17 @@
     "en_GB": "Governor of the fortress of Messina",
     "nl_NL": "Gouverneur van de vesting van Messina"
   },
+  "Governatore della provincia di Drenthe per il Re dei Paesi Bassi": {
+    "en_GB": "Governor of the province of Drenthe for the King of the Netherlands",
+    "nl_NL": "Gouverneur van de provincie Drenthe voor de Koning der Nederlanden"
+  },
   "Governatore della provincia di Hainaut per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the province of Hainaut for the King of the Netherlands",
     "nl_NL": "Gouverneur van de provincie Zeeland voor de Koning der Nederlanden"
+  },
+  "Governatore della provincia di Olanda Settentrionale per il Re dei Paesi Bassi": {
+    "en_GB": "Governor of the province of North Holland for the King of the Netherlands",
+    "nl_NL": "Gouverneur van de provincie Noord-Holland voor de Koning der Nederlanden"
   },
   "Governatore della provincia di Zelanda per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the province of Zeeland for the King of the Netherlands",
@@ -1696,6 +1712,10 @@
     "en_GB": "_Prelato ponente_ {qualified prelate} and tribunal judge of the Holy Congregation of the _Consulta_",
     "nl_NL": "_Prelato ponente_ {bevoegd prelaat} en tribunaalsrechter van de Heilige Congregatie van de _Consulta_"
   },
+  "Première note dressée d'après les indications de M. le Comte Visconti \\(Prima nota preparato secondo le indicazioni del S. il Conte Visconti\\)": {
+    "en_GB": "Première note dressée d'après les indications de M. le Comte Visconti (First note prepared according to the indications of M. the Count of Visconti",
+    "nl_NL": "Première note dressée d'après les indications de M. le Comte Visconti (Eerste nota opgesteld volgens de aanwijzingen van M. de Graaf van Visconti"
+  },
   "Presidente del Consiglio Superiore di Marina del Regno di Sardegna": {
     "en_GB": "President of the High Council of the Navy of the Kingdom of Sardinia",
     "nl_NL": "Voorzitter van de Hoge Raad van de Marine van het Koninkrijk Sardinië"
@@ -1972,6 +1992,10 @@
     "en_GB": "Secretary General at the ministry of Foreign Affairs of the Kingdom of Italy",
     "nl_NL": "Secretaris-Generaal bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
+  "Segretario del Ministero dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "Secretary of the Ministry of Public Education, National Indusry and Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Secretaris van het Ministerie van Publiek Onderwijs, Nationale Nijverheid en Koloniën van het Koninkrijk der Nederlanden"
+  },
   "Segretario del Real Somiglieria e primo uffiziale della Controloria della Real Casa del Regno delle Due Sicilie": {
     "en_GB": "Secretary of the Real Somiglieria and first official of the Controloria of the Royal House of the Kingdom of the Two Sicilies",
     "nl_NL": "Secretaris van het Real Somiglieria en hoofdambtenaar van de Controloria van het Koninklijk Huis van het Koninkrijk der Beide Siciliën"
@@ -1983,6 +2007,10 @@
   "Segretario del _Magistrato di Sanità_ di Genova": {
     "en_GB": "Secretary of the _Magistrato di Sanità_ of Genoa",
     "nl_NL": "Secretaris van het _Magistrato di Sanità_ van Genua"
+  },
+  "Segretario del consiglio di amministrazione dell'Accademia Reale delle Arti Visive": {
+    "en_GB": "Secretary of the Board of Directors of the Royal Academy of Visual Arts",
+    "nl_NL": "Secretaris van de Raad van Bestuur van de Koninklijke Akademie van Beeldende Kunsten"
   },
   "Segretario del consolato del Regno dei Paesi Bassi a Nizza": {
     "en_GB": "Secretary of the consulate of the Kingdom of the Netherlands in Nice",
@@ -2259,6 +2287,10 @@
   "Vice-Presidente del Senato del Regno d'Italia": {
     "en_GB": "Vice-president of the Senate of the Kingdom of Italy",
     "nl_NL": "Vice-president van de Senaat van het Koninkrijk Italië"
+  },
+  "Vice-Presidente del consiglio di amministrazione dell'Accademia Reale delle Arti Visive": {
+    "en_GB": "Vice-president of the Board of Directors of the Royal Academy of Visual Arts",
+    "nl_NL": "Vice-president van de Raad van Bestuur van de Koninklijke Akademie van Beeldende Kunsten"
   },
   "Vice-console del Regno d'Italia a Parigi": {
     "en_GB": "Vice-consul of the Kingdom of Italy in Paris",
