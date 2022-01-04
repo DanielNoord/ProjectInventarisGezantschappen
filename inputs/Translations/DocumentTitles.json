@@ -424,6 +424,10 @@
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Outgoing diplomatic correspondance. \\1",
     "nl_NL": "Archief van het Gezantschap van Nederland in Rome. Uitgaande diplomatieke correspondentie. \\1"
   },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Incoming diplomatic correspondance. \\1",
+    "nl_NL": "Archief van het Gezantschap van Nederland in Rome. Inkomende diplomatieke correspondentie. \\1"
+  },
   "Articoli estratti dal \"(.+)\"$": {
     "en_GB": "Articles extracted from “\\1”",
     "nl_NL": "Artikelen geëxtraheerd uit “\\1”"
@@ -1548,6 +1552,14 @@
     "en_GB": "Dress code for mourning from H.M. for the death of \\1 which occurred in Genoa on 29 March 1832 (printed)",
     "nl_NL": "Kledingvoorschrift voor rouw van Z.M. voor de dood van \\1 die plaatsvond in Genua op 29 maart 1832 (gedrukt)"
   },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) \\(L'Aia, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \"\\1\" from \\3 (The Hague, \\4 Apr. \\5)",
+    "nl_NL": "Gedrukt blad \"\\1\" van \\3 (Den Haag, \\4 apr. \\5)"
+  },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) \\(L'Aia, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \"\\1\" from \\3 (The Hague, \\4 Oct. \\5)",
+    "nl_NL": "Gedrukt blad \"\\1\" van \\3 (Den Haag, \\4 okt. \\5)"
+  },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) \\(Parma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” by \\3 (Parma, \\2 Apr. \\3)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 (Parma, \\2 apr. \\3)"
@@ -1688,6 +1700,10 @@
     "en_GB": "Printed sheet “\\1” by the Ministry of Finance about the trade tariffs (Rome, Tipografia della Rev. Cam. Apost., \\2 Dec. \\3)",
     "nl_NL": "Gedrukt blad “\\1” van het Ministerie van Financiën over de handelstarieven (Rome, Tipografia della Rev. Cam. Apost., \\2 dec. \\3)"
   },
+  "Foglio a stampa \"(.+)\" firmata (da|dal|dalla) (\\$\\w+) \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \"\\1\" signed by \\3 (The Hague, \\4 Aug. \\5)",
+    "nl_NL": "Gedrukt blad \"\\1\" getekend door \\3 (Den Haag, \\4 aug. \\5)"
+  },
   "Foglio a stampa \"(.+)\" firmato (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Printed sheet “\\1” signed by \\3",
     "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3"
@@ -1711,6 +1727,14 @@
   "Foglio a stampa \"(.+)\", articolo (di|del|della) (\\$\\w+) \\(Estratto dal \"(.+)\", Anno (\\w+) - N. (\\d+) del (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1”, article by \\3 (Extract from “\\4”, Year \\5 - N. \\6 of \\7)",
     "nl_NL": "Gedrukt blad “\\1”, artikel van \\3 (Uittreksel van “\\4”, Jaar \\5 - N. \\6 van \\7)"
+  },
+  "Foglio a stampa (.+)\\) \"(.+)\" (di|del|della) (\\$\\w+) circa il sistema monetario dello Stato Pontificio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \\1) “\\2” from \\4 about the monetary system of the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\5)",
+    "nl_NL": "Gedrukt blad \\1) “\\2” van \\4 over het monetaire systeem vaan de Pauselijke Staat (Rome, Tipografia della Rev. Cam. Apost., \\5)"
+  },
+  "Foglio a stampa (.+)\\) \"(.+)\" (di|del|della) (\\$\\w+) relativo al sistema monetario dello Stato Pontificio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \\1) “\\2” from \\4 relating to the monetary system of the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\5 Jun. \\6)",
+    "nl_NL": "Gedrukt blad \\1) “\\2” van \\4 aangaande het monetaire systeem vaan de Pauselijke Staat (Rome, Tipografia della Rev. Cam. Apost., \\5 jun. \\6)"
   },
   "Foglio a stampa (.+)\\) \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \\1) “\\2” (\\3)",
@@ -2608,6 +2632,10 @@
     "en_GB": "Les Autorités Romaines",
     "nl_NL": "Les Autorités Romaines"
   },
+  "Lettera (a|al) (\\$\\w+) (di|del|della) (\\$\\w+) con allegata trascrizione di discorso pronunciato (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Letter from \\2 to \\4 with attached transcription of a speech delivered by \\6",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgesloten transcriptie van een toespraak gegeven door \\6"
+  },
   "Lettera (a|al) (\\$\\w+) \\(annuncio della fuga del (\\$\\w+)\\)$": {
     "en_GB": "Letter to \\2 (announcement of the flight of \\3)",
     "nl_NL": "Brief aan \\2 (aankonding van de vlucht van \\3)"
@@ -3043,6 +3071,10 @@
   "Lettera allegata alla lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Letter attached to the Letter of \\2 to \\4",
     "nl_NL": "Brief bijgevoegd bij de brief van \\2 aan \\4"
+  },
+  "Lettera allegata del gabinetto archeologico di Leida firmata (\\$\\w+)$": {
+    "en_GB": "Attached letter of the archeological cabinet of Leiden signed \\1",
+    "nl_NL": "Bijgevoegde brief van het archeologisch kabinet van Leiden ondertekend \\1"
   },
   "Lettera allegata senza firma$": {
     "en_GB": "Attached letter without signature",
@@ -3687,6 +3719,10 @@
   "Nota di invio eseguita (da|dal|dalla) (\\$\\w+) di una cassa di manoscritti$": {
     "en_GB": "Dispatch note by \\2 from a box of manuscripts",
     "nl_NL": "Verzendnota door \\2 uit een doos met manuscripten"
+  },
+  "Nota di lettera$": {
+    "en_GB": "Note of a letter",
+    "nl_NL": "Nota over een brief"
   },
   "Nota di pagamento (di|del|della) (\\$\\w+)$": {
     "en_GB": "Payment notice of \\2",
@@ -5135,6 +5171,10 @@
   "Trascrizione del \"(.+)\"$": {
     "en_GB": "Transcription of “\\1”",
     "nl_NL": "Transcriptie van “\\1”"
+  },
+  "Trascrizione del Discorso di addio (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Transcription of the farewell speech of \\2 to \\4",
+    "nl_NL": "Transcriptie van de afscheidsrede van \\2 aan \\4"
   },
   "Trascrizione del Journal Officiel du Royaume des Pays-Bas$": {
     "en_GB": "Transcription of an extract from the Journal Officiel du Royaume des Pays-Bas",
