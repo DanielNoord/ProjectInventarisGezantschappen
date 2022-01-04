@@ -776,6 +776,14 @@
     "longitude": "9.68176",
     "nl_NL": "Crema"
   },
+  "Cumiana": {
+    "en_GB": "Cumiana",
+    "geonames_id": 3177704,
+    "geonames_wikipedia": null,
+    "latitude": "44.97629",
+    "longitude": "7.37761",
+    "nl_NL": "Cumiana"
+  },
   "Cuneo": {
     "en_GB": "Cuneo",
     "geonames_id": 3177700,
@@ -871,6 +879,14 @@
     "latitude": "45.8255",
     "longitude": "6.20143",
     "nl_NL": "Duingt"
+  },
+  "Děčín": {
+    "en_GB": "Děčín",
+    "geonames_id": 3077244,
+    "geonames_wikipedia": null,
+    "latitude": "50.78215",
+    "longitude": "14.21478",
+    "nl_NL": "Děčín"
   },
   "Edimburgo": {
     "en_GB": "Edinburgh",
@@ -1055,6 +1071,14 @@
     "latitude": "51.05",
     "longitude": "3.71667",
     "nl_NL": "Gent"
+  },
+  "Gannat": {
+    "en_GB": "Gannat",
+    "geonames_id": 3016711,
+    "geonames_wikipedia": null,
+    "latitude": "46.09987",
+    "longitude": "3.19842",
+    "nl_NL": "Gannat"
   },
   "Genova": {
     "en_GB": "Genoa",
@@ -2168,6 +2192,14 @@
     "longitude": "9.23564",
     "nl_NL": "San Michele di Pagana"
   },
+  "San Piero a Sieve": {
+    "en_GB": "San Piero a Sieve",
+    "geonames_id": 3167869,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/San_Piero_a_Sieve",
+    "latitude": "43.96251",
+    "longitude": "11.32426",
+    "nl_NL": "San Piero a Sieve"
+  },
   "San Pietroburgo": {
     "en_GB": "Saint Petersburg",
     "geonames_id": 498817,
@@ -2463,6 +2495,14 @@
     "latitude": "14.0818",
     "longitude": "-87.20681",
     "nl_NL": "Tegucigalpa"
+  },
+  "Terni": {
+    "en_GB": "Terni",
+    "geonames_id": 3165771,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Terni",
+    "latitude": "42.56335",
+    "longitude": "12.64329",
+    "nl_NL": "Terni"
   },
   "Tholen": {
     "en_GB": "Tholen",
