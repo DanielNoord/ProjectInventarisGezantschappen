@@ -624,6 +624,10 @@
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
   },
+  "Bozza del trattato di estradizione$": {
+    "en_GB": "Draft of a treatise of extradition",
+    "nl_NL": "Proefversie van een traktaat van uitzetting"
+  },
   "Bozza di Progetto di Concordato con La Santa Sede$": {
     "en_GB": "Draft of the proposal of the Concordat with the Holy See",
     "nl_NL": "Proefversie van het voorstel van het Concordaat met de Heilige Stoel"
@@ -668,9 +672,17 @@
     "en_GB": "Draft of a letter",
     "nl_NL": "Conceptbrief"
   },
+  "Bozza di relazione (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Draft of a rreport from \\2 to \\4",
+    "nl_NL": "Concept van een rapport van \\2 aan \\4"
+  },
   "Bozza di risposta$": {
     "en_GB": "Draft of a response",
     "nl_NL": "Concept van een respons"
+  },
+  "Bozza di telegramma$": {
+    "en_GB": "Draft of a telegram",
+    "nl_NL": "Concepttelegram"
   },
   "Bozza$": {
     "en_GB": "Draft",
@@ -835,6 +847,10 @@
   "Conti saldati$": {
     "en_GB": "Cleared accounts",
     "nl_NL": "Afbetaalde rekeningen"
+  },
+  "Conti$": {
+    "en_GB": "Accounts",
+    "nl_NL": "Rekeningen"
   },
   "Copia a stampa del \"(.+)\"$": {
     "en_GB": "Printed copy from “\\1”",
@@ -1031,6 +1047,10 @@
   "Decreto a stampa (di|del|della) (\\$\\w+) \"(.+)\" relativo alle tariffe dei dazi doganali \\(Napoli, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed decree of \\2 “\\3” relating to custom rates (Naples, \\4 Mar. \\5)",
     "nl_NL": "Gedrukte verordening van \\2 “\\3” met betrekking tot accijns (Napels, \\4 mrt. \\5)"
+  },
+  "Decreto a stampa (di|del|della) (\\$\\w+) \\(allegato\\)$": {
+    "en_GB": "Printed decree of \\2 (attachment)",
+    "nl_NL": "Gedrukte verordening van \\2 (bijlage)"
   },
   "Decreto a stampa (di|del|della) (\\$\\w+) circa i trattati di commercio \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed decree of \\2 about commercial treatises (Naples, \\3 Jun. \\4)",
@@ -2416,6 +2436,10 @@
     "en_GB": "Printed newspaper “\\1” (Naples, \\2 Jun. \\3)",
     "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 jun. \\3)"
   },
+  "Giornale a stampa \"(.+)\" \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Palermo, \\2 Jun. \\3)",
+    "nl_NL": "Gedrukte krant “\\1” (Palermo, \\2 jun. \\3)"
+  },
   "Giornale a stampa \"(.+)\" \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Rome, \\2 Apr. \\3)",
     "nl_NL": "Gedrukte krant “\\1” (Rome, \\2 apr. \\3)"
@@ -2568,6 +2592,18 @@
     "en_GB": "Le Segretaire d'Etat (The Secretary of State)",
     "nl_NL": "Le Segretaire d'Etat (De staatssecretaris)"
   },
+  "Legazione di Firenze. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
+    "en_GB": "Legation of Florence. Incoming diplomatic correspondance. \\1",
+    "nl_NL": "Gezantschap van Florence. Inkomende diplomatieke correspondentie. \\1"
+  },
+  "Legazione di Firenze. Corrispondenza diplomatica in partenza$": {
+    "en_GB": "Legation of Florence. Outgoing diplomatic correspondance",
+    "nl_NL": "Gezantschap van Florence. Uitgaande diplomatieke correspondentie"
+  },
+  "Legazione di Firenze. Negoziati per un trattato di estradizione fra i Paesi Bassi e l'Italia$": {
+    "en_GB": "Legation of Florence. Negotiations about a treatise of extradition between the Netherlands and Italy",
+    "nl_NL": "Gezantschap van Florence. Onderhandelingen over een traktaat van uitzetting tussen Nederland en Italië"
+  },
   "Legazione di Roma e Napoli. 1859. Corrispondenza politica \\(in partenza\\)$": {
     "en_GB": "Legation in Rome and Naples. 1859. Political correspondance (outgoing)",
     "nl_NL": "Gezantschap in Rome en Napels. 1859. Politieke correspondentie (uitgaand)"
@@ -2671,6 +2707,10 @@
   "Lettera (a|al|alla) (\\$\\w+) \\(molto deteriorata\\)$": {
     "en_GB": "Letter to \\2 (gravely deteriorated)",
     "nl_NL": "Brief aan \\2 (erg verslechterd)"
+  },
+  "Lettera (a|al|alla) (\\$\\w+) con carta monogramma M.H.$": {
+    "en_GB": "Letter to \\2 with a monogrammed card with M.H.",
+    "nl_NL": "Brief aan \\2 met een gemonogrammeerde kaart met M.H."
   },
   "Lettera (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+) \\(nel verso\\)$": {
     "en_GB": "Letter to \\2 and \\4 (on the back)",
@@ -2904,6 +2944,10 @@
     "en_GB": "Letter of \\2 to the Cardinals (Sede Vacante)",
     "nl_NL": "Brief van \\2 aan de Kardinalen (Sedisvacatie)"
   },
+  "Lettera (di|del|della) (\\$\\w+) ai consoli di Genova, Livorno, Napoli e Ancona$": {
+    "en_GB": "Letter from \\2 to the consuls of Genoa, Livorno, Naples and Ancona",
+    "nl_NL": "Brief van \\2 aan de consuls van Genua, Livorno, Napels en Ancona"
+  },
   "Lettera (di|del|della) (\\$\\w+) ai direttori del Commercio del Levante e la Navigazione nel Mediterraneo$": {
     "en_GB": "Letter from \\2 to the directors of Commerce in the Levant and Navigation in the Mediterranean",
     "nl_NL": "Brief van \\2 aan de directeurs van Handel in de Levant en Scheepvaart op de Middellandse Zee"
@@ -3136,6 +3180,10 @@
     "en_GB": "Circulaire of \\2 (printed)",
     "nl_NL": "Circulaire van \\2 (gedrukt)"
   },
+  "Lettera circolare (di|del|della) (\\$\\w+) ai consoli dei Paesi Bassi$": {
+    "en_GB": "Circulaire from \\2 to the consuls of the Netherlands",
+    "nl_NL": "Circulaire van \\2 aan de consuls van Nederland"
+  },
   "Lettera circolare (di|del|della) (\\$\\w+) dall'ufficio di Giustizia di Amsterdam$": {
     "en_GB": "Circulaire of \\2 at the court of Amsterdam",
     "nl_NL": "Circulaire van \\2 bij het gerechtshof van Amsterdam"
@@ -3351,6 +3399,10 @@
   "Lettera per la morte di Sua Maestà (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "Letter about the death of His Majesty \\1 (printed)",
     "nl_NL": "Brief over de dood van Zijne Majesteit \\1 (gedrukt)"
+  },
+  "Lettera senza firma (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter without signature to \\2",
+    "nl_NL": "Brief zonder handtekening aan \\2"
   },
   "Lettera senza firma e destinatario$": {
     "en_GB": "Letter without signature and addressee",
@@ -3848,6 +3900,10 @@
     "en_GB": "Attached verbal note",
     "nl_NL": "Bijgevoegde verbale nota"
   },
+  "Nota verbale$": {
+    "en_GB": "Verbal note",
+    "nl_NL": "Verbale nota"
+  },
   "Nota$": {
     "en_GB": "Note",
     "nl_NL": "Nota"
@@ -4216,6 +4272,10 @@
     "en_GB": "Formal report van \\2 for the report between Rome and Turin",
     "nl_NL": "Proces-verbaal van \\2 voor het rapport tussen Rome en Turijn"
   },
+  "Processo Verbale sottoscritto (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Formal report signed by \\2 and \\4",
+    "nl_NL": "Proces-verbaal ondertekend door \\2 en \\4"
+  },
   "Proclama (di|del|della) (\\$\\w+)$": {
     "en_GB": "Proclamation of \\2",
     "nl_NL": "Proclamatie van \\2"
@@ -4264,6 +4324,10 @@
     "en_GB": "Draft speech to the corps diplomatique",
     "nl_NL": "Concepttoespraak aan het corps diplomatique"
   },
+  "Progetto di un trattato di estradizione tra i Paesi Bassi e L'Italia$": {
+    "en_GB": "Project of a treatise of extradition between the Netherlands and Italy",
+    "nl_NL": "Project van een traktaat van uitzetting tussen Nederland en Italië"
+  },
   "Programma del nuovo Ministero \\(a stampa\\)$": {
     "en_GB": "Program of the new Ministry (printed)",
     "nl_NL": "Programma van het nieuwe Ministerie (gedrukt)"
@@ -4287,6 +4351,10 @@
   "Prosa e Poesia dell'avv. Tommasso Zauli Sajani lette nel Prazo Nazionale nel teatro Alibert \\(a stampa\\)$": {
     "en_GB": "Prose and Poetry of Tomasso Zauli Sajani read in the Prazo Nazionale of the Alibert theatre (printed)",
     "nl_NL": "Proza en Poezië van mr. Tomasso Zauli Sajani gelezen in het Prazo Nazionale van het Alibert theater (gedrukt)"
+  },
+  "Prospetto a stampa sulle norme postali$": {
+    "en_GB": "Printed prospectus about postal norms",
+    "nl_NL": "Gedruktep rospectus over de normen rondom post"
   },
   "Prospetto dei movimenti effettuati nel porto di Ancona$": {
     "en_GB": "Prospectus of the movements occuring in the port of Ancona",
