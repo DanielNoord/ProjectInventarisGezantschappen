@@ -5,14 +5,11 @@ from date_functions import create_date_data
 from lxml import etree
 from typing_utils import Database, FileData, SeriesData
 
-from xml_functions import (
-    add_dao,
-    add_dateset,
-    add_geognames,
-    add_persname,
-    add_unitdate,
-    add_unittitle,
-)
+from xml_functions.daoset import add_dao
+from xml_functions.date_elements import add_dateset, add_unitdate
+from xml_functions.person_elements import add_persname
+from xml_functions.place_elements import add_geognames
+from xml_functions.title_elements import add_unittitle
 
 
 def basic_xml_file() -> tuple[etree._Element, etree._Element]:

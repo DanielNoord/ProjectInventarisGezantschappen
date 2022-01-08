@@ -3,7 +3,7 @@ from typing import Optional, Tuple
 from openpyxl.cell.cell import Cell
 from typing_utils import DateTuple
 
-from date_functions import check_date_for_missing_elements
+from date_functions.check_date_for_missing import check_date_for_missing_elements
 
 
 def create_document_date(row: Tuple[Cell, ...], file_name: str) -> DateTuple:
