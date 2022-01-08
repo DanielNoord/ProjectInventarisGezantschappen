@@ -160,6 +160,10 @@
     "en_GB": "Judge at the Supreme court of the Dutch East Indies",
     "nl_NL": "Raadsheer bij het Hooggerechtshof van Nederlands-Indië"
   },
+  "Banchiere": {
+    "en_GB": "Banker",
+    "nl_NL": "Bankier"
+  },
   "Barbiere": {
     "en_GB": "Barber",
     "nl_NL": "Kapper"
@@ -240,6 +244,10 @@
     "en_GB": "Captain of the Republic of San Martino",
     "nl_NL": "Kapitein van de Republiek van San Martino"
   },
+  "Capo dell'azienda Chemet en Weetjen a Amsterdam": {
+    "en_GB": "Head of the company Chemet en Weetjen in Amsterdam",
+    "nl_NL": "Bedrijfshoofd bij Chemet en Weetjen te Amsterdam"
+  },
   "Capo della polizia di Maastricht": {
     "en_GB": "Chief of the police of Maastricht",
     "nl_NL": "Hoofcommissaris van de politie van Maastricht"
@@ -319,6 +327,10 @@
   "Colonnello": {
     "en_GB": "Colonel",
     "nl_NL": "Kolonel"
+  },
+  "Comandante dei depositi dei armi dell'esercitio pontificio a Roma": {
+    "en_GB": "Commander of the arms of the Papal army in Rome",
+    "nl_NL": "Commandant van de wapens van het Pauselijke leger in Rome"
   },
   "Comandante del 1° reggimento estero dell'esercito pontificio": {
     "en_GB": "Commander of the 1st foreign regiment of the Papal army",
@@ -636,6 +648,10 @@
     "en_GB": "Director of the department of medals and coins at the University of Leiden",
     "nl_NL": "Directeur van het Penningenkabinet van de Universiteit Leiden"
   },
+  "Direttore dell'Ufficio di Statistica del Regno di Paesi Bassi": {
+    "en_GB": "Director of the Statistical Office of the Kingdom of the Netherlands",
+    "nl_NL": "Directeur van het Bureau voor Statistiek van het Koninkrijk der Nederlanden"
+  },
   "Direttore della Biblioteca Reale di Torino": {
     "en_GB": "Director of the Royal Library in Turin",
     "nl_NL": "Directeur van de Koninklijke Bibliotheek te Turijn"
@@ -647,6 +663,10 @@
   "Direttore della Gazzetta Livornese": {
     "en_GB": "Editor of the Gazzetta Livornese",
     "nl_NL": "Redacteur van de Gazzetta Livornese"
+  },
+  "Direttore della Giunta Centrale di Statistica": {
+    "en_GB": "Director of the National Council of Statistics",
+    "nl_NL": "Directeur van het Nationale Statistiekbureau"
   },
   "Direttore della Sezione Marittima dell'Istituto Metereologico dei Paesi Bassi": {
     "en_GB": "Director of the Maritime Section of the Royal Dutch Meteorological Institute",
@@ -671,6 +691,10 @@
   "Direttore e comandante dei vigili del fuoco di Roma": {
     "en_GB": "Director and commander of the fire department of Rome",
     "nl_NL": "Directeur en commandant van de brandweer van Rome"
+  },
+  "Direttore generale al Ministero degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "Director general at the ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Direttore generale dei Dazi Indiretti del Regno delle Due Sicilie": {
     "en_GB": "Director-general of the _Dazi Indiretti_ of the Kingdom of the Two Sicilies",
@@ -767,6 +791,10 @@
   "Generale nell'esercito francese": {
     "en_GB": "General in the French army",
     "nl_NL": "Generaal in het Franse leger"
+  },
+  "Generale nell'esercito pontificio": {
+    "en_GB": "General in the Papal army",
+    "nl_NL": "Generaal in het Pauselijke leger"
   },
   "Gerente del Consolato Generale del Regno dei Paesi Bassi a Genova": {
     "en_GB": "Director of the consulate general of the Kingdom of the Netherlands in Genoa",
@@ -924,6 +952,10 @@
     "en_GB": "Grand Duke of Tuscany",
     "nl_NL": "Groothertog van Toscane"
   },
+  "Incaricato d'affari ad interim del Regno dei Paesi Bassi al Regno d'Italia": {
+    "en_GB": "Chargé d'affaires ad interim of the Kingdom of the Netherlands  to the Kingdom of Italy",
+    "nl_NL": "Ad interim zaakgelastigde van het Koninkrijk der Nederlanden bij het Koninkrijk Italië"
+  },
   "Incaricato d'affari ad interim della Santa Sede al Regno dei Paesi Bassi": {
     "en_GB": "Chargé d'affaires ad interim of the Holy See to the Kingdom of the Netherlands",
     "nl_NL": "Ad interim zaakgelastigde van de Heilige Stoel bij het Koninkrijk der Nederlanden"
@@ -1040,6 +1072,10 @@
     "en_GB": "Intendant general of the Azienda delle Gabelle of the Kingdom of Sardinia",
     "nl_NL": "Magistraat generaal van de Azienda delle Gabelle van het Koninkrijk Sardinië"
   },
+  "Intendente generale dell'esercito pontificio": {
+    "en_GB": "Intendant general of Papal army",
+    "nl_NL": "Magistraat generaal van het Pauselijke leger"
+  },
   "Internunzio all'Aia": {
     "en_GB": "Apostolic internuncio in The Hague",
     "nl_NL": "Apostolisch internuntius te Den Haag"
@@ -1067,6 +1103,10 @@
   "Inviato straordinario e incaricato d'affari del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Prussia to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Berna": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Bern",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Bern"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Londra": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in London",
@@ -1620,6 +1660,10 @@
     "en_GB": "Minister plenipotentiary of the Republic of Haiti to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Haïti bij de Heilige Stoel"
   },
+  "Ministro residente ad interim del Regno dei Paesi Bassi a Londra": {
+    "en_GB": "Resident minister ad interim of the Kingdom of the Netherlands in London",
+    "nl_NL": "Ad interim minister-resident van het Koninkrijk der Nederlanden te Londen"
+  },
   "Ministro residente degli Stati Uniti d'America presso la Santa Sede": {
     "en_GB": "Resident minister of the United States of America to the Holy See",
     "nl_NL": "Minister-resident van de Verenigde Staten van Amerika bij de Heilige Stoel"
@@ -1764,6 +1808,10 @@
     "en_GB": "Première note dressée d'après les indications de M. le Comte Visconti (First note prepared according to the indications of M. the Count of Visconti",
     "nl_NL": "Première note dressée d'après les indications de M. le Comte Visconti (Eerste nota opgesteld volgens de aanwijzingen van M. de Graaf van Visconti"
   },
+  "Presidente del Comitato Generale per le borse per i fondi pubblici": {
+    "en_GB": "President of the General Bursary Committee for Public Funds",
+    "nl_NL": "President van het Algemene Beurscomité voor Publieke Fondsen"
+  },
   "Presidente del Consiglio Superiore di Marina del Regno di Sardegna": {
     "en_GB": "President of the High Council of the Navy of the Kingdom of Sardinia",
     "nl_NL": "Voorzitter van de Hoge Raad van de Marine van het Koninkrijk Sardinië"
@@ -1831,6 +1879,10 @@
   "Presidente del governo del Granducato del Lussemburgo": {
     "en_GB": "President of the government of the Grand Duchy of Luxembourg",
     "nl_NL": "President van de regering van het Groothertogdom Luxemburg"
+  },
+  "Presidente del governo provvisorio del Spoleto": {
+    "en_GB": "President of the provisional government of Spoleto",
+    "nl_NL": "President van de tijdelijke regering van Spoleto"
   },
   "Presidente dell'Assemblea Costituzionale della Repubblica Romana": {
     "en_GB": "President of the Constitutional Assembly of the Roman Republicc",
@@ -1935,6 +1987,14 @@
   "Professore": {
     "en_GB": "Professor",
     "nl_NL": "Professor"
+  },
+  "Professore della Letteratura Olandese all'Università di Leida": {
+    "en_GB": "Professor of Dutch language at the University of Leiden",
+    "nl_NL": "Hoogleraar Nederlandse Letter op de Universiteit van Leiden"
+  },
+  "Professore della Storia, Lingua e Letteratura Nazionale di Paesi Bassi all'Università di Groninga": {
+    "en_GB": "Professor of National History, Language and Literature of the Netherlands at the University of Groningen",
+    "nl_NL": "Hoogleraar vaderlandse geschiedenis, taal en letterkunde van Nederland op de Universiteit van Groningen"
   },
   "Professore di Economia Politica e Diritto Internazionale all'Accademia di Losanna": {
     "en_GB": "Professor of Political Economy and International Law at the Academy of Lausanne",
@@ -2268,6 +2328,10 @@
     "en_GB": "Lieutenant colonel of the Papal Corps of Gendarmes",
     "nl_NL": "Luitenant-kolonel van de Pauselijke Gendarmerie"
   },
+  "Tenente colonnello nell'esercito pontificio": {
+    "en_GB": "Lieutenant Colonel in the Papal army",
+    "nl_NL": "Luitenant-Kolonel in het Pauselijke leger"
+  },
   "Tenente colonnello nell'esercito reale delle Due Sicilie": {
     "en_GB": "Lieutenant colonel in the royal army of the Two Sicilies",
     "nl_NL": "Luitenant-kolonel in het koninklijke leger van de Twee Siciliën"
@@ -2279,6 +2343,10 @@
   "Tenente maresciallo dell'esercito austriaco": {
     "en_GB": "Lieutenant field marshal in the Austrian army",
     "nl_NL": "Luitenant veldmaarschalk in het Oostenrijkse leger"
+  },
+  "Tenente nell'esercito del Granducato di Baden": {
+    "en_GB": "Lieutenant in the army of the Grand Duchy of Baden",
+    "nl_NL": "Luitenant in het leger van het Groothertogdom Baden"
   },
   "Tesoriere della Santa Sede": {
     "en_GB": "Thesaurarius of the Apostolic Chamber",

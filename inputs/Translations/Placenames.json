@@ -368,6 +368,14 @@
     "longitude": "4.62222",
     "nl_NL": "Bloemendaal"
   },
+  "Bogotá": {
+    "en_GB": "Bogotá",
+    "geonames_id": 3688689,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+    "latitude": "4.60971",
+    "longitude": "-74.08175",
+    "nl_NL": "Bogotá"
+  },
   "Bologna": {
     "en_GB": "Bologna",
     "geonames_id": 3181928,
@@ -1648,6 +1656,14 @@
     "longitude": "10.58217",
     "nl_NL": "Meletole"
   },
+  "Menton": {
+    "en_GB": "Menton",
+    "geonames_id": 2994497,
+    "geonames_wikipedia": null,
+    "latitude": "43.77649",
+    "longitude": "7.50435",
+    "nl_NL": "Menton"
+  },
   "Messina": {
     "en_GB": "Messina",
     "geonames_id": 2524170,
@@ -2223,6 +2239,14 @@
     "latitude": "43.31283",
     "longitude": "-1.97499",
     "nl_NL": "San Sebastian"
+  },
+  "Sankt Andrä-Wördern": {
+    "en_GB": "Sankt Andrä-Wördern",
+    "geonames_id": 2766765,
+    "geonames_wikipedia": null,
+    "latitude": "48.32202",
+    "longitude": "16.20724",
+    "nl_NL": "Sankt Andrä-Wördern"
   },
   "Santa Fe": {
     "en_GB": "Santa Fe",
@@ -2807,6 +2831,14 @@
     "latitude": "50.9803",
     "longitude": "11.32903",
     "nl_NL": "Weimar"
+  },
+  "Weingarten": {
+    "en_GB": "Weingarten",
+    "geonames_id": 2812204,
+    "geonames_wikipedia": null,
+    "latitude": "47.81009",
+    "longitude": "9.63863",
+    "nl_NL": "Weingarten"
   },
   "Wetzlar": {
     "en_GB": "Wetzlar",
