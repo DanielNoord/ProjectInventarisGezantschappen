@@ -226,18 +226,28 @@
   },
   "$Amerongen": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive. He was likely from the noble family Taets van Amerongen, see: https://nl.wikipedia.org/wiki/Taets_van_Amerongen",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "comment_daniel": "(Sigrid: solved) Impossible to determine who this is without more information from archive. He was likely from the noble family Taets van Amerongen, see: https://nl.wikipedia.org/wiki/Taets_van_Amerongen",
+    "date_of_birth": "1837-06-09",
+    "date_of_death": "1901-06-07",
+    "functions": [
+      ["Ciambellano del Re dei Paesi Bassi", "1873/1890"],
+      [
+        "Maresciallo di corte della principessa Marianna dei Paesi Bassi",
+        "1891/1894"
+      ]
+    ],
     "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "name": "Gerard Leonard Maximiliaan",
+    "person_type": 1,
+    "place_of_birth": "Utrecht",
+    "place_of_death": "L'Aia",
     "sources": [],
-    "sources_other": [],
-    "surname": "van Amerongen",
+    "sources_other": [
+      "'Dhr. G.L.M. baron Taets van Amerongen van Natewisch', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/49913359",
+      "Calendario Reale (Tipografia dell'Unione Cooperativa Editrice: Roma, 1893), p. 415",
+      "Röell, Jaap, 'Oververtegenwoordiging van (Utrechtse) adel in het ledenbestand van het Genootschap Kunstliefde, 1850-1916', in: Jaarboek 2014 Oud-Utrecht. Versie 7 (2016), p. 29"
+    ],
+    "surname": "Taets van Amerongen van Natewisch",
     "titles": [["barone", null]],
     "wikidata:id": null
   },
@@ -4449,7 +4459,10 @@
       "Gazzetta Ufficiale di Roma, Anno 1, 30 (Rome, 1870-10-22), 117"
     ],
     "surname": "Vagina d'Emarese",
-    "titles": [["Cav.", null]],
+    "titles": [
+      ["Cav.", null],
+      ["Barone", null]
+    ],
     "wikidata:id": null
   },
   "$Emery": {
@@ -4930,6 +4943,31 @@
     ],
     "surname": "Ferrari",
     "titles": [["vescovo", null]],
+    "wikidata:id": null
+  },
+  "$Ferreira": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Primo segretario della Legazione del Regno di Portogallo presso la Santa Sede",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Barão",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Annuario pontificio (Tipografia della Rev. Cam. Apost.: Roma, 1870), p. 438",
+      "Ministério dos Negócios Estrangeiros, 'História Diplomática / Relações Diplomáticas / Titulares/ Santa Sé - Titulares', in: Portal Diplomático, found on: https://portaldiplomatico.mne.gov.pt/relacoesbilaterais/historia-diplomatica?view=article&id=646"
+    ],
+    "surname": "de Ferreira dos Santos",
+    "titles": [["barone", null]],
     "wikidata:id": null
   },
   "$Ferrere": {
@@ -7391,6 +7429,44 @@
     "sources_other": [],
     "surname": "Lanci",
     "titles": [["tenente colonnello", null]],
+    "wikidata:id": null
+  },
+  "$Kerkvliet": {
+    "ISNI:id": null,
+    "comment_daniel": "Ofwel Antonio ofwel Nicolaas (Belgisch)",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Zuavo pontificio", null]],
+    "images": [],
+    "name": "",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "'Zouavenregister', a cura di Stichting Nederlands Zouavenmuseum, found on: https://zouavenmuseum.nl/museum-documentatie/zouavenregister/"
+    ],
+    "surname": "Kerkvliet",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Langendam": {
+    "ISNI:id": null,
+    "comment_daniel": "Vader was de oprichter van de krant 'De Nijmeger', en broer de oprichter van 'het Centrum', beiden Katholiek.",
+    "date_of_birth": "1847-08-01",
+    "date_of_death": "",
+    "functions": [["Zuavo pontificio", null]],
+    "images": [],
+    "name": "Johannes Constantijn Petrus",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "'Zouavenregister', a cura di Stichting Nederlands Zouavenmuseum, found on: https://zouavenmuseum.nl/museum-documentatie/zouavenregister/"
+    ],
+    "surname": "Langendam",
+    "titles": [],
     "wikidata:id": null
   },
   "$Lansberge": {
@@ -14253,6 +14329,37 @@
     "surname": "von Thile",
     "titles": [],
     "wikidata:id": "Q95729926"
+  },
+  "$Thomar": {
+    "ISNI:id": "0000 0000 6663 228X",
+    "comment_daniel": "Voorganger was Conte de Lavradio, overleed in 1870",
+    "date_of_birth": "1803-05-09",
+    "date_of_death": "1889-09-01",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno del Portogallo presso la Santa Sede",
+        "1870-07-21/1877-07-10"
+      ]
+    ],
+    "images": [
+      "https://en.wikipedia.org/wiki/Ant%C3%B3nio_Bernardo_da_Costa_Cabral,_1st_Marquis_of_Tomar#/media/File:Retrato_de_Ant%C3%B3nio_Bernardo_da_Costa_Cabral_(c._1845).png"
+    ],
+    "name": "António Bernardo",
+    "person_type": 1,
+    "place_of_birth": "Fornos de Algodres",
+    "place_of_death": "Oporto",
+    "sources": [
+      "'Menghini, Mario, 'Costa Cabral, Antonio Bernardo da', in: Enciclopedia Italiana (1931), found on: https://www.treccani.it/enciclopedia/costa-cabral-antonio-bernardo-da_%28Enciclopedia-Italiana%29/"
+    ],
+    "sources_other": [
+      "Ministério dos Negócios Estrangeiros, 'História Diplomática / Relações Diplomáticas / Titulares/ Santa Sé - Titulares', in: Portal Diplomático, found on: https://portaldiplomatico.mne.gov.pt/relacoesbilaterais/historia-diplomatica?view=article&id=646"
+    ],
+    "surname": "da Costa Cabral",
+    "titles": [
+      ["conte di Thomar", null],
+      ["Cav.", null]
+    ],
+    "wikidata:id": "Q130870"
   },
   "$Thorbecke": {
     "ISNI:id": "0000 0000 8145 5912",
