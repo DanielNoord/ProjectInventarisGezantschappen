@@ -1,5 +1,4 @@
 {
-  "$schema": "../../static/JSON/DocumentTitles.json",
   "\"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "“\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
@@ -204,6 +203,7 @@
     "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
     "nl_NL": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake geboren in Nederland overled in Ariccia 1846)"
   },
+  "$schema": "../../static/JSON/DocumentTitles.json",
   "(\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "\\1 to \\3",
     "nl_NL": "\\1 aan \\3"
@@ -648,6 +648,14 @@
     "en_GB": "Draft of a letter from \\2 to \\4 with notes to the accounts",
     "nl_NL": "Concept van een brief van \\2 aan \\4 met nota's over de rekeningen"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con ritaglio stampa$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 with a newspaperclipping",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 met een krantenknipsel"
+  },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) sulla Spagna$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 about Spain",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 over Spanje"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2 to \\4",
     "nl_NL": "Concept van een brief van \\2 aan \\4"
@@ -791,6 +799,14 @@
   "Comunicazione circolare a stampa$": {
     "en_GB": "Printed circulaire",
     "nl_NL": "Gedrukte circulaire"
+  },
+  "Comunicazione su carta prestampata$": {
+    "en_GB": "Circulaire on a pre-printed sheet",
+    "nl_NL": "Circulaire op een voorgedrukt blad"
+  },
+  "Concessione di onorificenza a Albert van Geelen$": {
+    "en_GB": "Concession of a decoration on Albert van Geelen",
+    "nl_NL": "Verlening van een onderscheiding aan Albert van Geelen"
   },
   "Condizioni alle quali la Santità di Nostro Signore papa Pio Nono ha accordato l'istituzione della Banca dello Stato Pontificio$": {
     "en_GB": "Conditions which His Holiness of Our Lord Pope Pius the Ninth has accorded to the the institution of the Banca dello Stato Pontificio",
@@ -1384,7 +1400,7 @@
     "en_GB": "Extract from a dispatch of \\2",
     "nl_NL": "Uittreksel van een verzending van \\2"
   },
-  "Estratto di un messagio (di|del|della) (\\$\\w+)$": {
+  "Estratto di un messaggio (di|del|della) (\\$\\w+)$": {
     "en_GB": "Extract from a message of \\2",
     "nl_NL": "Uittreksel van een bericht van \\2"
   },
@@ -1659,6 +1675,10 @@
   "Foglio a stampa \"(.+)\" \\(Caserta, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \"\\1\" (Caserta, \\2 May \\3)",
     "nl_NL": "Gedrukt blad \"\\1\" (Caserta, \\2 mei \\3)"
+  },
+  "Foglio a stampa \"(.+)\" \\(Firenze, Tipografia Eredi Botta, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Firenze, Tipografia Eredi Botta, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Firenze, Tipografia Eredi Botta, \\2)"
   },
   "Foglio a stampa \"(.+)\" \\(Gaeta, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Gaeta, \\2 Jul. \\3)",
@@ -2164,9 +2184,9 @@
     "en_GB": "Oath-taking formula for the archbishops and priests of the churches in the Netherlands",
     "nl_NL": "Formulier voor ee eed voor de aartsbisschoppen en priesters van de kerken in Nederland"
   },
-  "Formulario per gli ambasciatori (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
-    "en_GB": "Form for the ambassadors from \\2 (printed)",
-    "nl_NL": "Formulier voor de ambassadeurs van \\2 (gedrukt)"
+  "Formulario (di|del|della) (\\$\\w+) per gli ambasciatori \\(a stampa\\)$": {
+    "en_GB": "Form from \\2 for the ambassadors (printed)",
+    "nl_NL": "Formulier van \\2 voor de ambassadeurs (gedrukt)"
   },
   "Fragment d'une conversation avec S.A.S. le prince de M \\(frammento di un conversazione con S.A.S. (\\$\\w+)\\)$": {
     "en_GB": "Fragment d'une conversation avec S.A.S. le prince de M (fragment of a conversation with HSH \\1)",
@@ -2496,6 +2516,10 @@
     "en_GB": "Index",
     "nl_NL": "Index"
   },
+  "Interpellations relatives aux affaires ecclésiastiques \\(Interpellanze relative agli affari ecclesiastici\\)$": {
+    "en_GB": "Interpellations relatives aux affaires ecclésiastiques (Interpellations relating to ecclesiastical affairs)",
+    "nl_NL": "Interpellations relatives aux affaires ecclésiastiques (Interpellaties aangaande ecclesiastische zaken)"
+  },
   "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes$": {
     "en_GB": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes",
     "nl_NL": "Inventaire de l'Archive Consulaire de Pais-Bas, consegnè de par ordre de le Ministre des Affaires Etrangèrès de la Majesté le Roi des Pais-Bas, à la suite de sa lettre du 13 Septembre 1825, datée de Bruxelles, à Mons.r H. Alewijn, nouveau Consul Général de la Majesté à Genes"
@@ -2599,6 +2623,10 @@
   "Legazione di Firenze. Corrispondenza diplomatica in partenza$": {
     "en_GB": "Legation of Florence. Outgoing diplomatic correspondance",
     "nl_NL": "Gezantschap van Florence. Uitgaande diplomatieke correspondentie"
+  },
+  "Legazione di Firenze. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
+    "en_GB": "Legation of Florence. Outgoing diplomatic correspondance. \\1",
+    "nl_NL": "Gezantschap van Florence. Uitgaande diplomatieke correspondentie. \\1"
   },
   "Legazione di Firenze. Negoziati per un trattato di estradizione fra i Paesi Bassi e l'Italia$": {
     "en_GB": "Legation of Florence. Negotiations about a treatise of extradition between the Netherlands and Italy",
@@ -2948,6 +2976,10 @@
     "en_GB": "Letter from \\2 to the consuls of Genoa, Livorno, Naples and Ancona",
     "nl_NL": "Brief van \\2 aan de consuls van Genua, Livorno, Napels en Ancona"
   },
+  "Lettera (di|del|della) (\\$\\w+) ai consoli di Genova, Livorno, Napoli, Palermo e Messina$": {
+    "en_GB": "Letter from \\2 to the consuls of Genoa, Livorno, Naples, Palermo and Messina",
+    "nl_NL": "Brief van \\2 aan de consuls van Genua, Livorno, Napels, Palermo en Messina"
+  },
   "Lettera (di|del|della) (\\$\\w+) ai direttori del Commercio del Levante e la Navigazione nel Mediterraneo$": {
     "en_GB": "Letter from \\2 to the directors of Commerce in the Levant and Navigation in the Mediterranean",
     "nl_NL": "Brief van \\2 aan de directeurs van Handel in de Levant en Scheepvaart op de Middellandse Zee"
@@ -2995,6 +3027,10 @@
   "Lettera (di|del|della) (\\$\\w+) alla Biblioteca di Leida e (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from \\2 to the Library of Leiden and to \\4",
     "nl_NL": "Brief van \\2 aan de Bibliotheek van Leiden en aan \\4"
+  },
+  "Lettera (di|del|della) (\\$\\w+) alla delegazione Apostolica$": {
+    "en_GB": "Letter from \\2 to the Apostolic delegation",
+    "nl_NL": "Brief van \\2 aan de Apostolische delegatie"
   },
   "Lettera (di|del|della) (\\$\\w+) alla direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam$": {
     "en_GB": "Letter from \\2 to the directorate of the International Society of Industry, Agriculture and Commerce in Amsterdam",
@@ -3108,8 +3144,12 @@
     "en_GB": "Letter to the Chamber of Commerce and Factories in Amsterdam",
     "nl_NL": "Brief aan de Kamer van Koophandel en Fabrieken te Amsterdam"
   },
+  "Lettera allegata (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Attached letter from \\2 to \\4",
+    "nl_NL": "Bijgevoegde brief van \\2 aan \\4"
+  },
   "Lettera allegata (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Attached letter of \\2",
+    "en_GB": "Attached letter from \\2",
     "nl_NL": "Bijgevoegde brief van \\2"
   },
   "Lettera allegata alla lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
@@ -3400,6 +3440,10 @@
     "en_GB": "Letter about the death of His Majesty \\1 (printed)",
     "nl_NL": "Brief over de dood van Zijne Majesteit \\1 (gedrukt)"
   },
+  "Lettera prestampata$": {
+    "en_GB": "Pre-printed letter",
+    "nl_NL": "Voorgedrukte brief"
+  },
   "Lettera senza firma (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter without signature to \\2",
     "nl_NL": "Brief zonder handtekening aan \\2"
@@ -3475,6 +3519,10 @@
   "Lo Statuto \\(a stampa\\)$": {
     "en_GB": "Lo Statuto (printed)",
     "nl_NL": "Lo Statuto (gedrukt)"
+  },
+  "Mancante$": {
+    "en_GB": "MISSING",
+    "nl_NL": "ONTBREEKT"
   },
   "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère$": {
     "en_GB": "Manière dont devrà se poprter le deuil prescrit par S. M. pour la mort du Roi Victor Emmanuel son Auguste frère",
@@ -5296,6 +5344,10 @@
     "en_GB": "Transcription of day order of \\2",
     "nl_NL": "Transcriptie van het dag bevel van \\2"
   },
+  "Trascrizione di alcuni determinazioni generali del dipartimento degli Affari Esteri$": {
+    "en_GB": "Transcription of several general determinations of the department of Foreign Affairs",
+    "nl_NL": "Transcriptie van enkele algemene besluiten van het departement van Buitenlandse Zaken"
+  },
   "Trascrizione di articoli apparsi sul Giornale di Roma": {
     "en_GB": "Transcription of articles that appeared in the Giornale di Roma",
     "nl_NL": "Transcriptie van artikelen die verschenen zijn in het Giornale di Roma"
@@ -5435,10 +5487,6 @@
   "Trascrizione di una circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a circulaire of \\2",
     "nl_NL": "Transcriptie van een circulaire van \\2"
-  },
-  "Trascrizione di una determinazioni generali del dipartimento degli Affari Esteri$": {
-    "en_GB": "Transcription of the general determinations of the department of Foreign Affairs",
-    "nl_NL": "Transcriptie van de algemene besluiten van het departement van Buitenlandse Zaken"
   },
   "Trascrizione di una dichiarazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a declaration of \\2",
