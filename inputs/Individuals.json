@@ -1,5 +1,4 @@
 {
-  "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
     "comment_daniel": "",
@@ -563,6 +562,35 @@
     "surname": "Constantini Baldini",
     "titles": [["barone", null]],
     "wikidata:id": null
+  },
+  "$Banneville": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1818-04-26",
+    "date_of_death": "1881-06-13",
+    "functions": [
+      [
+        "Ambasciatore della Repubblica di Francia presso la Santa Sede",
+        "1868/"
+      ],
+      [
+        "Ministro degli Affari Esteri della Repubblica di Francia",
+        "1877-11-23/1877-12-12"
+      ]
+    ],
+    "images": [],
+    "name": "Gaston-Robert",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "Parigi",
+    "sources": [],
+    "sources_other": ["https://fr.wikipedia.org/wiki/Gaston_de_Banneville"],
+    "surname": "Morin de Banneville",
+    "titles": [
+      ["marchese", null],
+      ["Cav.", null]
+    ],
+    "wikidata:id": "Q2448332"
   },
   "$Baraguay": {
     "ISNI:id": "0000 0000 2457 6195",
@@ -1809,19 +1837,28 @@
   },
   "$Bosis": {
     "ISNI:id": null,
-    "comment_daniel": "ms.339. Impossible to determine who this is without more information from archive. Most people seem to write this surname with “De Bosis”, but original Italian inventory uses “de Bosis”",
+    "comment_daniel": "(Sigrid: solved) ms.339. Impossible to determine who this is without more information from archive. Most people seem to write this surname with “De Bosis”, but original Italian inventory uses “de Bosis”",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      ["Ingegnere", null],
+      [
+        "Direttore del Gabinetto di Scienze naturali e l'osservatorio meteorologico del R. Istituto industriale e professionale di Ancona",
+        null
+      ]
+    ],
     "images": [],
     "name": "Francesco",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Atti della R. Accademia delle Scienze di Torino. Volume 3 (Stamperia Reale: Torino, 1867), p. 89",
+      "Gastaldi, Bartolomeo, Lake Habitations and Pre-historic Remains in the Turbaries and Marl-beds of Northern and Central Italy, transl. Chambers, Charles Harcourt (London, 1865), p. 6"
+    ],
     "surname": "de Bosis",
-    "titles": [],
+    "titles": [["Cav.", null]],
     "wikidata:id": null
   },
   "$Bossche": {
@@ -2781,6 +2818,25 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Capriati": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Vice-console del Regno dei Paesi Bassi a Napoli", null]],
+    "images": [],
+    "name": "Enrico",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Il nuovo Palmaverde almanacco storico-amministrativo-statistico del Regno d'Italia pel 1869 (Pellino, V. Fontana e Chiariglione: Torino, 1869), p. 312"
+    ],
+    "surname": "Capriati",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$CarafaL": {
     "ISNI:id": null,
     "comment_daniel": "Lijkt mij dezelfde als andere Carafa. Lijkt mij ook: deze weghalen? Geeft ook geen extra informatie.",
@@ -3306,6 +3362,31 @@
       ["conte", null],
       ["Cav.", null]
     ],
+    "wikidata:id": null
+  },
+  "$Chiari": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Console dell'Impero d'Austria ad Ancona", null],
+      [
+        "Gerente provvisorio del Consolato del Regno dei Paesi Bassi ad Ancona",
+        "1869/"
+      ]
+    ],
+    "images": [],
+    "name": "Gerardo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Agenti diplomatici e consolari degli stati esteri in Italia (1867), p. 8"
+    ],
+    "surname": "Chiari",
+    "titles": [],
     "wikidata:id": null
   },
   "$Chiavarini": {
@@ -9949,6 +10030,30 @@
     "titles": [],
     "wikidata:id": "Q3047474"
   },
+  "$Nicolini": {
+    "ISNI:id": null,
+    "comment_daniel": "Bijzonder weinig over hem te vinden",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Prefetto di palazzo e gran maestro delle cerimonie del Re d'Italia",
+        "1869/"
+      ]
+    ],
+    "images": [],
+    "name": "Luigi",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "La Baba (Hermanstorfer, 1869), found on: https://books.google.nl/books?id=XmuFIDj__sAC&pg=PA33&dq=maestro+di+cerimonie+di+s.m.+conte&hl=nl&sa=X&ved=2ahUKEwiikvnGh6z1AhUBLewKHWN7DMs4ChDoAXoECAcQAg#v=onepage&q=maestro%20di%20cerimonie%20di%20s.m.%20conte&f=false"
+    ],
+    "surname": "Nicolini Alemanni",
+    "titles": [["marchese", null]],
+    "wikidata:id": null
+  },
   "$Nigra": {
     "ISNI:id": "0000 0001 1658 5291",
     "comment_daniel": "",
@@ -11961,6 +12066,63 @@
     "titles": [],
     "wikidata:id": "Q2576296"
   },
+  "$Rojas": {
+    "ISNI:id": "0000 0000 4946 3496",
+    "comment_daniel": "",
+    "date_of_birth": "1826-11-26",
+    "date_of_death": "1905-07-22",
+    "functions": [
+      [
+        "Governatore della provincia di Caracas per la Repubblica del Venezuela",
+        "1853/1854"
+      ],
+      [
+        "Ministro degli Affari Interni e della Giustizia della Repubblica del Venezuela",
+        "1869/"
+      ],
+      [
+        "Ministro degli Affari Esteri della Repubblica del Venezuela",
+        "1873/1876"
+      ],
+      ["Ministro delle Finanze della Repubblica del Venezuela", "1879/"],
+      ["Presidente della Repubblica del Venezuela", "1888-07-05/1890-03-06"]
+    ],
+    "images": [
+      "https://collections.arck-project.org/view/ARCK3D0000000659/pintura-de-juan-pablo-rojas-paul"
+    ],
+    "name": "Juan Pablo",
+    "person_type": 1,
+    "place_of_birth": "Caracas",
+    "place_of_death": "Caracas",
+    "sources": [
+      "Polar, Fundación, 'Rojas Paúl, Juan Pablo', in: Diccionario de Historia de Venezuela, found on: https://bibliofep.fundacionempresaspolar.org/dhv/entradas/r/rojas-paul-juan-pablo/"
+    ],
+    "sources_other": [],
+    "surname": "Rojas Paúl",
+    "titles": [],
+    "wikidata:id": "Q2497578"
+  },
+  "$Rolandus": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Console Generale del Regno di Paesi Bassi a Caracas", "1858/1872"]
+    ],
+    "images": [],
+    "name": "T.D.G.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Inventaris van het archief van het Nederlandse Consulaat-Generaal en Gezantschap in Venezuela, 1840-1954, Nationaal Archief, 2.05.338"
+    ],
+    "sources_other": [],
+    "surname": "Rolandus",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Rollmann": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -13414,6 +13576,23 @@
     "titles": [],
     "wikidata:id": "Q2339140"
   },
+  "$Soutendijk": {
+    "ISNI:id": "0000 0003 8915 2686",
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Cartografo", null]],
+    "images": [],
+    "name": "A.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Soutendijk",
+    "titles": [],
+    "wikidata:id": "Q109650583"
+  },
   "$Souza": {
     "ISNI:id": null,
     "comment_daniel": "ms330. Naam lijkt me niet zijn echte Spaanse naam, functie komt ook niet overeen met bron > uitzoeken",
@@ -13725,8 +13904,10 @@
     "ISNI:id": null,
     "comment_daniel": "",
     "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", "1866/"]],
+    "date_of_death": "1869-05-06",
+    "functions": [
+      ["Console del Regno dei Paesi Bassi ad Ancona", "1866/1869-05-06"]
+    ],
     "images": [],
     "name": "Gaspari",
     "person_type": 1,
@@ -14715,7 +14896,7 @@
     "functions": [["Console del Regno dei Paesi Bassi a Messina", null]],
     "images": [],
     "name": "J.J.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -14806,6 +14987,25 @@
     "sources_other": [],
     "surname": "de Vignet",
     "titles": [["conte", null]],
+    "wikidata:id": null
+  },
+  "$Violet": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Sensale marittimo e fornitore navale ad Ancona", null]],
+    "images": [],
+    "name": "Charles B.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Urquhart, G.D., Dues and Charges on Shipping in Foreign Ports (London, 1869) p. 329"
+    ],
+    "surname": "Violet",
+    "titles": [],
     "wikidata:id": null
   },
   "$Visconti": {
@@ -15604,5 +15804,6 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  }
+  },
+  "$schema": "../static/JSON/Individuals.json"
 }
