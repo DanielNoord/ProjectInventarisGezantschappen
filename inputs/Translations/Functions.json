@@ -52,6 +52,10 @@
     "en_GB": "Ambassador of the Empire of France to the Holy See",
     "nl_NL": "Ambassadeur van het Keizerrijk Frankrijk bij de Heilige Stoel"
   },
+  "Ambasciatore della Repubblica di Francia presso la Santa Sede": {
+    "en_GB": "Ambassador of the Republic of France to the Holy See",
+    "nl_NL": "Ambassadeur van de Republiek van Frankrijk bij de Heilige Stoel"
+  },
   "Ambasciatore staordinario del Regno di Sardegna presso la Santa Sede": {
     "en_GB": "Extraordinary ambassador of the Kingdom of Sardinia to the Holy See",
     "nl_NL": "Buitengewoon ambassadeur van het Koninkrijk Sardinië bij de Heilige Stoel"
@@ -276,6 +280,10 @@
     "en_GB": "Cardinal bishop of Sabina-Poggio Mirteto",
     "nl_NL": "Kardinaal-bisschop van Sabina-Poggio Mirteto"
   },
+  "Cartografo": {
+    "en_GB": "Cartographer",
+    "nl_NL": "Cartograaf"
+  },
   "Chimico": {
     "en_GB": "Chemist",
     "nl_NL": "Scheikundige"
@@ -436,6 +444,10 @@
     "en_GB": "Advisor and chargé d'affaires of the Kingdom of Belgium in Rome",
     "nl_NL": "Adviseur en zaakgelastigde van het Koninkrijk België te Rome"
   },
+  "Console Generale del Regno di Paesi Bassi a Caracas": {
+    "en_GB": "Consul of the Kingdom of the Netherlands in Caracas",
+    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Caracas"
+  },
   "Console Generale del Regno di Sardegna a Tunisi": {
     "en_GB": "Consul general of the Kingdom of Sardinia at Tunis",
     "nl_NL": "Consul-generaal van het Koninkrijk Sardinië te Tunis"
@@ -536,6 +548,10 @@
     "en_GB": "Consul of the Kingdom of Württemberg in Rome",
     "nl_NL": "Consul van het Koninkrijk Württemberg te Rome"
   },
+  "Console dell'Impero d'Austria ad Ancona": {
+    "en_GB": "Consul of the Empire of Austria in Ancona",
+    "nl_NL": "Consul van het Keizerrijk Oostenrijk te Ancona"
+  },
   "Console della Repubblica delle Sette Province Unite a Genova": {
     "en_GB": "Consul of the Republic of the Seven United Netherlands in Genoa",
     "nl_NL": "Consul van de Republiek der Zeven Verenigde Nederlanden te Genua"
@@ -623,6 +639,10 @@
   "Direttore del Dipartimento della Posta del Granducato di Toscana": {
     "en_GB": "Director of the Post Department of the Grand Duchy of Tuscany",
     "nl_NL": "Directeur van de Afdeling Post van het Groothertogdom van Toscana"
+  },
+  "Direttore del Gabinetto di Scienze naturali e l'osservatorio meteorologico del R. Istituto industriale e professionale di Ancona": {
+    "en_GB": "Director of the Cabinet of Natural Sciences and the meteorological observatory of the R. Istituto industriale e professionale in Ancona",
+    "nl_NL": "Hoofd van het Kabinet van Natuurwetenschappen en het meteorologisch observatorium van de R. Istituto industriale e professionale in Ancona"
   },
   "Direttore del Ministero degli Affari Esteri del Regno delle Due Sicilie": {
     "en_GB": "Director of the Ministry of External Affairs of the Kingdom of the Two Sicilies",
@@ -804,6 +824,10 @@
     "en_GB": "Director of the consulate general of the Kingdom of the Netherlands in Napels",
     "nl_NL": "Directeur van het consulaat-generaal van het Koninkrijk der Nederlanden te Napels"
   },
+  "Gerente provvisorio del Consolato del Regno dei Paesi Bassi ad Ancona": {
+    "en_GB": "Temporary director of the consulate of the Kingdom of the Netherlands in Ancona",
+    "nl_NL": "Tijdelijke directeur van het consulaat van het Koninkrijk der Nederlanden te Ancona"
+  },
   "Gesuita": {
     "en_GB": "Jesuit",
     "nl_NL": "Jezuïet"
@@ -859,6 +883,10 @@
   "Governatore della Piazza di Messina": {
     "en_GB": "Governor of the fortress of Messina",
     "nl_NL": "Gouverneur van de vesting van Messina"
+  },
+  "Governatore della provincia di Caracas per la Repubblica del Venezuela": {
+    "en_GB": "Governor of the province of Caracas for the Republic of Venezuela",
+    "nl_NL": "Gouverneur van de provincie van Caracas voor de Republiek van Venezuela"
   },
   "Governatore della provincia di Drenthe per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the province of Drenthe for the King of the Netherlands",
@@ -1051,6 +1079,10 @@
   "Incisiore e medaglista": {
     "en_GB": "Engraver and medallist",
     "nl_NL": "Graveur en medailleur"
+  },
+  "Ingegnere": {
+    "en_GB": "Engineer",
+    "nl_NL": "Ingenieur"
   },
   "Ingegnere prinicpale del Rijkswaterstaat nella regione dell'Olanda del Sud": {
     "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in South Holland",
@@ -1424,6 +1456,14 @@
     "en_GB": "Minister of Foreign Affairs of the Roman Republic",
     "nl_NL": "Minister van Buitenlandse Zaken van de Romeinse Republiek"
   },
+  "Ministro degli Affari Esteri della Repubblica del Venezuela": {
+    "en_GB": "Secretary of Foreign Affairs of the Republic of Venezuela",
+    "nl_NL": "Minister van Buitenlandse Zaken van de Republiek van Venezuela"
+  },
+  "Ministro degli Affari Esteri della Repubblica di Francia": {
+    "en_GB": "Minister of Foreign Affairs of the Republic of France",
+    "nl_NL": "Minister van Buitenlandse Zaken van de Republiek van Frankrijk"
+  },
   "Ministro degli Affari Esteri dello Stato Pontificio": {
     "en_GB": "Minister of Foreign Affairs of the Papel States",
     "nl_NL": "Minister van Buitenlandse Zaken van de Kerkelijke Staat"
@@ -1447,6 +1487,10 @@
   "Ministro degli Affari Interni dello Stato Pontificio": {
     "en_GB": "Minister of Internal Affairs of the Papel States",
     "nl_NL": "Minister van Binnenlandse Zaken van de Kerkelijke Staat"
+  },
+  "Ministro degli Affari Interni e della Giustizia della Repubblica del Venezuela": {
+    "en_GB": "Secretary of Internal Affairs and Justice of the Republic of Venezuela",
+    "nl_NL": "Minister van Binnenlandse Zaken en Justitie van de Republiek van Venezuela"
   },
   "Ministro degli Affari del Culto Riformato e gli altri Culti Religiosi non Cattolici": {
     "en_GB": "Minister for Affairs of Reformed Worship and Other Kinds of Religious, non-Catholic Worship",
@@ -1539,6 +1583,10 @@
   "Ministro delle Finanze del Regno dei Paesi Bassi": {
     "en_GB": "Minister of Finance of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Financiën van het Koninkrijk der Nederlanden"
+  },
+  "Ministro delle Finanze della Repubblica del Venezuela": {
+    "en_GB": "Secretary of Finance of the Republic of Venezuela",
+    "nl_NL": "Minister van Financiën van de Republiek van Venezuela"
   },
   "Ministro delle Finanze dello Stato Pontificio": {
     "en_GB": "Minister of Finance of the Papel States",
@@ -1916,6 +1964,10 @@
     "en_GB": "President of the Province of Rome and of Comarca",
     "nl_NL": "President van de Provincie van Rome en van Comarca"
   },
+  "Presidente della Repubblica del Venezuela": {
+    "en_GB": "President of the Republic of Venezuela",
+    "nl_NL": "President van de Republiek van Venezuela"
+  },
   "Pretendente del Ducato di Mantova": {
     "en_GB": "Pretendent of the Duchy of Mantova",
     "nl_NL": "Pretendent van het hertogdom Mantova"
@@ -2263,6 +2315,10 @@
   "Senatore del Regno di Sardegna": {
     "en_GB": "Senator of the Kingdom of Sardinia",
     "nl_NL": "Senator van het Koninkrijk Sardinië"
+  },
+  "Sensale marittimo e fornitore navale ad Ancona": {
+    "en_GB": "Ship broker and chandler at Ancona",
+    "nl_NL": "Scheepshandelaar en scheepsleverancier bij Ancona"
   },
   "Sindaco del Magistrato di Sanità di Genova": {
     "en_GB": "Auditor of the _Magistrato di Sanità_ of Genoa",

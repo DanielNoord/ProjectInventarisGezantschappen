@@ -536,6 +536,14 @@
     "longitude": "14.21269",
     "nl_NL": "Capua"
   },
+  "Caracas": {
+    "en_GB": "Caracas",
+    "geonames_id": 3646738,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Caracas",
+    "latitude": "10.48801",
+    "longitude": "-66.87919",
+    "nl_NL": "Caracas"
+  },
   "Carrara": {
     "en_GB": "Carrara",
     "geonames_id": 3180423,
