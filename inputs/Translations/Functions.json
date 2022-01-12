@@ -1336,6 +1336,10 @@
     "en_GB": "Major general of the Kingdom of the Netherlands",
     "nl_NL": "Generaal-majoor van het Koninkrijk der Nederlanden"
   },
+  "Maresciallo di corte della principessa Marianna dei Paesi Bassi": {
+    "en_GB": "Court marshal of Princess Marianne of the Netherlands",
+    "nl_NL": "Hofmaarschalk in dienst bij prinses Marianne der Nederlanden"
+  },
   "Mediatore da noleggi": {
     "en_GB": "Rental broker",
     "nl_NL": "Huurmakelaar"
@@ -1984,6 +1988,10 @@
     "en_GB": "First president of the supreme Council of the Admiralty and of the Administrative Council of the Marine",
     "nl_NL": "Eerste president van de Hoge Raad van de Admiraliteit en van de Administratieve Raad van de Marine"
   },
+  "Primo segretario della Legazione del Regno di Portogallo presso la Santa Sede": {
+    "en_GB": "Chargé d'affaires of the Kingdom of Portugal to the Holy See",
+    "nl_NL": "Zaakgelastigde van het Koninkrijk Portugal bij de Heilige Stoel"
+  },
   "Primo segretario di stato di Guerra del Regno di Sardegna": {
     "en_GB": "First State Secretary of War of the Kingdom of Sardinia",
     "nl_NL": "Eerste staatssecretaris van Oorlog van het Koninkrijk Sardinië"
@@ -2559,5 +2567,9 @@
   "Viceré della Lombardia e Venezia": {
     "en_GB": "Viceroy of Lombardy and Venice",
     "nl_NL": "Onderkoning van Lombardije en Venetië"
+  },
+  "Zuavo pontificio": {
+    "en_GB": "Papal zouave",
+    "nl_NL": "Pauselijke zoeaaf"
   }
 }

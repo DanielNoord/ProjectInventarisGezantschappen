@@ -1328,6 +1328,14 @@
     "longitude": "5.33472",
     "nl_NL": "Kerkdriel"
   },
+  "Fornos de Algodres": {
+    "en_GB": "Fornos de Algodres",
+    "geonames_id": 2739349,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fornos_de_Algodres",
+    "latitude": "40.62807",
+    "longitude": "-7.54064",
+    "nl_NL": "Fornos de Algodres"
+  },
   "L'Aia": {
     "en_GB": "The Hague",
     "geonames_id": 2747373,
@@ -1905,12 +1913,12 @@
     "nl_NL": "Oosterhout"
   },
   "Oporto": {
-    "en_GB": "Oporto",
+    "en_GB": "Porto",
     "geonames_id": 2735943,
     "geonames_wikipedia": "https://en.wikipedia.org/wiki/Porto",
     "latitude": "41.14961",
     "longitude": "-8.61099",
-    "nl_NL": "Oporto"
+    "nl_NL": "Porto"
   },
   "Oriolo": {
     "en_GB": "Oriolo",
