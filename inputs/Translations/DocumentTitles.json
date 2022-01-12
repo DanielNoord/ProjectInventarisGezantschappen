@@ -624,6 +624,10 @@
     "en_GB": "Boni garantiti by \\2",
     "nl_NL": "Boni garantiti door \\2"
   },
+  "Bozza allegata$": {
+    "en_GB": "Attached draft",
+    "nl_NL": "Bijgevoegde conceptversie"
+  },
   "Bozza del trattato di estradizione$": {
     "en_GB": "Draft of a treatise of extradition",
     "nl_NL": "Proefversie van een traktaat van uitzetting"
@@ -1083,6 +1087,10 @@
   "Decreto a stampa (di|del|della) (\\$\\w+) su tariffe doganali e prezzi$": {
     "en_GB": "Printed decree of \\2 about custom rates and prices",
     "nl_NL": "Gedrukte verordening van \\2 over douanetarieven en prijzen"
+  },
+  "Decreto a stampa (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Printed decree of \\2",
+    "nl_NL": "Gedrukte verordening van \\2"
   },
   "Decreto di papa Gregorio XVI del 5 aprile 1845 circa l'Indice dei Libri Proibiti \\(a stampa\\)$": {
     "en_GB": "Decree of pope Gregorius XVI of 5 April 1845 on the Index of Forbidden Books (printed)",
@@ -1800,6 +1808,10 @@
     "en_GB": "Printed sheet \\1) “\\2” dated at Livorno, \\4 Oct. \\5, from \\6 (Florence, Stamperia Granducale, \\7)",
     "nl_NL": "Gedrukt blad \\1) “\\2” gedateerd te Livorno \\4 okt. \\5, van van \\6 (Florence, Stamperia Granducale, \\7)"
   },
+  "Foglio a stampa (.+)\\) \"(.+)\" firmato (di|del|della) (\\$\\w+) \\(L'Aia, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet \\1) “\\2” signed by \\4 (The Hague, \\5 Jan. \\6)",
+    "nl_NL": "Gedrukt blad \\1) “\\2” ondertekend door \\4 (Den Haag, \\5 jan. \\6)"
+  },
   "Foglio a stampa (.+)\\) \"(.+)\" relativa ai Certificati in capitale firmata (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Printed sheet \\1) “\\2” relating to the capital certificates signed by \\4",
     "nl_NL": "Gedrukt blad \\1) “\\2” met betrekking tot de aandelencertificaten ondertekend door \\4"
@@ -2088,6 +2100,10 @@
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract from “\\3”, N. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract uit “\\3”, N. \\4)"
   },
+  "Foglio a stampa “(.+)” \\(Roma, ex Typographia Concilii Vaticani, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, ex Typographia Concilii Vaticani, \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, ex Typographia Concilii Vaticani, \\3)"
+  },
   "Foglio a stampa “(.+)” circa il pagamento delle tasse marittime tra il Governo Pontificio e il Ducato di Modena \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the payment of maritime taxes between the Papal Government and the Duchy of Modena (Rome, Tipografia della Rev. Cam. Apost., \\2 Apr. \\3)",
     "nl_NL": "Gedrukt blad “\\1” over de betaling van maritieme belasting tussen de Pauselijke Regering en het Hertogdom van Modena (Rome, Tipografia della Rev. Cam. Apost., \\2 apr. \\3)"
@@ -2259,6 +2275,10 @@
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Bruxelles, N. (\\d+) del (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Brussels, N. \\3 of \\4)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Brussel, N. \\3 van \\4)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Gand, N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Year \\2 - Gand, N. \\3 of \\4 Jul. \\5)",
+    "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Gand, N. \\3 van \\4 jul. \\5)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Genova, N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Genoa, N. \\3 of \\4 Jul. \\5)",
@@ -3564,6 +3584,10 @@
     "en_GB": "Mmemory about Rome",
     "nl_NL": "Memorie over Rome"
   },
+  "Memoria su dispacci arrivati$": {
+    "en_GB": "Memory about incoming dispatches",
+    "nl_NL": "Memorie over binnengekomen verzendingen"
+  },
   "Memoria sugli Stati Uniti d'America$": {
     "en_GB": "Memory on the United States of America",
     "nl_NL": "Memorie over de Verenigde Staten van Amerika"
@@ -3599,6 +3623,10 @@
   "Memoria sulla Controversia tra il Governo dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Granducato di Nassau per la Diocesi di Limburgo$": {
     "en_GB": "Memory about the controversy between the government of the Kingdom of the Netherlands and the Holy See relating to the ecclesiastical relations in the Grand Duchy of Nassau for the Diocese of Limburg ",
     "nl_NL": "Memorie over de controverse tussen de overheid van het Koninkrijk der Nederlanden en de Heilige Stoel met betrekking tot de ecclesiastische relaties in het Groothertogdom van Nassau voor het bisschop van Limburg"
+  },
+  "Memoria sulla guarnigione di Civitavecchia sottoscritta (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Memory about the garrison in Civitavecchia signed by \\2",
+    "nl_NL": "Memorie over het garizoen in Civitavecchia onderschreven door \\2"
   },
   "Memoria sulla legislazione vigente sui trattati di navigazione$": {
     "en_GB": "Memory on the valid legislation about treatises of navigation",
@@ -3983,6 +4011,10 @@
   "Note di riscontri effettuati con la congregazione degli affari Straordinari e col (\\$\\w+)$": {
     "en_GB": "Notes of evidence conducted by the congregation of external affairs and by \\1",
     "nl_NL": "Bewijsnota's uitgevoerd door de congregatie van buitenlandse zaken en door \\1"
+  },
+  "Note e appunti sui feriti$": {
+    "en_GB": "Notes about the wounded",
+    "nl_NL": "Notities over de verwonden"
   },
   "Note esplicative sulle tabelle di finanza$": {
     "en_GB": "Explanatory notes about the financial tables",
@@ -5156,6 +5188,10 @@
     "en_GB": "Translation of an article from the Gazetta di Roma",
     "nl_NL": "Vertaling van een artikel uit de Gazetta di Roma"
   },
+  "Traduzione di un articolo di un giornale$": {
+    "en_GB": "Translation of an article from a newspaper",
+    "nl_NL": "Vertaling van een artikel uit een nieuwsblad"
+  },
   "Traduzione di un articolo estratto da L'Indépendance Belge$": {
     "en_GB": "Translation of an article extracted from the L'Indépendance Belge",
     "nl_NL": "Vertaling van een artikel geëxtraheerd uit de L'Indépendance Belge"
@@ -5392,6 +5428,10 @@
     "en_GB": "Transcription of an appeal from \\2 to the Romans",
     "nl_NL": "Vertaling van een oproep van \\2 aan de Romeinen"
   },
+  "Trascrizione di un Decreto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription of a Decree of \\2",
+    "nl_NL": "Transcriptie van een Verordening"
+  },
   "Trascrizione di un Editto (di|del|della) (\\$\\w+) trasmessa (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Transcription of an edict by \\2 sent by \\4",
     "nl_NL": "Transcriptie van een edict door \\2 verstuurd door \\4"
@@ -5399,6 +5439,10 @@
   "Trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed transcription of an edict of \\2",
     "nl_NL": "Gedrukte transcriptie van een edict van \\2"
+  },
+  "Trascrizione di un appello (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
+    "en_GB": "Transcription of an appeal from \\2 to \\4",
+    "nl_NL": "Vertaling van een appel van \\2 aan \\4"
   },
   "Trascrizione di un appello al popolo Olandese$": {
     "en_GB": "Transcription of an appeal to the Dutch people",
@@ -5546,7 +5590,11 @@
   },
   "Trascrizione e traduzione della seduta della Camera dei Deputati relativa alla Lombardia$": {
     "en_GB": "Transcription and translation of a sitting of the Chamber of Deputies pertaining to Lombardy",
-    "nl_NL": "Transcriptie en vertaling van een zittin van de Kamer van Afgevaardigden met betrekking tot Lombardije"
+    "nl_NL": "Transcriptie en vertaling van een zitting van de Kamer van Afgevaardigden met betrekking tot Lombardije"
+  },
+  "Trascrizione e traduzione della seduta della protesta fatta (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Transcription and translation of a protest made by \\2",
+    "nl_NL": "Transcriptie en vertaling van een protest gemaakt door \\2"
   },
   "Trascrizione e traduzione di Notizie del giorno$": {
     "en_GB": "Transcription and translation of Daily news",
