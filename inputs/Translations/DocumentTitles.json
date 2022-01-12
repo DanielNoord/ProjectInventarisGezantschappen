@@ -2101,8 +2101,8 @@
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia delle Belle Arti, \\2 - Extract uit “\\3”, N. \\4)"
   },
   "Foglio a stampa “(.+)” \\(Roma, ex Typographia Concilii Vaticani, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, ex Typographia Concilii Vaticani, \\3)",
-    "nl_NL": "Gedrukt blad “\\1” (Rome, ex Typographia Concilii Vaticani, \\3)"
+    "en_GB": "Printed sheet “\\1” (Rome, ex Typographia Concilii Vaticani, \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, ex Typographia Concilii Vaticani, \\2)"
   },
   "Foglio a stampa “(.+)” circa il pagamento delle tasse marittime tra il Governo Pontificio e il Ducato di Modena \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” about the payment of maritime taxes between the Papal Government and the Duchy of Modena (Rome, Tipografia della Rev. Cam. Apost., \\2 Apr. \\3)",
