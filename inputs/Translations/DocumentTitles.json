@@ -648,6 +648,10 @@
     "en_GB": "Draft of a letter from \\2 to \\4 (attachment)",
     "nl_NL": "Concept van een brief van \\2 aan \\4 (bijlage)"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con biglietto (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 with a note from \\6",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 met een notitie van \\6"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con note contabili$": {
     "en_GB": "Draft of a letter from \\2 to \\4 with notes to the accounts",
     "nl_NL": "Concept van een brief van \\2 aan \\4 met nota's over de rekeningen"
@@ -656,13 +660,25 @@
     "en_GB": "Draft of a letter from \\2 to \\4 with a newspaperclipping",
     "nl_NL": "Concept van een brief van \\2 aan \\4 met een krantenknipsel"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) sul caso di Ronca$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 about the case of Ronca",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 over de zaak Ronca"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) sulla Spagna$": {
     "en_GB": "Draft of a letter from \\2 to \\4 about Spain",
     "nl_NL": "Concept van een brief van \\2 aan \\4 over Spanje"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) sulla pirateria$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 about piracy",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 over piraterij"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2 to \\4",
     "nl_NL": "Concept van een brief van \\2 aan \\4"
+  },
+  "Bozza di lettera (di|del|della) (\\$\\w+) ai consoli generali dei Paesi Bassi a Napoli, Livorno, Genova, Cagliari, Messina, Palermo e Malta$": {
+    "en_GB": "Draft letter from \\2 to the consuls of the Netherlands in Naples, Livorno, Genoa, Cagliari, Messina, Palermo and Malta",
+    "nl_NL": "Conceptbrief van \\2 aan de consuls van Nederland in Napels, Livorno, Genua, Cagliari, Messina, Palermo en Malta"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) alla Direzione delle Poste$": {
     "en_GB": "Draft of a letter from \\2 to the Directorate of the Post",
@@ -920,6 +936,10 @@
     "en_GB": "Copy of letters of \\2 to \\4 and \\6",
     "nl_NL": "Kopie van brieven van \\2 aan \\4 en \\6"
   },
+  "Copia di nota del Corpo dei Carabinieri Reali in Catanzaro il 5 settembre 1870$": {
+    "en_GB": "Copy of a note from the Corpo di Carabinieri Reali in Catanzaro of 5 September 1870",
+    "nl_NL": "Kopie van een notitie van het Corpo di Carabinieri Reali in Catanzaro van 5 september 1870"
+  },
   "Copia di un Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Copy of an Edict of \\2",
     "nl_NL": "Kopie van een Edict van \\2"
@@ -1132,6 +1152,10 @@
     "en_GB": "Statement of the Roman government (with translation) (printed)",
     "nl_NL": "Verklaring van de Romeinse regering (met vertaling) (gedrukt)"
   },
+  "Dichiarazione di morte (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Statement of the death of \\2",
+    "nl_NL": "Verklaring van de dood van \\2"
+  },
   "Dichiarazione$": {
     "en_GB": "Declaration",
     "nl_NL": "Verklaring"
@@ -1203,6 +1227,10 @@
   "Documents relatifs aux troupes ponticales$": {
     "en_GB": "Documents relatifs aux troupes ponticales",
     "nl_NL": "Documents relatifs aux troupes ponticales"
+  },
+  "Dossier Venezuela$": {
+    "en_GB": "Venezuela Dossier",
+    "nl_NL": "Dossier Venezuela"
   },
   "Dèpêches et lettres avec le Ministre des Affaires Etrangères \\(Spedizioni e lettere con il Ministro degli Affari Esteri\\)$": {
     "en_GB": "Dèpêches et lettres avec le Ministre des Affaires Etrangères (Press reports and letters with the Minister of Foreign Affairs)",
@@ -2180,6 +2208,10 @@
     "en_GB": "Encrypted sheet",
     "nl_NL": "Versleuteld blad"
   },
+  "Foglio dell'ospedale militare sulla morte di Blomhert Giovanni$": {
+    "en_GB": "Sheet from the military hospital about the death of Blomhert Giovanni",
+    "nl_NL": "Blad van het militaire ziekenhuis over de dood van Blomhert Giovanni"
+  },
   "Foglio della Commission de Passage di Marsiglia$": {
     "en_GB": "Sheet from the Commission de Passage from Marseille",
     "nl_NL": "Blad van de Commission de Passage van Marseille"
@@ -2836,6 +2868,10 @@
     "en_GB": "Letter of \\2 to \\4 with several memories, notes and minutes of other letters",
     "nl_NL": "Brief van \\2 aan \\4 met enkele memories, nota's en notulen van andere brieven"
   },
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegata dichiarazione di Luigi Piaggio$": {
+    "en_GB": "Letter of \\2 to \\4 with an attached declaration by Luigi Piaggio",
+    "nl_NL": "Brief van \\2 aan \\4 met een bijgevoegde declaratie van Luigi Piaggio"
+  },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegata lettera da Livorno del 2 marzo$": {
     "en_GB": "Letter of \\2 to \\4 with attached letter from Livorno from 2 March",
     "nl_NL": "Brief van \\2 aan \\4 met bijgesloten brief uit Livorno van 2 maart"
@@ -3440,6 +3476,10 @@
     "en_GB": "Letter of presentation of the actrice Anne Hamburg, born in Leeuwarden",
     "nl_NL": "Aanbiedingsbrief van de actrice Anne Hamburg, geboren te Leeuwarden"
   },
+  "Lettera di trasmissione di atto di morte (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter accompanying a death certificate to \\2",
+    "nl_NL": "Begeleidende brief bij een overlijdensakte aan \\2"
+  },
   "Lettera firmata Guillaume (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter signed by Guillaume to \\2",
     "nl_NL": "Brief getekend door Guillaume aan \\2"
@@ -3447,6 +3487,10 @@
   "Lettera indirizzata (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter addressed to \\2",
     "nl_NL": "Brief geadresseerd aan \\2"
+  },
+  "Lettera litografata (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Lithographed letter from \\2",
+    "nl_NL": "Gelitografeerde brief van \\2"
   },
   "Lettera pastorale a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Printed pastoral letter of \\2 to \\4",
@@ -3563,6 +3607,10 @@
   "Memoria (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Memory of \\2 to \\4",
     "nl_NL": "Memorie van \\2 aan \\4"
+  },
+  "Memoria (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Memory of \\2 and \\4",
+    "nl_NL": "Memorie van \\2 en \\4"
   },
   "Memoria (di|del|della) (\\$\\w+)$": {
     "en_GB": "Memory of \\2",
@@ -3760,6 +3808,14 @@
     "en_GB": "Note from \\2",
     "nl_NL": "Nota van \\2"
   },
+  "Nota (su|sul|sulla) (\\$\\w+) e (su|sul|sulla) (\\$\\w+)$": {
+    "en_GB": "Note about \\2 and \\4",
+    "nl_NL": "Nota over \\2 en \\4"
+  },
+  "Nota (su|sul|sulla) (\\$\\w+) e (su|sul|sulla) (\\$\\w+), prospetto economico$": {
+    "en_GB": "Note about \\2 and \\4, economic prospectus",
+    "nl_NL": "Nota over \\2 en \\4, economische prospectus"
+  },
   "Nota a stampa del dipartimento degli Affari Esteri$": {
     "en_GB": "Printed note of the department of External Affairs",
     "nl_NL": "Gedrukte nota van het departement van Buitenlandse Zaken"
@@ -3899,6 +3955,10 @@
   "Nota storica su (\\$\\w+) condannato a morte dal tribunale della Sacra Consulta$": {
     "en_GB": "Historical note about \\1 condemned to death by the Tribunale della Sacra Consulta",
     "nl_NL": "Historische nota over \\1 veroordeeld tot de dood door de Tribunale della Sacra Consulta"
+  },
+  "Nota su (\\$\\w+) e su (\\$\\w+)$": {
+    "en_GB": "Note about \\1 and \\2",
+    "nl_NL": "Nota over \\1 en \\2"
   },
   "Nota su (\\$\\w+)$": {
     "en_GB": "Note about \\1",
@@ -4444,6 +4504,10 @@
     "en_GB": "Prospectus of the movements occuring in the port of Civitavecchia",
     "nl_NL": "Prospectus van de verplaatsingen die zich voor hebben gedaan in de poort van Civitavecchia"
   },
+  "Prospetto della sostanza abbandonata (da|dal|dalla) (\\$\\w+) e quota ereditaria (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Prospectus about the materials given up by \\2 and the inheritance share of \\4",
+    "nl_NL": "Prospectus over de materialen opgegeven door \\2 en het deel van nalatenschap van \\4"
+  },
   "Prospetto delle cariche e delle attività svolte dal (\\$\\w+)$": {
     "en_GB": "Prospectus of the charges and activities carried out by \\1",
     "nl_NL": "Prospectus van de kosten en activiteiten uitgevoerd door \\1"
@@ -4663,6 +4727,10 @@
   "Ricevute di ricezione dei dispacci diplomatici$": {
     "en_GB": "Confirmations of receipt of diplomatic dispatches",
     "nl_NL": "Ontvangstbevestigingen van diplomatieke verzendingen"
+  },
+  "Ricevute di spedizione$": {
+    "en_GB": "Shipping receipts",
+    "nl_NL": "Verzendbewijzen"
   },
   "Richiesta di passaporto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Request for a passport of \\2",
@@ -5419,6 +5487,14 @@
   "Trascrizione di norme sulle pensioni$": {
     "en_GB": "Transcription of the norms on pension",
     "nl_NL": "Transcriptie over de pensioennormen"
+  },
+  "Trascrizione di nota firmata da Timmerman e Ten Kate a A.P. Paulussen di Zierikzee$": {
+    "en_GB": "Transcription of a note signed by Timmerman and Ten Kate to A.P. Paulussen from Zierikzee",
+    "nl_NL": "Transcriptie van een nota ondertekend door Timmerman en Ten Kate aan A.P. Paulussen te Zierikzee"
+  },
+  "Trascrizione di nota$": {
+    "en_GB": "Transcription of a note",
+    "nl_NL": "Transcriptie van een nota"
   },
   "Trascrizione di proclama (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of a report from \\2",
