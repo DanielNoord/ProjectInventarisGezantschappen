@@ -1016,6 +1016,14 @@
     "longitude": "12.04144",
     "nl_NL": "Forlì"
   },
+  "Fornos de Algodres": {
+    "en_GB": "Fornos de Algodres",
+    "geonames_id": 2739349,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fornos_de_Algodres",
+    "latitude": "40.62807",
+    "longitude": "-7.54064",
+    "nl_NL": "Fornos de Algodres"
+  },
   "Fossano": {
     "en_GB": "Fossano",
     "geonames_id": 3176639,
@@ -1327,14 +1335,6 @@
     "latitude": "51.77167",
     "longitude": "5.33472",
     "nl_NL": "Kerkdriel"
-  },
-  "Fornos de Algodres": {
-    "en_GB": "Fornos de Algodres",
-    "geonames_id": 2739349,
-    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Fornos_de_Algodres",
-    "latitude": "40.62807",
-    "longitude": "-7.54064",
-    "nl_NL": "Fornos de Algodres"
   },
   "L'Aia": {
     "en_GB": "The Hague",
@@ -1887,6 +1887,14 @@
     "latitude": "49.59552",
     "longitude": "17.25175",
     "nl_NL": "Olomouc"
+  },
+  "Olst": {
+    "en_GB": "Olst",
+    "geonames_id": 2749626,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Olst",
+    "latitude": "52.3375",
+    "longitude": "6.10972",
+    "nl_NL": "Olst"
   },
   "Oost-Souburg": {
     "en_GB": "Oost-Souburg",
@@ -2543,6 +2551,14 @@
     "latitude": "14.0818",
     "longitude": "-87.20681",
     "nl_NL": "Tegucigalpa"
+  },
+  "Termini": {
+    "en_GB": "Termini",
+    "geonames_id": 2522960,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Termini_Imerese",
+    "latitude": "37.98225",
+    "longitude": "13.69729",
+    "nl_NL": "Termini"
   },
   "Terni": {
     "en_GB": "Terni",
