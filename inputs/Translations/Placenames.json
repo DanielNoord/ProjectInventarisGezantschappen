@@ -40,6 +40,14 @@
     "longitude": "5.44973",
     "nl_NL": "Aix-en-Provence"
   },
+  "Aix-les-Bains": {
+    "en_GB": "Aix-les-Bains",
+    "geonames_id": 3038350,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Aix-les-Bains",
+    "latitude": "45.69173",
+    "longitude": "5.90863",
+    "nl_NL": "Aix-les-Bains"
+  },
   "Ala (Trento)": {
     "en_GB": "Ala (Trento)",
     "geonames_id": 3183374,
@@ -352,6 +360,14 @@
     "longitude": "7.44744",
     "nl_NL": "Bern"
   },
+  "Biella": {
+    "en_GB": "Biella",
+    "geonames_id": 3182043,
+    "geonames_wikipedia": null,
+    "latitude": "45.56304",
+    "longitude": "8.05796",
+    "nl_NL": "Biella"
+  },
   "Bitburg": {
     "en_GB": "Bitburg",
     "geonames_id": 2948184,
@@ -383,6 +399,14 @@
     "latitude": "44.49381",
     "longitude": "11.33875",
     "nl_NL": "Bologna"
+  },
+  "Bracigliano": {
+    "en_GB": "Bracigliano",
+    "geonames_id": 3181622,
+    "geonames_wikipedia": null,
+    "latitude": "40.8188",
+    "longitude": "14.70772",
+    "nl_NL": "Bracigliano"
   },
   "Breda": {
     "en_GB": "Breda",
@@ -568,6 +592,14 @@
     "longitude": "11.62487",
     "nl_NL": "Casola Valsenio"
   },
+  "Castellamonte": {
+    "en_GB": "Castellamonte",
+    "geonames_id": 3179659,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Castellamonte",
+    "latitude": "45.38267",
+    "longitude": "7.70886",
+    "nl_NL": "Castellamonte"
+  },
   "Castelnuovo Nigra": {
     "en_GB": "Castelnuovo Nigra",
     "geonames_id": 3179516,
@@ -727,6 +759,14 @@
     "latitude": "50.35357",
     "longitude": "7.57883",
     "nl_NL": "Koblenz"
+  },
+  "Coevorden": {
+    "en_GB": "Coevorden",
+    "geonames_id": 2757937,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Coevorden",
+    "latitude": "52.66103",
+    "longitude": "6.74046",
+    "nl_NL": "Coevorden"
   },
   "Como": {
     "en_GB": "Como",
@@ -1776,6 +1816,14 @@
     "longitude": "37.61556",
     "nl_NL": "Moskou"
   },
+  "Mosso": {
+    "en_GB": "Mosso",
+    "geonames_id": 6535865,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Mosso%2C_Piedmont",
+    "latitude": "45.65007",
+    "longitude": "8.13762",
+    "nl_NL": "Mosso"
+  },
   "Münster": {
     "en_GB": "Münster",
     "geonames_id": 2867543,
@@ -1871,6 +1919,14 @@
     "latitude": "46.38318",
     "longitude": "6.23955",
     "nl_NL": "Nyon"
+  },
+  "Ober-Grafendorf": {
+    "en_GB": "Ober-Grafendorf",
+    "geonames_id": 2770113,
+    "geonames_wikipedia": null,
+    "latitude": "48.1504",
+    "longitude": "15.54531",
+    "nl_NL": "Ober-Grafendorf"
   },
   "Oegstgeest": {
     "en_GB": "Oegstgeest",
@@ -2071,6 +2127,14 @@
     "latitude": "40.34872",
     "longitude": "-74.65905",
     "nl_NL": "Princeton"
+  },
+  "Puget-Théniers": {
+    "en_GB": "Puget-Théniers",
+    "geonames_id": 2985142,
+    "geonames_wikipedia": null,
+    "latitude": "43.95598",
+    "longitude": "6.89378",
+    "nl_NL": "Puget-Théniers"
   },
   "Rapallo": {
     "en_GB": "Rapallo",
