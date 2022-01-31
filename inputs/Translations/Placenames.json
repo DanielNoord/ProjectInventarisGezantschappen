@@ -608,6 +608,14 @@
     "longitude": " 7.69461",
     "nl_NL": "Castelnuovo Nigra"
   },
+  "Catania": {
+    "en_GB": "Catania",
+    "geonames_id": 2525068,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Catania",
+    "latitude": "37.49223",
+    "longitude": "15.07041",
+    "nl_NL": "Catania"
+  },
   "Caupo": {
     "en_GB": "Caupo",
     "geonames_id": 8951196,
