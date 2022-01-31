@@ -1,7 +1,7 @@
 import re
 
 from lxml import etree
-from typing_utils.data_classes import FileData
+from typing_utils.data_classes import FileData, SeriesData
 
 
 def fix_daoset(root: etree._Element) -> None:
@@ -52,3 +52,25 @@ def add_dao(daoset: etree._Element, file_data: FileData) -> None:
                 "id": f"{file_data.file_name}v.tif",
             },
         )
+
+
+def add_volume_dao(daoset: etree._Element, vol_data: SeriesData) -> None:
+    """Adds a dao element to a daoset for a volume (ms...)."""
+    etree.SubElement(
+        daoset,
+        "dao",
+        {
+            "coverage": "part",
+            "daotype": "derived",
+            "id": f"MS{vol_data.num}_d.tif",
+        },
+    )
+    etree.SubElement(
+        daoset,
+        "dao",
+        {
+            "coverage": "part",
+            "daotype": "derived",
+            "id": f"MS{vol_data.num}_p.tif",
+        },
+    )

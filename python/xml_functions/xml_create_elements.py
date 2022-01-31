@@ -5,7 +5,7 @@ from date_functions import create_date_data
 from lxml import etree
 from typing_utils import Database, FileData, SeriesData
 
-from xml_functions.daoset import add_dao
+from xml_functions.daoset import add_dao, add_volume_dao
 from xml_functions.date_elements import add_dateset, add_unitdate
 from xml_functions.person_elements import add_persname
 from xml_functions.place_elements import add_geognames
@@ -104,6 +104,11 @@ def series_entry(
 
     date_data = create_date_data(series_data.date)
     add_unitdate(serie_c_did, series_data.date, date_data)
+
+    # Add daoset for ms... volumes (front and spine)
+    if series_data.level == 1:
+        daoset = etree.SubElement(serie_c_did, "daoset", {"coverage": "whole"})
+        add_volume_dao(daoset, series_data)
 
     return serie_c, used_trans
 
