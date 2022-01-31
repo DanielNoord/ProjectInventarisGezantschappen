@@ -66,4 +66,4 @@ def traverse_c01_elements(database: TextIO, scans_directory: str) -> None:
 
 if __name__ == "__main__":
     with open("outputs/Legation_Archive.xml", encoding="utf-8") as file:
-        traverse_c01_elements(file, "/Volumes/Seagate Basic Meda/VolumesLegazione")
+        traverse_c01_elements(file, "/Volumes/Seagate Basic Media/VolumesLegazione")
