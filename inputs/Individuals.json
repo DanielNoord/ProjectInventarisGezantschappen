@@ -1494,7 +1494,7 @@
     "functions": [["Retroguardia della prima infanteria di Bruxelles", null]],
     "images": [],
     "name": "Dominique",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -7161,7 +7161,7 @@
   },
   "$Jacob": {
     "ISNI:id": null,
-    "comment_daniel": "Don't understand his title in the letter. ... of Florenville . ms280_161",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [["Sindaco di Florenville", null]],
