@@ -1,4 +1,5 @@
 {
+  "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
     "comment_daniel": "",
@@ -281,15 +282,20 @@
     "ISNI:id": null,
     "comment_daniel": "Wordt genoemd in vol. 17, maar het kan om meerder personen gaan.",
     "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "date_of_death": "1862-05-10",
+    "functions": [
+      ["Direttore-proprietario del periodico L'Album", "1835/1862"]
+    ],
     "images": [],
-    "name": "",
-    "person_type": 5,
+    "name": "Giovanni",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "https://books.google.it/books?id=shyGBwAAQBAJ&pg=PR367&dq=Giovanni+De+Angelis+1862&hl=nl&sa=X&ved=2ahUKEwjjvuuo-Nv1AhWbSvEDHQDxCREQ6AF6BAgHEAI#v=onepage&q=Giovanni%20De%20Angelis%201862&f=false",
+      "Monti, A., Cenni sulla vita del cav. Giovanni De Angelis, (Roma, 1862)"
+    ],
     "surname": "De Angelis",
     "titles": [["Cav.", null]],
     "wikidata:id": null
@@ -375,7 +381,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "Osbat, Luciano, 'Arata – Famiglia (Civitavecchia, Secc. XVI-XVII)', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/arata-famiglia/"
+      "Osbat, Luciano, 'Arata - Famiglia (Civitavecchia, Secc. XVI-XVII)', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/arata-famiglia/"
     ],
     "sources_other": [],
     "surname": "Arata",
@@ -397,7 +403,7 @@
     "place_of_death": "",
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 353",
-      "Osbat, Luciano, 'Arata – Famiglia (Civitavecchia, Secc. XVI-XVII)', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/arata-famiglia/"
+      "Osbat, Luciano, 'Arata - Famiglia (Civitavecchia, Secc. XVI-XVII)', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/arata-famiglia/"
     ],
     "sources_other": [
       "Osservatore del Trasimeno, Anno XIII, 29 (Perugia, 1838-04-10), 1"
@@ -899,7 +905,7 @@
     "date_of_death": "",
     "functions": [],
     "images": [],
-    "name": "C.",
+    "name": "",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
@@ -1655,7 +1661,7 @@
     "date_of_birth": "1815-11-05",
     "date_of_death": "1884-05-23",
     "functions": [
-      ["Segretario dell’Associazione dei Insegnanti Olandesi", "1859/1884"]
+      ["Segretario dell'Associazione dei Insegnanti Olandesi", "1859/1884"]
     ],
     "images": [],
     "name": "Heertje Willem",
@@ -1699,15 +1705,13 @@
   },
   "$Boch": {
     "ISNI:id": null,
-    "comment_daniel": "Deze persoon past wel bij de achternaam, maar functie in Den Haag wordt niet vernoemd in biografie. Controleren in archief!",
+    "comment_daniel": "",
     "date_of_birth": "1782-03-09",
     "date_of_death": "1858-02-09",
-    "functions": [
-      ["Cancelliere di Stato del Granducato del Lussemburgo all'Aia", null]
-    ],
+    "functions": [],
     "images": [],
     "name": "Johann Franz Nicolaus",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "Siebenbrunnen",
     "place_of_death": "Siebenbrunnen",
     "sources": [
@@ -2478,18 +2482,18 @@
   },
   "$Brock": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "Jean",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
-    "surname": "van den Brock",
+    "surname": "van den Broek",
     "titles": [],
     "wikidata:id": null
   },
@@ -4119,7 +4123,7 @@
     "place_of_death": "Firenze",
     "sources": [
       "Monsagrati, Giuseppe, 'De Courten, Raffaele', in: Dizionario Biografico degli Italiani. Volume 33 (Rome, Treccani, 1987), found on: https://www.treccani.it/enciclopedia/raffaele-de-courten_(Dizionario-Biografico)",
-      "de Courten, Eugène, 'Valaisans au service de causes perdues: Naples 1861 - Rome 1870', in: Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, 13 (1965), 325-372"
+      "de Courten, Eugène, 'Valaisans au service de causes perdues: Naples 1861 - Rome 1870', in: Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, 13 (1965), 325-372"
     ],
     "sources_other": [],
     "surname": "de Courten",
@@ -4699,7 +4703,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "Pavone, Claudio, Alcuni aspetti dei primi mesi di governo italiano a Roma e nel Lazio (Continuazione e fine), Archivio Storico Italiano 116 (1958), 346–380, 349"
+      "Pavone, Claudio, Alcuni aspetti dei primi mesi di governo italiano a Roma e nel Lazio (Continuazione e fine), Archivio Storico Italiano 116 (1958), 346-380, 349"
     ],
     "sources_other": [
       "Gazzetta Ufficiale di Roma, Anno 1, 30 (Rome, 1870-10-22), 117"
@@ -4818,7 +4822,7 @@
     "place_of_birth": "Vienna",
     "place_of_death": "Pirna",
     "sources": [
-      "'Esterházy Moriz Graf', in: Österreichisches Biographisches Lexikon 1815–1950. Band 1 (Vienna, Österreichische Akademie der Wissenschaften, 1957)"
+      "'Esterházy Moriz Graf', in: Österreichisches Biographisches Lexikon 1815-1950. Band 1 (Vienna, Österreichische Akademie der Wissenschaften, 1957)"
     ],
     "sources_other": [],
     "surname": "Esterházy de Galantha",
@@ -5482,7 +5486,7 @@
     "surname": "Forstner de Dambenoy",
     "titles": [
       ["barone", null],
-      ["tenente generale", "1855-01-01"]
+      ["tenente generale", "1855-01-01/"]
     ],
     "wikidata:id": "Q2787240"
   },
@@ -5955,7 +5959,7 @@
   },
   "$Getaz": {
     "ISNI:id": null,
-    "comment_daniel": "ms311. Also referred to as vice consul. ",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -5966,7 +5970,7 @@
     ],
     "images": [],
     "name": "François",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -7305,7 +7309,7 @@
       ]
     ],
     "images": [],
-    "name": "Marco Antonio Alessandro",
+    "name": "Marco Antonio Alessandro",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
@@ -7436,7 +7440,7 @@
     "place_of_death": "Roma",
     "sources": [
       "Truffer, Bernard, 'Kalbermatten, Wilhelm von', in: Historisches Lexikon der Schweiz (Basel, Schwabe AG, 2005), found on https://hls-dhs-dss.ch/it/articles/005556/2005-08-03/",
-      "de Courten, Eugène, 'Valaisans au service de causes perdues: Naples 1861 - Rome 1870', in: Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, 13 (1965), 325-372"
+      "de Courten, Eugène, 'Valaisans au service de causes perdues: Naples 1861 - Rome 1870', in: Annales valaisannes: bulletin trimestriel de la Société d'histoire du Valais romand, 13 (1965), 325-372"
     ],
     "sources_other": [],
     "surname": "von Kalbermatten",
@@ -7599,7 +7603,7 @@
     "place_of_death": "New York City",
     "sources": [
       "'King, Gen. Rufus (1814-1876)', a cura di Wisconsin Historical Society, found on: https://www.wisconsinhistory.org/Records/Article/CS2379",
-      "'Rufus King (1814–1876)', Office of the Historian, found on: https://history.state.gov/departmenthistory/people/king-rufus2"
+      "'Rufus King (1814-1876)', Office of the Historian, found on: https://history.state.gov/departmenthistory/people/king-rufus2"
     ],
     "sources_other": [],
     "surname": "King",
@@ -8883,7 +8887,7 @@
     "place_of_death": "Nyon",
     "sources": [
       "Demofonti, Laura, 'Madiai, Francesco', in: Dizionario Biografico degli Italiani. Volume 67 (Rome, Treccani, 2006), found on: https://www.treccani.it/enciclopedia/francesco-madiai_(Dizionario-Biografico)/",
-      "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29–50"
+      "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29-50"
     ],
     "sources_other": [],
     "surname": "Madiai",
@@ -8902,7 +8906,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29–50"
+      "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29-50"
     ],
     "sources_other": [],
     "surname": "Madiai",
@@ -10173,7 +10177,7 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
-      "Capitelli, G. and S. Cracolici, Roma en Mexico – Mexico en Roma. Las academias de arte entre Europa y el Nuevo Mundo, 1843-1867 (Rome, 2018)",
+      "Capitelli, G. and S. Cracolici, Roma en Mexico - Mexico en Roma. Las academias de arte entre Europa y el Nuevo Mundo, 1843-1867 (Rome, 2018)",
       "Santoni, Pedro, and Will Fowler, Mexico, 1848-1853: Los Años Olvidados (London, 2018), 58"
     ],
     "sources_other": [
@@ -11169,7 +11173,7 @@
     "date_of_birth": "1817-03-26",
     "date_of_death": "1882-06-13",
     "functions": [
-      ["Presidente dell’Associazione dei Insegnanti Olandesi", "1859/1882"]
+      ["Presidente dell'Associazione dei Insegnanti Olandesi", "1859/1882"]
     ],
     "images": [],
     "name": "Anthony",
@@ -12519,7 +12523,7 @@
     "place_of_death": "Burtscheid",
     "sources": [
       "Lepper, Herbert, 'Reumont, Alfred', in: Neue Deutsche Biographie. Band 21 (Berlin, Duncker & Humblot, 2003)",
-      "Pohle, Frank, Alfred von Reumont (1808–1887) – Ein Diplomat als kultureller Mittler (Berlin, 2015)"
+      "Pohle, Frank, Alfred von Reumont (1808-1887) - Ein Diplomat als kultureller Mittler (Berlin, 2015)"
     ],
     "sources_other": [],
     "surname": "von Reumont",
@@ -14939,7 +14943,7 @@
     ],
     "images": [],
     "name": "Charles",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "Weert",
     "place_of_death": "Frenchville",
     "sources": [],
@@ -15419,7 +15423,7 @@
     "place_of_birth": "Vienna",
     "place_of_death": "Ober-Grafendorf",
     "sources": [
-      "Hye, H.P., 'Trauttmansdorff-Weinsberg', in: Österreichisches Biographisches Lexikon 1815–1950. Band 14 (Vienna, Österreichische Akademie der Wissenschaften, 2015)"
+      "Hye, H.P., 'Trauttmansdorff-Weinsberg', in: Österreichisches Biographisches Lexikon 1815-1950. Band 14 (Vienna, Österreichische Akademie der Wissenschaften, 2015)"
     ],
     "sources_other": [],
     "surname": "Trauttmansdorff-Weinsberg",
@@ -15624,7 +15628,7 @@
     "place_of_death": "",
     "sources": [],
     "sources_other": [
-      "'Bilateral relations between Mexico and the Holy See (1821–1855)', in: Wikipedia, The Free Encyclopedia (2019-05-18), found on: https://en.wikipedia.org/w/index.php?title=Bilateral_relations_between_Mexico_and_the_Holy_See_(1821%E2%80%931855)&oldid=897598270",
+      "'Bilateral relations between Mexico and the Holy See (1821-1855)', in: Wikipedia, The Free Encyclopedia (2019-05-18), found on: https://en.wikipedia.org/w/index.php?title=Bilateral_relations_between_Mexico_and_the_Holy_See_(1821%E2%80%931855)&oldid=897598270",
       "'Condado de San Pedro del Álamo', in: Wikipedia, La enciclopedia libre (2021-03-16), found on: https://es.wikipedia.org/w/index.php?title=Condado_de_San_Pedro_del_%C3%81lamo&oldid=134032297"
     ],
     "surname": "de Valdivieso y Vidal de Lorca",
@@ -16646,17 +16650,17 @@
   },
   "$Zermann": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine with certainty. There are sources who mention a Venetian captain with the same name.",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "Francesco Tommaso",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": ["Società e storia, Volume 26, 102, p. 773"],
     "surname": "Zermann",
     "titles": [],
     "wikidata:id": null
@@ -16820,6 +16824,5 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  },
-  "$schema": "../static/JSON/Individuals.json"
+  }
 }

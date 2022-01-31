@@ -784,6 +784,10 @@
     "en_GB": "Director-general for liquidation of the public debt of the Papal States",
     "nl_NL": "Directeur-generaal voor liquidatie van de openbare schuld van de Kerkelijke Staat"
   },
+  "Direttore-proprietario del periodico L'Album": {
+    "en_GB": "Director-owner of the periodical L'Album",
+    "nl_NL": "Directeur-eigenaar van het tijdschrift L'Album"
+  },
   "Dittatore del Granducato di Toscana": {
     "en_GB": "Dictator of the Grand Duchy of Tuscany",
     "nl_NL": "Dictator van het Groothertogdom van Toscane"
@@ -2060,6 +2064,10 @@
     "en_GB": "President of the Constitutional Assembly of the Roman Republicc",
     "nl_NL": "President van de constitutionele vergadering van de Romeinse Republiek"
   },
+  "Presidente dell'Associazione dei Insegnanti Olandesi": {
+    "en_GB": "President of the Association of Dutch Teachers",
+    "nl_NL": "Voorzitter van het Nederlandsch Onderwijzers Genootschap"
+  },
   "Presidente della Accademia Pontificia dei nuovi Lincei": {
     "en_GB": "President of the _Accademia Pontificia dei nuovi Lincei_",
     "nl_NL": "President van de _Accademia Pontificia dei nuovi Lincei_"
@@ -2091,10 +2099,6 @@
   "Presidente della Repubblica del Venezuela": {
     "en_GB": "President of the Republic of Venezuela",
     "nl_NL": "President van de Republiek van Venezuela"
-  },
-  "Presidente dell’Associazione dei Insegnanti Olandesi": {
-    "en_GB": "President of the Association of Dutch Teachers",
-    "nl_NL": "Voorzitter van het Nederlandsch Onderwijzers Genootschap"
   },
   "Pretendente del Ducato di Mantova": {
     "en_GB": "Pretendent of the Duchy of Mantova",
@@ -2333,6 +2337,10 @@
     "en_GB": "Secretary of the Royal Netherlands Academy of Arts and Sciences (KNAW)",
     "nl_NL": "Secretaris van de Koninklijke Nederlandse Akademie van Wetenschappen (KNAW)"
   },
+  "Segretario dell'Associazione dei Insegnanti Olandesi": {
+    "en_GB": "Secretary of the Association of Dutch Teachers",
+    "nl_NL": "Secretaris van het Nederlandsch Onderwijzers Genootschap"
+  },
   "Segretario della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi": {
     "en_GB": "Secretary of the General Committee on the affairs of the Israelites of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris van de Hoofdcommissie tot de zaken der Israëlieten van het Koninkrijk der Nederlanden"
@@ -2368,10 +2376,6 @@
   "Segretario delle classe di scienze fisiche e matematiche dell'Accademia delle Scienze di Torino": {
     "en_GB": "Secretary of the classes of physics and mathematics at the Accademia delle Scienze di Torino",
     "nl_NL": "Secretaris van de klassen van scheikunde en wiskunde bij de Accademia delle Scienze di Torino"
-  },
-  "Segretario dell’Associazione dei Insegnanti Olandesi": {
-    "en_GB": "Secretary of the Association of Dutch Teachers",
-    "nl_NL": "Secretaris van het Nederlandsch Onderwijzers Genootschap"
   },
   "Segretario di Camillo Benso conte di Cavour a Londra e a Parigi": {
     "en_GB": "Secretary to Camillo Benso count of Cavour in London and Paris",
