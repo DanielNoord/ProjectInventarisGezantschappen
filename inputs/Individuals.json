@@ -2382,20 +2382,29 @@
   },
   "$Briennen": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive, I suspect it might be https://nl.wikipedia.org/wiki/Arnoud_Willem_van_Brienen_van_de_Groote_Lindt who was Chamberlain of Willem I and his sons",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
-    "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "comment_daniel": "",
+    "date_of_birth": "1814-03-05",
+    "date_of_death": "1863-04-09",
+    "functions": [
+      ["Collezionista d'arte", null],
+      ["Ciambellano del Re dei Paesi Bassi", null]
+    ],
+    "images": [
+      "https://rkd.nl/nl/explore/images/164978",
+      "https://rkd.nl/nl/explore/images/127691"
+    ],
+    "name": "Willem Thierry Arnold Maria",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Willem Thierry Arnold Maria baron van Brienen van de Groote Lindt', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/79304615",
+      "Dutch Institute for Art History (RKD), 'Willem Thierry Arnold Maria van Brienen van de Groote Lindt', found on: https://rkd.nl/nl/explore/artists/441325"
+    ],
     "sources_other": [],
-    "surname": "van Briennen",
-    "titles": [["barone", null]],
-    "wikidata:id": null
+    "surname": "van Brienen van de Groote Lindt",
+    "titles": [["barone", "1835/"]],
+    "wikidata:id": "Q55204897"
   },
   "$Brink": {
     "ISNI:id": null,
@@ -3352,20 +3361,20 @@
   },
   "$Castorina": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive, I suspect it might be https://it.wikipedia.org/wiki/Domenico_Castorina",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "comment_daniel": "",
+    "date_of_birth": "1812-01-27",
+    "date_of_death": "1850-03-21",
+    "functions": [["Scrittore", null]],
     "images": [],
     "name": "Domenico",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Catania",
+    "place_of_death": "Torino",
     "sources": [],
     "sources_other": [],
     "surname": "Castorina",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q3712950"
   },
   "$Cavaignac": {
     "ISNI:id": "0000 0001 1611 000X",
@@ -5444,21 +5453,38 @@
     "wikidata:id": null
   },
   "$Forstner": {
-    "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive, I suspect https://nl.wikipedia.org/wiki/Hendrik_Forstner_van_Dambenoy",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
-    "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "ISNI:id": "0000 0003 7842 8886",
+    "comment_daniel": "",
+    "date_of_birth": "1792-08-15",
+    "date_of_death": "1870-03-23",
+    "functions": [
+      [
+        "Ministro della Guerra del Regno dei Paesi Bassi",
+        "1852-07-15/1858-01-01"
+      ],
+      [
+        "Ministro ad interim della Marina del Regno dei Paesi Bassi",
+        "1854-12-16/1855-02-08"
+      ]
+    ],
+    "images": [
+      "https://nl.wikipedia.org/wiki/Hendrik_Forstner_van_Dambenoy#/media/Bestand:Forstner_van_Dambenoy.JPG"
+    ],
+    "name": "Hendrik Frederik Christoph",
+    "person_type": 1,
+    "place_of_birth": "Maastricht",
+    "place_of_death": "Utrecht",
+    "sources": [
+      "'Hendrik Frederik Christoph Forstner van Dambenoy', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/19275220",
+      "Redactie parlement.com, 'H.F.Ch. baron Forstner van Dambenoy', found on: https://www.parlement.com/id/vg09llj8gatw/h_f_ch_baron_forstner_van_dambenoy"
+    ],
     "sources_other": [],
     "surname": "Forstner de Dambenoy",
-    "titles": [["barone", null]],
-    "wikidata:id": null
+    "titles": [
+      ["barone", null],
+      ["tenente generale", "1855-01-01"]
+    ],
+    "wikidata:id": "Q2787240"
   },
   "$Fraissinet": {
     "ISNI:id": null,
@@ -15423,14 +15449,14 @@
     "wikidata:id": null
   },
   "$Trucchi": {
-    "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive. There seems to be an author who lived in the 19th century with the same name. Possibly https://isni.org/isni/0000000061427308",
-    "date_of_birth": "",
+    "ISNI:id": "0000 0000 6142 7308",
+    "comment_daniel": "",
+    "date_of_birth": "1816",
     "date_of_death": "",
     "functions": [],
     "images": [],
-    "name": "Francesco",
-    "person_type": 5,
+    "name": "Francesco Nicola",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
