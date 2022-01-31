@@ -14,7 +14,7 @@ def parse_series(serie: tuple[Cell, ...]) -> SeriesData:
         with open("outputs/missing_titles", "a", encoding="utf-8") as file:
             print(f"|Vol: {serie[0].value}|Missing a series title", file=file)
     vol_date = f"{serie[2].value or ''}/{serie[3].value or ''}"
-    if level_string_match := re.match(fr".*{serie_num}_", serie[0].value):
+    if level_string_match := re.match(rf".*{serie_num}_", serie[0].value):
         level_string = level_string_match.group()
     else:
         raise ValueError(f"Can't parse the series string: {serie[0].value}")
