@@ -2327,21 +2327,26 @@
   },
   "$Brauw": {
     "ISNI:id": null,
-    "comment_daniel": "Nog enige twijfel of het Cornelis Frederik Stavenisse de Brauw of Constantijn Philip de Brauw is. Hij ondertekent met Stavenisse, en C.F was een kapitein in de marine, plus hij was rondom Genua in die tijd, MAAR de brief kondigt de aankomst van het fregat de Ruyter aan, en het was C.P. die hier kapitein van werd in de late jaren vijftig van de negentiende eeuw.",
-    "date_of_birth": "1811-07-08",
-    "date_of_death": "1892-11-15",
-    "functions": [],
-    "images": [
-      "https://www.maritiemdigitaal.nl/index.cfm?event=search.getdetail&id=120094049"
+    "comment_daniel": "",
+    "date_of_birth": "1801",
+    "date_of_death": "1864",
+    "functions": [
+      ["Comandante del fregata De Ruyter", "1855-10-16/1856-03-07"]
     ],
-    "name": "Constantijn Philip",
-    "person_type": 5,
+    "images": [],
+    "name": "Cornelis Frederik",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
-    "surname": "de Brauw",
-    "titles": [],
+    "sources": [
+      "'Journaal gehouden door de kapitein ter zee C.F. Stavenisse de Brauw', in: Maritiem Digitaal, found on: https://www.maritiemdigitaal.nl/index.cfm?event=search.getdetail&id=201005621",
+      "'de Brauw, Cornelis Frederik Stavenisse', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/en/persoon/29109520"
+    ],
+    "sources_other": [
+      "https://italiawiki.com/pages/famiglia-patrizia-olandese/de-brauw-alcuni-rampolli-ramo-noble-ramo-stavenisse-de-brauw.html"
+    ],
+    "surname": "Stavenisse de Brauw",
+    "titles": [["Cav.", null]],
     "wikidata:id": null
   },
   "$Bremen": {
