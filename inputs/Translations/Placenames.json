@@ -672,6 +672,14 @@
     "longitude": "12.24315",
     "nl_NL": "Cesena"
   },
+  "Cette": {
+    "en_GB": "Cette",
+    "geonames_id": 2974733,
+    "geonames_wikipedia": null,
+    "latitude": "43.4028",
+    "longitude": "3.69278",
+    "nl_NL": "Cette"
+  },
   "Chambéry": {
     "en_GB": "Chambéry",
     "geonames_id": 3027422,
@@ -775,6 +783,14 @@
     "latitude": "52.66103",
     "longitude": "6.74046",
     "nl_NL": "Coevorden"
+  },
+  "Colonia": {
+    "en_GB": "Cologne",
+    "geonames_id": 2886242,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cologne",
+    "latitude": "50.93333",
+    "longitude": "6.95",
+    "nl_NL": "Keulen"
   },
   "Como": {
     "en_GB": "Como",
@@ -1768,6 +1784,14 @@
     "longitude": "10.92539",
     "nl_NL": "Modena"
   },
+  "Molfetta": {
+    "en_GB": "Molfetta",
+    "geonames_id": 3173287,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Molfetta",
+    "latitude": "41.20036",
+    "longitude": "16.59905",
+    "nl_NL": "Molfetta"
+  },
   "Monaco di Baviera": {
     "en_GB": "Munich",
     "geonames_id": 2867714,
@@ -2127,6 +2151,14 @@
     "latitude": "40.81563",
     "longitude": "14.33716",
     "nl_NL": "Portici"
+  },
+  "Prato": {
+    "en_GB": "Prato",
+    "geonames_id": 3169921,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Prato",
+    "latitude": "43.8805",
+    "longitude": "11.09699",
+    "nl_NL": "Prato"
   },
   "Prignano sulla Secchia": {
     "en_GB": "Prignano sulla Secchia",
@@ -2695,6 +2727,14 @@
     "latitude": "40.78931",
     "longitude": "14.36806",
     "nl_NL": "Torre del Greco"
+  },
+  "Trevi": {
+    "en_GB": "Trevi",
+    "geonames_id": 3165209,
+    "geonames_wikipedia": null,
+    "latitude": "42.87769",
+    "longitude": "12.74938",
+    "nl_NL": "Trevi"
   },
   "Trieste": {
     "en_GB": "Trieste",
