@@ -532,6 +532,48 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Artom": {
+    "ISNI:id": "0000 0000 6677 0869",
+    "comment_daniel": "Was the secretary of Cavour",
+    "date_of_birth": "1829-12-31",
+    "date_of_death": "1900-01-24",
+    "functions": [
+      [
+        "Capo di gabinetto del Ministero degli Affari Esteri del Regno d'Italia",
+        "1862-12/1864-10"
+      ],
+      [
+        "Consigliere della Legazione del Regno d'Italia a Parigi",
+        "1864-10/1866-05-20"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Carisruhe",
+        "1868-01-23/"
+      ],
+      [
+        "Segretario generale del Ministero degli Affari Esteri del Regno d'Italia",
+        "1870-11-27/1876-03-24"
+      ]
+    ],
+    "images": [],
+    "name": "Isacco",
+    "person_type": 1,
+    "place_of_birth": "Asti",
+    "place_of_death": "Roma",
+    "sources": [
+      "'Artom, Isacco', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/5bc690c66eeab5f2c125785d0054c11b/f0e1a5083a822e214125646f00586fcc?OpenDocument",
+      "Talamo, Giuseppe, 'Artom, Isacco', in: Dizionario Biografico degli Italiani. Volume 4 (Rome, Treccani, 1962), found on: https://www.treccani.it/enciclopedia/isacco-artom_(Dizionario-Biografico)/"
+    ],
+    "sources_other": [],
+    "surname": "Artom",
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
+    "wikidata:id": "Q514738"
+  },
   "$Auersperg": {
     "ISNI:id": null,
     "comment_daniel": "Dit is een groot geslacht. De bron vermeldt deze persoon als enige graaf van dit geslacht die tijdens vermelding Veldmaarschalk luitenant was, maar dan moeten we er dus vanuit gaan dat die bron iedereen noemt. Kunnen ook gewoon “von Auersperg”' laten staan en voornaam weglaten.",
@@ -570,7 +612,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -1058,19 +1100,24 @@
   },
   "$Bazini": {
     "ISNI:id": null,
-    "comment_daniel": "I can't find him and can't really read his letter. His letter is at ms281_B_114 & ms281_B_115",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "C.",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
-    "surname": "De Bazini",
-    "titles": [],
+    "surname": "De Bazin",
+    "titles": [
+      [
+        "conte",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Beaumont": {
@@ -1777,10 +1824,15 @@
   },
   "$Bighini": {
     "ISNI:id": null,
-    "comment_daniel": "Don't understand his title in the letter. ... of the 1st Infantry Division in Brussels. ms280_93",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Retroguardia della prima infanteria di Bruxelles",
+        null
+      ]
+    ],
     "images": [],
     "name": "Dominique",
     "person_type": 5,
@@ -2465,6 +2517,34 @@
     "surname": "van Bosse",
     "titles": [],
     "wikidata:id": "Q1975184"
+  },
+  "$Bottilia": {
+    "ISNI:id": null,
+    "comment_daniel": "Family from the nobility, should be more about him. Related to Card. Luigi Bottiglia Savoulx",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Vincenzo",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Gazzetta ufficiale della Repubblica italiana. Parte prima (Istituto poligrafico dello stato, 1882)"
+    ],
+    "surname": "Bottilia Savoulx",
+    "titles": [
+      [
+        "maggior generale",
+        null
+      ],
+      [
+        "conte",
+        null
+      ]
+    ],
+    "wikidata:id": null
   },
   "$Bouillet": {
     "ISNI:id": "0000 0001 0896 6043",
@@ -3888,6 +3968,36 @@
     ],
     "wikidata:id": null
   },
+  "$Casalini": {
+    "ISNI:id": "0000 0000 6213 3504",
+    "comment_daniel": "",
+    "date_of_birth": "1839-08-27",
+    "date_of_death": "1921-03-17",
+    "functions": [
+      [
+        "Segretario generale del Ministero delle Finanze del Regno d'Italia",
+        "1873-07-19/1876-03-25"
+      ]
+    ],
+    "images": [],
+    "name": "Alessandro",
+    "person_type": 1,
+    "place_of_birth": "Rovigo",
+    "place_of_death": "Roma",
+    "sources": [
+      "'Casalini, Alessandro', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/96ec2bcd072560f1c125785d0059806a/1eb26cd45be0d70b4125646f0059d46d?OpenDocument",
+      "Rossi, Alberto M., 'Casalini, Alessandro', in: Dizionario Biografico degli Italiani. Volume 21 (Rome, Treccani, 1978), found on: https://www.treccani.it/enciclopedia/alessandro-casalini_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Casalini",
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
+    "wikidata:id": "Q785734"
+  },
   "$Casanelli": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -4680,13 +4790,13 @@
   },
   "$Conti": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive. Comment Sigrid: it's tempting to say that she is the sister of mathemetician Paolo Gorini: i her letter she makes an appeal on behalf of her brother, Gemello Gorini, and mentions that his father is Giovanni Gorini and that he is a professor of maths and sciences at Pavia Uni, which is true also of Paolo G.; she also says she's acted as a mother to her brother Gemello after both their parents passed away (also true, Paolo G. was orphaned at 12). However, and this is strange, there is no mention of Paolo having a sister and an extra brother (Gemello) anywhere, but I mean ANYWHERE. According to the letter this Gemello got his degree in medicin, and she's asking for a recommendation for him with the governror of the East Indies. I cannot find the relation with Paolo Gorini at all.",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "Madeleine",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -4827,13 +4937,13 @@
   },
   "$Corvino": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive",
+    "comment_daniel": "Husband is Antonio Bava, consul of the Netherlands in Naples",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
-    "name": "Maria Giuseppina",
-    "person_type": 5,
+    "name": "Maria Giuseppa",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -8275,6 +8385,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Henny": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Segretario generale del Ministro delle Colonie del Regno dei Paesi Bassi",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "C. Th. H.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Het Regt in Nederlandsch-Indië, W.F.C. de Kerens en J. Sibenius Trip (red.). Deel 24 (H.M. van Dorp: Batavia, 1875)"
+    ],
+    "surname": "Henny",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Herrera": {
     "ISNI:id": "0000 0000 3197 9371",
     "comment_daniel": "",
@@ -8540,10 +8674,15 @@
     "comment_daniel": "Don't understand his title in the letter. ... of Florenville . ms280_161",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Sindaco di Florenville",
+        null
+      ]
+    ],
     "images": [],
     "name": "Louis",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -8791,7 +8930,7 @@
   },
   "$Jongh": {
     "ISNI:id": null,
-    "comment_daniel": "Wels en Beth noemen hem met W., inventaris heeft het over L. In ms. 307 staat ook Gerome. Wellicht een zoon?",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -8802,7 +8941,7 @@
     ],
     "images": [],
     "name": "Guglielmo",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -9700,7 +9839,7 @@
   },
   "$Lauro": {
     "ISNI:id": null,
-    "comment_daniel": "Eerste vermelding ms301. Ik heb het gevoel dat gerente (Directeur) eigenlijk Vice-consul is",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -9715,7 +9854,7 @@
     ],
     "images": [],
     "name": "Francesco",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -11360,6 +11499,41 @@
     "titles": [],
     "wikidata:id": "Q3770210"
   },
+  "$Mattos": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1828-08-15",
+    "date_of_death": "1898-08-28",
+    "functions": [
+      [
+        "Console del Regno dei Paesi Bassi a Venezia",
+        null
+      ],
+      [
+        "Console Generale del Regno dei Paesi Bassi a Budapest",
+        "/1898"
+      ]
+    ],
+    "images": [
+      "https://rkd.nl/en/explore/images/172904"
+    ],
+    "name": "Joseph Henri",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Budapest",
+    "sources": [],
+    "sources_other": [
+      "Dutch Institute for Art History (RKD), 'Lea Teixeira de Mattos', found on: https://rkd.nl/en/explore/images/172904"
+    ],
+    "surname": "Teixeira de Mattos",
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
+    "wikidata:id": null
+  },
   "$Mazel": {
     "ISNI:id": "0000 0000 7066 4065",
     "comment_daniel": "",
@@ -11490,7 +11664,7 @@
         "1843/1846"
       ],
       [
-        "Segretario Generale al Ministero degli Affari Esteri del Regno d'Italia",
+        "Segretario generale del Ministero degli Affari Esteri del Regno d'Italia",
         "1862-03/1862-12"
       ],
       [
@@ -12621,6 +12795,30 @@
     ],
     "wikidata:id": "Q348626"
   },
+  "$Nervegna": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Vice-console del Regno dei Paesi Bassi a Brindisi",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "J.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Verzameling der Konsulaire Berigten en Verslagen over Nijverheid, Handel en Scheepvaart. Vol. 1 (Algemeene Lands-Drukkerij: Den Haag, 1865)"
+    ],
+    "surname": "Nervegna",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Ney": {
     "ISNI:id": "0000 0000 6225 9879",
     "comment_daniel": "",
@@ -13672,6 +13870,47 @@
     "surname": "Pancani",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Panissera": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1830-10-08",
+    "date_of_death": "1886-04-06",
+    "functions": [
+      [
+        "Colonnello della Guardia Nazionale di Torino",
+        null
+      ],
+      [
+        "Sindaco di Bardassano",
+        "1862/1886"
+      ],
+      [
+        "Prefetto di palazzo e gran maestro delle cerimonie del Re d'Italia",
+        "1876-01-09/1878-01-23"
+      ]
+    ],
+    "images": [],
+    "name": "Marcello",
+    "person_type": 1,
+    "place_of_birth": "Torino",
+    "place_of_death": "Roma",
+    "sources": [
+      "'Panissera di Veglio, Marcello', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/9a29a2e73f195df7c125785d0059b96c/c0a437f93f1d20174125646f005e1ebb?OpenDocument"
+    ],
+    "sources_other": [],
+    "surname": "Panissera di Veglio",
+    "titles": [
+      [
+        "conte",
+        null
+      ],
+      [
+        "Cav.",
+        null
+      ]
+    ],
+    "wikidata:id": "Q3845663"
   },
   "$Parisi": {
     "ISNI:id": null,
@@ -15174,6 +15413,66 @@
     "surname": "Ricci",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Ricotti": {
+    "ISNI:id": "0000 0000 4600 1704",
+    "comment_daniel": "",
+    "date_of_birth": "1822-01-30",
+    "date_of_death": "1917-08-04",
+    "functions": [
+      [
+        "Comandante militare della provincia di Napoli",
+        "1860-11-11/"
+      ],
+      [
+        "Direttore generale delle armi speciali del Regno d'Italia",
+        "1861-06-12/1866-05-06"
+      ],
+      [
+        "Ministro della Guerra del Regno d'Italia",
+        "1870-09-07/1873-07-05"
+      ],
+      [
+        "Ministro ad interim della Marina del Regno d'Italia",
+        "1870-12-26/1871-03-24"
+      ],
+      [
+        "Ministro della Guerra del Regno d'Italia",
+        "1873-07-10/1876-03-25"
+      ],
+      [
+        "Ministro della Guerra del Regno d'Italia",
+        "1884-10-23/1885-04-04"
+      ],
+      [
+        "Ministro della Guerra del Regno d'Italia",
+        "1896-03-09/1896-07-11"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/da/Cesare_Francesco_Ricotti-Magnani.JPG"
+    ],
+    "name": "Cesare",
+    "person_type": 1,
+    "place_of_birth": "Novara",
+    "place_of_death": "Novara",
+    "sources": [
+      "'Ricotti Magnani, Cesare', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/99c86489eb3293f5c125785d0059c118/d18e18391c2abba24125646f005f01fc?OpenDocument",
+      "Labanca, Nicola, 'Ricotti Magnani, Cesare', in: Dizionario Biografico degli Italiani. Volume 87 (Roma, Treccani, 2016), found on: https://www.treccani.it/enciclopedia/cesare-ricotti-magnani_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Ricotti Magnani",
+    "titles": [
+      [
+        "generale",
+        null
+      ],
+      [
+        "Cav.",
+        null
+      ]
+    ],
+    "wikidata:id": "Q1056905"
   },
   "$Riesch": {
     "ISNI:id": null,
@@ -17803,6 +18102,33 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Stufa": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "1889",
+    "functions": [
+      [
+        "Prefetto di palazzo e gran maestro delle cerimonie del Re d'Italia",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Della Stufa de'Lotteringhi",
+    "titles": [
+      [
+        "marchese",
+        null
+      ]
+    ],
+    "wikidata:id": null
+  },
   "$Sturbinetti": {
     "ISNI:id": "0000 0000 6290 5535",
     "comment_daniel": "",
@@ -18233,6 +18559,66 @@
       ]
     ],
     "wikidata:id": "Q558177"
+  },
+  "$Tornielli": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1836-02-12",
+    "date_of_death": "1908-04-09",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia ad Atene",
+        "1864-07-16/"
+      ],
+      [
+        "Capo di gabinetto del Ministero degli Affari Esteri del Regno d'Italia",
+        "1867-10-08/"
+      ],
+      [
+        "Segretario generale del Ministero degli Affari Esteri del Regno d'Italia",
+        "1876-04-02/1878-06-03"
+      ],
+      [
+        "Segretario generale del Ministero degli Affari Esteri del Regno d'Italia",
+        "1878-12-19/1879-07-06"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Bucarest",
+        "1879-07-06/1879-12-05"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Belgrado",
+        "1879-09-07/"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Madrid",
+        "1887-12-25/"
+      ]
+    ],
+    "images": [
+      "https://www.wikidata.org/wiki/Q3771542#/media/File:Conte_Giuseppe_Tornielli.jpg"
+    ],
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Novara",
+    "place_of_death": "Parigi",
+    "sources": [
+      "'Tornielli Brusati di Vergano, Giuseppe', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/6106035726b5462fc125785d0059c8d5/020999af71f7dd244125646f00611bc3?OpenDocument",
+      "Tassani, Giovanni, 'Tornielli Brusati di Vergano, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 96 (Rome, Treccani, 2019), found on: https://www.treccani.it/enciclopedia/tornielli-brusati-di-vergano-giuseppe_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Tornielli Brusati di Vergano",
+    "titles": [
+      [
+        "Cav.",
+        null
+      ],
+      [
+        "conte",
+        null
+      ]
+    ],
+    "wikidata:id": "Q3771542"
   },
   "$Torti": {
     "ISNI:id": "0000 0001 2320 061X",

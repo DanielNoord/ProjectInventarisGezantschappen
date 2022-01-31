@@ -260,6 +260,10 @@
     "en_GB": "Chief of the police of Maastricht",
     "nl_NL": "Hoofcommissaris van de politie van Maastricht"
   },
+  "Capo di gabinetto del Ministero degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "Head of cabinet of the Ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Kabinetschef van het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+  },
   "Capo-contabile del Ministero delle Finanze dello Stato Pontificio": {
     "en_GB": "Chief accountant of the Ministry of Finance of the Papel States",
     "nl_NL": "Hoofd-accountant van het Ministerie van Financiën van de Kerkelijke Staat"
@@ -344,6 +348,10 @@
     "en_GB": "Colonel",
     "nl_NL": "Kolonel"
   },
+  "Colonnello della Guardia Nazionale di Torino": {
+    "en_GB": "Colonel of the National Guard of Turin",
+    "nl_NL": "Kolonel van de Nationale Garde van Turijn"
+  },
   "Comandante dei depositi dei armi dell'esercitio pontificio a Roma": {
     "en_GB": "Commander of the arms of the Papal army in Rome",
     "nl_NL": "Commandant van de wapens van het Pauselijke leger in Rome"
@@ -400,6 +408,10 @@
     "en_GB": "Commander in chief of the troops of Parma",
     "nl_NL": "Opperbevelhebber van de troepen van Parma"
   },
+  "Comandante militare della provincia di Napoli": {
+    "en_GB": "Military commander of the province of Naples",
+    "nl_NL": "Militair commandant van de provincie Napels"
+  },
   "Comandante superiore della Piazza di Civitavecchia": {
     "en_GB": "Commander in chief of the fortress of Civitavecchia",
     "nl_NL": "Hoofdcommandant van de vesting van Civitavecchia"
@@ -440,6 +452,10 @@
     "en_GB": "Counselor to the Duke of Nassau",
     "nl_NL": "Raadsheer van de Hertog van Nassau"
   },
+  "Consigliere della Legazione del Regno d'Italia a Parigi": {
+    "en_GB": "Advisor to the Legation of the Kingdom of Italy in Paris",
+    "nl_NL": "Adviseur van het Gezantschap van het Koninkrijk Italië te Parijs"
+  },
   "Consigliere della Legazione dell'Impero d'Austria a Roma": {
     "en_GB": "Advisor to the Legation of the Empire of Austria in Rome",
     "nl_NL": "Adviseur van het Gezantschap van het Keizerrijk Oostenrijk te Rome"
@@ -451,6 +467,10 @@
   "Consigliere e incaricato d'affari della Legazione del Regno del Belgio a Roma": {
     "en_GB": "Advisor and chargé d'affaires of the Kingdom of Belgium in Rome",
     "nl_NL": "Adviseur en zaakgelastigde van het Koninkrijk België te Rome"
+  },
+  "Console Generale del Regno dei Paesi Bassi a Budapest": {
+    "en_GB": "Consul general of the Kingdom of the Netherlands in Budapest",
+    "nl_NL": "Consul-generaal van het Koninkrijk Nederland te Budapest"
   },
   "Console Generale del Regno di Paesi Bassi a Caracas": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Caracas",
@@ -747,6 +767,10 @@
   "Direttore generale del servizio militare presso il Ministero della Marina": {
     "en_GB": "Director general of the Military Service of the Ministry of the Marine",
     "nl_NL": "Directeur-generaal van de Militaire Dienst bij het Ministerie van de Marine"
+  },
+  "Direttore generale delle armi speciali del Regno d'Italia": {
+    "en_GB": "Director general of special arms of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal van bijzondere wapens van het Koninkrijk Italië"
   },
   "Direttore generale delle dogane dello Stato Pontificio": {
     "en_GB": "Director-general of the Customs of the Papel States",
@@ -1168,9 +1192,21 @@
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Prussia to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
   },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Belgrado": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Belgrade",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Belgrado"
+  },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Berna": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Bern",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Bern"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Bucarest": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Bucharest",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Boekarest"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Carisruhe": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Karlsruhe",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Karlsruhe"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Costantinopoli": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Constantinople",
@@ -1179,6 +1215,10 @@
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Londra": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in London",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Londen"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Madrid": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Madrid",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Madrid"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a New York City": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in New York City",
@@ -1207,6 +1247,10 @@
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a l'Aia e a Madrid": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in the Hague and in Madrid",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Den Haag en te Madrid"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia ad Atene": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Athens",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Athene"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia presso la Confederazione Elvetica": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy to the Swiss Confederation",
@@ -1452,6 +1496,10 @@
     "en_GB": "Interim minister of Justice of the Kingdom of the Netherlands",
     "nl_NL": "Ad interim minister van Justitie van het Koninkrijk der Nederlanden"
   },
+  "Ministro ad interim della Marina del Regno d'Italia": {
+    "en_GB": "Interim Minister of the Marine of the Kingdom of Italy",
+    "nl_NL": "Ad interim minister van de Marine van het Koninkrijk Italië"
+  },
   "Ministro ad interim delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Minister ad interim of Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Ad interim minister van Koloniën van het Koninkrijk der Nederlanden"
@@ -1603,6 +1651,10 @@
   "Ministro della Giustizia dell'Impero d'Austria": {
     "en_GB": "Minister of Justice of the Empire of Austria",
     "nl_NL": "Minister van Justitie van het Keizerrijk Oostenrijk"
+  },
+  "Ministro della Guerra del Regno d'Italia": {
+    "en_GB": "Minister of War of the Kingdom of Italy",
+    "nl_NL": "Minister van Oorlog van het Koninkrijk Italië"
   },
   "Ministro della Guerra del Regno dei Paesi Bassi": {
     "en_GB": "Minister of War of the Kingdom of the Netherlands",
@@ -2220,6 +2272,11 @@
     "en_GB": "Queen of Spain",
     "nl_NL": "Koningin van Spanje"
   },
+  "Retroguardia della prima infanteria di Bruxelles": {
+    "en_GB": "flanker of the first infantry of Brussels",
+    "nl_NL": "flankeur der eerste infanterie van Brussel",
+    "position": "After"
+  },
   "Rettore della Vrije Universiteit di Amsterdam": {
     "en_GB": "Rector of the Vrije Universiteit of Amsterdam",
     "nl_NL": "Rector van de Vrije Universiteit van Amsterdam"
@@ -2235,10 +2292,6 @@
   "Scultore": {
     "en_GB": "Sculptor",
     "nl_NL": "Beeldhouwer"
-  },
-  "Segretario Generale al Ministero degli Affari Esteri del Regno d'Italia": {
-    "en_GB": "Secretary General at the ministry of Foreign Affairs of the Kingdom of Italy",
-    "nl_NL": "Secretaris-Generaal bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Segretario del Ministero dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Secretary of the Ministry of Public Education, National Indusry and Colonies of the Kingdom of the Netherlands",
@@ -2364,6 +2417,10 @@
     "en_GB": "Secretary general of the Ministry of the Interior of the Papal State",
     "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van de Kerkelijke Staat"
   },
+  "Segretario generale del Ministero delle Finanze del Regno d'Italia": {
+    "en_GB": "Secretary general of the Ministry of Finance of the Kingdom of Italy",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Financiën van het Koninkrijk Italië"
+  },
   "Segretario generale del Ministero delle Finanze del Regno di Sardegna": {
     "en_GB": "Secretary general of the Ministry of Finance of the Kingdom of Sardinia",
     "nl_NL": "Secretaris-generaal van het Ministerie van Financiën van het Koninkrijk Sardinië"
@@ -2371,6 +2428,10 @@
   "Segretario generale del Ministero di Grazia e Giustizia del Regno d'Italia": {
     "en_GB": "Secretary general of the Ministry of Grace and Justice of the Kingdom of Italy",
     "nl_NL": "Secretaris-generaal van het Ministerie van Gratie en Justitie van het Koninkrijk Italië"
+  },
+  "Segretario generale del Ministro delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "Secretary general of the Ministry of the Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Koloniën van het Koninkrijk der Nederlanden"
   },
   "Segretario generale del ministero degli Affari Esteri del Regno d'Italia": {
     "en_GB": "General secretary of the ministry of Foreign Affairs of the Kingdom of Italy",
@@ -2416,6 +2477,10 @@
     "en_GB": "Mayor of Albertville",
     "nl_NL": "Burgemeester van Albertville"
   },
+  "Sindaco di Bardassano": {
+    "en_GB": "Mayor of Bardassano",
+    "nl_NL": "Burgemeester van Bardassano"
+  },
   "Sindaco di Cumiana": {
     "en_GB": "Mayor of Cumiana",
     "nl_NL": "Burgemeester van Cumiana"
@@ -2423,6 +2488,10 @@
   "Sindaco di Firenze": {
     "en_GB": "Mayor of Florence",
     "nl_NL": "Burgemeester van Florence"
+  },
+  "Sindaco di Florenville": {
+    "en_GB": "Mayor of Florenville",
+    "nl_NL": "Burgemeester van Florenville"
   },
   "Sindaco di Napoli": {
     "en_GB": "Mayor of Naples",
@@ -2575,6 +2644,10 @@
   "Vice-console del Regno d'Italia a Parigi": {
     "en_GB": "Vice-consul of the Kingdom of Italy in Paris",
     "nl_NL": "Vice-consul van het Koninkrijk Italië te Parijs"
+  },
+  "Vice-console del Regno dei Paesi Bassi a Brindisi": {
+    "en_GB": "vice-consul of the Kingdom of the Netherlands in Brindisi",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Brindisi"
   },
   "Vice-console del Regno dei Paesi Bassi a Cagliari": {
     "en_GB": "Vice-consul of the Kingdom of the Netherlands in Cagliari",

@@ -256,6 +256,10 @@
     "en_GB": "Attack from \\2 at Ronciglione. Letter from \\4 to \\6",
     "nl_NL": "Aanval van \\2 bij Ronciglione. Brief van \\4 aan \\6"
   },
+  "Allegati finanziari$": {
+    "en_GB": "Financial attachments",
+    "nl_NL": "Financiële bijlages"
+  },
   "Allegato a relazione$": {
     "en_GB": "Attachment to a report",
     "nl_NL": "Bijlage bij een rapport"
@@ -3576,6 +3580,10 @@
     "en_GB": "Letter from the consul general of His Majesty of the Netherlands to the King of Sardinia signed by \\1 to \\3",
     "nl_NL": "Brief van de consul-generaal van Zijne Majesteit der Nederlanden bij de koning van Sardinië ondertekend door \\1 to \\3"
   },
+  "Lettera del Ministero degli Affari Esteri (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the Ministry of Foreign Affairs to \\2",
+    "nl_NL": "Brief van het Ministerie van Buitenlandse Zaken aan \\2"
+  },
   "Lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
     "en_GB": "Letter of the Alto Consiglio della Nobilità to \\2 about the conferral of a medal",
     "nl_NL": "Brief van het Alto Consiglio della Nobilità aan \\2 over de toekenning van een medaille"
@@ -3628,6 +3636,10 @@
     "en_GB": "Letter from Civitavecchia",
     "nl_NL": "Brief uit Civitavecchia"
   },
+  "Lettera di Ruys & Co (Campagnia di Assicurazioni di Marina Mercantile) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from Ruys & Co (Insurance Company for Merchant Shipping) to \\2",
+    "nl_NL": "Begeleidende brief van Ruys & Co (Verzekeringsmaatschappij van koopvaardijschepen) aan \\2"
+  },
   "Lettera di indirizzo (di|del|della) (\\$\\w+) da Torino \\(a stampa\\)$": {
     "en_GB": "Address letter from \\2 from Turin (printed)",
     "nl_NL": "Adresbrief van \\2 uit Turijn (gedrukt)"
@@ -3639,6 +3651,10 @@
   "Lettera di invito (di|del|della) (\\$\\w+)$": {
     "en_GB": "Letter of invitation from \\2",
     "nl_NL": "Uitnodigingsbrief van \\2"
+  },
+  "Lettera di invito del Ministero degli Affari Esteri$": {
+    "en_GB": "Letter of invitation from the Ministry of Foreign Affairs",
+    "nl_NL": "Uitnodigingsbrief van het Ministerie van Buitenlandse Zaken"
   },
   "Lettera di invito dell'anticamera pontificia (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of invitation from the Pontifical antechamber to \\2",
@@ -3695,6 +3711,10 @@
   "Lettera senza firma e destinatario$": {
     "en_GB": "Letter without signature and addressee",
     "nl_NL": "Letter zonder ondertekening en geadresseerde"
+  },
+  "Lettera su allegati finanziari$": {
+    "en_GB": "Letter about financial attachments",
+    "nl_NL": "Brief over financiële bijlages"
   },
   "Lettera$": {
     "en_GB": "Letter",
@@ -4291,6 +4311,10 @@
   "Note contabili$": {
     "en_GB": "Notes to the accounts",
     "nl_NL": "Nota's over de rekeningen"
+  },
+  "Note dei documenti presenti nell'archivio (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Notes about the documents present in the archive from \\2",
+    "nl_NL": "Notities over de documenten aanwezig in het archief van \\2"
   },
   "Note delle partenze dei battelli a vapore da Civitavecchia$": {
     "en_GB": "Notes about the departure of steamboats from Civitavecchia",
