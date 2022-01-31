@@ -1,5 +1,4 @@
 {
-  "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
     "comment_daniel": "",
@@ -293,8 +292,8 @@
     "place_of_death": "",
     "sources": [],
     "sources_other": [
-      "https://books.google.it/books?id=shyGBwAAQBAJ&pg=PR367&dq=Giovanni+De+Angelis+1862&hl=nl&sa=X&ved=2ahUKEwjjvuuo-Nv1AhWbSvEDHQDxCREQ6AF6BAgHEAI#v=onepage&q=Giovanni%20De%20Angelis%201862&f=false",
-      "Monti, A., Cenni sulla vita del cav. Giovanni De Angelis, (Roma, 1862)"
+      "Monti, A., Cenni sulla vita del cav. Giovanni De Angelis, (Roma, 1862)",
+      "https://books.google.it/books?id=shyGBwAAQBAJ&pg=PR367&dq=Giovanni+De+Angelis+1862&hl=nl&sa=X&ved=2ahUKEwjjvuuo-Nv1AhWbSvEDHQDxCREQ6AF6BAgHEAI#v=onepage&q=Giovanni%20De%20Angelis%201862&f=false"
     ],
     "surname": "De Angelis",
     "titles": [["Cav.", null]],
@@ -7575,7 +7574,7 @@
     "functions": [["Console del Regno dei Paesi Bassi a Venezia", null]],
     "images": [],
     "name": "",
-    "person_type": 4,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -12092,7 +12091,7 @@
     "functions": [["Capitano", null]],
     "images": [],
     "name": "Cornelio",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -16383,7 +16382,7 @@
     "functions": [],
     "images": [],
     "name": "Ferdinand",
-    "person_type": 4,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -16824,5 +16823,6 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  }
+  },
+  "$schema": "../static/JSON/Individuals.json"
 }
