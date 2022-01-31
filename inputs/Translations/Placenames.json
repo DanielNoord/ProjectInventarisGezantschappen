@@ -856,6 +856,14 @@
     "longitude": "7.54828",
     "nl_NL": "Cuneo"
   },
+  "Curaçao": {
+    "en_GB": "Curaçao",
+    "geonames_id": 3513790,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Cura%C3%A7ao",
+    "latitude": "12.18194",
+    "longitude": "-68.99248",
+    "nl_NL": "Curaçao"
+  },
   "Delft": {
     "en_GB": "Delft",
     "geonames_id": 2757345,
@@ -2607,6 +2615,14 @@
     "latitude": "19.45671",
     "longitude": "-99.18723",
     "nl_NL": "Tacuba"
+  },
+  "Taranto": {
+    "en_GB": "Taranto",
+    "geonames_id": 3513790,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Taranto",
+    "latitude": "40.46438",
+    "longitude": "17.24707",
+    "nl_NL": "Taranto"
   },
   "Tassullo": {
     "en_GB": "Tassullo",
