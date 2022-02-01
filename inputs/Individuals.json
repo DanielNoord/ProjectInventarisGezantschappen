@@ -1,4 +1,5 @@
 {
+  "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
     "comment_daniel": "",
@@ -983,7 +984,7 @@
     "functions": [["Chimico", null]],
     "images": [],
     "name": "Giuseppe",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -1457,13 +1458,13 @@
   },
   "$Bianchi": {
     "ISNI:id": null,
-    "comment_daniel": "Ene Karl Louis Bianchi wellicht?",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -1749,21 +1750,19 @@
   },
   "$Bois": {
     "ISNI:id": null,
-    "comment_daniel": "Te weinig info nog om te kunnen weten om welke persoon het gaat. Ik vermoed Fransiscus Henricus Augustus Josephus (1798-1867).",
+    "comment_daniel": "Te weinig info nog om te kunnen weten om welke persoon het gaat. Mogelijk Fransiscus Henricus Augustus Josephus (1798-1867), maar zeer onzeker.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [
-      "https://geneagraphie.com/pedigrees/Adelsboeken/HIST_1%20-%201925.PDF"
-    ],
-    "surname": "Du Bois d Ferrières",
-    "titles": [["barone", null]],
+    "sources_other": [],
+    "surname": "Du Bois",
+    "titles": [],
     "wikidata:id": null
   },
   "$Bommel": {
@@ -2605,10 +2604,10 @@
     "comment_daniel": "Het is me na een lange zoektocht nog steeds onduidelijk wat er allemaal aan de gang was in Trofarello.",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Sindaco di Trofarello", null]],
     "images": [],
     "name": "Giuseppe",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -5388,17 +5387,38 @@
   },
   "$Fleumer": {
     "ISNI:id": null,
-    "comment_daniel": "(Sigrid: vader bezat de firma C.F. Fleumer). Impossible to determine who this is without more information from archive, likely his first name is Hendrik",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "comment_daniel": "",
+    "date_of_birth": "1834-02-04",
+    "date_of_death": "1889-09-19",
+    "functions": [["Negoziante", null]],
     "images": [],
     "name": "Hendrik",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "person_type": 1,
+    "place_of_birth": "Wormerveer",
+    "place_of_death": "Amsterdam",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "https://gw.geneanet.org/rfleumer?lang=en&iz=918&p=hendrik&n=fleumer"
+    ],
+    "surname": "Fleumer",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$FleumerCF": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1808-07-05",
+    "date_of_death": "1875-05-12",
+    "functions": [["Negoziante", null]],
+    "images": [],
+    "name": "Carel Frederik",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Haarlem",
+    "sources": [],
+    "sources_other": [
+      "https://gw.geneanet.org/rfleumer?lang=en&iz=918&p=carel+frederik&n=fleumer"
+    ],
     "surname": "Fleumer",
     "titles": [],
     "wikidata:id": null
@@ -7047,7 +7067,7 @@
     "functions": [],
     "images": [],
     "name": "A.J.",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -7785,28 +7805,30 @@
     "wikidata:id": "Q2788060"
   },
   "$Kubeck": {
-    "ISNI:id": null,
+    "ISNI:id": "0000 0000 5652 0495",
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1818",
+    "date_of_death": "1873",
     "functions": [
       [
-        "Inviato straordinario e ministro plenipotenziario dell'Impero d'Austria presso il Regno d'Italia",
-        null
+        "Inviato straordinario e incaricato d'affari dell'Impero d'Austria presso il Regno d'Italia",
+        "1866-12-16/1871-12-20"
       ]
     ],
     "images": [],
-    "name": "Luigi",
+    "name": "Alois Karl",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
+      "https://books.google.nl/books?id=xBDVDAAAQBAJ&pg=PA33&lpg=PA33&dq=Aloys+Freiherr+Kübeck+von+Kübau+1818&source=bl&ots=GQ31BbdUKz&sig=ACfU3U3cY9W6phyu9Y5v2yZT894L3MXfjA&hl=nl&sa=X&ved=2ahUKEwicmKjQ7971AhUQtaQKHQHOCkwQ6AF6BAgWEAM#v=onepage&q=Aloys%20Freiherr%20Kübeck%20von%20Kübau%201818&f=false",
+      "https://de.wikipedia.org/wiki/Liste_der_österreichischen_Botschafter_in_Italien#cite_ref-Agstner_1-0",
       "Il nuovo Palmaverde: almanacco universale (Pellino, V. Fontana e Chiariglione: Torino, 1870), p. 109"
     ],
-    "surname": "Kubeck",
-    "titles": [["barone", null]],
-    "wikidata:id": null
+    "surname": "Kübau von Kübeck",
+    "titles": [["Freiherr", null]],
+    "wikidata:id": "Q55854144"
   },
   "$Kuyper": {
     "ISNI:id": "0000 0000 8106 206X",
@@ -8747,13 +8769,13 @@
   },
   "$Luipold": {
     "ISNI:id": null,
-    "comment_daniel": "Impossible to determine who this is without more information from archive, might be https://en.wikipedia.org/wiki/Luitpold,_Prince_Regent_of_Bavaria",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Negoziante", null]],
     "images": [],
     "name": "Louis",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -9235,13 +9257,13 @@
   },
   "$MariniF": {
     "ISNI:id": null,
-    "comment_daniel": "Brieven in ms278",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "F.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -11266,23 +11288,6 @@
     ],
     "wikidata:id": null
   },
-  "$PaccaB": {
-    "ISNI:id": null,
-    "comment_daniel": "Ik kan deze nergens vinden. Gezien de tijd van vermelding neem ik eigenlijk aan dat dit ook om il Giovane gaat, maar kan tot nu toe geen lijst vinden van ceremoniemeesters…",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [["Maestro di cerimonia", null]],
-    "images": [],
-    "name": "Bartolomeo",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
-    "surname": "Pacca",
-    "titles": [],
-    "wikidata:id": null
-  },
   "$PaccaBilG": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -11296,6 +11301,7 @@
         "1853-03-10/"
       ],
       ["Maestro di Camera del Papa", "1856-06-16/1868-03-21"],
+      ["Maestro di Ceremonie del Papa", "1856-06-16/1868-03-21"],
       [
         "Maggiordomo del Papa e Prefetto dei Palazzi Apostolici",
         "1868-03-21/1875-09-17"
@@ -11784,27 +11790,6 @@
     "titles": [["Cav.", null]],
     "wikidata:id": "Q99294281"
   },
-  "$Perglass": {
-    "ISNI:id": null,
-    "comment_daniel": "DN: Waarschijnlijk Karl Pergler, zie https://de.wikipedia.org/wiki/Pergler_von_Perglas",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [["Comandante delle truppe austriache", null]],
-    "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
-    "surname": "von Perglass",
-    "titles": [
-      ["barone", null],
-      ["tenente generale", null],
-      ["maresciallo", null]
-    ],
-    "wikidata:id": null
-  },
   "$Perragallo": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -11955,10 +11940,10 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Ispettore dei pesi e delle misure ad Annecy", null]],
     "images": [],
     "name": "Marie-Julien",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -13170,7 +13155,7 @@
     "images": [],
     "name": "Wilhelm",
     "person_type": 1,
-    "place_of_birth": "Württemberg",
+    "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
@@ -14398,7 +14383,7 @@
   },
   "$Souza": {
     "ISNI:id": null,
-    "comment_daniel": "ms330. Naam lijkt me niet zijn echte Spaanse naam, functie komt ook niet overeen met bron > uitzoeken",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -14409,13 +14394,13 @@
     ],
     "images": [],
     "name": "Gerardo",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": ["La Civiltà Cattolica, Anno 15, 7 (Rome, 1864), 738"],
     "surname": "de Souza",
-    "titles": [],
+    "titles": [["Cav.", null]],
     "wikidata:id": null
   },
   "$Spada": {
@@ -15265,19 +15250,19 @@
   },
   "$Timmermans": {
     "ISNI:id": null,
-    "comment_daniel": "(Comment Sigrid: behoorde wss tot de congrégation du Très Saint Rédempteur). Impossible to determine who this is without more information from archive",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "Antoine",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
     "surname": "Timmermans",
-    "titles": [["padre", null]],
+    "titles": [],
     "wikidata:id": null
   },
   "$Tommaseo": {
@@ -16679,7 +16664,7 @@
       ]
     ],
     "images": [],
-    "name": "Friedrich Sigismundo",
+    "name": "Friedrich Sigismund",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
@@ -16732,13 +16717,13 @@
   },
   "$Zina": {
     "ISNI:id": null,
-    "comment_daniel": "No idea who this is",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Negoziante", null]],
     "images": [],
-    "name": "",
-    "person_type": 5,
+    "name": "Luigi",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -16889,6 +16874,5 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  },
-  "$schema": "../static/JSON/Individuals.json"
+  }
 }
