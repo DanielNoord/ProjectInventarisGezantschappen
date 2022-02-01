@@ -15,6 +15,50 @@ from xlsx_make import create_sanitized_xlsx
 from xml_functions import add_dao, basic_xml_file, file_entry, fix_daoset, series_entry
 
 
+# pylint: disable-next=too-few-public-methods
+class EADMaker:
+    """Class which can a EAD compliant .xml file."""
+
+    def __init__(self) -> None:
+        self.log_missing_translations = "outputs/missing_translations"
+        """Filename of the log file used to track missing translations."""
+
+        self.log_missing_titles = "outputs/missing_titles"
+        """Filename of the log file used to track missing titles."""
+
+        self.log_missing_placenames = "outputs/missing_placenames"
+        """Filename of the log file used to track missing placenames."""
+
+        self.log_title_errors = "outputs/title_errors"
+        """Filename of the log file used to track errors in document titles."""
+
+        self.log_xml_errors = "outputs/xml_errors"
+        """Filename of the log file used to track errors in the xml file."""
+
+        self._create_logging_files()
+
+    def _create_logging_files(self) -> None:
+        """Create some files to store messages during the creation process."""
+        with open(self.log_missing_translations, "w", encoding="utf-8") as file:
+            file.writelines(
+                "|no.  |Missing translations |\n" "| ------------- | ------------- |\n"
+            )
+        with open(self.log_missing_titles, "w", encoding="utf-8") as file:
+            file.writelines(
+                "|no.  |Missing titles |\n" "| ------------- | ------------- |\n"
+            )
+        with open(self.log_missing_placenames, "w", encoding="utf-8") as file:
+            file.writelines(
+                "|no.  |Missing placenames |\n" "| ------------- | ------------- |\n"
+            )
+        with open(self.log_title_errors, "w", encoding="utf-8") as file:
+            file.writelines(
+                "|no.  |Errors in titles |\n" "| ------------- | ------------- |\n"
+            )
+        with open(self.log_xml_errors, "w", encoding="utf-8") as file:
+            file.writelines("")
+
+
 def create_xml_individual_files(  # pylint: disable=too-many-branches
     sheet: openpyxl.worksheet.worksheet.Worksheet,
     series: dict[str, etree._Element],
@@ -201,29 +245,7 @@ def create_xml_file(dir_name: str) -> None:
     print("XML-DTD check complete!")
 
 
-def create_output_files() -> None:
-    """Creates some files to store messages during the creation process"""
-    with open("outputs/missing_translations", "w", encoding="utf-8") as file:
-        file.writelines(
-            "|no.  |Missing translations |\n" "| ------------- | ------------- |\n"
-        )
-    with open("outputs/missing_titles", "w", encoding="utf-8") as file:
-        file.writelines(
-            "|no.  |Missing titles |\n" "| ------------- | ------------- |\n"
-        )
-    with open("outputs/missing_placenames", "w", encoding="utf-8") as file:
-        file.writelines(
-            "|no.  |Missing placenames |\n" "| ------------- | ------------- |\n"
-        )
-    with open("outputs/title_errors", "w", encoding="utf-8") as file:
-        file.writelines(
-            "|no.  |Errors in titles |\n" "| ------------- | ------------- |\n"
-        )
-    with open("outputs/xml_errors", "w", encoding="utf-8") as file:
-        file.writelines("")
-
-
 if __name__ == "__main__":
-    create_output_files()
+    EADMaker()
     create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
     create_xml_file("outputs/VolumesExcelSanitized/it_IT")
