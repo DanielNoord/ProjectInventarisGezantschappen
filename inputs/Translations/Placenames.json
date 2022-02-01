@@ -2712,6 +2712,14 @@
     "longitude": "4.22083",
     "nl_NL": "Tholen"
   },
+  "Tiel": {
+    "en_GB": "Tiel",
+    "geonames_id": 2746331,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tiel",
+    "latitude": "51.88667",
+    "longitude": "5.42917",
+    "nl_NL": "Tiel"
+  },
   "Tilburg": {
     "en_GB": "Tilburg",
     "geonames_id": 2746301,
@@ -3055,6 +3063,14 @@
     "latitude": "50.65552",
     "longitude": "13.07132",
     "nl_NL": "Wolkenstein"
+  },
+  "Wormerveer": {
+    "en_GB": "Wormerveer",
+    "geonames_id": 2744171,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Wormerveer",
+    "latitude": "52.49083",
+    "longitude": "4.79028",
+    "nl_NL": "Wormerveer"
   },
   "Würzburg": {
     "en_GB": "Würzburg",
