@@ -19,7 +19,15 @@ from xml_functions import add_dao, basic_xml_file, file_entry, fix_daoset, serie
 class EADMaker:
     """Class which can a EAD compliant .xml file."""
 
-    def __init__(self) -> None:
+    def __init__(self, input_dir: str, sanitize: bool = True) -> None:
+        self.input_dir = input_dir
+        """Directory with input .xlsx files."""
+
+        self.sanitized_dir = input_dir.replace("inputs", "outputs").replace(
+            "VolumesExcel", "VolumesExcelSanitized"
+        )
+        """Directory with input .xlsx files."""
+
         self.log_missing_translations = "outputs/missing_translations"
         """Filename of the log file used to track missing translations."""
 
@@ -36,6 +44,13 @@ class EADMaker:
         """Filename of the log file used to track errors in the xml file."""
 
         self._create_logging_files()
+
+        # Sanitize the input .xlsx files
+        if sanitize:
+            create_sanitized_xlsx(input_dir)
+
+    def create_ead(self) -> None:
+        create_xml_file(self.sanitized_dir)
 
     def _create_logging_files(self) -> None:
         """Create some files to store messages during the creation process."""
@@ -246,6 +261,8 @@ def create_xml_file(dir_name: str) -> None:
 
 
 if __name__ == "__main__":
-    EADMaker()
-    create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
-    create_xml_file("outputs/VolumesExcelSanitized/it_IT")
+    eadmaker = EADMaker(
+        "inputs/VolumesExcel/it_IT",
+        True,
+    )
+    eadmaker.create_ead()
