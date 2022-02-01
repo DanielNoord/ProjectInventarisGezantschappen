@@ -968,6 +968,14 @@
     "longitude": "6.20143",
     "nl_NL": "Duingt"
   },
+  "Düsseldorf": {
+    "en_GB": "Düsseldorf",
+    "geonames_id": 2934246,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/D%C3%BCsseldorf",
+    "latitude": "51.22172",
+    "longitude": "6.77616",
+    "nl_NL": "Düsseldorf"
+  },
   "Děčín": {
     "en_GB": "Děčín",
     "geonames_id": 3077244,
@@ -1431,6 +1439,14 @@
     "latitude": "51.99667",
     "longitude": "6.22222",
     "nl_NL": "Laag-Keppel"
+  },
+  "Lagonegro": {
+    "en_GB": "Lagonegro",
+    "geonames_id": 3175253,
+    "geonames_wikipedia": null,
+    "latitude": "40.12785",
+    "longitude": "15.76212",
+    "nl_NL": "Lagonegro"
   },
   "Lagos": {
     "en_GB": "Lagos",

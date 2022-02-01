@@ -2457,7 +2457,10 @@
     "date_of_birth": "1817-11-08",
     "date_of_death": "1885-11-18",
     "functions": [
-      ["Ministro della Guerra e Marina del Regno dei Due Sicilie", "1836/1845"],
+      [
+        "Ministro della Guerra e Marina del Regno delle Due Sicilie",
+        "1836/1845"
+      ],
       [
         "Direttore generale del servizio militare presso il Ministero della Marina",
         "1866-05-16/"
@@ -3762,17 +3765,21 @@
   },
   "$Cleef": {
     "ISNI:id": null,
-    "comment_daniel": "Weduwe van Hendrikus van Haaf (Tiel)",
+    "comment_daniel": "Catharina van Cleef was getrouwd met de kleermaker Hendrikus van Haaf, welke voor haar overleed (in 1848). Hun zoon, Lambertus van Haaf (geb. op 7 juli 1840 te Tiel), was een zouaaf en stierf op 29 januari 1864 aan longtering",
     "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_death": "1864-10-13",
     "functions": [],
     "images": [],
     "name": "Catharina",
-    "person_type": 5,
+    "person_type": 1,
     "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
+    "place_of_death": "Tiel",
+    "sources": [
+      "Gelders Archief, Arnhem, 'Overlijden Catharina van Kleef, 13-10-1864', inventory number: 1487, found on: https://permalink.geldersarchief.nl/C6309B400E4F4C20993416A41F996925"
+    ],
+    "sources_other": [
+      "https://mijngelderlandmedia.azureedge.net/files/verhalen_pdf/Hoe_een_Tielenaar_stierf_voor_de_paus.pdf"
+    ],
     "surname": "van Cleef-van Haaf",
     "titles": [],
     "wikidata:id": null
@@ -5674,19 +5681,27 @@
   },
   "$Gallotta": {
     "ISNI:id": null,
-    "comment_daniel": "Wellicht Giuseppe Gallotti, maar heb meer info nodig om dit te bevestigen: https://notes9.senato.it/Web/senregno.NSF/592f3a2113f3300fc125785d005993dd/e2d4b39508f5e9f34125646f005bfbb1?OpenDocument",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "comment_daniel": "",
+    "date_of_birth": "1782-04-09",
+    "date_of_death": "1860",
+    "functions": [
+      ["Prefetto di Polizia", "1847-07-30/1848-02-01"],
+      [
+        "Direttore del Ministero di Grazia e Giustizia del Regno delle Due Sicilie",
+        "1859/"
+      ]
+    ],
     "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
+    "name": "Cesare",
+    "person_type": 1,
+    "place_of_birth": "Lagonegro",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Lomonaco, Vincenzo, Parole pronunziate sul feretro del cavaliere Cesare Gallotti (Stabilimento Tipografico dei Classici Italiani: Napoli, 1860)"
+    ],
     "sources_other": [],
     "surname": "Gallotta",
-    "titles": [],
+    "titles": [["Cav.", null]],
     "wikidata:id": null
   },
   "$Gamberini": {
@@ -6327,23 +6342,29 @@
     "wikidata:id": "Q1681931"
   },
   "$Goltz": {
-    "ISNI:id": null,
-    "comment_daniel": "ms331. Kan hem niet vinden bij https://books.google.nl/books?id=IkRKAAAAcAAJ&pg=RA1-PA837&hl=nl&source=gbs_selected_pages&cad=2#v=snippet&q=Rom&f=false",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "ISNI:id": "0000 0001 0800 1196",
+    "comment_daniel": "",
+    "date_of_birth": "1835-03-17",
+    "date_of_death": "1906-07-25",
     "functions": [
-      ["Predicatore presso la Legazione del Regno di Prussia a Roma", null]
+      [
+        "Predicatore presso la Legazione del Regno di Prussia a Roma",
+        "1861/1865"
+      ],
+      ["Professore di Teologia a l'Università di Basilea", "1870/"]
     ],
     "images": [],
-    "name": "",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "name": "Hermann Alexander Georg Maximilian",
+    "person_type": 1,
+    "place_of_birth": "Düsseldorf",
+    "place_of_death": "Berlino",
+    "sources": [
+      "Hohlwein, Hans, 'Goltz, Hermann Freiherr von der' in: Neue Deutsche Biographie. Volume 6 (1964), found on: https://www.deutsche-biographie.de/sfz21662.html#ndbcontent"
+    ],
     "sources_other": [],
     "surname": "von der Goltz",
-    "titles": [],
-    "wikidata:id": null
+    "titles": [["Freiherr", null]],
+    "wikidata:id": "Q103543"
   },
   "$Gonzaga": {
     "ISNI:id": null,
@@ -14391,21 +14412,23 @@
     "wikidata:id": null
   },
   "$Spada": {
-    "ISNI:id": null,
-    "comment_daniel": "Could be anyone, need more info from the archive.",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "ISNI:id": "0000 0000 6131 8638",
+    "comment_daniel": "",
+    "date_of_birth": "1796-07-21",
+    "date_of_death": "1867-11-03",
+    "functions": [["Storico", null]],
     "images": [],
-    "name": "J",
-    "person_type": 5,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Roma",
+    "place_of_death": "Roma",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Monti, Achille, Memorie intorno la vita del commendatore Giuseppe Spada (Tipografia Salviucci: Roma, 1867)"
+    ],
     "surname": "Spada",
     "titles": [],
-    "wikidata:id": null
+    "wikidata:id": "Q76700838"
   },
   "$Spakler": {
     "ISNI:id": "0000 0003 9779 7994",
@@ -14721,25 +14744,50 @@
     "wikidata:id": "Q433837"
   },
   "$Stolberg": {
-    "ISNI:id": "0000 0000 1359 3344",
-    "comment_daniel": "Stolberg wordt vaak geschreven als Stalberg of Stahelberg. Vooralsnog even checken of het echt deze persoon is, want ik weet het niet zeker. Deze persoon is sowieso fervent katholiek (groot deel van de familie niet) en in de 'juiste' politieke positie om brieven uit te wisselen ten behoeve van Anna Pavlovna.",
-    "date_of_birth": "1804-08-12",
-    "date_of_death": "1859-04-15",
-    "functions": [],
+    "ISNI:id": "0000 0000 1334 4305",
+    "comment_daniel": "",
+    "date_of_birth": "1813-04-02",
+    "date_of_death": "1870-05-12",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Torino",
+        "1856/1861"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Madrid",
+        "1861/1862"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Torino e a Firenze",
+        "1862/1864"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Vienna",
+        "1864/1868"
+      ],
+      [
+        "Ambasciatore straordinario e plenipotenziario dell'Impero di Russia a Parigi",
+        "1868/1870"
+      ]
+    ],
     "images": [
-      "https://digital.ub.uni-paderborn.de/ihd/content/pageview/1809516"
+      "https://www.britishmuseum.org/collection/object/P_1913-1208-31"
     ],
-    "name": "Joseph Theodor",
-    "person_type": 5,
-    "place_of_birth": "Münster",
-    "place_of_death": "Rumillies",
-    "sources": [],
-    "sources_other": [
-      "https://de.wikipedia.org/wiki/Joseph_Theodor_zu_Stolberg-Stolberg"
+    "name": "Ernst Johann",
+    "person_type": 1,
+    "place_of_birth": "Vienna",
+    "place_of_death": "Parigi",
+    "sources": [
+      "'Stackelberg, Ernst Johann Graf von', in: Deutsche Biographie, found on: https://www.deutsche-biographie.de/pnd117650420.html",
+      "'Stackelberg, Ernst* Johann Gf. v. (1813-1870)', in: Baltische Historische Kommission (BHK), found on: https://bbld.de/0000000013344305"
     ],
-    "surname": "zu Stolberg-Stolberg",
-    "titles": [["conte di Stolberg", null]],
-    "wikidata:id": "Q1708085"
+    "sources_other": [],
+    "surname": "von Stackelberg",
+    "titles": [
+      ["conte", null],
+      ["maggior generale", "1852/"]
+    ],
+    "wikidata:id": "Q54507602"
   },
   "$Stover": {
     "ISNI:id": "0000 0003 9275 8697",
@@ -16614,19 +16662,25 @@
   },
   "$Zedlitz": {
     "ISNI:id": null,
-    "comment_daniel": "No idea who this was",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "comment_daniel": "",
+    "date_of_birth": "1823",
+    "date_of_death": "1882",
     "functions": [
-      ["Ciambellano del granduca ereditario di Sassonia Weimar Eisenach", null]
+      [
+        "Ciambellano della Principessa Wilhelmine Marie Sophie Louise di Oranje-Nassau alla corta di Weimar",
+        null
+      ]
     ],
     "images": [],
-    "name": "",
-    "person_type": 5,
+    "name": "Friedrich Sigismundo",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Liszt, Ferenc, Franz Liszt, Selected Letters, red. and transl. Adrian Williams (Clarendon Press: 1998), p. 1063",
+      "Staatshandbuch für das Großherzogtum Sachsen-Weimar-Eisenach (Böhlau: Weimar, 1855), p. 49"
+    ],
     "surname": "von Zedlitz",
     "titles": [["barone", null]],
     "wikidata:id": null

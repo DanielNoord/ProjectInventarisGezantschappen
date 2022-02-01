@@ -72,6 +72,10 @@
     "en_GB": "Extraordinary and plenipotentiary ambassador of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel"
   },
+  "Ambasciatore straordinario e plenipotenziario dell'Impero di Russia a Parigi": {
+    "en_GB": "Extraordinary and plenipotentiary ambassador of the Empire of Russia in Paris",
+    "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van het Keizerrijk Rusland te Parijs"
+  },
   "Ambasciatore straordinario e plenipotenziario della Repubblica del Messico agli Stati Uniti d'America": {
     "en_GB": "Extraordinary and plenipotentiary ambassador of the Republic of Mexico to the United States of America",
     "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van de Republiek van Mexico bij de Verenigde Staten van Amerika"
@@ -335,6 +339,10 @@
   "Ciambellano della Duchessa di Parma, Piacenza e Guastalla": {
     "en_GB": "Chamberlain of the Duchess of Parma, Piacenza and Guastalla",
     "nl_NL": "Kamerheer van de Gravin van Parma, Piacenza en Guastalla"
+  },
+  "Ciambellano della Principessa Wilhelmine Marie Sophie Louise di Oranje-Nassau alla corta di Weimar": {
+    "en_GB": "Chamberlain of the Princess Wilhelmine Marie Sophie Louise of di Oranje-Nassau at the court of Weimar",
+    "nl_NL": "Kamerheer van de Princes Wilhelmine Marie Sophie Louise van di Oranje-Nassau aan het hof van Weimar"
   },
   "Ciambellano e maestro di cerimonie del Re dei Paesi Bassi": {
     "en_GB": "Chamberlain and master of ceremonies of the King of the Netherlands",
@@ -691,6 +699,10 @@
   "Direttore del Ministero degli Affari Esteri del Regno delle Due Sicilie": {
     "en_GB": "Director of the Ministry of External Affairs of the Kingdom of the Two Sicilies",
     "nl_NL": "Directeur van het Ministerie van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
+  },
+  "Direttore del Ministero di Grazia e Giustizia del Regno delle Due Sicilie": {
+    "en_GB": "Director of the Ministry of Grace and Justice of the Kingdom of Two Sicilies",
+    "nl_NL": "Directeur van het Ministerie van Gratie en Justitie van het Koninkrijk der Beide Siciliën"
   },
   "Direttore del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Director of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
@@ -1356,9 +1368,25 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of France to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Frankrijk bij de Heilige Stoel"
   },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Madrid": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Madrid",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Madrid"
+  },
   "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Roma": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Rome",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Rome"
+  },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Torino": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Turin",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Turijn"
+  },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Torino e a Firenze": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Turin and Florence",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Turijn en Florence"
+  },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Vienna": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Vienna",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Wenen"
   },
   "Inviato straordinario e ministro plenipotenziario della Repubblica dell'Honduras a Roma": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Republic of Honduras in Rome",
@@ -1676,7 +1704,7 @@
     "en_GB": "Minister of War of the Papal States",
     "nl_NL": "Minister van Oorlog van de Kerkelijke Staat"
   },
-  "Ministro della Guerra e Marina del Regno dei Due Sicilie": {
+  "Ministro della Guerra e Marina del Regno delle Due Sicilie": {
     "en_GB": "Minister of War and the Marine of the Kingdom of the Two Sicilies",
     "nl_NL": "Minister van Oorlog en de Marina van het Koninkrijk der Beide Siciliën"
   },
@@ -1960,6 +1988,10 @@
     "en_GB": "Prefect of Ancona",
     "nl_NL": "Prefect van Ancona"
   },
+  "Prefetto di Polizia": {
+    "en_GB": "Prefect of the police",
+    "nl_NL": "Prefect van de politie"
+  },
   "Prefetto di Torino": {
     "en_GB": "Prefect of Turin",
     "nl_NL": "Prefect van Turijn"
@@ -2223,6 +2255,10 @@
   "Professore di Storia Naturale dei principi Umberto e Amedeo": {
     "en_GB": "Professor of Natural History of the princes Umberto and Amedeo",
     "nl_NL": "Professor van Natuurhistorie van de prinsen Umberto en Amedeo"
+  },
+  "Professore di Teologia a l'Università di Basilea": {
+    "en_GB": "Professor of Theology at the University of Basel",
+    "nl_NL": "Professor van Theologie aan de Universiteit van Basel"
   },
   "Professore di Teologia a l'Università di Berna": {
     "en_GB": "Professor of Theology at the University of Bern",
