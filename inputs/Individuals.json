@@ -7785,23 +7785,28 @@
     "wikidata:id": "Q2788060"
   },
   "$Kubeck": {
-    "ISNI:id": "0000 0001 1787 8168",
-    "comment_daniel": "ms.339. Voornaam en persoon is een gokje gebaseerd op timing van zijn functie bij Handelsministerie (zie wiki). Checken in bron of dit kan kloppen.",
-    "date_of_birth": "1835",
-    "date_of_death": "1913",
-    "functions": [["Ministro d'Austria", null]],
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero d'Austria presso il Regno d'Italia",
+        null
+      ]
+    ],
     "images": [],
-    "name": "Max Kübeck",
-    "person_type": 5,
+    "name": "Luigi",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
-      "'Max Kübeck von Kübau', in: Wikipedia, Die freie Enzyklopädie (2021-02-11), found on: https://de.wikipedia.org/w/index.php?title=Max_K%C3%BCbeck_von_K%C3%BCbau&oldid=208687594"
+      "Il nuovo Palmaverde: almanacco universale (Pellino, V. Fontana e Chiariglione: Torino, 1870), p. 109"
     ],
-    "surname": "von Kübau",
-    "titles": [["Freiherr", null]],
-    "wikidata:id": "Q18511397"
+    "surname": "Kubeck",
+    "titles": [["barone", null]],
+    "wikidata:id": null
   },
   "$Kuyper": {
     "ISNI:id": "0000 0000 8106 206X",
@@ -13156,16 +13161,16 @@
   },
   "$Rueff": {
     "ISNI:id": null,
-    "comment_daniel": "Er valt niet veel op te maken uit de brieven noch uit het internet. Pizzo had Kueff staan maar het lijkt mij 'Rueff' te lezen.",
+    "comment_daniel": "Rueff was geboren te Württemberg. Hij was vice-generaal geweest bij een compagnie van Grenadiers (onderdeel van eerste vreemdelingenregiment in Pauselijke dienst), en na zijn ontslag (in Bologna) heeft de commandant De Weber (commandant van voornoemd regiment) hem benoemd tot secretaris.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
-      ["Sotto ufficiale al 1° reggimento estero dell'esercito pontificio", null]
+      ["Vice-corporale al 1° reggimento estero dell'esercito pontificio", null]
     ],
     "images": [],
-    "name": "Guillaume",
-    "person_type": 2,
-    "place_of_birth": "",
+    "name": "Wilhelm",
+    "person_type": 1,
+    "place_of_birth": "Württemberg",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
