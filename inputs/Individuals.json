@@ -9767,17 +9767,19 @@
   },
   "$Mendes": {
     "ISNI:id": null,
-    "comment_daniel": "Heeft te maken met de firma D&J Mendes te Amsterdam. Misschien een Mendes de Costa, of een Mendes de Leon?",
+    "comment_daniel": "Jacques Mendes was een van de directeuren bij de firma D&J Mendes",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [["Commerciante di pietre preziose", null]],
     "images": [],
-    "name": "J.",
-    "person_type": 5,
+    "name": "Jacques",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Nederlandsche Staatscourant, found on: https://books.google.it/books?id=wgc0AQAAMAAJ&dq=D%26J+Mendes+Amsterdam&hl=nl&source=gbs_navlinks_s"
+    ],
     "surname": "Mendes",
     "titles": [],
     "wikidata:id": null
@@ -15258,7 +15260,7 @@
   },
   "$Timmermans": {
     "ISNI:id": null,
-    "comment_daniel": "(Comment Sigrid: behoorde wss tot de  congrégation du Très Saint Rédempteur). Impossible to determine who this is without more information from archive",
+    "comment_daniel": "(Comment Sigrid: behoorde wss tot de congrégation du Très Saint Rédempteur). Impossible to determine who this is without more information from archive",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
