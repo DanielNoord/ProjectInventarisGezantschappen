@@ -1,5 +1,5 @@
 # pylint: disable-next=too-few-public-methods
-class ErrorLogger:
+class _ErrorLogger:
     """Class which creates files and attributes to log errors to."""
 
     def __init__(self) -> None:

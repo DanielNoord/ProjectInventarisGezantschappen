@@ -8,21 +8,13 @@ import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
 
-from data_parsing import initialize_database_for_xml
 from xlsx_functions import compare_rows, parse_file, parse_series
 from xlsx_make import create_sanitized_xlsx
-from xml_functions import (
-    ErrorLogger,
-    add_dao,
-    basic_xml_file,
-    file_entry,
-    fix_daoset,
-    series_entry,
-)
+from xml_functions import XMLWriter, add_dao, fix_daoset
 
 
 # pylint: disable-next=too-few-public-methods
-class EADMaker(ErrorLogger):
+class EADMaker(XMLWriter):
     """Class which can a EAD compliant .xml file."""
 
     def __init__(self, input_dir: str, sanitize: bool = True) -> None:
@@ -37,17 +29,9 @@ class EADMaker(ErrorLogger):
         self.xml_file = "outputs/Legation_Archive.xml"
         """Filename of the final .xml file."""
 
-        # Attributes for storing data about the run
-        self.used_translations: set[re.Pattern[str]] = set()
-        """Set of all used translation patterns."""
-
         # Sanitize the input .xlsx files
         if sanitize:
             create_sanitized_xlsx(input_dir)
-
-        # Load the database with translations and individuals
-        self.database = initialize_database_for_xml()
-        """Database with all translations and individuals."""
 
         self.series: dict[str, dict[str, etree._Element]] = {}
         """All series and their etree elements within the archive."""
@@ -85,7 +69,7 @@ class EADMaker(ErrorLogger):
         """Create and write an xml file based on a directory of volumes."""
         print("Starting to create XML file!")
 
-        root, archdesc_dsc = basic_xml_file()
+        root, archdesc_dsc = self.basic_xml_file()
 
         # Iterate files sorted by volume number
         files = [i for i in os.listdir(self.sanitized_dir) if i.startswith("Paesi")]
@@ -126,8 +110,8 @@ class EADMaker(ErrorLogger):
             if match := re.match("(.*)_title", cell.value or ""):
                 series_data = parse_series(first_sheet[index + 1])
                 if series_data.level == 1:
-                    sub_levels[match.groups()[0]], used_trans_series = series_entry(
-                        archdesc, series_data, self.database
+                    sub_levels[match.groups()[0]] = self.series_entry(
+                        archdesc, series_data
                     )
                 else:
                     if not (parent_level := re.match(r"(.*)_.*?", match.groups()[0])):
@@ -135,11 +119,9 @@ class EADMaker(ErrorLogger):
                             f"Can't determine the series parent of {cell.value}."
                             "Does it have the correct format?"
                         )
-                    sub_levels[match.groups()[0]], used_trans_series = series_entry(
-                        sub_levels[parent_level.groups()[0]], series_data, self.database
+                    sub_levels[match.groups()[0]] = self.series_entry(
+                        sub_levels[parent_level.groups()[0]], series_data
                     )
-                if used_trans_series:
-                    self.used_translations.add(used_trans_series)
 
         self._create_xml_individual_files(first_sheet, sub_levels)
 
@@ -155,9 +137,9 @@ class EADMaker(ErrorLogger):
     def _create_xml_individual_files(  # pylint: disable=too-many-branches
         self,
         sheet: openpyxl.worksheet.worksheet.Worksheet,
-        series: dict[str, etree._Element],
+        sub_series: dict[str, etree._Element],
     ) -> None:
-        """Based on a sheet creates .xml entries for every file found"""
+        """Based on a sheet creates .xml element entries for every file found."""
         prev_file, prev_file_did, prev_series = None, None, None
 
         for file in sheet.iter_rows():
@@ -194,9 +176,7 @@ class EADMaker(ErrorLogger):
                         dao.getparent().remove(dao)
 
             if not similar:
-                prev_file_did, used_trans_update = file_entry(
-                    series[file_data.series], file_data, self.database
-                )
+                prev_file_did = self.file_entry(sub_series[file_data.series], file_data)
             # Update pages/id of previous document
             else:
                 # If similar means prev_file_did is defined
@@ -231,9 +211,6 @@ class EADMaker(ErrorLogger):
 
             prev_file = file
             prev_series = file_data.series
-
-            if used_trans_update:
-                self.used_translations.add(used_trans_update)
 
 
 if __name__ == "__main__":
