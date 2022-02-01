@@ -232,6 +232,14 @@
     "longitude": "5.74861",
     "nl_NL": "Asten"
   },
+  "Asti": {
+    "en_GB": "Asti",
+    "geonames_id": 3182714,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Asti",
+    "latitude": "44.90162",
+    "longitude": "8.20751",
+    "nl_NL": "Asti"
+  },
   "Augusta": {
     "en_GB": "Augsburg",
     "geonames_id": 2954172,
@@ -471,6 +479,14 @@
     "latitude": "48.83811",
     "longitude": "2.52488",
     "nl_NL": "Bry-sur-Marne"
+  },
+  "Budapest": {
+    "en_GB": "Budapest",
+    "geonames_id": 3054643,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Budapest",
+    "latitude": "47.49835",
+    "longitude": "19.04045",
+    "nl_NL": "Boedapest"
   },
   "Buitenzorg (Java)": {
     "en_GB": "Buitenzorg (Java)",
@@ -2319,6 +2335,14 @@
     "latitude": "51.9225",
     "longitude": "4.47917",
     "nl_NL": "Rotterdam"
+  },
+  "Rovigo": {
+    "en_GB": "Rovigo",
+    "geonames_id": 3168843,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rovigo",
+    "latitude": "45.06982",
+    "longitude": "11.79022",
+    "nl_NL": "Rovigo"
   },
   "Rumillies": {
     "en_GB": "Rumillies",
