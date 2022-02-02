@@ -475,13 +475,13 @@
   },
   "$Auersperg": {
     "ISNI:id": null,
-    "comment_daniel": "Dit is een groot geslacht. De bron vermeldt deze persoon als enige graaf van dit geslacht die tijdens vermelding Veldmaarschalk luitenant was, maar dan moeten we er dus vanuit gaan dat die bron iedereen noemt. Kunnen ook gewoon “von Auersperg”' laten staan en voornaam weglaten.",
+    "comment_daniel": "",
     "date_of_birth": "1783-08-20",
     "date_of_death": "1859-06-19",
     "functions": [["Tenente del feldmaresciallo", "1842-09-01/1849-11-17"]],
     "images": [],
     "name": "Karl Joseph",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -687,7 +687,7 @@
   },
   "$Bargagli": {
     "ISNI:id": null,
-    "comment_daniel": "Laatste functie is meer een soort eervole titel, zie (https://myarchiviostoricofotografico.com/2019/01/personaggi-e-uomini-politici-toscani/). Ik twijfel of we die altijd moeten vermelden of enkel wanneer deze gebruikt wordt in het archief. Hij wordt in jaarboeken soms dus vermeld als “Scipione Bargagli, consigliere …, ministro …”, maar dat wordt dus super lang en maakt gebruik van archief misschien minder goed.",
+    "comment_daniel": "",
     "date_of_birth": "1798-07-30",
     "date_of_death": "1868",
     "functions": [
@@ -707,7 +707,7 @@
     ],
     "images": [],
     "name": "Scipione",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Siena",
     "place_of_death": "Roma",
     "sources": [
@@ -1572,7 +1572,7 @@
     "functions": [],
     "images": [],
     "name": "Luigi",
-    "person_type": 4,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -2305,7 +2305,7 @@
   },
   "$Brandini": {
     "ISNI:id": null,
-    "comment_daniel": "Noot laat zien dat dit regiment in Carignano was gestationeerd, ook in het jaar daarna. Toch volgen we de inventaris denk ik?",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -2313,7 +2313,7 @@
     ],
     "images": [],
     "name": "Federico",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -2892,7 +2892,7 @@
   },
   "$CanitzIA": {
     "ISNI:id": "0000 0000 1401 5570",
-    "comment_daniel": "(Comment Sigrid: Canitz was in elk geval in 1845 ook al gezant in Rome, zie annuario pontificio van dat jaar. Hij komt dan ook voor in het archief, zie ms291). Ik vind het erg onwaarschijnlijk dat er een “de Canitz” zaakgelastigde van Nederland was zoals vermeld wordt in archief: 1) in de periode van vermelding was er een Canitz zaakgelastigde van Pruissen, 2) wordt er een von Canitz kamerheer van Pruissen genoemd in het archief, 3) is Liedekerke gezant van Nederland. Dit lijkt dus de zoon van bovengenoemde die inderdaad gezant was.",
+    "comment_daniel": "",
     "date_of_birth": "1812",
     "date_of_death": "1894",
     "functions": [
@@ -2903,7 +2903,7 @@
     ],
     "images": [],
     "name": "Karl Friedrich",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -2987,7 +2987,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 4,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -3032,23 +3032,6 @@
     ],
     "surname": "Capriati",
     "titles": [["Cav.", null]],
-    "wikidata:id": null
-  },
-  "$CarafaL": {
-    "ISNI:id": null,
-    "comment_daniel": "Lijkt mij dezelfde als andere Carafa. Lijkt mij ook: deze weghalen? Geeft ook geen extra informatie.",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
-    "images": [],
-    "name": "Luigi",
-    "person_type": 4,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
-    "surname": "Carafa",
-    "titles": [],
     "wikidata:id": null
   },
   "$CarafaT": {
@@ -4646,7 +4629,7 @@
   },
   "$Elgger": {
     "ISNI:id": null,
-    "comment_daniel": "Dit is de enige Elgger die in Pauselijke dienst lijk te zijn",
+    "comment_daniel": "",
     "date_of_birth": "1794-08-01",
     "date_of_death": "1858-11-04",
     "functions": [
@@ -4654,7 +4637,7 @@
     ],
     "images": [],
     "name": "Franz",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Rheinfelden",
     "place_of_death": "Lucerna",
     "sources": [
@@ -5071,7 +5054,7 @@
     "functions": [["Regina di Spagna", "1724-09-06/1746-07-06"]],
     "images": [],
     "name": "Elisabetta Farnese",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Parma",
     "place_of_death": "Aranjuez",
     "sources": [
@@ -5127,13 +5110,13 @@
   },
   "$Felici": {
     "ISNI:id": null,
-    "comment_daniel": "Zie ms.317. Ik vermoed dat hier een verkeerde titel staat 'cappellaro'. Logischer lijkt me 'cappellano' wat zou verklaren waarom hij is opgepakt en “coniugato con prole” extra wordt vermeld in de aanklacht",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [["Cappellaio", null]],
     "images": [],
     "name": "Antonio",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -6307,7 +6290,7 @@
   },
   "$Gojon": {
     "ISNI:id": "0000 0003 7016 1101",
-    "comment_daniel": "“Generale Comandante la 15.a Divisione Turr dell'Esercito Meridionale Italiano” lijkt mij toch een fout in de inventaris. Het is niet een fantastische bron maar zie: https://www.andreacavallari.it/Garibaldi/Garibaldi_Turr.htm. Esercito Meridionale Italiano is ook wel de standaard benaming van het leger van Garibaldi. Wellicht dus in het archief kijken hoe de stukken ondertekend zijn.",
+    "comment_daniel": "",
     "date_of_birth": "1803-09-13",
     "date_of_death": "1870-05-17",
     "functions": [
@@ -6321,7 +6304,7 @@
       "https://www.getty.edu/art/collection/objects/235396/franck-francois-marie-louis-alexandre-gobinet-de-villecholles-justin-lallier-charles-marie-augustin-de-goyon-french-1866/"
     ],
     "name": "Charles-Marie-Augustin",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Nantes",
     "place_of_death": "Parigi",
     "sources": [
@@ -6914,7 +6897,7 @@
   },
   "$HeldewierI": {
     "ISNI:id": null,
-    "comment_daniel": "Volgens de inventaris is hij vanaf 1838 gevolmachtigd minister, maar Beth vermeldt dit niet",
+    "comment_daniel": "",
     "date_of_birth": "1791-12-27",
     "date_of_death": "1870-11-18",
     "functions": [
@@ -6925,7 +6908,7 @@
     ],
     "images": [],
     "name": "Albert Wilhelm Laurens Martinus",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Charleville",
     "place_of_death": "L'Aia",
     "sources": [
@@ -7657,7 +7640,7 @@
   },
   "$Kisseleff": {
     "ISNI:id": "0000 0000 8102 6798",
-    "comment_daniel": "Hoe willen we deze Russische naam schrijven? Zijn wel 100 mogelijkheden..",
+    "comment_daniel": "",
     "date_of_birth": "1788-01-19",
     "date_of_death": "1872-11-26",
     "functions": [
@@ -7667,15 +7650,15 @@
       ]
     ],
     "images": [],
-    "name": "Pavel Dmtrievič",
-    "person_type": 4,
+    "name": "Pavel Dmitrievich",
+    "person_type": 1,
     "place_of_birth": "Mosca",
     "place_of_death": "Parigi",
     "sources": [],
     "sources_other": [
       "'Pavel Kiselyov', in: Wikipedia, The Free Encyclopedia (2021-05-07), found on: https://en.wikipedia.org/w/index.php?title=Pavel_Kiselyov&oldid=1021866642"
     ],
-    "surname": "Kiseljov",
+    "surname": "Kiselyov",
     "titles": [["conte", null]],
     "wikidata:id": "Q717801"
   },
@@ -10276,7 +10259,7 @@
     "functions": [],
     "images": [],
     "name": "Tarquinio",
-    "person_type": 4,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -12328,7 +12311,7 @@
   },
   "$Randwijck": {
     "ISNI:id": "0000 0000 2206 0347",
-    "comment_daniel": "Inventaris heeft het over de koningin-moeder, maar dat klopt niet volgens laatste bron. Is ook onlogisch omdat Tuyll van Serooskerken ook genoemd wordt in archief. Die is het wel echt van de konging-moeder.",
+    "comment_daniel": "",
     "date_of_birth": "1807-05-02",
     "date_of_death": "1891-12-04",
     "functions": [
@@ -12348,7 +12331,7 @@
       "https://rkd.nl/explore/images/154684"
     ],
     "name": "Lodewijk Napoleon",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Amsterdam",
     "place_of_death": "L'Aia",
     "sources": [
@@ -13805,7 +13788,7 @@
     "functions": [],
     "images": [],
     "name": "A.F.C.",
-    "person_type": 4,
+    "person_type": 2,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -14586,7 +14569,7 @@
   },
   "$Steen": {
     "ISNI:id": null,
-    "comment_daniel": "Lijkt mij dus niet van Nederland maar van België. Zie noot.",
+    "comment_daniel": "",
     "date_of_birth": "1781-03-29",
     "date_of_death": "1846-05-13",
     "functions": [
@@ -14597,7 +14580,7 @@
     ],
     "images": [],
     "name": "Charles Herman Amand Joseph",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Liegi",
     "place_of_death": "Roma",
     "sources": [
