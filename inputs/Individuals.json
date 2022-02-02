@@ -12899,27 +12899,6 @@
     "wikidata:id": "Q729220"
   },
   "$Roelofs": {
-    "$Grooff": {
-      "ISNI:id": "0000 0000 3431 0745",
-      "comment_daniel": "",
-      "date_of_birth": "1800-08-03",
-      "date_of_death": "1852-04-29",
-      "functions": [["Vicario Apostolico a Batavia", null]],
-      "images": ["https://rkd.nl/explore/images/58600"],
-      "name": "Jacobus",
-      "person_type": 0,
-      "place_of_birth": "Amsterdam",
-      "place_of_death": "Paramaribo",
-      "sources": [
-        "'Jacobus Grooff', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/74294964",
-        "Kleijntjens, J.C.J., 'Groof (Mgr. Jacobus)', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, A.W. Sijthoff, 1927)",
-        "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 361"
-      ],
-      "sources_other": [],
-      "surname": "Grooff",
-      "titles": [],
-      "wikidata:id": "Q11715799"
-    },
     "ISNI:id": null,
     "comment_daniel": "AANPASSEN. Vicaris bij de St. Augustinuskerk te Nijmegen",
     "date_of_birth": "",
@@ -13384,6 +13363,23 @@
     "surname": "de Ruggiero",
     "titles": [],
     "wikidata:id": "Q1084684"
+  },
+  "$Ruiz": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Gaetano",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Ruiz",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Rusconi": {
     "ISNI:id": null,
