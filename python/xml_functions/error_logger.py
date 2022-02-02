@@ -9,9 +9,6 @@ class _ErrorLogger:
         self.log_missing_titles = "outputs/missing_titles"
         """Filename of the log file used to track missing titles."""
 
-        self.log_missing_placenames = "outputs/missing_placenames"
-        """Filename of the log file used to track missing placenames."""
-
         self.log_title_errors = "outputs/title_errors"
         """Filename of the log file used to track errors in document titles."""
 
@@ -29,10 +26,6 @@ class _ErrorLogger:
         with open(self.log_missing_titles, "w", encoding="utf-8") as file:
             file.writelines(
                 "|no.  |Missing titles |\n" "| ------------- | ------------- |\n"
-            )
-        with open(self.log_missing_placenames, "w", encoding="utf-8") as file:
-            file.writelines(
-                "|no.  |Missing placenames |\n" "| ------------- | ------------- |\n"
             )
         with open(self.log_title_errors, "w", encoding="utf-8") as file:
             file.writelines(

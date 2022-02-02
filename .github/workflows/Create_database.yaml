@@ -111,15 +111,6 @@ jobs:
         body="${body//$'\n'/'%0A'}"
         body="${body//$'\r'/'%0D'}" 
         echo ::set-output name=body::$body
-    - name: Get placenames comment body
-      id: get-comment-body-placenames
-      if: ${{ steps.STDERR.outputs.empty && steps.XMLERR.outputs.empty }}
-      run: |
-        body=$(cat outputs/missing_placenames)
-        body="${body//'%'/'%25'}"
-        body="${body//$'\n'/'%0A'}"
-        body="${body//$'\r'/'%0D'}" 
-        echo ::set-output name=body::$body
     - name: Get translations comment body
       id: get-comment-body-translations
       if: ${{ steps.STDERR.outputs.empty && steps.XMLERR.outputs.empty }}
@@ -153,11 +144,6 @@ jobs:
           </details>
     
           <details>
-          <summary>
-          These are the currently missing placenames:</summary>
-        
-          ${{ steps.get-comment-body-placenames.outputs.body }}
-          </details>
     
           <details>
           <summary>
