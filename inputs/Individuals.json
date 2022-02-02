@@ -1,5 +1,4 @@
 {
-  "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
     "comment_daniel": "",
@@ -135,6 +134,25 @@
     "surname": "Albini",
     "titles": [["contrammiraglio", null]],
     "wikidata:id": "Q3769926"
+  },
+  "$Alborghetti": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN. See https://books.google.it/books?id=1KmP6qYfvnEC&pg=PA5&dq=conte+andrea+alborghetti&hl=nl&sa=X&ved=2ahUKEwjd2oDQ-9_1AhX_SPEDHZM7A0EQ6AF6BAgKEAI#v=onepage&q=conte%20andrea%20alborghetti&f=false",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Andrea",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "https://books.google.it/books?id=pzA0NGgXVawC&pg=PA126&dq=conte+andrea+alborghetti+capitano&hl=nl&sa=X&ved=2ahUKEwjHg6GD_t_1AhUjzoUKHdYmB2oQ6AF6BAgHEAI#v=onepage&q=conte%20andrea%20alborghetti%20capitano&f=false"
+    ],
+    "surname": "Alborghetti",
+    "titles": [["conte", null]],
+    "wikidata:id": null
   },
   "$Alewijn": {
     "ISNI:id": null,
@@ -812,6 +830,23 @@
     "titles": [],
     "wikidata:id": "Q741956"
   },
+  "$Barzilay": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN -> volgens brief is hij Portugees, en heeft hij in Ferrara en Amsterdam gewoond",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Joseph",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Barzilay",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Bassecourt": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -1271,6 +1306,25 @@
     "surname": "Bernaroli",
     "titles": [["Cav.", null]],
     "wikidata:id": null
+  },
+  "$Beroldingen": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN / AANVULLEN",
+    "date_of_birth": "1780",
+    "date_of_death": "1868",
+    "functions": [
+      ["Ministro degli Affari Esteri del Regno di Württemberg", null]
+    ],
+    "images": [],
+    "name": "Joseph Ignaz",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "von Beroldingen",
+    "titles": [["conte", null]],
+    "wikidata:id": "Q1707297"
   },
   "$Berret": {
     "ISNI:id": null,
@@ -2261,6 +2315,23 @@
     "surname": "di Borbone-Due Sicilie",
     "titles": [],
     "wikidata:id": "Q206223"
+  },
+  "$Bourguignon": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN (veel over hem bekend)",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Vice-console del Regno dei Paesi Bassi a Napoli", null]],
+    "images": [],
+    "name": "Alfred",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Bourguignon",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Bouteneff": {
     "ISNI:id": null,
@@ -5013,6 +5084,26 @@
     "titles": [["Cav.", null]],
     "wikidata:id": "Q3767100"
   },
+  "$Fally": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "https://books.google.it/books?id=0ihBAQAAMAAJ&q=g%C3%A9n%C3%A9ral+baron+de+fally+corps&dq=g%C3%A9n%C3%A9ral+baron+de+fally+corps&hl=nl&sa=X&ved=2ahUKEwjSv9251d_1AhVHyKQKHUY3ALsQ6AF6BAgDEAI",
+      "https://books.google.it/books?id=zgItAAAAYAAJ&pg=PA624&dq=generale+de+fally&hl=nl&sa=X&ved=2ahUKEwjZwea11t_1AhURG-wKHQ7uAYAQ6AF6BAgLEAI"
+    ],
+    "surname": "De Fally",
+    "titles": [["generale", null]],
+    "wikidata:id": null
+  },
   "$Farini": {
     "ISNI:id": "0000 0001 2102 3605",
     "comment_daniel": "",
@@ -6707,7 +6798,7 @@
     "place_of_birth": "Amsterdam",
     "place_of_death": "L'Aia",
     "sources": [
-      "'Floris Adriaan van Hall', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/76054589",
+      "'Floris Adriaan van Hall', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/00438322",
       "Heijnsbergen, van, 'Hall (Foris Adriaan, baron van)', in: Nieuw Nederlandsch biogafisch woordenboek, P.J. Blok en P.C. Molhuysen (red.) (A.W. Sijthoff: Leiden, 1921), found on: ",
       "Redactie parlement.com, 'Mr. F.A. baron van Hall', found on: https://www.parlement.com/9291000/biof/00515"
     ],
@@ -7688,6 +7779,23 @@
     "surname": "von Kleist-Wendisch Tychow",
     "titles": [["conte", null]],
     "wikidata:id": "Q1382824"
+  },
+  "$Knaap": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN (bij Buitenlandse Zaken?)",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van der Knaap",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Koelman": {
     "ISNI:id": "0000 0000 6924 3239",
@@ -9241,6 +9349,23 @@
     "sources": [],
     "sources_other": [],
     "surname": "Marini",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Mario": {
+    "ISNI:id": null,
+    "comment_daniel": "Maybe the brother of Luigi",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Paolo",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Mario",
     "titles": [],
     "wikidata:id": null
   },
@@ -12773,6 +12898,44 @@
     "titles": [["Cav.", "1829-07-05/"]],
     "wikidata:id": "Q729220"
   },
+  "$Roelofs": {
+    "$Grooff": {
+      "ISNI:id": "0000 0000 3431 0745",
+      "comment_daniel": "",
+      "date_of_birth": "1800-08-03",
+      "date_of_death": "1852-04-29",
+      "functions": [["Vicario Apostolico a Batavia", null]],
+      "images": ["https://rkd.nl/explore/images/58600"],
+      "name": "Jacobus",
+      "person_type": 0,
+      "place_of_birth": "Amsterdam",
+      "place_of_death": "Paramaribo",
+      "sources": [
+        "'Jacobus Grooff', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/74294964",
+        "Kleijntjens, J.C.J., 'Groof (Mgr. Jacobus)', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, A.W. Sijthoff, 1927)",
+        "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 361"
+      ],
+      "sources_other": [],
+      "surname": "Grooff",
+      "titles": [],
+      "wikidata:id": "Q11715799"
+    },
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN. Vicaris bij de St. Augustinuskerk te Nijmegen",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "G",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Roelofs",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Roest": {
     "ISNI:id": "0000 0000 2055 0932",
     "comment_daniel": "",
@@ -13887,6 +14050,31 @@
     "titles": [["barone", null]],
     "wikidata:id": "Q682310"
   },
+  "$SchimmelpenninckRJ": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "1821-05-09",
+    "date_of_death": "1893-04-23",
+    "functions": [
+      [
+        "Ministro delle Finanze del Regno dei Paesi Bassi",
+        "1866-05-30/1868-06-03"
+      ]
+    ],
+    "images": ["https://www.europeana.eu/en/item/92034/GVNRC_BDM01_149"],
+    "name": "Rutger Jan",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Rutger Jan Schimmelpenninck van Nyenhuis', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/29502122",
+      "Redactie parlement.com, 'Mr. R.J. graaf Schimmelpenninck van Nijenhuis', found on: https://www.parlement.com/id/vg09ll7hmszd/r_j_graaf_schimmelpenninck_van_nijenhuis"
+    ],
+    "sources_other": [],
+    "surname": "Schimmelpenninck van Nijenhuis",
+    "titles": [["conte", null]],
+    "wikidata:id": "Q14291954"
+  },
   "$Schroder": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -14948,6 +15136,23 @@
     "surname": "Sturbinetti",
     "titles": [["avv.", null]],
     "wikidata:id": "Q95729926"
+  },
+  "$Suermondt": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN I can't find him... schreef uit Rotterdam",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Suermondt",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Sweron": {
     "ISNI:id": null,
@@ -16030,6 +16235,28 @@
     "titles": [],
     "wikidata:id": "Q1231904"
   },
+  "$ViscontiCL": {
+    "ISNI:id": "0000 0000 2732 1040",
+    "comment_daniel": "",
+    "date_of_birth": "1818",
+    "date_of_death": "1894-06-19",
+    "functions": [
+      ["Archeologo", null],
+      ["Segretario della Congregazione dei Virtuosi", null]
+    ],
+    "images": [],
+    "name": "Carlo Lodovico",
+    "person_type": 1,
+    "place_of_birth": "Roma",
+    "place_of_death": "Roma",
+    "sources": [],
+    "sources_other": [
+      "Notizie per l'anno 1852 (Tipografia Salviucci: Roma, 1852)"
+    ],
+    "surname": "Visconti",
+    "titles": [],
+    "wikidata:id": "Q23719067"
+  },
   "$Vitrioli": {
     "ISNI:id": "0000 0000 6129 7849",
     "comment_daniel": "Staat in de oude inventaris dat hij consul was in Reggio Calabria, maar dat klopt niet.",
@@ -16846,5 +17073,6 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  }
+  },
+  "$schema": "../static/JSON/Individuals.json"
 }
