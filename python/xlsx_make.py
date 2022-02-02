@@ -8,7 +8,12 @@ from typing import Literal, Pattern
 from openpyxl import Workbook, load_workbook
 
 from data_parsing import initialize_database_for_xml
-from xlsx_functions import fill_in_xlsx, sanitize_xlsx, translate_xlsx
+from xlsx_functions import (
+    add_identifier_columns,
+    fill_in_xlsx,
+    sanitize_xlsx,
+    translate_xlsx,
+)
 
 
 def create_filled_xlsx(
@@ -130,6 +135,44 @@ def create_sanitized_xlsx(directory_name: str) -> None:
             sanitize_xlsx(directory_name, filename)
 
 
+def create_xlsx_with_identifier_columns(directory_name: str) -> None:
+    """Create .xlsx files while adding columns for identifiers."""
+    database = initialize_database_for_xml()
+    # Populate surnames dict with common ways to write a name.
+    surnames = {
+        "Baron de Perglass": ["$Welden"],
+        "Baron de Tuyll de Serooskerken chambellan de Sa": ["$TuyllGMK"],
+        "Card. Soglia": ["$Soglia"],
+        "Duc de Rignano": ["$Rignano"],
+        "Francesco e Rosa Maiai": ["$MadiaiR", "$MadiaiR"],
+        "le Prince Castelcicala": ["$RuffoP"],
+        "Lord Aberdeen": ["$Aberdeen"],
+        "Marechal de Welden": ["$Welden"],
+        "Papa IX": ["$PioIX"],
+        "Papa Neuf": ["$PioIX"],
+        "Papae IX": ["$PioIX"],
+        "Papae XVI": ["$GregorioXVI"],
+        "Pie IX": ["$PioIX"],
+        "Pie Neuf": ["$PioIX"],
+        "Pio Nono": ["$PioIX"],
+        "Pius PP. IX": ["$PioIX"],
+        "Prince de Capoue": ["$BourbonKF"],
+        "Terenzio Mamiani": ["$Mamiani"],
+        "Vittorio Emanuele II": ["$SavoiaVE"],
+    }
+    for identifier, data in database.individuals.items():
+        if data["surname"] in surnames:
+            surnames[data["surname"]].append(identifier)
+        else:
+            surnames[data["surname"]] = [identifier]
+    del surnames["Rap"]  # Matches with all 'Rapporto ...' titles
+    directory_path = os.path.realpath(directory_name)
+    for file in sorted(os.listdir(directory_path)):
+        if not str(file).count("~$") and str(file).startswith("Paesi"):
+            filename = os.fsdecode(file)
+            add_identifier_columns(directory_name, filename, surnames)
+
+
 def do_full_loop() -> None:
     """Completes the full process of input files till seperate translations and control file"""
     print("STARTING CREATION OF .XLSX DOCUMENTS\n")
@@ -155,8 +198,9 @@ def do_full_loop() -> None:
 
 
 if __name__ == "__main__":
-    create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
-    create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "en_GB")
+    create_xlsx_with_identifier_columns("inputs/VolumesExcel/it_IT")
+    # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
+    # create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "en_GB")
     # create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "nl_NL")
     # create_filled_xlsx("outputs/VolumesExcelTranslated/en_GB", "en_GB")
     # create_filled_xlsx("outputs/VolumesExcelSanitized/it_IT", "it_IT")
