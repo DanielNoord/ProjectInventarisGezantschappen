@@ -3036,11 +3036,11 @@
   },
   "$CarafaT": {
     "ISNI:id": null,
-    "comment_daniel": "Lijkt mij niet de Zaakgelastigde van het Koninkrijk der Nederlanden zoals dat staat in archief, maar eerder van Beide Siciliën. Echter, volgens Trecanni is hij dit niet tijdens vermelding in archief. Wellicht even goed kijken met wat hij ondertekent. Sigrid: hij ondertekent met Incaricato del portafoglio del Ministero degli Affari Esteri",
+    "comment_daniel": "",
     "date_of_birth": "1797-05-17",
     "date_of_death": "1871-03-25",
     "functions": [
-      ["Incaricato d'affari del Regno delle Due Sicilie", "1831/"],
+      ["Incaricato del portafoglio del Regno delle Due Sicilie", "1831/"],
       [
         "Ministro degli Affari Esteri del Regno delle Due Sicilie",
         "1852-01-19/1860-06-28"
@@ -3048,7 +3048,7 @@
     ],
     "images": [],
     "name": "Luigi",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Napoli",
     "place_of_death": "",
     "sources": [
@@ -6003,14 +6003,15 @@
   },
   "$Gevers": {
     "ISNI:id": "0000 0003 5946 9682",
-    "comment_daniel": "Volgens inventaris ook “Consigliere di Stato”, maar ik zou eigenlijk niet direct weten wat die functie is in Nederland",
+    "comment_daniel": "",
     "date_of_birth": "1793-08-25",
     "date_of_death": "1877-07-27",
     "functions": [
       [
         "Ministro degli Affari Esteri del Regno dei Paesi Bassi",
         "1856-07-01/1858-03-18"
-      ]
+      ],
+      ["Consigliere di Stato", null]
     ],
     "images": [
       "https://rkd.nl/explore/images/206764",
@@ -6022,7 +6023,7 @@
       "https://rkd.nl/explore/images/161508"
     ],
     "name": "Daniël Théodore",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Rotterdam",
     "place_of_death": "Oegstgeest",
     "sources": [
@@ -6903,7 +6904,11 @@
     "functions": [
       [
         "Incaricato d'affari del Regno dei Paesi Bassi presso il Regno di Sardegna",
-        "1829-08-25/1844"
+        "1829-08-25/1838"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi presso il Regno di Sardegna",
+        "1838/1844"
       ]
     ],
     "images": [],
@@ -8590,29 +8595,13 @@
     "date_of_death": "1892",
     "functions": [
       [
-        "Ministro plenipotenziario della Repubblica dell'Ecuador presso la Santa Sede",
+        "Ministro plenipotenziario delle repubblice dell'Ecuador, di El Salvador, Bolivia, Costa Rica e Guatemala presso la Santa Sede",
         null
-      ],
-      [
-        "Ministro plenipotenziario della Repubblica di El Salvador presso la Santa Sede",
-        null
-      ],
-      [
-        "Ministro plenipotenziario della Repubblica di Bolivia presso la Santa Sede",
-        null
-      ],
-      [
-        "Ministro plenipotenziario della Repubblica di Costa Rica presso la Santa Sede",
-        "1850/1892"
-      ],
-      [
-        "Ministro plenipotenziario della Repubblica del Guatemala presso la Santa Sede",
-        "1851-06-23/"
       ]
     ],
     "images": [],
     "name": "Alvaro Ferdinando",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Città del Messico",
     "place_of_death": "Roma",
     "sources": [],
@@ -9654,7 +9643,7 @@
     ],
     "images": [],
     "name": "Lavinio",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Macerata",
     "place_of_death": "Firenze",
     "sources": [
@@ -10238,7 +10227,7 @@
     ],
     "images": [],
     "name": "Giuseppe",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "Senigallia",
     "place_of_death": "Milano",
     "sources": [
@@ -11961,7 +11950,7 @@
   },
   "$Pilaer": {
     "ISNI:id": null,
-    "comment_daniel": "Beth vindt hem normaal consul en geen vice-consul zoals in de inventaris, wat houden we aan?",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -11972,7 +11961,7 @@
     ],
     "images": [],
     "name": "G.B.",
-    "person_type": 4,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [

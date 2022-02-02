@@ -477,8 +477,8 @@
     "nl_NL": "Adviseur van het Gezantschap van het Keizerrijk Oostenrijk te Rome"
   },
   "Consigliere di Stato": {
-    "en_GB": "State advisor",
-    "nl_NL": "Adviseur van de staat"
+    "en_GB": "State Councillor",
+    "nl_NL": "Staatsraad"
   },
   "Consigliere e incaricato d'affari della Legazione del Regno del Belgio a Roma": {
     "en_GB": "Advisor and chargé d'affaires of the Kingdom of Belgium in Rome",
@@ -1088,10 +1088,6 @@
     "en_GB": "Chargé d'affaires of the Kingdom of the Netherlands to the Holy See",
     "nl_NL": "Zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel"
   },
-  "Incaricato d'affari del Regno delle Due Sicilie": {
-    "en_GB": "Chargé d'affaires of the Kingdom of the Two Sicilies",
-    "nl_NL": "Zaakgelastigde van het Koninkrijk der Beide Siciliën"
-  },
   "Incaricato d'affari del Regno delle Due Sicilie presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the Kingdom of the Two Sicilies to the Holy See",
     "nl_NL": "Zaakgelastigde van het Koninkrijk der Beide Siciliën bij de Heilige Stoel"
@@ -1155,6 +1151,10 @@
   "Incaricato d'affari e successivamente inviato del Regno dei Paesi Bassi presso il Regno di Sardegna": {
     "en_GB": "Chargé d'affaires and later envoy of the Kingdom of the Netherlands to the Kingdom of Sardinia",
     "nl_NL": "Zaakgelastigde en later gezant van het Koninkrijk der Nederlanden bij het Koninkrijk Sardinië"
+  },
+  "Incaricato del portafoglio del Regno delle Due Sicilie": {
+    "en_GB": "Chargé d'affaires of the Kingdom of the Two Sicilies",
+    "nl_NL": "Zaakgelastigde van het Koninkrijk der Beide Siciliën"
   },
   "Incisiore e medaglista": {
     "en_GB": "Engraver and medallist",
@@ -1836,10 +1836,6 @@
     "en_GB": "Minister plenipotentiary of the Republic of Argentinia to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Argentinië bij de Heilige Stoel"
   },
-  "Ministro plenipotenziario della Repubblica del Guatemala presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Republic of Guatemala to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Guatemala bij de Heilige Stoel"
-  },
   "Ministro plenipotenziario della Repubblica del Messico presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Republic of Mexico to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Mexico bij de Heilige Stoel"
@@ -1864,22 +1860,6 @@
     "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij de Heilige Stoel"
   },
-  "Ministro plenipotenziario della Repubblica dell'Ecuador presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Republic of Ecuador to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Ecuador bij de Heilige Stoel"
-  },
-  "Ministro plenipotenziario della Repubblica di Bolivia presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Republic of Bolivia to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Bolivia bij de Heilige Stoel"
-  },
-  "Ministro plenipotenziario della Repubblica di Costa Rica presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Republic of Costa Rica to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Costa Rica bij de Heilige Stoel"
-  },
-  "Ministro plenipotenziario della Repubblica di El Salvador presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Republic of El Salvador to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van El Salvador bij de Heilige Stoel"
-  },
   "Ministro plenipotenziario della Repubblica di Francia a Baden e Stuttgard": {
     "en_GB": "Minister plenipotentiary of the Republic of France to Baden and Stuttgard",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Frankrijk te Baden and Stuttgard"
@@ -1887,6 +1867,10 @@
   "Ministro plenipotenziario della Repubblica di Haiti presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Republic of Haiti to the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Republiek van Haïti bij de Heilige Stoel"
+  },
+  "Ministro plenipotenziario delle repubblice dell'Ecuador, di El Salvador, Bolivia, Costa Rica e Guatemala presso la Santa Sede": {
+    "en_GB": "Minister plenipotentiary of the republics of Ecuador, El Salvador, Bolivia, Costa Roca and Guatemala to the Holy See",
+    "nl_NL": "Gevolmachtigd minister van de republieken van Ecuador, El Salvador, Bolivia, Costa Rica en Guatemala bij de Heilige Stoel"
   },
   "Ministro residente ad interim del Regno dei Paesi Bassi a Londra": {
     "en_GB": "Resident minister ad interim of the Kingdom of the Netherlands in London",
