@@ -6007,11 +6007,11 @@
     "date_of_birth": "1793-08-25",
     "date_of_death": "1877-07-27",
     "functions": [
+      ["Consigliere di Stato", null],
       [
         "Ministro degli Affari Esteri del Regno dei Paesi Bassi",
         "1856-07-01/1858-03-18"
-      ],
-      ["Consigliere di Stato", null]
+      ]
     ],
     "images": [
       "https://rkd.nl/explore/images/206764",
