@@ -1,26 +1,48 @@
 import os
 import re
 
-FOLDER = "/Volumes/Seagate Basic Meda/VolumesLegazione/MS321"
-PATTERN_TO_CHANGE = "MS321_"
-PATTERN_TO_CHANGE_TO = "MS321_39_2_"
-FIXED_PATTERN = r"(\d+)(.*)([rv].tif)"
 
+# pylint: disable-next=too-few-public-methods
+class FileRenamer:
+    """Renames files based on arguments."""
 
-def rename_files() -> None:
-    """Rename files in a folder based on globals"""
-    files = os.listdir(FOLDER)
-    for file in files:
-        sanitized_file = file.replace("rbis", "bisr").replace("vbis", "bisv")
-        if match := re.match(PATTERN_TO_CHANGE + FIXED_PATTERN, sanitized_file):
-            groups = match.groups()
-            if int(groups[0]) > 0:
-                os.rename(
-                    f"{FOLDER}/{file}",
-                    f"{FOLDER}/{PATTERN_TO_CHANGE_TO}{int(groups[0])}{groups[1]}{groups[2]}",
+    def __init__(self, old: str, new: str) -> None:
+        self.filename_pattern = r"(\d+)(.*)([rv].tif)"
+        """Pattern of the file names to match against."""
+
+        self.folder = (
+            "/Volumes/Seagate Basic Media/VolumesLegazione/" + old.split("_")[0]
+        )
+        """Folder to scan."""
+
+        self.old = old
+        """Old filename pattern."""
+
+        self.new = new
+        """New filename pattern."""
+
+    def rename_files(self) -> None:
+        """Rename files in a folder based on attributes."""
+        for file in os.listdir(self.folder):
+            sanitized_file = file.replace("rbis", "bisr").replace("vbis", "bisv")
+            sanitized_file = file.replace("_r.tif", "r.tif").replace("_v.tif", "v.tif")
+            if "MS284_11_1_193_" in sanitized_file:
+                sanitized_file = sanitized_file.replace(
+                    "MS284_11_1_193_", "MS284_11_193"
                 )
-    print("Rename complete!")
+            if match := re.match(self.old + self.filename_pattern, sanitized_file):
+                groups = match.groups()
+                if int(groups[0]) > 0:
+                    os.rename(
+                        f"{self.folder}/{file}",
+                        f"{self.folder}/{self.new}{int(groups[0])}{groups[1]}{groups[2]}",
+                    )
+        print("Rename complete!")
 
 
 if __name__ == "__main__":
-    rename_files()
+    renamer = FileRenamer(
+        "MS285_12_2_",
+        "MS285_12_b_",
+    )
+    renamer.rename_files()
