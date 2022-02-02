@@ -31,6 +31,9 @@ class FileData(NamedTuple):
     file_name: str
     series: str
     series_level: int
+    authors: list[str]
+    receivers: list[str]
+    others: list[str]
 
 
 class DateTuple(NamedTuple):

@@ -22,10 +22,10 @@ def parse_series(serie: tuple[Cell, ...]) -> SeriesData:
 
 
 def parse_file(row: tuple[Cell, ...]) -> FileData:
-    """Parse the data of a file row in .xlsx format"""
-    if len(row) < 6:
+    """Parse the data of a file row in .xlsx format."""
+    if len(row) < 8:
         raise ValueError(
-            f"Expected the row in Excel to have 6 cells. In correct for:\n{row}"
+            f"Expected the row in Excel to have at least 9 cells. Incorrect for:\n{row[0].value}"
         )
     if not isinstance(row[0].value, str):
         raise ValueError(
@@ -50,6 +50,24 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
         file_date[2] = "None"
     file_date = [i.zfill(2) for i in file_date if i != "None"]
     file_date_string = "-".join(file_date)
+
+    # Get identifier data
+    if (ids := str(row[6].value)) != "None":
+        authors = ids.split("; ")
+    else:
+        authors = []
+    if (ids := str(row[7].value)) != "None":
+        receivers = ids.split("; ")
+    else:
+        receivers = []
+    try:
+        if (ids := str(row[8].value)) != "None":
+            others = ids.split("; ")
+        else:
+            others = []
+    except IndexError:
+        others = []
+
     return FileData(
         file_page,
         file_title,
@@ -58,4 +76,7 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
         row[0].value.replace("ms", "MS"),
         file_dossier,
         str(row[0].value).count("_") + 1,
+        authors,
+        receivers,
+        others,
     )

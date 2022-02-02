@@ -181,8 +181,12 @@ class XMLWriter(_ErrorLogger):
         # Event
         event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
         add_geognames(event, file_data.place, self.database, file_data.file_name)
-        for identifier in re.findall(r"\$\w+", file_data.title):
-            add_persname(event, identifier, self.database)
+        for identifier in file_data.authors:
+            add_persname(event, identifier, self.database, "author")
+        for identifier in file_data.receivers:
+            add_persname(event, identifier, self.database, "receiver")
+        for identifier in file_data.others:
+            add_persname(event, identifier, self.database, "other")
 
         # Daoset
         daoset = etree.SubElement(file_did, "daoset", {"coverage": "whole"})

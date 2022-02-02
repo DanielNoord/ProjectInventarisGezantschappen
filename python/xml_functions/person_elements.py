@@ -1,14 +1,19 @@
+from typing import Literal
+
 from lxml import etree
 from typing_utils import Database
 
 
 def add_persname(
-    parent_element: etree._Element, identifier: str, database: Database
+    parent_element: etree._Element,
+    identifier: str,
+    database: Database,
+    role: Literal["author", "receiver", "other"],
 ) -> None:
-    """Adds a persname to the parent element"""
+    """Add a persname to the parent element."""
     data = database.individuals[identifier]
     persname = etree.SubElement(
-        parent_element, "persname", {"identifier": identifier, "relator": "Unknown"}
+        parent_element, "persname", {"identifier": identifier, "relator": role}
     )
     etree.SubElement(persname, "part", {"localtype": "name"}).text = data["name"]
     etree.SubElement(persname, "part", {"localtype": "surname"}).text = data["surname"]
