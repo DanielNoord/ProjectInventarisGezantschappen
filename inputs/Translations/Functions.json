@@ -112,6 +112,10 @@
     "en_GB": "Clerk of the 1st class of the Ministry of Finance of the Kingdom of Italy",
     "nl_NL": "Beambte van de 1e klasse van het ministerie van Financiën van het Koninkrijk Italië"
   },
+  "Archeologo": {
+    "en_GB": "Archaeologist",
+    "nl_NL": "Archeoloog"
+  },
   "Architetto di corte del Regno di Hannover": {
     "en_GB": "Court architect at the Kingdom of Hanover",
     "nl_NL": "Hofarchitect bij het Koninkrijk Hannover"
@@ -1604,6 +1608,10 @@
     "en_GB": "Minister of Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
+  "Ministro degli Affari Esteri del Regno di Württemberg": {
+    "en_GB": "Minister of Foreign Affairs of the Kingdom of Württemberg",
+    "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk van Württemberg"
+  },
   "Ministro degli Affari Esteri dell'Impero d'Austria": {
     "en_GB": "Minister of Foreign Affairs of the Empire of Austria",
     "nl_NL": "Minister van Buitenlandse Zaken van het Keizerrijk Oostenrijk"
@@ -2388,6 +2396,10 @@
   "Segretario della Commissione Principale degli Affari Israeliti del Regno dei Paesi Bassi": {
     "en_GB": "Secretary of the General Committee on the affairs of the Israelites of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris van de Hoofdcommissie tot de zaken der Israëlieten van het Koninkrijk der Nederlanden"
+  },
+  "Segretario della Congregazione dei Virtuosi": {
+    "en_GB": "Secretary of the Congregation of the Virtuosi",
+    "nl_NL": "Secretaris van de Congregatie van de Virtuosi"
   },
   "Segretario della Congregazione per gli affari ecclesiastici straordinari": {
     "en_GB": "Secretary of the Congregation for Extraordinary Ecclesiastical Affairs",
