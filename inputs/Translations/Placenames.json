@@ -424,6 +424,14 @@
     "longitude": "4.77596",
     "nl_NL": "Breda"
   },
+  "Brindisi": {
+    "en_GB": "Brindisi",
+    "geonames_id": 3181528,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Brindisi",
+    "latitude": "40.63215",
+    "longitude": "17.93607",
+    "nl_NL": "Brindisi"
+  },
   "Brisighella": {
     "en_GB": "Brisighella",
     "geonames_id": 3181521,
@@ -583,6 +591,14 @@
     "latitude": "10.48801",
     "longitude": "-66.87919",
     "nl_NL": "Caracas"
+  },
+  "Carloforte": {
+    "en_GB": "Carloforte",
+    "geonames_id": 2525348,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Carloforte",
+    "latitude": "39.14081",
+    "longitude": "8.3039",
+    "nl_NL": "Carloforte"
   },
   "Carrara": {
     "en_GB": "Carrara",
@@ -871,6 +887,14 @@
     "latitude": "45.36264",
     "longitude": "9.68176",
     "nl_NL": "Crema"
+  },
+  "Culemborg": {
+    "en_GB": "Culemborg",
+    "geonames_id": 2757872,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Culemborg",
+    "latitude": "51.955",
+    "longitude": "5.22778",
+    "nl_NL": "Culemborg"
   },
   "Cumiana": {
     "en_GB": "Cumiana",
@@ -1247,6 +1271,14 @@
     "latitude": "44.80445",
     "longitude": "8.09404",
     "nl_NL": "Govone"
+  },
+  "Gozzano": {
+    "en_GB": "Gozzano",
+    "geonames_id": 3175968,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Gozzano,_Piedmont",
+    "latitude": "45.74273",
+    "longitude": "8.43659",
+    "nl_NL": "Gozzano"
   },
   "Granada": {
     "en_GB": "Granada",
@@ -3119,6 +3151,14 @@
     "latitude": "51.81",
     "longitude": "5.24444",
     "nl_NL": "Zaltbommel"
+  },
+  "Zierikzee": {
+    "en_GB": "Zierikzee",
+    "geonames_id": 2741913,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zierikzee",
+    "latitude": "51.65",
+    "longitude": "3.91944",
+    "nl_NL": "Zierikzee"
   },
   "Zoelen": {
     "en_GB": "Zoelen",
