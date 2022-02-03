@@ -116,6 +116,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Albani": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Giuseppe",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Albani",
+    "titles": [["principe", null]],
+    "wikidata:id": null
+  },
   "$Albini": {
     "ISNI:id": "0000 0000 6299 6422",
     "comment_daniel": "",
@@ -134,6 +151,23 @@
     "surname": "Albini",
     "titles": [["contrammiraglio", null]],
     "wikidata:id": "Q3769926"
+  },
+  "$Albites": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN Wife of Matteo Kessels",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Francesca",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Albites",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Alborghetti": {
     "ISNI:id": null,
@@ -2181,6 +2215,27 @@
     "surname": "Bouquié",
     "titles": [],
     "wikidata:id": null
+  },
+  "$BourbonCL": {
+    "ISNI:id": "0000 0000 6043 8160",
+    "comment_daniel": "",
+    "date_of_birth": "1818-01-31",
+    "date_of_death": "1861-01-13",
+    "functions": [["Pretendente al trono di Spagna", "1845-05-23/1861-01-13"]],
+    "images": [
+      "https://www.wikidata.org/wiki/Q526803#/media/File:Infante_Carlos,_Count_of_Montemolin.jpg"
+    ],
+    "name": "Carlo Luigi Ferdinando",
+    "person_type": 1,
+    "place_of_birth": "Madrid",
+    "place_of_death": "Trieste",
+    "sources": [
+      "Esparza, Francisco Asín Remírez de, 'Carlos Luis María Fernando de Borbón y Braganza', Real Academia di la Historia, found on: https://dbe.rah.es/biografias/8827/carlos-luis-maria-fernando-de-borbon-y-braganza"
+    ],
+    "sources_other": [],
+    "surname": "di Borbone-Parma",
+    "titles": [["conte di Montemolín", null]],
+    "wikidata:id": "Q526803"
   },
   "$BourbonFeI": {
     "ISNI:id": "0000 0000 7972 4538",
@@ -7660,6 +7715,26 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Kessels": {
+    "ISNI:id": "0000 0000 6677 1386",
+    "comment_daniel": "",
+    "date_of_birth": "1784-05-27",
+    "date_of_death": "1836-03-03",
+    "functions": [["Scultore", null]],
+    "images": [],
+    "name": "Matteo",
+    "person_type": 1,
+    "place_of_birth": "Maastricht",
+    "place_of_death": "Roma",
+    "sources": [
+      "Dutch Institute for Art History (RKD), 'Matthijs Kessels', found on: https://rkd.nl/nl/explore/artists/44106",
+      "Pouls, Jos, 'Kessels, Europese kunstenaars uit Limburg in de negentiende eeuw', in: De Maasgouw. Vol. 134.3 (2015), found on: https://www.jospouls.nl/uploads/Kessels%20Maasgouw%20kopie.pdf"
+    ],
+    "sources_other": [],
+    "surname": "Kessels",
+    "titles": [],
+    "wikidata:id": "Q353336"
+  },
   "$Kestner": {
     "ISNI:id": "0000 0000 8146 6347",
     "comment_daniel": "",
@@ -13127,6 +13202,28 @@
     "titles": [["Cav.", null]],
     "wikidata:id": null
   },
+  "$Rossi": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1794-09-25",
+    "date_of_death": "1863-12-18",
+    "functions": [
+      ["Ministro di Grazia e Giustizia del Regno d'Italia", "1848-05-04/"],
+      ["Ministro di Grazia e Giustizia del Regno d'Italia", "1848-08-06/"]
+    ],
+    "images": [],
+    "name": "Pasquale",
+    "person_type": 1,
+    "place_of_birth": "Vallecorsa",
+    "place_of_death": "",
+    "sources": [
+      "Colagiovanni, Michele, 'Pasquale de'Rossi: Insegnamento del diritto Romano e militanza politica', in: Battaglione Universitario Romano 1848-1849, found on: https://www.fondazionesapienza.uniroma1.it/sites/default/files/Materiale%20di%20approfondimento.pdf"
+    ],
+    "sources_other": [],
+    "surname": "De Rossi",
+    "titles": [],
+    "wikidata:id": "Q3897035"
+  },
   "$RossiF": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -14070,6 +14167,23 @@
     "surname": "Schimmelpenninck van Nijenhuis",
     "titles": [["conte", null]],
     "wikidata:id": "Q14291954"
+  },
+  "$Schonburg": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN wss deze man: https://it.wikipedia.org/wiki/August_Graf_von_Degenfeld-Schonburg",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "August Franz Johann Christoph",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Degenfeld-Schonburg",
+    "titles": [["conte", null]],
+    "wikidata:id": null
   },
   "$Schroder": {
     "ISNI:id": null,
