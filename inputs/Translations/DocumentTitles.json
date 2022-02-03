@@ -5761,8 +5761,8 @@
     "nl_NL": "Samenvatting van artikelen"
   },
   "Trascrizione (di|del|della) (\\$\\w+) del Journal de Paris$": {
-    "en_GB": "Transcription by \\2 of the \"Journal of Paris\"",
-    "nl_NL": "Transcriptie door \\2 van de \"Journal of Paris\""
+    "en_GB": "Transcription by \\2 of the Journal de Paris",
+    "nl_NL": "Transcriptie door \\2 van de Journal de Paris"
   },
   "Trascrizione (di|del|della) (\\$\\w+) di una lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Transcription by \\2 of a letter to \\4",
