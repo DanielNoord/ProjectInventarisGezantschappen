@@ -3,6 +3,7 @@ import locale
 import re
 from typing import Literal, Optional
 
+from babel.dates import format_date
 from typing_utils import DateData
 
 
@@ -20,7 +21,6 @@ def extract_date(  # pylint: disable=too-many-branches
         date1_string: The first date in text
         date2_string: The second date in text
     """
-    locale.setlocale(locale.LC_ALL, f"{localization}.UTF-8")
     date_pattern = re.compile(
         r"^(\w{4})?-?(\w{2})?-?(\w{2})?/?(\w{4})?-?(\w{2})?-?(\w{2})?$"
     )
@@ -38,10 +38,10 @@ def extract_date(  # pylint: disable=too-many-branches
         if m_1:
             if d_1:
                 date1_datetime = datetime.date(int(y_1), int(m_1), int(d_1))
-                date1_string = date1_datetime.strftime("%d %B %Y")
+                date1_string = format_date(date1_datetime, "d MMMM yyyy",  locale=localization)
             else:
                 date1_datetime = datetime.date(int(y_1), int(m_1), 1)
-                date1_string = date1_datetime.strftime("%B %Y")
+                date1_string = format_date(date1_datetime, "MMMM yyyy",  locale=localization)
         else:
             date1_datetime = datetime.date(int(y_1), 1, 1)
             date1_string = y_1
@@ -50,10 +50,10 @@ def extract_date(  # pylint: disable=too-many-branches
         if m_2:
             if d_2:
                 date2_datetime = datetime.date(int(y_2), int(m_2), int(d_2))
-                date2_string = date2_datetime.strftime("%d %B %Y")
+                date2_string = format_date(date2_datetime, "d MMMM yyyy",  locale=localization)
             else:
                 date2_datetime = datetime.date(int(y_2), int(m_2), 1)
-                date2_string = date2_datetime.strftime("%B %Y")
+                date2_string = format_date(date2_datetime, "MMMM yyyy",  locale=localization)
         else:
             date2_datetime = datetime.date(int(y_2), 1, 1)
             date2_string = y_2
