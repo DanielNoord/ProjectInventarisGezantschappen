@@ -13,4 +13,7 @@ def control_title(title: str, file_name: str) -> None:
                 f"|{file_name}|Uneven amount of braces '(' and ')' for {title}",
                 file=file,
             )
-        assert not title.count("$")
+        assert not title.count("$"), f"Incorrect title: {title}"
+        assert not title.count('"'), f"Incorrect title: {title}"
+        assert not title.count("‘"), f"Incorrect title: {title}"
+        assert not title.count("’"), f"Incorrect title: {title}"
