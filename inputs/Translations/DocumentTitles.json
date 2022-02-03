@@ -1,5 +1,4 @@
 {
-  "$schema": "../../static/JSON/DocumentTitles.json",
   "\"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "“\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
@@ -200,6 +199,7 @@
     "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
     "nl_NL": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake geboren in Nederland overled in Ariccia 1846)"
   },
+  "$schema": "../../static/JSON/DocumentTitles.json",
   "(\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "\\1 to \\3",
     "nl_NL": "\\1 aan \\3"
@@ -415,6 +415,10 @@
   "Appunto sull'arcivescovo di Rouen$": {
     "en_GB": "Note about the archbishop of Rouen",
     "nl_NL": "Notitie over de aartsbisschop van Rouen"
+  },
+  "Appunto sulla morte (di|del|della) (\\$\\w+) nel 1836 sposato con (\\$\\w+)$": {
+    "en_GB": "Note about the death of \\2 in 1836 married with \\3",
+    "nl_NL": "Notitie over de dood van \\2 in 1836 getrouwd met \\3"
   },
   "Appunto sulla situazione del porto di Genova$": {
     "en_GB": "Note on the situation in the port of Genoa",
@@ -3656,6 +3660,10 @@
     "en_GB": "Letter from the directorate of the International Society of Industry, Agriculture and Commerce in Amsterdam to \\2",
     "nl_NL": "Brief van het directoraat van het Internationale Genootschap van Industrie, Agricultuur en Handel te Amsterdam aan \\2"
   },
+  "Lettera della direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the direction of the International Society of Industry, Agriculture and Commerce of Amsterdam to \\2",
+    "nl_NL": "Brief van de Vereeniging voor Volksvlijt te Amsterdam aan \\2"
+  },
   "Lettera della ditta dei Fratelli Lattuada (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from the company of the Brothers Lattuada to \\2",
     "nl_NL": "Brief van het bedrijf van de Gebroeders Lattuada aan \\2"
@@ -4243,6 +4251,10 @@
   "Nota manoscritta$": {
     "en_GB": "Handwritten note",
     "nl_NL": "Handgeschreven nota"
+  },
+  "Nota per memoria sull'eredità (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Note on the memory about the inheritance of \\2",
+    "nl_NL": "Nota over de memorie aangaande de nalatenschap van \\2"
   },
   "Nota priva di firma (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Unsigned note to \\2",
@@ -6051,6 +6063,10 @@
   "Trascrizione di una lettera circolare ai vari delegati dei Paesi Bassi in Italia$": {
     "en_GB": "Transcription of a circulaire to various delegates of the Netherlands in Italy",
     "nl_NL": "Transcriptie van een circulaire aan verscheidene gezanten van Nederland in Italië"
+  },
+  "Trascrizione di una lettera circolare riservata del Ministero dell'Interno$": {
+    "en_GB": "Transcription of a confidential circulaire from the Ministry of Internal Affairs",
+    "nl_NL": "Transcriptie van een confidentiële circulaire van het Ministerie van Binnenlandse Zaken"
   },
   "Trascrizione di una notificazione (di|del|della) (\\$\\w+) sulla Legazione dei Paesi Bassi$": {
     "en_GB": "Transcription of a notice by \\2 about the Legation of the Kingdom of the Netherlands",
