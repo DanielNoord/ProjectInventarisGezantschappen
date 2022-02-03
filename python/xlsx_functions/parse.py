@@ -21,6 +21,7 @@ def parse_series(serie: tuple[Cell, ...]) -> SeriesData:
     return SeriesData(serie_num, title, vol_date, level_string.count("_"))
 
 
+# pylint: disable-next=too-many-branches
 def parse_file(row: tuple[Cell, ...]) -> FileData:
     """Parse the data of a file row in .xlsx format."""
     if len(row) < 8:
