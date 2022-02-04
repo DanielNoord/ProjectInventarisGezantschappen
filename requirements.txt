@@ -14,4 +14,4 @@ requests~=2.26
 types-requests~=2.25
 sparql-client~=3.8
 wikidataintegrator~=0.9
-Babel~=12.9
+Babel~=2.9
