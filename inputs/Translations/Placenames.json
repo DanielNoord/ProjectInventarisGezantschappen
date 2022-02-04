@@ -1328,6 +1328,14 @@
     "longitude": "12.67144",
     "nl_NL": "Grottaferrata"
   },
+  "Göteborg": {
+    "en_GB": "Gothenburg",
+    "geonames_id": 2711537,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Gothenburg",
+    "latitude": "57.70716",
+    "longitude": "11.96679",
+    "nl_NL": "Göteborg"
+  },
   "Haarlem": {
     "en_GB": "Haarlem",
     "geonames_id": 2755003,
@@ -2143,6 +2151,14 @@
     "latitude": "44.79935",
     "longitude": "10.32618",
     "nl_NL": "Parma"
+  },
+  "Pasuruan": {
+    "en_GB": "Pasuruan",
+    "geonames_id": 1632033,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pasuruan",
+    "latitude": "-7.6453",
+    "longitude": "112.9075",
+    "nl_NL": "Pasoeroean"
   },
   "Pergola": {
     "en_GB": "Pergola",

@@ -792,6 +792,10 @@
     "en_GB": "Director general of the Military Service of the Ministry of the Marine",
     "nl_NL": "Directeur-generaal van de Militaire Dienst bij het Ministerie van de Marine"
   },
+  "Direttore generale delle Poste a Roma": {
+    "en_GB": "Director-general of the Post of Rome",
+    "nl_NL": "Directeur-generaal van de Post in Rome"
+  },
   "Direttore generale delle armi speciali del Regno d'Italia": {
     "en_GB": "Director general of special arms of the Kingdom of Italy",
     "nl_NL": "Directeur-generaal van bijzondere wapens van het Koninkrijk Italië"
@@ -1487,6 +1491,10 @@
   "Maresciallo di corte della principessa Marianna dei Paesi Bassi": {
     "en_GB": "Court marshal of Princess Marianne of the Netherlands",
     "nl_NL": "Hofmaarschalk in dienst bij prinses Marianne der Nederlanden"
+  },
+  "Maresciallo di corte della regina Sofia dei Paesi Bassi": {
+    "en_GB": "Court marshal of Queen Sophie of the Netherlands",
+    "nl_NL": "Hofmaarschalk in dienst bij Koningin Sophie der Nederlanden"
   },
   "Mediatore da noleggi": {
     "en_GB": "Rental broker",
@@ -2224,6 +2232,10 @@
     "en_GB": "Auditor-General of the Tax Office and the Apostolic Chamber",
     "nl_NL": "Auditeur-generaal van de belastingdienst en de Apostolische Kamer"
   },
+  "Procuratore generale dell'Olanda Nord": {
+    "en_GB": "Auditor-General of North Holland",
+    "nl_NL": "Auditeur-generaal van Noord-Holland"
+  },
   "Procuratore-sostituto di Amsterdam": {
     "en_GB": "Substitute Public prosecutor of Amsterdam",
     "nl_NL": "Substituut-Officier van justitie te Amsterdam"
@@ -2448,6 +2460,10 @@
   "Segretario di Stato degli Affari Esteri del Regno di Sardegna": {
     "en_GB": "State Secretary for Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
+  },
+  "Segretario di Stato degli Affari Esteri della Repubblica di San Marino": {
+    "en_GB": "State Secretary for Foreign Affairs of the Republic of San Marino",
+    "nl_NL": "Staatssecretaris van Buitenlandse Zaken van de Republike van San Marino"
   },
   "Segretario di Stato del Regno dei Paesi Bassi": {
     "en_GB": "State Secretary of the Kingdom of the Netherlands",
@@ -2692,6 +2708,14 @@
   "Vice camerlengo della Chiesa Cattolica Romana": {
     "en_GB": "Vice-camerlengo of the Holy Roman Church",
     "nl_NL": "Vice-camerlengo van de Rooms-Katholieke Kerk"
+  },
+  "Vice console del Regno dei Paesi Bassi a Malta": {
+    "en_GB": "Vice consul of the Kingdom of the Netherlands in Malta",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Malta"
+  },
+  "Vice console del Regno dei Paesi Bassi a Venezia": {
+    "en_GB": "Vice consul of the Kingdom of the Netherlands in Venetië",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Venetië"
   },
   "Vice console generale del Regno dei Paesi Bassi a Venezia": {
     "en_GB": "Vice consul of the Kingdom of the Netherlands in Venice",
