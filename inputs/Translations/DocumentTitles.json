@@ -163,6 +163,10 @@
     "en_GB": "\"\\1\" notes",
     "nl_NL": "\"\\1\" notities"
   },
+  "\"(.+)\" firmata (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "“\\1” signedy by \\3",
+    "nl_NL": "“\\1” ondertekend door \\3"
+  },
   "\"(.+)\" firmato (da|dal) (\\$\\w+)$": {
     "en_GB": "\"\\1\" signed by \\3",
     "nl_NL": "\"\\1\" ondertekend door \\3"
@@ -263,6 +267,10 @@
   "Allegato a relazione$": {
     "en_GB": "Attachment to a report",
     "nl_NL": "Bijlage bij een rapport"
+  },
+  "Allegato dal Ministero degli Affari Esteri$": {
+    "en_GB": "Attachment from the Ministry of Foreign Affairs",
+    "nl_NL": "Bijlage van het Ministerie van Buitenlandse Zaken"
   },
   "Allegato a stampa \"(.+)\"$": {
     "en_GB": "Printed attachment “\\1”",
@@ -427,6 +435,10 @@
   "Appunto$": {
     "en_GB": "Note",
     "nl_NL": "Notitie"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Firenze. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Florence. Outgoing diplomatic correspondance. \\1",
+    "nl_NL": "Archief van het Gezantschap van Nederland in Florence. Uitgaande diplomatieke correspondentie. \\1"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. (\\d\\d\\d\\d). Corrispondenza politica in arrivo$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. \\1. Incoming political correspondance",
@@ -804,6 +816,10 @@
     "en_GB": "Notes on the organization of the papal troops (report)",
     "nl_NL": "Opmerkingen over de organisatie van de pauselijke troepen (rapport)"
   },
+  "Certificati dello stato civile relativa a (\\$\\w+)$": {
+    "en_GB": "Certificates of the civil state relating to \\1",
+    "nl_NL": "Certificaten van de burgelijke staat aangaande \\1"
+  },
   "Certificazione$": {
     "en_GB": "Certification",
     "nl_NL": "Certificering"
@@ -1007,6 +1023,10 @@
   "Copia di nota del Corpo dei Carabinieri Reali in Catanzaro il 5 settembre 1870$": {
     "en_GB": "Copy of a note from the Corpo di Carabinieri Reali in Catanzaro of 5 September 1870",
     "nl_NL": "Kopie van een notitie van het Corpo di Carabinieri Reali in Catanzaro van 5 september 1870"
+  },
+  "Copia di nota del Ministro delle Finanze firmato (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Copy of letter from the Minister of Finances signed by \\2",
+    "nl_NL": "Kopie van brief van de Minister van Financiën ondertekend door \\2"
   },
   "Copia di telegramma (di|del|della) (\\$\\w+)$": {
     "en_GB": "Copy of a telegram from \\2",
@@ -3680,6 +3700,10 @@
     "en_GB": "Letter from the General Directorate of the Police of Rome to \\2 about the distribution of stages in Roman theaters",
     "nl_NL": "Brief van de algemene directie van de politie van Rome aan \\2 over de verdeling van podia in Romeinse theaters"
   },
+  "Lettera della Ditta Marstaller, Zublin e Compagni (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the company Marstaller, Zublin and Associates to \\2",
+    "nl_NL": "Brief van het bedrijf Marstaller, Zublin en Compagnons aan \\2"
+  },
   "Lettera della Prefettura dei SS. Palazzi Apostolici (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from the Prefecture of the Holy Apostolic Palaces to \\2",
     "nl_NL": "Brief van de prefectuur van de Heilige Apostolische Paleizen aan \\2"
@@ -5967,6 +5991,10 @@
   "Trascrizione di lettera circolare (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of the circulaire of \\2",
     "nl_NL": "Transcriptie van de circulaire van \\2"
+  },
+  "Trascrizione di lettera circolare$": {
+    "en_GB": "Transcription of a circulaire",
+    "nl_NL": "Transcriptie van een circulaire"
   },
   "Trascrizione di norme sulle pensioni$": {
     "en_GB": "Transcription of the norms on pension",
