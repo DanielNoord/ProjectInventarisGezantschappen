@@ -188,6 +188,10 @@
     "en_GB": "Librarian",
     "nl_NL": "Bibliothecaris"
   },
+  "Bibliotecario del Re di Paesi Bassi": {
+    "en_GB": "Librarian of the King of the Netherlands",
+    "nl_NL": "Bibliothecaris van de Koning der Nederlanden"
+  },
   "Bibliotecario della Biblioteca Barberiniana": {
     "en_GB": "Librarian of the _Biblioteca Barberiniana_",
     "nl_NL": "Bibliothecaris van de _Biblioteca Barberiniana_"
@@ -379,6 +383,10 @@
   "Comandante del fregata De Ruyter": {
     "en_GB": "Commander of the frigate De Ruyter",
     "nl_NL": "Commandant van het fregat De Ruyter"
+  },
+  "Comandante del fregata Valk": {
+    "en_GB": "Commander of the frigate De Ruyter",
+    "nl_NL": "Kapitein-Luitenant-ter-Zee van het fregat De Ruyter"
   },
   "Comandante del reggimento degli Zuavi pontifici": {
     "en_GB": "Commander of the regiment of Papal Zouaves",
@@ -791,6 +799,10 @@
   "Direttore generale del servizio militare presso il Ministero della Marina": {
     "en_GB": "Director general of the Military Service of the Ministry of the Marine",
     "nl_NL": "Directeur-generaal van de Militaire Dienst bij het Ministerie van de Marine"
+  },
+  "Direttore generale delle Gabelle al Ministero delle Finanze del Regno d'Italia": {
+    "en_GB": "Director general at the ministry of Finances of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal bij het ministerie van Financiën van het Koninkrijk Italië"
   },
   "Direttore generale delle Poste a Roma": {
     "en_GB": "Director-general of the Post of Rome",
@@ -1516,6 +1528,10 @@
     "en_GB": "City physician at Amsterdam",
     "nl_NL": "Stadsgeneesheer te Amsterdam"
   },
+  "Medico militare": {
+    "en_GB": "Military octor",
+    "nl_NL": "Militaire arts"
+  },
   "Membro del Concilio Giudiziario di Semarang": {
     "en_GB": "Member of the Council of Justice of Semarang",
     "nl_NL": "Lid van de Raad van Justitie van Semarang"
@@ -2240,6 +2256,10 @@
     "en_GB": "Substitute Public prosecutor of Amsterdam",
     "nl_NL": "Substituut-Officier van justitie te Amsterdam"
   },
+  "Procuratore-sostituto di Haarlem": {
+    "en_GB": "Substitute Public prosecutor of Haarlem",
+    "nl_NL": "Substituut-Officier van justitie te Haarlem"
+  },
   "Procuratore-sostituto di Nimega": {
     "en_GB": "Substitute public prosecutor of Nijmegen",
     "nl_NL": "Substituut-Officier van justitie te Nijmegen"
@@ -2533,6 +2553,10 @@
     "en_GB": "Secretary general of the Sacred Congregation of _Propaganda Fide_",
     "nl_NL": "Secretaris-generaal van de Heilige Congregatie van _Propaganda Fide_"
   },
+  "Segretario particolare del Re di Paesi Bassi Guglielmo III": {
+    "en_GB": "Private secretary of the King of the Netherlands William III",
+    "nl_NL": "Particulier secretaris van de Koning der Nederlanden Willem III"
+  },
   "Segretario reggente degli Affari Esteri del Regno di Sardegna": {
     "en_GB": "Regent secretary for Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Regent-secretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
@@ -2668,6 +2692,10 @@
   "Ufficiale della Marina": {
     "en_GB": "Officer of the Navy",
     "nl_NL": "Officier van de marine"
+  },
+  "Ufficiale della Salute": {
+    "en_GB": "Officer of Health",
+    "nl_NL": "Officier van Gezondheid"
   },
   "Vescovo d'Aiaccio": {
     "en_GB": "Bishop of Ajaccio",

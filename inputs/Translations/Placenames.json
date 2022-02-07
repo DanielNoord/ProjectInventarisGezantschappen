@@ -2824,6 +2824,14 @@
     "longitude": "14.36806",
     "nl_NL": "Torre del Greco"
   },
+  "Tournai": {
+    "en_GB": "Tournai",
+    "geonames_id": 2785341,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Tournai",
+    "latitude": "50.60715",
+    "longitude": " 3.38932",
+    "nl_NL": "Doornik"
+  },
   "Trevi": {
     "en_GB": "Trevi",
     "geonames_id": 3165209,

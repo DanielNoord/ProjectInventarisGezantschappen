@@ -1,5 +1,4 @@
 {
-  "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
     "comment_daniel": "",
@@ -1186,6 +1185,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Bennati": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1812-10-27",
+    "date_of_death": "1881-10-27",
+    "functions": [
+      [
+        "Direttore generale delle Gabelle al Ministero delle Finanze del Regno d'Italia",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Luigi",
+    "person_type": 1,
+    "place_of_birth": "Venezia",
+    "place_of_death": "Roma",
+    "sources": [],
+    "sources_other": [
+      "'Bennati di Baylon Luigi', found on: http://dati.acs.beniculturali.it/governi.owl/Bi0842"
+    ],
+    "surname": "Bennati di Baylon",
+    "titles": [["commendatore", null]],
+    "wikidata:id": null
+  },
   "$Bentinck": {
     "ISNI:id": "0000 0003 9304 9569",
     "comment_daniel": "",
@@ -1558,7 +1581,7 @@
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
-    "surname": "Biahchi",
+    "surname": "Bianchi",
     "titles": [["conte", null]],
     "wikidata:id": null
   },
@@ -2496,10 +2519,10 @@
   },
   "$Bremen": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "In possession of what may be possibly be the most inaccurate signature in the archive",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", null]],
+    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", "1869-12/"]],
     "images": [],
     "name": "Herman",
     "person_type": 1,
@@ -4617,6 +4640,29 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Dommelen": {
+    "ISNI:id": "0000 0003 9639 2143",
+    "comment_daniel": "",
+    "date_of_birth": "1813-07-16",
+    "date_of_death": "1874-01-14",
+    "functions": [
+      ["Medico militare", null],
+      ["Ufficiale della Salute", "1834-09-22/"]
+    ],
+    "images": [],
+    "name": "Gomarus Franciscus",
+    "person_type": 1,
+    "place_of_birth": "Utrecht",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Gomarus Franciscus van Dommelen', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/14414814",
+      "van Dommelen, G.F., Geschiedenis der militaire geneeskundige dienst in Nederland, met inbegrip van die zijner zeemagt en overzeesche bezittingen, van af den vroegsten tijd tot op heden (Zutphen, 1857), XII"
+    ],
+    "sources_other": [],
+    "surname": "Dommelen",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Donner": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -4671,6 +4717,36 @@
     "surname": "Drossaerts van Drongelen",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Dumonceau": {
+    "ISNI:id": "0000 0000 3292 7311",
+    "comment_daniel": "",
+    "date_of_birth": "1827-11-16",
+    "date_of_death": "1918-08-06",
+    "functions": [
+      ["Bibliotecario del Re di Paesi Bassi", "1863/1873"],
+      [
+        "Segretario particolare del Re di Paesi Bassi Guglielmo III",
+        "1873/1890"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Monceau%2C_CHF_graaf_du._Adjudant_generaal%2C_chef_Militair_Huis_HM_de_Koningin.jpg"
+    ],
+    "name": "Charles Henri Felix",
+    "person_type": 1,
+    "place_of_birth": "Tournai",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "Woelderink, Bernard, Geschiedenis van de Thesaurie: twee eeuwen Thesaurie en thesauriers van het het Huis Oranje-Nassau, 1775-1975 (Uitgeverij Verloren: Hilversum, 2010), p. 240"
+    ],
+    "sources_other": [],
+    "surname": "Du Monceau",
+    "titles": [
+      ["maggior generale", null],
+      ["conte", null]
+    ],
+    "wikidata:id": "Q1922642"
   },
   "$Dutilh": {
     "ISNI:id": null,
@@ -6945,6 +7021,25 @@
     "titles": [],
     "wikidata:id": "Q5750550"
   },
+  "$Haakman": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Procuratore-sostituto di Haarlem", "1856/1861"]],
+    "images": [],
+    "name": "J.A.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Staatsalmanak voor het Koningrijk der Nederlanden, vol. 28 (Martinus Nijhoff en J.G. Broese: Den Haag en Utrecht, 1869), p. 80"
+    ],
+    "surname": "van Haakman",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Hall": {
     "ISNI:id": "0000 0001 3919 6520",
     "comment_daniel": "",
@@ -8108,6 +8203,26 @@
     "sources": [],
     "sources_other": [],
     "surname": "Kornis",
+    "titles": [["capitano", null]],
+    "wikidata:id": null
+  },
+  "$Kroef": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Comandante del fregata Valk", "1869-11-12/1870-04-24"]],
+    "images": [],
+    "name": "N.M.J.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "'01 januari 1870', Stichting Maritiem-Historische Database, found on: https://www.marhisdata.nl/zoeken&s=kronieken&year=1871",
+      "'Meteorologisch extract-journaal, gehouden aan boord Zr.Ms. raderstoomschip 'Valk', onder bevel van kapt.luit. t/zee N.M.J. Kroef', found on: https://www.maritiemdigitaal.nl/index.cfm?event=search.getdetail&id=201006712"
+    ],
+    "sources_other": [],
+    "surname": "Kroef",
     "titles": [["capitano", null]],
     "wikidata:id": null
   },
@@ -11823,8 +11938,10 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
-    "surname": "Pancani",
+    "sources_other": [
+      "Magnolfi, Gaetano, Ricordo del cavaliere Gaetano Magnolfi (Tipografia Contrucci e Comp.: Prato, 1867"
+    ],
+    "surname": "di Giovacchino Pancani",
     "titles": [],
     "wikidata:id": null
   },
@@ -11989,6 +12106,23 @@
     "sources_other": [],
     "surname": "Patrizi Naro",
     "titles": [["card.", "1834-06-23/"]],
+    "wikidata:id": null
+  },
+  "$Paulsen": {
+    "ISNI:id": null,
+    "comment_daniel": "Seems to have temporarily replaced Bremen. No trace in the books, however.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", "1870/"]],
+    "images": [],
+    "name": "Robert",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Paulsen",
+    "titles": [],
     "wikidata:id": null
   },
   "$Paulucci": {
@@ -13553,7 +13687,7 @@
     "ISNI:id": null,
     "comment_daniel": "Rueff was geboren te Württemberg. Hij was vice-generaal geweest bij een compagnie van Grenadiers (onderdeel van eerste vreemdelingenregiment in Pauselijke dienst), en na zijn ontslag (in Bologna) heeft de commandant De Weber (commandant van voornoemd regiment) hem benoemd tot secretaris.",
     "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_death": "1889",
     "functions": [
       ["Vice-corporale al 1° reggimento estero dell'esercito pontificio", null]
     ],
@@ -15416,7 +15550,7 @@
     "ISNI:id": null,
     "comment_daniel": "",
     "date_of_birth": "",
-    "date_of_death": "1889",
+    "date_of_death": "",
     "functions": [
       [
         "Prefetto di palazzo e gran maestro delle cerimonie del Re d'Italia",
@@ -15424,7 +15558,7 @@
       ]
     ],
     "images": [],
-    "name": "",
+    "name": "Loteringo",
     "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
@@ -16591,6 +16725,7 @@
     "place_of_death": "Roma",
     "sources": [],
     "sources_other": [
+      "'Pietro Ercole Visconti (1802-1880) and Carlo Ludovico Visconti (1818-1894)', https://www.ostia-antica.org/past/visconti.htm",
       "Notizie per l'anno 1852 (Tipografia Salviucci: Roma, 1852)"
     ],
     "surname": "Visconti",
@@ -17430,5 +17565,6 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  }
+  },
+  "$schema": "../static/JSON/Individuals.json"
 }
