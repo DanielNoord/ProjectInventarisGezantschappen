@@ -300,6 +300,10 @@
     "en_GB": "Attachment to the report",
     "nl_NL": "Bijlage bij het rapport"
   },
+  "Allegato dal Ministero degli Affari Esteri (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Attachment from the Ministry of Foreign Affairs to \\2",
+    "nl_NL": "Bijlage van het Ministerie van Buitenlandse Zaken aan \\2"
+  },
   "Allegato dal Ministero degli Affari Esteri$": {
     "en_GB": "Attachment from the Ministry of Foreign Affairs",
     "nl_NL": "Bijlage van het Ministerie van Buitenlandse Zaken"
@@ -728,6 +732,10 @@
     "en_GB": "Draft of a letter from \\2 to \\4 with a newspaperclipping",
     "nl_NL": "Concept van een brief van \\2 aan \\4 met een krantenknipsel"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Draft of a letter from \\2 to \\4 and to \\6",
+    "nl_NL": "Concept van een brief van \\2 aan \\4 en aan \\6"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) sul caso di Ronca$": {
     "en_GB": "Draft of a letter from \\2 to \\4 about the case of Ronca",
     "nl_NL": "Concept van een brief van \\2 aan \\4 over de zaak Ronca"
@@ -832,9 +840,9 @@
     "en_GB": "Notes on the organization of the papal troops (report)",
     "nl_NL": "Opmerkingen over de organisatie van de pauselijke troepen (rapport)"
   },
-  "Certificati dello stato civile relativa a (\\$\\w+)$": {
-    "en_GB": "Certificates of the civil state relating to \\1",
-    "nl_NL": "Certificaten van de burgelijke staat aangaande \\1"
+  "Certificati dello stato civile relativa (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Certificates of the civil state relating to \\2",
+    "nl_NL": "Certificaten van de burgelijke staat aangaande \\2"
   },
   "Certificazione$": {
     "en_GB": "Certification",
@@ -1404,7 +1412,7 @@
     "en_GB": "List of the steamers from Civitavecchia bound for the West in the month of August 1852",
     "nl_NL": "Lijst van stoomboten van Civitavecchia die richting het westen gaan in de maand van augustus 1852"
   },
-  "Elenco della roba rubata il \\((\\d\\d?) settembre (\\d\\d\\d\\d) dal Palazzo Righetti, posto in Roma sulla piazza del Biscione$": {
+  "Elenco della roba rubata il (\\d\\d?) settembre (\\d\\d\\d\\d) dal Palazzo Righetti, posto in Roma sulla piazza del Biscione$": {
     "en_GB": "List of the things stolen on \\1 September \\2 from Palazzo Righetti, a place in Rome on the piazza del Biscione",
     "nl_NL": "Lijst van zaken gestolen op \\1 september \\2 uit Palazzo Righetti, een plek in Rome op het piazza del Biscione"
   },
@@ -1576,13 +1584,9 @@
     "en_GB": "Extract from news from the press",
     "nl_NL": "Uittreksel van nieuws van de pers"
   },
-  "Estratto di sentenza del Tribunale su Francesco van Riel$": {
-    "en_GB": "Extract from the sentence of the Tribunal about Francesco van Riel",
-    "nl_NL": "Extract van de uitspraak van het Tribunaal over Francesco van Riel"
-  },
-  "Estratto di sentenza del Tribunale su Giovanni Koelman$": {
-    "en_GB": "Extract from the sentence of the Tribunal about Giovanni Koelman",
-    "nl_NL": "Extract van de uitspraak van het Tribunaal over Giovanni Koelman"
+  "Estratto di sentenza del Tribunale su (\\$\\w+)$": {
+    "en_GB": "Extract from the sentence of the Tribunal about \\1",
+    "nl_NL": "Extract van de uitspraak van het Tribunaal over \\1"
   },
   "Estratto di un dispaccio (di|del|della) (\\$\\w+)$": {
     "en_GB": "Extract from a dispatch of \\2",
@@ -2836,6 +2840,10 @@
     "en_GB": "Inventory of documents and registers to be found at the seat of the consul in Livorno",
     "nl_NL": "Inventaris van documenten en registers te vinden bij de vestiging van de consul in Livorno"
   },
+  "Invita del Ministero degli Affari Esteri$": {
+    "en_GB": "Invitation from the Ministry of Foreign Affairs",
+    "nl_NL": "Uitnodiging van het Ministerie van Buitenlandse Zaken"
+  },
   "Invito (a|al) (\\$\\w+) con allegata lista della dame dei Paesi Bassi$": {
     "en_GB": "Invitation for \\2 with attached a list of the ladies from the Netherlands",
     "nl_NL": "Uitnodiging voor \\2 met bijgevoegde lijst van de dames uit Nederland"
@@ -2879,6 +2887,10 @@
   "Invito per l'apertura del Parlamento (a|al) (\\$\\w+)$": {
     "en_GB": "Invitation for the opening of Parliament to \\2",
     "nl_NL": "Uitnodiging voor de opening van het Parlement aan \\2"
+  },
+  "Ispezione di merci$": {
+    "en_GB": "Inspection of goods",
+    "nl_NL": "Inspectie van goederen"
   },
   "Istanza a stampa (di|del|della) (\\$\\w+)$": {
     "en_GB": "Printed petition of \\2",
@@ -2935,6 +2947,10 @@
   "Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
     "en_GB": "Legation of the Netherlands in Rome. Outgoing diplomatic correspondance. \\1",
     "nl_NL": "Gezantschap van Nederland in Rome. Uitgaande diplomatieke correspondentie. \\1"
+  },
+  "Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$": {
+    "en_GB": "Legation of the Netherlands in Rome and Naples. Incoming political correspondance \\1",
+    "nl_NL": "Gezantschap van Nederland in Rome en Napels. Inkomende politieke correspondentie \\1"
   },
   "Legazione di Firenze. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
     "en_GB": "Legation of Florence. Incoming diplomatic correspondance. \\1",
@@ -4260,6 +4276,10 @@
     "en_GB": "Note to the accounts",
     "nl_NL": "Nota over de rekeningen"
   },
+  "Nota dal Ministero degli Affari Esteri$": {
+    "en_GB": "Note from the Ministry of Foreign Affairs",
+    "nl_NL": "Nota van het Ministerie van Buitenlandse Zaken"
+  },
   "Nota degli allegati relativi al concordato con il Lussemburgo$": {
     "en_GB": "Note of the attachments relating to the concordat with Luxembourg",
     "nl_NL": "Nota van de bijlages die gerelateerd zijn aan het concordaat met Luxemburg"
@@ -4360,13 +4380,13 @@
     "en_GB": "Note of costs from \\2 to \\4",
     "nl_NL": "Kostennota van \\2 aan \\4"
   },
-  "Nota di trasmissione di ferroviaria$": {
-    "en_GB": "Transmission  note about the railway",
-    "nl_NL": "Begeleidende nota over de spoorweg"
-  },
   "Nota di trasmissione di materiali da parte del Ministero degli Affari Esteri$": {
     "en_GB": "Transmision note about materials from the Ministry of Foreign Affairs",
     "nl_NL": "Begeleidende nota over materialen van het Ministerie van Buitelandse Zaken"
+  },
+  "Nota di trasmissione ferroviaria$": {
+    "en_GB": "Transmission note about the railway",
+    "nl_NL": "Begeleidende nota over de spoorweg"
   },
   "Nota diretta al Corpo Diplomatico$": {
     "en_GB": "Note directed to the Corps Diplomatique",
@@ -4975,6 +4995,10 @@
   "Promemoria (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Memorandum of \\2 to \\4",
     "nl_NL": "Memorandum van \\2 aan \\4"
+  },
+  "Promemoria dei fatti avvenuti il (\\d\\d?) set. (\\d\\d\\d\\d)$": {
+    "en_GB": "Memorandum about the events that took place on \\1 Sep. \\2",
+    "nl_NL": "Memorandum over de gebeurtenissen die plaatsvonden op \\1 sep. \\2"
   },
   "Promemoria$": {
     "en_GB": "Memorandum",
