@@ -536,6 +536,10 @@
     "en_GB": "Consul of the Kingdom of the Netherlands in Cagliari",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Cagliari"
   },
+  "Console del Regno dei Paesi Bassi a Cette": {
+    "en_GB": "Consul of the Kingdom of the Netherlands in Cette",
+    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Cette"
+  },
   "Console del Regno dei Paesi Bassi a Civitavecchia": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Civitavecchia",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Civitavecchia"
@@ -796,6 +800,10 @@
     "en_GB": "Director-general of the Papal Museums and Galleries",
     "nl_NL": "Directeur-generaal van de Pauselijke musea en galerijen"
   },
+  "Direttore generale dei Telegrafi del Regno d'Italia": {
+    "en_GB": "Director general of the Telegraph Office of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal van Telegrafie van het Koninkrijk Italië"
+  },
   "Direttore generale del servizio militare presso il Ministero della Marina": {
     "en_GB": "Director general of the Military Service of the Ministry of the Marine",
     "nl_NL": "Directeur-generaal van de Militaire Dienst bij het Ministerie van de Marine"
@@ -815,6 +823,10 @@
   "Direttore generale delle dogane dello Stato Pontificio": {
     "en_GB": "Director-general of the Customs of the Papel States",
     "nl_NL": "Directeur-generaal van de Douane van de Kerkelijke Staat"
+  },
+  "Direttore generale delle imposte, delle tasse e del demanio del Regno d'Italia": {
+    "en_GB": "Director general of taxes, duties and state property of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal van belastingen, heffingen en staatseigendom van van het Koninkrijk Italië"
   },
   "Direttore generale di polizia di Roma": {
     "en_GB": "Director-general of the police of Rome",
@@ -1183,6 +1195,10 @@
   "Ingegnere": {
     "en_GB": "Engineer",
     "nl_NL": "Ingenieur"
+  },
+  "Ingegnere prinicpale del Genio Civile al Ministero dei lavori pubblici del Regno d'Italia": {
+    "en_GB": "Chief engineer of the Civil Engineering section of the ministry of public works of the Kingdom of Italy",
+    "nl_NL": "Hoofdingenieur van de civieltechnische sectie van het ministerie van openbare werken van het Koninkrijk Italië"
   },
   "Ingegnere prinicpale del Rijkswaterstaat nella regione dell'Olanda del Sud": {
     "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in South Holland",
@@ -1692,13 +1708,13 @@
     "en_GB": "Minister of Affairs of the Roman-Catholic Worship Service of the Kingdom of the Netherlands",
     "nl_NL": "Minister voor de Zaken van de Rooms-Katholieke Eredienst van het Koninkrijk der Nederlanden"
   },
+  "Ministro dei Lavori Pubblici del Regno d'Italia": {
+    "en_GB": "Minister of Public Works of the Kingdom of Italy",
+    "nl_NL": "Minister van Openbare Werken van het Koninkrijk Italië"
+  },
   "Ministro dei Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Public Works of the Papel States",
     "nl_NL": "Minister van Openbare Werken van de Kerkelijke Staat"
-  },
-  "Ministro del Agricoltura, Industria e Commercio del Regno d'Italia": {
-    "en_GB": "Minister of Agriculture, Industry and Trade of the Kingdom of Italy",
-    "nl_NL": "Minister van Landbouw, Industrie en Handel van het Koninkrijk Italië"
   },
   "Ministro del Commercio e Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Trade and Public Works of the Papel States",
@@ -1728,6 +1744,10 @@
     "en_GB": "Minister of Agriculture, Trade and Marine of the Kingdom of Sardinia",
     "nl_NL": "Minister van Landbouw, Handel en Marine van het Koninkrijk Sardinië"
   },
+  "Ministro dell'Agricoltura, Industria e Commercio del Regno d'Italia": {
+    "en_GB": "Minister of Agriculture, Industry and Trade of the Kingdom of Italy",
+    "nl_NL": "Minister van Landbouw, Industrie en Handel van het Koninkrijk Italië"
+  },
   "Ministro dell'Interno del Granducato di Toscana": {
     "en_GB": "Minister of Internal Affairs of the Grand Duchy of Tuscany",
     "nl_NL": "Minister van Binnenlandse Zaken bij het Groothertogdom van Toscane"
@@ -1751,6 +1771,10 @@
   "Ministro della Guerra del Regno dei Paesi Bassi": {
     "en_GB": "Minister of War of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Oorlog van het Koninkrijk der Nederlanden"
+  },
+  "Ministro della Guerra del governo provvisorio di Torino": {
+    "en_GB": "Minister of War of the provisional government in Turin",
+    "nl_NL": "Minister van Oorlog van de voorlopige regering in Turijn"
   },
   "Ministro della Guerra dello Stato Pontificio": {
     "en_GB": "Minister of War of the Papal States",
@@ -2212,6 +2236,10 @@
     "en_GB": "First official of the Ministry of Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Hoofdambtenaar van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
+  "Primo ufficiale del Ministero della Guerra e della Marina del Regno d'Italia": {
+    "en_GB": "First official of the Ministry of War and the Marine of the Kingdom of Italy",
+    "nl_NL": "Hoofdambtenaar van het Ministerie van Oorlog en Marine van het Koninkrijk Italië"
+  },
   "Primo ufficiale del Ministero di Finanze del Regno di Sardegna": {
     "en_GB": "First official of the Ministry of Finance of the Kingdom of Sardinia",
     "nl_NL": "Hoofdambtenaar van het ministerie van Financiën van het Koninkrijk Sardinië"
@@ -2532,6 +2560,10 @@
   "Segretario generale del Ministero di Grazia e Giustizia del Regno d'Italia": {
     "en_GB": "Secretary general of the Ministry of Grace and Justice of the Kingdom of Italy",
     "nl_NL": "Secretaris-generaal van het Ministerie van Gratie en Justitie van het Koninkrijk Italië"
+  },
+  "Segretario generale del Ministero di Grazia e Giustizia e Culti del Regno d'Italia": {
+    "en_GB": "Secretary general of the Ministry of Grace and Justice and Worship of the Kingdom of Italy",
+    "nl_NL": "Secretaris-generaal van het Ministerie van Gratie en Justitie en Religie van van het Koninkrijk Italië"
   },
   "Segretario generale del Ministro delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Secretary general of the Ministry of the Colonies of the Kingdom of the Netherlands",

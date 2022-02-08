@@ -330,6 +330,28 @@
     "titles": [],
     "wikidata:id": "Q55225076"
   },
+  "$Amico": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Direttore generale dei Telegrafi del Regno d'Italia", null]
+    ],
+    "images": [],
+    "name": "Ernesto",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Bullettino telegrafico del Regno d'Italia (Tipografi del Senato del Regno: Firenze, 1870), p. 63",
+      "https://www.movio.beniculturali.it/mise/guglielmomarconielettra/it/32/il-museo-storico-della-comunicazione"
+    ],
+    "surname": "d'Amico",
+    "titles": [["commendatore", null]],
+    "wikidata:id": null
+  },
   "$Angelis": {
     "ISNI:id": null,
     "comment_daniel": "Wordt genoemd in vol. 17, maar het kan om meerder personen gaan.",
@@ -670,7 +692,7 @@
   },
   "$Banneville": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Was in elk geval tot april 1870 ambassadeur bij de Heilige Stoel, ging enige tijd daarna terug naar Frankrijk en vervangen door chargé d'affaires Edouard-Alphonse Lefebvre de Béhaine",
     "date_of_birth": "1818-04-26",
     "date_of_death": "1881-06-13",
     "functions": [
@@ -1185,6 +1207,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Belli": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Marie",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Belli-Quaedvlieg",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Bennati": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -1303,6 +1342,25 @@
     "sources_other": [],
     "surname": "Beraudo di Pralormo",
     "titles": [["conte", null]],
+    "wikidata:id": null
+  },
+  "$Bergeyron": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi a Cette", null]],
+    "images": [],
+    "name": "J.P.H.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Tijdschrift toegewijd aan het zeewezen. Deel 10 (Wed. L.C. Vermande: Medemblik, 1850), p. 307"
+    ],
+    "surname": "Bergeyron",
+    "titles": [],
     "wikidata:id": null
   },
   "$Berlijn": {
@@ -2522,7 +2580,7 @@
     "comment_daniel": "In possession of what may be possibly be the most inaccurate signature in the archive",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", "1869-12/"]],
+    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", "1869/"]],
     "images": [],
     "name": "Herman",
     "person_type": 1,
@@ -2807,6 +2865,57 @@
     "sources_other": [],
     "surname": "de Buttet",
     "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
+  "$Cadet": {
+    "ISNI:id": "0000 0000 8339 1123",
+    "comment_daniel": "",
+    "date_of_birth": "1808",
+    "date_of_death": "1879",
+    "functions": [["Professore", null]],
+    "images": [],
+    "name": "Socrate",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Cadet",
+    "titles": [],
+    "wikidata:id": "Q56707822"
+  },
+  "$Cadorna": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1815-02-19",
+    "date_of_death": "1897-02-06",
+    "functions": [
+      [
+        "Primo ufficiale del Ministero della Guerra e della Marina del Regno d'Italia",
+        "1849-03-27/1849-03-31"
+      ],
+      [
+        "Ministro della Guerra del governo provvisorio di Torino",
+        "1859-10-15/1860-03"
+      ]
+    ],
+    "images": [
+      "https://bbcc.ibc.regione.emilia-romagna.it/pater/loadcard.do?id_card=189292"
+    ],
+    "name": "Raffaele Alessandro",
+    "person_type": 1,
+    "place_of_birth": "Milano",
+    "place_of_death": "Torino",
+    "sources": [
+      "'Cadorna, Raffaele', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/96ec2bcd072560f1c125785d0059806a/f1fd03623b495efd4125646f005977b8?OpenDocument",
+      "Rochat, Giorgio, 'Finali, Gaspare', in: Dizionario Biografico degli Italiani. Volume 16 (Rome, Treccani, 1973), found on: https://www.treccani.it/enciclopedia/raffaele-cadorna_res-4ddfe206-87e9-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Cadorna",
+    "titles": [
+      ["maggior generale", "1859-10-13/"],
+      ["conte", "1875-12-16/"]
+    ],
     "wikidata:id": null
   },
   "$Caetani": {
@@ -4138,6 +4247,30 @@
     "surname": "Corboli Bussi",
     "titles": [],
     "wikidata:id": "Q2630450"
+  },
+  "$Cornaglia": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1835-02-20",
+    "date_of_death": "1895-04-10",
+    "functions": [
+      [
+        "Ingegnere prinicpale del Genio Civile al Ministero dei lavori pubblici del Regno d'Italia",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Paolo",
+    "person_type": 1,
+    "place_of_birth": "Carmagnola",
+    "place_of_death": "Porto Maurizio",
+    "sources": [],
+    "sources_other": [
+      "Albertazzi, Ariberto, 'Cornaglia, Paolo', in: Enciclopedia Italiana (1931), found on: https://www.treccani.it/enciclopedia/paolo-cornaglia_%28Enciclopedia-Italiana%29/"
+    ],
+    "surname": "Cornaglia",
+    "titles": [["commendatore", null]],
+    "wikidata:id": "Q61474985"
   },
   "$Cornelissen": {
     "ISNI:id": null,
@@ -5610,6 +5743,86 @@
     "titles": [["Cav.", null]],
     "wikidata:id": null
   },
+  "$Filippo": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1816-02-09",
+    "date_of_death": "1887-06-29",
+    "functions": [
+      [
+        "Segretario generale del Ministero di Grazia e Giustizia e Culti del Regno d'Italia",
+        "1860-11/"
+      ],
+      [
+        "Ministro di Grazia e Giustizia e Culti del Regno d'Italia",
+        "1868-01-05/1869-05-07"
+      ],
+      [
+        "Ministro di Grazia e Giustizia e Culti del Regno d'Italia",
+        "1869-05-13/1869-05-26"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/69/Gennaro_De_Filippo.jpg"
+    ],
+    "name": "Gennaro",
+    "person_type": 1,
+    "place_of_birth": "Napoli",
+    "place_of_death": "Roma",
+    "sources": [
+      "'De Filippo, Gennaro', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/c1544f301fd4af96c125785d00598476/5fa77f8ae72dcc484125646f005acf5d?OpenDocument",
+      "Rizzo, Vincenzo, 'De Filippo, Gennaro', in: Dizionario Biografico degli Italiani. Volume 33 (Rome, Treccani, 1987), found on: https://www.treccani.it/enciclopedia/gennaro-de-filippo_(Dizionario-Biografico)/"
+    ],
+    "sources_other": [],
+    "surname": "De Filippo",
+    "titles": [
+      ["avv.", null],
+      ["Cav.", null]
+    ],
+    "wikidata:id": "Q3759799"
+  },
+  "$Finali": {
+    "ISNI:id": "0000 0000 8082 7235",
+    "comment_daniel": "",
+    "date_of_birth": "1829-05-20",
+    "date_of_death": "1914-11-08",
+    "functions": [
+      [
+        "Segretario generale del Ministero delle Finanze del Regno d'Italia",
+        "1865-08-20/1867-02-10"
+      ],
+      [
+        "Direttore generale delle imposte, delle tasse e del demanio del Regno d'Italia",
+        "1867-02-17/"
+      ],
+      [
+        "Ministro dell'Agricoltura, Industria e Commercio del Regno d'Italia",
+        "1873-07-10/1876-03-25"
+      ],
+      [
+        "Ministro dei Lavori Pubblici del Regno d'Italia",
+        "1889-03-09/1891-02-06"
+      ]
+    ],
+    "images": [
+      "https://cesenadiunavolta.it/gaspare-finali-patriota-politico-letterato/"
+    ],
+    "name": "Gaspare",
+    "person_type": 1,
+    "place_of_birth": "Cesena",
+    "place_of_death": "Marradi",
+    "sources": [
+      "'Finali, Gaspare', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/16fcc6702fe207b8c125785d00598c7c/fa63bbcf9635315e4125646f005bbede?OpenDocument",
+      "Orsolini, Elisabetta, 'Finali, Gaspare', in: Dizionario Biografico degli Italiani. Volume 48 (Rome, Treccani, 1997), found on: https://www.treccani.it/enciclopedia/gaspare-finali_(Dizionario-Biografico)"
+    ],
+    "sources_other": [],
+    "surname": "Finali",
+    "titles": [
+      ["avv.", null],
+      ["Cav.", null]
+    ],
+    "wikidata:id": "Q663457"
+  },
   "$Firoi": {
     "ISNI:id": null,
     "comment_daniel": "I believe he might be included in 'Dizionario bibliografico dell'Armata Sarda seimila biografie'",
@@ -6279,6 +6492,23 @@
     "titles": [],
     "wikidata:id": "Q55228124"
   },
+  "$Gestel": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN: schrijft over de dood van zijn vader",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J.H.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Gestel",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Getaz": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -6835,6 +7065,23 @@
     "surname": "Gregorio XVI",
     "titles": [["Papa", "1831-02-02/1846-06-01"]],
     "wikidata:id": "Q43734"
+  },
+  "$Gremla": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN. Can't find him and it's very unclear when this person was replaced by van Bremen, because he possibly only served as a consul for two months or so. He has some connection to Le Mesurier (a company in Ancona), and reportedly lives in the house Le Mesurier, according to a draft letter from Roest van Limburg, who seems confused on the whole matter in his own right (it seems to me he gets the spelling of the name wrong).",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", null]],
+    "images": [],
+    "name": "K",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van Gremla",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Grey": {
     "ISNI:id": "0000 0001 0786 7422",
@@ -9563,7 +9810,7 @@
         "1860/1860"
       ],
       [
-        "Ministro del Agricoltura, Industria e Commercio del Regno d'Italia",
+        "Ministro dell'Agricoltura, Industria e Commercio del Regno d'Italia",
         "1862-12-08/1864-09-24"
       ],
       ["Professore di Economia politica all'Università di Napoli", "1865-01/"]
@@ -12060,6 +12307,23 @@
     "titles": [["Cav.", null]],
     "wikidata:id": null
   },
+  "$Pastor": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN: was apostolic vicar/ondert. Legazione della Repubblica dell'Equador presso la Santa Sede",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Vicente Daniel",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Pastor",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Pastoris": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -12601,6 +12865,25 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Polak": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Compositore", null]],
+    "images": [],
+    "name": "B.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Vijftigjarig bestaan van de Maatschappij tot Bevordering der Toonkunst, 1829-1879 (J.H. & G. van Heteren: Amsterdam, 1879)"
+    ],
+    "surname": "Polak Daniels",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Pozzesi": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -12742,6 +13025,23 @@
     "titles": [["conte", null]],
     "wikidata:id": null
   },
+  "$Rae": {
+    "ISNI:id": null,
+    "comment_daniel": "Offers his services to temporarily replace Stienen in Ancona",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Samuel",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Rae",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$RaguettiC": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -12797,7 +13097,7 @@
       ["Vice camerlengo della Chiesa Cattolica Romana", "1866-06-22/1870-09-20"]
     ],
     "images": [],
-    "name": "Lorenzo",
+    "name": "Lorenzo Ilarione",
     "person_type": 1,
     "place_of_birth": "Bagnacavallo",
     "place_of_death": "Roma",
@@ -12806,7 +13106,7 @@
     ],
     "sources_other": [],
     "surname": "Randi",
-    "titles": [],
+    "titles": [["card.", "1875-03-15/"]],
     "wikidata:id": "Q1081499"
   },
   "$Randwijck": {
@@ -15563,7 +15863,9 @@
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Calendario generale del Regno d'Italia pel 1878 (Tipografia Elzeviriana: Roma, 1878), p. 24"
+    ],
     "surname": "Della Stufa de'Lotteringhi",
     "titles": [["marchese", null]],
     "wikidata:id": null
@@ -17124,6 +17426,23 @@
     "sources": [],
     "sources_other": [],
     "surname": "von Wessenberg",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Westmann": {
+    "ISNI:id": null,
+    "comment_daniel": "Gaat om een bijlage. Ik kan niet uit de brief opmaken over wie dit gaat.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Westmann",
     "titles": [],
     "wikidata:id": null
   },

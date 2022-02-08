@@ -600,6 +600,14 @@
     "longitude": "8.3039",
     "nl_NL": "Carloforte"
   },
+  "Carmagnola": {
+    "en_GB": "Carmagnola",
+    "geonames_id": 3180496,
+    "geonames_wikipedia": null,
+    "latitude": "44.84963",
+    "longitude": "7.72032",
+    "nl_NL": "Carmagnola"
+  },
   "Carrara": {
     "en_GB": "Carrara",
     "geonames_id": 3180423,
@@ -1800,6 +1808,14 @@
     "longitude": "110",
     "nl_NL": "Javazee"
   },
+  "Marradi": {
+    "en_GB": "Marradi",
+    "geonames_id": 3173875,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Marradi",
+    "latitude": "44.07353",
+    "longitude": "11.61092",
+    "nl_NL": "Marradi"
+  },
   "Marsiglia": {
     "en_GB": "Marseille",
     "geonames_id": 2995469,
@@ -2231,6 +2247,14 @@
     "latitude": "40.81563",
     "longitude": "14.33716",
     "nl_NL": "Portici"
+  },
+  "Porto Maurizio": {
+    "en_GB": "Porto Maurizio",
+    "geonames_id": 3170079,
+    "geonames_wikipedia": null,
+    "latitude": "43.87439",
+    "longitude": "8.01401",
+    "nl_NL": "Porto Maurizio"
   },
   "Prato": {
     "en_GB": "Prato",
