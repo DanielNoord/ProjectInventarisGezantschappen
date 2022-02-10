@@ -130,7 +130,7 @@ class EADMaker(XMLWriter):
                 f"Can't determine the volume/ms number of {first_sheet['A'][0].value}."
                 "Does it have the correct format?"
             )
-        print(f"""Finished writing volume {volume_number.groups()[0]}\n""")
+        print(f"""Finished writing volume {volume_number.groups()[0]}""")
 
         self.series.update({str(volume_number.groups()[0]): sub_levels})
 
