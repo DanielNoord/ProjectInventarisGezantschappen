@@ -609,6 +609,23 @@
     "titles": [["marchese", null]],
     "wikidata:id": "Q469134"
   },
+  "$Azzimati": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Camillo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Azzimati",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Bach": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -6631,6 +6648,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Ginkel": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN. Direttore dell'ordine equestra Siena?",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Syberlus",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van Ginkel",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Gioberti": {
     "ISNI:id": "0000 0001 0871 8269",
     "comment_daniel": "",
@@ -7027,6 +7061,37 @@
       ["conte di Gramont", "1855/"]
     ],
     "wikidata:id": "Q585590"
+  },
+  "$Grassellini": {
+    "ISNI:id": "0000 0000 6217 5691",
+    "comment_daniel": "",
+    "date_of_birth": "1796-01-19",
+    "date_of_death": "1875-01-16",
+    "functions": [
+      ["Delegato apostolico ad Ascoli", "1831/1832"],
+      ["Delegato apostolico ad Ancona", "1832-07/"],
+      [
+        "Governatore di Roma e direttore generale di polizia di Roma",
+        "1846-12-21/1847-07-18"
+      ],
+      [
+        "Commissario straordinario pontificio alle Quattre Legazione delle Romagne",
+        "1852-03-15/1856-06-16"
+      ]
+    ],
+    "images": ["http://www.araldicavaticana.com/gx056.htm"],
+    "name": "Gaspare",
+    "person_type": 1,
+    "place_of_birth": "Palermo",
+    "place_of_death": "Frascati",
+    "sources": [
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 300",
+      "Monsagrati, Giuseppe, 'Grassellini, Gaspare', in: Dizionario Biografico degli Italiani. Volume 58 (Rome, Treccani, 2002), found on: https://www.treccani.it/enciclopedia/gaspare-grassellini_(Dizionario-Biografico)/"
+    ],
+    "sources_other": [],
+    "surname": "Grassellini",
+    "titles": [["card.", "1856-06-16/"]],
+    "wikidata:id": "Q2254628"
   },
   "$Graven": {
     "ISNI:id": null,
