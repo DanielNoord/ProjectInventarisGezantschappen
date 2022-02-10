@@ -1353,8 +1353,8 @@
     "nl_NL": "Document Maritime uit Le Journal Officiel (gedrukt) ondertekend door \\2"
   },
   "Documentazione a stampa \"(.+)\" datata Livorno, (\\d\\d?) nov. (\\d\\d\\d\\d), (di|del|della) (\\$\\w+) circa i diritti di navigazione, sanità e porto \\(Firenze, Stamperia Granducale, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed documentation “\\2” dated at Livorno, \\4 Nov. \\5, from \\6 about the rights of navigation, health and the port (Florence, Stamperia Granducale, \\7)",
-    "nl_NL": "Gedrukt documentatie “\\2” gedateerd te Livorno \\4 nov. \\5, van van \\6 over scheepsvaartrechten, gezondheid en de haven (Florence, Stamperia Granducale, \\7)"
+    "en_GB": "Printed documentation “\\1” dated at Livorno, \\2 Nov. \\3, from \\5 about the rights of navigation, health and the port (Florence, Stamperia Granducale, \\6)",
+    "nl_NL": "Gedrukt documentatie “\\1” gedateerd te Livorno \\2 nov. \\3, van van \\5 over scheepsvaartrechten, gezondheid en de haven (Florence, Stamperia Granducale, \\6)"
   },
   "Documenti relativi alla proclamazione del dogma dell'Immacolata Concezione$": {
     "en_GB": "Documents relating to the proclamation of the dogma of the Immacolata Concezione",
