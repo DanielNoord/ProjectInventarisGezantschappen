@@ -648,9 +648,9 @@
     "en_GB": "Note from \\1",
     "nl_NL": "Notitie van \\1"
   },
-  "Biglietto da visita (di|del|della) (\\$\\w+); incisione su lastra d'acciaio stampa fotomeccanica \\(1860 ca.\\) de l'Alte Pinakothek di Monaco di Baviera$": {
-    "en_GB": "Entrance ticket of \\2; fotomechanical print on steel plate (1860 ca.) of the Alte Pinakothek in Munich",
-    "nl_NL": "Bezoekersticket van \\2; fotomechanische gravure op staalplaat (1860 ca.) van de Alte Pinakothek in München"
+  "Biglietto da visita (di|del|della) (\\$\\w+). Incisione su lastra d'acciaio stampa fotomeccanica \\(1860 ca.\\) de l'Alte Pinakothek di Monaco di Baviera$": {
+    "en_GB": "Entrance ticket of \\2. Fotomechanical print on steel plate (1860 ca.) of the Alte Pinakothek in Munich",
+    "nl_NL": "Bezoekersticket van \\2. Fotomechanische gravure op staalplaat (1860 ca.) van de Alte Pinakothek in München"
   },
   "Biglietto della Diligenza per Roma$": {
     "en_GB": "Ticket for the stage-coach to Rome",
