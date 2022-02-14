@@ -1811,6 +1811,23 @@
     "titles": [["tenente generale", null]],
     "wikidata:id": "Q699354"
   },
+  "$Blaue": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN. Ik zou zweren dat hij op het Campo Teutonico ligt...",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", null]],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Blaue",
+    "titles": [["commendatore", null]],
+    "wikidata:id": null
+  },
   "$Blochausen": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -2843,23 +2860,6 @@
     "titles": [],
     "wikidata:id": null
   },
-  "$Bussi": {
-    "ISNI:id": null,
-    "comment_daniel": "Het is me na een lange zoektocht nog steeds onduidelijk wat er allemaal aan de gang was in Trofarello.",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [["Sindaco di Trofarello", null]],
-    "images": [],
-    "name": "Giuseppe",
-    "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
-    "surname": "Bussi",
-    "titles": [],
-    "wikidata:id": null
-  },
   "$Buttet": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3354,6 +3354,28 @@
     "titles": [],
     "wikidata:id": "Q105038323"
   },
+  "$Cardelli": {
+    "ISNI:id": "0000 0004 1639 899X",
+    "comment_daniel": "",
+    "date_of_birth": "1798-03-27",
+    "date_of_death": "1877",
+    "functions": [
+      ["Direttore generale dei Lotti Pontificii dello Stato Pontificio", null]
+    ],
+    "images": [],
+    "name": "Carlo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Guida civile, artistica, commerciale & della città di Roma per l'anno 1866. Vol. 1 (Stabilimento Tipografico di G. Aurelj.: Roma, 1866), p. 101",
+      "Mori, Elisbaetta, 'Brevi note sull’Archivio Del Bufalo conservato presso l’Archivio Storico Capitolino', found on: http://www.archiviocapitolino.it/files/archivio/del_bufalo.pdf"
+    ],
+    "surname": "Cardelli",
+    "titles": [["conte", null]],
+    "wikidata:id": null
+  },
   "$Carneglia": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3621,6 +3643,30 @@
     ],
     "surname": "Casaretto",
     "titles": [],
+    "wikidata:id": null
+  },
+  "$Castelbarco": {
+    "ISNI:id": null,
+    "comment_daniel": "Mates with Cavour",
+    "date_of_birth": "1808",
+    "date_of_death": "1862",
+    "functions": [
+      [
+        "Direttore Generale delle Gabelle al Ministero delle Finanze del Regno di Sardegna",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Camillo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "'CAMILLO BONGIOVANNI DI CASTELBORGO', L’Azienda Agricola Castello di Neive, found on: https://www.castellodineive.it/camillo-bongiovanni-castelborgo"
+    ],
+    "surname": "Bongiovanni",
+    "titles": [["conte di Castelbarco", null]],
     "wikidata:id": null
   },
   "$Castillo": {
@@ -4512,6 +4558,25 @@
     "surname": "Crispi",
     "titles": [],
     "wikidata:id": "Q332626"
+  },
+  "$Cucceglio": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Direttore generale delle Poste a Torino", null]],
+    "images": [],
+    "name": "Federico",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Il Regnicolo degli stati sardi: almanacco popolare, politico, amministrativo, statistico, commerciale (Vedova Reviglio e Figli Librai Editori: Torino, 1857), p. 52"
+    ],
+    "surname": "Cucceglio",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
   },
   "$Dabormida": {
     "ISNI:id": "0000 0004 1631 2164",
@@ -5840,6 +5905,25 @@
     ],
     "wikidata:id": "Q663457"
   },
+  "$Fiorio": {
+    "ISNI:id": null,
+    "comment_daniel": "Het is me na een lange zoektocht nog steeds onduidelijk wat er allemaal aan de gang was in Trofarello. Bussi was toch niet de burgemeester: hij schreef een brief terug en ondertekent niet met Bussi; bovendien zou het vreemd zijn als hij naar zichzelf verwijst in de derde persoon. Busssi wordt omschreven als een vriend van de barones die overleden is.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Sindaco di Trofarello", null]],
+    "images": [],
+    "name": "",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Gazzetta del popolo, Anno VIII (1855), found on: https://books.google.it/books?id=habgcJ6Ws9gC&pg=PT151&dq=trofarello+comune&hl=nl&sa=X&ved=2ahUKEwiC_4H44PX1AhWtiv0HHXeiBh4Q6AF6BAgHEAI#v=onepage&q=trofarello%20comune&f=false"
+    ],
+    "surname": "Fiorio",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Firoi": {
     "ISNI:id": null,
     "comment_daniel": "I believe he might be included in 'Dizionario bibliografico dell'Armata Sarda seimila biografie'",
@@ -6693,6 +6777,23 @@
     "titles": [],
     "wikidata:id": "Q378706"
   },
+  "$Giovanni": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Francesco",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "De Giovanni",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Girardin": {
     "ISNI:id": "0000 0001 2133 493X",
     "comment_daniel": "",
@@ -7197,6 +7298,38 @@
     "surname": "Grooff",
     "titles": [],
     "wikidata:id": "Q11715799"
+  },
+  "$Grovestin": {
+    "ISNI:id": "0000 0003 9102 0826",
+    "comment_daniel": "",
+    "date_of_birth": "1797-04-17",
+    "date_of_death": "1871-09-25",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Madrid",
+        null
+      ],
+      [
+        "Segretario della Legazione del Regno dei Paesi Bassi a Lisbona e Berlino",
+        "1832/"
+      ]
+    ],
+    "images": ["https://rkd.nl/nl/explore/images/124747"],
+    "name": "Eduard",
+    "person_type": 1,
+    "place_of_birth": "Rotterdam",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Eduard Sirtema van Grovestins', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/50058131",
+      "Fruytier, J., 'Grovestins (Eduard baron Sirtema von)', in: K.H. Kossman, P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 8 (Leiden, A.W. Sijthoff, 1930)"
+    ],
+    "sources_other": [],
+    "surname": "Sirtema van Grovestins",
+    "titles": [
+      ["barone", null],
+      ["marchese di Sirtema", null]
+    ],
+    "wikidata:id": null
   },
   "$Guerra": {
     "ISNI:id": null,
@@ -9722,6 +9855,7 @@
     "place_of_birth": "Maastricht",
     "place_of_death": "Maastricht",
     "sources": [
+      "'Paulus Theresia van der Maesen de Sombreff', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/04070820",
       "Redactie parlement.com, 'Jhr.Mr. P.Th. van der Maesen de Sombreff', found on: https://www.parlement.com/id/vg09ll34k2y1/p_th_van_der_maesen_de_sombreff"
     ],
     "sources_other": [
@@ -9912,6 +10046,23 @@
       "Perthes, Justus, Almanach de Gotha. Annuaire diplomatique et statistique pour l'année 1861 (Gotha, 1861), 857"
     ],
     "surname": "Manteri",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Mantini": {
+    "ISNI:id": null,
+    "comment_daniel": "Might well be Mantina/Mantino. Can't find him anywhere in the books.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Direttore generale delle Poste a Firenze", null]],
+    "images": [],
+    "name": "J.M.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Mantini",
     "titles": [],
     "wikidata:id": null
   },
@@ -11554,6 +11705,30 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Nobili": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Archivista di 2 ° classe al Ministero degli Affari Esteri del Regno d'Italia",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Achille",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Calendario generale del Regno d'Italia pel 1877 (Tipografia Barbèro: Roma, 1877), p. 131"
+    ],
+    "surname": "De Nobili",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Nossardi": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -11593,6 +11768,27 @@
     "surname": "Novelli",
     "titles": [],
     "wikidata:id": "Q24239773"
+  },
+  "$NovelliL": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Direttore generale del Debito Pubblico del Regno d'Italia", null]
+    ],
+    "images": [],
+    "name": "Luigi",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Calendario generale del Regno d'Italia pel 1872 (Tipografia Barbèra: Roma, 1872), p. 188"
+    ],
+    "surname": "Novelli",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Noyer": {
     "ISNI:id": null,
@@ -11997,6 +12193,33 @@
     "titles": [["vescovo", null]],
     "wikidata:id": null
   },
+  "$Ortiz": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1826-12-09",
+    "date_of_death": "1910",
+    "functions": [
+      ["Capitano dell'esercito della Repubblica di Costa Rica", null],
+      ["Console della Repubblica di Costa Rica a Cadice e Siviglia", null],
+      [
+        "Incaricato d'affari della Repubblica di Costa Rica presso la Santa Sede",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Isidro Rafael",
+    "person_type": 1,
+    "place_of_birth": "Città del Guatemala",
+    "place_of_death": "Ascain",
+    "sources": [],
+    "sources_other": [
+      "Carbonell, Jorge Francisco Sáenz, 'Agapito Jimenéz: El Canciller' (2016), pp. 31-32",
+      "Politica y vida cotidiana, la sociedad vasca del siglio XIX en la correspondencia del archivio de la casa de Zavala, ed. Fernández de Heredia y Luis M. de Zavala (Edición Etor-Ostoa: Lasarte, 2008), found on: https://www.archivozavala.org/sites/default/files/2019-04/politica_vida_cotidiana_zavala.pdf"
+    ],
+    "surname": "Ortiz de Urruela",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Otterloo": {
     "ISNI:id": "0000 0000 8484 696X",
     "comment_daniel": "",
@@ -12285,6 +12508,31 @@
       ["Cav.", null]
     ],
     "wikidata:id": "Q3845663"
+  },
+  "$Papini": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Archivista di 1 ° classe al Ministero degli Affari Esteri del Regno d'Italia",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Andrea",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Calendario generale del Regno d'Italia pel 1877 (Tipografia Barbèro: Roma, 1877), p. 131",
+      "Guida civile amministrativa commerciale della città di Firenze (Firenze, 1863), p. 46"
+    ],
+    "surname": "Papini",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
   },
   "$Parisi": {
     "ISNI:id": null,
@@ -12664,7 +12912,7 @@
   },
   "$Pianori": {
     "ISNI:id": "0000 0000 2378 3950",
-    "comment_daniel": "",
+    "comment_daniel": "It's quite odd that the source names Pianori 'Giannesi' instead of 'Giovanni'. Must have been a mistake.",
     "date_of_birth": "1823-08-16",
     "date_of_death": "1855-05-14",
     "functions": [],
@@ -16578,6 +16826,25 @@
     ],
     "wikidata:id": "Q76244474"
   },
+  "$Uehle": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      ["Furiere nel primo reggimento straniero dello Stato Pontificio", null]
+    ],
+    "images": [],
+    "name": "E.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Uehle",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Ugolini": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -17036,6 +17303,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Visanti": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN. Possibly Isach or Israele",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "I.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "di Leon Visanti",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Visconti": {
     "ISNI:id": "0000 0000 2732 1040",
     "comment_daniel": "",
@@ -17477,6 +17761,23 @@
     "titles": [["conte", null]],
     "wikidata:id": null
   },
+  "$Wesdiken": {
+    "ISNI:id": null,
+    "comment_daniel": "No clue, but this person seems to have been insignificant for the archive. He wasn't allowed to debark at Civitavecchia or something like that (he was a passenger, originally from Amsterdam). Don't think this is the correct spelling, but since I couldn't make it out myself either I went for Pizzo's guess.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Wesdiken",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Wessenberg": {
     "ISNI:id": null,
     "comment_daniel": "It's strange, I can hardly find a trace of Ferdinand while the Wessenberg lineage is quite well known...",
@@ -17595,6 +17896,23 @@
     "surname": "Willmar",
     "titles": [],
     "wikidata:id": "Q3166043"
+  },
+  "$Winkler": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "F.E.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Winkler",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Wiseman": {
     "ISNI:id": "0000 0001 2138 6553",
