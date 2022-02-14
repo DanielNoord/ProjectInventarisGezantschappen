@@ -1,5 +1,4 @@
 import datetime
-import locale
 import re
 from typing import Literal, Optional
 
@@ -38,10 +37,14 @@ def extract_date(  # pylint: disable=too-many-branches
         if m_1:
             if d_1:
                 date1_datetime = datetime.date(int(y_1), int(m_1), int(d_1))
-                date1_string = format_date(date1_datetime, "d MMMM yyyy",  locale=localization)
+                date1_string = format_date(
+                    date1_datetime, "d MMMM yyyy", locale=localization
+                )
             else:
                 date1_datetime = datetime.date(int(y_1), int(m_1), 1)
-                date1_string = format_date(date1_datetime, "MMMM yyyy",  locale=localization)
+                date1_string = format_date(
+                    date1_datetime, "MMMM yyyy", locale=localization
+                )
         else:
             date1_datetime = datetime.date(int(y_1), 1, 1)
             date1_string = y_1
@@ -50,10 +53,14 @@ def extract_date(  # pylint: disable=too-many-branches
         if m_2:
             if d_2:
                 date2_datetime = datetime.date(int(y_2), int(m_2), int(d_2))
-                date2_string = format_date(date2_datetime, "d MMMM yyyy",  locale=localization)
+                date2_string = format_date(
+                    date2_datetime, "d MMMM yyyy", locale=localization
+                )
             else:
                 date2_datetime = datetime.date(int(y_2), int(m_2), 1)
-                date2_string = format_date(date2_datetime, "MMMM yyyy",  locale=localization)
+                date2_string = format_date(
+                    date2_datetime, "MMMM yyyy", locale=localization
+                )
         else:
             date2_datetime = datetime.date(int(y_2), 1, 1)
             date2_string = y_2
