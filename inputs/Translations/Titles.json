@@ -175,6 +175,11 @@
     "nl_NL": "graaf van Campello",
     "position": "After"
   },
+  "conte di Castelbarco": {
+    "en_GB": "count of Castelbarco",
+    "nl_NL": "graaf van Castelbarco",
+    "position": "After"
+  },
   "conte di Cavour": {
     "en_GB": "count of Cavour",
     "nl_NL": "graaf van Cavour",
@@ -308,6 +313,11 @@
   "marchese di Oriolo": {
     "en_GB": "Marquess of Oriolo",
     "nl_NL": "markies van Oriolo",
+    "position": "After"
+  },
+  "marchese di Sirtema": {
+    "en_GB": "Marquess of Sirtema",
+    "nl_NL": "markies van Sirtema",
     "position": "After"
   },
   "maresciallo": {

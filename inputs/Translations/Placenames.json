@@ -216,6 +216,14 @@
     "longitude": "5.91111",
     "nl_NL": "Arnhem"
   },
+  "Ascain": {
+    "en_GB": "Ascain",
+    "geonames_id": 3036596,
+    "geonames_wikipedia": null,
+    "latitude": "43.34595",
+    "longitude": "-1.62118",
+    "nl_NL": "Ascain"
+  },
   "Ascoli Piceno": {
     "en_GB": "Ascoli Piceno",
     "geonames_id": 3182749,
@@ -791,6 +799,14 @@
     "latitude": "-33.92584",
     "longitude": "18.42322",
     "nl_NL": "Kaapstad"
+  },
+  "Città del Guatemala": {
+    "en_GB": "Guatemala City",
+    "geonames_id": 3598132,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Guatemala_City",
+    "latitude": "14.64072",
+    "longitude": "-90.51327",
+    "nl_NL": "Guatemala-Stad"
   },
   "Città del Messico": {
     "en_GB": "Mexico City",

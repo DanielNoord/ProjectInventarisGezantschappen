@@ -124,6 +124,14 @@
     "en_GB": "Archivist",
     "nl_NL": "Archivist"
   },
+  "Archivista di 1 ° classe al Ministero degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "Archivist of the 1st class at the ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Archivist van de 1e klasse bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+  },
+  "Archivista di 2 ° classe al Ministero degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "Archivist of the 2nd class at the ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Archivist van de 2e klasse bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+  },
   "Arcivescovo di Bologna": {
     "en_GB": "Archbishop of Bologna",
     "nl_NL": "Aartsbisschop van Bologna"
@@ -259,6 +267,10 @@
   "Capitano aiutante dei Dragoni Pontifici": {
     "en_GB": "Adjutant captain of the Papal Dragoons",
     "nl_NL": "Adjudant kapitein van de Pauselijke Dragonders"
+  },
+  "Capitano dell'esercito della Repubblica di Costa Rica": {
+    "en_GB": "Captain of the army of the Republic of Costa Rica",
+    "nl_NL": "Kapitein van het leger van de Republiek Costa Rica"
   },
   "Capitano della Repubblica di San Martino": {
     "en_GB": "Captain of the Republic of San Martino",
@@ -624,6 +636,10 @@
     "en_GB": "Consul of the Republic of the Seven United Netherlands in Genoa",
     "nl_NL": "Consul van de Republiek der Zeven Verenigde Nederlanden te Genua"
   },
+  "Console della Repubblica di Costa Rica a Cadice e Siviglia": {
+    "en_GB": "Consul of the Republic of Costa Rica in Cádiz and Seville",
+    "nl_NL": "Consul van de Republiek Costa Rica te Cadiz en Sevilla"
+  },
   "Console generale aggiunto del Regno dei Paesi Bassi a Genova": {
     "en_GB": "Deputy consul general of the Kingdom of the Netherlands in Genoa",
     "nl_NL": "Plaatsvervangend consul-generaal van het Koninkrijk der Nederlanden te Genua"
@@ -703,6 +719,10 @@
   "Delegato apostolico ad Ascoli": {
     "en_GB": "Apostolic delegate in Ascoli",
     "nl_NL": "Apostolisch delegaat te Ascoli"
+  },
+  "Direttore Generale delle Gabelle al Ministero delle Finanze del Regno di Sardegna": {
+    "en_GB": "Director-general of the Tax Office with the Ministry of Finances of the Kingdom of Sardinia",
+    "nl_NL": "Directeur-generaal van de Belastingdienst bij het Ministerie van Financiën van het Koninkrijk Sardinië"
   },
   "Direttore ad interim della cancelleria per gli Affari Lussemburghesi dell'Aia": {
     "en_GB": "Ad interim director of the chancellery for Luxembourgish Affairs in The Hague",
@@ -800,6 +820,10 @@
     "en_GB": "Director-general of the _Dazi Indiretti_ of the Kingdom of the Two Sicilies",
     "nl_NL": "Directeur-generaal van de _Dazi Indiretti_ van het Koninkrijk der Beide Siciliën"
   },
+  "Direttore generale dei Lotti Pontificii dello Stato Pontificio": {
+    "en_GB": "Director general of Gambling in the Papal States",
+    "nl_NL": "Directeur-generaal van het Gokspel in de Pauselijke Staat"
+  },
   "Direttore generale dei Musei e Gallerie Pontificie": {
     "en_GB": "Director-general of the Papal Museums and Galleries",
     "nl_NL": "Directeur-generaal van de Pauselijke musea en galerijen"
@@ -807,6 +831,10 @@
   "Direttore generale dei Telegrafi del Regno d'Italia": {
     "en_GB": "Director general of the Telegraph Office of the Kingdom of Italy",
     "nl_NL": "Directeur-generaal van Telegrafie van het Koninkrijk Italië"
+  },
+  "Direttore generale del Debito Pubblico del Regno d'Italia": {
+    "en_GB": "Director general of the Directorate of Public Debt of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal bij het Directoraat van Staatsschuld van het Koninkrijk Italië"
   },
   "Direttore generale del servizio militare presso il Ministero della Marina": {
     "en_GB": "Director general of the Military Service of the Ministry of the Marine",
@@ -816,9 +844,17 @@
     "en_GB": "Director general at the ministry of Finances of the Kingdom of Italy",
     "nl_NL": "Directeur-generaal bij het ministerie van Financiën van het Koninkrijk Italië"
   },
+  "Direttore generale delle Poste a Firenze": {
+    "en_GB": "Director-general of the Post in Florence",
+    "nl_NL": "Directeur-generaal van de Post in Florence"
+  },
   "Direttore generale delle Poste a Roma": {
-    "en_GB": "Director-general of the Post of Rome",
+    "en_GB": "Director-general of the Post in Rome",
     "nl_NL": "Directeur-generaal van de Post in Rome"
+  },
+  "Direttore generale delle Poste a Torino": {
+    "en_GB": "Director-general of the Post in Turin",
+    "nl_NL": "Directeur-generaal van de Post in Turijn"
   },
   "Direttore generale delle armi speciali del Regno d'Italia": {
     "en_GB": "Director general of special arms of the Kingdom of Italy",
@@ -895,6 +931,10 @@
   "Fornitore dell'esercito Francese": {
     "en_GB": "Supplier of the French army",
     "nl_NL": "Leverancier van het Franse leger"
+  },
+  "Furiere nel primo reggimento straniero dello Stato Pontificio": {
+    "en_GB": "Quartermaster in the first foreign regiment of the Papal States",
+    "nl_NL": "Kwartiermeester in het eerste buitenlandse regiment van de Pauselijke Staat"
   },
   "Generale": {
     "en_GB": "General",
@@ -1172,6 +1212,10 @@
     "en_GB": "Chargé d'affaires of the Republic of Mexico to the Holy See",
     "nl_NL": "Zaakgelastigde van de Republiek van Mexico bij de Heilige Stoel"
   },
+  "Incaricato d'affari della Repubblica di Costa Rica presso la Santa Sede": {
+    "en_GB": "Chargé d'affaires of the Republic of Costa Rica to the Holy See",
+    "nl_NL": "Zaakgelastigde van de Republiek van Costa Rica bij de Heilige Stoel"
+  },
   "Incaricato d'affari della Santa Sede al Granducato di Toscana": {
     "en_GB": "Chargé d'affaires of the Holy See to the Grand Duchy of Tuscany",
     "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Groothertogdom van Toscane"
@@ -1331,6 +1375,10 @@
   "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Bruxelles": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Brussel",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden te Brussel"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Madrid": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Madrid",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk der Nederlanden te Madrid"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Parigi": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of the Netherlands in Paris",
@@ -2476,6 +2524,10 @@
   "Segretario della Guerra e Colonie del Regno Unito": {
     "en_GB": "Secretary of State for War and the Colonies of the United Kingdom",
     "nl_NL": "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk"
+  },
+  "Segretario della Legazione del Regno dei Paesi Bassi a Lisbona e Berlino": {
+    "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Lissabon and Paris",
+    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Lissabon and Parijs"
   },
   "Segretario della Legazione del Regno dei Paesi Bassi a Parigi": {
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Paris",
