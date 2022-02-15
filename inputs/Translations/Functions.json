@@ -236,6 +236,10 @@
     "en_GB": "Chancellor with the Legation of the Kingdom of Prussia in Rome",
     "nl_NL": "Kanselier bij het Gezantschap van het Koninkrijk Pruisen in Rome"
   },
+  "Segretario della cancelliere della Legazione dell'Impero Austro-Ungarico a Roma": {
+    "en_GB": "Secretary of the chancellor with the Legation of the Austrian-Hungarian Empire in Rome",
+    "nl_NL": "Secretaris van de kanselier bij het Gezantschap van het Keizerrijk Oostenrijk-Hongarije in Rome"
+  },
   "Cancelliere di Stato del Granducato del Lussemburgo all'Aia": {
     "en_GB": "State Chancellor of the Grand Duchy of Luxembourg in The Hague",
     "nl_NL": "Rijkskanselier van het Groothertogdom Luxemburg te Den Haag"
@@ -435,6 +439,10 @@
   "Comandante generale della Regia Marina del Regno di Sardegna": {
     "en_GB": "Commander general of the Royal Navy of the Kingdom of Sardinia",
     "nl_NL": "Commandant-generaal van de Koninklijke Marine van het Koninkrijk Sardinië"
+  },
+  "Comandante generale della guardia nazionale del Regno di Sardegna": {
+    "en_GB": "Commander general of the national guard of the Kingdom of Sardinia",
+    "nl_NL": "Commandant-generaal van de nationale garde van het Koninkrijk Sardinië"
   },
   "Comandante in capo della divisione Francese a Roma": {
     "en_GB": "Commander in chief of the French division in Rome",
@@ -1520,7 +1528,7 @@
     "en_GB": "Lieutenant general of the Sovereign Military Order of Malta",
     "nl_NL": "Luitenant-generaal van de Soevereine Militaire Orde van Malta"
   },
-  "Luogotenente Generale delle province napoletane": {
+  "Luogotenente Generale delle province Napoletane": {
     "en_GB": "Lieutenant general of the Neapolitan provinces",
     "nl_NL": "Luitenant-generaal van de Napolitaanse provincies"
   },
@@ -2348,6 +2356,10 @@
     "en_GB": "Professor",
     "nl_NL": "Professor"
   },
+  "Professore Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum a l'Università di Amsterdam": {
+    "en_GB": "Professor Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum at the Univeristy of Amsterdam",
+    "nl_NL": "Professor Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum op de Universiteit van Amsterdam"
+  },
   "Professore della Letteratura Olandese all'Università di Leida": {
     "en_GB": "Professor of Dutch language at the University of Leiden",
     "nl_NL": "Hoogleraar Nederlandse Letter op de Universiteit van Leiden"
@@ -2468,6 +2480,10 @@
   "Scultore": {
     "en_GB": "Sculptor",
     "nl_NL": "Beeldhouwer"
+  },
+  "Segretario del Koninklijke Akademie der Wetenschappen a Amsterdam": {
+    "en_GB": "Secretary of the Koninklijke Akademie der Wetenschappen in Amsterdam",
+    "nl_NL": "Secretaris van de Koninklijke Akademie der Wetenschappen in Amsterdam"
   },
   "Segretario del Ministero dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Secretary of the Ministry of Public Education, National Indusry and Colonies of the Kingdom of the Netherlands",

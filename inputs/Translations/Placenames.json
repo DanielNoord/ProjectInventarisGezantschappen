@@ -832,6 +832,14 @@
     "longitude": "7.57883",
     "nl_NL": "Koblenz"
   },
+  "Coburgo": {
+    "en_GB": "Coburg",
+    "geonames_id": 2939951,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Coburg",
+    "latitude": "50.25937",
+    "longitude": "10.96384",
+    "nl_NL": "Coburg"
+  },
   "Coevorden": {
     "en_GB": "Coevorden",
     "geonames_id": 2757937,
@@ -2271,6 +2279,14 @@
     "latitude": "43.87439",
     "longitude": "8.01401",
     "nl_NL": "Porto Maurizio"
+  },
+  "Praga": {
+    "en_GB": "Prague",
+    "geonames_id": 3067696,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Prague",
+    "latitude": "50.08804",
+    "longitude": "14.42076",
+    "nl_NL": "Praag"
   },
   "Prato": {
     "en_GB": "Prato",
