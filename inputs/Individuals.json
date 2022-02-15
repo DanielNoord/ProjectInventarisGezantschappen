@@ -2051,6 +2051,37 @@
     "titles": [],
     "wikidata:id": "Q3745170"
   },
+  "$Boot": {
+    "ISNI:id": "0000 0000 6260 4943",
+    "comment_daniel": "",
+    "date_of_birth": "1811-08-17",
+    "date_of_death": "1901-12-17",
+    "functions": [
+      [
+        "Professore Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum a l'Università di Amsterdam",
+        "1851/1870-09-14"
+      ],
+      [
+        "Segretario del Koninklijke Akademie der Wetenschappen a Amsterdam",
+        "1863/"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Portret_van_de_hoogleraar_klassieke_talen_Johan_Cornelis_Gerard_Boot%2C_RP-P-OB-59.541.jpg"
+    ],
+    "name": "Johannes Cornelius Gerardus",
+    "person_type": 1,
+    "place_of_birth": "Arnhem",
+    "place_of_death": "Amsterdam",
+    "sources": [
+      "'Johan Cornelis Gerard Boot', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/69022847",
+      "Damsté, P.H., 'Boot (Johan Cornelis Gerard)', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 3 (Leiden, A.W. Sijthoff, 1914)"
+    ],
+    "sources_other": [],
+    "surname": "Boot",
+    "titles": [],
+    "wikidata:id": "Q2013013"
+  },
   "$Borea": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -5252,6 +5283,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Essen": {
+    "ISNI:id": null,
+    "comment_daniel": "Kan wat mij betreft ook Elsen zijn, maar vooralsnog geenszins een prioriteit",
+    "date_of_birth": "",
+    "date_of_death": "1867-04-18",
+    "functions": [],
+    "images": [],
+    "name": "Leonard",
+    "person_type": 1,
+    "place_of_birth": "Rotterdam",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van Essen",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Esterhazy": {
     "ISNI:id": "0000 0000 5810 8779",
     "comment_daniel": "",
@@ -5503,7 +5551,7 @@
         "Ministro degli Affari Esteri del Regno di Sardegna",
         "1860-03-24/1860-12-31"
       ],
-      ["Luogotenente Generale delle province napoletane", "1860-11-06/"]
+      ["Luogotenente Generale delle province Napoletane", "1860-11-06/"]
     ],
     "images": [
       "https://www.museotorino.it/view/s/16308fce71d9475c87a527fb713346b8"
@@ -7162,6 +7210,30 @@
       ["conte di Gramont", "1855/"]
     ],
     "wikidata:id": "Q585590"
+  },
+  "$Granetti": {
+    "ISNI:id": null,
+    "comment_daniel": "Voornaam ook wel Benedict",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Segretario della cancelliere della Legazione dell'Impero Austro-Ungarico a Roma",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Benedetto",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Annuaire diplomatique et consulaire des états des deux mondes (Justus Perthes: Gotha, 1882), p. 16"
+    ],
+    "surname": "Granetti",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Grassellini": {
     "ISNI:id": "0000 0000 6217 5691",
@@ -10719,6 +10791,35 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Mensdorff": {
+    "ISNI:id": "0000 0000 0999 4380",
+    "comment_daniel": "",
+    "date_of_birth": "1813-08-04",
+    "date_of_death": "1871-02-14",
+    "functions": [
+      [
+        "Ministro degli Affari Esteri dell'Impero d'Austria",
+        "1864-10-27/1866-10-30"
+      ]
+    ],
+    "images": [
+      "https://www.rct.uk/collection/406272/prince-alexander-count-von-mensdorff-pouilly-1813-1871"
+    ],
+    "name": "Alexander",
+    "person_type": 1,
+    "place_of_birth": "Coburgo",
+    "place_of_death": "Praga",
+    "sources": [
+      "Rumpler, Helmut, 'Mensdorff-Pouilly, Alexander Graf von', in: Neue Deutsche Biographie 17 (1994), found on: https://www.deutsche-biographie.de/pnd116885564.html#ndbcontent"
+    ],
+    "sources_other": [],
+    "surname": "Mensdorff-Pouilly",
+    "titles": [
+      ["conte", null],
+      ["principe di Dietrichstein zu Nikolsburg", "1869/"]
+    ],
+    "wikidata:id": "Q78702"
+  },
   "$MenthonBake": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -10918,6 +11019,23 @@
     "surname": "Meyer von Schauensee",
     "titles": [],
     "wikidata:id": "Q107059878"
+  },
+  "$Meysenbug": {
+    "ISNI:id": null,
+    "comment_daniel": "This might concern the writer Malwida von Meysenbug, who moved from Rome to Florence in 1863, although there was also an Austrian diplomat of the same name who might have been in Italy. In the letter, Meysenbug asks for formal protection for an Austrian citizen in Florence.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "von Meysenbug",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Migliorati": {
     "ISNI:id": null,
@@ -17283,6 +17401,41 @@
     "surname": "de Vignet",
     "titles": [["conte", null]],
     "wikidata:id": null
+  },
+  "$Villafranca": {
+    "ISNI:id": "0000 0003 7748 3576",
+    "comment_daniel": "",
+    "date_of_birth": "1816-04-14",
+    "date_of_death": "1888-12-15",
+    "functions": [
+      [
+        "Comandante generale della Regia Marina del Regno di Sardegna",
+        "1844-07-16/1848"
+      ],
+      [
+        "Comandante generale della guardia nazionale del Regno di Sardegna",
+        "1849/"
+      ],
+      ["Luogotenente Generale delle province Napoletane", "1861-01-03/"]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Il_principe_Eugenio_di_Carignano.jpg"
+    ],
+    "name": "Eugenio Emanuele",
+    "person_type": 1,
+    "place_of_birth": "Parigi",
+    "place_of_death": "Torino",
+    "sources": [
+      "Merlotti, Andrea, 'Savoia Villafranca, Eugenio Emanuele, principe di Carignano', in: Dizionario Biografico degli Italiani. Volume 91 (Rome, Treccani, 2018), found on: https://www.treccani.it/enciclopedia/savoia-villafranca-eugenio-emanuele-principe-di-carignano_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "di Savoia-Villafranca",
+    "titles": [
+      ["Cav.", null],
+      ["principe di Carignano", "1834-04-28/"],
+      ["ammiraglio", "1851/"]
+    ],
+    "wikidata:id": "Q3734341"
   },
   "$Violet": {
     "ISNI:id": null,
