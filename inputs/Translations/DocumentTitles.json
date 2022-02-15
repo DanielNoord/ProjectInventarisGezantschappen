@@ -316,6 +316,10 @@
     "en_GB": "Attachment about the staff of the dipomatic mission in Rome",
     "nl_NL": "Bijlage over de staf van de diplomatieke missie te Rome"
   },
+  "Allegato sulle tariffe doganali \\(a stampa\\)$": {
+    "en_GB": "Attachment about custom rates (printed)",
+    "nl_NL": "Bijlage over douanetarieven (gedrukt)"
+  },
   "Allegato trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Attached transcription of an Edict of \\2",
     "nl_NL": "Bijgevoegde transcriptie van een Edict van \\2"
@@ -415,6 +419,10 @@
   "Appunto per omaggio al Papa$": {
     "en_GB": "Note in homage to the Pope",
     "nl_NL": "Notitie ter ere van de paus"
+  },
+  "Appunto su (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Note about \\1 to \\3",
+    "nl_NL": "Notitie over \\1 aan \\3"
   },
   "Appunto su un contratto$": {
     "en_GB": "Note on a contract",
@@ -1111,6 +1119,10 @@
   "Copia di una lettera (di|del|della) (\\$\\w+) (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Copy of a letter from \\2 by \\4",
     "nl_NL": "Kopie van een brief van \\2 door \\4"
+  },
+  "Copia di una lettera (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Copy from a letter from \\2 and \\4",
+    "nl_NL": "Kopie van een brief van \\2 en \\4"
   },
   "Copia di una lettera$": {
     "en_GB": "Copy of a letter",
@@ -1860,6 +1872,10 @@
     "en_GB": "Printed sheet “\\1” from \\3 about the estimate of 1851 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de schatting van 1851 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa il sistema monetario dello Stato Pontificio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 about the monetary system of the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\4)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 over het monetaire systeem vaan de Pauselijke Staat (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) circa il trattato tra lo Stato Pontificio e il Regno delle Due Sicilie per i confini territoriali \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” by \\3 concerning the treatise between the Papal States and the Kingdom of the Two Sicilies about territorial confines (Rome, \\4 Apr. \\5)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande het traktaat tussen de Pauselijke Staat en het Koninkrijk der Beide Siciliën over territoriale grenzen (Rome, \\4 apr. \\5)"
@@ -2059,10 +2075,6 @@
   "Foglio a stampa \"(.+)\"; giornale a stampa \"(.+)\" \\(N. (\\d+) del (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1”; printed newspaper “\\2” (N. \\3 of \\4 Oct. \\5)",
     "nl_NL": "Gedrukt blad “\\1”; gedrukte krant “\\2” (N. \\3 van \\4 okt. \\5)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" (di|del|della) (\\$\\w+) circa il sistema monetario dello Stato Pontificio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” from \\4 about the monetary system of the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\5)",
-    "nl_NL": "Gedrukt blad \\1) “\\2” van \\4 over het monetaire systeem vaan de Pauselijke Staat (Rome, Tipografia della Rev. Cam. Apost., \\5)"
   },
   "Foglio a stampa (.+)\\) \"(.+)\" (di|del|della) (\\$\\w+) relativo al sistema monetario dello Stato Pontificio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \\1) “\\2” from \\4 relating to the monetary system of the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\5 Jun. \\6)",
@@ -3044,6 +3056,10 @@
     "en_GB": "Legation in Rome. Outgoing diplomatic correspondance",
     "nl_NL": "Gezantschap in Rome. Uitgaande diplomatieke correspondentie"
   },
+  "Legazione di Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
+    "en_GB": "Legation in Rome. Outgoing diplomatic correspondance. \\1",
+    "nl_NL": "Gezantschap in Rome. Uitgaande diplomatieke correspondentie. \\1"
+  },
   "Legazione di Torino. (\\d\\d\\d\\d). Corrispondenza diplomatica in arrivo$": {
     "en_GB": "Legation in Turin. \\1. Incoming diplomatic correspondance",
     "nl_NL": "Gezantschap in Turijn. \\1. Inkomende diplomatieke correspondentie"
@@ -3107,10 +3123,6 @@
   "Les Autorités Romaines$": {
     "en_GB": "Les Autorités Romaines",
     "nl_NL": "Les Autorités Romaines"
-  },
-  "Lettera (a|al) (\\$\\w+) (di|del|della) (\\$\\w+) con allegata trascrizione di discorso pronunciato (da|dal|dalla) (\\$\\w+)$": {
-    "en_GB": "Letter from \\2 to \\4 with attached transcription of a speech delivered by \\6",
-    "nl_NL": "Brief van \\2 aan \\4 met bijgesloten transcriptie van een toespraak gegeven door \\6"
   },
   "Lettera (a|al) (\\$\\w+) \\(annuncio della fuga del (\\$\\w+)\\)$": {
     "en_GB": "Letter to \\2 (announcement of the flight of \\3)",
@@ -3244,22 +3256,6 @@
     "en_GB": "Letter from \\2 to \\4 with attached notification",
     "nl_NL": "Brief van \\2 aan \\4 met bijgesloten notificatie"
   },
-  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegati$": {
-    "en_GB": "Letter from \\2 to \\4 with attachments",
-    "nl_NL": "Brief van \\2 aan \\4 met bijlages"
-  },
-  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegato promemoria$": {
-    "en_GB": "Letter from \\2 to \\4 with attached memorandum",
-    "nl_NL": "Brief van \\2 aan \\4 met bijgevoegd memorandum"
-  },
-  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con allegato suo discorso$": {
-    "en_GB": "Letter from \\2 to \\4 with his speech attached",
-    "nl_NL": "Brief van \\2 aan \\4 met zijn toespraak bijgevoegd"
-  },
-  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con altre firme di sottoscrittori$": {
-    "en_GB": "Letter of \\2 to \\4 with other autographs of those who undersigned",
-    "nl_NL": "Brief van \\2 aan \\4 met andere handtekeningen van ondergeschrevenen"
-  },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) con elenchi delle attività previste durante il mese di agosto$": {
     "en_GB": "Letter of \\2 to \\4 with lists of activities planned during August",
     "nl_NL": "Brief van \\2 aan \\4 met lijsten van geplande activiteiten in augustus"
@@ -3340,7 +3336,7 @@
     "en_GB": "Letter from \\2 to \\4 and \\6",
     "nl_NL": "Brief van \\2 aan \\4 en \\6"
   },
-  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) e allegato sua risposta$": {
+  "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) e allegata sua risposta$": {
     "en_GB": "Letter from \\2 to \\4 with his repsonse attached",
     "nl_NL": "Brief van \\2 aan \\4 met zijn respons bijgevoegd"
   },
@@ -3376,9 +3372,33 @@
     "en_GB": "Letter from \\2 to \\4, \\6 and \\8",
     "nl_NL": "Brief van \\2 aan \\4, \\6 en \\8"
   },
+  "Lettera (di|del|della) (\\$\\w+) (a|al>alla) (\\$\\w+) con allegata trascrizione di discorso pronunciato (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Letter from \\2 to \\4 with attached transcription of a speech delivered by \\6",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgesloten transcriptie van een toespraak gegeven door \\6"
+  },
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
     "en_GB": "Letter from \\2 to \\4 (attachment)",
     "nl_NL": "Brief van \\2 aan \\4 (bijlage)"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con allegata citazione del Tribunale$": {
+    "en_GB": "Letter from \\2 to \\4 with attached court order from the Tribunal",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgevoegde dagvaarding van het Tribunaal"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con allegati$": {
+    "en_GB": "Letter from \\2 to \\4 with attachments",
+    "nl_NL": "Brief van \\2 aan \\4 met bijlages"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con allegato promemoria$": {
+    "en_GB": "Letter from \\2 to \\4 with attached memorandum",
+    "nl_NL": "Brief van \\2 aan \\4 met bijgevoegd memorandum"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con allegato suo discorso$": {
+    "en_GB": "Letter from \\2 to \\4 with his speech attached",
+    "nl_NL": "Brief van \\2 aan \\4 met zijn toespraak bijgevoegd"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con altre firme di sottoscrittori$": {
+    "en_GB": "Letter of \\2 to \\4 with other autographs of those who undersigned",
+    "nl_NL": "Brief van \\2 aan \\4 met andere handtekeningen van ondergeschrevenen"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) con copie di carteggi$": {
     "en_GB": "Letter of \\2 to \\4 with copies of correspondence",
@@ -3917,8 +3937,8 @@
     "nl_NL": "Uitnodigingsbrief voor een persoonlijke audiëntie van \\2 aan \\4"
   },
   "Lettera di partecipazione alle nozze della figlia (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter of participation to the wedding night of the daughter of \\2 to \\4",
-    "nl_NL": "Brief van participatie aan de huwelijksnacht van de dochter van \\2 aan \\4"
+    "en_GB": "Letter of participation to the wedding of the daughter of \\2 to \\4",
+    "nl_NL": "Brief van participatie voor het huwelijk van de dochter van \\2 aan \\4"
   },
   "Lettera di presentazione (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of presentation from \\2 to \\4",
@@ -3955,6 +3975,10 @@
   "Lettera litografata (di|del|della) (\\$\\w+)$": {
     "en_GB": "Lithographed letter from \\2",
     "nl_NL": "Gelitografeerde brief van \\2"
+  },
+  "Lettera litografata$": {
+    "en_GB": "Lithographed letter",
+    "nl_NL": "Gelitografeerde brief"
   },
   "Lettera pastorale a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Printed pastoral letter of \\2 to \\4",
@@ -4119,6 +4143,10 @@
   "Memoria su Roma$": {
     "en_GB": "Mmemory about Rome",
     "nl_NL": "Memorie over Rome"
+  },
+  "Memoria su beni (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Mmemory about the possessions of \\2",
+    "nl_NL": "Memorie over de bezittingen van \\2"
   },
   "Memoria su dispacci arrivati$": {
     "en_GB": "Memory about incoming dispatches",
@@ -4987,6 +5015,10 @@
   "Pastorale (di|del|della) (\\$\\w+) in occasione dei recenti disastri della Polonia$": {
     "en_GB": "Pastoral of \\2 on the occassion of the recent disasters in Poland",
     "nl_NL": "Pastorale van \\2 in het licht van de recente rampen in Polen"
+  },
+  "Petizione con firma dei sottoscrittori$": {
+    "en_GB": "Petition with the autographs of the signatories",
+    "nl_NL": "Petitie met de handtekeningen van de onderschrijvers"
   },
   "Petizione per rendere omaggio al Pio IX sottoscritta da vari ministri degli Esteri e diretta (a|al) (\\$\\w+)$": {
     "en_GB": "Petition to pay homage to Pius IX undersigned by various Ministers of Foreign Affairs and directed to \\2",
@@ -6176,6 +6208,14 @@
     "en_GB": "Transcription of a Decree of \\2 in favour of \\4",
     "nl_NL": "Transcriptie van een Verordening van \\2 ten gunste van \\4"
   },
+  "Trascrizione di Decreto fatto (da|dal|dalla) (\\$\\w+) e sottoscritto (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+) sui dazi$": {
+    "en_GB": "Transcription of a Decree of \\2 signed by \\4 and \\6 about duties",
+    "nl_NL": "Transcriptie van een Verordening van \\2 ondertekend door \\4 en \\6 over belastingsheffingen"
+  },
+  "Trascrizione di Decreto fatto (da|dal|dalla) (\\$\\w+) sulle tare e tariffe delle merci$": {
+    "en_GB": "Transcription of a Decree of \\2 about the weight and tariffs of goods",
+    "nl_NL": "Transcriptie van een Verordening van \\2 over de gewichten en tariefen van goederen"
+  },
   "Trascrizione di Editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcription of an Edict of \\2",
     "nl_NL": "Transcriptie van een Edict van \\2"
@@ -6415,6 +6455,10 @@
   "Trascrizione e traduzione dell'Editto (di|del|della) (\\$\\w+) sulla stampa clandestina$": {
     "en_GB": "Transcription and translation of the edict of \\2 about the underground press",
     "nl_NL": "Transcriptie en vertaling van het edict van \\2 over de illegale pers"
+  },
+  "Trascrizione e traduzione della lettera confidenziale (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Transcription and translation of the confidential letter from \\2",
+    "nl_NL": "Transcriptie en vertaling van een vertrouwelijke brief van \\2"
   },
   "Trascrizione e traduzione della protesta fatta (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Transcription and translation of a protest made by \\2",
