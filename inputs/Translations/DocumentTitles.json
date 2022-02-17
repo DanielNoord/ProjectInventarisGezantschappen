@@ -35,6 +35,14 @@
     "en_GB": "“\\1” from \\3",
     "nl_NL": "“\\1” van \\3"
   },
+  "\"(.+)\" Romana di ferimenti ed omicidii per ispirito di parte$": {
+    "en_GB": "“\\1” Romana about the wounded and the murdered for the partisan spirit",
+    "nl_NL": "“\\1” Romana over de gewonden en gedoden voor de volksgeest"
+  },
+  "\"(.+)\" Romana di tentato assassinio con promessa di danaro indeterminata per ispirito di setta a danno (di|del|della) (\\$\\w+)$": {
+    "en_GB": "“\\1” Romana about the failed assassination attempt with the promise of money to the detriment of \\3",
+    "nl_NL": "“\\1” Romana over de mislukte moordpoging met de belofte van een geldbeloning ten nadele van \\3"
+  },
   "\"(.+)\" \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Aug. \\3)",
     "nl_NL": "“\\1” (\\2 aug. \\3)"
@@ -496,6 +504,10 @@
     "en_GB": "Articles extracted from the Giornale di Roma. Daily news",
     "nl_NL": "Artikelen geëxtraheerd uit de Giornale di Roma. Dagelijks nieuws"
   },
+  "Articoli estratti dal Journal des Débats$": {
+    "en_GB": "Articles extracted from the Journal des Débats",
+    "nl_NL": "Artikelen geëxtraheerd uit het Journal des Débats"
+  },
   "Articoli estratti dal giornale \"(.+)\"$": {
     "en_GB": "Articles extracted from the journal “\\1”",
     "nl_NL": "Artikelen geëxtraheerd uit het blad “\\1”"
@@ -940,6 +952,10 @@
     "en_GB": "Printed communication from \\1 about the appointment of a Government Commission that would have the direction of public affairs (Gaeta, 27 nov. 1848)",
     "nl_NL": "Gedrukte mededeling van \\1 over de benoeming van een regeringscommissie die de leiding zou hebben over de openbare aangelegenheden (Gaeta, 27 nov. 1848)"
   },
+  "Comunicazione circolare a stampa (di|del|della) (\\$\\w+)$": {
+    "en_GB": "Printed circulaire from \\2",
+    "nl_NL": "Gedrukte circulaire van \\2"
+  },
   "Comunicazione circolare a stampa$": {
     "en_GB": "Printed circulaire",
     "nl_NL": "Gedrukte circulaire"
@@ -1092,7 +1108,7 @@
     "en_GB": "Copy of a decree of the King of the Netherlands in favour of \\1",
     "nl_NL": "Kopie van een verordening van de Koning der Nederlanden ten gunste van \\1"
   },
-  "Copia di un dispaccio (a|al|alla) (\\$\\w+) a La Haye$": {
+  "Copia di un dispaccio (a|al|alla) (\\$\\w+) a l'Aia$": {
     "en_GB": "Copy of a dispatch to \\2 at The Hague",
     "nl_NL": "Kopie van een verzending aan \\2 in Den Haag"
   },
@@ -1123,6 +1139,10 @@
   "Copia di una lettera (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+)$": {
     "en_GB": "Copy from a letter from \\2 and \\4",
     "nl_NL": "Kopie van een brief van \\2 en \\4"
+  },
+  "Copia di una lettera (di|del|della) (\\$\\w+) fatto (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Copy from a letter from \\2 made by \\4",
+    "nl_NL": "Kopie van een brief van \\2 gemaakt door \\4"
   },
   "Copia di una lettera$": {
     "en_GB": "Copy of a letter",
@@ -2700,10 +2720,6 @@
     "en_GB": "Printed newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Sep. \\6)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 sep. \\6)"
   },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Napoli, N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed newspaper “\\1” (Naples, N. \\2 of \\3 May \\4)",
-    "nl_NL": "Gedrukte krant “\\1” (Napels, N. \\2 van \\3 mei \\4)"
-  },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - Napoli, N. (\\d+) del (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Year \\2 - Naples, N. \\3 of \\4 Nov. \\5)",
     "nl_NL": "Gedrukte krant “\\1” (Jaar \\2 - Napels, N. \\3 van \\4 nov. \\5)"
@@ -2807,6 +2823,10 @@
   "Giornale a stampa \"(.+)\" \\(Napoli, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Naples, \\2 Jun. \\3)",
     "nl_NL": "Gedrukte krant “\\1” (Napels, \\2 jun. \\3)"
+  },
+  "Giornale a stampa \"(.+)\" \\(Napoli, N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Naples, N. \\2 of \\3 May \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (Napels, N. \\2 van \\3 mei \\4)"
   },
   "Giornale a stampa \"(.+)\" \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed newspaper “\\1” (Palermo, \\2 Jun. \\3)",
@@ -3411,6 +3431,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) e minuta di risposta$": {
     "en_GB": "Letter from \\2 to \\4 and minute of response",
     "nl_NL": "Brief van \\2 aan \\4 en responsminuut"
+  },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) sull'abate Myre$": {
+    "en_GB": "Letter of \\2 to \\4 about the abbot Myre",
+    "nl_NL": "Brief van \\2 aan \\4 over de abt Myre"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to \\4",
@@ -4036,7 +4060,7 @@
     "en_GB": "Lettres diverses (Various letters)",
     "nl_NL": "Lettres diverses (Diverse brieven)"
   },
-  "Licenzo di Porto d'armi rilasciata (da|dal|dalla) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+  "Licenza di Porto d'armi rilasciata (da|dal|dalla) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Licence to carry arms issued by \\2 to \\4",
     "nl_NL": "Wapenlicentie uitgevaardigd door \\2 aan \\4"
   },
