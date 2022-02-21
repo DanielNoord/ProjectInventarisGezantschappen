@@ -1308,9 +1308,9 @@
     "en_GB": "Proxy for inheritance dispute of \\2",
     "nl_NL": "Volmacht voor erfenisgeschil van \\2"
   },
-  "Departement van Buitenlandsche Zaken \\(Dipartimento degli Affari Esteri (di|del|della) (\\$\\w+)\\) \\(a stampa\\)$": {
-    "en_GB": "Departement van Buitenlandsche Zaken (Department of Foreign Relations from \\1) (printed)",
-    "nl_NL": "Departement van Buitenlandsche Zaken (Departement van Buitenlandse Zaken van \\1) (gedrukt)"
+  "Departement van Buitenlandsche Zaken \\(Dipartimento degli Affari Esteri dei Paesi Bassi (di|del|della) (\\$\\w+)\\) \\(a stampa\\)$": {
+    "en_GB": "Departement van Buitenlandsche Zaken (Department of Foreign Relations of the Netherlands from \\1) (printed)",
+    "nl_NL": "Departement van Buitenlandsche Zaken (Departement van Buitenlandse Zaken van Nederland van \\1) (gedrukt)"
   },
   "Descrizione della persona ricercata (\\$\\w+)$": {
     "en_GB": "Description of wanted person \\1",
@@ -2532,7 +2532,7 @@
     "en_GB": "Sheet from the Commission de Passage from Marseille",
     "nl_NL": "Blad van de Commission de Passage van Marseille"
   },
-  "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) sett. (\\d\\d\\d\\d)\\)$": {
+  "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
     "nl_NL": "Gedrukt “\\1” (Portici, \\2 sep. \\3)"
   },
@@ -3167,6 +3167,10 @@
   "Legazioni di Roma e Napoli. Corrispondenza politica \\(in partenza\\)$": {
     "en_GB": "Legations of Rome and Naples. Political correspondance (outgoing)",
     "nl_NL": "Gezantschap van Rome en Napels. Politieke correspondentie (uitgaand)"
+  },
+  "Legazioni di Roma e Napoli. Corrispondenza politica in partenza$": {
+    "en_GB": "Legations of Rome and Naples. Outgoing political correspondance",
+    "nl_NL": "Gezantschap van Rome en Napels. Uitgaande politieke correspondentie"
   },
   "Les Autoritès Romaines \\(Le autorità romane\\)$": {
     "en_GB": "Les Autoritès Romaines (The Roman authorities)",
@@ -3896,6 +3900,10 @@
     "en_GB": "Letter from the Cabinet of the Police Force of Rome to \\2",
     "nl_NL": "Brief van het Kabinet van het Politiebureau te Rome aan \\2"
   },
+  "Lettera del Jockey Club di Firenze (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the Jockey Club of Florence to \\2",
+    "nl_NL": "Brief van de Jockey Club van Florence aan \\2"
+  },
   "Lettera del Ministero degli Affari Esteri (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the Ministry of Foreign Affairs to \\2",
     "nl_NL": "Brief van het Ministerie van Buitenlandse Zaken aan \\2"
@@ -4036,7 +4044,7 @@
     "en_GB": "Letter signed by \\2 and \\4 to \\6",
     "nl_NL": "Brief getekend door \\2 en \\4 aan \\6"
   },
-  "Lettera firmata Guillaume (a|al|alla) (\\$\\w+)$": {
+  "Lettera firmata da Guillaume (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter signed by Guillaume to \\2",
     "nl_NL": "Brief getekend door Guillaume aan \\2"
   },
@@ -5628,7 +5636,7 @@
     "en_GB": "Staatsblad van het Koningrijk der Nederlanden n. \\1 with watercolour engravings about the positioning of vessels (printed)",
     "nl_NL": "Staatsblad van het Koningrijk der Nederlanden n. \\1 met waterkleurgravures over de positionering van schepen (gedrukt)"
   },
-  "Stampa fotomeccanica (inizio '800) rappresentante stemmario \"(.+)\"$": {
+  "Stampa fotomeccanica \\(inizio '800\\) rappresentante stemmario \"(.+)\"$": {
     "en_GB": "Fotomechanical print (start at '800) representing heraldic arms “\\1”",
     "nl_NL": "Fotomechanische afdruk (beginnende bij '800) welke familiewapens weergeeft “\\1”"
   },
