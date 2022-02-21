@@ -7721,10 +7721,10 @@
   },
   "$Gremla": {
     "ISNI:id": null,
-    "comment_daniel": "AANPASSEN. Can't find him and it's very unclear when this person was replaced by van Bremen, because he possibly only served as a consul for two months or so. He has some connection to Le Mesurier (a company in Ancona), and reportedly lives in the house Le Mesurier, according to a draft letter from Roest van Limburg, who seems confused on the whole matter in his own right (it seems to me he gets the spelling of the name wrong).",
+    "comment_daniel": "AANPASSEN. Kremla or Gremla lived in the house of Le Mesurier (connected to a company in Ancona), but was not appointed consul despite Roest van Limburgs letters: Roest has mixed up two men and admits to this in a later letter. The correct man was van Bremen.",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [["Console del Regno dei Paesi Bassi ad Ancona", null]],
+    "functions": [],
     "images": [],
     "name": "K",
     "person_type": 2,
