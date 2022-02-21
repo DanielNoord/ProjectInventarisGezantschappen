@@ -3432,6 +3432,10 @@
     "en_GB": "Letter from \\2 to \\4 with attached transcription of a speech delivered by \\6",
     "nl_NL": "Brief van \\2 aan \\4 met bijgesloten transcriptie van een toespraak gegeven door \\6"
   },
+  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(\\?\\)$": {
+    "en_GB": "Letter from \\4 to \\6 (?)",
+    "nl_NL": "Brief van \\4 (?) aan \\6 (?)"
+  },
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
     "en_GB": "Letter from \\2 to \\4 (attachment)",
     "nl_NL": "Brief van \\2 aan \\4 (bijlage)"
@@ -3475,6 +3479,10 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to \\4",
     "nl_NL": "Brief van \\2 aan \\4"
+  },
+  "Lettera (di|del|della) (\\$\\w+) \\(\\?\\) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from \\4 (?) to \\6",
+    "nl_NL": "Brief van \\4 (?) aan \\6"
   },
   "Lettera (di|del|della) (\\$\\w+) \\(allegata\\)$": {
     "en_GB": "Letter of \\2 (attachment)",
