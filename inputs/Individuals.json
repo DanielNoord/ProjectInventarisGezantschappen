@@ -529,6 +529,28 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Arnim": {
+    "ISNI:id": "0000 0001 1934 4565",
+    "comment_daniel": "AANPASSEN: https://de.wikipedia.org/wiki/Harry_von_Arnim_(Diplomat)",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno di Prussia presso la Santa Sede",
+        "1868/"
+      ]
+    ],
+    "images": [],
+    "name": "Harry",
+    "person_type": 2,
+    "place_of_birth": "1824-10-03",
+    "place_of_death": "1881-05-19",
+    "sources": [],
+    "sources_other": [],
+    "surname": "von Arnim",
+    "titles": [["Freiherr", null]],
+    "wikidata:id": "Q213937"
+  },
   "$Artom": {
     "ISNI:id": "0000 0000 6677 0869",
     "comment_daniel": "Was the secretary of Cavour",
@@ -893,6 +915,23 @@
       "'Bijlagen van het Verslag der Handelingen van de Tweede Kamer der Staten-Generaal, 1859-1860', found on: https://books.google.nl/books?id=cUo9AQAAMAAJ&pg=PA528&dq=c+bartels+guinea&hl=nl&sa=X&ved=2ahUKEwjRt7iGt670AhUj4YUKHYFKDSEQ6AF6BAgLEAI#v=onepage&q=c%20bartels%20guinea&f=false"
     ],
     "surname": "Bartels",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Bartoli": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Gaetano",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Bartoli",
     "titles": [],
     "wikidata:id": null
   },
@@ -15771,6 +15810,23 @@
     "titles": [["conte", null]],
     "wikidata:id": "Q14291954"
   },
+  "$Schmidt": {
+    "ISNI:id": null,
+    "comment_daniel": "Onleesbare brief. Er is een gelijknamige soldaat die in de jaren 50 in Den Bosch woonde, maar de brief komt uit Nijmegen en ik kan verder geen informatie vinden.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Guillaume Henri",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Schmidt",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Schonburg": {
     "ISNI:id": null,
     "comment_daniel": "AANPASSEN wss deze man: https://it.wikipedia.org/wiki/August_Graf_von_Degenfeld-Schonburg",
@@ -15980,6 +16036,28 @@
     ],
     "wikidata:id": "Q6953298"
   },
+  "$Sigmund": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN: https://de.wikipedia.org/wiki/Joseph_von_Sigmund",
+    "date_of_birth": "1820-08-28",
+    "date_of_death": "1901",
+    "functions": [
+      [
+        "Inviato straordinario e incaricato d'affari del Regno di Baviera presso la Santa Sede",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Joseph Hugo",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "von Sigmund",
+    "titles": [],
+    "wikidata:id": "Q1708360"
+  },
   "$Simeoni": {
     "ISNI:id": "0000 0001 1616 864X",
     "comment_daniel": "",
@@ -16076,6 +16154,23 @@
       ["capitano di vascello", "1825-02-19/1826-01-29"],
       ["contrammiraglio", "1826-01-29/"]
     ],
+    "wikidata:id": null
+  },
+  "$Smissand": {
+    "ISNI:id": null,
+    "comment_daniel": "Woont in Villa Luzzara (nu Villa Jucker volgens mij). Achternaam is onleesbaar.",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Ufficiale della Marina", null]],
+    "images": [],
+    "name": "Charles Lucius Marius",
+    "person_type": 1,
+    "place_of_birth": "Zwolle",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Smissard",
+    "titles": [],
     "wikidata:id": null
   },
   "$Smit": {
