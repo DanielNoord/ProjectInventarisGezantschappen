@@ -2049,8 +2049,8 @@
     "nl_NL": "Gedrukt blad “\\1” over de Index van de volgende verboden boeken: “\\2” - “\\3” - “\\4” - “\\5” - “\\6”"
   },
   "Foglio a stampa \"(.+)\" circa l'emissione dei Certificati sul pubblico Tesoro \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” about the issuing of certificates about the public treasury (Rome, Tipografia della Rev. Cam. Apost., \\4)",
-    "nl_NL": "Gedrukt blad “\\1” over de uitgave van certificaten over de openbare schatkist (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+    "en_GB": "Printed sheet “\\1” about the issuing of certificates about the public treasury (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Gedrukt blad “\\1” over de uitgave van certificaten over de openbare schatkist (Rome, Tipografia della Rev. Cam. Apost., \\2)"
   },
   "Foglio a stampa \"(.+)\" da parte del Ministero delle Finanze dello Stato Pontificio circa l'estrazione di certificati del Tesoro$": {
     "en_GB": "Printed sheet “\\1” by the Ministry of Finance of the Papal States about the extraction of the treasury certificates",
