@@ -8,6 +8,14 @@
     "longitude": "5.30417",
     "nl_NL": "'s-Hertogenbosch"
   },
+  "A Coruña": {
+    "en_GB": "A Coruña",
+    "geonames_id": 3119841,
+    "geonames_wikipedia": "https://it.wikipedia.org/wiki/A_Coru%C3%B1a",
+    "latitude": "43.37135",
+    "longitude": "-8.396",
+    "nl_NL": "A Coruña"
+  },
   "Aardenburg": {
     "en_GB": "Aardenburg",
     "geonames_id": 2760096,
@@ -15,6 +23,14 @@
     "latitude": "51.27333",
     "longitude": "3.44722",
     "nl_NL": "Aardenburg"
+  },
+  "Acqui Terme": {
+    "en_GB": "Acqui Terme",
+    "geonames_id": 3183490,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Acqui_Terme",
+    "latitude": "44.67552",
+    "longitude": "8.46934",
+    "nl_NL": "Acqui Terme"
   },
   "Aden": {
     "en_GB": "Aden",
@@ -791,6 +807,14 @@
     "latitude": "42.91667",
     "longitude": "12.48333",
     "nl_NL": "Cisterna"
+  },
+  "Città Sant'Angelo": {
+    "en_GB": "Città Sant'Angelo",
+    "geonames_id": 3178613,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Citt%C3%A0_Sant%27Angelo",
+    "latitude": "42.51254",
+    "longitude": "14.06203",
+    "nl_NL": "Città Sant'Angelo"
   },
   "Città del Capo": {
     "en_GB": "Cape Town",
@@ -1872,6 +1896,14 @@
     "longitude": "15.55256",
     "nl_NL": "Messina"
   },
+  "Metapán": {
+    "en_GB": "Metapán",
+    "geonames_id": 3584384,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Metap%C3%A1n",
+    "latitude": "14.33333",
+    "longitude": "-89.45",
+    "nl_NL": "Metapán"
+  },
   "Middelburg": {
     "en_GB": "Middelburg",
     "geonames_id": 2750896,
@@ -2616,6 +2648,14 @@
     "longitude": "13.20882",
     "nl_NL": "Senigallia"
   },
+  "Senlis": {
+    "en_GB": "Senlis",
+    "geonames_id": 2975088,
+    "geonames_wikipedia": null,
+    "latitude": "49.20724",
+    "longitude": "2.58661",
+    "nl_NL": "Senlis"
+  },
   "Sens": {
     "en_GB": "Sens",
     "geonames_id": 2975050,
@@ -3024,6 +3064,14 @@
     "longitude": "12.33265",
     "nl_NL": "Venetië"
   },
+  "Verdun": {
+    "en_GB": "Verdun",
+    "geonames_id": 2969958,
+    "geonames_wikipedia": null,
+    "latitude": "49.15964",
+    "longitude": "5.3829",
+    "nl_NL": "Verdun"
+  },
   "Verona": {
     "en_GB": "Verona",
     "geonames_id": 3164527,
@@ -3239,6 +3287,14 @@
     "latitude": "51.81",
     "longitude": "5.24444",
     "nl_NL": "Zaltbommel"
+  },
+  "Zarautz": {
+    "en_GB": "Zarautz",
+    "geonames_id": 3104316,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Zarautz",
+    "latitude": "43.28444",
+    "longitude": "-2.16992",
+    "nl_NL": "Zarautz"
   },
   "Zierikzee": {
     "en_GB": "Zierikzee",
