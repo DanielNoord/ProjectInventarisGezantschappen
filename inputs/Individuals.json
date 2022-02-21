@@ -532,8 +532,8 @@
   "$Arnim": {
     "ISNI:id": "0000 0001 1934 4565",
     "comment_daniel": "AANPASSEN: https://de.wikipedia.org/wiki/Harry_von_Arnim_(Diplomat)",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1824-10-03",
+    "date_of_death": "1881-05-19",
     "functions": [
       [
         "Inviato straordinario e ministro plenipotenziario del Regno di Prussia presso la Santa Sede",
@@ -543,8 +543,8 @@
     "images": [],
     "name": "Harry",
     "person_type": 2,
-    "place_of_birth": "1824-10-03",
-    "place_of_death": "1881-05-19",
+    "place_of_birth": "",
+    "place_of_death": "",
     "sources": [],
     "sources_other": [],
     "surname": "von Arnim",
