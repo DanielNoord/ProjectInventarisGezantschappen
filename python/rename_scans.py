@@ -6,13 +6,11 @@ import re
 class FileRenamer:
     """Renames files based on arguments."""
 
-    def __init__(self, old: str, new: str) -> None:
+    def __init__(self, folder: str, old: str, new: str) -> None:
         self.filename_pattern = r"(\d+)(.*)([rv].tif)"
         """Pattern of the file names to match against."""
 
-        self.folder = (
-            "/Volumes/Seagate Basic Media/VolumesLegazione/" + old.split("_")[0]
-        )
+        self.folder = folder + old.split("_")[0]
         """Folder to scan."""
 
         self.old = old
@@ -42,7 +40,8 @@ class FileRenamer:
 
 if __name__ == "__main__":
     renamer = FileRenamer(
-        "MS285_12_2_",
-        "MS285_12_b_",
+        "/Users/daniel/DocumentenLaptop/MEGA/",
+        "MS278_",
+        "MS278_3_",
     )
     renamer.rename_files()
