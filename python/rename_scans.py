@@ -19,6 +19,9 @@ class FileRenamer:
         self.new = new
         """New filename pattern."""
 
+        self.renamed = 0
+        """Amount of renamed files."""
+
     def rename_files(self) -> None:
         """Rename files in a folder based on attributes."""
         for file in os.listdir(self.folder):
@@ -35,7 +38,9 @@ class FileRenamer:
                         f"{self.folder}/{file}",
                         f"{self.folder}/{self.new}{int(groups[0])}{groups[1]}{groups[2]}",
                     )
+                    self.renamed += 1
         print("Rename complete!")
+        print(f"Renamed {self.renamed} files.")
 
 
 if __name__ == "__main__":
