@@ -484,6 +484,10 @@
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Incoming diplomatic correspondance. \\1",
     "nl_NL": "Archief van het Gezantschap van Nederland in Rome. Inkomende diplomatieke correspondentie. \\1"
   },
+  "Archivio della Legazione dei Paesi Bassi presso il Re d'Italia. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
+    "en_GB": "Archive of the Legation of the Netherlands to the King of Italy. Incoming diplomatic correspondance \\1",
+    "nl_NL": "Archief van het Gezantschap van Nederland bij de Koning van Italië. Inkomende diplomatieke correspondentie \\1"
+  },
   "Archivio della Legazione dei Paesi Bassi presso il Re d'Italia. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$": {
     "en_GB": "Archive of the Legation of the Netherlands to the King of Italy. Incoming political correspondance \\1",
     "nl_NL": "Archief van het Gezantschap van Nederland bij de Koning van Italië. Inkomende politieke correspondentie \\1"
@@ -2304,6 +2308,10 @@
     "en_GB": "Printed sheet “\\1” (N. \\2 of \\3 Jul. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (N. \\2 van \\3 jul. \\4)"
   },
+  "Foglio a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (N. \\2 of \\3 Oct. \\4)",
+    "nl_NL": "Gedrukt blad “\\1” (N. \\2 van \\3 okt. \\4)"
+  },
   "Foglio a stampa “(.+)” \\(Napoli, (\\d\\d?) mag. (\\d\\d\\d\\d), N. (\\d+)\\)$": {
     "en_GB": "Printed sheet “\\1” (Naples, \\2 May \\3, N. \\4)",
     "nl_NL": "Gedrukt blad “\\1” (Napels, \\2 mei \\3, N. \\4)"
@@ -2331,6 +2339,10 @@
   "Foglio a stampa “(.+)” \\(Palermo, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Palermo, N. \\2 of \\3 Jun. \\4)",
     "nl_NL": "Gedrukt “\\1” (Palermo, N. \\2 van \\3 jun. \\4)"
+  },
+  "Foglio a stampa “(.+)” \\(Palermo, ott. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Palermo, Oct. \\2)",
+    "nl_NL": "Gedrukt “\\1” (Palermo, okt. \\2)"
   },
   "Foglio a stampa “(.+)” \\(Parigi, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Paris, \\2)",
@@ -2848,6 +2860,10 @@
     "en_GB": "Printed newspaper “\\1” (Palermo, \\2 Jun. \\3)",
     "nl_NL": "Gedrukte krant “\\1” (Palermo, \\2 jun. \\3)"
   },
+  "Giornale a stampa “(.+)” \\(Palermo, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed newspaper “\\1” (Palermo, N. \\2 of \\3 Jun. \\4)",
+    "nl_NL": "Gedrukte krant “\\1” (Palermo, N. \\2 van \\3 jun. \\4)"
+  },
   "Giornale di Roma \\(a stampa\\)$": {
     "en_GB": "Giornale di Roma (printed)",
     "nl_NL": "Giornale di Roma (gedrukt)"
@@ -3016,6 +3032,10 @@
     "en_GB": "Le Segretaire d'Etat (The Secretary of State)",
     "nl_NL": "Le Segretaire d'Etat (De staatssecretaris)"
   },
+  "Legazione Torino. Corrispondenza diplomatica in arrivo$": {
+    "en_GB": "Legation of Turin. Incoming diplomatic correspondance",
+    "nl_NL": "Gezantschap te Turijn. Inkomende diplomatieke correspondentie"
+  },
   "Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
     "en_GB": "Legation of the Netherlands in Rome. Incoming diplomatic correspondance. \\1",
     "nl_NL": "Gezantschap van Nederland in Rome. Inkomende diplomatieke correspondentie. \\1"
@@ -3052,9 +3072,21 @@
     "en_GB": "Legation of Florence. Negotiations about a treatise of extradition between the Netherlands and Italy",
     "nl_NL": "Gezantschap van Florence. Onderhandelingen over een traktaat van uitzetting tussen Nederland en Italië"
   },
+  "Legazione di Firenze. Per l'esenzione dei sudditi olandesi del prestito forzoso indetto dal governo Italiano$": {
+    "en_GB": "Legation of Florence. On the exemption of Dutch subjects from the compulsory loans established by the Italian government",
+    "nl_NL": "Gezantschap van Florence. Over de vrijstelling voor Nederlandse onderdanen van de verplichte leningen opgelegd door de Italiaanse overheid"
+  },
+  "Legazione di Napoli e Roma. (\\d\\d\\d\\d). Corrispondenza politica in partenza$": {
+    "en_GB": "The Legation in Naples and Rome. Outgoing political correspondance",
+    "nl_NL": "Het Gezantschap van Napels en Rome. Uitgaande politieke correspondentie"
+  },
   "Legazione di Roma e Napoli. 1859. Corrispondenza politica \\(in partenza\\)$": {
     "en_GB": "Legation in Rome and Naples. 1859. Political correspondance (outgoing)",
     "nl_NL": "Gezantschap in Rome en Napels. 1859. Politieke correspondentie (uitgaand)"
+  },
+  "Legazione di Roma e Napoli. Corrispondenza in arrivo. (\\d\\d\\d\\d).$": {
+    "en_GB": "Legation in Rome and Naples. Incoming correspondance. \\1",
+    "nl_NL": "Gezantschap in Rome en Napels. Inkomende correspondentie. \\1"
   },
   "Legazione di Roma e Torino. Corrispondenza in arrivo 1859$": {
     "en_GB": "Legation of Rome and Turin. Incoming political correspondence 1859",
@@ -3480,6 +3512,10 @@
     "en_GB": "Letter from \\2 to the consular representatives in Rome",
     "nl_NL": "Brief van \\2 aan de consulaire vertegenwoordigers in Rome"
   },
+  "Lettera (di|del|della) (\\$\\w+) al Console Generale dei Paesi Bassi in Sicilia$": {
+    "en_GB": "Letter of \\2 to the Consul General of the Netherlands in Sicily",
+    "nl_NL": "Brief van \\2 aan de consul-generaal van Nederland in Sicilië"
+  },
   "Lettera (di|del|della) (\\$\\w+) al Direzione Generale della Polizia$": {
     "en_GB": "Draft of a letter from \\2 to the General Directorate of the Police",
     "nl_NL": "Concept van een brief van \\2 aan het Directoraat-Generaal van de Politie"
@@ -3844,6 +3880,10 @@
     "en_GB": "Letter from Executive Committee of the Tiro a Segno Nazionale to \\2",
     "nl_NL": "Brief van het Uitvoerend Comité van de Tiro a Segno Nazionale aan \\2"
   },
+  "Lettera del Commissione Reale del Congresso Internazionale di Statistica. Firmata (da|dal|dalla) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the Royal Committee of the International Congress for Statistics. Signed by \\2 to \\4",
+    "nl_NL": "Brief van het Koninklijk Committé van het Internationale Congres voor Statistiek. Getekend door \\2 aan \\4"
+  },
   "Lettera del Console Generale di Sua Maestà dei Paesi Bassi presso il Re di Sardegna sottoscritta (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from the consul general of His Majesty of the Netherlands to the King of Sardinia signed by \\1 to \\3",
     "nl_NL": "Brief van de consul-generaal van Zijne Majesteit der Nederlanden bij de koning van Sardinië ondertekend door \\1 to \\3"
@@ -3887,6 +3927,10 @@
   "Lettera della Prefettura dei SS. Palazzi Apostolici (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from the Prefecture of the Holy Apostolic Palaces to \\2",
     "nl_NL": "Brief van de prefectuur van de Heilige Apostolische Paleizen aan \\2"
+  },
+  "Lettera della Segreteria del Console del Belgio a Venezia$": {
+    "en_GB": "Letter of the Secretariate of the consul of Belgium in Venice",
+    "nl_NL": "Brief van het Secretariaat van de consul van België in Venezië"
   },
   "Lettera della Segreteria delle Udienze Pontificie (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the Secretariate of Pontifical Audiences to \\2",
@@ -3948,13 +3992,17 @@
     "en_GB": "Letter of invitation from \\2",
     "nl_NL": "Uitnodigingsbrief van \\2"
   },
-  "Lettera di invito dall'anticamera pontificia (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter of invitation from the Pontifical antechamber to \\2",
-    "nl_NL": "Uitnodigingsbrief van de Pauselijke voorkamer aan \\2"
-  },
   "Lettera di invito del Ministero degli Affari Esteri$": {
     "en_GB": "Letter of invitation from the Ministry of Foreign Affairs",
     "nl_NL": "Uitnodigingsbrief van het Ministerie van Buitenlandse Zaken"
+  },
+  "Lettera di invito dell'anticamera pontificia (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter of invitation from the Pontifical antechamber to \\2",
+    "nl_NL": "Uitnodigingsbrief van de Pauselijke voorkamer aan \\2"
+  },
+  "Lettera di invito per il Congresso Internazionale di Statistica (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter of invitation for the International Congress for Statistics from \\2 to \\4",
+    "nl_NL": "Uitnodigingsbrief voor het Internationale Congres voor Statistiek van \\2 aan \\4"
   },
   "Lettera di invito per udienza particolare (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of invitation for a personal audience from \\2 to \\4",
@@ -3979,6 +4027,10 @@
   "Lettera di trasmissione$": {
     "en_GB": "Transmission letter",
     "nl_NL": "Begeleidende brief"
+  },
+  "Lettera di un servitore dell'intendente (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from a servant of the superintendent to \\2",
+    "nl_NL": "Brief van een bediende van de magistraat aan \\2"
   },
   "Lettera firmata (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter signed by \\2 and \\4 to \\6",
@@ -4267,6 +4319,10 @@
   "Minuta di lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Minute of a letter of \\2",
     "nl_NL": "Minuut van een brief van \\2"
+  },
+  "Minuta di lettera a \"(.+)\"$": {
+    "en_GB": "Minute of a letter to “\\1”",
+    "nl_NL": "Minuut van een brief aan “\\1”"
   },
   "Minuta di lettera inviata (a|al) (\\$\\w+)$": {
     "en_GB": "Minute of a letter sent to \\2",
