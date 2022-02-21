@@ -22,12 +22,12 @@ class FileRenamer:
     def rename_files(self) -> None:
         """Rename files in a folder based on attributes."""
         for file in os.listdir(self.folder):
-            sanitized_file = file.replace("rbis", "bisr").replace("vbis", "bisv")
-            sanitized_file = file.replace("_r.tif", "r.tif").replace("_v.tif", "v.tif")
-            if "MS284_11_1_193_" in sanitized_file:
-                sanitized_file = sanitized_file.replace(
-                    "MS284_11_1_193_", "MS284_11_193"
-                )
+            sanitized_file = (
+                file.replace("rbis", "bisr")
+                .replace("vbis", "bisv")
+                .replace("_r.tif", "r.tif")
+                .replace("_v.tif", "v.tif")
+            )
             if match := re.match(self.old + self.filename_pattern, sanitized_file):
                 groups = match.groups()
                 if int(groups[0]) > 0:
