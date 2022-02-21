@@ -748,6 +748,10 @@
     "en_GB": "Draft of a letter to \\2, to \\4 and to \\6",
     "nl_NL": "Concept van een brief aan \\2, aan \\4 en aan \\6"
   },
+  "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(\\?\\)$": {
+    "en_GB": "Draft of a letter from \\4 to \\6 (?)",
+    "nl_NL": "Conceptbrief van \\4 aan \\6 (?)"
+  },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
     "en_GB": "Draft of a letter from \\2 to \\4 (attachment)",
     "nl_NL": "Concept van een brief van \\2 aan \\4 (bijlage)"
@@ -783,6 +787,10 @@
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Draft of a letter from \\2 to \\4",
     "nl_NL": "Concept van een brief van \\2 aan \\4"
+  },
+  "Bozza di lettera (di|del|della) (\\$\\w+) \\(\\?\\) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Draft of a letter from \\4 (?) to \\6",
+    "nl_NL": "Conceptbrief van \\4 (?) aan \\6"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) ai consoli di Genova, Livorno, Napoli , Palermo e Messina$": {
     "en_GB": "Draft letter from \\2 to the consuls of Genoa, Livorno, Naples, Palermo and Messina",
@@ -3432,10 +3440,6 @@
     "en_GB": "Letter from \\2 to \\4 with attached transcription of a speech delivered by \\6",
     "nl_NL": "Brief van \\2 aan \\4 met bijgesloten transcriptie van een toespraak gegeven door \\6"
   },
-  "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(\\?\\)$": {
-    "en_GB": "Letter from \\4 to \\6 (?)",
-    "nl_NL": "Brief van \\4 (?) aan \\6 (?)"
-  },
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
     "en_GB": "Letter from \\2 to \\4 (attachment)",
     "nl_NL": "Brief van \\2 aan \\4 (bijlage)"
@@ -3479,10 +3483,6 @@
   "Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter of \\2 to \\4",
     "nl_NL": "Brief van \\2 aan \\4"
-  },
-  "Lettera (di|del|della) (\\$\\w+) \\(\\?\\) (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from \\4 (?) to \\6",
-    "nl_NL": "Brief van \\4 (?) aan \\6"
   },
   "Lettera (di|del|della) (\\$\\w+) \\(allegata\\)$": {
     "en_GB": "Letter of \\2 (attachment)",
