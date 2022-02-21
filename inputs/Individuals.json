@@ -47,6 +47,25 @@
     "titles": [["barone", null]],
     "wikidata:id": null
   },
+  "$Aghemo": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1823-12-23",
+    "date_of_death": "1914-03-13",
+    "functions": [["Capo di gabinetto del Re del Regno d'Italia", "1864/"]],
+    "images": [],
+    "name": "Giovanni Natale",
+    "person_type": 1,
+    "place_of_birth": "Moncallieri",
+    "place_of_death": "Torino",
+    "sources": [
+      "Moscone, Livia Bargilli, 'Aghemo, Giovanni Natale', in: Dizionario Biografico degli Italiani. Volume 1 (Rome, Treccani, 1960), found on: https://www.treccani.it/enciclopedia/giovanni-natale-aghemo_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Aghemo",
+    "titles": [["conte", null]],
+    "wikidata:id": "Q55224953"
+  },
   "$Agostini": {
     "ISNI:id": "0000 0003 8815 9296",
     "comment_daniel": "",
@@ -1127,6 +1146,30 @@
     "titles": [["barone", null]],
     "wikidata:id": "Q2557537"
   },
+  "$Beekkerk": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Direttore del Registro e Domanio nella provincia Olandese di Frisia",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Simon",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Algemeen register op het Periodiek woordenboek van administrative en geregtelijke beslissingen inzake van registratie, zegel, griffie, hypotheken, successieregt, notariaat, enz., enz. Volume 1 (Boekdrukkerij J. Boering: 's Gravenhage, 1852), p. 191"
+    ],
+    "surname": "van Sloterdijk Beekkerk",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Begre": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -1660,6 +1703,34 @@
     "titles": [["conte", null]],
     "wikidata:id": null
   },
+  "$BianchiC": {
+    "ISNI:id": "0000 0000 8160 2935",
+    "comment_daniel": "",
+    "date_of_birth": "1817-07-10",
+    "date_of_death": "1885-06-29",
+    "functions": [
+      ["Fondatore e direttore della giornale La Nazionale", "1848/1850"],
+      [
+        "Segretario generale del Ministero dell'Interno del Regno d'Italia",
+        "1861/1866"
+      ]
+    ],
+    "images": [
+      "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900650332#lg=1&slide=0"
+    ],
+    "name": "Celestino",
+    "person_type": 1,
+    "place_of_birth": "Marradi",
+    "place_of_death": "Firenze",
+    "sources": [
+      "'Celestino Bianchi', a cura del portale storico della Camera dei Deputati, found on: https://storia.camera.it/deputato/celestino-bianchi-18170710",
+      "Camerani, Sergio, 'Bianchi, Celestino', in: Dizionario Biografico degli Italiani. Volume 10 (Rome, Treccani, 1968), found on: https://www.treccani.it/enciclopedia/celestino-bianchi_(Dizionario-Biografico)/"
+    ],
+    "sources_other": [],
+    "surname": "Bianchi",
+    "titles": [],
+    "wikidata:id": "Q16538748"
+  },
   "$Biandrate": {
     "ISNI:id": null,
     "comment_daniel": "I believe that letters ms278_138 & ms278_139 concern the return from France of the Prince of Carignone, Carlo Alberto di Savoia, in 1821, possibly together with the count of d'Argentau (possibly François de Mercy-Argentau, who was governor of Brabant and chamberlain to the Dutch king). It is unclear why Biandrate was involved in this, but he fits the picture as he was connected to most of the greater political figures relevant in the 1921 Piedmontese revolution. There is little doubt that he was the count of Biandrate, as it is recorded that the previous count had no sons of his own.",
@@ -1810,6 +1881,33 @@
     "surname": "Bixio",
     "titles": [["tenente generale", null]],
     "wikidata:id": "Q699354"
+  },
+  "$Blasiis": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1807-07-04",
+    "date_of_death": "1873-08-31",
+    "functions": [
+      [
+        "Ministro dell'Agricoltura, Industria e Commercio del Regno d'Italia",
+        "1867-04-10/1867-10-27"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/Francesco_De_Blasiis.jpg"
+    ],
+    "name": "Francesco",
+    "person_type": 1,
+    "place_of_birth": "Città Sant'Angelo",
+    "place_of_death": "Roma",
+    "sources": [
+      "'De Blàsiis, Francesco', in: Enciclopedia Online, found on: https://www.treccani.it/enciclopedia/francesco-de-blasiis/",
+      "'Francesco De Blasiis', a cura del portale storico della Camera dei Deputati, found on: https://storia.camera.it/deputato/francesco-de-blasiis-18070704"
+    ],
+    "sources_other": [],
+    "surname": "De Blasiis",
+    "titles": [],
+    "wikidata:id": "Q3081136"
   },
   "$Blaue": {
     "ISNI:id": null,
@@ -2820,6 +2918,36 @@
     "titles": [],
     "wikidata:id": "Q2106436"
   },
+  "$Broglio": {
+    "ISNI:id": "0000 0000 8076 9231",
+    "comment_daniel": "",
+    "date_of_birth": "1814-02-13",
+    "date_of_death": "1892-02-21",
+    "functions": [
+      [
+        "Ministro della Pubblica Istruzione del Regno d'Italia",
+        "1867-11-18/1869-05-13"
+      ],
+      [
+        "Ministro dell'Agricoltura, Industria e Commercio del Regno d'Italia",
+        "1867-11-29/1868-10-23"
+      ]
+    ],
+    "images": [
+      "http://ladante.arte.it/guida-arte/ladante/approfondimenti/emilio-broglio-24"
+    ],
+    "name": "Emilio",
+    "person_type": 1,
+    "place_of_birth": "Milano",
+    "place_of_death": "Roma",
+    "sources": [
+      "Raponi, Nicola, 'Broglio, Emilio', in: Dizionario Biografico degli Italiani. Volume 14 (Rome, Treccani, 1972), found on: https://www.treccani.it/enciclopedia/emilio-broglio_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Broglio",
+    "titles": [],
+    "wikidata:id": "Q656578"
+  },
   "$Brouckere": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -2846,6 +2974,23 @@
     "surname": "de Brouckère",
     "titles": [],
     "wikidata:id": "Q527479"
+  },
+  "$Bruck": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Bruck",
+    "titles": [["barone", null]],
+    "wikidata:id": null
   },
   "$Brunelli": {
     "ISNI:id": null,
@@ -3724,6 +3869,23 @@
     "titles": [],
     "wikidata:id": "Q22964525"
   },
+  "$Castino": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Luigi",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Fresia Appiani di Castino",
+    "titles": [["conte", null]],
+    "wikidata:id": null
+  },
   "$Castorina": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -3740,6 +3902,62 @@
     "surname": "Castorina",
     "titles": [],
     "wikidata:id": "Q3712950"
+  },
+  "$Castro": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1812-04-23",
+    "date_of_death": "1881-07-06",
+    "functions": [
+      ["Ministro delle Finanze del Regno di Spagna", "1865-02-20/1865-06-21"],
+      [
+        "Ministro degli Affari Esteri del Regno di Spagna",
+        "1866-07-10/1867-06-09"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario della il Regno di Spagna presso la Santa Sede",
+        "1867/"
+      ]
+    ],
+    "images": [
+      "https://www.congreso.es/presidentes-del-congreso-de-los-diputados?p_p_id=diputadomodule&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_diputadomodule_mostrarGaleria=true&_diputadomodule_tipoHistorico=1&_diputadomodule_codigo=24150"
+    ],
+    "name": "Alejandro",
+    "person_type": 1,
+    "place_of_birth": "A Coruña",
+    "place_of_death": "Zarautz",
+    "sources": [
+      "'Alejandro de Castro Casal', a cura del portale di Congreso de los Diputados, found on: https://www.congreso.es/web/guest/presidentes-del-congreso-de-los-diputados?p_p_id=diputadomodule&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&codigo=24150&tipoHistorico=1",
+      "'Castro Casal, Alejandro De', a cura dell'Archivio del Senato di Spagna, found on: https://www.senado.es/web/conocersenado/senadohistoria/senado18341923/senadores/fichasenador/index.html?id1=675",
+      "Pousada, Rafael Vallejo, 'Mon y Menéndez, Alejandro', in: Real Academia de La Historia, Diccionario Biográfico electrónico, found on: https://dbe.rah.es/biografias/12995/alejandro-mon-y-menendez"
+    ],
+    "sources_other": [],
+    "surname": "De Castro y Casal",
+    "titles": [],
+    "wikidata:id": "Q3392403"
+  },
+  "$Cau": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1818-10-07",
+    "date_of_death": "1882-01-15",
+    "functions": [
+      ["Presidente di Waterschap Schouwen", "1854/"],
+      ["Sindaco di Zierikzee", "1854/1872-09-01"]
+    ],
+    "images": [],
+    "name": "Bonifacius Christiaan",
+    "person_type": 1,
+    "place_of_birth": "Zierikzee",
+    "place_of_death": "Zierikzee",
+    "sources": [],
+    "sources_other": [
+      "'Bonifacius Cau', found on: https://www.zierikzee-monumentenstad.nl/Cau-B.C.",
+      "Nagtglas, F., 'Cau (Bonifacius Christiaan)', in: F. Nagtlas, Levensberichten van Zeeuwen. Deel 1 (J.C. & W. Altorffer: Middelburg, 1890)"
+    ],
+    "surname": "Cau",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
   },
   "$Cavaignac": {
     "ISNI:id": "0000 0001 1611 000X",
@@ -3940,6 +4158,35 @@
       ["Cav.", null]
     ],
     "wikidata:id": null
+  },
+  "$Chiabrera": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1814-07-01",
+    "date_of_death": "1909-04-21",
+    "functions": [
+      [
+        "Comandante della brigata Pistoia delle truppe Piemontese",
+        "1860-05-14/1861-02-14"
+      ]
+    ],
+    "images": ["http://www.tuttostoria.net/personaggi-storici.aspx?code=182"],
+    "name": "Emanuele",
+    "person_type": 1,
+    "place_of_birth": "Acqui Terme",
+    "place_of_death": "Acqui Terme",
+    "sources": [],
+    "sources_other": [
+      "Cellai, Martino, Fasti militari della guerra dell'indipendenza d'Italia dal 1848 al 1862. Volume 4 (Tipografia e Litografia degli Ingegneri: Milano, 1865), p. 621",
+      "Donato, Armando, 'Il Generale Emanuele Chiabrera Castelli', found on: http://www.tuttostoria.net/personaggi-storici.aspx?code=182",
+      "Grasso, Alfonso and Fara Misuraca, '13 marzo 1861: la caduta della fortezza di Messina', found on: http://www.ilportaledelsud.org/fortezza_messina.htm"
+    ],
+    "surname": "Chiabrera Castelli",
+    "titles": [
+      ["Cav.", null],
+      ["generale", null]
+    ],
+    "wikidata:id": "Q26702268"
   },
   "$Chiari": {
     "ISNI:id": null,
@@ -4274,6 +4521,23 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Conestabile": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN: https://www.treccani.it/enciclopedia/conestabile-della-staffa-giovanni-carlo_%28Dizionario-Biografico%29/",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Charles",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Conestabile",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Coninck": {
     "ISNI:id": "0000 0003 9614 5599",
     "comment_daniel": "",
@@ -4519,6 +4783,23 @@
     "titles": [["colonnello", null]],
     "wikidata:id": "Q3930205"
   },
+  "$Cremeri": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "E.",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Cremeri",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Cremers": {
     "ISNI:id": "0000 0000 8435 4623",
     "comment_daniel": "",
@@ -4752,6 +5033,23 @@
       "'Joaquín and Mariano Degollado: An Inventory of the Collection at the Benson Latin American Collection', a cura dell'archivio di Texas Archival Resources Online, found on: https://txarchives.org/utlac/finding_aids/00014.xml"
     ],
     "surname": "Degollado",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Degrua": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "J.",
     "titles": [],
     "wikidata:id": null
   },
@@ -5682,10 +5980,14 @@
     "place_of_death": "Napoli",
     "sources": [],
     "sources_other": [
-      "'Gennaro Fergola', in: Wikipedia, L'enciclopedia libera (2021-04-03), found on: https://it.wikipedia.org/w/index.php?title=Gennaro_Fergola&oldid=119696605"
+      "'Gennaro Fergola', in: Wikipedia, L'enciclopedia libera (2021-04-03), found on: https://it.wikipedia.org/w/index.php?title=Gennaro_Fergola&oldid=119696605",
+      "Grasso, Alfonso and Fara Misuraca, '13 marzo 1861: la caduta della fortezza di Messina', found on: http://www.ilportaledelsud.org/fortezza_messina.htm"
     ],
     "surname": "Fergola",
-    "titles": [["generale", null]],
+    "titles": [
+      ["generale", null],
+      ["maresciallo di campo", "1860-10-08/"]
+    ],
     "wikidata:id": "Q3759805"
   },
   "$Ferrante": {
@@ -6680,6 +6982,31 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Geuns": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1806-10-06",
+    "date_of_death": "1879-07-31",
+    "functions": [
+      ["Fondatore della ditta Luden en Van Geuns a Amsterdam", null],
+      ["Commissario del Re dei Paesi Bassi al Nederlandsche Bank", "1864/"]
+    ],
+    "images": ["https://www.rijksmuseum.nl/en/collection/RP-F-00-5360-13"],
+    "name": "Albert",
+    "person_type": 1,
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Amsterdam",
+    "sources": [
+      "'Albert van Geuns', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/31485510",
+      "Dutch Institute for Art History (RKD), 'Anoniem ca. 1865-1875', found on: https://rkd.nl/nl/explore/images/194075"
+    ],
+    "sources_other": [
+      "De maandbode voor den handel, 1865. Volume 1 (Blikman & Sartorius: Amsterdam, 1865), p. 15"
+    ],
+    "surname": "van Geuns",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Gevaerts": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -6696,7 +7023,7 @@
     "sources": [],
     "sources_other": [
       "'Jhr. P.O.H. Gevaerts van Simonshaven', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/84341810",
-      "Dutch Institute for Art History (RKD), 'https://rkd.nl/en/explore/images/127614', found on: https://rkd.nl/en/explore/images/127614"
+      "Dutch Institute for Art History (RKD), 'Anoniem', found on: https://rkd.nl/en/explore/images/127614"
     ],
     "surname": "Gevaerts van Simonshaven",
     "titles": [["Cav.", null]],
@@ -6939,6 +7266,30 @@
     ],
     "wikidata:id": "Q2518230"
   },
+  "$GiustinianiC": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Segretario generale del Ministero delle Finanze dello Stato Pontificio",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Camillo",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Notizie per l'anno 1858 (Tipografia della Rev. Cam. Apost.: Roma, 1858), p. 379"
+    ],
+    "surname": "Giustiniani",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
+  },
   "$Gizzi": {
     "ISNI:id": "0000 0003 8212 6469",
     "comment_daniel": "",
@@ -7123,6 +7474,31 @@
     "surname": "von der Goltz",
     "titles": [["Freiherr", null]],
     "wikidata:id": "Q103543"
+  },
+  "$Gomez": {
+    "ISNI:id": "0000 0000 4937 5621",
+    "comment_daniel": "",
+    "date_of_birth": "1813-07-31",
+    "date_of_death": "1879",
+    "functions": [
+      ["Poeta", null],
+      [
+        "Ministro plenipotenziario della Repubblica di Salvador presso la Santa Sede",
+        "1848/"
+      ]
+    ],
+    "images": [],
+    "name": "Ignacio",
+    "person_type": 1,
+    "place_of_birth": "Metapán",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Galería poetica centro-americana: selecta colección de poesías de los mejores poetas de la Àmerica del Centro. Vol. 1 (Imprenta de la Paz: Guatemala, 1873), pp. 162-163"
+    ],
+    "surname": "Gómez",
+    "titles": [],
+    "wikidata:id": "Q70965404"
   },
   "$Gonzaga": {
     "ISNI:id": null,
@@ -7958,6 +8334,25 @@
     "titles": [],
     "wikidata:id": null
   },
+  "$Heym": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [["Ingegnere", null]],
+    "images": [],
+    "name": "Karl",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Zentralblatt für das Deutsche Reich. Volume 2 (Carl Benmann's Verlag: Berlino, 1874), p. 319"
+    ],
+    "surname": "Heym",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$HoevenE": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -8444,6 +8839,30 @@
       "Gemeentearchief, The Hague, 'Ambtenaar van de burgerlijke stand van de gemeente 's-Gravenhage', inventory number: 0335-01, document number: 1232, found on: https://hdl.handle.net/21.12124/F182B81C858C4D898C8237202A8FD9C1"
     ],
     "surname": "van der Kemp",
+    "titles": [],
+    "wikidata:id": null
+  },
+  "$Kempenaer": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Ricevitore del Registro, Atti Civili, Successione e Sigillo a Leeuwarden",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "H.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Algemeen register op het Periodiek woordenboek van administrative en geregtelijke beslissingen inzake van registratie, zegel, griffie, hypotheken, successieregt, notariaat, enz., enz. Volume 1 (Boekdrukkerij J. Boering: 's Gravenhage, 1852), p. 191"
+    ],
+    "surname": "Andringa de Kempenaer",
     "titles": [],
     "wikidata:id": null
   },
@@ -9684,6 +10103,30 @@
     ],
     "surname": "Lucidi",
     "titles": [["vescovo", null]],
+    "wikidata:id": null
+  },
+  "$Luden": {
+    "ISNI:id": null,
+    "comment_daniel": "In 1864 werd de zaak overgedragen van George Luden naar Jacob Hendrik Luden.",
+    "date_of_birth": "1810",
+    "date_of_death": "1875",
+    "functions": [
+      ["Fondatore della ditta Luden en Van Geuns a Amsterdam", null],
+      ["Commissario del Nederlandsche Bank", null]
+    ],
+    "images": [],
+    "name": "George",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Stadsarchief Amsterdam, Amsterdam, 'Inventaris van het Archief van de Familie Luden en Aanverwante Families', inventory number: 922"
+    ],
+    "sources_other": [
+      "De maandbode voor den handel, 1865. Volume 1 (Blikman & Sartorius: Amsterdam, 1865), p. 15"
+    ],
+    "surname": "Luden",
+    "titles": [],
     "wikidata:id": null
   },
   "$Ludolf": {
@@ -11054,6 +11497,10 @@
       [
         "Incaricato d'affari del Regno di Sardegna a Copenaghen",
         "1860-01-16/1863-11-22"
+      ],
+      [
+        "Direttore della legazione superiore per gli affari commerciali al Ministero degli Affari Esteri del Regno d'Italia",
+        "1867/"
       ]
     ],
     "images": [],
@@ -11219,6 +11666,30 @@
     "sources_other": [],
     "surname": "Mollerus",
     "titles": [["barone", null]],
+    "wikidata:id": null
+  },
+  "$Mon": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario della il Regno di Spagna presso la Santa Sede",
+        "1856/"
+      ]
+    ],
+    "images": [],
+    "name": "Alejandro",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [
+      "Pousada, Rafael Vallejo, 'Mon y Menéndez, Alejandro', in: Real Academia de La Historia, Diccionario Biográfico electrónico, found on: https://dbe.rah.es/biografias/12995/alejandro-mon-y-menendez"
+    ],
+    "sources_other": [],
+    "surname": "Mon y Menéndez",
+    "titles": [],
     "wikidata:id": null
   },
   "$Montebello": {
@@ -11688,6 +12159,30 @@
       ["Cav.", "1801/"]
     ],
     "wikidata:id": "Q348626"
+  },
+  "$Neri": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Pro-direttore generale del Debito Pubblico dello Stato Pontificio",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Antonio",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Notizie per l'anno 1858 (Tipografia della Rev. Cam. Apost.: Roma, 1858), p. 379"
+    ],
+    "surname": "Neri",
+    "titles": [["Cav.", null]],
+    "wikidata:id": null
   },
   "$Nervegna": {
     "ISNI:id": null,
@@ -13028,6 +13523,30 @@
     "titles": [["conte della Minerva", null]],
     "wikidata:id": null
   },
+  "$Pescetto": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN: FUNCTIES",
+    "date_of_birth": "1817-11-13",
+    "date_of_death": "1882-09-15",
+    "functions": [
+      [
+        "Ministro degli Affari Esteri del Regno d'Italia",
+        "1867-04-10/1867-10-13"
+      ]
+    ],
+    "images": [],
+    "name": "Federico Giovanni Battista",
+    "person_type": 2,
+    "place_of_birth": "Savona",
+    "place_of_death": "Savona",
+    "sources": [
+      "Freschi, Ombretta, 'Pescetto, Federico Giovanni Battista', in: Enciclopedia Italiana. Volume 82 (Rome, Treccani, 2016), found on: https://www.treccani.it/enciclopedia/federico-giovanni-battista-pescetto_%28Dizionario-Biografico%29/"
+    ],
+    "sources_other": [],
+    "surname": "Pescetto",
+    "titles": [],
+    "wikidata:id": "Q1400532"
+  },
   "$Pianori": {
     "ISNI:id": "0000 0000 2378 3950",
     "comment_daniel": "It's quite odd that the source names Pianori 'Giannesi' instead of 'Giovanni'. Must have been a mistake.",
@@ -13415,6 +13934,31 @@
     "surname": "Pulido",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Pycke": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "1824-06-02",
+    "date_of_death": "1898-11-21",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno del Belgio presso la Santa Sede",
+        "1867/1875"
+      ]
+    ],
+    "images": [],
+    "name": "Amédée Edouard Marie Ghislain",
+    "person_type": 1,
+    "place_of_birth": "Gent",
+    "place_of_death": "Bruges",
+    "sources": [],
+    "sources_other": [
+      "Annuaire de la noblesse de Belgique. Volume 14 (Imprimerie de Delivingne et Callewaert: Bruxelles, 1860)",
+      "Mire, Noël Le, Le livre d'or des élèves du Pensionnat de Fribourg-en-Suisse. Volume 1 (1889)"
+    ],
+    "surname": "Pycke de Peteghem",
+    "titles": [["barone", null]],
+    "wikidata:id": "Q2844700"
   },
   "$Quaedvlieg": {
     "ISNI:id": null,
@@ -15638,6 +16182,23 @@
     "titles": [["card.", null]],
     "wikidata:id": "Q614929"
   },
+  "$Somma": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "De Somma",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Son": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -16363,6 +16924,42 @@
     "titles": [["padre", null]],
     "wikidata:id": null
   },
+  "$Talicarne": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Incaricato d'affari del Regno del Regno d'Italia presso il Regno dei Paesi Bassi",
+        "1859-09-15/"
+      ],
+      [
+        "Ministro residente del Regno d'Italia presso la Confederazione Elvetica e il Regno di Norvegia",
+        "1862-03-27/"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Lisbona",
+        "1864-06-04/"
+      ]
+    ],
+    "images": [],
+    "name": "Andrea Luigi",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Annuario diplomatico del Regno d'Italia per l'anno 1865 (Tipografia di G.B. Paravia e Comp.: Torino, 1865), pp. 57-58",
+      "Calendario generale del Regno pel 1860 (Staperia dell'Unione Tipografico-Editrick: Torino, 1860), p. 26"
+    ],
+    "surname": "Talicarne",
+    "titles": [
+      ["marchese", null],
+      ["Cav.", null]
+    ],
+    "wikidata:id": null
+  },
   "$Targioni": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -16578,6 +17175,39 @@
     "surname": "Thorel",
     "titles": [],
     "wikidata:id": null
+  },
+  "$Thouvenel": {
+    "ISNI:id": "0000 0001 1780 8012",
+    "comment_daniel": "",
+    "date_of_birth": "1818-11-11",
+    "date_of_death": "1866-10-18",
+    "functions": [
+      [
+        "Ministro plenipotenziario dell'Impero di Francia al Regno di Grecia",
+        "1849/1850"
+      ],
+      ["Ambasciatore dell'Impero di Francia a Constantinople", "1855/1860"],
+      [
+        "Ministro degli Affari Esteri dell'Impero di Francia",
+        "1860-01-04/1862-10-15"
+      ]
+    ],
+    "images": [
+      "https://www.musee-orsay.fr/fr/oeuvres/edouard-thouvenel-ministre-des-affaires-etrangeres-de-1860-1864-senateur-ne-en-1818-mort-en",
+      "https://www.musee-orsay.fr/fr/oeuvres/m-thouvenel-senateur-68484",
+      "https://commons.wikimedia.org/wiki/File:Fransa%E2%80%99n%C4%B1n_%C4%B0stanbul_B%C3%BCy%C3%BCkel%C3%A7isi_Antoine_Edouard_Thouvenel%E2%80%99in_Portresi.tif#/media/File:Fransa%E2%80%99n%C4%B1n_%C4%B0stanbul_B%C3%BCy%C3%BCkel%C3%A7isi_Antoine_Edouard_Thouvenel%E2%80%99in_Portresi.tif"
+    ],
+    "name": "Édouard-Antoine",
+    "person_type": 1,
+    "place_of_birth": "Verdun",
+    "place_of_death": "Parigi",
+    "sources": [
+      "'Thouvenel, Édouard-Antoine', a cura del Sénat Français, found on: https://www.senat.fr/senateur-2nd-empire/thouvenel_edouard_antoine0073e2.html"
+    ],
+    "sources_other": [],
+    "surname": "Thouvenel",
+    "titles": [],
+    "wikidata:id": "Q281295"
   },
   "$Thun": {
     "ISNI:id": "0000 0001 1632 4470",
@@ -17062,6 +17692,41 @@
     "surname": "de Valdivieso y Vidal de Lorca",
     "titles": [["conte de San Pedro del Álamo", null]],
     "wikidata:id": null
+  },
+  "$Valette": {
+    "ISNI:id": "0000 0000 4599 5698",
+    "comment_daniel": "",
+    "date_of_birth": "1806-11-25",
+    "date_of_death": "1881-05-02",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario dell'Impero di Francia presso la Santa Sede",
+        "1861-08/1862-10-18"
+      ],
+      [
+        "Ministro degli Affari Interni dell'Impero di Francia",
+        "1865-03-20/1868-12-17"
+      ],
+      [
+        "Ministro degli Affari Esteri dell'Impero di Francia",
+        "1868-12-17/1869-07-17"
+      ]
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/74/Marquis_de_la_Valette.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/44/La_Valette%2C_Charles_Jean_Marie_Felix.jpg"
+    ],
+    "name": "Charles-Jean-Marie-Félix",
+    "person_type": 1,
+    "place_of_birth": "Senlis",
+    "place_of_death": "Parigi",
+    "sources": [
+      "'La Valette, Charles-Jean-Marin-Félix', a cura del Sénat Français, found on: https://www.senat.fr/senateur-2nd-empire/la_valette_charles_jean_marin_felix0286e2.html"
+    ],
+    "sources_other": [],
+    "surname": "La Valette",
+    "titles": [["marchese", null]],
+    "wikidata:id": "Q2960615"
   },
   "$Vallacca": {
     "ISNI:id": null,
@@ -18020,6 +18685,31 @@
     "titles": [["jonkheer", "1877-10-18/"]],
     "wikidata:id": "Q2094268"
   },
+  "$Willisen": {
+    "ISNI:id": "0000 0000 2218 4403",
+    "comment_daniel": "AANPASSEN. https://de.wikipedia.org/wiki/Friedrich_Adolf_von_Willisen",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno di Prussia presso la Santa Sede",
+        "1863/"
+      ]
+    ],
+    "images": [],
+    "name": "Friedrich Adolf",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "von Willisen",
+    "titles": [
+      ["barone", null],
+      ["generale", null]
+    ],
+    "wikidata:id": "Q1458019"
+  },
   "$Willmar": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -18298,6 +18988,39 @@
     "surname": "Zucchi",
     "titles": [["tenente generale", null]],
     "wikidata:id": "Q2939273"
+  },
+  "$ZuylenH": {
+    "ISNI:id": "0000 0000 1021 947X",
+    "comment_daniel": "",
+    "date_of_birth": "1781-07-07",
+    "date_of_death": "1853-03-18",
+    "functions": [
+      [
+        "Ministro degli Affari del Culto Riformato e gli altri Culti Religiosi non Cattolici",
+        "1841-03-01/1848-03-25"
+      ],
+      [
+        "Ministro ad interim degli Affari Esteri del Regno dei Paesi Bassi",
+        "1841-09-13/1841-10-06"
+      ]
+    ],
+    "images": [],
+    "name": "Hugo",
+    "person_type": 0,
+    "place_of_birth": "Rotterdam",
+    "place_of_death": "L'Aia",
+    "sources": [
+      "'Hugo van Zuylen van Nijevelt', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/07063030",
+      "Moquette, 'Zuylen van Nyevelt (Mr. Hugo van)', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 3 (Leiden, A.W. Sijthoff, 1914)",
+      "Redactie parlement.com, 'Mr. H. baron van Zuylen van Nijevelt', found on: https://www.parlement.com/id/vg09llszqeqw/h_baron_van_zuylen_van_nijevelt"
+    ],
+    "sources_other": [],
+    "surname": "van Zuylen van Nijevelt",
+    "titles": [
+      ["Cav.", null],
+      ["barone", null]
+    ],
+    "wikidata:id": "Q1635909"
   },
   "$ZuylenJPP": {
     "ISNI:id": "0000 0003 9348 3664",
