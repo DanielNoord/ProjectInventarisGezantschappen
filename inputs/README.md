@@ -15,7 +15,7 @@ Here follows a short summary and example of each field for an indivdual entry (p
 <details>
 <summary>Database description</summary>
 Each entry has a unique identifier. This is often a `$` followed by the surname of the individual. Each entry has 15 fields. In the `.docx` document each field is represented by the name of the field, a `:`, a space and the data of that field.
-    
+
     1) `ISNI:id`: 0000 0000 7777 905X
         The [`ISNI`](https://isni.org) id of the indidivual if it exists. Otherwise it is `null`.
 
@@ -60,7 +60,7 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
 
     11) `sources`: Aubert, Roger, 'Antonelli, Giacomo', in: Dizionario Biografico degli Italiani. Volume 3 (Rome, Treccani, 1961), found on: https://www.treccani.it/enciclopedia/giacomo-antonelli_(Dizionario-Biografico)
         Secondary or "good" sources relevant for the indidivual. Places are in English.
-    
+
     12) `sources_other`: Osservatore del Trasimeno, Anno XIII, 29 (Perugia, 1838-04-10), 1
         Primary or "weak" sources relevant for the indidivual. Places are in English.
 
@@ -72,6 +72,7 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
 
     15) `wikidata:id`: Q712085
         [`WikiData`](https://www.wikidata.org/) ID of the indiviual if it exists. Otherwise it is `null`.
+
 </details>
 
 #### Adding a new individual to the database
@@ -110,7 +111,7 @@ The Italian translation in `DocumentTitles` is a regular expression pattern that
 
 Translation pair in file:
 
-- _Copia di una lettera (di|del|della) (\$\w*) (a|al) (\$\w*) circa la morte (di|del|della) (\$\w*)$_
+- _Copia di una lettera (di|del|della) (\$\w*) (a|al) (\$\w*) circa la morte (di|del|della) (\$\w\*)$_
 - _Kopie van een brief van \2 aan \4 over de dood van \6_
 
 Result in inventory:
@@ -118,7 +119,7 @@ Result in inventory:
 - _Copia di una lettera di $VanNoord al $Jansen circa la morte della $Pietersen_
 - _Kopie van een brief van $VanNoord aan $Jansen over de dood van $Pietersen_
 
-(\$\w*) corresponds to an identifier, for example $VanNoord. Because it is the second pattern in between parenthesis it is replaced by \2. The $ at the end of the line indicates a line-break.
+(\$\w\*) corresponds to an identifier, for example $VanNoord. Because it is the second pattern in between parenthesis it is replaced by \2. The $ at the end of the line indicates a line-break.
 
 Additional explanations of regular expressions can be found online.
 
@@ -126,7 +127,7 @@ Additional explanations of regular expressions can be found online.
 
 The folder `VolumcesExcel` contains a sub-directory `original`. These are all the _griglie_ without any changes as received from Rome.
 
-The sub-directory _it\_IT_ contains the modified _griglie_ in Italian. They use the identifiers as found in the individuals database and modified document titles where necessary. Important to note that individuals who get a title in front of their name need a preposition with article in Italian. For example: _“Lettera al $HoevenE”_ and _“Lettera a $DoderoG”_.
+The sub-directory _it_IT_ contains the modified _griglie_ in Italian. They use the identifiers as found in the individuals database and modified document titles where necessary. Important to note that individuals who get a title in front of their name need a preposition with article in Italian. For example: _“Lettera al $HoevenE”_ and _“Lettera a $DoderoG”_.
 
 To facilitate searching in the archive the directory also contains a file `Paesi Bassi ALL FILES.xlsx`. This is a collection of all original _griglie_ as received from Rome, without any modifications.
 
