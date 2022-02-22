@@ -344,6 +344,14 @@
     "longitude": "106.84513",
     "nl_NL": "Batavia"
   },
+  "Beaulieu-sur-Mer": {
+    "en_GB": "Beaulieu-sur-Mer",
+    "geonames_id": 3034238,
+    "geonames_wikipedia": null,
+    "latitude": "43.70692",
+    "longitude": "7.33135",
+    "nl_NL": "Beaulieu-sur-Mer"
+  },
   "Belluno": {
     "en_GB": "Belluno",
     "geonames_id": 3182210,
@@ -1808,6 +1816,14 @@
     "longitude": "-3.70256",
     "nl_NL": "Madrid"
   },
+  "Magdeburgo": {
+    "en_GB": "Magdeburg",
+    "geonames_id": 2874545,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Magdeburg",
+    "latitude": "52.12773",
+    "longitude": "11.62916",
+    "nl_NL": "Maagdenburg"
+  },
   "Mahón": {
     "en_GB": "Mahón",
     "geonames_id": 2514301,
@@ -2183,6 +2199,14 @@
     "latitude": "43.48539",
     "longitude": "13.48222",
     "nl_NL": "Osimo"
+  },
+  "Oviedo": {
+    "en_GB": "Oviedo",
+    "geonames_id": 3114711,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Oviedo",
+    "latitude": "43.36029",
+    "longitude": "-5.84476",
+    "nl_NL": "Oviedo"
   },
   "Palermo": {
     "en_GB": "Palermo",

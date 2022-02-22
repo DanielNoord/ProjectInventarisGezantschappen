@@ -972,6 +972,10 @@
     "en_GB": "Supplier of the French army",
     "nl_NL": "Leverancier van het Franse leger"
   },
+  "Funzionario della Legazione del Regno dei Paesi Bassi ad Ancona": {
+    "en_GB": "Dignitary with the Legation of the Kingdom of the Netherlands in Ancona",
+    "nl_NL": "Medewerker bij het Gezantschap van het Koninkrijk der Nederlanden in Ancona"
+  },
   "Furiere nel primo reggimento straniero dello Stato Pontificio": {
     "en_GB": "Quartermaster in the first foreign regiment of the Papal States",
     "nl_NL": "Kwartiermeester in het eerste buitenlandse regiment van de Pauselijke Staat"
@@ -1500,6 +1504,10 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Kingdom of the Two Sicilies",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij het Koninkrijk der Beide Siciliën"
   },
+  "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso l'Impero di Francia": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Empire of France",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij het Keizerrijk Frankrijk"
+  },
   "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilge Stoel"
@@ -1567,6 +1575,10 @@
   "Legato apostolico a Ferrara": {
     "en_GB": "Apostolic legate in Ferrara",
     "nl_NL": "Apostolisch legaat te Ferrara"
+  },
+  "Legato straordinario pontificio alle Quattre Legazione delle Romagne": {
+    "en_GB": "Pontifical extraordinary legate to the Four Legations of the Romagna",
+    "nl_NL": "Pauselijk buitengewoon gezant naar de Vier Legaties van de Romagna"
   },
   "Luogotenente Generale del Sovrano Militare Ordine di Malta": {
     "en_GB": "Lieutenant general of the Sovereign Military Order of Malta",
@@ -2504,6 +2516,10 @@
     "en_GB": "_Questore_ of Rome",
     "nl_NL": "_Questore_ van Rome"
   },
+  "Rappresentante del Koninklijke Nederlandsche Stoombootmaatschappij": {
+    "en_GB": "Agent of the Koninklijke Nederlandsche Stoombootmaatschappij",
+    "nl_NL": "Agent der Koninklijke Nederlandsche Stoombootmaatschappij"
+  },
   "Re d'Italia": {
     "en_GB": "King of Italy",
     "nl_NL": "Koning van Italië"
@@ -2932,6 +2948,10 @@
   "Vicario apostolico nel Granducato del Lussemburgo": {
     "en_GB": "Vicar apostolic in the Grand Duchy of Luxembourg",
     "nl_NL": "Apostolisch vicaris in het Groothertogdom Luxemburg"
+  },
+  "Vicario della Chiesa di Sant'Agostino a Nimega": {
+    "en_GB": "Vicar of the Church of Saint Augustin in Nijmegen",
+    "nl_NL": "Vicaris van de Sint-Augustinuskerk te Nijmegen"
   },
   "Vicario generale di Sua Santità per la città di Roma e distretto": {
     "en_GB": "Cardinal vicar of His Holiness for the city of Rome and the district",
