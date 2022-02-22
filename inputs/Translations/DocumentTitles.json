@@ -3696,6 +3696,10 @@
     "en_GB": "Attached letter from \\2",
     "nl_NL": "Bijgevoegde brief van \\2"
   },
+  "Lettera allegata (su|sul|sulla) (\\$\\w+)$": {
+    "en_GB": "Attached letter about \\2",
+    "nl_NL": "Bijgevoegde brief over \\2"
+  },
   "Lettera allegata alla lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Letter attached to the Letter of \\2 to \\4",
     "nl_NL": "Brief bijgevoegd bij de brief van \\2 aan \\4"
