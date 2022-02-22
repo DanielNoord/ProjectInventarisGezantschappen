@@ -13,6 +13,11 @@ repos:
     -   id: control-database
         name: Control the database
         entry: python python/json_control_database.py
-        language: system
+        language: python
         always_run: true
         pass_filenames: false
+        additional_dependencies:
+          - beautifulsoup4~=4.10
+          - openpyxl~=3.0
+          - requests~=2.26
+          - Babel~=2.9
