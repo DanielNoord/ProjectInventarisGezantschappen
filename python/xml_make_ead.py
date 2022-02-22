@@ -36,10 +36,18 @@ class EADMaker(XMLWriter):
         self.series: dict[str, dict[str, etree._Element]] = {}
         """All series and their etree elements within the archive."""
 
-    def create_ead(self) -> None:
+    def create_ead(self, *, print_identifier_count: bool = False) -> None:
         """Start the process of the EAD creation."""
         self._create_xml_file()
         self._xml_check()
+
+        if print_identifier_count:
+            count = sorted(
+                [(v, k) for k, v in self.identifier_counter.items()],
+                key=lambda tup: -tup[0],
+            )
+            for i in count:
+                print(i)
 
     def _write_xml_file(self, root: etree._Element) -> None:
         """Write a .xml file from a an etree Element."""

@@ -27,6 +27,9 @@ class XMLWriter(_ErrorLogger):
         self.used_translations: set[re.Pattern[str]] = set()
         """Set of all used translation patterns."""
 
+        self.identifier_counter = {name: 0 for name in self.database.individuals}
+        """Dictionary that stores occurences of all identifiers."""
+
     @staticmethod
     def basic_xml_file() -> tuple[etree._Element, etree._Element]:
         """Return a basic .xml file based on the EAD standard and project details.
@@ -182,10 +185,13 @@ class XMLWriter(_ErrorLogger):
         event = etree.SubElement(chronitem, "event", {"localtype": "Document creation"})
         add_geognames(event, file_data.place, self.database)
         for identifier in file_data.authors:
+            self.identifier_counter[identifier] += 1
             add_persname(event, identifier, self.database, "author")
         for identifier in file_data.receivers:
+            self.identifier_counter[identifier] += 1
             add_persname(event, identifier, self.database, "receiver")
         for identifier in file_data.others:
+            self.identifier_counter[identifier] += 1
             add_persname(event, identifier, self.database, "other")
 
         # Daoset
