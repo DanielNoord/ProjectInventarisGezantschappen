@@ -31,8 +31,8 @@
   },
   "$ArataL": {
     "en_GB": "Luigi Arata was also consul of several other countries, notably Russia.",
-    "it_IT": null,
-    "nl_NL": null
+    "it_IT": "Luigi Arata era il console dei alcuni altri paesi, in particolare la Russia.",
+    "nl_NL": "Luigi Arata was consul van verschillende andere landen, waaronder Rusland."
   },
   "$Baraguay": {
     "en_GB": "From Koelman: Baraguay of Baraguey d'Hilliers, Achille (1795-1878) was een militair, die na de Parijse revolutie van 1848 als gedeputeerde werd gekozen in de (grond)wetgevende vergadering. In november 1849 werd hij naar Rome wordt gezonden om het commando over de Franse bezettingsmacht in Rome over te nemen van Louis de Rostolan. Tijdens de Krimoorlog kreeg hij het bevel over de zgn. 'Baltische expeditie'; aansluitend werd hij Maarschalk van Frankrijk en senator. Tijdens de Italiaanse campagne van 1859 boekte hij als comandant van het Eerst Legerkorps een belangrijke overwinning bij Solferino. B.: DBF vol. 5 (1951) ad nomen.",
@@ -233,6 +233,11 @@
     "en_GB": null,
     "it_IT": null,
     "nl_NL": "Goltstein werd op 3 jun. 1794 te Arnhem geboren en was de zoon van Jkhr. E.J.B. van Goltstein en F.E.A van der Capellen. Hij studeerde in 1811 af aan de Utrechtse Hogeschool, en vestigde zich toen als advocaat in de stad. Hij spendeerde enige tijd in het buitenland: na de slag van Waterloo vertrok hij naar Parijs, als onderdeel van een compagnie van vrijwillige jagers, waarna hij de voornaamste universiteiten in Duitsland bezocht en een reis naar Engeland maakte. Hij bekleedde tegelijkertijd enkele posities bij de rechterlijke macht in Utrecht, en in 1840 vertegenwoordigde hij Utrecht in de Tweede Kamer. Hij bleef lid van de Kamer tot 18 maart 1858, en bekleedde eveneens de post van curator bij de Utrechtse Hogeschool (tussen 1841 en 1859). Vanaf 23 feb. 1860, in kabinet-Rochussen-van Bosse, was Goltstein minister van Buitenlandse Zaken. Hij was een gematigd liberaal, en wilde meer invloed van het volk, in het bijzonder meer toezicht op het beheer van de staatsfinanciën. Hij hield zich ook veel bezig met de koloniale politiek, en pleitte voor de onafhankelijkheid van de rechterlijke macht in Suriname. Hij werd met toenemende mate conservatief, en stond zeker tijdens zijn periode als minister van B.Z. eerder te boek als conservatief dan liberaal. Hij was verantwoordelijk voor de totstandkoming van een handelsverdrag met zowel Marokko als Japan. Na zijn aftreden werd hij benoemd tot minister van staat. Hij bleef tussen juli 1860 en september 1869 lid van de Tweede Kamer voor het kiesdistrict Amersfoort, en werd tussen 22 dec. 1870 en 14 feb. 1872 senator voor de provincie Utrecht. Goltstein trouwde met Adolphine Warnardine, barones van Pallandt, welke in 1853 overleed. Goltstein zelf overleed op 17 feb. 1872."
+  },
+  "$Gremla": {
+    "en_GB": "van Kremla or Gremla worked for the consulate in Ancona, at least during the period Stienen was consul, and he was connected to Le Mesurier (there was also a company called Le Mesurier & Co based in Ancona). He offered his services to the resident ambassador in Italy Heldewier, to temporarily take the position from Stienen after the latter died. The letters suggest that this happens, but in a letter to Dutch minister Roest van Limburg, Heldewier admits to making a mistake. He had mixed up van Gremla and van Bremen, and indeed van Bremen was apointed the next consul of the Netherlands in Ancona.",
+    "it_IT": null,
+    "nl_NL": null
   },
   "$Grooff": {
     "en_GB": "The appointment and actions of Jacobus Grooff in Batavia led to some issues with the local government and bishops. As a result the local Dutch governor banned him from Indonesia, which led to some correspondence between the Holy See and the Dutch Kingdom. Eventually Grooff was sent to Suriname and a new vicar was sent to Batavia. This 'Groof Affair' is discussed in van Santen (see note).",
@@ -503,6 +508,11 @@
     "en_GB": "From Koelman: Massimo, Mario, hertog van Rignano (1808-1873) was in het kabinet Mamiani (4 mei-3 augustus 1848) minister van Handel en Openbare Werken. Behalve als politicus was hij vooral bekend als wiskundige en astronoom (aan de Via del Teatro Marcello 2 is nog het torentje van zijn observatorium te zien). Hij was onder meer president van de pauselijke academie van wetenschappen (ook wel de 'nieuwe Lincei'), commissaris-generaal van de pauselijke spoorwegen, gemeenteraadslid in Rome en werd na 1870 parlementslid. B.: Fait (1873) 147-152; Moroni (1840-1861) vol. 85, 114; vol. 89, 48 en vol. 100, 264-265.",
     "it_IT": null,
     "nl_NL": null
+  },
+  "$Rollman": {
+    "en_GB": "Rollman was the wife of Gaspari Stienen, consul of the Netherlands in Ancona.",
+    "it_IT": "Rollman era la moglie di Gaspari Stienen, console dei Paesi Bassi ad Ancona.",
+    "nl_NL": "Rollman was de vrouw van Gaspari Stienen, consul van Nederland te Ancona."
   },
   "$RoncaGB": {
     "en_GB": "The archive contains documents related to his death and inheritance.",
