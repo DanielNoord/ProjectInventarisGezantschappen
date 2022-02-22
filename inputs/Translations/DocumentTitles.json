@@ -749,8 +749,8 @@
     "nl_NL": "Concept van een brief aan \\2, aan \\4 en aan \\6"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(\\?\\)$": {
-    "en_GB": "Draft of a letter from \\4 to \\6 (?)",
-    "nl_NL": "Conceptbrief van \\4 aan \\6 (?)"
+    "en_GB": "Draft of a letter from \\2 to \\4 (?)",
+    "nl_NL": "Conceptbrief van \\2 aan \\4 (?)"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(allegato\\)$": {
     "en_GB": "Draft of a letter from \\2 to \\4 (attachment)",
@@ -789,8 +789,8 @@
     "nl_NL": "Concept van een brief van \\2 aan \\4"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) \\(\\?\\) (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Draft of a letter from \\4 (?) to \\6",
-    "nl_NL": "Conceptbrief van \\4 (?) aan \\6"
+    "en_GB": "Draft of a letter from \\2 (?) to \\4",
+    "nl_NL": "Conceptbrief van \\2 (?) aan \\4"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) ai consoli di Genova, Livorno, Napoli , Palermo e Messina$": {
     "en_GB": "Draft letter from \\2 to the consuls of Genoa, Livorno, Naples, Palermo and Messina",
