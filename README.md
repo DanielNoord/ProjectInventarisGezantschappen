@@ -1,3 +1,5 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/DanielNoord/ProjectInventarisGezantschappen/main.svg)](https://results.pre-commit.ci/latest/github/DanielNoord/ProjectInventarisGezantschappen/main)
+
 # Archives of the Dutch Legations in Turin and Rome
 
 This repository contains several `python` programs and data files used during the translation of and research for the archives of the Dutch Legations in Turin and Rome.
