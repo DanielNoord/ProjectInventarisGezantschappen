@@ -20,7 +20,10 @@
           "type": "string"
         }
       },
-      "required": ["en_GB", "nl_NL"],
+      "required": [
+        "en_GB",
+        "nl_NL"
+      ],
       "type": "object"
     }
   },

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../static/JSON/DocumentTitles.json",
   "\"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "“\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
@@ -211,7 +212,6 @@
     "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
     "nl_NL": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake geboren in Nederland overled in Ariccia 1846)"
   },
-  "$schema": "../../static/JSON/DocumentTitles.json",
   "(\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "\\1 to \\3",
     "nl_NL": "\\1 aan \\3"

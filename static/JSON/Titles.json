@@ -25,7 +25,11 @@
           "type": "string"
         }
       },
-      "required": ["en_GB", "nl_NL", "position"],
+      "required": [
+        "en_GB",
+        "nl_NL",
+        "position"
+      ],
       "type": "object"
     }
   },

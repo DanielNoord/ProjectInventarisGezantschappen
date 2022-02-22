@@ -44,7 +44,11 @@
           ]
         }
       },
-      "required": ["en_GB", "it_IT", "nl_NL"],
+      "required": [
+        "en_GB",
+        "it_IT",
+        "nl_NL"
+      ],
       "type": "object"
     }
   },

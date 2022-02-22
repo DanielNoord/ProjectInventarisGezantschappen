@@ -1,4 +1,5 @@
 {
+  "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
     "comment_daniel": "",
@@ -23456,6 +23457,5 @@
     "surname": "Zwijsen",
     "titles": [],
     "wikidata:id": "Q1698693"
-  },
-  "$schema": "../static/JSON/Individuals.json"
+  }
 }
