@@ -8,3 +8,11 @@ repos:
       - id: check-yaml
       - id: pretty-format-json
         args: [--autofix, --no-ensure-ascii, --top-keys, $schema]
+  - repo: local
+    hooks:
+    -   id: control-database
+        name: Control the database
+        entry: python python/json_control_database.py
+        language: system
+        always_run: true
+        pass_filenames: false
