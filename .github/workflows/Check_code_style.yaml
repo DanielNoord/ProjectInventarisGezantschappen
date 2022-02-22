@@ -6,21 +6,21 @@ jobs:
     name: Run formatters, linters and checkers
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repo content
-      uses: actions/checkout@v2
-    - name: Setup python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-        pip install mypy pylint
-    - name: Run mypy
-      run: mypy
-    - name: Run black
-      uses: psf/black@stable
-      with:
-        src: "./python"
-    - name: Run pylint
-      run: pylint --disable=fixme python
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install mypy pylint
+      - name: Run mypy
+        run: mypy
+      - name: Run black
+        uses: psf/black@stable
+        with:
+          src: "./python"
+      - name: Run pylint
+        run: pylint --disable=fixme python
