@@ -18,6 +18,7 @@ outputs/*
 
 # Whitelisted files
 !.gitignore
+!.pre-commit-config.yaml
 !pyproject.toml
 !outputs/ead3.dtd
 !Makepdf_*
