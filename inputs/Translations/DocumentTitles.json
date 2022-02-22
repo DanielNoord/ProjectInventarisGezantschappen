@@ -2356,6 +2356,10 @@
     "en_GB": "Printed sheet “\\1” (Paris, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Parijs, \\2)"
   },
+  "Foglio a stampa “(.+)” \\(Portici, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
+    "nl_NL": "Gedrukt “\\1” (Portici, \\2 sep. \\3)"
+  },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, \\2 Aug. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 aug. \\3)"
@@ -2539,10 +2543,6 @@
   "Foglio della Commission de Passage di Marsiglia$": {
     "en_GB": "Sheet from the Commission de Passage from Marseille",
     "nl_NL": "Blad van de Commission de Passage van Marseille"
-  },
-  "Foglio stampa “(.+)” \\(Portici, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Portici, \\2 Sep. \\3)",
-    "nl_NL": "Gedrukt “\\1” (Portici, \\2 sep. \\3)"
   },
   "Foglio sulla Ondata di tempesta del 1825 \"(.+)\"$": {
     "en_GB": "Sheet about the February flood of 1825 “\\1”",
@@ -3172,6 +3172,10 @@
     "en_GB": "Legations of Rome and Naples. Diplomatic correspondance (outgoing)",
     "nl_NL": "Gezantschap van Rome en Napels. Diplomatieke correspondentie (uitgaand)"
   },
+  "Legazioni di Roma e Napoli. Corrispondenza in arrivo. (\\d\\d\\d\\d)$": {
+    "en_GB": "Legations of Rome and Naples. Incoming correspondance. \\1",
+    "nl_NL": "Gezantschap van Rome en Napels. Binnenkomende correspondentie. \\1"
+  },
   "Legazioni di Roma e Napoli. Corrispondenza politica \\(in partenza\\)$": {
     "en_GB": "Legations of Rome and Naples. Political correspondance (outgoing)",
     "nl_NL": "Gezantschap van Rome en Napels. Politieke correspondentie (uitgaand)"
@@ -3179,6 +3183,10 @@
   "Legazioni di Roma e Napoli. Corrispondenza politica in partenza$": {
     "en_GB": "Legations of Rome and Naples. Outgoing political correspondance",
     "nl_NL": "Gezantschap van Rome en Napels. Uitgaande politieke correspondentie"
+  },
+  "Legazioni di Roma e Napoli. Corrispondenza politica in partenza.$": {
+    "en_GB": "Legations of Rome and Naples. Outgoing political correspondance.",
+    "nl_NL": "Gezantschap van Rome en Napels. Uitgaande politieke correspondentie."
   },
   "Les Autoritès Romaines \\(Le autorità romane\\)$": {
     "en_GB": "Les Autoritès Romaines (The Roman authorities)",
@@ -3224,7 +3232,7 @@
     "en_GB": "Letter to \\2 (gravely deteriorated)",
     "nl_NL": "Brief aan \\2 (erg verslechterd)"
   },
-  "Lettera (a|al|alla) (\\$\\w+) con carta monogramma H.M.$": {
+  "Lettera (a|al|alla) (\\$\\w+) con carta monogramma H.M\\.$": {
     "en_GB": "Letter to \\2 with a monogrammed card with H.M.",
     "nl_NL": "Brief aan \\2 met een gemonogrammeerde kaart met H.M."
   },
