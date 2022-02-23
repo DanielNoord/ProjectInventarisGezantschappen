@@ -9886,6 +9886,23 @@
     ],
     "wikidata:id": "Q321003"
   },
+  "$Haten": {
+    "ISNI:id": null,
+    "comment_daniel": "AANPASSEN. Ms291",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "van Haten",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Haye": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -15667,16 +15684,12 @@
     "place_of_birth": "Porto Maurizio",
     "place_of_death": "Porto Maurizio",
     "sources": [
-      "Gemignani, Marco, 'Orengo, Paolo', in: Dizionario Biografico degli Italiani. Volume 79 (Rome, Treccani, 2013), found on: https://www.treccani.it/enciclopedia/paolo-orengo_%28Dizionario-Biografico%29/",
-      "'Orengo, Paolo', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/a83145850b3a2954c125785d0059b539/eb3fb064b68d84004125646f005df6f4?OpenDocument"
+      "'Orengo, Paolo', a cura dell'Archivio Storico del Senato della Repubblica, found on: https://notes9.senato.it/Web/senregno.NSF/a83145850b3a2954c125785d0059b539/eb3fb064b68d84004125646f005df6f4?OpenDocument",
+      "Gemignani, Marco, 'Orengo, Paolo', in: Dizionario Biografico degli Italiani. Volume 79 (Rome, Treccani, 2013), found on: https://www.treccani.it/enciclopedia/paolo-orengo_%28Dizionario-Biografico%29/"
     ],
     "sources_other": [],
     "surname": "Orengo",
     "titles": [
-      [
-        "contrammiraglio",
-        "1879-03-13/"
-      ],
       [
         "Cav.",
         null
@@ -15684,6 +15697,10 @@
       [
         "marchese",
         null
+      ],
+      [
+        "contrammiraglio",
+        "1879-03-13/"
       ]
     ],
     "wikidata:id": "Q22069506"
