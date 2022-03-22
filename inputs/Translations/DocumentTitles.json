@@ -1050,7 +1050,7 @@
   },
   "Copia del Decreto fatto ricevere dalla Segreteria di Stato, per compilare sulle norme dello stesso, l'Editto di Amnistia$": {
     "en_GB": "Copy of the decision of the Secretariat of State to draft the Amnesty Edict according to its rules",
-    "nl_NL": "Kopie van het besluit van het Staatssecretariaat om het Amnestieedict op te stellen volgens haar regels"
+    "nl_NL": "Kopie van het besluit van het Staatssecretarie om het Amnestieedict op te stellen volgens haar regels"
   },
   "Copia dell'Ultimatum dato dal Santo Padre sulla controversia religiosa$": {
     "en_GB": "Copy of the ultimatum given by the Holy Father about the religious controversy",
@@ -2185,8 +2185,8 @@
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de behandeling van de vlag in de poorten tussen de Pauselijke Regering en die van Toscane (Florence, Tipografia della Rev. Cam. Apost., \\4 apr. \\5)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ampliamento della Guardia Civica di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\) con allegato “(.+)”$": {
-    "en_GB": "Printed sheet “\\1” from \\3 about the expansion of the Guarda Civica van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) with attachment \\5",
-    "nl_NL": "Gedrukt blad “\\1” van \\3 over de uitbreiding van de Guarda Civica  van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) met bijlage \\5"
+    "en_GB": "Printed sheet “\\1” from \\3 about the expansion of the Civic Guard van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) with attachment \\5",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 over de uitbreiding van de Burgerwacht van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) met bijlage \\5"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 about the public order (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
@@ -3601,20 +3601,20 @@
     "nl_NL": "Brief van \\2 met transcriptie van een edict van \\3"
   },
   "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica \\((\\$\\w+)\\) con \"(.+)\"$": {
-    "en_GB": "Letter of \\2 with transcrisption of a notification of the _Guarda Civica_ (\\3) with \"\\4\"",
-    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de _Guarda Civica_ (\\3) met \"\\4\""
+    "en_GB": "Letter of \\2 with transcrisption of a notification of the Civic Guard (\\3) with \"\\4\"",
+    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de Burgerwacht (\\3) met \"\\4\""
   },
   "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica \\((\\$\\w+)\\)$": {
-    "en_GB": "Letter of \\2 with transcrisption of a notification of the _Guarda Civica_ (\\3)",
-    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de _Guarda Civica_ (\\3)"
+    "en_GB": "Letter of \\2 with transcrisption of a notification of the Civic Guard (\\3)",
+    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de Burgerwacht (\\3)"
   },
   "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica con “(.+)”$": {
-    "en_GB": "Letter of \\2 with transcrisption of a notification of the _Guarda Civica_ with “\\3”",
-    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de _Guarda Civica_ met “\\3”"
+    "en_GB": "Letter of \\2 with transcrisption of a notification of the Civic Guard with “\\3”",
+    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de Burgerwacht met “\\3”"
   },
   "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica$": {
-    "en_GB": "Letter of \\2 with transcrisption of a notification of the _Guarda Civica_",
-    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de _Guarda Civica_"
+    "en_GB": "Letter of \\2 with transcrisption of a notification of the Civic Guard",
+    "nl_NL": "Brief van \\2 met transcriptie van een notificatie van de Burgerwacht"
   },
   "Lettera (di|del|della) (\\$\\w+) con trascrizione parziali di lettere ricevute$": {
     "en_GB": "Letter of \\2 with partial transcription of received letters",
@@ -4181,8 +4181,8 @@
     "nl_NL": "Liste des Estrangers n. \\1"
   },
   "Litografia acquarellata raffigurante l'Uniforme approvata della Guardia Civica Pontifica$": {
-    "en_GB": "Watercolour lithograph depicting the approved uniform of the Pontifical Civil Guard",
-    "nl_NL": "Waterverf litho waarop het goedgekeurde uniform van de Pontificale Civiele Garde wordt afgebeeld"
+    "en_GB": "Watercolour lithograph depicting the approved uniform of the Pontifical Civic Guard",
+    "nl_NL": "Waterverf litho waarop het goedgekeurde uniform van de Pontificale Burgerwacht wordt afgebeeld"
   },
   "Lo Statuto \\(a stampa\\)$": {
     "en_GB": "Lo Statuto (printed)",

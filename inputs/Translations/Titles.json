@@ -205,11 +205,6 @@
     "nl_NL": "graaf van Montemolín",
     "position": "After"
   },
-  "conte di Stolberg": {
-    "en_GB": "count of Stolberg",
-    "nl_NL": "graaf van Stolberg",
-    "position": "After"
-  },
   "conte di Thomar": {
     "en_GB": "count of Thomar",
     "nl_NL": "graaf van Thomar",
@@ -319,11 +314,6 @@
     "en_GB": "Marquess of Sirtema",
     "nl_NL": "markies van Sirtema",
     "position": "After"
-  },
-  "maresciallo": {
-    "en_GB": "marshal",
-    "nl_NL": "maarschalk",
-    "position": "Before"
   },
   "maresciallo di campo": {
     "en_GB": "field marshal",
