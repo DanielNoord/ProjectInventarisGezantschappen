@@ -5,12 +5,12 @@
     "nl_NL": "Attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
   },
   "Addetto alla Legazione dell'Impero Austriaco a Londra": {
-    "en_GB": "Attaché to the Legation of the Empire of Austra in London",
+    "en_GB": "Attaché to the Legation of the Austrian Empire in London",
     "nl_NL": "Attaché bij het Gezantschap van het Keizerrijk Oostenrijk te Londen"
   },
   "Addetto onorario della Legazione del Regno dei Paesi Bassi a Roma": {
     "en_GB": "Honorary attaché of the Legation of the Kingdom of the Netherlands in Rome",
-    "nl_NL": "Honorair attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
+    "nl_NL": "Honorair attaché bij het Gezantschap van het Koninkrijk der Nederlandesn in Rome"
   },
   "Aiutante di campo dell'Imperatore di Francia": {
     "en_GB": "Aide-de-camp of the Emperor of France",
@@ -45,48 +45,48 @@
     "nl_NL": "Ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel"
   },
   "Ambasciatore dell'Impero Austriaco a Roma": {
-    "en_GB": "Ambassador of the Empire of Austria in Rome",
+    "en_GB": "Ambassador of the Austrian Empire in Rome",
     "nl_NL": "Ambassadeur van het Keizerrijk Oostenrijk te Rome"
   },
-  "Ambasciatore dell'Impero di Francia a Constantinople": {
-    "en_GB": "Ambassador of the Empire of France in Constantinople",
-    "nl_NL": "Ambassadeur van het Keizerrijk Frankrijk te Consantinopel"
+  "Ambasciatore dell'Impero Francese a Costantinopoli": {
+    "en_GB": "Ambassador of the French Empire in Constantinople",
+    "nl_NL": "Ambassadeur van het Franse Keizerrijk te Constantinopel"
   },
-  "Ambasciatore dell'Impero di Francia presso la Santa Sede": {
-    "en_GB": "Ambassador of the Empire of France to the Holy See",
-    "nl_NL": "Ambassadeur van het Keizerrijk Frankrijk bij de Heilige Stoel"
+  "Ambasciatore dell'Impero Francese presso la Santa Sede": {
+    "en_GB": "Ambassador of the French Empire to the Holy See",
+    "nl_NL": "Ambassadeur van het Franse Keizerrijk bij de Heilige Stoel"
   },
-  "Ambasciatore della Repubblica di Francia a Londra": {
-    "en_GB": "Ambassador of the Republic of France to London",
-    "nl_NL": "Ambassadeur van de Republiek van Frankrijk te Rome"
+  "Ambasciatore della Repubblica Francese a Londra": {
+    "en_GB": "Ambassador of the French Republic in London",
+    "nl_NL": "Ambassadeur van de Franse Republiek te Londen"
   },
-  "Ambasciatore della Repubblica di Francia presso la Santa Sede": {
-    "en_GB": "Ambassador of the Republic of France to the Holy See",
-    "nl_NL": "Ambassadeur van de Republiek van Frankrijk bij de Heilige Stoel"
+  "Ambasciatore della Repubblica Francese presso la Santa Sede": {
+    "en_GB": "Ambassador of the French Republic to the Holy See",
+    "nl_NL": "Ambassadeur van de Franse Republiek bij de Heilige Stoel"
   },
   "Ambasciatore staordinario del Regno di Sardegna presso la Santa Sede": {
     "en_GB": "Extraordinary ambassador of the Kingdom of Sardinia to the Holy See",
     "nl_NL": "Buitengewoon ambassadeur van het Koninkrijk Sardinië bij de Heilige Stoel"
   },
   "Ambasciatore staordinario dell'Impero Austriaco presso la Santa Sede": {
-    "en_GB": "Extraordinary ambassador of the Empire of Austria to the Holy See",
+    "en_GB": "Extraordinary ambassador of the Austrian Empire to the Holy See",
     "nl_NL": "Buitengewoon ambassadeur van het Keizerrijk Oostenrijk bij de Heilige Stoel"
   },
   "Ambasciatore straordinario e plenipotenziario del Regno di Spagna presso la Santa Sede": {
     "en_GB": "Extraordinary and plenipotentiary ambassador of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van het Koninkrijk Spanje bij de Heilige Stoel"
   },
-  "Ambasciatore straordinario e plenipotenziario dell'Impero di Russia a Parigi": {
-    "en_GB": "Extraordinary and plenipotentiary ambassador of the Empire of Russia in Paris",
+  "Ambasciatore straordinario e plenipotenziario dell'Impero Russo a Parigi": {
+    "en_GB": "Extraordinary and plenipotentiary ambassador of the Russian Empire in Paris",
     "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van het Keizerrijk Rusland te Parijs"
   },
-  "Ambasciatore straordinario e plenipotenziario della Repubblica del Messico agli Stati Uniti d'America": {
-    "en_GB": "Extraordinary and plenipotentiary ambassador of the Republic of Mexico to the United States of America",
-    "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van de Republiek van Mexico bij de Verenigde Staten van Amerika"
+  "Ambasciatore straordinario e plenipotenziario della Repubblica Messicana agli Stati Uniti d'America": {
+    "en_GB": "Extraordinary and plenipotentiary ambassador of the Mexican Republic to the United States of America",
+    "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van de Mexicaanse Republiek bij de Verenigde Staten van Amerika"
   },
-  "Ambasciatore straordinario e plenipotenziario della Repubblica del Messico presso la Santa Sede": {
-    "en_GB": "Extraordinary and plenipotentiary ambassador of the Republic of Mexico to the Holy See",
-    "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van de Republiek van Mexico bij de Heilige Stoel"
+  "Ambasciatore straordinario e plenipotenziario della Repubblica Messicana presso la Santa Sede": {
+    "en_GB": "Extraordinary and plenipotentiary ambassador of the Mexican Republic to the Holy See",
+    "nl_NL": "Buitengewoon en gevolmachtigd ambassadeur van de Mexicaanse Republiek bij de Heilige Stoel"
   },
   "Amministratore dei beni della principessa Marianna dei Paesi Bassi": {
     "en_GB": "Administrator employed by Princess Marianne of the Netherlands",
@@ -100,21 +100,21 @@
     "en_GB": "Administrator-general of Justice of the Grand Duchy of Luxembourg",
     "nl_NL": "Administrateur-generaal van Justitie van het Groothertogdom Luxemburg"
   },
-  "Amministratore principale e segretario provvisorio presso la Segretariato dello Stato del Regno dei Paesi Bassi": {
-    "en_GB": "Principal administrator and temporary secretary of the State Secretariat of the Kingdom of the Netherlands",
-    "nl_NL": "Referendaris en tijdelijk griffier bij de Staatssecretarie van het Koninkrijk der Nederlanden"
+  "Amministratore principale e segretario provvisorio presso la Segreteria di Stato del Regno dei Paesi Bassi": {
+    "en_GB": "Principal administrator and temporary secretary at the Secretariat of State of the Kingdom of the Netherlands",
+    "nl_NL": "Referendaris en tijdelijk griffier bij het Staatssecretariaat van het Koninkrijk der Nederlanden"
   },
   "Amministratore principale il Ministero delle Finanze del Regno dei Paesi Bassi": {
     "en_GB": "Principal administrator at the Ministry of Finances of the Kingdom of the Netherlands",
     "nl_NL": "Referendaris bij het Ministerie van Financiën van het Koninkrijk der Nederlanden"
   },
   "Amministratore principale presso il Dipartimento della Giustizia del Regno dei Paesi Bassi": {
-    "en_GB": "Principal administrator with the Department of Justice of the Kingdom of the Netherlands",
+    "en_GB": "Principal administrator at the Department of Justice of the Kingdom of the Netherlands",
     "nl_NL": "Referendaris bij het Departement van Justitie van het Koninkrijk der Nederlanden"
   },
   "Applicato di 1 ° classe nel Ministero delle Finanze del Regno d'Italia": {
-    "en_GB": "Clerk of the 1st class of the Ministry of Finance of the Kingdom of Italy",
-    "nl_NL": "Beambte van de 1e klasse van het ministerie van Financiën van het Koninkrijk Italië"
+    "en_GB": "Clerk 1st class at the Ministry of Finance of the Kingdom of Italy",
+    "nl_NL": "Ambtenaar 1e klasse aan het ministerie van Financiën van het Koninkrijk Italië"
   },
   "Archeologo": {
     "en_GB": "Archaeologist",
@@ -125,16 +125,16 @@
     "nl_NL": "Hofarchitect bij het Koninkrijk Hannover"
   },
   "Archivista": {
-    "en_GB": "Archivist",
-    "nl_NL": "Archivist"
+    "en_GB": "Record Keeper",
+    "nl_NL": "Archivaris"
   },
   "Archivista di 1 ° classe al Ministero degli Affari Esteri del Regno d'Italia": {
-    "en_GB": "Archivist of the 1st class at the ministry of Foreign Affairs of the Kingdom of Italy",
-    "nl_NL": "Archivist van de 1e klasse bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+    "en_GB": "Record Keeper 1st class at the ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Archivaris 1e klasse bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Archivista di 2 ° classe al Ministero degli Affari Esteri del Regno d'Italia": {
-    "en_GB": "Archivist of the 2nd class at the ministry of Foreign Affairs of the Kingdom of Italy",
-    "nl_NL": "Archivist van de 2e klasse bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+    "en_GB": "Record Keeper 2nd class at the ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Archivaris 2e klasse bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Arcivescovo di Bologna": {
     "en_GB": "Archbishop of Bologna",
@@ -153,7 +153,7 @@
     "nl_NL": "Aartsbisschop van Sardi"
   },
   "Arcivescovo di Tebe": {
-    "en_GB": "Archbishop of Thebe",
+    "en_GB": "Archbishop of Thebes",
     "nl_NL": "Aartsbisschop van Thebe"
   },
   "Arcivescovo di Utrecht": {
@@ -165,8 +165,8 @@
     "nl_NL": "Titulair aartsbisschop van Nisibi"
   },
   "Assessore generale della direzione generale di polizia di Roma": {
-    "en_GB": "General assessor of the general Directorate of the police of Rome",
-    "nl_NL": "Assessor-generaal van het directoraat-generaal van de politie van Rome"
+    "en_GB": "General assessor of the Directorate-General of Police of Rome",
+    "nl_NL": "Assessor-generaal van het Directoraat-generaal van Politie van Rome"
   },
   "Avvocato": {
     "en_GB": "Lawyer",
@@ -181,7 +181,7 @@
     "nl_NL": "Advocaat en procureur bij de Raad van Justitie van Soerabaja"
   },
   "Avvocato generale dei poveri dello Stato Pontificio": {
-    "en_GB": "Advocate general for the poor of the Papel States",
+    "en_GB": "Advocate general for the poor of the Papal States",
     "nl_NL": "Advocaat-generaal voor de armen van de Kerkelijke Staat"
   },
   "Avvocato generale presso la Corte Suprema delle Indie Orientali Olandesi": {
@@ -200,7 +200,7 @@
     "en_GB": "Librarian",
     "nl_NL": "Bibliothecaris"
   },
-  "Bibliotecario del Re di Paesi Bassi": {
+  "Bibliotecario del Re dei Paesi Bassi": {
     "en_GB": "Librarian of the King of the Netherlands",
     "nl_NL": "Bibliothecaris van de Koning der Nederlanden"
   },
@@ -218,19 +218,19 @@
   },
   "Botanista": {
     "en_GB": "Botanist",
-    "nl_NL": "Botanist"
+    "nl_NL": "Botanicus"
   },
   "Cameriere segreto partecipanti del Papa": {
     "en_GB": "Real Secret Chaimberlain of His Holiness",
     "nl_NL": "Werkelijk Geheim Kamerheer van Zijne Heiligheid"
   },
   "Cameriere segreto soprannumerario del Papa": {
-    "en_GB": "Extraordinary Secret Chaimberlain of His Holiness",
-    "nl_NL": "Boventallig Geheim Kamerheer van Zijne Heiligheid"
+    "en_GB": "Supernumerary Secret Chaimberlain of the Pope",
+    "nl_NL": "Boventallig Geheim Kamerheer van de Paus"
   },
   "Camerlengo di Santa Romana Chiesa": {
     "en_GB": "Camerlengo of the Holy Roman Church",
-    "nl_NL": "Camerlengo van de Rooms-Katholieke Kerk"
+    "nl_NL": "Camerlengo van de Heilige Roomse Kerk"
   },
   "Cancelliere della Legazione del Regno dei Paesi Bassi a Roma": {
     "en_GB": "Chancellor with the Legation of the Kingdom of the Netherlands in Rome",
@@ -240,17 +240,9 @@
     "en_GB": "Chancellor with the Legation of the Kingdom of Prussia in Rome",
     "nl_NL": "Kanselier bij het Gezantschap van het Koninkrijk Pruisen in Rome"
   },
-  "Cancelliere di Stato del Granducato del Lussemburgo all'Aia": {
-    "en_GB": "State Chancellor of the Grand Duchy of Luxembourg in The Hague",
-    "nl_NL": "Rijkskanselier van het Groothertogdom Luxemburg te Den Haag"
-  },
-  "Cancelliere di Stato dell'Impero d'Austria": {
-    "en_GB": "State Chancellor of the Empire of Austria",
-    "nl_NL": "Rijkskanselier van het Keizerrijk Oostenrijk"
-  },
   "Cancelliere di stato ad interim per gli Affari Lussemburghesi all'Aia": {
     "en_GB": "Ad interim state chancellor for Luxembourgish Affairs in The Hague",
-    "nl_NL": "Ad interim staatskanselier voor Luxemburgse Aangelegenheden te Den Haag"
+    "nl_NL": "Staatskanselier ad interim voor Luxemburgse Aangelegenheden te Den Haag"
   },
   "Cancelliere di stato gli Affari Lussemburghesi all'Aia": {
     "en_GB": "State chancellor for Luxembourgish Affairs in The Hague",
@@ -276,33 +268,37 @@
     "en_GB": "Captain of the army of the Republic of Costa Rica",
     "nl_NL": "Kapitein van het leger van de Republiek Costa Rica"
   },
-  "Capitano della Repubblica di San Martino": {
-    "en_GB": "Captain of the Republic of San Martino",
-    "nl_NL": "Kapitein van de Republiek van San Martino"
+  "Capitano della Repubblica di San Marino": {
+    "en_GB": "Captain of the Republic of San Marino",
+    "nl_NL": "Kapitein van de Republiek San Marino"
   },
-  "Capo dell'azienda Chemet en Weetjen a Amsterdam": {
+  "Capitano reggente della Repubblica di San Marino": {
+    "en_GB": "Captain regent of the Republic of San Marino",
+    "nl_NL": "Kapitein-regent van de Republiek van San Marino"
+  },
+  "Capo dell'azienda Chemet en Weetjen ad Amsterdam": {
     "en_GB": "Head of the company Chemet en Weetjen in Amsterdam",
     "nl_NL": "Bedrijfshoofd bij Chemet en Weetjen te Amsterdam"
   },
   "Capo della polizia di Maastricht": {
-    "en_GB": "Chief of the police of Maastricht",
-    "nl_NL": "Hoofcommissaris van de politie van Maastricht"
+    "en_GB": "Chief of police of Maastricht",
+    "nl_NL": "Hoofcommissaris van politie van Maastricht"
   },
   "Capo di gabinetto del Ministero degli Affari Esteri del Regno d'Italia": {
-    "en_GB": "Head of cabinet of the Ministry of Foreign Affairs of the Kingdom of Italy",
-    "nl_NL": "Kabinetschef van het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+    "en_GB": "Head of cabinet at the Ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Kabinetschef aan het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Capo di gabinetto del Re del Regno d'Italia": {
     "en_GB": "Head of cabinet of King of the Kingdom of Italy",
     "nl_NL": "Kabinetschef van de Koning van het Koninkrijk Italië"
   },
   "Capo-contabile del Ministero delle Finanze dello Stato Pontificio": {
-    "en_GB": "Chief accountant of the Ministry of Finance of the Papel States",
-    "nl_NL": "Hoofd-accountant van het Ministerie van Financiën van de Kerkelijke Staat"
+    "en_GB": "Chief bookkeeper at the Ministry of Finance of the Papal States",
+    "nl_NL": "Hoofdboekhouder aan het Ministerie van Financiën van de Kerkelijke Staat"
   },
   "Capo-travaglio nella Casa di Pubblica Beneficenza": {
-    "en_GB": "Chief worker in the _Casa di Pubblica Beneficenza_ {House of Public Charity}",
-    "nl_NL": "Hoofd-arbeider in het _Casa di Pubblica Beneficenza_ {Huis van Openbare Liefdadigheid}"
+    "en_GB": "Foreman in the _Casa di Pubblica Beneficenza_ {House of Public Charity}",
+    "nl_NL": "Voorman in het _Casa di Pubblica Beneficenza_ {Huis van Openbare Liefdadigheid}"
   },
   "Cappellaio": {
     "en_GB": "Hatter",
@@ -334,15 +330,11 @@
   },
   "Chirurgo maggiore del 6 ° reggimento fanteria ad Alessandria": {
     "en_GB": "Major surgeon in the 6th infantry regiment at Alessandria",
-    "nl_NL": "Majoor chirurg bij het 6e regiment van infanterie te Alessandria"
+    "nl_NL": "Majoor chirurg bij het 6e infanterieregiment te Alessandria"
   },
   "Ciambellano del Granduca di Toscana": {
     "en_GB": "Chamberlain of the Grand Duke of Tuscany",
     "nl_NL": "Kamerheer van de Groothertog van Toscane"
-  },
-  "Ciambellano del Papa": {
-    "en_GB": "Chamberlain of the Pope",
-    "nl_NL": "Kamerheer van de Paus"
   },
   "Ciambellano del Re dei Paesi Bassi": {
     "en_GB": "Chamberlain of the King of the Netherlands",
@@ -354,23 +346,19 @@
   },
   "Ciambellano del Re di Prussia": {
     "en_GB": "Chamberlain of the King of Prussia",
-    "nl_NL": "Kamerheer van de Koning van Pruissen"
+    "nl_NL": "Kamerheer van de Koning van Pruisen"
   },
   "Ciambellano del Re di Sassonia": {
     "en_GB": "Chamberlain of the King of Saxony",
     "nl_NL": "Kamerheer van de Koning van Saksen"
   },
-  "Ciambellano del granduca ereditario di Sassonia Weimar Eisenach": {
-    "en_GB": "Chamberlain of the Grand Duke of Saxe-Weimar-Eisenach",
-    "nl_NL": "Kamerheer van de Groothertog van Saksen-Weimar-Eisenach"
-  },
   "Ciambellano della Duchessa di Parma, Piacenza e Guastalla": {
     "en_GB": "Chamberlain of the Duchess of Parma, Piacenza and Guastalla",
     "nl_NL": "Kamerheer van de Gravin van Parma, Piacenza en Guastalla"
   },
-  "Ciambellano della Principessa Wilhelmine Marie Sophie Louise di Oranje-Nassau alla corta di Weimar": {
-    "en_GB": "Chamberlain of the Princess Wilhelmine Marie Sophie Louise of di Oranje-Nassau at the court of Weimar",
-    "nl_NL": "Kamerheer van de Princes Wilhelmine Marie Sophie Louise van di Oranje-Nassau aan het hof van Weimar"
+  "Ciambellano della Principessa Wilhelmine Marie Sophie Louise di Orange-Nassau alla corte di Weimar": {
+    "en_GB": "Chamberlain of Princess Wilhelmine Marie Sophie Louise of Orange-Nassau at the court of Weimar",
+    "nl_NL": "Kamerheer van prinses Wilhelmine Marie Sophie Louise van Oranje-Nassau aan het hof van Weimar"
   },
   "Ciambellano e maestro di cerimonie del Re dei Paesi Bassi": {
     "en_GB": "Chamberlain and master of ceremonies of the King of the Netherlands",
@@ -388,9 +376,9 @@
     "en_GB": "Colonel of the National Guard of Turin",
     "nl_NL": "Kolonel van de Nationale Garde van Turijn"
   },
-  "Comandante dei depositi dei armi dell'esercitio pontificio a Roma": {
-    "en_GB": "Commander of the arms of the Papal army in Rome",
-    "nl_NL": "Commandant van de wapens van het Pauselijke leger in Rome"
+  "Comandante dei depositi delle armi dell'esercitio pontificio a Roma": {
+    "en_GB": "Commander of the arms depots of the Papal army in Rome",
+    "nl_NL": "Commandant van de wapendepots van het pauselijke leger in Rome"
   },
   "Comandante del 1° reggimento estero dell'esercito pontificio": {
     "en_GB": "Commander of the 1st foreign regiment of the Papal army",
@@ -398,25 +386,17 @@
   },
   "Comandante del 2° reggimento estero dell'esercito pontificio a Forlì": {
     "en_GB": "Commander of the 2st foreign regiment of the Papal army at Forlì",
-    "nl_NL": "Commandant van het 2e buitenlandse regiment van het Pauselijke leger te Forlì"
-  },
-  "Comandante del fregata De Ruyter": {
-    "en_GB": "Commander of the frigate De Ruyter",
-    "nl_NL": "Commandant van het fregat De Ruyter"
-  },
-  "Comandante del fregata Valk": {
-    "en_GB": "Commander of the frigate De Ruyter",
-    "nl_NL": "Kapitein-Luitenant-ter-Zee van het fregat De Ruyter"
+    "nl_NL": "Commandant van het 2e buitenlandse regiment van het pauselijke leger te Forlì"
   },
   "Comandante del reggimento degli Zuavi pontifici": {
-    "en_GB": "Commander of the regiment of Papal Zouaves",
-    "nl_NL": "Commandant van het regiment van Pauselijke Zouaven"
+    "en_GB": "Commander of the regiment of the Papal Zouaves",
+    "nl_NL": "Commandant van het regiment van de Pauselijke Zouaven"
   },
-  "Comandante dell'ottava corpo d'armata dell'Impero d'Austria": {
-    "en_GB": "Commander of the eighth military corps of the Empire of Austria",
+  "Comandante dell'ottavo corpo d'armata dell'Impero Austriaco": {
+    "en_GB": "Commander of the eighth army corps of the Austrian Empire",
     "nl_NL": "Commandant van het achtste legerkorps van het Keizerrijk Oostenrijk"
   },
-  "Comandante della 3° Divisione Militare a Bologna": {
+  "Comandante della 3° divisione militare a Bologna": {
     "en_GB": "Commander of the 3th military division in Bologna",
     "nl_NL": "Commandant van de 3e militaire divisie te Bologna"
   },
@@ -428,21 +408,25 @@
     "en_GB": "Commander of the fortress of Ancona",
     "nl_NL": "Commandant van de vesting van Ancona"
   },
-  "Comandante della brigata Pistoia delle truppe Piemontese": {
+  "Comandante della brigata Pistoia delle truppe Piemontesi": {
     "en_GB": "Commander of the brigade Pistoia of the Piedmontese troops",
-    "nl_NL": "Commandant van de brigade Pistoia van de Piëdmontese troepen"
+    "nl_NL": "Commandant van de brigade Pistoia van de Piemontese troepen"
   },
-  "Comandante della seconda divisione dell'esercito Italiano": {
+  "Comandante della fregata De Ruyter": {
+    "en_GB": "Commander of the frigate De Ruyter",
+    "nl_NL": "Commandant van het fregat De Ruyter"
+  },
+  "Comandante della fregata Valk": {
+    "en_GB": "Commander of the frigate De Ruyter",
+    "nl_NL": "Kapitein-Luitenant-ter-Zee van het fregat De Ruyter"
+  },
+  "Comandante della seconda divisione dell'esercito italiano": {
     "en_GB": "Commander of the second division of the Italian army",
     "nl_NL": "Commandant van de tweede divisie van het Italiaanse leger"
   },
   "Comandante della seconda divisione dell'esercito pontificio": {
     "en_GB": "Commander of the second division of the Papal army",
     "nl_NL": "Commandant van de tweede divisie van het Pauselijke leger"
-  },
-  "Comandante delle truppe austriache": {
-    "en_GB": "Commander of the Austrian troops",
-    "nl_NL": "Commandant van de Oostenrijkse troepen"
   },
   "Comandante generale della Regia Marina del Regno di Sardegna": {
     "en_GB": "Commander general of the Royal Navy of the Kingdom of Sardinia",
@@ -492,13 +476,13 @@
     "en_GB": "Commissioner of the King of the Netherlands for the province of North Holland",
     "nl_NL": "Commissaris van de Koning van Nederland voor de provincie Noord-Holland"
   },
-  "Commissario generale del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
-    "en_GB": "General commissioner of the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
-    "nl_NL": "Commissaris-generaal van het Ministerie van Marine en Koloniën van het Koninkrijk der Nederlanden"
+  "Commissario generale del Magistrato di Sanità di Genova": {
+    "en_GB": "General commissioner of the Magistracy of Public Health of Genoa",
+    "nl_NL": "Commissaris generaal van de Magistratuur voor de Volksgezondheid in Genua"
   },
-  "Commissario generale del _Magistrato di Sanità_ di Genova": {
-    "en_GB": "General commissioner of the _Magistrato di Sanità_ of Genoa",
-    "nl_NL": "Commissaris generaal van het _Magistrato di Sanità_ van Genua"
+  "Commissario generale del Ministro della Marina e delle Colonie del Regno dei Paesi Bassi": {
+    "en_GB": "General commissioner at the Ministry of the Navy and Colonies of the Kingdom of the Netherlands",
+    "nl_NL": "Commissaris-generaal aan het Ministerie van Marine en Koloniën van het Koninkrijk der Nederlanden"
   },
   "Commissario generale della Rev. Camera Apostolica": {
     "en_GB": "General commissioner of the Apostolic Chamber",
@@ -508,24 +492,24 @@
     "en_GB": "Pontifical extraordinary commissioner at Ancona",
     "nl_NL": "Pauselijk buitengewoon gezant te Ancona"
   },
-  "Commissario straordinario pontificio alle Quattre Legazione delle Romagne": {
+  "Commissario straordinario pontificio alle Quattre Legazione della Romagna": {
     "en_GB": "Pontifical extraordinary commissioner to the Four Legations of the Romagna",
-    "nl_NL": "Pauselijk buitengewoon gezant naar de Vier Legaties van de Romagna"
+    "nl_NL": "Pauselijk buitengewoon gezant bij de Vier Legaties van de Romagna"
   },
   "Compositore": {
     "en_GB": "Composer",
     "nl_NL": "Componist"
   },
   "Consigliere del Duca di Nassau": {
-    "en_GB": "Counselor to the Duke of Nassau",
+    "en_GB": "Counsellor of the Duke of Nassau",
     "nl_NL": "Raadsheer van de Hertog van Nassau"
   },
   "Consigliere della Legazione del Regno d'Italia a Parigi": {
     "en_GB": "Advisor to the Legation of the Kingdom of Italy in Paris",
     "nl_NL": "Adviseur van het Gezantschap van het Koninkrijk Italië te Parijs"
   },
-  "Consigliere della Legazione dell'Impero d'Austria a Roma": {
-    "en_GB": "Advisor to the Legation of the Empire of Austria in Rome",
+  "Consigliere della Legazione dell'Impero Austriaco a Roma": {
+    "en_GB": "Advisor to the Legation of the Austrian Empire in Rome",
     "nl_NL": "Adviseur van het Gezantschap van het Keizerrijk Oostenrijk te Rome"
   },
   "Consigliere di Stato": {
@@ -533,14 +517,14 @@
     "nl_NL": "Staatsraad"
   },
   "Consigliere e incaricato d'affari della Legazione del Regno del Belgio a Roma": {
-    "en_GB": "Advisor and chargé d'affaires of the Kingdom of Belgium in Rome",
-    "nl_NL": "Adviseur en zaakgelastigde van het Koninkrijk België te Rome"
+    "en_GB": "Advisor and chargé d'affaires of the Legation of the Kingdom of Belgium in Rome",
+    "nl_NL": "Adviseur en zaakgelastigde van het Gezantschap van het Koninkrijk België te Rome"
   },
   "Console Generale del Regno dei Paesi Bassi a Budapest": {
     "en_GB": "Consul general of the Kingdom of the Netherlands in Budapest",
     "nl_NL": "Consul-generaal van het Koninkrijk Nederland te Budapest"
   },
-  "Console Generale del Regno di Paesi Bassi a Caracas": {
+  "Console Generale del Regno dei Paesi Bassi a Caracas": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Caracas",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Caracas"
   },
@@ -549,16 +533,16 @@
     "nl_NL": "Consul-generaal van het Koninkrijk Sardinië te Tunis"
   },
   "Console Generale del Regno di Sardegna ad Algeri": {
-    "en_GB": "Consul of the Kingdom of Sardinia in Algeria",
-    "nl_NL": "Consul van het Koninkrijk Sardinië te Algerië"
+    "en_GB": "Consul of the Kingdom of Sardinia in Algiers",
+    "nl_NL": "Consul van het Koninkrijk Sardinië te Algiers"
   },
   "Console Generale del Regno di Sardegna ad Atene": {
     "en_GB": "Consul general of the Kingdom of Sardinia at Athens",
     "nl_NL": "Consul-generaal van het Koninkrijk Sardinië te Athene"
   },
   "Console Generale del Regno di Sardegna e provvisoriamente anche del Granducato di Toscana": {
-    "en_GB": "Consul general of the Kingdom of Sardinia and provissionally of the Grand Duchy of Tuscany",
-    "nl_NL": "Consul-generaal van het Koninkrijk Sardinië en voorlopig consul-general van het Groothertogdom van Toscane"
+    "en_GB": "Consul general of the Kingdom of Sardinia and provisionally of the Grand Duchy of Tuscany",
+    "nl_NL": "Consul-generaal van het Koninkrijk Sardinië en voorlopig consul-generaal van het Groothertogdom Toscane"
   },
   "Console Generale della Confederazione Elvetica presso La Santa Sede": {
     "en_GB": "Consul general of the Swiss Confederation to the Holy See",
@@ -575,10 +559,6 @@
   "Console del Regno dei Paesi Bassi a Cagliari": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Cagliari",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Cagliari"
-  },
-  "Console del Regno dei Paesi Bassi a Cette": {
-    "en_GB": "Consul of the Kingdom of the Netherlands in Cette",
-    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Cette"
   },
   "Console del Regno dei Paesi Bassi a Civitavecchia": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Civitavecchia",
@@ -602,7 +582,7 @@
   },
   "Console del Regno dei Paesi Bassi a Malta": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Malta",
-    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Malta"
+    "nl_NL": "Consul van het Koninkrijk der Nederlanden op Malta"
   },
   "Console del Regno dei Paesi Bassi a Marsiglia": {
     "en_GB": "Consul of the Kingdom of the Netherlands in Marseille",
@@ -624,12 +604,12 @@
     "en_GB": "Consul of the Kingdom of the Kingdom of the Netherlands in Palermo",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Palermo"
   },
-  "Console del Regno dei Paesi Bassi a Reggio Calabria": {
-    "en_GB": "Consul of the Kingdom of the Netherlands in Reggio Calabria",
-    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Reggio Calabria"
+  "Console del Regno dei Paesi Bassi a Sète": {
+    "en_GB": "Consul of the Kingdom of the Netherlands in Sète",
+    "nl_NL": "Consul van het Koninkrijk der Nederlanden te Sète"
   },
   "Console del Regno dei Paesi Bassi a Venezia": {
-    "en_GB": "Consul of the Kingdom of the Netherlands in Venetië",
+    "en_GB": "Consul of the Kingdom of the Netherlands in Venice",
     "nl_NL": "Consul van het Koninkrijk der Nederlanden te Venetië"
   },
   "Console del Regno dei Paesi Bassi ad Alessandria d'Egitto": {
@@ -652,8 +632,8 @@
     "en_GB": "Consul of the Kingdom of Württemberg in Rome",
     "nl_NL": "Consul van het Koninkrijk Württemberg te Rome"
   },
-  "Console dell'Impero d'Austria ad Ancona": {
-    "en_GB": "Consul of the Empire of Austria in Ancona",
+  "Console dell'Impero Austriaco ad Ancona": {
+    "en_GB": "Consul of the Austrian Empire in Ancona",
     "nl_NL": "Consul van het Keizerrijk Oostenrijk te Ancona"
   },
   "Console della Repubblica delle Sette Province Unite a Genova": {
@@ -666,7 +646,7 @@
   },
   "Console generale aggiunto del Regno dei Paesi Bassi a Genova": {
     "en_GB": "Deputy consul general of the Kingdom of the Netherlands in Genoa",
-    "nl_NL": "Plaatsvervangend consul-generaal van het Koninkrijk der Nederlanden te Genua"
+    "nl_NL": "Adjunct consul-generaal van het Koninkrijk der Nederlanden te Genua"
   },
   "Console generale dal Portogallo a Livorno": {
     "en_GB": "Consul general of Portugal in Livorno",
@@ -689,76 +669,80 @@
     "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Marseille"
   },
   "Console generale del Regno dei Paesi Bassi a Napoli": {
-    "en_GB": "Consul general of the Kingdom of the Netherlands in Napels",
+    "en_GB": "Consul general of the Kingdom of the Netherlands in Naples",
     "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Napels"
   },
   "Console generale del Regno dei Paesi Bassi a Napoli e agente diplomatico": {
-    "en_GB": "Consul general of the Kingdom of the Netherlands in Napels and diplomatic agent",
+    "en_GB": "Consul general of the Kingdom of the Netherlands in Naples and diplomatic agent",
     "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Napels en diplomatiek agent"
   },
   "Console generale del Regno dei Paesi Bassi a Trieste": {
     "en_GB": "Consul general of the Kingdom of the Netherlands in Trieste",
     "nl_NL": "Consul-generaal van het Koninkrijk der Nederlanden te Triëst"
   },
-  "Console generale dell'Impero d'Austria ad Ancona": {
-    "en_GB": "Consul general of the Empire of Austria in Ancona",
+  "Console generale dell'Impero Austriaco ad Ancona": {
+    "en_GB": "Consul general of the Austrian Empire in Ancona",
     "nl_NL": "Consul-generaal van het Keizerrijk Oostenrijk te Ancona"
+  },
+  "Consultore di Stato per le Finanze per Camerino": {
+    "en_GB": "State advisor for Finances for Camerino",
+    "nl_NL": "Staatadviseur voor Financiën voor Camerino"
   },
   "Controllore della controlleria delle dogane": {
     "en_GB": "Agent at customs control services",
     "nl_NL": "Controleur bij de douanecontroledienst"
   },
   "Curatore d'arte del Museo statale delle Antichità di Leida": {
-    "en_GB": "Curator of the Museum of Antiquities of Leiden",
-    "nl_NL": "Curator van het Rijksuseum van Oudheden van Leiden"
+    "en_GB": "Curator at the Museum of Antiquities in Leiden",
+    "nl_NL": "Conservator aan het Rijksmuseum van Oudheden te Leiden"
   },
   "Delegato apostolico a Civitavecchia": {
     "en_GB": "Apostolic delegate in Civitavecchia",
-    "nl_NL": "Apostolisch delegaat te Civitavecchia"
+    "nl_NL": "Apostolisch afgevaardigde te Civitavecchia"
   },
   "Delegato apostolico a Forlì": {
     "en_GB": "Apostolic delegate in Forlì",
-    "nl_NL": "Apostolisch delegaat te Forlì"
+    "nl_NL": "Apostolisch afgevaardigde te Forlì"
   },
   "Delegato apostolico a Macerata": {
     "en_GB": "Apostolic delegate in Macerata",
-    "nl_NL": "Apostolisch delegaat te Macerata"
+    "nl_NL": "Apostolisch afgevaardigde te Macerata"
   },
   "Delegato apostolico a Urbino e Pesaro": {
     "en_GB": "Apostolic delegate in Urbino and Pesaro",
-    "nl_NL": "Apostolisch delegaat te Urbino en Pesaro"
+    "nl_NL": "Apostolisch afgevaardigde te Urbino en Pesaro"
   },
   "Delegato apostolico a Vienna": {
     "en_GB": "Apostolic delegate in Vienna",
-    "nl_NL": "Apostolisch delegaat te Wenen"
+    "nl_NL": "Apostolisch afgevaardigde te Wenen"
   },
   "Delegato apostolico a Viterbo": {
     "en_GB": "Apostolic delegate in Viterbo",
-    "nl_NL": "Apostolisch delegaat te Viterbo"
+    "nl_NL": "Apostolisch afgevaardigde te Viterbo"
   },
   "Delegato apostolico ad Ancona": {
     "en_GB": "Apostolic delegate in Ancona",
-    "nl_NL": "Apostolisch delegaat te Ancona"
+    "nl_NL": "Apostolisch afgevaardigde te Ancona"
   },
   "Delegato apostolico ad Ascoli": {
     "en_GB": "Apostolic delegate in Ascoli",
-    "nl_NL": "Apostolisch delegaat te Ascoli"
+    "nl_NL": "Apostolisch afgevaardigde te Ascoli"
   },
   "Direttore Generale delle Gabelle al Ministero delle Finanze del Regno di Sardegna": {
     "en_GB": "Director-general of the Tax Office with the Ministry of Finances of the Kingdom of Sardinia",
-    "nl_NL": "Directeur-generaal van de Belastingdienst bij het Ministerie van Financiën van het Koninkrijk Sardinië"
+    "nl_NL": "Directeur-generaal van de belastingautoriteit van het Ministerie van Financiën van het Koninkrijk Sardinië"
   },
   "Direttore ad interim della cancelleria per gli Affari Lussemburghesi dell'Aia": {
     "en_GB": "Ad interim director of the chancellery for Luxembourgish Affairs in The Hague",
-    "nl_NL": "Ad interim directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag"
+    "nl_NL": "Directeur ad interim van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag"
   },
   "Direttore del Dipartimento della Posta del Granducato di Toscana": {
     "en_GB": "Director of the Post Department of the Grand Duchy of Tuscany",
-    "nl_NL": "Directeur van de Afdeling Post van het Groothertogdom van Toscana"
+    "nl_NL": "Directeur van de Afdeling Posterijen van het Groothertogdom Toscane"
   },
   "Direttore del Gabinetto di Scienze naturali e l'osservatorio meteorologico del R. Istituto industriale e professionale di Ancona": {
     "en_GB": "Director of the Cabinet of Natural Sciences and the meteorological observatory of the R. Istituto industriale e professionale in Ancona",
-    "nl_NL": "Hoofd van het Kabinet van Natuurwetenschappen en het meteorologisch observatorium van de R. Istituto industriale e professionale in Ancona"
+    "nl_NL": "Hoofd van het Kabinet van Natuurwetenschappen en het meteorologisch observatorium van het R. Istituto industriale e professionale te Ancona"
   },
   "Direttore del Koninklijke Nederlandsche Stoombootmaatschappij": {
     "en_GB": "Director of the Koninklijke Nederlandsche Stoombootmaatschappij",
@@ -780,23 +764,23 @@
     "en_GB": "Director of the Ethnographic Museum of Leiden",
     "nl_NL": "Directeur van het Rijks Ethnographisch Museum van Leiden"
   },
-  "Direttore del Nederlansche Bank": {
-    "en_GB": "Director of the Nederlansche Bank",
+  "Direttore del Nederlandsche Bank": {
+    "en_GB": "Director of the Nederlandsche Bank",
     "nl_NL": "Directeur van de Nederlandsche Bank"
   },
-  "Direttore del Registro e Domanio nella provincia Olandese di Frisia": {
+  "Direttore del Registro e Demanio nella provincia olandese di Frisia": {
     "en_GB": "Director of registration and domains in the Dutch province of Friesland",
-    "nl_NL": "Directeur der registratiën en domeinen in de Nederlandse provincie Friesland"
+    "nl_NL": "Directeur der registratiën en domeinen in de provincie Friesland"
   },
   "Direttore dell'Ufficio della Dogana e Porto Franco di Genova": {
     "en_GB": "Director of Customs and the free port of Genoa",
-    "nl_NL": "Directeur van de Douane en de vrijhaven van Genua"
+    "nl_NL": "Directeur van de Douane en de vrijhaven Genua"
   },
   "Direttore dell'Ufficio delle medaglie e delle monete dell'Università di Leida": {
     "en_GB": "Director of the department of medals and coins at the University of Leiden",
     "nl_NL": "Directeur van het Penningenkabinet van de Universiteit Leiden"
   },
-  "Direttore dell'Ufficio di Statistica del Regno di Paesi Bassi": {
+  "Direttore dell'Ufficio di Statistica del Regno dei Paesi Bassi": {
     "en_GB": "Director of the Statistical Office of the Kingdom of the Netherlands",
     "nl_NL": "Directeur van het Bureau voor Statistiek van het Koninkrijk der Nederlanden"
   },
@@ -805,40 +789,40 @@
     "nl_NL": "Directeur van de Koninklijke Bibliotheek te Turijn"
   },
   "Direttore della Dogane e Gabelle di Ancona": {
-    "en_GB": "Director of the Costums and _Gabelle_ {Tax Office} of Ancona",
-    "nl_NL": "Directeur van de Douane en _Gabelle_ {Belastingsdienst} van Ancona"
+    "en_GB": "Director of the Customs and Tax Office of Ancona",
+    "nl_NL": "Directeur van de douane en het belastingkantoor van Ancona"
   },
   "Direttore della Gazzetta Livornese": {
     "en_GB": "Editor of the Gazzetta Livornese",
     "nl_NL": "Redacteur van de Gazzetta Livornese"
   },
   "Direttore della Giunta Centrale di Statistica": {
-    "en_GB": "Director of the National Council of Statistics",
-    "nl_NL": "Directeur van het Nationale Statistiekbureau"
+    "en_GB": "Director of the Central Council of Statistics",
+    "nl_NL": "Directeur van het centraal college voor statistiek"
   },
   "Direttore della Sezione Marittima dell'Istituto Metereologico dei Paesi Bassi": {
     "en_GB": "Director of the Maritime Section of the Royal Dutch Meteorological Institute",
     "nl_NL": "Directeur van de afdeling Zeevaart van het KNMI"
   },
-  "Direttore della cancelleria per gli Affari Lussemburghesi dell'Aia": {
-    "en_GB": "Director of the chancellery for Luxembourgish Affairs in The Hague",
-    "nl_NL": "Directeur van de kanselarij voor Luxemburgse Aangelegenheden te Den Haag"
+  "Direttore della cancelleria per gli Affari Lussemburghesi all'Aia": {
+    "en_GB": "Director of the Chancellery for Luxembourgish Affairs in The Hague",
+    "nl_NL": "Directeur van de Kanselarij voor Luxemburgse Aangelegenheden te Den Haag"
   },
   "Direttore della legazione superiore per gli affari commerciali al Ministero degli Affari Esteri del Regno d'Italia": {
-    "en_GB": "Director of the superior legation for commercial affairs at the ministry of Foreign Affairs of the Kingdom of Italy",
-    "nl_NL": "Directeur van het superieure gezantschap voor commerciële relaties bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
+    "en_GB": "Director of the High Commission for Commercial Affairs at the ministry of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Directeur van het Hoge Commissariaat voor Commerciële Relaties bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Direttore della polizia di Genova": {
-    "en_GB": "Director of the police of Genoa",
-    "nl_NL": "Directeur van de politie van Genua"
+    "en_GB": "Director of Police of Genoa",
+    "nl_NL": "Directeur van politie te Genua"
   },
   "Direttore di Bijdragen tot de Natuurkundige Wetenschappen": {
-    "en_GB": "Editor of Bijdragen tot de Natuurkundige Wetenschappen",
-    "nl_NL": "Redacteur Bijdragen tot de Natuurkundige Wetenschappen"
+    "en_GB": "Editor-in-Chief of Bijdragen tot de Natuurkundige Wetenschappen",
+    "nl_NL": "Hoofdredacteur Bijdragen tot de Natuurkundige Wetenschappen"
   },
   "Direttore di La Speranza": {
-    "en_GB": "Editor of La Speranza",
-    "nl_NL": "Redacteur van La Speranza"
+    "en_GB": "Editor-in-Chief of La Speranza",
+    "nl_NL": "Hoofdredacteur van La Speranza"
   },
   "Direttore e comandante dei vigili del fuoco di Roma": {
     "en_GB": "Director and commander of the fire department of Rome",
@@ -849,16 +833,16 @@
     "nl_NL": "Directeur-generaal bij het ministerie van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Direttore generale dei Dazi Indiretti del Regno delle Due Sicilie": {
-    "en_GB": "Director-general of the _Dazi Indiretti_ of the Kingdom of the Two Sicilies",
-    "nl_NL": "Directeur-generaal van de _Dazi Indiretti_ van het Koninkrijk der Beide Siciliën"
+    "en_GB": "Director-general of Indirect Import Duties of the Kingdom of the Two Sicilies",
+    "nl_NL": "Directeur-generaal Indirecte Invoerrechten van het Koninkrijk der Beide Siciliën"
   },
   "Direttore generale dei Lotti Pontificii dello Stato Pontificio": {
     "en_GB": "Director general of Gambling in the Papal States",
-    "nl_NL": "Directeur-generaal van het Gokspel in de Pauselijke Staat"
+    "nl_NL": "Directeur-generaal voor de Kansspelen in de Pauselijke Staat"
   },
   "Direttore generale dei Musei e Gallerie Pontificie": {
     "en_GB": "Director-general of the Papal Museums and Galleries",
-    "nl_NL": "Directeur-generaal van de Pauselijke musea en galerijen"
+    "nl_NL": "Directeur-generaal van de pauselijke musea en galerijen"
   },
   "Direttore generale dei Telegrafi del Regno d'Italia": {
     "en_GB": "Director general of the Telegraph Office of the Kingdom of Italy",
@@ -869,56 +853,56 @@
     "nl_NL": "Directeur-generaal bij het Directoraat van Staatsschuld van het Koninkrijk Italië"
   },
   "Direttore generale del personale e del servizio militare del Ministero della Marina del Regno d'Italia": {
-    "en_GB": "Director general of staff and military service of the Ministry of the Marine of the Kingdom of Italy",
-    "nl_NL": "Directeur-generaal van personeel en militaire dienst van het Ministerie van de Marine van het Koninkrijk Italië"
+    "en_GB": "Director general of staff and military service at the Ministry of the Navy of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal van personeel en militaire dienst aan het Ministerie van Marine van het Koninkrijk Italië"
   },
   "Direttore generale del servizio militare presso il Ministero della Marina": {
-    "en_GB": "Director general of the Military Service of the Ministry of the Marine",
-    "nl_NL": "Directeur-generaal van de Militaire Dienst bij het Ministerie van de Marine"
+    "en_GB": "Director general of the Military Service at the Ministry of the Navy",
+    "nl_NL": "Directeur-generaal van de Militaire Dienst bij het Ministerie van Marine"
   },
   "Direttore generale delle Gabelle al Ministero delle Finanze del Regno d'Italia": {
     "en_GB": "Director general at the ministry of Finances of the Kingdom of Italy",
     "nl_NL": "Directeur-generaal bij het ministerie van Financiën van het Koninkrijk Italië"
   },
   "Direttore generale delle Poste a Firenze": {
-    "en_GB": "Director-general of the Post in Florence",
-    "nl_NL": "Directeur-generaal van de Post in Florence"
+    "en_GB": "Director-general of the Postal Services in Florence",
+    "nl_NL": "Directeur-generaal van de Posterijen in Florence"
   },
   "Direttore generale delle Poste a Roma": {
-    "en_GB": "Director-general of the Post in Rome",
-    "nl_NL": "Directeur-generaal van de Post in Rome"
+    "en_GB": "Director-general of the Postal Services in Rome",
+    "nl_NL": "Directeur-generaal van de Posterijen in Rome"
   },
   "Direttore generale delle Poste a Torino": {
-    "en_GB": "Director-general of the Post in Turin",
-    "nl_NL": "Directeur-generaal van de Post in Turijn"
+    "en_GB": "Director-general of the Postal Services in Turin",
+    "nl_NL": "Directeur-generaal van de Posterijen in Turijn"
   },
   "Direttore generale delle armi speciali del Regno d'Italia": {
-    "en_GB": "Director general of special arms of the Kingdom of Italy",
-    "nl_NL": "Directeur-generaal van bijzondere wapens van het Koninkrijk Italië"
+    "en_GB": "Director general of Special Arms of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal van Bijzondere Wapens van het Koninkrijk Italië"
   },
   "Direttore generale delle dogane dello Stato Pontificio": {
-    "en_GB": "Director-general of the Customs of the Papel States",
+    "en_GB": "Director-general of the Customs of the Papal States",
     "nl_NL": "Directeur-generaal van de Douane van de Kerkelijke Staat"
   },
   "Direttore generale delle imposte, delle tasse e del demanio del Regno d'Italia": {
-    "en_GB": "Director general of taxes, duties and state property of the Kingdom of Italy",
-    "nl_NL": "Directeur-generaal van belastingen, heffingen en staatseigendom van van het Koninkrijk Italië"
+    "en_GB": "Director general of taxes, duties and state properties of the Kingdom of Italy",
+    "nl_NL": "Directeur-generaal van belastingen, heffingen en staatseigendommen van het Koninkrijk Italië"
   },
   "Direttore generale di polizia di Roma": {
-    "en_GB": "Director-general of the police of Rome",
-    "nl_NL": "Directeur-generaal van de politie van Rome"
+    "en_GB": "Director general of Police of Rome",
+    "nl_NL": "Directeur-generaal van Politie van Rome"
   },
   "Direttore generale per la liquidazione del debito pubblico dello Stato Pontificio": {
-    "en_GB": "Director-general for liquidation of the public debt of the Papal States",
-    "nl_NL": "Directeur-generaal voor liquidatie van de openbare schuld van de Kerkelijke Staat"
+    "en_GB": "Director general for the liquidation of public debt of the Papal States",
+    "nl_NL": "Directeur-generaal voor liquidatie van de staatsschuld van de Kerkelijke Staat"
   },
   "Direttore-proprietario del periodico L'Album": {
-    "en_GB": "Director-owner of the periodical L'Album",
-    "nl_NL": "Directeur-eigenaar van het tijdschrift L'Album"
+    "en_GB": "Editor-in-chief and owner of the periodical L'Album",
+    "nl_NL": "Hoofdredacteur en eigenaar van het tijdschrift L'Album"
   },
   "Dittatore del Granducato di Toscana": {
     "en_GB": "Dictator of the Grand Duchy of Tuscany",
-    "nl_NL": "Dictator van het Groothertogdom van Toscane"
+    "nl_NL": "Dictator van het Groothertogdom Toscane"
   },
   "Dittatore dell'Emilia": {
     "en_GB": "Dictator of the Emilia",
@@ -942,55 +926,55 @@
   },
   "Editore del Rutering en Vermandel a Deventer": {
     "en_GB": "Publisher with Rutering en Vermandel a Deventer",
-    "nl_NL": "Drukker bij Rutering en Vermandel te Deventer"
+    "nl_NL": "Uitgever bij Rutering en Vermandel te Deventer"
   },
-  "Fondatore della Giovane Italia": {
-    "en_GB": "Founder of Giovane Italia",
-    "nl_NL": "Oprichter van Giovani Italia"
+  "Fondatore della Giovine Italia": {
+    "en_GB": "Founder of Giovine Italia",
+    "nl_NL": "Oprichter van Giovine Italia"
   },
-  "Fondatore della Vrije Universiteit di Amsterdam": {
-    "en_GB": "Founder of the Vrije Universiteit of Amsterdam",
-    "nl_NL": "Oprichter van de Vrije Universiteit van Amsterdam"
+  "Fondatore della _Vrije Universiteit_ di Amsterdam": {
+    "en_GB": "Founder of the _Vrije Universiteit_ of Amsterdam",
+    "nl_NL": "Oprichter van de Vrije Universiteit te Amsterdam"
   },
-  "Fondatore della ditta Luden en Van Geuns a Amsterdam": {
+  "Fondatore della ditta Luden en Van Geuns ad Amsterdam": {
     "en_GB": "Founder of the company Luden en Van Geuns in Amsterdam",
     "nl_NL": "Oprichter van het bedrijf Luden en Van Geuns in Amsterdam"
   },
-  "Fondatore e direttore della giornale La Nazionale": {
-    "en_GB": "Founder and editor of the journal La Nazionale",
-    "nl_NL": "Oprichter en redacteur van de krant La Nazionale"
+  "Fondatore e direttore del giornale La Nazionale": {
+    "en_GB": "Founder and editor-in-chief of the journal La Nazionale",
+    "nl_NL": "Oprichter en hoofdredacteur van de krant La Nazionale"
   },
-  "Fondatore e direttore della giornale La Presse": {
-    "en_GB": "Founder and editor of the journal La Presse",
-    "nl_NL": "Oprichter en redacteur van de krant La Presse"
+  "Fondatore e direttore del giornale La Presse": {
+    "en_GB": "Founder and editor-in-chief of the journal La Presse",
+    "nl_NL": "Oprichter en hoofdredacteur van de krant La Presse"
   },
-  "Fondatore e direttore della giornale Themis, Regtskundig Tijdschrift": {
-    "en_GB": "Founder and editor of the journal Themis, Regtskundig Tijdschrift",
-    "nl_NL": "Oprichter en redacteur van de krant Themis, Regtskundig Tijdschrift"
+  "Fondatore e direttore della rivista Themis, Regtskundig Tijdschrift": {
+    "en_GB": "Founder and editor-in-chief of the periodical Themis, Regtskundig Tijdschrift",
+    "nl_NL": "Oprichter en hoofdredacteur van Themis, Regtskundig Tijdschrift"
   },
   "Fondatore e presidente del Partito Anti-Rivoluzionario dei Paesi Bassi": {
     "en_GB": "Founder and president of the Anti-Revolutionary Party of the Netherlands",
-    "nl_NL": "Oprichter en President van de Anti-Revolutionaire Partij van Nederland"
+    "nl_NL": "Oprichter en voorzitter van de Anti-Revolutionaire Partij van Nederland"
   },
   "Fornitore dell'esercito Francese": {
     "en_GB": "Supplier of the French army",
     "nl_NL": "Leverancier van het Franse leger"
   },
   "Funzionario della Legazione del Regno dei Paesi Bassi ad Ancona": {
-    "en_GB": "Dignitary with the Legation of the Kingdom of the Netherlands in Ancona",
+    "en_GB": "Employee at the Legation of the Kingdom of the Netherlands in Ancona",
     "nl_NL": "Medewerker bij het Gezantschap van het Koninkrijk der Nederlanden in Ancona"
   },
   "Furiere nel primo reggimento straniero dello Stato Pontificio": {
     "en_GB": "Quartermaster in the first foreign regiment of the Papal States",
-    "nl_NL": "Kwartiermeester in het eerste buitenlandse regiment van de Pauselijke Staat"
+    "nl_NL": "Kwartiermeester in het eerste vreemdelingenregiment van de Pauselijke Staat"
   },
   "Generale": {
     "en_GB": "General",
     "nl_NL": "Generaal"
   },
   "Generale comandante della Divisione di occupazione in Italia dell'esercito francese": {
-    "en_GB": "Commander of the occupation division in Italy of the French army",
-    "nl_NL": "Hoofdcommandant van de bezettingsdivisie in Italië van het Franse leger"
+    "en_GB": "Commander of the occupation division of the French army in Italy",
+    "nl_NL": "Hoofdcommandant van de bezettingsdivisie van het Franse leger in Italië"
   },
   "Generale comandante delle Armi della Provincia e Real Piazza di Palermo per il Regno delle Due Sicilie": {
     "en_GB": "Commander in chief of the troops of the province and fortress of Palermo for the Kingdom of the Two Sicilies",
@@ -998,11 +982,11 @@
   },
   "Generale dei reggimenti esteri dell'esercito pontificio": {
     "en_GB": "General of the foreign regiments of the Papal army",
-    "nl_NL": "Generaal van de buitenlandse regimenten van het Pauselijke leger"
+    "nl_NL": "Generaal van de vreemdelingenregimenten in het Pauselijke leger"
   },
   "Generale della Guardia Civica di Roma": {
-    "en_GB": "General of the Guardia Civica of Rome",
-    "nl_NL": "Generaal van de Guardia Civica van Rome"
+    "en_GB": "General of the Civic Guard of Rome",
+    "nl_NL": "Generaal van de Burgerwacht van Rome"
   },
   "Generale nell'esercito francese": {
     "en_GB": "General in the French army",
@@ -1017,12 +1001,12 @@
     "nl_NL": "Directeur van het consulaat-generaal van het Koninkrijk der Nederlanden te Genua"
   },
   "Gerente del Consolato Generale del Regno dei Paesi Bassi a Napoli": {
-    "en_GB": "Director of the consulate general of the Kingdom of the Netherlands in Napels",
+    "en_GB": "Director of the consulate general of the Kingdom of the Netherlands in Naples",
     "nl_NL": "Directeur van het consulaat-generaal van het Koninkrijk der Nederlanden te Napels"
   },
   "Gerente provvisorio del Consolato del Regno dei Paesi Bassi ad Ancona": {
     "en_GB": "Temporary director of the consulate of the Kingdom of the Netherlands in Ancona",
-    "nl_NL": "Tijdelijke directeur van het consulaat van het Koninkrijk der Nederlanden te Ancona"
+    "nl_NL": "Tijdelijk directeur van het consulaat van het Koninkrijk der Nederlanden te Ancona"
   },
   "Gesuita": {
     "en_GB": "Jesuit",
@@ -1030,14 +1014,14 @@
   },
   "Giudice ad interim del tribunale a St. George d'Elmina": {
     "en_GB": "Judge ad interim at the Tribunal of St. George d'Elmina",
-    "nl_NL": "Rechter-plaatsvervanger bij de Rechtbank te St. George d'Elmina"
+    "nl_NL": "Plaatsvervangend rechter bij de Rechtbank te St. George d'Elmina"
   },
   "Giudice del Quartiere della Maddalena a Genova": {
     "en_GB": "Judge of the Maddalena district of Genoa",
     "nl_NL": "Rechter van de wijk Maddalena in Genua"
   },
   "Giudice presso la Corte suprema delle Indie Orientali Olandesi": {
-    "en_GB": "Judge at the Supreme court of the Dutch East Indies",
+    "en_GB": "Judge at the Supreme Court of the Dutch East Indies",
     "nl_NL": "Raadsheer bij het Hooggerechtshof van Nederlands-Indië"
   },
   "Giurista": {
@@ -1057,18 +1041,18 @@
     "nl_NL": "_Gonfaloniere_ van Ravenna"
   },
   "Governatore Generale delle Indie Orientali Olandesi": {
-    "en_GB": "Governor of the Dutch East Indies",
+    "en_GB": "Governor-general of the Dutch East Indies",
     "nl_NL": "Gouverneur-Generaal van Nederlands-Indië"
   },
   "Governatore Generale di Curacao per il Regno dei Paesi Bassi": {
-    "en_GB": "Governor General of Curacao for the Kingdom of the Netherlands",
+    "en_GB": "Governor-general of Curacao for the Kingdom of the Netherlands",
     "nl_NL": "Gouverneur-Generaal van Curacao voor het Koninkrijk der Nederlanden"
   },
   "Governatore dei Possedimenti Olandesi sulla Costa della Guinea": {
     "en_GB": "Governor of the Dutch Possessions on the Cost of Guinea",
     "nl_NL": "Gouverneur van de Nederlandse Bezittingen ter Kuste van Guinea"
   },
-  "Governatore del Granducato del Lussemburgo per il Re dei Paesi Bassi": {
+  "Governatore del Granducato di Lussemburgo per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the Grand Duchy of Luxembourg for the King of the Netherlands",
     "nl_NL": "Gouverneur van het Groothertogdom Luxemburg voor de Koning der Nederlanden"
   },
@@ -1084,13 +1068,13 @@
     "en_GB": "Governor of the fortress of Messina",
     "nl_NL": "Gouverneur van de vesting van Messina"
   },
-  "Governatore della Residenza a l'Aia": {
+  "Governatore della Residenza all'Aia": {
     "en_GB": "Governor of Residence in The Hague",
     "nl_NL": "Gouverneur der Residentie in Den Haag"
   },
   "Governatore della provincia di Caracas per la Repubblica del Venezuela": {
     "en_GB": "Governor of the province of Caracas for the Republic of Venezuela",
-    "nl_NL": "Gouverneur van de provincie van Caracas voor de Republiek van Venezuela"
+    "nl_NL": "Gouverneur van de provincie van Caracas voor de Republiek Venezuela"
   },
   "Governatore della provincia di Drenthe per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the province of Drenthe for the King of the Netherlands",
@@ -1098,7 +1082,7 @@
   },
   "Governatore della provincia di Hainaut per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the province of Hainaut for the King of the Netherlands",
-    "nl_NL": "Gouverneur van de provincie Zeeland voor de Koning der Nederlanden"
+    "nl_NL": "Gouverneur van de provincie Henegouwen voor de Koning der Nederlanden"
   },
   "Governatore della provincia di Olanda Settentrionale per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the province of North Holland for the King of the Netherlands",
@@ -1106,7 +1090,7 @@
   },
   "Governatore della provincia di Zelanda per il Re dei Paesi Bassi": {
     "en_GB": "Governor of the province of Zeeland for the King of the Netherlands",
-    "nl_NL": "Gouverneur van de provincie Henegouwen voor de Koning der Nederlanden"
+    "nl_NL": "Gouverneur van de provincie Zeeland voor de Koning der Nederlanden"
   },
   "Governatore di Ancona della Repubblica Romana": {
     "en_GB": "Governor of Ancona to the Roman Republic",
@@ -1125,22 +1109,22 @@
     "nl_NL": "Gouverneur van Nice voor de Koning van Sardinië"
   },
   "Governatore di Roma e Vice camerlengo della Chiesa Cattolica Romana": {
-    "en_GB": "_Governatore_ {governor} of Rome and vice-camerlengo of the Holy Roman Church",
+    "en_GB": "_Governatore_ {governor} of Rome and vice-camerlengo of the Roman Catholic Church",
     "nl_NL": "_Governatore_ {gouverneur} van Rome en vice-camerlengo van de Rooms-Katholieke Kerk"
   },
   "Governatore di Roma e direttore generale di polizia di Roma": {
-    "en_GB": "_Governatore_ {governor} of Rome and director general of the police of Rome",
-    "nl_NL": "_Governatore_ {gouverneur} van Rome en directeur-generaal van de politie van Rome"
+    "en_GB": "_Governatore_ {governor} of Rome and director general of police of Rome",
+    "nl_NL": "_Governatore_ {gouverneur} van Rome en directeur-generaal van politie van Rome"
   },
   "Governatore di Roma, Vice camerlengo della Chiesa Cattolica Romana e direttore generale di polizia di Roma": {
-    "en_GB": "_Governatore_ {governor} of Rome, vice-camerlengo of the Holy Roman Church and director general of the police of Rome",
-    "nl_NL": "_Governatore_ {gouverneur} van Rome, vice-camerlengo van de Rooms-Katholieke Kerk en directeur-generaal van de politie van Rome"
+    "en_GB": "_Governatore_ {governor} of Rome, vice-camerlengo of the Roman Catholic Church and director general of police of Rome",
+    "nl_NL": "_Governatore_ {gouverneur} van Rome, vice-camerlengo van de Rooms-Katholieke Kerk en directeur-generaal van politie van Rome"
   },
   "Governatore e comandante della divisione militare di Genova": {
     "en_GB": "Governor and commander of the military division of Genoa",
     "nl_NL": "Gouverneur and commandant van de militaire divisie van Genua"
   },
-  "Governatore facente funzione del Granducato del Lussemburgo per il Re dei Paesi Bassi": {
+  "Governatore facente funzione del Granducato di Lussemburgo per il Re dei Paesi Bassi": {
     "en_GB": "Acting governor of the Grand Duchy of Luxembourg for the King of the Netherlands",
     "nl_NL": "Waarnemend gouverneur van het Groothertogdom Luxemburg voor de Koning der Nederlanden"
   },
@@ -1162,7 +1146,7 @@
   },
   "Gran Maestro di Cerimonie del Re d'Italia": {
     "en_GB": "Grand Master of Ceremonies to the King of Italy",
-    "nl_NL": "Groot ceremoniemeester van de Koning van Italië"
+    "nl_NL": "Groot-ceremoniemeester van de Koning van Italië"
   },
   "Gran maestro della Casa Reale di Sardegna": {
     "en_GB": "Grandmaster of the Royal House of the Sardinia",
@@ -1186,11 +1170,11 @@
   },
   "Incaricato d'affari ad interim del Regno dei Paesi Bassi al Regno d'Italia": {
     "en_GB": "Chargé d'affaires ad interim of the Kingdom of the Netherlands  to the Kingdom of Italy",
-    "nl_NL": "Ad interim zaakgelastigde van het Koninkrijk der Nederlanden bij het Koninkrijk Italië"
+    "nl_NL": "Zaakgelastigde ad interim van het Koninkrijk der Nederlanden bij het Koninkrijk Italië"
   },
   "Incaricato d'affari ad interim della Santa Sede al Regno dei Paesi Bassi": {
     "en_GB": "Chargé d'affaires ad interim of the Holy See to the Kingdom of the Netherlands",
-    "nl_NL": "Ad interim zaakgelastigde van de Heilige Stoel bij het Koninkrijk der Nederlanden"
+    "nl_NL": "Zaakgelastigde ad interim van de Heilige Stoel bij het Koninkrijk der Nederlanden"
   },
   "Incaricato d'affari degli Stati Uniti d'America presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the United States of America to the Holy See",
@@ -1238,7 +1222,7 @@
   },
   "Incaricato d'affari del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the Kingdom of Prussia to the Holy See",
-    "nl_NL": "Zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
+    "nl_NL": "Zaakgelastigde van het Koninkrijk Pruisen bij de Heilige Stoel"
   },
   "Incaricato d'affari del Regno di Sardegna a Copenaghen": {
     "en_GB": "Chargé d'affaires of the Kingdom of Sardinia in Copenhagen",
@@ -1252,25 +1236,25 @@
     "en_GB": "Chargé d'affaires of the Empire of Brazil to the Holy See",
     "nl_NL": "Zaakgelastigde van het Keizerrijk Brazilië bij de Heilige Stoel"
   },
-  "Incaricato d'affari dell'Impero d'Austria presso il Regno d'Italia": {
-    "en_GB": "Chargé d'affaires of the Empire of Austria to the Kingdom of Italy",
+  "Incaricato d'affari dell'Impero Austriaco presso il Regno d'Italia": {
+    "en_GB": "Chargé d'affaires of the Austrian Empire to the Kingdom of Italy",
     "nl_NL": "Zaakgelastigde van het Keizerrijk Oostenrijk bij het Koninkrijk Italië"
+  },
+  "Incaricato d'affari della Repubblica Messicana presso la Santa Sede": {
+    "en_GB": "Chargé d'affaires of the Mexican Republic to the Holy See",
+    "nl_NL": "Zaakgelastigde van de Mexicaanse Republiek bij de Heilige Stoel"
   },
   "Incaricato d'affari della Repubblica del Cile presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the Republic of Chile to the Holy See",
     "nl_NL": "Zaakgelastigde van de Republiek Chili bij de Heilige Stoel"
   },
-  "Incaricato d'affari della Repubblica del Messico presso la Santa Sede": {
-    "en_GB": "Chargé d'affaires of the Republic of Mexico to the Holy See",
-    "nl_NL": "Zaakgelastigde van de Republiek van Mexico bij de Heilige Stoel"
-  },
   "Incaricato d'affari della Repubblica di Costa Rica presso la Santa Sede": {
     "en_GB": "Chargé d'affaires of the Republic of Costa Rica to the Holy See",
-    "nl_NL": "Zaakgelastigde van de Republiek van Costa Rica bij de Heilige Stoel"
+    "nl_NL": "Zaakgelastigde van de Republiek Costa Rica bij de Heilige Stoel"
   },
   "Incaricato d'affari della Santa Sede al Granducato di Toscana": {
     "en_GB": "Chargé d'affaires of the Holy See to the Grand Duchy of Tuscany",
-    "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Groothertogdom van Toscane"
+    "nl_NL": "Zaakgelastigde van de Heilige Stoel bij het Groothertogdom Toscane"
   },
   "Incaricato d'affari della Santa Sede al Regno dei Paesi Bassi": {
     "en_GB": "Chargé d'affaires of the Holy See to the Kingdom of the Netherlands",
@@ -1288,7 +1272,7 @@
     "en_GB": "Chargé d'affaires of the Kingdom of the Two Sicilies",
     "nl_NL": "Zaakgelastigde van het Koninkrijk der Beide Siciliën"
   },
-  "Incisiore e medaglista": {
+  "Incisore e medaglista": {
     "en_GB": "Engraver and medallist",
     "nl_NL": "Graveur en medailleur"
   },
@@ -1297,67 +1281,71 @@
     "nl_NL": "Ingenieur"
   },
   "Ingegnere prinicpale del Genio Civile al Ministero dei lavori pubblici del Regno d'Italia": {
-    "en_GB": "Chief engineer of the Civil Engineering section of the ministry of public works of the Kingdom of Italy",
-    "nl_NL": "Hoofdingenieur van de civieltechnische sectie van het ministerie van openbare werken van het Koninkrijk Italië"
+    "en_GB": "Chief engineer of the Civil Engineering section at the Ministry of Public Works of the Kingdom of Italy",
+    "nl_NL": "Hoofdingenieur van de civieltechnische sectie aan het ministerie van Openbare Werken van het Koninkrijk Italië"
   },
-  "Ingegnere prinicpale del Rijkswaterstaat nella regione dell'Olanda del Sud": {
-    "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in South Holland",
-    "nl_NL": "Hoofdingenieur van Rijkswaterstaat bij de regio Zuid-Holland"
+  "Ingegnere prinicpale del Rijkswaterstaat nella provincia dell'Olanda del Sud": {
+    "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in the province of South Holland",
+    "nl_NL": "Hoofdingenieur van Rijkswaterstaat bij de provincie Zuid-Holland"
   },
-  "Ingegnere prinicpale del Rijkswaterstaat nella regione della Zelanda": {
-    "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in Zeeland",
-    "nl_NL": "Hoofdingenieur van Rijkswaterstaat bij de regio Zeeland"
+  "Ingegnere prinicpale del Rijkswaterstaat nella provincia della Zelanda": {
+    "en_GB": "Chief engineer of the Directorate-General for Public Works and Water Management in the province of Zeeland",
+    "nl_NL": "Hoofdingenieur van Rijkswaterstaat bij de provincie Zeeland"
   },
   "Intendente di Messina": {
     "en_GB": "Intendant of Messina",
-    "nl_NL": "Magistraat van Messina"
+    "nl_NL": "Intendant van Messina"
   },
   "Intendente generale dell'Azienda Generale della Marina del Regno di Sardegna": {
-    "en_GB": "Intendant general of the Azienda Generale della Marina of the Kingdom of Sardinia",
-    "nl_NL": "Magistraat generaal van de Azienda Generale della Marina van het Koninkrijk Sardinië"
+    "en_GB": "Intendant general at the general staff of the Navy of the Kingdom of Sardinia",
+    "nl_NL": "Intendant-generaal bij de generale staf van de Marine van het Koninkrijk Sardinië"
   },
   "Intendente generale dell'Azienda delle Gabelle del Regno di Sardegna": {
-    "en_GB": "Intendant general of the Azienda delle Gabelle of the Kingdom of Sardinia",
-    "nl_NL": "Magistraat generaal van de Azienda delle Gabelle van het Koninkrijk Sardinië"
+    "en_GB": "Intendant general at the Tax Office of the Kingdom of Sardinia",
+    "nl_NL": "Intendant-generaal van de Belastingdienst van het Koninkrijk Sardinië"
   },
   "Intendente generale dell'esercito pontificio": {
     "en_GB": "Intendant general of Papal army",
-    "nl_NL": "Magistraat generaal van het Pauselijke leger"
+    "nl_NL": "Intendant-generaal van het Pauselijke leger"
   },
   "Internunzio all'Aia": {
     "en_GB": "Apostolic internuncio in The Hague",
     "nl_NL": "Apostolisch internuntius te Den Haag"
   },
   "Intimo consigliere di Stato per le Finanze e Guerra del Granducato di Toscana": {
-    "en_GB": "Intieme adviseur van Staat, Financiën en Oorlog of the Grand Duchy of Tuscany",
-    "nl_NL": "Intieme adviseur van Staat, Financiën en Oorlog van het Groothertogdom Toscane"
+    "en_GB": "Secret State Councillor for Finance and War of the Grand Duchy of Tuscany",
+    "nl_NL": "Geheime Staatsraad voor Financiën en Oorlog van het Groothertogdom Toscane"
   },
   "Inviato dell'Emperatore Massimiliano nella commissione per il concordato tra l'Impero Messicano e la Santa Sede": {
     "en_GB": "Envoy of Emperor Maximilian in the commission for the concordat between the Mexican Empire and the Holy See",
-    "nl_NL": "Gezant van Keizer Maximiliaan in de commissie voor het concordaat tussen het Mexiaanse Rijk en de Heilige Stoel"
+    "nl_NL": "Gezant van Keizer Maximiliaan in de commissie voor het concordaat tussen het Mexiaanse Keizerijk en de Heilige Stoel"
   },
-  "Inviato straordinario dell'Impero d'Austria a Berlino": {
-    "en_GB": "Envoy extraordinary of the Empire of Austria in Berlin",
+  "Inviato straordinario dell'Impero Austriaco a Berlino": {
+    "en_GB": "Envoy extraordinary of the Austrian Empire in Berlin",
     "nl_NL": "Buitengewoon gezant van het Keizerrijk Oostenrijk te Berlijn"
   },
   "Inviato straordinario e incaricato d'affari del Regno dei Paesi Bassi presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of the Netherlands to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel"
   },
+  "Inviato straordinario e incaricato d'affari del Regno di Baviera presso il Regno dei Paesi Bassi": {
+    "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Bavaria to the Kingdom of the Netherlands",
+    "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Beieren bij het Koninkrijk der Nederlanden"
+  },
   "Inviato straordinario e incaricato d'affari del Regno di Baviera presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Bavaria to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Beieren bij de Heilige Stoel"
   },
   "Inviato straordinario e incaricato d'affari del Regno di Baviera presso la Santa Sede, a Torino e Napoli": {
-    "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Bavaria to the Holy See and in Turin and Napels",
-    "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Beieren bij de Heilige Stoel en te Turijn en Napels"
+    "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Bavaria to the Holy See, in Turin and Naples",
+    "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Beieren bij de Heilige Stoel, te Turijn en Napels"
   },
   "Inviato straordinario e incaricato d'affari del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Prussia to the Holy See",
-    "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Pruissen bij de Heilige Stoel"
+    "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Pruisen bij de Heilige Stoel"
   },
-  "Inviato straordinario e incaricato d'affari dell'Impero d'Austria presso il Regno d'Italia": {
-    "en_GB": "Envoy extraordinary and chargé d'affaires of the Empire of Austria to the Kingdom of Italy",
+  "Inviato straordinario e incaricato d'affari dell'Impero Austriaco presso il Regno d'Italia": {
+    "en_GB": "Envoy extraordinary and chargé d'affaires of the Austrian Empire to the Kingdom of Italy",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Keizerrijk Oostenrijk bij het Koninkrijk Italië"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Belgrado": {
@@ -1400,9 +1388,9 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Paris",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Parijs"
   },
-  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Pietroburgo": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Petersburg",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Petersburg"
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a San Pietroburgo": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Saint Petersburg",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Sint-Petersburg"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a Vienna": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Vienna",
@@ -1412,17 +1400,17 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Washington",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Washington"
   },
-  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a l'Aia": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in the Hague",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Den Haag"
-  },
-  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia a l'Aia e a Madrid": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in the Hague and in Madrid",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Den Haag en te Madrid"
-  },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia ad Atene": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in Athens",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië te Athene"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia all'Aia": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in the Hague",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Den Haag"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno d'Italia all'Aia e a Madrid": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy in the Hague and in Madrid",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Italië in Den Haag en te Madrid"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno d'Italia presso la Confederazione Elvetica": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Italy to the Swiss Confederation",
@@ -1486,15 +1474,15 @@
   },
   "Inviato straordinario e ministro plenipotenziario del Regno di Prussia presso il Regno d'Italia": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Prussia to the Kingdom of Italy",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Pruissen bij het Koninkrijk Italië"
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Pruisen bij het Koninkrijk Italië"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno di Prussia presso il Regno dei Paesi Bassi": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Prussia to the Kingdom of the Netherlands",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Pruissen bij het Koninkrijk Nederland"
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Pruisen bij het Koninkrijk Nederland"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno di Prussia presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Prussia to the Holy See",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Pruissen bij de Heilige Stoel"
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Pruisen bij de Heilige Stoel"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno di Sardegna presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Sardinia to the Holy See",
@@ -1508,49 +1496,53 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Kingdom of the Two Sicilies",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij het Koninkrijk der Beide Siciliën"
   },
-  "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso l'Impero di Francia": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Empire of France",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij het Keizerrijk Frankrijk"
+  "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso l'Impero Francese": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the French Empire",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij het Franse Keizerrijk"
   },
   "Inviato straordinario e ministro plenipotenziario del Regno di Spagna presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilge Stoel"
   },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero d'Austria a Pietroburgo": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Austria in Petersburg",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Oostenrijk te Petersburg"
+  "Inviato straordinario e ministro plenipotenziario del Regno di Württemberg a Londra": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Württemberg in London",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk van Württemberg te Londen"
   },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero d'Austria a Stockholm": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Austria at Stockholm",
+  "Inviato straordinario e ministro plenipotenziario del Regno di Württemberg presso l'Impero di Russia": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Württemberg to the Empire of Russia",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk van Württemberg bij het Keizerrijk Rusland"
+  },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero Austriaco a San Pietroburgo": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Austrian Empire in Saint Petersburg",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Oostenrijk te Sint-Petersburg"
+  },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero Austriaco a Stoccolma": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Austrian Empire at Stockholm",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Oostenrijk te Stockholm"
   },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero d'Austria presso il Regno d'Italia": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Austria with the Kingdom of Italy",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Oostenrijk bij het Koninkrijk Italië"
+  "Inviato straordinario e ministro plenipotenziario dell'Impero Francese presso la Santa Sede": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the French Empire to the Holy See",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Franse Keizerrijk bij de Heilige Stoel"
   },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero di Francia presso la Santa Sede": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of France to the Holy See",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Frankrijk bij de Heilige Stoel"
-  },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Madrid": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Madrid",
+  "Inviato straordinario e ministro plenipotenziario dell'Impero Russo a Madrid": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Russian Empire in Madrid",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Madrid"
   },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Roma": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Rome",
+  "Inviato straordinario e ministro plenipotenziario dell'Impero Russo a Roma": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Russian Empire in Rome",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Rome"
   },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Torino": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Turin",
+  "Inviato straordinario e ministro plenipotenziario dell'Impero Russo a Torino": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Russian Empire in Turin",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Turijn"
+  },
+  "Inviato straordinario e ministro plenipotenziario dell'Impero Russo a Vienna": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Russian Empire in Vienna",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Wenen"
   },
   "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Torino e a Firenze": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Turin and Florence",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Turijn en Florence"
-  },
-  "Inviato straordinario e ministro plenipotenziario dell'Impero di Russia a Vienna": {
-    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Empire of Russia in Vienna",
-    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Rusland te Wenen"
   },
   "Inviato straordinario e ministro plenipotenziario della Repubblica dell'Honduras a Roma": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Republic of Honduras in Rome",
@@ -1565,12 +1557,12 @@
     "nl_NL": "Inspecteur van maten en gewichten in Annecy"
   },
   "Ispettore di polizia della Repubblica Romana ad Ancona": {
-    "en_GB": "Inspector of the police of the Roman Republic at Ancona",
-    "nl_NL": "Inspecteur van de politie van de Romeinse Republiek in Ancona"
+    "en_GB": "Inspector of police of the Roman Republic at Ancona",
+    "nl_NL": "Inspecteur van politie van de Romeinse Republiek in Ancona"
   },
   "Ispettore generale dell'esercito francese": {
-    "en_GB": "Inspector general in the French army",
-    "nl_NL": "Inspecteur-generaal in het Franse leger"
+    "en_GB": "Inspector general of the French army",
+    "nl_NL": "Inspecteur-generaal van het Franse leger"
   },
   "Legato apostolico a Bologna": {
     "en_GB": "Apostolic legate in Bologna",
@@ -1580,9 +1572,9 @@
     "en_GB": "Apostolic legate in Ferrara",
     "nl_NL": "Apostolisch legaat te Ferrara"
   },
-  "Legato straordinario pontificio alle Quattre Legazione delle Romagne": {
+  "Legato straordinario pontificio alle Quattre Legazione della Romagna": {
     "en_GB": "Pontifical extraordinary legate to the Four Legations of the Romagna",
-    "nl_NL": "Pauselijk buitengewoon gezant naar de Vier Legaties van de Romagna"
+    "nl_NL": "Pauselijk buitengewoon gezant bij de Vier Legaties van de Romagna"
   },
   "Luogotenente Generale del Sovrano Militare Ordine di Malta": {
     "en_GB": "Lieutenant general of the Sovereign Military Order of Malta",
@@ -1592,7 +1584,7 @@
     "en_GB": "Lieutenant general of the Neapolitan provinces",
     "nl_NL": "Luitenant-generaal van de Napolitaanse provincies"
   },
-  "Luogotenente del Regno di Paesi Bassi": {
+  "Luogotenente del Regno dei Paesi Bassi": {
     "en_GB": "Lieutenant of the Kingdom of the Netherlands",
     "nl_NL": "Luitenant van het Koninkrijk der Nederlanden"
   },
@@ -1601,50 +1593,46 @@
     "nl_NL": "Luitenant van de militie van Mondovì"
   },
   "Maestro di Camera del Papa": {
-    "en_GB": "Master of the Chamber of the Pope",
-    "nl_NL": "Pauselijke Kamerheer"
+    "en_GB": "Maestro di Camera {Chief Chamberlain} of the Pope",
+    "nl_NL": "Maestro di Camera {Hoofd Kamerheer} van de paus"
   },
   "Maestro di Ceremonie del Papa": {
     "en_GB": "Master of Ceremonies of the Pope",
     "nl_NL": "Pauselijke Ceremoniemeester"
   },
-  "Maestro di Cerimonie di Corte in Toscana e Introduttore degli Ambasciatori del Re d'Italia": {
-    "en_GB": "Master of Ceremonies at the Court of Tuscany and Introducer of Ambassadors of the King of Italy",
-    "nl_NL": "Ceremoniemeester bij het hof in Toscane en Introducteur der Ambassadeurs van de Koning van Italië"
+  "Maestro di Cerimonie di Corte del Granducato di Toscana e Introduttore degli Ambasciatori del Re d'Italia": {
+    "en_GB": "Master of Court Ceremonies of the Grand Duchy of Tuscany and Introducer of the Ambassadors of the King of Italy",
+    "nl_NL": "Hofceremoniemeester van het Groothertogdom Toscane en Introducteur der Ambassadeurs van de Koning van Italië"
   },
   "Maestro di Cerimonie e Introduttore degli Ambasciatori del Re di Sardegna": {
-    "en_GB": "Master of Ceremonies and Introducer of Ambassadors of the King of Sardinia",
-    "nl_NL": "Ceremoniemeester en Introducteur der Ambassadeurs van de Koning van Sardinië"
+    "en_GB": "Master of Ceremonies and Introducer of the Ambassadors of the King of Sardinia",
+    "nl_NL": "Hofceremoniemeester en Introducteur der Ambassadeurs van de Koning van Sardinië"
   },
-  "Maestro di cerimonia": {
-    "en_GB": "Master of ceremonies",
-    "nl_NL": "Ceremoniemeester"
-  },
-  "Maestro di cerimonia del Re di Sardegna": {
+  "Maestro di cerimonie del Re di Sardegna": {
     "en_GB": "Master of ceremonies of the King of Sardinia",
     "nl_NL": "Ceremoniemeester van de Koning van Sardinië"
   },
-  "Maggior generale del Regno di Sardegna a Genova": {
-    "en_GB": "Major general of the Kingdom of Sardinia in Genoa",
-    "nl_NL": "Generaal-majoor van het Koninkrijk Sardinië in Genua"
-  },
   "Maggiordomo del Papa e Prefetto dei Palazzi Apostolici": {
-    "en_GB": "Majordomo of the Pope and prefect of the Apostolic Palaces",
-    "nl_NL": "Majordomus van de Paus en prefect van de Apostolische Paleizen"
+    "en_GB": "Major Domo of the Pope and Prefect of the Apostolic Palaces",
+    "nl_NL": "Majordomus van de Paus en Prefect van de Apostolische Paleizen"
   },
   "Maggiore generale del Regno dei Paesi Bassi": {
     "en_GB": "Major general of the Kingdom of the Netherlands",
     "nl_NL": "Generaal-majoor van het Koninkrijk der Nederlanden"
   },
+  "Maggiore generale del Regno di Sardegna a Genova": {
+    "en_GB": "Major general of the Kingdom of Sardinia in Genoa",
+    "nl_NL": "Generaal-majoor van het Koninkrijk Sardinië in Genua"
+  },
   "Maresciallo di corte della principessa Marianna dei Paesi Bassi": {
     "en_GB": "Court marshal of Princess Marianne of the Netherlands",
-    "nl_NL": "Hofmaarschalk in dienst bij prinses Marianne der Nederlanden"
+    "nl_NL": "Hofmaarschalk van prinses Marianne der Nederlanden"
   },
   "Maresciallo di corte della regina Sofia dei Paesi Bassi": {
     "en_GB": "Court marshal of Queen Sophie of the Netherlands",
-    "nl_NL": "Hofmaarschalk in dienst bij Koningin Sophie der Nederlanden"
+    "nl_NL": "Hofmaarschalk van Koningin Sophie der Nederlanden"
   },
-  "Mediatore da noleggi": {
+  "Mediatore di noleggi": {
     "en_GB": "Rental broker",
     "nl_NL": "Huurmakelaar"
   },
@@ -1653,19 +1641,19 @@
     "nl_NL": "Arts"
   },
   "Medico Primario di Sanità a Livorno": {
-    "en_GB": "Primary Doctor of Health at Livorno",
-    "nl_NL": "Hoofdarts der Gezondheid te Livorno"
+    "en_GB": "Primary Doctor of Public Health at Livorno",
+    "nl_NL": "Hoofdarts der Volksezondheid te Livorno"
   },
   "Medico alla corte del Re dei Paesi Bassi": {
     "en_GB": "Physician at the court of the King of the Netherlands",
-    "nl_NL": "Geneesheer bij de hofhouding van de Koning der Nederlanden"
+    "nl_NL": "Geneesheer aan het hof van de Koning der Nederlanden"
   },
-  "Medico della città a Amsterdam": {
+  "Medico della città ad Amsterdam": {
     "en_GB": "City physician at Amsterdam",
     "nl_NL": "Stadsgeneesheer te Amsterdam"
   },
   "Medico militare": {
-    "en_GB": "Military octor",
+    "en_GB": "Military doctor",
     "nl_NL": "Militaire arts"
   },
   "Membro del Concilio Giudiziario di Semarang": {
@@ -1696,60 +1684,60 @@
     "en_GB": "Member and later vice-president and president of the Supreme Court of Luxembourg",
     "nl_NL": "Lid en later vice-president en president van het Hooggerechtshof te Luxemburg"
   },
-  "Ministro Generale dei Frati Predicatori": {
-    "en_GB": "Master of the Order of Preachers",
-    "nl_NL": "Magister-generaal van de dominicanen of Orde der Predikheren"
+  "Ministro Generale dei Frati Predicatori {domenicani}": {
+    "en_GB": "Master of the Order of Preachers {Dominicans}",
+    "nl_NL": "Magister-generaal van de dominicanen of Orde der Predikheren {domenicanen}"
+  },
+  "Ministro ad interim degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "Interim Minister of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Ad interim minister van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Ministro ad interim degli Affari Esteri del Regno dei Paesi Bassi": {
     "en_GB": "Interim Minister of Foreign Affairs of the Kingdom of the Netherlands",
-    "nl_NL": "Ad interim minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
+    "nl_NL": "Minister ad interim van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
   },
   "Ministro ad interim degli Affari Interni del Regno dei Paesi Bassi": {
     "en_GB": "Interim minister of Internal Affairs of the Kingdom of the Netherlands",
-    "nl_NL": "Tijdelijk minister van Binnenlandse Zaken van het Koninkrijk der Nederlanden"
+    "nl_NL": "Minister ad interum van Binnenlandse Zaken van het Koninkrijk der Nederlanden"
   },
   "Ministro ad interim del Culto Cattolico Romano del Regno dei Paesi Bassi": {
     "en_GB": "Interim Minister for Affairs of the Roman Catholic Worship of the Kingdom of the Netherlands",
-    "nl_NL": "Tijdelijk minister voor Zaken der rooms-katholieke Eredienst van het Koninkrijk der Nederlanden"
+    "nl_NL": "Minister ad interim voor Zaken der Rooms-Katholieke Eredienst van het Koninkrijk der Nederlanden"
   },
   "Ministro ad interim della Giustizia del Regno dei Paesi Bassi": {
     "en_GB": "Interim minister of Justice of the Kingdom of the Netherlands",
-    "nl_NL": "Ad interim minister van Justitie van het Koninkrijk der Nederlanden"
+    "nl_NL": "Minister ad interim van Justitie van het Koninkrijk der Nederlanden"
   },
   "Ministro ad interim della Marina del Regno d'Italia": {
-    "en_GB": "Interim Minister of the Marine of the Kingdom of Italy",
-    "nl_NL": "Ad interim minister van de Marine van het Koninkrijk Italië"
+    "en_GB": "Interim Minister of the Navy of the Kingdom of Italy",
+    "nl_NL": "Minister ad interim van Marine van het Koninkrijk Italië"
   },
   "Ministro ad interim della Marina del Regno dei Paesi Bassi": {
-    "en_GB": "Interim Minister of the Marine of the Kingdom of the Netherlands",
-    "nl_NL": "Ad interim minister van de Marine van het Koninkrijk der Nederlanden"
+    "en_GB": "Interim Minister of the Navy of the Kingdom of the Netherlands",
+    "nl_NL": "Minister ad interim van Marine van het Koninkrijk der Nederlanden"
   },
   "Ministro ad interim delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Minister ad interim of Colonies of the Kingdom of the Netherlands",
-    "nl_NL": "Ad interim minister van Koloniën van het Koninkrijk der Nederlanden"
+    "nl_NL": "Minister ad interim van Koloniën van het Koninkrijk der Nederlanden"
   },
   "Ministro ad interim delle Finanze del Regno dei Paesi Bassi": {
     "en_GB": "Interim Minister of Finance of the Kingdom of the Netherlands",
-    "nl_NL": "Ad interim minister van Financiën van het Koninkrijk der Nederlanden"
-  },
-  "Ministro d'Austria": {
-    "en_GB": "Minister of Austria",
-    "nl_NL": "Minister van Oostenrijk"
+    "nl_NL": "Minister ad interim van Financiën van het Koninkrijk der Nederlanden"
   },
   "Ministro degli Affari Esteri Secolari dello Stato Pontificio": {
-    "en_GB": "Minister of Secular Foreign Affairs of the Papel States",
+    "en_GB": "Minister of Secular Foreign Affairs of the Papal States",
     "nl_NL": "Minister van Seculiere Buitenlandse Zaken van de Kerkelijke Staat"
   },
   "Ministro degli Affari Esteri del Ducato di Parma e Piacenza": {
     "en_GB": "Minister of Foreign Affairs of the Duchy of Parma and Piacenza",
-    "nl_NL": "Minister van Buitenlandse Zaken van het Hertogdom van Parma en Piacenza"
+    "nl_NL": "Minister van Buitenlandse Zaken van het Hertogdom Parma en Piacenza"
   },
   "Ministro degli Affari Esteri del Granducato di Toscana": {
     "en_GB": "Minister of Foreign Affairs of the Grand Duchy of Tuscany",
     "nl_NL": "Minister van Buitenlandse Zaken van het Groothertogdom Toscane"
   },
   "Ministro degli Affari Esteri del Regno Unito": {
-    "en_GB": "Secretary of Foreign Affairs of the United Kingdom",
+    "en_GB": "Minister of Foreign Affairs of the United Kingdom",
     "nl_NL": "Minister van Buitenlandse Zaken van het Verenigd Koninkrijk"
   },
   "Ministro degli Affari Esteri del Regno d'Italia": {
@@ -1769,35 +1757,35 @@
     "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Ministro degli Affari Esteri del Regno di Spagna": {
-    "en_GB": "Secretary of Foreign Affairs of the Kingdom of Spain",
+    "en_GB": "Minister of Foreign Affairs of the Kingdom of Spain",
     "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk Spanje"
   },
   "Ministro degli Affari Esteri del Regno di Württemberg": {
     "en_GB": "Minister of Foreign Affairs of the Kingdom of Württemberg",
-    "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk van Württemberg"
+    "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk Württemberg"
   },
-  "Ministro degli Affari Esteri dell'Impero d'Austria": {
-    "en_GB": "Minister of Foreign Affairs of the Empire of Austria",
+  "Ministro degli Affari Esteri dell'Impero Austriaco": {
+    "en_GB": "Minister of Foreign Affairs of the Austrian Empire",
     "nl_NL": "Minister van Buitenlandse Zaken van het Keizerrijk Oostenrijk"
   },
-  "Ministro degli Affari Esteri dell'Impero di Francia": {
-    "en_GB": "Minister of Foreign Affairs of the Empire of France",
-    "nl_NL": "Minister van Buitenlandse Zaken van het Keizerrijk Frankrijk"
+  "Ministro degli Affari Esteri dell'Impero Francese": {
+    "en_GB": "Minister of Foreign Affairs of the French Empire",
+    "nl_NL": "Minister van Buitenlandse Zaken van het Franse Keizerrijk"
+  },
+  "Ministro degli Affari Esteri della Repubblica Francese": {
+    "en_GB": "Minister of Foreign Affairs of the French Republic",
+    "nl_NL": "Minister van Buitenlandse Zaken van de Franse Republiek"
   },
   "Ministro degli Affari Esteri della Repubblica Romana": {
     "en_GB": "Minister of Foreign Affairs of the Roman Republic",
     "nl_NL": "Minister van Buitenlandse Zaken van de Romeinse Republiek"
   },
   "Ministro degli Affari Esteri della Repubblica del Venezuela": {
-    "en_GB": "Secretary of Foreign Affairs of the Republic of Venezuela",
-    "nl_NL": "Minister van Buitenlandse Zaken van de Republiek van Venezuela"
-  },
-  "Ministro degli Affari Esteri della Repubblica di Francia": {
-    "en_GB": "Minister of Foreign Affairs of the Republic of France",
-    "nl_NL": "Minister van Buitenlandse Zaken van de Republiek van Frankrijk"
+    "en_GB": "Minister of Foreign Affairs of the Republic of Venezuela",
+    "nl_NL": "Minister van Buitenlandse Zaken van de Republiek Venezuela"
   },
   "Ministro degli Affari Esteri dello Stato Pontificio": {
-    "en_GB": "Minister of Foreign Affairs of the Papel States",
+    "en_GB": "Minister of Foreign Affairs of the Papal States",
     "nl_NL": "Minister van Buitenlandse Zaken van de Kerkelijke Staat"
   },
   "Ministro degli Affari Interni del Regno d'Italia": {
@@ -1812,40 +1800,40 @@
     "en_GB": "Minister of Internal Affairs of the Kingdom of the Two Sicilies",
     "nl_NL": "Minister van Binnenlandse Zaken van het Koninkrijk der Beide Siciliën"
   },
-  "Ministro degli Affari Interni dell'Impero d'Austria": {
-    "en_GB": "Minister of Internal Affairs of the Empire of Austria",
+  "Ministro degli Affari Interni dell'Impero Austriaco": {
+    "en_GB": "Minister of Internal Affairs of the Austria Empire",
     "nl_NL": "Minister van Binnenlandse Zaken van het Keizerrijk Oostenrijk"
   },
-  "Ministro degli Affari Interni dell'Impero di Francia": {
-    "en_GB": "Minister of Internal Affairs of the Empire of France",
-    "nl_NL": "Minister van Binnenlandse Zaken van het Keizerrijk Frankrijk"
+  "Ministro degli Affari Interni dell'Impero Francese": {
+    "en_GB": "Minister of Internal Affairs of the French Empire",
+    "nl_NL": "Minister van Binnenlandse Zaken van het Franse Keizerrijk"
   },
   "Ministro degli Affari Interni dello Stato Pontificio": {
-    "en_GB": "Minister of Internal Affairs of the Papel States",
+    "en_GB": "Minister of Internal Affairs of the Papal States",
     "nl_NL": "Minister van Binnenlandse Zaken van de Kerkelijke Staat"
   },
   "Ministro degli Affari Interni e della Giustizia della Repubblica del Venezuela": {
     "en_GB": "Secretary of Internal Affairs and Justice of the Republic of Venezuela",
-    "nl_NL": "Minister van Binnenlandse Zaken en Justitie van de Republiek van Venezuela"
+    "nl_NL": "Minister van Binnenlandse Zaken en Justitie van de Republiek Venezuela"
   },
   "Ministro degli Affari del Culto Riformato e gli altri Culti Religiosi non Cattolici": {
     "en_GB": "Minister for Affairs of Reformed Worship and Other Kinds of Religious, non-Catholic Worship",
-    "nl_NL": "Minister van Zaken van de Hervormde en andere Erediensten, behalve die der Rooms-Katholieke"
+    "nl_NL": "Minister van Zaken van de Hervormde en andere Erediensten, behalve die der rooms-katholieken"
   },
-  "Ministro degli Affari del culto Romano-Cattoliche del Regno dei Paesi Bassi": {
+  "Ministro degli Affari del culto Romano-Cattolico del Regno dei Paesi Bassi": {
     "en_GB": "Minister of Affairs of the Roman-Catholic Worship Service of the Kingdom of the Netherlands",
-    "nl_NL": "Minister voor de Zaken van de Rooms-Katholieke Eredienst van het Koninkrijk der Nederlanden"
+    "nl_NL": "Minister van Zaken der Rooms-Katholieke Eredienst van het Koninkrijk der Nederlanden"
   },
   "Ministro dei Lavori Pubblici del Regno d'Italia": {
     "en_GB": "Minister of Public Works of the Kingdom of Italy",
     "nl_NL": "Minister van Openbare Werken van het Koninkrijk Italië"
   },
   "Ministro dei Lavori Pubblici dello Stato Pontificio": {
-    "en_GB": "Minister of Public Works of the Papel States",
+    "en_GB": "Minister of Public Works of the Papal States",
     "nl_NL": "Minister van Openbare Werken van de Kerkelijke Staat"
   },
   "Ministro del Commercio e Lavori Pubblici dello Stato Pontificio": {
-    "en_GB": "Minister of Trade and Public Works of the Papel States",
+    "en_GB": "Minister of Trade and Public Works of the Papal States",
     "nl_NL": "Minister van Handel en Openbare Werken van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
@@ -1853,15 +1841,15 @@
     "nl_NL": "Minister van Handel, Landbouw, Industrie, Schone Kunsten en Openbare Werken van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Belle Arti, Industria e Agricoltura dello Stato Pontificio": {
-    "en_GB": "Minister of Trade, Fine Arts, Industry and Agriculture of the Papel States",
+    "en_GB": "Minister of Trade, Fine Arts, Industry and Agriculture of the Papal States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Industrie en Landbouw van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontificio dello Stato Pontificio": {
-    "en_GB": "Minister of Trade, Fine Arts, Industry, Agriculture and Public Works of the Papel States",
+    "en_GB": "Minister of Trade, Fine Arts, Industry, Agriculture and Public Works of the Papal States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Industrie, Landbouw en Openbare Werken van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Belle Arti, Lavori Pubblici, Industria e Agricoltura dello Stato Pontificio": {
-    "en_GB": "Minister of Commerce, Fine Arts, Public Works, Industry and Agriculture of the Papel States",
+    "en_GB": "Minister of Commerce, Fine Arts, Public Works, Industry and Agriculture of the Papal States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Openbare Werken, Industrie en Landbouw van de Kerkelijke Staat"
   },
   "Ministro del Culto Cattolico Romano del Regno dei Paesi Bassi": {
@@ -1869,8 +1857,8 @@
     "nl_NL": "Minister van Zaken der Rooms-Katholieke Eredienst van het Koninkrijk der Nederlanden"
   },
   "Ministro dell'Agricoltura, Commercia e Marina del Regno di Sardegna": {
-    "en_GB": "Minister of Agriculture, Trade and Marine of the Kingdom of Sardinia",
-    "nl_NL": "Minister van Landbouw, Handel en Marine van het Koninkrijk Sardinië"
+    "en_GB": "Minister of Agriculture, Trade and Shipping of the Kingdom of Sardinia",
+    "nl_NL": "Minister van Landbouw, Handel en Scheepvaart van het Koninkrijk Sardinië"
   },
   "Ministro dell'Agricoltura, Industria e Commercio del Regno d'Italia": {
     "en_GB": "Minister of Agriculture, Industry and Trade of the Kingdom of Italy",
@@ -1878,7 +1866,7 @@
   },
   "Ministro dell'Interno del Granducato di Toscana": {
     "en_GB": "Minister of Internal Affairs of the Grand Duchy of Tuscany",
-    "nl_NL": "Minister van Binnenlandse Zaken bij het Groothertogdom van Toscane"
+    "nl_NL": "Minister van Binnenlandse Zaken van het Groothertogdom Toscane"
   },
   "Ministro dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Minister of Public Education, National Indusry and Colonies of the Kingdom of the Netherlands",
@@ -1888,8 +1876,8 @@
     "en_GB": "Minister of Justice of the Kingdom of the Netherlands",
     "nl_NL": "Minister van Justitie van het Koninkrijk der Nederlanden"
   },
-  "Ministro della Giustizia dell'Impero d'Austria": {
-    "en_GB": "Minister of Justice of the Empire of Austria",
+  "Ministro della Giustizia dell'Impero Austriaco": {
+    "en_GB": "Minister of Justice of the Austrian Empire",
     "nl_NL": "Minister van Justitie van het Keizerrijk Oostenrijk"
   },
   "Ministro della Guerra del Regno d'Italia": {
@@ -1909,8 +1897,8 @@
     "nl_NL": "Minister van Oorlog van de Kerkelijke Staat"
   },
   "Ministro della Guerra e Marina del Regno delle Due Sicilie": {
-    "en_GB": "Minister of War and the Marine of the Kingdom of the Two Sicilies",
-    "nl_NL": "Minister van Oorlog en de Marina van het Koninkrijk der Beide Siciliën"
+    "en_GB": "Minister of War and the Navy of the Kingdom of the Two Sicilies",
+    "nl_NL": "Minister van Oorlog en Marine van het Koninkrijk der Beide Siciliën"
   },
   "Ministro della Marina del Regno d'Italia": {
     "en_GB": "Minister of the Navy of the Kingdom of Italy",
@@ -1926,7 +1914,7 @@
   },
   "Ministro della Pubblica Istruzione del Regno d'Italia": {
     "en_GB": "Minister of Public Education of the Kingdom of Italy",
-    "nl_NL": "Minister van Publiek Onderwijs van het Koninkrijk Italië"
+    "nl_NL": "Minister van Openbaar Onderwijs van het Koninkrijk Italië"
   },
   "Ministro della Pubblica Istruzione del Regno di Sardegna": {
     "en_GB": "Minister of Public Education of the Kingdom of Sardinia",
@@ -1945,38 +1933,34 @@
     "nl_NL": "Minister van Financiën van het Koninkrijk der Nederlanden"
   },
   "Ministro delle Finanze del Regno di Spagna": {
-    "en_GB": "Secretary of Finance of the Kingdom of Spain",
+    "en_GB": "Minister of Finance of the Kingdom of Spain",
     "nl_NL": "Minister van Financiën van het Koninkrijk Spanje"
   },
   "Ministro delle Finanze della Repubblica del Venezuela": {
-    "en_GB": "Secretary of Finance of the Republic of Venezuela",
-    "nl_NL": "Minister van Financiën van de Republiek van Venezuela"
+    "en_GB": "Minister of Finance of the Republic of Venezuela",
+    "nl_NL": "Minister van Financiën van de Republiek Venezuela"
   },
   "Ministro delle Finanze dello Stato Pontificio": {
-    "en_GB": "Minister of Finance of the Papel States",
+    "en_GB": "Minister of Finance of the Papal States",
     "nl_NL": "Minister van Financiën van de Kerkelijke Staat"
-  },
-  "Ministro delle Finanze e Tesoriere generale della Santa Sede": {
-    "en_GB": "Minister of Finance en thesaurarius general of the Holy See",
-    "nl_NL": "Minister van Financiën en thesaurier-generaal van de Heilige Stoel"
   },
   "Ministro di Grazia e Giustizia del Regno d'Italia": {
     "en_GB": "Minister of Grace and Justice of the Kingdom of Italy",
-    "nl_NL": "Minister van Gratie en Justitie van van het Koninkrijk Italië"
+    "nl_NL": "Minister van Gratie en Justitie van het Koninkrijk Italië"
   },
   "Ministro di Grazia e Giustizia e Culti del Regno d'Italia": {
     "en_GB": "Minister of Grace and Justice and Worship of the Kingdom of Italy",
-    "nl_NL": "Minister van Gratie en Justitie en Religie van van het Koninkrijk Italië"
+    "nl_NL": "Minister van Gratie en Justitie en Religie van het Koninkrijk Italië"
   },
   "Ministro di Stato del Regno delle Due Sicilie": {
-    "en_GB": "State Secretary of the Kingdom of the Two Sicilies",
-    "nl_NL": "Staatsminister van het Koninkrijk der Beide Siciliën"
+    "en_GB": "Minister of State of the Kingdom of the Two Sicilies",
+    "nl_NL": "Minister van Staat van het Koninkrijk der Beide Siciliën"
   },
   "Ministro di Stato del principe di Nassau": {
-    "en_GB": "State Secretary of the Prince of Nassau",
-    "nl_NL": "Staatsminister van de prins van Nassau"
+    "en_GB": "Minister of State of the Prince of Nassau",
+    "nl_NL": "Minister van Staat van de prins van Nassau"
   },
-  "Ministro plenipontenziario degli Stati Uniti d'America presso la Santa Sede": {
+  "Ministro plenipotenziario degli Stati Uniti d'America presso la Santa Sede": {
     "en_GB": "Minister plenipotenziario of the United States of America at the Holy See",
     "nl_NL": "Gevolmachtigd minister van de Verenigde Staten van Amerika bij de Heilige Stoel"
   },
@@ -2004,77 +1988,77 @@
     "en_GB": "Minister plenipotentiary ambassador of the Second Mexican Empire to the Holy See",
     "nl_NL": "Gevolmachtigd minister van het Tweede Mexicaanse Rijk bij de Heilige Stoel"
   },
-  "Ministro plenipotenziario dell'Impero d'Austria presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Empire of Austria to the Holy See",
+  "Ministro plenipotenziario dell'Impero Austriaco presso la Santa Sede": {
+    "en_GB": "Minister plenipotentiary of the Austrian Empire to the Holy See",
     "nl_NL": "Gevolmachtigd minister van het Keizerrijk Oostenrijk bij de Heilige Stoel"
   },
-  "Ministro plenipotenziario dell'Impero di Francia agli Stati Uniti d'America": {
-    "en_GB": "Minister plenipotentiary of the Empire of France to the United States of America",
-    "nl_NL": "Gevolmachtigd minister van het Keizerrijk Frankrijk bij de Verenigde Staten van Amerika"
+  "Ministro plenipotenziario dell'Impero Francese agli Stati Uniti d'America": {
+    "en_GB": "Minister plenipotentiary of the French Empire to the United States of America",
+    "nl_NL": "Gevolmachtigd minister van het Franse Keizerrijk bij de Verenigde Staten van Amerika"
   },
-  "Ministro plenipotenziario dell'Impero di Francia al Regno di Grecia": {
-    "en_GB": "Minister plenipotentiary of the Empire of France to the Kingdom of Greece",
-    "nl_NL": "Gevolmachtigd minister van het Keizerrijk Frankrijk bij het Koninkrijk Griekenland"
+  "Ministro plenipotenziario dell'Impero Francese al Regno di Grecia": {
+    "en_GB": "Minister plenipotentiary of the French Empire to the Kingdom of Greece",
+    "nl_NL": "Gevolmachtigd minister van het Franse Keizerrijk bij het Koninkrijk Griekenland"
   },
-  "Ministro plenipotenziario dell'Impero di Francia presso il Regno d'Italia": {
-    "en_GB": "Minister plenipotentiary of the Empire of France to the Kingdom of Italy",
-    "nl_NL": "Gevolmachtigd minister van het Keizerrijk Frankrijk bij het Koninkrijk Italië"
+  "Ministro plenipotenziario dell'Impero Francese presso il Regno d'Italia": {
+    "en_GB": "Minister plenipotentiary of the French Empire to the Kingdom of Italy",
+    "nl_NL": "Gevolmachtigd minister van het Franse Keizerrijk bij het Koninkrijk Italië"
   },
-  "Ministro plenipotenziario dell'Impero di Francia presso il Regno dei Paesi Bassi": {
-    "en_GB": "Minister plenipotentiary of the Empire of France to the Kingdom of the Netherlands",
-    "nl_NL": "Gevolmachtigd minister van het Keizerrijk Frankrijk bij het Koninkrijk der Nederlanden"
+  "Ministro plenipotenziario dell'Impero Francese presso il Regno dei Paesi Bassi": {
+    "en_GB": "Minister plenipotentiary of the French Empire to the Kingdom of the Netherlands",
+    "nl_NL": "Gevolmachtigd minister van het Franse Keizerrijk bij het Koninkrijk der Nederlanden"
   },
-  "Ministro plenipotenziario dell'Impero di Russia presso l'Impero di Francia": {
-    "en_GB": "Minister plenipotentiary of the Empire of Russia to the Empire of France",
-    "nl_NL": "Gevolmachtigd minister van het Keizerrijk Rusland bij het Keizerrijk Frankrijk"
+  "Ministro plenipotenziario dell'Impero Russo presso l'Impero Francese": {
+    "en_GB": "Minister plenipotentiary of the Russian Empire to the French Empire",
+    "nl_NL": "Gevolmachtigd minister van het Keizerrijk Rusland bij het Franse Keizerrijk"
   },
   "Ministro plenipotenziario della Repubblica Argentina presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Republic of Argentinia to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Argentinië bij de Heilige Stoel"
+    "en_GB": "Minister plenipotentiary of the Argentine Republic to the Holy See",
+    "nl_NL": "Gevolmachtigd minister van de Argentijnse Republiek bij de Heilige Stoel"
   },
-  "Ministro plenipotenziario della Repubblica del Messico presso la Santa Sede": {
-    "en_GB": "Minister plenipotentiary of the Republic of Mexico to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Mexico bij de Heilige Stoel"
+  "Ministro plenipotenziario della Repubblica Francese a Baden e Stuttgard": {
+    "en_GB": "Minister plenipotentiary of the French Republic to Baden and Stuttgard",
+    "nl_NL": "Gevolmachtigd minister van de Franse Republiek te Baden and Stuttgard"
+  },
+  "Ministro plenipotenziario della Repubblica Messicana presso la Santa Sede": {
+    "en_GB": "Minister plenipotentiary of the Mexican Republic to the Holy See",
+    "nl_NL": "Gevolmachtigd minister van de Mexicaanse Republiek bij de Heilige Stoel"
   },
   "Ministro plenipotenziario della Repubblica del Perù presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Republic of Peru to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Peru bij de Heilige Stoel"
+    "nl_NL": "Gevolmachtigd minister van de Republiek Peru bij de Heilige Stoel"
   },
   "Ministro plenipotenziario della Repubblica del Venezuela agli Stati Uniti d'America": {
     "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the United States of America",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij de Verenigde Staten van Amerika"
+    "nl_NL": "Gevolmachtigd minister van de Republiek Venezuela bij de Verenigde Staten van Amerika"
   },
   "Ministro plenipotenziario della Repubblica del Venezuela presso il Regno dei Paesi Bassi": {
     "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the Kingdom of the Netherlands",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij het Koninkrijk der Nederlanden"
+    "nl_NL": "Gevolmachtigd minister van de Republiek Venezuela bij het Koninkrijk der Nederlanden"
   },
-  "Ministro plenipotenziario della Repubblica del Venezuela presso l'Impero di Francia e il Regno Unito": {
-    "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the Empire of France and the United Kingdom",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij het Keizerrijk Frankrijk en het Verenigd Koninkrijk"
+  "Ministro plenipotenziario della Repubblica del Venezuela presso l'Impero Francese e il Regno Unito": {
+    "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the French Empire and the United Kingdom",
+    "nl_NL": "Gevolmachtigd minister van de Republiek Venezuela bij het Franse Keizerrijk en het Verenigd Koninkrijk"
   },
   "Ministro plenipotenziario della Repubblica del Venezuela presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Republic of Venezuela to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Venezuela bij de Heilige Stoel"
+    "nl_NL": "Gevolmachtigd minister van de Republiek Venezuela bij de Heilige Stoel"
   },
-  "Ministro plenipotenziario della Repubblica di Francia a Baden e Stuttgard": {
-    "en_GB": "Minister plenipotentiary of the Republic of France to Baden and Stuttgard",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Frankrijk te Baden and Stuttgard"
+  "Ministro plenipotenziario della Repubblica di El Salvador presso la Santa Sede": {
+    "en_GB": "Minister plenipotenziario of the Republic of El Salvador to the Holy See",
+    "nl_NL": "Gevolmachtigd minister van de Republiek El Salvador bij de Heilige Stoel"
   },
   "Ministro plenipotenziario della Repubblica di Haiti presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the Republic of Haiti to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek van Haïti bij de Heilige Stoel"
-  },
-  "Ministro plenipotenziario della Repubblica di Salvador presso la Santa Sede": {
-    "en_GB": "Minister plenipotenziario of the Republic of Salvador to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de Republiek Salvador bij de Heilige Stoel"
+    "nl_NL": "Gevolmachtigd minister van de Republiek Haïti bij de Heilige Stoel"
   },
   "Ministro plenipotenziario delle repubblice dell'Ecuador, di El Salvador, Bolivia, Costa Rica e Guatemala presso la Santa Sede": {
     "en_GB": "Minister plenipotentiary of the republics of Ecuador, El Salvador, Bolivia, Costa Roca and Guatemala to the Holy See",
-    "nl_NL": "Gevolmachtigd minister van de republieken van Ecuador, El Salvador, Bolivia, Costa Rica en Guatemala bij de Heilige Stoel"
+    "nl_NL": "Gevolmachtigd minister van de republieken Ecuador, El Salvador, Bolivia, Costa Rica en Guatemala bij de Heilige Stoel"
   },
   "Ministro residente ad interim del Regno dei Paesi Bassi a Londra": {
     "en_GB": "Resident minister ad interim of the Kingdom of the Netherlands in London",
-    "nl_NL": "Ad interim minister-resident van het Koninkrijk der Nederlanden te Londen"
+    "nl_NL": "Minister-resident ad interim van het Koninkrijk der Nederlanden te Londen"
   },
   "Ministro residente degli Stati Uniti d'America presso la Santa Sede": {
     "en_GB": "Resident minister of the United States of America to the Holy See",
@@ -2117,7 +2101,7 @@
     "nl_NL": "Minister-resident van het Koninkrijk Saksen bij de Heilige Stoel"
   },
   "Ministro segretario delle Finanze del Regno delle Due Sicilie": {
-    "en_GB": "Minister Secretary of Finances of the Kingdom of the Two Sicilies",
+    "en_GB": "Minister Secretary of Finance of the Kingdom of the Two Sicilies",
     "nl_NL": "Minister-secretaris van Financiën van het Koninkrijk der Beide Siciliën"
   },
   "Negoziante": {
@@ -2126,7 +2110,7 @@
   },
   "Numismatico": {
     "en_GB": "Numismatist",
-    "nl_NL": "Numismaat"
+    "nl_NL": "Numismaticus"
   },
   "Nunzio a Madrid": {
     "en_GB": "Apostolic nuncio in Madrid",
@@ -2137,8 +2121,8 @@
     "nl_NL": "Apostolisch nuntius te München"
   },
   "Pari del Regno e Commissario Speciale del Potere Esecutivo del Regno di Sicilia presso la Santa Sede": {
-    "en_GB": "Peer of the Kingdom and Special Commissioner of the Executive Power of the Kingdom of Sicily to the Holy See",
-    "nl_NL": "Peer van het Koninkrijk en speciale commissaris van de uitvoerende macht van het Koninkrijk Sicilië bij de Heilige Stoel"
+    "en_GB": "Peer and Special Commissioner of the Executive Power of the Kingdom of Sicily to the Holy See",
+    "nl_NL": "Lid van het Hogerhuis en speciaal commissaris van de uitvoerende macht van het Koninkrijk Sicilië bij de Heilige Stoel"
   },
   "Pastore": {
     "en_GB": "Pastor",
@@ -2166,7 +2150,7 @@
   },
   "Predicatore presso la Legazione del Regno di Prussia a Roma": {
     "en_GB": "Pastor at the legation of the Kingdom of Prussia in Rome",
-    "nl_NL": "Predikant bij het gezantschap van het Koninkrijk Pruissen te Rome"
+    "nl_NL": "Predikant bij het Gezantschap van het Koninkrijk Pruisen te Rome"
   },
   "Prefetto del Supremo Tribunale della Segnatura Apostolica": {
     "en_GB": "Prefect of the Supreme Tribunal of the Apostolic Signatura",
@@ -2174,31 +2158,31 @@
   },
   "Prefetto del palazzo del Regno di Sardegna": {
     "en_GB": "Prefect of the palace of the Kingdom of Sardinia",
-    "nl_NL": "Prefect van het paleis van het Koninkrijk Sardinië"
+    "nl_NL": "Paleisprefect van het Koninkrijk Sardinië"
   },
   "Prefetto dell'Economia della Congregazione di Propaganda Fide": {
-    "en_GB": "Prefect of the Economy of the Sacred Congregation for the Propagation of the Faith",
-    "nl_NL": "Prefect van de Economie van de Heilige Congregatie voor de Voortplanting van het Geloof,"
+    "en_GB": "Prefect of Economy of the Sacred Congregation for the Propagation of the Faith",
+    "nl_NL": "Prefect Economie van de Heilige Congregatie voor de Voortplanting van het Geloof,"
   },
   "Prefetto della Congregazione dell'Indice dei Libri Proibiti": {
     "en_GB": "Prefect of Congregation for the Index of Forbidden Books",
-    "nl_NL": "Prefect van de Congregatie van de Index van Verboden Boeken "
+    "nl_NL": "Prefect van de Congregatie voor de Index van Verboden Boeken "
   },
   "Prefetto della Sacra Congregazione dei Vescovi e Regolari": {
     "en_GB": "Prefect of the Congregation of Bishops and Regulars",
-    "nl_NL": "Prefect van de Congregatie van bisschoppen en regulieren"
+    "nl_NL": "Prefect van de Congregatie van Bisschoppen en Regulieren"
   },
   "Prefetto delle cerimonie del Papa": {
-    "en_GB": "Prefect of ceremonies of the Pope",
-    "nl_NL": "Prefect van ceremonies van de Paus"
+    "en_GB": "Prefect of Papal Ceremonies",
+    "nl_NL": "Prefect van Pauselijke Ceremonies"
   },
   "Prefetto di Ancona": {
     "en_GB": "Prefect of Ancona",
     "nl_NL": "Prefect van Ancona"
   },
   "Prefetto di Polizia": {
-    "en_GB": "Prefect of the police",
-    "nl_NL": "Prefect van de politie"
+    "en_GB": "Prefect of police",
+    "nl_NL": "Politieprefect"
   },
   "Prefetto di Torino": {
     "en_GB": "Prefect of Turin",
@@ -2210,23 +2194,19 @@
   },
   "Prefetto di palazzo e gran maestro delle cerimonie del Re d'Italia": {
     "en_GB": "Prefect of the Palace and master of Ceremonies for the King of Italy",
-    "nl_NL": "Prefect van het paleis en ceremoniemeester voor de Koning van Italië"
+    "nl_NL": "Paleisprefect en ceremoniemeester voor de Koning van Italië"
   },
   "Prefetto e successivamente Presidente delle Armi dello Stato Pontificio": {
-    "en_GB": "Prefect and later President _delle Armi_ {of the weapons} of the Papal State",
-    "nl_NL": "Prefect en later president _delle Armi_ {van de wapens} van de Kerkelijke Staat"
+    "en_GB": "Prefect and later President _delle Armi_ {of the Arms} of the Papal State",
+    "nl_NL": "Prefect en later president _delle Armi_ {der wapenen} van de Kerkelijke Staat"
   },
   "Prelato Domestico del Papa": {
     "en_GB": "Domestic Prelate of the Pope",
     "nl_NL": "Huisprelaat van de Paus"
   },
   "Prelato ponente e giudice del tribunale della Sacra Consulta": {
-    "en_GB": "_Prelato ponente_ {qualified prelate} and tribunal judge of the Holy Congregation of the _Consulta_",
-    "nl_NL": "_Prelato ponente_ {bevoegd prelaat} en tribunaalsrechter van de Heilige Congregatie van de _Consulta_"
-  },
-  "Première note dressée d'après les indications de M. le Comte Visconti \\(Prima nota preparato secondo le indicazioni del S. il Conte Visconti\\)": {
-    "en_GB": "Première note dressée d'après les indications de M. le Comte Visconti (First note prepared according to the indications of M. the Count of Visconti",
-    "nl_NL": "Première note dressée d'après les indications de M. le Comte Visconti (Eerste nota opgesteld volgens de aanwijzingen van M. de Graaf van Visconti"
+    "en_GB": "_Prelato ponente_ {qualified prelate} and tribunal judge of the Sacred Congregation of the _Consulta_",
+    "nl_NL": "_Prelato ponente_ {bevoegd prelaat} en rechter aan het tribunaal van de Heilige Congregatie van de _Consulta_"
   },
   "Presidente del Comitato Generale per le borse per i fondi pubblici": {
     "en_GB": "President of the General Bursary Committee for Public Funds",
@@ -2234,7 +2214,7 @@
   },
   "Presidente del Consiglio Superiore di Marina del Regno di Sardegna": {
     "en_GB": "President of the High Council of the Navy of the Kingdom of Sardinia",
-    "nl_NL": "Voorzitter van de Hoge Raad van de Marine van het Koninkrijk Sardinië"
+    "nl_NL": "Voorzitter van de Hoge Raad van Marine van het Koninkrijk Sardinië"
   },
   "Presidente del Consiglio dei Deputati dello Stato Pontificio": {
     "en_GB": "Chairman of the Council of Deputies of the Papal States",
@@ -2245,84 +2225,88 @@
     "nl_NL": "Premier van het Verenigd Koninkrijk"
   },
   "Presidente del Consiglio dei Ministri del Regno d'Italia": {
-    "en_GB": "Prime Minister of the Kingdom of Italy",
-    "nl_NL": "Premier van het Koninkrijk Italië"
+    "en_GB": "President of the Council of Ministers of the Kingdom of Italy",
+    "nl_NL": "Voorzitter van de ministerraad van het Koninkrijk Italië"
   },
   "Presidente del Consiglio dei Ministri del Regno di Sardegna": {
-    "en_GB": "Prime Minister of the Kingdom of Sardinia",
-    "nl_NL": "Premier van het Koninkrijk Sardinië"
+    "en_GB": "President of the Council of Ministers of the Kingdom of Sardinia",
+    "nl_NL": "Voorzitter van de ministerraad van het Koninkrijk Sardinië"
   },
   "Presidente del Consiglio dei Ministri dello Stato Pontificio": {
-    "en_GB": "President of the council of ministers of the Papel States",
+    "en_GB": "President of the Council of Ministers of the Papal States",
     "nl_NL": "Voorzitter van de ministerraad van de Kerkelijke Staat"
   },
-  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno d'Italia": {
-    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of Italy",
-    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Italië"
-  },
-  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno dei Paesi Bassi": {
-    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Netherlands",
-    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
-  },
-  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno delle Due Sicilie": {
-    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Two Sicilies",
-    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
-  },
-  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Sardegna": {
-    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of Sardinia",
-    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
-  },
-  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Spagna": {
-    "en_GB": "Prime Minister and Minister of Foreign Affairs of the Kingdom of the Kingdom of Spain",
-    "nl_NL": "Premier en minister van Buitenlandse Zaken van het Koninkrijk Spanje"
-  },
-  "Presidente del Consiglio dei Ministri e Segretario di Stato dello Stato Pontificio": {
-    "en_GB": "President of the council of ministers en Minister of Foreign Affairs of the Papel States",
-    "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van de Kerkelijke Staat"
-  },
-  "Presidente del Consiglio e Amministratore generale degli Affari Esteri del Granducato di Lussemburgo": {
-    "en_GB": "President of the Council and Administrator-general of Foreign Affairs of the Grand Duchy of Luxembourg",
+  "Presidente del Consiglio dei Ministri e Amministratore generale degli Affari Esteri del Granducato di Lussemburgo": {
+    "en_GB": "President of the Council of Ministers and Administrator-general of Foreign Affairs of the Grand Duchy of Luxembourg",
     "nl_NL": "President van de Raad en administrateur-generaal van Buitenlandse Zaken van het Groothertogdom Luxemburg"
   },
-  "Presidente del Magistrato di Sanità di Genova": {
-    "en_GB": "President of the _Magistrato di Sanità_ of Genoa",
-    "nl_NL": "President van het _Magistrato di Sanità_ van Genua"
+  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "President of the Council of Ministers and Minister of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk Italië"
   },
-  "Presidente del Tribunale Civile di Roma per le cose ecclesiastiche": {
+  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno dei Paesi Bassi": {
+    "en_GB": "President of the Council of Ministers and Minister of Foreign Affairs of the Kingdom of the Netherlands",
+    "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
+  },
+  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno delle Due Sicilie": {
+    "en_GB": "President of the Council of Ministers and Minister of Foreign Affairs of the Kingdom of the Two Sicilies",
+    "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
+  },
+  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Sardegna": {
+    "en_GB": "President of the Council of Ministers and Minister of Foreign Affairs of the Kingdom of Sardinia",
+    "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk Sardinië"
+  },
+  "Presidente del Consiglio dei Ministri e Ministro degli Affari Esteri del Regno di Spagna": {
+    "en_GB": "President of the Council of Ministers and Minister of Foreign Affairs of the Kingdom of the Kingdom of Spain",
+    "nl_NL": "Voorzitter van de ministerraad en minister van Buitenlandse Zaken van het Koninkrijk Spanje"
+  },
+  "Presidente del Consiglio dei Ministri e Segretario di Stato dello Stato Pontificio": {
+    "en_GB": "President of the Council of Ministers and Secretary of State of the Papal States",
+    "nl_NL": "Voorzitter van de ministerraad en Staatssecretaris van de Kerkelijke Staat"
+  },
+  "Presidente del Magistrato di Sanità di Genova": {
+    "en_GB": "President of the Magistracy of Public Health of Genoa",
+    "nl_NL": "President van de Magistratuur voor de Volksgezondheid van Genua"
+  },
+  "Presidente del Tribunale civile di Roma per le cose ecclesiastiche": {
     "en_GB": "President of the Civil Tribunal of Rome for Ecclesiastical Matters",
-    "nl_NL": "President van de Burgerlijke Rechtbank van Roma voor Ecclesiastische Zaken"
+    "nl_NL": "President van de Burgerlijke Rechtbank van Roma voor Kerkelijke Aangelegenheden"
   },
   "Presidente del Tribunale della Sacra Consulta": {
-    "en_GB": "President of the tribunal of the Holy Congregation of the _Consulta_",
-    "nl_NL": "Tribunaalspresident van de Heilige Congregatie van de _Consulta_"
+    "en_GB": "President of the tribunal of the Sacred Congregation of the _Consulta_",
+    "nl_NL": "Voorzitter van het tribunaal van de Heilige Congregatie van de _Consulta_"
   },
-  "Presidente del governo del Granducato del Lussemburgo": {
+  "Presidente del governo del Granducato di Lussemburgo": {
     "en_GB": "President of the government of the Grand Duchy of Luxembourg",
     "nl_NL": "President van de regering van het Groothertogdom Luxemburg"
   },
-  "Presidente del governo provvisorio del Spoleto": {
+  "Presidente del governo provvisorio di Spoleto": {
     "en_GB": "President of the provisional government of Spoleto",
-    "nl_NL": "President van de tijdelijke regering van Spoleto"
+    "nl_NL": "President van de voorlopige regering van Spoleto"
+  },
+  "Presidente dell'Accademia Filarmonica Romana": {
+    "en_GB": "President of the Accademia Filarmonica Romana",
+    "nl_NL": "Hoofd van de Accademia Filarmonica Romana"
   },
   "Presidente dell'Assemblea Costituzionale della Repubblica Romana": {
     "en_GB": "President of the Constitutional Assembly of the Roman Republicc",
     "nl_NL": "President van de constitutionele vergadering van de Romeinse Republiek"
   },
-  "Presidente dell'Associazione dei Insegnanti Olandesi": {
+  "Presidente dell'Associazione degli Insegnanti Olandesi": {
     "en_GB": "President of the Association of Dutch Teachers",
     "nl_NL": "Voorzitter van het Nederlandsch Onderwijzers Genootschap"
   },
-  "Presidente della Accademia Pontificia dei nuovi Lincei": {
-    "en_GB": "President of the _Accademia Pontificia dei nuovi Lincei_",
-    "nl_NL": "President van de _Accademia Pontificia dei nuovi Lincei_"
+  "Presidente della Accademia Pontificia dei Nuovi Lincei": {
+    "en_GB": "President of the _Accademia Pontificia dei Nuovi Lincei_",
+    "nl_NL": "President van de _Accademia Pontificia dei Nuovi Lincei_"
   },
   "Presidente della Banca Nazionale Toscana": {
     "en_GB": "President of the Banca Nazionale Toscana",
     "nl_NL": "President van de Banca Nazionale Toscana"
   },
   "Presidente della Camera dei Deputati del Regno di Sardegna": {
-    "en_GB": "President of the House of Representatives of the Kingdom of Sardinia",
-    "nl_NL": "President van het Huis van Afgevaardigden van het Koninkrijk Sardinië"
+    "en_GB": "Chairman of the House of Representatives of the Kingdom of Sardinia",
+    "nl_NL": "Voorzitter van het Huis van Afgevaardigden van het Koninkrijk Sardinië"
   },
   "Presidente della Camera di Commercio di Chambéry": {
     "en_GB": "President of the Chamber of Commerce of Chambéry",
@@ -2337,40 +2321,40 @@
     "nl_NL": "Voorzitter van de Commissie van Revisie en Gratie"
   },
   "Presidente della Provincia di Roma e di Comarca": {
-    "en_GB": "President of the Province of Rome and of Comarca",
-    "nl_NL": "President van de Provincie van Rome en van Comarca"
+    "en_GB": "President of the Province of Rome and the Comarca",
+    "nl_NL": "President van de Provincie van Rome en de Comarca"
   },
   "Presidente della Repubblica del Venezuela": {
     "en_GB": "President of the Republic of Venezuela",
-    "nl_NL": "President van de Republiek van Venezuela"
+    "nl_NL": "President van de Republiek Venezuela"
   },
   "Presidente di Waterschap Schouwen": {
     "en_GB": "President of Waterschap Schouwen",
     "nl_NL": "Voorzitter van Waterschap Schouwen"
   },
-  "Pretendente al trono di Spagna": {
-    "en_GB": "Pretendent to the throne of Spain",
-    "nl_NL": "Pretendent van de troon van Spanje"
+  "Pretendente al trono del Ducato di Mantova": {
+    "en_GB": "Pretender to the throne of the Duchy of Mantova",
+    "nl_NL": "Pretendent naar de troon van het hertogdom Mantova"
   },
-  "Pretendente del Ducato di Mantova": {
-    "en_GB": "Pretendent of the Duchy of Mantova",
-    "nl_NL": "Pretendent van het hertogdom Mantova"
+  "Pretendente al trono di Spagna": {
+    "en_GB": "Pretender to the throne of Spain",
+    "nl_NL": "Pretendent naar de troon van Spanje"
   },
   "Primo conservatore della Biblioteca Vaticana": {
-    "en_GB": "First custodian of the Vatican Library",
+    "en_GB": "First Custodian of the Vatican Library",
     "nl_NL": "Eerste huisbewaarder van de Vaticaanse Bibliotheek"
   },
   "Primo prefetto della Biblioteca Vaticana": {
-    "en_GB": "First prefect of the Vatican Library",
-    "nl_NL": "Eerste prefect van de Vaticaanse Bibliotheek"
+    "en_GB": "First Prefect of the Vatican Library",
+    "nl_NL": "Eerste Prefect van de Vaticaanse Bibliotheek"
   },
   "Primo presidente del supremo Consiglio d'ammiragliato e del Consiglio amministrativo della Marina": {
-    "en_GB": "First president of the supreme Council of the Admiralty and of the Administrative Council of the Marine",
-    "nl_NL": "Eerste president van de Hoge Raad van de Admiraliteit en van de Administratieve Raad van de Marine"
+    "en_GB": "First president of the Supreme Council of the Admiralty and of the Board of the Navy",
+    "nl_NL": "Eerste president van de Hoge Raad van de Admiraliteit en van de Raad van beheer van de Marine"
   },
   "Primo segretario della Legazione del Regno di Portogallo presso la Santa Sede": {
-    "en_GB": "Chargé d'affaires of the Kingdom of Portugal to the Holy See",
-    "nl_NL": "Zaakgelastigde van het Koninkrijk Portugal bij de Heilige Stoel"
+    "en_GB": "Chargé d'affaires of the Legation of the Kingdom of Portugal to the Holy See",
+    "nl_NL": "Zaakgelastigde van het Gezantschap van het Koninkrijk Portugal bij de Heilige Stoel"
   },
   "Primo segretario di stato di Guerra del Regno di Sardegna": {
     "en_GB": "First State Secretary of War of the Kingdom of Sardinia",
@@ -2381,20 +2365,20 @@
     "nl_NL": "Eerste staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Primo ufficiale del Ministero degli Affari Esteri del Regno delle Due Sicilie": {
-    "en_GB": "First official of the Ministry of Foreign Affairs of the Kingdom of the Two Sicilies",
-    "nl_NL": "Hoofdambtenaar van het ministerie van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
+    "en_GB": "Principal Officer at of Foreign Affairs of the Kingdom of the Two Sicilies",
+    "nl_NL": "Hoofdambtenaar aan het ministerie van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
   },
   "Primo ufficiale del Ministero degli Affari Esteri del Regno di Sardegna": {
-    "en_GB": "First official of the Ministry of Foreign Affairs of the Kingdom of Sardinia",
-    "nl_NL": "Hoofdambtenaar van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
+    "en_GB": "Principal Officer at the Ministry of Foreign Affairs of the Kingdom of Sardinia",
+    "nl_NL": "Hoofdambtenaar aan het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Primo ufficiale del Ministero della Guerra e della Marina del Regno d'Italia": {
-    "en_GB": "First official of the Ministry of War and the Marine of the Kingdom of Italy",
-    "nl_NL": "Hoofdambtenaar van het Ministerie van Oorlog en Marine van het Koninkrijk Italië"
+    "en_GB": "Principal Officer at the Ministry of War and the Navy of the Kingdom of Italy",
+    "nl_NL": "Hoofdambtenaar aan het Ministerie van Oorlog en Marine van het Koninkrijk Italië"
   },
   "Primo ufficiale del Ministero di Finanze del Regno di Sardegna": {
-    "en_GB": "First official of the Ministry of Finance of the Kingdom of Sardinia",
-    "nl_NL": "Hoofdambtenaar van het ministerie van Financiën van het Koninkrijk Sardinië"
+    "en_GB": "Principal Officer at the Ministry of Finance of the Kingdom of Sardinia",
+    "nl_NL": "Hoofdambtenaar aan het ministerie van Financiën van het Koninkrijk Sardinië"
   },
   "Pro-direttore generale del Debito Pubblico dello Stato Pontificio": {
     "en_GB": "Pro-director general of the Directorate of Public Debt of the Papal States",
@@ -2405,23 +2389,23 @@
     "nl_NL": "_Pro-governatore_ {pro-gouverneur} van Rome"
   },
   "Pro-governatore di Roma e Direttore Generale di Polizia di Roma": {
-    "en_GB": "_Pro-governatore_ {pro-governor} of Rome and Director-General of the Police of Rome",
-    "nl_NL": "_Pro-governatore_ {pro-gouverneur} van Rome en Directeur-Generaal van de Politie van Rome"
+    "en_GB": "_Pro-governatore_ {pro-governor} of Rome and Director-General of Police of Rome",
+    "nl_NL": "_Pro-governatore_ {pro-gouverneur} van Rome en Directeur-generaal van politie van Rome"
   },
   "Pro-ministro delle Finanze dello Stato Pontificio": {
-    "en_GB": "Pro-Minister of Finance of the Papel States",
+    "en_GB": "Pro-Minister of Finance of the Papal States",
     "nl_NL": "Pro-minister van Financiën van de Kerkelijke Staat"
   },
   "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio": {
-    "en_GB": "Pro-cardinal Secretary and president of the council of ministers of the Papel States",
+    "en_GB": "Pro-cardinal Secretary of State and President of the Council of ministers of the Papal States",
     "nl_NL": "Pro-kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat"
   },
   "Pro-tesoriere generale della Camera Apostolica": {
-    "en_GB": "Pro-thesaurarius-general of the Apostolic Chamber",
+    "en_GB": "Pro-treasurer-general of the Apostolic Chamber",
     "nl_NL": "Pro-thesaurier-generaal van de Apostolische Kamer"
   },
   "Pro-tesoriere generale della Santa Sede": {
-    "en_GB": "Pro-thesaurarius-general of the Holy See",
+    "en_GB": "Pro-treasurer-general of the Holy See",
     "nl_NL": "Pro-thesaurier-generaal van de Heilige Stoel"
   },
   "Procuratore": {
@@ -2429,12 +2413,12 @@
     "nl_NL": "Officier van justitie"
   },
   "Procuratore generale del Fisco e del tribunale della Rev. Camera Apostolica": {
-    "en_GB": "Auditor-General of the Tax Office and the Apostolic Chamber",
-    "nl_NL": "Auditeur-generaal van de belastingdienst en de Apostolische Kamer"
+    "en_GB": "Auditor-General of the Tax Office and of the Court of the Apostolic Chamber",
+    "nl_NL": "Auditor-generaal van de fiscus en van het tribunaal van de Apostolische Kamer"
   },
-  "Procuratore generale dell'Olanda Nord": {
-    "en_GB": "Auditor-General of North Holland",
-    "nl_NL": "Auditeur-generaal van Noord-Holland"
+  "Procuratore generale per la provincia di Olanda Settentrionale": {
+    "en_GB": "Auditor-General of the province of North Holland",
+    "nl_NL": "Auditor-generaal van de provincie Noord-Holland"
   },
   "Procuratore-sostituto di Amsterdam": {
     "en_GB": "Substitute Public prosecutor of Amsterdam",
@@ -2452,61 +2436,61 @@
     "en_GB": "Professor",
     "nl_NL": "Professor"
   },
-  "Professore Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum a l'Università di Amsterdam": {
+  "Professore Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum all'Università di Amsterdam": {
     "en_GB": "Professor Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum at the Univeristy of Amsterdam",
-    "nl_NL": "Professor Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum op de Universiteit van Amsterdam"
+    "nl_NL": "Professor Historiae, Eloquentiae, Poeseos, Antiquitatum, Litterarum Graecarum et Latinarum aan de Universiteit van Amsterdam"
   },
   "Professore della Letteratura Olandese all'Università di Leida": {
-    "en_GB": "Professor of Dutch language at the University of Leiden",
-    "nl_NL": "Hoogleraar Nederlandse Letter op de Universiteit van Leiden"
+    "en_GB": "Professor of Dutch Literature at the University of Leiden",
+    "nl_NL": "Hoogleraar Nederlandse Letterkunde aan de Universiteit van Leiden"
   },
-  "Professore della Storia, Lingua e Letteratura Nazionale di Paesi Bassi all'Università di Groninga": {
+  "Professore della Storia, Lingua e Letteratura Nazionale dei Paesi Bassi all'Università di Groninga": {
     "en_GB": "Professor of National History, Language and Literature of the Netherlands at the University of Groningen",
     "nl_NL": "Hoogleraar vaderlandse geschiedenis, taal en letterkunde van Nederland op de Universiteit van Groningen"
   },
   "Professore di Economia Politica e Diritto Internazionale all'Accademia di Losanna": {
     "en_GB": "Professor of Political Economy and International Law at the Academy of Lausanne",
-    "nl_NL": "Professor van Politieke Economie en Internationaal Recht aan de Academie van Lausanne"
+    "nl_NL": "Professor in de Politieke Economie en Internationaal Recht aan de Academie van Lausanne"
   },
   "Professore di Economia politica all'Università di Napoli": {
     "en_GB": "Professor of Political Economy at the University of Naples",
-    "nl_NL": "Professor van Politieke Economie aan de Universiteit van Napels"
+    "nl_NL": "Professor in de Politieke Economie aan de Universiteit van Napels"
   },
   "Professore di Filosofia": {
     "en_GB": "Professor of Philosophy",
-    "nl_NL": "Professor van filosofie"
+    "nl_NL": "Professor in de Filosofie"
   },
   "Professore di Fisica Sperimentale e di Fisica Matematica all'Università di Roma": {
     "en_GB": "Professor of Experimental Physics and of Mathematical Physics at the University of Rome",
-    "nl_NL": "Professor van Experimentele Natuurkunde en van Wiskunde Natuurkunde aan de Universiteit van Rome"
+    "nl_NL": "Professor in de Experimentele Natuurkunde en Mathematische Natuurkunde aan de Universiteit van Rome"
   },
   "Professore di Matematica all'Università di Messico": {
     "en_GB": "Professor of Mathematics at the University of Mexico",
-    "nl_NL": "Professor van Wiskunde aan de Universiteit van Mexico"
+    "nl_NL": "Professor in de Wiskunde aan de Universiteit van Mexico"
   },
   "Professore di Navigazione a Senigallia": {
     "en_GB": "Professor of Navigation in Senigallia",
-    "nl_NL": "Professor van Navigatie in Senigallia"
+    "nl_NL": "Professor in de Navigatie in Senigallia"
   },
   "Professore di Storia Naturale dei principi Umberto e Amedeo": {
-    "en_GB": "Professor of Natural History of the princes Umberto and Amedeo",
-    "nl_NL": "Professor van Natuurhistorie van de prinsen Umberto en Amedeo"
+    "en_GB": "Teacher of Natural History of the princes Umberto and Amedeo",
+    "nl_NL": "Leraar natuurlijke historie van de prinsen Umberto en Amedeo"
   },
-  "Professore di Teologia a l'Università di Basilea": {
+  "Professore di Teologia all'Università di Basilea": {
     "en_GB": "Professor of Theology at the University of Basel",
-    "nl_NL": "Professor van Theologie aan de Universiteit van Basel"
+    "nl_NL": "Professor in de Theologie aan de Universiteit van Basel"
   },
-  "Professore di Teologia a l'Università di Berna": {
+  "Professore di Teologia all'Università di Berna": {
     "en_GB": "Professor of Theology at the University of Bern",
-    "nl_NL": "Professor van Theologie aan de Universiteit van Bern"
+    "nl_NL": "Professor in de Theologie aan de Universiteit van Bern"
   },
-  "Professore di Teologia alla Vrije Universiteit di Amsterdam": {
-    "en_GB": "Professor of Theology at the Vrije Universiteit of Amsterdam",
-    "nl_NL": "Professor Theologie bij de Vrije Universiteit van Amsterdam"
+  "Professore di Teologia alla _Vrije Universiteit_ di Amsterdam": {
+    "en_GB": "Professor of Theology at the _Vrije Universiteit_ of Amsterdam",
+    "nl_NL": "Professor in de Theologie aan de Vrije Universiteit te Amsterdam"
   },
   "Professore di archeologia e lingue classiche al Real Collegio a Reggio Calabria": {
-    "en_GB": "Professor of archeology and classical languages at the Real Collegio in Reggio Calabria",
-    "nl_NL": "Professor van archeologie en klassieke talen bij het Real Collegio in Reggio Calabria"
+    "en_GB": "Teacher of Archeology and Classical languages at the Real Collegio in Reggio Calabria",
+    "nl_NL": "Leraar Archeologie en Klassieke talen bij het Real Collegio in Reggio Calabria"
   },
   "Prolegato apostolico": {
     "en_GB": "Apostolic prolegate",
@@ -2517,8 +2501,8 @@
     "nl_NL": "Apostolisch protonotaris"
   },
   "Questore di Roma": {
-    "en_GB": "_Questore_ of Rome",
-    "nl_NL": "_Questore_ van Rome"
+    "en_GB": "_Questore_ {Head of Police} of Rome",
+    "nl_NL": "_Questore_ {Hoofd van politie} van Rome"
   },
   "Rappresentante del Koninklijke Nederlandsche Stoombootmaatschappij": {
     "en_GB": "Agent of the Koninklijke Nederlandsche Stoombootmaatschappij",
@@ -2545,12 +2529,12 @@
     "nl_NL": "Koning van Zweden"
   },
   "Reggente della Legazione del Regno di Sardegna a Roma": {
-    "en_GB": "Head of the legation of the Kingdom of Sardinia in Rome",
-    "nl_NL": "Hoofd van het gezantschap van het Koninkrijk Sardinië te Rome"
+    "en_GB": "Acting Head of the Legation of the Kingdom of Sardinia in Rome",
+    "nl_NL": "Waarnemend Hoofd van het Gezantschap van het Koninkrijk Sardinië te Rome"
   },
   "Reggente della Legazione del Regno di Sardegna all'Aia": {
-    "en_GB": "Head of the legation of the Kingdom of Sardinia in The Hague",
-    "nl_NL": "Hoofd van het gezantschap van het Koninkrijk Sardinië te Den Haag"
+    "en_GB": "Acting Head of the Legation of the Kingdom of Sardinia in The Hague",
+    "nl_NL": "Waarnemend Hoofd van het Gezantschap van het Koninkrijk Sardinië te Den Haag"
   },
   "Regina di Sardegna": {
     "en_GB": "Queen of Sardinia",
@@ -2560,18 +2544,17 @@
     "en_GB": "Queen of Spain",
     "nl_NL": "Koningin van Spanje"
   },
-  "Retroguardia della prima infanteria di Bruxelles": {
+  "Retroguardia della prima fanteria di Bruxelles": {
     "en_GB": "flanker of the first infantry of Brussels",
-    "nl_NL": "flankeur der eerste infanterie van Brussel",
-    "position": "After"
+    "nl_NL": "flankeur der eerste infanterie van Brussel"
   },
-  "Rettore della Vrije Universiteit di Amsterdam": {
-    "en_GB": "Rector of the Vrije Universiteit of Amsterdam",
+  "Rettore della _Vrije Universiteit_ di Amsterdam": {
+    "en_GB": "Rector of the _Vrije Universiteit_ of Amsterdam",
     "nl_NL": "Rector van de Vrije Universiteit van Amsterdam"
   },
-  "Ricevitore del Registro, Atti Civili, Successione e Sigillo a Leeuwarden": {
-    "en_GB": "Recipient of Registration, Civil Acts, Succession and Seal in Leeuwarden",
-    "nl_NL": "Ontvanger van Registratie, Burgerlijke Aktes, Successie en Zegel te Leeuwarden"
+  "Ricevitore del Registro degli Atti Civili, Diritti di Successione e Sigillo ordinario e straordinario ecc. a Leeuwarden": {
+    "en_GB": "Recipient of Registration of Civil Acts, Succession, and ordinary and extraordinary Seal Rights etc. in Leeuwarden",
+    "nl_NL": "Ontvanger der Registratie van de Burgerlijke Akten en der Successie, gewone en buitengewone Zegelrechten enz. te Leeuwarden"
   },
   "Sacerdote": {
     "en_GB": "Priest",
@@ -2585,33 +2568,33 @@
     "en_GB": "Sculptor",
     "nl_NL": "Beeldhouwer"
   },
-  "Segretario del Koninklijke Akademie der Wetenschappen a Amsterdam": {
-    "en_GB": "Secretary of the Koninklijke Akademie der Wetenschappen in Amsterdam",
+  "Segretario del Accademia Reale delle Scienze ad Amsterdam": {
+    "en_GB": "Secretary of the Royal Academy of Sciences in Amsterdam",
     "nl_NL": "Secretaris van de Koninklijke Akademie der Wetenschappen in Amsterdam"
   },
+  "Segretario del Consolato del Regno dei Paesi Bassi a Nizza": {
+    "en_GB": "Secretary of the Consulate of the Kingdom of the Netherlands in Nice",
+    "nl_NL": "Secretaris van het Consulaat van het Koninkrijk der Nederlanden te Nice"
+  },
+  "Segretario del Magistrato di Sanità di Genova": {
+    "en_GB": "Secretary of the Magistracy of Public Health of Genoa",
+    "nl_NL": "Secretaris van de Magistratuur voor de Volksgezondheid van Genua"
+  },
   "Segretario del Ministero dell'Istruzione Pubblica, della Industria e delle Colonie del Regno dei Paesi Bassi": {
-    "en_GB": "Secretary of the Ministry of Public Education, National Indusry and Colonies of the Kingdom of the Netherlands",
+    "en_GB": "Secretary of the Ministry of Public Education, National Industry and Colonies of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris van het Ministerie van Publiek Onderwijs, Nationale Nijverheid en Koloniën van het Koninkrijk der Nederlanden"
   },
-  "Segretario del Real Somiglieria e primo uffiziale della Controloria della Real Casa del Regno delle Due Sicilie": {
-    "en_GB": "Secretary of the Real Somiglieria and first official of the Controloria of the Royal House of the Kingdom of the Two Sicilies",
-    "nl_NL": "Secretaris van het Real Somiglieria en hoofdambtenaar van de Controloria van het Koninklijk Huis van het Koninkrijk der Beide Siciliën"
+  "Segretario del Real Somiglieria e primo uffiziale della Controlleria della Real Casa del Regno delle Due Sicilie": {
+    "en_GB": "Secretary of the Royal Wine Cellars and Principal Officer of the _Controlleria_ {Control Services} of the Royal House of the Kingdom of the Two Sicilies",
+    "nl_NL": "Secretaris van de Koninklijke Wijnkelders en hoofdambtenaar van de _Controlleria_ {Controledienst} van het Koninklijk Huis van het Koninkrijk der Beide Siciliën"
   },
-  "Segretario del Vescovo de Grooff a Batavia": {
-    "en_GB": "Secretary of Bishop de Grooff at Batavia",
+  "Segretario del Vescovo De Grooff a Batavia": {
+    "en_GB": "Secretary of Bishop De Grooff in Batavia",
     "nl_NL": "Secretaris van Bisschop De Grooff te Batavia"
-  },
-  "Segretario del _Magistrato di Sanità_ di Genova": {
-    "en_GB": "Secretary of the _Magistrato di Sanità_ of Genoa",
-    "nl_NL": "Secretaris van het _Magistrato di Sanità_ van Genua"
   },
   "Segretario del consiglio di amministrazione dell'Accademia Reale delle Arti Visive": {
     "en_GB": "Secretary of the Board of Directors of the Royal Academy of Visual Arts",
     "nl_NL": "Secretaris van de Raad van Bestuur van de Koninklijke Akademie van Beeldende Kunsten"
-  },
-  "Segretario del consolato del Regno dei Paesi Bassi a Nizza": {
-    "en_GB": "Secretary of the consulate of the Kingdom of the Netherlands in Nice",
-    "nl_NL": "Secretaris van het consulaat van het Koninkrijk der Nederlanden te Nice"
   },
   "Segretario del ministero degli Affari Esteri del Regno dei Paesi Bassi": {
     "en_GB": "Secretary of the ministry of Foreign Affairs of the Kingdom of the Netherlands",
@@ -2621,11 +2604,11 @@
     "en_GB": "Secretary of the Accademia Pontificia de' Nuovi Lincei",
     "nl_NL": "Secretaris van de Accademia Pontificia de' Nuovi Lincei"
   },
-  "Segretario dell'Accademia reale delle arti e delle scienze dei Paesi Bassi \\(KNAW\\)": {
-    "en_GB": "Secretary of the Royal Netherlands Academy of Arts and Sciences (KNAW)",
-    "nl_NL": "Secretaris van de Koninklijke Nederlandse Akademie van Wetenschappen (KNAW)"
+  "Segretario dell'Accademia reale delle arti e delle scienze dei Paesi Bassi {KNAW}": {
+    "en_GB": "Secretary of the Royal Netherlands Academy of Arts and Sciences {KNAW}",
+    "nl_NL": "Secretaris van de Koninklijke Nederlandse Akademie van Wetenschappen {KNAW}"
   },
-  "Segretario dell'Associazione dei Insegnanti Olandesi": {
+  "Segretario dell'Associazione degli Insegnanti Olandesi": {
     "en_GB": "Secretary of the Association of Dutch Teachers",
     "nl_NL": "Secretaris van het Nederlandsch Onderwijzers Genootschap"
   },
@@ -2633,9 +2616,9 @@
     "en_GB": "Secretary of the General Committee on the affairs of the Israelites of the Kingdom of the Netherlands",
     "nl_NL": "Secretaris van de Hoofdcommissie tot de zaken der Israëlieten van het Koninkrijk der Nederlanden"
   },
-  "Segretario della Congregazione dei Virtuosi": {
-    "en_GB": "Secretary of the Congregation of the Virtuosi",
-    "nl_NL": "Secretaris van de Congregatie van de Virtuosi"
+  "Segretario della Congregazione dei Virtuosi al Pantheon": {
+    "en_GB": "Secretary of the Congregation of the Virtuosi al Pantheon",
+    "nl_NL": "Secretaris van de Congregatie van de Virtuosi al Pantheon"
   },
   "Segretario della Congregazione per gli affari ecclesiastici straordinari": {
     "en_GB": "Secretary of the Congregation for Extraordinary Ecclesiastical Affairs",
@@ -2646,8 +2629,8 @@
     "nl_NL": "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk"
   },
   "Segretario della Legazione del Regno dei Paesi Bassi a Lisbona e Berlino": {
-    "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Lissabon and Paris",
-    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden in Lissabon and Parijs"
+    "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Lisbon and Paris",
+    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden te Lissabon en Parijs"
   },
   "Segretario della Legazione del Regno dei Paesi Bassi a Parigi": {
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Paris",
@@ -2669,21 +2652,25 @@
     "en_GB": "Secretary of the Legation of the Kingdom of Hanover in Rome",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk Hannover in Rome"
   },
+  "Segretario della Legazione del Regno di Prussia a Roma": {
+    "en_GB": "Secretary of the Legation of the Kingdom of Prussia in Rome",
+    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk Pruisen in Rome"
+  },
   "Segretario della cancelliere della Legazione dell'Impero Austro-Ungarico a Roma": {
     "en_GB": "Secretary of the chancellor with the Legation of the Austrian-Hungarian Empire in Rome",
     "nl_NL": "Secretaris van de kanselier bij het Gezantschap van het Keizerrijk Oostenrijk-Hongarije in Rome"
   },
-  "Segretario delle classe di scienze fisiche e matematiche dell'Accademia delle Scienze di Torino": {
-    "en_GB": "Secretary of the classes of physics and mathematics at the Accademia delle Scienze di Torino",
-    "nl_NL": "Secretaris van de klassen van scheikunde en wiskunde bij de Accademia delle Scienze di Torino"
+  "Segretario della classe di scienze fisiche e matematiche dell'Accademia delle Scienze di Torino": {
+    "en_GB": "Secretary of the class of physics and mathematics at the Accademia delle Scienze di Torino",
+    "nl_NL": "Secretaris van de klasse voor natuur- en wiskunde bij de Accademia delle Scienze di Torino"
   },
   "Segretario di Camillo Benso conte di Cavour a Londra e a Parigi": {
     "en_GB": "Secretary to Camillo Benso count of Cavour in London and Paris",
     "nl_NL": "Secretaris van Camillo Benso graaf van Cavour in Londen en Parijs"
   },
   "Segretario di Stato ad interim e presidente del Consiglio dei Ministri dello Stato Pontificio": {
-    "en_GB": "Interim Cardinal Secretary of State and President of the Council of Ministers of the Papel States",
-    "nl_NL": "Ad interim kardinaal-staatssecretaris en voorzitter van de ministerraad van de Kerkelijke Staat"
+    "en_GB": "Interim Cardinal Secretary of State and President of the Council of Ministers of the Papal States",
+    "nl_NL": "Kardinaal-staatssecretaris ad interim en voorzitter van de ministerraad van de Kerkelijke Staat"
   },
   "Segretario di Stato degli Affari Esteri del Regno di Sardegna": {
     "en_GB": "State Secretary for Foreign Affairs of the Kingdom of Sardinia",
@@ -2691,27 +2678,27 @@
   },
   "Segretario di Stato degli Affari Esteri della Repubblica di San Marino": {
     "en_GB": "State Secretary for Foreign Affairs of the Republic of San Marino",
-    "nl_NL": "Staatssecretaris van Buitenlandse Zaken van de Republike van San Marino"
+    "nl_NL": "Staatssecretaris van Buitenlandse Zaken van de Republiek San Marino"
   },
   "Segretario di Stato del Regno dei Paesi Bassi": {
     "en_GB": "State Secretary of the Kingdom of the Netherlands",
     "nl_NL": "Staatssecretaris van het Koninkrijk der Nederlanden"
   },
   "Segretario di Stato di 2° classe del Ministero degli Affari Esteri del Regno di Sardegna": {
-    "en_GB": "Secretary of State 2nd class of the Ministry of Foreign Affairs of the Kingdom of Sardinia",
-    "nl_NL": "Staatssecretaris van de 2e klasse van het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
+    "en_GB": "State Secretary 2nd class at of Foreign Affairs of the Kingdom of Sardinia",
+    "nl_NL": "Staatssecretaris 2e klasse aan het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Segretario di stato per gli Affari di Polizia del Regno di Sardegna": {
-    "en_GB": "Secretary of State for Police Affairs of the Kingdom of Sardinia",
+    "en_GB": "State Secretary for Police Affairs of the Kingdom of Sardinia",
     "nl_NL": "Staatssecretaris van Politiezaken van het Koninkrijk Sardinië"
   },
-  "Segretario e amante della principessa Marianne di Oranje-Nassau": {
-    "en_GB": "Secretary and lover of Princess Marianne of Oranje-Nassau",
+  "Segretario e amante della principessa Marianne di Orange-Nassau": {
+    "en_GB": "Secretary and lover of Princess Marianne of Orange-Nassau",
     "nl_NL": "Secretaris en minnaar van prinses Marianne van Oranje-Nassau"
   },
   "Segretario ed economista della Fabbrica di S. Pietro": {
-    "en_GB": "Secretary and economist of the _Fabbrica di S. Pietro_ {Fabric of Saint Peter}",
-    "nl_NL": "Secretaris en econoom van de _Fabbrica di S. Pietro_ {Kerkfabriek van Sint-Pieter}"
+    "en_GB": "Secretary and administrator of the _Fabbrica di S. Pietro_ {Fabric of Saint Peter}",
+    "nl_NL": "Secretaris en administrateur van de _Fabbrica di S. Pietro_ {Kerkfabriek van Sint-Pieter}"
   },
   "Segretario generale del Ministero degli Affari Esteri Secolari dello Stato Pontificio": {
     "en_GB": "Secretary general of the Ministry of External Secular Affairs of the Papal State",
@@ -2723,11 +2710,11 @@
   },
   "Segretario generale del Ministero dell'Interno del Regno d'Italia": {
     "en_GB": "Secretary general of the Ministry of the Interior of the Kingdom of Italy",
-    "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van van het Koninkrijk Italië"
+    "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van het Koninkrijk Italië"
   },
   "Segretario generale del Ministero dell'Interno del Regno dei Paesi Bassi": {
     "en_GB": "Secretary general of the Ministry of the Interior of the Kingdom of the Netherlands",
-    "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van van het Koninkrijk der Nederlanden"
+    "nl_NL": "Secretaris-generaal van het Ministerie van Binnenlandse Zaken van het Koninkrijk der Nederlanden"
   },
   "Segretario generale del Ministero dell'Interno del Stato Pontificio": {
     "en_GB": "Secretary general of the Ministry of the Interior of the Papal State",
@@ -2751,7 +2738,7 @@
   },
   "Segretario generale del Ministero di Grazia e Giustizia e Culti del Regno d'Italia": {
     "en_GB": "Secretary general of the Ministry of Grace and Justice and Worship of the Kingdom of Italy",
-    "nl_NL": "Secretaris-generaal van het Ministerie van Gratie en Justitie en Religie van van het Koninkrijk Italië"
+    "nl_NL": "Secretaris-generaal van het Ministerie van Gratie en Justitie en Religie van het Koninkrijk Italië"
   },
   "Segretario generale del Ministro delle Colonie del Regno dei Paesi Bassi": {
     "en_GB": "Secretary general of the Ministry of the Colonies of the Kingdom of the Netherlands",
@@ -2766,24 +2753,24 @@
     "nl_NL": "Secretaris-generaal van het ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
   },
   "Segretario generale dell'intendenza di Messina": {
-    "en_GB": "Secretary general of the administrative office of Messina",
-    "nl_NL": "Secretaris-generaal van het administratief kantoor van Messina"
+    "en_GB": "Secretary general of the intendancy of Messina",
+    "nl_NL": "Secretaris-generaal van de intendance van Messina"
   },
   "Segretario generale della Sacra Congregazione di Propaganda Fide": {
-    "en_GB": "Secretary general of the Sacred Congregation of _Propaganda Fide_",
-    "nl_NL": "Secretaris-generaal van de Heilige Congregatie van _Propaganda Fide_"
+    "en_GB": "Secretary general of the Sacred Congregation for the Propagation of the Faith",
+    "nl_NL": "Secretaris-generaal van de Heilige Congregatie voor de Voortplanting van het Geloof"
   },
-  "Segretario particolare del Re di Paesi Bassi Guglielmo III": {
+  "Segretario particolare del Re dei Paesi Bassi Guglielmo III": {
     "en_GB": "Private secretary of the King of the Netherlands William III",
-    "nl_NL": "Particulier secretaris van de Koning der Nederlanden Willem III"
+    "nl_NL": "Particulier secretaris van Koning der Nederlanden Willem III"
   },
   "Segretario reggente degli Affari Esteri del Regno di Sardegna": {
-    "en_GB": "Regent secretary for Foreign Affairs of the Kingdom of Sardinia",
-    "nl_NL": "Regent-secretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
+    "en_GB": "Acting secretary for Foreign Affairs of the Kingdom of Sardinia",
+    "nl_NL": "Waarnemend secretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Segretario reggente di Stato degli Affari Esteri del Regno di Sardegna": {
-    "en_GB": "Regent State Secretary for Foreign Affairs of the Kingdom of Sardinia",
-    "nl_NL": "Regent-staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
+    "en_GB": "Acting State Secretary for Foreign Affairs of the Kingdom of Sardinia",
+    "nl_NL": "Waarnemend staatssecretaris van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
   "Senatore del Regno d'Italia": {
     "en_GB": "Senator of the Kingdom of Italy",
@@ -2794,12 +2781,12 @@
     "nl_NL": "Senator van het Koninkrijk Sardinië"
   },
   "Sensale marittimo e fornitore navale ad Ancona": {
-    "en_GB": "Ship broker and chandler at Ancona",
-    "nl_NL": "Scheepshandelaar en scheepsleverancier bij Ancona"
+    "en_GB": "Ship broker and ship chandler in Ancona",
+    "nl_NL": "Scheepshandelaar en scheepsleverancier te Ancona"
   },
   "Sindaco del Magistrato di Sanità di Genova": {
-    "en_GB": "Auditor of the _Magistrato di Sanità_ of Genoa",
-    "nl_NL": "Auditor van het _Magistrato di Sanità_ van Genua"
+    "en_GB": "Auditor of the Magistracy of Public Health of Genoa",
+    "nl_NL": "Auditor van de Magistratuur voor de Volksgezondheid in Genua"
   },
   "Sindaco di Albertville": {
     "en_GB": "Mayor of Albertville",
@@ -2833,16 +2820,20 @@
     "en_GB": "Mayor of Zierikzee",
     "nl_NL": "Burgemeester van Zierikzee"
   },
-  "Soprassindico di Firenze": {
-    "en_GB": "Magistrate auditor of Firenze",
-    "nl_NL": "Magistraat-auditeur van Florence"
+  "Socio della Banca Meuricoffre di Napoli": {
+    "en_GB": "Associate of the Banca Meuricoffre from Naples",
+    "nl_NL": "Partner bij de Banca Meuricoffre uit Napels"
   },
-  "Sostituto ad interim della seconda sezione della Segreteria di Stato": {
-    "en_GB": "Interim substitute for Relations with States of the Secretariat of State of the Holy See",
-    "nl_NL": "Ad interim substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel"
+  "Soprassindico di Firenze": {
+    "en_GB": "Magistrate auditor of Florence",
+    "nl_NL": "Magistraat-auditor van Florence"
+  },
+  "Sostituto ad interim della sezione dei Rapporti con gli Stati della Segreteria di Stato della Santa Sede": {
+    "en_GB": "Interim deputy for Relations with States of the Secretariat of State of the Holy See",
+    "nl_NL": "Substituant ad interim voor de Relaties met Staten van de Staatssecretarie van de Heilige Stoel"
   },
   "Sostituto del ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
-    "en_GB": "Substitute minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papal States",
+    "en_GB": "Acting minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papal States",
     "nl_NL": "Plaatsvervangend minister van Handel, Landbouw, Industrie, Schone Kunsten en Openbare Werken van de Kerkelijke Staat"
   },
   "Sostituto della Segreteria di Stato della Santa Sede": {
@@ -2850,14 +2841,14 @@
     "nl_NL": "Plaatsvervangend kardinaal-staatssecretaris"
   },
   "Sostituto della prima sezione della Segreteria di Stato": {
-    "en_GB": "Substitute for General Affairs of the Secretariat of State of the Holy See",
-    "nl_NL": "Substituut voor Algemene Aangelegenheden van het Staatssecretariaat van de Heilige Stoel"
+    "en_GB": "Deputy for General Affairs of the Secretariat of State of the Holy See",
+    "nl_NL": "Substituant voor Algemene Aangelegenheden van de Staatssecretarie van de Heilige Stoel"
   },
   "Sostituto della seconda sezione della Segreteria di Stato": {
-    "en_GB": "Substitute for Relations with States of the Secretariat of State of the Holy See",
-    "nl_NL": "Substituut voor de Relaties met Staten van het Staatssecretariaat van de Heilige Stoel"
+    "en_GB": "Deputy for Relations with States of the Secretariat of State of the Holy See",
+    "nl_NL": "Substituant voor de Relaties met Staten van de Staatssecretarie van de Heilige Stoel"
   },
-  "Spedizioniero": {
+  "Spedizioniere": {
     "en_GB": "Freight forwarder",
     "nl_NL": "Expediteur"
   },
@@ -2869,57 +2860,61 @@
     "en_GB": "Lieutenant colonel",
     "nl_NL": "Luitenant-kolonel"
   },
+  "Tenente colonnello della Cavalleria nella provincia di Padova del Regno d'Italia": {
+    "en_GB": "Lieutenant colonel of the Cavalry in the province of Padua of the Kingdom of Italy",
+    "nl_NL": "Luitenant-kolonel van de Cavaleri in de provincie van Padua van het Koninkrijk Italië"
+  },
   "Tenente colonnello della Gendarmeria pontificia": {
     "en_GB": "Lieutenant colonel of the Papal Corps of Gendarmes",
-    "nl_NL": "Luitenant-kolonel van de Pauselijke Gendarmerie"
+    "nl_NL": "Luitenant-kolonel van de pauselijke Gendarmerie"
   },
   "Tenente colonnello nell'esercito pontificio": {
     "en_GB": "Lieutenant Colonel in the Papal army",
-    "nl_NL": "Luitenant-Kolonel in het Pauselijke leger"
+    "nl_NL": "Luitenant-kolonel in het pauselijke leger"
   },
   "Tenente colonnello nell'esercito reale delle Due Sicilie": {
     "en_GB": "Lieutenant colonel in the royal army of the Two Sicilies",
     "nl_NL": "Luitenant-kolonel in het koninklijke leger van de Twee Siciliën"
   },
   "Tenente del feldmaresciallo": {
-    "en_GB": "Field marshal lieutenant",
-    "nl_NL": "Veldmaarschalk luitenant"
+    "en_GB": "Lieutenent field marshal",
+    "nl_NL": "Veldmaarschalk-luitenant"
   },
   "Tenente maresciallo dell'esercito austriaco": {
     "en_GB": "Lieutenant field marshal in the Austrian army",
-    "nl_NL": "Luitenant veldmaarschalk in het Oostenrijkse leger"
+    "nl_NL": "Veldmaarschalk-luitenant in het Oostenrijkse leger"
   },
   "Tenente nell'esercito del Granducato di Baden": {
     "en_GB": "Lieutenant in the army of the Grand Duchy of Baden",
     "nl_NL": "Luitenant in het leger van het Groothertogdom Baden"
   },
-  "Tesoriere della Santa Sede": {
-    "en_GB": "Thesaurarius of the Apostolic Chamber",
+  "Tesoriere della Camera Apostolica": {
+    "en_GB": "Treasurer of the Apostolic Chamber",
     "nl_NL": "Thesaurier van de Apostolische Kamer"
   },
-  "Tesoriere generale della Santa Sede": {
-    "en_GB": "Thesaurarius general of the Apostolic Chamber",
+  "Tesoriere generale della Camera Apostolica": {
+    "en_GB": "Treasurer general of the Apostolic Chamber",
     "nl_NL": "Thesaurier-generaal van de Apostolische Kamer"
   },
   "Uditore del Papa": {
     "en_GB": "Auditor of the Pope",
-    "nl_NL": "Auditeur van de Paus"
+    "nl_NL": "Auditor van de Paus"
   },
   "Uditore del Supremo Tribunale della Segnatura Apostolica": {
     "en_GB": "Auditor of the Supreme Tribunal of the Apostolic Signatura",
-    "nl_NL": "Auditeur van de Hoogste Rechtbank van de Apostolische Signatuur"
+    "nl_NL": "Auditor van de Hoogste Rechtbank van de Apostolische Signatuur"
   },
   "Ufficiale d'ordinanza di Napoleon III Bonaparte": {
     "en_GB": "Ordinance officer of Napoleon III Bonaparte",
-    "nl_NL": "Ordonnans van Napoleon III Bonaparte"
+    "nl_NL": "Ordonnansofficier van Napoleon III Bonaparte"
   },
   "Ufficiale della Marina": {
-    "en_GB": "Officer of the Navy",
-    "nl_NL": "Officier van de marine"
+    "en_GB": "Naval Officer",
+    "nl_NL": "Marineofficier"
   },
   "Ufficiale della Salute": {
-    "en_GB": "Officer of Health",
-    "nl_NL": "Officier van Gezondheid"
+    "en_GB": "Medical Officer",
+    "nl_NL": "Officier van gezondheid"
   },
   "Vescovo d'Aiaccio": {
     "en_GB": "Bishop of Ajaccio",
@@ -2941,135 +2936,147 @@
     "en_GB": "Vicar apostolic in Batavia",
     "nl_NL": "Apostolisch vicaris te Batavia"
   },
+  "Vicario Apostolico a Napo": {
+    "en_GB": "Vicar apostolic in Napo",
+    "nl_NL": "Apostolisch vicaris te Napo"
+  },
   "Vicario Apostolico a Tamaulipas": {
     "en_GB": "Vicar apostolic in Tamaulipas",
     "nl_NL": "Apostolisch vicaris te Tamaulipas"
+  },
+  "Vicario Apostolico nel Granducato di Lussemburgo": {
+    "en_GB": "Vicar apostolic in the Grand Duchy of Luxembourg",
+    "nl_NL": "Apostolisch vicaris in het Groothertogdom Luxemburg"
   },
   "Vicario Generale dei Frati Predicatori": {
     "en_GB": "Vicar General of the Order of Preachers",
     "nl_NL": "Vicaris-generaal van de dominicanen of Orde der Predikheren"
   },
-  "Vicario apostolico nel Granducato del Lussemburgo": {
-    "en_GB": "Vicar apostolic in the Grand Duchy of Luxembourg",
-    "nl_NL": "Apostolisch vicaris in het Groothertogdom Luxemburg"
+  "Vicario Generale dei Frati Predicatori {domenicani}": {
+    "en_GB": "Vicar General of the Order of Preachers {Dominicans}",
+    "nl_NL": "Vicaris-generaal van de dominicanen of Orde der Predikheren {domenicanen}"
   },
   "Vicario della Chiesa di Sant'Agostino a Nimega": {
     "en_GB": "Vicar of the Church of Saint Augustin in Nijmegen",
     "nl_NL": "Vicaris van de Sint-Augustinuskerk te Nijmegen"
   },
-  "Vicario generale di Sua Santità per la città di Roma e distretto": {
-    "en_GB": "Cardinal vicar of His Holiness for the city of Rome and the district",
-    "nl_NL": "Kardinaal-vicaris van Zijne Heiligheid voor de stad Rome and het district"
+  "Vicario generale di Sua Santità per la città e il distretto di Roma": {
+    "en_GB": "Cardinal vicar of His Holiness for the city and the district of Rome",
+    "nl_NL": "Kardinaal-vicaris van Zijne Heiligheid voor de stad en het district Rome"
   },
   "Vice camerlengo della Chiesa Cattolica Romana": {
-    "en_GB": "Vice-camerlengo of the Holy Roman Church",
+    "en_GB": "Vice Camerlengo of the Roman Catholic Church",
     "nl_NL": "Vice-camerlengo van de Rooms-Katholieke Kerk"
   },
   "Vice console del Regno dei Paesi Bassi a Malta": {
     "en_GB": "Vice consul of the Kingdom of the Netherlands in Malta",
-    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Malta"
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden op Malta"
   },
   "Vice console del Regno dei Paesi Bassi a Venezia": {
-    "en_GB": "Vice consul of the Kingdom of the Netherlands in Venetië",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Venice",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Venetië"
   },
   "Vice console generale del Regno dei Paesi Bassi a Venezia": {
-    "en_GB": "Vice consul of the Kingdom of the Netherlands in Venice",
-    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Venezië"
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Venice",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Venetië"
   },
   "Vice-Prefetto apostolico a Batavia": {
-    "en_GB": "Apostolic vice-prefect in Batavia",
+    "en_GB": "Apostolic Vice Prefect in Batavia",
     "nl_NL": "Apostolisch vice-prefect te Batavia"
   },
   "Vice-Presidente del Senato del Regno d'Italia": {
-    "en_GB": "Vice-president of the Senate of the Kingdom of Italy",
+    "en_GB": "Vice President of the Senate of the Kingdom of Italy",
     "nl_NL": "Vice-president van de Senaat van het Koninkrijk Italië"
   },
   "Vice-Presidente del consiglio di amministrazione dell'Accademia Reale delle Arti Visive": {
-    "en_GB": "Vice-president of the Board of Directors of the Royal Academy of Visual Arts",
+    "en_GB": "Vice President of the Board of Directors of the Royal Academy of Visual Arts",
     "nl_NL": "Vice-president van de Raad van Bestuur van de Koninklijke Akademie van Beeldende Kunsten"
   },
   "Vice-console del Regno d'Italia a Parigi": {
-    "en_GB": "Vice-consul of the Kingdom of Italy in Paris",
+    "en_GB": "Vice Consul of the Kingdom of Italy in Paris",
     "nl_NL": "Vice-consul van het Koninkrijk Italië te Parijs"
   },
   "Vice-console del Regno dei Paesi Bassi a Brindisi": {
-    "en_GB": "vice-consul of the Kingdom of the Netherlands in Brindisi",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Brindisi",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Brindisi"
   },
   "Vice-console del Regno dei Paesi Bassi a Cagliari": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Cagliari",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Cagliari",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Cagliari"
   },
+  "Vice-console del Regno dei Paesi Bassi a Catania": {
+    "en_GB": "Vice consul of the Kingdom of the Netherlands in Catania",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Catania"
+  },
   "Vice-console del Regno dei Paesi Bassi a La Spezia": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in La Spezia",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in La Spezia",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te La Spezia"
   },
   "Vice-console del Regno dei Paesi Bassi a Lisbona": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Lisbon",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Lisbon",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Lissabon"
   },
   "Vice-console del Regno dei Paesi Bassi a Livorno": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Livorno",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Livorno",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Livorno"
   },
   "Vice-console del Regno dei Paesi Bassi a Malta": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Malta",
-    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Malta"
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Malta",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden op Malta"
   },
   "Vice-console del Regno dei Paesi Bassi a Marsiglia": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Marseille",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Marseille",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Marseille"
   },
   "Vice-console del Regno dei Paesi Bassi a Molfetta": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Molfetta",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Molfetta",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Molfetta"
   },
   "Vice-console del Regno dei Paesi Bassi a Napoli": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Napels",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Naples",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Napels"
   },
   "Vice-console del Regno dei Paesi Bassi a Nizza": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Nice",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Nice",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Nice"
   },
   "Vice-console del Regno dei Paesi Bassi a Savona": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Savona",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Savona",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Savona"
   },
   "Vice-console del Regno dei Paesi Bassi a Taranto": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Taranto",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Taranto",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Taranto"
   },
-  "Vice-console del Regno dei Paesi Bassi a Termini": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Termini",
-    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Termini"
+  "Vice-console del Regno dei Paesi Bassi a Termini {Imerese}": {
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Termini {Imerese}",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Termini {Imerese}"
   },
-  "Vice-console del Regno dei Paesi Bassi a Terranova": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Terranova",
-    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Terranova"
+  "Vice-console del Regno dei Paesi Bassi a Terranova di Sicilia {Caltanissetta}": {
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Terranova di Sicilia {Caltanissetta}",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Terranova di Sicilia {Caltanissetta}"
   },
   "Vice-console del Regno dei Paesi Bassi ad Alghero": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Alghero",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Alghero",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Alghero"
   },
   "Vice-console del Regno dei Paesi Bassi ad Oneglia": {
-    "en_GB": "Vice-consul of the Kingdom of the Netherlands in Oneglia",
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Oneglia",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Oneglia"
   },
   "Vice-corporale al 1° reggimento estero dell'esercito pontificio": {
-    "en_GB": "Vice corporal of the 1st foreign regiment of the Papal army",
-    "nl_NL": "Vice-corporal van het 1e buitenlandse regiment van het Pauselijke leger"
+    "en_GB": "Vice Corporal of the 1st foreign regiment of the Papal army",
+    "nl_NL": "Vice-korporaal van het 1e buitenlandse regiment van het Pauselijke leger"
   },
   "Vice-direttore generale delle dogane pontificie": {
-    "en_GB": "Vice-director general of the Customs of the Papal States",
+    "en_GB": "Vice Director general of the Customs of the Papal States",
     "nl_NL": "Vice-directeur-generaal van de Douane van de Kerkelijke Staat"
   },
   "Vice-presidente del Magistrato di Sanità di Genova": {
-    "en_GB": "Vice-president of the _Magistrato di Sanità_ of Genoa",
-    "nl_NL": "Vice-president van het _Magistrato di Sanità_ van Genua"
+    "en_GB": "Vice President of the Magistracy of Public Health of Genoa",
+    "nl_NL": "Vice-president van de Magistratuur voor de Volksgezondheid van Genua"
   },
-  "Viceré della Lombardia e Venezia": {
+  "Viceré della Lombardia e di Venezia": {
     "en_GB": "Viceroy of Lombardy and Venice",
     "nl_NL": "Onderkoning van Lombardije en Venetië"
   },
