@@ -19,11 +19,13 @@ def fix_daoset(root: etree._Element) -> None:
             parent.remove(daoset)
 
 
-def add_dao(daoset: etree._Element, file_data: FileData) -> None:
+def add_dao(
+    daoset: etree._Element, file_data: FileData, individual_verso: bool = False
+) -> None:
     """Adds a dao element to a daoset"""
 
     # If only a verso we only add the verso dao-element
-    if re.match(r".+v", file_data.file_name):
+    if individual_verso:
         etree.SubElement(
             daoset,
             "dao",

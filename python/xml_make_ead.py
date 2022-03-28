@@ -155,6 +155,8 @@ class EADMaker(XMLWriter):
 
         for file in sheet.iter_rows():
             similar = False
+            individual_verso = False
+
             # Skip empty lines or series title lines
             if file[0].value is None or file[0].value.endswith("_title"):
                 continue
@@ -185,12 +187,13 @@ class EADMaker(XMLWriter):
 
                 # If the previous file ends in u, the v is not 'verso', but
                 # continuation of long document.
-                if prev_file_did.find("unitid").text.endswith("u"):
-                    continue
+                if not prev_file_did.find("unitid").text.endswith("u"):
+                    individual_verso = True
 
-                for dao in prev_file_did.find("daoset"):
-                    if dao.attrib["id"] == f"{file_data.file_name}.tif":
-                        dao.getparent().remove(dao)
+                if individual_verso:
+                    for dao in prev_file_did.find("daoset"):
+                        if dao.attrib["id"] == f"{file_data.file_name}.tif":
+                            dao.getparent().remove(dao)
 
             if not similar:
                 prev_file_did = self.file_entry(sub_series[file_data.series], file_data)
@@ -224,7 +227,7 @@ class EADMaker(XMLWriter):
                     daoset, etree._Element  # pylint: disable=protected-access
                 ):
                     raise ValueError(f"Can't find daoset in {prev_file_did}")
-                add_dao(daoset, file_data)
+                add_dao(daoset, file_data, individual_verso)
 
             prev_file = file
             prev_series = file_data.series
