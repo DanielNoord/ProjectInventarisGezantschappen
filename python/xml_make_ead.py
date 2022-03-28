@@ -176,14 +176,18 @@ class EADMaker(XMLWriter):
                 similar = compare_rows(file, prev_file)
 
             # If current file is a verso description, remove verso from previous daoset
-            # TODO: Fix! This is too broad.
             if re.match(r".+v", file_data.file_name):
-                print("FINDME:", file_data.file_name)
                 if prev_file_did is None:
                     raise ValueError(
                         # pylint: disable-next=line-too-long
                         f"{file_data.file_name} is a verso appearing before the description of {file_data.file_name[:-1]}"
                     )
+
+                # If the previous file ends in u, the v is not 'verso', but
+                # continuation of long document.
+                if prev_file_did.find("unitid").text.endswith("u"):
+                    continue
+
                 for dao in prev_file_did.find("daoset"):
                     if dao.attrib["id"] == f"{file_data.file_name}.tif":
                         dao.getparent().remove(dao)
