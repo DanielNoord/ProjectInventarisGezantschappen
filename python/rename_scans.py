@@ -1,6 +1,7 @@
 import os
 import re
 from pathlib import Path
+from typing import Callable
 
 from openpyxl import load_workbook
 
@@ -9,41 +10,62 @@ from openpyxl import load_workbook
 class FileRenamer:
     """Renames files based on arguments."""
 
-    def __init__(self, folder: str, old: str, new: str) -> None:
-        self.filename_pattern = r"(\d+)(.*)([rv].tif)"
+    def __init__(self, folder: str, scan_dir: str, test: bool) -> None:
+        self.filename_pattern = r"(\d+)([rv].tif)"
         """Pattern of the file names to match against."""
 
-        self.folder = folder + old.split("_")[0]
+        self.folder = folder + scan_dir
         """Folder to scan."""
 
-        self.old = old
-        """Old filename pattern."""
-
-        self.new = new
-        """New filename pattern."""
+        self.volume = scan_dir
 
         self.renamed = 0
         """Amount of renamed files."""
 
-    def rename_files(self) -> None:
+        self.test_run = test
+        """Whether this is a dry run without renaming any files."""
+
+    def rename_files(
+        self, rename_dict: dict[Callable[[int], bool], str], sub_dir: str
+    ) -> None:
         """Rename files in a folder based on attributes."""
         for file in os.listdir(self.folder):
+            if file.endswith("00"):
+                continue
+
             sanitized_file = (
                 file.replace("rbis", "bisr")
                 .replace("vbis", "bisv")
                 .replace("_r.tif", "r.tif")
                 .replace("_v.tif", "v.tif")
             )
-            if match := re.match(self.old + self.filename_pattern, sanitized_file):
-                groups = match.groups()
-                if int(groups[0]) > 0:
-                    os.rename(
-                        f"{self.folder}/{file}",
-                        f"{self.folder}/{self.new}{int(groups[0])}{groups[1]}{groups[2]}",
-                    )
-                    self.renamed += 1
-        print("Rename complete!")
-        print(f"Renamed {self.renamed} files.")
+            if match := re.match(
+                self.volume + "_" + sub_dir + self.filename_pattern, sanitized_file
+            ):
+                file_num = int(match.groups()[0])
+                for value_test, dossier in rename_dict.items():
+                    if value_test(file_num):
+                        oldname = f"{self.folder}/{file}"
+                        newfile = file.replace(sub_dir, "").replace(
+                            self.volume, f"{self.volume}{dossier}"
+                        )
+                        newname = f"{self.folder}/{newfile}"
+
+                        if self.test_run:
+                            print("Would rename:")
+                            print(oldname)
+                            print(newname)
+                        else:
+                            os.rename(oldname, newname)
+                            print(f"Renamed: {oldname} -> {newname}")
+                        self.renamed += 1
+
+                        break
+
+        if self.test_run:
+            print(f"Would rename {self.renamed} files.")
+        else:
+            print(f"Renamed {self.renamed} files.")
 
 
 # pylint: disable-next=too-few-public-methods
@@ -156,11 +178,28 @@ class FileRenamerExcel:
 
 if __name__ == "__main__":
     renamer = FileRenamer(
-        "/Users/daniel/DocumentenLaptop/MEGA/",
-        "MS278_",
-        "MS278_3_",
+        "/Volumes/Seagate Basic Media/VolumesLegazione/",
+        "MS296",
+        test=True,
     )
-    renamer.rename_files()
+    renamer.rename_files(
+        {
+            lambda x: 0 <= x <= 700: "_20_1",
+            # lambda x: 62 <= x <= 63: "_23_2",
+            # lambda x: 64 <= x <= 78: "_23_3",
+            # lambda x: 79 <= x <= 86: "_23_4",
+            # lambda x: 87 <= x <= 88: "_23_5",
+            # lambda x: 89 <= x <= 136: "_23_6",
+            # lambda x: 137 <= x <= 194: "_23_7",
+            # lambda x: 195 <= x <= 232: "_23_8",
+            # lambda x: 123 <= x <= 130: "_27_8",
+            # lambda x: 131 <= x <= 137: "_27_9",
+            # lambda x: 138 <= x <= 143: "_27_10",
+            # lambda x: 138 <= x <= 381: "_27_21",
+            # lambda x: 232 <= x <= 279: "_33_4",
+        },
+        "20_",
+    )
 
     # Uncomment to run excel file renamer in test mode.
     # renamer = FileRenamerExcel(
