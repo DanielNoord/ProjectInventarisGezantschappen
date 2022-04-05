@@ -21,9 +21,15 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
                 missing_files.add(dao.attrib["id"])
         if missing_files:
             print(
-                "The following files (described in excel) are missing a scan:", file=log
+                "The following files are described in excel but do not have an associated scan:",
+                file=log,
+            )
+            print(
+                "I seguenti file sono descritti in Excel ma non hanno una scansione associata:",
+                file=log,
             )
             for file_name in sorted(missing_files):
+                print(f" - {file_name}", file=log)
 
         assert not volume_files
         if volume_files:
