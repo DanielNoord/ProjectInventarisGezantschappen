@@ -12,7 +12,7 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
     """
     with open("outputs/missing_files", "a", encoding="utf-8") as log:
         # pylint: disable-next=line-too-long
-        print(f"** Looking at MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore[union-attr]
+        print(f"\n** Controlling MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore[union-attr]
         missing_files = set()
         for dao in c01.iterdescendants("dao"):
             try:
@@ -24,14 +24,19 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
                 "The following files (described in excel) are missing a scan:", file=log
             )
             for file_name in sorted(missing_files):
-                print(file_name, file=log)
+
+        assert not volume_files
         if volume_files:
             print(
-                "The following files (scans) are not covered by any dao (ID) in the XML database:",
+                "The following files exist as scan but are not described in excel:",
+                file=log,
+            )
+            print(
+                "I seguenti file esistono come scansione ma non sono descritti in excel:",
                 file=log,
             )
             for file_name in sorted(volume_files):
-                print(file_name, file=log)
+                print(f" + {file_name}", file=log)
 
 
 def get_files_in_volume_directory(volume: str, scans_directory: str) -> set[str]:
@@ -43,9 +48,7 @@ def traverse_c01_elements(database: TextIO, scans_directory: str) -> None:
     """Finds all c01 files in a xml file and traverses them"""
     # Create log file
     with open("outputs/missing_files", "w", encoding="utf-8") as log:
-        log.writelines(
-            "Overview of files currently not linking to excel description:\n"
-        )
+        log.write("")
 
     xml_file = etree.parse(database)
     root = xml_file.getroot()
