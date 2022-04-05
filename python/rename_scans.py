@@ -122,8 +122,9 @@ class FileRenamerExcel:
                     print(f"DEBUG: Double scan name for {scan_name}")
                 else:
                     raise ValueError(f"Double scan name found: {scan_name}")
-            rename_pairs[scan_name] = f"{row[0].value}r"
-            rename_pairs[scan_name.replace("r", "v")] = f"{row[0].value}v"
+            new_name = row[0].value.replace("ms", "MS")
+            rename_pairs[scan_name] = f"{new_name}r"
+            rename_pairs[scan_name.replace("r", "v")] = f"{new_name}v"
             row[9].value = None
 
         workbook.save(filename.replace("inputs", "outputs"))
@@ -165,15 +166,17 @@ class FileRenamerExcel:
                 for old, new in pairs.items():
                     oldname = f"{foldername}/{old}.tif"
                     newname = f"{foldername}/{new}.tif"
-                    print(f"Renamed: {oldname} -> {newname}")
-                    os.rename(oldname, newname)
+                    if self.test_run:
+                        print(f"Would rename: {oldname} -> {newname}")
+                    else:
+                        print(f"Renamed: {oldname} -> {newname}")
+                        os.rename(oldname, newname)
 
     def rename_files(self) -> None:
         """Full loop of renaming scan files"""
         to_rename = self._get_files_to_rename()
         self._check_scans_exist(to_rename)
-        if not self.test_run:
-            self._rename_scans(to_rename)
+        self._rename_scans(to_rename)
 
 
 if __name__ == "__main__":
