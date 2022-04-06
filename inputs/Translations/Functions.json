@@ -1492,6 +1492,14 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilge Stoel"
   },
+  "Inviato straordinario e ministro plenipotenziario del Regno di Württemberg a Londra": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Württemberg in London",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Württemberg te Londen"
+  },
+  "Inviato straordinario e ministro plenipotenziario del Regno di Württemberg presso l'Impero Russo": {
+    "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Württemberg to the Russian Empire",
+    "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Württemberg bij het Keizerrijk Rusland"
+  },
   "Inviato straordinario e ministro plenipotenziario dell'Impero Austriaco a San Pietroburgo": {
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Austrian Empire in Saint Petersburg",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Keizerrijk Oostenrijk te Sint-Petersburg"
@@ -2619,6 +2627,10 @@
   "Segretario della Legazione del Regno di Hannover a Roma": {
     "en_GB": "Secretary of the Legation of the Kingdom of Hanover in Rome",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk Hannover in Rome"
+  },
+  "Segretario della Legazione del Regno di Prussia a Roma": {
+    "en_GB": "Secretary of the Legation of the Kingdom of Prussia in Rome",
+    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk Pruisen in Rome"
   },
   "Segretario della cancelliere della Legazione dell'Impero Austro-Ungarico a Roma": {
     "en_GB": "Secretary of the chancellor with the Legation of the Austrian-Hungarian Empire in Rome",

@@ -684,23 +684,29 @@
   },
   "$Arnim": {
     "ISNI:id": "0000 0001 1934 4565",
-    "comment_daniel": "AANPASSEN: https://de.wikipedia.org/wiki/Harry_von_Arnim_(Diplomat)",
+    "comment_daniel": "",
     "date_of_birth": "1824-10-03",
     "date_of_death": "1881-05-19",
     "functions": [
       [
+        "Segretario della Legazione del Regno di Prussia a Roma",
+        "1853/1855"
+      ],
+      [
         "Inviato straordinario e ministro plenipotenziario del Regno di Prussia presso la Santa Sede",
-        "1868/"
+        "1864/"
       ]
     ],
     "images": [],
-    "name": "Harry",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "name": "Harry Kurt Edouard Carl",
+    "person_type": 1,
+    "place_of_birth": "Mysłowice",
+    "place_of_death": "Nizza",
+    "sources": [
+      "Hartung, Fritz, 'Arnim-Suckow, Harry Graf von', in: Neue Deutsche Biographie 1 (1953), found on: https://www.deutsche-biographie.de/pnd118650297.html#ndbcontent"
+    ],
     "sources_other": [],
-    "surname": "von Arnim",
+    "surname": "von Arnim-Suckow",
     "titles": [
       [
         "Freiherr",
@@ -1167,7 +1173,7 @@
   },
   "$Bartoli": {
     "ISNI:id": null,
-    "comment_daniel": "AANPASSEN",
+    "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -1210,13 +1216,13 @@
   },
   "$Barzilay": {
     "ISNI:id": null,
-    "comment_daniel": "AANPASSEN -> volgens brief is hij Portugees, en heeft hij in Ferrara en Amsterdam gewoond",
+    "comment_daniel": "Volgens brief is hij Portugees, en heeft hij in Ferrara en Amsterdam gewoond",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "Joseph",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -1889,21 +1895,31 @@
   },
   "$Beroldingen": {
     "ISNI:id": null,
-    "comment_daniel": "AANPASSEN / AANVULLEN",
-    "date_of_birth": "1780",
-    "date_of_death": "1868",
+    "comment_daniel": "",
+    "date_of_birth": "1780-11-27",
+    "date_of_death": "1868-01-24",
     "functions": [
       [
+        "Inviato straordinario e ministro plenipotenziario del Regno di Württemberg a Londra",
+        "1814/1816"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno di Württemberg presso l'Impero Russo",
+        "1816/1824"
+      ],
+      [
         "Ministro degli Affari Esteri del Regno di Württemberg",
-        null
+        "1823/"
       ]
     ],
     "images": [],
     "name": "Joseph Ignaz",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "person_type": 1,
+    "place_of_birth": "Ellwangen",
+    "place_of_death": "Stoccarda",
+    "sources": [
+      "Uhland, Robert, 'Beroldingen, Joseph Ignaz Graf von', in: Neue Deutsche Biographie 2 (1955), found on: https://www.deutsche-biographie.de/pnd116148144.html#ndbcontent"
+    ],
     "sources_other": [],
     "surname": "von Beroldingen",
     "titles": [
@@ -2392,7 +2408,7 @@
   },
   "$Blaue": {
     "ISNI:id": null,
-    "comment_daniel": "AANPASSEN. Ik zou zweren dat hij op het Campo Teutonico ligt...",
+    "comment_daniel": "Ik zou zweren dat hij op het Campo Teutonico ligt...",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -2403,7 +2419,7 @@
     ],
     "images": [],
     "name": "",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],

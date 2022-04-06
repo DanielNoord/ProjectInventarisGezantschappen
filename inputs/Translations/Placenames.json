@@ -1088,6 +1088,14 @@
     "longitude": "-3.19648",
     "nl_NL": "Edinburgh"
   },
+  "Ellwangen": {
+    "en_GB": "Ellwangen",
+    "geonames_id": 2930889,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Ellwangen",
+    "latitude": "48.96164",
+    "longitude": "10.13173",
+    "nl_NL": "Ellwangen"
+  },
   "Elmina": {
     "en_GB": "Elmina",
     "geonames_id": 2301190,
@@ -2015,6 +2023,14 @@
     "latitude": "45.65007",
     "longitude": "8.13762",
     "nl_NL": "Mosso"
+  },
+  "Mysłowice": {
+    "en_GB": "Mysłowice",
+    "geonames_id": 3091232,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Mys%C5%82owice",
+    "latitude": "50.20745",
+    "longitude": "19.16668",
+    "nl_NL": "Mysłowice"
   },
   "Münster": {
     "en_GB": "Münster",
