@@ -1,5 +1,5 @@
 import os
-from typing import Set, TextIO
+from typing import TextIO
 
 from lxml import etree
 

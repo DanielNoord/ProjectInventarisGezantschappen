@@ -1,5 +1,3 @@
-import re
-
 from lxml import etree
 from typing_utils.data_classes import FileData, SeriesData
 
