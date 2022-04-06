@@ -198,7 +198,9 @@ class EADMaker(XMLWriter):
                             dao.getparent().remove(dao)
 
             if not similar:
-                prev_file_did = self.file_entry(sub_series[file_data.series], file_data)
+                prev_file_did = self.file_entry(
+                    sub_series[file_data.series], file_data, individual_verso
+                )
             # Update pages/id of previous document
             else:
                 # If similar means prev_file_did is defined

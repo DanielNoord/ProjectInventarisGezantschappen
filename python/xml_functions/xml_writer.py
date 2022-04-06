@@ -141,6 +141,7 @@ class XMLWriter(_ErrorLogger):
         self,
         parent_element: etree._Element,
         file_data: FileData,
+        individual_verso: bool,
     ) -> etree._Element:
         """Create an .xml element for a file within a dossier/volume."""
         file_element = etree.SubElement(
@@ -196,6 +197,6 @@ class XMLWriter(_ErrorLogger):
 
         # Daoset
         daoset = etree.SubElement(file_did, "daoset", {"coverage": "whole"})
-        add_dao(daoset, file_data)
+        add_dao(daoset, file_data, individual_verso)
 
         return file_did
