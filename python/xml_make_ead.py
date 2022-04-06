@@ -71,6 +71,8 @@ class EADMaker(XMLWriter):
             # pylint: disable-next=line-too-long
             f"xmllint --noout --dtdvalid outputs/ead3.dtd {self.xml_file} 2> {self.log_xml_errors}"
         )
+        with open(self.log_xml_errors, encoding="utf-8") as file:
+            assert not file.read()
         print("XML-DTD check complete!")
 
     def _create_xml_file(self) -> None:
