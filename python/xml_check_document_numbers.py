@@ -31,7 +31,7 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
             for file_name in sorted(missing_files):
                 print(f" - {file_name!r}", file=log)
 
-        assert not volume_files
+        assert not volume_files, volume_files
         if volume_files:
             print(
                 "The following files exist as scan but are not described in excel:",
