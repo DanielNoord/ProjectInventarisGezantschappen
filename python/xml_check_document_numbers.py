@@ -1,5 +1,5 @@
 import os
-from typing import TextIO
+from typing import Set, TextIO
 
 from lxml import etree
 
@@ -29,7 +29,7 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
                 file=log,
             )
             for file_name in sorted(missing_files):
-                print(f" - {file_name}", file=log)
+                print(f" - {file_name!r}", file=log)
 
         assert not volume_files
         if volume_files:
