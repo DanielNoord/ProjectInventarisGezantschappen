@@ -174,11 +174,11 @@
   },
   "Avvocato e procuratore al Concilio Giudiziario di Semarang": {
     "en_GB": "Lawyer and prosecutor at the Council of Justice of Semarang",
-    "nl_NL": "Advocaat en procureur bij de Raad van Justitie van Semarang"
+    "nl_NL": "Advocaat en openbaar aanklager bij de Raad van Justitie van Semarang"
   },
   "Avvocato e procuratore al Concilio Giudiziario di Surabaya": {
     "en_GB": "Lawyer and prosecutor at the Council of Justice of Surabaya",
-    "nl_NL": "Advocaat en procureur bij de Raad van Justitie van Soerabaja"
+    "nl_NL": "Advocaat en openbaar aanklager bij de Raad van Justitie van Soerabaja"
   },
   "Avvocato generale dei poveri dello Stato Pontificio": {
     "en_GB": "Advocate general for the poor of the Papal States",
@@ -488,9 +488,9 @@
     "en_GB": "Pontifical extraordinary commissioner at Ancona",
     "nl_NL": "Pauselijk buitengewoon gezant te Ancona"
   },
-  "Commissario straordinario pontificio alle Quattre Legazione della Romagna": {
-    "en_GB": "Pontifical extraordinary commissioner to the Four Legations of the Romagna",
-    "nl_NL": "Pauselijk buitengewoon gezant bij de Vier Legaties van de Romagna"
+  "Commissario straordinario pontificio alle Legazione delle Romagne": {
+    "en_GB": "Pontifical extraordinary commissioner to the Legation of the Romagna",
+    "nl_NL": "Pauselijk buitengewoon gezant bij de Legatie van de Romagna"
   },
   "Compositore": {
     "en_GB": "Composer",
@@ -772,9 +772,9 @@
     "en_GB": "Director of the department of medals and coins at the University of Leiden",
     "nl_NL": "Directeur van het Penningenkabinet van de Universiteit Leiden"
   },
-  "Direttore dell'Ufficio di Statistica del Regno dei Paesi Bassi": {
-    "en_GB": "Director of the Statistical Office of the Kingdom of the Netherlands",
-    "nl_NL": "Directeur van het Bureau voor Statistiek van het Koninkrijk der Nederlanden"
+  "Direttore dell'Ufficio di Statistica del Ministero degli Affari Interni del Regno dei Paesi Bassi": {
+    "en_GB": "Director of the Statistical Office of the Ministry of Internal Affairs of the Kingdom of the Netherlands",
+    "nl_NL": "Directeur van het Bureau voor Statistiek van het Ministerie van Buitenlandse Zaken van het Koninkrijk der Nederlanden"
   },
   "Direttore della Biblioteca Reale di Torino": {
     "en_GB": "Director of the Royal Library in Turin",
@@ -943,10 +943,6 @@
   "Fondatore e direttore della rivista Themis, Regtskundig Tijdschrift": {
     "en_GB": "Founder and editor-in-chief of the periodical Themis, Regtskundig Tijdschrift",
     "nl_NL": "Oprichter en hoofdredacteur van Themis, Regtskundig Tijdschrift"
-  },
-  "Fondatore e presidente del Partito Anti-Rivoluzionario dei Paesi Bassi": {
-    "en_GB": "Founder and president of the Anti-Revolutionary Party of the Netherlands",
-    "nl_NL": "Oprichter en voorzitter van de Anti-Revolutionaire Partij van Nederland"
   },
   "Fornitore dell'esercito Francese": {
     "en_GB": "Supplier of the French army",
@@ -1580,6 +1576,10 @@
     "en_GB": "Lieutenant of the militia of Mondovì",
     "nl_NL": "Luitenant van de militie van Mondovì"
   },
+  "Luogotenente feldmaresciallo": {
+    "en_GB": "Lieutenent field marshal",
+    "nl_NL": "Veldmaarschalk-luitenant"
+  },
   "Maestro di Camera del Papa": {
     "en_GB": "Maestro di Camera {Chief Chamberlain} of the Pope",
     "nl_NL": "Maestro di Camera {Hoofd Kamerheer} van de paus"
@@ -1671,6 +1671,10 @@
   "Membro e successivamente vice-presidente e presidente della Corte Suprema del Lussemburgo": {
     "en_GB": "Member and later vice-president and president of the Supreme Court of Luxembourg",
     "nl_NL": "Lid en later vice-president en president van het Hooggerechtshof te Luxemburg"
+  },
+  "Ministro Consigliere di Stato del Regno delle Due Sicilie": {
+    "en_GB": "Minister-Councellor of State of the Kingdom of the Two Sicilies",
+    "nl_NL": "Minister-adviseur van Staat van het Koninkrijk der Beide Siciliën"
   },
   "Ministro Generale dei Frati Predicatori {domenicani}": {
     "en_GB": "Master of the Order of Preachers {Dominicans}",
@@ -1936,10 +1940,6 @@
     "en_GB": "Minister of Grace and Justice and Worship of the Kingdom of Italy",
     "nl_NL": "Minister van Gratie en Justitie en Religie van het Koninkrijk Italië"
   },
-  "Ministro di Stato del Regno delle Due Sicilie": {
-    "en_GB": "Minister of State of the Kingdom of the Two Sicilies",
-    "nl_NL": "Minister van Staat van het Koninkrijk der Beide Siciliën"
-  },
   "Ministro di Stato del principe di Nassau": {
     "en_GB": "Minister of State of the Prince of Nassau",
     "nl_NL": "Minister van Staat van de prins van Nassau"
@@ -2108,6 +2108,10 @@
     "en_GB": "Peer and Special Commissioner of the Executive Power of the Kingdom of Sicily to the Holy See",
     "nl_NL": "Lid van het Hogerhuis en speciaal commissaris van de uitvoerende macht van het Koninkrijk Sicilië bij de Heilige Stoel"
   },
+  "Parroco della Saint Luce a Frenchville": {
+    "en_GB": "Parson of Saint Luce at Frenchville",
+    "nl_NL": "Pastoor van Saint Luce in Frenchville"
+  },
   "Pastore": {
     "en_GB": "Pastor",
     "nl_NL": "Dominee"
@@ -2115,10 +2119,6 @@
   "Pastore a Livorno": {
     "en_GB": "Pastor at Livorno",
     "nl_NL": "Dominee in Livorno"
-  },
-  "Pastore della Santa Luce a Frenchville": {
-    "en_GB": "Pastor of Santa Luce at Frenchville",
-    "nl_NL": "Dominee van Santa Luce in Frenchville"
   },
   "Pittore": {
     "en_GB": "Painter",
@@ -2564,11 +2564,15 @@
     "en_GB": "Secretary of the Royal Wine Cellars and Principal Officer of the _Controlleria_ {Control Services} of the Royal House of the Kingdom of the Two Sicilies",
     "nl_NL": "Secretaris van de Koninklijke Wijnkelders en hoofdambtenaar van de _Controlleria_ {Controledienst} van het Koninklijk Huis van het Koninkrijk der Beide Siciliën"
   },
+  "Segretario del Reale Istituto Neerlandese delle Scienze, Lettere e Belle Arti": {
+    "en_GB": "Secretary of the Royal Dutch Institute of Sciences, Letters and Fine Arts",
+    "nl_NL": "Secretaris van de Koninklijk Nederlandsch Instituut van Wetenschappen, Letteren en Schone Kunsten"
+  },
   "Segretario del Vescovo De Grooff a Batavia": {
     "en_GB": "Secretary of Bishop De Grooff in Batavia",
     "nl_NL": "Secretaris van Bisschop De Grooff te Batavia"
   },
-  "Segretario del consiglio di amministrazione dell'Accademia Reale delle Arti Visive": {
+  "Segretario del consiglio d'amministrazione dell'Accademia Reale delle Arti Visive": {
     "en_GB": "Secretary of the Board of Directors of the Royal Academy of Visual Arts",
     "nl_NL": "Secretaris van de Raad van Bestuur van de Koninklijke Akademie van Beeldende Kunsten"
   },
@@ -2579,10 +2583,6 @@
   "Segretario dell'Accademia Pontificia de' Nuovi Lincei": {
     "en_GB": "Secretary of the Accademia Pontificia de' Nuovi Lincei",
     "nl_NL": "Secretaris van de Accademia Pontificia de' Nuovi Lincei"
-  },
-  "Segretario dell'Accademia reale delle arti e delle scienze dei Paesi Bassi {KNAW}": {
-    "en_GB": "Secretary of the Royal Netherlands Academy of Arts and Sciences {KNAW}",
-    "nl_NL": "Secretaris van de Koninklijke Nederlandse Akademie van Wetenschappen {KNAW}"
   },
   "Segretario dell'Associazione degli Insegnanti Olandesi": {
     "en_GB": "Secretary of the Association of Dutch Teachers",
@@ -2605,8 +2605,8 @@
     "nl_NL": "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk"
   },
   "Segretario della Legazione del Regno dei Paesi Bassi a Lisbona e Berlino": {
-    "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Lisbon and Paris",
-    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden te Lissabon en Parijs"
+    "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Lisbon and Berlin",
+    "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk der Nederlanden te Lissabon en Berlijn"
   },
   "Segretario della Legazione del Regno dei Paesi Bassi a Parigi": {
     "en_GB": "Secretary of the Legation of the Kingdom of the Netherlands in Paris",
@@ -2632,9 +2632,9 @@
     "en_GB": "Secretary of the Legation of the Kingdom of Prussia in Rome",
     "nl_NL": "Secretaris van het Gezantschap van het Koninkrijk Pruisen in Rome"
   },
-  "Segretario della cancelliere della Legazione dell'Impero Austro-Ungarico a Roma": {
-    "en_GB": "Secretary of the chancellor with the Legation of the Austrian-Hungarian Empire in Rome",
-    "nl_NL": "Secretaris van de kanselier bij het Gezantschap van het Keizerrijk Oostenrijk-Hongarije in Rome"
+  "Segretario della cancelleria della Legazione dell'Impero Austro-Ungarico a Roma": {
+    "en_GB": "Secretary of the chancellory with the Legation of the Austrian-Hungarian Empire in Rome",
+    "nl_NL": "Secretaris van de kanselarij bij het Gezantschap van het Keizerrijk Oostenrijk-Hongarije in Rome"
   },
   "Segretario della classe di scienze fisiche e matematiche dell'Accademia delle Scienze di Torino": {
     "en_GB": "Secretary of the class of physics and mathematics at the Accademia delle Scienze di Torino",
@@ -2844,10 +2844,6 @@
     "en_GB": "Lieutenant colonel in the royal army of the Two Sicilies",
     "nl_NL": "Luitenant-kolonel in het koninklijke leger van de Twee Siciliën"
   },
-  "Tenente del feldmaresciallo": {
-    "en_GB": "Lieutenent field marshal",
-    "nl_NL": "Veldmaarschalk-luitenant"
-  },
   "Tenente maresciallo dell'esercito austriaco": {
     "en_GB": "Lieutenant field marshal in the Austrian army",
     "nl_NL": "Veldmaarschalk-luitenant in het Oostenrijkse leger"
@@ -3031,10 +3027,6 @@
   "Vice-presidente del Magistrato di Sanità di Genova": {
     "en_GB": "Vice President of the Magistracy of Public Health of Genoa",
     "nl_NL": "Vice-president van de Magistratuur voor de Volksgezondheid van Genua"
-  },
-  "Viceré della Lombardia e di Venezia": {
-    "en_GB": "Viceroy of Lombardy and Venice",
-    "nl_NL": "Onderkoning van Lombardije en Venetië"
   },
   "Zuavo pontificio": {
     "en_GB": "Papal zouave",

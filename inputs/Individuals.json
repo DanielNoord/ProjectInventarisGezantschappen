@@ -764,7 +764,7 @@
     "date_of_death": "1859-06-19",
     "functions": [
       [
-        "Tenente del feldmaresciallo",
+        "Luogotenente feldmaresciallo",
         "1842-09-01/1849-11-17"
       ]
     ],
@@ -1314,7 +1314,7 @@
     "date_of_death": "1878-02-06",
     "functions": [
       [
-        "Direttore dell'Ufficio di Statistica del Regno dei Paesi Bassi",
+        "Direttore dell'Ufficio di Statistica del Ministero degli Affari Interni del Regno dei Paesi Bassi",
         "1848/"
       ]
     ],
@@ -6170,7 +6170,7 @@
     "date_of_death": "1876-12-05",
     "functions": [
       [
-        "Tenente del feldmaresciallo",
+        "Luogotenente feldmaresciallo",
         "1849-10-11/"
       ],
       [
@@ -6807,16 +6807,12 @@
   },
   "$Engelhart": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Zoon van vicerè van Lombardije-Venetië, arciduca Ranieri Giuseppe d'Asburgo-Lorena",
     "date_of_birth": "",
     "date_of_death": "1863-05-07",
     "functions": [
       [
-        "Viceré della Lombardia e di Venezia",
-        null
-      ],
-      [
-        "Tenente del feldmaresciallo",
+        "Luogotenente feldmaresciallo",
         null
       ]
     ],
@@ -9339,7 +9335,7 @@
     "date_of_death": "",
     "functions": [
       [
-        "Segretario della cancelliere della Legazione dell'Impero Austro-Ungarico a Roma",
+        "Segretario della cancelleria della Legazione dell'Impero Austro-Ungarico a Roma",
         null
       ]
     ],
@@ -9375,7 +9371,7 @@
         "1846-12-21/1847-07-18"
       ],
       [
-        "Commissario straordinario pontificio alle Quattre Legazione della Romagna",
+        "Commissario straordinario pontificio alle Legazione delle Romagne",
         "1852-03-15/1856-06-16"
       ]
     ],
@@ -11386,14 +11382,10 @@
   },
   "$Kuyper": {
     "ISNI:id": "0000 0000 8106 206X",
-    "comment_daniel": "",
+    "comment_daniel": "Oprichter en voorzitter van de ARP",
     "date_of_birth": "1837-10-29",
     "date_of_death": "1920-11-08",
     "functions": [
-      [
-        "Fondatore e presidente del Partito Anti-Rivoluzionario dei Paesi Bassi",
-        "1879-04-03/"
-      ],
       [
         "Professore di Teologia alla _Vrije Universiteit_ di Amsterdam",
         "1879-09-06/1901-08"
@@ -18520,7 +18512,7 @@
     "date_of_death": "1852-04-18",
     "functions": [
       [
-        "Ministro di Stato del Regno delle Due Sicilie",
+        "Ministro Consigliere di Stato del Regno delle Due Sicilie",
         "1821/"
       ],
       [
@@ -20873,7 +20865,7 @@
     "date_of_death": "1908-03-19",
     "functions": [
       [
-        "Pastore della Santa Luce a Frenchville",
+        "Parroco della Saint Luce a Frenchville",
         "1860-01/1908-03-19"
       ]
     ],
@@ -22636,7 +22628,7 @@
         null
       ],
       [
-        "Segretario del consiglio di amministrazione dell'Accademia Reale delle Arti Visive",
+        "Segretario del consiglio d'amministrazione dell'Accademia Reale delle Arti Visive",
         null
       ]
     ],
@@ -22673,8 +22665,8 @@
         "1826/1832"
       ],
       [
-        "Segretario dell'Accademia reale delle arti e delle scienze dei Paesi Bassi {KNAW}",
-        "1831/"
+        "Segretario del Reale Istituto Neerlandese delle Scienze, Lettere e Belle Arti",
+        "1845/"
       ]
     ],
     "images": [
