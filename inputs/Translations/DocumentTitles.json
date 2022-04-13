@@ -112,6 +112,10 @@
     "en_GB": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)",
     "nl_NL": "“\\1” (Firenze, Tipografia di F. Bencini, \\2)"
   },
+  "\"(.+)\" \\(Firenze, Tipografia nel Carcere alle Murate, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "“\\1” (Firenze, Tipografia nel Carcere alle Murate, \\2)",
+    "nl_NL": "“\\1” (Firenze, Tipografia nel Carcere alle Murate, \\2)"
+  },
   "\"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (The Hague, \\2 Aug. \\3)",
     "nl_NL": "“\\1” (Den Haag, \\2 aug. \\3)"
@@ -988,13 +992,29 @@
     "en_GB": "Reflections on the current state of the pontifical finances",
     "nl_NL": "Reflecties op de actuele staat van de pauselijke financiën"
   },
+  "Consolati$": {
+    "en_GB": "Consulates",
+    "nl_NL": "Consulaten"
+  },
+  "Consolato di Ancona$": {
+    "en_GB": "Consulate of Ancona",
+    "nl_NL": "Consulaat van Ancona"
+  },
   "Consolato di Ancona. Lettera (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Consulate of Ancona. Letter to \\2",
     "nl_NL": "Consulaat van Ancona. Brief aan \\2"
   },
+  "Consolato di Civitavecchia$": {
+    "en_GB": "Consulate of Civitavecchia",
+    "nl_NL": "Consulaat van Civitavecchia"
+  },
   "Consolato di Civitavecchia. Lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Consulate of Civitavecchia. Letter from \\2",
     "nl_NL": "Consulaat van Civitavecchia. Brief van \\2"
+  },
+  "Consolato di Livorno$": {
+    "en_GB": "Consulate of Livorno",
+    "nl_NL": "Consulaat van Livorno"
   },
   "Consolato di Livorno. Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Consulate of Livorno. Letter from \\2 to \\4",
@@ -1003,6 +1023,10 @@
   "Consolato di Livorno. Lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Consulate of Livorno. Letter from \\2",
     "nl_NL": "Consulaat van Livorno. Brief van \\2"
+  },
+  "Consolato di Napoli$": {
+    "en_GB": "Consulate of Naples",
+    "nl_NL": "Consulaat van Napels"
   },
   "Consolato di Napoli. Lettera (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Consulate of Naples. Letter to \\2",
@@ -1255,6 +1279,22 @@
   "Corrispondenza Politica. Lettera a stampa (di|del|della) (\\$\\w+)$": {
     "en_GB": "Political correspondance. Printed letter of \\2",
     "nl_NL": "Politieke correspondentie. Gedrukte brief van \\2"
+  },
+  "Corrispondenza con il Console di Civitavecchia$": {
+    "en_GB": "Correspondance with the Consul of Civitavecchia",
+    "nl_NL": "Correspondentie met de Consul van Civitavecchia"
+  },
+  "Corrispondenza con il Console di Livorno$": {
+    "en_GB": "Correspondance with the Consul of Livorno",
+    "nl_NL": "Correspondentie met de Consul van Livorno"
+  },
+  "Corrispondenza con il Ministro degli Affari Esteri dei Paesi Bassi$": {
+    "en_GB": "Correspondance with the Minister of Foreign Affairs of the Netherlands",
+    "nl_NL": "Correspondentie met de Minister va Buitenlandse Zaken van Nederland"
+  },
+  "Corrispondenza con il Segretario di Stato Card. Antonelli$": {
+    "en_GB": "Correspondance with the Secretary of State Card. Antonelli",
+    "nl_NL": "Correspondentie met de Staatssecretaris Kard. Antonelli"
   },
   "Corrispondenza diplomatica$": {
     "en_GB": "Diplomatic correspondence",
@@ -1967,6 +2007,10 @@
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) sulla riscossione di nuove tasse sull'esercizio delle professioni, arti, mestieri, industrie e commerci \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 about the collection of the new taxes on the exercise of professions, arts, trade, industries and commerce (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de inzameling van de nieuwe belastingen op het uitoefenen van beroepen, kunsten, handel, industrieën en bedrijven (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+  },
+  "Foglio a stampa \"(.+)\" Imputati Pietro Ercoli, Giovanni Carmosini, Angelo Lapis per \"(.+)\"$": {
+    "en_GB": "Printed sheet \"\\1\" The accused Pietro Ercoli, Giovanni Carmosini, Angelo Lapis charged with \"\\2\"",
+    "nl_NL": "Gedrukt blad \"\\1\" De gedaagden Pietro Ercoli, Giovanni Carmosini, Angelo Lapis beschuldigd van \"\\2\""
   },
   "Foglio a stampa \"(.+)\" \\((\\$\\w+)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2)",
@@ -3700,6 +3744,10 @@
     "en_GB": "Attached letter from \\2 to \\4",
     "nl_NL": "Bijgevoegde brief van \\2 aan \\4"
   },
+  "Lettera allegata (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Attached letter from \\2 and \\4 to \\6",
+    "nl_NL": "Bijgevoegde brief van \\2 aan \\4 aan \\6"
+  },
   "Lettera allegata (di|del|della) (\\$\\w+)$": {
     "en_GB": "Attached letter from \\2",
     "nl_NL": "Bijgevoegde brief van \\2"
@@ -3936,9 +3984,9 @@
     "en_GB": "Letter from the Criminal Education Office of the Court of Turin",
     "nl_NL": "Brief van het Criminile Instructie Kantoor van het Hof van Turijn"
   },
-  "Lettera della Camera di Commercio (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from the Chamber of Commerce to \\2",
-    "nl_NL": "Brief van de Kamer van Koophandel aan \\2"
+  "Lettera della Camera di Commercio di Roma (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the Chamber of Commerce of Rome to \\2",
+    "nl_NL": "Brief van de Kamer van Koophandel van Rome aan \\2"
   },
   "Lettera della Direzione Generale di Polizia di Roma (a|al) (\\$\\w+) sulla distribuzione dei palchi nei teatri di Roma$": {
     "en_GB": "Letter from the General Directorate of the Police of Rome to \\2 about the distribution of stages in Roman theaters",
@@ -4427,6 +4475,10 @@
   "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio \\(a stampa\\)$": {
     "en_GB": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (printed)",
     "nl_NL": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (gedrukt)"
+  },
+  "Nomina di un nuovo console a Livorno$": {
+    "en_GB": "Nomination of a new consul in Livorno",
+    "nl_NL": "Benoeming van een nieuwe consul te Livorno"
   },
   "Nomina effettuata (da|dal|dalla) (\\$\\w+) (a|al|alla) (\\$\\w+) con timbro di carta originale$": {
     "en_GB": "Appointment made by \\2 to \\4 with the original paper stamp",
