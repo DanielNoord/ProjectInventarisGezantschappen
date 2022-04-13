@@ -896,6 +896,14 @@
     "longitude": "9.66207",
     "nl_NL": "Compiano"
   },
+  "Compiègne": {
+    "en_GB": "Compiègne",
+    "geonames_id": 3024066,
+    "geonames_wikipedia": null,
+    "latitude": "49.41794",
+    "longitude": "2.82606",
+    "nl_NL": "Compiègne"
+  },
   "Contrexéville": {
     "en_GB": "Contrexéville",
     "geonames_id": 3023808,
@@ -2511,6 +2519,14 @@
     "latitude": "45.06982",
     "longitude": "11.79022",
     "nl_NL": "Rovigo"
+  },
+  "Rozoy-sur-Serre": {
+    "en_GB": "Rozoy-sur-Serre",
+    "geonames_id": 2982294,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Rozoy",
+    "latitude": "49.70956",
+    "longitude": "4.12902",
+    "nl_NL": "Rozoy-sur-Serre"
   },
   "Rumillies": {
     "en_GB": "Rumillies",

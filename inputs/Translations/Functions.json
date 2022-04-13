@@ -272,6 +272,10 @@
     "en_GB": "Captain of the Republic of San Marino",
     "nl_NL": "Kapitein van de Republiek San Marino"
   },
+  "Capitano reggente della Repubblica di San Marino": {
+    "en_GB": "Captain regent of the Republic of San Marino",
+    "nl_NL": "Kapitein-regent van de Republiek van San Marino"
+  },
   "Capo dell'azienda Chemet en Weetjen ad Amsterdam": {
     "en_GB": "Head of the company Chemet en Weetjen in Amsterdam",
     "nl_NL": "Bedrijfshoofd bij Chemet en Weetjen te Amsterdam"
@@ -679,6 +683,10 @@
   "Console generale dell'Impero Austriaco ad Ancona": {
     "en_GB": "Consul general of the Austrian Empire in Ancona",
     "nl_NL": "Consul-generaal van het Keizerrijk Oostenrijk te Ancona"
+  },
+  "Consultore di Stato per le Finanze per Camerino": {
+    "en_GB": "State advisor for Finances for Camerino",
+    "nl_NL": "Staatadviseur voor Financiën voor Camerino"
   },
   "Controllore della controlleria delle dogane": {
     "en_GB": "Agent at customs control services",
@@ -1316,6 +1324,10 @@
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of the Netherlands to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel"
   },
+  "Inviato straordinario e incaricato d'affari del Regno di Baviera presso il Regno dei Paesi Bassi": {
+    "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Bavaria to the Kingdom of the Netherlands",
+    "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Beieren bij het Koninkrijk der Nederlanden"
+  },
   "Inviato straordinario e incaricato d'affari del Regno di Baviera presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of Bavaria to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk Beieren bij de Heilige Stoel"
@@ -1679,6 +1691,10 @@
   "Ministro Generale dei Frati Predicatori {domenicani}": {
     "en_GB": "Master of the Order of Preachers {Dominicans}",
     "nl_NL": "Magister-generaal van de dominicanen of Orde der Predikheren {domenicanen}"
+  },
+  "Ministro ad interim degli Affari Esteri del Regno d'Italia": {
+    "en_GB": "Interim Minister of Foreign Affairs of the Kingdom of Italy",
+    "nl_NL": "Minister ad interim van Buitenlandse Zaken van het Koninkrijk Italië"
   },
   "Ministro ad interim degli Affari Esteri del Regno dei Paesi Bassi": {
     "en_GB": "Interim Minister of Foreign Affairs of the Kingdom of the Netherlands",
@@ -2268,6 +2284,10 @@
     "en_GB": "President of the provisional government of Spoleto",
     "nl_NL": "President van de voorlopige regering van Spoleto"
   },
+  "Presidente dell'Accademia Filarmonica Romana": {
+    "en_GB": "President of the Accademia Filarmonica Romana",
+    "nl_NL": "Hoofd van de Accademia Filarmonica Romana"
+  },
   "Presidente dell'Assemblea Costituzionale della Repubblica Romana": {
     "en_GB": "President of the Constitutional Assembly of the Roman Republicc",
     "nl_NL": "President van de constitutionele vergadering van de Romeinse Republiek"
@@ -2796,6 +2816,10 @@
     "en_GB": "Mayor of Zierikzee",
     "nl_NL": "Burgemeester van Zierikzee"
   },
+  "Socio della Banca Meuricoffre di Napoli": {
+    "en_GB": "Associate of the Banca Meuricoffre from Naples",
+    "nl_NL": "Partner bij de Banca Meuricoffre uit Napels"
+  },
   "Soprassindico di Firenze": {
     "en_GB": "Magistrate auditor of Florence",
     "nl_NL": "Magistraat-auditor van Florence"
@@ -2831,6 +2855,10 @@
   "Tenente colonnello": {
     "en_GB": "Lieutenant colonel",
     "nl_NL": "Luitenant-kolonel"
+  },
+  "Tenente colonnello della Cavalleria nella provincia di Padova del Regno d'Italia": {
+    "en_GB": "Lieutenant colonel of the Cavalry in the province of Padua of the Kingdom of Italy",
+    "nl_NL": "Luitenant-kolonel van de Cavaleri in de provincie van Padua van het Koninkrijk Italië"
   },
   "Tenente colonnello della Gendarmeria pontificia": {
     "en_GB": "Lieutenant colonel of the Papal Corps of Gendarmes",
@@ -2899,6 +2927,10 @@
   "Vicario Apostolico a Batavia": {
     "en_GB": "Vicar apostolic in Batavia",
     "nl_NL": "Apostolisch vicaris te Batavia"
+  },
+  "Vicario Apostolico a Napo": {
+    "en_GB": "Vicar apostolic in Napo",
+    "nl_NL": "Apostolisch vicaris te Napo"
   },
   "Vicario Apostolico di Tamaulipas": {
     "en_GB": "Vicar apostolic of Tamaulipas",
