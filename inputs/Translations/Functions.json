@@ -102,15 +102,15 @@
   },
   "Amministratore principale e segretario provvisorio presso la Segreteria di Stato del Regno dei Paesi Bassi": {
     "en_GB": "Principal administrator and temporary secretary at the Secretariat of State of the Kingdom of the Netherlands",
-    "nl_NL": "Referendaris en tijdelijk griffier bij het Staatssecretariaat van het Koninkrijk der Nederlanden"
+    "nl_NL": "Referendaris en waarnemend griffier bij de Staatssecretarie van het Koninkrijk der Nederlanden"
   },
   "Amministratore principale il Ministero delle Finanze del Regno dei Paesi Bassi": {
     "en_GB": "Principal administrator at the Ministry of Finances of the Kingdom of the Netherlands",
     "nl_NL": "Referendaris bij het Ministerie van Financiën van het Koninkrijk der Nederlanden"
   },
-  "Amministratore principale presso il Dipartimento della Giustizia del Regno dei Paesi Bassi": {
-    "en_GB": "Principal administrator at the Department of Justice of the Kingdom of the Netherlands",
-    "nl_NL": "Referendaris bij het Departement van Justitie van het Koninkrijk der Nederlanden"
+  "Amministratore principale presso il Ministero della Giustizia del Regno dei Paesi Bassi": {
+    "en_GB": "Principal administrator at the Ministry of Justice of the Kingdom of the Netherlands",
+    "nl_NL": "Referendaris bij het Ministerie van Justitie van het Koninkrijk der Nederlanden"
   },
   "Applicato di 1 ° classe nel Ministero delle Finanze del Regno d'Italia": {
     "en_GB": "Clerk 1st class at the Ministry of Finance of the Kingdom of Italy",
@@ -1592,6 +1592,10 @@
     "en_GB": "Lieutenent field marshal",
     "nl_NL": "Veldmaarschalk-luitenant"
   },
+  "Luogotenente feldmaresciallo dell'esercito austriaco": {
+    "en_GB": "Lieutenant field marshal in the Austrian army",
+    "nl_NL": "Veldmaarschalk-luitenant in het Oostenrijkse leger"
+  },
   "Maestro di Camera del Papa": {
     "en_GB": "Maestro di Camera {Chief Chamberlain} of the Pope",
     "nl_NL": "Maestro di Camera {Hoofd Kamerheer} van de paus"
@@ -1685,8 +1689,8 @@
     "nl_NL": "Lid en later vice-president en president van het Hooggerechtshof te Luxemburg"
   },
   "Ministro Consigliere di Stato del Regno delle Due Sicilie": {
-    "en_GB": "Minister-Councellor of State of the Kingdom of the Two Sicilies",
-    "nl_NL": "Minister-adviseur van Staat van het Koninkrijk der Beide Siciliën"
+    "en_GB": "Minister-State Councillor of the Kingdom of the Two Sicilies",
+    "nl_NL": "Minister-Staatsraad van het Koninkrijk der Beide Siciliën"
   },
   "Ministro Generale dei Frati Predicatori {domenicani}": {
     "en_GB": "Master of the Order of Preachers {Dominicans}",
@@ -2871,10 +2875,6 @@
   "Tenente colonnello nell'esercito reale delle Due Sicilie": {
     "en_GB": "Lieutenant colonel in the royal army of the Two Sicilies",
     "nl_NL": "Luitenant-kolonel in het koninklijke leger van de Twee Siciliën"
-  },
-  "Tenente maresciallo dell'esercito austriaco": {
-    "en_GB": "Lieutenant field marshal in the Austrian army",
-    "nl_NL": "Veldmaarschalk-luitenant in het Oostenrijkse leger"
   },
   "Tenente nell'esercito del Granducato di Baden": {
     "en_GB": "Lieutenant in the army of the Grand Duchy of Baden",
