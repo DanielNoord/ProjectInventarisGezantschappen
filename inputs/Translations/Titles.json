@@ -60,7 +60,7 @@
     "nl_NL": "Paus",
     "position": "Before"
   },
-  "Pari de Francia": {
+  "Pari di Francia": {
     "en_GB": "Peer of France",
     "nl_NL": "Pair van Frankrijk",
     "position": "After"
@@ -265,7 +265,7 @@
     "nl_NL": "generaal",
     "position": "Before"
   },
-  "generale dell'infanteria": {
+  "generale di fanteria": {
     "en_GB": "general of the infantry",
     "nl_NL": "generaal der infanterie",
     "position": "Before"
@@ -377,7 +377,7 @@
   },
   "principe di Dietrichstein zu Nikolsburg": {
     "en_GB": "prince of Dietrichstein zu Nikolsburg",
-    "nl_NL": "prins van Dietrichstein zu Nikolsburg",
+    "nl_NL": "vorst van Dietrichstein zu Nikolsburg",
     "position": "After"
   },
   "principe di Joinville": {
