@@ -11,7 +11,7 @@ class FileRenamer:
     """Renames files based on arguments."""
 
     def __init__(self, folder: str, scan_dir: str, test: bool) -> None:
-        self.filename_pattern = r"(\d+)([rv].tif)"
+        self.filename_pattern = r"(\d+)(bis)*([rv].tif)"
         """Pattern of the file names to match against."""
 
         self.folder = folder + scan_dir
@@ -38,6 +38,7 @@ class FileRenamer:
                 .replace("vbis", "bisv")
                 .replace("_r.tif", "r.tif")
                 .replace("_v.tif", "v.tif")
+                .replace("V.tif", "v.tif")
             )
             if match := re.match(
                 self.volume + "_" + sub_dir + self.filename_pattern, sanitized_file
@@ -46,7 +47,7 @@ class FileRenamer:
                 for value_test, dossier in rename_dict.items():
                     if value_test(file_num):
                         oldname = f"{self.folder}/{file}"
-                        newfile = file.replace(sub_dir, "").replace(
+                        newfile = sanitized_file.replace(sub_dir, "").replace(
                             self.volume, f"{self.volume}{dossier}"
                         )
                         newname = f"{self.folder}/{newfile}"
@@ -87,6 +88,9 @@ class FileRenamerExcel:
 
         self.test_run = test
         """Whether this is a dry run without renaming any files."""
+
+        self.renamed = 0
+        """Amount of renamed files."""
 
     def _get_rename_pairs(self, filename: str) -> tuple[str, dict[str, str]]:
         """Get the rename pairs from a workbook and remove it from the row."""
@@ -166,11 +170,13 @@ class FileRenamerExcel:
                 for old, new in pairs.items():
                     oldname = f"{foldername}/{old}.tif"
                     newname = f"{foldername}/{new}.tif"
+                    self.renamed += 1
                     if self.test_run:
                         print(f"Would rename: {oldname} -> {newname}")
                     else:
                         print(f"Renamed: {oldname} -> {newname}")
                         os.rename(oldname, newname)
+        print(f"Renamed {self.renamed} scans.")
 
     def rename_files(self) -> None:
         """Full loop of renaming scan files"""
@@ -180,29 +186,30 @@ class FileRenamerExcel:
 
 
 if __name__ == "__main__":
-    renamer = FileRenamer(
-        "/Volumes/Seagate Basic Media/VolumesLegazione/",
-        "MS296",
-        test=True,
-    )
-    renamer.rename_files(
-        {
-            lambda x: 0 <= x <= 700: "_20_1",
-            # lambda x: 62 <= x <= 63: "_23_2",
-            # lambda x: 64 <= x <= 78: "_23_3",
-            # lambda x: 79 <= x <= 86: "_23_4",
-            # lambda x: 87 <= x <= 88: "_23_5",
-            # lambda x: 89 <= x <= 136: "_23_6",
-            # lambda x: 137 <= x <= 194: "_23_7",
-            # lambda x: 195 <= x <= 232: "_23_8",
-            # lambda x: 123 <= x <= 130: "_27_8",
-            # lambda x: 131 <= x <= 137: "_27_9",
-            # lambda x: 138 <= x <= 143: "_27_10",
-            # lambda x: 138 <= x <= 381: "_27_21",
-            # lambda x: 232 <= x <= 279: "_33_4",
-        },
-        "20_",
-    )
+    # Uncomment to run file renamer in test mode.
+    # renamer = FileRenamer(
+    #     "/Volumes/Seagate Basic Media/VolumesLegazione/",
+    #     "MS293",
+    #     test=True,
+    # )
+    # renamer.rename_files(
+    #     {
+    #         lambda x: 0 <= x <= 61: "_20_1",
+    #         # lambda x: 62 <= x <= 63: "_20_2",
+    #         # lambda x: 64 <= x <= 78: "_20_3",
+    #         # lambda x: 79 <= x <= 86: "_20_4",
+    #         # lambda x: 87 <= x <= 88: "_20_5",
+    #         # lambda x: 89 <= x <= 136: "_20_6",
+    #         # lambda x: 137 <= x <= 194: "_20_7",
+    #         # lambda x: 195 <= x <= 232: "_20_8",
+    #         # lambda x: 233 <= x <= 240: "_20_8",
+    #         # lambda x: 241 <= x <= 250: "_20_9",
+    #         # lambda x: 251 <= x <= 260: "_20_10",
+    #         # lambda x: 261 <= x <= 305: "_20_21",
+    #         # lambda x: 306 <= x <= 410: "_30_4",
+    #     },
+    #     "20_",
+    # )
 
     # Uncomment to run excel file renamer in test mode.
     # renamer = FileRenamerExcel(
@@ -211,3 +218,5 @@ if __name__ == "__main__":
     #     test=True,
     # )
     # renamer.rename_files()
+
+    print()
