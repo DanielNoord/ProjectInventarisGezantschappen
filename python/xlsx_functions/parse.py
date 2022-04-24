@@ -61,12 +61,9 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
         receivers = ids.split("; ")
     else:
         receivers = []
-    try:
-        if (ids := str(row[8].value)) != "None":
-            others = ids.split("; ")
-        else:
-            others = []
-    except IndexError:
+    if (ids := str(row[8].value)) != "None":
+        others = ids.split("; ")
+    else:
         others = []
 
     only_recto = False
