@@ -69,6 +69,17 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
     except IndexError:
         others = []
 
+    only_recto = False
+    only_verso = False
+    try:
+        if (only_one_side := str(row[10].value)) != "None":
+            if only_one_side == "recto":
+                only_recto = True
+            elif only_one_side == "verso":
+                only_verso = True
+    except IndexError:
+        pass
+
     return FileData(
         file_page,
         file_title,
@@ -80,4 +91,6 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
         authors,
         receivers,
         others,
+        only_recto,
+        only_verso,
     )

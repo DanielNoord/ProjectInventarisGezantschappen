@@ -34,6 +34,8 @@ class FileData(NamedTuple):
     authors: list[str]
     receivers: list[str]
     others: list[str]
+    only_recto: bool
+    only_verso: bool
 
 
 class DateTuple(NamedTuple):
