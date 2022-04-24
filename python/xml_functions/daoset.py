@@ -32,14 +32,24 @@ def add_dao(
                 "id": f"{file_data.file_name}.tif",
             },
         )
-    elif file_data.only_recto or file_data.only_verso:
+    elif file_data.only_recto:
         etree.SubElement(
             daoset,
             "dao",
             {
                 "coverage": "part",
                 "daotype": "derived",
-                "id": f"{file_data.file_name}.tif",
+                "id": f"{file_data.file_name}r.tif",
+            },
+        )
+    elif file_data.only_verso:
+        etree.SubElement(
+            daoset,
+            "dao",
+            {
+                "coverage": "part",
+                "daotype": "derived",
+                "id": f"{file_data.file_name}v.tif",
             },
         )
     else:
