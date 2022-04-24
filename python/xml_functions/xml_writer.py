@@ -137,6 +137,7 @@ class XMLWriter(_ErrorLogger):
 
         return serie_c
 
+    # pylint: disable-next=too-many-locals
     def file_entry(
         self,
         parent_element: etree._Element,
