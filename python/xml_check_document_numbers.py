@@ -11,14 +11,17 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
     Prints a warning if a file is never used.
     """
     with open("outputs/missing_files", "a", encoding="utf-8") as log:
-        # pylint: disable-next=line-too-long
-        print(f"\n** Controlling MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore[union-attr]
         missing_files = set()
         for dao in c01.iterdescendants("dao"):
             try:
                 volume_files.remove(str(dao.attrib["id"]))
             except KeyError:
                 missing_files.add(dao.attrib["id"])
+
+        if missing_files or volume_files:
+            # pylint: disable-next=line-too-long
+            print(f"\n** Controlling MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore[union-attr]
+
         if missing_files:
             print(
                 "The following files are described in excel but do not have an associated scan:",
@@ -31,7 +34,6 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
             for file_name in sorted(missing_files):
                 print(f" - {file_name!r}", file=log)
 
-        assert not volume_files, volume_files
         if volume_files:
             print(
                 "The following files exist as scan but are not described in excel:",
