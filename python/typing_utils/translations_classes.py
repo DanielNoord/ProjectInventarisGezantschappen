@@ -3,17 +3,23 @@ from typing import Dict, NamedTuple, Optional, Pattern, TypedDict, Union
 
 # Dictionaries for the Translation files
 class TranslationDictEntry(TypedDict):
+    """Simple translation entry."""
+
     nl_NL: str
     en_GB: str
 
 
 class TranslationDictEntryTitles(TypedDict):
+    """Title translation entry."""
+
     nl_NL: str
     en_GB: str
     position: str
 
 
 class TranslationDictEntryPlacenames(TypedDict):
+    """Placename translation entry."""
+
     nl_NL: str
     en_GB: str
     geonames_id: int
