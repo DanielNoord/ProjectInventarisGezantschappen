@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # type: ignore # pylint: disable-all
 
-from docx_functions import list_of_translated_data, list_of_translated_data_with_style
-
 from create_data import person_with_identifier
+from docx_functions import list_of_translated_data, list_of_translated_data_with_style
 from functions.docx_load import extract_persons_and_identifiers
 
 

@@ -2,9 +2,8 @@
 # type: ignore # pylint: disable-all
 
 import docx
-from docx_functions import list_to_be_translated, list_with_style
-
 from create_data import used_functions_and_titles, used_names
+from docx_functions import list_to_be_translated, list_with_style
 
 
 def create_to_be_translated(input_file):

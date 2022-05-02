@@ -7,7 +7,6 @@ from typing import cast
 import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
-
 from xlsx_functions import compare_rows, parse_file, parse_series
 from xlsx_make import create_sanitized_xlsx
 from xml_functions import XMLWriter, add_dao, fix_daoset

@@ -3,7 +3,6 @@ import re
 
 import docx  # type: ignore[import]
 from docx.shared import Pt  # type: ignore[import]
-
 from typing_utils import IndividualsDictCleaned
 
 

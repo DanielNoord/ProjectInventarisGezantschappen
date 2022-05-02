@@ -1,9 +1,8 @@
 from typing import Literal, Union
 
+from data_parsing.create_full_name_string import full_name_with_database
 from date_functions import check_date, create_date_tuple
 from typing_utils import Database, DateTuple, IndividualsDictEntry
-
-from data_parsing.create_full_name_string import full_name_with_database
 
 
 def name_string(

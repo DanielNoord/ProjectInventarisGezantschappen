@@ -4,7 +4,6 @@ from data_parsing import initialize_database_for_xml
 from date_functions import create_date_data
 from lxml import etree
 from typing_utils import FileData, SeriesData
-
 from xml_functions.daoset import add_dao, add_volume_dao
 from xml_functions.date_elements import add_dateset, add_unitdate
 from xml_functions.error_logger import _ErrorLogger

@@ -5,7 +5,6 @@ import re
 from typing import Optional
 
 import docx  # type: ignore[import]
-
 from docx_functions import database, parse_function, parse_title
 from typing_utils import IndividualsDict
 from write_files import write_single_json_file

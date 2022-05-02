@@ -3,7 +3,6 @@
 import re
 
 import docx  # type: ignore[import]
-
 from typing_utils import TranslationDict, TranslationDictTitles
 from write_files import write_single_json_file
 

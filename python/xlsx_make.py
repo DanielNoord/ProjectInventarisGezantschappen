@@ -5,9 +5,8 @@ import os
 import time
 from typing import Literal, Pattern
 
-from openpyxl import Workbook, load_workbook
-
 from data_parsing import initialize_database_for_xml
+from openpyxl import Workbook, load_workbook
 from xlsx_functions import (
     add_identifier_columns,
     fill_in_xlsx,

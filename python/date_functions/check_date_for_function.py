@@ -1,8 +1,7 @@
 from typing import Union
 
-from typing_utils import DateTuple
-
 from date_functions.create_dates_tuple import create_date_tuple
+from typing_utils import DateTuple
 
 
 def check_begin(  # pylint: disable=too-many-return-statements
