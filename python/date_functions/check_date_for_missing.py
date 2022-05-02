@@ -8,7 +8,7 @@ def check_date_for_missing_elements(
     day: Union[date, str, int, None],
     doc_number: Union[date, str, int, None],
 ) -> None:
-    """Check for inconsistencies in document dates"""
+    """Check for inconsistencies in document dates."""
     if day and not month:
         raise ValueError(f"Document has day but no month, see: {doc_number}")
     if day and not year:

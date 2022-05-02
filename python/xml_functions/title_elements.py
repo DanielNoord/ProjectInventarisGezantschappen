@@ -12,7 +12,7 @@ def fill_in_name(
     date: str,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> str:
-    """Creates a document title with filled in names and functions"""
+    """Creates a document title with filled in names and functions."""
     title_split = re.split(r"( |\.|,|\(|\))", title)
     for index, word in enumerate(title_split):
         if word.startswith("$"):
@@ -28,7 +28,7 @@ def fill_in_name(
 
 
 def fix_quotes(title: str) -> str:
-    """Change the double quotes in a title to be “ or ” based on occurence"""
+    """Change the double quotes in a title to be “ or ” based on occurence."""
     for occurence, quote_match in enumerate(re.finditer(r"\"|“|”", title)):
         if occurence % 2:
             quote = "”"
@@ -40,7 +40,7 @@ def fix_quotes(title: str) -> str:
 
 
 def add_italics(parent_element: etree._Element, title: str) -> None:
-    """Appends the title to the parent_element and inserts emph elements if necessary"""
+    """Appends the title to the parent_element and inserts emph elements if necessary."""
     if "_" in title:
         if not title.count("_") // 2:
             raise ValueError(f"Unbalanced amount of italics indicators '_' in {title}")
@@ -67,7 +67,7 @@ def add_unittitle(
     date: str,
     file_name: str,
 ) -> Optional[re.Pattern[str]]:
-    """Adds a unittitle to the parent element"""
+    """Adds a unittitle to the parent element."""
     title_en, title_nl, title_it = title, title, title
     used_trans = None
 

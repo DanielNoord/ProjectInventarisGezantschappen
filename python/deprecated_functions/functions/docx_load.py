@@ -7,7 +7,7 @@ import docx
 
 
 def extract_persons_and_identifiers(filename):
-    """Loads people mentioned and given identifier from specified file
+    """Loads people mentioned and given identifier from specified file.
 
     Args:
         filename: File to be scanned
@@ -28,7 +28,7 @@ def extract_persons_and_identifiers(filename):
 
 
 def extract_persons(filename):
-    """Loads people mentioned from "database" file
+    """Loads people mentioned from "database" file.
 
     Args:
         filename: File to be scanned
@@ -66,7 +66,7 @@ def extract_persons(filename):
 
 
 def extract_translations(filename):
-    """Loads translations from file
+    """Loads translations from file.
 
     Args:
         filename: File to be scanned

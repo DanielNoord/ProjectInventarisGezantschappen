@@ -4,7 +4,7 @@ import requests
 
 
 def fetch_rkd_images(filename: str) -> None:
-    """Checks all names in a database for hits in the RKD image database
+    """Checks all names in a database for hits in the RKD image database.
 
     Args:
         filename: File name of initial database
@@ -32,7 +32,7 @@ def fetch_rkd_images(filename: str) -> None:
 
 
 def fetch_rkd_artists(filename: str) -> None:
-    """Checks all names in a database for hits in the RKD artists database
+    """Checks all names in a database for hits in the RKD artists database.
 
     Args:
         filename: File name of initial database

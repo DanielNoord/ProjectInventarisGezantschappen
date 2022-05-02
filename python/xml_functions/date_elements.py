@@ -5,7 +5,7 @@ from typing_utils import DateData
 def add_unitdate(
     parent_element: etree._Element, datestring: str, date: DateData
 ) -> None:
-    """Creates and appends an unitdate element"""
+    """Creates and appends an unitdate element."""
     # Add Italian unitdate
     udate_element_it = etree.SubElement(
         parent_element,
@@ -53,7 +53,7 @@ def add_unitdate(
 def add_dateset(
     parent_element: etree._Element, datestring: str, date: DateData
 ) -> None:
-    """Creates and appends an unitdate element"""
+    """Creates and appends an unitdate element."""
     dateset = etree.SubElement(parent_element, "dateset")
 
     # Add Italian unitdate

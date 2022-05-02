@@ -7,7 +7,7 @@ from write_files import write_single_json_file
 
 
 def convert_wikidata_to_isni(database: IndividualsDictCleaned) -> None:
-    """Checks wikidata identifiers and sees if they can be converted to ISNI identifiers"""
+    """Checks wikidata identifiers and sees if they can be converted to ISNI identifiers."""
     for data in database.values():
         if not data.get("ISNI:id", None) and data.get("wikidata:id", None):
             wikidata = wdi_core.WDItemEngine(
@@ -23,7 +23,7 @@ def convert_wikidata_to_isni(database: IndividualsDictCleaned) -> None:
 
 
 def search_isni_api(database: IndividualsDictCleaned) -> None:
-    """Checks name and surname pairs and sees if they match with ISNI identifiers"""
+    """Checks name and surname pairs and sees if they match with ISNI identifiers."""
     for data in database.values():
         if not data.get("ISNI:id", None):
             name = f"{data['name']} {data['surname']}".replace(" ", "+")

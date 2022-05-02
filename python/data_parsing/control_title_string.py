@@ -1,5 +1,5 @@
 def control_title(title: str, file_name: str) -> None:
-    """Control document titles for common errors"""
+    """Control document titles for common errors."""
     with open("outputs/title_errors", "a", encoding="utf-8") as file:
         if title.count('"') % 2:
             print(f"|{file_name}|Uneven amount of quotes for {title}", file=file)

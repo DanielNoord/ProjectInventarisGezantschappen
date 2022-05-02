@@ -2,7 +2,7 @@ from data_parsing import initialize_translation_database
 
 
 def check_translations() -> None:
-    """Checks the JSON files that contain all translations
+    """Checks the JSON files that contain all translations.
 
     Raises:
         Exception: Whenever there are any duplicates or empty translations

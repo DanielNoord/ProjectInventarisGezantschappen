@@ -6,7 +6,7 @@ from write_files import write_single_json_file
 
 
 def sort_database(filename: str) -> None:
-    """Sorts the entries in a database
+    """Sorts the entries in a database.
 
     Args:
         filename: File name of initial database

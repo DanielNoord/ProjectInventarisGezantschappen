@@ -14,7 +14,7 @@ from write_files import write_single_json_file
 def save_database(  # pylint: disable=too-many-locals
     filename: str, previous_database: Optional[IndividualsDict] = None
 ) -> None:
-    """Load database from .docx and write .json
+    """Load database from .docx and write .json.
 
     Args:
         filename: Filename of the input file
@@ -73,7 +73,7 @@ def save_database(  # pylint: disable=too-many-locals
 
 
 def load_database(filename: str, skip_types: list[int]) -> None:
-    """Load database from .json and write .docx
+    """Load database from .json and write .docx.
 
     Args:
         filename: Name of the input file

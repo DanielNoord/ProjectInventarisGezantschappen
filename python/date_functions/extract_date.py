@@ -76,7 +76,7 @@ def extract_date(  # pylint: disable=too-many-branches
 
 
 def create_date_data(date: str) -> DateData:
-    """Create a DateData tuple by calling the extract_date for all localizations"""
+    """Create a DateData tuple by calling the extract_date for all localizations."""
     date1_it, date2_it = extract_date(date, "it_IT")
     date1_en, date2_en = extract_date(date, "en_GB")
     date1_nl, date2_nl = extract_date(date, "nl_NL")

@@ -8,7 +8,7 @@ def control_titles(
     identifier: str,
     used_titles: set[str],
 ) -> None:
-    """Controls titles of the supplied data
+    """Controls titles of the supplied data.
 
     Args:
         data: Data dict of identifier

@@ -10,7 +10,7 @@ from functions.helper_functions.parse_title_string import title as read_title
 
 
 def create_json_database(input_file):
-    """Creates JSON file from old Eigennamen file
+    """Creates JSON file from old Eigennamen file.
 
     Args:
         input_file: File name of database file
@@ -52,7 +52,7 @@ def create_json_database(input_file):
 
 
 def create_json_translations(input_file, file_name):
-    """Creates JSON from translation file
+    """Creates JSON from translation file.
 
     Args:
         input_file: Name of input file

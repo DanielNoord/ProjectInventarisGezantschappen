@@ -7,7 +7,7 @@ from date_functions.check_date_for_missing import check_date_for_missing_element
 
 
 def create_document_date(row: Tuple[Cell, ...], file_name: str) -> DateTuple:
-    """Creates and checks a documents date info from a document row"""
+    """Creates and checks a documents date info from a document row."""
     year, month, day = row[2].value, row[3].value, row[4].value
     check_date_for_missing_elements(year, month, day, row[0].value)
     try:

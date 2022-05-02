@@ -54,7 +54,7 @@ IndividualsDictCleaned = Dict[str, IndividualsDictEntry]
 
 
 class Database(NamedTuple):
-    """A fully loaded database of all data collected in the project"""
+    """A fully loaded database of all data collected in the project."""
 
     document_titles: TranslationDictCleanedDocuments
     functions: TranslationDictCleaned

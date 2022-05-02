@@ -3,7 +3,7 @@ from typing import Optional
 
 
 def parse_title(input_line: str) -> list[tuple[str, Optional[str]]]:
-    """Parses a function string
+    """Parses a function string.
 
     Args:
         input_line: Line to be parsed

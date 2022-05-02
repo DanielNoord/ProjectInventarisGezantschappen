@@ -8,7 +8,7 @@ from functions.json_translate import initialize_translation_database
 
 
 def person_with_identifier(input_file: str) -> dict:
-    """Creates a dictionary with all fully translated names and functions to be used in inventory
+    """Creates a dictionary with all fully translated names and functions to be used in inventory.
 
     Args:
         input_file: Name of the "database" file
@@ -49,7 +49,7 @@ def person_with_identifier(input_file: str) -> dict:
 
 
 def used_functions_and_titles(input_file: str) -> tuple[list[str], list[str]]:
-    """Creates two lists with all used functions and titles in Dutch
+    """Creates two lists with all used functions and titles in Dutch.
 
     Args:
         input_file: Name of the "database" file
@@ -76,7 +76,7 @@ def used_functions_and_titles(input_file: str) -> tuple[list[str], list[str]]:
 
 
 def used_names(input_file: str) -> list[str]:
-    """Creates two lists with all names in Dutch
+    """Creates two lists with all names in Dutch.
 
     Args:
         input_file: Name of the "database" file

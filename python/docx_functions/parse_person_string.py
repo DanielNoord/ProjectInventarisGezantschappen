@@ -3,7 +3,7 @@ from typing import Sequence
 
 
 def parse_person(input_line: str) -> Sequence[str]:
-    """Parses a person string
+    """Parses a person string.
 
     Args:
         input_line: Line to be parsed

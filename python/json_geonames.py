@@ -10,7 +10,7 @@ from write_files import write_single_json_file
 
 
 def load_geonames(filename: str) -> None:
-    """Load geonames data for keys in json file
+    """Load geonames data for keys in json file.
 
     Args:
         filename: Filename to load
@@ -45,7 +45,7 @@ def load_geonames(filename: str) -> None:
 
 
 def update_placenames_with_geonames(filename: str) -> None:
-    """Pull data from geonames and populate our database with it"""
+    """Pull data from geonames and populate our database with it."""
     # Load file
     with open(
         filename,

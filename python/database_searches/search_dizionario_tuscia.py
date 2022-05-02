@@ -1984,7 +1984,7 @@ ENTRIES = {
 
 
 def search_tuscia(filename: str) -> None:
-    """Checks all names in a database for hits in the Dizionario Tuscia
+    """Checks all names in a database for hits in the Dizionario Tuscia.
 
     Args:
         filename: ame of initial database

@@ -11,7 +11,7 @@ from database_searches import (
 
 
 def do_search_wikidata(filename: str) -> None:
-    """Loads the database and starts searching wikidata"""
+    """Loads the database and starts searching wikidata."""
     with open(filename, encoding="utf-8") as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
@@ -20,7 +20,7 @@ def do_search_wikidata(filename: str) -> None:
 
 
 def get_unspecified_wikidata(filename: str) -> None:
-    """Loads the database and prints entries with missing wikidata identifiers"""
+    """Loads the database and prints entries with missing wikidata identifiers."""
     with open(filename, encoding="utf-8") as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
@@ -29,7 +29,7 @@ def get_unspecified_wikidata(filename: str) -> None:
 
 
 def check_isni(filename: str) -> None:
-    """Loads the database and checks if wikidata id can be converted to ISNI dientifiers"""
+    """Loads the database and checks if wikidata id can be converted to ISNI dientifiers."""
     with open(filename, encoding="utf-8") as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]
@@ -38,7 +38,7 @@ def check_isni(filename: str) -> None:
 
 
 def do_search_isni(filename: str) -> None:
-    """Loads the database and starts searching ISNI"""
+    """Loads the database and starts searching ISNI."""
     with open(filename, encoding="utf-8") as file:
         persons_in_file = json.load(file)
     del persons_in_file["$schema"]

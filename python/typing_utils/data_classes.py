@@ -2,7 +2,7 @@ from typing import NamedTuple, Optional
 
 
 class SeriesData(NamedTuple):
-    """Data about a series"""
+    """Data about a series."""
 
     num: str
     title: str
@@ -11,7 +11,7 @@ class SeriesData(NamedTuple):
 
 
 class DateData(NamedTuple):
-    """Dates formatted in the different languages (month names)"""
+    """Dates formatted in the different languages (month names)."""
 
     date1_it: Optional[str]
     date2_it: Optional[str]
@@ -22,7 +22,7 @@ class DateData(NamedTuple):
 
 
 class FileData(NamedTuple):
-    """Data about a file"""
+    """Data about a file."""
 
     page: str
     title: str
@@ -39,7 +39,7 @@ class FileData(NamedTuple):
 
 
 class DateTuple(NamedTuple):
-    """Tuple with entry for year, month and day"""
+    """Tuple with entry for year, month and day."""
 
     year: Optional[int]
     month: Optional[int]

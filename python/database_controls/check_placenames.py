@@ -4,7 +4,7 @@ import json
 
 
 def check_all_placenames(filename: str) -> None:
-    """Checks all placenames in a given database are Italian and known
+    """Checks all placenames in a given database are Italian and known.
 
     Args:
         filename: File name of initial database

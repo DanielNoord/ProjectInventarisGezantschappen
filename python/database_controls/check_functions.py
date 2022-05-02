@@ -8,7 +8,7 @@ def control_functions(
     identifier: str,
     used_functions: set[str],
 ) -> None:
-    """Controls functions of the supplied data
+    """Controls functions of the supplied data.
 
     Args:
         data: Data dict of identifier

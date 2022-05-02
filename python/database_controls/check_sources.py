@@ -9,7 +9,7 @@ from write_files import write_single_json_file
 
 
 def update_trecanni(source: str) -> str:
-    """Downloads the correct author and title date from the Dizionario Biografico
+    """Downloads the correct author and title date from the Dizionario Biografico.
 
     Args:
         source: The source to be updated
@@ -51,7 +51,7 @@ def update_trecanni(source: str) -> str:
 
 
 def update_parlement(source: str) -> str:
-    """Downloads the correct birth date/place and death date/place from parlement.com
+    """Downloads the correct birth date/place and death date/place from parlement.com.
 
     Args:
         source: The source of the person to be update
@@ -75,7 +75,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
     count_todo: int,
     probably_wrong: list[str],
 ) -> tuple[list[str], set[re.Pattern[str]], int, list[str]]:
-    """Check the individuals sources of an entry"""
+    """Check the individuals sources of an entry."""
     for index, source in enumerate(sources):
         # Empty
         if source == "":
@@ -154,7 +154,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
 def check_all_sources(
     filename: str,
 ) -> None:
-    """Check and update all sources for given database
+    """Check and update all sources for given database.
 
     Args:
         filename: File name of initial database

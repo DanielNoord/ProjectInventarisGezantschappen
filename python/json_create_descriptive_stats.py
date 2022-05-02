@@ -6,7 +6,7 @@ import json
 def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branches, too-many-statements
     filename: str, type_list: list[int], skip: bool
 ) -> None:
-    """Print out statistics from from .json file for specified person types
+    """Print out statistics from from .json file for specified person types.
 
     Args:
         filename: Name of the input file
@@ -102,7 +102,7 @@ def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branche
 
 
 def create_total_statistics(filename: str) -> None:
-    """Print out statistics from from .json file for total file
+    """Print out statistics from from .json file for total file.
 
     Args:
         filename: Name of the input file

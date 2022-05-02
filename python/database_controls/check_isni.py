@@ -1,4 +1,4 @@
-"""Taken from https://github.com/inveniosoftware/idutils"""
+"""Taken from https://github.com/inveniosoftware/idutils."""
 
 
 def _convert_x_to_10(val: str) -> int:

@@ -14,7 +14,7 @@ def translate_xlsx(
     database: Database,
     used_translations: set[Pattern[str]],
 ) -> None:
-    """Translate .xlsx file
+    """Translate .xlsx file.
 
     Args:
         directory_name: Directory of .xlsx file

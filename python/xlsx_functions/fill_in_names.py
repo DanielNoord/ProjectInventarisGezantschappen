@@ -15,7 +15,7 @@ def fill_in_xlsx(
     database: Database,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> None:
-    """Fills an individual volume .xlsx file"""
+    """Fills an individual volume .xlsx file."""
     workbook = load_workbook(f"{directory_name}/{file_name}")
     for row in workbook[workbook.sheetnames[0]].iter_rows():
         if row[1].value is not None:

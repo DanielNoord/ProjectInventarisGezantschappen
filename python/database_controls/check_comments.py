@@ -49,7 +49,7 @@ COMMENT_PATTERNS = {
 
 
 def check_all_comments(filename: str) -> None:
-    """Checks all comments for given database
+    """Checks all comments for given database.
 
     Args:
         filename: File name of initial database

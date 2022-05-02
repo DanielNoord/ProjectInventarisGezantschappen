@@ -19,7 +19,7 @@ from xlsx_functions import (
 def create_filled_xlsx(
     directory_name: str, localization: Literal["it_IT", "nl_NL", "en_GB"]
 ) -> None:
-    """Creates the .xlsx files of all volumes in the input directory
+    """Creates the .xlsx files of all volumes in the input directory.
 
     Args:
         directory_name: Name of the directory with the input .xlsx files
@@ -44,7 +44,7 @@ def create_filled_xlsx(
 
 
 def create_xlsx_controle(directory_names: list[str]) -> None:
-    """Creates a combination of the various translated .xlsx files into one "control file"
+    """Creates a combination of the various translated .xlsx files into one "control file".
 
     Args:
         directory_names: Directories of the file to be merged
@@ -95,7 +95,7 @@ def create_xlsx_controle(directory_names: list[str]) -> None:
 def create_translated_xlsx(
     directory_name: str, localization: Literal["nl_NL", "en_GB"]
 ) -> None:
-    """Creates the .xlsx files with a number of easy translation already done
+    """Creates the .xlsx files with a number of easy translation already done.
 
     Args:
         directory_name: Name of the directory with the input .xlsx files
@@ -122,7 +122,7 @@ def create_translated_xlsx(
 
 
 def create_sanitized_xlsx(directory_name: str) -> None:
-    """Creates the .xlsx files with a number of easy sanitizations
+    """Creates the .xlsx files with a number of easy sanitizations.
 
     Args:
         directory_name: Name of the directory with the input .xlsx files
@@ -174,7 +174,7 @@ def create_xlsx_with_identifier_columns(directory_name: str) -> None:
 
 
 def do_full_loop() -> None:
-    """Completes the full process of input files till seperate translations and control file"""
+    """Completes the full process of input files till seperate translations and control file."""
     print("STARTING CREATION OF .XLSX DOCUMENTS\n")
     start_time = time.time()
     create_sanitized_xlsx("inputs/VolumesExcel/it_IT")

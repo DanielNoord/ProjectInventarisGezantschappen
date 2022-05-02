@@ -9,7 +9,7 @@ def create_person(
     person: dict,
     translation_data: list[dict, dict, dict],
 ) -> tuple[str, str]:
-    """Creates a data entry for the given person
+    """Creates a data entry for the given person.
 
     Args:
         localization: Localization abbreviation

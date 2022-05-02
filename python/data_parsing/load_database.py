@@ -7,7 +7,7 @@ from typing_utils import Database, TranslationDictCleaned, TranslationDictCleane
 def initialize_translation_database() -> tuple[
     TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
 ]:
-    """Reads the files containing all translations of titles and functions"""
+    """Reads the files containing all translations of titles and functions."""
     with open("inputs/Translations/Titles.json", encoding="utf-8") as file:
         titles = json.load(file)
     del titles["$schema"]
@@ -24,14 +24,14 @@ def initialize_translation_database() -> tuple[
 
 
 def fix_regex_patterns(pattern: str) -> str:
-    """Makes some changes to the regex patterns"""
+    """Makes some changes to the regex patterns."""
     pattern = re.sub(r"\"|“|”", r"[\"|“|”]", pattern)
     pattern = re.sub(r"\.\+", '[^"|“|”]+', pattern)
     return f"^{pattern}"
 
 
 def initialize_database_for_xml() -> Database:
-    """Reads the files containing all translations of titles and functions"""
+    """Reads the files containing all translations of titles and functions."""
     with open("inputs/Translations/Titles.json", encoding="utf-8") as file:
         titles = json.load(file)
     del titles["$schema"]

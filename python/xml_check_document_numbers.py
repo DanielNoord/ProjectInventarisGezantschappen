@@ -48,12 +48,12 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
 
 
 def get_files_in_volume_directory(volume: str, scans_directory: str) -> set[str]:
-    """Gets a files in the volume directory of a certain volume name based on a base directory"""
+    """Gets a files in the volume directory of a certain volume name based on a base directory."""
     return set(os.listdir(os.path.join(scans_directory, f"MS{volume}")))
 
 
 def traverse_c01_elements(database: TextIO, scans_directory: str) -> None:
-    """Finds all c01 files in a xml file and traverses them"""
+    """Finds all c01 files in a xml file and traverses them."""
     # Create log file
     with open("outputs/missing_files", "w", encoding="utf-8") as log:
         log.write("")

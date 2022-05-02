@@ -3,7 +3,7 @@ from typing_utils.data_classes import FileData, SeriesData
 
 
 def fix_daoset(root: etree._Element) -> None:
-    """Fixes daoset with only one dao entry"""
+    """Fixes daoset with only one dao entry."""
     for daoset in root.iterdescendants("daoset"):
         if len(child_nodes := daoset.getchildren()) == 1:  # type: ignore[attr-defined]
             # Change dao-element to have coverage of whole
@@ -20,7 +20,7 @@ def fix_daoset(root: etree._Element) -> None:
 def add_dao(
     daoset: etree._Element, file_data: FileData, individual_verso: bool
 ) -> None:
-    """Adds a dao element to a daoset"""
+    """Adds a dao element to a daoset."""
     # If only a verso we only add the verso dao-element
     if individual_verso:
         etree.SubElement(

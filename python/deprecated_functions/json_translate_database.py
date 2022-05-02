@@ -41,7 +41,7 @@ def transform_translations(dir_name: str, filename: str) -> None:
 
 
 def translate_database(dir_name: str, filename: str) -> None:
-    """Load database and translate all fields to their Italian form
+    """Load database and translate all fields to their Italian form.
 
     Args:
         dir_name: Name of the directory of file

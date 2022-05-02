@@ -4,7 +4,7 @@ from openpyxl import load_workbook
 
 
 def sanitize_xlsx(directory_name: str, file_name: str) -> None:
-    """Sanitize an .xlsx file
+    """Sanitize an .xlsx file.
 
     Args:
         directory_name: Directory of .xlsx file

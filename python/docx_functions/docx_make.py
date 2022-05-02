@@ -8,7 +8,7 @@ from typing_utils import IndividualsDictCleaned
 
 
 def list_to_be_translated(list_to_write: list[str], output_name: str) -> None:
-    """Write a docx file based on input. Adds two white lines after every entry
+    """Write a docx file based on input. Adds two white lines after every entry.
 
     Args:
         list_to_write: List of translated names to be written, all in strings
@@ -29,7 +29,7 @@ def list_to_be_translated(list_to_write: list[str], output_name: str) -> None:
 
 
 def list_of_translated_data(list_to_write: list[list[str]], output_name: str) -> None:
-    """Write a docx file based on input
+    """Write a docx file based on input.
 
     Args:
         list_to_write: List of translated data to be written, all in strings.
@@ -58,7 +58,7 @@ def list_of_translated_data(list_to_write: list[list[str]], output_name: str) ->
 def list_of_translated_data_with_style(
     list_to_write: list[list[str]], output_name: str
 ) -> None:
-    """Write a docx file based on input with style applied
+    """Write a docx file based on input with style applied.
 
     Args:
         list_to_write: List of translated data to be written, all in strings.
@@ -95,7 +95,7 @@ def list_of_translated_data_with_style(
 
 
 def list_with_style(list_of_lines: list[str], output_name: str) -> None:
-    """Write a docx file based on input
+    """Write a docx file based on input.
 
     Args:
         list_of_lines: List of lines to be written
@@ -128,7 +128,7 @@ def list_with_style(list_of_lines: list[str], output_name: str) -> None:
 def database(
     dict_of_individuals: IndividualsDictCleaned, output_name: str, skip_types: list[int]
 ) -> None:
-    """Write a docx file based on input dictionary
+    """Write a docx file based on input dictionary.
 
     Args:
         dict_of_individuals: Dictionary containing all individuals

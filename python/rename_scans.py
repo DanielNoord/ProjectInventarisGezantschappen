@@ -179,7 +179,7 @@ class FileRenamerExcel:
         print(f"Renamed {self.renamed} scans.")
 
     def rename_files(self) -> None:
-        """Full loop of renaming scan files"""
+        """Full loop of renaming scan files."""
         to_rename = self._get_files_to_rename()
         self._check_scans_exist(to_rename)
         self._rename_scans(to_rename)

@@ -9,7 +9,7 @@ from write_files import write_single_json_file
 
 
 def load_translations_documents(filename: str) -> None:
-    """Load translations from .docx and write .json for documents file
+    """Load translations from .docx and write .json for documents file.
 
     Args:
         filename: Filename of the input file
@@ -28,7 +28,7 @@ def load_translations_documents(filename: str) -> None:
 
 
 def load_translations_functions(filename: str) -> None:
-    """Load translations from .docx and write .json for functions file
+    """Load translations from .docx and write .json for functions file.
 
     Args:
         filename: Filename of the input file
@@ -48,7 +48,7 @@ def load_translations_functions(filename: str) -> None:
 
 
 def load_translations_placenames(filename: str) -> None:
-    """Load translations from .docx and write .json for placename file
+    """Load translations from .docx and write .json for placename file.
 
     Args:
         filename: Filename of the input file
@@ -65,7 +65,7 @@ def load_translations_placenames(filename: str) -> None:
 
 
 def load_translations_titles(filename: str) -> None:
-    """Load translations from .docx and write .json for titles file
+    """Load translations from .docx and write .json for titles file.
 
     Args:
         filename: Filename of the input file

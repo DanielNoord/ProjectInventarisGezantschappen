@@ -6,7 +6,7 @@ from typing_utils import FileData, SeriesData
 
 
 def parse_series(serie: tuple[Cell, ...]) -> SeriesData:
-    """Parses series. Note that current .xlsx files often do not contain series description"""
+    """Parses series. Note that current .xlsx files often do not contain series description."""
     if not isinstance(serie[0].value, (str)):
         raise ValueError(f"Series number should be a string, check {serie[0].value}")
     serie_num = re.findall(r"ms(\w+_)*(\w+?)_title", serie[0].value)[0][1]

@@ -12,7 +12,7 @@ def name_string(
     database: Database,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> str:
-    """Creates a string of a given person"""
+    """Creates a string of a given person."""
     date_tuple = create_date_tuple(date)
 
     # Create Full Name variable

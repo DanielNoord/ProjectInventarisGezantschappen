@@ -4,7 +4,7 @@ import docx  # type: ignore[import]
 
 
 def search_koelman(filename: str) -> None:
-    """Checks all names in a database for hits in biographic register of Poelman book of Asker
+    """Checks all names in a database for hits in biographic register of Poelman book of Asker.
 
     Args:
         filename: al database

@@ -3,7 +3,7 @@ from wikidataintegrator import wdi_core  # type: ignore[import]
 
 
 def search_wikidata(database: IndividualsDictCleaned) -> None:
-    """Searches wikidata for 10 best matches"""
+    """Searches wikidata for 10 best matches."""
     for data in database.values():
         if not data.get("wikidata:id", None):
             ids = wdi_core.WDItemEngine.get_wd_search_results(
@@ -42,7 +42,7 @@ def search_wikidata(database: IndividualsDictCleaned) -> None:
 
 
 def unspecified_wikidate(database: IndividualsDictCleaned) -> None:
-    """Prints out entries without a wikidata identifier"""
+    """Prints out entries without a wikidata identifier."""
     for entry, data in database.items():
         if not data.get("wikidata:id", None):
             print(f"{entry}: {data['name']} {data['surname']}")
