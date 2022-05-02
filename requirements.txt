@@ -1,4 +1,4 @@
-aiofiles~=0.7
+aiofiles~=0.8
 types-aiofiles~=0.7
 aiohttp~=3.8
 beautifulsoup4~=4.10
