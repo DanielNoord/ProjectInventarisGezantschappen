@@ -58,7 +58,7 @@ jobs:
           echo ::set-output name=body::$body
       - name: Create errors commit comment
         if: ${{ steps.STDERR.outputs.full }}
-        uses: peter-evans/commit-comment@v1
+        uses: peter-evans/commit-comment@v2
         with:
           body: |
             **An error occurred when trying to create the database!**
@@ -81,7 +81,7 @@ jobs:
           echo ::set-output name=body::$body
       - name: Create XML-DTD commit comment
         if: ${{ steps.XMLERR.outputs.full }}
-        uses: peter-evans/commit-comment@v1
+        uses: peter-evans/commit-comment@v2
         with:
           body: |
             **An error occurred when trying to create the database!**
@@ -133,7 +133,7 @@ jobs:
       # Create commit comment
       - name: Create commit comment
         if: ${{ steps.STDERR.outputs.empty && steps.XMLERR.outputs.empty }}
-        uses: peter-evans/commit-comment@v1
+        uses: peter-evans/commit-comment@v2
         with:
           body: |
             <details>
@@ -167,7 +167,7 @@ jobs:
           body="${body//$'\r'/'%0D'}"
           echo ::set-output name=body::$body
       - name: Create log commit comment
-        uses: peter-evans/commit-comment@v1
+        uses: peter-evans/commit-comment@v2
         with:
           body: |
             <details>
