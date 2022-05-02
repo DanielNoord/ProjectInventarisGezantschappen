@@ -23,3 +23,46 @@ repos:
           - openpyxl~=3.0
           - requests~=2.26
           - Babel~=2.9
+  - repo: https://github.com/myint/autoflake
+    rev: v1.4
+    hooks:
+      - id: autoflake
+        args:
+          - --in-place
+          - --remove-all-unused-imports
+          - --expand-star-imports
+          - --remove-duplicate-keys
+          - --remove-unused-variables
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.32.0
+    hooks:
+      - id: pyupgrade
+        args: [--py38-plus]
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+        args: [--profile black]
+  - repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+        args: [--quiet]
+  - repo: https://github.com/pycqa/pylint
+    rev: v2.13.7
+    hooks:
+      - id: pylint
+        args: ["--disable=fixme"]
+        additional_dependencies:
+          ["lxml~=4.6", "openpyxl~=3.0", "sparql-client~=3.8", "python-docx~=0.8", "Babel~=2.9", "wikidataintegrator~=0.9", "beautifulsoup4~=4.10", "geocoder~=1.38", "python-dotenv~=0.19", ]
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.942
+    hooks:
+      - id: mypy
+        args: [--config-file=pyproject.toml]
+        additional_dependencies:
+          ["lxml-stubs~=0.2", "types-requests~=2.25", "openpyxl-stubs~=0.1", "types-babel~=2.9", "types-beautifulsoup4~=4.10", "python-dotenv~=0.19"]
+  - repo: https://github.com/DanielNoord/pydocstringformatter
+    rev: v0.5.3
+    hooks:
+      - id: pydocstringformatter
