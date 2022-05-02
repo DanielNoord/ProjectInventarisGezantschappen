@@ -1,6 +1,6 @@
 aiofiles~=0.8
-types-aiofiles~=0.7
 aiohttp~=3.8
+Babel~=2.10
 beautifulsoup4~=4.11
 geocoder~=1.38
 lxml~=4.8
@@ -10,4 +10,3 @@ python-dotenv~=0.20
 requests~=2.27
 sparql-client~=3.8
 wikidataintegrator~=0.9
-Babel~=2.9
