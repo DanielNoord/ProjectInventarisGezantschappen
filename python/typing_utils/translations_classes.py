@@ -1,21 +1,26 @@
 from typing import Dict, NamedTuple, Optional, Pattern, TypedDict, Union
 
+
 # Dictionaries for the Translation files
-TranslationDictEntry = TypedDict("TranslationDictEntry", {"nl_NL": str, "en_GB": str})
-TranslationDictEntryTitles = TypedDict(
-    "TranslationDictEntryTitles", {"nl_NL": str, "en_GB": str, "position": str}
-)
-TranslationDictEntryPlacenames = TypedDict(
-    "TranslationDictEntryPlacenames",
-    {
-        "nl_NL": str,
-        "en_GB": str,
-        "geonames_id": int,
-        "geonames_wikipedia": str,
-        "longitude": str,
-        "latitude": str,
-    },
-)
+class TranslationDictEntry(TypedDict):
+    nl_NL: str
+    en_GB: str
+
+
+class TranslationDictEntryTitles(TypedDict):
+    nl_NL: str
+    en_GB: str
+    position: str
+
+
+class TranslationDictEntryPlacenames(TypedDict):
+    nl_NL: str
+    en_GB: str
+    geonames_id: int
+    geonames_wikipedia: str
+    longitude: str
+    latitude: str
+
 
 TranslationDict = Dict[str, Union[str, TranslationDictEntry]]
 TranslationDictCleaned = Dict[str, TranslationDictEntry]

@@ -42,7 +42,7 @@ class EADMaker(XMLWriter):
 
         if print_identifier_count:
             count = sorted(
-                [(v, k) for k, v in self.identifier_counter.items()],
+                ((v, k) for k, v in self.identifier_counter.items()),
                 key=lambda tup: -tup[0],
             )
             for i in count:

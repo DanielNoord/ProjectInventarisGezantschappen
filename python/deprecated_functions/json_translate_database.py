@@ -16,7 +16,7 @@ def transform_translations(dir_name: str, filename: str) -> None:
         filename: Filename of the input file
     """
     new_data = {}
-    with open("/".join((dir_name, filename)), "r", encoding="utf-8") as file:
+    with open("/".join((dir_name, filename)), encoding="utf-8") as file:
         data = json.load(file)
     for entry, values in data.items():
         if entry != "$schema":
@@ -50,7 +50,7 @@ def translate_database(dir_name: str, filename: str) -> None:
     translated_titles, translated_functions, _ = initialize_translation_database()
 
     new_data = {}
-    with open("/".join((dir_name, filename)), "r", encoding="utf-8") as file:
+    with open("/".join((dir_name, filename)), encoding="utf-8") as file:
         data = json.load(file)
     for entry, values in data.items():
         if entry != "$schema":
