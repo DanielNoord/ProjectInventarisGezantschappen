@@ -98,9 +98,6 @@ class EADMaker(XMLWriter):
         print("Writing XML complete!")
 
         # Printing some descriptive stats
-        print("Found the following dossiers:")
-        for i in self.series.values():
-            print(", ".join(i))
         print("Found the following unused translations:")
         print(
             "\n".join(
