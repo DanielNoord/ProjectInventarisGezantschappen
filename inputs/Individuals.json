@@ -12151,6 +12151,34 @@
     "titles": [],
     "wikidata:id": "Q3179778"
   },
+  "$Leopold": {
+    "ISNI:id": null,
+    "comment_daniel": "Stelt Chastel op de hoogte van de dood van G. Meuricoffre",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [
+      [
+        "Rappresentante della Compagnia Olandese di Navigazione a Vapore a Napoli",
+        null
+      ],
+      [
+        "Rappresentante della ditta Leupold Frères",
+        null
+      ]
+    ],
+    "images": [],
+    "name": "Louis",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [
+      "Annuario storico statistico commerciale di Bari e provincia (1886), p. 453"
+    ],
+    "surname": "Leopold",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Leveroni": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -13635,6 +13663,23 @@
     "surname": "Mazzini",
     "titles": [],
     "wikidata:id": "Q187336"
+  },
+  "$Mectoeren": {
+    "ISNI:id": null,
+    "comment_daniel": "Te weinig info om te kunnen bepalen wie dit",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "B",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Mectoeren",
+    "titles": [],
+    "wikidata:id": null
   },
   "$MediciS": {
     "ISNI:id": "0000 0000 1054 5064",
@@ -17685,6 +17730,28 @@
     "titles": [
       [
         "ammiraglio",
+        null
+      ]
+    ],
+    "wikidata:id": null
+  },
+  "$Regent": {
+    "ISNI:id": null,
+    "comment_daniel": "Van de ordine equestre del Belgio",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Pierre",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Regent",
+    "titles": [
+      [
+        "Cav.",
         null
       ]
     ],
