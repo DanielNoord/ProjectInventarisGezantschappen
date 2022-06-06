@@ -1590,6 +1590,11 @@
     "it_IT": "Correspondance sui divers objets \\(Corrispondenza su vari oggetti\\)$",
     "nl_NL": "Correspondance sui divers objets (Correspondentie over verschillende onderwerpen)"
   },
+  "Corrispondenza Politica$": {
+    "en_GB": "Political correspondence",
+    "it_IT": "Corrispondenza Politica$",
+    "nl_NL": "Politieke correspondentie"
+  },
   "Corrispondenza Politica. Legazione di Torino$": {
     "en_GB": "Political correspondence. Legation of Turin",
     "it_IT": "Corrispondenza Politica. Legazione di Torino$",
@@ -1820,10 +1825,15 @@
     "it_IT": "Document Maritime da Le Journal Officiel \\(a stampa\\) firmato (da|dal) (\\$\\w+)$",
     "nl_NL": "Document Maritime uit Le Journal Officiel (gedrukt) ondertekend door \\2"
   },
+  "Documentazione a stampa \"(.+)\" \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed documentation “\\1” (Rome, Tipografia delle Belle Arti, \\2)",
+    "it_IT": "Documentazione a stampa \"(.+)\" \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d)\\)$",
+    "nl_NL": "Gedrukte documentatie “\\1” (Rome, Tipografia delle Belle Arti, \\2)"
+  },
   "Documentazione a stampa \"(.+)\" datata Livorno, (\\d\\d?) nov. (\\d\\d\\d\\d), (di|del|della) (\\$\\w+) circa i diritti di navigazione, sanità e porto \\(Firenze, Stamperia Granducale, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed documentation “\\1” dated at Livorno, \\2 Nov. \\3, from \\5 about the rights of navigation, health and the port (Florence, Stamperia Granducale, \\6)",
     "it_IT": "Documentazione a stampa \"(.+)\" datata Livorno, (\\d\\d?) nov. (\\d\\d\\d\\d), (di|del|della) (\\$\\w+) circa i diritti di navigazione, sanità e porto \\(Firenze, Stamperia Granducale, (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt documentatie “\\1” gedateerd te Livorno \\2 nov. \\3, van van \\5 over scheepsvaartrechten, gezondheid en de haven (Florence, Stamperia Granducale, \\6)"
+    "nl_NL": "Gedrukte documentatie “\\1” gedateerd te Livorno \\2 nov. \\3, van van \\5 over scheepsvaartrechten, gezondheid en de haven (Florence, Stamperia Granducale, \\6)"
   },
   "Documenti relativi alla proclamazione del dogma dell'Immacolata Concezione$": {
     "en_GB": "Documents relating to the proclamation of the dogma of the Immacolata Concezione",
@@ -1834,6 +1844,11 @@
     "en_GB": "Documents relating to the consumption rate and other colonial matters",
     "it_IT": "Documenti relativi alla tassa di consumo e altri generi coloniali$",
     "nl_NL": "Documenten gerelateerd aan verbruikersbelasting en andere koloniale zaken"
+  },
+  "Documenti vari$": {
+    "en_GB": "Various documents",
+    "it_IT": "Documenti vari$",
+    "nl_NL": "Diverse documenten"
   },
   "Documents relatifs aux troupes ponticales$": {
     "en_GB": "Documents relatifs aux troupes ponticales",
@@ -2589,6 +2604,11 @@
     "en_GB": "Printed sheet \"\\1\" (Rome, \\2 Jan. \\3), circulaire relating to the nocturnal signal in the case of fog for the sailing and steam ships with a pontifical banner",
     "it_IT": "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\), circolare relativa alla segnalazione notturna in caso di nebbia per i bastimenti di bandiera pontificia a vapore e a vela$",
     "nl_NL": "Gedrukt blad \"\\1\" (Rome, \\2 jan. \\3), circulaire aangaande het nachtelijke signaal in het geval van mist voor zeil- en stoomschepen met een kerkelijke bannier"
+  },
+  "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d?) nov. (\\d\\d\\d\\d)\\). Allegata lettera apostolica$": {
+    "en_GB": "Printed sheet \"\\1\" (Rome, \\2 Nov. \\3). Attached apostolic letter",
+    "it_IT": "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d?) nov. (\\d\\d\\d\\d)\\). Allegata lettera apostolica$",
+    "nl_NL": "Gedrukt blad \"\\1\" (Rome, \\2 nov. \\3). Bijgevoegde apostolische brief"
   },
   "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, \\2)",
@@ -3689,6 +3709,11 @@
     "en_GB": "Index of the documents present in the section “\\1”",
     "it_IT": "Indice dei documenti presenti nella sezione \"(.+)\"$",
     "nl_NL": "Index van de documenten aanwezig onder de sectie “\\1”"
+  },
+  "Indice del volume$": {
+    "en_GB": "Index of a volume",
+    "it_IT": "Indice del volume$",
+    "nl_NL": "Index van een volume"
   },
   "Indice$": {
     "en_GB": "Index",
@@ -8344,6 +8369,11 @@
     "en_GB": "Report of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the Republican government",
     "it_IT": "Verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$",
     "nl_NL": "Rapport van de Commissie voorgezeten door \\1 welke de schade verifieert die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door het Franse expeditieleger als de Republikeinse overheid"
+  },
+  "Viaggio in Italia dei Granduchi ereditari di Sassonia Weimar Eisenach$": {
+    "en_GB": "Travels through Italy of the Hereditary Grand Dukes of Saxe-Weimar-Eisenach",
+    "it_IT": "Viaggio in Italia dei Granduchi ereditari di Sassonia Weimar Eisenach$",
+    "nl_NL": "Reis door Italië van de Erfgroothertogen van Saksen-Weimar-Eisenach"
   },
   "Vol. (\\d+)": {
     "en_GB": "Vol. \\1",
