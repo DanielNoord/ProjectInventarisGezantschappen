@@ -7,7 +7,8 @@ from docx_functions import list_to_be_translated, list_with_style
 
 
 def create_to_be_translated(input_file):
-    """Creates .docx file with all functions and titles to be translated
+    """Creates .docx file with all functions and titles to be translated.
+
     Likely unnecessary in future
 
     Args:
@@ -20,7 +21,8 @@ def create_to_be_translated(input_file):
 
 
 def create_names_in_fondo(input_file):
-    """Creates .docx file with all names mentioned in "fondo" file
+    """Creates .docx file with all names mentioned in "fondo" file.
+
     Adds a possible identifier for each entry
     Likely unnecessary in future
 

@@ -10,6 +10,7 @@ def extract_date(  # pylint: disable=too-many-branches
     date_string: str, localization: Literal["it_IT", "nl_NL", "en_GB"]
 ) -> tuple[Optional[str], Optional[str]]:
     """Returns a string containing the written date based on localization.
+
         (tries to) Handles missing data correctly
 
     Args:

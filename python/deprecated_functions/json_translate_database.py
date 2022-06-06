@@ -8,7 +8,8 @@ from data_parsing import initialize_translation_database
 
 
 def transform_translations(dir_name: str, filename: str) -> None:
-    """Load translations with the form Dutch {Dutch, Italian, English} and
+    """Load translations with the form Dutch {Dutch, Italian, English} and.
+
     create file with Italian {Dutch, English} form for each key
 
     Args:

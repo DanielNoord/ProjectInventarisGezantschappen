@@ -7,7 +7,9 @@ from typing_utils import IndividualsDictCleaned
 
 
 def list_to_be_translated(list_to_write: list[str], output_name: str) -> None:
-    """Write a docx file based on input. Adds two white lines after every entry.
+    """Write a docx file based on input.
+
+    Adds two white lines after every entry.
 
     Args:
         list_to_write: List of translated names to be written, all in strings

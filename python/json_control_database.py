@@ -20,7 +20,8 @@ from typing_utils.translations_classes import IndividualsDictCleaned
 def check_entries(  # pylint: disable=too-many-branches, too-many-statements
     input_file: str,
 ) -> None:
-    """Checks whether the input file is correct and fits all criteria of a correct database file
+    """Checks whether the input file is correct and fits all criteria of a correct database file.
+
     Checks for unknown functions, titles, etc.
 
     Args:

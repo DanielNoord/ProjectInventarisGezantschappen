@@ -5,7 +5,8 @@ from lxml import etree
 
 
 def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
-    """Checks all dao elements in a volume and checks if they can be found in
+    """Checks all dao elements in a volume and checks if they can be found in.
+
     a volume directory.
 
     Prints a warning if a file is never used.

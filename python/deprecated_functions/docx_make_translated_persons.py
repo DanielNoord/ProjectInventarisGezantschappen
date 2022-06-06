@@ -7,7 +7,8 @@ from functions.docx_load import extract_persons_and_identifiers
 
 
 def create_name_docx(input_file_names, input_file_data) -> None:
-    """Creates a document with all names encountered in the input_file with translations
+    """Creates a document with all names encountered in the input_file with translations.
+
     in Italian, Dutch and English
 
     Args:
@@ -31,7 +32,8 @@ def create_name_docx(input_file_names, input_file_data) -> None:
 
 
 def create_name_docx_with_style(input_file_names, input_file_data):
-    """Creates a document with all names encountered in the input_file with translations
+    """Creates a document with all names encountered in the input_file with translations.
+
     in Italian, Dutch and English with added style (italic etc.)
 
     Args:
