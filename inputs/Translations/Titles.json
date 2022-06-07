@@ -10,11 +10,6 @@
     "nl_NL": "1e Burggraaf van Alte",
     "position": "After"
   },
-  "1° ufficiale della sanità in pensione di 2° classe": {
-    "en_GB": "retired 1st officer of health, 2nd class,",
-    "nl_NL": "gepensioneerd 1e officier van gezondheid, 2e klasse,",
-    "position": "Before"
-  },
   "3° Conte di Malmesbury": {
     "en_GB": "3rd Earl of Malmesbury",
     "nl_NL": "3e Graaf van Malmesbury",
@@ -133,11 +128,6 @@
   "colonnello": {
     "en_GB": "colonel",
     "nl_NL": "kolonel",
-    "position": "Before"
-  },
-  "comandante": {
-    "en_GB": "commander",
-    "nl_NL": "commandant",
     "position": "Before"
   },
   "commendatore": {
@@ -263,11 +253,6 @@
   "generale": {
     "en_GB": "general",
     "nl_NL": "generaal",
-    "position": "Before"
-  },
-  "generale di fanteria": {
-    "en_GB": "general of the infantry",
-    "nl_NL": "generaal der infanterie",
     "position": "Before"
   },
   "jonkheer": {

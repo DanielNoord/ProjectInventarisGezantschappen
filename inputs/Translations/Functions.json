@@ -1,5 +1,9 @@
 {
   "$schema": "../../static/JSON/Functions.json",
+  "1° ufficiale della sanità in pensione di 2° classe": {
+    "en_GB": "Retired 1st officer of health, 2nd class,",
+    "nl_NL": "Gepensioneerd 1e officier van gezondheid, 2e klasse,"
+  },
   "Addetto alla Legazione del Regno dei Paesi Bassi a Roma": {
     "en_GB": "Attaché to the Legation of the Kingdom of the Netherlands in Rome",
     "nl_NL": "Attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
@@ -375,6 +379,10 @@
   "Colonnello della Guardia Nazionale di Torino": {
     "en_GB": "Colonel of the National Guard of Turin",
     "nl_NL": "Kolonel van de Nationale Garde van Turijn"
+  },
+  "Comandante": {
+    "en_GB": "Commander",
+    "nl_NL": "Commandant"
   },
   "Comandante dei depositi delle armi dell'esercitio pontificio a Roma": {
     "en_GB": "Commander of the arms depots of the papal army in Rome",
@@ -983,6 +991,10 @@
   "Generale della Guardia Civica di Roma": {
     "en_GB": "General of the Civic Guard of Rome",
     "nl_NL": "Generaal van de Burgerwacht van Rome"
+  },
+  "Generale di fanteria": {
+    "en_GB": "General of the infantry",
+    "nl_NL": "Generaal der infanterie"
   },
   "Generale nell'esercito francese": {
     "en_GB": "General in the French army",

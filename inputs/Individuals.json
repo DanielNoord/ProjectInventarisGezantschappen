@@ -1078,6 +1078,10 @@
         "1846-09-24/1859-04-27"
       ],
       [
+        "Comandante",
+        "1848/1850"
+      ],
+      [
         "Ministro plenipotenziario del Granducato di Toscana presso la Santa Sede",
         "1859-04-27/1866"
       ]
@@ -1097,10 +1101,6 @@
       [
         "Cav.",
         "/1848"
-      ],
-      [
-        "comandante",
-        "1848/1850"
       ],
       [
         "marchese",
@@ -6595,6 +6595,10 @@
     "date_of_death": "1884-06-04",
     "functions": [
       [
+        "Generale di fanteria",
+        null
+      ],
+      [
         "Governatore della Residenza all'Aia",
         "1853/"
       ]
@@ -6614,7 +6618,7 @@
     "surname": "Duycker",
     "titles": [
       [
-        "generale di fanteria",
+        "generale",
         null
       ],
       [
@@ -12044,7 +12048,12 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "1° ufficiale della sanità in pensione di 2° classe",
+        null
+      ]
+    ],
     "images": [],
     "name": "W.C.",
     "person_type": 1,
@@ -12055,12 +12064,7 @@
       "van Dommelen, G.F., Geschiedenis der militaire geneeskundige dienst in Nederland, met inbegrip van die zijner zeemagt en overzeesche bezittingen, van af den vroegsten tijd tot op heden (Zutphen, 1857), XII"
     ],
     "surname": "van Leersum",
-    "titles": [
-      [
-        "1° ufficiale della sanità in pensione di 2° classe",
-        null
-      ]
-    ],
+    "titles": [],
     "wikidata:id": null
   },
   "$Lencisa": {
@@ -13251,6 +13255,10 @@
       [
         "Primo ufficiale del Ministero degli Affari Esteri del Regno delle Due Sicilie",
         null
+      ],
+      [
+        "Comandante",
+        null
       ]
     ],
     "images": [],
@@ -13263,12 +13271,7 @@
       "Ministero dell'interno, Calendario generale pe' regii stati (Turin, 1848), 170"
     ],
     "surname": "de Marsilio",
-    "titles": [
-      [
-        "comandante",
-        null
-      ]
-    ],
+    "titles": [],
     "wikidata:id": null
   },
   "$Martin": {
