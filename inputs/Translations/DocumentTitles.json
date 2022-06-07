@@ -4976,9 +4976,9 @@
     "nl_NL": "Brief van de consul-generaal van Zijne Majesteit der Nederlanden bij de koning van Sardinië ondertekend door \\1 to \\3"
   },
   "Lettera del Direzione Generale del Ministero della Marina (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Draft letter from the General Directorate of the Ministry of the Navy to \\2",
+    "en_GB": "Letter from the General Directorate of the Ministry of the Navy to \\2",
     "it_IT": "Lettera del Direzione Generale del Ministero della Marina (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Conceptbrief van het directoraat-generaal van het ministerie van Marine aan \\2"
+    "nl_NL": "Brief van het directoraat-generaal van het ministerie van Marine aan \\2"
   },
   "Lettera del Gabinetto della Questura di Roma (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the Cabinet of the Police Headquarters of Rome to \\2",
@@ -7423,7 +7423,7 @@
   "Traduzione del \"(.+)\" (di|del|della) (\\$\\w+) sulla imposizione delle tariffe dei cereali \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Translation of “\\1” from \\3 on the imposition of tariffs on grain (Rome, Tipografia della Rev. Cam. Apost., \\4)",
     "it_IT": "Traduzione del \"(.+)\" (di|del|della) (\\$\\w+) sulla imposizione delle tariffe dei cereali \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Vertaling van blad “\\1” van \\3 over de invoering van tarieven op graan (Rome, Tipografia della Rev. Cam. Apost., \\4)"
+    "nl_NL": "Vertaling van “\\1” van \\3 over de invoering van tarieven op graan (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "Traduzione del \"(.+)\" (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of “\\1” from \\3",
@@ -8076,9 +8076,9 @@
     "nl_NL": "Afschrift van een edict door \\2 verstuurd door \\4"
   },
   "Trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Printed transcript of an edict of \\2",
+    "en_GB": "Transcript of an edict of \\2",
     "it_IT": "Trascrizione di un Editto (di|del|della) (\\$\\w+)$",
-    "nl_NL": "Gedrukt afschrift van een edict van \\2"
+    "nl_NL": "Afschrift van een edict van \\2"
   },
   "Trascrizione di un appello (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Transcript of an appeal from \\2 to \\4",
@@ -8316,9 +8316,9 @@
     "nl_NL": "Handgeschreven afschrift van een proclamatie “\\1” ondertekend \\2"
   },
   "Trascrizioni del carteggio tra (\\$\\w+) e (\\$\\w+) in data Genova$": {
-    "en_GB": "Transcripts of the correspondence between the Governor, Duke of Genoa and \\1 dated Genoa",
+    "en_GB": "Transcripts of the correspondence between \\1 and \\2 dated Genoa",
     "it_IT": "Trascrizioni del carteggio tra (\\$\\w+) e (\\$\\w+) in data Genova$",
-    "nl_NL": "Afschriften van de correspondentie tussen de gouverneur, de Hertog van Genua en \\1 gedateerd te Genua"
+    "nl_NL": "Afschriften van de correspondentie tussen \\1 en \\2 gedateerd te Genua"
   },
   "Trascrizioni di lettere (a|al) (\\$\\w+) e (a|al) (\\$\\w+)$": {
     "en_GB": "Transcripts of letters to \\2 and to \\4",
