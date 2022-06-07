@@ -6,7 +6,8 @@ from docx_functions import list_of_translated_data
 
 
 def create_controle_translations() -> None:
-    """Create .docx files of all titles and functions found by the translate functions
+    """Create .docx files of all titles and functions found by the translate functions.
+
     Includes Italian and English translations on second and third row
     """
     with open("inputs/Translations/Titles.json", encoding="utf-8") as file:

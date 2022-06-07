@@ -21,15 +21,15 @@ class _ErrorLogger:
         """Create some files to store messages during the creation process."""
         with open(self.log_missing_translations, "w", encoding="utf-8") as file:
             file.writelines(
-                "|no.  |Missing translations |\n" "| ------------- | ------------- |\n"
+                "|no.  |Missing translations |\n| ------------- | ------------- |\n"
             )
         with open(self.log_missing_titles, "w", encoding="utf-8") as file:
             file.writelines(
-                "|no.  |Missing titles |\n" "| ------------- | ------------- |\n"
+                "|no.  |Missing titles |\n| ------------- | ------------- |\n"
             )
         with open(self.log_title_errors, "w", encoding="utf-8") as file:
             file.writelines(
-                "|no.  |Errors in titles |\n" "| ------------- | ------------- |\n"
+                "|no.  |Errors in titles |\n| ------------- | ------------- |\n"
             )
         with open(self.log_xml_errors, "w", encoding="utf-8") as file:
             file.writelines("")

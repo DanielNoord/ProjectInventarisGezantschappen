@@ -85,7 +85,8 @@ def load_database(filename: str, skip_types: list[int]) -> None:
 
 
 def merge_database(filename: str, previous_database_filename: str) -> None:
-    """Merges a file with a subset of the database (for example only a single person type)
+    """Merges a file with a subset of the database (for example only a single person type).
+
     with a given previous database
 
     Args:
