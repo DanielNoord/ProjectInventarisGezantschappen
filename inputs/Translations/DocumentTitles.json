@@ -735,9 +735,9 @@
     "it_IT": "Avviso (di|del|della) (\\$\\w+) ai marinai \\(naviganti\\)$",
     "nl_NL": "Bekendmaking van \\2 aan de zeelieden"
   },
-  "Avviso a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) circa la sua costituzione diretto$": {
+  "Avviso a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) circa la sua costituzione$": {
     "en_GB": "Printed notice from \\2 to \\4 concerning her constitution",
-    "it_IT": "Avviso a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) circa la sua costituzione diretto$",
+    "it_IT": "Avviso a stampa (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) circa la sua costituzione$",
     "nl_NL": "Gedrukte bekendmaking van \\2 aan \\4 aangaande haar grondwet"
   },
   "Avviso a stampa (di|del|della) (\\$\\w+) ai naviganti$": {
@@ -1120,10 +1120,10 @@
     "it_IT": "Certificazione$",
     "nl_NL": "Certificering"
   },
-  "Chrestomathie hérétique de l'ecphonographie française \\(a stampa\\)$": {
-    "en_GB": "Chrestomathie hérétique de l'ecphonographie française (printed)",
-    "it_IT": "Chrestomathie hérétique de l'ecphonographie française \\(a stampa\\)$",
-    "nl_NL": "Chrestomathie hérétique de l'ecphonographie française (gedrukt)"
+  "Chrestomathie exégétique de l'ecphonographie française \\(a stampa\\)$": {
+    "en_GB": "Chrestomathie exégétique de l'ecphonographie française (printed)",
+    "it_IT": "Chrestomathie exégétique de l'ecphonographie française \\(a stampa\\)$",
+    "nl_NL": "Chrestomathie exégétique de l'ecphonographie française (gedrukt)"
   },
   "Circolare (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Circular letter of \\2 to \\4",
@@ -1161,9 +1161,9 @@
     "nl_NL": "Gedrukte circulaire van het ministerie van Binnenlandse Zaken ondertekend door \\1 over de terugtrekking van de Oostenrijkers uit Ferrara, maar met de huidige dreiging van buitenlandse mogendheden (Rome, 18 juli 1848)"
   },
   "Circolare a stampa della Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti relativa a “(.+)”$": {
-    "en_GB": "Printed circular letter of the Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti (General Directorate of Customs) relating to \\1",
+    "en_GB": "Printed circular letter of the Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti (General Directorate of Customs, Duties, Consumption and Customs Rights) relating to \\1",
     "it_IT": "Circolare a stampa della Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti relativa a “(.+)”$",
-    "nl_NL": "Gedrukte circulaire van het Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti (directoraat-generaal van Douane) aangaande \\1"
+    "nl_NL": "Gedrukte circulaire van het Direzione Generale delle Dogane, dei Dazii, di consumo e dei Diritti Uniti (directoraat-generaal van Douane, Invoerheffingen, Consumptie en van Invoerechten) aangaande \\1"
   },
   "Circolare agli'inviati e ai consoli della Repubblica Romana all'estero \\(traduzione\\)$": {
     "en_GB": "Circular letter to the envoys and the consuls of the Roman Republic abroad (translation)",
@@ -5385,9 +5385,9 @@
     "it_IT": "Memoria$",
     "nl_NL": "Memorie"
   },
-  "Memorie su una raffineria a Grotta a mare$": {
+  "Memorie su una raffineria a Grotta a mare \\(Grottamare\\)$": {
     "en_GB": "Memorandum on a refinery at Grotta a mare (Grottammare)",
-    "it_IT": "Memorie su una raffineria a Grotta a mare$",
+    "it_IT": "Memorie su una raffineria a Grotta a mare \\(Grottamare\\)$",
     "nl_NL": "Memorie over een raffinaderij in Grotta a mare (Grottammare)"
   },
   "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancône, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$": {
@@ -5770,9 +5770,9 @@
     "it_IT": "Nota diretta al corpo diplomatico$",
     "nl_NL": "Nota gericht aan het corps diplomatique"
   },
-  "Nota e osservazioni sul rapporto del Consiglio del Granducato di Lussemburgo$": {
+  "Nota e osservazioni sul rapporto del Consiglio \\(Conseil d'État)\\) del Granducato di Lussemburgo$": {
     "en_GB": "Note and observations on the rapport of the State Council (Conseil d'État) of the Grand Duchy of Luxembourg",
-    "it_IT": "Nota e osservazioni sul rapporto del Consiglio del Granducato di Lussemburgo$",
+    "it_IT": "Nota e osservazioni sul rapporto del Consiglio \\(Conseil d'État)\\ del Granducato di Lussemburgo$",
     "nl_NL": "Nota en observaties over het rapport van de Staatsraad (Conseil d'État) van het Groothertogdom Luxemburg"
   },
   "Nota firmata (da|dal|dalla) (\\$\\w+)$": {
@@ -6331,14 +6331,14 @@
     "nl_NL": "Verordeningen voorgesteld aan het Consiglio dei Deputati (Raad van Afgevaardigden) door de minister van Financiën"
   },
   "Ordine del giorno (di|del|della) (\\$\\w+) \\(a stampa\\)$": {
-    "en_GB": "Agenda of \\2 (printed)",
+    "en_GB": "Order of the day of \\2 (printed)",
     "it_IT": "Ordine del giorno (di|del|della) (\\$\\w+) \\(a stampa\\)$",
-    "nl_NL": "Agenda van \\2 (gedrukt)"
+    "nl_NL": "Dagorder van \\2 (gedrukt)"
   },
   "Ordine del giorno$": {
-    "en_GB": "Agenda",
+    "en_GB": "Order of the day",
     "it_IT": "Ordine del giorno$",
-    "nl_NL": "Agenda"
+    "nl_NL": "Dagorder"
   },
   "Ordine di concessione di alcuni cavalli a favore (di|del|della) (\\$\\w+) da parte della Segreteria di Stato della Santa Sede$": {
     "en_GB": "Order granting permission for several horses to \\2 on the part of the Secretariat of State of the Holy See",
@@ -7020,9 +7020,9 @@
     "it_IT": "Schedola Testamentaria (di|del|della) (\\$\\w+)$",
     "nl_NL": "Testament van \\2"
   },
-  "Seconde demande des héritiers Jochems de La Haye$": {
+  "Seconde demande des héritiers Jochems de La Haye \\(seconda richiesta degli eredi Jochems dell’Aia\\)$": {
     "en_GB": "Seconde demande des héritiers Jochems de La Haye (second request of the Jochems heirs from The Hague)",
-    "it_IT": "Seconde demande des héritiers Jochems de La Haye$",
+    "it_IT": "Seconde demande des héritiers Jochems de La Haye \\(seconda richiesta degli eredi Jochems dell’Aia\\)$",
     "nl_NL": "Seconde demande des héritiers Jochems de La Haye (tweede verzoek van de erven Jochems uit Den Haag)"
   },
   "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations \\(Seconda nota indicativa dei funzionari tanto civili che militari ai quali si potrebbe conferire le onorificenze\\)$": {
@@ -7105,10 +7105,10 @@
     "it_IT": "Statuti della Società Olivi-Moricola dello Stato Pontificio \\(a stampa\\)$",
     "nl_NL": "Statuten van de Società Olivi-Moricola van de Kerkelijke Staat (gedrukt)"
   },
-  "Statuto a stampa per il governo della Toscana \"(.+)\"$": {
-    "en_GB": "Printed statute for the government of Tuscany \"\\1\"",
-    "it_IT": "Statuto a stampa per il governo della Toscana \"(.+)\"$",
-    "nl_NL": "Gedrukt statuut voor de regering van Toscane \"\\1\""
+  "Statuto a stampa del governo della Toscana \"(.+)\"$": {
+    "en_GB": "Printed statute of the government of Tuscany \"\\1\"",
+    "it_IT": "Statuto a stampa del governo della Toscana \"(.+)\"$",
+    "nl_NL": "Gedrukt statuut van de regering van Toscane \"\\1\""
   },
   "Suite du journal de M. Magrini \\(Continuazione del giornale (di|del|della) (\\$\\w+) con trascrizioni di avvisi e proclami\\)$": {
     "en_GB": "Suite du journal de M. Magrini (Continuation of the journal of \\2 with transcripts of announcements and proclamations)",
@@ -7871,9 +7871,9 @@
     "nl_NL": "Afschrift van een Edict van \\2"
   },
   "Trascrizione di Ordine del giorno (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Transcript of agenda of \\2",
+    "en_GB": "Transcript of the order of the day of \\2",
     "it_IT": "Trascrizione di Ordine del giorno (di|del|della) (\\$\\w+)$",
-    "nl_NL": "Afschrift van agenda van \\2"
+    "nl_NL": "Afschrift van de dagorder van \\2"
   },
   "Trascrizione di alcuni determinazioni generali del dipartimento degli Affari Esteri$": {
     "en_GB": "Transcript of several general provisions of the department of Foreign Affairs",
@@ -8245,9 +8245,9 @@
     "it_IT": "Trascrizioni e copie di lettere fatte (da|dal) (\\$\\w+) indirizzate (a|ad) (\\$\\w+), Genova, Marsiglia, Barcellona$",
     "nl_NL": "Afschriften en kopieën van brieven gemaakt door \\2 gericht aan \\4, Genua, Marseille, Barcelona"
   },
-  "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua$": {
+  "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua \\(Secondo semestre dell’anno 1818. Elenco per sei mesi, degli arrivi e delle partenze delle navi della marina mercantile olandese nel porto di Genova\\)$": {
     "en_GB": "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua (Second semestre of the year 1818. Six months list with the arrivals and departures of Dutch merchant ships in the port of Genoa)",
-    "it_IT": "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua$",
+    "it_IT": "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua \\(Secondo semestre dell’anno 1818. Elenco per sei mesi, degli arrivi e delle partenze delle navi della marina mercantile olandese nel porto di Genova\\)$",
     "nl_NL": "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua"
   },
   "Unione doganale della Toscana con l'Austria e osservazioni relative$": {
@@ -8270,14 +8270,14 @@
     "it_IT": "Vol. (\\d+)",
     "nl_NL": "Vol. \\1"
   },
-  "Zes Maanden Lijst van 't eerste semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua$": {
+  "Zes Maanden Lijst van 't eerste semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua \\(Elenco per sei mesi del primo semestre dell’anno 1819, degli arrivi e delle partenze delle navi della marina mercantile olandese nel porto di Genova\\)$": {
     "en_GB": "Zes Maanden Lijst van 't eerste semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua (Six months list of the first semestre of the year 1819, with the arrivals and departures of Dutch ships in the port of Genoa)",
-    "it_IT": "Zes Maanden Lijst van 't eerste semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua$",
+    "it_IT": "Zes Maanden Lijst van 't eerste semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua \\(Elenco per sei mesi del primo semestre dell’anno 1819, degli arrivi e delle partenze delle navi della marina mercantile olandese nel porto di Genova\\)$",
     "nl_NL": "Zes Maanden Lijst van 't eerste semester des Jaar 1819, van Aankomst en Vertrek, der Nederlandsche Schepen in den Haven van Genua"
   },
-  "Zes Maanden Lijst van Aankomst en Vertrek, der Nationale Schepen in de Haven Van Genua$": {
+  "Zes Maanden Lijst van Aankomst en Vertrek, der Nationale Schepen in de Haven Van Genua \\(Elenco per sei mesi degli arrivi e delle partenze delle navi nazionali nel porto di Genova\\)$": {
     "en_GB": "Zes Maanden Lijst van Aankomst en Vertrek, der Nationale Schepen in de Haven Van Genua (Six months list of arrivals and departures of national vessels in the port of Genoa)",
-    "it_IT": "Zes Maanden Lijst van Aankomst en Vertrek, der Nationale Schepen in de Haven Van Genua$",
+    "it_IT": "Zes Maanden Lijst van Aankomst en Vertrek, der Nationale Schepen in de Haven Van Genua \\(Elenco per sei mesi degli arrivi e delle partenze delle navi nazionali nel porto di Genova\\)$",
     "nl_NL": "Zes Maanden Lijst van Aankomst en Vertrek, der Nationale Schepen in de Haven Van Genua"
   },
   "État des Vices-Consuls nommés dans le ressort du Consolat Général de Genova, en vertu de l'autorité accordée, par ler lettres patentes de S. M. le Roi des Pays-Bas, datée du 3 Octobre 1816, et reconnus par le gouvernement de S. M. Sarde$": {
