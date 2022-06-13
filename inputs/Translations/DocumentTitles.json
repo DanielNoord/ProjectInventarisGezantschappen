@@ -5770,9 +5770,9 @@
     "it_IT": "Nota diretta al corpo diplomatico$",
     "nl_NL": "Nota gericht aan het corps diplomatique"
   },
-  "Nota e osservazioni sul rapporto del Consiglio \\(Conseil d'État)\\) del Granducato di Lussemburgo$": {
+  "Nota e osservazioni sul rapporto del Consiglio \\(Conseil d'État\\) del Granducato di Lussemburgo$": {
     "en_GB": "Note and observations on the rapport of the State Council (Conseil d'État) of the Grand Duchy of Luxembourg",
-    "it_IT": "Nota e osservazioni sul rapporto del Consiglio \\(Conseil d'État)\\ del Granducato di Lussemburgo$",
+    "it_IT": "Nota e osservazioni sul rapporto del Consiglio \\(Conseil d'État\\) del Granducato di Lussemburgo$",
     "nl_NL": "Nota en observaties over het rapport van de Staatsraad (Conseil d'État) van het Groothertogdom Luxemburg"
   },
   "Nota firmata (da|dal|dalla) (\\$\\w+)$": {
@@ -7020,10 +7020,10 @@
     "it_IT": "Schedola Testamentaria (di|del|della) (\\$\\w+)$",
     "nl_NL": "Testament van \\2"
   },
-  "Seconde demande des héritiers Jochems de La Haye \\(seconda richiesta degli eredi Jochems dell’Aia\\)$": {
-    "en_GB": "Seconde demande des héritiers Jochems de La Haye (second request of the Jochems heirs from The Hague)",
-    "it_IT": "Seconde demande des héritiers Jochems de La Haye \\(seconda richiesta degli eredi Jochems dell’Aia\\)$",
-    "nl_NL": "Seconde demande des héritiers Jochems de La Haye (tweede verzoek van de erven Jochems uit Den Haag)"
+  "Seconde demande des héritiers Jochems de La Haye \\(Seconda richiesta degli eredi Jochems dell’Aia\\)$": {
+    "en_GB": "Seconde demande des héritiers Jochems de La Haye (Second request of the Jochems heirs from The Hague)",
+    "it_IT": "Seconde demande des héritiers Jochems de La Haye \\(Seconda richiesta degli eredi Jochems dell’Aia\\)$",
+    "nl_NL": "Seconde demande des héritiers Jochems de La Haye (Tweede verzoek van de erven Jochems uit Den Haag)"
   },
   "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations \\(Seconda nota indicativa dei funzionari tanto civili che militari ai quali si potrebbe conferire le onorificenze\\)$": {
     "en_GB": "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations (Second explanatory note about either civil as well as military officials on whom decorations may be bestowed)",
