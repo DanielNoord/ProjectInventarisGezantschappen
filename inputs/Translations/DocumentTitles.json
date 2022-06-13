@@ -495,10 +495,10 @@
     "it_IT": "Appello in lingua tedesca$",
     "nl_NL": "Appel in het Duits"
   },
-  "Appello litografato (di|del|della) (\\$\\w+) rivolto alla Camera dei Nobili e al Parlamento di Londra$": {
-    "en_GB": "Lithographed appeal by \\2 addressed to the House of Lords and the Parliament of London",
-    "it_IT": "Appello litografato (di|del|della) (\\$\\w+) rivolto alla Camera dei Nobili e al Parlamento di Londra$",
-    "nl_NL": "Gelithografeerd appel van \\2 geadresseerd aan het Hogerhuis en het Parlement van Londen"
+  "Appello litografato (di|del|della) (\\$\\w+) rivolto alla Camera dei Nobili di Londra$": {
+    "en_GB": "Lithographed appeal by \\2 addressed to the House of Lords of London",
+    "it_IT": "Appello litografato (di|del|della) (\\$\\w+) rivolto alla Camera dei Nobili di Londra$",
+    "nl_NL": "Gelithografeerd appel van \\2 geadresseerd aan het Hogerhuis van Londen"
   },
   "Appello$": {
     "en_GB": "Appeal",
@@ -1781,9 +1781,9 @@
     "nl_NL": "Toespraak van \\2 bij de bijeenkomst van de Tweede Kamer der Staten-Generaal (gelithografeerde kopie)"
   },
   "Discorso pronunciato all'apertura della Dieta dal Borgomastro di Zurigo$": {
-    "en_GB": "Speech of the Mayor of Zürich given at the opening of the Diet",
+    "en_GB": "Speech of the Mayor of Zürich given at the opening of the Tagsatzung",
     "it_IT": "Discorso pronunciato all'apertura della Dieta dal Borgomastro di Zurigo$",
-    "nl_NL": "Toespraak van de Burgemeester van Zürich gegeven bij de opening van het Dieet"
+    "nl_NL": "Toespraak van de Burgemeester van Zürich gegeven bij de opening van de Tagsatzung"
   },
   "Discorso pronunciato alla Camera dei Deputati il 6 dicembre sulla religione cattolica$": {
     "en_GB": "Speech delivered to the House of Representatives on 6 December on the catholic religion",
@@ -3760,10 +3760,10 @@
     "it_IT": "Journal de la Haye$",
     "nl_NL": "Journal de la Haye"
   },
-  "Journal del (\\$\\w+)$": {
-    "en_GB": "Journal of \\1",
-    "it_IT": "Journal del (\\$\\w+)$",
-    "nl_NL": "Logboek van \\1"
+  "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$": {
+    "en_GB": "Journal de M. Magrini (Journal of \\2)",
+    "it_IT": "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$",
+    "nl_NL": "Journal de M. Magrini (Logboek van \\2)"
   },
   "Journal des Débats \\(a stampa\\)$": {
     "en_GB": "Journal des Débats (printed)",
@@ -4400,10 +4400,10 @@
     "it_IT": "Lettera (di|del|della) (\\$\\w+) ai membri della Magistratura Romana$",
     "nl_NL": "Brief van \\2 aan de leden van de Romeinse magistratuur"
   },
-  "Lettera (di|del|della) (\\$\\w+) ai membri della direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam$": {
-    "en_GB": "Letter from \\2 to the members of the International Society of Industry, Agriculture and Commerce from Amsterdam",
-    "it_IT": "Lettera (di|del|della) (\\$\\w+) ai membri della direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam$",
-    "nl_NL": "Brief van \\2 aan de leden van het Internationale Genootschap van Industrie, Agricultuur en Handel van Amsterdam"
+  "Lettera (di|del|della) (\\$\\w+) ai membri della direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam$": {
+    "en_GB": "Letter from \\2 to the members of the International Society of Industry, Agriculture and Commerce \\(Vereeniging voor Volksvlijt\\) from Amsterdam",
+    "it_IT": "Lettera (di|del|della) (\\$\\w+) ai membri della direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam$",
+    "nl_NL": "Brief van \\2 aan de leden van de Vereeniging voor Volksvlijt te Amsterdam"
   },
   "Lettera (di|del|della) (\\$\\w+) ai rappresentanti consolari a Roma$": {
     "en_GB": "Letter from \\2 to the consular representatives in Rome",
@@ -4460,10 +4460,10 @@
     "it_IT": "Lettera (di|del|della) (\\$\\w+) alla delegazione Apostolica$",
     "nl_NL": "Brief van \\2 aan de Apostolische delegatie"
   },
-  "Lettera (di|del|della) (\\$\\w+) alla direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam$": {
-    "en_GB": "Letter from \\2 to the directorate of the International Society of Industry, Agriculture and Commerce in Amsterdam",
-    "it_IT": "Lettera (di|del|della) (\\$\\w+) alla direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam$",
-    "nl_NL": "Brief van \\2 aan het directoraat van het Internationale Genootschap van Industrie, Agricultuur en Handel te Amsterdam"
+  "Lettera (di|del|della) (\\$\\w+) alla direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam$": {
+    "en_GB": "Letter from \\2 to the directorate of the International Society of Industry, Agriculture and Commerce (Vereeniging voor Volksvlijt) from Amsterdam",
+    "it_IT": "Lettera (di|del|della) (\\$\\w+) alla direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam$",
+    "nl_NL": "Brief van \\2 aan het directoraat van de Vereeniging voor Volksvlijt te Amsterdam"
   },
   "Lettera (di|del|della) (\\$\\w+) circa la revoca della quarantena per le navi dei Paesi Bassi$": {
     "en_GB": "Letter of \\2 on the revocation of the quarantine for the ships of the Netherlands",
@@ -4950,10 +4950,10 @@
     "it_IT": "Lettera della Segreteria di Stato per gli Affari Esteri$",
     "nl_NL": "Brief van de Staatssecretarie voor Buitenlandse Zaken"
   },
-  "Lettera della Società internazionale d'industria, agricoltura e commercio di Amsterdam (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from the members of the International Society of Industry, Agriculture and Commerce from Amsterdam to \\2",
-    "it_IT": "Lettera della Società internazionale d'industria, agricoltura e commercio di Amsterdam (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Brief van de leden van het Internationale Genootschap van Industrie, Agricultuur en Handel van Amsterdam aan \\2"
+  "Lettera della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the members of the International Society of Industry, Agriculture and Commerce (Vereeniging voor Volksvlijt) from Amsterdam to \\2",
+    "it_IT": "Lettera della Società internazionale d'industria, agricoltura e commercio di Amsterdam \\(Vereeniging voor Volksvlijt\\) (a|al|alla) (\\$\\w+)$",
+    "nl_NL": "Brief van de leden van de Vereeniging voor Volksvlijt te Amsterdam aan \\2"
   },
   "Lettera della direzione del Koninklijke Nederlandsche Stoomboot Maatschappij (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the direction of the Koninklijke Nederlandsche Stoomboot Maatschappij to \\2",
@@ -4965,15 +4965,10 @@
     "it_IT": "Lettera della direzione del giornale Il Piemonte (a|al) (\\$\\w+)$",
     "nl_NL": "Brief van de directie van de krant Il Piemonte aan \\2"
   },
-  "Lettera della direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam (a|al|alla) (\\$\\w+) $": {
-    "en_GB": "Letter from the directorate of the International Society of Industry, Agriculture and Commerce in Amsterdam to \\2",
-    "it_IT": "Lettera della direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam (a|al|alla) (\\$\\w+) $",
-    "nl_NL": "Brief van het directoraat van het Internationale Genootschap van Industrie, Agricultuur en Handel te Amsterdam aan \\2"
-  },
-  "Lettera della direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from the direction of the International Society of Industry, Agriculture and Commerce of Amsterdam to \\2",
-    "it_IT": "Lettera della direzione della Società internazionale d'industria, agricoltura e commercio di Amsterdam (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Brief van de Vereeniging voor Volksvlijt te Amsterdam aan \\2"
+  "Lettera della direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Letter from the directorate of the International Society of Industry, Agriculture and Commerce (Vereeniging voor Volksvlijt) in Amsterdam to \\2",
+    "it_IT": "Lettera della direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam (a|al|alla) (\\$\\w+) $",
+    "nl_NL": "Brief van het directoraat van de Vereeniging voor Volksvlijt te Amsterdam aan \\2"
   },
   "Lettera della ditta Marstaller, Zublin e Compagni (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the company Marstaller, Zublin and Associates to \\2",
@@ -5511,19 +5506,19 @@
     "nl_NL": "Monsieur Van der Hoeven. Pièces diverses (Mijnheer $HoevenE. Diverse documenten)"
   },
   "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 (\\1 May \\2)",
+    "en_GB": "Motu Proprio of pope Pius IX regarding the authorization of the reconstruction of the Universities and Corporations in Rome, that were suppressed and abolished with the motu-proprio of Pius VII in 1800-1801 (\\1 May \\2)",
     "it_IT": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 (\\1 mei \\2)"
+    "nl_NL": "Motu Proprio van paus Pius IX aangaande de autorisatie voor de reconstructie van de Universiteiten en Corporaties in Rome, welke onderdrukt en opgeheven waren met het motu-proprio van Pius VII in 1800-1801(\\1 mei \\2)"
   },
   "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 (Rome, \\1 May \\2)",
+    "en_GB": "Motu Proprio of pope Pius IX regarding the authorization of the reconstruction of the Universities and Corporations in Rome, that were suppressed and abolished with the motu-proprio of Pius VII in 1800-1801 (Rome, \\1 May \\2)",
     "it_IT": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 (Rome, \\1 mei \\2)"
+    "nl_NL": "Motu Proprio van paus Pius IX aangaande de autorisatie voor de reconstructie van de Universiteiten en Corporaties in Rome, welke onderdrukt en opgeheven waren met het motu-proprio van Pius VII in 1800-1801 (Rome, \\1 mei \\2)"
   },
   "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio \\(a stampa\\)$": {
-    "en_GB": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (printed)",
+    "en_GB": "Motu Proprio about the pardon to the soldiers and staff in military service and about the pension granted to widowed mothers, wives and orphans of those killed in service (printed)",
     "it_IT": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio \\(a stampa\\)$",
-    "nl_NL": "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio (gedrukt)"
+    "nl_NL": "Motu Proprio over het pardon aan soldaten en personeel in militaire staat van dienst en over de uitkeringen aan de moeders, vrouwen en wezen van degenen die in dienst gestorven zijn (gedrukt)"
   },
   "Nomina di un nuovo console a Livorno$": {
     "en_GB": "Nomination of a new consul in Livorno",
@@ -6025,10 +6020,10 @@
     "it_IT": "Note politiche sul Belgio$",
     "nl_NL": "Politieke aantekeningen over België"
   },
-  "Note storiche sul giornale ecclesiastico di Roma$": {
-    "en_GB": "Historical notes on the ecclesiastical newspaper of Rome",
-    "it_IT": "Note storiche sul giornale ecclesiastico di Roma$",
-    "nl_NL": "Historische aantekeningen over de kerkelijke krant van Rome"
+  "Note storiche sul Correspondenza di Roma$": {
+    "en_GB": "Historical notes on the Correspondenza di Roma",
+    "it_IT": "Note storiche sul Correspondenza di Roma$",
+    "nl_NL": "Historische aantekeningen over de Correspondenza di Roma"
   },
   "Note$": {
     "en_GB": "Notes",
@@ -7196,9 +7191,9 @@
     "nl_NL": "Rekest gericht aan \\2"
   },
   "Tabella a stampa (di|del|della) (\\$\\w+) relativa all'estrazione di Roma del dì 26 febbraio 1853$": {
-    "en_GB": "Printed table of \\2 relating to the (lottery?) draw in Rome on 26 February 1853",
+    "en_GB": "Printed table of \\2 relating to the lottery draw in Rome on 26 February 1853",
     "it_IT": "Tabella a stampa (di|del|della) (\\$\\w+) relativa all'estrazione di Roma del dì 26 febbraio 1853$",
-    "nl_NL": "Gedrukt overzicht van \\2 aangaande de trekking (van de loterij?) van Rome op 26 februari 1853"
+    "nl_NL": "Gedrukt overzicht van \\2 aangaande de trekking van de loterij van Rome op 26 februari 1853"
   },
   "Tabella a stampa “(.+)”$": {
     "en_GB": "Printed table “\\1”",
