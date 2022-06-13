@@ -3750,6 +3750,11 @@
     "it_IT": "Itinerario del mese di settembre$",
     "nl_NL": "Reisplan voor de maand september"
   },
+  "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$": {
+    "en_GB": "Journal de M. Magrini (Journal of \\2)",
+    "it_IT": "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$",
+    "nl_NL": "Journal de M. Magrini (Logboek van \\2)"
+  },
   "Journal de la Haye \\(a stampa\\)$": {
     "en_GB": "Journal de la Haye (printed)",
     "it_IT": "Journal de la Haye \\(a stampa\\)$",
@@ -3759,11 +3764,6 @@
     "en_GB": "Journal de la Haye",
     "it_IT": "Journal de la Haye$",
     "nl_NL": "Journal de la Haye"
-  },
-  "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$": {
-    "en_GB": "Journal de M. Magrini (Journal of \\2)",
-    "it_IT": "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$",
-    "nl_NL": "Journal de M. Magrini (Logboek van \\2)"
   },
   "Journal des Débats \\(a stampa\\)$": {
     "en_GB": "Journal des Débats (printed)",
