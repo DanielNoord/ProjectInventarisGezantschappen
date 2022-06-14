@@ -96,15 +96,15 @@ class EADMaker(XMLWriter):
 
         print("Writing XML complete!")
 
-        # Printing some descriptive stats
-        print("Found the following unused translations:")
-        print(
-            "\n".join(
-                i.pattern
-                for i in self.database.document_titles.keys()
-                if i not in self.used_translations
-            )
+        # Make sure all titles are being used
+        unused_translations = "\n".join(
+            i.pattern
+            for i in self.database.document_titles.keys()
+            if i not in self.used_translations
         )
+        assert (
+            not unused_translations
+        ), f"Found the following unused translations:\n{unused_translations}"
 
     def _create_xml_series(self, filename: str, archdesc: etree._Element) -> None:
         """Add a volume to an 'archdesc' element."""
