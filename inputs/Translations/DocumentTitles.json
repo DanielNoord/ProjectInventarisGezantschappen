@@ -1,10 +1,5 @@
 {
   "$schema": "../../static/JSON/DocumentTitles.json",
-  "\"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
-    "it_IT": "\"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
-  },
   "\"(.+)\" (di|del|della) (\\$\\w+) circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” from \\3 concerning the application of tax on professions (Rome, Tipografia della Rev. Cam. Apost., \\4 Nov. \\5)",
     "it_IT": "\"(.+)\" (di|del|della) (\\$\\w+) circa l'applicazione della tassa sulle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) nov. (\\d\\d\\d\\d)\\)$",
@@ -55,31 +50,6 @@
     "it_IT": "\"(.+)\" Romana di tentato assassinio con promessa di danaro indeterminata per ispirito di setta a danno (di|del|della) (\\$\\w+)$",
     "nl_NL": "“\\1” Romana over de mislukte moordpoging met de belofte van een onbepaalde geldbeloning, uit sektarische overtuiging, tot schade van \\3"
   },
-  "\"(.+)\" \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Aug. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) ago. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 aug. \\3)"
-  },
-  "\"(.+)\" \\((\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Apr. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) apr. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 apr. \\3)"
-  },
-  "\"(.+)\" \\((\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Dec. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) dic. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 dec. \\3)"
-  },
-  "\"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Feb. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 feb. \\3)"
-  },
-  "\"(.+)\" \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Jan. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 jan. \\3)"
-  },
   "\"(.+)\" \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Jun. \\3)",
     "it_IT": "\"(.+)\" \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
@@ -95,35 +65,15 @@
     "it_IT": "\"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "“\\1” (\\2 mei \\3)"
   },
-  "\"(.+)\" \\((\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Mar. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) mar. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 mrt. \\3)"
-  },
   "\"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$": {
     "en_GB": "“\\1” (\\2 Nov. \\3) from \\5",
     "it_IT": "\"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$",
     "nl_NL": "“\\1” (\\2 nov. \\3) van \\5"
   },
-  "\"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Nov. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 nov. \\3)"
-  },
-  "\"(.+)\" \\((\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (\\2 Oct. \\3)",
-    "it_IT": "\"(.+)\" \\((\\d\\d?) ott. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (\\2 okt. \\3)"
-  },
   "\"(.+)\" \\((\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Sep. \\3)",
     "it_IT": "\"(.+)\" \\((\\d\\d?) set. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "“\\1” (\\2 sep. \\3)"
-  },
-  "\"(.+)\" \\((\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$": {
-    "en_GB": "“\\1” (\\2) from \\4",
-    "it_IT": "\"(.+)\" \\((\\d\\d\\d\\d)\\) (di|del|della) (\\$\\w+)$",
-    "nl_NL": "“\\1” (\\2) van \\4"
   },
   "\"(.+)\" \\((\\d\\d\\d\\d)\\) e note$": {
     "en_GB": "“\\1” (\\2) and notes",
@@ -144,16 +94,6 @@
     "en_GB": "“\\1” (Florence, Tipografia nel Carcere alle Murate, \\2)",
     "it_IT": "\"(.+)\" \\(Firenze, Tipografia nel Carcere alle Murate, (\\d\\d\\d\\d)\\)$",
     "nl_NL": "“\\1” (Florence, Tipografia nel Carcere alle Murate, \\2)"
-  },
-  "\"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (The Hague, \\2 Aug. \\3)",
-    "it_IT": "\"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (Den Haag, \\2 aug. \\3)"
-  },
-  "\"(.+)\" \\(L'Aia, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (The Hague, \\2 Mar. \\3)",
-    "it_IT": "\"(.+)\" \\(L'Aia, (\\d\\d?) mar. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (Den Haag, \\2 mrt. \\3)"
   },
   "\"(.+)\" \\(Lussemburgo, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Luxembourg, \\2 Apr. \\3)",
@@ -179,11 +119,6 @@
     "en_GB": "“\\1” (Rome, \\2 Jun. \\3)",
     "it_IT": "\"(.+)\" \\(Roma, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "“\\1” (Rome, \\2 jun. \\3)"
-  },
-  "\"(.+)\" \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1” (Rome, \\2 Sep. \\3)",
-    "it_IT": "\"(.+)\" \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1” (Rome, \\2 sep. \\3)"
   },
   "\"(.+)\" \\(Roma, Uffizio Centrale di La Civiltà Cattolica, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (Rome, Central Office of La Civiltà Cattolica, \\2)",
@@ -250,40 +185,15 @@
     "it_IT": "\"(.+)\"$",
     "nl_NL": "\"\\1\""
   },
-  "\"(.+)\", \"(.+)\" \\(Firenze, Tipografia nel Carcere alle Murate, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "“\\1”, “\\2” (Florence, Tipografia nel Carcere alle Murate, \\3)",
-    "it_IT": "\"(.+)\", \"(.+)\" \\(Firenze, Tipografia nel Carcere alle Murate, (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "“\\1”, “\\2” (Florence, Tipografia nel Carcere alle Murate, \\3)"
-  },
-  "\"(.+)\", \"(.+)\" \\(a stampa\\)$": {
-    "en_GB": "“\\1”, “\\2” (printed)",
-    "it_IT": "\"(.+)\", \"(.+)\" \\(a stampa\\)$",
-    "nl_NL": "“\\1”, “\\2” (gedrukt)"
-  },
-  "\"(.+)\". Nota (di|del|della) (\\$\\w+)$": {
-    "en_GB": "“\\1”. Note from \\3",
-    "it_IT": "\"(.+)\". Nota (di|del|della) (\\$\\w+)$",
-    "nl_NL": "“\\1”. Notitie van \\3"
-  },
   "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
     "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
     "it_IT": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$",
     "nl_NL": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake geboren in Nederland overleden in Ariccia 1846)"
   },
-  "(\\$\\w+) (a|al) (\\$\\w+)$": {
-    "en_GB": "\\1 to \\3",
-    "it_IT": "(\\$\\w+) (a|al) (\\$\\w+)$",
-    "nl_NL": "\\1 aan \\3"
-  },
   "1849. Corrispondenza ufficiale col Ministero degli affari esteri sugli avvenimenti di Roma$": {
     "en_GB": "1849. Official political correspondence with the Ministry of Foreign Affairs about the events in Rome",
     "it_IT": "1849. Corrispondenza ufficiale col Ministero degli affari esteri sugli avvenimenti di Roma$",
     "nl_NL": "1849. Officiële politieke correspondentie van het ministerie van Buitenlandse Zaken over de gebeurtenissen te Rome"
-  },
-  "A stampa \"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” from \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
-    "it_IT": "A stampa \"(.+)\" (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt “\\1” van \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)"
   },
   "A stampa \"(.+)\" (di|del|della) (\\$\\w+) circa l'esportazione all'estero libera da dazi di frumento, riso e legumi \\(Roma, Tip. della R. C. A., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” from \\3 concerning the exportation abroad of wheat, rice and vegetables free of duties (Rome, Tip. della R. C. A., \\4)",
@@ -345,11 +255,6 @@
     "it_IT": "Allegati finanziari$",
     "nl_NL": "Financiële bijlagen"
   },
-  "Allegato a relazione$": {
-    "en_GB": "Enclosure to a report",
-    "it_IT": "Allegato a relazione$",
-    "nl_NL": "Bijlage bij een rapport"
-  },
   "Allegato a stampa \"(.+)\"$": {
     "en_GB": "Printed enclosure “\\1”",
     "it_IT": "Allegato a stampa \"(.+)\"$",
@@ -394,11 +299,6 @@
     "en_GB": "Enclosure with a transcript of an Edict of \\2",
     "it_IT": "Allegato con trascrizione di un editto (di|del|della) (\\$\\w+)$",
     "nl_NL": "Bijlage met een afschrift van een Edict van \\2"
-  },
-  "Allegato dal Ministero degli Affari Esteri (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Enclosure from the Ministry of Foreign Affairs to \\2",
-    "it_IT": "Allegato dal Ministero degli Affari Esteri (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Bijlage van het ministerie van Buitenlandse Zaken aan \\2"
   },
   "Allegato dal Ministero degli Affari Esteri$": {
     "en_GB": "Enclosure from the Ministry of Foreign Affairs",
@@ -585,11 +485,6 @@
     "it_IT": "Appunto$",
     "nl_NL": "Notitie"
   },
-  "Archivio della Legazione dei Paesi Bassi a Firenze. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Florence. Incoming diplomatic correspondence. \\1",
-    "it_IT": "Archivio della Legazione dei Paesi Bassi a Firenze. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Florence. Inkomende diplomatieke correspondentie. \\1"
-  },
   "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. (\\d\\d\\d\\d). Corrispondenza politica in arrivo$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. \\1. Incoming political correspondence",
     "it_IT": "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. (\\d\\d\\d\\d). Corrispondenza politica in arrivo$",
@@ -600,35 +495,10 @@
     "it_IT": "Archivio della Legazione dei Paesi Bassi a Roma e Napoli. (\\d\\d\\d\\d). Corrispondenza politica in partenza$",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Napels. \\1. Uitgaande politieke correspondentie"
   },
-  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\1",
-    "it_IT": "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\1"
-  },
-  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\1",
-    "it_IT": "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\1"
-  },
   "Archivio della Legazione dei Paesi Bassi presso il Re d'Italia. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
     "en_GB": "Archive of the Legation of the Netherlands to the King of Italy. Incoming diplomatic correspondence \\1",
     "it_IT": "Archivio della Legazione dei Paesi Bassi presso il Re d'Italia. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$",
     "nl_NL": "Archief van het Gezantschap van Nederland bij de Koning van Italië. Inkomende diplomatieke correspondentie \\1"
-  },
-  "Archivio della Legazione dei Paesi Bassi presso il Re d'Italia. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Archive of the Legation of the Netherlands to the King of Italy. Incoming political correspondence \\1",
-    "it_IT": "Archivio della Legazione dei Paesi Bassi presso il Re d'Italia. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Archief van het Gezantschap van Nederland bij de Koning van Italië. Inkomende politieke correspondentie \\1"
-  },
-  "Archivio della Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Archive of the Legation of the Netherlands to the Holy See. Incoming political correspondence \\1",
-    "it_IT": "Archivio della Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Archief van het Gezantschap van Nederland bij de Heilige Stoel. Inkomende politieke correspondentie \\1"
-  },
-  "Archivio della Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza politica in partenza. (\\d\\d\\d\\d)$": {
-    "en_GB": "Archive of the Legation of the Netherlands to the Holy See. Outgoing political correspondence \\1",
-    "it_IT": "Archivio della Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza politica in partenza. (\\d\\d\\d\\d)$",
-    "nl_NL": "Archief van het Gezantschap van Nederland bij de Heilige Stoel. Uitgaande politieke correspondentie \\1"
   },
   "Articoli estratti dal \"(.+)\"$": {
     "en_GB": "Articles extracted from “\\1”",
@@ -644,11 +514,6 @@
     "en_GB": "Articles extracted from the Journal des Débats",
     "it_IT": "Articoli estratti dal Journal des Débats$",
     "nl_NL": "Artikelen ontleend aan het Journal des Débats"
-  },
-  "Articoli estratti dal giornale \"(.+)\"$": {
-    "en_GB": "Articles extracted from the journal “\\1”",
-    "it_IT": "Articoli estratti dal giornale \"(.+)\"$",
-    "nl_NL": "Artikelen ontleend aan de krant “\\1”"
   },
   "Articoli tratti da \"(.+)\"$": {
     "en_GB": "Articles taken from “\\1”",
@@ -719,11 +584,6 @@
     "en_GB": "Judicial act against Villarbon",
     "it_IT": "Atto giudiziario contro Villarbon$",
     "nl_NL": "Gerechtelijke akte tegen Villarbon"
-  },
-  "Autorités romaines$": {
-    "en_GB": "Autorités romaines",
-    "it_IT": "Autorités romaines$",
-    "nl_NL": "Autorités romaines"
   },
   "Autre extrait du Journal de la Haye touchant les Mariages Mixtes$": {
     "en_GB": "Autre extrait du Journal de la Haye touchant les Mariages Mixtes",
@@ -929,11 +789,6 @@
     "en_GB": "Draft of a letter to \\2",
     "it_IT": "Bozza di lettera (a|al|alla) (\\$\\w+)$",
     "nl_NL": "Concept van een brief aan \\2"
-  },
-  "Bozza di lettera (a|al|alla) (\\$\\w+), (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Draft of a letter to \\2, to \\4 and to \\6",
-    "it_IT": "Bozza di lettera (a|al|alla) (\\$\\w+), (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Concept van een brief aan \\2, aan \\4 en aan \\6"
   },
   "Bozza di lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+) \\(\\?\\)$": {
     "en_GB": "Draft of a letter from \\2 to \\4 (?)",
@@ -1185,11 +1040,6 @@
     "it_IT": "Circolare manoscritta (di|del|della) (\\$\\w+)$",
     "nl_NL": "Handgeschreven circulaire van \\2"
   },
-  "Communicazione circolare a stampa della Legazione degli Stati dell'America Centrale$": {
-    "en_GB": "Printed circular letter of the Legation of the Central American States",
-    "it_IT": "Communicazione circolare a stampa della Legazione degli Stati dell'America Centrale$",
-    "nl_NL": "Gedrukte circulaire van het Gezantschap van de Midden-Amerikaanse Staten"
-  },
   "Communicazione circolare a stampa$": {
     "en_GB": "Printed circular letter",
     "it_IT": "Communicazione circolare a stampa$",
@@ -1270,11 +1120,6 @@
     "it_IT": "Consolato di Livorno. Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$",
     "nl_NL": "Consulaat van Livorno. Brief van \\2 aan \\4"
   },
-  "Consolato di Livorno. Lettera (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Consulate of Livorno. Letter from \\2",
-    "it_IT": "Consolato di Livorno. Lettera (di|del|della) (\\$\\w+)$",
-    "nl_NL": "Consulaat van Livorno. Brief van \\2"
-  },
   "Consolato di Napoli$": {
     "en_GB": "Consulate of Naples",
     "it_IT": "Consolato di Napoli$",
@@ -1344,11 +1189,6 @@
     "en_GB": "Copy of the ultimatum given by the Holy Father regarding the religious controversy",
     "it_IT": "Copia dell'Ultimatum dato dal Santo Padre sulla controversia religiosa$",
     "nl_NL": "Kopie van het ultimatum gegeven door de Heilige Vader over de religieuze controverse"
-  },
-  "Copia della Memoria (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Copy of the Memorandum to \\2",
-    "it_IT": "Copia della Memoria (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Kopie van de Memorie aan \\2"
   },
   "Copia della Memoria (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Copy of the Memorandum from \\2 to \\4",
@@ -1460,16 +1300,6 @@
     "it_IT": "Copia di una lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$",
     "nl_NL": "Kopie van een brief van \\2 aan \\4"
   },
-  "Copia di una lettera (di|del|della) (\\$\\w+) (da|dal|dalla) (\\$\\w+)$": {
-    "en_GB": "Copy of a letter from \\2 by \\4",
-    "it_IT": "Copia di una lettera (di|del|della) (\\$\\w+) (da|dal|dalla) (\\$\\w+)$",
-    "nl_NL": "Kopie van een brief van \\2 door \\4"
-  },
-  "Copia di una lettera (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Copy of a letter from \\2 and \\4",
-    "it_IT": "Copia di una lettera (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+)$",
-    "nl_NL": "Kopie van een brief van \\2 en \\4"
-  },
   "Copia di una lettera (di|del|della) (\\$\\w+) fatto (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Copy of a letter from \\2 made by \\4",
     "it_IT": "Copia di una lettera (di|del|della) (\\$\\w+) fatto (da|dal|dalla) (\\$\\w+)$",
@@ -1520,30 +1350,15 @@
     "it_IT": "Correspondance avec le Ministre des Affaires Étrangères \\(Corrispondenza con il Ministro degli Affari Esteri\\)$",
     "nl_NL": "Correspondance avec le Ministre des Affaires Étrangères (Correspondentie met de minister van Buitenlandse Zaken)"
   },
-  "Correspondance avec le Ministre des Affaires Étrangères$": {
-    "en_GB": "Correspondance avec le Ministre des Affaires Étrangères",
-    "it_IT": "Correspondance avec le Ministre des Affaires Étrangères$",
-    "nl_NL": "Correspondance avec le Ministre des Affaires Étrangères"
-  },
   "Correspondance avec le corps diplomatique \\(Corrispondenza con il corpo diplomatico\\)$": {
     "en_GB": "Corrispondance avec le corps diplomatique (Correspondence with the corps diplomatique)",
     "it_IT": "Correspondance avec le corps diplomatique \\(Corrispondenza con il corpo diplomatico\\)$",
     "nl_NL": "Corrispondance avec le corps diplomatique (Correspondentie met het corps diplomatique)"
   },
-  "Correspondance avec le department des Affaires Étrangères (\\d\\d\\d\\d-\\d\\d\\d\\d) \\(Corrispondenza con il Ministero degli Affari Esteri (\\d\\d\\d\\d-\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Correspondance avec le department des Affaires Étrangères \\1 (Correspondence with the Ministry of Foreign Affairs \\2)",
-    "it_IT": "Correspondance avec le department des Affaires Étrangères (\\d\\d\\d\\d-\\d\\d\\d\\d) \\(Corrispondenza con il Ministero degli Affari Esteri (\\d\\d\\d\\d-\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Correspondance avec le department des Affaires Étrangères \\1 (Correspondentie met het minister van Buitenlandse Zaken \\2)"
-  },
   "Correspondance avec le lieutenent general De La Sarraz \\(Corrispondenza col \\$Sarraz\\)$": {
     "en_GB": "Correspondance avec le lieutenent general De La Sarraz (Correspondence with $Sarraz)",
     "it_IT": "Correspondance avec le lieutenent general De La Sarraz \\(Corrispondenza col \\$Sarraz\\)$",
     "nl_NL": "Correspondance avec le lieutenent general De La Sarraz (Correspondentie met $Sarraz)"
-  },
-  "Correspondance avec le ministre des Affaires Étrangères sur diverses objets$": {
-    "en_GB": "Correspondance avec le ministre des Affaires Étrangères sur diverses objets",
-    "it_IT": "Correspondance avec le ministre des Affaires Étrangères sur diverses objets$",
-    "nl_NL": "Correspondance avec le ministre des Affaires Étrangères sur diverses objets"
   },
   "Correspondance avec le ministre des Affaires Étrangères sur diverses sujets \\(Corrispondenza con il Ministro degli Affari Esteri sui soggetti diversi\\)$": {
     "en_GB": "Correspondance avec le ministre des Affaires Étrangères sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
@@ -1614,16 +1429,6 @@
     "en_GB": "Diplomatic correspondence",
     "it_IT": "Corrispondenza diplomatica$",
     "nl_NL": "Diplomatieke correspondentie"
-  },
-  "Corrispondenza politica$": {
-    "en_GB": "Political correspondence",
-    "it_IT": "Corrispondenza politica$",
-    "nl_NL": "Politieke correspondentie"
-  },
-  "Corrispondenza politica. Legazione di Torino$": {
-    "en_GB": "Political correspondence. Legation at Turin",
-    "it_IT": "Corrispondenza politica. Legazione di Torino$",
-    "nl_NL": "Politieke correspondentie. Gezantschap te Turijn"
   },
   "Corrispondenza ufficiale politica su vari soggetti e d'ordinaria amministrazione$": {
     "en_GB": "Official political correspondence on various subjects and ordinary administration",
@@ -1709,11 +1514,6 @@
     "en_GB": "Diario di Roma (printed). Daily news",
     "it_IT": "Diario di Roma \\(a stampa\\). Notizie del giorno$",
     "nl_NL": "Diario di Roma (gedrukt). Dagelijks nieuws"
-  },
-  "Diario di Roma$": {
-    "en_GB": "Diario di Roma",
-    "it_IT": "Diario di Roma$",
-    "nl_NL": "Diario di Roma"
   },
   "Dichiarazione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Statement of \\2",
@@ -1850,16 +1650,6 @@
     "it_IT": "Dossier Venezuela$",
     "nl_NL": "Dossier Venezuela"
   },
-  "Dépêches du Consul Géneral et des Vice Consuls de son Ressort \\(Dispacci del Console Generale e dei Vice Consoli della sua zona\\)$": {
-    "en_GB": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Dispatches of the Consul General and Vice Consuls of his district)",
-    "it_IT": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort \\(Dispacci del Console Generale e dei Vice Consoli della sua zona\\)$",
-    "nl_NL": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Depêches van de consul-generaal en vice-consuls van zijn ambtsgebied)"
-  },
-  "Dépêches et lettres avec le Ministre des Affaires Étrangères \\(Dispacci e lettere con il Ministro degli Affari Esteri\\)$": {
-    "en_GB": "Dépêches et lettres avec le Ministre des Affaires Étrangères (Dispatches and letters with the Minister of Foreign Affairs)",
-    "it_IT": "Dépêches et lettres avec le Ministre des Affaires Étrangères \\(Dispacci e lettere con il Ministro degli Affari Esteri\\)$",
-    "nl_NL": "Dépêches et lettres avec le Ministre des Affaires Étrangères (Depêches en brieven met de minister van Buitenlandse Zaken)"
-  },
   "Editto (di|del|della) (\\$\\w+) sulle volture e traslazioni \\(a stampa\\)$": {
     "en_GB": "Edict of \\2 on transfers and translations (printed)",
     "it_IT": "Editto (di|del|della) (\\$\\w+) sulle volture e traslazioni \\(a stampa\\)$",
@@ -1990,11 +1780,6 @@
     "it_IT": "Estratto da una lettera da Napoli$",
     "nl_NL": "Uittreksel van een brief uit Napels"
   },
-  "Estratto dal Giornale di Roma$": {
-    "en_GB": "Extract from the Giornale di Roma",
-    "it_IT": "Estratto dal Giornale di Roma$",
-    "nl_NL": "Uittreksel uit de Giornale di Roma"
-  },
   "Estratto dal Journal de la Haye$": {
     "en_GB": "Extract from the Journal de la Haye",
     "it_IT": "Estratto dal Journal de la Haye$",
@@ -2065,19 +1850,9 @@
     "it_IT": "Estratto dalla Gazzetta di Roma \\(con parte non officielle\\)$",
     "nl_NL": "Uittreksel uit de Gazzetta di Roma (met onofficieel onderdeel)"
   },
-  "Estratto dalla Gazzetta di Roma \\(con parte non ufficiale\\)$": {
-    "en_GB": "Extract from the Gazzetta di Roma (with a non-official part)",
-    "it_IT": "Estratto dalla Gazzetta di Roma \\(con parte non ufficiale\\)$",
-    "nl_NL": "Uittreksel uit de Gazzetta di Roma (met een onofficieel deel)"
-  },
   "Estratto dalla Gazzetta di Roma \\(officielle\\)$": {
     "en_GB": "Extract from the Gazzetta di Roma (official)",
     "it_IT": "Estratto dalla Gazzetta di Roma \\(officielle\\)$",
-    "nl_NL": "Uittreksel uit de Gazzetta di Roma (officieel)"
-  },
-  "Estratto dalla Gazzetta di Roma \\(ufficiale\\)$": {
-    "en_GB": "Extract from the Gazzetta di Roma (official)",
-    "it_IT": "Estratto dalla Gazzetta di Roma \\(ufficiale\\)$",
     "nl_NL": "Uittreksel uit de Gazzetta di Roma (officieel)"
   },
   "Estratto dalla Gazzetta di Roma$": {
@@ -2250,11 +2025,6 @@
     "it_IT": "Fasc. (\\d+) \"(.+)\", Sessione 1851. N. 92. Camera dei Deputati. Trattato di navigazione e commercio con Paesi Bassi presentato dal Ministro degli Esteri nella tornata del 7 luglio 1851$",
     "nl_NL": "Bundel \\1 “\\2”, Zitting 1851. N. 92. Huis van Afgevaardigden. Traktaat over de scheepvaart en handel met de Nederlanden gepresenteerd door de minister van Buitenlandse Zaken bij zijn terugkeer op 7 juli 1851"
   },
-  "Fasc. (\\d+) \"(.+)\", fasc. (\\d+) \"(.+)\"$": {
-    "en_GB": "Bundle \\1 “\\2”, bundle \\3 “\\4”",
-    "it_IT": "Fasc. (\\d+) \"(.+)\", fasc. (\\d+) \"(.+)\"$",
-    "nl_NL": "Bundel \\1 “\\2”', bundel \\3 “\\4”"
-  },
   "Fasc. (\\d+) \"(.+)\". Lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Bundle \\1 “\\2”. Letter from \\4",
     "it_IT": "Fasc. (\\d+) \"(.+)\". Lettera (di|del|della) (\\$\\w+)$",
@@ -2270,11 +2040,6 @@
     "it_IT": "Fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"$",
     "nl_NL": "Bundel \\1 “\\2”; bundel \\3 “\\4”; bundel \\5 “\\6”; bundel \\7 “\\8”; bundel \\9 “\\10”"
   },
-  "Fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"$": {
-    "en_GB": "Bundle \\1 “\\2”; bundle \\3 “\\4”; bundle \\5 “\\6”; bundle \\7 “\\8”; bundle \\9 “\\10”; bundle \\11 “\\12”; bundle \\13 “\\14”; bundle \\15 “\\16”; bundle \\17 “\\18”; bundle \\19 “\\20”",
-    "it_IT": "Fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"$",
-    "nl_NL": "Bundel \\1 “\\2”; bundel \\3 “\\4”; bundel \\5 “\\6”; bundel \\7 “\\8”; bundel \\9 “\\10”; bundel \\11 “\\12”; bundel \\13 “\\14”; bundel \\15 “\\16”; bundel \\17 “\\18”; bundel \\19 “\\20”"
-  },
   "Fasc. (\\d+). Carte (\\d+)-(\\d+). Corrispondenza col Console Generale di Napoli$": {
     "en_GB": "Bundle \\1. Archival documents \\2-\\3. Correspondence with the Consul General of Naples",
     "it_IT": "Fasc. (\\d+). Carte (\\d+)-(\\d+). Corrispondenza col Console Generale di Napoli$",
@@ -2284,16 +2049,6 @@
     "en_GB": "Bundle \\1. Additional convention of 1855. Letter to \\3",
     "it_IT": "Fasc. (\\d+). Convenzione addizionale del 1855. Lettera (a|al|alla) (\\$\\w+)$",
     "nl_NL": "Bundel \\1. Aanvullend verdrag van 1855. Brief aan \\3"
-  },
-  "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Bundle \\1. Various documents. “\\2” (The Hague, \\3 Aug. \\4)",
-    "it_IT": "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Bundel \\1. Verschillende documenten. “\\2” (Den Haag, \\3 aug. \\4)"
-  },
-  "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Bundle \\1. Various documents. “\\2” (The Hague, \\3 Jul. \\4)",
-    "it_IT": "Fasc. (\\d+). Documenti vari. \"(.+)\" \\(L'Aia, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Bundel \\1. Verschillende documenten. “\\2” (Den Haag, \\3 jul. \\4)"
   },
   "Fasc. (\\d+). Progetti e testo del trattato del 1848$": {
     "en_GB": "Bundle \\1. Drafts and text of the treatise of 1848",
@@ -2450,20 +2205,10 @@
     "it_IT": "Foglio a stampa \"(.+)\" Imputati Pietro Ercoli, Giovanni Carmosini, Angelo Lapis per \"(.+)\"$",
     "nl_NL": "Gedrukt blad \"\\1\" De gedaagden Pietro Ercoli, Giovanni Carmosini, Angelo Lapis beschuldigd van \"\\2\""
   },
-  "Foglio a stampa \"(.+)\" \\((\\$\\w+)\\)$": {
-    "en_GB": "Printed sheet “\\1” (\\2)",
-    "it_IT": "Foglio a stampa \"(.+)\" \\((\\$\\w+)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (\\2)"
-  },
   "Foglio a stampa \"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 Feb. \\3)",
     "it_IT": "Foglio a stampa \"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (\\2 feb. \\3)"
-  },
-  "Foglio a stampa \"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\) \\((\\$\\w+)\\)$": {
-    "en_GB": "Printed sheet “\\1” (\\2 May \\3) (\\4)",
-    "it_IT": "Foglio a stampa \"(.+)\" \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\) \\((\\$\\w+)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (\\2 mei \\3) (\\4)"
   },
   "Foglio a stampa \"(.+)\" \\(Caserta, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \"\\1\" (Caserta, \\2 May \\3)",
@@ -2485,20 +2230,10 @@
     "it_IT": "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad \"\\1\" (Den Haag, \\2 aug. \\3)"
   },
-  "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \"\\1\" (The Hague, \\2 Apr. \\3)",
-    "it_IT": "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad \"\\1\" (Den Haag, \\2 apr. \\3)"
-  },
   "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \"\\1\" (The Hague, \\2 Jun. \\3)",
     "it_IT": "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad \"\\1\" (Den Haag, \\2 jun. \\3)"
-  },
-  "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \"\\1\" (The Hague, \\2 Oct. \\3)",
-    "it_IT": "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad \"\\1\" (Den Haag, \\2 okt. \\3)"
   },
   "Foglio a stampa \"(.+)\" \\(L'Aia, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (The Hague, \\2 Sep. \\3)",
@@ -2585,14 +2320,9 @@
     "it_IT": "Foglio a stampa \"(.+)\" del Ministero delle Finanze circa le tariffe del commercio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” van het ministerie van Financiën over de handelstarieven (Rome, Tipografia della Rev. Cam. Apost., \\2 dec. \\3)"
   },
-  "Foglio a stampa \"(.+)\" firmato (da|dal|dalla) (\\$\\w+) \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \"\\1\" signed by \\3 (The Hague, \\4 Aug. \\5)",
-    "it_IT": "Foglio a stampa \"(.+)\" firmato (da|dal|dalla) (\\$\\w+) \\(L'Aia, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad \"\\1\" ondertekend door \\3 (Den Haag, \\4 aug. \\5)"
-  },
-  "Foglio a stampa \"(.+)\" firmato (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
+  "Foglio a stampa \"(.+)\" firmata (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \"\\1\" signed by \\3 and \\5 (Rome, \\6 Jul. \\7)",
-    "it_IT": "Foglio a stampa \"(.+)\" firmato (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$",
+    "it_IT": "Foglio a stampa \"(.+)\" firmata (da|dal|dalla) (\\$\\w+) e (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad \"\\1\" ondertekend door \\3 en \\5 (Rome, \\6 jul. \\7)"
   },
   "Foglio a stampa \"(.+)\" firmato (da|dal|dalla) (\\$\\w+)$": {
@@ -2649,11 +2379,6 @@
     "en_GB": "Printed sheet \\1) “\\2” (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "it_IT": "Foglio a stampa (.+)\\) \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad \\1) “\\2” (Rome, Tipografia della Rev. Cam. Apost., \\3)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” (Rome, Tipografia delle Belle Arti, \\3)",
-    "it_IT": "Foglio a stampa (.+)\\) \"(.+)\" \\(Roma, Tipografia delle Belle Arti, (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad \\1) “\\2” (Rome, Tipografia delle Belle Arti, \\3)"
   },
   "Foglio a stampa (.+)\\) \"(.+)\" \\(Torino, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \\1) “\\2” (Turin, \\3 May \\4)",
@@ -2800,11 +2525,6 @@
     "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (\\2 feb. \\3)"
   },
-  "Foglio a stampa “(.+)” \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (\\2 Jan. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (\\2 jan. \\3)"
-  },
   "Foglio a stampa “(.+)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\) ed “(.+)”$": {
     "en_GB": "Printed sheet “\\1” (\\2 Jun. \\3) and “\\4”",
     "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\) ed “(.+)”$",
@@ -2825,25 +2545,10 @@
     "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (\\2 mei \\3)"
   },
-  "Foglio a stampa “(.+)” \\((\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (\\2 Mar. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) mar. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (\\2 mrt. \\3)"
-  },
   "Foglio a stampa “(.+)” \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 Nov. \\3)",
     "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) nov. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (\\2 nov. \\3)"
-  },
-  "Foglio a stampa “(.+)” \\((\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (\\2 Oct. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) ott. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (\\2 okt. \\3)"
-  },
-  "Foglio a stampa “(.+)” \\((\\d\\d?) sep. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (\\2 Sep. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\((\\d\\d?) sep. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (\\2 sep. \\3)"
   },
   "Foglio a stampa “(.+)” \\((\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2)",
@@ -2885,20 +2590,10 @@
     "it_IT": "Foglio a stampa “(.+)” \\(Lussemburgo, (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (Luxemburg, \\2)"
   },
-  "Foglio a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (N. \\2 of \\3 Jul. \\4)",
-    "it_IT": "Foglio a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (N. \\2 van \\3 jul. \\4)"
-  },
   "Foglio a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (N. \\2 of \\3 Oct. \\4)",
     "it_IT": "Foglio a stampa “(.+)” \\(N. (\\d+) del (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (N. \\2 van \\3 okt. \\4)"
-  },
-  "Foglio a stampa “(.+)” \\(Napoli, (\\d\\d?) mag. (\\d\\d\\d\\d), N. (\\d+)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Naples, \\2 May \\3, N. \\4)",
-    "it_IT": "Foglio a stampa “(.+)” \\(Napoli, (\\d\\d?) mag. (\\d\\d\\d\\d), N. (\\d+)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (Napels, \\2 mei \\3, N. \\4)"
   },
   "Foglio a stampa “(.+)” \\(Napoli, Tipografia Fibreniano, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Naples, Tipografia Fibreniano, \\2)",
@@ -2919,16 +2614,6 @@
     "en_GB": "Printed “\\1” (Palermo, \\2 Jun. \\3)",
     "it_IT": "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt “\\1” (Palermo, \\2 jun. \\3)"
-  },
-  "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Palermo, \\2 Oct. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\(Palermo, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt “\\1” (Palermo, \\2 okt. \\3)"
-  },
-  "Foglio a stampa “(.+)” \\(Palermo, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed “\\1” (Palermo, N. \\2 of \\3 Jun. \\4)",
-    "it_IT": "Foglio a stampa “(.+)” \\(Palermo, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt “\\1” (Palermo, N. \\2 van \\3 jun. \\4)"
   },
   "Foglio a stampa “(.+)” \\(Palermo, ott. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed “\\1” (Palermo, Oct. \\2)",
@@ -2960,25 +2645,10 @@
     "it_IT": "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 dec. \\3)"
   },
-  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 Feb. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) feb. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 feb. \\3)"
-  },
-  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 Jan. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 jan. \\3)"
-  },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, \\2 Jun. \\3)",
     "it_IT": "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 jun. \\3)"
-  },
-  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 Jul. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 jul. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, \\2 May \\3)",
@@ -2999,11 +2669,6 @@
     "en_GB": "Printed sheet “\\1” (Rome, \\2 Oct. \\3)",
     "it_IT": "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) ott. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 oct. \\3)"
-  },
-  "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” (Rome, \\2 Sep. \\3)",
-    "it_IT": "Foglio a stampa “(.+)” \\(Roma, (\\d\\d?) set. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 set. \\3)"
   },
   "Foglio a stampa “(.+)” \\(Roma, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, \\2)",
@@ -3075,11 +2740,6 @@
     "it_IT": "Foglio a stampa “(.+)” e “(.+)” dello Stato Pontificio$",
     "nl_NL": "Gedrukt blad “\\1” en “\\2” van de Kerkelijke Staat"
   },
-  "Foglio a stampa “(.+)” firmata (da|dal) (\\$\\w+) \\(Roma, Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” signed by \\3 (Rome, Tipografia Cattolica, \\4)",
-    "it_IT": "Foglio a stampa “(.+)” firmata (da|dal) (\\$\\w+) \\(Roma, Tipografia Cattolica, (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Rome, Tipografia Cattolica, \\4)"
-  },
   "Foglio a stampa “(.+)” firmata (da|dal) (\\$\\w+) \\(Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” signed by \\3 (Tipografia Cattolica, \\4)",
     "it_IT": "Foglio a stampa “(.+)” firmata (da|dal) (\\$\\w+) \\(Tipografia Cattolica, (\\d\\d\\d\\d)\\)$",
@@ -3089,11 +2749,6 @@
     "en_GB": "Printed sheet “\\1” signed by \\2 (Vigevano, Aug. \\3, \\4)",
     "it_IT": "Foglio a stampa “(.+)” firmato (\\$\\w+) \\(Vigevano, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Gedrukt blad “\\1” ondertekend door \\2 (Vigevano, \\3 aug. \\4)"
-  },
-  "Foglio a stampa “(.+)” firmato (da|dal) (\\$\\w+) \\(Tipografia Cattolica, (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” signed by \\3 (Tipografia Cattolica, \\4)",
-    "it_IT": "Foglio a stampa “(.+)” firmato (da|dal) (\\$\\w+) \\(Tipografia Cattolica, (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Tipografia Cattolica, \\4)"
   },
   "Foglio a stampa “(.+)” relativa all'ammortizzazione della carta moneta \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” relating to the amortisation of banknotes (Rome, \\2 Jan. \\3)",
@@ -3205,11 +2860,6 @@
     "it_IT": "Giornale a stampa \"(.+)\" \\((\\d\\d?) apr. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Krant “\\1” (\\2 apr. \\3)"
   },
-  "Giornale a stampa \"(.+)\" \\((\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (\\2 Dec. \\3)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\((\\d\\d?) dic. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (\\2 dec. \\3)"
-  },
   "Giornale a stampa \"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Newspaper “\\1” (\\2 Feb. \\3)",
     "it_IT": "Giornale a stampa \"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$",
@@ -3219,11 +2869,6 @@
     "en_GB": "Newspaper “\\1” (\\2 Jan. \\3)",
     "it_IT": "Giornale a stampa \"(.+)\" \\((\\d\\d?) gen. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Krant “\\1” (\\2 jan. \\3)"
-  },
-  "Giornale a stampa \"(.+)\" \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (\\2 Jun. \\3)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (\\2 jun. \\3)"
   },
   "Giornale a stampa \"(.+)\" \\((\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Newspaper “\\1” (\\2 Jul. \\3)",
@@ -3350,36 +2995,6 @@
     "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?) set. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4 sep. \\5)"
   },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Aug. \\6)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) ago. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 aug. \\6)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Apr. \\6)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) apr. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 apr. \\6)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Dec. \\6)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) dic. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 dec. \\6)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Feb. \\6)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) feb. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 feb. \\6)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Jan. \\6)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) gen. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 jan. \\6)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Jun. \\6)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 jun. \\6)"
-  },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Jul. \\6)",
     "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) lug. (\\d\\d\\d\\d)\\)$",
@@ -3389,11 +3004,6 @@
     "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 May \\6)",
     "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 mei \\6)"
-  },
-  "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) mar. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Mar. \\6)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) mar. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Jaar \\2 - N. \\3 van \\4-\\5 mrt. \\6)"
   },
   "Giornale a stampa \"(.+)\" \\(Anno (\\w+) - N. (\\d+) del (\\d\\d?)-(\\d\\d?) nov. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Newspaper “\\1” (Year \\2 - N. \\3 of \\4-\\5 Nov. \\6)",
@@ -3545,11 +3155,6 @@
     "it_IT": "Giornale a stampa \"(.+)\" \\(Napoli, N. (\\d+) del (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Krant “\\1” (Napels, N. \\2 van \\3 mei \\4)"
   },
-  "Giornale a stampa \"(.+)\" \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Palermo, \\2 Jun. \\3)",
-    "it_IT": "Giornale a stampa \"(.+)\" \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Palermo, \\2 jun. \\3)"
-  },
   "Giornale a stampa \"(.+)\" \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Newspaper “\\1” (Rome, \\2 Apr. \\3)",
     "it_IT": "Giornale a stampa \"(.+)\" \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$",
@@ -3564,11 +3169,6 @@
     "en_GB": "Newspaper “\\1”",
     "it_IT": "Giornale a stampa \"(.+)\"$",
     "nl_NL": "Krant “\\1”"
-  },
-  "Giornale a stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Newspaper “\\1” (Palermo, \\2 Jun. \\3)",
-    "it_IT": "Giornale a stampa “(.+)” \\(Palermo, (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Krant “\\1” (Palermo, \\2 jun. \\3)"
   },
   "Giornale a stampa “(.+)” \\(Palermo, N. (\\d+) del (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Newspaper “\\1” (Palermo, N. \\2 of \\3 Jun. \\4)",
@@ -3589,16 +3189,6 @@
     "en_GB": "Il Lucifero. Giornale politico, economico, letterario",
     "it_IT": "Il Lucifero. Giornale politico, economico, letterario$",
     "nl_NL": "Il Lucifero. Giornale politico, economico, letterario"
-  },
-  "Il Risorgimento \\(a stampa\\)$": {
-    "en_GB": "Roma e gli Stati Romani nel 1850 (printed)",
-    "it_IT": "Il Risorgimento \\(a stampa\\)$",
-    "nl_NL": "Roma e gli Stati Romani nel 1850 (gedrukt)"
-  },
-  "Imprimés Divers 1848 \\(Diversi stampati del 1848\\)$": {
-    "en_GB": "Imprimés Divers 1848 (Various printed materials from 1848)",
-    "it_IT": "Imprimés Divers 1848 \\(Diversi stampati del 1848\\)$",
-    "nl_NL": "Imprimés Divers 1848 (Divers drukwerk uit 1848)"
   },
   "Incisione a stampa della planimetria del porto di Livorno e foglio a stampa \"(.+)\" \\(Livorno, Tipografia Sardi, ott. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Engraving of the map of the port of Livorno and printed sheet “\\1” (Livorno, Tipografia Sardi, Oct. \\2)",
@@ -3659,11 +3249,6 @@
     "en_GB": "Inventory of documents and registers to be found at the office of the consul in Livorno",
     "it_IT": "Inventario delle carte e dei registri che si trovano presso la sede del Console di Livorno$",
     "nl_NL": "Inventaris van documenten en registers aanwezig in het kantoor van de consul te Livorno"
-  },
-  "Invita del Ministero degli Affari Esteri$": {
-    "en_GB": "Invitation from the Ministry of Foreign Affairs",
-    "it_IT": "Invita del Ministero degli Affari Esteri$",
-    "nl_NL": "Uitnodiging van het ministerie van Buitenlandse Zaken"
   },
   "Invito (a|al) (\\$\\w+) con allegata lista delle dame dei Paesi Bassi$": {
     "en_GB": "Invitation for \\2 with enclosed a list of the ladies from the Netherlands",
@@ -3750,11 +3335,6 @@
     "it_IT": "Journal de la Haye \\(a stampa\\)$",
     "nl_NL": "Journal de la Haye (gedrukt)"
   },
-  "Journal de la Haye$": {
-    "en_GB": "Journal de la Haye",
-    "it_IT": "Journal de la Haye$",
-    "nl_NL": "Journal de la Haye"
-  },
   "Journal des Débats \\(a stampa\\)$": {
     "en_GB": "Journal des Débats (printed)",
     "it_IT": "Journal des Débats \\(a stampa\\)$",
@@ -3785,35 +3365,10 @@
     "it_IT": "Le Ministre des Affaires Étrangères \\(Il ministro degli Esteri\\)$",
     "nl_NL": "Le Ministre des Affaires Étrangères (De minister van Buitenlandse Zaken)"
   },
-  "Le Secrétaire d'État \\(Il Segretario di Stato\\)$": {
-    "en_GB": "Le Secrétaire d'État (The Secretary of State)",
-    "it_IT": "Le Secrétaire d'État \\(Il Segretario di Stato\\)$",
-    "nl_NL": "Le Secrétaire d'État (De staatssecretaris)"
-  },
-  "Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\1",
-    "it_IT": "Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\1"
-  },
   "Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
     "en_GB": "Legation of the Netherlands in Rome. Outgoing diplomatic correspondence. \\1",
     "it_IT": "Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$",
     "nl_NL": "Gezantschap van Nederland te Rome. Uitgaande diplomatieke correspondentie. \\1"
-  },
-  "Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Legation of the Netherlands at the Holy See. Incoming diplomatic correspondence \\1",
-    "it_IT": "Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Gezantschap van Nederland bij de Heilige Stoel. Inkomende diplomatieke correspondentie \\1"
-  },
-  "Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
-    "en_GB": "Legation of the Netherlands at the Holy See. Outgoing diplomatic correspondence \\1",
-    "it_IT": "Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$",
-    "nl_NL": "Gezantschap van Nederland bij de Heilige Stoel. Uitgaande diplomatieke correspondentie \\1"
-  },
-  "Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Legation of the Netherlands at the Holy See. Incoming political correspondence \\1",
-    "it_IT": "Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza politica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Gezantschap van Nederland bij de Heilige Stoel. Inkomende politieke correspondentie \\1"
   },
   "Legazione di Firenze. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
     "en_GB": "Legation at Florence. Incoming diplomatic correspondence. \\1",
@@ -3835,41 +3390,6 @@
     "it_IT": "Legazione di Firenze. Negoziati per un trattato di estradizione fra i Paesi Bassi e l'Italia$",
     "nl_NL": "Gezantschap te Florence. Onderhandelingen over een traktaat betreffende uitleveringen tussen Nederland en Italië"
   },
-  "Legazione di Firenze. Per l'esenzione dei sudditi olandesi del prestito forzoso indetto dal governo Italiano$": {
-    "en_GB": "Legation at Florence. On the exemption of Dutch subjects from the compulsory loans established by the Italian government",
-    "it_IT": "Legazione di Firenze. Per l'esenzione dei sudditi olandesi del prestito forzoso indetto dal governo Italiano$",
-    "nl_NL": "Gezantschap te Florence. Over de vrijstelling voor Nederlandse onderdanen van de verplichte leningen opgelegd door de Italiaanse regering"
-  },
-  "Legazione di Napoli e Roma. (\\d\\d\\d\\d). Corrispondenza politica in partenza$": {
-    "en_GB": "The Legation at Naples and Rome. Outgoing political correspondence",
-    "it_IT": "Legazione di Napoli e Roma. (\\d\\d\\d\\d). Corrispondenza politica in partenza$",
-    "nl_NL": "Het Gezantschap te Napels en Rome. Uitgaande politieke correspondentie"
-  },
-  "Legazione di Roma e Napoli. 1859. Corrispondenza politica \\(in partenza\\)$": {
-    "en_GB": "Legation at Rome and Naples. 1859. Political correspondence (outgoing)",
-    "it_IT": "Legazione di Roma e Napoli. 1859. Corrispondenza politica \\(in partenza\\)$",
-    "nl_NL": "Gezantschap te Rome en Napels. 1859. Politieke correspondentie (uitgaand)"
-  },
-  "Legazione di Roma e Napoli. Corrispondenza in arrivo. (\\d\\d\\d\\d).$": {
-    "en_GB": "Legation at Rome and Naples. Incoming correspondence. \\1",
-    "it_IT": "Legazione di Roma e Napoli. Corrispondenza in arrivo. (\\d\\d\\d\\d).$",
-    "nl_NL": "Gezantschap te Rome en Napels. Inkomende correspondentie. \\1"
-  },
-  "Legazione di Roma e Torino. Corrispondenza in arrivo 1859$": {
-    "en_GB": "Legation at Rome and Turin. Incoming political correspondence 1859",
-    "it_IT": "Legazione di Roma e Torino. Corrispondenza in arrivo 1859$",
-    "nl_NL": "Gezantschap te Rome en Turijn. Inkomende politieke correspondentie 1859"
-  },
-  "Legazione di Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in arrivo$": {
-    "en_GB": "Legation at Rome. \\1. Incoming diplomatic correspondence",
-    "it_IT": "Legazione di Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in arrivo$",
-    "nl_NL": "Gezantschap te Rome. \\1. Inkomende diplomatieke correspondentie"
-  },
-  "Legazione di Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in partenza$": {
-    "en_GB": "Legation at Rome. \\1. Outgoing diplomatic correspondence",
-    "it_IT": "Legazione di Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in partenza$",
-    "nl_NL": "Gezantschap te Rome. \\1. Uitgaande diplomatieke correspondentie"
-  },
   "Legazione di Roma. Corrispondenza diplomatica in partenza$": {
     "en_GB": "Legation at Rome. Outgoing diplomatic correspondence",
     "it_IT": "Legazione di Roma. Corrispondenza diplomatica in partenza$",
@@ -3879,11 +3399,6 @@
     "en_GB": "Legation at Rome. Outgoing diplomatic correspondence. \\1",
     "it_IT": "Legazione di Roma. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$",
     "nl_NL": "Gezantschap te Rome. Uitgaande diplomatieke correspondentie. \\1"
-  },
-  "Legazione di Roma. Corrispondenza politica$": {
-    "en_GB": "Legation at Rome. Political correspondence",
-    "it_IT": "Legazione di Roma. Corrispondenza politica$",
-    "nl_NL": "Gezantschap te Rome. Politieke correspondentie"
   },
   "Legazione di Torino. (\\d\\d\\d\\d). Corrispondenza diplomatica in arrivo$": {
     "en_GB": "Legation at Turin. \\1. Incoming diplomatic correspondence",
@@ -3899,46 +3414,6 @@
     "en_GB": "Legation at Turin. Diplomatic correspondence",
     "it_IT": "Legazione di Torino. Corrispondenza diplomatica$",
     "nl_NL": "Gezantschap te Turijn. Diplomatieke correspondentie"
-  },
-  "Legazione di Torino. Corrispondenza in partenza$": {
-    "en_GB": "Legation at Turin. Outgoing correspondence",
-    "it_IT": "Legazione di Torino. Corrispondenza in partenza$",
-    "nl_NL": "Gezantschap te Turijn. Uitgaande correspondentie"
-  },
-  "Legazione di Torino. Corrispondenza politica$": {
-    "en_GB": "Legation at Turin. Political correspondence",
-    "it_IT": "Legazione di Torino. Corrispondenza politica$",
-    "nl_NL": "Gezantschap te Turijn. Politieke correspondentie"
-  },
-  "Legazione presso il Re d'Italia. Corrispondenza col consolato di Ancona$": {
-    "en_GB": "Legation to the King of Italy. Correspondence with the consulate in Ancona",
-    "it_IT": "Legazione presso il Re d'Italia. Corrispondenza col consolato di Ancona$",
-    "nl_NL": "Gezantschap bij de Koning van Italië. Correspondentie met het consulaat te Ancona"
-  },
-  "Legazione presso il Re d'Italia. Corrispondenza diplomatica in arrivo$": {
-    "en_GB": "Legation to the King of Italy. Incoming diplomatic correspondence",
-    "it_IT": "Legazione presso il Re d'Italia. Corrispondenza diplomatica in arrivo$",
-    "nl_NL": "Gezantschap bij de Koning van Italië. Inkomende diplomatieke correspondentie"
-  },
-  "Legazione presso il Re d'Italia. Corrispondenza diplomatica in partenza$": {
-    "en_GB": "Legation to the King of Italy. Outgoing diplomatic correspondence",
-    "it_IT": "Legazione presso il Re d'Italia. Corrispondenza diplomatica in partenza$",
-    "nl_NL": "Gezantschap bij de Koning van Italië. Uitgaande diplomatieke correspondentie"
-  },
-  "Legazione presso il Re d'Italia. Frammenti di corrispondenze$": {
-    "en_GB": "Legation to the King of Italy. Fragments of correspondence",
-    "it_IT": "Legazione presso il Re d'Italia. Frammenti di corrispondenze$",
-    "nl_NL": "Gezantschap bij de Koning van Italië. Fragmenten van correspondentie"
-  },
-  "Legazione presso la Santa Sede. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Legation to the Holy See. Incoming diplomatic correspondence. \\1",
-    "it_IT": "Legazione presso la Santa Sede. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$",
-    "nl_NL": "Gezantschap bij de Heilige Stoel. Inkomende diplomatieke correspondentie. \\1"
-  },
-  "Legazione presso la Santa Sede. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$": {
-    "en_GB": "Legation to the Holy See. Outgoing diplomatic correspondence. \\1",
-    "it_IT": "Legazione presso la Santa Sede. Corrispondenza diplomatica in partenza. (\\d\\d\\d\\d)$",
-    "nl_NL": "Gezantschap bij de Heilige Stoel. Uitgaande diplomatieke correspondentie. \\1"
   },
   "Legazioni di Roma e Napoli. Corrispondenza diplomatica \\(in arrivo\\)$": {
     "en_GB": "Legations at Rome and Naples. Diplomatic correspondence (incoming)",
@@ -3959,16 +3434,6 @@
     "en_GB": "Legations at Rome and Naples. Political correspondence (outgoing)",
     "it_IT": "Legazioni di Roma e Napoli. Corrispondenza politica \\(in partenza\\)$",
     "nl_NL": "Gezantschap te Rome en Napels. Politieke correspondentie (uitgaand)"
-  },
-  "Legazioni di Roma e Napoli. Corrispondenza politica in partenza$": {
-    "en_GB": "Legations at Rome and Naples. Outgoing political correspondence",
-    "it_IT": "Legazioni di Roma e Napoli. Corrispondenza politica in partenza$",
-    "nl_NL": "Gezantschap te Rome en Napels. Uitgaande politieke correspondentie"
-  },
-  "Legazioni di Roma e Napoli. Corrispondenza politica in partenza.$": {
-    "en_GB": "Legations of Rome and Naples. Outgoing political correspondence.",
-    "it_IT": "Legazioni di Roma e Napoli. Corrispondenza politica in partenza.$",
-    "nl_NL": "Gezantschap te Rome en Napels. Uitgaande politieke correspondentie."
   },
   "Les Autorités Romaines \\(Le autorità romane\\)$": {
     "en_GB": "Les Autorités Romaines (The Roman authorities)",
@@ -4355,11 +3820,6 @@
     "it_IT": "Lettera (di|del|della) (\\$\\w+) \\(allegata\\)$",
     "nl_NL": "Brief van \\2 (bijlage)"
   },
-  "Lettera (di|del|della) (\\$\\w+) \\(con allegato\\)$": {
-    "en_GB": "Letter of \\2 (with enclosure)",
-    "it_IT": "Lettera (di|del|della) (\\$\\w+) \\(con allegato\\)$",
-    "nl_NL": "Brief van \\2 (met bijlage)"
-  },
   "Lettera (di|del|della) (\\$\\w+) \\(traduzione\\)$": {
     "en_GB": "Letter of \\2 (translation)",
     "it_IT": "Lettera (di|del|della) (\\$\\w+) \\(traduzione\\)$",
@@ -4374,11 +3834,6 @@
     "en_GB": "Letter from \\2 to the consuls of Genoa, Livorno, Naples and Ancona",
     "it_IT": "Lettera (di|del|della) (\\$\\w+) ai consoli di Genova, Livorno, Napoli e Ancona$",
     "nl_NL": "Brief van \\2 aan de consuls van Genua, Livorno, Napels en Ancona"
-  },
-  "Lettera (di|del|della) (\\$\\w+) ai consoli di Genova, Livorno, Napoli, Palermo e Messina$": {
-    "en_GB": "Letter from \\2 to the consuls of Genoa, Livorno, Naples, Palermo and Messina",
-    "it_IT": "Lettera (di|del|della) (\\$\\w+) ai consoli di Genova, Livorno, Napoli, Palermo e Messina$",
-    "nl_NL": "Brief van \\2 aan de consuls van Genua, Livorno, Napels, Palermo en Messina"
   },
   "Lettera (di|del|della) (\\$\\w+) ai direttori del Commercio del Levante e la Navigazione nel Mediterraneo$": {
     "en_GB": "Letter from \\2 to the directors of Commerce in the Levant and Navigation in the Mediterranean",
@@ -4484,16 +3939,6 @@
     "en_GB": "Letter of \\2 with transcript of an edict from \\3",
     "it_IT": "Lettera (di|del|della) (\\$\\w+) con trascrizione di un Editto (di|del|della) (\\$\\w+)$",
     "nl_NL": "Brief van \\2 met afschrift van een edict van \\3"
-  },
-  "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica \\((\\$\\w+)\\) con \"(.+)\"$": {
-    "en_GB": "Letter of \\2 with transcript of an announcement of the Civic Guard (\\3) with \"\\4\"",
-    "it_IT": "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica \\((\\$\\w+)\\) con \"(.+)\"$",
-    "nl_NL": "Brief van \\2 met afschrift van een bekendmaking van de burgerwacht (\\3) met \"\\4\""
-  },
-  "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica \\((\\$\\w+)\\)$": {
-    "en_GB": "Letter of \\2 with transcript of an announcement of the Civic Guard (\\3)",
-    "it_IT": "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica \\((\\$\\w+)\\)$",
-    "nl_NL": "Brief van \\2 met afschrift van een bekendmaking van de burgerwacht (\\3)"
   },
   "Lettera (di|del|della) (\\$\\w+) con trascrizione di una notificazione della Guardia Civica con “(.+)”$": {
     "en_GB": "Letter of \\2 with transcript of an announcement of the Civic Guard with “\\3”",
@@ -4720,11 +4165,6 @@
     "it_IT": "Lettera circolare (di|del|della) (\\$\\w+) ai consoli dei Paesi Bassi in Italia$",
     "nl_NL": "Circulaire van \\2 aan de consuls van Nederland in Italië"
   },
-  "Lettera circolare (di|del|della) (\\$\\w+) ai consoli dei Paesi Bassi$": {
-    "en_GB": "Circular letter from \\2 to the consuls of the Netherlands",
-    "it_IT": "Lettera circolare (di|del|della) (\\$\\w+) ai consoli dei Paesi Bassi$",
-    "nl_NL": "Circulaire van \\2 aan de consuls van Nederland"
-  },
   "Lettera circolare (di|del|della) (\\$\\w+) dall'ufficio di Giustizia di Amsterdam$": {
     "en_GB": "Circular letter of \\2 at the court of Amsterdam",
     "it_IT": "Lettera circolare (di|del|della) (\\$\\w+) dall'ufficio di Giustizia di Amsterdam$",
@@ -4830,11 +4270,6 @@
     "it_IT": "Lettera da Batavia priva di sottoscrizione$",
     "nl_NL": "Brief uit Batavia zonder ondertekeningen"
   },
-  "Lettera da Livorno$": {
-    "en_GB": "Letter from Livorno",
-    "it_IT": "Lettera da Livorno$",
-    "nl_NL": "Brief uit Livorno"
-  },
   "Lettera da Nantes senza firma (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from Nantes without a signature to \\2",
     "it_IT": "Lettera da Nantes senza firma (a|al|alla) (\\$\\w+)$",
@@ -4884,11 +4319,6 @@
     "en_GB": "Letter from the consul general of His Majesty of the Netherlands to the King of Sardinia signed by \\1 to \\3",
     "it_IT": "Lettera del Console Generale di Sua Maestà dei Paesi Bassi presso il Re di Sardegna sottoscritta (\\$\\w+) (a|al) (\\$\\w+)$",
     "nl_NL": "Brief van de consul-generaal van Zijne Majesteit der Nederlanden bij de koning van Sardinië ondertekend door \\1 to \\3"
-  },
-  "Lettera del Direzione Generale del Ministero della Marina (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from the General Directorate of the Ministry of the Navy to \\2",
-    "it_IT": "Lettera del Direzione Generale del Ministero della Marina (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Brief van het directoraat-generaal van het ministerie van Marine aan \\2"
   },
   "Lettera del Gabinetto della Questura di Roma (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the Cabinet of the Police Headquarters of Rome to \\2",
@@ -4940,16 +4370,6 @@
     "it_IT": "Lettera della Segreteria di Stato per gli Affari Esteri$",
     "nl_NL": "Brief van de Staatssecretarie voor Buitenlandse Zaken"
   },
-  "Lettera della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from the members of the International Society of Industry, Agriculture and Commerce (Vereeniging voor Volksvlijt) from Amsterdam to \\2",
-    "it_IT": "Lettera della Società internazionale d'industria, agricoltura e commercio di Amsterdam \\(Vereeniging voor Volksvlijt\\) (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Brief van de leden van de Vereeniging voor Volksvlijt te Amsterdam aan \\2"
-  },
-  "Lettera della direzione del Koninklijke Nederlandsche Stoomboot Maatschappij (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from the direction of the Koninklijke Nederlandsche Stoomboot Maatschappij to \\2",
-    "it_IT": "Lettera della direzione del Koninklijke Nederlandsche Stoomboot Maatschappij (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Brief van de directie van de Koninklijke Nederlandsche Stoomboot Maatschappij aan \\2"
-  },
   "Lettera della direzione del giornale Il Piemonte (a|al) (\\$\\w+)$": {
     "en_GB": "Letter from the direction of the journal Il Piemonte to \\2",
     "it_IT": "Lettera della direzione del giornale Il Piemonte (a|al) (\\$\\w+)$",
@@ -4979,11 +4399,6 @@
     "en_GB": "Letter of the secretariat of the Belgian consul in Venice",
     "it_IT": "Lettera della segreteria del console del Belgio a Venezia$",
     "nl_NL": "Brief van het secretariaat van de Belgische consul in Venetië"
-  },
-  "Lettera di Camera di Commercio di Roma (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Letter from the Chamber of Commerce in Rome to \\2",
-    "it_IT": "Lettera di Camera di Commercio di Roma (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Brief van de Kamer van Koophandel in Rome aan \\2"
   },
   "Lettera di Civitavecchia$": {
     "en_GB": "Letter from Civitavecchia",
@@ -5154,11 +4569,6 @@
     "en_GB": "Private letters",
     "it_IT": "Lettere particolari$",
     "nl_NL": "Particuliere correspondentie"
-  },
-  "Lettres diverses (\\d\\d\\d\\d-\\d\\d\\d\\d) \\(Lettere varie (\\d\\d\\d\\d-\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Lettres diverses \\1 (Various letters \\2)",
-    "it_IT": "Lettres diverses (\\d\\d\\d\\d-\\d\\d\\d\\d) \\(Lettere varie (\\d\\d\\d\\d-\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Lettres diverses \\1 (Diverse brieven \\2)"
   },
   "Lettres diverses \\(Lettere varie\\)$": {
     "en_GB": "Lettres diverses (Various letters)",
@@ -5375,11 +4785,6 @@
     "it_IT": "Memorie su una raffineria a Grotta a mare \\(Grottamare\\)$",
     "nl_NL": "Memorie over een raffinaderij in Grotta a mare (Grottammare)"
   },
-  "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancône, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$": {
-    "en_GB": "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancône, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Minister of Foreign Affairs. Correspondence with the Corps Diplomatique. Roman authorities. Consul of the Netherlands in Ancona, Civitavecchia, Livorno, Naples. Various pieces 1848-1849)",
-    "it_IT": "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancône, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$",
-    "nl_NL": "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancône, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (minister van Buitenlandse Zaken. Correspondentie met het Corps Diplomatique. Romeinse autoriteiten. Consul van Nederland in Ancona, Civitavecchia, Livorno, Napels. Diverse stukken 1848-1849)"
-  },
   "Minuta (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "Minute of \\2 to \\4",
     "it_IT": "Minuta (di|del|della) (\\$\\w+) (a|al) (\\$\\w+)$",
@@ -5490,16 +4895,6 @@
     "it_IT": "Modello di tabella delle merci importante ed esportate$",
     "nl_NL": "Model van overzicht van geïmporteerde en geëxporteerde goederen"
   },
-  "Monsieur Van der Hoeven. Pièces diverses \\(Signore \\$HoevenE. Documenti vari\\)$": {
-    "en_GB": "Monsieur Van der Hoeven. Pièces diverses (Sir $HoevenE. Various documents)",
-    "it_IT": "Monsieur Van der Hoeven. Pièces diverses \\(Signore \\$HoevenE. Documenti vari\\)$",
-    "nl_NL": "Monsieur Van der Hoeven. Pièces diverses (Mijnheer $HoevenE. Diverse documenten)"
-  },
-  "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Motu Proprio of pope Pius IX regarding the authorization of the reconstruction of the Universities and Corporations in Rome, that were suppressed and abolished with the motu-proprio of Pius VII in 1800-1801 (\\1 May \\2)",
-    "it_IT": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\((\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
-    "nl_NL": "Motu Proprio van paus Pius IX aangaande de autorisatie voor de reconstructie van de Universiteiten en Corporaties in Rome, welke onderdrukt en opgeheven waren met het motu-proprio van Pius VII in 1800-1801(\\1 mei \\2)"
-  },
   "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Motu Proprio of pope Pius IX regarding the authorization of the reconstruction of the Universities and Corporations in Rome, that were suppressed and abolished with the motu-proprio of Pius VII in 1800-1801 (Rome, \\1 May \\2)",
     "it_IT": "Motu Proprio di papa Pio IX relativo all'autorizzazione della ricostruzione in Roma delle Università, Corporazioni, che vennero soppresse ed abolite col motu-proprio di Pio VII nel 1800 - 1801 \\(Roma, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$",
@@ -5555,11 +4950,6 @@
     "it_IT": "Nota (di|del|della) (\\$\\w+)$",
     "nl_NL": "Nota van \\2"
   },
-  "Nota (su|sul|sulla) (\\$\\w+) e (su|sul|sulla) (\\$\\w+)$": {
-    "en_GB": "Note about \\2 and \\4",
-    "it_IT": "Nota (su|sul|sulla) (\\$\\w+) e (su|sul|sulla) (\\$\\w+)$",
-    "nl_NL": "Nota over \\2 en \\4"
-  },
   "Nota (su|sul|sulla) (\\$\\w+) e (su|sul|sulla) (\\$\\w+), prospetto economico$": {
     "en_GB": "Note about \\2 and \\4, economic table",
     "it_IT": "Nota (su|sul|sulla) (\\$\\w+) e (su|sul|sulla) (\\$\\w+), prospetto economico$",
@@ -5600,11 +4990,6 @@
     "it_IT": "Nota contabile$",
     "nl_NL": "Nota over de rekeningen"
   },
-  "Nota dal Ministero degli Affari Esteri$": {
-    "en_GB": "Note from the Ministry of Foreign Affairs",
-    "it_IT": "Nota dal Ministero degli Affari Esteri$",
-    "nl_NL": "Nota van het ministerie van Buitenlandse Zaken"
-  },
   "Nota degli allegati relativi al concordato con il Lussemburgo$": {
     "en_GB": "List of the enclosures relating to the concordat with Luxembourg",
     "it_IT": "Nota degli allegati relativi al concordato con il Lussemburgo$",
@@ -5619,11 +5004,6 @@
     "en_GB": "List of existing contacts in the Kingdom of Naples to \\2",
     "it_IT": "Nota dei contatti esistenti nel Regno di Napoli (a|al|alla) (\\$\\w+)$",
     "nl_NL": "Lijst van bestaande contacten in het Koninkrijk Napels aan \\2"
-  },
-  "Nota dei contatti essistenti nel Regno di Napoli (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "List of existing contacts in the Kingdom of Naples to \\e",
-    "it_IT": "Nota dei contatti essistenti nel Regno di Napoli (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Lijstvan bestaande contacten in het Koninkrijk Napels aan \\2"
   },
   "Nota del Ministero degli Affari Esteri$": {
     "en_GB": "Note from the Ministry of Foreign Affairs",
@@ -5709,11 +5089,6 @@
     "en_GB": "Payment notice of \\2",
     "it_IT": "Nota di pagamento (di|del|della) (\\$\\w+)$",
     "nl_NL": "Betalingsbevestiging van \\2"
-  },
-  "Nota di presentazione (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Introduction of \\2 to \\4",
-    "it_IT": "Nota di presentazione (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$",
-    "nl_NL": "Aanbeveling van \\2 aan \\4"
   },
   "Nota di protocollo$": {
     "en_GB": "Note of protocol",
@@ -6075,16 +5450,6 @@
     "it_IT": "Notificazione circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Bekendmaking omtrent de belasting op het uitoefenen van vrije beroepen (Rome, Tipografia della Rev. Cam. Apost., \\1)"
   },
-  "Notificazione del Ministero delle Finanze sulle tariffe doganali  \\(a stampa\\)$": {
-    "en_GB": "Announcement by the Ministry of Finance on custom rates (printed)",
-    "it_IT": "Notificazione del Ministero delle Finanze sulle tariffe doganali  \\(a stampa\\)$",
-    "nl_NL": "Bekendmaking door het ministerie van Financiën over douanetarieven (gedrukt)"
-  },
-  "Notificazione del Ministero delle Finanze sulle tariffe doganali \\(a stampa\\)$": {
-    "en_GB": "Announcement by the Ministry of Finance on customs tariffs (printed)",
-    "it_IT": "Notificazione del Ministero delle Finanze sulle tariffe doganali \\(a stampa\\)$",
-    "nl_NL": "Bekendmaking door het ministerie van Financiën over invoerrechten (gedrukt)"
-  },
   "Notificazione del governo civile e militare firmato (\\$\\w+)$": {
     "en_GB": "Announcement by the civil and military government signed \\1",
     "it_IT": "Notificazione del governo civile e militare firmato (\\$\\w+)$",
@@ -6139,56 +5504,6 @@
     "en_GB": "Roman news with transcript of satirical sonnet about \\1",
     "it_IT": "Notizie romane con trascrizione di sonetto satirico su (\\$\\w+)$",
     "nl_NL": "Romeins nieuws met afschrift van een satirisch sonnet over \\1"
-  },
-  "Notizie romane dei (\\d\\d?) agosto (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 August \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) agosto (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 augustus \\2"
-  },
-  "Notizie romane dei (\\d\\d?) aprile (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 April \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) aprile (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 april \\2"
-  },
-  "Notizie romane dei (\\d\\d?) dicembre (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 Dicember \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) dicembre (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 december \\2"
-  },
-  "Notizie romane dei (\\d\\d?) febbraio (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 February \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) febbraio (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 februari \\2"
-  },
-  "Notizie romane dei (\\d\\d?) gennaio (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 January \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) gennaio (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 januari \\2"
-  },
-  "Notizie romane dei (\\d\\d?) luglio (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 July \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) luglio (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 juli \\2"
-  },
-  "Notizie romane dei (\\d\\d?) marzo (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 March \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) marzo (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 maart \\2"
-  },
-  "Notizie romane dei (\\d\\d?) novembre (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 November \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) novembre (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 november \\2"
-  },
-  "Notizie romane dei (\\d\\d?) ottobre (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 October \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) ottobre (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 october \\2"
-  },
-  "Notizie romane dei (\\d\\d?) settembre (\\d\\d\\d\\d)$": {
-    "en_GB": "Roman news of \\1 September \\2",
-    "it_IT": "Notizie romane dei (\\d\\d?) settembre (\\d\\d\\d\\d)$",
-    "nl_NL": "Romeins nieuws van \\1 september \\2"
   },
   "Notizie romane del (\\d\\d?) agosto (\\d\\d\\d\\d)$": {
     "en_GB": "Roman news of \\1 Aug. \\2",
@@ -6400,11 +5715,6 @@
     "it_IT": "Pièces diverses \\(Documenti vari\\)$",
     "nl_NL": "Pièces diverses (Diverse stukken)"
   },
-  "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sardes 1818-1829 \\(Documenti vari. Corrispondenza col Dipartimento agli Affari Sardi 1818-1829\\)$": {
-    "en_GB": "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sardes 1818-1829 (Various documents. Correspondence with the Sardinian Ministry of Foreign Affairs 1818-1829)",
-    "it_IT": "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sardes 1818-1829 \\(Documenti vari. Corrispondenza col Dipartimento agli Affari Sardi 1818-1829\\)$",
-    "nl_NL": "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sardes 1818-1829 (Diverse documenten. Correspondentie met het Sardijnse ministerie van Buitenlandse Zaken 1818-1829)"
-  },
   "Première note dressée d'après les indications de M. le Comte Visconti \\(Prima nota preparato secondo le indicazioni del S. il Conte Visconti\\)$": {
     "en_GB": "Première note dressée d'après les indications de M. le Comte Visconti (First note drawn up according to the indications Mr. the Count Visconti)",
     "it_IT": "Première note dressée d'après les indications de M. le Comte Visconti \\(Prima nota preparato secondo le indicazioni del S. il Conte Visconti\\)$",
@@ -6530,11 +5840,6 @@
     "it_IT": "Promemoria dei fatti avvenuti il (\\d\\d?) set. (\\d\\d\\d\\d)$",
     "nl_NL": "Memorandum over de gebeurtenissen die plaatsvonden op \\1 sep. \\2"
   },
-  "Promemoria dei fatti avvenuti il (\\d\\d?) settembre (\\d\\d\\d\\d)$": {
-    "en_GB": "Memorandum on the events that took place on \\1 settembre \\2",
-    "it_IT": "Promemoria dei fatti avvenuti il (\\d\\d?) settembre (\\d\\d\\d\\d)$",
-    "nl_NL": "Memorandum over de gebeurtenissen die plaatsvonden op \\1 september \\2"
-  },
   "Promemoria$": {
     "en_GB": "Memorandum",
     "it_IT": "Promemoria$",
@@ -6614,11 +5919,6 @@
     "en_GB": "Memorandum of understanding on commercial relations",
     "it_IT": "Protocollo d'intesa sulle relazioni commerciali$",
     "nl_NL": "Memorandum van overeenstemming over commerciële relaties"
-  },
-  "Questione sui dazi sugli zuccheri$": {
-    "en_GB": "Question about levy of imports on sugar",
-    "it_IT": "Questione sui dazi sugli zuccheri$",
-    "nl_NL": "Vraag over de invoerheffing op suiker"
   },
   "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentiaire de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Décès de François C. Verbruggen, de la Ville de Tournai$": {
     "en_GB": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentiaire de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Décès de François C. Verbruggen, de la Ville de Tournai",
@@ -6825,11 +6125,6 @@
     "it_IT": "Relazione sullo stato attuale della questione sulle ferrovie degli stati romani$",
     "nl_NL": "Verslag over de huidige stand van zaken ten aanzien van het vraagstuk van de spoorwegen in de Romeinse staten"
   },
-  "Relazione sullo stato attuale delle finanze pontificie$": {
-    "en_GB": "Report on the current state of the pontifical finances",
-    "it_IT": "Relazione sullo stato attuale delle finanze pontificie$",
-    "nl_NL": "Rapport over de actuele staat van de pauselijke financiën"
-  },
   "Relazione$": {
     "en_GB": "Report",
     "it_IT": "Relazione$",
@@ -7014,11 +6309,6 @@
     "en_GB": "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations (Second explanatory note about either civil as well as military officials on whom decorations may be bestowed)",
     "it_IT": "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations \\(Seconda nota indicativa dei funzionari tanto civili che militari ai quali si potrebbe conferire le onorificenze\\)$",
     "nl_NL": "Seconde note indicative des fonctionnaires tant civils que militaires auxquels il pourrait être accordé des décorations (Tweede toelichtingsnota over civiele dan wel militaire functionarissen aan wie onderscheidingen kunnen worden verleend)"
-  },
-  "Secrétaire d'État. Autorités Romaines. Agents Consulaires. Corps Diplomatique. Troupes Pontificales. Pièces diverses. 1844 \\(Segretario di Stato. Autorità romane. Funzionari consolari. Corpo diplomatico. Truppe Pontificie. Documenti vari. 1844\\)$": {
-    "en_GB": "Secrétaire d'État. Autorités Romaines. Agents Consulaires. Corps Diplomatique. Troupes Pontificales. Pièces diverses. 1844 (Secretary of State. Roman authorities. Consular agents. Corps diplomatique. Papal Troops. Various documents. 1844)",
-    "it_IT": "Secrétaire d'État. Autorités Romaines. Agents Consulaires. Corps Diplomatique. Troupes Pontificales. Pièces diverses. 1844 \\(Segretario di Stato. Autorità romane. Funzionari consolari. Corpo diplomatico. Truppe Pontificie. Documenti vari. 1844\\)$",
-    "nl_NL": "Secrétaire d'État. Autorités Romaines. Agents Consulaires. Corps Diplomatique. Troupes Pontificales. Pièces diverses. 1844 (Staatssecretaris. Romeinse autoriteiten. Consulaire agenten. Corps diplomatique. Pauselijke troepen. Diverse documenten. 1844)"
   },
   "Sentenza in nome (di|del|della) (\\$\\w+) \\(a stampa\\) circa la condanna al carcere (di|del|della) (\\$\\w+) e (di|del|della) (\\$\\w+) come rei di aver divulgato in Bologna un proclama manoscritto diretto.+$": {
     "en_GB": "Sentence in the name of \\2 (printed) regarding the sentencing to prison of \\4 and \\6 as guilty of having spread in Bologna a handwritten proclamation inciting the people of the Legations to revolt (Bologna, July 28, 1844)",
@@ -7345,11 +6635,6 @@
     "it_IT": "Traduzione del Sanctissimi Domini Nostri Pii Divina Providentia Papae IX. Allocutio habita in Consistoro Secreto diei XVII februarii An. MDCCCLI$",
     "nl_NL": "Vertaling van Sanctissimi Domini Nostri Pii Divina Providentia Papae IX. Allocutio habita in Consistoro Secreto diei XVII februarii An. MDCCCLI"
   },
-  "Traduzione del Sanctissimi Domini Nostri Pii Divina Providentia Papae IX. Allocutio habita in Consistoro Secreto diei XVII februarii An. MDCCCLI.$": {
-    "en_GB": "Translation of Sanctissimi Domini Nostri Pii Divina Providentia Papae IX. Allocutio habita in Consistoro Secreto diei XVII februarii An. MDCCCLI.",
-    "it_IT": "Traduzione del Sanctissimi Domini Nostri Pii Divina Providentia Papae IX. Allocutio habita in Consistoro Secreto diei XVII februarii An. MDCCCLI.$",
-    "nl_NL": "Vertaling van Sanctissimi Domini Nostri Pii Divina Providentia Papae IX. Allocutio habita in Consistoro Secreto diei XVII februarii An. MDCCCLI."
-  },
   "Traduzione del decreto del Commissario provvisorio del governo dello stato romano$": {
     "en_GB": "Translation of a decree of the provisional government commissioner of the Roman State",
     "it_IT": "Traduzione del decreto del Commissario provvisorio del governo dello stato romano$",
@@ -7449,11 +6734,6 @@
     "en_GB": "Translation of the “\\1”",
     "it_IT": "Traduzione della \"(.+)\"$",
     "nl_NL": "Vertaling van de “\\1”"
-  },
-  "Traduzione della \"Protesta che la Santità di N. S. Pio PP. IX, circondato dal Sacro Collegio, ha fatto in Gaeta innanzi al corpo diplomatico la mattina del 14 febbraio 1849\"$": {
-    "en_GB": "Translation of the \"Protest that His Holiness Our Lord Pope Pius IX, surrounded by the Sacred College (of cardinals), has expressed in Gaeta, before the diplomatic corps, on 14 February 1849\"",
-    "it_IT": "Traduzione della \"Protesta che la Santità di N. S. Pio PP. IX, circondato dal Sacro Collegio, ha fatto in Gaeta innanzi al corpo diplomatico la mattina del 14 febbraio 1849\"$",
-    "nl_NL": "Vertaling van het \"Protest dat Zijne Heiligheid Onze Heer Paus Pius IX, omringd door het Heilige College (van kardinalen), heeft geuit in Gaeta, ten overstaan het corps diplomatique, op 14 februari 1849\""
   },
   "Traduzione della Giunta Suprema di Stato$": {
     "en_GB": "Translation of the Giunta Suprema di Stato (High State Council)",
@@ -7615,11 +6895,6 @@
     "it_IT": "Traduzione di un articolo della Gazzetta di Roma$",
     "nl_NL": "Vertaling van een artikel uit de Gazzetta di Roma"
   },
-  "Traduzione di un articolo di un giornale$": {
-    "en_GB": "Translation of an article from a newspaper",
-    "it_IT": "Traduzione di un articolo di un giornale$",
-    "nl_NL": "Vertaling van een artikel uit een nieuwsblad"
-  },
   "Traduzione di un articolo e ritaglio a stampa tratto da \"(.+)\"$": {
     "en_GB": "Translation of an article and newspaper clipping taken from \"\\1\"",
     "it_IT": "Traduzione di un articolo e ritaglio a stampa tratto da \"(.+)\"$",
@@ -7629,11 +6904,6 @@
     "en_GB": "Translation of an article extracted from L'Indépendance Belge",
     "it_IT": "Traduzione di un articolo estratto da L'Indépendance Belge$",
     "nl_NL": "Vertaling van een artikel ontleend aan L'Indépendance Belge"
-  },
-  "Traduzione di un articolo estratto da “(.+)”$": {
-    "en_GB": "Translation of an extract of an article from “\\1”",
-    "it_IT": "Traduzione di un articolo estratto da “(.+)”$",
-    "nl_NL": "Vertaling van een uittreksel van een artikel uit “\\1”"
   },
   "Traduzione di un estratto della Gazzetta Piemontese con supplica (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of an extract from the Gazzetta Piemontese with a appeal to \\2",
@@ -7945,11 +7215,6 @@
     "it_IT": "Trascrizione di nota firmata da Timmerman e Ten Kate a A.P. Paulussen di Zierikzee$",
     "nl_NL": "Afschrift van een nota ondertekend door Timmerman en Ten Kate aan A.P. Paulussen te Zierikzee"
   },
-  "Trascrizione di nota$": {
-    "en_GB": "Transcript of a note",
-    "it_IT": "Trascrizione di nota$",
-    "nl_NL": "Afschrift van een notitie"
-  },
   "Trascrizione di proclama (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcript of a report from \\2",
     "it_IT": "Trascrizione di proclama (di|del|della) (\\$\\w+)$",
@@ -7979,16 +7244,6 @@
     "en_GB": "Transcript of an article from the Gazzetta di Savoia",
     "it_IT": "Trascrizione di un articolo dalla Gazzetta di Savoia$",
     "nl_NL": "Afschrift van een artikel uit de Gazzetta di Savoia"
-  },
-  "Trascrizione di un articolo estratto da \"(.+)\"$": {
-    "en_GB": "Transcript of an article extracted from “\\1”",
-    "it_IT": "Trascrizione di un articolo estratto da \"(.+)\"$",
-    "nl_NL": "Afschrift van een artikel ontleend aan “\\1”"
-  },
-  "Trascrizione di un articolo estratto da L'Indépendance Belge$": {
-    "en_GB": "Transcript of an article extracted from L'Indépendance Belge",
-    "it_IT": "Trascrizione di un articolo estratto da L'Indépendance Belge$",
-    "nl_NL": "Afschrift van een artikel ontleend aan L'Indépendance Belge"
   },
   "Trascrizione di un articolo estratto dal Journal des Débats$": {
     "en_GB": "Transcript of an article extracted from the Journal des Débats",
