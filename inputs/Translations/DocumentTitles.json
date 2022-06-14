@@ -265,10 +265,10 @@
     "it_IT": "\"(.+)\". Nota (di|del|della) (\\$\\w+)$",
     "nl_NL": "“\\1”. Notitie van \\3"
   },
-  "\"William Archibald Bake né en Hollande mort à Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
-    "en_GB": "\"William Archibald Bake né en Hollande mort à Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
-    "it_IT": "\"William Archibald Bake né en Hollande mort à Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$",
-    "nl_NL": "\"William Archibald Bake né en Hollande mort à Ariccia 1846\" ($Bake geboren in Nederland overleden in Ariccia 1846)"
+  "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$": {
+    "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
+    "it_IT": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" \\(\\$Bake nato nei Paesi Bassi morto a Ariccia 1846\\)$",
+    "nl_NL": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake geboren in Nederland overleden in Ariccia 1846)"
   },
   "(\\$\\w+) (a|al) (\\$\\w+)$": {
     "en_GB": "\\1 to \\3",
@@ -4765,9 +4765,9 @@
     "it_IT": "Lettera circolare a stampa (di|del|della) (\\$\\w+)$",
     "nl_NL": "Gedrukte circulaire van \\2"
   },
-  "Lettera circolare a stampa ai Cardinali Legati$": {
+  "Lettera circolare a stampa ai cardinali legati$": {
     "en_GB": "Printed circular letter to the Cardinal Legats",
-    "it_IT": "Lettera circolare a stampa ai Cardinali Legati$",
+    "it_IT": "Lettera circolare a stampa ai cardinali legati$",
     "nl_NL": "Gedrukte circulaire naar de kardinaal-legaten"
   },
   "Lettera circolare a stampa$": {
