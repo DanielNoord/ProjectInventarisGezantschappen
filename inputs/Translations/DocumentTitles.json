@@ -390,9 +390,9 @@
     "it_IT": "Allegato alla relazione$",
     "nl_NL": "Bijlage bij het rapport"
   },
-  "Allegato con trascrizione di un Editto (di|del|della) (\\$\\w+)$": {
+  "Allegato con trascrizione di un editto (di|del|della) (\\$\\w+)$": {
     "en_GB": "Enclosure with a transcript of an Edict of \\2",
-    "it_IT": "Allegato con trascrizione di un Editto (di|del|della) (\\$\\w+)$",
+    "it_IT": "Allegato con trascrizione di un editto (di|del|della) (\\$\\w+)$",
     "nl_NL": "Bijlage met een afschrift van een Edict van \\2"
   },
   "Allegato dal Ministero degli Affari Esteri (a|al|alla) (\\$\\w+)$": {
@@ -1624,11 +1624,6 @@
     "en_GB": "Political correspondence. Legation at Turin",
     "it_IT": "Corrispondenza politica. Legazione di Torino$",
     "nl_NL": "Politieke correspondentie. Gezantschap te Turijn"
-  },
-  "Corrispondenza politica. Lettera a stampa (di|del|della) (\\$\\w+)$": {
-    "en_GB": "Political correspondence. Printed letter of \\2",
-    "it_IT": "Corrispondenza politica. Lettera a stampa (di|del|della) (\\$\\w+)$",
-    "nl_NL": "Politieke correspondentie. Gedrukte brief van \\2"
   },
   "Corrispondenza ufficiale politica su vari soggetti e d'ordinaria amministrazione$": {
     "en_GB": "Official political correspondence on various subjects and ordinary administration",
@@ -3165,11 +3160,6 @@
     "it_IT": "Foglio cifrato$",
     "nl_NL": "Blad in geheimschrift"
   },
-  "Foglio dell'ospedale militare sulla morte di Giovanni Blomhert$": {
-    "en_GB": "Sheet from the military hospital about the death of Giovanni Blomhert",
-    "it_IT": "Foglio dell'ospedale militare sulla morte di Giovanni Blomhert$",
-    "nl_NL": "Blad van het militaire ziekenhuis over de dood van Giovanni Blomhert"
-  },
   "Foglio della Commission de Passage di Marsiglia$": {
     "en_GB": "Sheet from the Commission de Passage of Marseille",
     "it_IT": "Foglio della Commission de Passage di Marsiglia$",
@@ -3750,7 +3740,7 @@
     "it_IT": "Itinerario del mese di settembre$",
     "nl_NL": "Reisplan voor de maand september"
   },
-  "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$": {
+  "Journal de M. Magrini \\(Giornale (di|del|della) (\\$\\w+)\\)$": {
     "en_GB": "Journal de M. Magrini (Journal of \\2)",
     "it_IT": "Journal de M. Magrini \\(Giornale (di/del/della) (\\$\\w+)\\)$",
     "nl_NL": "Journal de M. Magrini (Logboek van \\2)"
@@ -4035,10 +4025,10 @@
     "it_IT": "Lettera (a|al|alla) (\\$\\w+) \\(molto deteriorata\\)$",
     "nl_NL": "Brief aan \\2 (in zeer slechte conditie)"
   },
-  "Lettera (a|al|alla) (\\$\\w+) con carta monogramma H.M\\.$": {
-    "en_GB": "Letter to \\2 with a monogrammed card with H.M.",
-    "it_IT": "Lettera (a|al|alla) (\\$\\w+) con carta monogramma H.M\\.$",
-    "nl_NL": "Brief aan \\2 met een gemonogrammeerde kaart met H.M."
+  "Lettera (a|al|alla) (\\$\\w+) con carta con H.M. \\(monogramma\\)$": {
+    "en_GB": "Letter to \\2 with a card with H.M. (monogramma)",
+    "it_IT": "Lettera (a|al|alla) (\\$\\w+) con carta con H.M. \\(monogramma\\)$",
+    "nl_NL": "Brief aan \\2 met een kaart met H.M. (gemonogrammeerd)"
   },
   "Lettera (a|al|alla) (\\$\\w+) e (a|al|alla) (\\$\\w+) \\(nel verso\\)$": {
     "en_GB": "Letter to \\2 and \\4 (on the back)",
@@ -4395,15 +4385,15 @@
     "it_IT": "Lettera (di|del|della) (\\$\\w+) ai direttori del Commercio del Levante e la Navigazione nel Mediterraneo$",
     "nl_NL": "Brief van \\2 aan de directeuren van Handel in de Levant en Scheepvaart op de Middellandse Zee"
   },
-  "Lettera (di|del|della) (\\$\\w+) ai membri della Magistratura Romana$": {
-    "en_GB": "Letter from \\2 to the members of the Roman Magistrate",
-    "it_IT": "Lettera (di|del|della) (\\$\\w+) ai membri della Magistratura Romana$",
-    "nl_NL": "Brief van \\2 aan de leden van de Romeinse magistratuur"
-  },
   "Lettera (di|del|della) (\\$\\w+) ai membri della direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam$": {
     "en_GB": "Letter from \\2 to the members of the International Society of Industry, Agriculture and Commerce \\(Vereeniging voor Volksvlijt\\) from Amsterdam",
     "it_IT": "Lettera (di|del|della) (\\$\\w+) ai membri della direzione della Società internazionale d'industria, agricoltura e commercio \\(Vereeniging voor Volksvlijt\\) di Amsterdam$",
     "nl_NL": "Brief van \\2 aan de leden van de Vereeniging voor Volksvlijt te Amsterdam"
+  },
+  "Lettera (di|del|della) (\\$\\w+) ai membri della magistratura Romana$": {
+    "en_GB": "Letter from \\2 to the members of the Roman Magistrate",
+    "it_IT": "Lettera (di|del|della) (\\$\\w+) ai membri della magistratura Romana$",
+    "nl_NL": "Brief van \\2 aan de leden van de Romeinse magistratuur"
   },
   "Lettera (di|del|della) (\\$\\w+) ai rappresentanti consolari a Roma$": {
     "en_GB": "Letter from \\2 to the consular representatives in Rome",
@@ -4870,9 +4860,9 @@
     "it_IT": "Lettera degli amministratori generale (a|al) (\\$\\w+)$",
     "nl_NL": "Brief van de algemeen bestuurders aan \\2"
   },
-  "Lettera dei membri della Magistratura Romana (a|al|alla) (\\$\\w+)$": {
+  "Lettera dei membri della magistratura Romana (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the members of the Roman Magistrate to \\2",
-    "it_IT": "Lettera dei membri della Magistratura Romana (a|al|alla) (\\$\\w+)$",
+    "it_IT": "Lettera dei membri della magistratura Romana (a|al|alla) (\\$\\w+)$",
     "nl_NL": "Brief van de leden van de Romeinse magistratuur aan \\2"
   },
   "Lettera del Comando dei Carabinieri Esteri su Bosmanns (a|al|alla) (\\$\\w+)$": {
@@ -5400,10 +5390,10 @@
     "it_IT": "Minuta con appunti$",
     "nl_NL": "Minuut met notities"
   },
-  "Minuta del processo verbale (di|del|della) (\\$\\w+) per il rapporto tra Roma e Torino$": {
-    "en_GB": "Minutes of the discussion van \\2 for the relations between Rome and Turin",
-    "it_IT": "Minuta del processo verbale (di|del|della) (\\$\\w+) per il rapporto tra Roma e Torino$",
-    "nl_NL": "Proces-verbaal van \\2 over de betrekkingen tussen Rome en Turijn"
+  "Minuta del Processo verbale (di|del|della) (\\$\\w+) per il rapporto tra Roma e Torino$": {
+    "en_GB": "Minutes of the Discussion van \\2 for the relations between Rome and Turin",
+    "it_IT": "Minuta del Processo verbale (di|del|della) (\\$\\w+) per il rapporto tra Roma e Torino$",
+    "nl_NL": "Minuut van het Proces-verbaal van \\2 over de betrekkingen tussen Rome en Turijn"
   },
   "Minuta di lettera (a|al) (\\$\\w+)$": {
     "en_GB": "Minute of a letter to \\2",
@@ -5585,9 +5575,9 @@
     "it_IT": "Nota alla lettera$",
     "nl_NL": "Nota bij een brief"
   },
-  "Nota allegata alla memoria inviata (a|al|alla) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità nella diocesi del Limburgo$": {
+  "Nota allegata alla memoria inviata (a|al|alla) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità nella diocesi di Limburgo$": {
     "en_GB": "Note enclosed to the memorandum sent to \\2 relating to the ecclesiastical relations of the succession in the diocese Limburg",
-    "it_IT": "Nota allegata alla memoria inviata (a|al|alla) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità nella diocesi del Limburgo$",
+    "it_IT": "Nota allegata alla memoria inviata (a|al|alla) (\\$\\w+) relativamente ai rapporti ecclesiastici dell'eredità nella diocesi di Limburgo$",
     "nl_NL": "Notitie gevoegd bij de memorie verzonden aan \\2 met betrekking tot kerkelijke verhoudingen in verband met de erfopvolging in het bisdom Limburg"
   },
   "Nota allegata$": {
@@ -5930,10 +5920,10 @@
     "it_IT": "Nota verbale allegata$",
     "nl_NL": "Verbaal met bijlage(n)"
   },
-  "Nota verbale sulla controversia tra il governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Granducato di Nassau per la diocesi di Limburgo$": {
-    "en_GB": "Note verbale on the controversy between the government of the Kingdom of the Netherlands and the Holy See relating to the ecclesiastical relations in the Grand Duchy of Nassau with respect to the diocese of Limburg ",
-    "it_IT": "Nota verbale sulla controversia tra il governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Granducato di Nassau per la diocesi di Limburgo$",
-    "nl_NL": "Verbaal over de controverse tussen de regering van het Koninkrijk der Nederlanden en de Heilige Stoel met betrekking tot de kerkelijke verhoudingen in het Groothertogdom Nassau ten aanzien van het bisdom Limburg"
+  "Nota verbale sulla Controversia tra il governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Granducato di Nassau per la diocesi di Limburgo$": {
+    "en_GB": "Note verbale on the Controversy between the government of the Kingdom of the Netherlands and the Holy See relating to the ecclesiastical relations in the Grand Duchy of Nassau with respect to the diocese of Limburg ",
+    "it_IT": "Nota verbale sulla Controversia tra il governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Granducato di Nassau per la diocesi di Limburgo$",
+    "nl_NL": "Verbaal over de Controverse tussen de regering van het Koninkrijk der Nederlanden en de Heilige Stoel met betrekking tot de kerkelijke verhoudingen in het Groothertogdom Nassau ten aanzien van het bisdom Limburg"
   },
   "Nota verbale$": {
     "en_GB": "Note verbale",
@@ -6720,10 +6710,10 @@
     "it_IT": "Regolamento per la Fiera di Sinigaglia dell'anno 1846 \\(a stampa\\)$",
     "nl_NL": "Reglement voor de jaarmarkt van Senigaglia in het jaar 1846 (gedrukt)"
   },
-  "Relation d'un entretien avec le Prince de Metternich \\(relazione di un colloquio con (\\$\\w+)\\)$": {
-    "en_GB": "Relation d'un entretien avec le Prince de Metternich (report on a conversation with \\1)",
-    "it_IT": "Relation d'un entretien avec le Prince de Metternich \\(relazione di un colloquio con (\\$\\w+)\\)$",
-    "nl_NL": "Relation d'un entretien avec le Prince de Metternich (verslag van een gesprek met \\1)"
+  "Relation d'un entretien avec le Prince de Metternich \\(Relazione di un colloquio con (\\$\\w+)\\)$": {
+    "en_GB": "Relation d'un entretien avec le Prince de Metternich (Report on a conversation with \\1)",
+    "it_IT": "Relation d'un entretien avec le Prince de Metternich \\(Relazione di un colloquio con (\\$\\w+)\\)$",
+    "nl_NL": "Relation d'un entretien avec le Prince de Metternich (Verslag van een gesprek met \\1)"
   },
   "Relazione (a|al) (\\$\\w+)$": {
     "en_GB": "Report to \\2",
@@ -6995,15 +6985,15 @@
     "it_IT": "Roma e gli Stati Romani nel 1850 \\(a stampa\\)$",
     "nl_NL": "Roma e gli Stati Romani nel 1850 (gedrukt)"
   },
-  "Réponse de Sa Sainteté \\(risposta di Sua Santità\\)$": {
-    "en_GB": "Réponse de Sa Sainteté (response of His Holiness)",
-    "it_IT": "Réponse de Sa Sainteté \\(risposta di Sua Santità\\)$",
-    "nl_NL": "Réponse de Sa Sainteté (antwoord van Zijne Heiligheid)"
+  "Réponse de Sa Sainteté \\(Risposta di Sua Santità\\)$": {
+    "en_GB": "Réponse de Sa Sainteté (Response of His Holiness)",
+    "it_IT": "Réponse de Sa Sainteté \\(Risposta di Sua Santità\\)$",
+    "nl_NL": "Réponse de Sa Sainteté (Antwoord van Zijne Heiligheid)"
   },
-  "Réponse de la Chambre des Députés \\(risposta della Camera dei Deputati\\)$": {
-    "en_GB": "Réponse de la Chambre des Députés (response of the Chamber of Deputies)",
-    "it_IT": "Réponse de la Chambre des Députés \\(risposta della Camera dei Deputati\\)$",
-    "nl_NL": "Réponse de la Chambre des Députés (reactie van het Huis van Afgevaardigden)"
+  "Réponse de la Chambre des Députés \\(Risposta della Camera dei Deputati\\)$": {
+    "en_GB": "Réponse de la Chambre des Députés (Response of the Chamber of Deputies)",
+    "it_IT": "Réponse de la Chambre des Députés \\(Risposta della Camera dei Deputati\\)$",
+    "nl_NL": "Réponse de la Chambre des Députés (Reactie van het Huis van Afgevaardigden)"
   },
   "Scheda con i connotati personali (di|del|della) (\\$\\w+), giardiniere olandese$": {
     "en_GB": "Sheet with personal characteristics of \\2, Dutch gardener",
@@ -7515,9 +7505,9 @@
     "it_IT": "Traduzione della lettera circolare (di|del|della) (\\$\\w+) \\(Roma, (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$",
     "nl_NL": "Vertaling van de circulaire van \\2 (Rome \\3 apr. \\4)"
   },
-  "Traduzione della lettera dei membri della magistratura romana (a|al) (\\$\\w+)$": {
+  "Traduzione della lettera dei membri della magistratura Romana (a|al) (\\$\\w+)$": {
     "en_GB": "Translation of the letter of the members of the Roman magistrate to \\2",
-    "it_IT": "Traduzione della lettera dei membri della magistratura romana (a|al) (\\$\\w+)$",
+    "it_IT": "Traduzione della lettera dei membri della magistratura Romana (a|al) (\\$\\w+)$",
     "nl_NL": "Vertaling van de brief van de leden van de Romeinse magistratuur aan \\2"
   },
   "Traduzione della lettera enciclica (da|dal|dalla) (\\$\\w+) ai vescovi cristiani$": {
@@ -7565,9 +7555,9 @@
     "it_IT": "Traduzione delle notificazioni a stampa$",
     "nl_NL": "Vertaling van gedrukte bekendmakingen"
   },
-  "Traduzione di Appello di Protesta dei Cittadini della Repubblica Romana$": {
+  "Traduzione di Appello di Protesta dei cittadini della Repubblica Romana$": {
     "en_GB": "Translation of the Appeal of protest of the citizens of the Roman Republic",
-    "it_IT": "Traduzione di Appello di Protesta dei Cittadini della Repubblica Romana$",
+    "it_IT": "Traduzione di Appello di Protesta dei cittadini della Repubblica Romana$",
     "nl_NL": "Vertaling van de Oproep tot protest van de burgers van de Romeinse Republiek"
   },
   "Traduzione di appello Peuples de la Republique$": {
@@ -8065,7 +8055,7 @@
     "it_IT": "Trascrizione di un editto (di|del|della) (\\$\\w+)$",
     "nl_NL": "Gedrukt afschrift van een edict van \\2"
   },
-  "Trascrizione di un editto del (\\d\\d\\d\\d)$": {
+  "Trascrizione di un editto (di|del|della) (\\d\\d\\d\\d)$": {
     "en_GB": "Transcript of an edict from \\1",
     "it_IT": "Trascrizione di un editto del (\\d\\d\\d\\d)$",
     "nl_NL": "Afschrift van een edict uit \\1"
