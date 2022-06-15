@@ -123,7 +123,10 @@ class XMLWriter(_ErrorLogger):
             series_data.num,
         )
 
-        if used_trans:
+        if not used_trans:
+            with open(self.log_missing_translations, "a", encoding="utf-8") as file:
+                print(f"|{series_data.num}|{series_data.title}", file=file)
+        else:
             self.used_translations.add(used_trans)
 
         date_data = create_date_data(series_data.date)
