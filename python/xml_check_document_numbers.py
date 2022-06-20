@@ -47,6 +47,9 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
             for file_name in sorted(volume_files):
                 print(f" + {file_name}", file=log)
 
+        assert not missing_files, missing_files
+        assert not volume_files, volume_files
+
 
 def get_files_in_volume_directory(volume: str, scans_directory: str) -> set[str]:
     """Gets a files in the volume directory of a certain volume name based on a base directory."""
