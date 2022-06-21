@@ -1068,10 +1068,6 @@
     "en_GB": "Correspondance Italienne. Litographiée (Italian Correspondence. Lithographed)",
     "nl_NL": "Correspondance Italienne. Litographiée (Italiaanse Correspondentie. Gelithografeerd)"
   },
-  "Correspondance avec Les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde \\(Corrispondenza con Ministri e altri funzionari del governo di S.M. Sardegna\\)$": {
-    "en_GB": "Correspondance avec Les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde (Correspondence with Ministers and other officials of the government of H.M. Sardinia)",
-    "nl_NL": "Correspondance avec Les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde (Correspondentie met ministers en andere functionarissen van de regering van H.M. Sardinië)"
-  },
   "Correspondance avec M. le Chev. Magrini$": {
     "en_GB": "Correspondance avec M. le Chev. Magrini",
     "nl_NL": "Correspondance avec M. le Chev. Magrini"
@@ -1092,6 +1088,10 @@
     "en_GB": "Correspondance avec le ministre des Affaires Étrangères sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
     "nl_NL": "Correspondance avec le ministre des Affaires Étrangères sur diverses subjets (Correspondentie met de minister van Buitenlandse Zaken over verschillende onderwerpen)"
   },
+  "Correspondance avec les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde \\(Corrispondenza con Ministri e altri funzionari del governo di S.M. Sarda\\)$": {
+    "en_GB": "Correspondance avec les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde (Correspondence with Ministers and other officials of the government of H.M. Sardinia)",
+    "nl_NL": "Correspondance avec les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde (Correspondentie met ministers en andere functionarissen van de regering van H.M. Sardinië)"
+  },
   "Correspondance avec les agents consulaires \\(Corrispondenza con funzionari consolari\\)$": {
     "en_GB": "Correspondance avec les agents consulaires (Correspondence with consular agents)",
     "nl_NL": "Correspondance avec les agents consulaires (Correspondentie met consulaire agenten)"
@@ -1108,6 +1108,10 @@
     "en_GB": "Correspondance particulière de L'Indépendance Belge (Private correspondence from L'Indépendance Belge)",
     "nl_NL": "Correspondance particulière de L'Indépendance Belge (Particuliere correspondentie uit L'Indépendance Belge)"
   },
+  "Correspondance politique 1844. Correspondance sur divers objets 1843-1844. Imprimés divers 1848 \\(Corrispondenza politica 1844. Corrispondenza su vari oggetti 1843-1844. Stampati diversi 1848\\)$": {
+    "en_GB": "Correspondance politique 1844. Correspondance sur divers objets 1843-1844. Imprimés divers 1848 (Political correspondence 1844. Correspondence on various subjects 1843-1844. Several prints from 1848)",
+    "nl_NL": "Correspondance politique 1844. Correspondance sur divers objets 1843-1844. Imprimés divers 1848 (Politieke correspondentie 1844. Correspondentie over diverse onderwerpen 1843-1844. Verschillende prenten uit 1848)"
+  },
   "Correspondance politique \\(Corrispondenza politica\\)$": {
     "en_GB": "Correspondance politique (Political correspondence)",
     "nl_NL": "Correspondance politique (Politieke correspondentie)"
@@ -1115,10 +1119,6 @@
   "Correspondance politique avec le Ministre des Affaires Étrangères$": {
     "en_GB": "Correspondance politique avec le Ministre des Affaires Étrangères",
     "nl_NL": "Correspondance politique avec le Ministre des Affaires Étrangères"
-  },
-  "Correspondance politique. Correspondance sur divers objets 1843-1844. Imprimes divers 1848 \\(Corrispondenza politica. Corrispondenza su vari oggetti 1843-1844. Diverse stampe del 1848\\)$": {
-    "en_GB": "Correspondance politique. Correspondance sur divers objets 1843-1844. Imprimes divers 1848 (Political correspondence. Correspondence on various subjects 1843-1844. Several prints from 1848)",
-    "nl_NL": "Correspondance politique. Correspondance sur divers objets 1843-1844. Imprimes divers 1848 (Politieke correspondentie. Correspondentie over diverse onderwerpen 1843-1844. Verschillende prenten uit 1848)"
   },
   "Correspondance sur divers objets \\(Corrispondenza su vari oggetti\\)$": {
     "en_GB": "Correspondance sur divers objets (Correspondence on various topics)",
@@ -1623,10 +1623,6 @@
   "Fasc. (\\d+) \"(.+)\". Lettera (di|del|della) (\\$\\w+)$": {
     "en_GB": "Bundle \\1 “\\2”. Letter from \\4",
     "nl_NL": "Bundel \\1 “\\2”. Brief van \\4"
-  },
-  "Fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"$": {
-    "en_GB": "Bundle \\1 “\\2”; bundle \\3 “\\4”; bundle \\5 “\\6”",
-    "nl_NL": "Bundel \\1 “\\2”; bundel \\3 “\\4”; bundel \\5 “\\6”"
   },
   "Fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"; fasc. (\\d+) \"(.+)\"$": {
     "en_GB": "Bundle \\1 “\\2”; bundle \\3 “\\4”; bundle \\5 “\\6”; bundle \\7 “\\8”; bundle \\9 “\\10”",
