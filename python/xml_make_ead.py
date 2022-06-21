@@ -92,6 +92,10 @@ class EADMaker(XMLWriter):
 
         fix_daoset(root)
 
+        # Assert that no titles are missing
+        with open(self.log_missing_titles, encoding="utf-8") as log:
+            assert len(log.readlines()) == 2
+
         self._write_xml_file(root)
 
         print("Writing XML complete!")
