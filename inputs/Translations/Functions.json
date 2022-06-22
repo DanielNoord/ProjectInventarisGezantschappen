@@ -1760,14 +1760,6 @@
     "en_GB": "Minister of Foreign Affairs of the United Kingdom",
     "nl_NL": "Minister van Buitenlandse Zaken van het Verenigd Koninkrijk"
   },
-  "Primo lord del Tesoro e primo ministro del Regno Unito": {
-    "en_GB": "First Lord of the Treasury and Prime Minister of the United Kingdom",
-    "nl_NL": "Premier van het Verenigd Koninkrijk"
-  },
-  "Primo lord dell'ammiragliato del Regno Unito": {
-    "en_GB": "First Lord of the Admiralty of the United Kingdom",
-    "nl_NL": "Opperbevelhebber van de admiraliteit van het Verenigd Koninkrijk"
-  },
   "Ministro degli Affari Esteri del Regno d'Italia": {
     "en_GB": "Minister of Foreign Affairs of the Kingdom of Italy",
     "nl_NL": "Minister van Buitenlandse Zaken van het Koninkrijk Italië"
@@ -2368,6 +2360,14 @@
     "en_GB": "First Custodian of the Vatican Library",
     "nl_NL": "Eerste huisbewaarder van de Vaticaanse Bibliotheek"
   },
+  "Primo lord del Tesoro e primo ministro del Regno Unito": {
+    "en_GB": "First Lord of the Treasury and Prime Minister of the United Kingdom",
+    "nl_NL": "Premier van het Verenigd Koninkrijk"
+  },
+  "Primo lord dell'ammiragliato del Regno Unito": {
+    "en_GB": "First Lord of the Admiralty of the United Kingdom",
+    "nl_NL": "Opperbevelhebber van de admiraliteit van het Verenigd Koninkrijk"
+  },
   "Primo prefetto della Biblioteca Vaticana": {
     "en_GB": "First Prefect of the Vatican Library",
     "nl_NL": "Eerste Prefect van de Vaticaanse Bibliotheek"
@@ -2712,10 +2712,6 @@
     "en_GB": "State Secretary 2nd class at of Foreign Affairs of the Kingdom of Sardinia",
     "nl_NL": "Staatssecretaris 2e klasse aan het ministerie van Buitenlandse Zaken van het Koninkrijk Sardinië"
   },
-  "Segretario di Stato per la guerra e le colonie del Regno Unito": {
-    "en_GB": "Secretary of State for War and the Colonies of the United Kingdom",
-    "nl_NL": "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk"
-  },
   "Segretario di Stato per gli affari esteri del Regno Unito": {
     "en_GB": "Secretary of State for foreign affairs of the United Kingdom",
     "nl_NL": "Minister van buitenlandse zaken van het Verenigd Koninkrijk"
@@ -2723,6 +2719,10 @@
   "Segretario di Stato per gli affari interni del Regno Unito": {
     "en_GB": "Secretary of State for the Home Department of the United Kingdom",
     "nl_NL": "Minister van binnenlandse zaken van het Verenigd Koninkrijk"
+  },
+  "Segretario di Stato per la guerra e le colonie del Regno Unito": {
+    "en_GB": "Secretary of State for War and the Colonies of the United Kingdom",
+    "nl_NL": "Minister van Oorlog en Koloniën van het Verenigd Koninkrijk"
   },
   "Segretario di stato per gli Affari di Polizia del Regno di Sardegna": {
     "en_GB": "State Secretary for Police Affairs of the Kingdom of Sardinia",

@@ -36,10 +36,6 @@
     "en_GB": "“\\1” Romana on the wounded and the murdered for the partisan spirit",
     "nl_NL": "“\\1” Romana over de gewonden en doden als gevolg van partijgeest"
   },
-  "\"(.+)\" relativa al tentato assassinio con promessa di danaro indeterminata per ispirito di setta a danno (di|del|della) (\\$\\w+)$": {
-    "en_GB": "“\\1” relating to the failed assassination attempt with an indefinite promise of money, in a sectarian spirit, to the detriment of \\3",
-    "nl_NL": "“\\1” met betrekking tot de mislukte moordpoging met de belofte van een onbepaalde geldbeloning, uit sektarische overtuiging, tot schade van \\3"
-  },
   "\"(.+)\" \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "“\\1” (\\2 Jun. \\3)",
     "nl_NL": "“\\1” (\\2 jun. \\3)"
@@ -143,6 +139,10 @@
   "\"(.+)\" nota sui fatti lacrimevoli avvenuti nei Paesi Bassi$": {
     "en_GB": "\"\\1\" note on the lamentable events that took place in the Netherlands",
     "nl_NL": "\"\\1\" notitie over de betreurenswaardige gebeurtenissen die in Nederland hebben plaatsgevonden"
+  },
+  "\"(.+)\" relativa al tentato assassinio con promessa di danaro indeterminata per ispirito di setta a danno (di|del|della) (\\$\\w+)$": {
+    "en_GB": "“\\1” relating to the failed assassination attempt with an indefinite promise of money, in a sectarian spirit, to the detriment of \\3",
+    "nl_NL": "“\\1” met betrekking tot de mislukte moordpoging met de belofte van een onbepaalde geldbeloning, uit sektarische overtuiging, tot schade van \\3"
   },
   "\"(.+)\"$": {
     "en_GB": "\"\\1\"",
@@ -940,6 +940,11 @@
     "en_GB": "Accounts",
     "nl_NL": "Rekeningen"
   },
+  "Controversia tra il Governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Ducato di Nassau per la diocesi di Limburgo \\(1855\\)$": {
+    "en_GB": "Controversy between the government of the Kingdom of the Netherlands and the Holy See relating to ecclesiastical relations in the Duchy of Nassau for the diocese of Limburg (1855)",
+    "it_IT": "Controversia tra il Governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Ducato di Nassau per la diocesi di Limburgo \\(1855\\)$",
+    "nl_NL": "Controverse tussen de regering van het Koninkrijk der Nederlanden en de Heilige Stoel met betrekking tot kerkelijke verhoudingen binnen het Hertogdom Nassau voor het bisschop van Limburg (1855)"
+  },
   "Copia a stampa del \"(.+)\"$": {
     "en_GB": "Printed copy of “\\1”",
     "nl_NL": "Gedrukte kopie van “\\1”"
@@ -1124,11 +1129,6 @@
     "en_GB": "Correspondance sur divers objets (Correspondence on various topics)",
     "nl_NL": "Correspondance sur divers objets (Correspondentie over verschillende onderwerpen)"
   },
-  "Corrispondenze con le autorità romane$": {
-    "en_GB": "Correspondence with the Roman authorities",
-    "it_IT": "Corrispondenze con le autorità romane$",
-    "nl_NL": "Correspondentie met de Romeinse autoriteiten"
-  },
   "Corrispondenza con il Console di Civitavecchia$": {
     "en_GB": "Correspondence with the Consul of Civitavecchia",
     "nl_NL": "Correspondentie met de Consul van Civitavecchia"
@@ -1152,6 +1152,11 @@
   "Corrispondenza ufficiale politica su vari soggetti e d'ordinaria amministrazione$": {
     "en_GB": "Official political correspondence on various subjects and ordinary administration",
     "nl_NL": "Officiële politieke correspondentie over verschillende onderwerpen en dagelijks bestuur"
+  },
+  "Corrispondenze con le autorità romane$": {
+    "en_GB": "Correspondence with the Roman authorities",
+    "it_IT": "Corrispondenze con le autorità romane$",
+    "nl_NL": "Correspondentie met de Romeinse autoriteiten"
   },
   "Decreto (di|del|della) (\\$\\w+) con bollo di carta e impressione a secco$": {
     "en_GB": "Decree of \\2 with a watermark and die-stamp",
@@ -1325,6 +1330,14 @@
     "en_GB": "Venezuela Dossier",
     "nl_NL": "Dossier Venezuela"
   },
+  "Dépêches du Consul Géneral et des Vice Consuls de son Ressort \\(Dispacci del Console Generale e dei Vice Consoli della sua zona\\)$": {
+    "en_GB": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Dispatches of the Consul General and Vice Consuls of his district)",
+    "nl_NL": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Depêches van de consul-generaal en vice-consuls van zijn ambtsgebied)"
+  },
+  "Dépêches et lettres avec le Ministre des Affaires Étrangères \\(Dispacci e lettere con il Ministro degli Affari Esteri\\)$": {
+    "en_GB": "Dépêches et lettres avec le Ministre des Affaires Étrangères (Dispatches and letters with the Minister of Foreign Affairs)",
+    "nl_NL": "Dépêches et lettres avec le Ministre des Affaires Étrangères (Depêches en brieven met de minister van Buitenlandse Zaken)"
+  },
   "Editto (di|del|della) (\\$\\w+) sulle volture o traslazioni \\(a stampa\\)$": {
     "en_GB": "Edict of \\2 on transfers (printed)",
     "nl_NL": "Edict van \\2 over overdrachten (gedrukt)"
@@ -1493,21 +1506,13 @@
     "en_GB": "Extract from the Gazzetta di Roma",
     "nl_NL": "Uittreksel uit de Gazzetta di Roma"
   },
-  "Dépêches du Consul Géneral et des Vice Consuls de son Ressort \\(Dispacci del Console Generale e dei Vice Consoli della sua zona\\)$": {
-    "en_GB": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Dispatches of the Consul General and Vice Consuls of his district)",
-    "nl_NL": "Dépêches du Consul Géneral et des Vice Consuls de son Ressort (Depêches van de consul-generaal en vice-consuls van zijn ambtsgebied)"
-  },
-  "Dépêches et lettres avec le Ministre des Affaires Étrangères \\(Dispacci e lettere con il Ministro degli Affari Esteri\\)$": {
-    "en_GB": "Dépêches et lettres avec le Ministre des Affaires Étrangères (Dispatches and letters with the Minister of Foreign Affairs)",
-    "nl_NL": "Dépêches et lettres avec le Ministre des Affaires Étrangères (Depêches en brieven met de minister van Buitenlandse Zaken)"
+  "Estratto del Augsburger Postzeitung dei (\\d\\d?) gennaio (\\d\\d\\d\\d) n. (\\d+)$": {
+    "en_GB": "Extract from the Augsburger Postzeitung of January \\1, \\2 n. \\3",
+    "nl_NL": "Uittreksel uit de Augsburger Postzeitung van \\1 januari \\2 n. \\3"
   },
   "Estratto del trattato di navigazione tra il Belgio e il Regno delle due Sicile$": {
     "en_GB": "Extract from the treatise of navigation between Belgium and the Kingdom of the Two Sicilies",
     "nl_NL": "Uittreksel uit het scheepvaartverdrag tussen België en het Koninkrijk der Beide Siciliën"
-  },
-  "Estratto del Augsburger Postzeitung dei (\\d\\d?) gennaio (\\d\\d\\d\\d) n. (\\d+)$": {
-    "en_GB": "Extract from the Augsburger Postzeitung of January \\1, \\2 n. \\3",
-    "nl_NL": "Uittreksel uit de Augsburger Postzeitung van \\1 januari \\2 n. \\3"
   },
   "Estratto della decisione della Gran Corte di Salerno il 19 luglio 1858 a carico degli accusati dei fatti di Ponza e di Sapri$": {
     "en_GB": "Extract from the decision of the High Court of Salerno of 19 July 1858 against those accused of the events of Ponza and Sapri",
@@ -1965,10 +1970,6 @@
     "en_GB": "Printed sheet “\\1” from \\2 on permission of the exportation abroad of grain (Rome, Tipografia della Rev. Cam. Apost., \\3)",
     "nl_NL": "Gedrukt blad “\\1” van \\2 over de toestemming voor de export van graan naar het buitenland (Rome, Tipografia della Rev. Cam. Apost., \\3)"
   },
-  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa la dichiarazione diplomatica sul trattamento di bandiera nei porti, tra il Governo Pontificio e quello Toscano \\(Firenze, Tipografia della Rev. Cam. Apost., (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet “\\1” of \\3 concerning the diplomatic declaration about the flag protocol in the ports, between the Pontifical Government and that of Tuscany (Florence, Tipografia della Rev. Cam. Apost., \\4 Apr. \\5)",
-    "nl_NL": "Gedrukt blad “\\1” van \\3 omtrent de diplomatieke verklaring over het vlaggenprotocol in de havens, tussen de pauselijke pegering en die van Toscane (Florence, Tipografia della Rev. Cam. Apost., \\4 apr. \\5)"
-  },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ampliamento della Guardia Civica di Roma \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\) con allegato “(.+)”$": {
     "en_GB": "Printed sheet “\\1” from \\3 on the expansion of the Civic Guard van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) with enclosure \\5",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de uitbreiding van de burgerwacht van Rome (Rome, Tipografia della Rev. Cam. Apost., \\4) met bijlage \\5"
@@ -1980,6 +1981,10 @@
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa l'ordine pubblico \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) set. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 on public order (Rome, Tipografia della Rev. Cam. Apost., \\4 Sep. \\5)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 over de openbare orde (Rome, Tipografia della Rev. Cam. Apost., \\4 sep. \\5)"
+  },
+  "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa la dichiarazione diplomatica sul trattamento di bandiera nei porti, tra il Governo Pontificio e quello Toscano \\(Firenze, Tipografia della Rev. Cam. Apost., (\\d\\d?) apr. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” of \\3 concerning the diplomatic declaration about the flag protocol in the ports, between the Pontifical Government and that of Tuscany (Florence, Tipografia della Rev. Cam. Apost., \\4 Apr. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 omtrent de diplomatieke verklaring over het vlaggenprotocol in de havens, tussen de pauselijke pegering en die van Toscane (Florence, Tipografia della Rev. Cam. Apost., \\4 apr. \\5)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) circa lo spostamento di alcune feste \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) lug. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 concerning rescheduling several feasts (Rome, Tipografia della Rev. Cam. Apost., \\4 Jul. \\5)",
@@ -3808,11 +3813,6 @@
   "Memoria sulla Controversia tra il Governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Ducato di Nassau per la diocesi di Limburgo$": {
     "en_GB": "Memorandum on the controversy between the government of the Kingdom of the Netherlands and the Holy See relating to ecclesiastical relations in the Duchy of Nassau for the diocese of Limburg ",
     "nl_NL": "Memorie over de controverse tussen de regering van het Koninkrijk der Nederlanden en de Heilige Stoel met betrekking tot kerkelijke verhoudingen binnen het Hertogdom Nassau voor het bisschop van Limburg"
-  },
-  "Controversia tra il Governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Ducato di Nassau per la diocesi di Limburgo \\(1855\\)$": {
-    "en_GB": "Controversy between the government of the Kingdom of the Netherlands and the Holy See relating to ecclesiastical relations in the Duchy of Nassau for the diocese of Limburg (1855)",
-    "it_IT": "Controversia tra il Governo del Regno dei Paesi Bassi e la Santa Sede relativamente ai rapporti ecclesiastici nel Ducato di Nassau per la diocesi di Limburgo \\(1855\\)$",
-    "nl_NL": "Controverse tussen de regering van het Koninkrijk der Nederlanden en de Heilige Stoel met betrekking tot kerkelijke verhoudingen binnen het Hertogdom Nassau voor het bisschop van Limburg (1855)"
   },
   "Memoria sulla conferenza internazionale$": {
     "en_GB": "Memorandum on the international conference",
