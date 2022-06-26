@@ -996,6 +996,10 @@
     "en_GB": "Consulates",
     "nl_NL": "Consulaten"
   },
+  "Consolati; Ancona; Civitavecchia; Livorno; Napoli$": {
+    "en_GB": "Consulates; Ancona; Civitavecchia; Livorno; Naples",
+    "nl_NL": "Consulaten; Ancona; Civitavecchia; Livorno; Napels"
+  },
   "Consolato di Ancona$": {
     "en_GB": "Consulate of Ancona",
     "nl_NL": "Consulaat van Ancona"
@@ -1368,7 +1372,7 @@
     "en_GB": "Correspondence",
     "nl_NL": "Correspondentie"
   },
-  "Corrispondenze con le autorità romane$": {
+  "Corrispondenze con le autorità Romane$": {
     "en_GB": "Correspondence with the Roman authorities",
     "nl_NL": "Correspondentie met de Romeinse autoriteiten"
   },
@@ -1892,9 +1896,21 @@
     "en_GB": "Bundle \\1 Consulates",
     "nl_NL": "Bundel \\1 Gezantschappen"
   },
+  "Fasc. (\\d+) Corpo Diplomatico$": {
+    "en_GB": "Bundle \\1 Corps Diplomatique",
+    "nl_NL": "Bundel \\1 Corps Diplomatique"
+  },
   "Fasc. (\\d+) Corrispondenza Diplomatica$": {
     "en_GB": "Bundle \\1 Diplomatic correspondence",
     "nl_NL": "Bundel \\1 Diplomatieke correspondentie"
+  },
+  "Fasc. (\\d+) Corrispondenze con le autorità Romane$": {
+    "en_GB": "Bundle \\1 Correspondence with the Roman authorities",
+    "nl_NL": "Bundel \\1 Correspondentie met de Romeinse autoriteiten"
+  },
+  "Fasc. (\\d+) Documenti Diversi$": {
+    "en_GB": "Bundle \\1 Various documents",
+    "nl_NL": "Bundel \\1 Diverse documenten"
   },
   "Fasc. (\\d+) L'incaricato d'affari presso la Corte di Torino$": {
     "en_GB": "Bundle \\1 Chargé d'affaires at the Court of Turin",
@@ -1971,6 +1987,10 @@
   "Fasc. (\\d+) Questione sui dazi sugli zuccheri$": {
     "en_GB": "Bundle \\1 Matter of taxes levied on sugar",
     "nl_NL": "Bundel \\1 Kwestie over de belasting op suiker"
+  },
+  "Fasc. (\\d+) Stampati diversi$": {
+    "en_GB": "Bundle \\1 Various prints",
+    "nl_NL": "Bundel \\1 Diverse druksels"
   },
   "Fasc. (\\d+). Carte (\\d+)-(\\d+). Corrispondenza col Console Generale di Napoli$": {
     "en_GB": "Bundle \\1. Archival documents \\2-\\3. Correspondence with the Consul General of Naples",
@@ -6539,6 +6559,10 @@
   "Verbale della Commissione presieduta da (\\$\\w+) verifica dei danni recati ai monumenti e alle abitazioni di Roma durante l'assedio, tanto dal corpo di spedizione francese quanto dal governo repubblicano$": {
     "en_GB": "Minutes of the Commission chaired by \\1 which verifies the damages done to the monuments and the homes of Rome during the siege, by the French expeditionary forces as well as the republican government",
     "nl_NL": "Notulen van de Commissie voorgezeten door \\1 die de schade opneemt die gedaan is aan de monumenten en de huizen van Rome tijdens het beleg, zowel door toedoen van het Franse expeditieleger als de republikeinse regering"
+  },
+  "Viaggio in Italia dei Granduchi di Sassonia-Weimar Eisenach$": {
+    "en_GB": "Travels through Italy of the Grand Dukes of Saxe-Weimar-Eisenach",
+    "nl_NL": "Reis door Italië van de Groothertogen van Saksen-Weimar-Eisenach"
   },
   "Viaggio in Italia dei Granduchi ereditari di Sassonia Weimar Eisenach$": {
     "en_GB": "Travels through Italy of the Hereditary Grand Dukes of Saxe-Weimar-Eisenach",
