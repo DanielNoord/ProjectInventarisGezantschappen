@@ -428,10 +428,6 @@
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. Outgoing political correspondence",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Napels. Uitgaande politieke correspondentie"
   },
-  "Archivio della Legazione dei Paesi Bassi a Roma e a Napoli. Corrispondenza politica$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. Political correspondence",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Napels. Politieke correspondentie"
-  },
   "Archivio della Legazione dei Paesi Bassi a Roma e a Torino. Corrispondenza diplomatica$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Turin. Diplomatic correspondence",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Turijn. Diplomatieke correspondentie"
@@ -1340,10 +1336,6 @@
     "en_GB": "Correspondence with the Minister of Foreign Affairs of the Netherlands",
     "nl_NL": "Correspondentie met de Minister van Buitenlandse Zaken van Nederland"
   },
-  "Corrispondenza con il Segretario del Re di Sardegna$": {
-    "en_GB": "Correspondence with the Secretary of the King of Sardinia",
-    "nl_NL": "Correspondentie met de secretaris van de Koning van Sardinië"
-  },
   "Corrispondenza diplomatica$": {
     "en_GB": "Diplomatic correspondence",
     "nl_NL": "Diplomatieke correspondentie"
@@ -1909,10 +1901,6 @@
     "nl_NL": "Bundel \\1 Chargé d'affaires bij het hof van Turijn"
   },
   "Fasc. (\\d+) Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
-    "en_GB": "Bundle \\1 Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\2",
-    "nl_NL": "Bundel \\1 Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\2"
-  },
-  "Fasc. (\\d+) Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d).$": {
     "en_GB": "Bundle \\1 Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\2",
     "nl_NL": "Bundel \\1 Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\2"
   },
@@ -6588,7 +6576,7 @@
     "en_GB": "[Correspondance politique (Political correspondence)]",
     "nl_NL": "[Correspondance politique (Politieke correspondentie)]"
   },
-  "\\[Correspondance politique avec le Ministre des Affaires Étrangères \\(corrispondenza politica con il Ministro degli Affari Esteri\\)\\]$": {
+  "\\[Correspondance politique avec le Ministre des Affaires Étrangères \\(Corrispondenza politica con il Ministro degli Affari Esteri\\)\\]$": {
     "en_GB": "[Correspondance politique avec le Ministre des Affaires Étrangères (Political correspondance with the Minister of Foreign Affairs)]",
     "nl_NL": "[Correspondance politique avec le Ministre des Affaires Étrangères (Politieke correspondentie met de minister van Buitenlandse Zaken)]"
   },
