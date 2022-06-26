@@ -3137,8 +3137,8 @@
     "nl_NL": "Gezantschap te Rome en Napels. Diplomatieke correspondentie (uitgaand)"
   },
   "Legazione di Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in partenza$": {
-    "en_GB": "Legation in Rome. \\2. Outgoing diplomatic correspondence",
-    "nl_NL": "Gezantschap te Rome. \\2. Uitgaande diplomatieke correspondentie"
+    "en_GB": "Legation in Rome. \\1. Outgoing diplomatic correspondence",
+    "nl_NL": "Gezantschap te Rome. \\1. Uitgaande diplomatieke correspondentie"
   },
   "Legazione di Roma. Corrispondenza diplomatica in arrivo$": {
     "en_GB": "Legation at Rome. Incoming diplomatic correspondence",
