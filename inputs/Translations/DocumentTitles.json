@@ -1912,6 +1912,10 @@
     "en_GB": "Bundle \\1 Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\2",
     "nl_NL": "Bundel \\1 Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\2"
   },
+  "Fasc. (\\d+) Legazione dei Paesi Bassi a Roma. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d).$": {
+    "en_GB": "Bundle \\1 Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\2",
+    "nl_NL": "Bundel \\1 Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\2"
+  },
   "Fasc. (\\d+) Legazione dei Paesi Bassi presso la Santa Sede. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
     "en_GB": "Bundle \\1 Legation of the Netherlands at the Holy See. Incoming diplomatic correspondence. \\2",
     "nl_NL": "Bundel \\1 Gezantschap van Nederland bij de Heilige Stoel. Inkomende diplomatieke correspondentie. \\2"
@@ -1943,10 +1947,6 @@
   "Fasc. (\\d+) Legazione di Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in partenza$": {
     "en_GB": "Bundle \\1 Legation in Rome. \\2. Outgoing diplomatic correspondence",
     "nl_NL": "Bundel \\1 Gezantschap te Rome. \\2. Uitgaande diplomatieke correspondentie"
-  },
-  "Fasc. (\\d+) Legazione di Roma. Corrispondenza diplomatica in arrivo$": {
-    "en_GB": "Bundle \\1 Legation in Rome. Incoming diplomatic correspondence",
-    "nl_NL": "Bundel \\1 Gezantschap te Rome. Inkomende diplomatieke correspondentie"
   },
   "Fasc. (\\d+) Legazione di Torino. (\\d\\d\\d\\d). Corrispondenza diplomatica in partenza$": {
     "en_GB": "Bundle \\1 Legation at Turin. \\2. Outgoing diplomatic correspondence",
@@ -3099,10 +3099,6 @@
   "Legazione di Roma e Torino. Corrispondenza ordinaria$": {
     "en_GB": "Legation in Rome and Turin. Ordinary correspondence",
     "nl_NL": "Gezantschap te Rome en Turijn. Normale correspondentie"
-  },
-  "Legazione di Roma e a Napoli. Corrispondenza diplomatica \\(in partenza\\)$": {
-    "en_GB": "Legation in Rome and Naples. Diplomatic correspondence (outgoing)",
-    "nl_NL": "Gezantschap te Rome en Napels. Diplomatieke correspondentie (uitgaand)"
   },
   "Legazione di Roma. (\\d\\d\\d\\d). Corrispondenza diplomatica in partenza$": {
     "en_GB": "Legation in Rome. \\1. Outgoing diplomatic correspondence",
@@ -5072,7 +5068,7 @@
     "en_GB": "Pièces diverses. Imprimés et brochures politiques (Various pieces. Prints and political pamphlets)",
     "nl_NL": "Pièces diverses. Imprimés et brochures politiques (Diverse stukken. Prenten en politieke pamfletten)"
   },
-  "Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets \\(Documenti vari; Corrispondenza con il corpo diplomatico; corrispondenza con il Ministro degli Affari Esteri su argomenti diversi\\)$": {
+  "Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets \\(Documenti vari; Corrispondenza con il corpo diplomatico; Corrispondenza con il Ministro degli Affari Esteri su argomenti diversi\\)$": {
     "en_GB": "Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets (Various pieces; Correspondence with the Corps Diplomatique; Correspondence with the Minister of Foreign Affairs about various topics)",
     "nl_NL": "Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets (Diverse stukken; Correspondentie met het Corps Diplomatique; Correspondentie met de minister van Buitenlandse Zaken over diverse onderwerpen)"
   },
@@ -6580,9 +6576,9 @@
     "en_GB": "[Bollettini Segreti. Autorités Romaines. Secrétaire d'État. Consul des Pays-Bas. Pièces Diverses. Corps Diplomatique (Secret bulletins. Roman authorities. Secretary of State. Consuls of the Netherlands. Various pieces. Corps Diplomatique)]",
     "nl_NL": "[Bollettini Segreti. Autorités Romaines. Secrétaire d'État. Consul des Pays-Bas. Pièces Diverses. Corps Diplomatique (Geheime bulletins. Romeinse autoriteiten. Staatssecretaris. Consuls van Nederland. Diverse stukken. Corps Diplomatique)]"
   },
-  "\\[Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères \\(Corrispondenza con il luogotentente generale (\\$\\w+). Bollettini segreti. Corrispondenza politica con il Ministro degli Affari Esteri\\)\\]$": {
-    "en_GB": "[Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères (Correspondence with lieutenant general \\1. Secret bulletins. Correspondence with the Minister of Foreign Affairs)]",
-    "nl_NL": "[Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères (Correspondentie met luitenant-generaal \\1. Geheime bulletins. Correspondentie met de minister van Buitenlandse Zaken)]"
+  "\\[Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères \\(Corrispondenza col (\\$\\w+). Bollettini segreti. Corrispondenza politica con il Ministro degli Affari Esteri\\)\\]$": {
+    "en_GB": "[Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères (Correspondence with \\1. Secret bulletins. Correspondence with the Minister of Foreign Affairs)]",
+    "nl_NL": "[Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères (Correspondentie met \\1. Geheime bulletins. Correspondentie met de minister van Buitenlandse Zaken)]"
   },
   "\\[Correspondance politique 1844. Correspondance sur divers objets 1843-1844. Imprimés divers 1848 \\(Corrispondenza politica 1844. Corrispondenza su vari oggetti 1843-1844. Stampati diversi 1848\\)\\]$": {
     "en_GB": "[Correspondance politique 1844. Correspondance sur divers objets 1843-1844. Imprimés divers 1848 (Political correspondence 1844. Correspondence on various subjects 1843-1844. Several prints from 1848)]",
@@ -6592,7 +6588,7 @@
     "en_GB": "[Correspondance politique (Political correspondence)]",
     "nl_NL": "[Correspondance politique (Politieke correspondentie)]"
   },
-  "\\[Correspondance politique avec le Ministre des Affaires Étrangères \\(coorispondenza politica con il Ministro degli Affari Esteri\\)\\]$": {
+  "\\[Correspondance politique avec le Ministre des Affaires Étrangères \\(corrispondenza politica con il Ministro degli Affari Esteri\\)\\]$": {
     "en_GB": "[Correspondance politique avec le Ministre des Affaires Étrangères (Political correspondance with the Minister of Foreign Affairs)]",
     "nl_NL": "[Correspondance politique avec le Ministre des Affaires Étrangères (Politieke correspondentie met de minister van Buitenlandse Zaken)]"
   },
@@ -6624,7 +6620,7 @@
     "en_GB": "[Pièces diverses. Imprimés et brochures politiques (Various pieces. Prints and political pamphlets)]",
     "nl_NL": "[Pièces diverses. Imprimés et brochures politiques (Diverse stukken. Prenten en politieke pamfletten)]"
   },
-  "\\[Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets \\(Documenti vari; Corrispondenza con il corpo diplomatico; corrispondenza con il Ministro degli Affari Esteri su argomenti diversi\\)\\]$": {
+  "\\[Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets \\(Documenti vari; Corrispondenza con il corpo diplomatico; Corrispondenza con il Ministro degli Affari Esteri su argomenti diversi\\)\\]$": {
     "en_GB": "[Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets (Various pieces; Correspondence with the Corps Diplomatique; Correspondence with the Minister of Foreign Affairs about various topics)]",
     "nl_NL": "[Pièces diverses; Correspondance avec le corps diplomatique; Correspondance avec le ministre des Affaires Étrangères sur divers objets (Diverse stukken; Correspondentie met het Corps Diplomatique; Correspondentie met de minister van Buitenlandse Zaken over diverse onderwerpen)]"
   },
