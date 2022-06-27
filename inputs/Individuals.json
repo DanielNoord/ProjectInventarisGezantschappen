@@ -943,17 +943,18 @@
     "functions": [
       [
         "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontificio dello Stato Pontificio",
-        "1862/1870"
+        "1860/1868"
       ]
     ],
     "images": [],
     "name": "Pier Domenico",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
-      "'Governo (Stato Pontificio)', in: Wikipedia, L'enciclopedia libera (2021-04-07), found on: https://it.wikipedia.org/w/index.php?title=Governo_(Stato_Pontificio)&oldid=119773648"
+      "'Consiglio de' ministri' in: Annuario pontificio 1860, 1863, 1864, 1865, 1866, 1867, 1868 (Roma, Tipografia della Rev. Cam. Apostolica)",
+      "Carboni, Luca, 'I processi verbali del Consiglio dei Ministri dello Stato Pontificio (1847-1870)' in: A.Gottsmann, P.Piatti en A.E. Rehberg (red.), Incorrupta Monumenta Ecclesiam Defendunt. Studi offerti a mons. Sergio Pagano, prefetto dell’Archivio Segreto Vaticano, vol. II (Città del Vaticano, Archivio Segreto Vaticano, 2018) vol. II, 107-137, Collectanea Archivi Vaticani 107."
     ],
     "surname": "Constantini Baldini",
     "titles": [
@@ -1140,18 +1141,20 @@
   },
   "$Baronis": {
     "ISNI:id": null,
-    "comment_daniel": "Woonde aan de Via della Consolata n. 7 te Turijn en is de zuster van een zekere J.C. Sterkenburg",
+    "comment_daniel": "Woonde aan de Via della Consolata n. 7 te Turijn en is de zuster van een zekere J.C. (? van Westrenen) van Sterkenburg",
     "date_of_birth": "",
     "date_of_death": "1856",
     "functions": [],
     "images": [],
     "name": "Johanna",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "L'Aia",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Gazzetta piemontese 124 (17 ottobre 1826) 812"
+    ],
     "sources_other": [],
-    "surname": "Baronis",
+    "surname": "Baronis van Westrenen van Sterkenburg",
     "titles": [
       [
         "contessa",
@@ -1193,7 +1196,7 @@
     "functions": [],
     "images": [],
     "name": "Gaetano",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -1399,11 +1402,14 @@
     "date_of_death": "",
     "functions": [],
     "images": [],
-    "name": "",
-    "person_type": 2,
-    "place_of_birth": "",
+    "name": "Johann Gottfried",
+    "person_type": 1,
+    "place_of_birth": "Amburgo",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Gazzetta di Genova 88 (31 oktober 1817) 353",
+      "https://gw.geneanet.org/hubertwalbaum?lang=en&pz=hubert+charles+alphonse&nz=walbaum&p=johann+gottfried&n=becker"
+    ],
     "sources_other": [],
     "surname": "Becker",
     "titles": [],
@@ -1952,12 +1958,12 @@
     "functions": [],
     "images": [],
     "name": "Thomas",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
-    "surname": "Berret",
+    "surname": "Berret (Barret)",
     "titles": [],
     "wikidata:id": null
   },
@@ -2215,17 +2221,17 @@
   },
   "$Biandrate": {
     "ISNI:id": null,
-    "comment_daniel": "I believe that letters ms278_138 & ms278_139 concern the return from France of the Prince of Carignone, Carlo Alberto di Savoia, in 1821, possibly together with the count of d'Argentau (possibly François de Mercy-Argentau, who was governor of Brabant and chamberlain to the Dutch king). It is unclear why Biandrate was involved in this, but he fits the picture as he was connected to most of the greater political figures relevant in the 1921 Piedmontese revolution. There is little doubt that he was the count of Biandrate, as it is recorded that the previous count had no sons of his own.",
+    "comment_daniel": "I believe that letters ms278_138 & ms278_139 concern the return from France of the Prince of Carignano, Carlo Alberto di Savoia, in 1821, possibly together with the count of d'Argentau (possibly François de Mercy-Argentau, who was governor of Brabant and chamberlain to the Dutch king). It is unclear why Biandrate was involved in this, but he fits the picture as he was connected to most of the greater political figures relevant in the 1821 Piedmontese revolution. There is little doubt that he was the count of Biandrate, as it is recorded that the previous count had no sons of his own.",
     "date_of_birth": "1756-03-02",
     "date_of_death": "1840-10-26",
     "functions": [],
     "images": [],
     "name": "Ercole Silva",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "Milano",
     "place_of_death": "Cinisello",
     "sources": [
-      "Cantù, Cesare and Cesare Rovida, Donato ed Ercole Silva: Conti di Biandrate (Milan, 1876), "
+      "Cantù, Cesare and Cesare Rovida, Donato ed Ercole Silva: Conti di Biandrate (Milan, 1876) 17-37"
     ],
     "sources_other": [],
     "surname": "de Biandrate",
@@ -2329,7 +2335,7 @@
     "functions": [],
     "images": [],
     "name": "Luigi",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -3033,20 +3039,20 @@
   },
   "$Bottilia": {
     "ISNI:id": null,
-    "comment_daniel": "Family from the nobility, should be more about him. Related to Card. Luigi Bottiglia Savoulx",
+    "comment_daniel": "Family from the nobility, should be more about him. Related to Card. Luigi Bottiglia di Savoulx",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
     "images": [],
     "name": "Vincenzo",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
       "Gazzetta ufficiale della Repubblica italiana. Parte prima (Istituto poligrafico dello stato, 1882)"
     ],
-    "surname": "Bottilia Savoulx",
+    "surname": "Bottigia di Savoulx",
     "titles": [
       [
         "maggior generale",
@@ -3366,24 +3372,39 @@
     "ISNI:id": null,
     "comment_daniel": "",
     "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_death": "1828",
     "functions": [
       [
-        "Soprassindico di Firenze",
+        "Soprassindaco di Firenze",
+        null
+      ],
+      [
+        "Soprintendente Generale all'Uffizio delle Comunità del Gran-Ducato",
+        null
+      ],
+      [
+        "Governatore di Siena",
         null
       ]
     ],
     "images": [],
-    "name": "G",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "name": "Giuseppe",
+    "person_type": 1,
+    "place_of_birth": "Siena",
+    "place_of_death": "Siena",
     "sources": [],
     "sources_other": [
-      "Leggi del Gran-Ducato della Toscana (Stamperia Gran-Ducale: Firenze, 1818), 121"
+      "Barbetti, S., 'La nobiltà senese tra Età moderna e contemporanea: il caso Perini Brancadori', Tesi di Laurea, Università degli Studi di Siena, 1995-1996) passim. Leggi del Gran-Ducato della Toscana (Stamperia Gran-Ducale: Firenze, 1818) 121",
+      "Leggi del Gran-Ducato della Toscana (Stamperia Gran-Ducale: Firenze, 1820) passim",
+      "Pace, Domenico, Gli Archivi del 'Governo di Siena' (1814-1849) Storia e produzione documentaria degli uffici politici e di giustizia criminale Rome/Siena, Ministero per i beni e le attività culturali, Direzione generale per gli archivi, 2010) 142-143"
     ],
-    "surname": "Brancadori",
-    "titles": [],
+    "surname": "Perini Brancadori",
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Brandini": {
@@ -4338,11 +4359,13 @@
     "date_of_death": "",
     "functions": [],
     "images": [],
-    "name": "",
-    "person_type": 2,
+    "name": "Scipione",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Annuario pontificio 1866, 1867, 1868, 1869 (Rome, Tipografia della Rev. Cam. Apostolica, 1866-1869) passim"
+    ],
     "sources_other": [],
     "surname": "Cappello",
     "titles": [
@@ -5788,7 +5811,7 @@
     ],
     "images": [],
     "name": "J.E.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -6115,7 +6138,7 @@
     ],
     "images": [],
     "name": "Carlo",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -6137,10 +6160,12 @@
     ],
     "images": [],
     "name": "Ferdinando",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
+      "Almanacco romano, ossia raccolta dei primari dignitari e funzionari della corte romana (Rome, Tip. Chiassi, 1855) 100",
+      "Rinaldi, R., Roma papale: dalla Repubblica alla monarchia, 1849-1870 (Rome, Nuova editrice Spada, 1992) 73-74",
       "Tupputi, Carla Lodolini, La Commissione governativa di Stato nella restaurazione pontificia (17 luglio 1849-12 aprile 1850) (Milan, 1970), 40"
     ],
     "sources_other": [
@@ -6351,7 +6376,7 @@
     "functions": [],
     "images": [],
     "name": "Carlo",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -6373,7 +6398,7 @@
     ],
     "images": [],
     "name": "Paolo Domenico",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -6405,8 +6430,8 @@
       ]
     ],
     "images": [],
-    "name": "Guiseppe",
-    "person_type": 2,
+    "name": "Giuseppe",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "Genova",
     "sources": [
@@ -6508,7 +6533,7 @@
     ],
     "images": [],
     "name": "A.J.C.V.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -7645,8 +7670,8 @@
   "$Figueiredo": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1805",
+    "date_of_death": "1887",
     "functions": [
       [
         "Incaricato d'affari del'Impero del Brasile presso la Santa Sede",
@@ -7654,15 +7679,17 @@
       ]
     ],
     "images": [],
-    "name": "J.B.",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [
-      "Notizie per l'Anno 1853 (Tipografia Salviucci: Roma, 1853), p. 311"
+    "name": "José Bernardo",
+    "person_type": 1,
+    "place_of_birth": "Pernambuco",
+    "place_of_death": "San Pietroburgo",
+    "sources": [
+      "Archivio Histórico del Itamaraty (Brasile), collezione José Bernardo de Figueiredo (Barão de Alhandra), codice di riferimento BR.3304557.AHI/27, online http://censoarchivos.mcu.es/CensoGuia/fondoDetail.htm?id=561377"
     ],
-    "surname": "Figueiredo",
+    "sources_other": [
+      "Notizie per l'Anno 1853 (Tipografia Salviucci: Roma, 1853), 311"
+    ],
+    "surname": "De Figueiredo",
     "titles": [
       [
         "Cav.",
@@ -7795,7 +7822,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -7890,13 +7917,22 @@
     "functions": [],
     "images": [],
     "name": "Troiano",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Almanach de Gotha. Annuaire diplomatique et statistique pou l'année 1863 (Gotham, Justus Perthes 1863-1865)871",
+      "Gothaisches genealogisches Taschenbuch aus das Jahr 1865 (Gotha, Justus Perthes, 1865) 905",
+      "Ruoli de' generali ed uffiziali attivi e sendetanei del reale esercito e dell'armata di mare di S.M. il Re del Regno delle Due Sicilie (Napoli, Reale Tipografia Militare, 1853) 215"
+    ],
     "surname": "Folgori",
-    "titles": [],
+    "titles": [
+      [
+        "Cav.",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Fontaine": {
@@ -8406,17 +8442,20 @@
   "$Geloes": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1816",
+    "date_of_death": "1893",
     "functions": [],
     "images": [],
-    "name": "Theodore",
-    "person_type": 2,
+    "name": "Théodore",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Annuaire de la noblesse belge 1856 (Bruxelles, Tarlier, 1856) 119",
+      "Coomans de Brachène, Oscar, État présent de la noblesse belge, Annuaire 1989 (Bruxelles 1989) ad nomen."
+    ],
     "sources_other": [],
-    "surname": "de Geloes",
+    "surname": "de Geloes d'Elsloo",
     "titles": [
       [
         "conte",
@@ -8433,12 +8472,12 @@
     "functions": [],
     "images": [],
     "name": "Maurice",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
-    "surname": "de Geloes",
+    "surname": "de Geloes d'Elsloo",
     "titles": [
       [
         "conte",
@@ -8582,7 +8621,7 @@
     "functions": [],
     "images": [],
     "name": "J.H.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -8780,17 +8819,23 @@
   },
   "$Ginkel": {
     "ISNI:id": null,
-    "comment_daniel": "Direttore dell'ordine equestra Siena?",
-    "date_of_birth": "",
+    "comment_daniel": "",
+    "date_of_birth": "1795",
     "date_of_death": "",
     "functions": [],
     "images": [],
-    "name": "Syberlus",
-    "person_type": 2,
-    "place_of_birth": "",
+    "name": "Sybertus",
+    "person_type": 1,
+    "place_of_birth": "L'Aia",
     "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
+    "sources": [
+      "'Conversione di un protestante alla cattolica religion', La voce della verità. Gazzetta dell'Italia centrale 653 (8 ottobre 1835) 171",
+      "Lucati, Venosto, Teatro sociale di Como, centocinquatanni di storia (Como, Lito-Tipografia Comm. Luciano Noseda, 1963) 58",
+      "Migne, J.P., 'Sybert-van-Ginkel' in: Dictionnaire des conversions ou Essai d'encyclopédie historique des conversions au catholicisme (Petit Montrougem, Migne, 1852) 1267"
+    ],
+    "sources_other": [
+      "Rijksarchief Brussel, Burgerlijke Stand Brussel, Huwelijken, 1795-heden, afgeleid van http://users.telenet.be/harry.goegebeur/SecondSite2/p302.htm"
+    ],
     "surname": "van Ginkel",
     "titles": [
       [
@@ -8836,7 +8881,7 @@
     "functions": [],
     "images": [],
     "name": "Francesco",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -8915,10 +8960,12 @@
     "functions": [],
     "images": [],
     "name": "Henry",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Lindner-Calvanelli, Ferdinand, 'Les risières d'Umana', Allgemeine Zeitung, mit allerhöchsten Privilegien 53 (22 febbraio 1847) 422-423"
+    ],
     "sources_other": [],
     "surname": "Giroud",
     "titles": [],
@@ -9670,7 +9717,7 @@
     "functions": [],
     "images": [],
     "name": "Domenico",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -9830,8 +9877,8 @@
   "$Hamecourt": {
     "ISNI:id": null,
     "comment_daniel": "NB: d'Hamecourt was de griffier/secretaris onder De Mey van Streefkerke (in deze periode bestond het Staatssecretarie als dep. (1813-1840)). Ik kan zijn eerste naam niet achterhalen, hij ondertekent meestal met L.G.",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1788",
+    "date_of_death": "1847-06-20",
     "functions": [
       [
         "Amministratore principale e segretario provvisorio presso la Segreteria di Stato del Regno dei Paesi Bassi",
@@ -9839,14 +9886,16 @@
       ]
     ],
     "images": [],
-    "name": "A.L.E.G.",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "name": "Armand Louis Eugène",
+    "person_type": 1,
+    "place_of_birth": "Parigi",
+    "place_of_death": "Parigi",
     "sources": [
       "Steur, J., Bijdragen en Mededelingen betreffende de Geschiedenis der Nederlanden, in: Bijdragen en Mededeelingen van het Historisch Genootschap. Deel 84 (1969), p. 98"
     ],
-    "sources_other": [],
+    "sources_other": [
+      "https://www.genealogieonline.nl/stamboom-hajenius/I317.php"
+    ],
     "surname": "D'Hamecourt",
     "titles": [],
     "wikidata:id": null
@@ -9943,7 +9992,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -10207,12 +10256,14 @@
     "functions": [],
     "images": [],
     "name": "J.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "https://iisg.nl/ondernemers/ondernemers/ondernemer_124.php?search_string=Heukelom"
+    ],
     "sources_other": [],
-    "surname": "van Heukeldom Vollenhove",
+    "surname": "van Heukelom Vollenhoven",
     "titles": [],
     "wikidata:id": null
   },
@@ -11099,7 +11150,7 @@
     ],
     "images": [],
     "name": "",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -11214,7 +11265,7 @@
     "functions": [],
     "images": [],
     "name": "J.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -11310,7 +11361,7 @@
     "functions": [],
     "images": [],
     "name": "Daniel",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -12291,7 +12342,7 @@
     ],
     "images": [],
     "name": "F.A.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [
@@ -12301,7 +12352,7 @@
     "sources_other": [
       "https://books.google.it/books?id=xrLL9foWEk4C&q=Limburg+Stirum+Turijn&dq=Limburg+Stirum+Turijn&hl=nl&sa=X&ved=2ahUKEwj8naHs4cnzAhU8R_EDHUgCBf8Q6AF6BAgIEAI"
     ],
-    "surname": "Limburg Stirum",
+    "surname": "van Limburg Stirum",
     "titles": [
       [
         "conte",
@@ -13208,7 +13259,7 @@
     "functions": [],
     "images": [],
     "name": "Paolo",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -13673,8 +13724,8 @@
     "date_of_death": "",
     "functions": [],
     "images": [],
-    "name": "B",
-    "person_type": 2,
+    "name": "B.",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -14392,16 +14443,18 @@
       ]
     ],
     "images": [],
-    "name": "Henry Marie",
-    "person_type": 2,
+    "name": "Henri Marie",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Timmers Verhoeven, P.F., Handboek voor alle standen, bevattende: aanwijzing van alle de in het rijk bestaande ministerien, regeringsdepartementen, hoogere en lagere regtbanken, raden, [etc.]  of De nieuwe Koninklijke Secretaris, herzien en met de Nederlandsche wetgeving in overeenstemming gebracht (Dordrecht,m Blussé en Van Braam, 1840) 295."
+    ],
     "sources_other": [],
     "surname": "Mollerus",
     "titles": [
       [
-        "barone",
+        "jonkheer",
         null
       ]
     ],
@@ -14544,7 +14597,7 @@
     "functions": [],
     "images": [],
     "name": "Tarquinio",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -15072,12 +15125,14 @@
       ]
     ],
     "images": [],
-    "name": "J.",
-    "person_type": 2,
+    "name": "Giuseppe",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
+      "Hertslet, Edward, The Foreign Office List, Forming a Complete Diplomatic handbook, with Maps (Londen 1865) 21",
+      "L'Italie économique en 1867, avec un aperçu des industries italiennes à l'Exposition de Paris (Firenze,m G. Barbera, 1867) 520.",
       "Verzameling der Konsulaire Berigten en Verslagen over Nijverheid, Handel en Scheepvaart. Vol. 1 (Algemeene Lands-Drukkerij: Den Haag, 1865)"
     ],
     "surname": "Nervegna",
@@ -16553,7 +16608,7 @@
     ],
     "images": [],
     "name": "Robert",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -17451,7 +17506,7 @@
     "functions": [],
     "images": [],
     "name": "Samuel",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -17727,8 +17782,7 @@
     ],
     "sources_other": [
       "'Presidenti del Consiglio dei ministri del Regno delle Due Sicilie', in: Wikipedia, L'enciclopedia libera (2021-04-18), found on: https://it.wikipedia.org/w/index.php?title=Presidenti_del_Consiglio_dei_ministri_del_Regno_delle_Due_Sicilie&oldid=120009225",
-      "https://storia.camera.it/deputato/federico-del-re-1807",
-      "https://www.beniculturali.inaf.it/opac/astronomi/leopoldo-del-re"
+      "https://storia.camera.it/deputato/federico-del-re-1807"
     ],
     "surname": "Del Re",
     "titles": [],
@@ -17736,9 +17790,9 @@
   },
   "$ReL": {
     "ISNI:id": null,
-    "comment_daniel": "More than likely https://www.wikidata.org/wiki/Q3830688, his brother is also in the database",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "comment_daniel": "Not very likely https://www.wikidata.org/wiki/Q3830688, other Del Re in the database probably not his brother",
+    "date_of_birth": "1800",
+    "date_of_death": "1872",
     "functions": [
       [
         "Incaricato d'affari del Regno delle Due Sicilie presso la Santa Sede",
@@ -17751,18 +17805,20 @@
     ],
     "images": [],
     "name": "Leopoldo",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Lacriola, Michele, 'Patriota o traditori? L'ufficialità della marina delle Due Sicilie nell'estate del 1860', Nuova rivista storica 103/2 (2019) 651-682, ivi 679"
+    ],
     "sources_other": [
       "Almanacco reale del Regno delle Due Sicilie per l'anno 1857 (Naples, 1857), 390",
-      "La Civiltà Cattolica, Anno 12, 11 (Rome, 1861), 115"
+      "La Civiltà Cattolica, Anno 12, 11 (Roma, 1861), 115"
     ],
     "surname": "Del Re",
     "titles": [
       [
-        "ammiraglio",
+        "contrammiraglio",
         null
       ]
     ],
@@ -17776,7 +17832,7 @@
     "functions": [],
     "images": [],
     "name": "Pierre",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -18066,12 +18122,17 @@
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
-    "images": [],
+    "images": [
+      "https://hdl.handle.net/21.12103/f6284ba0-e15a-4792-a20d-28917da86a03"
+    ],
     "name": "Francesco",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Brieven van een zoeaaf die uit Tilburg vertrokken is, getrokken uit het Weekblad voor Tilburg, of voornaamste gebeurtenissen in den kerkelijken staat, sedert de laatste maanden (Tilburg, N. Luijten, 1867) 27.",
+      "Rione Campo Marzio. Lista degli elettori amministrativi’ in: Bollettino degli atti pubblicati dalla giunta municipale di Roma, dal 1 gennaio al 30 aprile 1872, 233"
+    ],
     "sources_other": [],
     "surname": "van Riel",
     "titles": [],
@@ -18791,13 +18852,20 @@
     "functions": [],
     "images": [],
     "name": "Gaetano",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
+    "sources": [
+      "Almanacco Reale del Regno delle Due Sicilie per l'anno 1857 (Napoli, Stamperia Reale, 1857) 91."
+    ],
     "sources_other": [],
     "surname": "Ruiz",
-    "titles": [],
+    "titles": [
+      [
+        "commendatore",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Rusconi": {
@@ -19059,7 +19127,7 @@
     "ISNI:id": null,
     "comment_daniel": "",
     "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_death": "1855-10-09",
     "functions": [
       [
         "Incaricato d'affari del Regno delle Due Sicilie presso la Santa Sede",
@@ -19068,12 +19136,15 @@
     ],
     "images": [],
     "name": "Antonino",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "place_of_death": "Roma",
+    "sources": [
+      "'Cronaca contemporanea', La Civiltà Cattolica 12 (1855) seconda serie, 226-256, ivi 229",
+      "'Dieci dispacci del marchese di San Giuliano, ambasciatore di S.M. il Re Ferdinando II presso la Santa Sede, al ministro degli affair esteri in Napoli', in: Bianchi, Nicomede (ed.), Storia documentata della diplomazia europea in Italia dall'anno 1814 all'anno 1861 (Torino/Napoli, Società e Unione Tipografica-Editrice, 1869) 254-265."
+    ],
     "sources_other": [],
-    "surname": "di San Giuliano",
+    "surname": "di San Giuliano Gagliati",
     "titles": [
       [
         "marchese",
@@ -19459,16 +19530,20 @@
   "$Schijndel": {
     "ISNI:id": null,
     "comment_daniel": "Heb niet heel veel info over deze man, maar hij komt veel voor in ms334/vol. 59",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1815-08-10",
+    "date_of_death": "1887-10-23",
     "functions": [],
     "images": [],
-    "name": "A.F.C.",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "name": "Amandus Franciscus Constantinus",
+    "person_type": 1,
+    "place_of_birth": "Dinther",
+    "place_of_death": "Leida",
     "sources": [],
-    "sources_other": [],
+    "sources_other": [
+      "Catalogus der algemene nationale tentoonstelling. Haarlem 1861 (Haarlem, Erven Loosjes, 1861) 59",
+      "https://www.erfgoedleiden.nl/collecties/personen/zoek-op-personen/deeds/014f3cfd-2b23-ebd5-c965-379120a38676?person=c6256d29-470c-820e-00a1-0c3386a37076",
+      "https://www.erfgoedleiden.nl/collecties/personen/zoek-op-personen/deeds/1ecce060-702e-25c1-bab7-06a22a4e3008?person=3fda392f-0ea9-4fe3-005c-e89e4a840592"
+    ],
     "surname": "Strack van Schijndel",
     "titles": [],
     "wikidata:id": null
@@ -20654,12 +20729,12 @@
     "functions": [],
     "images": [],
     "name": "J.C.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [],
-    "surname": "van Sterkenburg",
+    "surname": "van Westrenen van Sterkenburg",
     "titles": [],
     "wikidata:id": null
   },
@@ -21016,17 +21091,20 @@
   "$Suermondt": {
     "ISNI:id": null,
     "comment_daniel": "Advies: 1. I can't find him... schreef uit Rotterdam",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1828",
+    "date_of_death": "1912",
     "functions": [],
     "images": [],
-    "name": "",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "name": "Jan W.",
+    "person_type": 1,
+    "place_of_birth": "Rotterdam",
+    "place_of_death": "Rotterdam",
+    "sources": [
+      "Callahan, Maureen, The harbor barons : political and commercial elites and the development of the port of Rotterdam, 1824-1892 (Ann Arbor 1986) Vol. 2, 229.",
+      "Kok, C. Chr, Rotterdamse juristen uit vijf eeuwen (Hilversum, Verloren, 2009) 300"
+    ],
     "sources_other": [],
-    "surname": "Suermondt",
+    "surname": "Tabingh Suermondt",
     "titles": [],
     "wikidata:id": null
   },
@@ -21208,7 +21286,7 @@
     ],
     "images": [],
     "name": "A.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -21631,12 +21709,13 @@
     ],
     "images": [],
     "name": "Luigi",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
-      "Almanacco Romano pel 1858, ossia, raccolta dei primari dignitari e funzionari della città di Roma (Tipografia Sinimberghi: Roma, 1858), p. 144"
+      "Almanacco Romano pel 1855, ossia, raccolta dei primari dignitari e funzionari della città di Roma (Roma, Tipografia Chiassi 1855), 85",
+      "Discorsi del sommo pontefice Pio IX pronunziati in Vaticano ai fedeli di Roma e dell'Orbe (Roma, Cuggiani, Santini & co, 1873) ed. Pasquale de Franciscis, 25-28."
     ],
     "surname": "Tosi",
     "titles": [
@@ -22521,8 +22600,8 @@
       ]
     ],
     "images": [],
-    "name": "Isreaele",
-    "person_type": 2,
+    "name": "Israele",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -22678,18 +22757,21 @@
   },
   "$Vollenhove": {
     "ISNI:id": null,
-    "comment_daniel": "Wederom ies met de staatsschuld van Italië/Rome. Misschien: https://www.parlement.com/id/vg09lkxshnwq/h_van_beeck_vollenhoven",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "comment_daniel": "Wederom iets met de staatsschuld van Italië/Rome. Misschien: https://www.parlement.com/id/vg09lkxshnwq/h_van_beeck_vollenhoven",
+    "date_of_birth": "1843",
+    "date_of_death": "1886",
     "functions": [],
     "images": [],
-    "name": "",
-    "person_type": 2,
+    "name": "Pieter Christiaan",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
-    "sources_other": [],
-    "surname": "van Beeck Vollenhove",
+    "sources_other": [
+      "https://iisg.nl/ondernemers/ondernemers/ondernemer_124.php?search_string=Heukelom",
+      "https://www.parlement.com/id/vg09lkxshnwq/h_van_beeck_vollenhoven"
+    ],
+    "surname": "van Beeck Vollenhoven",
     "titles": [],
     "wikidata:id": null
   },
@@ -23043,7 +23125,7 @@
     "functions": [],
     "images": [],
     "name": "",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
@@ -23055,33 +23137,45 @@
   "$Wessenberg": {
     "ISNI:id": null,
     "comment_daniel": "It's strange, I can hardly find a trace of Ferdinand while the Wessenberg lineage is quite well known...",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1773-11-28",
+    "date_of_death": "1860-08-01",
     "functions": [],
     "images": [],
-    "name": "Ferdinand",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "name": "Johann Philipp",
+    "person_type": 1,
+    "place_of_birth": "Dresda",
+    "place_of_death": "Friburgo",
+    "sources": [
+      "'Wessenberg von Ampringen, Johann Philipp Frh. (1773-1858), Diplomat und Politiker' in: Österreichisches Biographisches Lexikon 1815-1950, Bd. 16 (Lfg. 70, 2019), 158-159, online https://biographien.ac.at/ID-184.6425901851423-1"
+    ],
     "sources_other": [],
-    "surname": "von Wessenberg",
-    "titles": [],
+    "surname": "Wessenberg von Ampringen",
+    "titles": [
+      [
+        "Freiherr",
+        null
+      ]
+    ],
     "wikidata:id": null
   },
   "$Westmann": {
     "ISNI:id": null,
     "comment_daniel": "Gaat om een bijlage. Ik kan niet uit de brief opmaken over wie dit gaat.",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1812",
+    "date_of_death": "1875",
     "functions": [],
     "images": [],
-    "name": "",
-    "person_type": 2,
+    "name": "Vladimir Il'ič",
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
-    "sources": [],
-    "sources_other": [],
+    "sources": [
+      "Amburger, Erik, Geschichte der Behördenorganisation Russlands von Peter dem Grossen bis 1917 (Leiden, Brill, 1966) 131",
+      "Bescheiden Betreffende de Buitenlandse Politiek van Nederland, 1848-1919, Tweede periode 1871-1898, volume II 1874-1880, J. Woltring ed., Rijks geschiedkundige Publicatiën, Grote Serie, num. 118 (L'Aia,  Martinus Nijhoff, 1965) 34-35 e passim"
+    ],
+    "sources_other": [
+      "https://de.wikipedia.org/wiki/Alexander_Wladimirowitsch_Westmann"
+    ],
     "surname": "Westmann",
     "titles": [],
     "wikidata:id": null
@@ -23238,7 +23332,7 @@
     "functions": [],
     "images": [],
     "name": "F.E.",
-    "person_type": 2,
+    "person_type": 1,
     "place_of_birth": "",
     "place_of_death": "",
     "sources": [],
