@@ -193,7 +193,7 @@
     "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg"
   },
   "Affari di ordinaria amministrazione$": {
-    "en_GB": "Affairs of an administrative nature",
+    "en_GB": "Affairs of administrative nature",
     "nl_NL": "Zaken van administratieve aard"
   },
   "Affari diversi sull'amministrazione della legazione dei Paesi Bassi in Belgio$": {
@@ -421,7 +421,7 @@
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Napels. Inkomende en uitgaande diplomatieke correspondentie"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma e a Napoli. Corrispondenza politica in arrivo$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naple. Incoming political correspondence",
+    "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. Incoming political correspondence",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Napels. Inkomende politieke correspondentie"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma e a Napoli. Corrispondenza politica in partenza$": {
@@ -610,11 +610,11 @@
   },
   "Avviso a stampa della navigazione riunita dei vapori napoletani e sardi in partenza da Civitavecchia nel mese di giugno$": {
     "en_GB": "Printed notice on the joint navigation of Neapolitan and Sardinian steamers departing from Civitavecchia in the month of June",
-    "nl_NL": "Gedrukte bekendmaking over de gezamenlijke navigering van de Napolitaanse en Sardinische stoomboten vertrekkende uit Civitavecchia in de maand juni"
+    "nl_NL": "Gedrukte bekendmaking over de gezamenlijke navigering van de Napolitaanse en Sardijnse stoomboten vertrekkende uit Civitavecchia in de maand juni"
   },
   "Avviso a stampa della navigazione riunita dei vapori napoletani e sardi in partenza da Civitavecchia nel mese di maggio$": {
     "en_GB": "Printed notice on the joint navigation of Neapolitan and Sardinian steamers departing from Civitavecchia in the month of May",
-    "nl_NL": "Gedrukte bekendmaking over de gezamenlijke navigering van de Napolitaanse en Sardinische stoomboten vertrekkende uit Civitavecchia in de maand mei"
+    "nl_NL": "Gedrukte bekendmaking over de gezamenlijke navigering van de Napolitaanse en Sardijnse stoomboten vertrekkende uit Civitavecchia in de maand mei"
   },
   "Avviso a stampa sull'ordine pubblico della Prefettura di Polizia di Napoli \\((\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed notice on public order by the Prefecture of Police of Naples (\\1 Jun. \\2)",
@@ -1234,7 +1234,7 @@
   },
   "Correspondance avec le département des Affaires Étrangères Sarde de Rome \\(Corrispondenza con il Ministero degli Affari Esteri Sardo di Roma\\)$": {
     "en_GB": "Correspondance avec le département des Affaires Étrangères Sarde de Rome (Correspondence with the Sardinian Minister of Foreign Affairs from Rome)",
-    "nl_NL": "Correspondance avec le département des Affaires Étrangères Sarde de Rome (Correspondentie met de Sardinische minister van Buitenlandse Zaken vanuit Rome)"
+    "nl_NL": "Correspondance avec le département des Affaires Étrangères Sarde de Rome (Correspondentie met de Sardijnse minister van Buitenlandse Zaken vanuit Rome)"
   },
   "Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères \\(Corrispondenza col (\\$\\w+). Bollettini segreti. Corrispondenza politica con il Ministro degli Affari Esteri\\)$": {
     "en_GB": "Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères (Correspondence with \\1. Secret bulletins. Correspondence with the Minister of Foreign Affairs)",
@@ -5070,7 +5070,7 @@
   },
   "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sarde 1818-1829 \\(Documenti vari. Corrispondenza col Ministero degli Affari Esteri Sardo 1818-1829\\)$": {
     "en_GB": "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sarde 1818-1829 (Various pieces. Correspondence with the Sardinian Minister of Foreign Affairs 1818-1829)",
-    "nl_NL": "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sarde 1818-1829 (Diverse stukken. Correspondentie met de Sardinische minister van Buitenlandse Zaken 1818-1829)"
+    "nl_NL": "Pièces diverses. Correspondance avec le département des Affaires Étrangères Sarde 1818-1829 (Diverse stukken. Correspondentie met de Sardijnse minister van Buitenlandse Zaken 1818-1829)"
   },
   "Pièces diverses. Correspondance avec le département des Affaires Étrangères \\(Corrispondenza con il Ministero degli Affari Esteri\\)$": {
     "en_GB": "Pièces diverses. Correspondance avec le département des Affaires Étrangères (Correspondence with the Minister of Foreign Affairs)",
