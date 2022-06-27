@@ -1128,6 +1128,10 @@
     "en_GB": "_Governatore_ {governor} of Rome, vice-camerlengo of the Roman Catholic Church and director general of police of Rome",
     "nl_NL": "_Governatore_ {gouverneur} van Rome, vice-camerlengo van de Rooms-Katholieke Kerk en directeur-generaal van politie van Rome"
   },
+  "Governatore di Siena": {
+    "en_GB": "Governor of Siena",
+    "nl_NL": "Gouverneur van Siena"
+  },
   "Governatore e comandante della divisione militare di Genova": {
     "en_GB": "Governor and commander of the military division of Genoa",
     "nl_NL": "Gouverneur and commandant van de militaire divisie van Genua"
@@ -2844,9 +2848,13 @@
     "en_GB": "Associate of the Banca Meuricoffre from Naples",
     "nl_NL": "Partner bij de Banca Meuricoffre uit Napels"
   },
-  "Soprassindico di Firenze": {
+  "Soprassindaco di Firenze": {
     "en_GB": "Magistrate auditor of Florence",
     "nl_NL": "Magistraat-auditor van Florence"
+  },
+  "Soprintendente Generale all'Uffizio delle Comunità del Gran-Ducato": {
+    "en_GB": "General Superintendent at the Office of the Communities of the Grand Duchy",
+    "nl_NL": "General Superintendent bij het Bureau van de Gemeenschappen van het Groothertogdom"
   },
   "Sostituto ad interim della sezione dei Rapporti con gli Stati della Segreteria di Stato della Santa Sede": {
     "en_GB": "Interim deputy for Relations with States of the Secretariat of State of the Holy See",
