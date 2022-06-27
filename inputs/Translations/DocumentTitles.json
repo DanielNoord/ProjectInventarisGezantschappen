@@ -1864,6 +1864,10 @@
     "en_GB": "Extrait",
     "nl_NL": "Extrait"
   },
+  "Fasc. (\\d+) \"(.+)\" \\(cc. (\\d+)-(\\d+)\\)$": {
+    "en_GB": "Bundle \\1 “\\2” (\\3-\\4)",
+    "nl_NL": "Bundel \\1 “\\2” (\\3-\\4)"
+  },
   "Fasc. (\\d+) \"(.+)\"$": {
     "en_GB": "Bundle \\1 “\\2”",
     "nl_NL": "Bundel \\1 “\\2”"
