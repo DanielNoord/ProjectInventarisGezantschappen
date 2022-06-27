@@ -1904,7 +1904,7 @@
     "en_GB": "Bundle \\1 Diplomatic correspondence",
     "nl_NL": "Bundel \\1 Diplomatieke correspondentie"
   },
-  "Fasc. (\\d+) Corrispondenze con le autorità Romane$": {
+  "Fasc. (\\d+) Corrispondenza con le autorità Romane$": {
     "en_GB": "Bundle \\1 Correspondence with the Roman authorities",
     "nl_NL": "Bundel \\1 Correspondentie met de Romeinse autoriteiten"
   },
