@@ -152,6 +152,14 @@
     "en_GB": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake born in the Netherlands died in Ariccia 1846)",
     "nl_NL": "\"William Archibald Bake né en Hollande mort en Ariccia 1846\" ($Bake geboren in Nederland overleden in Ariccia 1846)"
   },
+  "(\\d\\d\\d\\d)$": {
+    "en_GB": "\\1",
+    "nl_NL": "\\1"
+  },
+  "(\\d\\d\\d\\d)-(\\d\\d\\d\\d)$": {
+    "en_GB": "\\1-\\2",
+    "nl_NL": "\\1-\\2"
+  },
   "1849. Corrispondenza ufficiale col Ministero degli affari esteri sugli avvenimenti di Roma$": {
     "en_GB": "1849. Official political correspondence with the Ministry of Foreign Affairs about the events in Rome",
     "nl_NL": "1849. Officiële politieke correspondentie van het ministerie van Buitenlandse Zaken over de gebeurtenissen te Rome"
@@ -192,6 +200,10 @@
     "en_GB": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg",
     "nl_NL": "Affaire relative à l'administration spirituelle du Gran-Duché de Luxembourg"
   },
+  "Affare Madiai$": {
+    "en_GB": "The Madiai case",
+    "nl_NL": "De zaak Madiai"
+  },
   "Affari di ordinaria amministrazione$": {
     "en_GB": "Affairs of administrative nature",
     "nl_NL": "Zaken van administratieve aard"
@@ -207,6 +219,10 @@
   "Aggressione (di|del|della) (\\$\\w+) a Ronciglione. Lettera (di|del|della) (\\$\\w+) (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Attack by \\2 at Ronciglione. Letter from \\4 to \\6",
     "nl_NL": "Aanval van \\2 bij Ronciglione. Brief van \\4 aan \\6"
+  },
+  "Aggressione del (\\$\\w+) a Ronciglione$": {
+    "en_GB": "Violence of \\1 in Ronciglione",
+    "nl_NL": "Geweld van \\1 te Ronciglione"
   },
   "Allegati finanziari$": {
     "en_GB": "Financial enclosures",
@@ -448,6 +464,10 @@
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Diplomatic correspondence. Several prints",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Diplomatieke correspondentie. Diverse prenten"
   },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenza ordinaria e politica$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Ordinary and political correspondence",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Reguliere en politieke correspondentie"
+  },
   "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenza politica$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Political correspondence",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Politieke correspondentie"
@@ -461,20 +481,48 @@
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Officiële correspondentie voornamelijk met de minister van Buitenlandse Zaken in Den Haag. 6 februari 1849-22 november 1850"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze 28 agosto 1847-28 settembre 1849$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondence 28 August 1847-28 September 1849",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondentie 28 augustus 1847-28 september 1849"
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences 28 August 1847-28 September 1849",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties 28 augustus 1847-28 september 1849"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze e atti diversi. 26 luglio 1852 - 9 aprile 1854$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences and various acts. 26 July 1852 - 9 April 1854",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties en diverse aktes. 26 juli 1852 - 9 april 1854"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze e atti diversi. 9 dicembre 1845-25 maggio 1850$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondence and various acts. 9 December 1845-25 May 1850",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondentie en diverse aktes. 9 december 1845-25 mei 1850"
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences and various acts. 9 December 1845-25 May 1850",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties en diverse aktes. 9 december 1845-25 mei 1850"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondence",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondentie"
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze. 12 gennaio 1851-21 dicembre 1851$": {
-    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondence. 12 January 1851-21 Decembre 1851",
-    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondentie. 12 januari 1851-21 december 1851"
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences. 12 January 1851-21 Decembre 1851",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties. 12 januari 1851-21 december 1851"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze. 12 novembre 1853 - 16 agosto 1855$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences. 12 November 1853 - 16 August 1855",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties. 12 november 1853 - 16 augustus 1855"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze. 14 gennaio 1852-21 novembre 1852$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences. 14 January 1852-21 November 1852",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties. 14 januari 1852-21 november 1852"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze. 15 marzo 1852-20 luglio 1852$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences. 15 March 1852-20 July 1852",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties. 15 maart 1852-20 juli 1852"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze. 29 novembre 1850-17 marzo 1856$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences. 29 November 1850-17 March 1856",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties. 29 november 1850-17 maart 1856"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Divergenze e negoziati fra i due governi sull'organizzazione della Chiesa cattolica nei Paesi Bassi$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Differences and negotiations between the two governments about the organization of the Catholic Church in the Netherlands",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Verschillen en onderhandelingen tussen de twee regeringen over de organisatie van de Katholieke Kerk in Nederland"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Trattato di Commercio fra il Regno dei Paesi Bassi e quello delle Due Sicilie$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Trade treatise between the Kingdom of the Netherlands and that of the Two Sicilies",
+    "nl_NL": "Archief van de Gezantschap van Nederland te Rome. Handelstraktaat tussen het Koninkrijk der Nederlanden en dat van de Beide Siciliën"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma. Trattato di commercio, convenzioni, ecc$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Treatise on commerce, agreements, etc",
@@ -980,6 +1028,10 @@
     "en_GB": "Concession of a decoration on Albert van Geelen",
     "nl_NL": "Verlening van een onderscheiding aan Albert van Geelen"
   },
+  "Conclusioni$": {
+    "en_GB": "Conclusions",
+    "nl_NL": "Conclusies"
+  },
   "Concordato per gli affari religiosi con il Granducato di Lussemburgo$": {
     "en_GB": "Concordat on religious affairs with the Grand Duchy of Luxembourg",
     "nl_NL": "Concordaat over religieuze zaken met het Groothertogdom Luxemburg"
@@ -991,6 +1043,14 @@
   "Considerazioni sullo stato attuale delle finanze pontificie$": {
     "en_GB": "Reflections on the current state of the pontifical finances",
     "nl_NL": "Reflecties op de actuele staat van de pauselijke financiën"
+  },
+  "Consolati di Ancona, Civitavecchia, Livorno, Napoli$": {
+    "en_GB": "Consulates of Ancona, Civitavecchia, Livorno, Naples",
+    "nl_NL": "Consulaten van Ancona, Civitavecchia, Livorno, Napels"
+  },
+  "Consolati di Ancona, Livorno e Napoli \\((\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Consulates of Ancona, Livorno and Naples (\\1)",
+    "nl_NL": "Consulaten van Ancona, Livorno en Napels (\\1)"
   },
   "Consolati$": {
     "en_GB": "Consulates",
@@ -1356,6 +1416,10 @@
     "en_GB": "Correspondence with the Secretary of the Minister of the King of Sardinia",
     "nl_NL": "Correspondentie met de secretaris van de minister van de koning van Sardinië"
   },
+  "Corrispondenza di ufficio ufficiale su vari argomenti$": {
+    "en_GB": "Officiali office correspondence on various topics",
+    "nl_NL": "Officiële kantoorcorrespondentie over verschillende onderwerpen"
+  },
   "Corrispondenza diplomatica$": {
     "en_GB": "Diplomatic correspondence",
     "nl_NL": "Diplomatieke correspondentie"
@@ -1363,6 +1427,10 @@
   "Corrispondenza ordinaria e politica$": {
     "en_GB": "Ordinary and political correspondence",
     "nl_NL": "Normale en politieke correspondentie"
+  },
+  "Corrispondenza politica col Governo dei Paesi Bassi$": {
+    "en_GB": "Political correspondence with the government of the Netherlands",
+    "nl_NL": "Politieke coorespondentie met de regering van Nederland"
   },
   "Corrispondenza politica$": {
     "en_GB": "Political correspondence",
@@ -1536,6 +1604,10 @@
     "en_GB": "Testamentary dispositions of \\2",
     "nl_NL": "Testamentaire bepalingen van \\2"
   },
+  "Divergenze fra i due governi sull'organizzazione della Chiesa cattolica nei Paesi Bassi$": {
+    "en_GB": "Differences between the two governments over the organization of the Catholic Church in the Netherlands",
+    "nl_NL": "Verschillen tussen de twee regeringen over de organisatie van de Katholieke Kerk in Nederland"
+  },
   "Division d'Occupation en Italie. Justice Militaire \\(a stampa\\)$": {
     "en_GB": "Division d'Occupation en Italie. Justice Militaire (printed)",
     "nl_NL": "Division d'Occupation en Italie. Justice Militaire (gedrukt)"
@@ -1551,6 +1623,10 @@
   "Documentazione a stampa \"(.+)\" datata Livorno, (\\d\\d?) nov. (\\d\\d\\d\\d), (di|del|della) (\\$\\w+) circa i diritti di navigazione, sanità e porto \\(Firenze, Stamperia Granducale, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed documentation “\\1” dated at Livorno, \\2 Nov. \\3, from \\5 on the rights of navigation, public health and the port (Florence, Stamperia Granducale, \\6)",
     "nl_NL": "Gedrukte documentatie “\\1” gedateerd te Livorno \\2 nov. \\3, van \\5 over scheepvaartrechten, volksgezondheid en de haven (Florence, Stamperia Granducale, \\6)"
+  },
+  "Documenti diversi \\((\\d\\d\\d\\d)-(\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Various documents (\\1-\\2)",
+    "nl_NL": "Diverse documenten (\\1-\\2)"
   },
   "Documenti diversi$": {
     "en_GB": "Various documents",
@@ -1880,6 +1956,18 @@
     "en_GB": "Extrait",
     "nl_NL": "Extrait"
   },
+  "Fasc. (\\d+) \"(.+)\" \\(Genova, Torino, 13 nov. 1850 - 1851\\)$": {
+    "en_GB": "Bundle \\1 “\\2” (Genoa, Turin, 13 nov. 1850 - 1851)",
+    "nl_NL": "Bundel \\1 “\\2” (Genua, Turijn, 13 nov. 1850 - 1851)"
+  },
+  "Fasc. (\\d+) \"(.+)\" \\(Roma, 24 mar. - 7 nov. 1851\\)$": {
+    "en_GB": "Bundle \\1 “\\2” (Rome, 24 mar. - 7 nov. 1851))",
+    "nl_NL": "Bundel \\1 “\\2” (Rome, 24 maa. - 7 nov. 1851))"
+  },
+  "Fasc. (\\d+) \"(.+)\" \\(Roma, Bruxelles, 21 lug. 1840 - 9 nov. 1853\\)$": {
+    "en_GB": "Bundle \\1 “\\2” (Rome, Brussels, 21 jul. 1840 - 9 nov. 1853)",
+    "nl_NL": "Bundel \\1 “\\2” (Rome, Brussel, 21 jul. 1840 - 9 nov. 1853)"
+  },
   "Fasc. (\\d+) \"(.+)\" \\(cc. (\\d+)-(\\d+)\\)$": {
     "en_GB": "Bundle \\1 “\\2” (\\3-\\4)",
     "nl_NL": "Bundel \\1 “\\2” (\\3-\\4)"
@@ -1904,6 +1992,18 @@
     "en_GB": "Bundle \\1 “\\2”; bundle \\3 “\\4”; bundle \\5 “\\6”; bundle \\7 “\\8”; bundle \\9 “\\10”",
     "nl_NL": "Bundel \\1 “\\2”; bundel \\3 “\\4”; bundel \\5 “\\6”; bundel \\7 “\\8”; bundel \\9 “\\10”"
   },
+  "Fasc. (\\d+) Affari d'ordinaria amministrazione$": {
+    "en_GB": "Bundle \\1 Business of ordinary administration",
+    "nl_NL": "Bundel \\1 Zaken van regulier bestuur"
+  },
+  "Fasc. (\\d+) Affari diversi$": {
+    "en_GB": "Bundle \\1 Various affairs",
+    "nl_NL": "Bundel \\1 Verscheidene zaken"
+  },
+  "Fasc. (\\d+) Aggressione del (\\$\\w+) a Ronciglione$": {
+    "en_GB": "Bundle \\1 Violence of \\2 in Ronciglione",
+    "nl_NL": "Bundel \\1 Geweld van \\2 te Ronciglione"
+  },
   "Fasc. (\\d+) Archivio della Legazione dei Paesi Bassi a Firenze. Corrispondenza diplomatica in arrivo. (\\d\\d\\d\\d)$": {
     "en_GB": "Bundle \\1 Archive of the Legation of the Netherlands in Florence. Incoming diplomatic correspondence. \\2",
     "nl_NL": "Bundel \\1 Archief van het Gezantschap van Nederland te Florence. Inkomende diplomatieke correspondentie. \\2"
@@ -1912,9 +2012,33 @@
     "en_GB": "Bundle \\1 Archive of the Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\2",
     "nl_NL": "Bundel \\1 Archief van het Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\2"
   },
+  "Fasc. (\\d+) Autorità Romane$": {
+    "en_GB": "Bundle \\1 Roman authorities",
+    "nl_NL": "Bundel \\1 Romeinse autoriteiten"
+  },
+  "Fasc. (\\d+) Carteggio politico \\(1853-1855\\)$": {
+    "en_GB": "Bundle \\1 Political correspondence (1853-1855)",
+    "nl_NL": "Bundel \\1 Politieke correspondentie (1853-1855)"
+  },
+  "Fasc. (\\d+) Conclusioni$": {
+    "en_GB": "Bundle \\1 Conclusions",
+    "nl_NL": "Bundel \\1 Conclusies"
+  },
+  "Fasc. (\\d+) Consolati di Ancona, Livorno e Napoli \\((\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Bundle \\1 Consulates of Ancona, Livorno and Naples (\\1)",
+    "nl_NL": "Bundel \\1 Consulaten van Ancona, Livorno en Napels (\\1)"
+  },
   "Fasc. (\\d+) Consolati$": {
     "en_GB": "Bundle \\1 Consulates",
     "nl_NL": "Bundel \\1 Gezantschappen"
+  },
+  "Fasc. (\\d+) Convenzione addizionale del 1855$": {
+    "en_GB": "Bundle \\1 Additional agreement of 1855",
+    "nl_NL": "Bundel \\1 Aanvullende overeenkomst van 1855"
+  },
+  "Fasc. (\\d+) Convenzione addizionale del 1855. Lettera a (\\$\\w+)$": {
+    "en_GB": "Bundle \\1 Additional agreement of 1855. Letter to \\2",
+    "nl_NL": "Bundel \\1 Aanvullende overeenkomst van 1855. Letter to \\2"
   },
   "Fasc. (\\d+) Corpo Diplomatico$": {
     "en_GB": "Bundle \\1 Corps Diplomatique",
@@ -1928,7 +2052,27 @@
     "en_GB": "Bundle \\1 Correspondence with the Roman authorities",
     "nl_NL": "Bundel \\1 Correspondentie met de Romeinse autoriteiten"
   },
+  "Fasc. (\\d+) Corrispondenza di ufficio sui vari argomenti$": {
+    "en_GB": "Bundle \\1 Office correspondence on various topics",
+    "nl_NL": "Bundel \\1 Kantoorcorrespondentie over verschillende onderwerpen"
+  },
+  "Fasc. (\\d+) Corrispondenza politica col Governo dei Paesi Bassi$": {
+    "en_GB": "Bundle \\1 Political correspondence with the government of the Netherlands",
+    "nl_NL": "Bundel \\1 Politieke coorespondentie met de regering van Nederland"
+  },
+  "Fasc. (\\d+) Corrispondenza politica$": {
+    "en_GB": "Bundle \\1 Political correspondence",
+    "nl_NL": "Bundel \\1 Politieke correspondentie"
+  },
+  "Fasc. (\\d+) Divergenze tra i due governi sull'organizzazione della Chiesa cattolica nei Paesi Bassi$": {
+    "en_GB": "Bundle \\1 Differences between the two governments over the organization of the Catholic Church in the Netherlands",
+    "nl_NL": "Bundel \\1 Verschillen tussen de twee regeringen over de organisatie van de Katholieke Kerk in Nederland"
+  },
   "Fasc. (\\d+) Documenti Diversi$": {
+    "en_GB": "Bundle \\1 Various documents",
+    "nl_NL": "Bundel \\1 Diverse documenten"
+  },
+  "Fasc. (\\d+) Documenti diversi$": {
     "en_GB": "Bundle \\1 Various documents",
     "nl_NL": "Bundel \\1 Diverse documenten"
   },
@@ -2004,29 +2148,57 @@
     "en_GB": "Bundle \\1 Legation at the Holy See. Outgoing diplomatic correspondence. \\2",
     "nl_NL": "Bundel \\1 Gezantschap bij de Heilige Stoel. Uitgaande diplomatieke correspondentie. \\2"
   },
+  "Fasc. (\\d+) Medaglieria (\\$\\w+)$": {
+    "en_GB": "Bundle \\1 Collection of medals \\1",
+    "nl_NL": "Bundel \\1 Verzameling van medailles \\1"
+  },
+  "Fasc. (\\d+) Nuova legislazione commerciale e marittima del 1852$": {
+    "en_GB": "Bundle \\1 New commercial and maritime legislation of 1852",
+    "nl_NL": "Bundel \\1 Nieuwe handels- en maritieme wetgeving van 1852"
+  },
+  "Fasc. (\\d+) Prima fase dei negoziati$": {
+    "en_GB": "Bundle \\1 First phase of the negotiations",
+    "nl_NL": "Bundel \\1 Eerste fase van de onderhandelingen"
+  },
   "Fasc. (\\d+) Questione sui dazi sugli zuccheri$": {
     "en_GB": "Bundle \\1 Matter of taxes levied on sugar",
     "nl_NL": "Bundel \\1 Kwestie over de belasting op suiker"
+  },
+  "Fasc. (\\d+) Questioni commerciali con il Granducato di Toscana$": {
+    "en_GB": "Bundle \\1 Commercial affairs with the Grand Duchy of Tuscany",
+    "nl_NL": "Bundel \\1 Handelszaken met het Groothertogdom Toscane"
+  },
+  "Fasc. (\\d+) Seconda fase dei negoziati$": {
+    "en_GB": "Bundle \\1 Second phase of the negotiations",
+    "nl_NL": "Bundel \\1 Tweede fase van de onderhandelingen"
   },
   "Fasc. (\\d+) Stampati diversi$": {
     "en_GB": "Bundle \\1 Various prints",
     "nl_NL": "Bundel \\1 Diverse druksels"
   },
+  "Fasc. (\\d+) Sulle finanze dello Stato Pontificio$": {
+    "en_GB": "Bundle \\1 On the finances of the Papal States",
+    "nl_NL": "Bundel \\1 Over de financiën van de Pauselijke Staat"
+  },
+  "Fasc. (\\d+) Trattato di navigazione e commercio fra il Regno Sardo e il Paraguay$": {
+    "en_GB": "Bundle \\1 Navigation and trade treatise between the Sardinian Kingdom and Paraguay",
+    "nl_NL": "Bundel \\1 Navigatie- en handelstraktaten tussen het Sardijnse koninkrijk en Paraguay"
+  },
+  "Fasc. (\\d+) Ulteriore Trattato del 1852$": {
+    "en_GB": "Bundle \\1. Additional treatise of 1852",
+    "nl_NL": "Bundel \\1. Aanvullend traktaat van 1852"
+  },
+  "Fasc. (\\d+) Ulteriore trattato del 1852. \"(.+)\" \\(a stampa\\)$": {
+    "en_GB": "Bundle \\1. Additional treatise of 1852. “\\2” (printed)",
+    "nl_NL": "Bundel \\1. Aanvullend traktaat van 1852. “\\2” (gedrukt)"
+  },
   "Fasc. (\\d+). Carte (\\d+)-(\\d+). Corrispondenza col Console Generale di Napoli$": {
     "en_GB": "Bundle \\1. Archival documents \\2-\\3. Correspondence with the Consul General of Naples",
     "nl_NL": "Bundel \\1. Archiefstukken \\2-\\3. Correspondentie met de Consul-Generaal van Napels"
   },
-  "Fasc. (\\d+). Convenzione addizionale del 1855. Lettera (a|al|alla) (\\$\\w+)$": {
-    "en_GB": "Bundle \\1. Additional agreement of 1855. Letter to \\3",
-    "nl_NL": "Bundel \\1. Aanvullende overeenkomst van 1855. Brief aan \\3"
-  },
   "Fasc. (\\d+). Progetti e testo del trattato del 1848$": {
     "en_GB": "Bundle \\1. Drafts and text of the treatise of 1848",
     "nl_NL": "Bundel \\1. Concepten en tekst van het traktaat van 1848"
-  },
-  "Fasc. (\\d+). Ulteriore trattato del 1852. \"(.+)\" \\(a stampa\\)$": {
-    "en_GB": "Bundle \\1. Additional treatise of 1852. “\\2” (printed)",
-    "nl_NL": "Bundel \\1. Aanvullend traktaat van 1852. “\\2” (gedrukt)"
   },
   "Firma (di|del|della) (\\$\\w+)$": {
     "en_GB": "Autograph of \\2",
@@ -2143,6 +2315,14 @@
   "Foglio a stampa \"(.+)\" Imputati Pietro Ercoli, Giovanni Carmosini, Angelo Lapis per \"(.+)\"$": {
     "en_GB": "Printed sheet \"\\1\" The accused Pietro Ercoli, Giovanni Carmosini, Angelo Lapis charged with \"\\2\"",
     "nl_NL": "Gedrukt blad \"\\1\" De gedaagden Pietro Ercoli, Giovanni Carmosini, Angelo Lapis beschuldigd van \"\\2\""
+  },
+  "Foglio a stampa \"(.+)\" \\(\"(.+)\" - Roma, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\) segue traduzione in francese della lettera apostolica di (\\$\\w+)$": {
+    "en_GB": "Printed sheet \"\\1\" (\"\\2\" - Rome, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), follows translation in French of the apostolic letter of \\3",
+    "nl_NL": "Gedrukt blad \"\\1\" (\"\\2\" - Rome, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), volgt vertaling in Frans van de apostilsche brief van \\3"
+  },
+  "Foglio a stampa \"(.+)\" \\(\"(.+)\"\\) \\(Roma, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), segue manoscritta \"(.+)\" \\(7 mar. 1853\\)$": {
+    "en_GB": "Printed sheet \"\\1\" (\"\\2\") \\(Rome, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), follows handwritten \"\\3\" \\(7 mar. 1853\\)",
+    "nl_NL": "Gedrukt blad \"\\1\" (\"\\2\") \\(Rome, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), volgt handgeschreven  \"\\3\" \\(7 maa. 1853\\)"
   },
   "Foglio a stampa \"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 Feb. \\3)",
@@ -2323,6 +2503,10 @@
   "Foglio a stampa sulle legge di navigazione nei Paesi Bassi da L'Indépendance Belge$": {
     "en_GB": "Printed sheet on the laws of navigation in the Netherlands from L'Indépendance Belge",
     "nl_NL": "Gedrukt blad over de scheepvaartwetten in Nederland uit L'Indépendance Belge"
+  },
+  "Foglio a stampa traduzione della lettera apostolica \"(.+)\" \\(\"(.+)\"\\) \\(Roma, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), segue manoscritta \"(.+)\" \\(7 mar. 1853\\)$": {
+    "en_GB": "Printed translation of the apostolic letter \"\\1\" (\"\\2\") \\(Rome, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), follows handwritten \"\\3\" \\(7 mar. 1853\\)",
+    "nl_NL": "Gedrukte vertaling van de apostolische brief \"\\1\" (\"\\2\") \\(Rome, Typis Sacrae Congregationis de Propaganda Fide, 1853, pp. 14\\), volgt handgeschreven  \"\\3\" \\(7 maa. 1853\\)"
   },
   "Foglio a stampa “(.+)” (di|del|della) (\\$\\w+) \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” of \\3 (Rome, Tipografia della Rev. Cam. Apost., \\4)",
@@ -3952,6 +4136,10 @@
     "en_GB": "Letter from the Ministry of Foreign Affairs to \\2",
     "nl_NL": "Brief van het ministerie van Buitenlandse Zaken aan \\2"
   },
+  "Lettera del Ministero delle Finanze \\(Direzione Generale dei Dazi\\)$": {
+    "en_GB": "Letter from the Ministry of Finance (General Directorate of Duties)",
+    "nl_NL": "Brief van het Ministerie van Financiën (directoraat-generaal van Invoerheffingen)"
+  },
   "Lettera dell'Alto Consiglio della Nobiltà (a|al) (\\$\\w+) sulla trasmissione di una medaglia$": {
     "en_GB": "Letter of the Alto Consiglio della Nobilità (High Council of Nobility) to \\2 on the conferment of a medal",
     "nl_NL": "Brief van het Alto Consiglio della Nobilità (Hoge Raad van Adel) aan \\2 over de toekenning van een medaille"
@@ -4171,6 +4359,10 @@
   "Lista degli individui arrestati come presunti appartenenti a Società Segrete$": {
     "en_GB": "List of individuals arrested under suspicion of membership of secret societies",
     "nl_NL": "Lijst van individuen gearresteerd op verdenking van lidmaatschap van geheime genootschappen"
+  },
+  "Lista dei diplomatici ammessi ad omaggiare il re Luigi di Baviera$": {
+    "en_GB": "List of diplomats admitted to pay homage to King Louis of Bavaria",
+    "nl_NL": "Lijst van diplomaten die zijn toegelaten om eer te bewijzen aan koning Lodewijk van Beieren"
   },
   "Lista dei sudditi Neerlandesi che si trovano a Napoli$": {
     "en_GB": "List of Dutch subjects present in Naples",
@@ -4840,6 +5032,10 @@
     "en_GB": "Political notes on Belgium",
     "nl_NL": "Politieke aantekeningen over België"
   },
+  "Note storiche sul Correspondenza di Roma$": {
+    "en_GB": "Historical notes about the Correspondence of Rome",
+    "nl_NL": "Historische aantekeningen over de correspondentie van Rome"
+  },
   "Note storiche sul giornale ecclesiastico \"(.+)\"$": {
     "en_GB": "Historical notes on the ecclesiastical journal “\\1”",
     "nl_NL": "Historische aantekeningen over het kerkelijke blad “\\1”"
@@ -4891,6 +5087,10 @@
   "Notificazione circa la tassa di esercizio delle professioni \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Announcement concerning the tax on the exercise of free professions (Rome, Tipografia della Rev. Cam. Apost., \\1)",
     "nl_NL": "Bekendmaking omtrent de belasting op het uitoefenen van vrije beroepen (Rome, Tipografia della Rev. Cam. Apost., \\1)"
+  },
+  "Notificazione del Ministero delle Finanze sulle tariffe doganali \\(a stampa\\)$": {
+    "en_GB": "Announcement of the Ministry of Finance on customs tariffs (printed)",
+    "nl_NL": "Bekendmaking van het Ministerie van Financiën over douanetarieven \\ (gedrukt \\)"
   },
   "Notificazione del governo civile e militare firmato (\\$\\w+)$": {
     "en_GB": "Announcement by the civil and military government signed \\1",
@@ -5007,6 +5207,10 @@
   "Nouvelles de Constantinople du 10 juin 1822$": {
     "en_GB": "Nouvelles de Constantinople du 10 juin 1822",
     "nl_NL": "Nouvelles de Constantinople du 10 juin 1822"
+  },
+  "Nuova legislazione commerciale e marittima del 1852$": {
+    "en_GB": "New commercial and maritime legislation of 1852",
+    "nl_NL": "Nieuwe handels- en maritieme wetgeving van 1852"
   },
   "Nuove considerazioni sullo stato attuale delle finanze pontificie$": {
     "en_GB": "New reflections on the current state of the pontifical finances",
@@ -5136,6 +5340,10 @@
     "en_GB": "Claims of the Port of Genoa towards the Netherlands",
     "nl_NL": "Aanspraken van de haven van Genua jegens Nederland"
   },
+  "Prima fase dei negoziati$": {
+    "en_GB": "First phase of the negotiations",
+    "nl_NL": "Eerste fase van de onderhandelingen"
+  },
   "Principes Fondamentaux \\(Principi fondamentali\\)$": {
     "en_GB": "Principes Fondamentaux (Fundamental principles)",
     "nl_NL": "Principes Fondamentaux (Fundamentele beginselen)"
@@ -5191,6 +5399,10 @@
   "Progetto di Concordato di Roma e controprogetto$": {
     "en_GB": "Draft for the Concordat of Rome and counterproposal",
     "nl_NL": "Ontwerp voor het Concordaat van Rome en tegenvoorstel"
+  },
+  "Progetto di Trattato e testo definitivo del 1848$": {
+    "en_GB": "Draft Treatise and final text of 1848",
+    "nl_NL": "Ontwerptraktaat en definitieve tekst van 1848"
   },
   "Progetto di dichiarazione da trasmettere (a|al) (\\$\\w+)$": {
     "en_GB": "Draft declaration to be sent to \\2",
@@ -5291,6 +5503,10 @@
   "Protocollo d'intesa sulle relazioni commerciali$": {
     "en_GB": "Memorandum of understanding on commercial relations",
     "nl_NL": "Memorandum van overeenstemming over commerciële relaties"
+  },
+  "Questioni commerciali con il Granducato di Toscana$": {
+    "en_GB": "Commercial affairs with the Grand Duchy of Tuscany",
+    "nl_NL": "Handelszaken met het Groothertogdom Toscane"
   },
   "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentiaire de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Décès de François C. Verbruggen, de la Ville de Tournai$": {
     "en_GB": "Rapport a Son Excellence Monseigneur le Chevalier Van der Hoeven, envoyé straordinaire, et Ministre Plenipotentiaire de S. M. le Roi des Pays Bas à la Cour de Turin, sur le Décès de François C. Verbruggen, de la Ville de Tournai",
@@ -5595,6 +5811,10 @@
   "Schedola Testamentaria (di|del|della) (\\$\\w+)$": {
     "en_GB": "Will of \\2",
     "nl_NL": "Testament van \\2"
+  },
+  "Seconda fase dei negoziati$": {
+    "en_GB": "Second phase of the negotiations",
+    "nl_NL": "Tweede fase van de onderhandelingen"
   },
   "Seconde demande des héritiers Jochems de La Haye \\(Seconda richiesta degli eredi Jochems dell'Aia\\)$": {
     "en_GB": "Seconde demande des héritiers Jochems de La Haye (Second request of the Jochems heirs from The Hague)",
@@ -6599,6 +6819,18 @@
   "Trascrizioni e copie di lettere fatte (da|dal) (\\$\\w+) indirizzate (a|ad) (\\$\\w+), Genova, Marsiglia, Barcellona$": {
     "en_GB": "Transcripts and copies of letters made by \\2 addressed to \\4, Genoa, Marseille, Barcelona",
     "nl_NL": "Afschriften en kopieën van brieven gemaakt door \\2 gericht aan \\4, Genua, Marseille, Barcelona"
+  },
+  "Trattato di Commercio fra il Regno dei Paesi Bassi e quello delle Due Sicilie$": {
+    "en_GB": "Trade treatise between the Kingdom of the Netherlands and that of the Two Sicilies",
+    "nl_NL": "Handelstraktaat tussen het Koninkrijk der Nederlanden en dat van de Beide Siciliën"
+  },
+  "Trattato di navigazione e commercio fra il Regno Sardo e il Paraguay$": {
+    "en_GB": "Navigation and trade treatise between the Sardinian Kingdom and Paraguay",
+    "nl_NL": "Navigatie- en handelstraktaten tussen het Sardijnse koninkrijk en Paraguay"
+  },
+  "Trattato ulteriore del 1852$": {
+    "en_GB": "Later treatise of 1852",
+    "nl_NL": "Later verdrag van 1852"
   },
   "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua \\(Secondo semestre dell'anno 1818. Elenco per sei mesi, degli arrivi e delle partenze delle navi della marina mercantile olandese nel porto di Genova\\)$": {
     "en_GB": "Tweede Semester van 't Jaar 1818. Zes maanden Lijst, van Aankomst en Vertrek, der Nederlandsche Koopvaardij Schepen in de Haven te Genua (Second semestre of the year 1818. Six months list with the arrivals and departures of Dutch merchant ships in the port of Genoa)",
