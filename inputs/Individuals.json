@@ -29,6 +29,23 @@
     ],
     "wikidata:id": "Q24631"
   },
+  "$Aehelbey": {
+    "ISNI:id": null,
+    "comment_daniel": "Bozza di lettera al conte de St Aehelbey rappresentante dei Paesi Bassi in Russia",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "",
+    "person_type": 2,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Aehelbey",
+    "titles": [],
+    "wikidata:id": null
+  },
   "$Aerssen": {
     "ISNI:id": null,
     "comment_daniel": "",
@@ -934,6 +951,23 @@
     "surname": "Bake",
     "titles": [],
     "wikidata:id": "Q21274944"
+  },
+  "$Bakker": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J.K.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Bakker",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Baldini": {
     "ISNI:id": null,
@@ -2553,6 +2587,23 @@
       ]
     ],
     "wikidata:id": "Q4813845"
+  },
+  "$Blomhert": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "Giovanni",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Blomhert",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Blusse": {
     "ISNI:id": null,
@@ -6916,6 +6967,23 @@
       ]
     ],
     "wikidata:id": "Q94617937"
+  },
+  "$Engelsman": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "J.H.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Engelsman",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Enslie": {
     "ISNI:id": null,
@@ -12456,6 +12524,23 @@
       ]
     ],
     "wikidata:id": "Q2225990"
+  },
+  "$Lindeman": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "G.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Lindeman",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Lintz": {
     "ISNI:id": null,
@@ -20042,6 +20127,23 @@
       ]
     ],
     "wikidata:id": "Q6953298"
+  },
+  "$Shangher": {
+    "ISNI:id": null,
+    "comment_daniel": "",
+    "date_of_birth": "",
+    "date_of_death": "",
+    "functions": [],
+    "images": [],
+    "name": "G.",
+    "person_type": 1,
+    "place_of_birth": "",
+    "place_of_death": "",
+    "sources": [],
+    "sources_other": [],
+    "surname": "Shangher",
+    "titles": [],
+    "wikidata:id": null
   },
   "$Sigmund": {
     "ISNI:id": null,
