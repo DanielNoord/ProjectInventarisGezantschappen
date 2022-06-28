@@ -2,6 +2,7 @@ import os
 
 from dotenv import load_dotenv
 from onedrive.onedrive import OneDrive  # type: ignore[import]
+from xml_check_document_numbers import traverse_c01_elements
 from xml_make_ead import EADMaker
 
 if __name__ == "__main__":
@@ -18,3 +19,9 @@ if __name__ == "__main__":
         True,
     )
     eadmaker.create_ead()
+    with open("outputs/Legation_Archive.xml", encoding="utf-8") as file:
+        traverse_c01_elements(
+            file,
+            "/Volumes/Seagate Basic Media/VolumesLegazione",
+            True,
+        )

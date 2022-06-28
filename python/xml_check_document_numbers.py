@@ -15,9 +15,9 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
         missing_files = set()
         for dao in c01.iterdescendants("dao"):
             try:
-                volume_files.remove(str(dao.attrib["id"]))
+                volume_files.remove(str(dao.attrib["href"]))
             except KeyError:
-                missing_files.add(dao.attrib["id"])
+                missing_files.add(dao.attrib["href"])
 
         if missing_files or volume_files:
             # pylint: disable-next=line-too-long
@@ -53,14 +53,23 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
 
 def get_files_in_volume_directory(volume: str, scans_directory: str) -> set[str]:
     """Gets a files in the volume directory of a certain volume name based on a base directory."""
-    return set(os.listdir(os.path.join(scans_directory, f"MS{volume}")))
+    return {
+        f"VolumesLegazione/MS{volume}/{i}"
+        for i in os.listdir(os.path.join(scans_directory, f"MS{volume}"))
+    }
 
 
-def traverse_c01_elements(database: TextIO, scans_directory: str) -> None:
+def traverse_c01_elements(
+    database: TextIO, scans_directory: str, use_prestored_names: bool
+) -> None:
     """Finds all c01 files in a xml file and traverses them."""
     # Create log file
     with open("outputs/missing_files", "w", encoding="utf-8") as log:
         log.write("")
+
+    if use_prestored_names:
+        with open("inputs/ScanFiles.txt", encoding="utf-8") as scans_file:
+            scans = scans_file.readlines()
 
     xml_file = etree.parse(database)
     root = xml_file.getroot()
@@ -74,11 +83,22 @@ def traverse_c01_elements(database: TextIO, scans_directory: str) -> None:
         unitid = did[0].findall("unitid")
         assert len(unitid) == 1
         assert isinstance(unitid[0].text, str)
-        volume_files = get_files_in_volume_directory(unitid[0].text, scans_directory)
-        volume_files.discard(".DS_Store")
+        if not use_prestored_names:
+            volume_files = get_files_in_volume_directory(
+                unitid[0].text, scans_directory
+            )
+        else:
+            volume_files = {
+                i.replace("\n", "") for i in scans if f"MS{unitid[0].text}" in i
+            }
+        volume_files.discard(f"VolumesLegazione/MS{unitid[0].text}/.DS_Store")
         match_daoset_ids(c01, volume_files)
 
 
 if __name__ == "__main__":
     with open("outputs/Legation_Archive.xml", encoding="utf-8") as file:
-        traverse_c01_elements(file, "/Volumes/Seagate Basic Media/VolumesLegazione")
+        traverse_c01_elements(
+            file,
+            "/Volumes/Seagate Basic Media/VolumesLegazione",
+            False,
+        )
