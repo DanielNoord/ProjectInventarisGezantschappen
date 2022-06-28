@@ -110,6 +110,17 @@ class EADMaker(XMLWriter):
             not unused_translations
         ), f"Found the following unused translations:\n{unused_translations}"
 
+        # Make sure there are no missing translations
+        with open(self.log_missing_translations, encoding="utf-8") as log:
+            missing_translations = log.readlines()
+            try:
+                assert len(missing_translations) == 2
+            except AssertionError as exc:
+                print("Missing the following translations")
+                for line in missing_translations[2:]:
+                    print(line)
+                raise AssertionError() from exc
+
     def _create_xml_series(self, filename: str, archdesc: etree._Element) -> None:
         """Add a volume to an 'archdesc' element."""
         workbook = load_workbook(filename)
