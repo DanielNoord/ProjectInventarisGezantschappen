@@ -424,6 +424,10 @@
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Naples. Political correspondence",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Napels. Politieke correspondentie"
   },
+  "Archivio della Legazione dei Paesi Bassi a Roma e Torino. Corrispondenza politica$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome and Turin. Political correspondence",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Turijn. Politieke correspondentie"
+  },
   "Archivio della Legazione dei Paesi Bassi a Roma e Torino. Corrispondenza ufficiale$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome and Turin. Official correspondence",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome en Turijn. Officiële correspondentie"
@@ -484,6 +488,10 @@
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences 28 August 1847-28 September 1849",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties 28 augustus 1847-28 september 1849"
   },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze e atti diversi. 11 luglio 1854 - 15 dicembre 1855$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences and various acts. 11 July 1854 - 15 December 1855",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties en diverse aktes. 11 juli 1854 - 15 december 1855"
+  },
   "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze e atti diversi. 26 luglio 1852 - 9 aprile 1854$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences and various acts. 26 July 1852 - 9 April 1854",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties en diverse aktes. 26 juli 1852 - 9 april 1854"
@@ -515,6 +523,10 @@
   "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze. 29 novembre 1850-17 marzo 1856$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences. 29 November 1850-17 March 1856",
     "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties. 29 november 1850-17 maart 1856"
+  },
+  "Archivio della Legazione dei Paesi Bassi a Roma. Corrispondenze. 6 luglio 1844 - 27 luglio 1855$": {
+    "en_GB": "Archive of the Legation of the Netherlands in Rome. Correspondences. 6 July 1844 - 27 July 1855",
+    "nl_NL": "Archief van het Gezantschap van Nederland te Rome. Correspondenties. 6 juliu 1844 - 27 juli 1855"
   },
   "Archivio della Legazione dei Paesi Bassi a Roma. Divergenze e negoziati fra i due governi sull'organizzazione della Chiesa cattolica nei Paesi Bassi$": {
     "en_GB": "Archive of the Legation of the Netherlands in Rome. Differences and negotiations between the two governments about the organization of the Catholic Church in the Netherlands",
@@ -587,6 +599,10 @@
   "Articolo estratto dal Giornale di Genova da un corrispondente$": {
     "en_GB": "Article extracted from the Giornale di Genova by a correspondent",
     "nl_NL": "Artikel ontleend aan de Giornale di Genova door een corrispondent"
+  },
+  "Attentato (a|al|alla) (\\$\\w+) 13 giugno 1855$": {
+    "en_GB": "Attack on \\2 13 June 1855",
+    "nl_NL": "Aanval op \\2 13 juni 1855"
   },
   "Attestazione sulla presenza a Nizza (di|del|della) (\\$\\w+) redatta dal parroco della chiesa di Santa Reparata$": {
     "en_GB": "Attestation of the presence in Nice of \\2 drafted by the pastor of the Church of Saint Reparata",
@@ -1428,6 +1444,10 @@
     "en_GB": "Ordinary and political correspondence",
     "nl_NL": "Normale en politieke correspondentie"
   },
+  "Corrispondenza ordinaria; L'Incaricato di affari presso la Corte di Torino; Consolati$": {
+    "en_GB": "Ordinary correspondence; The chargé d'affaires at the Court of Turin; Consulates",
+    "nl_NL": "Reguliere correspondentie; De zaakgelastigde aan het hof van Turijn; Consulaten"
+  },
   "Corrispondenza politica col Governo dei Paesi Bassi$": {
     "en_GB": "Political correspondence with the government of the Netherlands",
     "nl_NL": "Politieke coorespondentie met de regering van Nederland"
@@ -2012,6 +2032,10 @@
     "en_GB": "Bundle \\1 Archive of the Legation of the Netherlands in Rome. Incoming diplomatic correspondence. \\2",
     "nl_NL": "Bundel \\1 Archief van het Gezantschap van Nederland te Rome. Inkomende diplomatieke correspondentie. \\2"
   },
+  "Fasc. (\\d+) Attentato (a|al|alla) (\\$\\w+)$": {
+    "en_GB": "Bundle \\1 Attack on \\3",
+    "nl_NL": "Bundel \\1 Aanval op \\3"
+  },
   "Fasc. (\\d+) Autorità Romane$": {
     "en_GB": "Bundle \\1 Roman authorities",
     "nl_NL": "Bundel \\1 Romeinse autoriteiten"
@@ -2064,6 +2088,10 @@
     "en_GB": "Bundle \\1 Political correspondence",
     "nl_NL": "Bundel \\1 Politieke correspondentie"
   },
+  "Fasc. (\\d+) Corrispondenza politica. Legazione di Torino$": {
+    "en_GB": "Bundle \\1 Political correspondence. Legation of Turin",
+    "nl_NL": "Bundel \\1 Politieke correspondentie. Gezantschap van Turijn"
+  },
   "Fasc. (\\d+) Divergenze tra i due governi sull'organizzazione della Chiesa cattolica nei Paesi Bassi$": {
     "en_GB": "Bundle \\1 Differences between the two governments over the organization of the Catholic Church in the Netherlands",
     "nl_NL": "Bundel \\1 Verschillen tussen de twee regeringen over de organisatie van de Katholieke Kerk in Nederland"
@@ -2075,6 +2103,10 @@
   "Fasc. (\\d+) Documenti diversi$": {
     "en_GB": "Bundle \\1 Various documents",
     "nl_NL": "Bundel \\1 Diverse documenten"
+  },
+  "Fasc. (\\d+) Documenti relativi alla tassa di consumo e altri generi coloniali$": {
+    "en_GB": "Bundle \\1 Documents relating to the consumption tax and other colonial genres",
+    "nl_NL": "Bundel \\1 Documenten met betrekking tot de verbruiksbelasting en andere koloniale genres"
   },
   "Fasc. (\\d+) L'incaricato d'affari presso la Corte di Torino$": {
     "en_GB": "Bundle \\1 Chargé d'affaires at the Court of Turin",
@@ -2156,6 +2188,14 @@
     "en_GB": "Bundle \\1 New commercial and maritime legislation of 1852",
     "nl_NL": "Bundel \\1 Nieuwe handels- en maritieme wetgeving van 1852"
   },
+  "Fasc. (\\d+) Pagamento di una sovvenzione annua al (\\$\\w+), assunto quale addetto onorario alla Legazione dei Paesi Bassi$": {
+    "en_GB": "Bundle \\1 Payment of an annual grant to \\2, hired as honorary attaché at the Legation of the Netherlands",
+    "nl_NL": "Bundel \\1 Betaling van een jaarlijkse beurs aan \\2, ingehuurd als honorair attaché bij het Gezantschap van Nederland"
+  },
+  "Fasc. (\\d+) Per l'esercizio del culto protestante a Torino. Sovvenzioni$": {
+    "en_GB": "Bundle \\1 For the exercise of the Protestant cult in Turin. Grants",
+    "nl_NL": "Bundel \\1 Voor de uitoefening van de protestantse rite in Turijn. Subsidies"
+  },
   "Fasc. (\\d+) Prima fase dei negoziati$": {
     "en_GB": "Bundle \\1 First phase of the negotiations",
     "nl_NL": "Bundel \\1 Eerste fase van de onderhandelingen"
@@ -2171,6 +2211,10 @@
   "Fasc. (\\d+) Seconda fase dei negoziati$": {
     "en_GB": "Bundle \\1 Second phase of the negotiations",
     "nl_NL": "Bundel \\1 Tweede fase van de onderhandelingen"
+  },
+  "Fasc. (\\d+) Segretario di Stato$": {
+    "en_GB": "Bundle \\1 Secretary of State",
+    "nl_NL": "Bundel \\1 Staatssecretaris"
   },
   "Fasc. (\\d+) Stampati diversi$": {
     "en_GB": "Bundle \\1 Various prints",
@@ -5288,6 +5332,10 @@
     "en_GB": "Observations",
     "nl_NL": "Opmerkingen"
   },
+  "Pagamento di una sovvenzione annua al (\\$\\w+), assunto quale addetto onorario alla Legazione dei Paesi Bassi$": {
+    "en_GB": "Payment of an annual grant to \\1, hired as honorary attaché at the Legation of the Netherlands",
+    "nl_NL": "Betaling van een jaarlijkse beurs aan \\1, ingehuurd als honorair attaché bij het Gezantschap van Nederland"
+  },
   "Pagina a stampa firmata (da|dal|dalla) (\\$\\w+)$": {
     "en_GB": "Printed page signed by \\2",
     "nl_NL": "Gedrukte pagina ondertekend door \\2"
@@ -5299,6 +5347,10 @@
   "Per il pietoso aiuto prestato ad una vecchia donna nel viale verde di Brusselles da S.M. (\\$\\w+). Sonetto dedicato a Sua Eccellenza (\\$\\w+) di (\\$\\w+) \\(a stampa\\)$": {
     "en_GB": "For the compassionate help to an old woman in the green boulevard of Brussels by H.M. \\1. Sonnet dedicated to His Excellency \\2 by \\3 (printed)",
     "nl_NL": "Voor de barmhartige hulp aan een oude vrouw in de groene boulevard van Brussel van Z.M. \\1. Sonnet opgedragen aan Zijne Excellentie \\2 door \\3 (gedrukt)"
+  },
+  "Per l'esercizio del culto protestante a Torino. Sovvenzioni$": {
+    "en_GB": "For the exercise of the Protestant cult in Turin. Grants",
+    "nl_NL": "Voor de uitoefening van de protestantse rite in Turijn. Subsidies"
   },
   "Petizione con firma dei sottoscrittori$": {
     "en_GB": "Petition with autographs of the subscribers",
@@ -6023,6 +6075,10 @@
   "Tariffe$": {
     "en_GB": "Tariffs",
     "nl_NL": "Tarieven"
+  },
+  "Tassa di consumo sui generi coloniali$": {
+    "en_GB": "Consumption tax on colonial goods",
+    "nl_NL": "Verbruiksbelasting op koloniale goederen"
   },
   "Tavola con le distanze dallo Stato della Chiesa$": {
     "en_GB": "Table of distances in the States of the Church",
