@@ -74,6 +74,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
     identifier: str,
     count_todo: int,
     probably_wrong: list[str],
+    update: bool = False,
 ) -> tuple[list[str], set[re.Pattern[str]], int, list[str]]:
     """Check the individuals sources of an entry."""
     for index, source in enumerate(sources):
@@ -82,9 +83,11 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
             pass
 
         # Websites
-        elif re.match(r"https://www.treccani.it/.*Dizionario-Biografico\)", source):
+        elif update and re.match(
+            r"https://www.treccani.it/.*Dizionario-Biografico\)", source
+        ):
             sources[index] = update_trecanni(source)
-        elif re.match(r"https://www.parlement.com/.*", source):
+        elif update and re.match(r"https://www.parlement.com/.*", source):
             sources[index] = update_parlement(source)
 
         # Authors
