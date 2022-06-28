@@ -1232,9 +1232,17 @@
     "en_GB": "Corrispondance avec le corps diplomatique (Correspondence with the corps diplomatique)",
     "nl_NL": "Corrispondance avec le corps diplomatique (Correspondentie met het corps diplomatique)"
   },
+  "Correspondance avec le département des Affaires Étrangères 1827-1829 \\(Corrispondenza con il Ministero degli Affari Esteri 1827-1829\\)$": {
+    "en_GB": "Correspondance avec le département des Affaires Étrangères 1827-1829 (Correspondence with the Minister of Foreign Affairs 1827-1829)",
+    "nl_NL": "Correspondance avec le département des Affaires Étrangères 1827-1829 (Correspondentie met de minister van Buitenlandse Zaken 1827-1829)"
+  },
   "Correspondance avec le département des Affaires Étrangères Sarde de Rome \\(Corrispondenza con il Ministero degli Affari Esteri Sardo di Roma\\)$": {
     "en_GB": "Correspondance avec le département des Affaires Étrangères Sarde de Rome (Correspondence with the Sardinian Minister of Foreign Affairs from Rome)",
     "nl_NL": "Correspondance avec le département des Affaires Étrangères Sarde de Rome (Correspondentie met de Sardijnse minister van Buitenlandse Zaken vanuit Rome)"
+  },
+  "Correspondance avec le lieutenant général De La Sarraz \\(Corrispondenza col (\\$\\w+)\\)$": {
+    "en_GB": "Correspondance avec le lieutenant général De La Sarraz (Correspondence with \\1)",
+    "nl_NL": "Correspondance avec le lieutenant général De La Sarraz (Correspondentie met \\1)"
   },
   "Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères \\(Corrispondenza col (\\$\\w+). Bollettini segreti. Corrispondenza politica con il Ministro degli Affari Esteri\\)$": {
     "en_GB": "Correspondance avec le lieutenant général De La Sarraz. Bulletins Secrets. Correspondance polique avec le Ministre des Affaires Étrangères (Correspondence with \\1. Secret bulletins. Correspondence with the Minister of Foreign Affairs)",
@@ -1244,6 +1252,10 @@
     "en_GB": "Correspondance avec le lieutenent general De La Sarraz (Correspondence with \\1)",
     "nl_NL": "Correspondance avec le lieutenent general De La Sarraz (Correspondentie met \\1)"
   },
+  "Correspondance avec le ministre des Affaires Étrangères sur divers sujets \\(Corrispondenza con il Ministro degli Affari Esteri su soggetti diversi\\)$": {
+    "en_GB": "Correspondance avec le ministre des Affaires Étrangères sur divers sujets (Correspondence with the Minister of Foreign Affairs about various topics)",
+    "nl_NL": "Correspondance avec le ministre des Affaires Étrangères sur divers sujets (Correspondentie met de minister van Buitenlandse Zaken over diverse onderwerpen)"
+  },
   "Correspondance avec le ministre des Affaires Étrangères sur diverses objets \\(Corrispondenza con il Ministro degli Affari Esteri su argomenti diversi\\)$": {
     "en_GB": "Correspondance avec le ministre des Affaires Étrangères sur diverses objets (Correspondence with the Minister of Foreign Affairs on various topics)",
     "nl_NL": "Correspondance avec le ministre des Affaires Étrangères sur diverses objets (Correspondentie met de minister van Buitenlandse Zaken over verschillende onderwerpen)"
@@ -1251,10 +1263,6 @@
   "Correspondance avec le ministre des Affaires Étrangères sur diverses objets$": {
     "en_GB": "Correspondance avec le ministre des Affaires Étrangères sur divers objets",
     "nl_NL": "Correspondance avec le ministre des Affaires Étrangères sur divers objets"
-  },
-  "Correspondance avec le ministre des Affaires Étrangères sur diverses sujets \\(Corrispondenza con il Ministro degli Affari Esteri sui soggetti diversi\\)$": {
-    "en_GB": "Correspondance avec le ministre des Affaires Étrangères sur diverses subjets (Correspondence with the Minister of Foreign Affairs on several subjects)",
-    "nl_NL": "Correspondance avec le ministre des Affaires Étrangères sur diverses subjets (Correspondentie met de minister van Buitenlandse Zaken over verschillende onderwerpen)"
   },
   "Correspondance avec les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde \\(Corrispondenza con Ministri e altri funzionari del governo di S.M. Sarda\\)$": {
     "en_GB": "Correspondance avec les Ministres et autres fonctionnaires du gouvernement de S.M. Sarde (Correspondence with Ministers and other officials of the government of H.M. Sardinia)",
@@ -1295,6 +1303,10 @@
   "Correspondance sur divers objets \\(Corrispondenza su vari oggetti\\)$": {
     "en_GB": "Correspondance sur divers objets (Correspondence on various topics)",
     "nl_NL": "Correspondance sur divers objets (Correspondentie over verschillende onderwerpen)"
+  },
+  "Corrispondenza Politica$": {
+    "en_GB": "Political Correspondence",
+    "nl_NL": "Politieke Correspondentie"
   },
   "Corrispondenza col Console Generale di Napoli$": {
     "en_GB": "Correspondence with the Consul General of Naples",
@@ -1339,6 +1351,10 @@
   "Corrispondenza con il Ministro degli Affari Esteri dei Paesi Bassi$": {
     "en_GB": "Correspondence with the Minister of Foreign Affairs of the Netherlands",
     "nl_NL": "Correspondentie met de Minister van Buitenlandse Zaken van Nederland"
+  },
+  "Corrispondenza con il Segretario del Re del Ministro di Sardegna$": {
+    "en_GB": "Correspondence with the Secretary of the Minister of the King of Sardinia",
+    "nl_NL": "Correspondentie met de secretaris van de minister van de koning van Sardinië"
   },
   "Corrispondenza diplomatica$": {
     "en_GB": "Diplomatic correspondence",
@@ -3116,6 +3132,10 @@
     "en_GB": "Legation in Rome. \\1. Outgoing diplomatic correspondence",
     "nl_NL": "Gezantschap te Rome. \\1. Uitgaande diplomatieke correspondentie"
   },
+  "Legazione di Roma. Corrispondenza diplomatica in arrivo$": {
+    "en_GB": "Legation at Rome. Incoming diplomatic correspondence",
+    "nl_NL": "Gezantschap te Rome. Inkomende diplomatieke correspondentie"
+  },
   "Legazione di Roma. Corrispondenza diplomatica in partenza$": {
     "en_GB": "Legation at Rome. Outgoing diplomatic correspondence",
     "nl_NL": "Gezantschap te Rome. Uitgaande diplomatieke correspondentie"
@@ -3203,6 +3223,10 @@
   "Legazioni di Roma e a Napoli. Corrispondenza diplomatica \\(in arrivo\\)$": {
     "en_GB": "Legation in Rome and Naples. Diplomatic correspondence (incoming)",
     "nl_NL": "Gezantschap te Rome en Napels. Diplomatieke correspondentie (inkomend)"
+  },
+  "Legazioni di Roma e a Napoli. Corrispondenza diplomatica \\(in partenza\\)$": {
+    "en_GB": "Legation in Rome and Naples. Diplomatic correspondence (outgoing)",
+    "nl_NL": "Gezantschap te Rome en Napels. Diplomatieke correspondentie (uitgaand)"
   },
   "Legazioni di Roma e a Napoli. Corrispondenza politica \\(in partenza\\)$": {
     "en_GB": "Legation in Rome and Naples. Political correspondence (outgoing)",
@@ -3936,6 +3960,10 @@
     "en_GB": "Letter from the Ufficio d'Istruzione Criminale (criminal re-education office) of the Court of Turin",
     "nl_NL": "Brief van het Ufficio d'Istruzione Criminale (bureau voor heropvoeding van criminelen) van het Hof van Turijn"
   },
+  "Lettera della (\\$\\w+) intestazione busta$": {
+    "en_GB": "Letter from \\1 envelop header",
+    "nl_NL": "Brief van \\1 envelop koptekst"
+  },
   "Lettera della Camera di Commercio di Roma (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Letter from the Chamber of Commerce of Rome to \\2",
     "nl_NL": "Brief van de Kamer van Koophandel van Rome aan \\2"
@@ -3979,6 +4007,10 @@
   "Lettera della segreteria del console del Belgio a Venezia$": {
     "en_GB": "Letter of the secretariat of the Belgian consul in Venice",
     "nl_NL": "Brief van het secretariaat van de Belgische consul in Venetië"
+  },
+  "Lettera di (\\$\\w+) da Batavia: coperta di fascicolo dattiloscritta$": {
+    "en_GB": "Letter of \\1 from Batavia: typewritten bundle cover",
+    "nl_NL": "Brief van \\1 uit Batavia: getypte bundelomslag"
   },
   "Lettera di Civitavecchia$": {
     "en_GB": "Letter from Civitavecchia",
@@ -4308,6 +4340,10 @@
     "en_GB": "Messages to the Minister of Foreign Affairs. Correspondence with \\1",
     "nl_NL": "Berichten naar de minister van Buitelandse Zaken. Correspondentie met \\1"
   },
+  "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Il Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$": {
+    "en_GB": "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (The Minister of Foreign Affairs. Correspondence with the Corps Diplomatique. Roman authorities. Consuls of the Netherlands in Ancona, Civitavecchia, Livorno, Naples. Various pieces 1848-1849)",
+    "nl_NL": "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (De minister van Buitenlandse Zaken. Correspondentie van het Corps Diplomatique. Romeinse autoriteiten. Consuls van Nederland te Ancona, Civitavecchia, Livorno, Napels. Diverse stukken 1848-1849)"
+  },
   "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 \\(Ministro degli Affari Esteri. Corrispondenza con il Corpo Diplomatico. Autorità romane. Console dei Paesi Bassi ad Ancona, Civitavecchia, Livorno, Napoli. Documenti vari 1848-1849\\)$": {
     "en_GB": "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Minister of Foreign Affairs. Correspondence with the Corps Diplomatique. Roman authorities. Consuls of the Netherlands in Ancona, Civitavecchia, Livorno, Naples. Various pieces 1848-1849)",
     "nl_NL": "Ministre des Affaires Étrangères. Correspondance avec le Corps Diplomatique. Autorités Romaines. Consul des Pays Bas à Ancone, Civitavecchia, Livourne, Naples. Pièces diverses 1848-1849 (Minister van Buitenlandse Zaken. Correspondentie van het Corps Diplomatique. Romeinse autoriteiten. Consuls van Nederland te Ancona, Civitavecchia, Livorno, Napels. Diverse stukken 1848-1849)"
@@ -4415,6 +4451,10 @@
   "Motu Proprio sulla Giubilazione ai militari ed impiegati nello stato militare e sulla pensione alle madri vedove, alle vedove, ed orfani dei medesimi defonti in servizio \\(a stampa\\)$": {
     "en_GB": "Motu Proprio about the pardon to the soldiers and staff in military service and about the pension granted to widowed mothers, wives and orphans of those killed in service (printed)",
     "nl_NL": "Motu Proprio over het pardon aan soldaten en personeel in militaire staat van dienst en over de uitkeringen aan de moeders, vrouwen en wezen van degenen die in dienst gestorven zijn (gedrukt)"
+  },
+  "N. 10 Monsieur Van der Hoeven. Pièces diverses \\(N. 10 Signore (\\$\\w+). Documenti vari\\)$": {
+    "en_GB": "N. 10 Monsieur Van der Hoeven. Pièces diverses (N. 10 Mister \\1. Various pieces)",
+    "nl_NL": "N. 10 Monsieur Van der Hoeven. Pièces diverses (N. 10 De Heer \\1. Diverse stukken)"
   },
   "Nomina di un nuovo console a Livorno$": {
     "en_GB": "Nomination of a new consul in Livorno",
@@ -5051,6 +5091,10 @@
   "Pasquino e Martorio così parlavano fra loro allorché la rinunzia (di|del|della) (\\$\\w+) alla carica di Pro-Tesoriere Generale \\(componimento in versi\\)$": {
     "en_GB": "Pasquino and Martorio spoke thus between the two of them when \\2 renounced the position of pro-thesaurarius-general (composed in verse)",
     "nl_NL": "Pasquino en Martorio spraken aldus met elkaar toen \\2 afzag van de positie van pro-thesaurier-generaal (in vers geschreven)"
+  },
+  "Per il pietoso aiuto prestato ad una vecchia donna nel viale verde di Brusselles da S.M. (\\$\\w+). Sonetto dedicato a Sua Eccellenza (\\$\\w+) di (\\$\\w+) \\(a stampa\\)$": {
+    "en_GB": "For the compassionate help to an old woman in the green boulevard of Brussels by H.M. \\1. Sonnet dedicated to His Excellency \\2 by \\3 (printed)",
+    "nl_NL": "Voor de barmhartige hulp aan een oude vrouw in de groene boulevard van Brussel van Z.M. \\1. Sonnet opgedragen aan Zijne Excellentie \\2 door \\3 (gedrukt)"
   },
   "Petizione con firma dei sottoscrittori$": {
     "en_GB": "Petition with autographs of the subscribers",
@@ -6160,6 +6204,10 @@
     "en_GB": "Traité de navigation et de commerce entre les Pays-Bas et la Sardaigne, conclu et signé à La Haye le 24 juin 1851 (Treatise on navigation and commerce between the Netherlands and Sardinia concluded and signed at The Hague on 24 June 1851)",
     "nl_NL": "Traité de navigation et de commerce entre les Pays-Bas et la Sardaigne, conclu et signé à La Haye le 24 juin 1851 (Zeevaarts- en handelsverdrag tussen Nederland en Sardinië afgesloten en getekend in Den Haag op 24 juni 1851)"
   },
+  "Traités de commerce et de navigation de la Sardaigne avec 1°. le Portugal, le 17 décembre 1850; 2°. les villes libres et anséatiques de Lubeck, Brème et Hambourg, le 29 avril 1851; 3°. la Grèce, le 31 mars 1851; 4°. la Confédération suisse, le 8 juin 1851 \\(Trattati di commercio e di navigazione della Sardegna con 1 il Portogallo, il 17 dicembre 1850; 2 le città libere anseatiche di Lubecca, Brema e Amburgo, il 29 aprile 1851; 3 La Grecia, il 31 marzo 1851; 4; 5 la Confederazione Svizzera, l'8 giugno 1851\\)$": {
+    "en_GB": "Traités de commerce et de navigation de la Sardaigne avec 1°. le Portugal, le 17 décembre 1850; 2°. les villes libres et anséatiques de Lubeck, Brème et Hambourg, le 29 avril 1851; 3°. la Grèce, le 31 mars 1851; 4°. la Confédération suisse, le 8 juin 1851 (Treaties of trade and navigation of Sardinia with 1 Portugal, December 17, 1850; 2 the free Hanseatic cities of Lübeck, Bremen and Hamburg, April 29, 1851; 3 Greece, March 31, 1851; 4; 5 the Swiss Confederation, June 8, 1851)",
+    "nl_NL": "Traités de commerce et de navigation de la Sardaigne avec 1°. le Portugal, le 17 décembre 1850; 2°. les villes libres et anséatiques de Lubeck, Brème et Hambourg, le 29 avril 1851; 3°. la Grèce, le 31 mars 1851; 4°. la Confédération suisse, le 8 juin 1851 (Traktaten van handel en scheepvaart van Sardinië met 1 Portugal, 17 december 1850; 2 de vrije Hanzesteden Lübeck, Bremen en Hamburg, 29 april 1851; 3 Griekenland, 31 maart 1851; 4; 5 de Zwitserse Bondsstaat, 8 juni 1851)"
+  },
   "Transunto di articoli$": {
     "en_GB": "Summary of articles",
     "nl_NL": "Samenvatting van artikelen"
@@ -6623,6 +6671,10 @@
   "\\[Lettere diverse e minutario della corrispondenza\\]$": {
     "en_GB": "[Various letters and minutes of correspondence]",
     "nl_NL": "[Diverse brieven en minuten van correspondentie]"
+  },
+  "\\[Lettres diverses \\(Lettere diverse\\)\\]$": {
+    "en_GB": "[Lettres diverses (Various letters)]",
+    "nl_NL": "[Lettres diverses (Diverse brieven)]"
   },
   "\\[Materiali diversi. Stampati e opuscoli politici e carteggio\\]$": {
     "en_GB": "[Various pieces. Prints and political pamphlets and correspondence]",
