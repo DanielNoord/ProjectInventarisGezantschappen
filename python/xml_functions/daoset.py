@@ -21,6 +21,9 @@ def add_dao(
     daoset: etree._Element, file_data: FileData, individual_verso: bool
 ) -> None:
     """Adds a dao element to a daoset."""
+    filename = (
+        f"VolumesLegazione/{file_data.file_name.split('_')[0]}/{file_data.file_name}"
+    )
     # If only a verso we only add the verso dao-element
     if individual_verso:
         etree.SubElement(
@@ -30,6 +33,7 @@ def add_dao(
                 "coverage": "part",
                 "daotype": "derived",
                 "id": f"{file_data.file_name}.tif",
+                "href": f"{filename}.tif",
             },
         )
     elif file_data.only_recto:
@@ -40,6 +44,7 @@ def add_dao(
                 "coverage": "part",
                 "daotype": "derived",
                 "id": f"{file_data.file_name}r.tif",
+                "href": f"{filename}r.tif",
             },
         )
     elif file_data.only_verso:
@@ -50,6 +55,7 @@ def add_dao(
                 "coverage": "part",
                 "daotype": "derived",
                 "id": f"{file_data.file_name}v.tif",
+                "href": f"{filename}v.tif",
             },
         )
     else:
@@ -60,6 +66,7 @@ def add_dao(
                 "coverage": "part",
                 "daotype": "derived",
                 "id": f"{file_data.file_name}r.tif",
+                "href": f"{filename}r.tif",
             },
         )
         etree.SubElement(
@@ -69,12 +76,14 @@ def add_dao(
                 "coverage": "part",
                 "daotype": "derived",
                 "id": f"{file_data.file_name}v.tif",
+                "href": f"{filename}v.tif",
             },
         )
 
 
 def add_volume_dao(daoset: etree._Element, vol_data: SeriesData) -> None:
     """Adds a dao element to a daoset for a volume (ms...)."""
+    filename = f"VolumesLegazione/MS{vol_data.num}/MS{vol_data.num}"
     etree.SubElement(
         daoset,
         "dao",
@@ -82,6 +91,7 @@ def add_volume_dao(daoset: etree._Element, vol_data: SeriesData) -> None:
             "coverage": "part",
             "daotype": "derived",
             "id": f"MS{vol_data.num}_d.tif",
+            "href": f"{filename}_d.tif",
         },
     )
     etree.SubElement(
@@ -91,5 +101,6 @@ def add_volume_dao(daoset: etree._Element, vol_data: SeriesData) -> None:
             "coverage": "part",
             "daotype": "derived",
             "id": f"MS{vol_data.num}_p.tif",
+            "href": f"{filename}_p.tif",
         },
     )
