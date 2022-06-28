@@ -8,6 +8,10 @@
     "en_GB": "Attaché to the Legation of the Kingdom of the Netherlands in Rome",
     "nl_NL": "Attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Rome"
   },
+  "Addetto alla Legazione del Regno dei Paesi Bassi a Vienna": {
+    "en_GB": "Attaché to the Legation of the Kingdom of the Netherlands in Vienna",
+    "nl_NL": "Attaché bij het Gezantschap van het Koninkrijk der Nederlanden in Wenen"
+  },
   "Addetto alla Legazione dell'Impero Austriaco a Londra": {
     "en_GB": "Attaché to the Legation of the Austrian Empire in London",
     "nl_NL": "Attaché bij het Gezantschap van het Keizerrijk Oostenrijk te Londen"
@@ -276,6 +280,10 @@
     "en_GB": "Captain of the Republic of San Marino",
     "nl_NL": "Kapitein van de Republiek San Marino"
   },
+  "Capitano di Fregata nell'esercito del Regno delle Due Sicilie": {
+    "en_GB": "Frigate captain in the army of the Kingdom of the Two Sicilies",
+    "nl_NL": "Fregatkapitein in het leger van het Koninkrijk der Beide Siciliën"
+  },
   "Capitano reggente della Repubblica di San Marino": {
     "en_GB": "Captain regent of the Republic of San Marino",
     "nl_NL": "Kapitein-regent van de Republiek van San Marino"
@@ -295,6 +303,10 @@
   "Capo di gabinetto del Re del Regno d'Italia": {
     "en_GB": "Head of cabinet of King of the Kingdom of Italy",
     "nl_NL": "Kabinetschef van de Koning van het Koninkrijk Italië"
+  },
+  "Capo scudetto del gruppo itinerante a Bruxelles": {
+    "en_GB": "Chief equerry of itinerant group in Brussels",
+    "nl_NL": "Opperstalmeester van rondtrekkende groep in Brussel"
   },
   "Capo-contabile del Ministero delle Finanze dello Stato Pontificio": {
     "en_GB": "Chief bookkeeper at the Ministry of Finance of the Papal States",
@@ -463,6 +475,10 @@
   "Commerciante di pietre preziose": {
     "en_GB": "Trader of precious stones",
     "nl_NL": "Handelaar in edelstenen"
+  },
+  "Commerciante e agente assicurativo": {
+    "en_GB": "Merchant and insurance agent",
+    "nl_NL": "Handelaar en verzekeringsagent"
   },
   "Commissario del Nederlandsche Bank": {
     "en_GB": "Commissioner of the Nederlandsche Bank",
@@ -696,9 +712,33 @@
     "en_GB": "State advisor for Finances for Camerino",
     "nl_NL": "Staatadviseur voor Financiën voor Camerino"
   },
+  "Consultore onorario amministrativo presso il Ministero dell'interno dello Stato Pontificio": {
+    "en_GB": "Administrative Honorary Consultor at the Ministry of the Interior of the Papal States",
+    "nl_NL": "Administratief Ereconsulent bij het Ministerie van Binnenlandse Zaken van de Pauselijke Staat"
+  },
+  "Consulture per la R.C.A. della Consulta di Stato per le Finanze dello Stato Pontificio": {
+    "en_GB": "Consultor for the R.C.A. of the State Council for Finance of the Papal States",
+    "nl_NL": "Consulent voor de R.C.A. van de Staatsraad voor Financiën van de Pauselijke Staat"
+  },
+  "Contitolare della ditta E. Suermondt & Zn. & Co": {
+    "en_GB": "Partner at the firm E. Suermondt & Zn. & Co",
+    "nl_NL": "Firmant bij de firma E. Suermondt & Zn. & Co"
+  },
+  "Contitolare della ditta Van Heukelom en Vollenhoven (commercio di cereali)": {
+    "en_GB": "Partner of Van Heukelom en Vollenhoven (grain trade)",
+    "nl_NL": "Firmant Van Heukelom en Vollenhoven (graanhandel)"
+  },
+  "Contitolare della ditta firmant J. Van Beeck Vollenhoven & Comp.": {
+    "en_GB": "Partner of the firm J. Van Beeck Vollenhoven & Comp.",
+    "nl_NL": "Firmant J. Van Beeck Vollenhoven & Comp."
+  },
   "Controllore della controlleria delle dogane": {
     "en_GB": "Agent at customs control services",
     "nl_NL": "Controleur bij de douanecontroledienst"
+  },
+  "Cortigiano del conte e della contessa d'Aquila": {
+    "en_GB": "Courtier of the Count and Countess of Aquila",
+    "nl_NL": "Hoveling van de graaf en gravin van Aquila"
   },
   "Curatore d'arte del Museo statale delle Antichità di Leida": {
     "en_GB": "Curator at the Museum of Antiquities in Leiden",
@@ -1336,6 +1376,10 @@
     "en_GB": "Envoy extraordinary of the Austrian Empire in Berlin",
     "nl_NL": "Buitengewoon gezant van het Keizerrijk Oostenrijk te Berlijn"
   },
+  "Inviato straordinario dell'Impero Austriaco a Roma": {
+    "en_GB": "Envoy extraordinary of the Austrian Empire in Rome",
+    "nl_NL": "Buitengewoon gezant van het Keizerrijk Oostenrijk te Rome"
+  },
   "Inviato straordinario e incaricato d'affari del Regno dei Paesi Bassi presso la Santa Sede": {
     "en_GB": "Envoy extraordinary and chargé d'affaires of the Kingdom of the Netherlands to the Holy See",
     "nl_NL": "Buitengewoon gezant en zaakgelastigde van het Koninkrijk der Nederlanden bij de Heilige Stoel"
@@ -1628,6 +1672,10 @@
     "en_GB": "Master of Ceremonies and Introducer of the Ambassadors of the King of Sardinia",
     "nl_NL": "Hofceremoniemeester en Introducteur der Ambassadeurs van de Koning van Sardinië"
   },
+  "Maestro di cavallerizza": {
+    "en_GB": "Horsemaster",
+    "nl_NL": "Rijmeester"
+  },
   "Maestro di cerimonie del Re di Sardegna": {
     "en_GB": "Master of ceremonies of the King of Sardinia",
     "nl_NL": "Ceremoniemeester van de Koning van Sardinië"
@@ -1864,9 +1912,13 @@
     "en_GB": "Minister of Trade, Fine Arts, Industry and Agriculture of the Papal States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Industrie en Landbouw van de Kerkelijke Staat"
   },
-  "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontificio dello Stato Pontificio": {
+  "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Minister of Trade, Fine Arts, Industry, Agriculture and Public Works of the Papal States",
     "nl_NL": "Minister van Handel, Schone Kunsten, Industrie, Landbouw en Openbare Werken van de Kerkelijke Staat"
+  },
+  "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici emerito dello Stato Pontificio": {
+    "en_GB": "Minister of Trade, Fine Arts, Industry, Agriculture and Public Works emeritus of the Papal States",
+    "nl_NL": "Minister van Handel, Schone Kunsten, Industrie, Landbouw en Openbare Werken emeritus van de Kerkelijke Staat"
   },
   "Ministro del Commercio, Belle Arti, Lavori Pubblici, Industria e Agricoltura dello Stato Pontificio": {
     "en_GB": "Minister of Commerce, Fine Arts, Public Works, Industry and Agriculture of the Papal States",
@@ -2124,6 +2176,10 @@
     "en_GB": "Trader",
     "nl_NL": "Handelaar"
   },
+  "Negoziante di vino a Brindisi": {
+    "en_GB": "Wine merchant in Brindisi",
+    "nl_NL": "Wijnhandelaar in Brindisi"
+  },
   "Numismatico": {
     "en_GB": "Numismatist",
     "nl_NL": "Numismaticus"
@@ -2135,6 +2191,10 @@
   "Nunzio apostolico a Monaco di Baviera": {
     "en_GB": "Apostolic nuncio in Munich",
     "nl_NL": "Apostolisch nuntius te München"
+  },
+  "Orologiaio": {
+    "en_GB": "Watchmaker",
+    "nl_NL": "Horlogemaker"
   },
   "Pari del Regno e Commissario Speciale del Potere Esecutivo del Regno di Sicilia presso la Santa Sede": {
     "en_GB": "Peer and Special Commissioner of the Executive Power of the Kingdom of Sicily to the Holy See",
@@ -2362,11 +2422,15 @@
   },
   "Primo lord del Tesoro e primo ministro del Regno Unito": {
     "en_GB": "First Lord of the Treasury and Prime Minister of the United Kingdom",
-    "nl_NL": "Premier van het Verenigd Koninkrijk"
+    "nl_NL": "Eerste Lord van de Treasury en Premier van het Verenigd Koninkrijk"
   },
   "Primo lord dell'ammiragliato del Regno Unito": {
     "en_GB": "First Lord of the Admiralty of the United Kingdom",
     "nl_NL": "Opperbevelhebber van de admiraliteit van het Verenigd Koninkrijk"
+  },
+  "Primo ministro dell'Impero Austriaco": {
+    "en_GB": "Prime Minister of the Austrian Empire",
+    "nl_NL": "Minister-president van het Oostenrijkse keizerrijk"
   },
   "Primo prefetto della Biblioteca Vaticana": {
     "en_GB": "First Prefect of the Vatican Library",
@@ -2515,6 +2579,10 @@
   "Prolegato apostolico": {
     "en_GB": "Apostolic prolegate",
     "nl_NL": "Apostolisch pro-legaat"
+  },
+  "Proprietario e Direttore di una Compagnia di Equitazione": {
+    "en_GB": "Owner and director of an equestrian company",
+    "nl_NL": "Eigenaar en directeur van een manege"
   },
   "Protonotario apostolico": {
     "en_GB": "Apostolic protonotary",
@@ -2948,6 +3016,10 @@
     "en_GB": "Medical Officer",
     "nl_NL": "Officier van gezondheid"
   },
+  "Uffiziale di carico del terzo ripartimento della Real Segreterria e Ministero degli Affari Esteri del Regno delle Due Sicilie": {
+    "en_GB": "Loading officer of the third department of the Real Secretariat and Ministry of Foreign Affairs of the Kingdom of the Two Sicilies",
+    "nl_NL": "Laadfunctionaris van het derde departement van het Koninklijk Secretariaat en Ministerie van Buitenlandse Zaken van het Koninkrijk der Beide Siciliën"
+  },
   "Vescovo d'Aiaccio": {
     "en_GB": "Bishop of Ajaccio",
     "nl_NL": "Bisschop van Ajaccio"
@@ -3088,6 +3160,10 @@
     "en_GB": "Vice Consul of the Kingdom of the Netherlands in Oneglia",
     "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Oneglia"
   },
+  "Vice-console dell'Impero Britannico a Lecche": {
+    "en_GB": "Vice Consul of the British Empire in Lecche",
+    "nl_NL": "Vice-consul van het Britse rijk te Lecche"
+  },
   "Vice-corporale al 1° reggimento estero dell'esercito pontificio": {
     "en_GB": "Vice Corporal of the 1st foreign regiment of the papal army",
     "nl_NL": "Vice-korporaal van het 1e buitenlandse regiment van het pauselijke leger"
@@ -3099,6 +3175,10 @@
   "Vice-presidente del Magistrato di Sanità di Genova": {
     "en_GB": "Vice President of the Magistracy of Public Health of Genoa",
     "nl_NL": "Vice-president van de Magistratuur voor de Volksgezondheid van Genua"
+  },
+  "Viceministro e sostituto Ministro degli Affari Esteri dell'Impero Russo": {
+    "en_GB": "Assistant Minister and Acting Minister at the Russian Ministry of Foreign Affairs",
+    "nl_NL": "Vice-minister en waarnemend minister van Buitenlandse Zaken van het Russische keizerrijk"
   },
   "Zuavo pontificio": {
     "en_GB": "Papal zouave",

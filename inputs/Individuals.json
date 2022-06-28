@@ -942,8 +942,12 @@
     "date_of_death": "",
     "functions": [
       [
-        "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontificio dello Stato Pontificio",
-        "1860/1868"
+        "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici dello Stato Pontificio",
+        "1860-06-04/1868-02-22"
+      ],
+      [
+        "Ministro del Commercio, Belle Arti, Industria, Agricoltura e Lavori Pubblici emerito dello Stato Pontificio",
+        "1868-02-22/1869-03-23"
       ]
     ],
     "images": [],
@@ -1400,7 +1404,12 @@
     "comment_daniel": "Ik vermoed een zeker Johann Gottfried, de schoonvader van de latere consul Alewijn. Hij lijkt laatstgenoemde aan te prijzen als nieuwe consul generaal in ms277_342. Zie: https://gw.geneanet.org/hubertwalbaum?lang=en&pz=hubert+charles+alphonse&nz=walbaum&p=johann+gottfried&n=becker",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Commerciante e agente assicurativo",
+        null
+      ]
+    ],
     "images": [],
     "name": "Johann Gottfried",
     "person_type": 1,
@@ -3055,12 +3064,16 @@
     "surname": "Bottigia di Savoulx",
     "titles": [
       [
-        "maggior generale",
+        "conte",
         null
       ],
       [
-        "conte",
-        null
+        "luogotenente",
+        "/1882"
+      ],
+      [
+        "maggior generale",
+        "1882/"
       ]
     ],
     "wikidata:id": null
@@ -3380,11 +3393,11 @@
       ],
       [
         "Soprintendente Generale all'Uffizio delle Comunità del Gran-Ducato",
-        null
+        "1817/1824"
       ],
       [
         "Governatore di Siena",
-        null
+        "1824/1828"
       ]
     ],
     "images": [],
@@ -3742,20 +3755,27 @@
   "$Bruck": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [],
+    "date_of_birth": "1830-12-24",
+    "date_of_death": "1902-11-09",
+    "functions": [
+      [
+        "Inviato straordinario dell'Impero Austriaco a Roma",
+        null
+      ]
+    ],
     "images": [],
-    "name": "",
-    "person_type": 2,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "name": "Karl Ludwig",
+    "person_type": 1,
+    "place_of_birth": "Trieste",
+    "place_of_death": "Spielfeld",
+    "sources": [
+      "'Bruck, Karl Ludwig', in: Österreichisches Biographisches Lexikon 1815-1950. Band 1 (Vienna, Österreichische Akademie der Wissenschaften, 1954)"
+    ],
     "sources_other": [],
     "surname": "Bruck",
     "titles": [
       [
-        "barone",
+        "Freiherr",
         null
       ]
     ],
@@ -4357,7 +4377,24 @@
     "comment_daniel": "Ondertekent met S. Cav. Cappello, gaat over Tosti die afstand doet van de post van thesaurier.",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Scrittore",
+        null
+      ],
+      [
+        "Poeta",
+        null
+      ],
+      [
+        "Consulture per la R.C.A. della Consulta di Stato per le Finanze dello Stato Pontificio",
+        "1866/"
+      ],
+      [
+        "Consultore onorario amministrativo presso il Ministero dell'interno dello Stato Pontificio",
+        "1869/"
+      ]
+    ],
     "images": [],
     "name": "Scipione",
     "person_type": 1,
@@ -7914,7 +7951,16 @@
     "comment_daniel": "",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Cortigiano del conte e della contessa d'Aquila",
+        null
+      ],
+      [
+        "Capitano di Fregata nell'esercito del Regno delle Due Sicilie",
+        "1850-08-03/"
+      ]
+    ],
     "images": [],
     "name": "Troiano",
     "person_type": 1,
@@ -8822,7 +8868,20 @@
     "comment_daniel": "",
     "date_of_birth": "1795",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Capo scudetto del gruppo itinerante a Bruxelles",
+        "1822/"
+      ],
+      [
+        "Maestro di cavallerizza",
+        "1835/"
+      ],
+      [
+        "Proprietario e Direttore di una Compagnia di Equitazione",
+        "1860/"
+      ]
+    ],
     "images": [],
     "name": "Sybertus",
     "person_type": 1,
@@ -10253,7 +10312,12 @@
     "comment_daniel": "Advies: 1. Had iets te maken met de staatsschuld van Italië/Rome",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Contitolare della ditta Van Heukelom en Vollenhoven (commercio di cereali)",
+        null
+      ]
+    ],
     "images": [],
     "name": "J.",
     "person_type": 1,
@@ -14440,6 +14504,10 @@
       [
         "Ciambellano del Re dei Paesi Bassi",
         null
+      ],
+      [
+        "Addetto alla Legazione del Regno dei Paesi Bassi a Vienna",
+        "1840/"
       ]
     ],
     "images": [],
@@ -15122,6 +15190,14 @@
       [
         "Vice-console del Regno dei Paesi Bassi a Brindisi",
         null
+      ],
+      [
+        "Negoziante di vino a Brindisi",
+        null
+      ],
+      [
+        "Vice-console dell'Impero Britannico a Lecche",
+        "1865/"
       ]
     ],
     "images": [],
@@ -18131,7 +18207,7 @@
     "place_of_death": "",
     "sources": [
       "Brieven van een zoeaaf die uit Tilburg vertrokken is, getrokken uit het Weekblad voor Tilburg, of voornaamste gebeurtenissen in den kerkelijken staat, sedert de laatste maanden (Tilburg, N. Luijten, 1867) 27.",
-      "Rione Campo Marzio. Lista degli elettori amministrativi’ in: Bollettino degli atti pubblicati dalla giunta municipale di Roma, dal 1 gennaio al 30 aprile 1872, 233"
+      "Rione Campo Marzio. Lista degli elettori amministrativi' in: Bollettino degli atti pubblicati dalla giunta municipale di Roma, dal 1 gennaio al 30 aprile 1872, 233"
     ],
     "sources_other": [],
     "surname": "van Riel",
@@ -18849,7 +18925,12 @@
     "comment_daniel": "Advies: 1",
     "date_of_birth": "",
     "date_of_death": "",
-    "functions": [],
+    "functions": [
+      [
+        "Uffiziale di carico del terzo ripartimento della Real Segreterria e Ministero degli Affari Esteri del Regno delle Due Sicilie",
+        "1857/"
+      ]
+    ],
     "images": [],
     "name": "Gaetano",
     "person_type": 1,
@@ -19532,7 +19613,12 @@
     "comment_daniel": "Heb niet heel veel info over deze man, maar hij komt veel voor in ms334/vol. 59",
     "date_of_birth": "1815-08-10",
     "date_of_death": "1887-10-23",
-    "functions": [],
+    "functions": [
+      [
+        "Orologiaio",
+        null
+      ]
+    ],
     "images": [],
     "name": "Amandus Franciscus Constantinus",
     "person_type": 1,
@@ -20725,14 +20811,16 @@
     "ISNI:id": null,
     "comment_daniel": "Broer van Baronis. Is wederom een veeltakkig geslacht, dus hier nog even induiken om erachter te komen wie dit is.",
     "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_death": "1827-09-23",
     "functions": [],
     "images": [],
-    "name": "J.C.",
+    "name": "J.J.",
     "person_type": 1,
     "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
+    "place_of_death": "Firenze",
+    "sources": [
+      "Utrechts Volksblad, sociaal-democratisch dagblad, 12 ottobre 1827"
+    ],
     "sources_other": [],
     "surname": "van Westrenen van Sterkenburg",
     "titles": [],
@@ -21093,7 +21181,12 @@
     "comment_daniel": "Advies: 1. I can't find him... schreef uit Rotterdam",
     "date_of_birth": "1828",
     "date_of_death": "1912",
-    "functions": [],
+    "functions": [
+      [
+        "Contitolare della ditta E. Suermondt & Zn. & Co",
+        null
+      ]
+    ],
     "images": [],
     "name": "Jan W.",
     "person_type": 1,
@@ -22760,7 +22853,16 @@
     "comment_daniel": "Wederom iets met de staatsschuld van Italië/Rome. Misschien: https://www.parlement.com/id/vg09lkxshnwq/h_van_beeck_vollenhoven",
     "date_of_birth": "1843",
     "date_of_death": "1886",
-    "functions": [],
+    "functions": [
+      [
+        "Contitolare della ditta firmant J. Van Beeck Vollenhoven & Comp.",
+        null
+      ],
+      [
+        "Contitolare della ditta Van Heukelom en Vollenhoven (commercio di cereali)",
+        null
+      ]
+    ],
     "images": [],
     "name": "Pieter Christiaan",
     "person_type": 1,
@@ -23139,7 +23241,16 @@
     "comment_daniel": "It's strange, I can hardly find a trace of Ferdinand while the Wessenberg lineage is quite well known...",
     "date_of_birth": "1773-11-28",
     "date_of_death": "1860-08-01",
-    "functions": [],
+    "functions": [
+      [
+        "Ministro degli Affari Esteri dell'Impero Austriaco",
+        "1848-05-08/1848-11-21"
+      ],
+      [
+        "Primo ministro dell'Impero Austriaco",
+        "1848-07-18/1848-11-21"
+      ]
+    ],
     "images": [],
     "name": "Johann Philipp",
     "person_type": 1,
@@ -23163,7 +23274,12 @@
     "comment_daniel": "Gaat om een bijlage. Ik kan niet uit de brief opmaken over wie dit gaat.",
     "date_of_birth": "1812",
     "date_of_death": "1875",
-    "functions": [],
+    "functions": [
+      [
+        "Viceministro e sostituto Ministro degli Affari Esteri dell'Impero Russo",
+        "1866/1875"
+      ]
+    ],
     "images": [],
     "name": "Vladimir Il'ič",
     "person_type": 1,

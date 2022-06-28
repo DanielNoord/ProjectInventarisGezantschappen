@@ -265,6 +265,11 @@
     "nl_NL": "luitenant-ter-zee",
     "position": "Before"
   },
+  "luogotenente": {
+    "en_GB": "lieutenant",
+    "nl_NL": "luitenant",
+    "position": "Before"
+  },
   "maggior generale": {
     "en_GB": "major general",
     "nl_NL": "generaal-majoor",
