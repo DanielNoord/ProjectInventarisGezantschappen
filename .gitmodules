@@ -1,7 +1,3 @@
-[submodule "ead2pdf"]
-	path = ead2pdf
-	url = https://github.com/archivesspace-labs/ead2pdf.git
-
 [submodule "onedrive-downloader"]
 	path = python/onedrive
 	url = https://github.com/py-radicz/onedrive-sharedfolder-download.git
