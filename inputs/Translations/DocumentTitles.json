@@ -1618,11 +1618,11 @@
   },
   "Discussions dans les chambres belges au sujet du traité de commerce et de navigation entre la Belgique et le Piémont \\(Dibattito della Camere Belghe sul trattato di commercio e di navigazione tra il Belgio e il Piemonte\\)$": {
     "en_GB": "Discussions dans les chambres belges au sujet du traité de commerce et de navigation entre la Belgique et le Piémont (Discussions in Belgium about the treatise of commerce and navigation concluded between Belgium and Piedmont)",
-    "nl_NL": "Discussions dans les chambres belges au sujet du traité de commerce et de navigation entre la Belgique et le Piémont (Discussies in België over het handels- en zeevaartsverdrag afgesloten tussen België en Piëmont"
+    "nl_NL": "Discussions dans les chambres belges au sujet du traité de commerce et de navigation entre la Belgique et le Piémont (Discussies in België over het handels- en zeevaartsverdrag afgesloten tussen België en Piëmont)"
   },
   "Discussions dans les chambres piédmontaises concernant les traités de commerce et de navigation conclus avec la Belgique et l'Angleterre \\(Dibattiti delle Camere Piemontesi sui trattati di commercio e di navigazione conclusi con il Belgio e l'Inghilterra\\)$": {
     "en_GB": "Discussions dans les chambres piédmontaises concernant les traités de commerce et de navigation conclus avec la Belgique et l'Angleterre (Discussions in Piedmont concerning the treatise of commerce and navigation concluded with Belgium and England)",
-    "nl_NL": "Discussions dans les chambres piédmontaises concernant les traités de commerce et de navigation conclus avec la Belgique et l'Angleterre (Discussies in Piëmont aangaande het handels- en zeevaartsverdrag afgesloten met België en Engeland"
+    "nl_NL": "Discussions dans les chambres piédmontaises concernant les traités de commerce et de navigation conclus avec la Belgique et l'Angleterre (Discussies in Piëmont aangaande het handels- en zeevaartsverdrag afgesloten met België en Engeland)"
   },
   "Disegno acquarellato della bandiera segnale che dovranno inalberare tutti i legni di Sua Maestà il re di Sardegna \\(allegato alla lettera\\)$": {
     "en_GB": "Watercolor drawing of the signal flag that all boats belonging to His Majesty the King of Sardinia will have to raise (enclosed to the letter)",
@@ -2001,8 +2001,8 @@
     "nl_NL": "Bundel \\1 “\\2” (Genua, Turijn, 13 nov. 1850 - 1851)"
   },
   "Fasc. (\\d+) \"(.+)\" \\(Roma, 24 mar. - 7 nov. 1851\\)$": {
-    "en_GB": "Bundle \\1 “\\2” (Rome, 24 mar. - 7 nov. 1851))",
-    "nl_NL": "Bundel \\1 “\\2” (Rome, 24 maa. - 7 nov. 1851))"
+    "en_GB": "Bundle \\1 “\\2” (Rome, 24 mar. - 7 nov. 1851)",
+    "nl_NL": "Bundel \\1 “\\2” (Rome, 24 maa. - 7 nov. 1851)"
   },
   "Fasc. (\\d+) \"(.+)\" \\(Roma, Bruxelles, 21 lug. 1840 - 9 nov. 1853\\)$": {
     "en_GB": "Bundle \\1 “\\2” (Rome, Brussels, 21 jul. 1840 - 9 nov. 1853)",
@@ -3593,7 +3593,7 @@
     "nl_NL": "Brief van \\2 aan \\4 (substituut)"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) \\(traduzione con al verso un ritaglio stampa\\)$": {
-    "en_GB": "Letter of \\2 to \\4 (translation with on the backside a newspaper cutting",
+    "en_GB": "Letter of \\2 to \\4 (translation with on the backside a newspaper cutting)",
     "nl_NL": "Brief van \\2 aan \\4 (vertaling met op de achterkant een krantenknipsel)"
   },
   "Lettera (di|del|della) (\\$\\w+) (a|al) (\\$\\w+) circa il posto vacante di console generale del Regno dei Paesi Bassi$": {
@@ -6194,7 +6194,7 @@
   },
   "Traduzione del \"(.+)\" (di|del|della) (\\$\\w+)$": {
     "en_GB": "Translation of “\\1” from \\3",
-    "nl_NL": "Vertaling van “\\1” van \\3)"
+    "nl_NL": "Vertaling van “\\1” van \\3"
   },
   "Traduzione del \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
     "en_GB": "Translation of “\\1” (\\2)",
@@ -6862,7 +6862,7 @@
   },
   "Trascrizione e traduzione del \"(.+)\" \\(Napoli, (\\d\\d?) ago. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Transcript and translation of “\\1” (\\2 Aug. \\3)",
-    "nl_NL": "Afschrift en vertaling van “\\1” (\\2 aug. \\3"
+    "nl_NL": "Afschrift en vertaling van “\\1” (\\2 aug. \\3)"
   },
   "Trascrizione e traduzione del \"(.+)\"$": {
     "en_GB": "Transcript and translation of “\\1”",
