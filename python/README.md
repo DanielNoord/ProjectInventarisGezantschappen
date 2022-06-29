@@ -2,6 +2,8 @@
 
 The python directory contains a number of programs used during the project. Most functions are part of a module that is then loaded by any of the files in the base directory. The files in the base directory are scripts that should be run from the project's root.
 
+_All programs are intended to be run from the project's root._
+
 ### data_parsing
 
 Module with functions that can 1) load all translations and data files and 2) create the "filled in" name string. Based on the (translation) data provided these functions return a string with the full name and function and titles of individuals in Italian, English and Dutch.
@@ -36,7 +38,7 @@ Module that stores some of our typing aliases.
 
 ### write_files
 
-Module with functions that homogenize the process of writing files. For example, throughout the project writing a `json` file is done using the same functions and thus goes through the same checks.
+Module with functions that homogenizes the process of writing files. For example, throughout the project writing a `json` file is done using the same functions and thus goes through the same checks.
 
 ### xlsx_functions
 
