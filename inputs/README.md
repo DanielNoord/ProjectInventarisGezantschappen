@@ -2,19 +2,17 @@
 
 This directory contains a number of documents and sub-directories with data, either related to the actual inventory or the indivudals that are mentioned in the documents in the archive.
 
-For the sake of usability most documents are included both in `.json` and `.docx` format. In case of conflicts between these documents the `.json` files should be seen as "authorative". For future updates, it is preferable to use the `.json` format to avoid possible conflicts between the two file types..
-
-### Individuals.json/docx
+### Individuals.json
 
 This is the _main_ database of the individuals mentioned in the archive. It contains all information about all individuals as is currently known.
 
 A JSON Schema for the database can be found at `./static/JSON/Indivudals.json`. This is a description of how the field and entries should be written and can be used to test if the database is "correct".
 
-Here follows a short summary and example of each field for an indivdual entry (person). It is important to follow the JSON Schema and structure of each field, as otherwise data will be lost on conversion from `.json` and `.docx` and the creation of a `EAD XML` database is impossible.
+Here follows a short summary and example of each field for an indivdual entry (person).
 
 <details>
 <summary>Database description</summary>
-Each entry has a unique identifier. This is often a `$` followed by the surname of the individual. Each entry has 15 fields. In the `.docx` document each field is represented by the name of the field, a `:`, a space and the data of that field.
+Each entry has a unique identifier. This is often a `$` followed by the surname of the individual. Each entry has 15 fields.
 
     1) `ISNI:id`: 0000 0000 7777 905X
         The [`ISNI`](https://isni.org) id of the indidivual if it exists. Otherwise it is `null`.
@@ -44,6 +42,8 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
 
         `1` is "finished" (or not likely that any additional sources will be found).
 
+        Previous but now unused types:
+
         `2` is "unfinished". Additional sources need (or shoud be able) to be found.
 
         `3` is "waiting on others". A request for information has been sent to external parties.
@@ -67,7 +67,7 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
     13) `surname`: Antonelli
         Surname of individual.
 
-    14) `titl`: card. (1847-06-11/)
+    14) `title`: card. (1847-06-11/)
         Titles of individual in **Italian**. If dates are known those can be added. Don't forget to add a `/` if only one date is known.
 
     15) `wikidata:id`: Q712085
@@ -77,7 +77,7 @@ Each entry has a unique identifier. This is often a `$` followed by the surname 
 
 #### Adding a new individual to the database
 
-Adding a new individual to the database is possible both in the `.docx` and `.json` files. The most straight-forward method is to duplicate a previous entry and change the identifier to a new **unused** identifier. Subsequently, update all the fields to match the new individual. **Make sure to use the correct structure of the data fields**, even if fields are empty. For the _.docx_ version the means to always add a single space after the `:`, so "Surname: " and **not** "Surname:". Otherwise conversion to `.json` is impossible and the errors will need to fixed at a later time.
+ The most straight-forward method to add a new individual is to duplicate a previous entry and change the identifier to a new **unused** identifier. Subsequently, update all the fields to match the new individual. **Make sure to use the correct structure of the data fields**, even if fields are empty.
 
 ### Biographies.json
 
@@ -89,18 +89,17 @@ This file stores all biographies and biographical notes of all individuals that 
 
 ### Translations
 
-The directory Translations contains all translation of document titles, functions, places and titles in Dutch, Italian and English. Copies in `.docx` can be found in the same directory. Make sure to only add updates to either the `.docx` or `.json` files (preferably the latter). JSON Schema's for the respective documents can be found in the `./static/JSON/` folder.
+The directory Translations contains all translation of document titles, functions, places and titles in Dutch, Italian and English. JSON Schema's for the respective documents can be found in the `./static/JSON/` folder.
 
-The `DocumentTitles`, `TranslatedFunctions` and `TranslatedTitles` documents follow this structure:
+The `DocumentTitles`, `Functions` and `Titles` documents follow this structure:
 
-- Italian translation
 - English translation
 - Dutch translation
 
-For `TranslatedTitles` a fourth field is added which indicates whether the title should be placed `Before` (count Jan Jansen) of `After` (Jan Jansen, prince of Utrecht) the name.
-The Italian translation in `DocumentTitles` is a regular expression pattern that matches the title used in the `excel` file.
+For `Titles` a fourth field is added which indicates whether the title should be placed `Before` (count Jan Jansen) of `After` (Jan Jansen, prince of Utrecht) the name.
+The Italian translation in `DocumentTitles` is a regular expression pattern that matches the title used in the `excel` _griglie_ file.
 
-`TranslatedPlacenames` follows a similar structure, but also has the following fields:
+`Placenames` follows a similar structure, but also has the following fields:
 
 - `geonames_id`: the [`Geonames`](https://www.geonames.org/) id for the place.
 - `geonames_wikipedia`: a link to the wikipedia page of the place.
@@ -128,8 +127,6 @@ Additional explanations of regular expressions can be found online.
 The folder `VolumcesExcel` contains a sub-directory `original`. These are all the _griglie_ without any changes as received from Rome.
 
 The sub-directory _it_IT_ contains the modified _griglie_ in Italian. They use the identifiers as found in the individuals database and modified document titles where necessary. Important to note that individuals who get a title in front of their name need a preposition with article in Italian. For example: _“Lettera al $HoevenE”_ and _“Lettera a $DoderoG”_.
-
-To facilitate searching in the archive the directory also contains a file `Paesi Bassi ALL FILES.xlsx`. This is a collection of all original _griglie_ as received from Rome, without any modifications.
 
 ### Oud
 
