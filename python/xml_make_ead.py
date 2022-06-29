@@ -116,8 +116,19 @@ class EADMaker(XMLWriter):
             try:
                 assert len(missing_translations) == 2
             except AssertionError as exc:
-                print("Missing the following translations")
+                print("Missing the following translations:")
                 for line in missing_translations[2:]:
+                    print(line)
+                raise AssertionError() from exc
+
+        # Make sure there are no title errors
+        with open(self.log_title_errors, encoding="utf-8") as log:
+            title_errors = log.readlines()
+            try:
+                assert len(title_errors) == 2
+            except AssertionError as exc:
+                print("Found the following title erros:")
+                for line in title_errors[2:]:
                     print(line)
                 raise AssertionError() from exc
 
