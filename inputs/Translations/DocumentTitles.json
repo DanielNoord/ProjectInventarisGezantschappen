@@ -2384,6 +2384,10 @@
     "en_GB": "Printed sheet “\\1” from \\3 relating to the observance of maritime laws in the ports of the Papal States and of the Kingdom of the Netherlands, for the collection of taxes (Rome, Tipografia della Rev. Cam. Apost., \\4 Dec. \\5)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 met betrekking tot de naleving van maritieme wetten in de havens van de Pauselijke Staat en van het Koninkrijk der Nederlanden, ten behoeve van belastingsinning (Rome, Tipografia della Rev. Cam. Apost., \\4 dec. \\5)"
   },
+  "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) relativo al sistema monetario dello Stato Pontificio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” from \\3 relating to the monetary system of the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\4 Jun. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” van \\3 aangaande het monetaire stelsel vaan de Pauselijke Staat (Rome, Tipografia della Rev. Cam. Apost., \\4 jun. \\5)"
+  },
   "Foglio a stampa \"(.+)\" (di|del|della) (\\$\\w+) sul commercio marittimo tra lo Stato Pontificio e il Regno di Sardegna \\((\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” from \\3 on the maritime commerce between the Papal States and the Kingdom of Sardinia (\\4)",
     "nl_NL": "Gedrukt blad “\\1” van \\3 omtrent de maritieme handel tussen de Kerkelijke Staat en het Koninkrijk Sardinië (\\4)"
@@ -2411,6 +2415,10 @@
   "Foglio a stampa \"(.+)\" \\((\\d\\d?) feb. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (\\2 Feb. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (\\2 feb. \\3)"
+  },
+  "Foglio a stampa \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (\\2)",
+    "nl_NL": "Gedrukt blad “\\1” (\\2)"
   },
   "Foglio a stampa \"(.+)\" \\(Caserta, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet \"\\1\" (Caserta, \\2 May \\3)",
@@ -2448,6 +2456,10 @@
     "en_GB": "Printed sheet “\\1” (Livorno, Tipografia Sardi, \\2 Apr. \\3)",
     "nl_NL": "Gedrukt blad “\\1” (Livorno, Tipografia Sardi, \\2 apr. \\3)"
   },
+  "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, \\2 Jan. \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, \\2 jan. \\3)"
+  },
   "Foglio a stampa \"(.+)\" \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\), circolare relativa alla segnalazione notturna in caso di nebbia per i bastimenti di bandiera pontificia a vapore e a vela$": {
     "en_GB": "Printed sheet \"\\1\" (Rome, \\2 Jan. \\3), circular letter relating to the nocturnal signalling in case of fog for the sailing and steam freighters with a pontifical banner",
     "nl_NL": "Gedrukt blad \"\\1\" (Rome, \\2 jan. \\3), circulaire aangaande het signaalstelsel bij nacht in geval van mist voor zeil- en stoomvrachtschepen onder pauselijke vlag"
@@ -2463,6 +2475,14 @@
   "Foglio a stampa \"(.+)\" \\(Roma, Tipografia Camerale, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Rome, Tipografia Camerale, \\2)",
     "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia Camerale, \\2)"
+  },
+  "Foglio a stampa \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)",
+    "nl_NL": "Gedrukt blad “\\1” (Rome, Tipografia della Rev. Cam. Apost., \\2)"
+  },
+  "Foglio a stampa \"(.+)\" \\(Torino, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” (Turin, \\2 May \\3)",
+    "nl_NL": "Gedrukt blad “\\1” (Turijn, \\2 mei \\3)"
   },
   "Foglio a stampa \"(.+)\" \\(Torino, Tipografia Subalpina, (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” (Turin, Tipografia Subalpina, \\2)",
@@ -2512,6 +2532,14 @@
     "en_GB": "Printed sheet “\\1” signed by \\3",
     "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3"
   },
+  "Foglio a stampa \"(.+)\" firmato (di|del|della) (\\$\\w+) \\(L'Aia, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet “\\1” signed by \\3 (The Hague, \\4 Jan. \\5)",
+    "nl_NL": "Gedrukt blad “\\1” ondertekend door \\3 (Den Haag, \\4 jan. \\5)"
+  },
+  "Foglio a stampa \"(.+)\" relativa ai Certificati in capitale firmata (da|dal|dalla) (\\$\\w+)$": {
+    "en_GB": "Printed sheet “\\1” relating to the share certificates signed by \\3",
+    "nl_NL": "Gedrukt blad “\\1” met betrekking tot de waardepapieren ondertekend door \\3"
+  },
   "Foglio a stampa \"(.+)\" relativa ai certificati in capitale firmata (da|dal|dalla) (\\$\\w+) \\(Roma, (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet “\\1” relating to the share certificates signed by \\3 (Rome, \\4 Dec. \\5)",
     "nl_NL": "Gedrukt blad “\\1” aangaande de waardepapieren ondertekend door \\3 (Rome, \\4 dec. \\5)"
@@ -2536,42 +2564,6 @@
     "en_GB": "Printed sheet “\\1”; newspaper “\\2” (N. \\3 of \\4 Oct. \\5)",
     "nl_NL": "Gedrukt blad “\\1”; krant “\\2” (N. \\3 van \\4 okt. \\5)"
   },
-  "Foglio a stampa (.+)\\) \"(.+)\" (di|del|della) (\\$\\w+) relativo al sistema monetario dello Stato Pontificio \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d?) giu. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” from \\4 relating to the monetary system of the Papal States (Rome, Tipografia della Rev. Cam. Apost., \\5 Jun. \\6)",
-    "nl_NL": "Gedrukt blad \\1) “\\2” van \\4 aangaande het monetaire stelsel vaan de Pauselijke Staat (Rome, Tipografia della Rev. Cam. Apost., \\5 jun. \\6)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” (\\3)",
-    "nl_NL": "Gedrukt blad \\1) “\\2” (\\3)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" \\(Roma, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” (Rome, \\3 Jan. \\4)",
-    "nl_NL": "Gedrukt blad \\1) “\\2” (Rome, \\3 jan. \\4)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" \\(Roma, Tipografia della Rev. Cam. Apost., (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” (Rome, Tipografia della Rev. Cam. Apost., \\3)",
-    "nl_NL": "Gedrukt blad \\1) “\\2” (Rome, Tipografia della Rev. Cam. Apost., \\3)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" \\(Torino, (\\d\\d?) mag. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” (Turin, \\3 May \\4)",
-    "nl_NL": "Gedrukt blad \\1) “\\2” (Turijn, \\3 mei \\4)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" firmato (di|del|della) (\\$\\w+) \\(L'Aia, (\\d\\d?) gen. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) “\\2” signed by \\4 (The Hague, \\5 Jan. \\6)",
-    "nl_NL": "Gedrukt blad \\1) “\\2” ondertekend door \\4 (Den Haag, \\5 jan. \\6)"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\" relativa ai Certificati in capitale firmata (da|dal|dalla) (\\$\\w+)$": {
-    "en_GB": "Printed sheet \\1) “\\2” relating to the share certificates signed by \\4",
-    "nl_NL": "Gedrukt blad \\1) “\\2” met betrekking tot de waardepapieren ondertekend door \\4"
-  },
-  "Foglio a stampa (.+)\\) \"(.+)\"$": {
-    "en_GB": "Printed sheet \\1) “\\2”",
-    "nl_NL": "Gedrukt blad \\1) “\\2”"
-  },
-  "Foglio a stampa (.+)\\) ritagli di giornale estratti dal \"(.+)\" relativi alla notificazione (di|del|della) (\\$\\w+) circa la riduzione delle tasse telegrafiche \\(N. (\\d+) del (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
-    "en_GB": "Printed sheet \\1) newspaper cuttings taken from the “\\2” relating to the announcement of \\4 on the reduction of tax on telegraphs (N. \\5 of \\6 Dec. \\7)",
-    "nl_NL": "Gedrukt blad \\1) krantenknipsels ontleend aan de “\\2” aangaande de bekendmaking van \\4 over de verlaging van telegraafbelasting (N. \\5 van \\6 dec. \\7)"
-  },
   "Foglio a stampa con firma autografa (di|del|della) (\\$\\w+) \"(.+)\" \\((\\d\\d\\d\\d)\\)$": {
     "en_GB": "Printed sheet with the autograph of \\2 “\\3” (\\4)",
     "nl_NL": "Gedrukt blad met de handtekening van \\2 “\\3” (\\4)"
@@ -2583,6 +2575,10 @@
   "Foglio a stampa della relazione di una adunanza della Camera dei Deputati$": {
     "en_GB": "Printed sheet about the report of an assembly of the Chamber of Deputies",
     "nl_NL": "Gedrukt blad over een rapport van een bijeenkomst van het Huis van Afgevaardigden"
+  },
+  "Foglio a stampa ritagli di giornale estratti dal \"(.+)\" relativi alla notificazione (di|del|della) (\\$\\w+) circa la riduzione delle tasse telegrafiche \\(N. (\\d+) del (\\d\\d?) dic. (\\d\\d\\d\\d)\\)$": {
+    "en_GB": "Printed sheet newspaper cuttings taken from the “\\1” relating to the announcement of \\3 on the reduction of tax on telegraphs (N. \\4 of \\5 Dec. \\6)",
+    "nl_NL": "Gedrukt blad krantenknipsels ontleend aan de “\\1” aangaande de bekendmaking van \\3 over de verlaging van telegraafbelasting (N. \\4 van \\5 dec. \\6)"
   },
   "Foglio a stampa sulle legge di navigazione nei Paesi Bassi da L'Indépendance Belge$": {
     "en_GB": "Printed sheet on the laws of navigation in the Netherlands from L'Indépendance Belge",
