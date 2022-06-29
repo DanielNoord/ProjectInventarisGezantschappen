@@ -1,6 +1,6 @@
 ## Outputs directory
 
-After running any of the programs in the `python` directory their outputs will be put in this directory. Most importantly, it contains directories with the the modified and translated _griglie_.
+After running any of the programs in the `python` directory their outputs will be put in this directory. Most importantly, it contains directories with the modified and translated _griglie_ and the `xml` metadata file.
 
 ### Griglie
 
@@ -18,4 +18,4 @@ If the old method of `excel` databases is used the following direcotries will be
 
 ### Other outputs
 
-Other outputs besides the _griglie_ include the `.pdf` of the inventory and updates individuals databases after certain programs have been run on it.
+Other outputs besides the final metadata files are some of the files used to store logs and errors.
