@@ -2,18 +2,16 @@
 
 # Whitelisted directories
 !.github/
-!ead2pdf/
-!EADFiles/
-!inputs
 inputs/*
 !inputs/Biographies.json
-!inputs/Individuals.docx
 !inputs/Individuals.json
 !inputs/ScanFiles.txt
 !inputs/SourcePatterns.json
 !inputs/Translations
-!outputs
+!inputs/VolumesExcel_**
 outputs/*
+!outputs/ead3.dtd
+!outputs/Legation_Archive.xml
 !python/
 !static/
 
@@ -21,11 +19,8 @@ outputs/*
 !.gitignore
 !.pre-commit-config.yaml
 !pyproject.toml
-!outputs/ead3.dtd
-!Makepdf_*
 !README.md
 !requirements.txt
-!setup.cfg
 
 # To be ignored in all directories
 **/.DS_Store

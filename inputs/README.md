@@ -125,6 +125,7 @@ Additional explanations of regular expressions can be found online.
 ### VolumesExcel
 
 The folder `VolumcesExcel` contains a sub-directory `original`. These are all the _griglie_ without any changes as received from Rome.
+_Note that on Github we only provide a snapshot of the files as the most up to date files are stored on our private server. To use these files you should renome the directory to VolumesExcel._
 
 The sub-directory _it_IT_ contains the modified _griglie_ in Italian. They use the identifiers as found in the individuals database and modified document titles where necessary. Important to note that individuals who get a title in front of their name need a preposition with article in Italian. For example: _“Lettera al $HoevenE”_ and _“Lettera a $DoderoG”_.
 
