@@ -21,7 +21,7 @@ def fetch_rkd_images(filename: str) -> None:
             )
             response = requests.get(
                 f"https://rkd.nl/api/search/images?fieldset=brief&rows=50&query={name}",
-                timeout=10
+                timeout=10,
             )
             if response.json()["response"]["docs"]:
                 print(name)
@@ -52,7 +52,7 @@ def fetch_rkd_artists(filename: str) -> None:
             )
             response = requests.get(
                 f"https://rkd.nl//api/search/artists?fieldset=brief&rows=50&query={name}",
-                timeout=10
+                timeout=10,
             )
             if response.json()["response"]["docs"]:
                 print(name)

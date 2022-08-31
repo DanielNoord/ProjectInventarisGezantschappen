@@ -29,7 +29,7 @@ def search_isni_api(database: IndividualsDictCleaned) -> None:
             name = f"{data['name']} {data['surname']}".replace(" ", "+")
             response = requests.get(
                 f"http://isni.oclc.org/sru/?query=pica.nw+%3D+%22{name}%22&operation=searchRetrieve&recordSchema=isni-b&maximumRecords=10",  # pylint: disable=line-too-long
-                timeout=10
+                timeout=10,
             )
 
             records = list(
