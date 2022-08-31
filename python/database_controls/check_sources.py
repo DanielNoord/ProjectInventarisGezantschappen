@@ -17,7 +17,7 @@ def update_trecanni(source: str) -> str:
     Returns:
         str: Updated source
     """
-    page = requests.get(source)
+    page = requests.get(source, timeout=10)
     soup = BeautifulSoup(page.content, "html.parser")
     title = (
         soup.find_all("h1", {"class": "title-search title-leaf"})[0]
@@ -59,7 +59,7 @@ def update_parlement(source: str) -> str:
     Returns:
         str: Updated source
     """
-    page = requests.get(source)
+    page = requests.get(source, timeout=10)
     soup = BeautifulSoup(page.content, "html.parser")
     name = soup.find_all("div", {"class": "partext_c"})[0].contents[1].contents[0]
     final_source = f"Redactie parlement.com, '{name}', found on: {source}"

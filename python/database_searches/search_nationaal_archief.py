@@ -27,7 +27,8 @@ def fetch_na_inventaris(filename: str) -> None:
                 .replace("}", "")
             )
             response = requests.get(
-                f"https://service.archief.nl/hub3/api/ead/search?q={name}&rows=100"
+                f"https://service.archief.nl/hub3/api/ead/search?q={name}&rows=100",
+                timeout=10,
             )
             if response.json()["archiveCount"] > 0:
                 print(name)

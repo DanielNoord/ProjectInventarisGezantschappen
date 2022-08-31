@@ -20,7 +20,8 @@ def fetch_rkd_images(filename: str) -> None:
                 [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
             )
             response = requests.get(
-                f"https://rkd.nl/api/search/images?fieldset=brief&rows=50&query={name}"
+                f"https://rkd.nl/api/search/images?fieldset=brief&rows=50&query={name}",
+                timeout=10,
             )
             if response.json()["response"]["docs"]:
                 print(name)
@@ -50,7 +51,8 @@ def fetch_rkd_artists(filename: str) -> None:
                 [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
             )
             response = requests.get(
-                f"https://rkd.nl//api/search/artists?fieldset=brief&rows=50&query={name}"
+                f"https://rkd.nl//api/search/artists?fieldset=brief&rows=50&query={name}",
+                timeout=10,
             )
             if response.json()["response"]["docs"]:
                 print(name)

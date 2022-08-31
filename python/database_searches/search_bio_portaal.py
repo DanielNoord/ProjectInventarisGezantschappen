@@ -20,7 +20,8 @@ def fetch_bio_portaal_names(filename: str) -> None:
                 [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
             )
             response = requests.get(
-                f"http://www.biografischportaal.nl/personen/json?search_name={name}"
+                f"http://www.biografischportaal.nl/personen/json?search_name={name}",
+                timeout=10,
             )
             if response.json() != []:
                 print(name)
