@@ -178,7 +178,6 @@ def check_all_sources(
     used_patterns: set[re.Pattern[str]] = set()
 
     for identifier, data in persons.items():
-
         (
             data["sources"],
             used_patterns,
