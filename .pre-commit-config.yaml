@@ -16,7 +16,7 @@ repos:
         always_run: true
         pass_filenames: false
         additional_dependencies:
-          - beautifulsoup4~=4.10
+          - beautifulsoup4~=4.12
           - openpyxl~=3.1
           - requests~=2.28
           - Babel~=2.12
@@ -52,7 +52,7 @@ repos:
         args: ["--disable=fixme"]
         additional_dependencies:
           - Babel~=2.12
-          - beautifulsoup4~=4.11
+          - beautifulsoup4~=4.12
           - geocoder~=1.38
           - lxml~=4.8
           - openpyxl~=3.1
@@ -69,7 +69,7 @@ repos:
           - lxml-stubs~=0.4
           - openpyxl-stubs~=0.1
           - types-babel~=2.11
-          - types-beautifulsoup4~=4.10
+          - types-beautifulsoup4~=4.12
           - types-requests~=2.28
   - repo: https://github.com/DanielNoord/pydocstringformatter
     rev: v0.7.3
