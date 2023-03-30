@@ -12,7 +12,7 @@ def parse_series(serie: tuple[Cell, ...]) -> SeriesData:
     """
     if not isinstance(serie[0].value, (str)):
         raise ValueError(f"Series number should be a string, check {serie[0].value}")
-    serie_num = re.findall(r"ms(\w+_)*(\w+?)_title", serie[0].value)[0][1]
+    serie_num = re.findall(r"ms(\w+_){,20}(\w+?)_title", serie[0].value)[0][1]
     if (title := str(serie[1].value)) == "None":
         with open("outputs/missing_titles", "a", encoding="utf-8") as file:
             print(f"|Vol: {serie[0].value}|Missing a series title", file=file)
