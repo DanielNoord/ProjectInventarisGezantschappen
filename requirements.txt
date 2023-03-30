@@ -1,5 +1,5 @@
 Babel~=2.12
-beautifulsoup4~=4.11
+beautifulsoup4~=4.12
 geocoder~=1.38
 lxml~=4.9
 openpyxl~=3.1
