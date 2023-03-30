@@ -1,13 +1,9 @@
-aiofiles~=22.1
-aiohttp~=3.8
-Babel~=2.10
-chardet~=5.0
+Babel~=2.12
 beautifulsoup4~=4.11
 geocoder~=1.38
 lxml~=4.9
-openpyxl~=3.0
+openpyxl~=3.1
 python-docx~=0.8
-python-dotenv~=0.21
 requests~=2.28
 sparql-client~=3.8
 wikidataintegrator~=0.9
