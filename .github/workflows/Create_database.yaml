@@ -23,8 +23,6 @@ jobs:
           sudo locale-gen nl_NL.UTF-8
       - name: Execute ci_script_check_making_database
         continue-on-error: true
-        env:
-          ONEDRIVE_LINK: ${{ secrets.ONEDRIVE_LINK }}
         run: |
           python3 python/ci_script_check_making_database.py 2> outputs/STDERR 1> outputs/STDOUT
       - name: Set STDERR variable

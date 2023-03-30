@@ -25,6 +25,5 @@ disable = [
     "duplicate-code",
     "missing-module-docstring",
     "missing-raises-doc",
-    "docstring-first-line-empty" # Warning in submodule onedrive
 ]
 enable = ["c-extension-no-member", "missing-function-docstring"]

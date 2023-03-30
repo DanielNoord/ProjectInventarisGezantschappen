@@ -1,3 +1,0 @@
-[submodule "onedrive-downloader"]
-	path = python/onedrive
-	url = https://github.com/py-radicz/onedrive-sharedfolder-download.git
