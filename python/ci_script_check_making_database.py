@@ -1,21 +1,10 @@
-import os
-
-from dotenv import load_dotenv
-from onedrive.onedrive import OneDrive  # type: ignore[import]
 from xml_check_document_numbers import traverse_c01_elements
 from xml_make_ead import EADMaker
 
 if __name__ == "__main__":
-    # Load environment variables
-    load_dotenv()
-
-    # Download from OneDrive
-    folder = OneDrive(os.getenv("ONEDRIVE_LINK"), path="./inputs")
-    folder.download()
-
     # Run database creation
     eadmaker = EADMaker(
-        "inputs/VolumesExcel/it_IT",
+        "inputs/VolumesExcel_06_07_2022/it_IT",
         True,
     )
     eadmaker.create_ead()

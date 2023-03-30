@@ -28,10 +28,6 @@ Non-functional module which contains all files that were used in previous stages
 
 Module with functions used to write, read and parse `docx` files. With the switch to only using `json` these functions tend to get outdated quickly, but should in theory still work.
 
-### onedrive
-
-Submodule that allows downloading of a folder from a public OneDrive.
-
 ### typing_utils
 
 Module that stores some of our typing aliases.
@@ -50,7 +46,7 @@ Module with functions used to write the final `xml` file. We use `lxml` to creat
 
 ### Scripts
 
-- `ci_script_check_making_database`: Script that downloads the `excel` _griglie_ and tries to create a `xml` database from them. Used in the CI on GitHub. Uses the `ONEDRIVE_LINK` env variable to find the _griglie_.
+- `ci_script_check_making_database`: Script that uses the `excel` _griglie_ and tries to create a `xml` database from them. Used in the CI on GitHub.
 - `docx_make_controls_translations`: Transforms the `json` files of our data and translations into `docx` files which are easier to read during the control process.
 - `json_control_database`: Main script used to control the database on inconsistencies and errors. Also used in the CI.
 - `json_create_descriptive_stats`: Script to print some stats about the database.
