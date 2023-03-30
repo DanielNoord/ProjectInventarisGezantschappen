@@ -43,7 +43,7 @@ def check_entries(  # pylint: disable=too-many-branches, too-many-statements
     for identifier, data in persons_in_file.items():
         # Check if entry is correctly sorted
         if len(data["sources"]) > 1 and data["sources"] != sorted(data["sources"]):
-            raise Exception(
+            raise ValueError(
                 f"Incorrect sorting of sources found for {identifier}.\n"
                 "Try running json_sort_database.py and copying "
                 "outputs/Individuals.json to inputs/Individual.json"
@@ -52,7 +52,7 @@ def check_entries(  # pylint: disable=too-many-branches, too-many-statements
         if len(data["sources_other"]) > 1 and data["sources_other"] != sorted(
             data["sources_other"]
         ):
-            raise Exception(
+            raise ValueError(
                 f"Incorrect sorting of sources found for {identifier}.\n"
                 "Try running json_sort_database.py and copying "
                 "outputs/Individuals.json to inputs/Individual.json"
@@ -62,7 +62,7 @@ def check_entries(  # pylint: disable=too-many-branches, too-many-statements
             if len(data["titles"]) > 1 and data["titles"] != sorted(
                 data["titles"], key=lambda x: (x[1] is not None, x[1])
             ):
-                raise Exception(
+                raise ValueError(
                     f"Incorrect sorting of titles found for {identifier}.\n"
                     "Make sure they are sorted based on their time"
                 )
@@ -75,7 +75,7 @@ def check_entries(  # pylint: disable=too-many-branches, too-many-statements
             if len(data["functions"]) > 1 and data["functions"] != sorted(
                 data["functions"], key=lambda x: (x[1] is not None, x[1])
             ):
-                raise Exception(
+                raise ValueError(
                     f"Incorrect sorting of functions found for {identifier}.\n"
                     "Make sure they are sorted based on their time"
                 )
@@ -85,17 +85,17 @@ def check_entries(  # pylint: disable=too-many-branches, too-many-statements
             ) from error
 
         if identifier[0] != "$":
-            raise Exception(
+            raise ValueError(
                 f"Incorrect identifier found for {identifier}.\n"
                 "Identifiers should start with an '$'"
             )
 
         if identifier in identifiers:
-            raise Exception(f"Identifier of {data['surname']} is a duplicate")
+            raise ValueError(f"Identifier of {data['surname']} is a duplicate")
         identifiers.add(identifier)
 
         if data["person_type"] not in [0, 1, 2, 3, 4, 5, 6]:
-            raise Exception(
+            raise ValueError(
                 f"Type '{data['person_type']}' of {data['surname']} is invalid"
             )
 

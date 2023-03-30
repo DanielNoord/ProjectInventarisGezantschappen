@@ -14,7 +14,7 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
 ) -> str:
     """Creates the string for the full name including any possible titles."""
     if surname == "":
-        raise Exception(f"{name} has no surname!")
+        raise ValueError(f"{name} has no surname!")
 
     relevant_titles = []
     for title in titles:
@@ -43,7 +43,7 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
             if name != "":
                 str_full_name = f"{name} {str_full_name}"
         else:
-            raise Exception(f"Don't recognize type of {relevant_titles[0][0]}")
+            raise ValueError(f"Don't recognize type of {relevant_titles[0][0]}")
 
         if len(relevant_titles) > 1:
             for extra_title in relevant_titles[1:]:
@@ -57,7 +57,7 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
                 elif translation_entry["position"] == "After":
                     str_full_name += f" {translated_title},"
                 else:
-                    raise Exception(
+                    raise ValueError(
                         "Can't parse second title, maybe change order in sourcefile"
                     )
     elif name != "":
