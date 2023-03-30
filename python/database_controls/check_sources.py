@@ -87,7 +87,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
             r"https://www.treccani.it/.*Dizionario-Biografico\)", source
         ):
             sources[index] = update_trecanni(source)
-        elif update and re.match(r"https://www.parlement.com/.*", source):
+        elif update and re.match(r"https://www\.parlement.com/.*", source):
             sources[index] = update_parlement(source)
 
         # Authors
