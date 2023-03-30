@@ -19,9 +19,9 @@ repos:
         pass_filenames: false
         additional_dependencies:
           - beautifulsoup4~=4.10
-          - openpyxl~=3.0
-          - requests~=2.26
-          - Babel~=2.9
+          - openpyxl~=3.1
+          - requests~=2.28
+          - Babel~=2.12
   - repo: https://github.com/PyCQA/autoflake
     rev: v2.0.2
     hooks:
@@ -53,14 +53,13 @@ repos:
       - id: pylint
         args: ["--disable=fixme"]
         additional_dependencies:
-          - Babel~=2.10
+          - Babel~=2.12
           - beautifulsoup4~=4.11
           - geocoder~=1.38
           - lxml~=4.8
-          - openpyxl~=3.0
+          - openpyxl~=3.1
           - python-docx~=0.8
-          - python-dotenv~=0.20
-          - requests~=2.27
+          - requests~=2.28
           - sparql-client~=3.8
           - wikidataintegrator~=0.9
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -71,10 +70,9 @@ repos:
         additional_dependencies:
           - lxml-stubs~=0.4
           - openpyxl-stubs~=0.1
-          - python-dotenv~=0.20
-          - types-babel~=2.9
+          - types-babel~=2.11
           - types-beautifulsoup4~=4.10
-          - types-requests~=2.27
+          - types-requests~=2.28
   - repo: https://github.com/DanielNoord/pydocstringformatter
     rev: v0.7.3
     hooks:
