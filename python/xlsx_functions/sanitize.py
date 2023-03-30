@@ -40,7 +40,7 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
                 row[index].value = line
 
     new_directory = directory_name.replace("inputs", "outputs").replace(
-        "VolumesExcel/", "VolumesExcelSanitized/"
+        "VolumesExcel", "VolumesExcelSanitized"
     )
     os.makedirs(
         os.path.join(os.getcwd(), new_directory),
