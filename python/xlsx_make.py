@@ -74,7 +74,7 @@ def create_xlsx_controle(directory_names: list[str]) -> None:
             )
             for index, row in enumerate(rows_original):
                 if row[0].value != rows_it[index][0].value:
-                    raise Exception(
+                    raise ValueError(
                         f"Difference in document number found for {row[0].value} in original"
                     )
                 new_sheet.append(tuple(i.value for i in row))

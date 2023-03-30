@@ -11,11 +11,11 @@ def check_translations() -> None:
     for key, translations_titles in translated_titles.items():
         for translation in translations_titles.values():
             if translation == "":
-                raise Exception(f"Found an empty translation in titles at {key}")
+                raise ValueError(f"Found an empty translation in titles at {key}")
 
     for key, translations in translated_functions.items():
         for translation in translations.values():
             if translation == "":
-                raise Exception(f"Found an empty translation in functions at {key}")
+                raise ValueError(f"Found an empty translation in functions at {key}")
 
     print("Finished checking translations: no missing or broken ones found!\n")

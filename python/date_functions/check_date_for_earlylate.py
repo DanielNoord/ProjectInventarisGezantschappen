@@ -9,7 +9,7 @@ def check_date_earlier(  # pylint: disable=too-many-return-statements
         Union[str, int, None], Union[str, int, None], Union[str, int, None]
     ],
     row: tuple[Cell, ...],
-) -> tuple[Union[str, int, None], Union[str, int, None], Union[str, int, None]]:
+) -> tuple[Union[str, float, None], Union[str, float, None], Union[str, float, None]]:
     """Check if the given date is earlier than other data.
 
     Args:
@@ -57,7 +57,7 @@ def check_date_later(  # pylint: disable=too-many-return-statements
         Union[str, int, None], Union[str, int, None], Union[str, int, None]
     ],
     row: tuple[Cell, ...],
-) -> tuple[Union[str, int, None], Union[str, int, None], Union[str, int, None]]:
+) -> tuple[Union[str, float, None], Union[str, float, None], Union[str, float, None]]:
     """Check if the given date is later than other data.
 
     Args:

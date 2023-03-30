@@ -3,10 +3,10 @@ from typing import Union
 
 
 def check_date_for_missing_elements(
-    year: Union[date, str, int, None],
-    month: Union[date, str, int, None],
-    day: Union[date, str, int, None],
-    doc_number: Union[date, str, int, None],
+    year: Union[date, str, float, None],
+    month: Union[date, str, float, None],
+    day: Union[date, str, float, None],
+    doc_number: Union[date, str, float, None],
 ) -> None:
     """Check for inconsistencies in document dates."""
     if day and not month:
