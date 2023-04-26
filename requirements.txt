@@ -4,6 +4,6 @@ geocoder~=1.38
 lxml~=4.9
 openpyxl~=3.1
 python-docx~=0.8
-requests~=2.28
+requests~=2.29
 sparql-client~=3.8
 wikidataintegrator~=0.9
