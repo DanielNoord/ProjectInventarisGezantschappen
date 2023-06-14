@@ -1,6 +1,7 @@
 import os
 import re
-from typing import Literal, Pattern
+from re import Pattern
+from typing import Literal
 
 from openpyxl import load_workbook
 from openpyxl.styles import Font

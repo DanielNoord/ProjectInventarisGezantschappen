@@ -1,10 +1,10 @@
 import json
 import os
-from typing import Any, Dict
+from typing import Any
 
 
 def write_single_json_file(
-    data: Dict[str, Any], file_directory: str, file_name: str
+    data: dict[str, Any], file_directory: str, file_name: str
 ) -> None:
     """Write a dict to json file while checking for non-existing directories."""
     full_path = f"{file_directory}/{file_name}"

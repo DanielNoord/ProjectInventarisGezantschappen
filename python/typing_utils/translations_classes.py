@@ -1,4 +1,7 @@
-from typing import Dict, NamedTuple, Optional, Pattern, TypedDict, Union
+from __future__ import annotations
+
+from re import Pattern
+from typing import NamedTuple, TypedDict
 
 
 # Dictionaries for the Translation files
@@ -28,16 +31,16 @@ class TranslationDictEntryPlacenames(TypedDict):
     latitude: str
 
 
-TranslationDict = Dict[str, Union[str, TranslationDictEntry]]
-TranslationDictCleaned = Dict[str, TranslationDictEntry]
+TranslationDict = dict[str, str | TranslationDictEntry]
+TranslationDictCleaned = dict[str, TranslationDictEntry]
 
-TranslationDictCleanedDocuments = Dict[Pattern[str], TranslationDictEntry]
+TranslationDictCleanedDocuments = dict[Pattern[str], TranslationDictEntry]
 
-TranslationDictTitles = Dict[str, Union[str, TranslationDictEntryTitles]]
-TranslationDictCleanedTitles = Dict[str, TranslationDictEntryTitles]
+TranslationDictTitles = dict[str, str | TranslationDictEntryTitles]
+TranslationDictCleanedTitles = dict[str, TranslationDictEntryTitles]
 
-TranslationDictPlacenames = Dict[str, Union[str, TranslationDictEntryPlacenames]]
-TranslationDictCleanedPlacenames = Dict[str, TranslationDictEntryPlacenames]
+TranslationDictPlacenames = dict[str, str | TranslationDictEntryPlacenames]
+TranslationDictCleanedPlacenames = dict[str, TranslationDictEntryPlacenames]
 
 # Dictionaries for the Individuals file
 IndividualsDictEntry = TypedDict(
@@ -50,18 +53,18 @@ IndividualsDictEntry = TypedDict(
         "place_of_birth": str,
         "date_of_death": str,
         "place_of_death": str,
-        "titles": list[tuple[str, Optional[str]]],
-        "functions": list[tuple[str, Optional[str]]],
+        "titles": list[tuple[str, str | None]],
+        "functions": list[tuple[str, str | None]],
         "comment": str,
         "comment_daniel": str,
         "sources": list[str],
         "images": list[str],
-        "wikidata:id": Optional[str],
-        "ISNI:id": Optional[str],
+        "wikidata:id": str | None,
+        "ISNI:id": str | None,
     },
 )
-IndividualsDict = Dict[str, Union[str, IndividualsDictEntry]]
-IndividualsDictCleaned = Dict[str, IndividualsDictEntry]
+IndividualsDict = dict[str, str | IndividualsDictEntry]
+IndividualsDictCleaned = dict[str, IndividualsDictEntry]
 
 
 class Database(NamedTuple):

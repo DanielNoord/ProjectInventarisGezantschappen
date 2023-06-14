@@ -3,7 +3,8 @@
 import json
 import os
 import time
-from typing import Literal, Pattern
+from re import Pattern
+from typing import Literal
 
 from data_parsing import initialize_database_for_xml
 from openpyxl import Workbook, load_workbook

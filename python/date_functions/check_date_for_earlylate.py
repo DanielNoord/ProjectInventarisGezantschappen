@@ -1,15 +1,12 @@
 from datetime import date
-from typing import Union
 
 from openpyxl.cell.cell import Cell
 
 
 def check_date_earlier(  # pylint: disable=too-many-return-statements
-    early_date: tuple[
-        Union[str, int, None], Union[str, int, None], Union[str, int, None]
-    ],
+    early_date: tuple[str | int | None, str | int | None, str | int | None],
     row: tuple[Cell, ...],
-) -> tuple[Union[str, float, None], Union[str, float, None], Union[str, float, None]]:
+) -> tuple[str | float | None, str | float | None, str | float | None]:
     """Check if the given date is earlier than other data.
 
     Args:
@@ -53,11 +50,9 @@ def check_date_earlier(  # pylint: disable=too-many-return-statements
 
 
 def check_date_later(  # pylint: disable=too-many-return-statements
-    late_date: tuple[
-        Union[str, int, None], Union[str, int, None], Union[str, int, None]
-    ],
+    late_date: tuple[str | int | None, str | int | None, str | int | None],
     row: tuple[Cell, ...],
-) -> tuple[Union[str, float, None], Union[str, float, None], Union[str, float, None]]:
+) -> tuple[str | float | None, str | float | None, str | float | None]:
     """Check if the given date is later than other data.
 
     Args:

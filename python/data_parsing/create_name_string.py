@@ -1,4 +1,4 @@
-from typing import Literal, Union
+from typing import Literal
 
 from data_parsing.create_full_name_string import full_name_with_database
 from date_functions import check_date, create_date_tuple
@@ -7,7 +7,7 @@ from typing_utils import Database, DateTuple, IndividualsDictEntry
 
 def name_string(
     person: IndividualsDictEntry,
-    date: Union[str, DateTuple],
+    date: str | DateTuple,
     database: Database,
     localization: Literal["it_IT", "nl_NL", "en_GB"],
 ) -> str:

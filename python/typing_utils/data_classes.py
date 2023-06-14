@@ -1,4 +1,4 @@
-from typing import NamedTuple, Optional
+from typing import NamedTuple
 
 
 class SeriesData(NamedTuple):
@@ -13,12 +13,12 @@ class SeriesData(NamedTuple):
 class DateData(NamedTuple):
     """Dates formatted in the different languages (month names)."""
 
-    date1_it: Optional[str]
-    date2_it: Optional[str]
-    date1_en: Optional[str]
-    date2_en: Optional[str]
-    date1_nl: Optional[str]
-    date2_nl: Optional[str]
+    date1_it: str | None
+    date2_it: str | None
+    date1_en: str | None
+    date2_en: str | None
+    date1_nl: str | None
+    date2_nl: str | None
 
 
 class FileData(NamedTuple):
@@ -41,6 +41,6 @@ class FileData(NamedTuple):
 class DateTuple(NamedTuple):
     """Tuple with entry for year, month and day."""
 
-    year: Optional[int]
-    month: Optional[int]
-    day: Optional[int]
+    year: int | None
+    month: int | None
+    day: int | None

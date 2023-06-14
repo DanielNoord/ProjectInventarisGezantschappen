@@ -1,5 +1,3 @@
-from typing import Union
-
 from date_functions.create_dates_tuple import create_date_tuple
 from typing_utils import DateTuple
 
@@ -47,7 +45,7 @@ def check_end(  # pylint: disable=too-many-return-statements
 
 
 def check_date(
-    date: Union[tuple[DateTuple], tuple[DateTuple, DateTuple]],
+    date: tuple[DateTuple] | tuple[DateTuple, DateTuple],
     function_period: str,
 ) -> bool:
     """Checks if the given date falls within the period an individual held the position."""

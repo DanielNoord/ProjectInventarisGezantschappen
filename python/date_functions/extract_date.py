@@ -1,6 +1,6 @@
 import datetime
 import re
-from typing import Literal, Optional
+from typing import Literal
 
 from babel.dates import format_date
 from typing_utils import DateData
@@ -8,7 +8,7 @@ from typing_utils import DateData
 
 def extract_date(  # pylint: disable=too-many-branches
     date_string: str, localization: Literal["it_IT", "nl_NL", "en_GB"]
-) -> tuple[Optional[str], Optional[str]]:
+) -> tuple[str | None, str | None]:
     """Returns a string containing the written date based on localization.
 
         (tries to) Handles missing data correctly
@@ -29,10 +29,10 @@ def extract_date(  # pylint: disable=too-many-branches
     else:
         raise ValueError(f"Can't parse the following date string:\n{date_string}")
 
-    date1_datetime: Optional[datetime.date] = None
-    date2_datetime: Optional[datetime.date] = None
-    date1_string: Optional[str] = None
-    date2_string: Optional[str] = None
+    date1_datetime: datetime.date | None = None
+    date2_datetime: datetime.date | None = None
+    date1_string: str | None = None
+    date2_string: str | None = None
 
     if y_1:
         if m_1:

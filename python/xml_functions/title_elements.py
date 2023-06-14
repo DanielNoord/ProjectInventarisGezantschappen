@@ -1,5 +1,5 @@
 import re
-from typing import Literal, Optional
+from typing import Literal
 
 from data_parsing import control_title, name_string
 from lxml import etree
@@ -66,7 +66,7 @@ def add_unittitle(
     database: Database,
     date: str,
     file_name: str,
-) -> Optional[re.Pattern[str]]:
+) -> re.Pattern[str] | None:
     """Adds a unittitle to the parent element."""
     title_en, title_nl, title_it = title, title, title
     used_trans = None

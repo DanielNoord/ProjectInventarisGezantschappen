@@ -2,7 +2,6 @@
 
 import json
 import re
-from typing import Optional
 
 import docx  # type: ignore[import]
 from docx_functions import database, parse_function, parse_title
@@ -11,7 +10,7 @@ from write_files import write_single_json_file
 
 
 def save_database(  # pylint: disable=too-many-locals
-    filename: str, previous_database: Optional[IndividualsDict] = None
+    filename: str, previous_database: IndividualsDict | None = None
 ) -> None:
     """Load database from .docx and write .json.
 

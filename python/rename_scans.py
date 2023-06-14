@@ -1,7 +1,7 @@
 import os
 import re
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable
 
 from openpyxl import load_workbook
 

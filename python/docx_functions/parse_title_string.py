@@ -1,8 +1,7 @@
 import re
-from typing import Optional
 
 
-def parse_title(input_line: str) -> list[tuple[str, Optional[str]]]:
+def parse_title(input_line: str) -> list[tuple[str, str | None]]:
     """Parses a function string.
 
     Args:

@@ -1,5 +1,5 @@
 import re
-from typing import Sequence
+from collections.abc import Sequence
 
 
 def parse_person(input_line: str) -> Sequence[str]:

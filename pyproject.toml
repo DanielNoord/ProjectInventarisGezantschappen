@@ -18,7 +18,7 @@ load-plugins=[
     "pylint.extensions.set_membership",
     "pylint.extensions.typing"
 ]
-py-version="3.8"
+py-version="3.11"
 
 [tool.pylint.'MESSAGES CONTROL']
 disable = [
