@@ -6585,8 +6585,8 @@
     "nl_NL": "Afschrift van de proclamatie Ai Siciliani"
   },
   "Trascrizione del proclama Al Popolo Napoletano. Cittadini della Guardia di Sicurezza$": {
-    "en_GB": "Transcript of the proclamation Ai Siciliani. Cittadini della Guardia di Sicurezza (To the Sicilians. Citizens of the Security Guard)",
-    "nl_NL": "Afschrift van de proclamatie Ai Siciliani. Cittadini della Guardia di Sicurezza (Aan de Sicilianen. Burgers van de Veiligheidswacht)"
+    "en_GB": "Transcript of the proclamation Al Popolo Napoletano. Cittadini della Guardia di Sicurezza (To the Sicilians. Citizens of the Security Guard)",
+    "nl_NL": "Afschrift van de proclamatie Al Popolo Napoletano. Cittadini della Guardia di Sicurezza (Aan de Sicilianen. Burgers van de Veiligheidswacht)"
   },
   "Trascrizione dell'allocuzione (di|del|della) (\\$\\w+)$": {
     "en_GB": "Transcript of the allocution of \\2",
