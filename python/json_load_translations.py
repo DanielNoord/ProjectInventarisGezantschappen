@@ -2,7 +2,7 @@
 
 import re
 
-import docx  # type: ignore[import]
+import docx  # type: ignore[import-not-found]
 from typing_utils import TranslationDict, TranslationDictTitles
 from write_files import write_single_json_file
 

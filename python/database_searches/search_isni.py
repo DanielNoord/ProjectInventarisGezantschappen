@@ -2,7 +2,7 @@ from xml.etree import ElementTree
 
 import requests
 from typing_utils import IndividualsDictCleaned
-from wikidataintegrator import wdi_core  # type: ignore[import]
+from wikidataintegrator import wdi_core  # type: ignore[import-not-found]
 from write_files import write_single_json_file
 
 
