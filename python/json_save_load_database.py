@@ -3,9 +3,10 @@
 import json
 import re
 
-import docx  # type: ignore[import]
+import docx  # type: ignore[import-not-found]
 from docx_functions import database, parse_function, parse_title
 from typing_utils import IndividualsDict
+from typing_utils.translations_classes import IndividualsDictEntry
 from write_files import write_single_json_file
 
 
@@ -19,7 +20,7 @@ def save_database(  # pylint: disable=too-many-locals
         previous_database: Dict with data from previous database
     """
     doc = docx.Document(filename)
-    all_individuals: IndividualsDict = {}
+    all_individuals: dict[str, str | IndividualsDictEntry] = {}
 
     # TODO: This does not work currently and removes fields we are using
     for para in doc.paragraphs:
@@ -65,7 +66,7 @@ def save_database(  # pylint: disable=too-many-locals
 
     # Sort and Schema, shouldn't sort a dict but oh well..
     all_individuals = dict(sorted(all_individuals.items(), key=lambda item: item[0]))
-    all_individuals = {"$schema": "../static/JSON/Individuals.json"} | all_individuals
+    all_individuals["$schema"] = "../static/JSON/Individuals.json"
 
     write_single_json_file(all_individuals, "outputs", "Individuals.json")
 

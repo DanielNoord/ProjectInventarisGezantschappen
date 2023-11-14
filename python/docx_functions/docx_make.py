@@ -1,8 +1,8 @@
 import os
 import re
 
-import docx  # type: ignore[import]
-from docx.shared import Pt  # type: ignore[import]
+import docx  # type: ignore[import-not-found]
+from docx.shared import Pt  # type: ignore[import-not-found]
 from typing_utils import IndividualsDictCleaned
 
 

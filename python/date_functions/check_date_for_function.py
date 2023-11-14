@@ -53,11 +53,11 @@ def check_date(
     if len(dates) != 2:
         raise ValueError(f"Missing a '/' in function/title with date {function_period}")
 
-    begin_date, end_date = dates  # type: ignore[misc]
+    begin_date, end_date = dates
 
     if len(date) == 1:
         if check_begin(date[0], begin_date) and check_end(date[0], end_date):
             return True
-    elif check_begin(end_date, date[0]) and check_end(begin_date, date[1]):  # type: ignore[misc]
+    elif check_begin(end_date, date[0]) and check_end(begin_date, date[1]):
         return True
     return False

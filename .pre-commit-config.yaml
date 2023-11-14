@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -18,8 +18,8 @@ repos:
         additional_dependencies:
           - beautifulsoup4~=4.12
           - openpyxl~=3.1
-          - requests~=2.28
-          - Babel~=2.12
+          - requests~=2.31
+          - Babel~=2.13
   - repo: https://github.com/PyCQA/autoflake
     rev: v2.2.1
     hooks:
@@ -31,7 +31,7 @@ repos:
           - --remove-duplicate-keys
           - --remove-unused-variables
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.13.0
+    rev: v3.15.0
     hooks:
       - id: pyupgrade
         args: [--py311-plus]
@@ -40,28 +40,27 @@ repos:
     hooks:
       - id: isort
         args: ["--profile", "black"]
-  - repo: https://github.com/psf/black
-    rev: 23.9.1
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 23.11.0
     hooks:
       - id: black
-        args: [--quiet]
   - repo: https://github.com/pycqa/pylint
-    rev: v3.0.0
+    rev: v3.0.1
     hooks:
       - id: pylint
         args: ["--disable=fixme"]
         additional_dependencies:
-          - Babel~=2.12
+          - Babel~=2.13
           - beautifulsoup4~=4.12
           - geocoder~=1.38
-          - lxml~=4.8
+          - lxml~=4.9
           - openpyxl~=3.1
-          - python-docx~=0.8
-          - requests~=2.28
+          - python-docx~=1.1
+          - requests~=2.31
           - sparql-client~=3.8
           - wikidataintegrator~=0.9
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.5.1
+    rev: v1.7.0
     hooks:
       - id: mypy
         args: [--config-file=pyproject.toml]
@@ -70,7 +69,7 @@ repos:
           - openpyxl-stubs~=0.1
           - types-babel~=2.11
           - types-beautifulsoup4~=4.12
-          - types-requests~=2.28
+          - types-requests~=2.31
   - repo: https://github.com/DanielNoord/pydocstringformatter
     rev: v0.7.3
     hooks:
