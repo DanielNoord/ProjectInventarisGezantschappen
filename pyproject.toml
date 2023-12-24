@@ -10,7 +10,6 @@ extension-pkg-allow-list="lxml"
 load-plugins=[
     "pylint.extensions.check_elif",
     "pylint.extensions.code_style",
-    "pylint.extensions.comparetozero",
     "pylint.extensions.docparams",
     "pylint.extensions.docstyle",
     "pylint.extensions.empty_comment",
