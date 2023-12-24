@@ -9,7 +9,7 @@ from xlsx_make import create_sanitized_xlsx
 # pylint: disable-next=unused-argument
 def find_partial_matches(print_to_file: bool, sanitize: bool) -> None:
     """Find all rows that are partial matches."""
-    input_dir = Path("inputs") / "VolumesExcel_06_07_2022" / "it_IT"
+    input_dir = Path("inputs") / "VolumesExcel" / "it_IT"
     if sanitize:
         create_sanitized_xlsx(str(input_dir))
     sanitized_dir = (
