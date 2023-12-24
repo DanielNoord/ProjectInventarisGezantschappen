@@ -4,7 +4,7 @@ from xml_make_ead import EADMaker
 if __name__ == "__main__":
     # Run database creation
     eadmaker = EADMaker(
-        "inputs/VolumesExcel_06_07_2022/it_IT",
+        "inputs/VolumesExcel/it_IT",
         True,
     )
     eadmaker.create_ead()
