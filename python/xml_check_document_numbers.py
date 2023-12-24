@@ -19,6 +19,9 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
             except KeyError:
                 missing_files.add(dao.attrib["href"])
 
+        # The scans contain some temporary files
+        volume_files = {i for i in volume_files if "/._" not in i}
+
         if missing_files or volume_files:
             # pylint: disable-next=line-too-long
             print(f"\n** Controlling MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore[union-attr]
@@ -99,6 +102,6 @@ if __name__ == "__main__":
     with open("outputs/Legation_Archive.xml", encoding="utf-8") as file:
         traverse_c01_elements(
             file,
-            "/Volumes/Seagate Basic Media/VolumesLegazione",
+            "/Volumes/LaCie/VolumesLegazione",
             False,
         )
