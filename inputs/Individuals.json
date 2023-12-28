@@ -1433,10 +1433,11 @@
     "place_of_birth": "Amburgo",
     "place_of_death": "",
     "sources": [
-      "Gazzetta di Genova 88 (31 oktober 1817) 353",
+      "Gazzetta di Genova 88 (31 oktober 1817) 353"
+    ],
+    "sources_other": [
       "https://gw.geneanet.org/hubertwalbaum?lang=en&pz=hubert+charles+alphonse&nz=walbaum&p=johann+gottfried&n=becker"
     ],
-    "sources_other": [],
     "surname": "Becker",
     "titles": [],
     "wikidata:id": null
@@ -2437,7 +2438,7 @@
       ]
     ],
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/5/55/Francesco_De_Blasiis.jpg"
+      "https://visitcittasantangelo.it/wp-content/uploads/2018/09/Francesco_De_Blasiis-foglio.jpg"
     ],
     "name": "Francesco",
     "person_type": 1,
