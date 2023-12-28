@@ -2,7 +2,7 @@
   "$schema": "../static/JSON/Individuals.json",
   "$Aberdeen": {
     "ISNI:id": "0000 0000 8077 6220",
-    "comment_daniel": "Test commit",
+    "comment_daniel": "",
     "date_of_birth": "1784-01-28",
     "date_of_death": "1860-12-14",
     "functions": [
