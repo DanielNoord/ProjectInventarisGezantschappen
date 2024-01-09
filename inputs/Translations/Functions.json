@@ -224,6 +224,10 @@
     "en_GB": "Librarian of the _Biblioteca Corsiniana_",
     "nl_NL": "Bibliothecaris van de _Biblioteca Corsiniana_"
   },
+  "Bibliotecario di Santa Romana Chiesa e archivista dell'Archivio segreto Vaticano": {
+    "en_GB": "Librarianof the Holy Roman church and archivist of the Vatican Secret Archives",
+    "nl_NL": "Bibliothecaris van de Heilige Romeinse Kerk en archivaris van het Vaticaanse Geheime Archief"
+  },
   "Botanista": {
     "en_GB": "Botanist",
     "nl_NL": "Botanicus"
@@ -1031,6 +1035,10 @@
   "Generale della Guardia Civica di Roma": {
     "en_GB": "General of the Civic Guard of Rome",
     "nl_NL": "Generaal van de Burgerwacht van Rome"
+  },
+  "Generale della Guardia Nazionale di Roma": {
+    "en_GB": "General of the National Guard of Rome",
+    "nl_NL": "Generaal van de Nationale Garde van Rome"
   },
   "Generale di fanteria": {
     "en_GB": "General of the infantry",
@@ -2020,6 +2028,10 @@
     "en_GB": "Minister of Grace and Justice of the Kingdom of Italy",
     "nl_NL": "Minister van Gratie en Justitie van het Koninkrijk Italië"
   },
+  "Ministro di Grazia e Giustizia dello Stato Pontificio": {
+    "en_GB": "Minister of Grace and Justice of the Papal States",
+    "nl_NL": "Minister van Gratie en Justitie van de Kerkelijke Staat"
+  },
   "Ministro di Grazia e Giustizia e Culti del Regno d'Italia": {
     "en_GB": "Minister of Grace and Justice and Worship of the Kingdom of Italy",
     "nl_NL": "Minister van Gratie en Justitie en Religie van het Koninkrijk Italië"
@@ -2403,6 +2415,10 @@
   "Presidente della Repubblica del Venezuela": {
     "en_GB": "President of the Republic of Venezuela",
     "nl_NL": "President van de Republiek Venezuela"
+  },
+  "Presidente dell'Ospizio apostolico di S. Michele a Ripa Grande": {
+    "en_GB": "President of the apostolic hospice of S. Michele a Ripa Grande",
+    "nl_NL": "President van het pauselijk hospice S. Michele a Ripa Grande"
   },
   "Presidente di Waterschap Schouwen": {
     "en_GB": "President of Waterschap Schouwen",

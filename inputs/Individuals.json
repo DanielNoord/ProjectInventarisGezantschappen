@@ -21240,8 +21240,24 @@
     "date_of_death": "1865-08-26",
     "functions": [
       [
+        "Ministro dei Lavori Pubblici dello Stato Pontificio",
+        "1848-02/1848-03"
+      ],
+      [
+        "Ministro di Grazia e Giustizia dello Stato Pontificio",
+        "1848-03/1848-04"
+      ],
+      [
         "Presidente del Consiglio dei Deputati dello Stato Pontificio",
         "1848-08-03/1848-12-26"
+      ],
+      [
+        "Presidente del Consiglio dei Deputati dello Stato Pontificio",
+        "1848/1848"
+      ],
+      [
+        "Generale della Guardia Nazionale di Roma",
+        "1849-04//1849"
       ]
     ],
     "images": [],
@@ -21912,6 +21928,10 @@
     "date_of_death": "1866-03-20",
     "functions": [
       [
+        "Presidente dell'Ospizio apostolico di S. Michele a Ripa Grande",
+        "1830-01-01/1859-07-17"
+      ],
+      [
         "Pro-tesoriere generale della Camera Apostolica",
         "1834-01-20/1834-06-25"
       ],
@@ -21922,6 +21942,10 @@
       [
         "Pro-tesoriere generale della Camera Apostolica",
         "1839-02-21/1845-04-21"
+      ],
+      [
+        "Bibliotecario di Santa Romana Chiesa e archivista dell'Archivio segreto Vaticano",
+        "1860-01-13/1866-03-20"
       ]
     ],
     "images": [],
@@ -21931,6 +21955,7 @@
     "place_of_death": "Roma",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 477",
+      "Dinoia, Rosalba, 'Tosti, Antonio', in: Dizionario Biografico degli Italiani. Volume 96 (Rome, Treccani, 2019), found on: https://www.treccani.it/enciclopedia/antonio-tosti_%28Dizionario-Biografico%29/",
       "Dutch Institute for Art History (RKD), 'Antonio Tosti', found on: https://rkd.nl/explore/artists/459089"
     ],
     "sources_other": [],
@@ -22432,7 +22457,7 @@
   },
   "$VassenA": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "The archive contains documents related to the death and inheritance of her brother, Giovanni Vassen.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -22454,7 +22479,7 @@
   },
   "$VassenG": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "The archive contains documents related to his death and inheritance.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -22551,7 +22576,7 @@
   },
   "$Verbruggen": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "The archive contains documents related to his death and a dispute about his inheritance.",
     "date_of_birth": "",
     "date_of_death": "1817-02-01",
     "functions": [],
