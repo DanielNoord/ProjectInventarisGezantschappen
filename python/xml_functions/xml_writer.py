@@ -48,15 +48,15 @@ class XMLWriter(_ErrorLogger):
         # Filedesc
         filedesc = etree.SubElement(control, "filedesc")
         titlestmt = etree.SubElement(filedesc, "titlestmt")
-        etree.SubElement(
-            titlestmt, "titleproper", {"lang": "dut"}
-        ).text = "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874"  # pylint: disable=line-too-long
-        etree.SubElement(
-            titlestmt, "titleproper", {"lang": "en"}
-        ).text = "Inventory of the archief of the Dutch Legation in Turin and Rome, 1816 - 1874"
-        etree.SubElement(
-            titlestmt, "titleproper", {"lang": "it"}
-        ).text = "Inventario del fondo archivistico delle Legazioni Olandesi a Torino e Roma, 1816 - 1874"  # pylint: disable=line-too-long
+        etree.SubElement(titlestmt, "titleproper", {"lang": "dut"}).text = (
+            "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874"  # pylint: disable=line-too-long
+        )
+        etree.SubElement(titlestmt, "titleproper", {"lang": "en"}).text = (
+            "Inventory of the archief of the Dutch Legation in Turin and Rome, 1816 - 1874"
+        )
+        etree.SubElement(titlestmt, "titleproper", {"lang": "it"}).text = (
+            "Inventario del fondo archivistico delle Legazioni Olandesi a Torino e Roma, 1816 - 1874"  # pylint: disable=line-too-long
+        )
         etree.SubElement(titlestmt, "author").text = "KNIR/ISTRIT"
         publicationstmt = etree.SubElement(filedesc, "publicationstmt")
         etree.SubElement(publicationstmt, "publisher").text = "KNIR/ISTRIT"
@@ -72,9 +72,9 @@ class XMLWriter(_ErrorLogger):
 
         # Languagedeclaration
         languagedeclaration = etree.SubElement(control, "languagedeclaration")
-        etree.SubElement(
-            languagedeclaration, "language", {"langcode": "eng"}
-        ).text = "English"
+        etree.SubElement(languagedeclaration, "language", {"langcode": "eng"}).text = (
+            "English"
+        )
         etree.SubElement(
             languagedeclaration, "script", {"scriptcode": "Latin"}
         ).text = "Latin"

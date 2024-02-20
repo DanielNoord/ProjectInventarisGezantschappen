@@ -55,10 +55,7 @@ repos:
           - geocoder~=1.38
           - lxml~=4.9
           - openpyxl~=3.1
-          - python-docx~=1.1
           - requests~=2.31
-          - sparql-client~=3.8
-          - wikidataintegrator~=0.9
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.8.0
     hooks:

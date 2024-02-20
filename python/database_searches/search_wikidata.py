@@ -1,5 +1,7 @@
 from typing_utils import IndividualsDictCleaned
-from wikidataintegrator import wdi_core  # type: ignore[import-not-found]
+from wikidataintegrator import (  # type: ignore[import-not-found] # pylint: disable=import-error
+    wdi_core,
+)
 
 
 def search_wikidata(database: IndividualsDictCleaned) -> None:
