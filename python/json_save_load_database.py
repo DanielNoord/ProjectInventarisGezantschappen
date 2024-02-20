@@ -3,7 +3,7 @@
 import json
 import re
 
-import docx  # type: ignore[import-not-found]
+import docx  # type: ignore[import-not-found] # pylint: disable=import-error
 from docx_functions import database, parse_function, parse_title
 from typing_utils import IndividualsDict
 from typing_utils.translations_classes import IndividualsDictEntry

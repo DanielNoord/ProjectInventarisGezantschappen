@@ -1,8 +1,10 @@
 import os
 import re
 
-import docx  # type: ignore[import-not-found]
-from docx.shared import Pt  # type: ignore[import-not-found]
+import docx  # type: ignore[import-not-found] # pylint: disable=import-error
+from docx.shared import (  # type: ignore[import-not-found] # pylint: disable=import-error
+    Pt,
+)
 from typing_utils import IndividualsDictCleaned
 
 

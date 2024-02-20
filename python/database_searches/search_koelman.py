@@ -1,6 +1,6 @@
 import json
 
-import docx  # type: ignore[import-not-found]
+import docx  # type: ignore[import-not-found] # pylint: disable=import-error
 
 
 def search_koelman(filename: str) -> None:
