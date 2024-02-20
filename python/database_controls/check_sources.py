@@ -92,37 +92,37 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
 
         # Authors
         elif mat := re.match(r"\$Beth, (.*)", source):
-            sources[
-                index
-            ] = f"Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            sources[index] = (
+                f"Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            )
         elif re.match(r"\$Lohrli", source):
-            sources[
-                index
-            ] = "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29–50"  # pylint: disable=line-too-long
+            sources[index] = (
+                "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29–50"  # pylint: disable=line-too-long
+            )
         elif mat := re.match(r"\$Moroni, (\d*), (.*)", source):
-            sources[
-                index
-            ] = f"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni. Volume {mat.groups()[0]} (Rome, 1840), {mat.groups()[1]}"  # pylint: disable=line-too-long
+            sources[index] = (
+                f"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni. Volume {mat.groups()[0]} (Rome, 1840), {mat.groups()[1]}"  # pylint: disable=line-too-long
+            )
         elif mat := re.match(r"\$Moscati, (.*)", source):
-            sources[
-                index
-            ] = f"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            sources[index] = (
+                f"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            )
         elif mat := re.match(r"\$Santen, (.*)", source):
-            sources[
-                index
-            ] = f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            sources[index] = (
+                f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            )
         elif mat := re.match(r"\$Schmidt-Brentano, (.*)", source):
-            sources[
-                index
-            ] = f"Schmidt-Brentano, Antonio, Die k. k. bzw. k. u. k. Generalität 1816-1918 (Vienna 2007), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            sources[index] = (
+                f"Schmidt-Brentano, Antonio, Die k. k. bzw. k. u. k. Generalität 1816-1918 (Vienna 2007), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            )
         elif re.match(r"\$Sträter", source):
-            sources[
-                index
-            ] = "Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus (Nijmegen, 1911)"  # pylint: disable=line-too-long
+            sources[index] = (
+                "Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus (Nijmegen, 1911)"  # pylint: disable=line-too-long
+            )
         elif mat := re.match(r"\$Wels, (.*)", source):
-            sources[
-                index
-            ] = f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            sources[index] = (
+                f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
+            )
 
         elif match := [i for i in compiled_source_patterns if i.match(source)]:
             used_patterns.add(match[0])
