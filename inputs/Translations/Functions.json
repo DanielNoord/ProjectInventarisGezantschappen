@@ -2500,13 +2500,13 @@
     "en_GB": "_Pro-governatore_ {pro-governor} of Rome and Director-General of Police of Rome",
     "nl_NL": "_Pro-governatore_ {pro-gouverneur} van Rome en Directeur-generaal van politie van Rome"
   },
-  "Pro-ministro delle Finanze dello Stato Pontificio": {
-    "en_GB": "Pro-Minister of Finance of the Papal States",
-    "nl_NL": "Pro-minister van Financiën van de Kerkelijke Staat"
-  },
   "Pro-ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
     "en_GB": "Pro-Minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papal States",
     "nl_NL": "Pro-minister van Handel, Landbouw, Industrie, Schone Kunsten en Openbare Werken van de Kerkelijke Staat"
+  },
+  "Pro-ministro delle Finanze dello Stato Pontificio": {
+    "en_GB": "Pro-Minister of Finance of the Papal States",
+    "nl_NL": "Pro-minister van Financiën van de Kerkelijke Staat"
   },
   "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio": {
     "en_GB": "Pro-cardinal Secretary of State and President of the Council of ministers of the Papal States",
