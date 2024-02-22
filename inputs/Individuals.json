@@ -382,7 +382,7 @@
   },
   "$Ambrosoli": {
     "ISNI:id": "0000 0000 6234 6454",
-    "comment_daniel": "",
+    "comment_daniel": "Ambrogio Ambrosoli published several works and studies, one of which can be found in the archive. Note has a list of publications.",
     "date_of_birth": "1800",
     "date_of_death": "1871",
     "functions": [
@@ -500,7 +500,7 @@
   },
   "$Angelis": {
     "ISNI:id": null,
-    "comment_daniel": "Wordt genoemd in vol. 17, maar het kan om meerder personen gaan.",
+    "comment_daniel": "Wordt genoemd in vol. 17. The literary journal L'Album (Giornale Letterario e Degli Arti) was issued weekly between 1834 and 1862, the year De Angelis died.",
     "date_of_birth": "",
     "date_of_death": "1862-05-10",
     "functions": [
@@ -647,7 +647,7 @@
   },
   "$ArataL": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Luigi Arata was also consul of several other countries, notably Russia.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -1032,6 +1032,10 @@
       [
         "Ispettore generale dell'esercito francese",
         "1847-06-11/"
+      ],
+      [
+        "Comandante in capo della divisione Francese a Roma",
+        "1849/1849"
       ]
     ],
     "images": [],
@@ -1140,6 +1144,10 @@
       [
         "Segretario generale della Sacra Congregazione di Propaganda Fide",
         "1848-08-13/1856-06-16"
+      ],
+      [
+        "Prefetto della Congregazione di Propaganda Fide",
+        "1856-06-20/1874-02-24"
       ]
     ],
     "images": [],
@@ -1148,7 +1156,8 @@
     "place_of_birth": "Foligno",
     "place_of_death": "Roma",
     "sources": [
-      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 508"
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 508",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 438-439"
     ],
     "sources_other": [],
     "surname": "Barnabò",
@@ -1249,7 +1258,12 @@
       "'Domenico Bartolini (cardinale)', in: Wikipedia, L'enciclopedia libera (2020-06-21), found on: https://it.wikipedia.org/w/index.php?title=Domenico_Bartolini_(cardinale)&oldid=113828284"
     ],
     "surname": "Bartolini",
-    "titles": [],
+    "titles": [
+      [
+        "card.",
+        "1875-03-15/"
+      ]
+    ],
     "wikidata:id": "Q741956"
   },
   "$Barzilay": {
@@ -1460,14 +1474,15 @@
     "place_of_death": "Viterbo",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 509",
-      "La Mantia, Isabella, 'Bedini Gaetano', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/bedini-gaetano/"
+      "La Mantia, Isabella, 'Bedini Gaetano', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/bedini-gaetano/",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 439"
     ],
     "sources_other": [],
     "surname": "Bedini",
     "titles": [
       [
-        "vescovo",
-        null
+        "cardinale",
+        "1861-09-27/"
       ]
     ],
     "wikidata:id": "Q263408"
@@ -1602,7 +1617,7 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Jan Anne Beijerinck', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/15765800",
-      "Ramaer, J.C., 'Beijerinck (Jan Anne)', in: P.J. Blok en P.C. Molhuysn (red.), Nieuw Nederlandsch Biografisch Woordenboek, deel 1 (A.W. Sijthoff: Leiden, 1911)"
+      "Ramaer, Johan Christoffel, 'Beijerinck (Jan Anne)', in: P.J. Blok en P.C. Molhuysn (red.), Nieuw Nederlandsch biografisch woordenboek, deel 1 (A.W. Sijthoff: Leiden, 1911)"
     ],
     "sources_other": [],
     "surname": "Beijerinck",
@@ -1630,6 +1645,7 @@
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 510",
       "De Marchi, Giuseppe, Le nunziature apostoliche dal 1800 al 1956 (Rome, 1957), 184",
       "Hensen, Antonius H.L., 'Belgrado, graaf Carlo', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, A.W. Sijthoff, 1927)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 439-440",
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 188"
     ],
     "sources_other": [],
@@ -1668,7 +1684,7 @@
   },
   "$Belli": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Marie, ofwel Francesca Belli was de tweede vrouw van de Nederlandse schilder Charles Quaedvlieg.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -1778,23 +1794,28 @@
       [
         "Sostituto della prima sezione della Segreteria di Stato della Santa Sede",
         "1851-04-10/1868-03-13"
+      ],
+      [
+        "Pro-ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio",
+        "1868/1870"
       ]
     ],
     "images": [],
     "name": "Giuseppe",
     "person_type": 0,
     "place_of_birth": "Ceccano",
-    "place_of_death": "",
+    "place_of_death": "Roma",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 512",
-      "Tamassia, Maria Teresa, 'Berardi, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 8 (Rome, Treccani, 1966), found on: https://www.treccani.it/enciclopedia/giuseppe-berardi_(Dizionario-Biografico)"
+      "Tamassia, Maria Teresa, 'Berardi, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 8 (Rome, Treccani, 1966), found on: https://www.treccani.it/enciclopedia/giuseppe-berardi_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 440-441"
     ],
     "sources_other": [],
     "surname": "Berardi",
     "titles": [
       [
-        "vescovo",
-        null
+        "card.",
+        "1868-03-13/"
       ]
     ],
     "wikidata:id": "Q1079640"
@@ -2334,7 +2355,7 @@
   },
   "$Birigazzi": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Giuseppe Birigazzi and Giuseppe Cavalieri were convicted for inciting a revolt in Bologna. The notice of their conviction is included in the archive.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -2660,7 +2681,8 @@
     "place_of_death": "Roma",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 514",
-      "Pignatelli, Giuseppe, 'Bofondi, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 11 (Rome, Treccani, 1969), found on: https://www.treccani.it/enciclopedia/giuseppe-bofondi_(Dizionario-Biografico)"
+      "Pignatelli, Giuseppe, 'Bofondi, Giuseppe', in: Dizionario Biografico degli Italiani. Volume 11 (Rome, Treccani, 1969), found on: https://www.treccani.it/enciclopedia/giuseppe-bofondi_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 442"
     ],
     "sources_other": [],
     "surname": "Bofondi",
@@ -2910,7 +2932,7 @@
   },
   "$Bosch": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Louis Bosch represented a lady referred to as 'the widow Henriette Natalie Sturbaut' in the dispute surrounding the inheritance of Francesco Cornelio Verbruggen.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -3396,7 +3418,7 @@
   },
   "$Bouteneff": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "His name in Cyrillic script is 'Аполлинарий Петрович Бутенёв'.",
     "date_of_birth": "1787",
     "date_of_death": "1866-04-18",
     "functions": [
@@ -3616,7 +3638,7 @@
   },
   "$Brizi": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Oreste Brizi wrote several studies on the government and military of various Italian states. A (non-exhaustive) list of his works can be found on https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Brizi%2C%20Oreste.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -3843,7 +3865,7 @@
   },
   "$Buccianti": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Alessandro Buccianti was also consul of several other countries.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -4674,7 +4696,7 @@
       ],
       [
         "Vice-Prefetto apostolico a Batavia",
-        "1842/1846"
+        "1842-01-25/1846"
       ]
     ],
     "images": [],
@@ -4684,7 +4706,7 @@
     "place_of_death": "Roma",
     "sources": [
       "'Hubertus Jacobus Cartenstat', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/32828011",
-      "Kleijntjens, J.C.J., 'Cartenstat, Hubertus Jacobus', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, A.W. Sijthoff, 1927)",
+      "Kleijntjens, J.C.J., 'Cartenstat, Hubertus Jacobus', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, A.W. Sijthoff, 1927), pp. 280-281.",
       "Velden, Arn. J.H. van der, 'De Roomsch-Katholieke Missie in Nederlands Oost-Indië, 1808-1908' (Nijmegen: 1908), found on: https://www.delpher.nl/nl/boeken/view?objectsearch=Cartenstat&coll=boeken&identifier=MMSFUBA02:000010921:00010, p. 202"
     ],
     "sources_other": [],
@@ -5089,7 +5111,7 @@
   },
   "$Cavalieri": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Giuseppe Birigazzi and Giuseppe Cavalieri were convicted for inciting a revolt in Bologna. The notice of their conviction is included in the archive.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -5248,7 +5270,7 @@
   },
   "$Chastel": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Louis du Chastel de la Howarderie had several other functions in the Dutch diplomatic services. He was the last Dutch envoy to the Holy See before the Legation was dissolved in favour of the Legation to the Kingdom of Italy, which was then also located in Rome.",
     "date_of_birth": "1808-06-21",
     "date_of_death": "1880-01-26",
     "functions": [
@@ -5362,7 +5384,7 @@
   },
   "$Chiavarini": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Giacomo Chiavarni was a man of Italian origin who resided in Amsterdam. An arrest warrant had been issued against him and the archive contains a description of him.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -5399,7 +5421,7 @@
     "place_of_death": "Leida",
     "sources": [
       "'Pieter Otto van der Chijs', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/67954039",
-      "Brugmans, Hajo, 'Chijs (Dr. Pieter Otto van der)', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 4 (Leiden, A.W. Sijthoff, 1918)",
+      "Brugmans, Hajo, 'Chijs (Dr. Pieter Otto van der)', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 4 (Leiden, A.W. Sijthoff, 1918), pp. 426-427",
       "Meijer, J.F.G., 'Levensbericht van Dr. Pieter Otto van der Chijs', in: Jaarboek van de Maatschappij der Nederlandse Letterkunde, 1869 (Amsterdam, 1869), 216-238"
     ],
     "sources_other": [
@@ -5830,7 +5852,8 @@
     "place_of_death": "Roma",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 537",
-      "Martina, Giacomo, 'Corboli Bussi, Giovanni', in: Dizionario Biografico degli Italiani. Volume 28 (Rome, Treccani, 1983), found on: https://www.treccani.it/enciclopedia/giovanni-corboli-bussi_(Dizionario-Biografico)"
+      "Martina, Giacomo, 'Corboli Bussi, Giovanni', in: Dizionario Biografico degli Italiani. Volume 28 (Rome, Treccani, 1983), found on: https://www.treccani.it/enciclopedia/giovanni-corboli-bussi_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 447-448"
     ],
     "sources_other": [],
     "surname": "Corboli Bussi",
@@ -6082,7 +6105,8 @@
     "place_of_death": "Zurigo",
     "sources": [
       "'Mr. Eppo Cremers', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/5116831",
-      "Redactie parlement.com, 'Mr. E.J.J.B. (Eppo) Cremers', found on: https://www.parlement.com/id/vg09lkzjh4zm"
+      "Redactie parlement.com, 'Mr. E.J.J.B. (Eppo) Cremers', found on: https://www.parlement.com/id/vg09lkzjh4zm",
+      "Zuidema, E., 'Cremers (Mr. Epimachus Jacobus Johannes Baptista)', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 2 (A.W. Sijthoff's Uitgevers-Maatschappij: Leiden, 1912), pp. 351-352."
     ],
     "sources_other": [
       "Nationaal Archief, The Hague, 'Inventaris van het archief van de familie Cremers, (1593) 1737-1921', inventory number: 2.21.044"
@@ -6165,7 +6189,7 @@
   },
   "$Dabormida": {
     "ISNI:id": "0000 0004 1631 2164",
-    "comment_daniel": "",
+    "comment_daniel": "Giuseppe Dabormida held several other (ministerial) positions within the Kingdom of Sardinia.",
     "date_of_birth": "1799-11-21",
     "date_of_death": "1869-08-19",
     "functions": [
@@ -6221,7 +6245,7 @@
   },
   "$Dandini": {
     "ISNI:id": null,
-    "comment_daniel": "Bronnen missen nog. Zie Asker's bibliografie",
+    "comment_daniel": "",
     "date_of_birth": "1801",
     "date_of_death": "",
     "functions": [
@@ -6254,7 +6278,7 @@
   },
   "$Defferani": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Luigi Deferrari held the position of vice president until 1829 or 1830 and at least since 1824.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [
@@ -6709,7 +6733,7 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Hendrik Frederik Karel Duycker', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/74774885",
-      "Koolemans Beijnen, 'Duycker (Hendrik Frederik Karel)', in: P.J. Blok, K.H. Kossmann and P.C. Molhuysen, Nieuw Nederlandsch Biografisch Woordenboek. Deel 7 (N. Israel: Amssterdam, 1974)"
+      "Koolemans Beijnen, 'Duycker (Hendrik Frederik Karel)', in: P.J. Blok, K.H. Kossmann and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (N. Israel: Amssterdam, 1974)"
     ],
     "sources_other": [],
     "surname": "Duycker",
@@ -6765,7 +6789,7 @@
   },
   "$Dyck": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Archive contains correspondence between him and some Dutch representatives about a debt.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -7713,7 +7737,8 @@
     "place_of_death": "Roma",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 378",
-      "Monsagrati, Giuseppe, 'Ferretti, Gabriele', in: Dizionario Biografico degli Italiani. Volume 47 (Rome, Treccani, 1997), found on: https://www.treccani.it/enciclopedia/gabriele-ferretti_(Dizionario-Biografico)"
+      "Monsagrati, Giuseppe, 'Ferretti, Gabriele', in: Dizionario Biografico degli Italiani. Volume 47 (Rome, Treccani, 1997), found on: https://www.treccani.it/enciclopedia/gabriele-ferretti_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 449-450"
     ],
     "sources_other": [],
     "surname": "Ferretti",
@@ -7744,6 +7769,7 @@
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 695",
       "De Marchi, Giuseppe, Le nunziature apostoliche dal 1800 al 1956 (Rome, 1957), 183",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 450",
       "Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), 676"
     ],
     "sources_other": [],
@@ -8432,7 +8458,7 @@
   },
   "$Gardenghi": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "Giuseppe Gardenghi was convicted of an act of rebellion and insurrection. The notice of his conviction is included in the archive",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -8844,6 +8870,7 @@
     "place_of_birth": "Rotterdam",
     "place_of_death": "Oegstgeest",
     "sources": [
+      "Bijleveld, Willem Johan Jacob Cornelis, 'Gevers van Endegeest (Jhr. Mr. Daniel Theodoor)', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 3 (Leiden, A.W. Sijthoff, 1914)",
       "'Daniël Théodore Gevers van Endegeest', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/14389930",
       "Redactie parlement.com, 'Jhr.Mr. D.Th. Gevers van Endegeest', found on: https://www.parlement.com/id/vg09ll10qp49/d_th_gevers_van_endegeest"
     ],
@@ -9188,7 +9215,8 @@
     "place_of_death": "Lenola",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 395",
-      "Monsagrati, Giuseppe, 'Gizzi, Tommaso Pasquale', in: Dizionario Biografico degli Italiani. Volume 57 (Rome, Treccani, 2001), found on: https://www.treccani.it/enciclopedia/tommaso-pasquale-gizzi_(Dizionario-Biografico)"
+      "Monsagrati, Giuseppe, 'Gizzi, Tommaso Pasquale', in: Dizionario Biografico degli Italiani. Volume 57 (Rome, Treccani, 2001), found on: https://www.treccani.it/enciclopedia/tommaso-pasquale-gizzi_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 453"
     ],
     "sources_other": [],
     "surname": "Gizzi",
@@ -9349,7 +9377,8 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Jan Carel van Goltstein', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/9279320",
-      "Redactie parlement.com, 'Mr. J.K. baron van Goltstein', found on: https://www.parlement.com/id/vg09ll150nui"
+      "Redactie parlement.com, 'Mr. J.K. baron van Goltstein', found on: https://www.parlement.com/id/vg09ll150nui",
+      "Zuidema, E., 'Goltstein (Jan Karel baron van)', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 1 (Leiden, A.W. Sijthoff, 1911), p. 952"
     ],
     "sources_other": [],
     "surname": "van Goltstein",
@@ -9753,7 +9782,7 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Eduard Sirtema van Grovestins', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/50058131",
-      "Fruytier, J., 'Grovestins (Eduard baron Sirtema von)', in: K.H. Kossman, P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 8 (Leiden, A.W. Sijthoff, 1930)"
+      "Fruytier, J., 'Grovestins (Eduard baron Sirtema von)', in: K.H. Kossman, P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 8 (Leiden, A.W. Sijthoff, 1930), p. 638."
     ],
     "sources_other": [],
     "surname": "Sirtema van Grovestins",
@@ -9970,7 +9999,7 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Floris Adriaan van Hall', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/00438322",
-      "Heijnsbergen, van, 'Hall (Foris Adriaan, baron van)', in: Nieuw Nederlandsch biogafisch woordenboek, P.J. Blok en P.C. Molhuysen (red.) (A.W. Sijthoff: Leiden, 1921), found on: ",
+      "Heijnsbergen, G. van, 'Hall (Foris Adriaan, baron van)', in: Nieuw Nederlandsch biografisch woordenboek, P.J. Blok en P.C. Molhuysen (red.) (A.W. Sijthoff: Leiden, 1921), pp. 517-518",
       "Redactie parlement.com, 'Mr. F.A. baron van Hall', found on: https://www.parlement.com/9291000/biof/00515"
     ],
     "sources_other": [
@@ -10678,6 +10707,7 @@
     "place_of_birth": "L'Aia",
     "place_of_death": "L'Aia",
     "sources": [
+      "Herman, Johan Christoffel, 'Huyssen van Kattendyke, (Willem Johan Cornelis, Ridder)', in: P.J. Blok, P.C. Molhuysen and L. Knappert, Nieuw Nederlandsch biografisch woordenboek. Deel 5 (Leiden, A.W. Sijthoff, 1921)",
       "'Willem Johan Cornelis Huyssen van Kattendijke', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/49726379",
       "Redactie parlement.com, 'W.J.C. ridder Huyssen van Kattendijke', found on: https://www.parlement.com/id/vg09lljalau7"
     ],
@@ -10834,7 +10864,7 @@
   },
   "$Jochems": {
     "ISNI:id": null,
-    "comment_daniel": "",
+    "comment_daniel": "The archive contains documents related to his death, inheritance and a dispute between his heirs.",
     "date_of_birth": "",
     "date_of_death": "",
     "functions": [],
@@ -11686,7 +11716,8 @@
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 402",
       "Monsagrati, Giuseppe, 'Lambruschini, Luigi', in: Dizionario Biografico degli Italiani. Volume 63 (Rome, Treccani, 2004), found on: https://www.treccani.it/enciclopedia/luigi-lambruschini_(Dizionario-Biografico)",
-      "Osbat, Luciano, 'Lambruschini Luigi', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/lambruschini-luigi/"
+      "Osbat, Luciano, 'Lambruschini Luigi', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/lambruschini-luigi/",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 456"
     ],
     "sources_other": [],
     "surname": "Lambruschini",
@@ -12162,7 +12193,7 @@
     "images": [
       "https://nl.wikipedia.org/wiki/Conrad_Leemans#/media/Bestand:NINO-117_C-Leemans.tif"
     ],
-    "name": "Cornelis",
+    "name": "Conradus",
     "person_type": 1,
     "place_of_birth": "Zaltbommel",
     "place_of_death": "Leida",
@@ -12201,7 +12232,7 @@
     "place_of_death": "Amsterdam",
     "sources": [
       "'Jasper Andreas Adriaan Leemans', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/43800251",
-      "Ramaer, J.C., 'Leemans (Mr. Jasper Andreus Adrianus)', in: K.H. Kossmann and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 9 (Leiden, A.W. Sijthoff, 1933)",
+      "Ramaer, Johan Christoffel, 'Leemans (Mr. Jasper Andreus Adrianus)', in: K.H. Kossmann and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 9 (Leiden, A.W. Sijthoff, 1933)",
       "Redactie parlement.com, 'Mr. J.A.A. Leemans', found on: https://www.parlement.com/id/vg09ll2pl7qb"
     ],
     "sources_other": [],
@@ -12421,8 +12452,20 @@
     "date_of_death": "1873-10-29",
     "functions": [
       [
+        "Ministro ad interim del Culto Cattolico Romano del Regno dei Paesi Bassi",
+        "1848-03-25/1848-11-24"
+      ],
+      [
         "Ministro degli Affari Esteri del Regno dei Paesi Bassi",
         "1848-11-21/1849-11-01"
+      ],
+      [
+        "Ministro degli Affari del culto Romano-Cattolico del Regno dei Paesi Bassi",
+        "1853-04-19/1854-01-01"
+      ],
+      [
+        "Inviato straordinario e ministro plenipotenziario del Regno dei Paesi Bassi a Parigi",
+        "1854-01-01/1867-07-01"
       ]
     ],
     "images": [],
@@ -12432,6 +12475,7 @@
     "place_of_death": "Hyères",
     "sources": [
       "'Leonardus Antonius Lightenvelt', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/15820442",
+      "Ramaer, Johan Christoffel, 'Lightenvelt (Mr. Leonardus Antonius)', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 8 (Leiden, A.W. Sijthoff, 1930)",
       "Redactie parlement.com, 'Mr. L.A. Lightenvelt', found on: https://www.parlement.com/id/vg09ll2w05tr",
       "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 4"
     ],
@@ -12495,7 +12539,8 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Wigbold Albert Willem van der Does van Limburg Stirum Noordwijk', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/46205102",
-      "Redactie parlement.com, 'W.A.W. graaf van Limburg Stirum Noordwijk', found on: https://www.parlement.com/id/vg09lls93mzl/w_a_w_graaf_van_limburg_stirum_noordwijk"
+      "Redactie parlement.com, 'W.A.W. graaf van Limburg Stirum Noordwijk', found on: https://www.parlement.com/id/vg09lls93mzl/w_a_w_graaf_van_limburg_stirum_noordwijk",
+      "Regt, W.M.G., 'Limburg Stirum (Wigbold Albert Willem van der Does graaf van)', in: P.J. Blok, K.H. Kossmann and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, A.W. Sijthoff, 1927)"
     ],
     "sources_other": [
       "Nationaal Archief, The Hague, 'Inventaris van het archief van het Huis Offem en de families Van Limburg Stirum, Doys en Van der Does, 1428-1937', inventory number: 3.19.66"
@@ -13709,7 +13754,7 @@
     "titles": [
       [
         "card.",
-        "1892-07-02/"
+        "1817-04-20/"
       ]
     ],
     "wikidata:id": "Q989847"
@@ -13740,7 +13785,12 @@
     ],
     "sources_other": [],
     "surname": "Matteucci",
-    "titles": [],
+    "titles": [
+      [
+        "card.",
+        "1866-06-22/"
+      ]
+    ],
     "wikidata:id": "Q2255869"
   },
   "$Mattioli": {
@@ -16016,6 +16066,7 @@
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 437",
       "Cerri, M. Giuseppina, 'Orioli Francesco', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/orioli-francesco/",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 462",
       "Veca, Ignazio, 'Orioli, Orazio Maria Luigi', in: Dizionario Biografico degli Italiani. Volume 79 (Rome, Treccani, 2013), found on: https://www.treccani.it/enciclopedia/orazio-maria-luigi-orioli_(Dizionario-Biografico)"
     ],
     "sources_other": [],
@@ -17781,6 +17832,7 @@
     "place_of_death": "L'Aia",
     "sources": [
       "'Lodewijk Napoleon van Randwijck', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/9663015",
+      "Ramaer, Johan Christoffel, 'Randwijck (Mr. Lodewijk Napoleon graaf van)', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 9 (Leiden, A.W. Sijthoff, 1933)",
       "Redactie parlement.com, 'Mr. L.N. graaf van Randwijck', found on: https://www.parlement.com/id/vg09ll5l7cy0",
       "van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), 4"
     ],
@@ -18805,10 +18857,6 @@
     "date_of_death": "1862-12-02",
     "functions": [
       [
-        "Generale",
-        null
-      ],
-      [
         "Governatore francese di Roma",
         "1849-08-07/1849-11-19"
       ]
@@ -18823,7 +18871,12 @@
     ],
     "sources_other": [],
     "surname": "de Rostolan",
-    "titles": [],
+    "titles": [
+      [
+        "generale",
+        null
+      ]
+    ],
     "wikidata:id": "Q3263553"
   },
   "$Roux": {
@@ -19336,7 +19389,9 @@
     "place_of_birth": "Gorga",
     "place_of_death": "Rocca di Papa",
     "sources": [
-      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 628"
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 628",
+      "Satolli, Francesco, 'Santucci, Vincenzo', in: Dizionario Biografico degli Italiani. Volume 90 (Rome, Treccani, 2017), found on: https://www.treccani.it/enciclopedia/bio-santucci-vincenzo_(Dizionario-Biografico)/",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 465-466"
     ],
     "sources_other": [],
     "surname": "Santucci",
@@ -19808,6 +19863,7 @@
     "place_of_death": "Voorst",
     "sources": [
       "'Willem Anne Schimmelpenninck van der Oye van de Poll', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/2178642",
+      "Ramaer, Johan Christoffel, ‘Schimmelpenninck van der Oye van de Poll van Soelen (Willem Anne baron)', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 9 (Leiden, A.W. Sijthoff, 1933)",
       "Redactie parlement.com, 'W.A. baron Schimmelpenninck van der Oye', found on: https://www.parlement.com/id/vg09ll7kqrzg/w_a_baron_schimmelpenninck_van_der_oye"
     ],
     "sources_other": [
@@ -20174,7 +20230,8 @@
     "place_of_birth": "Paliano",
     "place_of_death": "Roma",
     "sources": [
-      "O'Byrne, Patrick Justin, Lives of the Cardinals. Part 5 (1879, Londra), 137-154"
+      "O'Byrne, Patrick Justin, Lives of the Cardinals. Part 5 (1879, Londra), 137-154",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 467"
     ],
     "sources_other": [],
     "surname": "Simeoni",
@@ -20345,6 +20402,7 @@
     "sources": [
       "'Johan Gijsbert Verstolk van Soelen', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/8236421",
       "Dutch Institute for Art History (RKD), 'Johan Gijsbert Verstolk van Soelen', found on: https://rkd.nl/explore/artists/441350",
+      "Ramaer, Johan Christoffel, 'Verstolk van Soelen (Mr. Johan Gijsbert baron)', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 9 (Leiden, A.W. Sijthoff, 1933)",
       "Redactie parlement.com, 'Mr. J.G. baron Verstolk van Soelen', found on: https://www.parlement.com/id/vg09llsykfqh/j_g_baron_verstolk_van_soelen"
     ],
     "sources_other": [
@@ -20380,7 +20438,9 @@
     "place_of_birth": "Casola Valsenio",
     "place_of_death": "Osimo",
     "sources": [
-      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 470"
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 470",
+      "Capone, Alessandro, 'Soglia Ceroni, Giovanni', in: Dizionario Biografico degli Italiani. Volume 93 (Rome, Treccani, 2018), found on: https://www.treccani.it/enciclopedia/giovanni-soglia-ceroni_(Dizionario-Biografico)/",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 467-468"
     ],
     "sources_other": [],
     "surname": "Soglia Ceroni",
@@ -20508,6 +20568,7 @@
     "place_of_death": "Heino",
     "sources": [
       "'Herman van Sonsbeeck', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/4153476",
+      "Ramaer, Johan Christoffel, 'Sonsbeeck, (Mr. Herman van)', in: P.J. Blok, P.C. Molhuysen and K.H. Kossmann, Nieuw Nederlandsch biografisch woordenboek. Deel 9 (Leiden, A.W. Sijthoff, 1933)",
       "Redactie parlement.com, 'Mr. H. van Sonsbeeck', found on: https://www.parlement.com/id/vg09lljhz8y2/h_van_sonsbeeck"
     ],
     "sources_other": [],
@@ -21132,7 +21193,7 @@
     "place_of_birth": "Leida",
     "place_of_death": "L'Aia",
     "sources": [
-      "Ramaer, Johan Christoffel, 'J. G. Baron de Mey van Streefkerk', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 8 (1930), p. 1151",
+      "Ramaer, Johan Christoffel, 'J. G. Baron de Mey van Streefkerk', in: P.J. Blok and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 8 (1930)",
       "Redactie parlement.com, 'Mr. J.G. baron de Mey van Streefkerk', found on: https://www.parlement.com/id/vg09llt0per3#p.loopbaan"
     ],
     "sources_other": [],
@@ -21173,7 +21234,8 @@
     "place_of_death": "Maastricht",
     "sources": [
       "'Strens, Martin Pascal Hubert', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/17653750",
-      "Redactie parlement.com, 'Mr. M.P.H. Strens', found on: https://www.parlement.com/id/vg09ll9nl5zu/m_p_h_strens"
+      "Redactie parlement.com, 'Mr. M.P.H. Strens', found on: https://www.parlement.com/id/vg09ll9nl5zu/m_p_h_strens",
+      "Regt, W.M.G., 'Strens (Mr. Martin Pascal Hubert)', in: P.J. Blok, K.H. Kossmann and P.C. Molhuysen, Nieuw Nederlandsch biografisch woordenboek. Deel 7 (Leiden, A.W. Sijthoff, 1927)"
     ],
     "sources_other": [],
     "surname": "Strens",
@@ -21604,7 +21666,7 @@
     "place_of_birth": "Zwolle",
     "place_of_death": "L'Aia",
     "sources": [
-      "'Lodewijk Napoleon van Randwijck', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/9663015",
+      "'Johan Rudolph Thorbecke', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/00376149",
       "Redactie parlement.com, 'Dr. Mr. J.R. Thorbecke', found on: https://www.parlement.com/id/vg09llalluyf/j_r_thorbecke"
     ],
     "sources_other": [],
@@ -23470,7 +23532,8 @@
     "place_of_birth": "'s-Hertogenbosch",
     "place_of_death": "L'Aia",
     "sources": [
-      "Redactie parlement.com, 'Jhr.Mr. P.J.A.M. (Joseph) van der Does de Willebois', found on: https://www.parlement.com/id/vg09llj55bt7/p_j_a_m_joseph_van_der_does_de_willebois"
+      "Redactie parlement.com, 'Jhr.Mr. P.J.A.M. (Joseph) van der Does de Willebois', found on: https://www.parlement.com/id/vg09llj55bt7/p_j_a_m_joseph_van_der_does_de_willebois",
+      "Wels, C.B., 'Willebois, Pieter Joseph August Marie de (1816-1892)', in Biografisch Woordenboek van Nederland 3 (Den Haag, 1989) Http://resources.huygens.knaw.nl/bwn1880-2000/lemmata/bwn3/willebois."
     ],
     "sources_other": [],
     "surname": "van der Does de Willebois",

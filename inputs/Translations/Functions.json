@@ -1689,7 +1689,7 @@
     "nl_NL": "Ceremoniemeester van de Koning van Sardinië"
   },
   "Maggiordomo del Papa e Prefetto dei Palazzi Apostolici": {
-    "en_GB": "Major Domo of the Pope and Prefect of the Apostolic Palaces",
+    "en_GB": "Majordomo of the Pope and Prefect of the Apostolic Palaces",
     "nl_NL": "Majordomus van de Paus en Prefect van de Apostolische Paleizen"
   },
   "Maggiore generale del Regno dei Paesi Bassi": {
@@ -2249,12 +2249,16 @@
     "nl_NL": "Paleisprefect van het Koninkrijk Sardinië"
   },
   "Prefetto dell'Economia della Congregazione di Propaganda Fide": {
-    "en_GB": "Prefect of Economy of the Sacred Congregation for the Propagation of the Faith",
-    "nl_NL": "Prefect Economie van de Heilige Congregatie voor de Voortplanting van het Geloof,"
+    "en_GB": "Prefect of Economy of the Congregation for the Propagation of the Faith",
+    "nl_NL": "Prefect Economie van de Congregatie voor de Voortplanting van het Geloof,"
   },
   "Prefetto della Congregazione dell'Indice dei Libri Proibiti": {
-    "en_GB": "Prefect of Congregation for the Index of Forbidden Books",
+    "en_GB": "Prefect of the Congregation for the Index of Forbidden Books",
     "nl_NL": "Prefect van de Congregatie voor de Index van Verboden Boeken "
+  },
+  "Prefetto della Congregazione di Propaganda Fide": {
+    "en_GB": "Prefect of the Congregation for the Propagation of the Faith",
+    "nl_NL": "Prefect van de Congregatie voor de Voortplanting van het Geloof"
   },
   "Prefetto della Sacra Congregazione dei Vescovi e Regolari": {
     "en_GB": "Prefect of the Congregation of Bishops and Regulars",
@@ -2499,6 +2503,10 @@
   "Pro-ministro delle Finanze dello Stato Pontificio": {
     "en_GB": "Pro-Minister of Finance of the Papal States",
     "nl_NL": "Pro-minister van Financiën van de Kerkelijke Staat"
+  },
+  "Pro-ministro del Commercio, Agricoltura, Industria, Belle Arti e Lavori Pubblici dello Stato Pontificio": {
+    "en_GB": "Pro-Minister of Trade, Agriculture, Industry, Fine Arts and Public Works of the Papal States",
+    "nl_NL": "Pro-minister van Handel, Landbouw, Industrie, Schone Kunsten en Openbare Werken van de Kerkelijke Staat"
   },
   "Pro-segretario di Stato e Presidente del Consiglio dei Ministri dello Stato Pontificio": {
     "en_GB": "Pro-cardinal Secretary of State and President of the Council of ministers of the Papal States",
