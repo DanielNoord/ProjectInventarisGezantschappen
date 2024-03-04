@@ -9,6 +9,7 @@ from typing import Literal
 from data_parsing import initialize_database_for_xml
 from openpyxl import Workbook, load_workbook
 from xlsx_functions import (
+    add_grouped_scans_column,
     add_identifier_columns,
     fill_in_xlsx,
     sanitize_xlsx,
@@ -173,6 +174,17 @@ def create_xlsx_with_identifier_columns(directory_name: str) -> None:
             add_identifier_columns(directory_name, filename, surnames)
 
 
+def create_xlsx_with_grouped_scans_column(directory_name: str) -> None:
+    """Create .xlsx files while adding a column for grouped scans."""
+
+    directory_path = os.path.realpath(directory_name)
+    for file in sorted(os.listdir(directory_path)):
+        print(file)
+        if not str(file).count("~$") and str(file).startswith("Paesi"):
+            filename = os.fsdecode(file)
+            add_grouped_scans_column(directory_name, filename)
+
+
 def do_full_loop() -> None:
     """Completes the full process of input files till seperate translations and control file."""
     print("STARTING CREATION OF .XLSX DOCUMENTS\n")
@@ -198,7 +210,7 @@ def do_full_loop() -> None:
 
 
 if __name__ == "__main__":
-    create_xlsx_with_identifier_columns("inputs/VolumesExcel/it_IT")
+    create_xlsx_with_grouped_scans_column("inputs/VolumesExcel/it_IT")
     # create_sanitized_xlsx("inputs/VolumesExcel/it_IT")
     # create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "en_GB")
     # create_translated_xlsx("outputs/VolumesExcelSanitized/it_IT", "nl_NL")

@@ -1,4 +1,5 @@
 from xlsx_functions.fill_in_names import fill_in_xlsx
+from xlsx_functions.grouped_scans import add_grouped_scans_column
 from xlsx_functions.helper_functions import compare_rows
 from xlsx_functions.identifier_columns import add_identifier_columns
 from xlsx_functions.parse import parse_file, parse_series
@@ -13,4 +14,5 @@ __all__ = [
     "translate_xlsx",
     "compare_rows",
     "add_identifier_columns",
+    "add_grouped_scans_column",
 ]
