@@ -1,7 +1,6 @@
 import os
 
 from openpyxl import load_workbook
-
 from xlsx_functions.helper_functions import compare_rows
 
 
