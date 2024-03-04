@@ -3,7 +3,7 @@ from enum import StrEnum
 from typing import assert_never
 
 from util.biographies import export_biographies
-from util.partial_matches import find_partial_matches
+from util.partial_matches import PartialMatcher
 from util.persistent_identifiers import print_all_identifiers
 
 
@@ -40,7 +40,8 @@ def _main() -> None:
         case Command.EXPORT_BIOGRAPHIES:
             export_biographies(arguments.print_to_file)
         case Command.FIND_PARTIAL_MATCHES:
-            find_partial_matches(arguments.print_to_file, arguments.sanitize)
+            matcher = PartialMatcher()
+            matcher.run(arguments.print_to_file, arguments.sanitize)
         case _:
             assert_never(command)
 
