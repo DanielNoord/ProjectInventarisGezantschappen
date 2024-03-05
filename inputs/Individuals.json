@@ -841,6 +841,8 @@
     "place_of_death": "Cannero",
     "sources": [
       "Dutch Institute for Art History (RKD), 'Massimo Taparelli d' Azeglio', found on: https://rkd.nl/explore/artists/3128",
+      "Gigante, Claudio, La nazione neccessaria: la questione italiana nell’opera di Massimo d’Azeglio (Florence, F. Cesati, 2013)",
+      "Martellini, Giorgio e Maria Teresa Picheto, Massimo d’Azeglio: un artista in politica (Torino, Centro Studi Piemontesi, 2016)",
       "Maturi, Walter, 'Azeglio, Massimo Taparelli d'', in: Dizionario Biografico degli Italiani. Volume 4 (Rome, Treccani, 1962), found on: https://www.treccani.it/enciclopedia/massimo-taparelli-d-azeglio_(Dizionario-Biografico)"
     ],
     "sources_other": [],
@@ -1474,7 +1476,8 @@
     "place_of_death": "Viterbo",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 509",
-      "La Mantia, Isabella, 'Bedini Gaetano', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/bedini-gaetano/",
+      "Furlani, Silvio, 'Bedini, Gaetano, in: Dizionario Biografico degli Italiani. Volume 7 (Rome, Treccani, 1970), https://www.treccani.it/enciclopedia/gaetano-bedini_(Dizionario-Biografico)/",
+      "La Mantia, Isabella, 'Bedini Gaetano', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), https://www.gentedituscia.it/bedini-gaetano/",
       "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 439"
     ],
     "sources_other": [],
@@ -2758,6 +2761,8 @@
     "place_of_birth": "Parigi",
     "place_of_death": "Londra",
     "sources": [
+      "Di Rienzo, Eugenio, Napoleone III (Roma, Salerno Editrice, 2010)",
+      "Milza, Pierre, Napoléon III (Parigio, Perrin, 2006)",
       "Pedrazzini, Dominic, 'Napoleone III', in: Historisches Lexikon der Schweiz (Basel, Schwabe AG, 2010), found on https://hls-dhs-dss.ch/it/articles/023316/2010-11-02/"
     ],
     "sources_other": [
@@ -9004,6 +9009,7 @@
     "place_of_birth": "Torino",
     "place_of_death": "Parigi",
     "sources": [
+      "Rumi, Giorgio, Gioberti (Bologna, Il Mulino, 1999)",
       "Traniello, Francesco, 'Gioberti, Vincenzo', in: Dizionario Biografico degli Italiani. Volume 55 (Rome, Treccani, 2001), found on: https://www.treccani.it/enciclopedia/vincenzo-gioberti_(Dizionario-Biografico)"
     ],
     "sources_other": [],
@@ -11715,6 +11721,7 @@
     "place_of_death": "Roma",
     "sources": [
       "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 402",
+      "Manzini, Luigi Maria, Il cardinale Luigi Lambruschini (Roma, Biblioteca Apostolica Vaticana, 1960)",
       "Monsagrati, Giuseppe, 'Lambruschini, Luigi', in: Dizionario Biografico degli Italiani. Volume 63 (Rome, Treccani, 2004), found on: https://www.treccani.it/enciclopedia/luigi-lambruschini_(Dizionario-Biografico)",
       "Osbat, Luciano, 'Lambruschini Luigi', in: Dizionario storico biografico della Tuscia (IBIMUS, 2014-), found on https://www.gentedituscia.it/lambruschini-luigi/",
       "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), p. 456"
@@ -17389,7 +17396,8 @@
     "place_of_birth": "Senigallia",
     "place_of_death": "Roma",
     "sources": [
-      "Martina, Giacomo, 'Pio Ix, papa, beato', in: Dizionario Biografico degli Italiani. Volume 84 (Rome, Treccani, 2015), found on: https://www.treccani.it/enciclopedia/pio-ix-papa-beato_(Dizionario-Biografico)"
+      "Martina, Giacomo, 'Pio Ix, papa, beato', in: Dizionario Biografico degli Italiani. Volume 84 (Rome, Treccani, 2015), found on: https://www.treccani.it/enciclopedia/pio-ix-papa-beato_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1827-1831. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1991), p. 464"
     ],
     "sources_other": [],
     "surname": "Pio IX",
@@ -17413,7 +17421,8 @@
     "place_of_birth": "Cesena",
     "place_of_death": "Roma",
     "sources": [
-      "Boutry, Philippe, 'Pio Vii, papa', in: Dizionario Biografico degli Italiani. Volume 84 (Rome, Treccani, 2015), found on: https://www.treccani.it/enciclopedia/papa-pio-vii_(Dizionario-Biografico)"
+      "Boutry, Philippe, 'Pio Vii, papa', in: Dizionario Biografico degli Italiani. Volume 84 (Rome, Treccani, 2015), found on: https://www.treccani.it/enciclopedia/papa-pio-vii_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1827-1831. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1991), pp. 232-234"
     ],
     "sources_other": [],
     "surname": "Pio VII",
@@ -17437,7 +17446,9 @@
     "place_of_birth": "Cingoli",
     "place_of_death": "Roma",
     "sources": [
-      "Monsagrati, Giuseppe, 'Pio Viii, papa', in: Dizionario Biografico degli Italiani. Volume 84 (Rome, Treccani, 2015), found on: https://www.treccani.it/enciclopedia/papa-pio-viii_(Dizionario-Biografico)"
+      "Bountry, Philippe, Souverain et pontife: Recherches prosopographiques sur la Curie Romaine à l'âge de la Restauration (1814-1846) (Rome, 2002), 172-178",
+      "Monsagrati, Giuseppe, 'Pio Viii, papa', in: Dizionario Biografico degli Italiani. Volume 84 (Rome, Treccani, 2015), found on: https://www.treccani.it/enciclopedia/papa-pio-viii_(Dizionario-Biografico)",
+      "Valk, J.P. de, Romeinse bescheiden voor de geschiedenis der Rooms-katholieke kerk in Nederland 1832-1914. Tweede band (Den Haag, Instituut voor Nederlandse Geschiedenis, 1996), pp. 204-206"
     ],
     "sources_other": [],
     "surname": "Pio VIII",
@@ -20919,6 +20930,7 @@
     "place_of_birth": "Sgurgola",
     "place_of_death": "Napoli",
     "sources": [
+      "Minnocci, Carlo, Pietro Sterbini e la rivoluzione romana (1846-49) [1967] (Frosinone, Industria grafca cassinate, 1994)",
       "Veca, Ignazio, 'Sterbini, Pietro', in: Dizionario Biografico degli Italiani. Volume 94 (Rome, Treccani, 2019), found on: https://www.treccani.it/enciclopedia/pietro-sterbini_(Dizionario-Biografico)"
     ],
     "sources_other": [],
