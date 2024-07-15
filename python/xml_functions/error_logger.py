@@ -1,4 +1,3 @@
-# pylint: disable-next=too-few-public-methods
 class _ErrorLogger:
     """Class which creates files and attributes to log errors to."""
 
@@ -20,16 +19,10 @@ class _ErrorLogger:
     def _create_logging_files(self) -> None:
         """Create some files to store messages during the creation process."""
         with open(self.log_missing_translations, "w", encoding="utf-8") as file:
-            file.writelines(
-                "|no.  |Missing translations |\n| ------------- | ------------- |\n"
-            )
+            file.writelines("|no.  |Missing translations |\n| ------------- | ------------- |\n")
         with open(self.log_missing_titles, "w", encoding="utf-8") as file:
-            file.writelines(
-                "|no.  |Missing titles |\n| ------------- | ------------- |\n"
-            )
+            file.writelines("|no.  |Missing titles |\n| ------------- | ------------- |\n")
         with open(self.log_title_errors, "w", encoding="utf-8") as file:
-            file.writelines(
-                "|no.  |Errors in titles |\n| ------------- | ------------- |\n"
-            )
+            file.writelines("|no.  |Errors in titles |\n| ------------- | ------------- |\n")
         with open(self.log_xml_errors, "w", encoding="utf-8") as file:
             file.writelines("")

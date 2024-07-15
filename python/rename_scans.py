@@ -6,7 +6,6 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 
-# pylint: disable-next=too-few-public-methods
 class FileRenamer:
     """Renames files based on arguments."""
 
@@ -25,9 +24,7 @@ class FileRenamer:
         self.test_run = test
         """Whether this is a dry run without renaming any files."""
 
-    def rename_files(
-        self, rename_dict: dict[Callable[[int], bool], str], sub_dir: str
-    ) -> None:
+    def rename_files(self, rename_dict: dict[Callable[[int], bool], str], sub_dir: str) -> None:
         """Rename files in a folder based on attributes."""
         for file in os.listdir(self.folder):
             if file.endswith("00"):
@@ -69,7 +66,6 @@ class FileRenamer:
             print(f"Renamed {self.renamed} files.")
 
 
-# pylint: disable-next=too-few-public-methods
 class FileRenamerExcel:
     """File renamer based on  names in Excel."""
 
@@ -118,9 +114,7 @@ class FileRenamerExcel:
                 if self.test_run:
                     print(f"DEBUG: Double 'r' in {scan_name}")
                 else:
-                    raise ValueError(
-                        f"We can't handle names with two 'r's. See {scan_name}"
-                    )
+                    raise ValueError(f"We can't handle names with two 'r's. See {scan_name}")
             if scan_name in rename_pairs:
                 if self.test_run:
                     print(f"DEBUG: Double scan name for {scan_name}")

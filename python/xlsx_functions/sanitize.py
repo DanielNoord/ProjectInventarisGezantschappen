@@ -11,7 +11,7 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
         file_name: Name of .xlsx file
     """
     workbook = load_workbook(f"{directory_name}/{file_name}")
-    # pylint: disable-next=too-many-nested-blocks
+
     for row in workbook[workbook.sheetnames[0]].iter_rows():
         for index, cell in enumerate(row[:6]):
             if cell.value is not None:
@@ -32,11 +32,7 @@ def sanitize_xlsx(directory_name: str, file_name: str) -> None:
                                 line = line[0].upper() + line[1:]
                             elif len(line) == 1:
                                 line = line.upper()
-                        line = (
-                            line.replace("( ", "(")
-                            .replace(" )", ")")
-                            .replace("  ", " ")
-                        )
+                        line = line.replace("( ", "(").replace(" )", ")").replace("  ", " ")
                 row[index].value = line
 
     new_directory = directory_name.replace("inputs", "outputs").replace(

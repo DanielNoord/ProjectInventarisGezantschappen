@@ -2,9 +2,7 @@ from lxml import etree
 from typing_utils import DateData
 
 
-def add_unitdate(
-    parent_element: etree._Element, datestring: str, date: DateData
-) -> None:
+def add_unitdate(parent_element: etree._Element, datestring: str, date: DateData) -> None:
     """Creates and appends an unitdate element."""
     # Add Italian unitdate
     udate_element_it = etree.SubElement(
@@ -50,9 +48,7 @@ def add_unitdate(
         udate_element_nl.text = f"Tot en met {date.date2_nl}"
 
 
-def add_dateset(
-    parent_element: etree._Element, datestring: str, date: DateData
-) -> None:
+def add_dateset(parent_element: etree._Element, datestring: str, date: DateData) -> None:
     """Creates and appends an unitdate element."""
     dateset = etree.SubElement(parent_element, "dateset")
 

@@ -3,9 +3,7 @@
 import json
 
 
-def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branches, too-many-statements
-    filename: str, type_list: list[int], skip: bool
-) -> None:
+def create_type_statistics(filename: str, type_list: list[int], skip: bool) -> None:
     """Print out statistics from from .json file for specified person types.
 
     Args:
@@ -74,28 +72,16 @@ def create_type_statistics(  # pylint: disable=too-many-locals, too-many-branche
     else:
         print(f"For the entries of {type_string}")
     print(f"{start_string} ISNI id: {c_isni}, {c_isni/c_surname:.2%}")
-    print(
-        f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel/c_surname:.2%}"
-    )
-    print(
-        f"{start_string} birth dates: {c_date_of_birth}, {c_date_of_birth/c_surname:.2%}"
-    )
-    print(
-        f"{start_string} death dates: {c_date_of_death}, {c_date_of_death/c_surname:.2%}"
-    )
+    print(f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel/c_surname:.2%}")
+    print(f"{start_string} birth dates: {c_date_of_birth}, {c_date_of_birth/c_surname:.2%}")
+    print(f"{start_string} death dates: {c_date_of_death}, {c_date_of_death/c_surname:.2%}")
     print(f"{start_string} functions: {c_functions}, {c_functions/c_surname:.2%}")
     print(f"{start_string} images: {c_images}, {c_images/c_surname:.2%}")
     print(f"{start_string} name: {c_name}, {c_name/c_surname:.2%}")
-    print(
-        f"{start_string} place of birth: {c_place_of_birth}, {c_place_of_birth/c_surname:.2%}"
-    )
-    print(
-        f"{start_string} place of death: {c_place_of_death}, {c_place_of_death/c_surname:.2%}"
-    )
+    print(f"{start_string} place of birth: {c_place_of_birth}, {c_place_of_birth/c_surname:.2%}")
+    print(f"{start_string} place of death: {c_place_of_death}, {c_place_of_death/c_surname:.2%}")
     print(f"{start_string} sources: {c_sources}, {c_sources/c_surname:.2%}")
-    print(
-        f"{start_string} sources other: {c_sources_other}, {c_sources_other/c_surname:.2%}"
-    )
+    print(f"{start_string} sources other: {c_sources_other}, {c_sources_other/c_surname:.2%}")
     print(f"{start_string} surname: {c_surname}, {c_surname/c_surname:.2%}")
     print(f"{start_string} titles: {c_titles}, {c_titles/c_surname:.2%}")
     print(f"{start_string} wikidata id: {c_wikidata}, {c_wikidata/c_surname:.2%}")

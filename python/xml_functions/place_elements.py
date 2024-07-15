@@ -2,9 +2,7 @@ from lxml import etree
 from typing_utils import Database
 
 
-def add_geognames(
-    parent_element: etree._Element, place: str, database: Database
-) -> None:
+def add_geognames(parent_element: etree._Element, place: str, database: Database) -> None:
     """Adds a geogname to the parent element."""
     if place == "None":
         return

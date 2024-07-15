@@ -16,13 +16,9 @@ def fetch_na_inventaris(filename: str) -> None:
         persons = json.load(file)
     del persons["$schema"]
     for data in persons.values():
-        if not any(
-            i for i in data["sources"] if i.startswith("Nationaal Archief, The Hague")
-        ):
+        if not any(i for i in data["sources"] if i.startswith("Nationaal Archief, The Hague")):
             name = (
-                "+".join(
-                    [data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")]
-                )
+                "+".join([data["name"].replace(" ", "+"), data["surname"].replace(" ", "+")])
                 .replace("{", "")
                 .replace("}", "")
             )
@@ -39,11 +35,11 @@ def fetch_na_inventaris(filename: str) -> None:
                         print("", hit["title"])
                         print(
                             "",
-                            f"Nationaal Archief, The Hague, '{hit['title']}', inventory number: {hit['inventoryID']}",  # pylint: disable=line-too-long
+                            f"Nationaal Archief, The Hague, '{hit['title']}', inventory number: {hit['inventoryID']}",  # noqa: E501
                         )
                         print(
                             "",
-                            f"https://www.nationaalarchief.nl/onderzoeken/archief/{hit['inventoryID']}?query={name}&search-type=inventory",  # pylint: disable=line-too-long
+                            f"https://www.nationaalarchief.nl/onderzoeken/archief/{hit['inventoryID']}?query={name}&search-type=inventory",
                         )
 
     print("Finished checking in National Archief inventaris database!")

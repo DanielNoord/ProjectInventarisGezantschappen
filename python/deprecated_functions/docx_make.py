@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# type: ignore # pylint: disable-all
+# type: ignore
+# ruff: noqa
 
 import docx
 from create_data import used_functions_and_titles, used_names

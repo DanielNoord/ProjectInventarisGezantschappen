@@ -31,7 +31,6 @@ _ARTICLES_OTHERS = {
 }
 
 
-# pylint: disable-next=too-many-branches, too-many-locals, too-many-nested-blocks
 def add_identifier_columns(
     directory_name: str, file_name: str, surnames: dict[str, list[str]]
 ) -> None:
@@ -39,7 +38,6 @@ def add_identifier_columns(
     workbook = load_workbook(f"{directory_name}/{file_name}")
     sheet = workbook[workbook.sheetnames[0]]
 
-    # pylint: disable-next=too-many-nested-blocks
     for index, row in enumerate(sheet.iter_rows(), start=1):
         # If there are any identifiers in the columns, assume title has been checked
         if row[6].value or row[7].value or row[8].value:

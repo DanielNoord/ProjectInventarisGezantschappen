@@ -21,9 +21,7 @@ def fill_in_name(
                     database.individuals[word], date, database, localization
                 )
             except KeyError as error:
-                raise KeyError(
-                    f"Don't recognize identifier {error} in {title}"
-                ) from error
+                raise KeyError(f"Don't recognize identifier {error} in {title}") from error
     return "".join(title_split)
 
 
@@ -78,9 +76,7 @@ def add_unittitle(
                 title_en = re.sub(pattern, trans["en_GB"], title)
                 title_nl = re.sub(pattern, trans["nl_NL"], title)
             except re.error as error:
-                raise re.error(
-                    f"At {pattern} found the following error: {error}"
-                ) from error
+                raise re.error(f"At {pattern} found the following error: {error}") from error
             used_trans = pattern
 
     title_it = fill_in_name(title_it, database, date, "it_IT")
@@ -102,8 +98,6 @@ def add_unittitle(
 
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "it"}), title_it)
     add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "en"}), title_en)
-    add_italics(
-        etree.SubElement(parent_element, "unittitle", {"lang": "dut"}), title_nl
-    )
+    add_italics(etree.SubElement(parent_element, "unittitle", {"lang": "dut"}), title_nl)
 
     return used_trans

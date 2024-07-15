@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# type: ignore # pylint: disable-all
+# type: ignore
+# ruff: noqa
 
 import re
 
@@ -43,13 +44,9 @@ def extract_persons(filename):
     missing_possible = -1
     for para in doc.paragraphs:
         if len(para.runs) > 1:
-            if para.runs[1].font.highlight_color == 6 or re.match(
-                r"- .*?; 2", para.text
-            ):
+            if para.runs[1].font.highlight_color == 6 or re.match(r"- .*?; 2", para.text):
                 impossible += 1
-            if para.runs[1].font.highlight_color == 7 or re.match(
-                r"- .*?; 3", para.text
-            ):
+            if para.runs[1].font.highlight_color == 7 or re.match(r"- .*?; 3", para.text):
                 missing_possible += 1
         all_text.append(para.text)
     full_text = "\n".join(all_text)

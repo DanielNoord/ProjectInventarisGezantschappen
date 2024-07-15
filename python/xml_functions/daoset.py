@@ -17,13 +17,9 @@ def fix_daoset(root: etree._Element) -> None:
             parent.remove(daoset)
 
 
-def add_dao(
-    daoset: etree._Element, file_data: FileData, individual_verso: bool
-) -> None:
+def add_dao(daoset: etree._Element, file_data: FileData, individual_verso: bool) -> None:
     """Adds a dao element to a daoset."""
-    filename = (
-        f"VolumesLegazione/{file_data.file_name.split('_')[0]}/{file_data.file_name}"
-    )
+    filename = f"VolumesLegazione/{file_data.file_name.split('_')[0]}/{file_data.file_name}"
     # If only a verso we only add the verso dao-element
     if individual_verso:
         etree.SubElement(

@@ -24,9 +24,7 @@ def fill_in_xlsx(
             for index, word in enumerate(line):
                 if word.startswith("$"):
                     try:
-                        line[index] = name_string(
-                            individuals[word], date, database, localization
-                        )
+                        line[index] = name_string(individuals[word], date, database, localization)
                     except KeyError as error:
                         raise KeyError(
                             f"Incorrect identifier {error} in {file_name} on row {row[0].row}"

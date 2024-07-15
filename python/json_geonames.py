@@ -58,9 +58,7 @@ def update_placenames_with_geonames(filename: str) -> None:
     for value in placenames.values():
         if value["geonames_id"] is None:
             raise ValueError(f"{value['en_GB']} doesn't have a Geonames ID")
-        geoname = geocoder.geonames(
-            value["geonames_id"], method="details", key="danielnoord"
-        )
+        geoname = geocoder.geonames(value["geonames_id"], method="details", key="danielnoord")
         if geoname.feature_class not in {
             "P",
             "T",

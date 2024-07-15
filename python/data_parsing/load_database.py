@@ -49,9 +49,7 @@ def initialize_database_for_xml() -> Database:
     del document_titles["$schema"]
 
     # Compile patterns while replacing all double quotes for a standard
-    document_titles = {
-        re.compile(fix_regex_patterns(k)): v for k, v in document_titles.items()
-    }
+    document_titles = {re.compile(fix_regex_patterns(k)): v for k, v in document_titles.items()}
 
     with open("inputs/Individuals.json", encoding="utf-8") as file:
         individuals = json.load(file)

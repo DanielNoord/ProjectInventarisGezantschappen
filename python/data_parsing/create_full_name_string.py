@@ -4,7 +4,7 @@ from date_functions import check_date
 from typing_utils import Database, DateTuple
 
 
-def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-branches
+def full_name_with_database(
     surname: str,
     name: str,
     titles: list[tuple[str, str | None]],
@@ -57,9 +57,7 @@ def full_name_with_database(  # pylint: disable=too-many-arguments, too-many-bra
                 elif translation_entry["position"] == "After":
                     str_full_name += f" {translated_title},"
                 else:
-                    raise ValueError(
-                        "Can't parse second title, maybe change order in sourcefile"
-                    )
+                    raise ValueError("Can't parse second title, maybe change order in sourcefile")
     elif name != "":
         str_full_name = f"{name} {surname}"
     else:

@@ -24,7 +24,6 @@ def parse_series(serie: tuple[Cell, ...]) -> SeriesData:
     return SeriesData(serie_num, title, vol_date, level_string.count("_"))
 
 
-# pylint: disable-next=too-many-branches
 def parse_file(row: tuple[Cell, ...]) -> FileData:
     """Parse the data of a file row in .xlsx format."""
     if len(row) < 9:
@@ -44,9 +43,7 @@ def parse_file(row: tuple[Cell, ...]) -> FileData:
     file_place = str(row[6].value)
 
     # Sanitize date
-    check_date_for_missing_elements(
-        row[3].value, row[4].value, row[5].value, row[0].value
-    )
+    check_date_for_missing_elements(row[3].value, row[4].value, row[5].value, row[0].value)
     file_date = [str(row[3].value), str(row[4].value), str(row[5].value)]
     if file_date[1] == "None" and file_date[2] != "None":
         file_date[2] = "None"

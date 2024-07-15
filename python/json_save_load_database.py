@@ -3,16 +3,14 @@
 import json
 import re
 
-import docx  # type: ignore[import-not-found] # pylint: disable=import-error
+import docx  # type: ignore[import-not-found]
 from docx_functions import database, parse_function, parse_title
 from typing_utils import IndividualsDict
 from typing_utils.translations_classes import IndividualsDictEntry
 from write_files import write_single_json_file
 
 
-def save_database(  # pylint: disable=too-many-locals
-    filename: str, previous_database: IndividualsDict | None = None
-) -> None:
+def save_database(filename: str, previous_database: IndividualsDict | None = None) -> None:
     """Load database from .docx and write .json.
 
     Args:

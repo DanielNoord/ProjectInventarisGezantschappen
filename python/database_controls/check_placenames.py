@@ -17,21 +17,13 @@ def check_all_placenames(filename: str) -> None:
 
     for identifier, data in persons.items():
         if data["place_of_birth"] != "" and data["place_of_birth"] not in placenames:
-            print(
-                f"Don't recognize place of birth of {identifier}: {data['place_of_birth']}"
-            )
+            print(f"Don't recognize place of birth of {identifier}: {data['place_of_birth']}")
             print("Is it in Italian already?")
-            print(
-                "If so, please add it in ITALIAN to inputs/Translations/Placenames.json"
-            )
+            print("If so, please add it in ITALIAN to inputs/Translations/Placenames.json")
         if data["place_of_death"] != "" and data["place_of_death"] not in placenames:
-            print(
-                f"Don't recognize place of death of {identifier}: {data['place_of_death']}"
-            )
+            print(f"Don't recognize place of death of {identifier}: {data['place_of_death']}")
             print("Is it in Italian already?")
-            print(
-                "If so, please add it in ITALIAN to inputs/Translations/Placenames.json"
-            )
+            print("If so, please add it in ITALIAN to inputs/Translations/Placenames.json")
 
     print(f"Finished checking placenames in {filename}\n")
 

@@ -1,5 +1,5 @@
 from typing_utils import IndividualsDictCleaned
-from wikidataintegrator import (  # type: ignore[import-not-found] # pylint: disable=import-error
+from wikidataintegrator import (  # type: ignore[import-not-found]
     wdi_core,
 )
 
@@ -8,9 +8,7 @@ def search_wikidata(database: IndividualsDictCleaned) -> None:
     """Searches wikidata for 10 best matches."""
     for data in database.values():
         if not data.get("wikidata:id", None):
-            ids = wdi_core.WDItemEngine.get_wd_search_results(
-                f"{data['name']} {data['surname']}"
-            )
+            ids = wdi_core.WDItemEngine.get_wd_search_results(f"{data['name']} {data['surname']}")
             if ids:
                 print(f"{data['name']} {data['surname']}:")
                 if len(ids) > 10:
@@ -34,9 +32,7 @@ def search_wikidata(database: IndividualsDictCleaned) -> None:
                                 print(
                                     wdi_core.WDItemEngine(
                                         wd_item_id=person_id
-                                    ).get_wd_json_representation()["labels"]["nl"][
-                                        "value"
-                                    ]
+                                    ).get_wd_json_representation()["labels"]["nl"]["value"]
                                 )
                             except KeyError:
                                 print("Unrecognized language of entry")

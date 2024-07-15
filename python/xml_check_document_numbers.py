@@ -23,7 +23,6 @@ def match_daoset_ids(c01: etree._Element, volume_files: set[str]) -> None:
         volume_files = {i for i in volume_files if "/._" not in i}
 
         if missing_files or volume_files:
-            # pylint: disable-next=line-too-long
             print(f"\n** Controlling MS{c01.find('did').find('unitid').text} **", file=log)  # type: ignore[union-attr]
 
         if missing_files:
@@ -87,13 +86,9 @@ def traverse_c01_elements(
         assert len(unitid) == 1
         assert isinstance(unitid[0].text, str)
         if not use_prestored_names:
-            volume_files = get_files_in_volume_directory(
-                unitid[0].text, scans_directory
-            )
+            volume_files = get_files_in_volume_directory(unitid[0].text, scans_directory)
         else:
-            volume_files = {
-                i.replace("\n", "") for i in scans if f"MS{unitid[0].text}" in i
-            }
+            volume_files = {i.replace("\n", "") for i in scans if f"MS{unitid[0].text}" in i}
         volume_files.discard(f"VolumesLegazione/MS{unitid[0].text}/.DS_Store")
         match_daoset_ids(c01, volume_files)
 

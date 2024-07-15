@@ -4,25 +4,29 @@ files = "python"
 strict = true
 show_error_codes = true
 
-# Global pylint options
-[tool.pylint.MASTER]
-extension-pkg-allow-list="lxml"
-load-plugins=[
-    "pylint.extensions.check_elif",
-    "pylint.extensions.code_style",
-    "pylint.extensions.docparams",
-    "pylint.extensions.docstyle",
-    "pylint.extensions.empty_comment",
-    "pylint.extensions.for_any_all",
-    "pylint.extensions.set_membership",
-    "pylint.extensions.typing"
-]
-py-version="3.11"
+[tool.ruff]
+line-length = 100
+output-format = "full"
+respect-gitignore = false
+show-fixes = true
+target-version = "py311"
 
-[tool.pylint.'MESSAGES CONTROL']
-disable = [
-    "duplicate-code",
-    "missing-module-docstring",
-    "missing-raises-doc",
+[tool.ruff.lint]
+select = [
+  "B", # Flake8-bugbear, https://docs.astral.sh/ruff/rules/#flake8-bugbear-b
+  "E", # Pycodestyle, https://docs.astral.sh/ruff/rules/#pycodestyle-e-w
+  "F", # Pyflakes, https://docs.astral.sh/ruff/rules/#pyflakes-f
+  "I", # Isort, https://docs.astral.sh/ruff/rules/#isort-i
+  "PGH", # Pygrep-hooks, https://docs.astral.sh/ruff/rules/#pygrep-hooks-pgh
+  "PIE", # Flake8-pie, https://docs.astral.sh/ruff/rules/#flake8-pie-pie
+  "PLE", # Pylint error, https://docs.astral.sh/ruff/rules/#pylint-pl
+  "PLW", # Pylint warning-level, https://docs.astral.sh/ruff/rules/#pylint-pl
+  "RUF", # All original flake8 errors, https://docs.astral.sh/ruff/rules/#ruff-specific-rules-ruf
+  "UP", # Pyupgrade, https://docs.astral.sh/ruff/rules/#pyupgrade-up
+  "W", #  Pycodestyle, https://docs.astral.sh/ruff/rules/#pycodestyle-e-w
 ]
-enable = ["c-extension-no-member", "missing-function-docstring"]
+ignore = [
+  "RUF001", # ambiguous-unicode-character-string
+]
+
+[tool.ruff.lint.isort]

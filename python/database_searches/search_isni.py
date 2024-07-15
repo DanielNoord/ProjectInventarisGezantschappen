@@ -2,7 +2,7 @@ from xml.etree import ElementTree
 
 import requests
 from typing_utils import IndividualsDictCleaned
-from wikidataintegrator import (  # type: ignore[import-not-found] # pylint: disable=import-error
+from wikidataintegrator import (  # type: ignore[import-not-found]
     wdi_core,
 )
 from write_files import write_single_json_file
@@ -30,7 +30,7 @@ def search_isni_api(database: IndividualsDictCleaned) -> None:
         if not data.get("ISNI:id", None):
             name = f"{data['name']} {data['surname']}".replace(" ", "+")
             response = requests.get(
-                f"http://isni.oclc.org/sru/?query=pica.nw+%3D+%22{name}%22&operation=searchRetrieve&recordSchema=isni-b&maximumRecords=10",  # pylint: disable=line-too-long
+                f"http://isni.oclc.org/sru/?query=pica.nw+%3D+%22{name}%22&operation=searchRetrieve&recordSchema=isni-b&maximumRecords=10",
                 timeout=10,
             )
 
@@ -44,13 +44,13 @@ def search_isni_api(database: IndividualsDictCleaned) -> None:
                 print("\n", data["name"], data["surname"])
 
             for record in records:
-                uri = list(record.iter("isniURI"))[0].text
+                uri = next(iter(record.iter("isniURI"))).text
                 try:
-                    forename = list(record.iter("forename"))[0].text
+                    forename = next(iter(record.iter("forename"))).text
                 except IndexError:
                     forename = None
                 try:
-                    surname = list(record.iter("surname"))[0].text
+                    surname = next(iter(record.iter("surname"))).text
                 except IndexError:
                     surname = None
                 print(forename, surname)

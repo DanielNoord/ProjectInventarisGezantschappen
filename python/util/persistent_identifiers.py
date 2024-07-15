@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from data_parsing.load_database import initialize_database_for_xml
+
 from util.get_file import maybe_open_file
 
 

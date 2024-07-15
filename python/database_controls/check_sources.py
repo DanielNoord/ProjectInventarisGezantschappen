@@ -19,17 +19,11 @@ def update_trecanni(source: str) -> str:
     """
     page = requests.get(source, timeout=10)
     soup = BeautifulSoup(page.content, "html.parser")
-    title = (
-        soup.find_all("h1", {"class": "title-search title-leaf"})[0]
-        .contents[0]
-        .split(", ")
-    )
+    title = soup.find_all("h1", {"class": "title-search title-leaf"})[0].contents[0].split(", ")
     title[0] = title[0].title()
     title = ", ".join(title)
     author_string = (
-        soup.find_all("div", {"class": "module-briciole_di_pane"})[0]
-        .contents[1]
-        .contents[0]
+        soup.find_all("div", {"class": "module-briciole_di_pane"})[0].contents[1].contents[0]
     )
     author_string = author_string.replace("\t", "").replace("\n", "")
     if mat := re.match(
@@ -67,7 +61,7 @@ def update_parlement(source: str) -> str:
     return final_source
 
 
-def check_sources_entry(  # pylint: disable=too-many-branches, too-many-arguments
+def check_sources_entry(
     sources: list[str],
     compiled_source_patterns: list[re.Pattern[str]],
     used_patterns: set[re.Pattern[str]],
@@ -83,9 +77,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
             pass
 
         # Websites
-        elif update and re.match(
-            r"https://www.treccani.it/.*Dizionario-Biografico\)", source
-        ):
+        elif update and re.match(r"https://www.treccani.it/.*Dizionario-Biografico\)", source):
             sources[index] = update_trecanni(source)
         elif update and re.match(r"https://www\.parlement.com/.*", source):
             sources[index] = update_parlement(source)
@@ -93,35 +85,35 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
         # Authors
         elif mat := re.match(r"\$Beth, (.*)", source):
             sources[index] = (
-                f"Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), {mat.groups()[0]}"  # pylint: disable=line-too-long
+                f"Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), {mat.groups()[0]}"  # noqa: E501
             )
         elif re.match(r"\$Lohrli", source):
             sources[index] = (
-                "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29–50"  # pylint: disable=line-too-long
+                "Lohrli, Anne, 'The Madiai: A Forgotten Chapter of Church History', Victorian Studies 33 (1989), 29–50"  # noqa: E501
             )
         elif mat := re.match(r"\$Moroni, (\d*), (.*)", source):
             sources[index] = (
-                f"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni. Volume {mat.groups()[0]} (Rome, 1840), {mat.groups()[1]}"  # pylint: disable=line-too-long
+                f"Moroni, G., Dizionario di erudizione storico-ecclesiastica da S. Pietro sino ai nostri giorni. Volume {mat.groups()[0]} (Rome, 1840), {mat.groups()[1]}"  # noqa: E501
             )
         elif mat := re.match(r"\$Moscati, (.*)", source):
             sources[index] = (
-                f"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), {mat.groups()[0]}"  # pylint: disable=line-too-long
+                f"Moscati, Ruggero, Le scritture della segreteria di Stato degli Affari Esteri del Regno di Sardegna (Rome, 1947), {mat.groups()[0]}"  # noqa: E501
             )
         elif mat := re.match(r"\$Santen, (.*)", source):
             sources[index] = (
-                f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), {mat.groups()[0]}"  # pylint: disable=line-too-long
+                f"van Santen, Cornelis Willem, Het internationale recht in Nederlands buitenlands beleid: een onderzoek in het archief van het Ministerie van Buitenlandse Zaken (The Hague, 1955), {mat.groups()[0]}"  # noqa: E501
             )
         elif mat := re.match(r"\$Schmidt-Brentano, (.*)", source):
             sources[index] = (
-                f"Schmidt-Brentano, Antonio, Die k. k. bzw. k. u. k. Generalität 1816-1918 (Vienna 2007), {mat.groups()[0]}"  # pylint: disable=line-too-long
+                f"Schmidt-Brentano, Antonio, Die k. k. bzw. k. u. k. Generalität 1816-1918 (Vienna 2007), {mat.groups()[0]}"  # noqa: E501
             )
         elif re.match(r"\$Sträter", source):
             sources[index] = (
-                "Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus (Nijmegen, 1911)"  # pylint: disable=line-too-long
+                "Sträter, F., Herinneringen aan de Eerwaarde Paters Leo, Clemens en Wilhelm Wilde, priesters der Sociëteit van Jezus (Nijmegen, 1911)"  # noqa: E501
             )
         elif mat := re.match(r"\$Wels, (.*)", source):
             sources[index] = (
-                f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), {mat.groups()[0]}"  # pylint: disable=line-too-long
+                f"Wels, Cornelis Boudewijn, Bescheiden betreffende de buitenlandse politiek van Nederland, 1848-1919. Volume 1 (The Hague, 1972), {mat.groups()[0]}"  # noqa: E501
             )
 
         elif match := [i for i in compiled_source_patterns if i.match(source)]:
@@ -138,9 +130,7 @@ def check_sources_entry(  # pylint: disable=too-many-branches, too-many-argument
             pass
 
         # TODO: Sources to look up
-        elif source.startswith(
-            "Dizionario bibliografico dell'Armata Sarda seimila biografie"
-        ):
+        elif source.startswith("Dizionario bibliografico dell'Armata Sarda seimila biografie"):
             pass
 
         # If not known/missing
@@ -216,9 +206,7 @@ def check_all_sources(
         print(r"However, that list is awful anyway and is in dire need of updating :')")
         for i in probably_wrong:
             print("", i)
-    if unused_patterns := [
-        i for i in compiled_source_patterns if not i in used_patterns
-    ]:
+    if unused_patterns := [i for i in compiled_source_patterns if i not in used_patterns]:
         print(f"Found the following unused source patterns:\n {unused_patterns}")
     print(f"Finished checking sources in {filename}!\n")
 

@@ -1,8 +1,8 @@
 import os
 import re
 
-import docx  # type: ignore[import-not-found] # pylint: disable=import-error
-from docx.shared import (  # type: ignore[import-not-found] # pylint: disable=import-error
+import docx  # type: ignore[import-not-found]
+from docx.shared import (  # type: ignore[import-not-found]
     Pt,
 )
 from typing_utils import IndividualsDictCleaned
@@ -58,9 +58,7 @@ def list_of_translated_data(list_to_write: list[list[str]], output_name: str) ->
     print(f"Wrote file at outputs/Translated{output_name}.docx")
 
 
-def list_of_translated_data_with_style(
-    list_to_write: list[list[str]], output_name: str
-) -> None:
+def list_of_translated_data_with_style(list_to_write: list[list[str]], output_name: str) -> None:
     """Write a docx file based on input with style applied.
 
     Args:
@@ -75,9 +73,9 @@ def list_of_translated_data_with_style(
         run.bold = True
         for line in entry[1:]:
             # Check for translation (denotade by {translation})
-            line = line.replace("{", "(").replace("}", ")")
+            fixed_line = line.replace("{", "(").replace("}", ")")
             # Check for parts that should be italic (denoted by _italian_)
-            split_lines = re.split(r"(_.*?_)", line)
+            split_lines = re.split(r"(_.*?_)", fixed_line)
 
             paragraph.add_run("\n")
             for group in split_lines:
@@ -107,9 +105,9 @@ def list_with_style(list_of_lines: list[str], output_name: str) -> None:
     out_doc = docx.Document()
     for line in list_of_lines:
         # Check for translation (denotade by {translation})
-        line = line.replace("{", "(").replace("}", ")")
+        fixed_line = line.replace("{", "(").replace("}", ")")
         # Check for parts that should be italic (denoted by _italian_)
-        split_lines = re.split(r"(_.*?_)", line)
+        split_lines = re.split(r"(_.*?_)", fixed_line)
 
         paragraph = out_doc.add_paragraph("")
         for group in split_lines:
@@ -139,9 +137,7 @@ def database(
         skip_types: Number of person_types to skip (for example [1, 2])
     """
     if skip_types:
-        output_name = (
-            f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
-        )
+        output_name = f"{output_name}_without_types_{','.join(str(i) for i in skip_types)}"
 
     amount = 0
     out_doc = docx.Document()
@@ -151,7 +147,7 @@ def database(
             paragraph = out_doc.add_paragraph("")
             run = paragraph.add_run(f"{identifier}\n")
             run.bold = True
-            paragraph.add_run(f"Type: {str(data['person_type'])}\n")
+            paragraph.add_run(f"Type: {data['person_type']!s}\n")
             paragraph.add_run(f"Surname: {data['surname']}\n")
             paragraph.add_run(f"Name: {data['name']}\n")
             paragraph.add_run(f"Date of birth: {data['date_of_birth']}\n")
@@ -161,13 +157,9 @@ def database(
             if data["titles"] == []:
                 title_string = "Titles: \n"
             else:
-                title_string = (
-                    f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
-                )
+                title_string = f"Titles: {'| '.join(f'{i} ({j})' for i, j in data['titles'])}\n"
             paragraph.add_run(title_string.replace(" (None)", ""))
-            func_string = (
-                f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
-            )
+            func_string = f"Functions: {'| '.join(f'{i} ({j})' for i, j in data['functions'])}\n"
             paragraph.add_run(func_string.replace(" (None)", ""))
             paragraph.add_run(f"Comment: {data['comment']}\n")
             paragraph.add_run(f"Comment from Daniël: {data['comment_daniel']}\n")

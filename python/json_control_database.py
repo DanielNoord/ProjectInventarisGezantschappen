@@ -17,7 +17,7 @@ from database_controls import (
 from typing_utils.translations_classes import IndividualsDictCleaned
 
 
-def check_entries(  # pylint: disable=too-many-branches, too-many-statements
+def check_entries(
     input_file: str,
 ) -> None:
     """Checks whether the input file is correct and fits all criteria of a correct database file.
@@ -95,9 +95,7 @@ def check_entries(  # pylint: disable=too-many-branches, too-many-statements
         identifiers.add(identifier)
 
         if data["person_type"] not in [0, 1, 2, 3, 4, 5, 6]:
-            raise ValueError(
-                f"Type '{data['person_type']}' of {data['surname']} is invalid"
-            )
+            raise ValueError(f"Type '{data['person_type']}' of {data['surname']} is invalid")
 
         if data["titles"] != [""]:
             control_titles(data, translated_titles, identifier, used_titles)
@@ -124,9 +122,7 @@ def check_entries(  # pylint: disable=too-many-branches, too-many-statements
                 )
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
-    unused_functions = [
-        i for i in translated_functions.keys() if i not in used_functions
-    ]
+    unused_functions = [i for i in translated_functions.keys() if i not in used_functions]
 
     if unused_titles:
         print(f"    Found the following unused titles {unused_titles}")

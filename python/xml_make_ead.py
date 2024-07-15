@@ -12,7 +12,6 @@ from xlsx_make import create_sanitized_xlsx
 from xml_functions import XMLWriter, add_dao, fix_daoset
 
 
-# pylint: disable-next=too-few-public-methods
 class EADMaker(XMLWriter):
     """Class which can a EAD compliant .xml file."""
 
@@ -59,7 +58,7 @@ class EADMaker(XMLWriter):
             pretty_print=True,
             xml_declaration=True,
             encoding="UTF-8",
-            doctype="""<!DOCTYPE ead PUBLIC "+// http://ead3.archivists.org/schema/ //DTD ead3 (Encoded Archival Description (EAD) Version 3)//EN" "ead3.dtd">""",  # pylint: disable=line-too-long
+            doctype="""<!DOCTYPE ead PUBLIC "+// http://ead3.archivists.org/schema/ //DTD ead3 (Encoded Archival Description (EAD) Version 3)//EN" "ead3.dtd">""",  # noqa: E501
         )
 
         print(f"Printed file to {self.xml_file}")
@@ -67,7 +66,6 @@ class EADMaker(XMLWriter):
     def _xml_check(self) -> None:
         """Perform .xml check with xmllint."""
         os.system(
-            # pylint: disable-next=line-too-long
             f"xmllint --noout --dtdvalid outputs/ead3.dtd {self.xml_file} 2> {self.log_xml_errors}"
         )
         with open(self.log_xml_errors, encoding="utf-8") as file:
@@ -142,9 +140,7 @@ class EADMaker(XMLWriter):
             if match := re.match("(.*)_title", cell.value or ""):
                 series_data = parse_series(first_sheet[index + 1])
                 if series_data.level == 1:
-                    sub_levels[match.groups()[0]] = self.series_entry(
-                        archdesc, series_data
-                    )
+                    sub_levels[match.groups()[0]] = self.series_entry(archdesc, series_data)
                 else:
                     if not (parent_level := re.match(r"(.*)_.*?", match.groups()[0])):
                         raise ValueError(
@@ -169,7 +165,7 @@ class EADMaker(XMLWriter):
 
         self.series.update({str(volume_number.groups()[0]): sub_levels})
 
-    def _create_xml_individual_files(  # pylint: disable=too-many-branches
+    def _create_xml_individual_files(
         self,
         sheet: openpyxl.worksheet.worksheet.Worksheet,
         sub_series: dict[str, etree._Element],
@@ -205,8 +201,8 @@ class EADMaker(XMLWriter):
             if re.match(r".+v", file_data.file_name):
                 if prev_file_did is None:
                     raise ValueError(
-                        # pylint: disable-next=line-too-long
-                        f"{file_data.file_name} is a verso appearing before the description of {file_data.file_name[:-1]}"
+                        f"{file_data.file_name} is a verso appearing before the "
+                        f"description of {file_data.file_name[:-1]}"
                     )
 
                 # If the previous file ends in u, the v is not 'verso', but
@@ -227,12 +223,14 @@ class EADMaker(XMLWriter):
             else:
                 # If similar means prev_file_did is defined
                 prev_file_did = cast(
-                    etree._Element, prev_file_did  # pylint: disable=protected-access
+                    etree._Element,
+                    prev_file_did,
                 )
                 unitid = prev_file_did.find("unitid")
                 if (
                     not isinstance(
-                        unitid, etree._Element  # pylint: disable=protected-access
+                        unitid,
+                        etree._Element,
                     )
                     or not unitid.text
                     or not isinstance(unitid.text, str)
@@ -241,16 +239,15 @@ class EADMaker(XMLWriter):
                         f"Can't find unitid in {prev_file_did}, it is empty or it isn't a string"
                     )
                 if "-" in unitid.text:
-                    unitid.text = (
-                        unitid.text[: unitid.text.index("-") + 1] + file_data.page
-                    )
+                    unitid.text = unitid.text[: unitid.text.index("-") + 1] + file_data.page
                 else:
                     unitid.text += f"-{file_data.page}"
 
                 # Update daoset of previous document
                 daoset = prev_file_did.find("daoset")
                 if not isinstance(
-                    daoset, etree._Element  # pylint: disable=protected-access
+                    daoset,
+                    etree._Element,
                 ):
                     raise ValueError(f"Can't find daoset in {prev_file_did}")
                 add_dao(daoset, file_data, individual_verso)

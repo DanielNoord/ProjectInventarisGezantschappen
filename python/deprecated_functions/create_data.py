@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# type: ignore # pylint: disable-all
+# type: ignore
+# ruff: noqa
 
 import json
 

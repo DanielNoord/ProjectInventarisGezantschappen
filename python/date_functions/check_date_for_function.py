@@ -1,10 +1,9 @@
-from date_functions.create_dates_tuple import create_date_tuple
 from typing_utils import DateTuple
 
+from date_functions.create_dates_tuple import create_date_tuple
 
-def check_begin(  # pylint: disable=too-many-return-statements
-    date: DateTuple, begin_date: DateTuple
-) -> bool:
+
+def check_begin(date: DateTuple, begin_date: DateTuple) -> bool:
     """Checks if a date falls after or on a specific date."""
     if not begin_date.year and not begin_date.month and not begin_date.day:
         return True
@@ -23,9 +22,7 @@ def check_begin(  # pylint: disable=too-many-return-statements
     return False
 
 
-def check_end(  # pylint: disable=too-many-return-statements
-    date: DateTuple, end_date: DateTuple
-) -> bool:
+def check_end(date: DateTuple, end_date: DateTuple) -> bool:
     """Checks if a date falls before or on a specific date."""
     if not end_date.year and not end_date.month and not end_date.day:
         return True

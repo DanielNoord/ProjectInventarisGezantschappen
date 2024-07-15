@@ -2,7 +2,7 @@
 
 import re
 
-import docx  # type: ignore[import-not-found] # pylint: disable=import-error
+import docx  # type: ignore[import-not-found]
 from typing_utils import TranslationDict, TranslationDictTitles
 from write_files import write_single_json_file
 
@@ -14,9 +14,7 @@ def load_translations_documents(filename: str) -> None:
         filename: Filename of the input file
     """
     doc = docx.Document(filename)
-    all_documents: TranslationDict = {
-        "$schema": "../../static/JSON/DocumentTitles.json"
-    }
+    all_documents: TranslationDict = {"$schema": "../../static/JSON/DocumentTitles.json"}
 
     for para in doc.paragraphs:
         (it_it_trans, nl_nl_trans, en_gb_trans) = re.split(r"\n.*?", para.text)
@@ -73,9 +71,7 @@ def load_translations_titles(filename: str) -> None:
     all_titles: TranslationDictTitles = {"$schema": "../../static/JSON/Titles.json"}
 
     for para in doc.paragraphs:
-        (nl_nl_trans, it_it_trans, en_gb_trans, position) = re.split(
-            r"\n.*?", para.text
-        )
+        (nl_nl_trans, it_it_trans, en_gb_trans, position) = re.split(r"\n.*?", para.text)
 
         all_titles[it_it_trans] = {
             "en_GB": en_gb_trans,

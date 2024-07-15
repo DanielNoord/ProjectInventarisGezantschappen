@@ -15,6 +15,4 @@ def check_date_for_missing_elements(
     if month and not year:
         raise ValueError(f"Document has month but no year, see: {doc_number}")
     if any(isinstance(i, date) for i in (year, month, day)):
-        raise TypeError(
-            f"Some argument of document date isn't an integer, see: {doc_number}"
-        )
+        raise TypeError(f"Some argument of document date isn't an integer, see: {doc_number}")

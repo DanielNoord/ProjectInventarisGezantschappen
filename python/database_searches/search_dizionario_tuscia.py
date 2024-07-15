@@ -1,6 +1,5 @@
-import json  # pylint: disable=too-many-lines
+import json
 
-# pylint: disable=line-too-long
 ENTRIES = {
     "Abbati (Degli Abbati Olivieri) Alessandro": "https://www.gentedituscia.it/abbati-degli-abbati-olivieri-alessandro/",
     "Abbondio, Abbondanzio, Marciano e Giovan­ni  (santi)": "https://www.gentedituscia.it/abbondio-abbondanzio-marciano-e-giovan%c2%adni-santi/",
@@ -1980,7 +1979,6 @@ ENTRIES = {
     "Zolla Giacomo Edmondo": "https://www.gentedituscia.it/zolla-girolamo-edmondo/",
     "Zozi Francesco": "https://www.gentedituscia.it/zozi-francesco/",
 }
-# pylint: enable=line-too-long
 
 
 def search_tuscia(filename: str) -> None:

@@ -55,9 +55,7 @@ def create_xlsx_controle(directory_names: list[str]) -> None:
             new_file = Workbook()
             new_sheet = new_file.active
             filename = os.fsdecode(file)
-            rows_original = list(
-                load_workbook(f"{directory_names[0]}/{filename}").active.rows
-            )
+            rows_original = list(load_workbook(f"{directory_names[0]}/{filename}").active.rows)
             rows_it = list(
                 load_workbook(
                     f"{directory_names[1]}/{filename.replace('.xlsx', '')}_it_IT.xlsx"
@@ -92,9 +90,7 @@ def create_xlsx_controle(directory_names: list[str]) -> None:
             print(f"Wrote file to outputs/VolumesExcelControl/{new_filename}")
 
 
-def create_translated_xlsx(
-    directory_name: str, localization: Literal["nl_NL", "en_GB"]
-) -> None:
+def create_translated_xlsx(directory_name: str, localization: Literal["nl_NL", "en_GB"]) -> None:
     """Creates the .xlsx files with a number of easy translation already done.
 
     Args:
@@ -115,9 +111,7 @@ def create_translated_xlsx(
                 database,
                 used_translations,
             )
-    unused_trans = [
-        i for i in database.document_titles.keys() if i not in used_translations
-    ]
+    unused_trans = [i for i in database.document_titles.keys() if i not in used_translations]
     print("Done!\nFound the following unused translations:\n", unused_trans)
 
 

@@ -4,6 +4,7 @@ from data_parsing import initialize_database_for_xml
 from date_functions import create_date_data
 from lxml import etree
 from typing_utils import FileData, SeriesData
+
 from xml_functions.daoset import add_dao, add_volume_dao
 from xml_functions.date_elements import add_dateset, add_unitdate
 from xml_functions.error_logger import _ErrorLogger
@@ -48,15 +49,15 @@ class XMLWriter(_ErrorLogger):
         # Filedesc
         filedesc = etree.SubElement(control, "filedesc")
         titlestmt = etree.SubElement(filedesc, "titlestmt")
-        etree.SubElement(titlestmt, "titleproper", {"lang": "dut"}).text = (
-            "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874"  # pylint: disable=line-too-long
-        )
-        etree.SubElement(titlestmt, "titleproper", {"lang": "en"}).text = (
-            "Inventory of the archief of the Dutch Legation in Turin and Rome, 1816 - 1874"
-        )
-        etree.SubElement(titlestmt, "titleproper", {"lang": "it"}).text = (
-            "Inventario del fondo archivistico delle Legazioni Olandesi a Torino e Roma, 1816 - 1874"  # pylint: disable=line-too-long
-        )
+        etree.SubElement(
+            titlestmt, "titleproper", {"lang": "dut"}
+        ).text = "Inventaris van het archieffonds van de Nederlandse Gezantschappen in Turijn en Rome, 1816 - 1874"  # noqa: E501
+        etree.SubElement(
+            titlestmt, "titleproper", {"lang": "en"}
+        ).text = "Inventory of the archief of the Dutch Legation in Turin and Rome, 1816 - 1874"
+        etree.SubElement(
+            titlestmt, "titleproper", {"lang": "it"}
+        ).text = "Inventario del fondo archivistico delle Legazioni Olandesi a Torino e Roma, 1816 - 1874"  # noqa: E501
         etree.SubElement(titlestmt, "author").text = "KNIR/ISTRIT"
         publicationstmt = etree.SubElement(filedesc, "publicationstmt")
         etree.SubElement(publicationstmt, "publisher").text = "KNIR/ISTRIT"
@@ -72,28 +73,20 @@ class XMLWriter(_ErrorLogger):
 
         # Languagedeclaration
         languagedeclaration = etree.SubElement(control, "languagedeclaration")
-        etree.SubElement(languagedeclaration, "language", {"langcode": "eng"}).text = (
-            "English"
-        )
-        etree.SubElement(
-            languagedeclaration, "script", {"scriptcode": "Latin"}
-        ).text = "Latin"
+        etree.SubElement(languagedeclaration, "language", {"langcode": "eng"}).text = "English"
+        etree.SubElement(languagedeclaration, "script", {"scriptcode": "Latin"}).text = "Latin"
 
         # Maintenancehistory
         maintenancehistory = etree.SubElement(control, "maintenancehistory")
         maint_event = etree.SubElement(maintenancehistory, "maintenanceevent")
         etree.SubElement(maint_event, "eventtype", {"value": "created"})
-        etree.SubElement(
-            maint_event, "eventdatetime", {"standarddatetime": "2021"}
-        ).text = "2021"
+        etree.SubElement(maint_event, "eventdatetime", {"standarddatetime": "2021"}).text = "2021"
         etree.SubElement(maint_event, "agenttype", {"value": "human"})
         etree.SubElement(maint_event, "agent").text = "Daniël van Noord"
         etree.SubElement(maint_event, "eventdescription").text = "Finding aid created."
 
         # Archdesc
-        archdesc = etree.SubElement(
-            root, "archdesc", {"level": "fonds", "localtype": "inventory"}
-        )
+        archdesc = etree.SubElement(root, "archdesc", {"level": "fonds", "localtype": "inventory"})
         archdesc_did = etree.SubElement(archdesc, "did")
         etree.SubElement(archdesc_did, "unittitle")
         archdesc_dsc = etree.SubElement(archdesc, "dsc", {"dsctype": "combined"})
@@ -109,9 +102,7 @@ class XMLWriter(_ErrorLogger):
         series_level = "series"
         if series_data.level > 1:
             series_level = "subseries"
-        serie_c = etree.SubElement(
-            parent_element, f"c0{series_data.level}", level=series_level
-        )
+        serie_c = etree.SubElement(parent_element, f"c0{series_data.level}", level=series_level)
         serie_c_did = etree.SubElement(serie_c, "did")
         etree.SubElement(serie_c_did, "unitid").text = series_data.num
 
@@ -139,7 +130,6 @@ class XMLWriter(_ErrorLogger):
 
         return serie_c
 
-    # pylint: disable-next=too-many-locals
     def file_entry(
         self,
         parent_element: etree._Element,
@@ -147,9 +137,7 @@ class XMLWriter(_ErrorLogger):
         individual_verso: bool,
     ) -> etree._Element:
         """Create an .xml element for a file within a dossier/volume."""
-        file_element = etree.SubElement(
-            parent_element, f"c0{file_data.series_level}", level="file"
-        )
+        file_element = etree.SubElement(parent_element, f"c0{file_data.series_level}", level="file")
         file_did = etree.SubElement(file_element, "did")
 
         # ID
@@ -174,9 +162,7 @@ class XMLWriter(_ErrorLogger):
         try:
             date_data = create_date_data(file_data.date_string)
         except ValueError as error:
-            raise ValueError(
-                f"{error.args[0]} for file {file_data.file_name}"
-            ) from error
+            raise ValueError(f"{error.args[0]} for file {file_data.file_name}") from error
         add_unitdate(file_did, file_data.date_string, date_data)
 
         # Scopecontent
