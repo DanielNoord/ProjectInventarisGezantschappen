@@ -3613,8 +3613,8 @@
     "place_of_birth": "Amsterdam",
     "place_of_death": "L'Aia",
     "sources": [
-      "'Willem Thierry Arnold Maria van Brienen van de Groote Lindt', Dutch Institute for Art History (RKD), https://rkd.nl/nl/explore/artists/441325",
-      "'Willem Thierry Arnold Maria baron van Brienen van de Groote Lindt', in: Biografisch Portaal van Nederland, http://www.biografischportaal.nl/persoon/79304615"
+      "'Willem Thierry Arnold Maria baron van Brienen van de Groote Lindt', in: Biografisch Portaal van Nederland, http://www.biografischportaal.nl/persoon/79304615",
+      "'Willem Thierry Arnold Maria van Brienen van de Groote Lindt', Dutch Institute for Art History (RKD), https://rkd.nl/nl/explore/artists/441325"
     ],
     "sources_other": [],
     "surname": "van Brienen van de Groote Lindt",
@@ -13993,7 +13993,7 @@
       ],
       [
         "card.",
-        "1856/06/16"
+        "1856-06-16/"
       ]
     ],
     "wikidata:id": null
@@ -14781,10 +14781,10 @@
     "place_of_birth": "Senigallia",
     "place_of_death": "Milano",
     "sources": [
+      "Catalogo della mostra storica del risorgimento italiano ordinata nella Biblioteca nazionale Vitorio Emanuele in occasione del venticinquesimo anniversario dell’unione di Roma al regno d’Italia mdccclxxxxv (Rome, Stamperia Forzani, 1895) ed. D. Gnoli, 49",
       "Chigi, Agostino, Il tempo del papa-re. Diario del principe don Agostino Chigi dal 1830 al 1855 (Milan, Edizioni del Borghese, 1966), 197-201",
       "Galleti, Giuseppe, Memorie del generale Giuseppe Galleti: intorno a fati accaduti in Roma nel 1848 e 1849 ed osservazioni sulla condota degli amnistiati verso Pio IX (Bologna, Monti, 1863), 7",
-      "Lora, Francesco, 'Morolli, Rosa Paolina', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, Treccani, 2012), https://www.treccani.it/enciclopedia/rosa-paolina-morolli_(Dizionario-Biografico)",
-      "Catalogo della mostra storica del risorgimento italiano ordinata nella Biblioteca nazionale Vitorio Emanuele in occasione del venticinquesimo anniversario dell’unione di Roma al regno d’Italia mdccclxxxxv (Rome, Stamperia Forzani, 1895) ed. D. Gnoli, 49"
+      "Lora, Francesco, 'Morolli, Rosa Paolina', in: Dizionario Biografico degli Italiani. Volume 77 (Rome, Treccani, 2012), https://www.treccani.it/enciclopedia/rosa-paolina-morolli_(Dizionario-Biografico)"
     ],
     "sources_other": [
       "De Boni, Filippo, La Congiura di Roma e Pio IX. Ricordi di Filippo de Boni (Lausanne, 1848), 143"
@@ -15911,8 +15911,8 @@
     "place_of_birth": "L'Aia",
     "place_of_death": "Berlino",
     "sources": [
-      "'Willem I (koning der Nederlanden)', Dutch Institute for Art History (RKD), https://rkd.nl/explore/artists/349552",
       "'Willem Frederik van Oranje-Nassau', in: Biografisch Portaal van Nederland, http://www.biografischportaal.nl/persoon/1504879",
+      "'Willem I (koning der Nederlanden)', Dutch Institute for Art History (RKD), https://rkd.nl/explore/artists/349552",
       "Koch, Jeroen, Koning Willem I 1772-1843 (Amsterdam, Boom, 2013)"
     ],
     "sources_other": [],
