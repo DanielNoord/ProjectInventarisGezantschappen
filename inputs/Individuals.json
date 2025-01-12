@@ -2817,7 +2817,7 @@
     "images": [
       "https://upload.wikimedia.org/wikipedia/commons/3/37/Portret_van_de_hoogleraar_klassieke_talen_Johan_Cornelis_Gerard_Boot%2C_RP-P-OB-59.541.jpg"
     ],
-    "name": "Johannes Cornelius Gerardus",
+    "name": "Johan Cornelis Gerard",
     "person_type": 1,
     "place_of_birth": "Arnhem",
     "place_of_death": "Amsterdam",
@@ -11251,7 +11251,7 @@
       ]
     ],
     "images": [],
-    "name": "Matteo",
+    "name": "Mathieu",
     "person_type": 1,
     "place_of_birth": "Maastricht",
     "place_of_death": "Roma",
@@ -12078,12 +12078,12 @@
   "$Laves": {
     "ISNI:id": "0000 0001 1690 5136",
     "comment_daniel": "A. Kestner was zijn oom (via zijn echtgenote)",
-    "date_of_birth": "1788-12-17",
-    "date_of_death": "1864-04-30",
+    "date_of_birth": "1825-08-01",
+    "date_of_death": "1907-10-18",
     "functions": [
       [
-        "Architetto di corte del Regno di Hannover",
-        "1814-05-04/"
+        "Pittore e incisore",
+        null
       ]
     ],
     "images": [
@@ -12094,12 +12094,14 @@
     "place_of_birth": "Hannover",
     "place_of_death": "Hannover",
     "sources": [
-      "Müller, J. H., 'Laves, Georg Ludwig Friedrich', in: Allgemeine Deutsche Biographie 18 (1883), found on: https://www.deutsche-biographie.de/sfz49501.html#adbcontent"
+      "‘Laves, Georg’, RKD Artists https://rkd.nl/artists/431018",
+      "‘Laves, Georg Heinrich Wilhelm’ in: F. Noack, Das Deutschtum in Rom seit dem Ausgang des Mittelalters (Stuttgart/Berlin/Leipzig 1927) vol. 2, p. 348",
+      "H. Knocke, ‘Laves, Georg Heinrich Wilhelm’, in: D. Böttcher, Dirk, K. Mlynek et al. (ed.), Hannoversches Biographisches Lexikon (Hannover 2002) pp. 224-225"      
     ],
     "sources_other": [],
     "surname": "Laves",
     "titles": [],
-    "wikidata:id": "Q91343"
+    "wikidata:id": "Q19960280"
   },
   "$Lazzarini": {
     "ISNI:id": null,
@@ -12590,8 +12592,8 @@
   "$Lintz": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1817-04-29",
+    "date_of_death": "1894-11-16",
     "functions": [
       [
         "Amministratore dei beni della principessa Marianna dei Paesi Bassi",
@@ -12601,8 +12603,8 @@
     "images": [],
     "name": "Jean Henri",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Bruxelles",
+    "place_of_death": "Bruxelles",
     "sources": [
       "van der Leer, Kees and Marieke Spliethoff, 'Prinses Marianne: kunstenaars, dominees en een perlgrimage', in: Historisch Voorburg, 16, 1 (2020), 88"
     ],
@@ -20689,8 +20691,8 @@
   "$Spakler": {
     "ISNI:id": "0000 0003 9779 7994",
     "comment_daniel": "",
-    "date_of_birth": "1813-12-25",
-    "date_of_death": "1863-06-17",
+    "date_of_birth": "1832-04-11",
+    "date_of_death": "1912-01-19",
     "functions": [
       [
         "Scrittore",
@@ -20700,14 +20702,14 @@
     "images": [],
     "name": "Johannes Christoffel",
     "person_type": 1,
-    "place_of_birth": "Rotterdam",
-    "place_of_death": "Dordrecht",
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Amsterdam",
     "sources": [
       "'Johannes Christoffel Spakler', in: Biografisch Portaal van Nederland, found on: http://www.biografischportaal.nl/persoon/30365581",
       "'Spakler' in: Biographisch woordenboek den Noord- en Zuidnederlansche letterkunde, Jos van den Branden en J.G. Frederiks (red.) (L.J. Veen: Amsterdam, 1888-1891), p. 745"
     ],
     "sources_other": [],
-    "surname": "Spakler",
+    "surname": "van der Masch Spakler",
     "titles": [],
     "wikidata:id": null
   },
