@@ -4,9 +4,9 @@ import re
 from typing_utils import Database, TranslationDictCleaned, TranslationDictCleanedTitles
 
 
-def initialize_translation_database() -> (
-    tuple[TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned]
-):
+def initialize_translation_database() -> tuple[
+    TranslationDictCleanedTitles, TranslationDictCleaned, TranslationDictCleaned
+]:
     """Reads the files containing all translations of titles and functions."""
     with open("inputs/Translations/Titles.json", encoding="utf-8") as file:
         titles = json.load(file)

@@ -104,9 +104,9 @@ class EADMaker(XMLWriter):
             for i in self.database.document_titles.keys()
             if i not in self.used_translations
         )
-        assert (
-            not unused_translations
-        ), f"Found the following unused translations:\n{unused_translations}"
+        assert not unused_translations, (
+            f"Found the following unused translations:\n{unused_translations}"
+        )
 
         # Make sure there are no missing translations
         with open(self.log_missing_translations, encoding="utf-8") as log:
