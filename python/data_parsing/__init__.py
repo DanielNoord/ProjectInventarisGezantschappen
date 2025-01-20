@@ -7,9 +7,9 @@ from data_parsing.load_database import (
 )
 
 __all__ = [
-    "full_name_with_database",
-    "name_string",
-    "initialize_translation_database",
-    "initialize_database_for_xml",
     "control_title",
+    "full_name_with_database",
+    "initialize_database_for_xml",
+    "initialize_translation_database",
+    "name_string",
 ]

@@ -66,8 +66,8 @@ def update_placenames_with_geonames(filename: str) -> None:
             "S",
         }:  # Places, islands, seas or estates
             raise ValueError(
-                f"""Geonames ID for {value['en_GB']} is not a place, island or sea.
-                Please check https://www.geonames.org/{value['geonames_id']}"""
+                f"""Geonames ID for {value["en_GB"]} is not a place, island or sea.
+                Please check https://www.geonames.org/{value["geonames_id"]}"""
             )
 
         # Populate fields
