@@ -62,7 +62,7 @@ def create_type_statistics(filename: str, type_list: list[int], skip: bool) -> N
             if data["wikidata:id"]:
                 c_wikidata += 1
     start_string = "    Number of entries with"
-    if type_list != [] and skip or type_list != [0, 1, 2, 3, 4, 5] and not skip:
+    if (type_list != [] and skip) or (type_list != [0, 1, 2, 3, 4, 5] and not skip):
         type_string = f"the types {' and '.join(str(i) for i in type_list)}:"
     else:
         type_string = "the full database:"
@@ -71,20 +71,22 @@ def create_type_statistics(filename: str, type_list: list[int], skip: bool) -> N
         print(f"For the entries excluding {type_string}")
     else:
         print(f"For the entries of {type_string}")
-    print(f"{start_string} ISNI id: {c_isni}, {c_isni/c_surname:.2%}")
-    print(f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel/c_surname:.2%}")
-    print(f"{start_string} birth dates: {c_date_of_birth}, {c_date_of_birth/c_surname:.2%}")
-    print(f"{start_string} death dates: {c_date_of_death}, {c_date_of_death/c_surname:.2%}")
-    print(f"{start_string} functions: {c_functions}, {c_functions/c_surname:.2%}")
-    print(f"{start_string} images: {c_images}, {c_images/c_surname:.2%}")
-    print(f"{start_string} name: {c_name}, {c_name/c_surname:.2%}")
-    print(f"{start_string} place of birth: {c_place_of_birth}, {c_place_of_birth/c_surname:.2%}")
-    print(f"{start_string} place of death: {c_place_of_death}, {c_place_of_death/c_surname:.2%}")
-    print(f"{start_string} sources: {c_sources}, {c_sources/c_surname:.2%}")
-    print(f"{start_string} sources other: {c_sources_other}, {c_sources_other/c_surname:.2%}")
-    print(f"{start_string} surname: {c_surname}, {c_surname/c_surname:.2%}")
-    print(f"{start_string} titles: {c_titles}, {c_titles/c_surname:.2%}")
-    print(f"{start_string} wikidata id: {c_wikidata}, {c_wikidata/c_surname:.2%}")
+    print(f"{start_string} ISNI id: {c_isni}, {c_isni / c_surname:.2%}")
+    print(
+        f"{start_string} 'Daniel' comment: {c_comment_daniel}, {c_comment_daniel / c_surname:.2%}"
+    )
+    print(f"{start_string} birth dates: {c_date_of_birth}, {c_date_of_birth / c_surname:.2%}")
+    print(f"{start_string} death dates: {c_date_of_death}, {c_date_of_death / c_surname:.2%}")
+    print(f"{start_string} functions: {c_functions}, {c_functions / c_surname:.2%}")
+    print(f"{start_string} images: {c_images}, {c_images / c_surname:.2%}")
+    print(f"{start_string} name: {c_name}, {c_name / c_surname:.2%}")
+    print(f"{start_string} place of birth: {c_place_of_birth}, {c_place_of_birth / c_surname:.2%}")
+    print(f"{start_string} place of death: {c_place_of_death}, {c_place_of_death / c_surname:.2%}")
+    print(f"{start_string} sources: {c_sources}, {c_sources / c_surname:.2%}")
+    print(f"{start_string} sources other: {c_sources_other}, {c_sources_other / c_surname:.2%}")
+    print(f"{start_string} surname: {c_surname}, {c_surname / c_surname:.2%}")
+    print(f"{start_string} titles: {c_titles}, {c_titles / c_surname:.2%}")
+    print(f"{start_string} wikidata id: {c_wikidata}, {c_wikidata / c_surname:.2%}")
 
 
 def create_total_statistics(filename: str) -> None:
@@ -104,12 +106,12 @@ def create_total_statistics(filename: str) -> None:
     start_string = "    Number of entries with"
     total_count = len(persons.keys())
     print("For the full database:")
-    print(f"{start_string} type 0: {c_types[0]}, {c_types[0]/total_count:.2%}")
-    print(f"{start_string} type 1: {c_types[1]}, {c_types[1]/total_count:.2%}")
-    print(f"{start_string} type 2: {c_types[2]}, {c_types[2]/total_count:.2%}")
-    print(f"{start_string} type 3: {c_types[3]}, {c_types[3]/total_count:.2%}")
-    print(f"{start_string} type 4: {c_types[4]}, {c_types[4]/total_count:.2%}")
-    print(f"{start_string} type 5: {c_types[5]}, {c_types[5]/total_count:.2%}")
+    print(f"{start_string} type 0: {c_types[0]}, {c_types[0] / total_count:.2%}")
+    print(f"{start_string} type 1: {c_types[1]}, {c_types[1] / total_count:.2%}")
+    print(f"{start_string} type 2: {c_types[2]}, {c_types[2] / total_count:.2%}")
+    print(f"{start_string} type 3: {c_types[3]}, {c_types[3] / total_count:.2%}")
+    print(f"{start_string} type 4: {c_types[4]}, {c_types[4] / total_count:.2%}")
+    print(f"{start_string} type 5: {c_types[5]}, {c_types[5] / total_count:.2%}")
 
 
 if __name__ == "__main__":
