@@ -6,12 +6,12 @@ from xml_functions.title_elements import add_unittitle
 from xml_functions.xml_writer import XMLWriter
 
 __all__ = [
-    "add_unitdate",
+    "XMLWriter",
+    "add_dao",
     "add_dateset",
     "add_geognames",
     "add_persname",
+    "add_unitdate",
     "add_unittitle",
     "fix_daoset",
-    "add_dao",
-    "XMLWriter",
 ]

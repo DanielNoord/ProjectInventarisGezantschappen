@@ -6,11 +6,11 @@ from xlsx_functions.sanitize import sanitize_xlsx
 from xlsx_functions.translate import translate_xlsx
 
 __all__ = [
+    "add_identifier_columns",
+    "compare_rows",
     "fill_in_xlsx",
     "parse_file",
     "parse_series",
     "sanitize_xlsx",
     "translate_xlsx",
-    "compare_rows",
-    "add_identifier_columns",
 ]

@@ -11,9 +11,9 @@ __all__ = [
     "check_all_comments",
     "check_all_placenames",
     "check_all_sources",
+    "check_translations",
     "control_date",
     "control_functions",
     "control_titles",
-    "check_translations",
     "is_isni",
 ]
