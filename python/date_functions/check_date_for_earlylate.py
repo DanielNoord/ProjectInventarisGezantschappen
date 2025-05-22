@@ -22,15 +22,15 @@ def check_date_earlier(
         or isinstance(row[4].value, date)
     ):
         raise ValueError(f"Excel cells should not be dates. Please check {row}")
-    if not row[2].value or early_date[0] is not None and int(row[2].value) > int(early_date[0]):
+    if not row[2].value or (early_date[0] is not None and int(row[2].value) > int(early_date[0])):
         return early_date
     if early_date[0] is not None and int(row[2].value) < int(early_date[0]):
         return row[2].value, row[3].value, row[4].value
-    if not row[3].value or early_date[1] is not None and int(row[3].value) > int(early_date[1]):
+    if not row[3].value or (early_date[1] is not None and int(row[3].value) > int(early_date[1])):
         return early_date
     if early_date[1] is not None and int(row[3].value) < int(early_date[1]):
         return row[2].value, row[3].value, row[4].value
-    if not row[4].value or early_date[2] is not None and int(row[4].value) > int(early_date[2]):
+    if not row[4].value or (early_date[2] is not None and int(row[4].value) > int(early_date[2])):
         return early_date
     if early_date[2] is not None and int(row[4].value) < int(early_date[2]):
         return row[2].value, row[3].value, row[4].value
@@ -56,15 +56,15 @@ def check_date_later(
         or isinstance(row[4].value, date)
     ):
         raise ValueError(f"Excel cells should not be dates. Please check {row}")
-    if not row[2].value or late_date[0] is not None and int(row[2].value) < int(late_date[0]):
+    if not row[2].value or (late_date[0] is not None and int(row[2].value) < int(late_date[0])):
         return late_date
     if late_date[0] is not None and int(row[2].value) > int(late_date[0]):
         return row[2].value, row[3].value, row[4].value
-    if not row[3].value or late_date[1] is not None and int(row[3].value) < int(late_date[1]):
+    if not row[3].value or (late_date[1] is not None and int(row[3].value) < int(late_date[1])):
         return late_date
     if late_date[1] is not None and int(row[3].value) > int(late_date[1]):
         return row[2].value, row[3].value, row[4].value
-    if not row[4].value or late_date[2] is not None and int(row[4].value) < int(late_date[2]):
+    if not row[4].value or (late_date[2] is not None and int(row[4].value) < int(late_date[2])):
         return late_date
     if late_date[2] is not None and int(row[4].value) > int(late_date[2]):
         return row[2].value, row[3].value, row[4].value

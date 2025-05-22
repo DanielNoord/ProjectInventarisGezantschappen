@@ -104,9 +104,9 @@ class EADMaker(XMLWriter):
             for i in self.database.document_titles.keys()
             if i not in self.used_translations
         )
-        assert (
-            not unused_translations
-        ), f"Found the following unused translations:\n{unused_translations}"
+        assert not unused_translations, (
+            f"Found the following unused translations:\n{unused_translations}"
+        )
 
         # Make sure there are no missing translations
         with open(self.log_missing_translations, encoding="utf-8") as log:
@@ -207,13 +207,19 @@ class EADMaker(XMLWriter):
 
                 # If the previous file ends in u, the v is not 'verso', but
                 # continuation of long document.
-                if not prev_file_did.find("unitid").text.endswith("u"):
+                unitid = prev_file_did.find("unitid")
+                assert unitid is not None and unitid.text is not None
+                if not unitid.text.endswith("u"):
                     individual_verso = True
 
                 if individual_verso:
-                    for dao in prev_file_did.find("daoset"):
+                    daoset = prev_file_did.find("daoset")
+                    assert daoset is not None
+                    for dao in daoset:
                         if dao.attrib["id"] == f"{file_data.file_name}.tif":
-                            dao.getparent().remove(dao)
+                            parent = dao.getparent()
+                            assert parent is not None
+                            parent.remove(dao)
 
             if not similar:
                 prev_file_did = self.file_entry(

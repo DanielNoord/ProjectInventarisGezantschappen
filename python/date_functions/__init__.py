@@ -8,10 +8,10 @@ from date_functions.extract_date import create_date_data, extract_date
 __all__ = [
     "check_date",
     "check_date_earlier",
+    "check_date_for_missing_elements",
     "check_date_later",
+    "create_date_data",
+    "create_date_tuple",
     "create_document_date",
     "extract_date",
-    "create_date_data",
-    "check_date_for_missing_elements",
-    "create_date_tuple",
 ]
