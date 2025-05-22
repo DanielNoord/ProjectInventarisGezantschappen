@@ -9,7 +9,7 @@ line-length = 100
 output-format = "full"
 respect-gitignore = false
 show-fixes = true
-target-version = "py311"
+target-version = "py313"
 
 [tool.ruff.lint]
 select = [
