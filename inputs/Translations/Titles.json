@@ -255,6 +255,11 @@
     "nl_NL": "generaal",
     "position": "Before"
   },
+  "infante di Spagna": {
+    "en_GB": "infante di Spagna",
+    "nl_NL": "infante di Spagna",
+    "position": "After"
+  },
   "jonkheer": {
     "en_GB": "jonkheer",
     "nl_NL": "jhr.",

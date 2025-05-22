@@ -3192,35 +3192,35 @@
     "wikidata:id": null
   },
   "$BourbonCL": {
-    "ISNI:id": "0000 0000 6043 8160",
+    "ISNI:id": "0000 0000 6153 1914",
     "comment_daniel": "",
-    "date_of_birth": "1818-01-31",
-    "date_of_death": "1861-01-13",
+    "date_of_birth": "1799-12-22",
+    "date_of_death": "1883-04-16",
     "functions": [
       [
-        "Pretendente al trono di Spagna",
-        "1845-05-23/1861-01-13"
+        "Duca di Lucca",
+        "1824-03-13/1847-10-05"
       ]
     ],
     "images": [
-      "https://www.wikidata.org/wiki/Q526803#/media/File:Infante_Carlos,_Count_of_Montemolin.jpg"
+      "https://commons.wikimedia.org/wiki/File:Ritratto_di_Carlo_Ludovico_di_Borbone.jpg"
     ],
-    "name": "Carlo Luigi Ferdinando",
+    "name": "Carlo Lodovico",
     "person_type": 1,
     "place_of_birth": "Madrid",
-    "place_of_death": "Trieste",
+    "place_of_death": "Nizza",
     "sources": [
-      "Esparza, Francisco Asín Remírez de, 'Carlos Luis María Fernando de Borbón y Braganza', Real Academia di la Historia, found on: https://dbe.rah.es/biografias/8827/carlos-luis-maria-fernando-de-borbon-y-braganza"
+      "M.L. Trebiliani, 'Carlo II di Borbone, duca di Parma' in: Dizionario Biografico degli Italiani, Volume 20 (1977) ad vocem, https://www.treccani.it/enciclopedia/carlo-ii-di-borbone-duca-di-parma_(Dizionario-Biografico)/"
     ],
     "sources_other": [],
     "surname": "di Borbone-Parma",
     "titles": [
       [
-        "conte di Montemolín",
+        "infante di Spagna",
         null
       ]
     ],
-    "wikidata:id": "Q526803"
+    "wikidata:id": "Q352200"
   },
   "$BourbonFeI": {
     "ISNI:id": "0000 0000 7972 4538",
