@@ -9547,10 +9547,10 @@
     "place_of_death": "Parigi",
     "sources": [],
     "sources_other": [
+      "'Notice historique sur Antoine X Agénor', Collection Gramont, https://collectiongramont.fr/index.php/notice-historique-collection-gramont/78-notice-historique-sur-antoine-x",
       "https://catalogue.bnf.fr/ark:/12148/cb124594384",
       "https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/169409",
-      "https://www.siv.archives-nationales.culture.gouv.fr/siv/POG/FRAN_POG_05/p-3tksl9038-i77metyqtrbz",
-      "'Notice historique sur Antoine X Agénor', Collection Gramont, https://collectiongramont.fr/index.php/notice-historique-collection-gramont/78-notice-historique-sur-antoine-x"
+      "https://www.siv.archives-nationales.culture.gouv.fr/siv/POG/FRAN_POG_05/p-3tksl9038-i77metyqtrbz"
     ],
     "surname": "Agénor de Gramont",
     "titles": [
@@ -12094,9 +12094,9 @@
     "place_of_birth": "Hannover",
     "place_of_death": "Hannover",
     "sources": [
-      "‘Laves, Georg’, RKD Artists https://rkd.nl/artists/431018",
-      "‘Laves, Georg Heinrich Wilhelm’ in: F. Noack, Das Deutschtum in Rom seit dem Ausgang des Mittelalters (Stuttgart/Berlin/Leipzig 1927) vol. 2, p. 348",
-      "H. Knocke, ‘Laves, Georg Heinrich Wilhelm’, in: D. Böttcher, Dirk, K. Mlynek et al. (ed.), Hannoversches Biographisches Lexikon (Hannover 2002) pp. 224-225"      
+      "'Laves, Georg Heinrich Wilhelm' in: F. Noack, Das Deutschtum in Rom seit dem Ausgang des Mittelalters (Stuttgart/Berlin/Leipzig 1927) vol. 2, p. 348",
+      "'Laves, Georg', RKD Artists https://rkd.nl/artists/431018",
+      "H. Knocke, 'Laves, Georg Heinrich Wilhelm' in: D. Böttcher, Dirk, K. Mlynek et al. (ed.), Hannoversches Biographisches Lexikon (Hannover 2002) pp. 224-225"
     ],
     "sources_other": [],
     "surname": "Laves",
