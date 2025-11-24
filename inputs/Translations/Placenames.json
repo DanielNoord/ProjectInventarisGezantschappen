@@ -1392,6 +1392,14 @@
     "longitude": "15.45",
     "nl_NL": "Graz"
   },
+  "Gries": {
+    "en_GB": "Gries",
+    "geonames_id": 3175824,
+    "geonames_wikipedia": null,
+    "latitude": "46.51667",
+    "longitude": "11.33333",
+    "nl_NL": "Gries"
+  },
   "Groesbeek": {
     "en_GB": "Groesbeek",
     "geonames_id": 2755272,
@@ -1719,6 +1727,14 @@
     "latitude": "51.73422",
     "longitude": "-2.68908",
     "nl_NL": "Llandogo"
+  },
+  "Loano": {
+    "en_GB": "Loano",
+    "geonames_id": 3174649,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Loano",
+    "latitude": "44.12777",
+    "longitude": "8.25743",
+    "nl_NL": "Loano"
   },
   "Londra": {
     "en_GB": "London",
@@ -2168,6 +2184,14 @@
     "longitude": "4.46944",
     "nl_NL": "Oegstgeest"
   },
+  "Oldenburg": {
+    "en_GB": "Oldenburg",
+    "geonames_id": 2857458,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Oldenburg_(city)",
+    "latitude": "53.14118",
+    "longitude": "8.21467",
+    "nl_NL": "Oldenburg"
+  },
   "Olomouc": {
     "en_GB": "Olomouc",
     "geonames_id": 3069011,
@@ -2287,6 +2311,14 @@
     "latitude": "-7.6453",
     "longitude": "112.9075",
     "nl_NL": "Pasoeroean"
+  },
+  "Pembroke": {
+    "en_GB": "Pembroke",
+    "geonames_id": 2640503,
+    "geonames_wikipedia": "https://en.wikipedia.org/wiki/Pembroke%2C_Pembrokeshire",
+    "latitude": "51.67464",
+    "longitude": "-4.91286",
+    "nl_NL": "Pembroke"
   },
   "Pergola": {
     "en_GB": "Pergola",

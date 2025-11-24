@@ -151,6 +151,10 @@
       [
         "Archivista",
         null
+      ],
+      [
+        "Ispettore capo delle imposte presso la cancelleria del Lussemburgo a L'Aia",
+        null
       ]
     ],
     "images": [],
@@ -1664,8 +1668,8 @@
   "$Bellando": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1825",
+    "date_of_death": "1901-05",
     "functions": [
       [
         "Vice-console del Regno dei Paesi Bassi a Taranto",
@@ -1675,7 +1679,7 @@
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
-    "place_of_birth": "",
+    "place_of_birth": "Loano",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
@@ -3199,7 +3203,11 @@
     "functions": [
       [
         "Duca di Lucca",
-        "1824-03-13/1847-10-05"
+        "1824-03-24/1847-12-17"
+      ],
+      [
+        "Duca di Parma e Piacenza",
+        "1847-12-17/1849-05-24"
       ]
     ],
     "images": [
@@ -3317,34 +3325,6 @@
       ]
     ],
     "wikidata:id": "Q1748721"
-  },
-  "$BourbonKL": {
-    "ISNI:id": "0000 0000 6153 1914",
-    "comment_daniel": "",
-    "date_of_birth": "1799-12-22",
-    "date_of_death": "1883-04-16",
-    "functions": [
-      [
-        "Duca di Lucca",
-        "1824-03-24/1847-12-17"
-      ],
-      [
-        "Duca di Parma e Piacenza",
-        "1847-12-17/1849-05-24"
-      ]
-    ],
-    "images": [],
-    "name": "Carlo Ludovico",
-    "person_type": 1,
-    "place_of_birth": "Madrid",
-    "place_of_death": "Nizza",
-    "sources": [
-      "Trebiliani, Maria Luisa, 'Carlo Ii Di Borbone, duca di Parma', in: Dizionario Biografico degli Italiani. Volume 20 (Rome, Treccani, 1977), found on: https://www.treccani.it/enciclopedia/carlo-ii-di-borbone-duca-di-parma_(Dizionario-Biografico)"
-    ],
-    "sources_other": [],
-    "surname": "di Borbone-Parma",
-    "titles": [],
-    "wikidata:id": "Q352200"
   },
   "$BourbonLM": {
     "ISNI:id": "0000 0003 8411 4103",
@@ -4503,18 +4483,18 @@
   "$Capriati": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
+    "date_of_birth": "1823-01-06",
     "date_of_death": "",
     "functions": [
       [
-        "Vice-console del Regno dei Paesi Bassi a Napoli",
+        "Vice-console del Regno dei Paesi Bassi a Bari",
         null
       ]
     ],
     "images": [],
     "name": "Enrico",
     "person_type": 1,
-    "place_of_birth": "",
+    "place_of_birth": "Bari",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
@@ -6475,7 +6455,7 @@
   "$DoderoC": {
     "ISNI:id": null,
     "comment_daniel": "I can't find this son.. In the letters he is reffered to as 'Charley' and I don't think he actually held any official titles.",
-    "date_of_birth": "",
+    "date_of_birth": "1796",
     "date_of_death": "",
     "functions": [],
     "images": [],
@@ -6517,7 +6497,7 @@
   "$DoderoG": {
     "ISNI:id": null,
     "comment_daniel": "I feel like his date of birth and death should be findable.",
-    "date_of_birth": "",
+    "date_of_birth": "1752",
     "date_of_death": "1825-06-05",
     "functions": [
       [
@@ -12510,8 +12490,8 @@
   "$Limburg": {
     "ISNI:id": null,
     "comment_daniel": "Zowel Beth als Valk zijn er heel zeker van dat dit F.A. moet zijn. Laten we dat dan maar aanhouden. We blijven zoeken naar geboortedatum en volledige naam.",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1804-02-13",
+    "date_of_death": "1874-12-15",
     "functions": [
       [
         "Segretario della Legazione del Regno dei Paesi Bassi a Torino",
@@ -12521,7 +12501,7 @@
     "images": [],
     "name": "F.A.",
     "person_type": 1,
-    "place_of_birth": "",
+    "place_of_birth": "Pembroke",
     "place_of_death": "",
     "sources": [
       "Beth, J.C., De archieven van het Departement van Buitenlandsche Zaken (The Hague, 1918), 318",
@@ -14320,30 +14300,6 @@
     "titles": [],
     "wikidata:id": null
   },
-  "$MeuricoffreAngelo": {
-    "ISNI:id": null,
-    "comment_daniel": "The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels",
-    "date_of_birth": "",
-    "date_of_death": "",
-    "functions": [
-      [
-        "Console generale del Regno dei Paesi Bassi a Napoli",
-        "1869/"
-      ]
-    ],
-    "images": [],
-    "name": "Angelo",
-    "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
-    "sources": [],
-    "sources_other": [
-      "Il nuovo Palmaverde almanacco storico-amministrativo-statistico del Regno d'Italia pel 1869 (Pellino, V. Fontana e Chiariglione: Torino, 1869), p. 321"
-    ],
-    "surname": "Meuricoffre",
-    "titles": [],
-    "wikidata:id": null
-  },
   "$MeuricoffreG": {
     "ISNI:id": null,
     "comment_daniel": "The family Meuricoffre was an influential originally Swiss banking family in Naples who often functioned as representative of the Dutch in Napels",
@@ -14636,8 +14592,8 @@
   "$Mollerus": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "1812",
-    "date_of_death": "1899",
+    "date_of_birth": "1812-09-24",
+    "date_of_death": "1899-01-17",
     "functions": [
       [
         "Ciambellano del Re dei Paesi Bassi",
@@ -14649,10 +14605,10 @@
       ]
     ],
     "images": [],
-    "name": "Henri Marie",
+    "name": "Henry Marie",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Amsterdam",
+    "place_of_death": "Gries",
     "sources": [
       "Timmers Verhoeven, P.F., Handboek voor alle standen, bevattende: aanwijzing van alle de in het rijk bestaande ministerien, regeringsdepartementen, hoogere en lagere regtbanken, raden, [etc.]  of De nieuwe Koninklijke Secretaris, herzien en met de Nederlandsche wetgeving in overeenstemming gebracht (Dordrecht,m Blussé en Van Braam, 1840) 295."
     ],
@@ -15332,7 +15288,7 @@
   "$Nervegna": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
+    "date_of_birth": "1821-03-17",
     "date_of_death": "",
     "functions": [
       [
@@ -15351,7 +15307,7 @@
     "images": [],
     "name": "Giuseppe",
     "person_type": 1,
-    "place_of_birth": "",
+    "place_of_birth": "Brindisi",
     "place_of_death": "",
     "sources": [],
     "sources_other": [
@@ -15858,6 +15814,7 @@
     "place_of_death": "Erbach",
     "sources": [
       "'Marianne van Oranje-Nassau', Dutch Institute for Art History (RKD), https://rkd.nl/explore/artists/443834",
+      "Frans Willem Lantink, Marianne van Oranje-Nassau, in: Digitaal Vrouwenlexicon van Nederland. URL: https://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Marianne [16/07/2016]",
       "van der Leer, Kees and Marieke Spliethoff, 'Prinses Marianne: kunstenaars, dominees en een perlgrimage', in: Historisch Voorburg, 16, 1 (2020)"
     ],
     "sources_other": [],
@@ -16825,8 +16782,8 @@
   "$Paulsen": {
     "ISNI:id": null,
     "comment_daniel": "Seems to have temporarily replaced Bremen. No trace in the books, however.",
-    "date_of_birth": "",
-    "date_of_death": "",
+    "date_of_birth": "1843-11-13",
+    "date_of_death": "1902-02-27",
     "functions": [
       [
         "Console del Regno dei Paesi Bassi ad Ancona",
@@ -16836,8 +16793,8 @@
     "images": [],
     "name": "Robert",
     "person_type": 1,
-    "place_of_birth": "",
-    "place_of_death": "",
+    "place_of_birth": "Oldenburg",
+    "place_of_death": "Ancona",
     "sources": [],
     "sources_other": [],
     "surname": "Paulsen",
@@ -21283,7 +21240,7 @@
   "$Struth": {
     "ISNI:id": null,
     "comment_daniel": "",
-    "date_of_birth": "",
+    "date_of_birth": "1831-12-08",
     "date_of_death": "",
     "functions": [
       [
@@ -21300,7 +21257,7 @@
     "sources_other": [
       "L'Esploratore. Volume 6 (Alfredo Brigola & C: Milano, 1882), p. 136"
     ],
-    "surname": "Struth Pierstoff",
+    "surname": "Struth-Pferstorff",
     "titles": [],
     "wikidata:id": null
   },
