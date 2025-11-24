@@ -128,10 +128,6 @@
     "en_GB": "Archaeologist",
     "nl_NL": "Archeoloog"
   },
-  "Architetto di corte del Regno di Hannover": {
-    "en_GB": "Court architect at the Kingdom of Hanover",
-    "nl_NL": "Hofarchitect bij het Koninkrijk Hannover"
-  },
   "Archivista": {
     "en_GB": "Record Keeper",
     "nl_NL": "Archivaris"
@@ -1616,6 +1612,10 @@
     "en_GB": "Envoy extraordinary and minister plenipotentiary of the Kingdom of Spain to the Holy See",
     "nl_NL": "Buitengewoon gezant en gevolmachtigd minister van het Koninkrijk Spanje bij de Heilige Stoel"
   },
+  "Ispettore capo delle imposte presso la cancelleria del Lussemburgo a L'Aia": {
+    "en_GB": "Chief tax inspector at the chancellary of Luxemburg in The Hague",
+    "nl_NL": "(Hoofd)commies bij de Luxemburgse Kanselarij in Den Haag"
+  },
   "Ispettore dei pesi e delle misure ad Annecy": {
     "en_GB": "Inspector of weights and measures in Annecy",
     "nl_NL": "Inspecteur van maten en gewichten in Annecy"
@@ -2436,10 +2436,6 @@
     "en_GB": "Pretender to the throne of the Duchy of Mantova",
     "nl_NL": "Pretendent naar de troon van het hertogdom Mantova"
   },
-  "Pretendente al trono di Spagna": {
-    "en_GB": "Pretender to the throne of Spain",
-    "nl_NL": "Pretendent naar de troon van Spanje"
-  },
   "Primo conservatore della Biblioteca Vaticana": {
     "en_GB": "First Custodian of the Vatican Library",
     "nl_NL": "Eerste huisbewaarder van de Vaticaanse Bibliotheek"
@@ -3123,6 +3119,10 @@
   "Vice-console del Regno d'Italia a Parigi": {
     "en_GB": "Vice Consul of the Kingdom of Italy in Paris",
     "nl_NL": "Vice-consul van het Koninkrijk Italië te Parijs"
+  },
+  "Vice-console del Regno dei Paesi Bassi a Bari": {
+    "en_GB": "Vice Consul of the Kingdom of the Netherlands in Bari",
+    "nl_NL": "Vice-consul van het Koninkrijk der Nederlanden te Bari"
   },
   "Vice-console del Regno dei Paesi Bassi a Brindisi": {
     "en_GB": "Vice Consul of the Kingdom of the Netherlands in Brindisi",
