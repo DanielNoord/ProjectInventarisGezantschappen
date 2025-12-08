@@ -49,15 +49,6 @@ def check_entries(
                 "outputs/Individuals.json to inputs/Individual.json"
             )
 
-        if len(data["sources_other"]) > 1 and data["sources_other"] != sorted(
-            data["sources_other"]
-        ):
-            raise ValueError(
-                f"Incorrect sorting of sources found for {identifier}.\n"
-                "Try running json_sort_database.py and copying "
-                "outputs/Individuals.json to inputs/Individual.json"
-            )
-
         try:
             if len(data["titles"]) > 1 and data["titles"] != sorted(
                 data["titles"], key=lambda x: (x[1] is not None, x[1])

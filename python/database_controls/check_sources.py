@@ -181,19 +181,6 @@ def check_all_sources(
             count_todo,
             probably_wrong,
         )
-        (
-            data["sources_other"],
-            used_patterns,
-            count_todo,
-            probably_wrong,
-        ) = check_sources_entry(
-            data["sources_other"],
-            compiled_source_patterns,
-            used_patterns,
-            identifier,
-            count_todo,
-            probably_wrong,
-        )
 
     persons["$schema"] = "../static/JSON/Individuals.json"
 
