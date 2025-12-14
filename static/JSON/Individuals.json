@@ -11,7 +11,9 @@
     },
     "function-title": {
       "description": "An array describing a function or title",
-      "items": [
+      "maxLength": 2,
+      "minLength": 2,
+      "prefixItems": [
         {
           "type": "string"
         },
@@ -26,11 +28,10 @@
           ]
         }
       ],
-      "maxLength": 2,
-      "minLength": 2,
       "type": "array"
     },
     "person": {
+      "additionalProperties": false,
       "description": "A person, named by its identifier",
       "properties": {
         "ISNI:id": {
@@ -64,19 +65,19 @@
           },
           "type": "array"
         },
-        "images": {
-          "additionalItems": {
-            "type": "string"
-          },
-          "description": "Array of relevant images",
-          "items": [
-            {
-              "pattern": ".+",
-              "type": "string"
-            }
-          ],
-          "minItems": 0,
-          "type": "array"
+        "image_caption": {
+          "description": "Caption for main image of individual",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image_filename": {
+          "description": "Filename of main image of individual",
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "name": {
           "description": "Name of individual",
@@ -95,29 +96,11 @@
           "type": "string"
         },
         "sources": {
-          "additionalItems": {
-            "type": "string"
-          },
           "description": "Array of relevant sources",
-          "items": [
-            {
-              "pattern": ".+",
-              "type": "string"
-            }
-          ],
-          "type": "array"
-        },
-        "sources_other": {
-          "additionalItems": {
+          "items": {
+            "pattern": ".+",
             "type": "string"
           },
-          "description": "Array of relevant other sources",
-          "items": [
-            {
-              "pattern": ".+",
-              "type": "string"
-            }
-          ],
           "type": "array"
         },
         "surname": {
@@ -145,27 +128,29 @@
         }
       },
       "required": [
-        "surname",
-        "name",
-        "date_of_birth",
-        "place_of_birth",
-        "date_of_death",
-        "place_of_death",
-        "titles",
-        "functions",
+        "ISNI:id",
         "comment_daniel",
+        "date_of_birth",
+        "date_of_death",
+        "functions",
+        "image_caption",
+        "image_filename",
+        "name",
         "person_type",
+        "place_of_birth",
+        "place_of_death",
         "sources",
-        "sources_other",
-        "images",
-        "wikidata:id",
-        "ISNI:id"
+        "surname",
+        "titles",
+        "wikidata:id"
       ],
       "type": "object"
     }
   },
   "properties": {
-    "$schema": "string"
+    "$schema": {
+      "type": "string"
+    }
   },
   "title": "List of all individuals mentioned in the archive",
   "type": "object",
