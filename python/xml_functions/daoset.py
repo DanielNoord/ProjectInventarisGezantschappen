@@ -5,7 +5,7 @@ from typing_utils.data_classes import FileData, SeriesData
 def fix_daoset(root: etree._Element) -> None:
     """Fixes daoset with only one dao entry."""
     for daoset in root.iterdescendants("daoset"):
-        if len(child_nodes := daoset.getchildren()) == 1:  # type: ignore[attr-defined]
+        if len(child_nodes := daoset.getchildren()) == 1:
             # Change dao-element to have coverage of whole
             child_nodes[0].attrib["coverage"] = "whole"
 

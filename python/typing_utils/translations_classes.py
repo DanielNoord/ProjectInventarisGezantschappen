@@ -26,7 +26,7 @@ class TranslationDictEntryPlacenames(TypedDict):
     nl_NL: str
     en_GB: str
     geonames_id: int
-    geonames_wikipedia: str
+    geonames_wikipedia: str | None
     longitude: str
     latitude: str
 

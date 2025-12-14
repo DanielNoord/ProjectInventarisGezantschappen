@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo content
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.13"
+          python-version: "3.14"
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
@@ -57,7 +57,7 @@ jobs:
           echo ::set-output name=body::$body
       - name: Create errors commit comment
         if: ${{ steps.STDERR.outputs.full }}
-        uses: peter-evans/commit-comment@v3
+        uses: peter-evans/commit-comment@v4
         with:
           body: |
             **An error occurred when trying to create the database!**
@@ -80,7 +80,7 @@ jobs:
           echo ::set-output name=body::$body
       - name: Create XML-DTD commit comment
         if: ${{ steps.XMLERR.outputs.full }}
-        uses: peter-evans/commit-comment@v3
+        uses: peter-evans/commit-comment@v4
         with:
           body: |
             **An error occurred when trying to create the database!**
@@ -132,7 +132,7 @@ jobs:
       # Create commit comment
       - name: Create commit comment
         if: ${{ steps.STDERR.outputs.empty && steps.XMLERR.outputs.empty }}
-        uses: peter-evans/commit-comment@v3
+        uses: peter-evans/commit-comment@v4
         with:
           body: |
             <details>
@@ -166,7 +166,7 @@ jobs:
           body="${body//$'\r'/'%0D'}"
           echo ::set-output name=body::$body
       - name: Create log commit comment
-        uses: peter-evans/commit-comment@v3
+        uses: peter-evans/commit-comment@v4
         with:
           body: |
             <details>

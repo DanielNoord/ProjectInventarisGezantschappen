@@ -4,9 +4,9 @@ import os
 import re
 from typing import cast
 
-import openpyxl
 from lxml import etree
 from openpyxl import load_workbook
+from openpyxl.worksheet.worksheet import Worksheet
 from xlsx_functions import compare_rows, parse_file, parse_series
 from xlsx_make import create_sanitized_xlsx
 from xml_functions import XMLWriter, add_dao, fix_daoset
@@ -53,7 +53,7 @@ class EADMaker(XMLWriter):
 
         # Check if outputs directory exists and then write file
         os.makedirs(os.path.join(os.getcwd(), r"outputs"), exist_ok=True)
-        tree.write(  # type: ignore[call-arg] # Stub doesn't recognize doctype parameter is valid
+        tree.write(
             self.xml_file,
             pretty_print=True,
             xml_declaration=True,
@@ -167,7 +167,7 @@ class EADMaker(XMLWriter):
 
     def _create_xml_individual_files(
         self,
-        sheet: openpyxl.worksheet.worksheet.Worksheet,
+        sheet: Worksheet,
         sub_series: dict[str, etree._Element],
     ) -> None:
         """Based on a sheet creates .xml element entries for every file found."""
