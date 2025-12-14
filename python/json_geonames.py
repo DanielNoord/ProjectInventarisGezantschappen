@@ -38,7 +38,7 @@ def load_geonames(filename: str) -> None:
             value["geonames_wikipedia"] = None
 
     # Re-add schema
-    placenames["$schema"] = "../static/JSON/Placenames.json"
+    placenames["$schema"] = "../static/JSON/Placenames.json"  # type: ignore[assignment]
 
     write_single_json_file(placenames, "outputs/Translations", "Placenames.json")
 
@@ -79,7 +79,7 @@ def update_placenames_with_geonames(filename: str) -> None:
             value["geonames_wikipedia"] = None
 
     # Re-add schema
-    placenames["$schema"] = "../../static/JSON/Placenames.json"
+    placenames["$schema"] = "../../static/JSON/Placenames.json"  # type: ignore[assignment]
 
     write_single_json_file(placenames, "outputs", "Placenames.json")
 

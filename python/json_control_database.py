@@ -88,17 +88,10 @@ def check_entries(
         if data["person_type"] not in [0, 1, 2, 3, 4, 5, 6]:
             raise ValueError(f"Type '{data['person_type']}' of {data['surname']} is invalid")
 
-        if data["titles"] != [""]:
-            control_titles(data, translated_titles, identifier, used_titles)
-
-        if data["functions"] != [""]:
-            control_functions(data, translated_functions, identifier, used_functions)
-
-        if data["date_of_birth"] != [""]:
-            control_date(data["date_of_birth"])
-
-        if data["date_of_death"] != [""]:
-            control_date(data["date_of_death"])
+        control_titles(data, translated_titles, identifier, used_titles)
+        control_functions(data, translated_functions, identifier, used_functions)
+        control_date(data["date_of_birth"])
+        control_date(data["date_of_death"])
 
         if isinstance(data["wikidata:id"], str):
             if not re.match(r"^Q\d+$", data["wikidata:id"]):
@@ -106,11 +99,10 @@ def check_entries(
                     "Wikidata ID is incorrect. If individual has no identifier use None"
                 )
 
-        if isinstance(["ISNI:id"], str):
-            if not is_isni(data["ISNI:id"]):
-                raise ValueError(
-                    f"ISNI ID of {identifier} is incorrect. If person has no identifier use None"
-                )
+        if isinstance(data["ISNI:id"], str) and not is_isni(data["ISNI:id"]):
+            raise ValueError(
+                f"ISNI ID of {identifier} is incorrect. If person has no identifier use None"
+            )
 
     unused_titles = [i for i in translated_titles.keys() if i not in used_titles]
     unused_functions = [i for i in translated_functions.keys() if i not in used_functions]
