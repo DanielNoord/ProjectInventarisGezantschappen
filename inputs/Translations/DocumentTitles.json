@@ -4744,10 +4744,6 @@
     "en_GB": "Appointments made at the court of \\2",
     "nl_NL": "Benoemingen gedaan aan het hof van \\2"
   },
-  "None$": {
-    "en_GB": "None",
-    "nl_NL": "None"
-  },
   "Nota (a|al|alla) (\\$\\w+)$": {
     "en_GB": "Note to \\2",
     "nl_NL": "Nota aan \\2"

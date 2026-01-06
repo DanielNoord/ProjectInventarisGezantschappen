@@ -1,3 +1,8 @@
+[project]
+name = "ProjectInventarisGezantschappen"
+requires-python = ">= 3.14"
+version = "0.0.0"
+
 # Global mypy options:
 [tool.mypy]
 files = "python"
@@ -28,5 +33,3 @@ select = [
 ignore = [
   "RUF001", # ambiguous-unicode-character-string
 ]
-
-[tool.ruff.lint.isort]
