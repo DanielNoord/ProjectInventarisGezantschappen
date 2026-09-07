@@ -21,7 +21,7 @@ repos:
           - requests~=2.32
           - Babel~=2.17
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.10
+    rev: v0.16.6
     hooks:
       # Run the linter.
       - id: ruff
@@ -29,7 +29,7 @@ repos:
       # Run the formatter.
       - id: ruff-format
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.19.1
+    rev: v2.3.1
     hooks:
       - id: mypy
         args: [--config-file=pyproject.toml]
@@ -40,6 +40,6 @@ repos:
           - types-beautifulsoup4~=4.12
           - types-requests~=2.32
   - repo: https://github.com/DanielNoord/pydocstringformatter
-    rev: v0.7.5
+    rev: v1.0.0
     hooks:
       - id: pydocstringformatter
